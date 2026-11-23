@@ -2,6 +2,12 @@
 // Signatures mirror Unity 6 / 2022.3. Bodies are placeholders and never execute. Never copy into Assets/.
 using System;
 
+namespace UnityEngine.Rendering
+{
+    public enum IndexFormat { UInt16, UInt32 }
+    public enum VertexAttribute { Color }
+}
+
 namespace UnityEngine
 {
     [Flags]
@@ -34,6 +40,19 @@ namespace UnityEngine
 
     public class Behaviour : Component { }
     public class MonoBehaviour : Behaviour { }
+
+    public struct Bounds { }
+    public sealed class Mesh : Object
+    {
+        public Rendering.IndexFormat indexFormat { get; set; }
+        public Vector3[] vertices { get; set; }
+        public Vector3[] normals { get; set; }
+        public Vector2[] uv { get; set; }
+        public int[] triangles { get; set; }
+        public Bounds bounds { get; set; }
+        public Color[] colors { get; set; }
+        public bool HasVertexAttribute(Rendering.VertexAttribute value) => false;
+    }
 
     public class ScriptableObject : Object
     {

@@ -1,0 +1,719 @@
+{
+  "package": "elf_learninghealth",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Independent Elf package critic",
+      "models": [
+        {
+          "id": "bld_elf_bathhouse_classical_v0",
+          "evidence_sha256": "833a533d4b63f14d2b53759175a820fde08d455a62d7a69d35336c8b1a9a7503",
+          "observations": "The two basins step down from the spout to a broad pale rim. Water and the accessible dark entry remain separate in the thumbnail. The pale masonry separates from its leaf crown. Checked the 808/513/207 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_bathhouse_future_v0",
+          "evidence_sha256": "94a33d88dfadb97eda737970906a86ffbf89a9d7abe651d7be5d550c4235b8cd",
+          "observations": "The two basins step down from the spout to a broad pale rim. Water and the accessible dark entry remain separate in the thumbnail. The blue glass and pale trim keep the assembly legible. Checked the 808/513/207 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_bathhouse_industrial_v0",
+          "evidence_sha256": "864d7b58d22a921ef2367c40ecbe27343a711a7cc41a3869497050e945d19976",
+          "observations": "The two basins step down from the spout to a broad pale rim. Water and the accessible dark entry remain separate in the thumbnail. The brick and dark structural trim anchor the facade. Checked the 808/513/207 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_data_center_future_v0",
+          "evidence_sha256": "decbdcebf6b6817eebc5ece4ff03717f5542f259a1c1264ddd919e53cc8dbb9c",
+          "observations": "Three rising blue stacks have a legible entrance and age bands. Their smooth glass rings and identical crown treatment resemble storage silos. The blue glass and pale trim keep the assembly legible. Checked the 1097/665/187 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 88,
+            "construction": 94,
+            "charm": 84,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Integrate a sizable cooling intake, ribbed heat exchanger or service spine into the front stack to identify the data facility at 64 pixels."
+          ]
+        },
+        {
+          "id": "bld_elf_herbalist_ancient_v0",
+          "evidence_sha256": "c4b7538afa8c90f7824d869decb1102971b01bc55116bacc875cc49a30705bcb",
+          "observations": "Two planted stone bowls frame a pointed door. Contrasting cream and rose buds retain their silhouettes against the darker roof at 64 pixels. The warm timber gives the fittings a visible base. Checked the 930/623/279 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_herbalist_classical_v0",
+          "evidence_sha256": "bb8fa8065c16aa23639e2c7217bc7024c26b86766e75fa50d803313e481a4573",
+          "observations": "Two planted stone bowls frame a pointed door. Contrasting cream and rose buds retain their silhouettes against the darker roof at 64 pixels. The pale masonry separates from its leaf crown. Checked the 930/623/279 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_herbalist_future_v0",
+          "evidence_sha256": "f2465689d0b36eb06230f99bd3f9b9d97dacbd5c35a3cd3ac389a58aec8397ce",
+          "observations": "Two planted stone bowls frame a pointed door. Contrasting cream and rose buds retain their silhouettes against the darker roof at 64 pixels. The blue glass and pale trim keep the assembly legible. Checked the 930/623/279 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_herbalist_industrial_v0",
+          "evidence_sha256": "e678f5f9ea057b5004ea3e4cac718c43a91e053375d4a03f8636c93462f615f2",
+          "observations": "Two planted stone bowls frame a pointed door. Contrasting cream and rose buds retain their silhouettes against the darker roof at 64 pixels. The brick and dark structural trim anchor the facade. Checked the 930/623/279 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_hospital_classical_v0",
+          "evidence_sha256": "76fea730ad964a5bb5cdef78b39d9edfe1dba52a97bf0eedcec8a65f09a00abc",
+          "observations": "A high ward and two wings give a clear frontal composition. The low pin lights do little to distinguish the clinic from the university at phone scale. The pale masonry separates from its leaf crown. Checked the 1167/764/242 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 86,
+            "construction": 92,
+            "charm": 86,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the central entrance a visible clinical landmark, for example a pale healing leaf on a covered receiving porch. Preserve a clear approach."
+          ]
+        },
+        {
+          "id": "bld_elf_hospital_future_v0",
+          "evidence_sha256": "2565aed2f44f07a54c1ab3d4a70f9afa94e0590134291b9240ac34099fb3b3dc",
+          "observations": "A high ward and two wings give a clear frontal composition. The low pin lights do little to distinguish the clinic from the university at phone scale. The blue glass and pale trim keep the assembly legible. Checked the 1167/764/242 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 86,
+            "construction": 92,
+            "charm": 86,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the central entrance a visible clinical landmark, for example a pale healing leaf on a covered receiving porch. Preserve a clear approach."
+          ]
+        },
+        {
+          "id": "bld_elf_hospital_industrial_v0",
+          "evidence_sha256": "54e95f190bb34a420445e96febcea4eddc84c5d507cd38f540e198e220c6af39",
+          "observations": "A high ward and two wings give a clear frontal composition. The low pin lights do little to distinguish the clinic from the university at phone scale. The brick and dark structural trim anchor the facade. Checked the 1167/764/242 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 86,
+            "construction": 92,
+            "charm": 86,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the central entrance a visible clinical landmark, for example a pale healing leaf on a covered receiving porch. Preserve a clear approach."
+          ]
+        },
+        {
+          "id": "bld_elf_library_classical_v0",
+          "evidence_sha256": "af29a44cd9808e675827eb49d6a01bc01d3188ff23f71c6ac7773685105dfa5e",
+          "observations": "A stack of pale-edged, individually bound volumes sits on a low plinth beside the door. The dark covers remain distinct against both the facade and page edges. The pale masonry separates from its leaf crown. Checked the 636/409/163 triangle LOD chain and 4 age previews.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_library_future_v0",
+          "evidence_sha256": "b8a3e80326a2d596a49b3f39691f797c4c3a7c9ba606755f5477e244aa0dd586",
+          "observations": "A stack of pale-edged, individually bound volumes sits on a low plinth beside the door. The dark covers remain distinct against both the facade and page edges. The blue glass and pale trim keep the assembly legible. Checked the 636/409/163 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_library_industrial_v0",
+          "evidence_sha256": "20014d09008a80330665ca73c66a54474f5a6a18810efc247c85a5cf3e1c8e86",
+          "observations": "A stack of pale-edged, individually bound volumes sits on a low plinth beside the door. The dark covers remain distinct against both the facade and page edges. The brick and dark structural trim anchor the facade. Checked the 636/409/163 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_medical_center_future_v0",
+          "evidence_sha256": "3d6ef452041428a6f9f50888de8827df3f2ac9e5966060801c39a69d9ab1fecd",
+          "observations": "The glass crown picks out the central ward. Only the top sliver of the vertical ring clears its roof, producing a handle-like mark that disappears at phone scale. The blue glass and pale trim keep the assembly legible. Checked the 1311/860/306 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 85,
+            "construction": 88,
+            "charm": 87,
+            "colour": 94,
+            "technical": 98
+          },
+          "defects": [
+            "Reposition and support the healing marker above or in front of the roof and give the entrance a legible medical cue at 64 pixels."
+          ]
+        },
+        {
+          "id": "bld_elf_observatory_classical_v0",
+          "evidence_sha256": "2b4be487677673b9f8ce0ac984546f2569498cabd126be6dc1aeeb993e7a1d71",
+          "observations": "The sighting globe and intersecting rings read clearly as an instrument. The raised circular foundation crosses the lower front door, leaving an apparent triangular window above the plinth. The pale masonry separates from its leaf crown. Checked the 993/665/307 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 82,
+            "charm": 92,
+            "colour": 92,
+            "technical": 97
+          },
+          "defects": [
+            "Project a backed doorway beyond the widest front plinth course, reaching the floor, or cut the plinth at the entrance and add a connected threshold."
+          ]
+        },
+        {
+          "id": "bld_elf_observatory_future_v0",
+          "evidence_sha256": "7914873303111d85f211109d219626499ac2ad8e67de10a39321a4c3e1b71fae",
+          "observations": "The sighting globe and intersecting rings read clearly as an instrument. The raised circular foundation crosses the lower front door, leaving an apparent triangular window above the plinth. The blue glass and pale trim keep the assembly legible. Checked the 993/665/307 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 82,
+            "charm": 92,
+            "colour": 92,
+            "technical": 97
+          },
+          "defects": [
+            "Project a backed doorway beyond the widest front plinth course, reaching the floor, or cut the plinth at the entrance and add a connected threshold."
+          ]
+        },
+        {
+          "id": "bld_elf_observatory_industrial_v0",
+          "evidence_sha256": "1ded6f47be0eb950921b2f42bf2b38be8dce1f717313d8907e2d881a657fb460",
+          "observations": "The sighting globe and intersecting rings read clearly as an instrument. The raised circular foundation crosses the lower front door, leaving an apparent triangular window above the plinth. The brick and dark structural trim anchor the facade. Checked the 993/665/307 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 82,
+            "charm": 92,
+            "colour": 92,
+            "technical": 97
+          },
+          "defects": [
+            "Project a backed doorway beyond the widest front plinth course, reaching the floor, or cut the plinth at the entrance and add a connected threshold."
+          ]
+        },
+        {
+          "id": "bld_elf_printworks_classical_v0",
+          "evidence_sha256": "96ea64d408f9c4141d2d936dfea29e38de00c8ebaa0b8b9ea441f86377813a2d",
+          "observations": "The paired uprights, top bar, screw, platen and inset sheet form a readable working press in the forecourt. The gap below the platen stays open in the thumbnail. The pale masonry separates from its leaf crown. Checked the 746/467/179 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 96,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_printworks_future_v0",
+          "evidence_sha256": "e8885479faa06c64e5fba226f2d9ea1340e8c2374f76bd6c969ca6fbf8f11894",
+          "observations": "The paired uprights, top bar, screw, platen and inset sheet form a readable working press in the forecourt. The gap below the platen stays open in the thumbnail. The blue glass and pale trim keep the assembly legible. Checked the 746/467/179 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 96,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_printworks_industrial_v0",
+          "evidence_sha256": "fb0d2b625de30a88784e0bbae0402fd987557f9cf79dcc076936bd1b7d0cca54",
+          "observations": "The paired uprights, top bar, screw, platen and inset sheet form a readable working press in the forecourt. The gap below the platen stays open in the thumbnail. The brick and dark structural trim anchor the facade. Checked the 746/467/179 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 96,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_research_lab_future_v0",
+          "evidence_sha256": "36c1b48cb14f8745eb8defa3961c61018d16df75e32cc0d8651e51d673367812",
+          "observations": "The tall and short vessels share a visible pipe beside the blue-roof laboratory. The lit service collars and pointed entry distinguish each piece of the assembly. The blue glass and pale trim keep the assembly legible. Checked the 1156/677/279 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 95,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_research_lab_industrial_v0",
+          "evidence_sha256": "51b6866feb4badb72a549288fabde76ec1e171dfd8eb19c86f76931cce9b2be9",
+          "observations": "The tall and short vessels share a visible pipe beside the blue-roof laboratory. The lit service collars and pointed entry distinguish each piece of the assembly. The brick and dark structural trim anchor the facade. Checked the 1156/677/279 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 95,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_scriptorium_ancient_v0",
+          "evidence_sha256": "7a11dadd8fa0c78c54454caa73d014c4a5a93281eef5655845c37c294c2b9b0e",
+          "observations": "The shallow leaf-shaped hall fits its long plot. The quill beside the ink vessel shows mostly its edge against the eave and shrinks to a thin stalk at 64 pixels. The warm timber gives the fittings a visible base. Checked the 622/383/131 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 87,
+            "construction": 92,
+            "charm": 87,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Turn and broaden the quill vane so its feather silhouette clears the roof and remains readable from the preview camera."
+          ]
+        },
+        {
+          "id": "bld_elf_scriptorium_classical_v0",
+          "evidence_sha256": "1df9923b6968feea39d69e813b5ae10bab8411392414a014cd89cb41606bdf1b",
+          "observations": "The shallow leaf-shaped hall fits its long plot. The quill beside the ink vessel shows mostly its edge against the eave and shrinks to a thin stalk at 64 pixels. The pale masonry separates from its leaf crown. Checked the 622/383/131 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 87,
+            "construction": 92,
+            "charm": 87,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Turn and broaden the quill vane so its feather silhouette clears the roof and remains readable from the preview camera."
+          ]
+        },
+        {
+          "id": "bld_elf_scriptorium_future_v0",
+          "evidence_sha256": "83ab98ec0c0b9e8f7a603ab108306143c0931c0cf4b176aa0d3975d995cb7149",
+          "observations": "The shallow leaf-shaped hall fits its long plot. The quill beside the ink vessel shows mostly its edge against the eave and shrinks to a thin stalk at 64 pixels. The blue glass and pale trim keep the assembly legible. Checked the 622/383/131 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 87,
+            "construction": 92,
+            "charm": 87,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Turn and broaden the quill vane so its feather silhouette clears the roof and remains readable from the preview camera."
+          ]
+        },
+        {
+          "id": "bld_elf_scriptorium_industrial_v0",
+          "evidence_sha256": "fd98c8d30f04fad9f830ac3b050b349930dbbf67eea5e74e9640ca7410de1cac",
+          "observations": "The shallow leaf-shaped hall fits its long plot. The quill beside the ink vessel shows mostly its edge against the eave and shrinks to a thin stalk at 64 pixels. The brick and dark structural trim anchor the facade. Checked the 622/383/131 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 87,
+            "construction": 92,
+            "charm": 87,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Turn and broaden the quill vane so its feather silhouette clears the roof and remains readable from the preview camera."
+          ]
+        },
+        {
+          "id": "bld_elf_university_classical_v0",
+          "evidence_sha256": "3bdef00cf32f2707aa6c8e4b1905fd0eca6f9c62c3f8077dc54b3be9ad956d6f",
+          "observations": "The central and side halls frame a row of three arches. The roof cluster closely repeats the hospital without a visible academic sign or teaching space. The pale masonry separates from its leaf crown. Checked the 1196/727/209 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 85,
+            "construction": 94,
+            "charm": 86,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Differentiate the university with an integrated teaching landmark or stepped lecture court whose massing and open approach are visible at 64 pixels."
+          ]
+        },
+        {
+          "id": "bld_elf_university_future_v0",
+          "evidence_sha256": "02ef70a72d79d299c174029bac3ac05f91edc3c78f866a606349237199609afd",
+          "observations": "The central and side halls frame a row of three arches. The roof cluster closely repeats the hospital without a visible academic sign or teaching space. The blue glass and pale trim keep the assembly legible. Checked the 1196/727/209 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 85,
+            "construction": 94,
+            "charm": 86,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Differentiate the university with an integrated teaching landmark or stepped lecture court whose massing and open approach are visible at 64 pixels."
+          ]
+        },
+        {
+          "id": "bld_elf_university_industrial_v0",
+          "evidence_sha256": "ddc31dbda89cfccbab1160a94ff012c507caaa5d3d579522db96b972c7ae6b6c",
+          "observations": "The central and side halls frame a row of three arches. The roof cluster closely repeats the hospital without a visible academic sign or teaching space. The brick and dark structural trim anchor the facade. Checked the 1196/727/209 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 85,
+            "construction": 94,
+            "charm": 86,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Differentiate the university with an integrated teaching landmark or stepped lecture court whose massing and open approach are visible at 64 pixels."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Independent Elf package critic",
+      "models": [
+        {
+          "id": "bld_elf_data_center_future_v0",
+          "evidence_sha256": "c65b5ed8b299958aebccc4d69d354f047f2f3b9ab2b3a445b6a9fa561f1f2a75",
+          "observations": "The broad heat exchanger has contrasting horizontal blades and a deep frame. It gives the glass stacks a clear service face without hiding the separate arched entry.  Checked the 1189/733/231 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_hospital_classical_v0",
+          "evidence_sha256": "718d0c613351a50a5ad9eb2a06f805a2be311575bf1697349bfe37f88b62d856",
+          "observations": "A pale medical cross on the green leaf sign remains legible above the supported receiving porch. The foreground posts frame the central ward entrance and the lower wings remain visible on both sides.  Checked the 1317/868/310 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_hospital_future_v0",
+          "evidence_sha256": "a0f2a60f2a5597d4e62e3d61abe1af0161a3376bc3b17a6a7284b9b711fdf1c8",
+          "observations": "A pale medical cross on the green leaf sign remains legible above the supported receiving porch. The foreground posts frame the central ward entrance and the lower wings remain visible on both sides.  Checked the 1317/868/310 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_hospital_industrial_v0",
+          "evidence_sha256": "036deaf43aacd4713cc63dcc1f51a6c02f85560b011f339718ecdb4b357c39e8",
+          "observations": "A pale medical cross on the green leaf sign remains legible above the supported receiving porch. The foreground posts frame the central ward entrance and the lower wings remain visible on both sides.  Checked the 1317/868/310 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_medical_center_future_v0",
+          "evidence_sha256": "cfa602af8e3f19a8e1223b2f64ed88622f267523cfe302f9a623aa44a92e4fd0",
+          "observations": "The luminous blue crown now clears a separate entrance sign. A complete supported silver ring frames the healing cross above the forward reception canopy in both ages.  Checked the 1461/964/374 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_observatory_classical_v0",
+          "evidence_sha256": "5151e95e6bf9774c7acf9bbfba71d3c9cc13942712d0fac9468aef8aec4fe814",
+          "observations": "A projecting vestibule carries the full pointed door in front of the cylindrical base down to ground. The armillary, sighting axis and small lateral dome still read clearly above and beside it.  Checked the 1089/733/347 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_observatory_future_v0",
+          "evidence_sha256": "7c34ef093bdc9a00732b532aedb4f795be08cfe8f71f58b54ef568e736512226",
+          "observations": "A projecting vestibule carries the full pointed door in front of the cylindrical base down to ground. The armillary, sighting axis and small lateral dome still read clearly above and beside it.  Checked the 1089/733/347 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_observatory_industrial_v0",
+          "evidence_sha256": "5b781ebf051624a400fbc75106d9f272e3dc9679d5ffd61e8fe27a118ab8795a",
+          "observations": "A projecting vestibule carries the full pointed door in front of the cylindrical base down to ground. The armillary, sighting axis and small lateral dome still read clearly above and beside it.  Checked the 1089/733/347 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_scriptorium_ancient_v0",
+          "evidence_sha256": "d63bb84a7ea688ccf0548b3609ac16c7f6f2f9aa85966899a399b08c9694d917",
+          "observations": "The ivory feather now displays a broad notched profile beside its ink vessel. A visible shaft reaches the pot, with enough separation from the entrance and eaves to read at 64 pixels.  Checked the 664/429/147 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_scriptorium_classical_v0",
+          "evidence_sha256": "eee9105d6c18143cfa416dec949a5bed161fa69172e1b07e9c04fb8c8327e806",
+          "observations": "The ivory feather now displays a broad notched profile beside its ink vessel. A visible shaft reaches the pot, with enough separation from the entrance and eaves to read at 64 pixels.  Checked the 664/429/147 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_scriptorium_future_v0",
+          "evidence_sha256": "e0403c3b090770159627febffdb3ff7afa4d192af65feb6f7029477df0afe21b",
+          "observations": "The ivory feather now displays a broad notched profile beside its ink vessel. A visible shaft reaches the pot, with enough separation from the entrance and eaves to read at 64 pixels.  Checked the 664/429/147 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_scriptorium_industrial_v0",
+          "evidence_sha256": "08f7353e8b20e3847ac2c6ab793a13c4271857c037ff44d8925b78660bc43150",
+          "observations": "The ivory feather now displays a broad notched profile beside its ink vessel. A visible shaft reaches the pot, with enough separation from the entrance and eaves to read at 64 pixels.  Checked the 664/429/147 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_university_classical_v0",
+          "evidence_sha256": "4d515133e89ac7293247c40dc6158e136e1bea0619e1c756088b7809939a8cf3",
+          "observations": "Curved banks of ascending seats form a distinct open teaching court. The lectern and volume face the seats, and the arched wing entrance stays clear in the thumbnail.  Checked the 1168/673/259 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_university_future_v0",
+          "evidence_sha256": "36fa3316ca444a13f4eb9f198fa026dd29e3e9b11df9fb17e027c5974a03f2c9",
+          "observations": "Curved banks of ascending seats form a distinct open teaching court. The lectern and volume face the seats, and the arched wing entrance stays clear in the thumbnail.  Checked the 1168/673/259 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_university_industrial_v0",
+          "evidence_sha256": "ebdf1e15a7457d665170f6702d0d1f5e7311cf8f9d7eecc861108e019434e805",
+          "observations": "Curved banks of ascending seats form a distinct open teaching court. The lectern and volume face the seats, and the arched wing entrance stays clear in the thumbnail.  Checked the 1168/673/259 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Elf clinic art director",
+      "models": [
+        {
+          "id": "bld_elf_medical_center_future_v0",
+          "evidence_sha256": "57f25f53f3aa9f54c192aea25de2a6db269a75c015cb00bb213602925fefdd8f",
+          "observations": "Two staggered glass ward towers frame an ivory-topped bridge in both the information and ascension previews. At 64 pixels their stepped profile clearly separates the center from the Hospital's single peaked roof. The Hospital's cross still identifies its purpose at this size. The center's small jewel and flowerpot give little indication of medical care. Renders of the three serialized LODs preserve both towers, the connecting bridge and the pointed entrance. The package validator passed at 1191, 689 and 331 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 85,
+            "construction": 92,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Place a broad, pale healing cross on a dark vertical plaque at the receiving canopy or nearer tower. Give its arms enough width and contrast to read at 64 pixels in both ages."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Elf clinic art director",
+      "models": [
+        {
+          "id": "bld_elf_medical_center_future_v0",
+          "evidence_sha256": "b96a814bf95aee769938dbd74792fe7c63ef7c691b3aa6127497d7ca5d73fd64",
+          "observations": "A broad ivory cross now stands against a dark green plaque on the receiving canopy. Its four arms remain recognizable in both 64-pixel age previews and in native 64-pixel renders of all three serialized LODs. The pointed entry remains visible beneath it. The two staggered towers and pale bridge distinguish the MedicalCenter from the Hospital's narrower, single-peaked ward in both age palettes. The package validator passed at 1275, 759 and 387 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "package": "human_housesclassical",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Codex independent Human Classical Houses critic",
+      "models": [
+        {
+          "id": "bld_human_house_classical_medieval_v0",
+          "evidence_sha256": "29914f35af209946882c3e01b8c1c63b9190b5a41d21b693794f5874cc51820a",
+          "observations": "The slate gable, chimney, projected upper storey and shuttered window distinguish the house at 40 and 64 pixels. The upper diagonal appears as a loose timber across the front plaster in the low frontal view. The rear vent and projecting floor hold up in reverse view. The exported levels validated at 441, 270 and 106 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 85,
+            "charm": 90,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "At LOD0 the diagonal across the front gable terminates in plaster at both ends. Extend it to join the tie beam and a rafter or a king post so the framing has a load path.",
+            "At LOD0 the foliage and blooms hang above the planted sill. The planter top is y+0.0235, while even the lowest leaves start at y+0.034. Sink the foliage bases into the planter or connect the crowns with stems that reach the soil. Check a grazing elevation."
+          ]
+        },
+        {
+          "id": "bld_human_house_classical_medieval_v1",
+          "evidence_sha256": "244ba2811c1cdcdd6c9f0bfeb598e350cf1c0f278e992cb1d6111c73d7b70aba",
+          "observations": "The broad hip and small slate dormer are identifiable at phone size. The lantern hangs from a bracket and the side and rear have separate openings. Low side inspection found a fine gap under the dormer facade at the roof junction. The exported levels validated at 463, 278 and 124 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 89,
+            "charm": 91,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "At LOD0 and LOD1 the front wall of the dormer starts around y=0.510 while the main roof at its leading edge is around y=0.501. Extend the dormer cheeks and front down into the sloping roof to close the gap.",
+            "At LOD0 the foliage and blooms hang above the planted sill. The planter top is y+0.0235, while even the lowest leaves start at y+0.034. Sink the foliage bases into the planter or connect the crowns with stems that reach the soil. Check a grazing elevation."
+          ]
+        },
+        {
+          "id": "bld_human_house_classical_renaissance_v0",
+          "evidence_sha256": "e540b76bec81e57e62d19b2baf2a494ee38491c5055489c8459a5307356a50a1",
+          "observations": "The domed reading room contrasts with the tiled hip and retains its lantern in the distant silhouette. Its arched lights, door surround and clay jar suit the plaster house. The right-side grazing view of LOD2 shows the front arched window as an isolated sheet in front of the curved room. The exported levels validated at 602, 300 and 158 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 85,
+            "charm": 91,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "On the front of the reading room the arched frame and glazing float away from the drum, especially at LOD2. The six-sided drum front is at z≈−0.303 while the frame lies at z=−0.332. Build the frame on the relevant facet plane or add solid returns that fill the distance to the drum. Check side and front openings at every LOD.",
+            "At LOD0 the foliage and blooms hang above the planted sill. The planter top is y+0.0235, while even the lowest leaves start at y+0.034. Sink the foliage bases into the planter or connect the crowns with stems that reach the soil. Check a grazing elevation."
+          ]
+        },
+        {
+          "id": "bld_human_house_classical_renaissance_v1",
+          "evidence_sha256": "8f0f82660b3867a1ca0c91a17fff89506989c531c0b4a51274a72535709be5a1",
+          "observations": "The open belvedere, four corner piers and small hipped cap stay distinct at 40 pixels and survive both lower levels. The arched entry and paired windows maintain a domestic scale beneath the tower. The larger front and reverse views show the tower seated in the main roof. The exported levels validated at 691, 276 and 176 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 92,
+            "charm": 91,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "At LOD0 the foliage and blooms hang above the planted sill. The planter top is y+0.0235, while even the lowest leaves start at y+0.034. Sink the foliage bases into the planter or connect the crowns with stems that reach the soil. Check a grazing elevation."
+          ]
+        },
+        {
+          "id": "bld_human_house_classical_v0",
+          "evidence_sha256": "246bddadd3a9e57ee856d34c575db56ff2232e3d7051243630868d3e4e26ad4f",
+          "observations": "The inward-sloping terracotta roof reads as a courtyard even at 40 pixels. From overhead the open well has lined sides and a visible blue basin. The front porch stands on two columns and the threshold projects from the foundation. The clay jar and pale porch trim separate from the larger masses. The exported levels validated at 528, 250 and 76 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 92,
+            "charm": 91,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "At LOD0 the foliage and blooms hang above the planted sill. The planter top is y+0.0235, while even the lowest leaves start at y+0.034. Sink the foliage bases into the planter or connect the crowns with stems that reach the soil. Check a grazing elevation."
+          ]
+        },
+        {
+          "id": "bld_human_house_classical_v1",
+          "evidence_sha256": "03eae29391c6bf889983f314864f3ec6159b689e8f2f2da27605064b59309e47",
+          "observations": "The tiled gable projects over a shaded portico. A low frontal view shows both columns on the raised platform, the dark entrance, a clay jar and a blue pediment ornament. The deep porch survives LOD2 and reads apart from the court-house variant. The exported levels validated at 564, 272 and 100 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 92,
+            "charm": 91,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "At LOD0 the foliage and blooms hang above the planted sill. The planter top is y+0.0235, while even the lowest leaves start at y+0.034. Sink the foliage bases into the planter or connect the crowns with stems that reach the soil. Check a grazing elevation."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Codex independent Human Classical Houses critic",
+      "models": [
+        {
+          "id": "bld_human_house_classical_medieval_v0",
+          "evidence_sha256": "50811a1343673ac5fd03e4c1a0cb6d960b59006ed13865d14f96923184e847b4",
+          "observations": "The revised front brace seats against the tie and king post. The simplified middle gable retains that post, and the slate silhouette stays clear at 40 and 64 pixels. The low grazing rear elevation shows daylight between the outer fascia and the inset gable. All levels validated at 451, 280 and 106 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 91,
+            "charm": 92,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Both leaf faces disappear from the right-side grazing view because their normals point toward the same quadrant. Add a narrow three-sided stalk or volume from inside the planter to inside each bloom, so the flowers retain visible support around the building.",
+            "The non-hipped roof has a slit beneath its bargeboard. Its flush outer fascia is separated from the inset gable by 0.021 tile with no sloping soffit. Bridge the underside across both roof ends, following the roof profile at each LOD. Check the outline near yaw 277 degrees and pitch 4 degrees."
+          ]
+        },
+        {
+          "id": "bld_human_house_classical_medieval_v1",
+          "evidence_sha256": "e0b0d61bda38259c4545a50de587b6262f50fcdcd34ae72b088001cf41e0938e",
+          "observations": "The extended dormer cheeks meet the main roof at LOD0 and LOD1. Its lit opening survives in the full preview and the dominant hip remains readable at 40 pixels. The dormer has the same open-ended straight-gable overhang as the larger gabled houses. The exports validated at 463, 278 and 124 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 92,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "Both leaf faces disappear from the right-side grazing view because their normals point toward the same quadrant. Add a narrow three-sided stalk or volume from inside the planter to inside each bloom, so the flowers retain visible support around the building.",
+            "The non-hipped roof has a slit beneath its bargeboard. Its flush outer fascia is separated from the inset gable by 0.021 tile with no sloping soffit. Bridge the underside across both roof ends, following the roof profile at each LOD. Check the outline near yaw 277 degrees and pitch 4 degrees."
+          ]
+        },
+        {
+          "id": "bld_human_house_classical_renaissance_v0",
+          "evidence_sha256": "edd795791f9993857b8fd37673b7fa7d95277909ce9f5d6baa4d002004e69cdb",
+          "observations": "The window reveals now reach into the curved room on both facades. At LOD2 the front surround has a solid return in the grazing elevation. The dome stays identifiable at 40 pixels. While the leaf bases intersect the planter, views from 265 to 282 degrees expose a gap under the blooms once their one-sided leaves disappear. The three levels validated at 664, 346 and 172 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "Both leaf faces disappear from the right-side grazing view because their normals point toward the same quadrant. Add a narrow three-sided stalk or volume from inside the planter to inside each bloom, so the flowers retain visible support around the building."
+          ]
+        },
+        {
+          "id": "bld_human_house_classical_renaissance_v1",
+          "evidence_sha256": "6c423c8bebd363c8897846a5b2f0a01a9223d67dae8f1f31722cab4b8c9850f9",
+          "observations": "The open belvedere, its corner supports and the two terracotta hips remain distinct. The flowers meet the planted sill in the primary view; in the right-hand grazing elevation their supports disappear. The 40-pixel preview retains the tower and entry. The three levels validated at 691, 276 and 176 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "Both leaf faces disappear from the right-side grazing view because their normals point toward the same quadrant. Add a narrow three-sided stalk or volume from inside the planter to inside each bloom, so the flowers retain visible support around the building."
+          ]
+        },
+        {
+          "id": "bld_human_house_classical_v0",
+          "evidence_sha256": "54c533c9f81074b754f788e6bce7945b433f0a45df05a83dc45b6b1941c1d5ef",
+          "observations": "The planted sill reads continuously in the published view and the central open roof remains distinct at both phone sizes. The porch, jar and side shutters hold their positions across the larger elevations. At a low grazing angle the flower supports are culled. Geometry and atlas checks passed at 528, 250 and 76 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Both leaf faces disappear from the right-side grazing view because their normals point toward the same quadrant. Add a narrow three-sided stalk or volume from inside the planter to inside each bloom, so the flowers retain visible support around the building."
+          ]
+        },
+        {
+          "id": "bld_human_house_classical_v1",
+          "evidence_sha256": "f19d47936cba4f52813eb51e4c5efb053c8f7012c03e4a234b4933de53d9a365",
+          "observations": "The planted sill is visibly rooted head-on. Its two thin leaf faces share a culling direction and disappear when viewed from the side. The low rear-quarter view also shows a dark detached bargeboard along the pediment outline. The porch stays clear at 40 pixels. All levels validated at 564, 272 and 100 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 91,
+            "charm": 91,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Both leaf faces disappear from the right-side grazing view because their normals point toward the same quadrant. Add a narrow three-sided stalk or volume from inside the planter to inside each bloom, so the flowers retain visible support around the building.",
+            "The non-hipped roof has a slit beneath its bargeboard. Its flush outer fascia is separated from the inset gable by 0.021 tile with no sloping soffit. Bridge the underside across both roof ends, following the roof profile at each LOD. Check the outline near yaw 277 degrees and pitch 4 degrees."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Codex independent Human Classical Houses critic",
+      "models": [
+        {
+          "id": "bld_human_house_classical_medieval_v0",
+          "evidence_sha256": "8fd9a44d0ce63fbf3e91ed524fdd3d3a75d03dfe3de1b250dbe55b252ddfa945",
+          "observations": "The jettied floor, tall slate gable and chimney remain distinct at 40 and 64 pixels. The front brace meets the tie and king post. At the rear grazing angle, the gable underside is filled continuously at all three levels. The planted sill has visible stems. The exported levels validated at 476, 296 and 114 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_classical_medieval_v1",
+          "evidence_sha256": "a14693c6481bd251061b93c9626b3b22733632856c27704b7c1dcc0e89e04755",
+          "observations": "The dormer sits in the broad hip and the gable returns close its shallow overhang. Separate near-horizontal views of the lower levels preserve the dormer and chimney. The flower box, shuttered opening and bracket lantern make the front readable at village scale. All three levels validated at 488, 294 and 132 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_classical_renaissance_v0",
+          "evidence_sha256": "887f21c492978cb59c02d4cca3e0aad4f57a2a51fbb7fafb4d47e89ae0359b8f",
+          "observations": "The reading-room dome and gold-capped lantern retain a distinct silhouette at 40 pixels. The grazing view shows green stalks continuously connecting the blossoms to their box. The front window has a solid masonry return on the lowest polygon drum. The door surround and earthen jar remain distinct in the full preview. Exported levels validated at 673, 346 and 172 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_classical_renaissance_v1",
+          "evidence_sha256": "2f8f04810449f8d45bfb30df297a87da0e31788e2670c8dd2cc68d1838176e30",
+          "observations": "The four-pier belvedere and its tile cap read clearly above the main hip at both phone sizes. The side elevation still shows flower stalks between the blooms and sill. The lower levels keep the tower open and the arched entry remains identifiable. All levels validated at 700, 276 and 176 triangles, with the full-detail mesh meeting the house ceiling exactly.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_classical_v0",
+          "evidence_sha256": "8953e7c6d1e70abbe6bf42849ee55895456db40cdc4720f79d463ce97a234284",
+          "observations": "The courtyard remains visible at both phone sizes, with a light well and four tiled slopes. Two columns, the doorway and the jar give the porch a domestic scale. The side-grazing view retains the stem-to-planter connection below the blossoms. The three levels validated at 537, 250 and 76 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_classical_v1",
+          "evidence_sha256": "21fb35fd3981528951c45f481597ca8b20d37ea1acb1153c540e75845531cdbb",
+          "observations": "The eave and rear bargeboard now form a continuous outline at the grazing angle, including at LOD2. The porch columns, clay jar and blue pediment ornament remain legible in the full preview. Its long shaded portico distinguishes the house from the courtyard variant at 40 and 64 pixels. The planted sill retains supported blooms. Exported levels validated at 589, 288 and 108 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

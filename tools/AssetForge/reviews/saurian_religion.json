@@ -1,0 +1,451 @@
+{
+  "package": "saurian_religion",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "sun_critic",
+      "models": [
+        {
+          "id": "bld_saurian_cathedral_classical_v0",
+          "evidence_sha256": "1612d7fad4194fc38148ccdb274a40c15e33689bc7d39a59f8a3a6534537c2f8",
+          "observations": "The halo, squat processional door and flanking spires survive both Medieval and Renaissance roof finishes. Their sun medallions sit visibly ahead of the battered pylon faces. Serialized validation passes all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 88,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Attach the two tower seals to the tapered faces. Their backs at z=-0.491 sit about 0.028 ahead of the wall at seal-center height. Use fitted backing or orient the badges to follow the pylon slope."
+          ]
+        },
+        {
+          "id": "bld_saurian_cathedral_future_v0",
+          "evidence_sha256": "781a707f45b2a00c69d5a24e07b7fa28c12f90452df2cbab2ae818ee475ba20f",
+          "observations": "The two blue spires frame a gold halo and the entry below in Information and Ascension. The seals' vertical backs do not contact the pale tapered tower walls. Serialized validation passes all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 88,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Attach the two tower seals to the tapered faces. Their backs at z=-0.491 sit about 0.028 ahead of the wall at seal-center height. Use fitted backing or orient the badges to follow the pylon slope."
+          ]
+        },
+        {
+          "id": "bld_saurian_cathedral_industrial_v0",
+          "evidence_sha256": "1e25c9c7a42b280e163ae1cbeacfc10aaf7114cb055c653854f975aca68123f5",
+          "observations": "The brick or modern main drum, side towers and votive-lit gate hold the same cathedral silhouette. The tower medallions lack attachment to the battered walls. Serialized validation passes all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 88,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Attach the two tower seals to the tapered faces. Their backs at z=-0.491 sit about 0.028 ahead of the wall at seal-center height. Use fitted backing or orient the badges to follow the pylon slope."
+          ]
+        },
+        {
+          "id": "bld_saurian_monastery_classical_v0",
+          "evidence_sha256": "f9fa412c3fc91531b7c197a07b30901e3f7f2c041a8c1e954b7920c5d6cd3b98",
+          "observations": "Three roofed wings frame a lily pond and a square rear lantern. The pool fills the approach between the dormitories, leaving almost no walkable route to the rear door. Serialized validation passes all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 85,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Narrow and shorten the pool and mark an accessible perimeter from the entrance to the rear hall. Its surround leaves only about 0.0165 units beside each dormitory plinth, and its rear overlaps the hall plinth."
+          ]
+        },
+        {
+          "id": "bld_saurian_monastery_future_v0",
+          "evidence_sha256": "d015a239b8a8645e37efa73f18856d144d3bd710edf4eace8845d0e2eb926024",
+          "observations": "Blue glass roofs and the pond make a coherent future cloister, but the entry gates lead straight into the water court with only a fingernail-width perimeter gap. Serialized validation passes all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 85,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Narrow and shorten the pool and mark an accessible perimeter from the entrance to the rear hall. Its surround leaves only about 0.0165 units beside each dormitory plinth, and its rear overlaps the hall plinth."
+          ]
+        },
+        {
+          "id": "bld_saurian_monastery_industrial_v0",
+          "evidence_sha256": "4aa253c2947c55bd1ed1cb84ff648454976e975b48339123979d5c03a1cf874a",
+          "observations": "The brick watch lantern and long low dormitories enclose an identifiable monastic courtyard. Its pool surround presses up against both side plinths and the rear plinth. Serialized validation passes all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 85,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Narrow and shorten the pool and mark an accessible perimeter from the entrance to the rear hall. Its surround leaves only about 0.0165 units beside each dormitory plinth, and its rear overlaps the hall plinth."
+          ]
+        },
+        {
+          "id": "bld_saurian_shrine_ancient_v0",
+          "evidence_sha256": "e77bf4b4e5da61fe8b65736f2e0cb532e3f75aa26465901dadfaac5eaab356e2",
+          "observations": "The stepped pylon and reed roof form a coherent votive pavilion across the early rows. The fixed camera hides the idol's gold face behind the near roof, leaving a turquoise stump inside. Serialized validation passes all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 87,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Bring the idol and pedestal forward beneath the open south bay, or otherwise lower the face into view. The gold face is obscured by the canopy in the god's-eye previews; keep the staircase clear."
+          ]
+        },
+        {
+          "id": "bld_saurian_shrine_classical_v0",
+          "evidence_sha256": "fd838a9310ef37cc3b3aa73f145524f17e622d26b77d8418516a4b09db87fdc3",
+          "observations": "The tile crown, turquoise collars and offering jars frame the Classical-family open bay. The central sun idol disappears above its seat under the near eave. Serialized validation passes all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 87,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Bring the idol and pedestal forward beneath the open south bay, or otherwise lower the face into view. The gold face is obscured by the canopy in the god's-eye previews; keep the staircase clear."
+          ]
+        },
+        {
+          "id": "bld_saurian_shrine_future_v0",
+          "evidence_sha256": "695fa8791294fe8b57b922e1b1bba2669bf5fbf66598c92928940908ef9d94a1",
+          "observations": "The clean glass canopy and pale round posts make a distinct advanced shrine, but only the pedestal and a strip of turquoise are visible where the idol face should read. Serialized validation passes all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 87,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Bring the idol and pedestal forward beneath the open south bay, or otherwise lower the face into view. The gold face is obscured by the canopy in the god's-eye previews; keep the staircase clear."
+          ]
+        },
+        {
+          "id": "bld_saurian_shrine_industrial_v0",
+          "evidence_sha256": "33b4171cc3e02d36ae733b34d739db8bc1aec2dbca450be75e7b7a4cce9a2e8e",
+          "observations": "The grey canopy and pale columns enclose a colorful shrine platform in both mechanized ages. The broad eave blocks the seated gold face in the game camera. Serialized validation passes all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 87,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Bring the idol and pedestal forward beneath the open south bay, or otherwise lower the face into view. The gold face is obscured by the canopy in the god's-eye previews; keep the staircase clear."
+          ]
+        },
+        {
+          "id": "bld_saurian_spirit_totem_ancient_v0",
+          "evidence_sha256": "cf1e889cfbabc9dc8c840b45765a36941a043575150e837cb64a287511c5dcdb",
+          "observations": "The long reptile muzzle, spread turquoise frills, gold eyes and crowned sun clearly read as a carved creature. Paired votives and a stair serve the low, grounded plinth throughout Dawn, Bronze and Iron. Serialized validation passes all three LODs.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 96,
+            "construction": 94,
+            "charm": 96,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_temple_ancient_v0",
+          "evidence_sha256": "399ed13ebc30f3577dde87d1ce8e915a57fa2b78426fa0dda29f56930cc27333",
+          "observations": "The iron-age stone terraces and steep dark cap give a clear, low stepped temple. Only tips of the two front votives emerge from the higher battered tier. Serialized validation passes all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 88,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Seat the two votives on exposed lower-terrace stone. At z=-0.367 their bases lie inside the next battered course. Moving them toward z=-0.53 should expose the cups and preserve the stair."
+          ]
+        },
+        {
+          "id": "bld_saurian_temple_classical_v0",
+          "evidence_sha256": "1c2d0a0d819b2720f26f69c4326d195cf87c4f11483df1af9e1de6e4ce353034",
+          "observations": "The sun-crowned terracotta dome and paired columns remain distinct across the three middle ages. The votive cups have been placed within the front slope beneath their flame tips. Serialized validation passes all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 88,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Seat the two votives on exposed lower-terrace stone. At z=-0.367 their bases lie inside the next battered course. Moving them toward z=-0.53 should expose the cups and preserve the stair."
+          ]
+        },
+        {
+          "id": "bld_saurian_temple_future_v0",
+          "evidence_sha256": "2585f4efa884aa1ddd06410440285fc11aaedc7e0cca8a8ff49e183a8018488f",
+          "observations": "The paired blue piers visibly support the large golden ring. The lower-deck votives sit partly inside the upper terrace and show only small bright tips. Serialized validation passes all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 88,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Seat the two votives on exposed lower-terrace stone. At z=-0.367 their bases lie inside the next battered course. Moving them toward z=-0.53 should expose the cups and preserve the stair."
+          ]
+        },
+        {
+          "id": "bld_saurian_temple_industrial_v0",
+          "evidence_sha256": "b5ea325bd4fc7c6a91c2911f0bb2a89532c9f7e51da83b9f5fa19eb4cf653f2a",
+          "observations": "The capped drum, stepped brick or concrete dais and emphatic stair read well together. The bases of the front votives are hidden within the next masonry course. Serialized validation passes all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 88,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Seat the two votives on exposed lower-terrace stone. At z=-0.367 their bases lie inside the next battered course. Moving them toward z=-0.53 should expose the cups and preserve the stair."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "sun_critic",
+      "models": [
+        {
+          "id": "bld_saurian_cathedral_classical_v0",
+          "evidence_sha256": "8464c6369341c877ee6a222f0d118658b74104cd161d8095eb871f5c2b653814",
+          "observations": "Medieval and Renaissance sun marks now sit into both stone pylons. Their gold faces remain visible below the narrow turquoise collars, framing the central entry. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_cathedral_future_v0",
+          "evidence_sha256": "e2005eef9a1febebbbc6f6cd46ece8b91ce5b34cdf7004548b3310679baeca70",
+          "observations": "The pair of seals is seated on the lower faces of the pale cathedral pylons. The glass spires and halo continue to read clearly in both future ages. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_cathedral_industrial_v0",
+          "evidence_sha256": "6043c4a41015fd7876ec1186ef74f05215fceed291c584c26756e1bef2c090de",
+          "observations": "In both brick and Modern facade variants, the tower badges meet their battered walls beneath the teal collars. The twin offering lights still flank the approach. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_monastery_classical_v0",
+          "evidence_sha256": "d73083ff2bb27f0e9d44a87c31a0a7001444d07573810a9453484445f54599ed",
+          "observations": "The reduced lily pool has paved walks to either side and a clear rear landing. The Classical, Renaissance and Medieval images all retain the courtyard and distinct roof lantern. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_monastery_future_v0",
+          "evidence_sha256": "79cb66651da6eb1c7c7c40b651873255e82c84d2b8f0b2a083ce81f9d49229f3",
+          "observations": "The short, narrow pool and paved walk now connect the gateway and the rear hall. The small lilies remain visible amid the blue glass roofs. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_monastery_industrial_v0",
+          "evidence_sha256": "e09c36bbd92fee5fb468c0b51f6c5c40db3dfb9e8332eddbef02c63f96a7ebc1",
+          "observations": "The paved route runs past the pool to the brick or concrete sanctuary door, and the two long dormitories remain legible around the open court. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_shrine_ancient_v0",
+          "evidence_sha256": "ed9199b95ea45bc85ac190f58bd816b5477bdf3254dcf1cc38440d8b2bd87a2e",
+          "observations": "The sun idol's face now shows beneath the thatch at both preview sizes in Bronze and Iron. The platform has a clear staircase and a pair of tiny offerings. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_shrine_classical_v0",
+          "evidence_sha256": "31d8ab380b3d28ab53812a563299c355a3ea59f402ed3a6da0f2eb1f0518686a",
+          "observations": "Gold and turquoise on the lowered shrine idol now read against the open bay in all three ages. The four posts and tile crown frame the altar without occluding it. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_shrine_future_v0",
+          "evidence_sha256": "d40edc92aaf748c451a306dad6dceec26d108d12af67f5f311da3f004865ff07",
+          "observations": "Both futuristic rows retain the glazed canopy while revealing the idol's gold disc against its turquoise body. The center bay and stairs serve the same axis. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_shrine_industrial_v0",
+          "evidence_sha256": "55c70dd3c7f9998cd0d70351dd6fb8f251892ab57ffc7a6218e2090a9717277d",
+          "observations": "The lowered idol now reads beneath the steel canopy in Industrial and Modern. The dark roof and illuminated sun face provide a clear hierarchy at 64 px. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_temple_ancient_v0",
+          "evidence_sha256": "4120294bf45ecb6084cd7a99c23579d03df27e3db0ddbaca4eb3bb405fe4589b",
+          "observations": "The two complete votive cups stand on the exposed turquoise-edged terrace. The central stair remains open beneath the Iron-age timber cap. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_temple_classical_v0",
+          "evidence_sha256": "f921937f26b1f4db0d2522f4551d56fdd12a95261aa4a3f2f7f5e03c860338a3",
+          "observations": "Both gold cups flank the stair on the lower terrace. Their bases remain visible against Classical, Medieval and Renaissance masonry beneath the terracotta dome. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_temple_future_v0",
+          "evidence_sha256": "784be7109a6082d900c989e0a0dd33def38c41ac98c9d936e3c477fb87bafe19",
+          "observations": "On the pale lower terrace both lamps read in front of the battered course. The twin sky-blue supports and halo remain distinct at 64 px. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_temple_industrial_v0",
+          "evidence_sha256": "b35d215dd9635a4987141114103d32547b2a39c8740f592e572795a983edcd58",
+          "observations": "The two votives now sit visibly outside the upper course on both the brick and concrete temples. The entry and broad axial stair remain legible. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

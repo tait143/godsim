@@ -1,0 +1,422 @@
+[
+ {
+  "id": "bld_saurian_town_center_ancient_bronze_v0",
+  "kind": "townhall",
+  "category": "Buildings/Saurian/TownCenters",
+  "building_type": "TownCenter",
+  "race": "saurian",
+  "ages": [
+   "bronze"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1303,
+  "lod_triangles": [
+   1303,
+   668,
+   163
+  ],
+  "bounds": [
+   [
+    -0.8949999809265137,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.8949999809265137,
+    1.6790000200271606,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 157276,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_ancient_bronze_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_ancient_bronze_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_ancient_bronze_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_town_center_ancient_iron_v0",
+  "kind": "townhall",
+  "category": "Buildings/Saurian/TownCenters",
+  "building_type": "TownCenter",
+  "race": "saurian",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1207,
+  "lod_triangles": [
+   1207,
+   556,
+   187
+  ],
+  "bounds": [
+   [
+    -0.8999999761581421,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.8999999761581421,
+    1.6729999780654907,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 144452,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_ancient_iron_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_ancient_iron_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_ancient_iron_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_town_center_ancient_v0",
+  "kind": "townhall",
+  "category": "Buildings/Saurian/TownCenters",
+  "building_type": "TownCenter",
+  "race": "saurian",
+  "ages": [
+   "dawn"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1243,
+  "lod_triangles": [
+   1243,
+   572,
+   195
+  ],
+  "bounds": [
+   [
+    -0.8100000023841858,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.8100000023841858,
+    1.7910000085830688,
+    0.7799999713897705
+   ]
+  ],
+  "bytes": 143392,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_town_center_classical_medieval_v0",
+  "kind": "townhall",
+  "category": "Buildings/Saurian/TownCenters",
+  "building_type": "TownCenter",
+  "race": "saurian",
+  "ages": [
+   "medieval"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1303,
+  "lod_triangles": [
+   1303,
+   668,
+   163
+  ],
+  "bounds": [
+   [
+    -0.8450000286102295,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.8450000286102295,
+    1.8930000066757202,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 157220,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_classical_medieval_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_classical_medieval_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_classical_medieval_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_town_center_classical_renaissance_v0",
+  "kind": "townhall",
+  "category": "Buildings/Saurian/TownCenters",
+  "building_type": "TownCenter",
+  "race": "saurian",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1315,
+  "lod_triangles": [
+   1315,
+   620,
+   245
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.925000011920929,
+    1.9759999513626099,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 161788,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_classical_renaissance_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_classical_renaissance_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_classical_renaissance_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_town_center_classical_v0",
+  "kind": "townhall",
+  "category": "Buildings/Saurian/TownCenters",
+  "building_type": "TownCenter",
+  "race": "saurian",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1249,
+  "lod_triangles": [
+   1249,
+   554,
+   179
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.9300000071525574,
+    1.6160000562667847,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 147460,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_town_center_future_ascension_v0",
+  "kind": "townhall",
+  "category": "Buildings/Saurian/TownCenters",
+  "building_type": "TownCenter",
+  "race": "saurian",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1325,
+  "lod_triangles": [
+   1325,
+   633,
+   215
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.949999988079071,
+    1.8350000381469727,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 160872,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_future_ascension_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_future_ascension_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_future_ascension_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_town_center_future_v0",
+  "kind": "townhall",
+  "category": "Buildings/Saurian/TownCenters",
+  "building_type": "TownCenter",
+  "race": "saurian",
+  "ages": [
+   "information"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1221,
+  "lod_triangles": [
+   1221,
+   562,
+   189
+  ],
+  "bounds": [
+   [
+    -0.8999999761581421,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.8999999761581421,
+    1.812000036239624,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 146372,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_future_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_town_center_industrial_modern_v0",
+  "kind": "townhall",
+  "category": "Buildings/Saurian/TownCenters",
+  "building_type": "TownCenter",
+  "race": "saurian",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1341,
+  "lod_triangles": [
+   1341,
+   690,
+   177
+  ],
+  "bounds": [
+   [
+    -0.9150000214576721,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.9150000214576721,
+    1.621999979019165,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 166300,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_industrial_modern_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_industrial_modern_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_industrial_modern_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_town_center_industrial_v0",
+  "kind": "townhall",
+  "category": "Buildings/Saurian/TownCenters",
+  "building_type": "TownCenter",
+  "race": "saurian",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1295,
+  "lod_triangles": [
+   1295,
+   612,
+   227
+  ],
+  "bounds": [
+   [
+    -0.9100000262260437,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.9100000262260437,
+    1.5820000171661377,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 156248,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_industrial_v0.png"
+  }
+ }
+]

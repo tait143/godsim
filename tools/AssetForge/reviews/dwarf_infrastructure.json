@@ -1,0 +1,381 @@
+{
+  "package": "dwarf_infrastructure",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Session 6 independent critic, commerce builder",
+      "models": [
+        {
+          "id": "bld_dwarf_aqueduct_classical_v0",
+          "evidence_sha256": "aaa4a057354be20a8019c339dea05e5dbbbd6ca81b2e49ca883f70fde6a25d91",
+          "observations": "Three arches and a visible water channel identify the aqueduct in every row. The Iron and Medieval renders share an almost identical dark lip, warm-grey piers and end treatment at 64 pixels.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 84,
+            "construction": 94,
+            "charm": 91,
+            "colour": 88,
+            "technical": 99
+          },
+          "defects": [
+            "Use an age-responsive material on a broad spandrel, coping or pillar band to distinguish the Iron unlock from Medieval."
+          ]
+        },
+        {
+          "id": "bld_dwarf_aqueduct_future_v0",
+          "evidence_sha256": "c8f225062679ab02418b2620ac2b72fcb606520003ad8e3a4bfe54967f633653",
+          "observations": "Three blue channel clamps, pale dressed piers and inset keystones distinguish the advanced crossing. Ascension picks up a gold architrave. The continuous channel remains readable across the span.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_aqueduct_industrial_v0",
+          "evidence_sha256": "7b9211ac863119fd2d475afcc87f79787b841711a2d4b5af65e83ea1e946b5bf",
+          "observations": "Two large clear-span arches support a continuous narrow raceway. The wall shifts clearly between red brick and light concrete, with a restrained end stamp and buttressed footing.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_fusion_reactor_future_v0",
+          "evidence_sha256": "0aa87b4b20f02f2b3b9a8eecf0c7b8738420c9151b10b5a92ada93819e7a5b6b",
+          "observations": "The domed energy core and thick open field coil form an unmistakable silhouette in both ages. The visible cradle legs and squat service doorway give the luminous assembly weight.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_granary_ancient_v0",
+          "evidence_sha256": "866e39a57fc15095e129fbbbb4a926b2e3bbffadfa233954c4d060a2ba2e9b4f",
+          "observations": "Short, unequal grain drums and steep caps distinguish the early storage yard. The ashlar footings, circumferential hoops and front receiving hall retain clear divisions at phone size.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_granary_classical_v0",
+          "evidence_sha256": "063f7cd2c4d6132787da6ef0636189be088b4b36c385f31842850ef0a6fe8bbe",
+          "observations": "Twin high masonry bins cast a clear silhouette above the low receiving entrance. Its broad bands and cone caps respond visibly to the Medieval row, with warmer pale masonry in Renaissance.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_granary_future_v0",
+          "evidence_sha256": "02302202b05f82833435b40d097599f705bdc38b8ba94a962a85a5c1e9631119",
+          "observations": "The silver and gold colors change across the two ages, but the view still reads as a pair of traditional hooped bins with conical caps. The transfer beam is nearly invisible behind the roofs at 64px.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 84,
+            "construction": 93,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Raise or redesign the transfer gallery so its supports and span read against the skyline, or introduce an equally recognizable advanced grain-handling silhouette."
+          ]
+        },
+        {
+          "id": "bld_dwarf_granary_industrial_v0",
+          "evidence_sha256": "050b5200340fcc065ae547c302324faf4db4288e6126de7dc654cec2f7ab64a8",
+          "observations": "The third smaller bin steps forward beside the unloading office. Red-brick shafts shift to concrete, while metal hoops and the low lit entrance scale the assembly.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_power_plant_future_v0",
+          "evidence_sha256": "e32f8b1eecbb19eff3127bfc3b96e2ab76f8f46ffae22fe2fae09c7e36ee3ec8",
+          "observations": "At phone size the two cooling mouths look like shallow filled pots on the roof. Only a small portion of one waist is visible behind the main block, and the brown discs sit immediately under the rims.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 91,
+            "construction": 86,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Expose a cooling-tower waist beside or substantially above the generator hall and deepen the open throat with credible inner surfaces."
+          ]
+        },
+        {
+          "id": "bld_dwarf_power_plant_industrial_v0",
+          "evidence_sha256": "69ea0c6c77daf0764a39b4376435290d30005e829b2d43c4fff763c53e3a3329",
+          "observations": "The two uneven metal-banded brick flues read above the flat boiler hall. Three separate ceramic transformer pots flank the entrance. The Modern concrete switches the hall without losing its industrial use.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_storehouse_ancient_v0",
+          "evidence_sha256": "ad168f43d32dd0eeca2c770a2cb0818ada019d8a9b51aa69e2cd2c33863f9c9b",
+          "observations": "Low stepped roof, wide cargo portal and strapped crates read as a storage house. Straw, bronze-era earth and dark Iron timber separate at roof scale; the planter provides a small counterpoint.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_storehouse_classical_v0",
+          "evidence_sha256": "8d4662d43e525bf46f8d9ca42a9adc1882fe3511f4322a0409a49d2bd1b63dfa",
+          "observations": "The long barrel roof and bright broad loading doors distinguish the warehouse from the upright granaries. The stone stair and stacked chests keep the loading apron legible in all three rows.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_storehouse_future_v0",
+          "evidence_sha256": "37848f05aeab89879007d7818fdbc98e17ccddb74076deb1bf09ff4c06c43430",
+          "observations": "The glazed raised lantern and ivory lid run the length of the low loading hall. The gold Ascension fascia, strapped crate stacks and clipped double portal retain dwarf character.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_storehouse_industrial_v0",
+          "evidence_sha256": "1cff08cc53ee938bdef4badd440cf5411a552be6013e2759abb4603f4786d881",
+          "observations": "The paired sawtooth roof profiles identify a working freight shed at thumbnail scale. Blue windows, large door and strapped cargo clearly separate from the brick or concrete walls.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_well_ancient_v0",
+          "evidence_sha256": "09c7c50bb99f54944a761ddfe39184e2526b93c71f31557915268629ef9cd202",
+          "observations": "Water, windlass and separate handled pail read clearly. A scalloped line appears around the lower edge of the well courses, strongest where the Iron wall darkens. The equal-radius drum and annulus use different polygon stations.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 88,
+            "charm": 94,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Match the sector count and angular stations of the lower tapered drum and first annulus, or replace their equal-radius seam with a continuous projecting stone course. Check the joint at every LOD."
+          ]
+        },
+        {
+          "id": "bld_dwarf_well_classical_v0",
+          "evidence_sha256": "40f9138d125e45d0085052319db98c6c261ae983605a603d097c225e1a58d69d",
+          "observations": "The pitched canopy spans two upright cheeks and shelters the hoist. Small disconnected marks run across the joint beneath the vessel rim in the pale stone rows, matching the mismatched drum and annulus sectors.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 88,
+            "charm": 93,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Match the sector count and angular stations of the lower tapered drum and first annulus, or replace their equal-radius seam with a continuous projecting stone course. Check the joint at every LOD."
+          ]
+        },
+        {
+          "id": "bld_dwarf_well_future_v0",
+          "evidence_sha256": "ab854e24f951c33a4730c314cc06e0d680379871770be2bf98987808b15f1fd2",
+          "observations": "The blue sloped collector, white top and separate water pail read clearly. The large render shows triangular dark flecks and uneven ledges across the bright side below the rim at the 12-to-14-sector seam.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 88,
+            "charm": 92,
+            "colour": 94,
+            "technical": 98
+          },
+          "defects": [
+            "Match the sector count and angular stations of the lower tapered drum and first annulus, or replace their equal-radius seam with a continuous projecting stone course. Check the joint at every LOD."
+          ]
+        },
+        {
+          "id": "bld_dwarf_well_industrial_v0",
+          "evidence_sha256": "561f065ff90343f7df9ea8fc48c18be159f665f8de129d4e46ce4f7b27160d62",
+          "observations": "The exposed motor and little flue add a recognizably mechanical profile beside the brass winding drum. The Modern grey wall shows detached dark notches at the same mismatched ring joint.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 88,
+            "charm": 93,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Match the sector count and angular stations of the lower tapered drum and first annulus, or replace their equal-radius seam with a continuous projecting stone course. Check the joint at every LOD."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Session 6 independent critic, commerce builder",
+      "models": [
+        {
+          "id": "bld_dwarf_aqueduct_classical_v0",
+          "evidence_sha256": "5eb1f51395e9c2a415264ba7a605355bb89845020e6162499fe62e3e011e0abe",
+          "observations": "Viewed all four age rows. Iron now has a dark rough arch wall and Medieval a warmer, lighter fascia beneath the blue raceway. Distinctive continuous coping carries this change at 64 pixels.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_granary_future_v0",
+          "evidence_sha256": "3fab232bc01326b5dd985d44ed37a4d131b5c55696132d2d440ecad949816b75",
+          "observations": "A raised, white-roofed transfer gallery bridges two freestanding silo heads. Its blue ribbon and visible transfer legs identify the advanced system at phone size in both palettes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_power_plant_future_v0",
+          "evidence_sha256": "aed9aa9ebb38eae86beee5b944b0937643d15f8972fc1a3cafe1b972af27b58c",
+          "observations": "The near cooling tower now shows its entire flared foot and pinched waist beside the hall. Deep inner lining and a narrow metal lip read as a hollow throat in both Silver and Ascension gold.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_well_ancient_v0",
+          "evidence_sha256": "dcf2c85b193b5b9d09bfc9de13df0f61609c2c9d2c36f3a232249332338d24d8",
+          "observations": "The lower drum and upper stone/timber course follow the same polygon corners. All three ages show a clean continuous vessel beneath the projecting curb, with the winding wheel and pail intact.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_well_classical_v0",
+          "evidence_sha256": "3879647c2248115b1b84e43a64eba4f627e4c522d35da320684ad5a842261350",
+          "observations": "The exposed near-facing side is continuous under the stone lip in Classical, Medieval and Renaissance. Matching course edges preserve the pale sill and contrasting timber in the roofed hoist.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_well_future_v0",
+          "evidence_sha256": "769374d650deaffcd6bfe2d7afc88fe83e07575af247d505aeb1ae1bb024a7e3",
+          "observations": "The dark triangular edge fragments have disappeared from the alloy wall in Information and the pale face in Ascension. The open shaft, covered collector and handled pail remain readable.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_well_industrial_v0",
+          "evidence_sha256": "f672d59edf3b3282938da49f8c0b94a761b1832374bee1f1d71711b17cc75477",
+          "observations": "The clean curb meets the drum along a continuous line in the brick and concrete versions. The side motor, small stack and contrasting winding sleeve still frame the opening.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

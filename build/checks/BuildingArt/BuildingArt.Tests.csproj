@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Headless lookup and batch geometry checks with an in-process NUnit runner. -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NUnitLite" Version="3.13.3" />
+    <Compile Include="../../../Assets/GodSim/Core/Contracts/**/*.cs" />
+    <Compile Include="../../../Assets/GodSim/Unity/Runtime/Buildings/**/*.cs" />
+    <Compile Include="../UnityBuildings/stubs/**/*.cs" />
+  </ItemGroup>
+</Project>

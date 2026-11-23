@@ -1,0 +1,422 @@
+[
+ {
+  "id": "bld_elf_town_center_ancient_bronze_v0",
+  "kind": "townhall",
+  "category": "Buildings/Elf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "elf",
+  "ages": [
+   "bronze"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 2011,
+  "lod_triangles": [
+   2011,
+   1107,
+   404
+  ],
+  "bounds": [
+   [
+    -0.8426927328109741,
+    0.0,
+    -0.9240000247955322
+   ],
+   [
+    0.782941460609436,
+    1.740399956703186,
+    0.760107696056366
+   ]
+  ],
+  "bytes": 335096,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/TownCenters/bld_elf_town_center_ancient_bronze_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_ancient_bronze_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_ancient_bronze_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_town_center_ancient_iron_v0",
+  "kind": "townhall",
+  "category": "Buildings/Elf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "elf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 2474,
+  "lod_triangles": [
+   2474,
+   1414,
+   514
+  ],
+  "bounds": [
+   [
+    -0.91608065366745,
+    0.0,
+    -0.9240000247955322
+   ],
+   [
+    0.9363664388656616,
+    1.6744483709335327,
+    0.7676190137863159
+   ]
+  ],
+  "bytes": 417268,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/TownCenters/bld_elf_town_center_ancient_iron_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_ancient_iron_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_ancient_iron_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_town_center_ancient_v0",
+  "kind": "townhall",
+  "category": "Buildings/Elf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "elf",
+  "ages": [
+   "dawn"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1752,
+  "lod_triangles": [
+   1752,
+   906,
+   474
+  ],
+  "bounds": [
+   [
+    -0.9736366271972656,
+    0.0,
+    -0.9240000247955322
+   ],
+   [
+    0.909127950668335,
+    1.562999963760376,
+    0.7069184184074402
+   ]
+  ],
+  "bytes": 299012,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/TownCenters/bld_elf_town_center_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_town_center_classical_medieval_v0",
+  "kind": "townhall",
+  "category": "Buildings/Elf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "elf",
+  "ages": [
+   "medieval"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 2355,
+  "lod_triangles": [
+   2355,
+   1327,
+   466
+  ],
+  "bounds": [
+   [
+    -0.7441705465316772,
+    0.0,
+    -0.9240000247955322
+   ],
+   [
+    0.9367451667785645,
+    2.3015999794006348,
+    0.7521024942398071
+   ]
+  ],
+  "bytes": 391796,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/TownCenters/bld_elf_town_center_classical_medieval_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_classical_medieval_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_classical_medieval_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_town_center_classical_renaissance_v0",
+  "kind": "townhall",
+  "category": "Buildings/Elf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "elf",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 2200,
+  "lod_triangles": [
+   2200,
+   1230,
+   496
+  ],
+  "bounds": [
+   [
+    -0.7375619411468506,
+    0.0,
+    -0.9240000247955322
+   ],
+   [
+    0.9459877610206604,
+    1.7803599834442139,
+    0.6511544585227966
+   ]
+  ],
+  "bytes": 368484,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/TownCenters/bld_elf_town_center_classical_renaissance_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_classical_renaissance_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_classical_renaissance_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_town_center_classical_v0",
+  "kind": "townhall",
+  "category": "Buildings/Elf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "elf",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1991,
+  "lod_triangles": [
+   1991,
+   1203,
+   442
+  ],
+  "bounds": [
+   [
+    -0.8434665203094482,
+    0.0,
+    -0.9240000247955322
+   ],
+   [
+    0.8366683125495911,
+    1.4812116622924805,
+    0.743405282497406
+   ]
+  ],
+  "bytes": 326912,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/TownCenters/bld_elf_town_center_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_town_center_future_ascension_v0",
+  "kind": "townhall",
+  "category": "Buildings/Elf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "elf",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 2077,
+  "lod_triangles": [
+   2077,
+   1203,
+   530
+  ],
+  "bounds": [
+   [
+    -0.7224286794662476,
+    0.0,
+    -0.9240000247955322
+   ],
+   [
+    0.742358922958374,
+    1.9112000465393066,
+    0.6696405410766602
+   ]
+  ],
+  "bytes": 365316,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/TownCenters/bld_elf_town_center_future_ascension_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_future_ascension_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_future_ascension_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_town_center_future_v0",
+  "kind": "townhall",
+  "category": "Buildings/Elf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "elf",
+  "ages": [
+   "information"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1941,
+  "lod_triangles": [
+   1941,
+   1129,
+   552
+  ],
+  "bounds": [
+   [
+    -0.6967971920967102,
+    0.0,
+    -0.9240000247955322
+   ],
+   [
+    0.7096229791641235,
+    2.3410637378692627,
+    0.6600189208984375
+   ]
+  ],
+  "bytes": 330348,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/TownCenters/bld_elf_town_center_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_future_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_town_center_industrial_modern_v0",
+  "kind": "townhall",
+  "category": "Buildings/Elf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "elf",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1714,
+  "lod_triangles": [
+   1714,
+   966,
+   422
+  ],
+  "bounds": [
+   [
+    -0.8062525391578674,
+    0.0,
+    -0.9240000247955322
+   ],
+   [
+    0.8999999761581421,
+    1.6525280475616455,
+    0.6316558718681335
+   ]
+  ],
+  "bytes": 284552,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/TownCenters/bld_elf_town_center_industrial_modern_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_industrial_modern_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_industrial_modern_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_town_center_industrial_v0",
+  "kind": "townhall",
+  "category": "Buildings/Elf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "elf",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1922,
+  "lod_triangles": [
+   1922,
+   960,
+   502
+  ],
+  "bounds": [
+   [
+    -0.8226838707923889,
+    0.0,
+    -0.9240000247955322
+   ],
+   [
+    0.8399999737739563,
+    1.6039999723434448,
+    0.6621348857879639
+   ]
+  ],
+  "bytes": 303576,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/TownCenters/bld_elf_town_center_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/TownCenters/bld_elf_town_center_industrial_v0.png"
+  }
+ }
+]

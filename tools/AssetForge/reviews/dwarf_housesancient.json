@@ -1,0 +1,123 @@
+{
+  "package": "dwarf_housesancient",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "critic_dwarf_ancient_houses",
+      "models": [
+        {
+          "id": "bld_dwarf_house_ancient_v0",
+          "evidence_sha256": "1f6886a4b051c4055a832f664f29a203f9f25a27ed330ad2073c858b2707505f",
+          "observations": "At 48 px the straw vault makes a low golden arch above the timber hearth. Its generous overhang, small side light, raked stone feet and tucked-in chimney give the house a different profile from the hipped Dawn variant. Both reduced GLBs keep the characteristic roof and front step. The 355/196/80 triangle meshes passed serialized checks. The pot and the amber wall lamp lack contact with their supports.",
+          "scores": {"silhouette": 94, "identity": 93, "construction": 88, "charm": 93, "colour": 94, "technical": 95},
+          "defects": [
+            "LOD0. Lower the entire doorway pot by 0.008 tile. The bottom rim sits at y=0.008 above bare ground.",
+            "LOD0/1. The back of the amber lamp socket clears the timber by approximately 0.013/0.011 tile along its centreline. Add a solid mounting block that enters the wall batter and connects to the existing socket."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_ancient_v1",
+          "evidence_sha256": "5c9482e0f927f4dd6ad23635c621b98bd72e14df92f1c4eca1ea37641cb653ea",
+          "observations": "The tall off-centre flue, hipped roof and little straw-roofed side room define this house at 48 px. The small bench, amber lamp and thick stone foot bring scale to the timber front. The side-window hood emerges as a small dark peg through the lighter annex thatch. The 351/174/90 triangle meshes passed serialized checks. Comparing front and rear LODs shows the entire tall flue disappearing at the first transition.",
+          "scores": {"silhouette": 87, "identity": 92, "construction": 85, "charm": 91, "colour": 93, "technical": 92},
+          "defects": [
+            "Preserve the tall flue in LOD1 and LOD2 as a simple tapered shaft with a cap. Keep its height and attachment on the rear roof pitch so the roof outline holds through the transition.",
+            "LOD0. Move the side window and hood to the exposed opposite wall. Their current position puts the window inside the side room and leaves the end of its hood sticking through the annex thatch.",
+            "LOD0. Lower the pot and its contents by 0.008 tile to place the lowest rim on the ground.",
+            "LOD0/1. Bridge the approximately 0.013 tile gap behind the amber lamp with a mounting block running into the tapered timber front."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_ancient_bronze_v0",
+          "evidence_sha256": "849ce7639bf0bad9263d71a05f974ec90a809c5bf33abbd36a107762f535510c",
+          "observations": "The clipped roof and smaller copper-trimmed upper tier form a broad, stepped silhouette at 48 px. Ochre masonry, the chunky front lintel, a gilded chimney rim and the diamond lamp distinguish this Bronze home from the straw Dawn vault. Both lower LODs preserve the two tiers, the step and the stone foot. The 407/254/102 triangle meshes passed serialized checks. The lamp has a measurable air gap behind it, and the pot floats just clear of the ground.",
+          "scores": {"silhouette": 95, "identity": 95, "construction": 87, "charm": 93, "colour": 94, "technical": 95},
+          "defects": [
+            "LOD0/1. Extend a mounting block from the rear of the diamond socket into the ochre wall. The centreline gaps are 0.0275 and 0.0253 tile respectively.",
+            "LOD0. Drop the complete pot by 0.008 tile so its lowest ring reaches terrain."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_ancient_bronze_v1",
+          "evidence_sha256": "71ee7934f230f48e669652518b73125e4616aff5d485bad2e29caa1aac221169",
+          "observations": "The ochre barrel roof and low copper-edged room make two clearly unequal volumes at 48 px. A bright lintel, jewel lamp and small flue lead the eye to the domestic entrance. The window hood crosses the copper-edged annex as an isolated brown tab. Both lower meshes retain the side room and vault. The 453/292/120 triangle meshes passed serialized checks.",
+          "scores": {"silhouette": 94, "identity": 94, "construction": 85, "charm": 91, "colour": 93, "technical": 94},
+          "defects": [
+            "LOD0. Relocate the side-window assembly to a clear wall. The annex encloses the pane and cuts across its hood, leaving a stray projection on the annex roof.",
+            "LOD0/1. Seat the amber lamp on a solid bracket. Its central gap to the wall measures 0.0284 tile at full detail and 0.0271 tile at the middle LOD.",
+            "LOD0. Lower the pot by 0.008 tile as one assembly to give the bottom rim ground contact."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_ancient_iron_v0",
+          "evidence_sha256": "bbd3aa407c7d26114efe66cfb79f4e136609fe94f9ee728eb6051a35ec835c61",
+          "observations": "The dark timber vault, metal hoop and fieldstone front make the Iron progression legible beside the Bronze house at 48 px. The low chimney tucked along the crown and tiny hooded side light give the broad, buttressed hall a residential scale. All three GLBs keep the vaulted roof, stove flue and entry. The 387/234/100 triangle meshes passed serialized checks. Contact is missing behind the lamp and beneath the pot.",
+          "scores": {"silhouette": 94, "identity": 95, "construction": 88, "charm": 93, "colour": 94, "technical": 95},
+          "defects": [
+            "LOD0/1. Extend a bracket into the stone behind the amber lamp. Its socket centre is separated from the wall face by 0.0144/0.0121 tile.",
+            "LOD0. Ground the pot by lowering the entire assembly by 0.008 tile."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_ancient_iron_v1",
+          "evidence_sha256": "c49a94ce5b70ee51249652ada1fd0ebaeb54327a65d645b02801cb556cc14a0e",
+          "observations": "The taller main vault and low slate side vault give this house an asymmetric two-arch silhouette at 48 px. The warm lintel and doorway lamp stand out against the stone, and the dark chimney remains visible in both reduced meshes. The full-detail side window occupies the wall within the annex. The 437/276/126 triangle meshes passed serialized checks.",
+          "scores": {"silhouette": 95, "identity": 95, "construction": 87, "charm": 92, "colour": 94, "technical": 94},
+          "defects": [
+            "LOD0. Move the hidden hooded window to the clear wall opposite the slate annex. A section through the hood centre places it inside the annex roof.",
+            "LOD0/1. Add a mounting block behind the diamond lamp. Its socket clears the fieldstone wall by about 0.015 tile at both levels.",
+            "LOD0. Lower the complete doorway pot by 0.008 tile so the lowest ring rests on the ground."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "critic_dwarf_ancient_houses",
+      "models": [
+        {
+          "id": "bld_dwarf_house_ancient_v0",
+          "evidence_sha256": "41fb2a4bcb405c00190babd84d66bd5b061f37391202d4f3a2491ccdba660e60",
+          "observations": "The golden thatch vault still defines the Dawn hearth at 48 px. The little chimney persists above the roof in both reduced rear views, and the steps meet a substantial timber doorway. The pot rim rests at y=0. The diamond socket extends 0.0574 tile into the front timber in LOD0 and 0.0593 in LOD1. The 387/238/112 triangle exports cleared serialized, winding and exposed-pair checks.",
+          "scores": {"silhouette": 94, "identity": 93, "construction": 94, "charm": 93, "colour": 94, "technical": 99},
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_ancient_v1",
+          "evidence_sha256": "8d91f2c60a3dfdd57acff0c99c589ccb31e264d5bd0f80611dde920d82e963d4",
+          "observations": "At thumbnail size the leaning flue rises distinctly above the main hip. All three exported LODs preserve its height and cap in both views. The pale thatch on the annex now reads as one clean slope. The hooded window and rear vent are visible on the other side, while the bench stays beside the entrance. The pot base measures y=0 and the lamp back seats at least 0.057 tile inside the timber on both lamp-bearing LODs. The 383/216/122 triangle meshes cleared validation.",
+          "scores": {"silhouette": 94, "identity": 92, "construction": 94, "charm": 94, "colour": 93, "technical": 99},
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_ancient_bronze_v0",
+          "evidence_sha256": "5326dda0c792245c40d0ebeff5ea2eda15a28dabd4dce5b83206e2485c5b742e",
+          "observations": "The broad stepped cap, gold upper course and small stove chimney remain distinct together at phone size and in both distance meshes. Thick buttresses step out from under the ochre eaves. The lamp is seated 0.0429/0.0451 tile into the wall at LOD0/1, and the pot stands on the ground beside the stair. All three exported levels cleared the validator at 439/266/134 triangles.",
+          "scores": {"silhouette": 95, "identity": 95, "construction": 95, "charm": 93, "colour": 94, "technical": 99},
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_ancient_bronze_v1",
+          "evidence_sha256": "06c8159b8048101da167f90ff030b60f7c3afee8b70c711c9224cec90adf2cca",
+          "observations": "The low annex has a clean copper-edged roof beneath the higher ochre vault. Its opposite wall carries the hooded lamp window, visible beside the stone buttress from the rear. All three levels retain the two roof masses and the small capped flue. The front socket reaches 0.0420/0.0433 tile into the wall at the two relevant distances. The doorstep pot reaches y=0. The 485/304/152 triangle exports cleared validation.",
+          "scores": {"silhouette": 94, "identity": 94, "construction": 95, "charm": 93, "colour": 93, "technical": 99},
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_ancient_iron_v0",
+          "evidence_sha256": "6176f80cf9bf8ad1d2b1dda0c4f6b2f6890623bdaf74a1ffe8d78a713df50f73",
+          "observations": "At 48 px the dark timber arc and stone entrance distinguish this lodge from the lighter Bronze homes. Front and rear distance views keep the vault, plinth and capped flue. The doorway pot now sits at ground level and the diamond light has a positive mounting depth of 0.0560/0.0583 tile. The 419/246/112 triangle GLBs cleared the serialized and exposed-surface checks.",
+          "scores": {"silhouette": 94, "identity": 95, "construction": 95, "charm": 93, "colour": 94, "technical": 99},
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_ancient_iron_v1",
+          "evidence_sha256": "0e8458059927e54c915c5346fd4ea2efb613cbb7cb00134834991cdcf273b33a",
+          "observations": "The two unequal vaults are clear at 48 px and survive both reductions. In reverse view the hooded side window can now be seen between the buttresses on the open wall. The slate annex, iron hoop and warm doorway retain their separate values. The pot rim reaches y=0. The lamp socket extends 0.0553/0.0550 tile into the stone front. The 469/288/138 triangle exports cleared validation at all levels.",
+          "scores": {"silhouette": 95, "identity": 95, "construction": 95, "charm": 94, "colour": 94, "technical": 99},
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

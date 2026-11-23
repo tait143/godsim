@@ -1,0 +1,1024 @@
+[
+ {
+  "id": "bld_dwarf_armory_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Armory",
+  "race": "dwarf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 932,
+  "lod_triangles": [
+   932,
+   436,
+   236
+  ],
+  "bounds": [
+   [
+    -0.9350000023841858,
+    0.0,
+    -0.3799999952316284
+   ],
+   [
+    0.9350000023841858,
+    0.991102397441864,
+    0.41999998688697815
+   ]
+  ],
+  "bytes": 115644,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_armory_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_armory_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_armory_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_armory_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Armory",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 932,
+  "lod_triangles": [
+   932,
+   436,
+   236
+  ],
+  "bounds": [
+   [
+    -0.9350000023841858,
+    0.0,
+    -0.3799999952316284
+   ],
+   [
+    0.9350000023841858,
+    1.006775975227356,
+    0.41999998688697815
+   ]
+  ],
+  "bytes": 115676,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_armory_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_armory_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_armory_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_armory_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_armory_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_armory_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Armory",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 956,
+  "lod_triangles": [
+   956,
+   460,
+   248
+  ],
+  "bounds": [
+   [
+    -0.9350000023841858,
+    0.0,
+    -0.3799999952316284
+   ],
+   [
+    0.9350000023841858,
+    1.058284044265747,
+    0.41999998688697815
+   ]
+  ],
+  "bytes": 119348,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_armory_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_armory_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_armory_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_armory_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_armory_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Armory",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 956,
+  "lod_triangles": [
+   956,
+   460,
+   248
+  ],
+  "bounds": [
+   [
+    -0.9350000023841858,
+    0.0,
+    -0.3799999952316284
+   ],
+   [
+    0.9350000023841858,
+    0.9946100115776062,
+    0.41999998688697815
+   ]
+  ],
+  "bytes": 119868,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_armory_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_armory_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_armory_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_armory_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_blacksmith_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Blacksmith",
+  "race": "dwarf",
+  "ages": [
+   "iron",
+   "bronze"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1114,
+  "lod_triangles": [
+   1114,
+   542,
+   285
+  ],
+  "bounds": [
+   [
+    -0.9399999976158142,
+    0.0,
+    -0.39250001311302185
+   ],
+   [
+    0.9399999976158142,
+    0.805088996887207,
+    0.42250001430511475
+   ]
+  ],
+  "bytes": 135584,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_ancient_v0__bronze.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_blacksmith_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Blacksmith",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1114,
+  "lod_triangles": [
+   1114,
+   542,
+   285
+  ],
+  "bounds": [
+   [
+    -0.9399999976158142,
+    0.0,
+    -0.39250001311302185
+   ],
+   [
+    0.9399999976158142,
+    0.891198992729187,
+    0.42250001430511475
+   ]
+  ],
+  "bytes": 135224,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_blacksmith_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Blacksmith",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1126,
+  "lod_triangles": [
+   1126,
+   554,
+   285
+  ],
+  "bounds": [
+   [
+    -0.9399999976158142,
+    0.0,
+    -0.39250001311302185
+   ],
+   [
+    0.9399999976158142,
+    0.87397700548172,
+    0.42250001430511475
+   ]
+  ],
+  "bytes": 137140,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_blacksmith_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Blacksmith",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1126,
+  "lod_triangles": [
+   1126,
+   554,
+   285
+  ],
+  "bounds": [
+   [
+    -0.9399999976158142,
+    0.0,
+    -0.39250001311302185
+   ],
+   [
+    0.9399999976158142,
+    0.9600870013237,
+    0.42250001430511475
+   ]
+  ],
+  "bytes": 137528,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_electronics_plant_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "ElectronicsPlant",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1122,
+  "lod_triangles": [
+   1122,
+   650,
+   234
+  ],
+  "bounds": [
+   [
+    -1.3875000476837158,
+    0.0,
+    -1.2975000143051147
+   ],
+   [
+    1.3875000476837158,
+    1.5644999742507935,
+    1.2975000143051147
+   ]
+  ],
+  "bytes": 145576,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_electronics_plant_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_electronics_plant_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_electronics_plant_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_electronics_plant_future_v0__ascension.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_electronics_plant_future_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_factory_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Factory",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 858,
+  "lod_triangles": [
+   858,
+   458,
+   214
+  ],
+  "bounds": [
+   [
+    -1.409999966621399,
+    0.0,
+    -1.3200000524520874
+   ],
+   [
+    1.409999966621399,
+    1.809000015258789,
+    1.3200000524520874
+   ]
+  ],
+  "bytes": 107144,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_factory_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_factory_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_factory_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_factory_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_factory_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Factory",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 826,
+  "lod_triangles": [
+   826,
+   426,
+   182
+  ],
+  "bounds": [
+   [
+    -1.409999966621399,
+    0.0,
+    -1.3200000524520874
+   ],
+   [
+    1.409999966621399,
+    1.809000015258789,
+    1.3200000524520874
+   ]
+  ],
+  "bytes": 100808,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_factory_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_factory_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_factory_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_factory_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_foundry_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Foundry",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1272,
+  "lod_triangles": [
+   1272,
+   624,
+   368
+  ],
+  "bounds": [
+   [
+    -1.409999966621399,
+    0.0,
+    -1.3200000524520874
+   ],
+   [
+    1.409999966621399,
+    2.06820011138916,
+    1.3200000524520874
+   ]
+  ],
+  "bytes": 161412,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_foundry_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_foundry_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_foundry_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_foundry_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_foundry_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Foundry",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1232,
+  "lod_triangles": [
+   1232,
+   584,
+   344
+  ],
+  "bounds": [
+   [
+    -1.409999966621399,
+    0.0,
+    -1.3200000524520874
+   ],
+   [
+    1.409999966621399,
+    2.06820011138916,
+    1.3200000524520874
+   ]
+  ],
+  "bytes": 154516,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_foundry_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_foundry_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_foundry_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_foundry_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_smelter_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Smelter",
+  "race": "dwarf",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1100,
+  "lod_triangles": [
+   1100,
+   484,
+   252
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.4099999964237213
+   ],
+   [
+    0.9300000071525574,
+    0.9256430268287659,
+    0.41999998688697815
+   ]
+  ],
+  "bytes": 129596,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_smelter_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_smelter_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Smelter",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1100,
+  "lod_triangles": [
+   1100,
+   484,
+   252
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.4099999964237213
+   ],
+   [
+    0.9300000071525574,
+    1.011752963066101,
+    0.41999998688697815
+   ]
+  ],
+  "bytes": 129936,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_smelter_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_smelter_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Smelter",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1124,
+  "lod_triangles": [
+   1124,
+   508,
+   264
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.4099999964237213
+   ],
+   [
+    0.9300000071525574,
+    0.994530975818634,
+    0.41999998688697815
+   ]
+  ],
+  "bytes": 134892,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_smelter_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_smelter_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Smelter",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1124,
+  "lod_triangles": [
+   1124,
+   508,
+   264
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.4099999964237213
+   ],
+   [
+    0.9300000071525574,
+    1.1064740419387817,
+    0.41999998688697815
+   ]
+  ],
+  "bytes": 135348,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_smelter_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_weaver_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Weaver",
+  "race": "dwarf",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1068,
+  "lod_triangles": [
+   1068,
+   416,
+   224
+  ],
+  "bounds": [
+   [
+    -0.4650000035762787,
+    0.0,
+    -0.42250001430511475
+   ],
+   [
+    0.4650000035762787,
+    0.4665200114250183,
+    0.42250001430511475
+   ]
+  ],
+  "bytes": 119736,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_weaver_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_weaver_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Weaver",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1068,
+  "lod_triangles": [
+   1068,
+   416,
+   224
+  ],
+  "bounds": [
+   [
+    -0.4650000035762787,
+    0.0,
+    -0.42250001430511475
+   ],
+   [
+    0.4650000035762787,
+    0.4758000075817108,
+    0.42250001430511475
+   ]
+  ],
+  "bytes": 119760,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_weaver_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_weaver_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Weaver",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1104,
+  "lod_triangles": [
+   1104,
+   452,
+   248
+  ],
+  "bounds": [
+   [
+    -0.4650000035762787,
+    0.0,
+    -0.42250001430511475
+   ],
+   [
+    0.4650000035762787,
+    0.4641999900341034,
+    0.42250001430511475
+   ]
+  ],
+  "bytes": 127236,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_weaver_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_weaver_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Weaver",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1104,
+  "lod_triangles": [
+   1104,
+   452,
+   248
+  ],
+  "bounds": [
+   [
+    -0.4650000035762787,
+    0.0,
+    -0.42250001430511475
+   ],
+   [
+    0.4650000035762787,
+    0.42998000979423523,
+    0.42250001430511475
+   ]
+  ],
+  "bytes": 127880,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_weaver_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_workshop_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Workshop",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 910,
+  "lod_triangles": [
+   910,
+   466,
+   289
+  ],
+  "bounds": [
+   [
+    -0.9049999713897705,
+    0.0,
+    -0.8450000286102295
+   ],
+   [
+    0.9049999713897705,
+    1.1160000562667847,
+    0.8450000286102295
+   ]
+  ],
+  "bytes": 119348,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_workshop_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_workshop_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_workshop_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_workshop_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_workshop_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_workshop_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Industry",
+  "building_type": "Workshop",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1098,
+  "lod_triangles": [
+   1098,
+   562,
+   337
+  ],
+  "bounds": [
+   [
+    -0.9049999713897705,
+    0.0,
+    -0.8450000286102295
+   ],
+   [
+    0.9049999713897705,
+    1.2039999961853027,
+    0.8450000286102295
+   ]
+  ],
+  "bytes": 141428,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_workshop_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_workshop_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_workshop_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_workshop_industrial_v0__modern.png"
+  }
+ }
+]

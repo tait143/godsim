@@ -1,0 +1,49 @@
+{
+  "package": "saurian_wonders",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Codex independent Saurian wonders critic",
+      "models": [
+        {
+          "id": "bld_saurian_sun_pyramid_ancient_v0",
+          "evidence_sha256": "d8ce8ba7966950e2dcc15dcfd1883286681b9f5df2c97e47bc4b20b20ba37b61",
+          "observations": "Opened all nine 288 px age previews and compared them at roughly 40 px and 64 px building widths. The broad four-course pyramid, front procession stair and round gold sight read quickly. Bronze earthen stone, Industrial brick, Classical pale stone with a warm roof, Information white with a dark roof and Ascension gold roofing distinguish the ages. Turquoise cheek stones frame the entrance. The two distinct vessels and calendar markers reward a closer look. The stair guardians read as capped blocks even in the enlarged preview. The serialized validator passed for 1,430 / 756 / 316 triangles, including material references, winding versus normals, UVs and degenerate-face checks. All three levels start at y=0 and fit 3 by 3. Backface-culled views of each exported LOD show the four grounded terraces, supported sanctuary and sight. LOD2 loses the radiating crown and nearly all turquoise outside the tiny centre of the sight. A separate triangle intersection check found a partial coplanar overlap at the top step in every level.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 89,
+            "construction": 94,
+            "charm": 87,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "All LODs. The last tread and summit terrace overlap at y=1.160, with four positive-area triangle intersections per level. Trim the tread to meet the terrace's front edge at z=-0.36328 and let the terrace alone form the landing. Recheck all three meshes for positive-area coplanar overlap.",
+            "LOD2. The solar sight loses every ray and the stair loses its turquoise runners at the same switch. It reads as a plain hoop above an almost monochrome stair. Retain at least three broad sun rays and give the existing sloping cheek faces a turquoise accent. Check the low-detail view beside LOD1 at phone size.",
+            "The guardian heads at the stair foot have nearly the same width as their block supports and blend into the runner ends. Give each a projecting tapered snout, a stepped brow and a visible light or gold eye. Keep the pair attached to their plinths and the procession stair unobstructed."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Codex independent Saurian wonders critic",
+      "models": [
+        {
+          "id": "bld_saurian_sun_pyramid_ancient_v0",
+          "evidence_sha256": "39027dc575f3e6a3ff93b2d5d5bc9019d5def554ec61f469b926f3a9ec423331",
+          "observations": "Reopened all nine revised 288 px age previews and compared them at a 48 px building width. The projecting ivory muzzles now separate both jade guardians from the stair runners at detail size. The eyes and stepped brows give the pair a crouching animal profile. The stairs remain clear between them. Small-scale crops retain the procession route, four spreading terraces and gold sun sight from Bronze through Ascension. Industrial brick and the cool Information terraces read particularly well; Bronze and Renaissance are closest in value, with distinct roof hues. Reconstructed backface-culled views directly from the exported positions, indices and atlas UVs for all three LODs. At 48 px LOD2 retains both turquoise stair runners, an open sight with three rays, and the height of the two nearer crowns. The summit tread meets the terrace. An independent triangle intersection check returned zero positive-area coplanar overlaps above 0.0000001 square tiles at every LOD. Each mesh starts at y=0 and reaches y=2.577. The serialized validator passed for 1,526 / 860 / 332 triangles, the 3 by 3 footprint, shared material and texture references, UVs, face normals and degeneracy. The approach faces negative Z and the shrine roof and its crown have visible supports.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

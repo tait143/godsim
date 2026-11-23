@@ -1,0 +1,62 @@
+[
+ {
+  "id": "bld_orc_war_idol_ancient_v0",
+  "kind": "wonder",
+  "category": "Buildings/Orc/Wonders",
+  "building_type": "WarIdol",
+  "race": "orc",
+  "ages": [
+   "bronze",
+   "iron",
+   "classical",
+   "medieval",
+   "renaissance",
+   "industrial",
+   "modern",
+   "information",
+   "ascension",
+   "dawn"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 2507,
+  "lod_triangles": [
+   2507,
+   1390,
+   793
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.9679999947547913
+   ],
+   [
+    0.925000011920929,
+    2.6649999618530273,
+    0.8790000081062317
+   ]
+  ],
+  "bytes": 432128,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Wonders/bld_orc_war_idol_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Wonders/bld_orc_war_idol_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/Wonders/bld_orc_war_idol_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Wonders/bld_orc_war_idol_ancient_v0__iron.png",
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Wonders/bld_orc_war_idol_ancient_v0__classical.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Wonders/bld_orc_war_idol_ancient_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Wonders/bld_orc_war_idol_ancient_v0__renaissance.png",
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Wonders/bld_orc_war_idol_ancient_v0__industrial.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Wonders/bld_orc_war_idol_ancient_v0__modern.png",
+   "information": "tools/AssetForge/previews/Buildings/Orc/Wonders/bld_orc_war_idol_ancient_v0__information.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Wonders/bld_orc_war_idol_ancient_v0__ascension.png",
+   "dawn": "tools/AssetForge/previews/Buildings/Orc/Wonders/bld_orc_war_idol_ancient_v0__dawn.png"
+  }
+ }
+]

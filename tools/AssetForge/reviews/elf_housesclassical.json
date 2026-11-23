@@ -1,0 +1,200 @@
+{
+  "package": "elf_housesclassical",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "critic_elf_classical_houses",
+      "models": [
+        {
+          "id": "bld_elf_house_classical_medieval_v0",
+          "evidence_sha256": "4a3363ce820915fc6140a92cf6d8445ff8c132912476a59361a36ae0551b9e69",
+          "observations": "At 64 px the single swept leaf roof, pointed door and amber side light read as a cottage. The fieldstone footing and paired root buttresses still register in the 255- and 149-triangle distance meshes. On the 504-triangle near mesh the garden shutter stands clear of the tapered rear wall.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 87,
+            "charm": 94,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the rear shutter on the tapered wall. Its six backing corners stand 0.0087 to 0.0282 tile clear of the wall. Fit a shallow frame with side returns so the upper tip has a visible attachment."
+          ]
+        },
+        {
+          "id": "bld_elf_house_classical_medieval_v1",
+          "evidence_sha256": "66284600e899c29c03e77eb014320c297a80e39b3942aac813d5ec257b7ad5b5",
+          "observations": "The lower side chamber makes a distinct second peak at 64 px. Both roofs, the pale uprights and the dark entrance remain legible on the exported 324- and 196-triangle meshes. In the 643-triangle near mesh the rear shutter has a measurable gap along its whole perimeter.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 87,
+            "charm": 94,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Fit the rear shutter backing to the round wall or give it a frame that extends into the facade. Its six corners stand 0.0099 to 0.0225 tile outside the masonry."
+          ]
+        },
+        {
+          "id": "bld_elf_house_classical_renaissance_v0",
+          "evidence_sha256": "48fcc6ae97176edd4d68b3f8554173228a4039170ce09d864595c0031469a74d",
+          "observations": "The blue lantern breaks the dome outline at 64 px. The warm wall, turquoise pointed entrance, pink planter and low stair make the approach legible. The 229- and 127-triangle meshes keep the roof lantern and entrance. The shutter on the rear of the 451-triangle near mesh has no frame connecting it to the wall.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 89,
+            "charm": 94,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "Give the rear almond shutter a fitted backing. Its lowest corner is 0.0022 tile off the wall, its upper corner is 0.0130 tile clear, and the centre gap is 0.0076 tile."
+          ]
+        },
+        {
+          "id": "bld_elf_house_classical_renaissance_v1",
+          "evidence_sha256": "05b0ab5c2f52b1524d008a3dfaa2d793044f4790a5f9ea3d99e33290360ad33a",
+          "observations": "The offset side loggia distinguishes this workshop house from the single dome at 64 px. Its roof lantern, pointed entry and side roof survive all three exports at 683, 395 and 203 triangles. From the side, the outer front column ends partly beyond the porch roof. On the rear wall the decorative shutter is visibly thin edge-on.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 83,
+            "charm": 93,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Move the upper end of the outer front loggia column under the bearing ring at all three LODs, or extend the ring to cover it. The column centre stops about 0.035 tile below the nearest overhead face and outer corners project beyond the canopy.",
+            "Fit the rear shutter to the wall. Its backing corners stand 0.0038 to 0.0102 tile proud of the surface with no mounting frame."
+          ]
+        },
+        {
+          "id": "bld_elf_house_classical_v0",
+          "evidence_sha256": "9ace174f577bb9a208444c3ba6cf4ddf1e91452aa326c04ddc3594945da524c5",
+          "observations": "At 64 px the front colonnade, wide dome and white stair establish the Classical house. Its blue porch landing contrasts with the warm roof. All three exported meshes preserve the approach at 622, 343 and 165 triangles. The flared ivory shafts read as exposed prongs around the little porch roof. The garden shutter cuts into the wall at its lower tip.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 82,
+            "charm": 91,
+            "colour": 92,
+            "technical": 94
+          },
+          "defects": [
+            "Bring the two front column heads fully under the canopy ring through LOD2. Their centres are about 0.035 tile below the nearest overhead face, and their exposed outer corners have no roof above them.",
+            "Fit a backing for the rear shutter along the sloped wall. Its bottom tip penetrates 0.0007 tile, while the centre stands 0.0063 tile out and the upper tip projects 0.0133 tile."
+          ]
+        },
+        {
+          "id": "bld_elf_house_classical_v1",
+          "evidence_sha256": "a1ab949c03139b517e2fe8f33b6124594bdbc9bdab4fb1b7393365f494f82dcc",
+          "observations": "The tall main dome, lower side chamber and small porch form a stepped group at 64 px. The side chamber and columned entrance persist on the 391- and 199-triangle distance meshes. The 692-triangle near mesh shows the column heads projecting beyond the porch and a separate, thin garden shutter against the back of the tall drum.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 82,
+            "charm": 92,
+            "colour": 92,
+            "technical": 94
+          },
+          "defects": [
+            "Move the front porch column tops inward or enlarge their overhead bearing ring across all three LODs. The centres stop about 0.035 tile below the overhead face, and outer top-ring corners extend beyond the canopy.",
+            "Seat the rear shutter on the tapered wall. All six backing corners are clear, with gaps from 0.0019 to 0.0098 tile."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "critic_elf_classical_houses",
+      "models": [
+        {
+          "id": "bld_elf_house_classical_medieval_v0",
+          "evidence_sha256": "7cc36c0f123dcc38784e3f661ba8632866b6a7eeaaee59c66e659e586065ad31",
+          "observations": "The broad leaf canopy, fieldstone base and amber light still read together at 64 px. The six new shutter returns run from the almond rim to a point 0.0916 tile inside the masonry. On the 149-triangle distant mesh all four sloping and vertical door edges share their coordinates with the frame. The front steps, pale root buttresses and canopy remain visible through LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_classical_medieval_v1",
+          "evidence_sha256": "01cdf4fa130f4a391c913d2cca92cb679116aacb9807dba97628bf65aaf3aa52",
+          "observations": "The secondary leaf peak sits below and beside the main peak at 64 px, and both remain distinct in the 196-triangle distance mesh. The rose planter marks the front stair at close range. The six rear shutter returns penetrate the tapered drum by 0.0938 tile at their meeting point. The LOD2 door panel meets both jambs and the pointed head.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_classical_renaissance_v0",
+          "evidence_sha256": "9487e6071caf684ce654431e15ce04f102838f32eb85adedde1620c9f365375c",
+          "observations": "At 64 px the blue roof lantern separates the squat Renaissance dome from the Classical roof profile. The turquoise entrance and pink planter stand out against the warm facade. The rear shutter has six solid returns reaching 0.1024 tile inside the wall. The 127-triangle far mesh retains the crest lantern, framed door and forward stair, with four matching panel-to-frame edges.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_classical_renaissance_v1",
+          "evidence_sha256": "1a8ee782a82d1755927fc1ebea198db33eb50e2013f543f062d3844e1d349678",
+          "observations": "At 64 px the open side porch gives the taller workshop a different footprint from the single-dome variant. A view from below shows the curved ivory posts carrying the porch. Every upper shaft-ring vertex lies inside the canopy outline at all three LODs, with at least 0.0129 tile of overlap above the soffit. The garden shutter returns reach 0.1030 tile inside the wall, and all four far-door edges meet their frame.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_classical_v0",
+          "evidence_sha256": "c1b6d90b02decbf5c39cefa22d2977f23e8894e3f619c7736dd90e6dabb8a1e3",
+          "observations": "The low striped dome, white approach stair and small blue-floored colonnade stay legible at 64 px. The porch posts now curve into the roof. All 24 near, 20 middle and eight far shaft-top vertices lie within the canopy, at least 0.0126 tile above its soffit. The rear shutter has six connecting faces reaching 0.1037 tile inside the drum. The 165-triangle far entrance retains four shared jamb and arch edges.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_classical_v1",
+          "evidence_sha256": "fbe7dee6f0834257fff1d006d0df17f8cdff22bc4d366a2615ffd29dc81542b9",
+          "observations": "The tall central dome, lower side room and front portico remain distinct at 64 px and across all three serialized meshes. Each porch column terminates within the canopy. The outermost head vertices have at least 0.0126 tile of soffit overlap. The shutter closes against the rear wall through six return faces meeting 0.1041 tile inside it. All four side and arch edges of the 199-triangle far door meet the surround.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

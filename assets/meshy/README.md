@@ -85,7 +85,7 @@ A batch runner is not included in this folder. It should do the following:
 2. Merge `meshyDefaults` with the per-item fields. Use `seed = crc32(id)` so a re-run reproduces the same roll, and add 1 to the seed for each re-roll.
 3. Keep about 10 tasks in flight, which depends on the plan. Send the preview, poll every 10–15 s, send the refine, poll again, then download the GLB and thumbnail to `build/meshy_raw/<id>/`. Keep raw files outside `Assets/`.
 4. Normalise each file (scale, pivot and facing, below), then copy it to `outputPath`.
-5. Write a manifest entry in the AssetForge schema (`id`, `kind`, `category`, `building_type`, `race`, `ages`, `footprint`, `variant`, `path`, `triangles`, `bounds`) to `Assets/GodSim/Art/Models/_manifests/meshy_<category>.json`. `tools/AssetForge/build_all.py` then merges Meshy and procedural models into one `manifest.json`.
+5. Store optional Meshy output in a separate category manifest. For the production building catalog, AssetForge consumes the work-list IDs and footprints, generates its own original meshes and publishes packages after independent review. See the [building pipeline](../../tools/AssetForge/README.md).
 6. Log the task ids, credits used and failures to a CSV for the review pass.
 
 Work in this order: generate P0, review it as a group, and tune `styleSuffix` and the race lines in `docs/ASSET_LIST.md` if the family does not read as one. Then run P1 and P2.
@@ -100,17 +100,17 @@ Work in this order: generate P0, review it as a group, and tune `styleSuffix` an
 
 ## Unity import
 
-1. **Install glTFast.** It is not in `Packages/manifest.json` yet. Add `com.unity.cloud.gltfast` through Window > Package Manager > Add package by name, using the latest 6.x verified for Unity 6000.0. GLB files then import as prefabs with their meshes, materials and textures.
+1. The project manifest pins `com.unity.cloud.gltfast` at 6.10.3. Unity Package Manager resolves it when the project is opened in an environment with the dependency available.
 2. **Normalise scale, pivot and facing.** Do this before or at import; Meshy output comes at an arbitrary size and is centred on its bounds.
-   - **Buildings, nature, kit, ruins and divine objects.** Scale uniformly so the XZ bounds fit `footprint` (W along X, D along Z), with at most +25% overhang. Translate so that `min.y = 0` and the XZ centre is at the origin.
+   - **Nature, kit, ruins and divine objects.** Scale uniformly so the XZ bounds fit `footprint` (W along X, D along Z), with at most +25% overhang. Translate so that `min.y = 0` and the XZ centre is at the origin. Production buildings must fit the exact work-list footprint.
    - **Units.** Scale so the height is 1.0 with the feet at y = 0.
    - **Animals and vehicles.** Scale to `targetHeight`, in tiles.
    - **Facing.** The front or door must face −Z. If Meshy put it on +Z, rotate 180° around Y. Tools for this step: an `AssetPostprocessor` that reads the manifest, a Blender batch, or Meshy remesh with `origin_at: "bottom"` and `resize_height`, if available.
-3. **Check.** Drop the asset on a tile grid and compare its bounds with the footprint. The ±25% overhang rule is also what `forge.registry.validate` enforces for procedural models.
+3. Drop an optional asset on a tile grid and inspect the bounds. Production building meshes must fit their exact assigned footprint.
 4. **Materials.**
    - The project uses the Built-in render pipeline, and the instanced renderers (`PeopleRenderer`, `ArmyRenderer`, terrain trees) multiply vertex colours by a per-instance tint.
    - For instanced assets (villagers, soldiers, trees), bake the base-colour texture into vertex colours (`COLOR_0`) at import and use `MaterialLibrary.VertexColorInstanced`. Alternatively, give each race an instancing-enabled textured material.
-   - Buildings are individual GameObjects, so they can keep their textured glTFast material. Move emissive parts (windows, forge glow, Ascension light) to an emissive material.
+   - Production buildings use the shared `GodSim_Buildings` material. Its atlas and emissive mask cover the whole catalog, including windows, forges and Ascension lighting.
 
 ## How ids map to the game
 
@@ -123,22 +123,10 @@ Work in this order: generate P0, review it as a group, and tune `styleSuffix` an
 | Industrial, Modern | `industrial` |
 | Information, Ascension | `future` |
 
-**Buildings.** `BuildingRenderer.ApplyAppearance` already has `b.Type`, `b.StyleRace`, `b.StyleAge` and `b.Variant`. The planned `ArtLibrary` (named in `tools/AssetForge/README.md`, not yet implemented) would resolve:
-
-```csharp
-// BuildingType + race + StyleAge -> band model; ProceduralBuildingMeshes stays the fallback.
-string band = age <= AgeId.Iron ? "ancient" : age <= AgeId.Renaissance ? "classical"
-            : age <= AgeId.Modern ? "industrial" : "future";
-string type = ToSnake(b.Type);                          // TownCenter -> town_center
-int variant = b.Type == BuildingType.House ? (b.Variant & 1) : 0;
-string id = $"bld_{race}_{type}_{band}_v{variant}";      // racial uniques use their own race
-if (IsSharedWonder(b.Type)) id = $"bld_neutral_{type}_v0"; // GreatLibrary, Colossus, GrandBazaar, AscensionGate
-// If id is missing, fall back to the manifest entry whose ages[] is closest to StyleAge, then to
-// ProceduralBuildingMeshes.GetSet(shape, roof, style, age, w, h, visualHeight, variant).
-```
+**Buildings.** `GodSim.Unity.ArtLibrary` reads the generated runtime index and resolves the exact building type, race and age. It selects a listed model variant and applies the age's atlas-row offset. Shared wonders have explicit bindings for every eligible race. Missing bindings or unusable model imports select the existing procedural mesh.
 
 - **Fallback.** `ProceduralBuildingMeshes.cs` (and its far box LOD) stays as the fallback for any missing model. A partial art drop, such as P0 only, therefore always renders a complete world.
-- **Town Center.** The renderer stretches it per settlement tier: height ×(1 + 0.3·tier) and width ×(1 + 0.05·tier). Apply the same scale to the model, or cap it at about tier 3 if the stretch looks wrong.
+- An authored Town Center gains height with settlement tier and keeps its exported footprint. The procedural fallback retains its original tier scaling.
 - **Rotation.** The renderer applies `Rotation × 90°` and swaps W/D for odd rotations. Models must face −Z at rotation 0.
 
 **Other assets.**

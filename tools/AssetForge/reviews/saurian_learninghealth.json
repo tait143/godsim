@@ -1,0 +1,565 @@
+{
+  "package": "saurian_learninghealth",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Session 4 independent CultureCivic builder",
+      "models": [
+        {
+          "id": "bld_saurian_bathhouse_classical_v0",
+          "evidence_sha256": "dad324ad85e878f404741bcb55c9a78a6cb535af6ecc088b705ef1668556f727",
+          "observations": "Open blue pool and curved brass spout occupy the foreground below two changing rooms. The dark Medieval dome separates cleanly from the cream parapet; the small bench leaves a walkable edge. Serialized LOD triangles 926/609/190.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_bathhouse_future_v0",
+          "evidence_sha256": "d6a5b2c2d99feb528c435e50d5c0689ae1a8a2629188d1a3052b05466ec54563",
+          "observations": "The glazed steam dome and low companion pavilion frame the cascade. Blues on the Ascension roof and on the water are close, but the light coping still splits their silhouettes at 64 px. Serialized LOD triangles 926/609/190.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_bathhouse_industrial_v0",
+          "evidence_sha256": "8a9895785c22eb9c447a93844de1d8860653206b3554c814faa89b3eceeea097",
+          "observations": "The heater chimney belongs to the domed wet room. Its vertical silhouette punctuates the low water court even in the paler Modern row; the bench and spout remain separate at thumbnail size. Serialized LOD triangles 1006/653/238.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 96,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_data_center_future_v0",
+          "evidence_sha256": "03fa29d0a4e7c36764d947186c6f1ab9cf2742bd2de15720772fe9c76afb836d",
+          "observations": "Three parallel ventilated vaults and their central service door read clearly from above. Two roof vents flank the turquoise solar clock and the change from dark green to gold across its rear roof is conspicuous. Serialized LOD triangles 764/464/148.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 90,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_herbalist_ancient_v0",
+          "evidence_sha256": "dc527d454d6e4352fbc184adca24b7347df261066ee39a462d98f10d59e4ca21",
+          "observations": "The broad mortar, raised pestle and planter leaves make a convincing apothecary at both sizes. In the three-row sheet the yellow reed roof and brown deck dominate Dawn, Bronze and Iron almost identically. Serialized LOD triangles 927/503/169.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 85,
+            "construction": 94,
+            "charm": 96,
+            "colour": 86,
+            "technical": 99
+          },
+          "defects": [
+            "Give the large roof and/or deck an age-responsive atlas role so Dawn, Bronze and Iron acquire distinct dominant materials or values at phone scale. Preserve the herb stock and functioning counter."
+          ]
+        },
+        {
+          "id": "bld_saurian_herbalist_classical_v0",
+          "evidence_sha256": "dc7500c1eef1927ff1f445615d1de8ee1e8c95f49a0e3fe9cc539c4d4c686d51",
+          "observations": "The workshop counter and pestle sit in front of the pyramid eave with generous side access. Ochre, dark green and russet roof treatments remain easy to distinguish in the herb garden. Serialized LOD triangles 949/525/169.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 97,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_herbalist_future_v0",
+          "evidence_sha256": "8d50afecc5b2cbacfb64cb29d25635d262ea4c2243085d9824b8b12a3b1685e1",
+          "observations": "The glazed pyramid and tiered roof lantern supply the age cue above a practical open dispensary. Green medicinal stock, ceramic pots and the angled pestle remain visible against both light variants. Serialized LOD triangles 949/525/169.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 96,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_herbalist_industrial_v0",
+          "evidence_sha256": "c7174b1bf2a3e75f7e77bad0db220e14c80e78d7feb9d73c3fd10745da7fcb11",
+          "observations": "The slate monitor caps the brick-sided laboratory. Pots and mortar stand out from the yard, and the dusky Modern roof and lighter masonry separate it from its red Industrial counterpart. Serialized LOD triangles 927/503/169.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_hospital_classical_v0",
+          "evidence_sha256": "7d57f232224a7986713ec13f6ab88f731edae399777346a874610efbbf9d1b09",
+          "observations": "Raised central infirmary and twin recovery wards support a lotus crest. The frontage has a strong axial entrance, but the three-part ivory cross overlaps on every LOD. Serialized LOD triangles 1277/795/247.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "All LODs have two exposed coplanar ivory pairs at world (-0.01775, 0.565094, -0.6935). Trim the horizontal arms to abut the vertical stem (or build a single cross face), so the badge has no stacked coplanar front faces."
+          ]
+        },
+        {
+          "id": "bld_saurian_hospital_future_v0",
+          "evidence_sha256": "9b22ae7b2c1361bdd99bf043bd6176076b507f6779ab494fbc48436e00aa291d",
+          "observations": "The tall blue glazed intake forms the center of a pair of lower wards with bedside vessels and pots. The small inset hospital badge has exposed intersecting coplanar ivory bars in both age views' mesh. Serialized LOD triangles 1277/795/247.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "All LODs have two exposed coplanar ivory pairs at world (-0.01775, 0.565094, -0.6935). Trim the horizontal arms to abut the vertical stem (or build a single cross face), so the badge has no stacked coplanar front faces."
+          ]
+        },
+        {
+          "id": "bld_saurian_hospital_industrial_v0",
+          "evidence_sha256": "166e4e1eed5ebc0c29f6d3635ff8e2fe8797590c79cb1ebf4422555aae7ffaf6",
+          "observations": "The flanking brick wards support the dark pyramid eaves, with a clear central intake under the lotus. The medical sign has the same exposed cross-bar intersections in LOD0, LOD1 and LOD2. Serialized LOD triangles 1211/729/247.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "All LODs have two exposed coplanar ivory pairs at world (-0.01775, 0.565094, -0.6935). Trim the horizontal arms to abut the vertical stem (or build a single cross face), so the badge has no stacked coplanar front faces."
+          ]
+        },
+        {
+          "id": "bld_saurian_library_classical_v0",
+          "evidence_sha256": "595f66d3595ad0daf2b3fec41c90526fb88259e25af14ac0a044c8341dbf6524",
+          "observations": "Twin roof leaves and gilt gutter read like an open codex from above. Even on the Iron row the ivory page edge, dark shelves and the gate underneath are distinct. Serialized LOD triangles 649/407/167.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 94,
+            "construction": 93,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_library_future_v0",
+          "evidence_sha256": "c559bfa570a48258034f7e9521c950fa1ea8a0d9cdd73dd2397d6349917ae3eb",
+          "observations": "Two blue glass roof leaves crest away from a gold spine and retain thick pale page edges. The front codex racks and little reading-porch pot add a second scale of detail. Serialized LOD triangles 649/407/167.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_library_industrial_v0",
+          "evidence_sha256": "6f4777d2ec88505dda7b2d2a4a8c1c7ffdeb67ad68622586634f7c9aaa1fb85d",
+          "observations": "A low metal book roof spans the brick archive, with matching gilt spine and stacked tablets outside. The flatter profile and deep green panels give the industrial pair its own silhouette. Serialized LOD triangles 649/407/167.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_medical_center_future_v0",
+          "evidence_sha256": "64df7b667cf08164c251d5dc5d9fecd99022b72499d3490e7fb4348311d5b88d",
+          "observations": "Twin glazed patient wings and supported central canopy make a clear sheltered drop-off. At 64 px the lotus crest reads as a potted plant and the small canopy seal as a dot; there is little on the intake that identifies clinical care. Serialized LOD triangles 971/597/199.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 87,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Make the medical family cue readable from above. Add a contrasting healer mark to the broad intake canopy, with sufficient size for the 64 px view, while preserving its support and door clearance."
+          ]
+        },
+        {
+          "id": "bld_saurian_observatory_classical_v0",
+          "evidence_sha256": "c432054add71b3a06cda9c2e353fc2642771c7cca9171544fb5ea8e523402fdf",
+          "observations": "A brass telescope with a visible blue objective is carried on twin cheeks above a stepped meridian drum. The little sight and plant do not compete with the elevated main tube. Serialized LOD triangles 793/473/188.",
+          "scores": {
+            "silhouette": 98,
+            "identity": 94,
+            "construction": 96,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_observatory_future_v0",
+          "evidence_sha256": "472d0e046b4a32c41baa80f71bdb0d1d8a40df1113ae807196665c039834bc24",
+          "observations": "The gold objective, eyepiece, trunnions and contrasting drum read together even at thumbnail size. The darker Information ring and olive-gold Ascension ring are visibly distinct around the pivot. Serialized LOD triangles 793/473/188.",
+          "scores": {
+            "silhouette": 98,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_observatory_industrial_v0",
+          "evidence_sha256": "70e1a265f89a3fc0d62ad8a4f49229441b22e7eb8f7263b643c56e7d564be4dd",
+          "observations": "Brick plinth, instrument turntable and a heavy hooped tube describe an observatory in silhouette. Color separation at the lens and little forecourt sight survives the Modern row. Serialized LOD triangles 793/473/188.",
+          "scores": {
+            "silhouette": 98,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_printworks_classical_v0",
+          "evidence_sha256": "97fc260448bcdc9efa7f0fae907baadf22beeec19b1a8c9a6c1e05f4d60ad354",
+          "observations": "The timber proof press has a clear aperture, crossbeam and suspended platen above the bright page bed. Loose signatures and a storage pot complement the warm-roofed hall. Serialized LOD triangles 717/463/167.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_printworks_future_v0",
+          "evidence_sha256": "7f38c2cc1479eedee8cbee08dc9bdd11e0235c4318a3681984fe08a541e17290",
+          "observations": "A rolled web and horizontal feed distinguish the glass-roofed print shop. The upright press, timber-like upper beam and small stack have separate shapes at full size and the press portal survives reduction. Serialized LOD triangles 797/523/215.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_printworks_industrial_v0",
+          "evidence_sha256": "145916b30775b35337a5c83a98f9baa5bd5c2340ff809598871ca263fad71778",
+          "observations": "The press's gold flywheel, dark platen and pale paper bed identify the workshop. Open space allows sight through its frame against the red Industrial and cool Modern buildings. Serialized LOD triangles 841/555/265.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_research_lab_future_v0",
+          "evidence_sha256": "231dba0f6272c7f296e9ec5ea16065af85ef1b877435b734d624808c9e02a214",
+          "observations": "Different-sized blue specimen vessels form a recognizable paired silhouette over a flat-roofed lab. Gold braces, turquoise collars and the service annex remain subordinate to the two instruments. Serialized LOD triangles 913/525/131.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_research_lab_industrial_v0",
+          "evidence_sha256": "cc8687030a0297e98fd559adee2c9e462a5cd7b8742936c6915854fffb8f4f62",
+          "observations": "The two blue test vessels are set into a thick flat service roof over a Modern masonry lab. The low annex supply and jar provide human scale around the main volume. Serialized LOD triangles 913/525/131.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_scriptorium_ancient_v0",
+          "evidence_sha256": "f4c66093344bf4feee5fe076eced4e74804caacd555b3c08914666741536567b",
+          "observations": "The large reed pen is structurally fixed to the ridge above the writing gallery. Open folio and rolled manuscripts provide clear writing cues and break up the long Iron porch. Serialized LOD triangles 833/517/189.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 97,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_scriptorium_classical_v0",
+          "evidence_sha256": "5898f4265d3f3f6fb58ee491f7ff3f40c079751c58118a8889451e3999c75677",
+          "observations": "The tipped pen, front desk and upright scroll jar identify the gallery. The clerestory, corner post medallion and roof contrast remain intact in all three age views. Serialized LOD triangles 855/539/189.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 96,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_scriptorium_future_v0",
+          "evidence_sha256": "a876fe64ce8d3bc4e5389a88f1cecc901736319791548b6ff8ee6ac8efe0c561",
+          "observations": "A fine raised glass monitor carries the gold-and-ivory pen, and the shoulder of the roof is clearly higher than the terrace. Contrasting shelf and pages sit clear of the door. Serialized LOD triangles 855/539/189.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_scriptorium_industrial_v0",
+          "evidence_sha256": "5fd18a49045c45b8487a3f83c45f37826f7e7a550fe4b44e16fb53cb6889709e",
+          "observations": "The lower monitor and its sheet-metal cap carry a high pen silhouette. The ink stand and front folio remain legible on the lighter Modern facade. Serialized LOD triangles 833/517/189.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_university_classical_v0",
+          "evidence_sha256": "3b54acdd499ebeefef00f57e96af3ff3e85ce01e9f914303713dab5786b33b83",
+          "observations": "Three pitched pavilions read as an ensemble, but at 64 px the slim gnomon merges into the central doorway. The campus looks like three dwellings around a small urn before it reads as a place of learning. Serialized LOD triangles 1162/777/167.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 89,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Rework the meridian teaching instrument as a broad inclined dial, pierced astronomical frame or other clearly visible teaching object. Give its top and pointer enough area and contrasting value to remain distinct from the doorway at 64 px."
+          ]
+        },
+        {
+          "id": "bld_saurian_university_future_v0",
+          "evidence_sha256": "9452953dcb07a1ffff63095c8fb5dab2bb9e7e73007602fbb81ab3d61758504a",
+          "observations": "The three glass roofs frame the center of the campus. The tiny vertical gold hand over the low white dial disappears against the central doorway in the pale Ascension view. Serialized LOD triangles 1162/777/167.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 89,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Rework the meridian teaching instrument as a broad inclined dial, pierced astronomical frame or other clearly visible teaching object. Give its top and pointer enough area and contrasting value to remain distinct from the doorway at 64 px."
+          ]
+        },
+        {
+          "id": "bld_saurian_university_industrial_v0",
+          "evidence_sha256": "f69a1acebc1f8a47bae0000a55a62d03bae5711bb22d50ecd5694c0ecbbad84c",
+          "observations": "The masonry lecture wings preserve the courtyard, but their identical domestic entrances dominate the small sundial. The needle merges with the middle doorframe in the thumbnail. Serialized LOD triangles 1096/711/167.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 89,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Rework the meridian teaching instrument as a broad inclined dial, pierced astronomical frame or other clearly visible teaching object. Give its top and pointer enough area and contrasting value to remain distinct from the doorway at 64 px."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Session 4 independent CultureCivic builder",
+      "models": [
+        {
+          "id": "bld_saurian_herbalist_ancient_v0",
+          "evidence_sha256": "f7f0679d9da2a150ba29a4bf9757735a13b0f686ab49b14850d5b8dbd3b5e04c",
+          "observations": "Bronze has a light cut-block platform and a plain ochre roof, Dawn shows vertical reed grain and a timber-toned apron, and Iron has the darker green roof and stone foot. The pestle and potted herbs remain distinct. Validated LODs 927/503/169 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 96,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_hospital_classical_v0",
+          "evidence_sha256": "08acd21e3a68730aab0bd82d542d67633e4a9d8dc39f95eded217e50409a51c7",
+          "observations": "The central gold tile retains an ivory medical cross over the approach. Its ivory bars meet without the earlier face overlap at any LOD. The two tiled wings and lotus still frame the Renaissance frontage. Validated LODs 1277/795/247 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_hospital_future_v0",
+          "evidence_sha256": "cde9ffa1f4968fa6ea5cd983c4faeee2136bbfca37e6681c60cfb3fb4f4727d8",
+          "observations": "Cross arms meet cleanly on the intake medallion in the revised mesh. Both future glazing rows preserve the stepped ward silhouette, solar lotus and small vessels at the side entries. Validated LODs 1277/795/247 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_hospital_industrial_v0",
+          "evidence_sha256": "8521e95eaaa204f4e5197b7f3a415d0f919792bb5a2a45712aa708567cebc28c",
+          "observations": "The sign holds a clean pale cross over the central intake. The revised badge has no exposed coplanar pairs at any level, with the dark Industrial and muted Modern roof rows both retaining the same legible clinic plan. Validated LODs 1211/729/247 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_medical_center_future_v0",
+          "evidence_sha256": "5ec998c12bbd07a63c3c7d22836a33317a3bb7c7cbec4af5306a65cc53a892c6",
+          "observations": "A broad contrasting ivory relief cross now fills a turquoise shield over the intake. It is visible from the raised phone camera between the two wards even in the pale Ascension row, with both supporting posts and entry clear. Validated LODs 1023/649/239 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_university_classical_v0",
+          "evidence_sha256": "ac9fc61f238f7e391ec4e2033191285da745e93acb6da8ac60cbdf6a80e8aff3",
+          "observations": "The expanded bronze astronomical instrument on two turquoise feet separates from the three entrances. Medieval and Renaissance thumbnails show a distinct teaching court and the inclined meridian structure. Validated LODs 1289/873/256 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_university_future_v0",
+          "evidence_sha256": "c88a4617ca37015f29013fd9701c2f7c117789c64792db929f8eb3f15657ac54",
+          "observations": "The new open astronomical frame provides a dark gold outline against pale Information and Ascension halls. The arcs and turquoise support can be seen apart from the central doorway at 64 px. Validated LODs 1289/873/256 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_university_industrial_v0",
+          "evidence_sha256": "8d0b386dfe4f08dba0b3bcb65558e4f18dc351d2270f1f8b041535ce95cc7bd6",
+          "observations": "The broad gold teaching instrument crosses the brick courtyard on two visible turquoise feet, with an irregular open silhouette. Both Industrial and Modern retain a distinct instrument in front of the three pavilions. Validated LODs 1223/807/256 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

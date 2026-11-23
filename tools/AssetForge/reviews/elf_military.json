@@ -1,0 +1,501 @@
+{
+  "package": "elf_military",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Independent Elf package critic",
+      "models": [
+        {
+          "id": "bld_elf_barracks_ancient_v0",
+          "evidence_sha256": "c8b53af6b288b7eac0adfb8d732ad0d0cac51e87b3cf60a520130b2417f44079",
+          "observations": "Two concentric practice targets give the forecourt a clear training function. The larger target sits directly across the main hall's arched door in the camera view; the secondary target crowds the annex approach.  Checked the 1036/640/232 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 92,
+            "construction": 88,
+            "charm": 92,
+            "colour": 92,
+            "technical": 98
+          },
+          "defects": [
+            "Group the two targets in a lateral training lane away from both portal axes. Keep each door visibly open from ground to arch in the 64-pixel view."
+          ]
+        },
+        {
+          "id": "bld_elf_barracks_classical_v0",
+          "evidence_sha256": "c240797c0e1ff93f529b33d628fbcd0b8364ba3e569cb11a92c267bd1e0ed52e",
+          "observations": "Two concentric practice targets give the forecourt a clear training function. The larger target sits directly across the main hall's arched door in the camera view; the secondary target crowds the annex approach.  Checked the 1036/640/232 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 92,
+            "construction": 88,
+            "charm": 92,
+            "colour": 92,
+            "technical": 98
+          },
+          "defects": [
+            "Group the two targets in a lateral training lane away from both portal axes. Keep each door visibly open from ground to arch in the 64-pixel view."
+          ]
+        },
+        {
+          "id": "bld_elf_barracks_future_v0",
+          "evidence_sha256": "9ab645ec2d53593e6b8279d090632759159da16c362a8625da632b1d19585178",
+          "observations": "Two concentric practice targets give the forecourt a clear training function. The larger target sits directly across the main hall's arched door in the camera view; the secondary target crowds the annex approach.  Checked the 1036/640/232 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 92,
+            "construction": 88,
+            "charm": 92,
+            "colour": 92,
+            "technical": 98
+          },
+          "defects": [
+            "Group the two targets in a lateral training lane away from both portal axes. Keep each door visibly open from ground to arch in the 64-pixel view."
+          ]
+        },
+        {
+          "id": "bld_elf_barracks_industrial_v0",
+          "evidence_sha256": "b9ba7afb8eaf64fcddcfef2fdbb58e16ef8e2a74ab37074f60934c9fd7fcedd3",
+          "observations": "Two concentric practice targets give the forecourt a clear training function. The larger target sits directly across the main hall's arched door in the camera view; the secondary target crowds the annex approach.  Checked the 1036/640/232 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 92,
+            "construction": 88,
+            "charm": 92,
+            "colour": 92,
+            "technical": 98
+          },
+          "defects": [
+            "Group the two targets in a lateral training lane away from both portal axes. Keep each door visibly open from ground to arch in the 64-pixel view."
+          ]
+        },
+        {
+          "id": "bld_elf_castle_classical_v0",
+          "evidence_sha256": "9cee55039946d68fb99dc28c1282a889a729565073ea82e12eb6e8179100c904",
+          "observations": "Four gallery towers with flared bases enclose a taller leaf-crowned keep. The gatehouse spans the foremost pair, with its pointed portal clearly meeting the ground.  Checked the 1861/1202/338 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_military_base_future_v0",
+          "evidence_sha256": "5dad2ddbe774386ae810545fcd389cfb1c8e9f6472b3dd50ae9e3f6f1c4d0ef5",
+          "observations": "The inclined receiver dish, solid pedestal and dispatch hall are clear at phone size. The watchtower has a triangular door tip protruding through the broad foot of its shaft.  Checked the 1114/721/266 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "Bring the tower's complete doorway forward of its widest molded base and connect it through the plinth, or use a fully backed service entrance on a different face."
+          ]
+        },
+        {
+          "id": "bld_elf_military_base_industrial_v0",
+          "evidence_sha256": "e3a1992da258fc70933385d768a49171069eeaaa7ecd393cc9b1908729b634bc",
+          "observations": "The inclined receiver dish, solid pedestal and dispatch hall are clear at phone size. The watchtower has a triangular door tip protruding through the broad foot of its shaft.  Checked the 1114/721/266 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "Bring the tower's complete doorway forward of its widest molded base and connect it through the plinth, or use a fully backed service entrance on a different face."
+          ]
+        },
+        {
+          "id": "bld_elf_palisade_ancient_v0",
+          "evidence_sha256": "7f7bbe6328f8e83a56a65ad26e8d1ae319683dddb9b58828b1de991583021264",
+          "observations": "Canted timber stakes, two continuous rails and a bent gate arch frame the circular threshold. A green terminal leaf projects above the gate and the span stays open.  Checked the 970/394/300 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_palisade_classical_v0",
+          "evidence_sha256": "543b85de923b925f8320a7c604c6e1554fcbce55928151e1ccd066f69c1b9316",
+          "observations": "Canted timber stakes, two continuous rails and a bent gate arch frame the circular threshold. A green terminal leaf projects above the gate and the span stays open.  Checked the 970/394/300 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_stone_wall_classical_v0",
+          "evidence_sha256": "2fb84c93e94466608e636a6b94488067d2ec895ebc6b00ecfbbe8f221250ed19",
+          "observations": "Three near-cylindrical bodies touch beneath independent domed roofs. Their gallery stripes and end lanterns read as a row of silos, with no clearly legible curtain of stone or parapet.  Checked the 838/534/208 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 88,
+            "construction": 92,
+            "charm": 87,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Use a continuous, bowed curtain and visible parapet between a pair of differentiated end piers. Preserve an Elven organic profile while making the wall run legible in silhouette."
+          ]
+        },
+        {
+          "id": "bld_elf_stone_wall_industrial_v0",
+          "evidence_sha256": "ff57867394b89b7fb5deec4de881e2ada041f61df28d5923a80fd24bbc43c1d4",
+          "observations": "Three near-cylindrical bodies touch beneath independent domed roofs. Their gallery stripes and end lanterns read as a row of silos, with no clearly legible curtain of stone or parapet.  Checked the 838/534/208 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 88,
+            "construction": 92,
+            "charm": 87,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Use a continuous, bowed curtain and visible parapet between a pair of differentiated end piers. Preserve an Elven organic profile while making the wall run legible in silhouette."
+          ]
+        },
+        {
+          "id": "bld_elf_watchtower_ancient_v0",
+          "evidence_sha256": "d59361268aedfaf4106ddc55415e44f9e60d883cc0b70224f839acd08975c9c6",
+          "observations": "The flared lookout and root-braced shaft make a readable tower. Its broad base clips the front doorway across the lower section, leaving an isolated pointed patch above the base.  Checked the 536/354/113 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 85,
+            "charm": 90,
+            "colour": 92,
+            "technical": 97
+          },
+          "defects": [
+            "Carry a backed arched doorway in front of the widest lower course down to ground level, clear of the root ribs."
+          ]
+        },
+        {
+          "id": "bld_elf_watchtower_classical_v0",
+          "evidence_sha256": "ca443cce1c5df4db765d201a76ac8721de3800980e97e3b297c484690004c62d",
+          "observations": "The flared lookout and root-braced shaft make a readable tower. Its broad base clips the front doorway across the lower section, leaving an isolated pointed patch above the base.  Checked the 536/354/113 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 85,
+            "charm": 90,
+            "colour": 92,
+            "technical": 97
+          },
+          "defects": [
+            "Carry a backed arched doorway in front of the widest lower course down to ground level, clear of the root ribs."
+          ]
+        },
+        {
+          "id": "bld_elf_watchtower_industrial_v0",
+          "evidence_sha256": "739ed3fbecfd5ab6cecf01106ab486146efa44763e99022f845cf360c385f706",
+          "observations": "The flared lookout and root-braced shaft make a readable tower. Its broad base clips the front doorway across the lower section, leaving an isolated pointed patch above the base.  Checked the 536/354/113 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 85,
+            "charm": 90,
+            "colour": 92,
+            "technical": 97
+          },
+          "defects": [
+            "Carry a backed arched doorway in front of the widest lower course down to ground level, clear of the root ribs."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Independent Elf package critic",
+      "models": [
+        {
+          "id": "bld_elf_barracks_ancient_v0",
+          "evidence_sha256": "b1f02e2a9906527263be823515a269784f5612ea9b41dfff01e56917720ebc01",
+          "observations": "The main entrance is now clear. In the thumbnail, the large foreground practice target still overlaps the lower section of the smaller annex's dark, pointed door; only its arch rises visibly behind the target.  Checked the 1036/640/232 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 93,
+            "construction": 90,
+            "charm": 92,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Clear the secondary entrance in the preview projection as well. One option is to give the annex a high clerestory in place of its duplicate front doorway, keeping the now-unobstructed main door."
+          ]
+        },
+        {
+          "id": "bld_elf_barracks_classical_v0",
+          "evidence_sha256": "25d6f9ab40ba093e176191c83e1e6f779a453e2156ca4849f71e531809daf8ae",
+          "observations": "The main entrance is now clear. In the thumbnail, the large foreground practice target still overlaps the lower section of the smaller annex's dark, pointed door; only its arch rises visibly behind the target.  Checked the 1036/640/232 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 93,
+            "construction": 90,
+            "charm": 92,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Clear the secondary entrance in the preview projection as well. One option is to give the annex a high clerestory in place of its duplicate front doorway, keeping the now-unobstructed main door."
+          ]
+        },
+        {
+          "id": "bld_elf_barracks_future_v0",
+          "evidence_sha256": "eb7af54dc58b85929b280f209177abf1d9735a01f09d90b334acad9fa5bcb39f",
+          "observations": "The main entrance is now clear. In the thumbnail, the large foreground practice target still overlaps the lower section of the smaller annex's dark, pointed door; only its arch rises visibly behind the target.  Checked the 1036/640/232 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 93,
+            "construction": 90,
+            "charm": 92,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Clear the secondary entrance in the preview projection as well. One option is to give the annex a high clerestory in place of its duplicate front doorway, keeping the now-unobstructed main door."
+          ]
+        },
+        {
+          "id": "bld_elf_barracks_industrial_v0",
+          "evidence_sha256": "15bfac2d789df5091cefbffa17de47d85cfd6b7113ec7fec537f59dc494abd74",
+          "observations": "The main entrance is now clear. In the thumbnail, the large foreground practice target still overlaps the lower section of the smaller annex's dark, pointed door; only its arch rises visibly behind the target.  Checked the 1036/640/232 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 93,
+            "construction": 90,
+            "charm": 92,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Clear the secondary entrance in the preview projection as well. One option is to give the annex a high clerestory in place of its duplicate front doorway, keeping the now-unobstructed main door."
+          ]
+        },
+        {
+          "id": "bld_elf_military_base_future_v0",
+          "evidence_sha256": "0fcea0f7b029c6df9dd05f0df54b6917829fdb388de35ea5a123c73419c05c17",
+          "observations": "The tower now has a complete projecting arched entry down to ground ahead of the flared foot. The communication dish and main dispatch arch retain separate silhouettes beside it.  Checked the 1210/789/306 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_military_base_industrial_v0",
+          "evidence_sha256": "75704fc3639f00789af6a21d166ae8890671f7ca3cd2719e8175510fa582cda5",
+          "observations": "The tower now has a complete projecting arched entry down to ground ahead of the flared foot. The communication dish and main dispatch arch retain separate silhouettes beside it.  Checked the 1210/789/306 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_stone_wall_classical_v0",
+          "evidence_sha256": "6ed355d70067680d08ff3fe69152297798e2fd49e980e8a1c70f8e894921052c",
+          "observations": "Two larger leaf-crowned end piers now enclose a bowed, unbroken stone wall. Three projecting ribs articulate the parapet and the continuous front clearly reads as a defensive boundary.  Checked the 920/518/208 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_stone_wall_industrial_v0",
+          "evidence_sha256": "a1d628d304be91bb8193703569abd50e9b892fdd131aef6482fe57c227bab910",
+          "observations": "Two larger leaf-crowned end piers now enclose a bowed, unbroken stone wall. Three projecting ribs articulate the parapet and the continuous front clearly reads as a defensive boundary.  Checked the 920/518/208 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_watchtower_ancient_v0",
+          "evidence_sha256": "b8e8b1108df3f156626c8a2c0b4092e6fc14dde59003f0761be8c0af4d61720c",
+          "observations": "A roofed, backed vestibule now carries the pointed entry completely forward of the flared tower foot. The root ribs, gallery and unobstructed lamp remain clear at 64 pixels.  Checked the 632/422/153 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_watchtower_classical_v0",
+          "evidence_sha256": "1e4f7975f285e04ed7e79859701e0b5ff0bc556840e1f82ab5d902a2b0c8d6d7",
+          "observations": "A roofed, backed vestibule now carries the pointed entry completely forward of the flared tower foot. The root ribs, gallery and unobstructed lamp remain clear at 64 pixels.  Checked the 632/422/153 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_watchtower_industrial_v0",
+          "evidence_sha256": "ca6bda149703e1257b7ad04ce67df1bb4fc9e3bbe0898a1e4e8c79bda3acfa3f",
+          "observations": "A roofed, backed vestibule now carries the pointed entry completely forward of the flared tower foot. The root ribs, gallery and unobstructed lamp remain clear at 64 pixels.  Checked the 632/422/153 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Elf package critic",
+      "models": [
+        {
+          "id": "bld_elf_barracks_ancient_v0",
+          "evidence_sha256": "ec382c77cf640477d699497971e0bf8a2f131cfa07d11fd138f5aab689c4841e",
+          "observations": "The high clerestory is visible over the practice lane in the lower wing. Both targets now sit to the side of the only entry, whose arch and entire ground-level opening remain clear in all revised thumbnails.  Checked the 1028/658/239 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_barracks_classical_v0",
+          "evidence_sha256": "68bff0f71500386eea397ecbf125edaf80caf34ff0649b3b0d284b8fdd271c51",
+          "observations": "The high clerestory is visible over the practice lane in the lower wing. Both targets now sit to the side of the only entry, whose arch and entire ground-level opening remain clear in all revised thumbnails.  Checked the 1028/658/239 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_barracks_future_v0",
+          "evidence_sha256": "ef8f3925fe477a9f32cdfd1d8256f4f87ee5769badad4229933a4fb29b9189e2",
+          "observations": "The high clerestory is visible over the practice lane in the lower wing. Both targets now sit to the side of the only entry, whose arch and entire ground-level opening remain clear in all revised thumbnails.  Checked the 1028/658/239 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_barracks_industrial_v0",
+          "evidence_sha256": "ee880e3b3ede54674cc3ee667355262f4959ca0328cf131f019d5199e776befe",
+          "observations": "The high clerestory is visible over the practice lane in the lower wing. Both targets now sit to the side of the only entry, whose arch and entire ground-level opening remain clear in all revised thumbnails.  Checked the 1028/658/239 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Elf military art director",
+      "models": [
+        {
+          "id": "bld_elf_palisade_ancient_v0",
+          "evidence_sha256": "b37381fb1a35639d21367522186b7ba78300a7d2e6eea8fec2c4069d10b87265",
+          "observations": "At 224 px, two rails bind each run of pointed stakes to the central leaf-tipped arch. All three rendered GLB meshes keep the opening, circular threshold, and stepped stake line at 970, 394, and 300 triangles. At exactly 64 px, Bronze and Iron share nearly the same dark olive-brown wings and gray threshold. The ochre-to-olive stake shift and pale mauve arch in Iron are visible at full size but weak at phone size.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 86,
+            "technical": 99
+          },
+          "defects": [
+            "Strengthen the Bronze-to-Iron difference across a broad surface that remains visible at 64 px, such as the whole run of pointed stakes. Keep the central opening legible."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Elf military art director",
+      "models": [
+        {
+          "id": "bld_elf_palisade_ancient_v0",
+          "evidence_sha256": "ee8b6129e25cf747d711c20d69a4463cf45e0dbd65167b240801582fea465698",
+          "observations": "At 224 px, Bronze has ochre stake faces and a warm clay threshold. Iron has slate-gray stake faces and a pale stone threshold. Both changes remain visible across the gate in the exact 64 px comparison. The double rails, stepped pointed stakes and open, leaf-tipped arch read across all three embedded GLB meshes rendered at 970, 394 and 300 triangles. The package validator passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

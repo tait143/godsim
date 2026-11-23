@@ -1,0 +1,49 @@
+{
+  "package": "dwarf_wonders",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "critic_dwarf_wonder",
+      "models": [
+        {
+          "id": "bld_dwarf_deep_forge_ancient_v0",
+          "evidence_sha256": "e0e93e4fb04d76873092f29c0750dfe3f54d32484017e4e4b893114c85fd9394",
+          "observations": "Opened all nine 288 px age previews and the package sheet. At phone size the unequal stacks, tiered roof and orange tapping channel still read as a foundry. Rock shoulders enclose the hall on both sides. The small south-facing worker door and low threshold establish scale beside the broad arched furnace, and give workers an approach clear of the molten run. The squat mass, oversized keystone, brass collars, crest anvil and valve wheel carry the Dwarf identity. Bronze ochre, Iron dark stone, Classical pale masonry and terracotta, Industrial red brick, and the silver and gold late roofs are legible. Medieval and Iron are close in the small sheet. The paired lamps, wheel and ingot mould reward the larger view. In additional low front and rear views rendered in memory from the three GLB meshes, the four accent bars stand off the buttress faces, the piled ingots partly disappear into the nearer buttress, and the two distant-LOD vents abruptly fill with bright orange. The package validator exited 0. Its three triangle counts are 1465, 891 and 387. The ground and 3 by 3 footprint, one shared material, age-row UVs, face winding against normals and nondegeneracy passed. No exposed coplanar pairs or inverted closed shells were reported.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 85,
+            "charm": 90,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "The four brass crossbars on the two front buttresses hover in LOD0. At their centre z positions of -0.954 and -0.714, the stone incline is about 0.198 and 0.446 tiles high, while the bar centres are 0.290 and 0.550. Seat the underside of each bar in the slope across its width and inspect a low oblique view for daylight.",
+            "At LOD0 and LOD1 the three stock ingots straddle the right-hand buttress edge at x=0.775. They read as short horizontal fittings sticking out of its side. Move the entire pile onto clear, level ground beside the buttress, with the top ingot resting across the two lower ingots. Retain a clear operator route.",
+            "The open, dark flues in LOD0 and LOD1 turn into two solid orange disks in LOD2. The low mesh fills the top rim at full height with the forge patch. Preserve a recessed dark inner face or dark cap inside the low-poly rim, then compare all three meshes from above so the pair of stacks remains visually continuous."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "critic_dwarf_wonder",
+      "models": [
+        {
+          "id": "bld_dwarf_deep_forge_ancient_v0",
+          "evidence_sha256": "143a6b79fa80ae0206431d65ba5b97a4a79eb4d4da8cc0f69abdf3dfc32b9da3",
+          "observations": "Opened all nine replacement 288 px age previews and inspected fresh 40, 64 and 80 px reductions of each. The twin vents and bright outlet make the foundry recognizable at every size. The lateral worker door has its own low step clear of the furnace channel. Its scale against the fortified arch, rock shoulders and heavy roof anvil makes the hall look excavated for a crew of smiths. The ingots now sit in a distinct pile on level ground clear of the sloping buttress at both detailed LODs. The bottom pair supports the top ingot. The four brass ribs follow the stone inclines, with no daylight visible at the low front angle. The valve wheel and paired lamps give the crew visible equipment. A rear elevated view of all three serialized meshes confirms both flues now retain recessed dark mouths through LOD2. The Bronze ochres, Classical terracotta, Industrial brick, Information cool panels and Ascension gold roof carry the age changes. The subtler Iron and Medieval palettes preserve the same Dwarf outline. The package validator exited 0 with 1465, 891 and 411 triangles. All three LODs passed their 3 by 3 footprint and ground bounds, shared-material references, age-row UVs and geometry checks, with zero reported exposed coplanar overlaps or inverted closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

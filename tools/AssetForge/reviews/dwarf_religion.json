@@ -1,0 +1,307 @@
+{
+  "package": "dwarf_religion",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Builder session 5 independent religion critic",
+      "models": [
+        {
+          "id": "bld_dwarf_cathedral_classical_v0",
+          "evidence_sha256": "eae9fe923fe86ff56dba56cf68596a924515ccd1bcdb216bdc6d8a69c034cb2a",
+          "observations": "Medieval slate and Renaissance tile sit on distinct twin bell piers. The bells, inset round window and forecourt flames survive the reduction to 64 px. Diagonal buttresses land on the masonry plinth. All three serialized LODs passed the geometry and shared-atlas checks.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_cathedral_future_v0",
+          "evidence_sha256": "d9bf6c062756f1f85a9466681045964eda2078d23a348c344f571bf90cbb453c",
+          "observations": "The high central lantern separates cleanly from the flanking roofs. A luminous oculus and tiny forecourt lights preserve the sanctuary reading in both the charcoal Information and gilded Ascension previews. All three serialized LODs passed the geometry and shared-atlas checks.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_cathedral_industrial_v0",
+          "evidence_sha256": "6146d35658bc4832c4e8263a65d986ec31e219347d5af8c8aca1fb88fce4cb33",
+          "observations": "The red masonry and concrete age rows remain distinct at thumbnail size. The bearing piers, belfry openings, stepped entrance and dark central roof hold together from the elevated view. All three serialized LODs passed the geometry and shared-atlas checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_monastery_classical_v0",
+          "evidence_sha256": "51a2993770b8ca373a1f606537534f5e53e518c37e7eb9d5166515f9aec0d62a",
+          "observations": "The low enclosing ranges leave a legible gap for the path and an actual green herb court. The offset bell turret distinguishes the cloister in all three age rows. Corner returns meet the front enclosure. All three serialized LODs passed the geometry and shared-atlas checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_monastery_future_v0",
+          "evidence_sha256": "491e0d1b4234fb1d0dc7382f3c369a6594ac4707cfd0572d4e165eb66a6d2563",
+          "observations": "Blue roof glazing and the later gold side vaults change the color hierarchy while preserving the courtyard opening. Paired beds, a basin and the side bell turret remain readable in the larger previews. All three serialized LODs passed the geometry and shared-atlas checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_monastery_industrial_v0",
+          "evidence_sha256": "72476e481221aad015d3fd1d20c2510941dd125a4583978df11e178d0e9e12e6",
+          "observations": "Brick turns to pale concrete in the enclosed low wings. The small bell house is seated in the corner of the cloister. The garden and path break up the dark long roof forms at 64 px. All three serialized LODs passed the geometry and shared-atlas checks.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_shrine_ancient_v0",
+          "evidence_sha256": "e1220325fcc599b4c990e759ae11281e2ee827bc1749f3562790e43b1d609362",
+          "observations": "Bronze browns give way to a darker Iron hood with gray stone piers. The wide bell, open space above the offering table and two approach flames identify the shrine at phone size. All three serialized LODs passed the geometry and shared-atlas checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_shrine_classical_v0",
+          "evidence_sha256": "640eb21fbfd74f724fb108ad270666f29c52c6e54f6fcefe2f8dc7fd3ef6d059",
+          "observations": "The piers seat the broad stone hood and the brass bell hangs above the small offerings. Marble and terracotta, gray masonry and slate, then ochre and tile differentiate its three previews. All three serialized LODs passed the geometry and shared-atlas checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_shrine_future_v0",
+          "evidence_sha256": "5b3351d2fe859b2891c21c028b1c7e3fbf5f785556fa7816b19addc4bd8684d4",
+          "observations": "A luminous crown panel sits squarely on the bell shelter. The dark-to-gold roof change is strong at 64 px. The open bell bay, approach steps and paired votives keep the footprint legible. All three serialized LODs passed the geometry and shared-atlas checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_shrine_industrial_v0",
+          "evidence_sha256": "a49034459b9917558a3460a3c4d33701d90c014133fc8f17fec7c52417fc0e21",
+          "observations": "The low dark roof and bell hang over two squared red-brick uprights that become concrete in Modern. Offering stones and the two lanterns frame an unobstructed stairway in both views. All three serialized LODs passed the geometry and shared-atlas checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_spirit_totem_ancient_v0",
+          "evidence_sha256": "eeef40e2634f27a9bf3dcbccf32f00aac534d2c57d1127d9f02e21615fdfe1f1",
+          "observations": "The bearded ancestral face, low altar and amber votive pair are memorable. Across Dawn, Bronze and Iron the step changes finish, while the dominant gray monolith and brass face look almost identical in the 64 px previews. All three serialized LODs passed the geometry and shared-atlas checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 86,
+            "construction": 93,
+            "charm": 95,
+            "colour": 89,
+            "technical": 99
+          },
+          "defects": [
+            "Give a substantial area around the stone face, such as the crown and its carved support, an age-responsive atlas role so all three ages read distinctly at phone size."
+          ]
+        },
+        {
+          "id": "bld_dwarf_temple_ancient_v0",
+          "evidence_sha256": "bc15562446db4b9d0e5b1e660971aacba155285ad258707a195166768c9a0a42",
+          "observations": "The bell frame, timber roof and broad stone portal read well in Iron. Both votive flames at the front pillars rise into the overhang, leaving flat-looking pier tops. All three serialized LODs passed the geometry and shared-atlas checks.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 86,
+            "charm": 87,
+            "colour": 91,
+            "technical": 98
+          },
+          "defects": [
+            "Bring the two front votives and their supporting piers forward of the eaves, or lower them enough to show the whole flame and provide headroom beneath the roof."
+          ]
+        },
+        {
+          "id": "bld_dwarf_temple_classical_v0",
+          "evidence_sha256": "d106c3609da3fdb6f6cb83c602240861a031a7c4e2d7a5d3a01fb68390c0cbeb",
+          "observations": "All three roofs sit firmly above a framed entrance and the central bell has a visible support. The capped front pillars conceal the flanking votives under the eaves across all three age views. All three serialized LODs passed the geometry and shared-atlas checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 86,
+            "charm": 88,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Bring the two front votives and their supporting piers forward of the eaves, or lower them enough to show the whole flame and provide headroom beneath the roof."
+          ]
+        },
+        {
+          "id": "bld_dwarf_temple_future_v0",
+          "evidence_sha256": "0cf1f535f5f178a00781873d9dd69f2b80d4b566699a2c804fe79cd572e58168",
+          "observations": "A glazed rear cap and bell identify the ritual hall in both dark Information and gold Ascension dress. Both flames on the forward pillars intersect the roof, leaving thin marks below the eaves. All three serialized LODs passed the geometry and shared-atlas checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 86,
+            "charm": 88,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Bring the two front votives and their supporting piers forward of the eaves, or lower them enough to show the whole flame and provide headroom beneath the roof."
+          ]
+        },
+        {
+          "id": "bld_dwarf_temple_industrial_v0",
+          "evidence_sha256": "d0e154e35b443af44ddcbca4b088fc709592e3de16151e63014ada9f2172ff5b",
+          "observations": "The roof bell and arched stair portal read against the red-brick and concrete bodies. Both tall corner pedestals carry a votive inside the eave volume, so their intended glow disappears in the phone view. All three serialized LODs passed the geometry and shared-atlas checks.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 86,
+            "charm": 88,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Bring the two front votives and their supporting piers forward of the eaves, or lower them enough to show the whole flame and provide headroom beneath the roof."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Builder session 5 independent religion critic",
+      "models": [
+        {
+          "id": "bld_dwarf_spirit_totem_ancient_v0",
+          "evidence_sha256": "ab0100210a795f6400b27a319a50ced551afafd0d43bc31137bbe451fec19817",
+          "observations": "The timber-browed ancestral face now has a broad continuous cap. Pale thatch, warm ochre and dark Iron timber are visible at 64 pixels across its three ages. The carved eyes, beard strokes and flame bowls retain their definition. The serialized three-LOD model passed the current validator.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_temple_ancient_v0",
+          "evidence_sha256": "df99be0535700d09d3224d1deb9e6a079bef3af5d833739bbc2d21e1248e6654",
+          "observations": "Both Iron flames are visible above their stone cups and in front of the roof edge. They frame the entrance below the rooftop bell. The Iron model passed the geometry and atlas checks at every LOD.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_temple_classical_v0",
+          "evidence_sha256": "d27a4ff063ce3fbf8c01276a33280e7103f0f3bc9ba062208c13e5e09a393186",
+          "observations": "White-stone Classical, gray Medieval and ochre Renaissance versions all show clearly seated cups, open space around the flames and a clear stair approach. The low roof and central bell remain legible at 64 pixels. All three LODs validated.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_temple_future_v0",
+          "evidence_sha256": "79c20c5c34947c11d7b6dc9a9f148a82ee1d0a654fda7ec4556d4dc7e3b16b21",
+          "observations": "The cups now stand clear of the broad black and gold eaves in both age previews. Their orange centers balance the pale glass rear roof and bring attention back to the door. The new serialized export passed the surface and LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_temple_industrial_v0",
+          "evidence_sha256": "37e6d6c00797712f243f2537aa6bc466c81e9afbe968ce869548390e9d04d4de",
+          "observations": "In both brick Industrial and concrete Modern dress the votives now sit on the exposed front ends of the piers. The flames, arch and bell remain distinct at 64 pixels and the stair stays open. The current validator cleared each LOD.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

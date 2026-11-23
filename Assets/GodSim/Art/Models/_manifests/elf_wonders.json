@@ -1,0 +1,60 @@
+[
+ {
+  "id": "bld_elf_world_tree_ancient_v0",
+  "kind": "wonder",
+  "category": "Buildings/Elf/Wonders",
+  "building_type": "WorldTree",
+  "race": "elf",
+  "ages": [
+   "iron",
+   "classical",
+   "medieval",
+   "renaissance",
+   "industrial",
+   "modern",
+   "information",
+   "ascension",
+   "bronze"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 4619,
+  "lod_triangles": [
+   4619,
+   2589,
+   1055
+  ],
+  "bounds": [
+   [
+    -1.4480327367782593,
+    0.0,
+    -1.3699151277542114
+   ],
+   [
+    1.4651567935943604,
+    3.9844117164611816,
+    1.2486381530761719
+   ]
+  ],
+  "bytes": 819500,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Wonders/bld_elf_world_tree_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Wonders/bld_elf_world_tree_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Wonders/bld_elf_world_tree_ancient_v0.png",
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Wonders/bld_elf_world_tree_ancient_v0__classical.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Wonders/bld_elf_world_tree_ancient_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Wonders/bld_elf_world_tree_ancient_v0__renaissance.png",
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Wonders/bld_elf_world_tree_ancient_v0__industrial.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Wonders/bld_elf_world_tree_ancient_v0__modern.png",
+   "information": "tools/AssetForge/previews/Buildings/Elf/Wonders/bld_elf_world_tree_ancient_v0__information.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Wonders/bld_elf_world_tree_ancient_v0__ascension.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Wonders/bld_elf_world_tree_ancient_v0__bronze.png"
+  }
+ }
+]

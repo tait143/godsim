@@ -1,0 +1,351 @@
+{
+  "package": "dwarf_culturecivic",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Session 6 independent critic, commerce builder",
+      "models": [
+        {
+          "id": "bld_dwarf_arcology_future_v0",
+          "evidence_sha256": "eb66d30a247ea937ca6cc28a7505f2550b1a54a3be4592b183f138779cdfbff0",
+          "observations": "Twin stepped towers have legible glass belts, planted ledges and a shared cut-stone gate. A lamp, fountain and tiny trees give scale beneath the gold caps.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_arena_classical_v0",
+          "evidence_sha256": "42e54ec05992b2f0912c1097048641e1821cc32c98462c6ea5b79d732a728317",
+          "observations": "The ring, sunken competition floor and gate standards carry across all three ages. At native size a front pilaster crosses an arched recess, leaving dark fragments on its flanks and a stray outlined cap above.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 85,
+            "charm": 92,
+            "colour": 92,
+            "technical": 98
+          },
+          "defects": [
+            "Separate the outer-wall buttresses from the applied arched bays. Align each buttress between bays or omit the bay hidden behind it, then inspect the full circumference."
+          ]
+        },
+        {
+          "id": "bld_dwarf_arena_future_v0",
+          "evidence_sha256": "6b81f276ac52fb2a7deb410c3124b18f481ea95151fa60a375e00ce8cef408bb",
+          "observations": "The longer glazed viewing canopy and gold parapet read at 64 pixels, including Ascension. Glazed arch outlines leak around the center-front stone buttress and break its surface.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 85,
+            "charm": 92,
+            "colour": 94,
+            "technical": 98
+          },
+          "defects": [
+            "Move the buttresses between glazed arch bays or omit the underlying bay where they coincide."
+          ]
+        },
+        {
+          "id": "bld_dwarf_arena_industrial_v0",
+          "evidence_sha256": "4d91bed0c957693e6ebe4b15c14464d78a5871571e52e403b27464588953a479",
+          "observations": "Brick turns to pale concrete in Modern and both keep the short northern roof and gold lip. The buttress in the foreground is flanked by short dark slivers from its overlapping decorative doorway.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 85,
+            "charm": 92,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Separate buttresses from arch treatments, especially the forward visible sector."
+          ]
+        },
+        {
+          "id": "bld_dwarf_campfire_ancient_v0",
+          "evidence_sha256": "41bc337eac049dd409ef21ced7b2561511f8d6f6d89bf1256f132d5f6d3c36e2",
+          "observations": "The curled flame holds up at 64 pixels and the stacks of spare fuel and listening stools give it a communal scale. Dawn and Bronze keep the same dark bench masses and central rim, leaving little age signal at phone size.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 85,
+            "construction": 92,
+            "charm": 93,
+            "colour": 89,
+            "technical": 99
+          },
+          "defects": [
+            "Use a clearly age-responsive atlas material on a substantial shared surface such as the bench seats, backs or broad hearth ring to separate Dawn and Bronze."
+          ]
+        },
+        {
+          "id": "bld_dwarf_campfire_classical_v0",
+          "evidence_sha256": "61086e99e4792c9cce98b4c197fb933de6367a7ad120bea95768620a030d2c03",
+          "observations": "The pale raised court, gilded hearth and little clan standard distinguish this ceremonial version. The open front leads between carved posts toward the tall flame.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_forum_classical_v0",
+          "evidence_sha256": "f43b9527f96d444062171e847d4a5fefc0df1fff59e70d7b9e80396c726069a5",
+          "observations": "Four short pillars visibly support a second roof over the speaking terrace. The central rune, lectern and flanking lamps make the forecourt legible through the darker Medieval palette.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_forum_future_v0",
+          "evidence_sha256": "5ba03199b2d2f6bd3f05a52989c44de0bc2bb5b2d39601c0edc50ce5b65205f6",
+          "observations": "The bright blue roof lantern floats visually above a thick slab with visible wall support. The lectern still reads beneath the glazed porch and pale stairs define the entrance.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_forum_industrial_v0",
+          "evidence_sha256": "5ecf6a4bcb77aed9b68988cdb90a24641ea78789025fe0b1fbe110d5dcaa911d",
+          "observations": "A brick vault rises through the iron roof platform and sits visibly behind the porch pediment. The industrial and concrete-modern versions retain the low colonnade and stepped entrance.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_stadium_future_v0",
+          "evidence_sha256": "b81cdaefe1ae6936a7bb7feebc9bf67fc523e954769b43f69d778c5bc62eb7c6",
+          "observations": "The pitch, lights and tall blue cantilever read as sports facilities. At phone scale the tiny front chevrons disappear and the bare linear stands have little dwarf-specific civic identity, particularly beside the preceding era.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 83,
+            "construction": 93,
+            "charm": 88,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Develop a substantial stepped gatehouse or public scoreboard with a large dwarf emblem. Give the future structure a distinct glazed arch or crown visible at phone size."
+          ]
+        },
+        {
+          "id": "bld_dwarf_stadium_industrial_v0",
+          "evidence_sha256": "8b1dfc0e0e026bd9322d079f9a14a2041cd6446bfaf68768b628baf7201e10cd",
+          "observations": "The charcoal cover shades narrow tiers beside the green pitch, with adequate raking supports. At 64 pixels the tiny chevrons and ticket lintel merge into the front parapet; the two long stands read as a generic sports venue.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 84,
+            "construction": 94,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Enlarge the gate into a hewn dwarf civic entrance or scoreboard with a readable rune and supporting stepped masonry."
+          ]
+        },
+        {
+          "id": "bld_dwarf_tavern_classical_v0",
+          "evidence_sha256": "230ce3193e70de5743ab7d6b1009c32bb3957fa4831a00285a8a6ada2224b1cc",
+          "observations": "The copper-hooped tun rests in a thick cradle beside the low hall. Its tap, projecting tankard sign, window box and warm door lamps can be found again in the Renaissance version.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 96,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_tavern_future_v0",
+          "evidence_sha256": "74dbeaa42f333e450840d9598ca0175c88fefb708c744175b329a1cf1831677d",
+          "observations": "The glazed vault and gold-clad metal tun make the brewing hall clear from above. The centered entry step, tap and little sign survive both Information blue and Ascension gold.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_tavern_industrial_v0",
+          "evidence_sha256": "d80aabdf430651326f1590ffbd8bce9b51bd293c49ab6a00ca0e40e8453d6cd9",
+          "observations": "The tall brick flue and low roof monitor frame the broad wooden tun. Paired glowing windows, tankard sign and planted sill remain legible accents on the Modern concrete wall.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_theater_classical_v0",
+          "evidence_sha256": "d5ad2203e75fb1b0410f4d879fe880be9c495eda09a3b5cb5cf3ca3d3751cf2e",
+          "observations": "Two curved seating banks face a covered stone stage through an open aisle. The mask, paired curtain ties and stage lamps read as theater even when the Medieval roof darkens.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 95,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_theater_future_v0",
+          "evidence_sha256": "f4df9d263254886d89ca89dc14a1a06aaa62debdb41bce3db1731ce45b09fbc8",
+          "observations": "The tall blue proscenium, clipped pillars and gold mask sit clearly above the short semicircular benches. Glazing brightens in Ascension while the stage apron keeps its warm material.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_theater_industrial_v0",
+          "evidence_sha256": "ff6e9f6fef4ac0d38a6394db59b4f9dad8445ac928d50bd46358053a3a0cbbce",
+          "observations": "The shallow iron roof and small rear flue distinguish the brick stagehouse. The central aisle and front stairs give the audience a clear route, and the face mask carries at thumbnail size.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Session 6 independent critic, commerce builder",
+      "models": [
+        {
+          "id": "bld_dwarf_arena_classical_v0",
+          "evidence_sha256": "64045ef19a3cb9ba7197fa9f7406e91521da51407f7fe4df67deb148aa1129f1",
+          "observations": "Reopened all three ages. The front arches have intact outlines and clean stone between the jambs and adjacent piers. The gate standards and competition stone remain visible.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_arena_future_v0",
+          "evidence_sha256": "4071d25f6fc588f528b090dac27a111f9578236358561811c629c62772f90f13",
+          "observations": "The glazed outer recesses are now clear of the buttresses in both palettes. Their regular rhythm follows the curved lower wall under the blue or gold canopy.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_arena_industrial_v0",
+          "evidence_sha256": "c4dccb9e4f91241ba469ea2f816caafc2bae089019025746b62e711bd9825434",
+          "observations": "Moving the pilaster into the empty bay produced clean brick and concrete surrounds. The freestanding gate and judges\u2019 roof still frame the central competition floor.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_campfire_ancient_v0",
+          "evidence_sha256": "0e94c67b80f99649b5ac5db06337193ad91cbb2ae28a11baefac764e7808276d",
+          "observations": "The new backrests, dark-to-ochre hearth rim and changing earth terrace separate Dawn, Bronze and Iron at 64 px. The carved posts and firewood remain clear of the entry.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_stadium_future_v0",
+          "evidence_sha256": "82e8311267be2f26999508e7cad687a8cd95ed4be863091ed5ba6a0b5ca2523b",
+          "observations": "The large gate with a hammer seal anchors the foreground. A gold roof arch traces the upper blue grandstand and remains visible in the Ascension palette.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_stadium_industrial_v0",
+          "evidence_sha256": "d9ef472ee50a1b30ffc202286494f2efb7c67cb14e999021d42d471ae2b027ea",
+          "observations": "The projecting stepped gatehouse and hammer seal read against the long ticket wall. The coal-dark roof, orange seating rows and small pitch lights still identify the industrial ground.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

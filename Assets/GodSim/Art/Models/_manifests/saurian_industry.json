@@ -1,0 +1,1024 @@
+[
+ {
+  "id": "bld_saurian_armory_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Armory",
+  "race": "saurian",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 771,
+  "lod_triangles": [
+   771,
+   433,
+   147
+  ],
+  "bounds": [
+   [
+    -0.9599999785423279,
+    0.0,
+    -0.4375
+   ],
+   [
+    0.9599999785423279,
+    1.146466851234436,
+    0.4375
+   ]
+  ],
+  "bytes": 98476,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_armory_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_armory_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_armory_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_armory_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Armory",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 771,
+  "lod_triangles": [
+   771,
+   433,
+   147
+  ],
+  "bounds": [
+   [
+    -0.9599999785423279,
+    0.0,
+    -0.4375
+   ],
+   [
+    0.9599999785423279,
+    1.214928388595581,
+    0.4375
+   ]
+  ],
+  "bytes": 97612,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_armory_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_armory_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_armory_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_armory_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_armory_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_armory_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Armory",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 771,
+  "lod_triangles": [
+   771,
+   433,
+   147
+  ],
+  "bounds": [
+   [
+    -0.9599999785423279,
+    0.0,
+    -0.4375
+   ],
+   [
+    0.9599999785423279,
+    1.0703985691070557,
+    0.4375
+   ]
+  ],
+  "bytes": 98304,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_armory_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_armory_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_armory_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_armory_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_armory_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Armory",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 771,
+  "lod_triangles": [
+   771,
+   433,
+   147
+  ],
+  "bounds": [
+   [
+    -0.9599999785423279,
+    0.0,
+    -0.4375
+   ],
+   [
+    0.9599999785423279,
+    1.0399712324142456,
+    0.4375
+   ]
+  ],
+  "bytes": 98308,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_armory_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_armory_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_armory_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_armory_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_blacksmith_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Blacksmith",
+  "race": "saurian",
+  "ages": [
+   "iron",
+   "bronze"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 939,
+  "lod_triangles": [
+   939,
+   527,
+   218
+  ],
+  "bounds": [
+   [
+    -0.9599999785423279,
+    0.0,
+    -0.4424999952316284
+   ],
+   [
+    0.9599999785423279,
+    0.8691759705543518,
+    0.45249998569488525
+   ]
+  ],
+  "bytes": 131972,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_blacksmith_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_blacksmith_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_blacksmith_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_blacksmith_ancient_v0__bronze.png"
+  }
+ },
+ {
+  "id": "bld_saurian_blacksmith_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Blacksmith",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 939,
+  "lod_triangles": [
+   939,
+   527,
+   218
+  ],
+  "bounds": [
+   [
+    -0.9599999785423279,
+    0.0,
+    -0.4424999952316284
+   ],
+   [
+    0.9599999785423279,
+    0.9660419821739197,
+    0.45249998569488525
+   ]
+  ],
+  "bytes": 132188,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_blacksmith_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_blacksmith_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_blacksmith_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_blacksmith_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_blacksmith_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_blacksmith_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Blacksmith",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 939,
+  "lod_triangles": [
+   939,
+   527,
+   218
+  ],
+  "bounds": [
+   [
+    -0.9599999785423279,
+    0.0,
+    -0.4424999952316284
+   ],
+   [
+    0.9599999785423279,
+    1.0515120029449463,
+    0.45249998569488525
+   ]
+  ],
+  "bytes": 131980,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_blacksmith_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_blacksmith_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_blacksmith_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_blacksmith_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_blacksmith_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Blacksmith",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 939,
+  "lod_triangles": [
+   939,
+   527,
+   218
+  ],
+  "bounds": [
+   [
+    -0.9599999785423279,
+    0.0,
+    -0.4424999952316284
+   ],
+   [
+    0.9599999785423279,
+    1.1027940511703491,
+    0.45249998569488525
+   ]
+  ],
+  "bytes": 132176,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_blacksmith_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_blacksmith_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_blacksmith_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_blacksmith_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_electronics_plant_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "ElectronicsPlant",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 931,
+  "lod_triangles": [
+   931,
+   460,
+   147
+  ],
+  "bounds": [
+   [
+    -1.4474999904632568,
+    0.0,
+    -1.274999976158142
+   ],
+   [
+    1.4474999904632568,
+    1.7714999914169312,
+    1.3949999809265137
+   ]
+  ],
+  "bytes": 118196,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_electronics_plant_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_electronics_plant_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_electronics_plant_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_electronics_plant_future_v0__ascension.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_electronics_plant_future_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_factory_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Factory",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 853,
+  "lod_triangles": [
+   853,
+   412,
+   146
+  ],
+  "bounds": [
+   [
+    -1.4474999904632568,
+    0.0,
+    -1.274999976158142
+   ],
+   [
+    1.4474999904632568,
+    1.8194999694824219,
+    1.3949999809265137
+   ]
+  ],
+  "bytes": 105196,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_factory_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_factory_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_factory_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_factory_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_factory_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Factory",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 809,
+  "lod_triangles": [
+   809,
+   368,
+   126
+  ],
+  "bounds": [
+   [
+    -1.4474999904632568,
+    0.0,
+    -1.274999976158142
+   ],
+   [
+    1.4474999904632568,
+    1.8194999694824219,
+    1.3949999809265137
+   ]
+  ],
+  "bytes": 95908,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_factory_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_factory_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_factory_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_factory_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_foundry_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Foundry",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1045,
+  "lod_triangles": [
+   1045,
+   560,
+   215
+  ],
+  "bounds": [
+   [
+    -1.4474999904632568,
+    0.0,
+    -1.3515000343322754
+   ],
+   [
+    1.4474999904632568,
+    2.494499921798706,
+    1.3949999809265137
+   ]
+  ],
+  "bytes": 137132,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_foundry_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_foundry_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_foundry_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_foundry_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_foundry_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Foundry",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 987,
+  "lod_triangles": [
+   987,
+   522,
+   187
+  ],
+  "bounds": [
+   [
+    -1.4474999904632568,
+    0.0,
+    -1.3515000343322754
+   ],
+   [
+    1.4474999904632568,
+    2.494499921798706,
+    1.3949999809265137
+   ]
+  ],
+  "bytes": 125832,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_foundry_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_foundry_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_foundry_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_foundry_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_smelter_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Smelter",
+  "race": "saurian",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 889,
+  "lod_triangles": [
+   889,
+   497,
+   208
+  ],
+  "bounds": [
+   [
+    -0.9599999785423279,
+    0.0,
+    -0.4424999952316284
+   ],
+   [
+    0.9599999785423279,
+    1.093400001525879,
+    0.45249998569488525
+   ]
+  ],
+  "bytes": 122716,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_smelter_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_smelter_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_smelter_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_smelter_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_smelter_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Smelter",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 889,
+  "lod_triangles": [
+   889,
+   497,
+   208
+  ],
+  "bounds": [
+   [
+    -0.9599999785423279,
+    0.0,
+    -0.4424999952316284
+   ],
+   [
+    0.9599999785423279,
+    1.2243000268936157,
+    0.45249998569488525
+   ]
+  ],
+  "bytes": 123000,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_smelter_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_smelter_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_smelter_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_smelter_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_smelter_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_smelter_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Smelter",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 889,
+  "lod_triangles": [
+   889,
+   497,
+   208
+  ],
+  "bounds": [
+   [
+    -0.9599999785423279,
+    0.0,
+    -0.4424999952316284
+   ],
+   [
+    0.9599999785423279,
+    1.3398000001907349,
+    0.45249998569488525
+   ]
+  ],
+  "bytes": 122852,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_smelter_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_smelter_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_smelter_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_smelter_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_smelter_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Smelter",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 889,
+  "lod_triangles": [
+   889,
+   497,
+   208
+  ],
+  "bounds": [
+   [
+    -0.9599999785423279,
+    0.0,
+    -0.4424999952316284
+   ],
+   [
+    0.9599999785423279,
+    1.40910005569458,
+    0.45249998569488525
+   ]
+  ],
+  "bytes": 123108,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_smelter_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_smelter_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_smelter_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_smelter_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_weaver_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Weaver",
+  "race": "saurian",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 677,
+  "lod_triangles": [
+   677,
+   364,
+   169
+  ],
+  "bounds": [
+   [
+    -0.4650000035762787,
+    0.0,
+    -0.4350000023841858
+   ],
+   [
+    0.4694717228412628,
+    0.4928179979324341,
+    0.4350000023841858
+   ]
+  ],
+  "bytes": 96492,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_weaver_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_weaver_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_weaver_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_weaver_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_weaver_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Weaver",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 677,
+  "lod_triangles": [
+   677,
+   364,
+   169
+  ],
+  "bounds": [
+   [
+    -0.4650000035762787,
+    0.0,
+    -0.4350000023841858
+   ],
+   [
+    0.4694717228412628,
+    0.5317789912223816,
+    0.4350000023841858
+   ]
+  ],
+  "bytes": 96520,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_weaver_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_weaver_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_weaver_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_weaver_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_weaver_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_weaver_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Weaver",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 745,
+  "lod_triangles": [
+   745,
+   408,
+   201
+  ],
+  "bounds": [
+   [
+    -0.4650000035762787,
+    0.0,
+    -0.4350000023841858
+   ],
+   [
+    0.4694717228412628,
+    0.47850000858306885,
+    0.4350000023841858
+   ]
+  ],
+  "bytes": 105628,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_weaver_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_weaver_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_weaver_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_weaver_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_weaver_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Weaver",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 745,
+  "lod_triangles": [
+   745,
+   408,
+   201
+  ],
+  "bounds": [
+   [
+    -0.4650000035762787,
+    0.0,
+    -0.4350000023841858
+   ],
+   [
+    0.4694717228412628,
+    0.47850000858306885,
+    0.4350000023841858
+   ]
+  ],
+  "bytes": 105696,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_weaver_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_weaver_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_weaver_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_weaver_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_workshop_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Workshop",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 857,
+  "lod_triangles": [
+   857,
+   415,
+   199
+  ],
+  "bounds": [
+   [
+    -0.9599999785423279,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9599999785423279,
+    1.1648459434509277,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 110768,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_workshop_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_workshop_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_workshop_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_workshop_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_workshop_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_workshop_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Industry",
+  "building_type": "Workshop",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 969,
+  "lod_triangles": [
+   969,
+   491,
+   238
+  ],
+  "bounds": [
+   [
+    -0.9599999785423279,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9599999785423279,
+    1.2330000400543213,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 126108,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Industry/bld_saurian_workshop_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_workshop_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_workshop_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Industry/bld_saurian_workshop_industrial_v0__modern.png"
+  }
+ }
+]

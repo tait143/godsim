@@ -8,9 +8,9 @@ namespace GodSim.Core.Composition
 {
     public sealed class GodSimulation
     {
-        public WorldState State { get; }
-        public GameDatabase Db { get; }
-        public EventBus Events { get; }
+        public WorldState State { get; set; }
+        public GameDatabase Db { get; set; }
+        public EventBus Events { get; set; }
         public long Tick { get; }
     }
 }
@@ -36,14 +36,16 @@ namespace GodSim.Unity
 
     public static class GodSimPalette
     {
-        public static Color FromRgba(uint rgba) => default;
+        public static Color FromRgba(uint rgba) => new Color(
+            ((rgba >> 24) & 255) / 255f, ((rgba >> 16) & 255) / 255f,
+            ((rgba >> 8) & 255) / 255f, (rgba & 255) / 255f);
         public static Color AgeTint(AgeId a) => default;
         public static Color Category(BuildingCategory c) => default;
     }
 
     public static class MaterialLibrary
     {
-        public static Material VertexColorOpaque => null;
-        public static Material VertexColorInstanced => null;
+        public static Material VertexColorOpaque { get; set; }
+        public static Material VertexColorInstanced { get; set; }
     }
 }

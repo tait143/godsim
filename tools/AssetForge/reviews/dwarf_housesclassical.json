@@ -1,0 +1,209 @@
+{
+  "package": "dwarf_housesclassical",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "critic_dwarf_classical_houses",
+      "models": [
+        {
+          "id": "bld_dwarf_house_classical_medieval_v0",
+          "evidence_sha256": "94b518d23c375d7c9ff239f99cfaa56fc74a4fde8ede67d8e3af4bb5d99c4ffd",
+          "observations": "The squat slate vault, stepped firebreaks and battered stone feet read as a Dwarf hearth at 40–64 px. The hooded side light, diamond lamp and little front pot give the broad house a domestic scale. In the side view the distant house loses the chimney and rear roof steps at the same transition. The 507/310/140 triangle exports passed serialized validation.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 94,
+            "construction": 88,
+            "charm": 93,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "At LOD2 the chimney and rear stepped firebreak disappear together. The maximum height falls from 0.682 to 0.590 tile. Retain a capped chimney and a simplified stepped rear parapet and check the side and rear silhouettes.",
+            "At LOD2 the door face stands 0.018 tile in front of the wall after both jambs are removed. Add shallow side returns or place the panel on the masonry so it closes at a grazing angle.",
+            "At LOD0/1 the central clan mark lies entirely inside the front firebreak. At its centre the mark spans z=−0.2612 to −0.2488, while the firebreak face is at −0.2785. Set the relief on the exposed masonry surface."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_medieval_v1",
+          "evidence_sha256": "bac5bc398d2deb73c500c7fc64d41f5600d06ae81bd3324c730bb6557cdbc528",
+          "observations": "The high slate vault and low side room distinguish this variant at 40–64 px. The honey-coloured light sits on the exposed wall opposite the annex, and the chimney emerges above the main roof at the first two levels. A side view of the 166-triangle mesh shows the unbroken roof where both the chimney and rear firebreak stood. The 557/352/166 triangle exports passed serialized validation.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 94,
+            "construction": 88,
+            "charm": 93,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "At LOD2 preserve the tall capped chimney and at least a short stepped rear firebreak. The current change removes both roof landmarks and drops the maximum height from 0.793 to 0.668 tile.",
+            "At LOD2 both jambs disappear while the door plane remains 0.018 tile ahead of the masonry. Seat the panel in the wall or add simple side returns.",
+            "At LOD0/1 the clan mark is enclosed in the front firebreak. Its centre spans z=−0.2587 to −0.2463 behind the front face at −0.2760. Carry the mark onto the visible face or set it into an exposed lintel."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_renaissance_v0",
+          "evidence_sha256": "c9a864cf5a016442f223ddd5f8d5f715d1b13b93267df690c7602806c3b86355",
+          "observations": "The faceted brass-coloured dome on the low red roof stands out at 40–64 px. The pale battered walls, glazed front light, doorway pot and clay jar give the house a clear front. The low side views show a pointed cap at the last transition and daylight at the entrance. The 516/189/95 triangle exports passed serialized validation.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 94,
+            "construction": 83,
+            "charm": 92,
+            "colour": 94,
+            "technical": 93
+          },
+          "defects": [
+            "At LOD2 the rounded dome becomes a straight-sided five-face pyramid. Add a shoulder ring to preserve the dome in side elevation.",
+            "The LOD0/1 front window has an unsupported backing plane, approximately 0.044/0.043 tile ahead of the wall at window height. The LOD0 rear vent also stands 0.016 tile off the wall. Fit the backing to the battered wall or give each opening solid reveals.",
+            "The door leaf stands 0.035–0.037 tile off the masonry at y=0.191. At LOD0/1 even the jamb backs clear the wall by 0.012–0.013 tile at y=0.155, and LOD2 omits those jambs. Extend the surround into the wall and close the sides at every level.",
+            "The LOD0/1 lozenge centred above the front door is buried in the door cap. At y=0.304 its front is z=−0.2237 behind the cap face at −0.2450. Place the clan relief on an exposed face."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_renaissance_v1",
+          "evidence_sha256": "d6791aee4332f93bdfa3fd2f84752a431bdc904613fa101e12d0c0fdea1c2df1",
+          "observations": "The off-centre brass-coloured dome and blue drum stand clearly apart from the red barrel roof at 40–64 px. The faceted side tower, lit windows and paired vessels distinguish the entry. At LOD2 the side tower gains a sharply pointed roof. The 562/219/114 triangle exports passed serialized validation.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 95,
+            "construction": 82,
+            "charm": 93,
+            "colour": 95,
+            "technical": 92
+          },
+          "defects": [
+            "At LOD2 give the side dome an intermediate shoulder ring. Its single five-sided cone loses the rounded outline visible at LOD0/1.",
+            "The LOD0/1 front window backing stands about 0.043 tile off the wall, and the LOD0 rear vent stands 0.015 tile off it. The LOD0 tower-window backing also clears its facet by about 0.006–0.015 tile across the opening. Align each opening to its support or provide solid side returns.",
+            "At y=0.191 the door stands about 0.035–0.036 tile forward of the wall. At y=0.155 the jamb backs still clear the wall by about 0.012 tile. Build the surround through to the wall and retain a closed return at LOD2.",
+            "The LOD0/1 clan relief hovers about 0.0038 tile ahead of the cornice at its centre. Recess the back of the relief slightly into the cornice face."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_v0",
+          "evidence_sha256": "da898fd736916a1c40385c87c9ee5e9714599048ed446d27fb00ae3f85f5c74a",
+          "observations": "The low terracotta hip and the two-column porch distinguish the Classical house from the later vaulted and domed houses at 40–64 px. Pale column bases sit on the raised deck, and the diamond lamp has a socket extending into the masonry. The portico survives all three meshes. The 383/232/110 triangle exports passed serialized validation.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 86,
+            "charm": 91,
+            "colour": 92,
+            "technical": 95
+          },
+          "defects": [
+            "The door plane stands about 0.040–0.043 tile in front of the battered wall at y=0.175. Even the LOD0/1 jamb backs clear the wall by about 0.017–0.019 tile at y=0.155. Use a supporting wall return or extend the frame through to the wall, including the simplified LOD2 entry.",
+            "The LOD0 rear vent backing at z=0.3560 clears the wall at z=0.3303 at mid-height. Seat the opening on the wall slope or add a roughly 0.026-tile-deep reveal."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_v1",
+          "evidence_sha256": "16be2465e772c4e8a708c676ccbb4e6b38c9b5fdfe00e351c1a411b3d6d3dde8",
+          "observations": "The tall red vault, round side room and small front portico give this house a three-part silhouette at 40–64 px. The side room and porch remain legible in the reduced meshes. The pale wall, column capitals and amber diamond match its Classical partner. The 437/270/132 triangle exports passed serialized validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 95
+          },
+          "defects": [
+            "The door panel sits about 0.038–0.040 tile ahead of the wall at y=0.175. The LOD0/1 jamb backs still clear the masonry by about 0.016–0.017 tile at y=0.155. Return the entry into the wall and give the simplified LOD2 panel a closed edge.",
+            "The LOD0 vent backing at z=0.3260 stands clear of the rear wall at z=0.3028. Fit the vent to the battered face or build solid reveals to bridge that 0.023-tile gap."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "critic_dwarf_classical_houses",
+      "models": [
+        {
+          "id": "bld_dwarf_house_classical_medieval_v0",
+          "evidence_sha256": "f1695678efa0eeb59fe10b51a8171d0d86f1b90b3e177e9656dad98de018260c",
+          "observations": "At 40 px the shoulders of the pale firebreak bracket the slate vault, with the chimney rising above it. Both stepped ends and the chimney remain visible in front, rear and side views of LOD2. Peak height changes from 0.6825 to 0.6806 tile. The centre lozenge projects from the firebreak on LOD0/1. The door sides now reach the wall on all three levels. The 549/322/174 triangle exports passed serialized and surface checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_classical_medieval_v1",
+          "evidence_sha256": "de1331fdb3772b90242f201f3e3b05f5754fe900d49834a63ccbc09103244661",
+          "observations": "The lower vaulted annex, tall main flue and stepped stone gables distinguish this house from its broader neighbour at 40–64 px. Both parapets and the flue survive the rear and grazing LOD2 views. The flue reaches 0.7916 tile there, against 0.7935 at full detail. The clan mark is visible on the front firebreak, the hooded side light clears the annex, and the far door has continuous returns. The 599/364/192 triangle exports passed serialized and surface checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_classical_renaissance_v0",
+          "evidence_sha256": "4f2cde3efaae849a58a2600debe50281811b9ce0917884c85c9fa3d9afd697a7",
+          "observations": "At phone size the brass-coloured dome sits prominently above the low red roof. LOD1 and LOD2 both keep its shoulder at y=0.651 and its crown at y=0.701. The front window now has visible masonry sides in the low side views. The door closes into the facade at all three levels, the rear vent has four returns, and the small lozenges are visible on the front lintel. The 544/209/120 triangle exports passed serialized and surface checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_classical_renaissance_v1",
+          "evidence_sha256": "c6c66bbe86b525db106cecf07840c4ee19d32373e8fce0244e7c1743fc308835",
+          "observations": "The blue drum and rounded brass-coloured cap beside the red vault distinguish the side tower at 40 px. The distant cap keeps the shoulder at y=0.576 and the crown at y=0.615. Grazing views show solid sides to the front and tower windows. Exported return faces reach into both walls and the rear vent, and the door retains its sides through LOD2. The clan lozenges sit on the gold-edged front lintel. The 598/239/139 triangle exports passed serialized and surface checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_classical_v0",
+          "evidence_sha256": "32da22d75d4d8d18c4de59bf4f8a522b9bcd602c841d306eca16790ded1a446a",
+          "observations": "The low terracotta hip, front steps and columned porch read at 40–64 px. The small doorway lamp and pot distinguish the domestic entrance at full size. Both grazing views show a continuous door edge inside the portico. The export has a 0.110-tile doorway return at every level and four 0.075-tile return sides behind the rear grille at LOD0. The 403/244/122 triangle exports passed serialized and surface checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_classical_v1",
+          "evidence_sha256": "f4d358ad642fe979a73edb4a7dd77f75891d7a9cf01bdde2fef74d08760d4c56",
+          "observations": "The broad vault over the pale masonry and the round red-roofed side room remain distinct from the hipped variant down to 40 px. Both side views retain the porch columns, raised deck and connected door surround in the lower meshes. The full-detail rear vent now has four sides extending 0.075 tile into the body. The 457/282/144 triangle exports passed serialized and surface checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

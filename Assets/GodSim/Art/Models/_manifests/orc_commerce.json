@@ -1,0 +1,708 @@
+[
+ {
+  "id": "bld_orc_airport_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "Airport",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1128,
+  "lod_triangles": [
+   1128,
+   720,
+   271
+  ],
+  "bounds": [
+   [
+    -1.3539235591888428,
+    0.0,
+    -1.3891500234603882
+   ],
+   [
+    1.2935999631881714,
+    2.3381845951080322,
+    1.0951499938964844
+   ]
+  ],
+  "bytes": 198980,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_airport_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_airport_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_airport_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_airport_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_bank_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "Bank",
+  "race": "orc",
+  "ages": [
+   "renaissance",
+   "medieval"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 694,
+  "lod_triangles": [
+   694,
+   392,
+   198
+  ],
+  "bounds": [
+   [
+    -0.8476999998092651,
+    0.0,
+    -0.8967000246047974
+   ],
+   [
+    0.8476999998092651,
+    1.4062999486923218,
+    0.8109451532363892
+   ]
+  ],
+  "bytes": 119492,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_bank_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_bank_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_bank_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_bank_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_orc_bank_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "Bank",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 760,
+  "lod_triangles": [
+   760,
+   428,
+   198
+  ],
+  "bounds": [
+   [
+    -0.8235483765602112,
+    0.0,
+    -0.8967000246047974
+   ],
+   [
+    0.8235483765602112,
+    1.5778000354766846,
+    0.8109451532363892
+   ]
+  ],
+  "bytes": 129000,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_bank_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_bank_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_bank_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_bank_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_bank_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "Bank",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 760,
+  "lod_triangles": [
+   760,
+   428,
+   198
+  ],
+  "bounds": [
+   [
+    -0.8235483765602112,
+    0.0,
+    -0.8967000246047974
+   ],
+   [
+    0.8235483765602112,
+    1.4846999645233154,
+    0.8109451532363892
+   ]
+  ],
+  "bytes": 129128,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_bank_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_bank_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_bank_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_bank_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_guildhall_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "Guildhall",
+  "race": "orc",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 946,
+  "lod_triangles": [
+   946,
+   521,
+   262
+  ],
+  "bounds": [
+   [
+    -0.740466833114624,
+    0.0,
+    -0.6958000063896179
+   ],
+   [
+    0.9263569116592407,
+    1.4357000589370728,
+    0.5991719961166382
+   ]
+  ],
+  "bytes": 159076,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_guildhall_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_guildhall_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_guildhall_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_guildhall_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_guildhall_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "Guildhall",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1005,
+  "lod_triangles": [
+   1005,
+   570,
+   278
+  ],
+  "bounds": [
+   [
+    -0.740466833114624,
+    0.0,
+    -0.6958000063896179
+   ],
+   [
+    0.9263569116592407,
+    1.563099980354309,
+    0.5991719961166382
+   ]
+  ],
+  "bytes": 170888,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_guildhall_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_guildhall_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_guildhall_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_guildhall_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_guildhall_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "Guildhall",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 989,
+  "lod_triangles": [
+   989,
+   554,
+   262
+  ],
+  "bounds": [
+   [
+    -0.740466833114624,
+    0.0,
+    -0.6958000063896179
+   ],
+   [
+    0.9263569116592407,
+    1.430799961090088,
+    0.5991719961166382
+   ]
+  ],
+  "bytes": 166060,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_guildhall_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_guildhall_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_guildhall_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_guildhall_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_harbor_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "Harbor",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 970,
+  "lod_triangles": [
+   970,
+   591,
+   272
+  ],
+  "bounds": [
+   [
+    -0.886900007724762,
+    0.0,
+    -0.9211999773979187
+   ],
+   [
+    0.9358999729156494,
+    1.3112399578094482,
+    0.9211999773979187
+   ]
+  ],
+  "bytes": 164696,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_harbor_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_harbor_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "Harbor",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 996,
+  "lod_triangles": [
+   996,
+   607,
+   272
+  ],
+  "bounds": [
+   [
+    -0.886900007724762,
+    0.0,
+    -0.9211999773979187
+   ],
+   [
+    0.9358999729156494,
+    1.5758399963378906,
+    0.9211999773979187
+   ]
+  ],
+  "bytes": 168004,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_harbor_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_harbor_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "Harbor",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 980,
+  "lod_triangles": [
+   980,
+   591,
+   272
+  ],
+  "bounds": [
+   [
+    -0.886900007724762,
+    0.0,
+    -0.9211999773979187
+   ],
+   [
+    0.9358999729156494,
+    1.4288400411605835,
+    0.9211999773979187
+   ]
+  ],
+  "bytes": 165256,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_harbor_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_market_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "Market",
+  "race": "orc",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 872,
+  "lod_triangles": [
+   872,
+   530,
+   225
+  ],
+  "bounds": [
+   [
+    -0.7847133874893188,
+    0.0,
+    -0.7113781571388245
+   ],
+   [
+    0.9316076040267944,
+    1.0846149921417236,
+    0.8451009392738342
+   ]
+  ],
+  "bytes": 151108,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_market_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_market_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "Market",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 980,
+  "lod_triangles": [
+   980,
+   610,
+   277
+  ],
+  "bounds": [
+   [
+    -0.7847133874893188,
+    0.0,
+    -0.7311515808105469
+   ],
+   [
+    0.9316076040267944,
+    1.1534110307693481,
+    0.8451009392738342
+   ]
+  ],
+  "bytes": 172648,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_market_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_market_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "Market",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 984,
+  "lod_triangles": [
+   984,
+   602,
+   271
+  ],
+  "bounds": [
+   [
+    -0.7847133874893188,
+    0.0,
+    -0.7113781571388245
+   ],
+   [
+    0.9316076040267944,
+    1.2838000059127808,
+    0.8451009392738342
+   ]
+  ],
+  "bytes": 171292,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_market_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_market_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "Market",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1016,
+  "lod_triangles": [
+   1016,
+   634,
+   255
+  ],
+  "bounds": [
+   [
+    -0.803600013256073,
+    0.0,
+    -0.7113781571388245
+   ],
+   [
+    0.9316076040267944,
+    1.2112799882888794,
+    0.8451009392738342
+   ]
+  ],
+  "bytes": 175388,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_market_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_rail_station_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "RailStation",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 981,
+  "lod_triangles": [
+   981,
+   655,
+   227
+  ],
+  "bounds": [
+   [
+    -1.3964999914169312,
+    0.0,
+    -1.1392500400543213
+   ],
+   [
+    1.3964999914169312,
+    1.7786999940872192,
+    1.3476959466934204
+   ]
+  ],
+  "bytes": 151316,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_rail_station_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_rail_station_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_rail_station_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_rail_station_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_rail_station_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Commerce",
+  "building_type": "RailStation",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1040,
+  "lod_triangles": [
+   1040,
+   702,
+   266
+  ],
+  "bounds": [
+   [
+    -1.3964999914169312,
+    0.0,
+    -1.1392500400543213
+   ],
+   [
+    1.3964999914169312,
+    1.7786999940872192,
+    1.3476959466934204
+   ]
+  ],
+  "bytes": 161880,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_rail_station_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_rail_station_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_rail_station_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_rail_station_industrial_v0__modern.png"
+  }
+ }
+]

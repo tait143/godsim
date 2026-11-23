@@ -1,0 +1,980 @@
+[
+ {
+  "id": "bld_orc_coal_mine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "CoalMine",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1092,
+  "lod_triangles": [
+   1092,
+   713,
+   345
+  ],
+  "bounds": [
+   [
+    -0.9529925584793091,
+    0.0,
+    -0.8710796236991882
+   ],
+   [
+    0.8733680248260498,
+    1.8200000524520874,
+    0.8149999976158142
+   ]
+  ],
+  "bytes": 193896,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_coal_mine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_coal_mine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_coal_mine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_coal_mine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_coal_mine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "CoalMine",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1064,
+  "lod_triangles": [
+   1064,
+   685,
+   317
+  ],
+  "bounds": [
+   [
+    -0.9529925584793091,
+    0.0,
+    -0.8710796236991882
+   ],
+   [
+    0.8733680248260498,
+    1.534999966621399,
+    0.8149999976158142
+   ]
+  ],
+  "bytes": 187452,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_coal_mine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_coal_mine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_coal_mine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_coal_mine_industrial_v0__modern.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_coal_mine_industrial_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_gold_mine_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "GoldMine",
+  "race": "orc",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1039,
+  "lod_triangles": [
+   1039,
+   599,
+   272
+  ],
+  "bounds": [
+   [
+    -0.9529925584793091,
+    0.0,
+    -0.8710796236991882
+   ],
+   [
+    0.8733680248260498,
+    1.434999942779541,
+    0.6338409781455994
+   ]
+  ],
+  "bytes": 176688,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_gold_mine_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_gold_mine_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_gold_mine_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_gold_mine_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "GoldMine",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1067,
+  "lod_triangles": [
+   1067,
+   627,
+   300
+  ],
+  "bounds": [
+   [
+    -0.9529925584793091,
+    0.0,
+    -0.8710796236991882
+   ],
+   [
+    0.8733680248260498,
+    1.7799999713897705,
+    0.6338409781455994
+   ]
+  ],
+  "bytes": 183180,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_gold_mine_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_gold_mine_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_gold_mine_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_gold_mine_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_gold_mine_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_gold_mine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "GoldMine",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1120,
+  "lod_triangles": [
+   1120,
+   680,
+   320
+  ],
+  "bounds": [
+   [
+    -0.9529925584793091,
+    0.0,
+    -0.8710796236991882
+   ],
+   [
+    0.8733680248260498,
+    1.9500000476837158,
+    0.8149999976158142
+   ]
+  ],
+  "bytes": 194668,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_gold_mine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_gold_mine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_gold_mine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_gold_mine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_gold_mine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "GoldMine",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1092,
+  "lod_triangles": [
+   1092,
+   652,
+   292
+  ],
+  "bounds": [
+   [
+    -0.9529925584793091,
+    0.0,
+    -0.8710796236991882
+   ],
+   [
+    0.8733680248260498,
+    1.6649999618530273,
+    0.8149999976158142
+   ]
+  ],
+  "bytes": 187960,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_gold_mine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_gold_mine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_gold_mine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_gold_mine_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_mine_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "Mine",
+  "race": "orc",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 934,
+  "lod_triangles": [
+   934,
+   577,
+   266
+  ],
+  "bounds": [
+   [
+    -0.9529925584793091,
+    0.0,
+    -0.8710796236991882
+   ],
+   [
+    0.8733680248260498,
+    1.3049999475479126,
+    0.6338409781455994
+   ]
+  ],
+  "bytes": 161228,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_mine_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_orc_mine_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "Mine",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 926,
+  "lod_triangles": [
+   926,
+   581,
+   282
+  ],
+  "bounds": [
+   [
+    -0.9529925584793091,
+    0.0,
+    -0.8710796236991882
+   ],
+   [
+    0.8733680248260498,
+    1.649999976158142,
+    0.6338409781455994
+   ]
+  ],
+  "bytes": 163532,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_mine_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_mine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "Mine",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 979,
+  "lod_triangles": [
+   979,
+   634,
+   302
+  ],
+  "bounds": [
+   [
+    -0.9529925584793091,
+    0.0,
+    -0.8710796236991882
+   ],
+   [
+    0.8733680248260498,
+    1.8200000524520874,
+    0.8149999976158142
+   ]
+  ],
+  "bytes": 174576,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_mine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_mine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "Mine",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 951,
+  "lod_triangles": [
+   951,
+   606,
+   274
+  ],
+  "bounds": [
+   [
+    -0.9529925584793091,
+    0.0,
+    -0.8710796236991882
+   ],
+   [
+    0.8733680248260498,
+    1.534999966621399,
+    0.8149999976158142
+   ]
+  ],
+  "bytes": 168124,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_mine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_oil_well_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "OilWell",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1036,
+  "lod_triangles": [
+   1036,
+   635,
+   314
+  ],
+  "bounds": [
+   [
+    -0.8467057347297668,
+    0.0,
+    -0.5799999833106995
+   ],
+   [
+    0.7519910931587219,
+    1.1494522094726562,
+    0.7530680894851685
+   ]
+  ],
+  "bytes": 178720,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_oil_well_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_oil_well_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_oil_well_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_oil_well_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_oil_well_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "OilWell",
+  "race": "orc",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1020,
+  "lod_triangles": [
+   1020,
+   619,
+   298
+  ],
+  "bounds": [
+   [
+    -0.8467057347297668,
+    0.0,
+    -0.5799999833106995
+   ],
+   [
+    0.7519910931587219,
+    1.1494522094726562,
+    0.7530680894851685
+   ]
+  ],
+  "bytes": 174904,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_oil_well_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_oil_well_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_oil_well_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_sawmill_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "Sawmill",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 996,
+  "lod_triangles": [
+   996,
+   588,
+   316
+  ],
+  "bounds": [
+   [
+    -0.9157803654670715,
+    0.0,
+    -0.8399999737739563
+   ],
+   [
+    0.8050000071525574,
+    1.1393790245056152,
+    0.8891445398330688
+   ]
+  ],
+  "bytes": 154176,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_sawmill_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_sawmill_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_sawmill_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_sawmill_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_sawmill_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "Sawmill",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 980,
+  "lod_triangles": [
+   980,
+   572,
+   300
+  ],
+  "bounds": [
+   [
+    -0.9157803654670715,
+    0.0,
+    -0.8399999737739563
+   ],
+   [
+    0.8050000071525574,
+    1.1150000095367432,
+    0.8891445398330688
+   ]
+  ],
+  "bytes": 149092,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_sawmill_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_sawmill_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_sawmill_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_sawmill_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_stone_quarry_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "orc",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 920,
+  "lod_triangles": [
+   920,
+   491,
+   224
+  ],
+  "bounds": [
+   [
+    -0.8613448739051819,
+    0.0,
+    -0.6364359259605408
+   ],
+   [
+    0.800000011920929,
+    1.2305500507354736,
+    0.8082969188690186
+   ]
+  ],
+  "bytes": 149428,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_stone_quarry_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_stone_quarry_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_stone_quarry_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_stone_quarry_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_stone_quarry_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_orc_stone_quarry_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 920,
+  "lod_triangles": [
+   920,
+   491,
+   224
+  ],
+  "bounds": [
+   [
+    -0.8613448739051819,
+    0.0,
+    -0.6364359259605408
+   ],
+   [
+    0.800000011920929,
+    1.2305500507354736,
+    0.8082969188690186
+   ]
+  ],
+  "bytes": 149576,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_stone_quarry_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_stone_quarry_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_stone_quarry_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_stone_quarry_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_stone_quarry_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_stone_quarry_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 956,
+  "lod_triangles": [
+   956,
+   517,
+   250
+  ],
+  "bounds": [
+   [
+    -0.8613448739051819,
+    0.0,
+    -0.6364359259605408
+   ],
+   [
+    0.800000011920929,
+    1.2305500507354736,
+    0.8082969188690186
+   ]
+  ],
+  "bytes": 156936,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_stone_quarry_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_stone_quarry_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_stone_quarry_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_stone_quarry_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_stone_quarry_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 940,
+  "lod_triangles": [
+   940,
+   501,
+   234
+  ],
+  "bounds": [
+   [
+    -0.8613448739051819,
+    0.0,
+    -0.6364359259605408
+   ],
+   [
+    0.800000011920929,
+    1.2305500507354736,
+    0.8082969188690186
+   ]
+  ],
+  "bytes": 153260,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_stone_quarry_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_stone_quarry_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_stone_quarry_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_stone_quarry_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_woodcutter_camp_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "orc",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 776,
+  "lod_triangles": [
+   776,
+   433,
+   194
+  ],
+  "bounds": [
+   [
+    -0.479333758354187,
+    0.0,
+    -0.3889999985694885
+   ],
+   [
+    0.40720000863075256,
+    0.5575000047683716,
+    0.463657021522522
+   ]
+  ],
+  "bytes": 120144,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_orc_woodcutter_camp_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 776,
+  "lod_triangles": [
+   776,
+   433,
+   194
+  ],
+  "bounds": [
+   [
+    -0.479333758354187,
+    0.0,
+    -0.3889999985694885
+   ],
+   [
+    0.40720000863075256,
+    0.6413000226020813,
+    0.463657021522522
+   ]
+  ],
+  "bytes": 119776,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_woodcutter_camp_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 884,
+  "lod_triangles": [
+   884,
+   503,
+   250
+  ],
+  "bounds": [
+   [
+    -0.479333758354187,
+    0.0,
+    -0.3889999985694885
+   ],
+   [
+    0.40720000863075256,
+    0.6100214719772339,
+    0.463657021522522
+   ]
+  ],
+  "bytes": 141456,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_woodcutter_camp_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 868,
+  "lod_triangles": [
+   868,
+   487,
+   234
+  ],
+  "bounds": [
+   [
+    -0.479333758354187,
+    0.0,
+    -0.3889999985694885
+   ],
+   [
+    0.40720000863075256,
+    0.5676714777946472,
+    0.463657021522522
+   ]
+  ],
+  "bytes": 137364,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_woodcutter_camp_industrial_v0__modern.png"
+  }
+ }
+]

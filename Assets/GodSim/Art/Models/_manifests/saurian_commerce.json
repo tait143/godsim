@@ -1,0 +1,708 @@
+[
+ {
+  "id": "bld_saurian_airport_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "Airport",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 796,
+  "lod_triangles": [
+   796,
+   482,
+   239
+  ],
+  "bounds": [
+   [
+    -1.4550000429153442,
+    0.0,
+    -1.4175000190734863
+   ],
+   [
+    1.4550000429153442,
+    2.377500057220459,
+    1.4175000190734863
+   ]
+  ],
+  "bytes": 119344,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_airport_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_airport_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_airport_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_airport_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_bank_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "Bank",
+  "race": "saurian",
+  "ages": [
+   "renaissance",
+   "medieval"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 750,
+  "lod_triangles": [
+   750,
+   456,
+   163
+  ],
+  "bounds": [
+   [
+    -0.8700000047683716,
+    0.0,
+    -0.9359999895095825
+   ],
+   [
+    0.8700000047683716,
+    1.687000036239624,
+    0.800000011920929
+   ]
+  ],
+  "bytes": 102632,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_bank_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_saurian_bank_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "Bank",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 722,
+  "lod_triangles": [
+   722,
+   428,
+   151
+  ],
+  "bounds": [
+   [
+    -0.8700000047683716,
+    0.0,
+    -0.9359999895095825
+   ],
+   [
+    0.8700000047683716,
+    1.746999979019165,
+    0.800000011920929
+   ]
+  ],
+  "bytes": 98508,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_bank_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_bank_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "Bank",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 742,
+  "lod_triangles": [
+   742,
+   448,
+   171
+  ],
+  "bounds": [
+   [
+    -0.8700000047683716,
+    0.0,
+    -0.9359999895095825
+   ],
+   [
+    0.8700000047683716,
+    1.6269999742507935,
+    0.800000011920929
+   ]
+  ],
+  "bytes": 102908,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_bank_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_guildhall_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "Guildhall",
+  "race": "saurian",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 750,
+  "lod_triangles": [
+   750,
+   427,
+   147
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.9259999990463257
+   ],
+   [
+    0.925000011920929,
+    1.5651999711990356,
+    0.8500000238418579
+   ]
+  ],
+  "bytes": 104716,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_guildhall_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_guildhall_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_guildhall_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_guildhall_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_guildhall_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "Guildhall",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 758,
+  "lod_triangles": [
+   758,
+   435,
+   155
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.9259999990463257
+   ],
+   [
+    0.925000011920929,
+    1.6718361377716064,
+    0.8500000238418579
+   ]
+  ],
+  "bytes": 107096,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_guildhall_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_guildhall_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_guildhall_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_guildhall_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_guildhall_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "Guildhall",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 868,
+  "lod_triangles": [
+   868,
+   521,
+   201
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.9259999990463257
+   ],
+   [
+    0.925000011920929,
+    1.6380000114440918,
+    0.8500000238418579
+   ]
+  ],
+  "bytes": 125776,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_guildhall_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_guildhall_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_guildhall_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_guildhall_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_harbor_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "Harbor",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 973,
+  "lod_triangles": [
+   973,
+   510,
+   237
+  ],
+  "bounds": [
+   [
+    -0.9649999737739563,
+    0.0,
+    -0.9300000071525574
+   ],
+   [
+    0.9649999737739563,
+    1.2719999551773071,
+    0.9300000071525574
+   ]
+  ],
+  "bytes": 129764,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_harbor_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_harbor_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_harbor_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_harbor_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_harbor_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_harbor_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "Harbor",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1051,
+  "lod_triangles": [
+   1051,
+   588,
+   255
+  ],
+  "bounds": [
+   [
+    -0.9649999737739563,
+    0.0,
+    -0.9300000071525574
+   ],
+   [
+    0.9649999737739563,
+    1.3919999599456787,
+    0.9300000071525574
+   ]
+  ],
+  "bytes": 141292,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_harbor_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_harbor_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_harbor_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_harbor_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_harbor_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "Harbor",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1029,
+  "lod_triangles": [
+   1029,
+   566,
+   255
+  ],
+  "bounds": [
+   [
+    -0.9649999737739563,
+    0.0,
+    -0.9300000071525574
+   ],
+   [
+    0.9649999737739563,
+    1.2527663707733154,
+    0.9300000071525574
+   ]
+  ],
+  "bytes": 137764,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_harbor_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_harbor_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_harbor_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_harbor_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_market_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "Market",
+  "race": "saurian",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 992,
+  "lod_triangles": [
+   992,
+   510,
+   213
+  ],
+  "bounds": [
+   [
+    -0.9350000023841858,
+    0.0,
+    -0.8849999904632568
+   ],
+   [
+    0.9350000023841858,
+    1.152999997138977,
+    0.8849999904632568
+   ]
+  ],
+  "bytes": 133952,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_market_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_market_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_market_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_market_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "Market",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1008,
+  "lod_triangles": [
+   1008,
+   510,
+   213
+  ],
+  "bounds": [
+   [
+    -0.9350000023841858,
+    0.0,
+    -0.8849999904632568
+   ],
+   [
+    0.9350000023841858,
+    1.559000015258789,
+    0.8849999904632568
+   ]
+  ],
+  "bytes": 135172,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_market_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_market_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_market_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_market_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_market_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_market_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "Market",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1018,
+  "lod_triangles": [
+   1018,
+   520,
+   223
+  ],
+  "bounds": [
+   [
+    -0.9350000023841858,
+    0.0,
+    -0.8849999904632568
+   ],
+   [
+    0.9350000023841858,
+    1.4299999475479126,
+    0.8849999904632568
+   ]
+  ],
+  "bytes": 136680,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_market_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_market_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_market_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_market_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_market_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "Market",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1058,
+  "lod_triangles": [
+   1058,
+   560,
+   235
+  ],
+  "bounds": [
+   [
+    -0.9350000023841858,
+    0.0,
+    -0.8849999904632568
+   ],
+   [
+    0.9350000023841858,
+    1.4700000286102295,
+    0.8849999904632568
+   ]
+  ],
+  "bytes": 143444,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_market_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_market_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_market_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_market_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_rail_station_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "RailStation",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 921,
+  "lod_triangles": [
+   921,
+   620,
+   269
+  ],
+  "bounds": [
+   [
+    -1.4175000190734863,
+    0.0,
+    -1.4205000400543213
+   ],
+   [
+    1.4175000190734863,
+    1.3904999494552612,
+    1.4175000190734863
+   ]
+  ],
+  "bytes": 133508,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_rail_station_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_rail_station_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_rail_station_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_rail_station_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_rail_station_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Commerce",
+  "building_type": "RailStation",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1029,
+  "lod_triangles": [
+   1029,
+   692,
+   319
+  ],
+  "bounds": [
+   [
+    -1.4175000190734863,
+    0.0,
+    -1.4205000400543213
+   ],
+   [
+    1.4175000190734863,
+    1.627500057220459,
+    1.4175000190734863
+   ]
+  ],
+  "bytes": 149672,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_rail_station_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_rail_station_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_rail_station_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_rail_station_industrial_v0__modern.png"
+  }
+ }
+]

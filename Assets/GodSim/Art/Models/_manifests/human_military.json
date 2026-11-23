@@ -1,0 +1,614 @@
+[
+ {
+  "id": "bld_human_barracks_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Military",
+  "building_type": "Barracks",
+  "race": "human",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1009,
+  "lod_triangles": [
+   1009,
+   473,
+   144
+  ],
+  "bounds": [
+   [
+    -0.8600000143051147,
+    0.0,
+    -0.7885000109672546
+   ],
+   [
+    0.9881299734115601,
+    1.1188610792160034,
+    0.7565000057220459
+   ]
+  ],
+  "bytes": 129740,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_barracks_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_barracks_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_barracks_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_barracks_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Military",
+  "building_type": "Barracks",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 943,
+  "lod_triangles": [
+   943,
+   470,
+   137
+  ],
+  "bounds": [
+   [
+    -0.8600000143051147,
+    0.0,
+    -0.7885000109672546
+   ],
+   [
+    0.9881299734115601,
+    1.2409999370574951,
+    0.7549999952316284
+   ]
+  ],
+  "bytes": 121892,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_barracks_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_barracks_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_barracks_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_barracks_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_barracks_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_barracks_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Military",
+  "building_type": "Barracks",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 677,
+  "lod_triangles": [
+   677,
+   289,
+   158
+  ],
+  "bounds": [
+   [
+    -0.8450000286102295,
+    0.0,
+    -0.7885000109672546
+   ],
+   [
+    0.9881299734115601,
+    1.0219999551773071,
+    0.75
+   ]
+  ],
+  "bytes": 91876,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_barracks_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_barracks_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_barracks_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_barracks_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_barracks_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Military",
+  "building_type": "Barracks",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 693,
+  "lod_triangles": [
+   693,
+   329,
+   158
+  ],
+  "bounds": [
+   [
+    -0.8550000190734863,
+    0.0,
+    -0.7885000109672546
+   ],
+   [
+    0.9881299734115601,
+    1.0239999294281006,
+    0.7549999952316284
+   ]
+  ],
+  "bytes": 97696,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_barracks_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_barracks_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_barracks_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_barracks_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_castle_classical_v0",
+  "kind": "townhall",
+  "category": "Buildings/Human/Military",
+  "building_type": "Castle",
+  "race": "human",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1648,
+  "lod_triangles": [
+   1648,
+   983,
+   421
+  ],
+  "bounds": [
+   [
+    -1.3250000476837158,
+    0.0,
+    -1.2860000133514404
+   ],
+   [
+    1.3250000476837158,
+    2.630000114440918,
+    1.274999976158142
+   ]
+  ],
+  "bytes": 230924,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_castle_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_castle_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_castle_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_castle_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_military_base_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Military",
+  "building_type": "MilitaryBase",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 847,
+  "lod_triangles": [
+   847,
+   479,
+   256
+  ],
+  "bounds": [
+   [
+    -1.3899999856948853,
+    0.0,
+    -1.2649999856948853
+   ],
+   [
+    1.3899999856948853,
+    2.017486572265625,
+    1.2649999856948853
+   ]
+  ],
+  "bytes": 129892,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_military_base_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_military_base_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_military_base_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_military_base_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_military_base_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Military",
+  "building_type": "MilitaryBase",
+  "race": "human",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 723,
+  "lod_triangles": [
+   723,
+   451,
+   204
+  ],
+  "bounds": [
+   [
+    -1.3899999856948853,
+    0.0,
+    -1.2649999856948853
+   ],
+   [
+    1.3899999856948853,
+    1.7378661632537842,
+    1.2649999856948853
+   ]
+  ],
+  "bytes": 116752,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_military_base_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_military_base_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_military_base_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_palisade_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Military",
+  "building_type": "Palisade",
+  "race": "human",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   3,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 821,
+  "lod_triangles": [
+   821,
+   433,
+   216
+  ],
+  "bounds": [
+   [
+    -1.4700000286102295,
+    0.0,
+    -0.13099999725818634
+   ],
+   [
+    1.4700000286102295,
+    1.2197999954223633,
+    0.34702178835868835
+   ]
+  ],
+  "bytes": 124084,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_palisade_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_palisade_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_palisade_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_palisade_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_human_palisade_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Military",
+  "building_type": "Palisade",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval"
+  ],
+  "footprint": [
+   3,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 693,
+  "lod_triangles": [
+   693,
+   421,
+   160
+  ],
+  "bounds": [
+   [
+    -1.4700000286102295,
+    0.0,
+    -0.20000000298023224
+   ],
+   [
+    1.4700000286102295,
+    1.2609999179840088,
+    0.3480084240436554
+   ]
+  ],
+  "bytes": 109524,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_palisade_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_palisade_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_palisade_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_palisade_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_human_stone_wall_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Military",
+  "building_type": "StoneWall",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 361,
+  "lod_triangles": [
+   361,
+   192,
+   115
+  ],
+  "bounds": [
+   [
+    -0.5,
+    0.0,
+    -0.26899999380111694
+   ],
+   [
+    0.5,
+    0.925000011920929,
+    0.2199999988079071
+   ]
+  ],
+  "bytes": 54352,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_stone_wall_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_stone_wall_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_stone_wall_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_stone_wall_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_stone_wall_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_stone_wall_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Military",
+  "building_type": "StoneWall",
+  "race": "human",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 299,
+  "lod_triangles": [
+   299,
+   157,
+   92
+  ],
+  "bounds": [
+   [
+    -0.5,
+    0.0,
+    -0.3095000088214874
+   ],
+   [
+    0.5,
+    1.0245000123977661,
+    0.2199999988079071
+   ]
+  ],
+  "bytes": 45740,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_stone_wall_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_stone_wall_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_stone_wall_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_watchtower_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Military",
+  "building_type": "Watchtower",
+  "race": "human",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 545,
+  "lod_triangles": [
+   545,
+   325,
+   172
+  ],
+  "bounds": [
+   [
+    -0.3799999952316284,
+    0.0,
+    -0.36578282713890076
+   ],
+   [
+    0.3799999952316284,
+    1.8437000513076782,
+    0.351500004529953
+   ]
+  ],
+  "bytes": 85784,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_watchtower_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_watchtower_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_watchtower_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_watchtower_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Military",
+  "building_type": "Watchtower",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 464,
+  "lod_triangles": [
+   464,
+   254,
+   127
+  ],
+  "bounds": [
+   [
+    -0.3799999952316284,
+    0.0,
+    -0.33000001311302185
+   ],
+   [
+    0.3799999952316284,
+    2.1737000942230225,
+    0.3499999940395355
+   ]
+  ],
+  "bytes": 66300,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_watchtower_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_watchtower_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_watchtower_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_watchtower_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_watchtower_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_watchtower_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Military",
+  "building_type": "Watchtower",
+  "race": "human",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 442,
+  "lod_triangles": [
+   442,
+   232,
+   125
+  ],
+  "bounds": [
+   [
+    -0.3400000035762787,
+    0.0,
+    -0.3100000023841858
+   ],
+   [
+    0.3400000035762787,
+    2.1335999965667725,
+    0.33000001311302185
+   ]
+  ],
+  "bytes": 61452,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_watchtower_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_watchtower_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_watchtower_industrial_v0.png"
+  }
+ }
+]

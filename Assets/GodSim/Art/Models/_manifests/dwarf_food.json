@@ -1,0 +1,892 @@
+[
+ {
+  "id": "bld_dwarf_farm_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "Farm",
+  "race": "dwarf",
+  "ages": [
+   "bronze",
+   "iron",
+   "dawn"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1188,
+  "lod_triangles": [
+   1188,
+   628,
+   316
+  ],
+  "bounds": [
+   [
+    -1.409999966621399,
+    0.0,
+    -1.3799999952316284
+   ],
+   [
+    1.409999966621399,
+    1.0625100135803223,
+    1.3799999952316284
+   ]
+  ],
+  "bytes": 145248,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_farm_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_ancient_v0__iron.png",
+   "dawn": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_ancient_v0__dawn.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_farm_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "Farm",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1188,
+  "lod_triangles": [
+   1188,
+   628,
+   316
+  ],
+  "bounds": [
+   [
+    -1.409999966621399,
+    0.0,
+    -1.3799999952316284
+   ],
+   [
+    1.409999966621399,
+    1.083150029182434,
+    1.3799999952316284
+   ]
+  ],
+  "bytes": 145264,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_farm_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_farm_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "Farm",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1064,
+  "lod_triangles": [
+   1064,
+   636,
+   316
+  ],
+  "bounds": [
+   [
+    -1.409999966621399,
+    0.0,
+    -1.3799999952316284
+   ],
+   [
+    1.409999966621399,
+    1.372499942779541,
+    1.3799999952316284
+   ]
+  ],
+  "bytes": 138152,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_farm_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_farm_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "Farm",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1032,
+  "lod_triangles": [
+   1032,
+   604,
+   316
+  ],
+  "bounds": [
+   [
+    -1.409999966621399,
+    0.0,
+    -1.3799999952316284
+   ],
+   [
+    1.409999966621399,
+    0.9812399744987488,
+    1.3799999952316284
+   ]
+  ],
+  "bytes": 133932,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_farm_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_fishing_hut_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "FishingHut",
+  "race": "dwarf",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 814,
+  "lod_triangles": [
+   814,
+   382,
+   130
+  ],
+  "bounds": [
+   [
+    -0.42500001192092896,
+    0.0,
+    -0.39500001072883606
+   ],
+   [
+    0.4025000035762787,
+    0.45188000798225403,
+    0.38499999046325684
+   ]
+  ],
+  "bytes": 99028,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_fishing_hut_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "FishingHut",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 814,
+  "lod_triangles": [
+   814,
+   382,
+   130
+  ],
+  "bounds": [
+   [
+    -0.42500001192092896,
+    0.0,
+    -0.39500001072883606
+   ],
+   [
+    0.4025000035762787,
+    0.4602000117301941,
+    0.38499999046325684
+   ]
+  ],
+  "bytes": 98916,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_fishing_hut_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "FishingHut",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 826,
+  "lod_triangles": [
+   826,
+   394,
+   130
+  ],
+  "bounds": [
+   [
+    -0.42500001192092896,
+    0.0,
+    -0.39500001072883606
+   ],
+   [
+    0.4025000035762787,
+    0.4498000144958496,
+    0.38499999046325684
+   ]
+  ],
+  "bytes": 100708,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_fishing_hut_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "FishingHut",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 826,
+  "lod_triangles": [
+   826,
+   394,
+   130
+  ],
+  "bounds": [
+   [
+    -0.42500001192092896,
+    0.0,
+    -0.39500001072883606
+   ],
+   [
+    0.4025000035762787,
+    0.41912001371383667,
+    0.38499999046325684
+   ]
+  ],
+  "bytes": 100716,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_gatherer_hut_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "GathererHut",
+  "race": "dwarf",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 990,
+  "lod_triangles": [
+   990,
+   342,
+   140
+  ],
+  "bounds": [
+   [
+    -0.4375,
+    0.0,
+    -0.375
+   ],
+   [
+    0.40689998865127563,
+    0.47453999519348145,
+    0.40959998965263367
+   ]
+  ],
+  "bytes": 113108,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_gatherer_hut_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_gatherer_hut_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_gatherer_hut_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_gatherer_hut_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_gatherer_hut_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_hunting_lodge_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "HuntingLodge",
+  "race": "dwarf",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 700,
+  "lod_triangles": [
+   700,
+   302,
+   194
+  ],
+  "bounds": [
+   [
+    -0.42750000953674316,
+    0.0,
+    -0.3395000100135803
+   ],
+   [
+    0.40689998865127563,
+    0.5718220472335815,
+    0.40959998965263367
+   ]
+  ],
+  "bytes": 91916,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_hunting_lodge_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_hunting_lodge_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_hunting_lodge_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_hunting_lodge_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_hunting_lodge_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_hunting_lodge_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "HuntingLodge",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 700,
+  "lod_triangles": [
+   700,
+   302,
+   194
+  ],
+  "bounds": [
+   [
+    -0.42750000953674316,
+    0.0,
+    -0.3395000100135803
+   ],
+   [
+    0.40689998865127563,
+    0.5718220472335815,
+    0.40959998965263367
+   ]
+  ],
+  "bytes": 91792,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_hunting_lodge_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_hunting_lodge_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_hunting_lodge_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_hunting_lodge_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_hydroponics_tower_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "HydroponicsTower",
+  "race": "dwarf",
+  "ages": [
+   "ascension",
+   "information"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 766,
+  "lod_triangles": [
+   766,
+   478,
+   214
+  ],
+  "bounds": [
+   [
+    -0.7850000262260437,
+    0.0,
+    -0.8360000252723694
+   ],
+   [
+    0.7850000262260437,
+    1.7489999532699585,
+    0.7599999904632568
+   ]
+  ],
+  "bytes": 104632,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_hydroponics_tower_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_hydroponics_tower_future_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_hydroponics_tower_future_v0.png",
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_hydroponics_tower_future_v0__information.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_industrial_farm_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "IndustrialFarm",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1258,
+  "lod_triangles": [
+   1258,
+   526,
+   254
+  ],
+  "bounds": [
+   [
+    -1.4175000190734863,
+    0.0,
+    -1.350000023841858
+   ],
+   [
+    1.4175000190734863,
+    1.9049999713897705,
+    1.350000023841858
+   ]
+  ],
+  "bytes": 149584,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_industrial_farm_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_industrial_farm_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_industrial_farm_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_industrial_farm_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_industrial_farm_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "IndustrialFarm",
+  "race": "dwarf",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1294,
+  "lod_triangles": [
+   1294,
+   542,
+   274
+  ],
+  "bounds": [
+   [
+    -1.4175000190734863,
+    0.0,
+    -1.350000023841858
+   ],
+   [
+    1.4175000190734863,
+    1.7879999876022339,
+    1.350000023841858
+   ]
+  ],
+  "bytes": 154356,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_industrial_farm_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_industrial_farm_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_industrial_farm_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_mill_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "Mill",
+  "race": "dwarf",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1040,
+  "lod_triangles": [
+   1040,
+   576,
+   326
+  ],
+  "bounds": [
+   [
+    -0.9745000004768372,
+    0.0,
+    -0.8050000071525574
+   ],
+   [
+    0.9745000004768372,
+    1.2278499603271484,
+    0.8050000071525574
+   ]
+  ],
+  "bytes": 139128,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_mill_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_mill_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_mill_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_mill_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_mill_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "Mill",
+  "race": "dwarf",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1228,
+  "lod_triangles": [
+   1228,
+   672,
+   326
+  ],
+  "bounds": [
+   [
+    -0.9745000004768372,
+    0.0,
+    -0.8050000071525574
+   ],
+   [
+    0.9745000004768372,
+    1.284999966621399,
+    0.8050000071525574
+   ]
+  ],
+  "bytes": 157336,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_mill_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_mill_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_mill_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_pasture_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "Pasture",
+  "race": "dwarf",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 932,
+  "lod_triangles": [
+   932,
+   600,
+   292
+  ],
+  "bounds": [
+   [
+    -1.402500033378601,
+    0.0,
+    -1.3799999952316284
+   ],
+   [
+    1.402500033378601,
+    1.103790044784546,
+    1.3799999952316284
+   ]
+  ],
+  "bytes": 135592,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_pasture_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_pasture_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_pasture_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_pasture_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_pasture_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "Pasture",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 932,
+  "lod_triangles": [
+   932,
+   600,
+   292
+  ],
+  "bounds": [
+   [
+    -1.402500033378601,
+    0.0,
+    -1.3799999952316284
+   ],
+   [
+    1.402500033378601,
+    1.1263500452041626,
+    1.3799999952316284
+   ]
+  ],
+  "bytes": 135236,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_pasture_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_pasture_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_pasture_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_pasture_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_pasture_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_pasture_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "Pasture",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 944,
+  "lod_triangles": [
+   944,
+   612,
+   292
+  ],
+  "bounds": [
+   [
+    -1.402500033378601,
+    0.0,
+    -1.3799999952316284
+   ],
+   [
+    1.402500033378601,
+    1.0981500148773193,
+    1.3799999952316284
+   ]
+  ],
+  "bytes": 136772,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_pasture_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_pasture_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_pasture_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_pasture_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_pasture_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Food",
+  "building_type": "Pasture",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 944,
+  "lod_triangles": [
+   944,
+   612,
+   292
+  ],
+  "bounds": [
+   [
+    -1.402500033378601,
+    0.0,
+    -1.3799999952316284
+   ],
+   [
+    1.402500033378601,
+    1.0149600505828857,
+    1.3799999952316284
+   ]
+  ],
+  "bytes": 137284,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_pasture_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_pasture_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_pasture_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_pasture_industrial_v0__modern.png"
+  }
+ }
+]

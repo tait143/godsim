@@ -1,0 +1,391 @@
+{
+  "package": "human_culturecivic",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Session 10 independent critic \u2014 military builder",
+      "models": [
+        {
+          "id": "bld_human_arcology_future_v0",
+          "evidence_sha256": "47ed2676fd700469f61cbd479905576df2e1f22ff649d3b12c9549cce6492684",
+          "observations": "Three inhabited glazed spires step down around the shared podium. The garden tiers, axial street stair and gold-supported beacon crown retain a recognizable profile across all three LODs.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_arena_classical_v0",
+          "evidence_sha256": "93c942534d0f1518f8f79c402d3c348bbe0bd9e3df0733abc0a6ea49232ef3d8",
+          "observations": "Twin roofed entry pylons break the oval bowl at the front. The outer arcade and field contrast with the light seating. Terracotta, shaded medieval seats and warmer Renaissance stone remain legible at 64 px.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_arena_future_v0",
+          "evidence_sha256": "7feb447f6c499b50bcf9d895124d14de048f9cfe76463bc2138475494e84bab2",
+          "observations": "The rear spectator canopy follows the open arena on a visible row of posts. Gates and ochre bollards give the sparse bowl a human scale. The press box and corner piers shift from steel blue to warm gold.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 91,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_arena_industrial_v0",
+          "evidence_sha256": "d62c05a680e39eb2ee8529f122a8129da18d405c3a0714c2e9aa6bb4ea9931ed",
+          "observations": "The glazed commentators\u2019 box rises above brick concentric terraces. The entrance posts, pennon and bonded outer arches remain readable when the Modern row shifts the bowl toward concrete.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 92,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_campfire_ancient_v0",
+          "evidence_sha256": "7cf879398bd93ff15c1abc161030a4439105033a227195f671958d8c054e5e93",
+          "observations": "Crossed logs, the angular flame, small pail and folded blue cloth give the gathering place character. Dawn versus Iron had no 64 px thumbnail pixel change above 12/255 in any RGB channel. The LOD2 loses both benches entirely.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 79,
+            "construction": 92,
+            "charm": 94,
+            "colour": 84,
+            "technical": 98
+          },
+          "defects": [
+            "Use an age-responsive material across the visible seats or hearth so the three early ages are visibly distinct at 64 px.",
+            "Preserve the two benches as simple supported seat silhouettes at LOD2."
+          ]
+        },
+        {
+          "id": "bld_human_campfire_classical_v0",
+          "evidence_sha256": "3d1adc392d72b2950482cc79d3b9a7276ec108fe32cbd2a76384806c4a5bda2e",
+          "observations": "Pale stone curbing, carved benches and the little flag distinguish the civic hearth. The LOD2 triptych loses both wing-like seats and substitutes an isolated fire pedestal.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 98
+          },
+          "defects": [
+            "Retain simplified versions of both stone benches at LOD2 so the gathering place preserves its outside profile."
+          ]
+        },
+        {
+          "id": "bld_human_forum_classical_v0",
+          "evidence_sha256": "051921cdf658cd60fc8e9a2b9ebcc297d58875f04585e2887e6574bcf50ccb7e",
+          "observations": "A clean column portico and wide civic stair sit between two lower pavilions and matching topiary. The roof shifts visibly between the three age rows and the portico remains legible at the lowest mesh.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_forum_future_v0",
+          "evidence_sha256": "a78e4b04934eaa756043251cb75d03d03cf1d8481022683942387b4f81b72048",
+          "observations": "A glazed canopy spans the civic steps between cream wings. Domed rooflight, flag and paired shrubs soften the square block. The Ascension capitals and columns pick up gold around the cyan canopy.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_forum_industrial_v0",
+          "evidence_sha256": "221ea2e9d9a64aea5409a8bc48978ab97d11c83e79e4c85ddbc5af0106234fe3",
+          "observations": "A clock turret extends the axial municipal hall. The planted fronts, flag and pediment keep the orderly Human character in both the red-brick and pale Modern views. All three meshes retain the clock and entrance mass.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_stadium_future_v0",
+          "evidence_sha256": "5f44c7c037c32a63ec170dddd93538d5e9383539227daf88ff2fd000e9b836f2",
+          "observations": "Twin ribbed grandstands, floodlights and field lines identify a sports ground immediately. Both age rows present nearly identical ivory canopy masses and blue seats at 64 px. Most visible age change is confined to narrow posts.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 85,
+            "construction": 92,
+            "charm": 93,
+            "colour": 88,
+            "technical": 99
+          },
+          "defects": [
+            "Use a more age-responsive canopy panel or broad fascia so the Information and Ascension versions clearly separate at phone size."
+          ]
+        },
+        {
+          "id": "bld_human_stadium_industrial_v0",
+          "evidence_sha256": "acaf57c5ff16cee87bac72cbd09d87b444572c8243156f4e6c3ee9ffb7adecdd",
+          "observations": "Long burgundy shelters frame the green pitch, blue seat banks and little goal frames. The four lamp clusters and raised scoreboard are readable at full size. Both LOD reductions keep the two stands and exposed grass.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_tavern_classical_v0",
+          "evidence_sha256": "9e78dfcdf6d49c534ecdf4b4a6c973c062128626a025f3ad034a47c3e64ab328",
+          "observations": "Deep gable, chimney and oak front porch contrast with the striped terrace awning, projecting tankard and amber window. The surface audit found four coincident pairs on each of LOD0 and LOD1.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 97,
+            "colour": 95,
+            "technical": 95
+          },
+          "defects": [
+            "Separate the front foundation and adjacent trim at z=-0.49 around (-0.450145,0.107,-0.49). Check all four exposed pairs on LOD0 and LOD1."
+          ]
+        },
+        {
+          "id": "bld_human_tavern_future_v0",
+          "evidence_sha256": "3602e166cd8fce5d241842a74c272c75ebeb0a8dd623d301ec328716c44dcac5",
+          "observations": "The rooftop dome and glazing strip update the familiar little pub. The tankard and shaded outdoor tables still identify it at 64 px. The exposed stone/trim overlap remains on LOD0 and LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 95,
+            "colour": 94,
+            "technical": 95
+          },
+          "defects": [
+            "Separate the front foundation and trim at (-0.450145,0.107,-0.49), then recheck exposed faces across all LODs."
+          ]
+        },
+        {
+          "id": "bld_human_tavern_industrial_v0",
+          "evidence_sha256": "a80a7a5dda79afc3b1934ebfdc9fbaaf28f47fdffc6750484212944a990b7494",
+          "observations": "The dormer over the brick taproom, tall chimney, tankard and tables make the street frontage distinct. LOD0 and LOD1 each have four exposed front foundation/trim intersections.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 96,
+            "colour": 94,
+            "technical": 95
+          },
+          "defects": [
+            "Repair coplanar front foundation/trim faces near (-0.450145,0.107,-0.49), then check both LOD0 and LOD1."
+          ]
+        },
+        {
+          "id": "bld_human_theater_classical_v0",
+          "evidence_sha256": "7a25cb6b1e2b1718a6dfc514354e7ebb5b29c30bd6ea414fe78efea1de1d6a40",
+          "observations": "A high roof covers an open stage with red tied curtains and gold crest. Crescent front benches part for a central stair. Roof and bench hues distinguish the three age rows while stage and seating survive LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_theater_future_v0",
+          "evidence_sha256": "bf781e220e8d4fceeb37e007a109d7a0b15d0f3cf41d3264478db0e3cbb678b9",
+          "observations": "The faceted shell, illuminated medallion, mountain backdrop and red curtains make a lively stage. The ivory roof remains nearly unchanged in both ages. The piers end around y=0.938 below the folded shell at x=\u00b10.667.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 85,
+            "construction": 84,
+            "charm": 94,
+            "colour": 87,
+            "technical": 97
+          },
+          "defects": [
+            "Give the shell or visible proscenium a broad age-responsive surface for a clear phone-scale change.",
+            "Extend load-carrying stage piers to the local sloped soffit or add visible capital/rafter contact at every LOD."
+          ]
+        },
+        {
+          "id": "bld_human_theater_industrial_v0",
+          "evidence_sha256": "9e2d941e4a990c52e0bd2eacde848f0584ed001c391d20199f054cc6bbf1f74d",
+          "observations": "The high fly wall, marquee lamps, painted scenery and gathered curtains read as a performance venue. Brick rear and seating walls become light Modern concrete. Reduced meshes keep the stage, fly building and two curved seating banks.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Session 10 independent critic \u2014 military builder",
+      "models": [
+        {
+          "id": "bld_human_campfire_ancient_v0",
+          "evidence_sha256": "11361ba40a55e9e8b26aac3d50f83fc853061dcdb65acf07e42b6fe44d947eb2",
+          "observations": "The paired seats now change from honey timber through earthen brown to dark Iron planks around a lighter stone hearth. The serialised LOD2 keeps two seat blocks visibly grounded and separated from the flame.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 92,
+            "charm": 94,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_campfire_classical_v0",
+          "evidence_sha256": "6ea7b3da00254448ecb9badd5c64fbd65cba1b987ebfd6843228c57d728b6aaf",
+          "observations": "Both flanking stone benches remain in the low silhouette. The near view preserves the vessel, layered white stone coping and little pennon. The three levels maintain the same overall width.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_stadium_future_v0",
+          "evidence_sha256": "b4f47fc791dafb8a5c55f1231dcf264cbabc20310545124ccd4b1b2ed53d53e8",
+          "observations": "The two large canopies switch from panelled steel to warm gold in the 64px age pair. The green field, floodlights, two banks of blue seating and end scoreboard all remain legible.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_tavern_classical_v0",
+          "evidence_sha256": "c5a1bb5f855fe6bd8b210a2ea13c703d9c75d15df0eda2f33f3f09bc63ca676d",
+          "observations": "The repaired jambs now clear the stone plinth and the serialized surface audit is clean across all three levels. Both ages keep their distinct roof, tapered chimney, striped awning and large tankard.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 97,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_tavern_future_v0",
+          "evidence_sha256": "55b723e8cadd371e9f643284f34b0316c480927340dc178c686ae4306b24763d",
+          "observations": "The exposed plinth/trim conflict is gone at all LODs. The glazed roof drum, patio awning and tankard remain intact in both the cool-metal and gilt frames.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_tavern_industrial_v0",
+          "evidence_sha256": "a073faef8e93b3278ed1629b5b531351494b1e33a9d151bbc1f4932729d4ba37",
+          "observations": "No exposed surface pairs remain around the front footing on any level. The dormer, sign and shaded tables are still recognizable in both the brick and Modern variants.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 96,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_theater_future_v0",
+          "evidence_sha256": "b22ad72f271b53a2807d8b0b20d0e2330f0c01b546d17b5c98126b390584d116",
+          "observations": "The new shell bears on the side piers and the Information/Ascension roofs now clearly change from steel to gold. In both original-size images the dark backing wall protrudes through each flat eave: its top is y=.9585 and the eave top is y=.958.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "Lower only the future scenery back-wall top below the .958 eaves to eliminate the visible dark ticks at both roof edges. Preserve the existing pier/soffit contacts."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Session 10 independent critic \u2014 military builder",
+      "models": [
+        {
+          "id": "bld_human_theater_future_v0",
+          "evidence_sha256": "a9550b53a567fb7b7e6d2882a3f426a75e8c9f3e330ce3c19aadad56a45aa699",
+          "observations": "The original-size Information and Ascension previews now show uninterrupted metal eaves above the side piers. Lowering the dark backdrop clears both eave surfaces. The 64-pixel pair and the three serialized LOD views preserve the folded roof, seating and red curtains.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

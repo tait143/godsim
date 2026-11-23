@@ -1,0 +1,261 @@
+{
+  "package": "dwarf_military",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Independent military critic (builder session 6), military_critic",
+      "models": [
+        {
+          "id": "bld_dwarf_barracks_ancient_v0",
+          "evidence_sha256": "4c56920ff46ff15ecf867be90740738ea8c12da035d0189200ee4c6d661238c8",
+          "observations": "Iron has a broad timber-coloured shoulder roof under a cut slate cap. The freestanding split-tail muster standard, warm slits and shielded door piers identify the occupied hall at 60 pixels. Serialized LOD counts are 532/322/148. The review found no exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_barracks_classical_v0",
+          "evidence_sha256": "70ac266694b2d9b9545a32f19bb151c0f5ce659f6e14d46382d32f026118d16f",
+          "observations": "The raised clerestory and its small pennant give this garrison a clear second tier. The dark Medieval roof separates cleanly from both the terracotta Classical and warm Renaissance treatments. Two shield piers and the outdoor standard flank the approach. Serialized LOD counts are 570/360/158. The review found no exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_barracks_future_v0",
+          "evidence_sha256": "9dd819b4fd9c05090dec4813a253bd0a25daf0e062952231ffc0874ab245a670",
+          "observations": "A low cyan observation band sits on a broad shoulder and has a substantial cap. Information blue-black coping changes to pale gold in Ascension. The original muster flag and brass door shields keep the dwarf garrison identifiable. Serialized LOD counts are 622/388/158. The review found no exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_barracks_industrial_v0",
+          "evidence_sha256": "afc65d6e43a2cce94370c3b4edd17e7d8167862ca6aaa512575a5b6b1903b0cc",
+          "observations": "Industrial paired metal roof housings and the rear flue break the old silhouette. The Modern grey hall retains the joined roof and standard while cooling the brick and metal palette. Stone stair and built-up entrance sit in front of the wall. Serialized LOD counts are 622/388/190. The review found no exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_castle_classical_v0",
+          "evidence_sha256": "251fc64ffa3f9b3982bc15ef5c658a1b180a993149e42178132c0251f27b8e59",
+          "observations": "Four squat corner bastions around an open court frame a tall, stepped keep. The short gate teeth and separate guard lamps leave a visible passage below the lintel. Medieval dark outer crowns and Renaissance pale masonry both hold the keep at the centre of the thumbnail. Serialized LOD counts are 1310/848/320. The review found no exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 95,
+            "construction": 96,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_military_base_future_v0",
+          "evidence_sha256": "c834c7752c9e0baad56b500edd501325b1d1900295b675df83a4f0f873176ba2",
+          "observations": "The jewel-blue dish, tiered mount and glazed command room read immediately. Only two low concrete kerbs mark its mostly unbounded forecourt, and the annex looks like a utility shed at 60 pixels. The two age finishes are easy to distinguish. Serialized LOD counts are 992/628/278. The review found no exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 92,
+            "construction": 93,
+            "charm": 88,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Make a recognisable military checkpoint in the front court. Join one kerb to a raised guard lodge or an armoured gate pier, and span part of the entrance with a supported barrier carrying the dwarf clan shield. Keep the dish as the technology cue."
+          ]
+        },
+        {
+          "id": "bld_dwarf_military_base_industrial_v0",
+          "evidence_sha256": "9335a6f8743d0cfd9f73f9d9988b32b299e53f4bda994ceb9fedb52fc231e7f3",
+          "observations": "The Modern reflector and service shed make a legible communications complex. At phone scale the low kerbs, lane markings and tiny flag do not give its open court a distinct military function. The mast socket and building entrance are grounded. Serialized LOD counts are 838/534/230. The review found no exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 91,
+            "construction": 93,
+            "charm": 88,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Modern compound a readable controlled entrance or fortified guard booth beside the lane, with a raised striped gate arm or large clan standard. Keep a clear opening between the road markings and command door."
+          ]
+        },
+        {
+          "id": "bld_dwarf_palisade_ancient_v0",
+          "evidence_sha256": "835d35fca687fc07544c0036fd0d78c5a18ceffd1e835c4c71fcded5743c40f6",
+          "observations": "Pointed timber stakes, doubled crossrails, a gate lintel and small clan shields read as a defended timber boundary at 60 pixels. Bronze and Iron look nearly identical because the timber occupies nearly every prominent surface and their age-specific colour differences are confined to tiny fittings. Serialized LOD counts are 608/366/174. The review found no exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 86,
+            "construction": 93,
+            "charm": 92,
+            "colour": 88,
+            "technical": 99
+          },
+          "defects": [
+            "Add large, load-bearing gate shoulders or a prominent reinforced cap using the shared age-mapped roof/wall slot. The change should give Bronze its ochre/copper and Iron a clearly darker or colder crown at 60 pixels while leaving the pointed timber profile."
+          ]
+        },
+        {
+          "id": "bld_dwarf_palisade_classical_v0",
+          "evidence_sha256": "dbfcc3110948e8b48acdb1c1d259a23f68545142f32292dd130fc8ae00343859",
+          "observations": "The raised tiled lintel and masonry shoes distinguish the reinforced gate. The pale collars and warm crosshead of Classical diverge clearly from Medieval dark timber, and the paired rails visibly brace the stakes. Serialized LOD counts are 674/432/194. The review found no exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_stone_wall_classical_v0",
+          "evidence_sha256": "0c8b598e5a69965a67eba719b79e04410672862e6daa3ae98c458848172b7601",
+          "observations": "A three-merlon wall segment with deep batter, foundation coping and an unusually large central shield reads cleanly even at 60 pixels. Bronze pins and the narrow warm slits interrupt the masonry. The dark Medieval cap separates most strongly from the two warmer ages. Serialized LOD counts are 340/210/70. The review found no exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_stone_wall_industrial_v0",
+          "evidence_sha256": "20af9c7fe45c9ecbbc12986beffc94929cf58907c82f3564cda5b04d5d0880f0",
+          "observations": "Red brick infill and forward metal ribs stand out between the dark battlements and heel course. The central buttress and projecting gold shield maintain the clan identity without crowding the short module. Serialized LOD counts are 320/190/70. The review found no exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_watchtower_ancient_v0",
+          "evidence_sha256": "dc519f3e13061306840a8586f5ffb7831c6addf099828726d2b72a804686538b",
+          "observations": "The open timber lookout on its heavy battered shaft has a convincing post-and-canopy construction. Ground lantern, framed entrance and forward shield give the Iron tower an approachable scale. Its open gallery remains visible in the 60-pixel view. Serialized LOD counts are 486/298/146. The review found no exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 95,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_watchtower_classical_v0",
+          "evidence_sha256": "c60be6ec4d1f07cf06bcdead3d7bf774514661cfb8568af2c53b3d7a1bb0adcd",
+          "observations": "An exposed amber beacon sits in a brass bowl on a raised stone gallery. Red and dark roofing clearly distinguish Classical and Medieval, and the Renaissance wall and cornice warm again. Door step, clan shield and tiny lookout flag remain subordinate to the flame. Serialized LOD counts are 504/316/136. The review found no exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_watchtower_industrial_v0",
+          "evidence_sha256": "70709c5babaf75638377112daf49b68f4083527d94911ba7d5392e7728e0b263",
+          "observations": "Brick and blue glazing replace the older gallery under a metal lid. A directed amber lamp has a clear barrel and mount. The stout shaft, recessed forward entrance, stair and foot lantern stay recognisable at phone size. Serialized LOD counts are 502/302/132. The review found no exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Independent military critic (builder session 6), military_critic",
+      "models": [
+        {
+          "id": "bld_dwarf_military_base_future_v0",
+          "evidence_sha256": "92755b7f6af556c547c2e31a726cb65c9e77bdffa67eb70023d6d34f17f56533",
+          "observations": "A distinct guard house and visible barrier now enclose the entrance. Blue glass versus gold coping separates Information and Ascension across the guard house, command drum and workshop. The smaller roof and central dish give the composition a legible height hierarchy at 64 pixels. LOD triangles are 1166/760/354. The serialized and surface checks passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_military_base_industrial_v0",
+          "evidence_sha256": "318845c89fcc4499809a93b16fb7aa4e1f962e9fd596d5bbf61dd6de81394c3a",
+          "observations": "The forward armoured booth has a large red shield and an articulated striped gate arm over the approach. The communications dish remains visible beyond the checkpoint. The lane markers meet an open court, and the booth and garage have convincing ground contact in the Modern preview. LOD triangles are 1012/666/306. The serialized and surface checks passed for all three LODs.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_palisade_ancient_v0",
+          "evidence_sha256": "721c7df97267787497633fafbff14da3cd6fc590201a2855e3f8c5b8e0a74fde",
+          "observations": "The central load-bearing portal has broad copper fittings and an ochre cap in Bronze, with slate-grey iron fittings in Iron. Both clear the thumbnail threshold. The solid shoulders, unbroken split stakes, horizontal rails and shield ornaments retain the timber palisade function. LOD triangles are 740/498/224. The serialized and surface checks passed for all three LODs.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

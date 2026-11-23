@@ -1,0 +1,383 @@
+{
+  "package": "elf_infrastructure",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Independent Elf package critic",
+      "models": [
+        {
+          "id": "bld_elf_aqueduct_classical_v0",
+          "evidence_sha256": "75b9b9d897e70749f8b5a2863bbd94c37db496aa91199655bf5ad479531efef5",
+          "observations": "Two open arch spans support a long channel on three substantial piers. The water strip stays between raised longitudinal lips; both the water and the open spans remain visible in the thumbnail.  Checked the 1214/742/356 triangle LOD chain and 4 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 94,
+            "charm": 90,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_aqueduct_future_v0",
+          "evidence_sha256": "89014b6369be0a2d9233366ecdb9ed17feab5beb85afab990079fa51efab8d1a",
+          "observations": "Two open arch spans support a long channel on three substantial piers. The water strip stays between raised longitudinal lips; both the water and the open spans remain visible in the thumbnail.  Checked the 1214/742/356 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 94,
+            "charm": 90,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_aqueduct_industrial_v0",
+          "evidence_sha256": "004fc1db41a36cd0d9cb90109774c2bf70961af32d3fcc7722c076c253bc721e",
+          "observations": "Two open arch spans support a long channel on three substantial piers. The water strip stays between raised longitudinal lips; both the water and the open spans remain visible in the thumbnail.  Checked the 1214/742/356 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 94,
+            "charm": 90,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_fusion_reactor_future_v0",
+          "evidence_sha256": "73ab4966b1c37514472eda7a27ee69bca26cb7b14ff7f15dd193c20a857d98a9",
+          "observations": "A caged luminous seed sits on a broad banded dais beside a small access hall. The edge-on second ring still shows its orthogonal relationship to the front hoop, and the tapered core remains identifiable at 64 pixels.  Checked the 880/581/235 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_granary_ancient_v0",
+          "evidence_sha256": "80013bed3f990beebaa371460aeac71ece0990bcb5be99e6bba0faa95d3027d1",
+          "observations": "Three swollen seed-shaped bins taper into elevated collars over wide feet. Their staggered heights reveal the smaller front access pod and keep the storage cluster readable in silhouette.  Checked the 942/497/207 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_granary_classical_v0",
+          "evidence_sha256": "e1453e33cc2a4cad38ae9aa94c4b3786d8a2f5b7cb5a89200e6d1c9f18d4f54e",
+          "observations": "Three swollen seed-shaped bins taper into elevated collars over wide feet. Their staggered heights reveal the smaller front access pod and keep the storage cluster readable in silhouette.  Checked the 942/497/207 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_granary_future_v0",
+          "evidence_sha256": "714fe0b4bb9f33dc50002c052262148bd75ad152eee3e109d43820ad0a698174",
+          "observations": "Three swollen seed-shaped bins taper into elevated collars over wide feet. Their staggered heights reveal the smaller front access pod and keep the storage cluster readable in silhouette.  Checked the 942/497/207 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_granary_industrial_v0",
+          "evidence_sha256": "f490ce9364d13ca2855d3b6d32d991ddc4f94187cfac055660984930202eb636",
+          "observations": "Three swollen seed-shaped bins taper into elevated collars over wide feet. Their staggered heights reveal the smaller front access pod and keep the storage cluster readable in silhouette.  Checked the 942/497/207 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_power_plant_future_v0",
+          "evidence_sha256": "c66c288271bbecd644c3625bc762df98ae1f779dbf70d9c1ed217d31a452783b",
+          "observations": "The two open cooling stacks, narrowing waists and low plant hall read clearly. The heavy pipe visibly extends across the entrance at waist height and continues into the doorway in the thumbnail.  Checked the 1311/858/337 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 82,
+            "charm": 91,
+            "colour": 92,
+            "technical": 97
+          },
+          "defects": [
+            "Route the pipe around the side or back of the hall to a connection clear of the front portal and its approach."
+          ]
+        },
+        {
+          "id": "bld_elf_power_plant_industrial_v0",
+          "evidence_sha256": "458de30d8cb8d97a59f29d04f7d8e780eb5e46e22a9891e57ff3552615d4a5c7",
+          "observations": "The two open cooling stacks, narrowing waists and low plant hall read clearly. The heavy pipe visibly extends across the entrance at waist height and continues into the doorway in the thumbnail.  Checked the 1023/666/209 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 82,
+            "charm": 91,
+            "colour": 92,
+            "technical": 97
+          },
+          "defects": [
+            "Route the pipe around the side or back of the hall to a connection clear of the front portal and its approach."
+          ]
+        },
+        {
+          "id": "bld_elf_storehouse_ancient_v0",
+          "evidence_sha256": "375d13e8d2626419f9475547aa67d57d9263e30a1c998ddf10c3f70eba3c8b45",
+          "observations": "Three individually banded containers stand on a raised delivery platform beside a long, leaf-roof hall. The accessible arched door, mixed container sizes and overhang communicate sheltered storage.  Checked the 785/512/160 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_storehouse_classical_v0",
+          "evidence_sha256": "1132d06120352e8eb273e39a67f1ff9276c5077fbef9c572627fb7373c97812f",
+          "observations": "Three individually banded containers stand on a raised delivery platform beside a long, leaf-roof hall. The accessible arched door, mixed container sizes and overhang communicate sheltered storage.  Checked the 785/512/160 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_storehouse_future_v0",
+          "evidence_sha256": "01f26b99326a1d483abddf42e025520230ec060af9a0a1f424e7a708a82fe0e5",
+          "observations": "Three individually banded containers stand on a raised delivery platform beside a long, leaf-roof hall. The accessible arched door, mixed container sizes and overhang communicate sheltered storage.  Checked the 870/571/206 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_storehouse_industrial_v0",
+          "evidence_sha256": "ef9e51c89bc097d807c0bceef54b3d3f24d1178bee7108eaa54a3331f3fb0282",
+          "observations": "Three individually banded containers stand on a raised delivery platform beside a long, leaf-roof hall. The accessible arched door, mixed container sizes and overhang communicate sheltered storage.  Checked the 870/571/206 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_well_ancient_v0",
+          "evidence_sha256": "267f20a65b8e9376b79410069b4a5c7328a4ce38a48708b0e2461dd7653545f0",
+          "observations": "The bucket line is visibly attached to the crosspiece and reaches the water between two curving supports. The raised rim, corner lantern and small roof stay distinct at phone size.  Checked the 519/321/164 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_well_classical_v0",
+          "evidence_sha256": "32fd95ae09d25d9b0dd519dedafdd0d7086c5b8f148ea7001281f752e146c70a",
+          "observations": "The bucket line is visibly attached to the crosspiece and reaches the water between two curving supports. The raised rim, corner lantern and small roof stay distinct at phone size.  Checked the 519/321/164 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_well_future_v0",
+          "evidence_sha256": "07b6a6387ada1eb026a2c85bf941ba7e38370adc2efd397e95af5d4536fd5757",
+          "observations": "The bucket line is visibly attached to the crosspiece and reaches the water between two curving supports. The raised rim, corner lantern and small roof stay distinct at phone size.  Checked the 519/321/164 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_well_industrial_v0",
+          "evidence_sha256": "b0c83ce5dc82abd52adff4f518b1271bfc158daf80db8ad2a165e3f8b8b3d0ba",
+          "observations": "The bucket line is visibly attached to the crosspiece and reaches the water between two curving supports. The raised rim, corner lantern and small roof stay distinct at phone size.  Checked the 519/321/164 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Independent Elf package critic",
+      "models": [
+        {
+          "id": "bld_elf_power_plant_future_v0",
+          "evidence_sha256": "18a2103b3856a7b73a975f3c09f5069c69dd04320cf5982f6efab98a7ca74d15",
+          "observations": "The relocated service pipe clears the pedestrian frontage and the dark arch is visible from crown to ground in every age. Both pitched cooling towers, their open rims and the corner lamps remain readable at 64 pixels.  Checked the 1311/858/337 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_power_plant_industrial_v0",
+          "evidence_sha256": "4451955f21b0215a292b67946c42685f0435d427d365e066c635d0d75cbc7507",
+          "observations": "The relocated service pipe clears the pedestrian frontage and the dark arch is visible from crown to ground in every age. Both pitched cooling towers, their open rims and the corner lamps remain readable at 64 pixels.  Checked the 1023/666/209 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Elf infrastructure repair critic",
+      "models": [
+        {
+          "id": "bld_elf_aqueduct_classical_v0",
+          "evidence_sha256": "0ad3754adf6ac404a45ed369e454d4716a7219b53c435db38f07b5758538073c",
+          "observations": "All four age previews show a continuous blue channel above two open arch spans at 224 and 64 pixels. The small terminal lanterns share the slim profile of the parapets. In the exported 1214/742/356-triangle LODs, both kerb bases meet the deck top at y=0.6099 along its full length.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 95,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_aqueduct_future_v0",
+          "evidence_sha256": "70b780834fe6be2da714b6dafb9808bbdbec6b15973116fcc588c71a8680bb19",
+          "observations": "The pale piers and slender arches frame a bright cyan watercourse. Both openings survive at 64 pixels in Information and Ascension. The lanterns blend more closely with the rail in these two palettes. The full-length kerbs sit flush on the taller deck at y=0.7125 in each exported LOD, with the water surface below the rims.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 95,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_aqueduct_industrial_v0",
+          "evidence_sha256": "b82f70c1502df949c4b3c79f695c42ce92fbd643689909e964d440fd29d79d3c",
+          "observations": "The red-brown Industrial brick and paler Modern masonry each contrast with the blue channel at 64 pixels. At full size the deck meets the front pier and the side ribs leave both spans open. Both kerb bases coincide with the brick deck top at y=0.6612 in all three exported LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 95,
+            "charm": 90,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_fusion_reactor_future_v0",
+          "evidence_sha256": "e86cc3a777a35c063356ef9916e9bfe10fab967444666d126eb78493b1bf6562",
+          "observations": "The ivory hoop frames the faceted cyan core and the narrower second hoop appears edge-on. The core, circular opening and leaf-roofed control hall remain distinguishable at 64 pixels in both ages. The exported dais top is at y=0.5738. Both hoops extend below it at LOD0 and LOD1. The 235-triangle LOD2 retains the seated ivory hoop and the core.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Elf infrastructure repair critic",
+      "models": [
+        {
+          "id": "bld_elf_aqueduct_future_v0",
+          "evidence_sha256": "07160e2051fab64b15e1aa8eec88649cb503eb4da2279c0a1dd93120a145b68f",
+          "observations": "At 64 pixels the dark green rim and steel-grey arches identify the Information version, while gold outlines the channel and both arches in Ascension. These bands remain visible beside the older stone and brick versions. Both 224-pixel previews show the cyan terminal lamps and a continuous water channel. The serialized 1214/742/356-triangle LODs retain the metal arch surfaces and the full-length rim. The kerbs meet the deck at y=0.7125, with the water below their tops in all three.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 90,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

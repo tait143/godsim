@@ -1,0 +1,668 @@
+[
+ {
+  "id": "bld_orc_cathedral_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Religion",
+  "building_type": "Cathedral",
+  "race": "orc",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1262,
+  "lod_triangles": [
+   1262,
+   754,
+   380
+  ],
+  "bounds": [
+   [
+    -1.3593286275863647,
+    0.0,
+    -1.2135000228881836
+   ],
+   [
+    1.3593286275863647,
+    2.5529251098632812,
+    1.2675000429153442
+   ]
+  ],
+  "bytes": 218604,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_cathedral_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_cathedral_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_cathedral_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_cathedral_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_cathedral_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Religion",
+  "building_type": "Cathedral",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1300,
+  "lod_triangles": [
+   1300,
+   787,
+   398
+  ],
+  "bounds": [
+   [
+    -1.3593286275863647,
+    0.0,
+    -1.2135000228881836
+   ],
+   [
+    1.3593286275863647,
+    2.702924966812134,
+    1.2675000429153442
+   ]
+  ],
+  "bytes": 226012,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_cathedral_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_cathedral_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_cathedral_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_cathedral_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_cathedral_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Religion",
+  "building_type": "Cathedral",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1323,
+  "lod_triangles": [
+   1323,
+   801,
+   406
+  ],
+  "bounds": [
+   [
+    -1.3593286275863647,
+    0.0,
+    -1.2135000228881836
+   ],
+   [
+    1.3593286275863647,
+    2.702924966812134,
+    1.2675000429153442
+   ]
+  ],
+  "bytes": 230868,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_cathedral_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_cathedral_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_cathedral_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_cathedral_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_monastery_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Religion",
+  "building_type": "Monastery",
+  "race": "orc",
+  "ages": [
+   "medieval",
+   "renaissance",
+   "classical"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 664,
+  "lod_triangles": [
+   664,
+   445,
+   199
+  ],
+  "bounds": [
+   [
+    -0.9150000214576721,
+    0.0,
+    -0.8450000286102295
+   ],
+   [
+    0.9150000214576721,
+    1.0266799926757812,
+    0.8450000286102295
+   ]
+  ],
+  "bytes": 113588,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_monastery_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_monastery_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_monastery_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_monastery_classical_v0__renaissance.png",
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_monastery_classical_v0__classical.png"
+  }
+ },
+ {
+  "id": "bld_orc_monastery_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Religion",
+  "building_type": "Monastery",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 752,
+  "lod_triangles": [
+   752,
+   506,
+   233
+  ],
+  "bounds": [
+   [
+    -0.9150000214576721,
+    0.0,
+    -0.8450000286102295
+   ],
+   [
+    0.9150000214576721,
+    1.1660000085830688,
+    0.8450000286102295
+   ]
+  ],
+  "bytes": 131280,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_monastery_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_monastery_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_monastery_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_monastery_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_monastery_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Religion",
+  "building_type": "Monastery",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 696,
+  "lod_triangles": [
+   696,
+   471,
+   209
+  ],
+  "bounds": [
+   [
+    -0.9150000214576721,
+    0.0,
+    -0.8450000286102295
+   ],
+   [
+    0.9150000214576721,
+    1.0266799926757812,
+    0.8450000286102295
+   ]
+  ],
+  "bytes": 119232,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_monastery_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_monastery_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_monastery_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_monastery_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_shrine_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Religion",
+  "building_type": "Shrine",
+  "race": "orc",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 838,
+  "lod_triangles": [
+   838,
+   469,
+   225
+  ],
+  "bounds": [
+   [
+    -0.3453184962272644,
+    0.0,
+    -0.3988642692565918
+   ],
+   [
+    0.3453184962272644,
+    0.8227999806404114,
+    0.34850382804870605
+   ]
+  ],
+  "bytes": 149884,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_shrine_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_orc_shrine_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Religion",
+  "building_type": "Shrine",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 838,
+  "lod_triangles": [
+   838,
+   469,
+   225
+  ],
+  "bounds": [
+   [
+    -0.3453184962272644,
+    0.0,
+    -0.3988642692565918
+   ],
+   [
+    0.3453184962272644,
+    0.892799973487854,
+    0.34850382804870605
+   ]
+  ],
+  "bytes": 149904,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_shrine_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_shrine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Religion",
+  "building_type": "Shrine",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 848,
+  "lod_triangles": [
+   848,
+   479,
+   235
+  ],
+  "bounds": [
+   [
+    -0.3453184962272644,
+    0.0,
+    -0.3988642692565918
+   ],
+   [
+    0.3453184962272644,
+    0.8628000020980835,
+    0.34850382804870605
+   ]
+  ],
+  "bytes": 152184,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_shrine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_shrine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Religion",
+  "building_type": "Shrine",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 848,
+  "lod_triangles": [
+   848,
+   479,
+   235
+  ],
+  "bounds": [
+   [
+    -0.3453184962272644,
+    0.0,
+    -0.3988642692565918
+   ],
+   [
+    0.3453184962272644,
+    0.7928000092506409,
+    0.34850382804870605
+   ]
+  ],
+  "bytes": 151676,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_shrine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_spirit_totem_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Religion",
+  "building_type": "SpiritTotem",
+  "race": "orc",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 955,
+  "lod_triangles": [
+   955,
+   471,
+   199
+  ],
+  "bounds": [
+   [
+    -0.31323570013046265,
+    0.0,
+    -0.3493714928627014
+   ],
+   [
+    0.3153499960899353,
+    1.0819637775421143,
+    0.28564509749412537
+   ]
+  ],
+  "bytes": 157120,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_spirit_totem_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_spirit_totem_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_spirit_totem_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_spirit_totem_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_spirit_totem_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_orc_temple_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Religion",
+  "building_type": "Temple",
+  "race": "orc",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 930,
+  "lod_triangles": [
+   930,
+   498,
+   200
+  ],
+  "bounds": [
+   [
+    -0.6416283249855042,
+    0.0,
+    -0.8090000152587891
+   ],
+   [
+    0.852696418762207,
+    1.313349962234497,
+    0.8450000286102295
+   ]
+  ],
+  "bytes": 153160,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_temple_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_temple_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_temple_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_temple_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Religion",
+  "building_type": "Temple",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1056,
+  "lod_triangles": [
+   1056,
+   596,
+   270
+  ],
+  "bounds": [
+   [
+    -0.6416283249855042,
+    0.0,
+    -0.8335000276565552
+   ],
+   [
+    0.852696418762207,
+    1.313349962234497,
+    0.8450000286102295
+   ]
+  ],
+  "bytes": 180812,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_temple_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_temple_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_temple_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_temple_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_temple_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_temple_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Religion",
+  "building_type": "Temple",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 968,
+  "lod_triangles": [
+   968,
+   531,
+   218
+  ],
+  "bounds": [
+   [
+    -0.6416283249855042,
+    0.0,
+    -0.8090000152587891
+   ],
+   [
+    0.852696418762207,
+    1.409999966621399,
+    0.8450000286102295
+   ]
+  ],
+  "bytes": 161296,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_temple_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_temple_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_temple_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_temple_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_temple_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Religion",
+  "building_type": "Temple",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 991,
+  "lod_triangles": [
+   991,
+   545,
+   226
+  ],
+  "bounds": [
+   [
+    -0.6416283249855042,
+    0.0,
+    -0.8090000152587891
+   ],
+   [
+    0.852696418762207,
+    1.5299999713897705,
+    0.8450000286102295
+   ]
+  ],
+  "bytes": 166024,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_temple_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_temple_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_temple_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_temple_industrial_v0__modern.png"
+  }
+ }
+]

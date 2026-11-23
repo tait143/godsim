@@ -1,0 +1,281 @@
+{
+  "package": "orc_military",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Builder session 2 / trade, independent of military builder",
+      "models": [
+        {
+          "id": "bld_orc_barracks_ancient_v0",
+          "evidence_sha256": "4c044a6fea04c1eff7c11a00be2d93051383287b4cb89539fb49bd0c8e8e8739",
+          "observations": "The iron-age hide longhouse has a sagging ridge caught between horned gables. The front shield rack and flanking drum survive at 64 px. The roof paint reads in one stroke. Ground course and door are distinct.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_barracks_classical_v0",
+          "evidence_sha256": "2db088cfe302b02c6f9a5b6672f5d71adce9ccb23bbfa2ae7560b57280599867",
+          "observations": "The crested watch turret rises clear of the sloping barracks ridge. Drum and repeated shields mark the muster side. The darkest medieval roof still separates from the lighter foundation, and the red identifying panel remains visible in all three ages.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_barracks_future_v0",
+          "evidence_sha256": "1d66fbd92ba68e366564d3110e66a018dfe6b9274b7258179734c95c0fe5f7a6",
+          "observations": "Glass flank tower, pale pitched roof, crimson hide-shaped inset and horn tips distinguish the future lodge. Its drum sits beside a framed gate. The gold Ascension trim is visible along the eaves and tower.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_barracks_industrial_v0",
+          "evidence_sha256": "146f1229481f7f35a15a55057e4fa628067bc572f71b46ff956ebeb283bb0825",
+          "observations": "The angled metal bays and squat tower cap distinguish this low barracks from the conical tower version. The shield rack breaks up the sheltered front. Industrial brick changes to lighter masonry in the modern age.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_castle_classical_v0",
+          "evidence_sha256": "5a79955713df36b0f9cecfba15f8e3b2936f9b5ada0bdfc143631c1c2fc3b47f",
+          "observations": "Outer wall drums flank the gate below a stout central keep. Ivory horns and a flag make the keep readable above the side crenellations. At 64 px the ward and tower mass strongly distinguish the castle from a single round lodge.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 96,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_military_base_future_v0",
+          "evidence_sha256": "65f0c0cfec6bee56fc80d60def322c038d800d6f2462e06e03152472986c70d1",
+          "observations": "Two unequal lookout towers, two forward barriers and an occupied checkpoint define the compound. Red roof paint unites the small court with the main hall. The pale road stripes, thin mast and tiny drum reward the full-size view.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_military_base_industrial_v0",
+          "evidence_sha256": "1f894acbf850175cd961106dd32b60cdfffa4b9de9934f42048405fbe1c872fe",
+          "observations": "A tall lookout, lane between paired roadblocks and a guardhouse read together as a military yard in the modern preview. The short red panels tie the slate patrol hall to the smaller checkpoint.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_palisade_ancient_v0",
+          "evidence_sha256": "cb760ddf2de8301f52611d9616fdea5f5939f5403f4bcfa41ed2192b9e7773af",
+          "observations": "The uneven line of points frames the larger paired gate tusks. Shields and upper rails break up the long front. Bronze and iron have distinguishable hardware. The exposed coplanar audit found three LOD2 overlaps at the gate.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 95
+          },
+          "defects": [
+            "Move the LOD2 banner lintel frontward to separate its back plane from the door back at z=.052. Re-run the audit across all levels."
+          ]
+        },
+        {
+          "id": "bld_orc_palisade_classical_v0",
+          "evidence_sha256": "9a0e0637fe0b8c3ae3823bd8ddbf54dc72cb752f35b830d6bd45cd012baefafd",
+          "observations": "The roofed centre bay and stone gate jambs make the heavier palisade legible in both ages. Pale stake tips line the whole approach. Three LOD2 gate faces overlap the lintel on the back at z=.052.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 95
+          },
+          "defects": [
+            "Move the LOD2 banner lintel frontward to separate its back plane from the door back. Re-run the audit across all levels."
+          ]
+        },
+        {
+          "id": "bld_orc_stone_wall_classical_v0",
+          "evidence_sha256": "8cd3e10117b340df54664c0fc79d922e9b2598dc577ad69387088e87789dafc4",
+          "observations": "Tusks on the end piers and three setback merlons make a distinct fortified segment. The central sally door has flanking shield plates. Even the darker medieval stone preserves the end-cap red and ivory points.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_stone_wall_industrial_v0",
+          "evidence_sha256": "34e6e7b8799605be20c43a49c1aae611283741ed3fbe178e20ec4a10714fe87d",
+          "observations": "Industrial brick and steel are clear, as are the piers and little sally door. At 64 px its level, dark block crown absorbs the small lateral shields and the faction cues largely disappear.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 85,
+            "construction": 94,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Add a pair of outward-curving armoured tusk crests seated in metal collars on the two end piers. Separate their light tips from the dark merlons at 64 px."
+          ]
+        },
+        {
+          "id": "bld_orc_watchtower_ancient_v0",
+          "evidence_sha256": "cb5cf0407edd7b621a01732e5976c8d44e5317110a0af7e2f95f9db72a77d13d",
+          "observations": "The open trestle, four masonry footings and climbing ladder carry a roofed observation drum. The broad red band and horned canopy remain readable at the phone size.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 95,
+            "construction": 96,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_watchtower_classical_v0",
+          "evidence_sha256": "0190ac27a2bef316d4bf09d96bf2d308992851174262e2693575b260d640fce5",
+          "observations": "A tall battered shaft and the gallery with visible supports produce a readable lookout in all three ages. The narrow slits and projecting door suit masonry. The conical canopy and flag keep the top distinct against the dark medieval stone.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_watchtower_industrial_v0",
+          "evidence_sha256": "36f26450411d5824fbe92a64b2d4df523b33b381d0a4e42fe7a14b92c58e292a",
+          "observations": "Brick tapered shaft under a metal watch deck creates a different profile from the wooden lookout. A warm peak lamp, paired tusks and red gores finish the dark cap. The door is visible at its foot.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Builder session 2 / trade, independent of military builder",
+      "models": [
+        {
+          "id": "bld_orc_palisade_ancient_v0",
+          "evidence_sha256": "83461a742942aa8c01591ff454d12d09eb01bdc35a94fc3fe9612337078f3a7e",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "observations": "Both age views retain the broad clan gate, post-mounted shields and irregular stakes. The revised lintel clears the rear door plane. All LODs now clear the exposed surface check.",
+          "defects": []
+        },
+        {
+          "id": "bld_orc_palisade_classical_v0",
+          "evidence_sha256": "61a15afc7d8727decb68d1a786744ff908328f660b15a051c97850bfe2294606",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "observations": "The roofed portal and pale stake points remain distinct in the classical and medieval thumbnails. The LOD2 lintel no longer shares the rear door plane. All LODs cleared the audit.",
+          "defects": []
+        },
+        {
+          "id": "bld_orc_stone_wall_industrial_v0",
+          "evidence_sha256": "6c88f0b8ae4968b845f61370548448ebcaf39ea118f6ebf4218b864a39421147",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "observations": "Large curved tips now stand clear of the black steel merlons at 64 px. Individual metal collars bind them into the pier caps. The brick section still reads as a fortification around its framed sally door.",
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Orc Military palisade critic",
+      "models": [
+        {
+          "id": "bld_orc_palisade_ancient_v0",
+          "evidence_sha256": "5faad63c4f96050bb30f1ed3b007914193d61f2b3bef2eea9ba4660f398c06da",
+          "observations": "At 64 px the Bronze wall has an ochre crown and a warm, light lintel. The Iron crown reads as a charcoal strip on both sides of a cool grey lintel. The difference is clearest along the left run of stakes. The paired ivory gate tusks and red shields remain legible in both ages. The larger views show the shields attached between continuous timber rails. The serialized LODs contain 874, 418 and 136 triangles. Package validation passed the surface and orientation checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

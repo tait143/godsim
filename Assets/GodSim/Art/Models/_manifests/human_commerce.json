@@ -1,0 +1,708 @@
+[
+ {
+  "id": "bld_human_airport_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "Airport",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 758,
+  "lod_triangles": [
+   758,
+   456,
+   204
+  ],
+  "bounds": [
+   [
+    -1.402500033378601,
+    0.0,
+    -1.3274999856948853
+   ],
+   [
+    1.402500033378601,
+    2.174999952316284,
+    1.3274999856948853
+   ]
+  ],
+  "bytes": 117132,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_airport_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_airport_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_airport_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_airport_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_bank_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "Bank",
+  "race": "human",
+  "ages": [
+   "renaissance",
+   "medieval"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 762,
+  "lod_triangles": [
+   762,
+   444,
+   154
+  ],
+  "bounds": [
+   [
+    -0.824999988079071,
+    0.0,
+    -0.8180000185966492
+   ],
+   [
+    0.824999988079071,
+    1.7139999866485596,
+    0.699999988079071
+   ]
+  ],
+  "bytes": 109512,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_bank_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_bank_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_bank_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_bank_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_human_bank_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "Bank",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 692,
+  "lod_triangles": [
+   692,
+   426,
+   167
+  ],
+  "bounds": [
+   [
+    -0.824999988079071,
+    0.0,
+    -0.8180000185966492
+   ],
+   [
+    0.824999988079071,
+    1.8263479471206665,
+    0.699999988079071
+   ]
+  ],
+  "bytes": 102304,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_bank_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_bank_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_bank_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_bank_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_bank_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "Bank",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 600,
+  "lod_triangles": [
+   600,
+   380,
+   148
+  ],
+  "bounds": [
+   [
+    -0.824999988079071,
+    0.0,
+    -0.8180000185966492
+   ],
+   [
+    0.824999988079071,
+    1.5785000324249268,
+    0.699999988079071
+   ]
+  ],
+  "bytes": 87120,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_bank_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_bank_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_bank_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_bank_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_guildhall_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "Guildhall",
+  "race": "human",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 651,
+  "lod_triangles": [
+   651,
+   414,
+   160
+  ],
+  "bounds": [
+   [
+    -0.824999988079071,
+    0.0,
+    -0.718999981880188
+   ],
+   [
+    0.824999988079071,
+    1.7000000476837158,
+    0.7960000038146973
+   ]
+  ],
+  "bytes": 94540,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_guildhall_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_guildhall_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_guildhall_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_guildhall_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_guildhall_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "Guildhall",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 544,
+  "lod_triangles": [
+   544,
+   296,
+   152
+  ],
+  "bounds": [
+   [
+    -0.824999988079071,
+    0.0,
+    -0.718999981880188
+   ],
+   [
+    0.8349999785423279,
+    1.7999999523162842,
+    0.7960000038146973
+   ]
+  ],
+  "bytes": 78444,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_guildhall_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_guildhall_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_guildhall_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_guildhall_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_guildhall_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "Guildhall",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 569,
+  "lod_triangles": [
+   569,
+   348,
+   127
+  ],
+  "bounds": [
+   [
+    -0.824999988079071,
+    0.0,
+    -0.821340024471283
+   ],
+   [
+    0.824999988079071,
+    2.0799999237060547,
+    0.7960000038146973
+   ]
+  ],
+  "bytes": 81068,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_guildhall_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_guildhall_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_guildhall_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_guildhall_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_harbor_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "Harbor",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 760,
+  "lod_triangles": [
+   760,
+   382,
+   170
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.8429999947547913
+   ],
+   [
+    0.8600000143051147,
+    1.2599999904632568,
+    0.8399999737739563
+   ]
+  ],
+  "bytes": 106048,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_harbor_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_harbor_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_harbor_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_harbor_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_harbor_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_harbor_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "Harbor",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 724,
+  "lod_triangles": [
+   724,
+   376,
+   182
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.8429999947547913
+   ],
+   [
+    0.8600000143051147,
+    1.3159235715866089,
+    0.8399999737739563
+   ]
+  ],
+  "bytes": 103100,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_harbor_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_harbor_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_harbor_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_harbor_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_harbor_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "Harbor",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 744,
+  "lod_triangles": [
+   744,
+   396,
+   174
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.8429999947547913
+   ],
+   [
+    0.8600000143051147,
+    1.2599999904632568,
+    0.8399999737739563
+   ]
+  ],
+  "bytes": 105152,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_harbor_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_harbor_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_harbor_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_harbor_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_market_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "Market",
+  "race": "human",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 930,
+  "lod_triangles": [
+   930,
+   430,
+   112
+  ],
+  "bounds": [
+   [
+    -0.9150000214576721,
+    0.0,
+    -0.824999988079071
+   ],
+   [
+    0.9150000214576721,
+    0.984000027179718,
+    0.824999988079071
+   ]
+  ],
+  "bytes": 126940,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_market_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_market_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_market_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_market_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "Market",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 703,
+  "lod_triangles": [
+   703,
+   352,
+   122
+  ],
+  "bounds": [
+   [
+    -0.9150000214576721,
+    0.0,
+    -0.824999988079071
+   ],
+   [
+    0.9150000214576721,
+    1.1979047060012817,
+    0.824999988079071
+   ]
+  ],
+  "bytes": 95024,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_market_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_market_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_market_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_market_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_market_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_market_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "Market",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 713,
+  "lod_triangles": [
+   713,
+   422,
+   152
+  ],
+  "bounds": [
+   [
+    -0.9150000214576721,
+    0.0,
+    -0.8349999785423279
+   ],
+   [
+    0.9150000214576721,
+    1.079228401184082,
+    0.824999988079071
+   ]
+  ],
+  "bytes": 101876,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_market_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_market_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_market_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_market_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_market_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "Market",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 705,
+  "lod_triangles": [
+   705,
+   414,
+   144
+  ],
+  "bounds": [
+   [
+    -0.9150000214576721,
+    0.0,
+    -0.8349999785423279
+   ],
+   [
+    0.9150000214576721,
+    1.340000033378601,
+    0.824999988079071
+   ]
+  ],
+  "bytes": 100968,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_market_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_market_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_market_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_market_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_rail_station_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "RailStation",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 795,
+  "lod_triangles": [
+   795,
+   442,
+   178
+  ],
+  "bounds": [
+   [
+    -1.402500033378601,
+    0.0,
+    -1.2914999723434448
+   ],
+   [
+    1.402500033378601,
+    1.5809999704360962,
+    1.0019999742507935
+   ]
+  ],
+  "bytes": 103944,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_rail_station_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_rail_station_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_rail_station_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_rail_station_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_rail_station_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Commerce",
+  "building_type": "RailStation",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 883,
+  "lod_triangles": [
+   883,
+   568,
+   176
+  ],
+  "bounds": [
+   [
+    -1.402500033378601,
+    0.0,
+    -1.2914999723434448
+   ],
+   [
+    1.402500033378601,
+    1.6542611122131348,
+    1.0019999742507935
+   ]
+  ],
+  "bytes": 119372,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_rail_station_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_rail_station_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_rail_station_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_rail_station_industrial_v0__modern.png"
+  }
+ }
+]

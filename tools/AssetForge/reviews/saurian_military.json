@@ -1,0 +1,277 @@
+{
+  "package": "saurian_military",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Session 4 independent commerce builder",
+      "models": [
+        {
+          "id": "bld_saurian_barracks_ancient_v0",
+          "evidence_sha256": "38b67e6852d64671d4ad24a9105138f7333c0594fe628dbbcbf60aafa9c768b9",
+          "observations": "Low reed-covered dormitories leave a clear muster court. The purple standard and standing practice target read against a pale foundation. The open approach reaches three distinct doors. Serialized LOD triangles [1005, 601, 205].",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_barracks_classical_v0",
+          "evidence_sha256": "e66f1ee57376f318c5a3dc6fcaf7d306ceebafa9a79b3b938bb7437092635e1e",
+          "observations": "The double barrack roofs and taller mess pavilion enclose a marked drill court in all three views. The darker medieval roof and warmer Renaissance stone keep its recognizable plan intact. Serialized LOD triangles [1077, 673, 237].",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_barracks_future_v0",
+          "evidence_sha256": "7059717babb11783e324104717648f2d937abb6e4e3a3ffa07eb9dde1bf5db8f",
+          "observations": "Glazed dorm roofs, a globular sensor, and a stack sit over the two flanking blocks. The lightened ascension surfaces keep enough contrast with the deep entrance shadows and violet pennant. Serialized LOD triangles [1167, 691, 259].",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_barracks_industrial_v0",
+          "evidence_sha256": "677067952dca72e138d9ebb59faa6b0cd6cc63ccaadc352c4edd5f80eeaca619",
+          "observations": "The paired metal roofs and stack replace the earlier steep dorms. Brick gives way to lighter modern masonry while the flagstaff and target remain separated in the foreground. Serialized LOD triangles [1073, 645, 237].",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_castle_classical_v0",
+          "evidence_sha256": "d55717a66802424621db6b9cfca20ff84c9f7aa14f34805d6bd54e2707582957",
+          "observations": "Four low corner turrets frame a taller stepped keep. The gate, torch bowls, purple heraldry and tidal turquoise bands hold up well at both sizes. Surface audit located overlapping stair and podium tops at all three levels. Serialized LOD triangles [1951, 1118, 585].",
+          "scores": {
+            "silhouette": 97,
+            "identity": 95,
+            "construction": 93,
+            "charm": 95,
+            "colour": 95,
+            "technical": 97
+          },
+          "defects": [
+            "End the stair flight at the front lip of the upper plinth or lower its top by a few millimetres. fieldstone/wall overlap occurs at y=0.17, z\u2248-1.18 in all three LODs. Rerun the serialized surface audit."
+          ]
+        },
+        {
+          "id": "bld_saurian_military_base_future_v0",
+          "evidence_sha256": "4f348cfe0228a65d9bc1c0cedea6a24c11625aeed74485e36cd20ba4afbf253f",
+          "observations": "The ring antenna has two load-bearing legs on a broad glazed headquarters. The annex and gate bollards give the open apron a clear perimeter. The entrance steps have a coplanar top landing in every LOD. Serialized LOD triangles [1161, 725, 319].",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "Remove the coplanar overlap between apron and upper gate tread around y=0.105, z=-1.19 in all LODs. Align their edges or lower the flight slightly, maintaining access."
+          ]
+        },
+        {
+          "id": "bld_saurian_military_base_industrial_v0",
+          "evidence_sha256": "7a5edd2b6314630b7275e62d5f6e2fa9056649a990c4ac6d179597fbef67bdc4",
+          "observations": "The stepped command block, antenna and sentry hut identify a fortified radio compound. The mosaic marks the open parade apron. At the entrance its steps overlap the foundation top in every LOD. Serialized LOD triangles [983, 611, 237].",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 93,
+            "charm": 90,
+            "colour": 92,
+            "technical": 97
+          },
+          "defects": [
+            "Remove the coplanar overlap between apron and upper gate tread around y=0.105, z=-1.19 in all LODs. Align their edges or lower the flight slightly, maintaining access."
+          ]
+        },
+        {
+          "id": "bld_saurian_palisade_ancient_v0",
+          "evidence_sha256": "41e0ed2cffe0fa7b5f13d153d683d89c2e0c00ecab764f32bc437e45b1f57710",
+          "observations": "The sun lintel and two standards identify a Saurian gate through uneven timber stakes. At 64 pixels the Bronze and Iron renders are nearly identical across the dominant timber face. Their faint differences on the caps and lintel are too small to signal an age change. Serialized LOD triangles [836, 383, 168].",
+          "scores": {
+            "silhouette": 95,
+            "identity": 86,
+            "construction": 94,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Give the south-facing gate and end posts broader age-responsive surfaces, e.g. visible footings or a substantial bound crossbar using age-row wall/roof swatches. Preserve the timber palisade and establish distinct Bronze and Iron values at 64 pixels."
+          ]
+        },
+        {
+          "id": "bld_saurian_palisade_classical_v0",
+          "evidence_sha256": "652feb5bd7cef6ebe3357cccc109ae4fe10af24696b156f9746a171dde6839f2",
+          "observations": "The heavier gate pylons, capped canopy and stone end shoes advance the timber stockade into a masonry hybrid. The orange tile changes to a dark medieval roof over the same clear opening. Serialized LOD triangles [992, 539, 232].",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_stone_wall_classical_v0",
+          "evidence_sha256": "4a4860b6755f0adbe98033f6445d590c705bc11188280f4ba2bb0d8884a09db2",
+          "observations": "Battlements flank a narrow wall walk above a projecting postern. The sun seal, turquoise buttress tabs and grey block feet anchor the fortification. Warm stone, dark lintels and terracotta give distinct age reads. Serialized LOD triangles [677, 354, 157].",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_stone_wall_industrial_v0",
+          "evidence_sha256": "44534093e4797545db01e64924b72a02da3a2f4452cb2757cdd6ca764a8ad195",
+          "observations": "Red masonry and the raised plate-covered wall-walk hut shift the crenellated curtain into the industrial period. There is clear relief between postern, buttresses and parapet. Serialized LOD triangles [741, 418, 197].",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_watchtower_ancient_v0",
+          "evidence_sha256": "34d0fa24ddaedb902ea74a067d1d026ab68dc3bfd9153a14786c20a6c8bcfe87",
+          "observations": "An open stilt frame and crossed struts carry a heavy reed-capped lookout. The ladder lands beside the sheltered lamp. Sun crest, amber light and turquoise balustrade stand apart at thumbnail size. Serialized LOD triangles [739, 481, 232].",
+          "scores": {
+            "silhouette": 96,
+            "identity": 96,
+            "construction": 95,
+            "charm": 96,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_watchtower_classical_v0",
+          "evidence_sha256": "08ef57190fda4f19d1c03cdc0f42620698972b727029eeb30610f78cdc4fb008",
+          "observations": "The tapered shaft bears a broad, open lookout with visible posts and a deeply projecting roof. The little door and slit establish scale. The pale, dark-capped and warm stone age variants retain a strong crest. Serialized LOD triangles [573, 390, 183].",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_watchtower_industrial_v0",
+          "evidence_sha256": "461bab2fc8ed3ff95f637fbe9f100a1008d2b5d32d0ffb13aa50ca2d72560a23",
+          "observations": "The tapering brick shaft and squat steel roof lead the eye to a circular signal lamp. A turquoise balustrade, gold boss and tiny slit carry the tower family into its industrial form. Serialized LOD triangles [597, 402, 189].",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Session 4 independent commerce builder",
+      "models": [
+        {
+          "id": "bld_saurian_castle_classical_v0",
+          "evidence_sha256": "2716d16cde445298c7e1c6cf38ab19fdab2e0b0fd58dbfa7d014d5e9bd135fae",
+          "observations": "The corrected stairhead meets the plinth without exposed coplanar faces. Both images retain the flanking fire bowls, gate passage and raised keep. Serialized checks and coplanar audit passed at LOD counts [1951, 1118, 585].",
+          "scores": {
+            "silhouette": 97,
+            "identity": 95,
+            "construction": 93,
+            "charm": 95,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_military_base_future_v0",
+          "evidence_sha256": "227565b895d700876027495149b077c85e2df21cfb2eb0c64f031e19f9865922",
+          "observations": "The front flight is clear of the apron top, the advance to the open court stays legible, and the four-point mosaic still reads in each age. Serialized checks and coplanar audit passed at LOD counts [1161, 725, 319].",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_military_base_industrial_v0",
+          "evidence_sha256": "4298007860e9fb0f15b16e260bf6edf2f0d46af8bc50371156f173dacabf2530",
+          "observations": "The reworked threshold keeps the approach continuous with the parade apron. The receiving antenna, sheltered door and sentry station read clearly at 64 pixels. Serialized checks and coplanar audit passed at LOD counts [983, 611, 237].",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 93,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_palisade_ancient_v0",
+          "evidence_sha256": "5e060dddeef0dd6e36218035e2ee9407580dc8bf7ce4bc1bad0d475fe9b46274",
+          "observations": "Broad plates now span the gate wings. Their burnished bronze and dark iron values remain distinguishable in the thumbnail, and the sun disc and paired standards remain visible above the timber. Serialized checks and coplanar audit passed at LOD counts [1294, 481, 266].",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

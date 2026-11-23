@@ -1,0 +1,305 @@
+{
+  "package": "elf_commerce",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Independent Elf package critic",
+      "models": [
+        {
+          "id": "bld_elf_airport_future_v0",
+          "evidence_sha256": "b5e3711c872917db0108f43972772320109c3fa6caa119735dcc424270f38b85",
+          "observations": "A pale oval hull sits above two plain tapered docking supports. At 64 pixels its blue rim and white upper surface read as a canopy; the nose and tiny fins do little to convey a passenger airship.  Checked the 771/490/209 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 87,
+            "construction": 91,
+            "charm": 85,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the seedship a visible passenger gondola or band of windows, and a distinct tail or mooring mast, so the ship and docking structure read separately at phone size."
+          ]
+        },
+        {
+          "id": "bld_elf_bank_classical_v0",
+          "evidence_sha256": "ceabb831173a3c4ab7d032ddf7e7fb26cd00bd7ca70d100283068e52286e54e3",
+          "observations": "The round vault annex has a recessed outline around a gold cross-shaped wheel. The wheel is too small and blends into an otherwise blank curved facade at phone size, reading as an emblem rather than a vault.  Checked the 864/525/215 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 88,
+            "construction": 93,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Frame a visible vault door on the annex with a central hub, a larger readable wheel and offset hinge or lock blocks, keeping the separate front entrance clear."
+          ]
+        },
+        {
+          "id": "bld_elf_bank_future_v0",
+          "evidence_sha256": "77b77f222f373eba7ff9e1079f9d409caf931b13d1574ae38956893fa86e7e5c",
+          "observations": "The round vault annex has a recessed outline around a gold cross-shaped wheel. The wheel is too small and blends into an otherwise blank curved facade at phone size, reading as an emblem rather than a vault.  Checked the 864/525/215 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 88,
+            "construction": 93,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Frame a visible vault door on the annex with a central hub, a larger readable wheel and offset hinge or lock blocks, keeping the separate front entrance clear."
+          ]
+        },
+        {
+          "id": "bld_elf_bank_industrial_v0",
+          "evidence_sha256": "85a7edb9b9ca48e8e23c7fb9d44a9758c037a9b27b614874dc6a2e5b78a8f1eb",
+          "observations": "The round vault annex has a recessed outline around a gold cross-shaped wheel. The wheel is too small and blends into an otherwise blank curved facade at phone size, reading as an emblem rather than a vault.  Checked the 864/525/215 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 88,
+            "construction": 93,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Frame a visible vault door on the annex with a central hub, a larger readable wheel and offset hinge or lock blocks, keeping the separate front entrance clear."
+          ]
+        },
+        {
+          "id": "bld_elf_guildhall_classical_v0",
+          "evidence_sha256": "1ce8ec7d60197c3e4d756eeac6c60560de895a09effc1f7f498be6a18b7b07c8",
+          "observations": "The gold guild seal hangs clear of its bracket at the junction between a low annex and the taller assembly hall. Its inner motif, open center and roof outline stay readable across the age variants.  Checked the 1028/657/247 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_guildhall_future_v0",
+          "evidence_sha256": "022b5f8defb3909569a08371025495180b4bf5e53b877e8da784e1eb541e477b",
+          "observations": "The gold guild seal hangs clear of its bracket at the junction between a low annex and the taller assembly hall. Its inner motif, open center and roof outline stay readable across the age variants.  Checked the 1028/657/247 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_guildhall_industrial_v0",
+          "evidence_sha256": "d6e594a74452ceab5437d5ce865330ea5c9c7703f3b8e11d4f6603de64824c9f",
+          "observations": "The gold guild seal hangs clear of its bracket at the junction between a low annex and the taller assembly hall. Its inner motif, open center and roof outline stay readable across the age variants.  Checked the 1028/657/247 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_harbor_classical_v0",
+          "evidence_sha256": "bdf696278078df7415f6df0f9bcda99e060b50b025d5ce29072ca450b6b7b416",
+          "observations": "The hollow brown boat sits in a blue berth with its mast beside the dock. Pilings ground the raised landing and its lamp at the outer end leaves the hall entry readable.  Checked the 857/568/231 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_harbor_future_v0",
+          "evidence_sha256": "2e0c2a1b7486a01165a6ec70c3069bc3305ec1e293151a411cc80dd2dd4f2227",
+          "observations": "The hollow brown boat sits in a blue berth with its mast beside the dock. Pilings ground the raised landing and its lamp at the outer end leaves the hall entry readable.  Checked the 857/568/231 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_harbor_industrial_v0",
+          "evidence_sha256": "15df0f2ac85e5cdfd22f18a0ebc75ae9f7db26ed07bca445d8b37a3a8c3a8adb",
+          "observations": "The hollow brown boat sits in a blue berth with its mast beside the dock. Pilings ground the raised landing and its lamp at the outer end leaves the hall entry readable.  Checked the 857/568/231 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_market_ancient_v0",
+          "evidence_sha256": "b5d54a4d3ad214440b91e34eff1d98767ec4f96f58b1fe71d514760fd16fd0cf",
+          "observations": "Two open leaf awnings shade individually coloured wares. The offset gatehouse stays clear of the counters, creating a small courtyard that remains identifiable at thumbnail size.  Checked the 1072/725/295 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_market_classical_v0",
+          "evidence_sha256": "054bdd190102406fc068d904c490153b9d29c9959839809979789d173911ea79",
+          "observations": "Two open leaf awnings shade individually coloured wares. The offset gatehouse stays clear of the counters, creating a small courtyard that remains identifiable at thumbnail size.  Checked the 1072/725/295 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_market_future_v0",
+          "evidence_sha256": "578233b77572bdd4717b5b6bab3b41ac8dfd7119303802b4a1cfcf9013a955cd",
+          "observations": "Two open leaf awnings shade individually coloured wares. The offset gatehouse stays clear of the counters, creating a small courtyard that remains identifiable at thumbnail size.  Checked the 1072/725/295 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_market_industrial_v0",
+          "evidence_sha256": "81498371986ed7a7f310415b9b57bd7900ddf81d035948bf73baa59c0fc71cf7",
+          "observations": "Two open leaf awnings shade individually coloured wares. The offset gatehouse stays clear of the counters, creating a small courtyard that remains identifiable at thumbnail size.  Checked the 1072/725/295 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_rail_station_future_v0",
+          "evidence_sha256": "af008327c6e55fcaefe78322fa1d26849c380005227bc8ed7b101a0e9debfa3a",
+          "observations": "The two continuous rails and perpendicular sleepers run parallel to a raised bank-side platform. A leaf shelter, station door and freestanding lamp remain visible from the approach.  Checked the 878/553/231 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_rail_station_industrial_v0",
+          "evidence_sha256": "e4c55ec502309dc2d98ba84af8b328ea3564959496015d955c2a5e45470d2881",
+          "observations": "The two continuous rails and perpendicular sleepers run parallel to a raised bank-side platform. A leaf shelter, station door and freestanding lamp remain visible from the approach.  Checked the 878/553/231 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Independent Elf package critic",
+      "models": [
+        {
+          "id": "bld_elf_airport_future_v0",
+          "evidence_sha256": "01315b3edffdda888a6ac9db6c5f0b09961f4b3b5e749ef85cfdaa3805d86fef",
+          "observations": "A raised tail rudder and projecting stabilizers give the seedship a bow and stern against the roofline. The underslung keel sits on much narrower supports and the craft now reads independently of the terminal at phone size.  Checked the 1020/669/261 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_bank_classical_v0",
+          "evidence_sha256": "9e231d0a08984f229292a9b37a3b2b40863b713d6be859b788a773f7af63c1d0",
+          "observations": "The expanded vault plate now presents a radial handle, central hub and two visible hinge blocks. Its raised rim and contrasting hardware distinguish the vault face from the separate pedestrian entry.  Checked the 1030/649/301 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_bank_future_v0",
+          "evidence_sha256": "3b25424830c8080f0210578f29897b7bde195ca09c8bc5918bcd04d068a09fba",
+          "observations": "The expanded vault plate now presents a radial handle, central hub and two visible hinge blocks. Its raised rim and contrasting hardware distinguish the vault face from the separate pedestrian entry.  Checked the 1030/649/301 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_bank_industrial_v0",
+          "evidence_sha256": "75c986938e246831d4a12ac2cc352fb51163e5779f75105f6e165d1b8c5f9d29",
+          "observations": "The expanded vault plate now presents a radial handle, central hub and two visible hinge blocks. Its raised rim and contrasting hardware distinguish the vault face from the separate pedestrian entry.  Checked the 1030/649/301 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

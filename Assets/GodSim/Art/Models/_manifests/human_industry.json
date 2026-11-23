@@ -1,0 +1,1024 @@
+[
+ {
+  "id": "bld_human_armory_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Armory",
+  "race": "human",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 601,
+  "lod_triangles": [
+   601,
+   273,
+   121
+  ],
+  "bounds": [
+   [
+    -0.9049999713897705,
+    0.0,
+    -0.42089787125587463
+   ],
+   [
+    0.9049999713897705,
+    0.9850000143051147,
+    0.4300000071525574
+   ]
+  ],
+  "bytes": 78804,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_armory_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_armory_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_armory_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_armory_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Armory",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 531,
+  "lod_triangles": [
+   531,
+   273,
+   121
+  ],
+  "bounds": [
+   [
+    -0.9049999713897705,
+    0.0,
+    -0.42089787125587463
+   ],
+   [
+    0.9049999713897705,
+    1.1050000190734863,
+    0.4300000071525574
+   ]
+  ],
+  "bytes": 73360,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_armory_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_armory_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_armory_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_armory_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_armory_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_armory_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Armory",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 589,
+  "lod_triangles": [
+   589,
+   271,
+   163
+  ],
+  "bounds": [
+   [
+    -0.9049999713897705,
+    0.0,
+    -0.42089787125587463
+   ],
+   [
+    0.9049999713897705,
+    0.7699999809265137,
+    0.4300000071525574
+   ]
+  ],
+  "bytes": 77772,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_armory_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_armory_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_armory_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_armory_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_armory_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Armory",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 551,
+  "lod_triangles": [
+   551,
+   269,
+   141
+  ],
+  "bounds": [
+   [
+    -0.9049999713897705,
+    0.0,
+    -0.42089787125587463
+   ],
+   [
+    0.9049999713897705,
+    0.699999988079071,
+    0.4300000071525574
+   ]
+  ],
+  "bytes": 74200,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_armory_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_armory_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_armory_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_armory_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_blacksmith_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Blacksmith",
+  "race": "human",
+  "ages": [
+   "iron",
+   "bronze"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 829,
+  "lod_triangles": [
+   829,
+   461,
+   233
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.4350000023841858
+   ],
+   [
+    0.925000011920929,
+    0.7319998741149902,
+    0.4662773013114929
+   ]
+  ],
+  "bytes": 124620,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_blacksmith_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_ancient_v0__bronze.png"
+  }
+ },
+ {
+  "id": "bld_human_blacksmith_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Blacksmith",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 789,
+  "lod_triangles": [
+   789,
+   461,
+   233
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.4350000023841858
+   ],
+   [
+    0.925000011920929,
+    0.8909998536109924,
+    0.4662773013114929
+   ]
+  ],
+  "bytes": 120884,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_blacksmith_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_blacksmith_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Blacksmith",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 939,
+  "lod_triangles": [
+   939,
+   530,
+   249
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.4350000023841858
+   ],
+   [
+    0.925000011920929,
+    0.8999999761581421,
+    0.4662773013114929
+   ]
+  ],
+  "bytes": 142664,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_blacksmith_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_blacksmith_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Blacksmith",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 901,
+  "lod_triangles": [
+   901,
+   528,
+   227
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.4350000023841858
+   ],
+   [
+    0.925000011920929,
+    0.8999999761581421,
+    0.4662773013114929
+   ]
+  ],
+  "bytes": 138584,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_blacksmith_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_electronics_plant_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "ElectronicsPlant",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1002,
+  "lod_triangles": [
+   1002,
+   589,
+   297
+  ],
+  "bounds": [
+   [
+    -1.3350000381469727,
+    0.0,
+    -1.25
+   ],
+   [
+    1.3350000381469727,
+    1.0705000162124634,
+    1.25
+   ]
+  ],
+  "bytes": 159504,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_electronics_plant_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_electronics_plant_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_electronics_plant_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_electronics_plant_future_v0__ascension.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_electronics_plant_future_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_factory_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Factory",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 878,
+  "lod_triangles": [
+   878,
+   476,
+   164
+  ],
+  "bounds": [
+   [
+    -1.350000023841858,
+    0.0,
+    -1.2899999618530273
+   ],
+   [
+    1.350000023841858,
+    1.2799999713897705,
+    1.2899999618530273
+   ]
+  ],
+  "bytes": 122952,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_factory_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_factory_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_factory_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_factory_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_factory_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Factory",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 840,
+  "lod_triangles": [
+   840,
+   474,
+   142
+  ],
+  "bounds": [
+   [
+    -1.350000023841858,
+    0.0,
+    -1.2899999618530273
+   ],
+   [
+    1.350000023841858,
+    1.600000023841858,
+    1.2899999618530273
+   ]
+  ],
+  "bytes": 118932,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_factory_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_factory_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_factory_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_factory_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_foundry_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Foundry",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1210,
+  "lod_triangles": [
+   1210,
+   774,
+   346
+  ],
+  "bounds": [
+   [
+    -1.3450000286102295,
+    0.0,
+    -1.284999966621399
+   ],
+   [
+    1.3450000286102295,
+    1.6829999685287476,
+    1.284999966621399
+   ]
+  ],
+  "bytes": 199640,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_foundry_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_foundry_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_foundry_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_foundry_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_foundry_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Foundry",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1024,
+  "lod_triangles": [
+   1024,
+   669,
+   301
+  ],
+  "bounds": [
+   [
+    -1.3450000286102295,
+    0.0,
+    -1.284999966621399
+   ],
+   [
+    1.3450000286102295,
+    1.645799994468689,
+    1.284999966621399
+   ]
+  ],
+  "bytes": 170488,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_foundry_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_foundry_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_foundry_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_foundry_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_smelter_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Smelter",
+  "race": "human",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 625,
+  "lod_triangles": [
+   625,
+   372,
+   128
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.4399999976158142
+   ],
+   [
+    0.9300000071525574,
+    0.9264000058174133,
+    0.4399999976158142
+   ]
+  ],
+  "bytes": 97320,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_smelter_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_smelter_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_smelter_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_smelter_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_human_smelter_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Smelter",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 773,
+  "lod_triangles": [
+   773,
+   475,
+   151
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.4399999976158142
+   ],
+   [
+    0.9300000071525574,
+    1.163699984550476,
+    0.4399999976158142
+   ]
+  ],
+  "bytes": 123064,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_smelter_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_smelter_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_smelter_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_smelter_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_smelter_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_smelter_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Smelter",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 817,
+  "lod_triangles": [
+   817,
+   483,
+   209
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.4399999976158142
+   ],
+   [
+    0.9300000071525574,
+    1.2350000143051147,
+    0.4399999976158142
+   ]
+  ],
+  "bytes": 130368,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_smelter_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_smelter_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_smelter_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_smelter_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_smelter_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Smelter",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 779,
+  "lod_triangles": [
+   779,
+   481,
+   187
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.4399999976158142
+   ],
+   [
+    0.9300000071525574,
+    1.3558000326156616,
+    0.4399999976158142
+   ]
+  ],
+  "bytes": 125904,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_smelter_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_smelter_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_smelter_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_smelter_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_weaver_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Weaver",
+  "race": "human",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 645,
+  "lod_triangles": [
+   645,
+   393,
+   100
+  ],
+  "bounds": [
+   [
+    -0.45500001311302185,
+    0.0,
+    -0.4399999976158142
+   ],
+   [
+    0.45500001311302185,
+    0.7009998559951782,
+    0.4399999976158142
+   ]
+  ],
+  "bytes": 92764,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_weaver_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_human_weaver_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Weaver",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 691,
+  "lod_triangles": [
+   691,
+   427,
+   124
+  ],
+  "bounds": [
+   [
+    -0.45500001311302185,
+    0.0,
+    -0.4399999976158142
+   ],
+   [
+    0.45500001311302185,
+    0.8190000057220459,
+    0.4399999976158142
+   ]
+  ],
+  "bytes": 99812,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_weaver_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_weaver_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Weaver",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 712,
+  "lod_triangles": [
+   712,
+   397,
+   144
+  ],
+  "bounds": [
+   [
+    -0.45500001311302185,
+    0.0,
+    -0.4399999976158142
+   ],
+   [
+    0.45500001311302185,
+    0.7400000095367432,
+    0.4399999976158142
+   ]
+  ],
+  "bytes": 101108,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_weaver_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_weaver_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Weaver",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 674,
+  "lod_triangles": [
+   674,
+   395,
+   122
+  ],
+  "bounds": [
+   [
+    -0.45500001311302185,
+    0.0,
+    -0.4399999976158142
+   ],
+   [
+    0.45500001311302185,
+    0.7400000095367432,
+    0.4399999976158142
+   ]
+  ],
+  "bytes": 97348,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_weaver_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_workshop_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Workshop",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 611,
+  "lod_triangles": [
+   611,
+   402,
+   162
+  ],
+  "bounds": [
+   [
+    -0.875,
+    0.0,
+    -0.7900000214576721
+   ],
+   [
+    0.875,
+    1.031999945640564,
+    0.8399999737739563
+   ]
+  ],
+  "bytes": 89568,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_workshop_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_workshop_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_workshop_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_workshop_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_workshop_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_workshop_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Industry",
+  "building_type": "Workshop",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 723,
+  "lod_triangles": [
+   723,
+   469,
+   179
+  ],
+  "bounds": [
+   [
+    -0.875,
+    0.0,
+    -0.7900000214576721
+   ],
+   [
+    0.875,
+    1.1100000143051147,
+    0.8399999737739563
+   ]
+  ],
+  "bytes": 108984,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_workshop_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_workshop_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_workshop_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_workshop_industrial_v0__modern.png"
+  }
+ }
+]

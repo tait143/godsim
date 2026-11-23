@@ -42,14 +42,12 @@ Classical (white marble, terracotta, columns) · Medieval (grey stone, half-timb
 (concrete, steel, big windows) · Information (glass bands, white panels, cyan accents, antennae) · Ascension
 (pearl white, gold, floating-looking (but supported) rings, emissive cyan).
 
-## 4. Technical rules (enforced by `forge.registry.validate`)
+## 4. Technical rules
 - **Space:** Y-up; 1 unit = 1 tile; ground at y = 0; pivot at ground centre; footprint centred on the origin; front/door faces **−Z**.
-- **Size:** the model fits its footprint W×D tiles (≤ +25% overhang; roofs and props may overhang slightly).
-- **Triangle budgets:** house 1800, building 3500, townhall 4500, wonder 9000, prop 500, nature 700, unit 700, vehicle 1500, animal 500, kit 900, fx 400.
-- **Shading:** flat shaded with vertex colours (COLOR_0). Materials:
-  - `base` for normal surfaces;
-  - `emissive` for lit windows, forge glow and Ascension light;
-  - `metal`/`glass` are optional.
+- **Building footprint.** Fit every LOD, including eaves, stairs and props, within the assigned width and depth.
+- **Building triangles.** Allow 700 at LOD0 for a house, 1,500 for a standard building, 2,500 for a Town Center, Castle, Forum or Arcology, and 5,000 for a wonder. LOD1 targets half the LOD0 count. LOD2 targets one fifth or a simple silhouette. Preserve characteristic roofs, entrances and supports through all three.
+- **Other asset budgets.** Allow 500 triangles for a prop, 700 for nature, 700 for a unit, 1,500 for a vehicle, 500 for an animal, 900 for a kit and 400 for an effect.
+- **Building surfaces.** Use the shared `GodSim_Buildings` material. Flat normals define the facets. `TEXCOORD_0` selects the material patch and age row of the shared atlas. Use the shared emission mask for lit windows, furnaces and Ascension light. Vertex colour is an optional tint.
 - **Geometry hygiene:**
   - No coplanar z-fighting: offset decals and windows by 0.01.
   - No NaN and no degenerate triangles.

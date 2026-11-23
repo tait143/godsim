@@ -1,0 +1,254 @@
+[
+ {
+  "id": "bld_elf_house_ancient_bronze_v0",
+  "kind": "house",
+  "category": "Buildings/Elf/HousesAncient",
+  "building_type": "House",
+  "race": "elf",
+  "ages": [
+   "bronze"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 623,
+  "lod_triangles": [
+   623,
+   309,
+   105
+  ],
+  "bounds": [
+   [
+    -0.2993859052658081,
+    0.0,
+    -0.4033266603946686
+   ],
+   [
+    0.3449859023094177,
+    0.7929999828338623,
+    0.3932400047779083
+   ]
+  ],
+  "bytes": 99992,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/HousesAncient/bld_elf_house_ancient_bronze_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/HousesAncient/bld_elf_house_ancient_bronze_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/HousesAncient/bld_elf_house_ancient_bronze_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_house_ancient_bronze_v1",
+  "kind": "house",
+  "category": "Buildings/Elf/HousesAncient",
+  "building_type": "House",
+  "race": "elf",
+  "ages": [
+   "bronze"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 698,
+  "lod_triangles": [
+   698,
+   325,
+   134
+  ],
+  "bounds": [
+   [
+    -0.39700427651405334,
+    0.0,
+    -0.3818066716194153
+   ],
+   [
+    0.3419531583786011,
+    0.7770000100135803,
+    0.31797125935554504
+   ]
+  ],
+  "bytes": 111152,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/HousesAncient/bld_elf_house_ancient_bronze_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/HousesAncient/bld_elf_house_ancient_bronze_v1.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/HousesAncient/bld_elf_house_ancient_bronze_v1.png"
+  }
+ },
+ {
+  "id": "bld_elf_house_ancient_iron_v0",
+  "kind": "house",
+  "category": "Buildings/Elf/HousesAncient",
+  "building_type": "House",
+  "race": "elf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 508,
+  "lod_triangles": [
+   508,
+   303,
+   103
+  ],
+  "bounds": [
+   [
+    -0.39921998977661133,
+    0.0,
+    -0.40604665875434875
+   ],
+   [
+    0.4027400016784668,
+    0.8925708532333374,
+    0.42131999135017395
+   ]
+  ],
+  "bytes": 87700,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/HousesAncient/bld_elf_house_ancient_iron_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/HousesAncient/bld_elf_house_ancient_iron_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Elf/HousesAncient/bld_elf_house_ancient_iron_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_house_ancient_iron_v1",
+  "kind": "house",
+  "category": "Buildings/Elf/HousesAncient",
+  "building_type": "House",
+  "race": "elf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 663,
+  "lod_triangles": [
+   663,
+   355,
+   156
+  ],
+  "bounds": [
+   [
+    -0.38108038902282715,
+    0.0,
+    -0.38960665464401245
+   ],
+   [
+    0.3478671610355377,
+    0.9525548815727234,
+    0.37615999579429626
+   ]
+  ],
+  "bytes": 113204,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/HousesAncient/bld_elf_house_ancient_iron_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/HousesAncient/bld_elf_house_ancient_iron_v1.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Elf/HousesAncient/bld_elf_house_ancient_iron_v1.png"
+  }
+ },
+ {
+  "id": "bld_elf_house_ancient_v0",
+  "kind": "house",
+  "category": "Buildings/Elf/HousesAncient",
+  "building_type": "House",
+  "race": "elf",
+  "ages": [
+   "dawn"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 543,
+  "lod_triangles": [
+   543,
+   297,
+   97
+  ],
+  "bounds": [
+   [
+    -0.40131062269210815,
+    0.0,
+    -0.4171466529369354
+   ],
+   [
+    0.40819063782691956,
+    0.6650000214576721,
+    0.3498147428035736
+   ]
+  ],
+  "bytes": 88948,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/HousesAncient/bld_elf_house_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/HousesAncient/bld_elf_house_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Elf/HousesAncient/bld_elf_house_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_house_ancient_v1",
+  "kind": "house",
+  "category": "Buildings/Elf/HousesAncient",
+  "building_type": "House",
+  "race": "elf",
+  "ages": [
+   "dawn"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 602,
+  "lod_triangles": [
+   602,
+   313,
+   126
+  ],
+  "bounds": [
+   [
+    -0.4491100013256073,
+    0.0,
+    -0.40044665336608887
+   ],
+   [
+    0.3315821588039398,
+    0.7089999914169312,
+    0.3829199969768524
+   ]
+  ],
+  "bytes": 99356,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/HousesAncient/bld_elf_house_ancient_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/HousesAncient/bld_elf_house_ancient_v1.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Elf/HousesAncient/bld_elf_house_ancient_v1.png"
+  }
+ }
+]

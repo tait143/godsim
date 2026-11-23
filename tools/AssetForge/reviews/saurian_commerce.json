@@ -1,0 +1,353 @@
+{
+  "package": "saurian_commerce",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "session4-learning_builder",
+      "models": [
+        {
+          "id": "bld_saurian_airport_future_v0",
+          "evidence_sha256": "1a71c3c88be8f2fde6e9e623b94cf96c60d66a6a1d2aa82d27e5bccbd41a0bb6",
+          "observations": "The apron, separate terminal, lantern tower, and wave of runway markings sell the airfield in both age rows. The parked aircraft's swept planform has visibly mismatched spans. Reviewed the serialized three-LOD chain [796, 482, 239] and full/64 px previews.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 91,
+            "construction": 86,
+            "charm": 92,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "The parked aircraft has one main wing 27% shorter than its counterpart (plane() uses reach=0.73 on the left and 1.0 on the right), without a visible folded wing or hinge. Give both existing panels the same span and place the balanced airframe clear of the terminal and apron edge."
+          ]
+        },
+        {
+          "id": "bld_saurian_bank_classical_v0",
+          "evidence_sha256": "192ec14aa83204015cdd5915ae3b69632dcace82a7c90d6a30c99f5be9cbc2fe",
+          "observations": "Heavy porch frames the vault door, with barred windows and a turquoise-centered coin crest. The dark Medieval roof differentiates clearly from Renaissance tile. Reviewed the serialized three-LOD chain [750, 456, 163] and full/64 px previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_bank_future_v0",
+          "evidence_sha256": "95b510e67ca00c58c7c8b2a968dd7e5c1ea9c38b383480da421aee6355bd609c",
+          "observations": "A glazed setback under a pale cap updates the bank while preserving its heavy entrance frame and coin crest. Door and window grilles remain readable at 64 px. Reviewed the serialized three-LOD chain [722, 428, 151] and full/64 px previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_bank_industrial_v0",
+          "evidence_sha256": "82cba2924463fd05f48d4130a85a47464c4b9efa93abd19cfc581089ba8ec3b8",
+          "observations": "Brick monitor roof and thick cash-vault porch read as a strongbox. The bright crest, side planter, and gold bars hold up on both surfaces. Reviewed the serialized three-LOD chain [742, 448, 171] and full/64 px previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_guildhall_classical_v0",
+          "evidence_sha256": "f44ed1001add732fe0dbd7d132bab57246e40a2cf88d5214ad0ee0e6d01dc5f4",
+          "observations": "Sail charter and broad turquoise portico are visible against both Medieval and Renaissance roofs. The gabled public hall is well grounded except at the approach seam. Reviewed the serialized three-LOD chain [750, 427, 147] and full/64 px previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 91,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "LOD2 has one exposed overlap between fieldstone and wall at (-0.348869, 0.09, -0.741640), between the approach top and the podium. Truncate the top tread at the actual outer edge of the podium."
+          ]
+        },
+        {
+          "id": "bld_saurian_guildhall_future_v0",
+          "evidence_sha256": "3d4b7fee99b745806f42ed56c3dc0c08de885903b97ffb224307b0f55623ec20",
+          "observations": "Dual sails rising against a glazed charter house separate the guild silhouette from a bank. The small gold crest and portico planting survive the full view. Reviewed the serialized three-LOD chain [758, 435, 155] and full/64 px previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 91,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "LOD2 has one exposed overlap between fieldstone and wall at (-0.348869, 0.09, -0.741640), between the approach top and the podium. Truncate the top tread at the actual outer edge of the podium."
+          ]
+        },
+        {
+          "id": "bld_saurian_guildhall_industrial_v0",
+          "evidence_sha256": "c97b89bad55d0950e7c63b7e5a79dbf144f076c525aca382e83a7178b7b45cb6",
+          "observations": "A trade pennant and copper-edged portico face the approach. Brick vent and roof monitor give the hall an industrial profile in both atlas rows. Reviewed the serialized three-LOD chain [868, 521, 201] and full/64 px previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 91,
+            "charm": 94,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "LOD2 has one exposed overlap between fieldstone and wall at (-0.348869, 0.09, -0.741640), between the approach top and the podium. Truncate the top tread at the actual outer edge of the podium."
+          ]
+        },
+        {
+          "id": "bld_saurian_harbor_classical_v0",
+          "evidence_sha256": "1b3c0b8a4e7b4e9a7c11890c88076d387f96b71b1583f94df6bcfd33b2370700",
+          "observations": "Sailboat, piled jetty, working jib, and freight office form a readable harbor on the inset blue water. The stair/deck seam has overlapping faces. Reviewed the serialized three-LOD chain [973, 510, 237] and full/64 px previews.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 95,
+            "construction": 92,
+            "charm": 95,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "All three LODs have two exposed pairs between the top stair tread and freight deck at y=0.363. Stop the rising approach at the deck front or form a continuous non-overlapping landing."
+          ]
+        },
+        {
+          "id": "bld_saurian_harbor_future_v0",
+          "evidence_sha256": "0f54279f62f75019dc52ee4611ee435804da7e8dfb8b88842e65a034fde018a9",
+          "observations": "A compact enclosed vessel beside its working crane, cyan roof and golden seal updates the jetty. Cargo boxes and the suspended load give the dock a purpose. Reviewed the serialized three-LOD chain [1051, 588, 255] and full/64 px previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 92,
+            "charm": 94,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "All three LODs have two exposed pairs between the top stair tread and freight deck at y=0.363. Stop the rising approach at the deck front or form a continuous non-overlapping landing."
+          ]
+        },
+        {
+          "id": "bld_saurian_harbor_industrial_v0",
+          "evidence_sha256": "967463a1c386b5959cac64c42b8eed5dec23ba3ad037a86f7e6c9030d6f3c482",
+          "observations": "Cabin vessel and tilted jib read against the water while crates and cargo seal tie the technical dock to its merchant family in Industrial and Modern. Reviewed the serialized three-LOD chain [1029, 566, 255] and full/64 px previews.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 92,
+            "charm": 94,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "All three LODs have two exposed pairs between the top stair tread and freight deck at y=0.363. Stop the rising approach at the deck front or form a continuous non-overlapping landing."
+          ]
+        },
+        {
+          "id": "bld_saurian_market_ancient_v0",
+          "evidence_sha256": "229f07e50f029b20a943d8f0da940b6e7da9dd6e5e8ddd1124233f14095d2dcb",
+          "observations": "Striped cloth roofs flank the axial path in front of the reed shop. Gold trade seal, open baskets, and bright vegetables read at phone size. Reviewed the serialized three-LOD chain [992, 510, 213] and full/64 px previews.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 96,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_market_classical_v0",
+          "evidence_sha256": "1a041487aad8be0f5c6b58622796f31587da051d0fdae8d03b2895f974629a22",
+          "observations": "Opposing striped awnings, goods counters and a sun trade disk stay distinct under all three stepped shop roofs. Thin posts line up with their canopy corners. Reviewed the serialized three-LOD chain [1008, 510, 213] and full/64 px previews.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 95,
+            "construction": 94,
+            "charm": 95,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_market_future_v0",
+          "evidence_sha256": "2700e00a0beb2fe9002685bf9143ccd42c3afc46de09662b3f3fba6b1fc45b86",
+          "observations": "Cyan awnings, coral stripes, and the glazed stepped roof read as one future market. Vegetables and the small trade seal provide recognizable scale. Reviewed the serialized three-LOD chain [1018, 520, 223] and full/64 px previews.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_market_industrial_v0",
+          "evidence_sha256": "b3db0673c50ad2fdcf7b36a9a3ef758c08c31aca0fdabcc6c0e13fa1bbf57dd2",
+          "observations": "The brick monitor sits above the two striped bays. Goods, center seal, and side pot stay clear against the darker Industrial base and lighter Modern row. Reviewed the serialized three-LOD chain [1058, 560, 235] and full/64 px previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_rail_station_future_v0",
+          "evidence_sha256": "ec6c59a339153779414846f36c7dd5ed1248fed05a44f2c81fc62c82918044ac",
+          "observations": "Pale streamlined car and glazed elongated platform canopy stay distinct at phone size. Sleepers, clock and the entry stairs supply scale and function. Reviewed the serialized three-LOD chain [921, 620, 269] and full/64 px previews.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_rail_station_industrial_v0",
+          "evidence_sha256": "3516c3ae16e280781909083902b50172ec5f447cdecc33d13864c272d401fdc6",
+          "observations": "Short vented engine and a long platform roof parallel the rails. Dark train and canopy retain separate outlines against the Industrial brick platform. Reviewed the serialized three-LOD chain [1029, 692, 319] and full/64 px previews.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Independent CultureCivic builder, session 4",
+      "models": [
+        {
+          "id": "bld_saurian_airport_future_v0",
+          "evidence_sha256": "531469ffea44b4071909b19f241a1b351becdd988b7450eaefd6d48a0c0f7dd2",
+          "observations": "The parked airframe has matching swept outer panels in the Information and Ascension views. The inward wingtip has daylight to the terminal at its own height, the outer wing stays on the apron, and the control lantern still anchors the airport silhouette. No exposed pairs reported in the serialized LODs 796/482/239.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_guildhall_classical_v0",
+          "evidence_sha256": "924e5a1dcd51acfa943b296ee62051957ac5e7800b906e359e766c4249c51091",
+          "observations": "The entrance stair meets the front of the beveled podium without the former LOD2 surface pair. The sail sign, deep teal portico and corner merchant's jar remain clear under both the Medieval green and Renaissance russet roof. No exposed pairs reported in the serialized LODs 750/427/147.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_guildhall_future_v0",
+          "evidence_sha256": "a08805321816966c90dc1dc991621ffa07e58d2b43b78d9b7032644de01e14d3",
+          "observations": "The shortened stair ends at the podium at all three levels. A sheltered doorway is clearly visible between its piers, and the double pennant and glazed charter room retain the guild identity in both rows. No exposed pairs reported in the serialized LODs 758/435/155.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_guildhall_industrial_v0",
+          "evidence_sha256": "a075a1630dd629bcfb28a5b8bcb2225f339cc7be81d6a90df8d45f93a9fcb544",
+          "observations": "The stair now meets the podium at its edge. The chimney and raised monitor roof keep a strong profile above the trade pennant as the Industrial brick shifts to the subdued Modern palette. No exposed pairs reported in the serialized LODs 868/521/201.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_harbor_classical_v0",
+          "evidence_sha256": "775e88ba61688c5b61a956fef0f2ee9047c06474c49567aa7f4c2001e68524c4",
+          "observations": "The freight stair runs directly up to the timber jetty, with the top tread outside the freight-deck surface. Sail, slung cargo and stout piles read together across all three age rows, including the darker Medieval roof. No exposed pairs reported in the serialized LODs 973/510/237.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 94,
+            "construction": 96,
+            "charm": 95,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_harbor_future_v0",
+          "evidence_sha256": "5a85d7b5a399fe49247d8990e74d0399d3d7d02d2945d0468739b76306dc263b",
+          "observations": "The new landing terminates flush at the freight deck. White pier, cabin boat and crane remain separated by the blue water at thumbnail size, and the gilt trim gives the Ascension vessel a distinct finish. No exposed pairs reported in the serialized LODs 1051/588/255.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 96,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_harbor_industrial_v0",
+          "evidence_sha256": "f22e436c6a4a3471a70cfccd11f54021672193fc8412f1b7963cdfa112ab638e",
+          "observations": "The collar between approach and pier is clean at all three LODs. The raised dock still has visible support posts, and the crane reaches the gunwale beside the small cargo boat in both the brick and pale gray variants. No exposed pairs reported in the serialized LODs 1029/566/255.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 96,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+# GodSim building art direction review
+
+**Current decision: the corrected 1,034-model catalog passed art direction.** The final re-review records the resolution of all 34 original holds and identifies the reviewed images by hash. [Corrected full assembly](#corrected-full-assembly-23-november-2026)
+
+## First full assembly, 23 November 2026
+
+**Catalog disposition: hold 34 model IDs across 16 functions for revision.** All 71 packages had independent model approvals when this assembly was produced. Viewing the models beside neighboring functions and ages exposed three function collisions and several age transitions that are difficult to read at phone scale. The holds below apply to this assembly.
+
+The catalog manifest contains 1,034 models, 2,130 gameplay lookup keys and 75 functions. The 19 canonical family pages display 2,096 age previews: 413 Human, 415 Elf, 416 Dwarf, 416 Orc, 415 Saurian and 21 neutral. I opened all 19 pages as images and compared every occupied cell horizontally across applicable ages and vertically across races and house variants. Blank cells correspond to combinations outside each model’s assigned scope. The neutral wonders occupy a single shared row.
+
+I also opened one mixed-function contact page for each race and each age, using the 122 px and 48 px views. Individual source PNGs resolved close calls, including the Elf airship and its mooring supports, the Dwarf smith’s anvil and smelter outlet, all five future Hospital/MedicalCenter pairs, the three Dwarf Industrial mine types, and late farm variants. I compared the weakest neighboring ages again as pairs cropped directly from the canonical 64 px cells. Colour differences screened pairs for inspection; appearance at 64 px determined the findings.
+
+### Revisions required
+
+| Comparison | Exact model IDs | Observed problem and acceptance at 64 px |
+|---|---|---|
+| Dwarf specialist mines | `bld_dwarf_coal_mine_industrial_v0`<br>`bld_dwarf_coal_mine_future_v0` | A rear pipe is the main silhouette change from ordinary Mine. Add a clearly projecting loading chute and bulk bunker. Keep the shared headframe. |
+| Dwarf specialist mines | `bld_dwarf_gold_mine_ancient_v0`<br>`bld_dwarf_gold_mine_classical_v0`<br>`bld_dwarf_gold_mine_industrial_v0`<br>`bld_dwarf_gold_mine_future_v0` | Gold nuggets change the cart and a small patch of the same Mine roof. Give the gold works an exposed stepped ore-washing or sorting installation that changes the outline. |
+| MedicalCenter and Hospital | `bld_elf_medical_center_future_v0`<br>`bld_dwarf_medical_center_future_v0`<br>`bld_orc_medical_center_future_v0` | The clinic cross and front entrance occupy the same position on almost the same three masses. Elf changes chiefly the main roof colour, Dwarf one skylight, Orc one roof tube. Add a substantial dedicated wing, raised ward or projecting triage entrance. Keep the race’s architectural treatment. |
+| IndustrialFarm and Farm | `bld_dwarf_industrial_farm_industrial_v0`<br>`bld_dwarf_industrial_farm_future_v0`<br>`bld_orc_industrial_farm_industrial_v0`<br>`bld_orc_industrial_farm_future_v0` | The shed, planting rows and silo position duplicate Farm. A narrow bar and taller tanks disappear into that outline. Give the mechanized beds a substantial glasshouse, harvester or moving gantry large enough to read at 64 px. Preserve some visible crop rows. |
+| Information and Ascension hydroponics | `bld_human_hydroponics_tower_future_v0`<br>`bld_elf_hydroponics_tower_future_v0`<br>`bld_dwarf_hydroponics_tower_future_v0`<br>`bld_saurian_hydroponics_tower_future_v0` | Blue domes, planted bands and light plinths dominate both ages. A brighter blue crown or small trim change is insufficient. Use a broad age-responsive crown or tier fascia that clearly changes from Information steel/cyan to Ascension pearl/gold. Preserve the planted bands. |
+| Early storehouse | `bld_orc_storehouse_ancient_v0` | Dawn, Bronze and Iron retain the same brown canopy, loading door and crate. Carry age materials onto the large roof or wall panels and keep the small horn tips and loading frame. |
+| Early farms | `bld_human_farm_ancient_v0`<br>`bld_elf_farm_ancient_v0`<br>`bld_saurian_farm_ancient_v0` | Dawn and Bronze read as the same brown plot and shed. In the Elf case the main canopy shifts between close greens. Use a visible age-aware shed wall or roof surround and irrigation or bed-edge material. |
+| Early pastures | `bld_orc_pasture_ancient_v0`<br>`bld_saurian_pasture_ancient_v0`<br>`bld_elf_pasture_ancient_v0` | Bronze and Iron share the same yard, fence and dominant shelter. Give the siding or shelter a clearly distinct age value and reinforce it on a larger section of the enclosure. |
+| Early Saurian shelters and extraction | `bld_saurian_woodcutter_camp_ancient_v0`<br>`bld_saurian_fishing_hut_ancient_v0`<br>`bld_saurian_hunting_lodge_ancient_v0`<br>`bld_saurian_gatherer_hut_ancient_v0`<br>`bld_saurian_stone_quarry_ancient_v0` | The shelters retain the same yellow roof and timber base across Dawn/Bronze. Their tool, catch or crop props correctly identify the job. At the quarry, brown lifting gear and gray stepped rock stay almost constant. Put age contrast on a large roof surround, lower wall or built quarry platform. Keep cut stone and raw wood recognisable. |
+| Early palisades and Elf totem | `bld_elf_palisade_ancient_v0`<br>`bld_orc_palisade_ancient_v0`<br>`bld_elf_spirit_totem_ancient_v0` | The two fence lines are near-identical brown in Bronze and Iron. Use an age-material gate or continuous bound rail. Dawn and Bronze Elf totems have the same forked trunk, crescent and gray plinth. An evolving broad ritual stone or mounting band can preserve the tree. |
+| Late aqueduct and fishing hut | `bld_elf_aqueduct_future_v0`<br>`bld_orc_fishing_hut_future_v0` | Elf arches and the blue channel are almost invariant between Information and Ascension. Apply the age contrast to visible outer piers or fascia. The Orc hut retains its red/white roof, canoe and dock, leaving little age signal. Keep the red and give the roof surround or dock face a broader pearl/gold finish. |
+
+For re-review, use the updated age preview beside its original neighbor, or the revised specialist beside the ordinary building in the same race and age. Confirm the affected age or function from the major shapes or materials at 64 px and check the larger image for support and retained race cues. Revised geometry and surface assignments also need current independent package evidence.
+
+### Coverage by family page
+
+| Page | Functions | Visual comparison |
+|---|---|---|
+| 01 | Airport, Aqueduct, Arcology, Arena | An airship moored beside the Elf terminal and the Saurian beacon distinguish the airports. Water atop repeated arches, inhabited towers and open seating bowls carry the other three functions. Elf Aqueduct has a weak final age transition. |
+| 02 | Armory, AscensionGate, Bank, Barracks | Weapon displays and shields sit under long workshop roofs. Vault emblems and formal entries separate the banks from the garrison halls. The neutral gate’s supported ring reads in profile. |
+| 03 | Bathhouse, Blacksmith, Campfire, Castle | Open turquoise baths, a forge and anvil, a central flame, and defended corner towers give four different silhouettes. The Dwarf smith’s broad anvil contrasts with the Smelter’s larger furnace and pouring outlet on page 15. |
+| 04 | Cathedral, CoalMine, Colossus, DataCenter | Aisles or paired towers make the cathedrals read as civic landmarks. The Colossus pose survives every age. Vents, banks of servers or cylinders identify data centers. Dwarf CoalMine needs a distinct bulk-handling profile. |
+| 05 | DeepForge, ElectronicsPlant, Factory, Farm | The Dwarf forge is recessed against rock. The plants use housings or repeated equipment, while factories use production sheds and stacks. Crop rows anchor all farms. Three early-age farms have weak age cues. |
+| 06 | FishingHut, Forum, Foundry, FusionReactor | Small boats identify the fishing buildings across roof styles. Forums frame open space, foundries emphasize vessels and orange heat, and fusion cores use rings or luminous domes. Two FishingHut age transitions are held. |
+| 07 | GathererHut, GoldMine, Granary, GrandBazaar | Produce baskets and clustered bins distinguish gathering from bulk grain storage. The neutral bazaar has domes, vaults and stall awnings. Dwarf GoldMine overlaps the ordinary mine. The Saurian gatherer’s early age is unclear. |
+| 08 | GrandCathedral, GreatLibrary, Guildhall, Harbor | The clustered Human cathedral spires and the neutral library’s single dome make distinct landmarks. Guildhalls stack marked entrance volumes. Harbors combine a landing, boat and cargo or hoist. |
+| 09 | Herbalist, Hospital, House, HuntingLodge | Planters or a mortar identify herbalists. Hospital emblems sit at the main door. Both House variants were compared in every age and race. Elves use attached leaf pods, Dwarves low wide roofs, Orcs horned fabric, Saurians stepped wings and Humans domestic gables. The Saurian hunting shelter needs a clearer early age. |
+| 10 | HydroponicsTower, IndustrialFarm, Library, Market | Planted decks define the towers. Several towers retain nearly the same crown and terraces in both late ages. IndustrialFarm separates from Farm through greenhouse masses in Human and Elf, and taller twin tanks in Saurian. Dwarf and Orc need broader equipment. Book forms and stall awnings give the bottom row strong function cues. |
+| 11 | MedicalCenter, MilitaryBase, Mill, Mine | The Human medical center adds several floors. The Saurian center adds ward wings and a marked entrance canopy. Three other medical centers remain too close to their hospitals. Dishes distinguish military bases. Wind rotors and waterwheels distinguish mills. The ordinary Dwarf Mine supplies the comparison for both specialist mines. |
+| 12 | Monastery, Observatory, OilWell, Palisade | Courtyards, exposed optics, pumpjacks and uninterrupted defensive fences read across all rows. The Elf’s curved wall and the Orc’s lashed wall each need a clearer Bronze-to-Iron change. |
+| 13 | Pasture, PowerPlant, Printworks, RailStation | Enclosed grass and livestock establish pasture, with three weak early-age transitions. Cooling towers and generating halls, projecting presses or paper stacks, and platforms beside rails identify the other functions. |
+| 14 | ResearchLab, Sawmill, Scriptorium, Shrine | Lab instruments or vessels, log feed lines, a writing bench or quill, and an open-sided altar give the buildings distinct work areas. The Saurian quill remains visible above the long roof. |
+| 15 | Smelter, SpiritTotem, Stadium, StoneQuarry | Tapered furnaces keep their form across races. Each totem has a distinctive symbol. Turf and larger spectator stands separate stadiums from arenas. Stepped stone and lifting gear establish the quarry. Elf totem and Saurian quarry need clearer early-age materials. |
+| 16 | StoneWall, Storehouse, SunPyramid, Tavern | Broad defensive parapets, warehouse loading doors, the Saurian axial stair and disc, and an inn’s sign, barrels or awning establish separate uses. The Orc warehouse roof reads brown across all three early ages. |
+| 17 | Temple, Theater, TownCenter, University | Temples frame ritual entrances. Theaters expose a stage or semicircle. Town centers were compared through all ten ages, from raised halls or tents to towers and rings. An Elf courtyard, Human wings and Dwarf or Orc grouped teaching halls retain campus structure. |
+| 18 | WarIdol, Watchtower, Weaver, Well | The Orc idol remains an unmistakable horned figure. Tower lookouts, exposed looms and hanging cloth, and the round rim with suspended well gear survive reduction. |
+| 19 | WoodcutterCamp, Workshop, WorldTree | Logs plus stump or rack establish a working timber camp. Benches and workpieces distinguish workshops. The living trunk, canopy and entry identify the Elf wonder throughout. The Saurian camp roof and timber need a stronger early-age contrast. |
+
+Across the set, the strongest race cues are the Elf’s leaf curves and split pods, the Dwarf’s broad, low beam-and-stone masses, the Orc’s horn tips, red panels and lashed structures, the Saurian’s stepped platforms and turquoise sun ornament, and the Human’s timber, shutters, gables and upright civic flags. Rows such as Well, Shrine, Mill and House retain different construction methods even where the camera and age palette coincide. In later ages, the change from industrial brick to concrete to glass generally reads at thumbnail scale. Gold trim confined to a few pixels, and unchanging hide or reed roofs in the early ages, account for the held exceptions.
+
+This review covers offline art renders from one fixed angle, with scale normalized to each preview. Relative scale in a settlement, perspective changes, occlusion, runtime LOD switching, Unity lighting, batching and iPhone rendering/performance require separate evidence. The sheet review supplies no Unity or device test result.
+
+### Image fingerprints for the first full assembly
+
+SHA-256 values below identify the observed canonical PNGs under `tools/AssetForge/previews/_sheets/`. The corresponding `Assets/GodSim/Art/Models/manifest.json` SHA-256 is `9c1a17c0bc0cd90ad8fba6dfe4cd82c3edac77a6302b49f97bd70ba012b3a331`.
+
+| Canonical sheet | SHA-256 |
+|---|---|
+| `families/01.png` | `59f35406dd48a6478740f8e1542e7bc11ee4711eda31b62b79edd794fb068d5a` |
+| `families/02.png` | `d9d4a9cbd624c3b054b485d5d9bca708e3b3c85d8f0136407de49c467e0c1512` |
+| `families/03.png` | `33dbdae52097b20a1015e09aa5c9147d254bb35856d7ece025957289b5efe132` |
+| `families/04.png` | `9c9edd5820bbe96e344bd6bd7254c41d48eab228de7247e892d4e9154c9aa9cb` |
+| `families/05.png` | `ecfc64dcb770823114e58ce338e53b1db4b0cd5f25328e8eb0294d1e8e1459e0` |
+| `families/06.png` | `8b4cf9a2472102946e70dfb7724c2ef7c73c171a93e5190c6498d592bb74e418` |
+| `families/07.png` | `ba27127b1c8860b400d876749ace31463c192ee6240eaa6e9d323fea5e33359a` |
+| `families/08.png` | `506a1c6635e5ab2680c1969256f18116b70096e1e77b2508b47df7b1988390e2` |
+| `families/09.png` | `44f30dda39a55e6cce95c57a199f8686fa116e4d5e73d6b13cfc1222f50feec0` |
+| `families/10.png` | `c46d798ec1ec608f1f615aa18d04fbf0d1fc08d9c2668e55763e2fa81663cd60` |
+| `families/11.png` | `1dab306429ee2a6c8e1bbeeb042dc74bde13b9ae084bcc4176ad5b12972ef94f` |
+| `families/12.png` | `b5a0cf5a83ba52fb9456561519a971e9549633ab13c817480823eb050a9486ac` |
+| `families/13.png` | `2d4a24c615094d14c477adda682e789f5f8ac1ac8926deb2bc4b075a97683f9b` |
+| `families/14.png` | `2ead68bc5c6978681fec83f9b5e555eec54db83c4bab5aaa85b8290bef0b93d0` |
+| `families/15.png` | `13fb5f40464e1c6d4ed276d1ed1b580697507893888389d37996c88664db3c07` |
+| `families/16.png` | `4a74ea0b21a835d6e190268fd980345135d10390fa6b7a827cb1a85658eb2d77` |
+| `families/17.png` | `e35a2637e77723e0fb93a6dcba69f03a9bccefd4ebdc2bf078e4dcb2551de9f7` |
+| `families/18.png` | `55661396188332d81893774eec075c25bccfe1d5f06e57be368d85e0acdb5ec8` |
+| `families/19.png` | `398f32ea0899f0019ca99eea2c14a7703e784968520fbe99a4587cb492f3357e` |
+| `race/human/06.png` | `8c98a8909cce50248760b7e9530b9869683cab5c83e32ba1d2c669142b377c5c` |
+| `race/elf/01.png` | `047f4ab724ec424f9f74949a4484cac4340d0a4873996193a86326ee1df26aa2` |
+| `race/dwarf/07.png` | `86651d2206145de32479aa06897233aa6f259b6319718ff6e544dc746c06af8b` |
+| `race/orc/11.png` | `f3e7b33c2257f50e3eed61e690a52e5ec71a07c65d18471bfbb5f9b506fc7cc2` |
+| `race/saurian/10.png` | `e6edce133b4ac54059b0a2cb1a712c4066876836fe9ec231a875a2649ec558f5` |
+| `age/dawn/01.png` | `0888bed5683b89ab80a450f845758317689ac08dcaec1a0be69a8f35a3a68895` |
+| `age/bronze/02.png` | `16233ea51734f2901a4e9b81359301317135be8dc4abebc04dbb8f31e69d414f` |
+| `age/iron/03.png` | `2bab52efcdb0bca922b2f1bab64ed7d6469dec64ff0f9c65db35f93535270ec0` |
+| `age/classical/04.png` | `3678152d7beb08086e8034b74482e0abbd14cec6a5139e8c227048867aa9a44d` |
+| `age/medieval/05.png` | `75005c95dda7d4b36914012855196fdf4d603ca9a2ca9bc236ffeb2e46193d4d` |
+| `age/renaissance/06.png` | `b0731097eebb253c875504f0bbfee25086895ff2e6013efef48ce209c1b08ede` |
+| `age/industrial/07.png` | `c4cd0a22784ffe7ceee74451f8a8f65c405108daeecfe9583c9fcd94676fe5a9` |
+| `age/modern/08.png` | `a7d28d80d555de73c6f31a655db8c5ab01d9e37f3d178f9f51a2f6d2bb21e485` |
+| `age/information/09.png` | `ca83e8d8e506005f70144ece42ade2d7a177a59164235abafdef914eb30b0c13` |
+| `age/ascension/02.png` | `fc483fc10579fb30d876f4d74b6a31dd8ddc9463a75d28e4f4b89c6cbebd1cff` |
+
+## Corrected full assembly, 23 November 2026
+
+**Approved for catalog art direction. All 34 previously held model IDs passed visual re-review.** I opened candidate pages 01 through 19 from `director-candidate-_tnfo8kp/families`, compared the 16 affected functions across all represented races and ages, and revisited the ordinary Mine, Farm and Hospital as direct controls. I isolated the 21 surface-related models at the original 64 px cell size to compare adjoining ages without unrelated rows. The individual HydroponicsTower and clinic source images clarified the crown materials, porticos and signs.
+
+The package records for all 1,034 models had current file evidence, passing scores and empty defect lists when checked. The aggregate evidence SHA-256 is `09bbe5a752a291a03acc11412292bf5e9087eb18333d4d1e91663cb2af7e1bb4`. The 19 page hashes below identify the complete reviewed set. Approval covers these offline assets and images. It carries no game, device or performance result.
+
+| Model ID | Ages compared | Decision | Visual basis |
+|---|---|---|---|
+| `bld_dwarf_coal_mine_industrial_v0` | Renaissance, Industrial, Modern | Approve | An open coal bunker above the hoist house and a long descending conveyor produce a diagonal side profile. The ordinary mine has an open headframe. |
+| `bld_dwarf_coal_mine_future_v0` | Information, Ascension | Approve | The hopper stays visible above the discharge belt in both finishes. Ore remains dark against the cyan or gold equipment. |
+| `bld_dwarf_gold_mine_ancient_v0` | Iron | Approve | Wide stepped blue washing beds occupy the foreground of the Iron workings. Ore extraction remains legible without the ordinary mine’s large headframe. |
+| `bld_dwarf_gold_mine_classical_v0` | Classical, Medieval, Renaissance | Approve | Tiered wash beds, an overhead cap and a short side structure survive all three roof and plinth material changes. |
+| `bld_dwarf_gold_mine_industrial_v0` | Industrial, Modern | Approve | A large horizontal sorting drum terminates the ascending wash beds. Its side view remains clear in both ages. |
+| `bld_dwarf_gold_mine_future_v0` | Information, Ascension | Approve | The faceted feed drum sits above cyan sorting terraces. Both stand apart from the coal bunker and from ordinary mine rails. |
+| `bld_elf_medical_center_future_v0` | Information, Ascension | Approve | Tall paired ward pods with separate caps open around a signed, projecting entrance. The low clustered Hospital retains its single principal roof. |
+| `bld_dwarf_medical_center_future_v0` | Information, Ascension | Approve | The broad covered triage entrance, stepped rear ward and cross form a long horizontal front. The ordinary Hospital has a shorter tower and small entrance beside a barrel-roof wing. |
+| `bld_orc_medical_center_future_v0` | Information, Ascension | Approve | A red projecting medical canopy sits in front of the circular ward and two tall tanks. Its supported entrance and horn points retain Orc character. Hospital has three tent roofs. |
+| `bld_dwarf_industrial_farm_industrial_v0` | Modern | Approve | Sawtooth glass bays now span the planted area, with crop boxes along the low frontage. The Modern Farm has open fields and a free-standing shed. |
+| `bld_dwarf_industrial_farm_future_v0` | Information, Ascension | Approve | Two broad banks of glasshouse roofs dominate both future silhouettes. The regular farm keeps exposed crop rows. |
+| `bld_orc_industrial_farm_industrial_v0` | Modern | Approve | The large red harvesting machine and elevated canopy give the Modern industrial field a distinctive profile beside an ordinary farm plot. |
+| `bld_orc_industrial_farm_future_v0` | Information, Ascension | Approve | The arched growing house, strong ribs and red entrance read together. Crops remain visible at the front, with dark ends in Information and gold in Ascension. |
+| `bld_orc_storehouse_ancient_v0` | Dawn, Bronze, Iron | Approve | The entire roof shifts from umber through ochre to slate over the same loading porch, crate and broad door. |
+| `bld_human_hydroponics_tower_future_v0` | Information, Ascension | Approve | The crown changes from a dark, cool dome to a bright gold dome above planted terraces. The blue entrance canopy still identifies the Human structure. |
+| `bld_elf_hydroponics_tower_future_v0` | Information, Ascension | Approve | The pointed leaf crown changes from deep green to yellow-gold across its visible faces. Green planting rings stay consistent. |
+| `bld_dwarf_hydroponics_tower_future_v0` | Information, Ascension | Approve | The broad cap and every tier fascia change from graphite to brass. The planted green strips remain clearly visible between them. |
+| `bld_saurian_hydroponics_tower_future_v0` | Information, Ascension | Approve | The crown below the sun emblem changes from dark turquoise to warm gold. Turquoise rings and stepped planting beds retain the Saurian silhouette. |
+| `bld_orc_pasture_ancient_v0` | Bronze, Iron | Approve | The roof changes from warm hide to cool charcoal around the red stripes, with a visible enclosure around the herd. |
+| `bld_saurian_farm_ancient_v0` | Dawn, Bronze, Iron | Approve | The raised shed roof and field edge now distinguish earth brown, ochre and cool gray. Turquoise irrigation beds remain visible. |
+| `bld_human_farm_ancient_v0` | Dawn, Bronze, Iron | Approve | The gabled roof and working bed change from warm timber tones to copper and then darker material on a gray-edged plot. The green planted rows remain constant. |
+| `bld_saurian_woodcutter_camp_ancient_v0` | Dawn, Bronze, Iron | Approve | The shelter roof changes from raw brown to ochre to slate directly above the unchanged log pile and chopping stump. |
+| `bld_elf_farm_ancient_v0` | Dawn, Bronze, Iron | Approve | The large oval bed edge changes from darker earth to pale ochre and then gray. The planted rows and leaf canopy retain the farm identity. |
+| `bld_saurian_fishing_hut_ancient_v0` | Dawn, Bronze, Iron | Approve | Brown, ochre and blue-gray shelter roofs read independently above the same canoe and turquoise landing. |
+| `bld_saurian_pasture_ancient_v0` | Bronze, Iron | Approve | Bronze warm enclosure surfaces and shed roof give way to darker, cool construction in Iron. The inner pasture and stock stay green and visible. |
+| `bld_elf_pasture_ancient_v0` | Bronze, Iron | Approve | A wide ochre perimeter becomes gray in Iron. The central rounded green paddock and small leaf shelter remain legible. |
+| `bld_elf_palisade_ancient_v0` | Bronze, Iron | Approve | The low continuous fence and peaked binders change from warm ochre to a cool, dark material around the central curved gate. |
+| `bld_orc_palisade_ancient_v0` | Bronze, Iron | Approve | The full reinforced upper rail is warm brown in Bronze and near-charcoal in Iron. Red paint, horns and the gate establish the same Orc fence. |
+| `bld_saurian_stone_quarry_ancient_v0` | Dawn, Bronze, Iron | Approve | The broad quarry steps change from dark earth to warm sandy stone and then gray. The lifting frame and cut blocks remain visible. |
+| `bld_elf_spirit_totem_ancient_v0` | Dawn, Bronze, Iron | Approve | The full circular plinth changes from dark brown to ochre to cool gray. The crescent in the forked tree remains the focus. |
+| `bld_saurian_hunting_lodge_ancient_v0` | Dawn, Bronze, Iron | Approve | Broad umber, ochre and slate roofs mark each early age. The projecting hunting rack remains visible outside the hut. |
+| `bld_saurian_gatherer_hut_ancient_v0` | Dawn, Bronze, Iron | Approve | The same three-part roof transition leaves the produce baskets, entrance and sun ornament readable at thumbnail size. |
+| `bld_elf_aqueduct_future_v0` | Information, Ascension | Approve | A continuous dark Information channel fascia becomes gold at Ascension. Blue water and the curved pale arcade remain visible. |
+| `bld_orc_fishing_hut_future_v0` | Information, Ascension | Approve | The red-striped fishing shelter and broad dock change from dark steel to gold. The adjacent wooden canoe continues to identify the activity. |
+
+### Corrected full-catalog family sheets
+
+| Page | Reviewed PNG SHA-256 |
+|---|---|
+| `01.png` | `1ad414e4a24340dc2a05465c0dc97b7e32eaa2dcb38a519ff4f24fc715bb96a7` |
+| `02.png` | `d9d4a9cbd624c3b054b485d5d9bca708e3b3c85d8f0136407de49c467e0c1512` |
+| `03.png` | `33dbdae52097b20a1015e09aa5c9147d254bb35856d7ece025957289b5efe132` |
+| `04.png` | `dbd288f51d245545211412cd5e77a61916e9aacb2c181b573fb8a3d384a9570a` |
+| `05.png` | `070fcaee95ecc1c2d67b8be10954c0074353ac3793939b1798f2e0e2ad980c9e` |
+| `06.png` | `3f4b1aee06b9ff3217d3aab8bdede84ca0a6c9a1f9df7f3409ed310f53fc1d05` |
+| `07.png` | `8f7a9cab1129c9588bc41776857627756f9a620c0c836902e7feb8eb20f4fe0d` |
+| `08.png` | `506a1c6635e5ab2680c1969256f18116b70096e1e77b2508b47df7b1988390e2` |
+| `09.png` | `33f030caaeb9987fbee29508d7f0adf0d0a4cfc2b734925fd59f7fef551788a3` |
+| `10.png` | `698cdfb8da0cc08de564f2bb84b6166edbdccb68f011178ec510803ca17f91e8` |
+| `11.png` | `37784634caf473436019f5d5f151b45f9a54b0ce47dfe839dcf6eb316f445f1f` |
+| `12.png` | `b78b5ca480cd518b8853bf7acbf4eac10ad67c450df26fcfa5d53fecf8a1aef6` |
+| `13.png` | `c34b698e9b58f1d7c5e81391cf4f7f9389a034ccf7c5b3f21270e38bdc067ac7` |
+| `14.png` | `2ead68bc5c6978681fec83f9b5e555eec54db83c4bab5aaa85b8290bef0b93d0` |
+| `15.png` | `ad019a1b5a2aaaad1bca0c42be3df50cba90b46a21c7ab3e7a693ef0f80f525f` |
+| `16.png` | `f98e4ba4dfbf8c2cea7cb25534ff195b90cd1034bf3aa2f17aeb9c3b1ec446f9` |
+| `17.png` | `e35a2637e77723e0fb93a6dcba69f03a9bccefd4ebdc2bf078e4dcb2551de9f7` |
+| `18.png` | `55661396188332d81893774eec075c25bccfe1d5f06e57be368d85e0acdb5ec8` |
+| `19.png` | `49a8888e7ca35be30aba366cfc28287c26254266fb99b46d4d4f75d69bee85ae` |
+
+

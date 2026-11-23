@@ -1,0 +1,520 @@
+{
+  "package": "orc_extraction",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "orc_critic",
+      "models": [
+        {
+          "id": "bld_orc_coal_mine_future_v0",
+          "evidence_sha256": "42221f9381b39c8c837ba8bdab38a3ee2ff42cb2b573d7554b28957b42f7c8f1",
+          "observations": "The roofed white headframe and blue engine shed read as advanced mining equipment. Spoil and the bin contents are pale rocks just like ordinary ore; the tiny drum is the only readable clan cue on the gate. Serialized LOD counts 1036/667/302 passed.",
+          "scores": {
+            "silhouette": 82,
+            "identity": 83,
+            "construction": 92,
+            "charm": 90,
+            "colour": 83,
+            "technical": 99
+          },
+          "defects": [
+            "Expose a substantial outward-curving tusk pair beyond the gate or hoist silhouette and a broad clan-painted crosspiece visible at 64 pixels. Current door tips are nearly buried in the lintel.",
+            "Replace the pale rubble/bin contents with a full coal-dark fractured stockpile and a visible loading bunker or chute that distinguishes this mine from the ordinary quarry ore pile in every age."
+          ]
+        },
+        {
+          "id": "bld_orc_coal_mine_industrial_v0",
+          "evidence_sha256": "d536db7cb89928fc908ba95c6bb200f008072c23edc52aa8fe5560bf86ff0f22",
+          "observations": "The winding frame angles over a brick or plastered adit, with warm Renaissance and darker Industrial machinery. The beige/grey stockpile beside the small bin doesn't read as coal. Both horn tips are buried behind the straight portal. Serialized LOD counts 1008/639/274 passed.",
+          "scores": {
+            "silhouette": 82,
+            "identity": 83,
+            "construction": 92,
+            "charm": 90,
+            "colour": 83,
+            "technical": 99
+          },
+          "defects": [
+            "Expose a substantial outward-curving tusk pair beyond the gate or hoist silhouette and a broad clan-painted crosspiece visible at 64 pixels. Current door tips are nearly buried in the lintel.",
+            "Replace the pale rubble/bin contents with a full coal-dark fractured stockpile and a visible loading bunker or chute that distinguishes this mine from the ordinary quarry ore pile in every age."
+          ]
+        },
+        {
+          "id": "bld_orc_gold_mine_ancient_v0",
+          "evidence_sha256": "7a112bc5887c1facf1a62eea58fa8313fa0c3359492009edb730233eb642ec6b",
+          "observations": "The golden stones and gilded winding wheel clearly identify ore, but the body is a straight brown timber lift with small red prop details; the putative tusks disappear at the door. Serialized LOD counts 1039/599/272 passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 85,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Expose a substantial outward-curving tusk pair beyond the gate or hoist silhouette and a broad clan-painted crosspiece visible at 64 pixels. Current door tips are nearly buried in the lintel."
+          ]
+        },
+        {
+          "id": "bld_orc_gold_mine_classical_v0",
+          "evidence_sha256": "649dcec513aac0ffabc4d39b5fb8979328538a186f91151aca792c0c92d4a00b",
+          "observations": "The ochre wheel, veined spoil and small gold lintel contrast nicely against three masonry rows. The roofed hoist loses its small pennant and its ivory gateway tips in the normal view, weakening Orc identity. Serialized LOD counts 1067/627/300 passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 85,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Expose a substantial outward-curving tusk pair beyond the gate or hoist silhouette and a broad clan-painted crosspiece visible at 64 pixels. Current door tips are nearly buried in the lintel."
+          ]
+        },
+        {
+          "id": "bld_orc_gold_mine_future_v0",
+          "evidence_sha256": "c68a6584236e26cf00ca786d9b9ff038aeb84ef82c65e761c5474e468028123e",
+          "observations": "Gold fragments remain visible against the pale spoil and the cone-roofed wheel shelter stays separate from the back engine shed. The gate has no clearly silhouetted clan carving above the gold keystone. Serialized LOD counts 1120/680/320 passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 85,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Expose a substantial outward-curving tusk pair beyond the gate or hoist silhouette and a broad clan-painted crosspiece visible at 64 pixels. Current door tips are nearly buried in the lintel."
+          ]
+        },
+        {
+          "id": "bld_orc_gold_mine_industrial_v0",
+          "evidence_sha256": "43d85588aeefcb7b0622935e532078ea83ecae42e9b492627051dea68232dee5",
+          "observations": "A gold pulley and nuggets at ground level signal the specialty against the brick and iron plant, but almost no Orc tusk silhouette breaks the rectilinear adit or the winding platform. Serialized LOD counts 1092/652/292 passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 85,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Expose a substantial outward-curving tusk pair beyond the gate or hoist silhouette and a broad clan-painted crosspiece visible at 64 pixels. Current door tips are nearly buried in the lintel."
+          ]
+        },
+        {
+          "id": "bld_orc_mine_ancient_v0",
+          "evidence_sha256": "46f04fdfd40ef8237b139cba934341b3791d56c1301c53fcf491775f1e48c3bb",
+          "observations": "Bronze and Iron have essentially the same wooden portal, timbers, rock heap and drum. The small color change on the hoist cap is hard to see at 64 pixels, as are the tiny door horns. Serialized LOD counts 898/553/254 passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 85,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Expose a substantial outward-curving tusk pair beyond the gate or hoist silhouette and a broad clan-painted crosspiece visible at 64 pixels. Current door tips are nearly buried in the lintel.",
+            "Use a broad age-reactive hoist collar or portal face to show Bronze copper versus Iron gray clearly at phone size."
+          ]
+        },
+        {
+          "id": "bld_orc_mine_classical_v0",
+          "evidence_sha256": "67eb6d6c8da305f1bfd141e86aa00898e83079c37d7e01a85e86317289cce44a",
+          "observations": "The stone portal and headframe form a convincing covered mine. Pale Classical, dark Medieval and warm Renaissance stonework is evident, but the clan signature is confined to a small red keystone and drum. Serialized LOD counts 926/581/282 passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 85,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Expose a substantial outward-curving tusk pair beyond the gate or hoist silhouette and a broad clan-painted crosspiece visible at 64 pixels. Current door tips are nearly buried in the lintel."
+          ]
+        },
+        {
+          "id": "bld_orc_mine_future_v0",
+          "evidence_sha256": "d18d11c39523467191a7b6624defe36720f06e75dfa2e15e76101b7d839e6e5b",
+          "observations": "The glass roof on the elevated hoist and the blue engine room make the age clear. The gateway tips merge into the white lintel and the small red drum rarely stands out at phone size. Serialized LOD counts 979/634/302 passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 85,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Expose a substantial outward-curving tusk pair beyond the gate or hoist silhouette and a broad clan-painted crosspiece visible at 64 pixels. Current door tips are nearly buried in the lintel."
+          ]
+        },
+        {
+          "id": "bld_orc_mine_industrial_v0",
+          "evidence_sha256": "40d4ccc8d35e2c4217b0ad554695f83aeb15757ec6ead5b2f03fa718c2f3348b",
+          "observations": "The brick adit and chimney on the engine room show the industrial process, and the wheel and rails explain how it works. The tiny tusks cannot be distinguished from the entrance molding. Serialized LOD counts 951/606/274 passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 85,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Expose a substantial outward-curving tusk pair beyond the gate or hoist silhouette and a broad clan-painted crosspiece visible at 64 pixels. Current door tips are nearly buried in the lintel."
+          ]
+        },
+        {
+          "id": "bld_orc_oil_well_future_v0",
+          "evidence_sha256": "731f7f44d5fe6cdec27c69f9b51b2535556219a814dc661025df53906127785c",
+          "observations": "The top beam, down rod and flywheel explain the pump motion in one silhouette. The horned tip and red paint have retained the Orc language; the free-standing tank changes from silver to gold. Serialized LOD counts 1036/635/314 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_oil_well_industrial_v0",
+          "evidence_sha256": "1e8c524e43f0c0449c9684545badb24da9b010187203f2f961cf113b4e4c3912",
+          "observations": "Heavy gray supporting legs form an A-frame below the balancing pivot. The red painted walking beam, flywheel and tusk create a strong industrial Orc silhouette with a clear front-side service route. Serialized LOD counts 1020/619/298 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_sawmill_future_v0",
+          "evidence_sha256": "6559e524177a5f974295ba9b653518abfbc8e25d59f1eb6a1cbbab75cf8ae9bc",
+          "observations": "The circular blade and wide table clear the glazed shelter, with three sized logs showing cut ends. The change from graphite to gold table machinery remains apparent at phone scale. Serialized LOD counts 996/588/316 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_sawmill_industrial_v0",
+          "evidence_sha256": "959374d575bb11fe69dbdfb246c50612d422ec0fb1b19d8b3efff9bcca3aa72e",
+          "observations": "The steel wheel sits in the saw table beside a distinct stack of longitudinal logs. Brick walls and black roofing lighten to Modern gray; the red painted cone and small pennant read on both. Serialized LOD counts 980/572/300 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_stone_quarry_ancient_v0",
+          "evidence_sha256": "c040e9edd8cdad61cc84e30dd7e5305e80068274198b79e9e92454587de87817",
+          "observations": "A timber-jib crane visibly lifts dressed stone above a stepped working face. The hut and crane stay tan in Dawn and Bronze and the change to the small loose block is too slight at 64 pixels. Serialized LOD counts 920/491/224 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 86,
+            "construction": 94,
+            "charm": 93,
+            "colour": 90,
+            "technical": 99
+          },
+          "defects": [
+            "Assign a substantial visible crane or hut surface an age-reactive finish that visibly distinguishes dark Dawn timber/hide from Bronze copper at 64 pixels."
+          ]
+        },
+        {
+          "id": "bld_orc_stone_quarry_classical_v0",
+          "evidence_sha256": "5e9ed3161d74b2e22bdb5b6c2a67bfb83ef27a829a51d41e1d0e183d6dd876d7",
+          "observations": "Offset cut blocks and the three-step working face read as a quarry. The braced lifting arm stands on a stone footing beside the small red drum and the rear masonry service lodge. Serialized LOD counts 920/491/224 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_stone_quarry_future_v0",
+          "evidence_sha256": "2db84653a8fe74678c9b8b0f3bbd42c73a382178371a29e05ff6014bc76af58c",
+          "observations": "The pale crane spans the cut slabs and cable; its horned tip and drum echo the glazed clan lodge. The hoist casing changes from gunmetal to gold across the two supported ages. Serialized LOD counts 956/517/250 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_stone_quarry_industrial_v0",
+          "evidence_sha256": "feff0586ff3b0793992c70831d3e135413b933ca50a8d98092d9872b061d23ca",
+          "observations": "A stout metal crane with winding box shows where it picks up the dressed stone slabs. The opening stays clear ahead of the dark industrial or lighter Modern worker's lodge. Serialized LOD counts 940/501/234 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_woodcutter_camp_ancient_v0",
+          "evidence_sha256": "b45392be7f1bafdb709429fb6ca28bd3e35f9cab57614470578646f4659dc87c",
+          "observations": "A pile of cut logs, an axe sunk in a stump and a pennant make this an identifiable wood yard. Dawn and Bronze shelters remain the same light tan in the largest exposed roof field. Serialized LOD counts 776/433/194 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 86,
+            "construction": 94,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Use a broad age-reactive canopy panel on the timber lodge so the Dawn and Bronze woodcutter camp can be distinguished at phone size."
+          ]
+        },
+        {
+          "id": "bld_orc_woodcutter_camp_classical_v0",
+          "evidence_sha256": "dfcd3327170fb8325e38a7628023fd70ea7b8ccc984bdd19794df44b678853e8",
+          "observations": "The staggered log ends and chopping stump frame the door. The horned lodge moves from terracotta over pale stone to dark masonry and back to a warmed wall for Renaissance. Serialized LOD counts 776/433/194 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_woodcutter_camp_future_v0",
+          "evidence_sha256": "a180382c9a3acc858dbe844ad64382c813b05126e53973eeebb5fca5839aba1e",
+          "observations": "Visible growth rings identify the three stacked logs and a separate axe stands in its chopping block. The bright hut contrasts against the glass tank and gold/silver tool head as the age shifts. Serialized LOD counts 884/503/250 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "ddf0b961e05bfb4d11d03ab1d4a65bd9569eb496a09d40bfb0e8fdfd6abc8986",
+          "observations": "The jutting axe handle and cut log ends form two distinct groups outside the industrial timber office. The cap, facade and blue window shift visibly toward lighter steel and concrete in Modern. Serialized LOD counts 868/487/234 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "mill_critic",
+      "models": [
+        {
+          "id": "bld_orc_coal_mine_future_v0",
+          "evidence_sha256": "7cdc63a1c72a5d68f457213713e9418d9107ddba982ade198184232e065dfb89",
+          "observations": "The inclined chute and raised hopper clearly identify coal handling at phone scale. The dark faceted load stays visible in both ages while the blue roof and steel fittings shift to pale cyan and gold. Flared gate tusks and the high red deck are distinct on both sides of the frame. The enhanced validator passed all three serialized LODs (1092/713/345 triangles).",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_coal_mine_industrial_v0",
+          "evidence_sha256": "e140e4235cc96cade9c20d9836e2708469b701f808d17db943cfe6d6df15b51e",
+          "observations": "Dark coal fills the supported front hopper and lies piled behind it. Its sloping chute reads in all three ages. Curved ivory gate horns and the red wheel deck contrast against the iron frame, pale modern cladding and bronze-colored Renaissance fittings. The enhanced validator passed all three serialized LODs (1064/685/317 triangles).",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_gold_mine_ancient_v0",
+          "evidence_sha256": "f0f3a936edf14af6ff16d628c45c705da9cb10a4aa3707974c590f51107beb83",
+          "observations": "Bright gold on the exposed ore echoes the wheel rim and the doorway keystone. The large tusks trace the outside of the timber portal, and the red raised wheel bed and side drum remain visible even in the smaller view. The enhanced validator passed all three serialized LODs (1039/599/272 triangles).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_gold_mine_classical_v0",
+          "evidence_sha256": "c33c81c68e711b847ddb9ea4d3efe6a1f9d9c99fe511e359139d864f2372a3bd",
+          "observations": "The canopied, four-legged headframe reads above a gold-seamed stockpile. The red wheel bed is visible beneath the cap; the curved entrance tusks stand against the background in Classical, Medieval and Renaissance. The pale, gray and warm stone doorway shades separate the three age rows. The enhanced validator passed all three serialized LODs (1067/627/300 triangles).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_gold_mine_future_v0",
+          "evidence_sha256": "6f391e7bf5e7fe4c7029c800b8cc1bcf422c556584f3feb10a64ef5a546c7af8",
+          "observations": "Exposed gold patches, a golden wheel rim and a gold portal keystone distinguish the mine from a plain stone working. The side building shifts from steel blue to gold trim. The pale paired tusks and red platform remain readable against the thin frame. The enhanced validator passed all three serialized LODs (1120/680/320 triangles).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_gold_mine_industrial_v0",
+          "evidence_sha256": "56ce90b1cc774e04fe418006becf18701ab497e09b193af8b1d146889e09045b",
+          "observations": "The tall open dark frame rises above the brick mine entry; exposed gold ore and the gold wheel mark the output. The expanded curved horns have a clear outline. The solid red winding deck stays prominent in the Industrial and lighter Modern rendering. The enhanced validator passed all three serialized LODs (1092/652/292 triangles).",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_mine_ancient_v0",
+          "evidence_sha256": "4f7089f070d5247d0770d84d635b63b0db42d755129c2cc8173b3de5f89ed7a8",
+          "observations": "A broad winding drum inside the wooden frame changes from copper to gray iron in the two phone previews. The new tusks project past the portal, clear of the rails, and the pennant, red wheel bed and yard drum tie the mechanism to the camp. The enhanced validator passed all three serialized LODs (934/577/266 triangles).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_mine_classical_v0",
+          "evidence_sha256": "ebeea0761d156dfe354052e08fe18236d75a59c96f41b2e342c1096aeab2e5ce",
+          "observations": "The visible red wheel bed and tall tusks on both sides of the portal carry the clan motif. The triangularly braced headframe, stone portal and short ground rails form a legible mine. Classical, Medieval and Renaissance masonry shifts from light to dark gray and then to warm cream. The enhanced validator passed all three serialized LODs (926/581/282 triangles).",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_mine_future_v0",
+          "evidence_sha256": "c744c227aaefef7b6d5c3f8339fdd1d125e3d08bb30452e1ccc2f4beaa518995",
+          "observations": "A sloped blue roof shelters the winding wheel, and a separate equipment house stands behind the spoil. The gold Ascension roof trim separates it from the cool Information finish. The tusks project outward distinctly beyond the pale portal in both views. The enhanced validator passed all three serialized LODs (979/634/302 triangles).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_mine_industrial_v0",
+          "evidence_sha256": "ccc035e12e33bd340f6acb6593e89bbbcb13ca3ecd9494e61dcb61652ebbd396",
+          "observations": "The headframe, side chimney shed and short rail line remain distinct at 64 pixels. A red platform frames the black wheel, and the large ivory tusks make the gate legible above the rails in both the red-brick and paler Modern finish. The enhanced validator passed all three serialized LODs (951/606/274 triangles).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_stone_quarry_ancient_v0",
+          "evidence_sha256": "2ca99e6bd66d88ebeb71845436188b8012bbf55eea41b7d943086579d022923f",
+          "observations": "The long braced jib, cable and extracted blocks read as a quarry. The front portion of the lodge canopy is visible through the crane frame and changes from dark hide to copper to gray at phone scale. Its red gore, small drum and hooked tip are clear in the larger views. The enhanced validator passed all three serialized LODs (920/491/224 triangles).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_woodcutter_camp_ancient_v0",
+          "evidence_sha256": "bec63f9ce237d053392cc3d57de0695b2998496d0e3955bdb016b8e61ab9e77e",
+          "observations": "Round-cut stacked trunks flank the tent and an axe stands in the chopping stump. The substantial canopy panels shift from dark brown to copper and then cool gray; the pennant and red gores hold their contrast in each thumbnail. The enhanced validator passed all three serialized LODs (776/433/194 triangles).",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 96,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

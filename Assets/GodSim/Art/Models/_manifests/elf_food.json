@@ -1,0 +1,892 @@
+[
+ {
+  "id": "bld_elf_farm_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "Farm",
+  "race": "elf",
+  "ages": [
+   "bronze",
+   "iron",
+   "dawn"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1420,
+  "lod_triangles": [
+   1420,
+   460,
+   191
+  ],
+  "bounds": [
+   [
+    -1.4617787599563599,
+    0.0,
+    -1.4321480989456177
+   ],
+   [
+    1.4617787599563599,
+    1.134652853012085,
+    1.4321480989456177
+   ]
+  ],
+  "bytes": 203600,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_farm_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_farm_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_farm_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_farm_ancient_v0__iron.png",
+   "dawn": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_farm_ancient_v0__dawn.png"
+  }
+ },
+ {
+  "id": "bld_elf_farm_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "Farm",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1420,
+  "lod_triangles": [
+   1420,
+   460,
+   191
+  ],
+  "bounds": [
+   [
+    -1.4617787599563599,
+    0.0,
+    -1.4321480989456177
+   ],
+   [
+    1.4617787599563599,
+    1.2280272245407104,
+    1.4321480989456177
+   ]
+  ],
+  "bytes": 203236,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_farm_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_farm_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_farm_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_farm_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_farm_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_farm_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "Farm",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1424,
+  "lod_triangles": [
+   1424,
+   544,
+   216
+  ],
+  "bounds": [
+   [
+    -1.4617787599563599,
+    0.0,
+    -1.4321480989456177
+   ],
+   [
+    1.4617787599563599,
+    1.4147758483886719,
+    1.4321480989456177
+   ]
+  ],
+  "bytes": 215896,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_farm_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_farm_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_farm_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_farm_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_farm_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "Farm",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1262,
+  "lod_triangles": [
+   1262,
+   474,
+   187
+  ],
+  "bounds": [
+   [
+    -1.4617787599563599,
+    0.0,
+    -1.4321480989456177
+   ],
+   [
+    1.4617787599563599,
+    1.3214014768600464,
+    1.4321480989456177
+   ]
+  ],
+  "bytes": 190744,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_farm_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_farm_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_farm_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_farm_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_fishing_hut_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "FishingHut",
+  "race": "elf",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 815,
+  "lod_triangles": [
+   815,
+   506,
+   221
+  ],
+  "bounds": [
+   [
+    -0.44248291850090027,
+    0.0,
+    -0.4309999942779541
+   ],
+   [
+    0.4074999988079071,
+    0.673590898513794,
+    0.41216588020324707
+   ]
+  ],
+  "bytes": 144420,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_fishing_hut_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_fishing_hut_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "FishingHut",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 815,
+  "lod_triangles": [
+   815,
+   506,
+   221
+  ],
+  "bounds": [
+   [
+    -0.44248291850090027,
+    0.0,
+    -0.4309999942779541
+   ],
+   [
+    0.4074999988079071,
+    0.7064620852470398,
+    0.41216588020324707
+   ]
+  ],
+  "bytes": 144312,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_fishing_hut_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_fishing_hut_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "FishingHut",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 897,
+  "lod_triangles": [
+   897,
+   528,
+   234
+  ],
+  "bounds": [
+   [
+    -0.44248291850090027,
+    0.0,
+    -0.4309999942779541
+   ],
+   [
+    0.4074999988079071,
+    0.7722045183181763,
+    0.41216588020324707
+   ]
+  ],
+  "bytes": 153476,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_fishing_hut_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_fishing_hut_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "FishingHut",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 897,
+  "lod_triangles": [
+   897,
+   528,
+   234
+  ],
+  "bounds": [
+   [
+    -0.44248291850090027,
+    0.0,
+    -0.4309999942779541
+   ],
+   [
+    0.4074999988079071,
+    0.7393332719802856,
+    0.41216588020324707
+   ]
+  ],
+  "bytes": 153480,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_fishing_hut_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_gatherer_hut_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "GathererHut",
+  "race": "elf",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 980,
+  "lod_triangles": [
+   980,
+   556,
+   175
+  ],
+  "bounds": [
+   [
+    -0.3638891279697418,
+    -0.00035797766759060323,
+    -0.37119314074516296
+   ],
+   [
+    0.32120591402053833,
+    0.7629793882369995,
+    0.42149001359939575
+   ]
+  ],
+  "bytes": 155200,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_gatherer_hut_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_gatherer_hut_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_gatherer_hut_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_gatherer_hut_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_gatherer_hut_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_hunting_lodge_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "HuntingLodge",
+  "race": "elf",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 864,
+  "lod_triangles": [
+   864,
+   530,
+   256
+  ],
+  "bounds": [
+   [
+    -0.3638891279697418,
+    0.0,
+    -0.4066716134548187
+   ],
+   [
+    0.3642915189266205,
+    0.7629793882369995,
+    0.42149001359939575
+   ]
+  ],
+  "bytes": 160116,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_hunting_lodge_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_hunting_lodge_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_hunting_lodge_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_hunting_lodge_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_hunting_lodge_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_hunting_lodge_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "HuntingLodge",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 864,
+  "lod_triangles": [
+   864,
+   530,
+   256
+  ],
+  "bounds": [
+   [
+    -0.3638891279697418,
+    0.0,
+    -0.4066716134548187
+   ],
+   [
+    0.3642915189266205,
+    0.9437097311019897,
+    0.42149001359939575
+   ]
+  ],
+  "bytes": 160184,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_hunting_lodge_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_hunting_lodge_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_hunting_lodge_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_hunting_lodge_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_elf_hydroponics_tower_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "HydroponicsTower",
+  "race": "elf",
+  "ages": [
+   "ascension",
+   "information"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1446,
+  "lod_triangles": [
+   1446,
+   622,
+   273
+  ],
+  "bounds": [
+   [
+    -0.7039271593093872,
+    0.0,
+    -0.7039271593093872
+   ],
+   [
+    0.7039271593093872,
+    2.4504001140594482,
+    0.7039271593093872
+   ]
+  ],
+  "bytes": 226064,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_hydroponics_tower_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_hydroponics_tower_future_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_hydroponics_tower_future_v0.png",
+   "information": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_hydroponics_tower_future_v0__information.png"
+  }
+ },
+ {
+  "id": "bld_elf_industrial_farm_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "IndustrialFarm",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1496,
+  "lod_triangles": [
+   1496,
+   858,
+   240
+  ],
+  "bounds": [
+   [
+    -1.4617787599563599,
+    0.0,
+    -1.4222712516784668
+   ],
+   [
+    1.4617787599563599,
+    1.2405096292495728,
+    1.4222712516784668
+   ]
+  ],
+  "bytes": 237012,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_industrial_farm_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_industrial_farm_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_industrial_farm_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_industrial_farm_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_industrial_farm_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "IndustrialFarm",
+  "race": "elf",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1440,
+  "lod_triangles": [
+   1440,
+   824,
+   218
+  ],
+  "bounds": [
+   [
+    -1.4617787599563599,
+    0.0,
+    -1.4222712516784668
+   ],
+   [
+    1.4617787599563599,
+    0.9553976655006409,
+    1.4222712516784668
+   ]
+  ],
+  "bytes": 225648,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_industrial_farm_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_industrial_farm_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_industrial_farm_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_mill_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "Mill",
+  "race": "elf",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 922,
+  "lod_triangles": [
+   922,
+   552,
+   176
+  ],
+  "bounds": [
+   [
+    -0.6686716675758362,
+    0.0,
+    -0.4749999940395355
+   ],
+   [
+    0.6992059350013733,
+    1.674920678138733,
+    0.6520000100135803
+   ]
+  ],
+  "bytes": 155000,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_mill_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_mill_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_mill_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_mill_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_mill_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "Mill",
+  "race": "elf",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1428,
+  "lod_triangles": [
+   1428,
+   800,
+   264
+  ],
+  "bounds": [
+   [
+    -0.7723515033721924,
+    0.0,
+    -0.4749999940395355
+   ],
+   [
+    0.6992059350013733,
+    1.7641681432724,
+    0.6520000100135803
+   ]
+  ],
+  "bytes": 234980,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_mill_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_mill_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_mill_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_pasture_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "Pasture",
+  "race": "elf",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1410,
+  "lod_triangles": [
+   1410,
+   824,
+   397
+  ],
+  "bounds": [
+   [
+    -1.4222712516784668,
+    0.0,
+    -1.3827636241912842
+   ],
+   [
+    1.4222712516784668,
+    1.0256280899047852,
+    1.3827636241912842
+   ]
+  ],
+  "bytes": 248252,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_pasture_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_pasture_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_pasture_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_pasture_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_pasture_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "Pasture",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1364,
+  "lod_triangles": [
+   1364,
+   796,
+   381
+  ],
+  "bounds": [
+   [
+    -1.4222712516784668,
+    0.0,
+    -1.3827636241912842
+   ],
+   [
+    1.4222712516784668,
+    1.159898281097412,
+    1.3827636241912842
+   ]
+  ],
+  "bytes": 243128,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_pasture_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_pasture_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_pasture_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_pasture_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_pasture_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_pasture_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "Pasture",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1434,
+  "lod_triangles": [
+   1434,
+   842,
+   406
+  ],
+  "bounds": [
+   [
+    -1.4222712516784668,
+    0.0,
+    -1.3827636241912842
+   ],
+   [
+    1.4222712516784668,
+    1.4284385442733765,
+    1.3827636241912842
+   ]
+  ],
+  "bytes": 254100,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_pasture_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_pasture_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_pasture_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_pasture_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_pasture_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Food",
+  "building_type": "Pasture",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1434,
+  "lod_triangles": [
+   1434,
+   842,
+   406
+  ],
+  "bounds": [
+   [
+    -1.4222712516784668,
+    0.0,
+    -1.3827636241912842
+   ],
+   [
+    1.4222712516784668,
+    1.294168472290039,
+    1.3827636241912842
+   ]
+  ],
+  "bytes": 254292,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_pasture_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_pasture_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_pasture_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_pasture_industrial_v0__modern.png"
+  }
+ }
+]

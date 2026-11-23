@@ -1,0 +1,1024 @@
+[
+ {
+  "id": "bld_elf_armory_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Armory",
+  "race": "elf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1276,
+  "lod_triangles": [
+   1276,
+   714,
+   302
+  ],
+  "bounds": [
+   [
+    -0.7024403214454651,
+    0.0,
+    -0.26971060037612915
+   ],
+   [
+    0.5034637451171875,
+    0.7817660570144653,
+    0.4410099983215332
+   ]
+  ],
+  "bytes": 215836,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_armory_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_armory_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Armory",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1276,
+  "lod_triangles": [
+   1276,
+   714,
+   302
+  ],
+  "bounds": [
+   [
+    -0.7024403214454651,
+    0.0,
+    -0.26971060037612915
+   ],
+   [
+    0.5034637451171875,
+    0.8447660207748413,
+    0.4410099983215332
+   ]
+  ],
+  "bytes": 215648,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_armory_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_armory_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Armory",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1438,
+  "lod_triangles": [
+   1438,
+   784,
+   331
+  ],
+  "bounds": [
+   [
+    -0.7024403214454651,
+    0.0,
+    -0.26971060037612915
+   ],
+   [
+    0.6899999976158142,
+    0.9707660675048828,
+    0.4410099983215332
+   ]
+  ],
+  "bytes": 241740,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_armory_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_armory_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Armory",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1438,
+  "lod_triangles": [
+   1438,
+   784,
+   331
+  ],
+  "bounds": [
+   [
+    -0.7024403214454651,
+    0.0,
+    -0.26971060037612915
+   ],
+   [
+    0.6899999976158142,
+    0.9077660441398621,
+    0.4410099983215332
+   ]
+  ],
+  "bytes": 241392,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_armory_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_blacksmith_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Blacksmith",
+  "race": "elf",
+  "ages": [
+   "iron",
+   "bronze"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1034,
+  "lod_triangles": [
+   1034,
+   582,
+   250
+  ],
+  "bounds": [
+   [
+    -0.680579662322998,
+    0.0,
+    -0.36684295535087585
+   ],
+   [
+    0.7064999938011169,
+    0.7857778072357178,
+    0.4362500011920929
+   ]
+  ],
+  "bytes": 176052,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_blacksmith_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_ancient_v0__bronze.png"
+  }
+ },
+ {
+  "id": "bld_elf_blacksmith_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Blacksmith",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1034,
+  "lod_triangles": [
+   1034,
+   582,
+   250
+  ],
+  "bounds": [
+   [
+    -0.680579662322998,
+    0.0,
+    -0.36684295535087585
+   ],
+   [
+    0.7064999938011169,
+    0.8458799719810486,
+    0.4362500011920929
+   ]
+  ],
+  "bytes": 176172,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_blacksmith_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_blacksmith_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Blacksmith",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1246,
+  "lod_triangles": [
+   1246,
+   734,
+   342
+  ],
+  "bounds": [
+   [
+    -0.680579662322998,
+    0.0,
+    -0.36684295535087585
+   ],
+   [
+    0.7064999938011169,
+    1.1384400129318237,
+    0.4362500011920929
+   ]
+  ],
+  "bytes": 209484,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_blacksmith_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_blacksmith_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Blacksmith",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1246,
+  "lod_triangles": [
+   1246,
+   734,
+   342
+  ],
+  "bounds": [
+   [
+    -0.680579662322998,
+    0.0,
+    -0.36684295535087585
+   ],
+   [
+    0.7064999938011169,
+    0.9921600222587585,
+    0.4362500011920929
+   ]
+  ],
+  "bytes": 209936,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_blacksmith_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_electronics_plant_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "ElectronicsPlant",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1176,
+  "lod_triangles": [
+   1176,
+   612,
+   201
+  ],
+  "bounds": [
+   [
+    -0.8931376934051514,
+    0.0,
+    -0.8700399994850159
+   ],
+   [
+    0.9399999976158142,
+    1.358680009841919,
+    0.865069568157196
+   ]
+  ],
+  "bytes": 188792,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_electronics_plant_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_electronics_plant_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_electronics_plant_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_electronics_plant_future_v0__ascension.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_electronics_plant_future_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_factory_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Factory",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 830,
+  "lod_triangles": [
+   830,
+   418,
+   200
+  ],
+  "bounds": [
+   [
+    -1.0984795093536377,
+    0.0,
+    -0.8862898945808411
+   ],
+   [
+    1.0984795093536377,
+    1.5204952955245972,
+    0.8933207988739014
+   ]
+  ],
+  "bytes": 136140,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_factory_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_factory_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_factory_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_factory_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_factory_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Factory",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 774,
+  "lod_triangles": [
+   774,
+   384,
+   178
+  ],
+  "bounds": [
+   [
+    -1.0984795093536377,
+    0.0,
+    -0.8862898945808411
+   ],
+   [
+    1.0984795093536377,
+    1.3619999885559082,
+    0.8933207988739014
+   ]
+  ],
+  "bytes": 124716,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_factory_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_factory_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_factory_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_factory_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_foundry_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Foundry",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1492,
+  "lod_triangles": [
+   1492,
+   910,
+   390
+  ],
+  "bounds": [
+   [
+    -1.0578213930130005,
+    0.0,
+    -0.8845000267028809
+   ],
+   [
+    0.8810955286026001,
+    1.8761999607086182,
+    0.833332359790802
+   ]
+  ],
+  "bytes": 258956,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_foundry_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_foundry_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_foundry_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_foundry_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_foundry_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Foundry",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1492,
+  "lod_triangles": [
+   1492,
+   910,
+   390
+  ],
+  "bounds": [
+   [
+    -1.0578213930130005,
+    0.0,
+    -0.8845000267028809
+   ],
+   [
+    0.8810955286026001,
+    1.6324000358581543,
+    0.833332359790802
+   ]
+  ],
+  "bytes": 258896,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_foundry_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_foundry_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_foundry_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_foundry_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_smelter_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Smelter",
+  "race": "elf",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1112,
+  "lod_triangles": [
+   1112,
+   658,
+   251
+  ],
+  "bounds": [
+   [
+    -0.8452220559120178,
+    0.0,
+    -0.3167147934436798
+   ],
+   [
+    0.6955000162124634,
+    0.9327999949455261,
+    0.379446417093277
+   ]
+  ],
+  "bytes": 186544,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_smelter_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_smelter_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Smelter",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1112,
+  "lod_triangles": [
+   1112,
+   658,
+   251
+  ],
+  "bounds": [
+   [
+    -0.8452220559120178,
+    0.0,
+    -0.3167147934436798
+   ],
+   [
+    0.6955000162124634,
+    1.1023999452590942,
+    0.379446417093277
+   ]
+  ],
+  "bytes": 186376,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_smelter_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_smelter_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Smelter",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1202,
+  "lod_triangles": [
+   1202,
+   714,
+   286
+  ],
+  "bounds": [
+   [
+    -0.8452220559120178,
+    0.0,
+    -0.3167147934436798
+   ],
+   [
+    0.6955000162124634,
+    1.2932000160217285,
+    0.379446417093277
+   ]
+  ],
+  "bytes": 204020,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_smelter_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_smelter_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Smelter",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1178,
+  "lod_triangles": [
+   1178,
+   706,
+   278
+  ],
+  "bounds": [
+   [
+    -0.8452220559120178,
+    0.0,
+    -0.3167147934436798
+   ],
+   [
+    0.6955000162124634,
+    1.229599952697754,
+    0.379446417093277
+   ]
+  ],
+  "bytes": 200548,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_smelter_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_weaver_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Weaver",
+  "race": "elf",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 903,
+  "lod_triangles": [
+   903,
+   543,
+   219
+  ],
+  "bounds": [
+   [
+    -0.35474610328674316,
+    0.0,
+    -0.2985900044441223
+   ],
+   [
+    0.35912591218948364,
+    0.7456300854682922,
+    0.42621999979019165
+   ]
+  ],
+  "bytes": 155708,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_weaver_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_weaver_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Weaver",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1045,
+  "lod_triangles": [
+   1045,
+   647,
+   280
+  ],
+  "bounds": [
+   [
+    -0.35474610328674316,
+    0.0,
+    -0.2985900044441223
+   ],
+   [
+    0.41499999165534973,
+    0.7996547222137451,
+    0.42621999979019165
+   ]
+  ],
+  "bytes": 177448,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_weaver_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_weaver_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Weaver",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1069,
+  "lod_triangles": [
+   1069,
+   655,
+   288
+  ],
+  "bounds": [
+   [
+    -0.35474610328674316,
+    0.0,
+    -0.2985900044441223
+   ],
+   [
+    0.43700000643730164,
+    0.9077039361000061,
+    0.42621999979019165
+   ]
+  ],
+  "bytes": 181992,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_weaver_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_weaver_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Weaver",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1045,
+  "lod_triangles": [
+   1045,
+   647,
+   280
+  ],
+  "bounds": [
+   [
+    -0.35474610328674316,
+    0.0,
+    -0.2985900044441223
+   ],
+   [
+    0.4259999990463257,
+    0.853679358959198,
+    0.42621999979019165
+   ]
+  ],
+  "bytes": 177524,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_weaver_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_workshop_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Workshop",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1088,
+  "lod_triangles": [
+   1088,
+   658,
+   263
+  ],
+  "bounds": [
+   [
+    -0.6982467770576477,
+    0.0,
+    -0.526820719242096
+   ],
+   [
+    0.6640355587005615,
+    1.0445396900177002,
+    0.6563299894332886
+   ]
+  ],
+  "bytes": 176096,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_workshop_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_workshop_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_workshop_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_workshop_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_workshop_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_workshop_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Industry",
+  "building_type": "Workshop",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1156,
+  "lod_triangles": [
+   1156,
+   702,
+   289
+  ],
+  "bounds": [
+   [
+    -0.6982467770576477,
+    0.0,
+    -0.526820719242096
+   ],
+   [
+    0.6640355587005615,
+    1.1375397443771362,
+    0.6563299894332886
+   ]
+  ],
+  "bytes": 185680,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_workshop_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_workshop_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_workshop_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_workshop_industrial_v0__modern.png"
+  }
+ }
+]

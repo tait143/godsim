@@ -1,0 +1,254 @@
+[
+ {
+  "id": "bld_orc_house_classical_medieval_v0",
+  "kind": "house",
+  "category": "Buildings/Orc/HousesClassical",
+  "building_type": "House",
+  "race": "orc",
+  "ages": [
+   "medieval"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 648,
+  "lod_triangles": [
+   648,
+   418,
+   164
+  ],
+  "bounds": [
+   [
+    -0.3889999985694885,
+    0.0,
+    -0.43923962116241455
+   ],
+   [
+    0.35499998927116394,
+    0.9127200245857239,
+    0.46564990282058716
+   ]
+  ],
+  "bytes": 116240,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesClassical/bld_orc_house_classical_medieval_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/HousesClassical/bld_orc_house_classical_medieval_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/HousesClassical/bld_orc_house_classical_medieval_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_house_classical_medieval_v1",
+  "kind": "house",
+  "category": "Buildings/Orc/HousesClassical",
+  "building_type": "House",
+  "race": "orc",
+  "ages": [
+   "medieval"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 648,
+  "lod_triangles": [
+   648,
+   418,
+   164
+  ],
+  "bounds": [
+   [
+    -0.4471331834793091,
+    0.0,
+    -0.43923962116241455
+   ],
+   [
+    0.4796499013900757,
+    0.8277199864387512,
+    0.3959999978542328
+   ]
+  ],
+  "bytes": 116304,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesClassical/bld_orc_house_classical_medieval_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/HousesClassical/bld_orc_house_classical_medieval_v1.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/HousesClassical/bld_orc_house_classical_medieval_v1.png"
+  }
+ },
+ {
+  "id": "bld_orc_house_classical_renaissance_v0",
+  "kind": "house",
+  "category": "Buildings/Orc/HousesClassical",
+  "building_type": "House",
+  "race": "orc",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 486,
+  "lod_triangles": [
+   486,
+   290,
+   144
+  ],
+  "bounds": [
+   [
+    -0.3840000033378601,
+    0.0,
+    -0.4382198750972748
+   ],
+   [
+    0.3709999918937683,
+    0.8199999928474426,
+    0.414000004529953
+   ]
+  ],
+  "bytes": 84612,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesClassical/bld_orc_house_classical_renaissance_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/HousesClassical/bld_orc_house_classical_renaissance_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/HousesClassical/bld_orc_house_classical_renaissance_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_house_classical_renaissance_v1",
+  "kind": "house",
+  "category": "Buildings/Orc/HousesClassical",
+  "building_type": "House",
+  "race": "orc",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 506,
+  "lod_triangles": [
+   506,
+   310,
+   144
+  ],
+  "bounds": [
+   [
+    -0.36899998784065247,
+    0.0,
+    -0.4382198750972748
+   ],
+   [
+    0.44200000166893005,
+    0.7820000052452087,
+    0.3580000102519989
+   ]
+  ],
+  "bytes": 87676,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesClassical/bld_orc_house_classical_renaissance_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/HousesClassical/bld_orc_house_classical_renaissance_v1.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/HousesClassical/bld_orc_house_classical_renaissance_v1.png"
+  }
+ },
+ {
+  "id": "bld_orc_house_classical_v0",
+  "kind": "house",
+  "category": "Buildings/Orc/HousesClassical",
+  "building_type": "House",
+  "race": "orc",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 570,
+  "lod_triangles": [
+   570,
+   268,
+   132
+  ],
+  "bounds": [
+   [
+    -0.4320000112056732,
+    0.0,
+    -0.47575169801712036
+   ],
+   [
+    0.3959999978542328,
+    0.8447099924087524,
+    0.4399999976158142
+   ]
+  ],
+  "bytes": 89884,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesClassical/bld_orc_house_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/HousesClassical/bld_orc_house_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/HousesClassical/bld_orc_house_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_house_classical_v1",
+  "kind": "house",
+  "category": "Buildings/Orc/HousesClassical",
+  "building_type": "House",
+  "race": "orc",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 646,
+  "lod_triangles": [
+   646,
+   268,
+   132
+  ],
+  "bounds": [
+   [
+    -0.40400001406669617,
+    0.0,
+    -0.47575169801712036
+   ],
+   [
+    0.4359999895095825,
+    0.7521700263023376,
+    0.40400001406669617
+   ]
+  ],
+  "bytes": 96488,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesClassical/bld_orc_house_classical_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/HousesClassical/bld_orc_house_classical_v1.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/HousesClassical/bld_orc_house_classical_v1.png"
+  }
+ }
+]

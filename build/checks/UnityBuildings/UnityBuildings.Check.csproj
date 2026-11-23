@@ -14,6 +14,13 @@
   <ItemGroup>
     <Compile Include="../../../Assets/GodSim/Core/Contracts/**/*.cs" />
     <Compile Include="../../../Assets/GodSim/Unity/Runtime/Buildings/**/*.cs" />
-    <Compile Include="stubs/**/*.cs" />
+    <Compile Include="stubs/PeerTeamStubs.cs" />
+    <Compile Include="stubs/UnityEngineStubs.cs" Condition="'$(UnityManagedPath)' == ''" />
+  </ItemGroup>
+  <!-- Optionally compile the renderer AND importer against an installed Unity Editor without opening a project. -->
+  <ItemGroup Condition="'$(UnityManagedPath)' != ''">
+    <Compile Include="../../../Assets/GodSim/Editor/BuildingArtImporter.cs" />
+    <Reference Include="$(UnityManagedPath)/UnityEngine.dll" Private="false" />
+    <Reference Include="$(UnityManagedPath)/UnityEditor.dll" Private="false" />
   </ItemGroup>
 </Project>

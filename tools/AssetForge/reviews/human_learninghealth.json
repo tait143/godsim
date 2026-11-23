@@ -1,0 +1,650 @@
+{
+  "package": "human_learninghealth",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Builder session 10 independent commerce artist",
+      "models": [
+        {
+          "id": "bld_human_bathhouse_classical_v0",
+          "evidence_sha256": "54c397b99ffc91094229fea84f87aae634523bd37d5e13583e5f661d262dff0f",
+          "observations": "A tall ochre dome, furnace flue and circular pool read in all three age rows. The twin handrails and pitcher make the pool's scale legible. Binary LOD counts 841/490/208.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_bathhouse_future_v0",
+          "evidence_sha256": "65fe5304786433c3465b2b32ef07e49e874be043336576ea269c3082dafc4706",
+          "observations": "The blue main dome and smaller side dome frame a separate turquoise plunge. The gold edge in Ascension frames the upper chambers and the ladder stays distinct in front. Binary LOD counts 1011/552/224.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_bathhouse_industrial_v0",
+          "evidence_sha256": "9130b06652e4bc948d888524efa07cde07641fc01174d7439252eafecc2ec522",
+          "observations": "Slate cupola, brick boiler wing and tall masonry stack sit behind a blue pool. The Modern wall is lighter than the Industrial brick and the water remains distinct from both. Binary LOD counts 935/514/218.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_data_center_future_v0",
+          "evidence_sha256": "11c542c93c381c155018a143ac295d1e5e55215e14b60ed68aa7803cd4c2acba",
+          "observations": "Three separately stepped roof cooling banks, round fans and a low service entry define the computing hall. The banks stay distinct at LOD2; blue windows bracket the entrance. Binary LOD counts 681/450/178.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 93,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_herbalist_ancient_v0",
+          "evidence_sha256": "44cc21ed43d950d5379b3db10c8a73ea46a9238dd59ae536522942487ba291ee",
+          "observations": "A diagonal pestle crosses a deep mortar beside the planter and clay jar. The ochre, dark timber and straw roof rows preserve its cottage silhouette at thumbnail size. Binary LOD counts 1076/486/210.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_herbalist_classical_v0",
+          "evidence_sha256": "df247e1362ecf83bd417da5f50f3cffab61f937a2cd24d4ff8246b248c18063b",
+          "observations": "The pitched dispensary roof with a small flue anchors the yard. Bell-mouthed mortar, herb bed and jar read around the centered warm doorway, including under the dark Medieval roof. Binary LOD counts 1108/508/232.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_herbalist_future_v0",
+          "evidence_sha256": "9de6f5f399af28226f0f943852a81958bdf91ba29e168dfb3b84aa3d8b9d6fd3",
+          "observations": "The mortar flares clearly against a tall pale dispensary with a rooftop skylight. The plants and dark jar separate the workshop from a plain glass office. Binary LOD counts 1184/546/238.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_herbalist_industrial_v0",
+          "evidence_sha256": "fa50180294fa6bf07ba2731a7880dfc60700cdf95973ef846bbefc8e60be9d26",
+          "observations": "The lean annex and pitched shed form a lower silhouette behind the outdoor dispensing mortar. Plants remain legible in front of the brick and concrete versions. Binary LOD counts 1236/562/248.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_hospital_classical_v0",
+          "evidence_sha256": "15a6061bb3a4fb7c7f18e056ccefd7af9cd4700c9e5266153495032935b42a26",
+          "observations": "The red-roofed ward blocks flank a taller admission bay and visible blue-and-white emblem. The flue breaks the rear skyline. The emblem has overlapping outward faces. Binary LOD counts 850/422/198.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 91,
+            "colour": 93,
+            "technical": 95
+          },
+          "defects": [
+            "Fit the cross arms to the edges of the upright without overlapping ivory polygons. ivory/ivory near (-0.03228, 0.650054, -0.743) in LOD0, also present in LOD1 and LOD2."
+          ]
+        },
+        {
+          "id": "bld_human_hospital_future_v0",
+          "evidence_sha256": "8e666af6186defad027d303ccd6ac9ee3fd4d5282ffe4603cbe61b550fd9be03",
+          "observations": "A glazed rooftop light, pale ward roofs and a blue admissions canopy frame the larger blue-and-white mark. The white cross polygons overlap at their joints. Binary LOD counts 946/480/224.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 91,
+            "colour": 95,
+            "technical": 95
+          },
+          "defects": [
+            "Fit the cross arms to the edges of the upright without overlapping ivory polygons. ivory/ivory near (-0.03228, 0.850054, -0.743) in LOD0, also present in LOD1 and LOD2."
+          ]
+        },
+        {
+          "id": "bld_human_hospital_industrial_v0",
+          "evidence_sha256": "6eba8b902c8d0209d043d0421c0e7ebec5a45d527ad8800afef7c2f3fc2c6d92",
+          "observations": "The masonry wards and central ventilator retain a hospital frontage at phone size in both red brick and concrete. The enamel cross contains coincident ivory fragments. Binary LOD counts 836/418/194.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 95
+          },
+          "defects": [
+            "Fit the cross arms to the edges of the upright without overlapping ivory polygons. ivory/ivory near (-0.03228, 0.750054, -0.743) in LOD0, also present in LOD1 and LOD2."
+          ]
+        },
+        {
+          "id": "bld_human_library_classical_v0",
+          "evidence_sha256": "db8276f59965cdf861806e541f6f15b480c2b0060ade90b0783a32db06084525",
+          "observations": "The oversized open codex stays readable above the entry from Iron through Renaissance. Its black marks and gold binding separate it from the terracotta reading hall; its white halves overlap. Binary LOD counts 723/396/172.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 92,
+            "charm": 96,
+            "colour": 94,
+            "technical": 95
+          },
+          "defects": [
+            "Re-cut the inner edges of the two ivory book halves so the folded pages meet along a single crease. ivory/ivory near (0.000189, 0.705102, -0.554845) in LOD0, also present in LOD1 and LOD2."
+          ]
+        },
+        {
+          "id": "bld_human_library_future_v0",
+          "evidence_sha256": "c23b9d8c41a7330bab6cb6369103dd7f587188f4f0fd22007a5ccec7a8e90a93",
+          "observations": "The book portal reads distinctly against a taller glazed clerestory. The raised outer page edges make a convincing open shape; their inside edges share exposed area. Binary LOD counts 817/436/196.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 95,
+            "colour": 94,
+            "technical": 95
+          },
+          "defects": [
+            "Re-cut the inner edges of the two ivory book halves so the folded pages meet along a single crease. ivory/ivory near (0.000189, 0.705102, -0.554845) in LOD0, also present in LOD1 and LOD2."
+          ]
+        },
+        {
+          "id": "bld_human_library_industrial_v0",
+          "evidence_sha256": "2ce76193b9c52fc64124936a577759dbbc637588f056dd46e984278caea79961",
+          "observations": "The foreground folio and rear chimney form opposite ends of the silhouette. The dark roof and blue awning hold that contrast in the Modern row. Exposed ivory book faces overlap. Binary LOD counts 777/416/198.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 95
+          },
+          "defects": [
+            "Re-cut the inner edges of the two ivory book halves so the folded pages meet along a single crease. ivory/ivory near (0.000189, 0.705102, -0.554845) in LOD0, also present in LOD1 and LOD2."
+          ]
+        },
+        {
+          "id": "bld_human_medical_center_future_v0",
+          "evidence_sha256": "86d9c95bebcddc19233350afb69f6346299c404d5d7085f7ce92614ebf6e23de",
+          "observations": "The stepped diagnostic galleries stand firmly on the broad clinic. At 64 pixels the cross up under the top lip shrinks into a small dark mark. Two white sign patches intersect in each LOD. Binary LOD counts 1020/518/188.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 86,
+            "construction": 93,
+            "charm": 90,
+            "colour": 95,
+            "technical": 95
+          },
+          "defects": [
+            "Fit the cross arms to the edges of the upright without overlapping ivory polygons. ivory/ivory near (-0.1831, 1.509955, -0.082) in LOD0, also present in LOD1 and LOD2.",
+            "Enlarge and mount the full diagnostic emblem on an uninterrupted fascia so the cross can be read at 64 px."
+          ]
+        },
+        {
+          "id": "bld_human_observatory_classical_v0",
+          "evidence_sha256": "ebfad240a5ac02ac745204113e12c14b56a55c3aa324f7aed7f80410c27d6fec",
+          "observations": "Twin terracotta shutter leaves flank a visible telescope in an open slot. The rotating drum and small front entry read at all three distances. Binary LOD counts 801/454/189.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 93,
+            "construction": 95,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_observatory_future_v0",
+          "evidence_sha256": "3ea730c00b6a36b163da5822599ca2b543b039ce89db829ee9920d1a3baa4314",
+          "observations": "A cyan eyepiece projects through separately modeled blue dome shutters. The tower body and low entry make the viewing instrument identifiable at thumbnail size. Binary LOD counts 811/464/199.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_observatory_industrial_v0",
+          "evidence_sha256": "01e35f23b7dbf8c72e60cb79d6221087bf8f4ba1aaa6559196397bad77bef799",
+          "observations": "The slit and bronze lens stand clear of the charcoal shutters in both the red-brick and Modern rows. The entrance annex anchors the instrument tower. Binary LOD counts 801/454/189.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_printworks_classical_v0",
+          "evidence_sha256": "c40f20f16b986084cd54d0178ba4686d7330958511503606510b9e13a398fb39",
+          "observations": "A horizontal screw handle, timber press sides and the light sheet on its bed are visible beside a separate front door. The press frame survives the distance reduction. Binary LOD counts 536/278/160.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 95,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_printworks_future_v0",
+          "evidence_sha256": "38c9abbcb3fe94747677146c26476a85a785a9060d79bd3e44dd91f9b052d5cb",
+          "observations": "A pale roller is supported between the open steel press uprights in front of the raised clerestory. The Ascension roof turns gold without overwhelming the hand-sized fittings. Binary LOD counts 738/384/219.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_printworks_industrial_v0",
+          "evidence_sha256": "7e5782fe97b4f9d4e304702340b82db5e7eacc917bba5516e1506f9e61e4431e",
+          "observations": "The light printing cylinder contrasts with the brick workshop and pitched slate roof. The rear flue and ink pot give the powered press a different outline from the earlier screw press. Binary LOD counts 590/310/183.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_research_lab_future_v0",
+          "evidence_sha256": "71c44b6ced99fcf49246d3ae9671435f17551e21c9a47d152c59010f60c50c00",
+          "observations": "Twin glass cylinders with rounded turquoise caps dominate the low wing. The repeated unmarked cylinders resemble a tank farm at 64 pixels; its small connecting bars disappear against the main hall. Binary LOD counts 1063/622/268.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 86,
+            "construction": 93,
+            "charm": 88,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Replace one storage-like cylindrical cap with a framed observation or instrument chamber. Add a conspicuous scientific instrument or measuring profile that survives at 64 px."
+          ]
+        },
+        {
+          "id": "bld_human_research_lab_industrial_v0",
+          "evidence_sha256": "6f54c0e0788e46c7a6535b53ab8419cb1269928576924f5f4d2aa212e2b5551b",
+          "observations": "The paired glazed cylinders and dark domed caps read as storage vessels. The modern window strip and front canopy supply an entrance but give little visual evidence of scientific use. Binary LOD counts 883/526/210.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 86,
+            "construction": 93,
+            "charm": 88,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Replace one storage-like cylindrical cap with a framed observation or instrument chamber. Add a conspicuous scientific instrument or measuring profile that survives at 64 px."
+          ]
+        },
+        {
+          "id": "bld_human_scriptorium_ancient_v0",
+          "evidence_sha256": "fa64806f0edfc00bf6e50eae21baecc4899faf5798ea84cf6872bbfcccdceb0c",
+          "observations": "A pitched timber copying room shelters a tiny desk. The quill disappears into the light casement at 64 pixels; the folded sheets have overlapping inner faces. Binary LOD counts 571/322/168.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 91,
+            "construction": 89,
+            "charm": 88,
+            "colour": 92,
+            "technical": 95
+          },
+          "defects": [
+            "Re-cut the inner edges of the two ivory book halves so the folded pages meet along a single crease. ivory/ivory near (0.220088, 0.264234, -0.3285) in LOD0, also present in LOD1 and LOD2.",
+            "Enlarge and angle the feather into clear contrasting space, and seat the tilted book on the writing stand."
+          ]
+        },
+        {
+          "id": "bld_human_scriptorium_classical_v0",
+          "evidence_sha256": "05699df88743e81ab5bf0602ed9f2f4f154c95a94ba37c0daceb67f193f35792",
+          "observations": "The exterior copy desk is visible in front of the warm-windowed hall, but its pale feather blends into the vertical casements. The page halves overlap close to the crease. Binary LOD counts 603/344/190.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 92,
+            "construction": 89,
+            "charm": 89,
+            "colour": 92,
+            "technical": 95
+          },
+          "defects": [
+            "Re-cut the inner edges of the two ivory book halves so the folded pages meet along a single crease. ivory/ivory near (0.220088, 0.264234, -0.3285) in LOD0, also present in LOD1 and LOD2.",
+            "Enlarge and angle the feather into clear contrasting space, and seat the tilted book on the writing stand."
+          ]
+        },
+        {
+          "id": "bld_human_scriptorium_future_v0",
+          "evidence_sha256": "c15b5fb29e55a30289209bfacb7edb3456421d865c712dc362aed63b3919ae0d",
+          "observations": "The narrow glass writing room has a blue skylight and bright entrance awning. The low desk stays distinct but the quill is hard to identify against the facade at phone size. Binary LOD counts 679/382/196.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 92,
+            "construction": 89,
+            "charm": 88,
+            "colour": 93,
+            "technical": 95
+          },
+          "defects": [
+            "Re-cut the inner edges of the two ivory book halves so the folded pages meet along a single crease. ivory/ivory near (0.220088, 0.264234, -0.3285) in LOD0, also present in LOD1 and LOD2.",
+            "Enlarge and angle the feather into clear contrasting space, and seat the tilted book on the writing stand."
+          ]
+        },
+        {
+          "id": "bld_human_scriptorium_industrial_v0",
+          "evidence_sha256": "95e0c4dca75ea1852a88ac70ebfe29218d9d07d8962ca2df43d2b572a130d9f9",
+          "observations": "The clerestory gives the printing-era workspace a longer outline. The inkstand becomes a single fleck in front of a dark window and the overlapping open-book halves need a clean joint. Binary LOD counts 731/398/206.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 91,
+            "construction": 89,
+            "charm": 89,
+            "colour": 93,
+            "technical": 95
+          },
+          "defects": [
+            "Re-cut the inner edges of the two ivory book halves so the folded pages meet along a single crease. ivory/ivory near (0.220088, 0.264234, -0.3285) in LOD0, also present in LOD1 and LOD2.",
+            "Enlarge and angle the feather into clear contrasting space, and seat the tilted book on the writing stand."
+          ]
+        },
+        {
+          "id": "bld_human_university_classical_v0",
+          "evidence_sha256": "b4f0ed79d0253a595903e85642674c9c05fb214b7a3c8c144cab6771d7846acd",
+          "observations": "Two distinct teaching wings enclose a front court and bell tower. The bell, cap and blue pennant provide a center to both the terracotta and darker Medieval rows. Binary LOD counts 836/424/188.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_university_future_v0",
+          "evidence_sha256": "4fe73a2533cb2b8b670d85a33eeb33f371a2735a3417cade059271b379916d36",
+          "observations": "The pale twin pavilions and tower frame a dark accessible court. Upper gallery, bright fittings and flag give the campus a common identity at all three levels of detail. Binary LOD counts 1046/550/276.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_university_industrial_v0",
+          "evidence_sha256": "d4e2f05de30240243c436a9439a6f1c6ca501f2476d3e7e655935d6ac68d6a9d",
+          "observations": "The double teaching wings and a stepped bell lantern remain readable across brick and concrete rows. The blue entrance awning marks the recessed courtyard doorway. Binary LOD counts 996/500/226.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Builder session 10 independent commerce artist",
+      "models": [
+        {
+          "id": "bld_human_hospital_classical_v0",
+          "evidence_sha256": "aede902e4cf2cadda4004571f3e05728a92a1f367ea12e4a65c9b41cbd575eef",
+          "observations": "The pale admissions cross has a crisp four-armed profile against the blue enamel under the terracotta roofs. Its joints are clean in all three LODs; the ward courts and flue still read. Reopened age previews at 224 and 64 px, and inspected serialized LODs at 80 px (850/422/198 triangles). Surface audit clear.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_hospital_future_v0",
+          "evidence_sha256": "a588f6766632676b7cda2a6d0e92199ca55dcd1b1b92f5805f75fd7deafed605",
+          "observations": "The enlarged cross on the tall admission bay remains visible under both the blue and gold roof palettes. The sign sits clear of the canopy, and both side wards keep their outline at LOD2. Reopened age previews at 224 and 64 px, and inspected serialized LODs at 80 px (946/480/224 triangles). Surface audit clear.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 95,
+            "charm": 91,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_hospital_industrial_v0",
+          "evidence_sha256": "2fdb031e72248138ba36c02e6aa5038249bb55db91f7ac81050eb562563bdd64",
+          "observations": "The light cross stands clear of the blue canopy and brick entrance pier. The lower-saturation Modern facade still provides sufficient contrast for the symbol and ward roof lantern. Reopened age previews at 224 and 64 px, and inspected serialized LODs at 80 px (836/418/194 triangles). Surface audit clear.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_library_classical_v0",
+          "evidence_sha256": "c849f98b40fef967dea88658c632cb2e37accdea929a561d2b298da35b9158d6",
+          "observations": "Ivory pages meet the spine cleanly and stand out against the book's dark cover. In all four age rows the codex is legible above the open-fronted stair, and the turret stays distinct in the distance. Reopened age previews at 224 and 64 px, and inspected serialized LODs at 80 px (733/406/182 triangles). Surface audit clear.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 96,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_library_future_v0",
+          "evidence_sha256": "d4817a2685b45231e044a314d47f0ec54e0eacc1d1fea4ac999693cef6675028",
+          "observations": "The book has two distinct raised page planes and a straight central binding. It stays visible beneath the stacked reading galleries in both ages and across the LOD chain. Reopened age previews at 224 and 64 px, and inspected serialized LODs at 80 px (827/446/206 triangles). Surface audit clear.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_library_industrial_v0",
+          "evidence_sha256": "e9342be86661e163b0942c5d639c50f5732cb8f298c622c21c4824268f0f6436",
+          "observations": "The ivory folio and bookbinding stand out against brick and steel at 64 px. The binding and pages stay in contact, with the step and low entry centered below. Reopened age previews at 224 and 64 px, and inspected serialized LODs at 80 px (787/426/208 triangles). Surface audit clear.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_medical_center_future_v0",
+          "evidence_sha256": "6fb78c43ee7a69d0ebcf6fca356394cf832431a53b84977933f2cdd7d8de47b7",
+          "observations": "The larger white cross and royal-blue disc now sit against a broad glazed tier above the canopy. The cross is recognizable at phone scale even as the upper gallery trims simplify. Reopened age previews at 224 and 64 px, and inspected serialized LODs at 80 px (1030/528/198 triangles). Surface audit clear.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 95,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_research_lab_future_v0",
+          "evidence_sha256": "cb98b46c36594e1bb9e65ed4358fee603ef3c4f1e5deb8e0fbcec1650ba3279b",
+          "observations": "A large angled microscope and broad sample stage replace the second vessel in the forecourt. Its focus wheel and stage remain separate silhouettes beside the taller glass housing, including at LOD2. Reopened age previews at 224 and 64 px, and inspected serialized LODs at 80 px (1101/684/350 triangles). Surface audit clear.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_research_lab_industrial_v0",
+          "evidence_sha256": "0c9bdffb0111631abcbd5a4461c1c1e0d79761d1be8d15c8238faeda37e84fc9",
+          "observations": "The ochre microscope tube, blue focusing wheel and light sample stage read immediately beside a single glazed chamber. Its support reaches the workplate in all three distances. Reopened age previews at 224 and 64 px, and inspected serialized LODs at 80 px (921/588/292 triangles). Surface audit clear.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_scriptorium_ancient_v0",
+          "evidence_sha256": "bbd03a8c8db4bef936a30b3cdcd4048434f3ccf037d7f0358fd698f862cf43e2",
+          "observations": "The larger diagonally placed feather catches the light beneath the brown roof. Its tip, ink pot and pale pages separate the copy desk from the wall at 64 px; the folio bears on the lectern. Reopened age previews at 224 and 64 px, and inspected serialized LODs at 80 px (615/350/180 triangles). Surface audit clear.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_scriptorium_classical_v0",
+          "evidence_sha256": "68e2c28bb7327421809ff996d0bf005f51ba078784914f2c5fe669ff16b82fbe",
+          "observations": "The projecting feather and straight folded sheet make a readable copying station against all three facade rows. The inkstand and folio are grounded on a substantial desk. Reopened age previews at 224 and 64 px, and inspected serialized LODs at 80 px (647/372/202 triangles). Surface audit clear.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_scriptorium_future_v0",
+          "evidence_sha256": "617f9386fc2b9930d5be960e342422a73b6e2195cfe4102a559392409b04c8ea",
+          "observations": "Even against pearl walls the dark outline and diagonal quill shaft distinguish the feather from the casements. The paired pages, lectern and blue-glass skylight survive the distance reduction. Reopened age previews at 224 and 64 px, and inspected serialized LODs at 80 px (723/410/208 triangles). Surface audit clear.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_scriptorium_industrial_v0",
+          "evidence_sha256": "59195df9f44bc0f4777d4a0cde43dd93d058dcf52f6195d72fdbd8a329a0693c",
+          "observations": "The broadened quill sits beside the lit pages under the clerestory and contrasts against both brick and concrete. The new folio joints and supporting lectern meet cleanly. Reopened age previews at 224 and 64 px, and inspected serialized LODs at 80 px (775/426/218 triangles). Surface audit clear.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

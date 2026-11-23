@@ -1,0 +1,752 @@
+[
+ {
+  "id": "bld_dwarf_arcology_future_v0",
+  "kind": "townhall",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Arcology",
+  "race": "dwarf",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1809,
+  "lod_triangles": [
+   1809,
+   1134,
+   342
+  ],
+  "bounds": [
+   [
+    -1.409999966621399,
+    0.0,
+    -1.347000002861023
+   ],
+   [
+    1.409999966621399,
+    2.7197368144989014,
+    1.3830000162124634
+   ]
+  ],
+  "bytes": 233556,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_arcology_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arcology_future_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arcology_future_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_arena_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Arena",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1236,
+  "lod_triangles": [
+   1236,
+   614,
+   214
+  ],
+  "bounds": [
+   [
+    -1.440000057220459,
+    0.0,
+    -1.3875000476837158
+   ],
+   [
+    1.440000057220459,
+    1.2944999933242798,
+    1.3875000476837158
+   ]
+  ],
+  "bytes": 168200,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_arena_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Arena",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1340,
+  "lod_triangles": [
+   1340,
+   694,
+   278
+  ],
+  "bounds": [
+   [
+    -1.440000057220459,
+    0.0,
+    -1.3875000476837158
+   ],
+   [
+    1.440000057220459,
+    1.405500054359436,
+    1.3875000476837158
+   ]
+  ],
+  "bytes": 189092,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_arena_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Arena",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1340,
+  "lod_triangles": [
+   1340,
+   694,
+   278
+  ],
+  "bounds": [
+   [
+    -1.440000057220459,
+    0.0,
+    -1.3875000476837158
+   ],
+   [
+    1.440000057220459,
+    1.3454999923706055,
+    1.3875000476837158
+   ]
+  ],
+  "bytes": 189516,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_campfire_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Campfire",
+  "race": "dwarf",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 618,
+  "lod_triangles": [
+   618,
+   383,
+   167
+  ],
+  "bounds": [
+   [
+    -0.4300000071525574,
+    0.0,
+    -0.4300000071525574
+   ],
+   [
+    0.4300000071525574,
+    0.43549999594688416,
+    0.4300000071525574
+   ]
+  ],
+  "bytes": 105956,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_campfire_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_campfire_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_campfire_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_campfire_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_campfire_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_campfire_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Campfire",
+  "race": "dwarf",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 574,
+  "lod_triangles": [
+   574,
+   363,
+   163
+  ],
+  "bounds": [
+   [
+    -0.4300000071525574,
+    0.0,
+    -0.4300000071525574
+   ],
+   [
+    0.4300000071525574,
+    0.4880000054836273,
+    0.4300000071525574
+   ]
+  ],
+  "bytes": 97920,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_campfire_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_campfire_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_campfire_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_forum_classical_v0",
+  "kind": "townhall",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Forum",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 960,
+  "lod_triangles": [
+   960,
+   524,
+   202
+  ],
+  "bounds": [
+   [
+    -1.402500033378601,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    1.402500033378601,
+    0.9470000267028809,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 117316,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_forum_future_v0",
+  "kind": "townhall",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Forum",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1016,
+  "lod_triangles": [
+   1016,
+   580,
+   226
+  ],
+  "bounds": [
+   [
+    -1.402500033378601,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    1.402500033378601,
+    1.1009999513626099,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 125800,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_forum_industrial_v0",
+  "kind": "townhall",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Forum",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 988,
+  "lod_triangles": [
+   988,
+   552,
+   214
+  ],
+  "bounds": [
+   [
+    -1.402500033378601,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    1.402500033378601,
+    0.9990000128746033,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 121556,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_stadium_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Stadium",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1020,
+  "lod_triangles": [
+   1020,
+   680,
+   280
+  ],
+  "bounds": [
+   [
+    -1.4325000047683716,
+    0.0,
+    -1.3305000066757202
+   ],
+   [
+    1.4325000047683716,
+    1.7699999809265137,
+    1.222499966621399
+   ]
+  ],
+  "bytes": 146920,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_stadium_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_stadium_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_stadium_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_stadium_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_stadium_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Stadium",
+  "race": "dwarf",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 976,
+  "lod_triangles": [
+   976,
+   636,
+   252
+  ],
+  "bounds": [
+   [
+    -1.4325000047683716,
+    0.0,
+    -1.3305000066757202
+   ],
+   [
+    1.4325000047683716,
+    1.1592072248458862,
+    1.222499966621399
+   ]
+  ],
+  "bytes": 138596,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_stadium_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_stadium_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_stadium_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_tavern_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Tavern",
+  "race": "dwarf",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 820,
+  "lod_triangles": [
+   820,
+   540,
+   183
+  ],
+  "bounds": [
+   [
+    -0.8899999856948853,
+    0.0,
+    -0.7645000219345093
+   ],
+   [
+    0.8899999856948853,
+    1.225000023841858,
+    0.824999988079071
+   ]
+  ],
+  "bytes": 105156,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_tavern_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Tavern",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 876,
+  "lod_triangles": [
+   876,
+   596,
+   207
+  ],
+  "bounds": [
+   [
+    -0.8899999856948853,
+    0.0,
+    -0.7645000219345093
+   ],
+   [
+    0.8899999856948853,
+    1.284999966621399,
+    0.824999988079071
+   ]
+  ],
+  "bytes": 113648,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_tavern_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Tavern",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 876,
+  "lod_triangles": [
+   876,
+   596,
+   207
+  ],
+  "bounds": [
+   [
+    -0.8899999856948853,
+    0.0,
+    -0.7645000219345093
+   ],
+   [
+    0.8899999856948853,
+    1.4149999618530273,
+    0.824999988079071
+   ]
+  ],
+  "bytes": 113592,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_theater_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Theater",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 946,
+  "lod_triangles": [
+   946,
+   426,
+   154
+  ],
+  "bounds": [
+   [
+    -0.9150000214576721,
+    0.0,
+    -0.8799999952316284
+   ],
+   [
+    0.9150000214576721,
+    1.062000036239624,
+    0.8799999952316284
+   ]
+  ],
+  "bytes": 118028,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_theater_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Theater",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1002,
+  "lod_triangles": [
+   1002,
+   482,
+   178
+  ],
+  "bounds": [
+   [
+    -0.9150000214576721,
+    0.0,
+    -0.8799999952316284
+   ],
+   [
+    0.9150000214576721,
+    1.3009999990463257,
+    0.8799999952316284
+   ]
+  ],
+  "bytes": 126320,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_theater_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/CultureCivic",
+  "building_type": "Theater",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1122,
+  "lod_triangles": [
+   1122,
+   510,
+   202
+  ],
+  "bounds": [
+   [
+    -0.9150000214576721,
+    0.0,
+    -0.8799999952316284
+   ],
+   [
+    0.9150000214576721,
+    1.1690000295639038,
+    0.8799999952316284
+   ]
+  ],
+  "bytes": 137984,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_industrial_v0__modern.png"
+  }
+ }
+]

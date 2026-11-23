@@ -1,0 +1,980 @@
+[
+ {
+  "id": "bld_elf_coal_mine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "CoalMine",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1399,
+  "lod_triangles": [
+   1399,
+   825,
+   396
+  ],
+  "bounds": [
+   [
+    -0.8040000200271606,
+    0.0,
+    -0.8600403666496277
+   ],
+   [
+    0.7463673949241638,
+    1.6629999876022339,
+    0.6420600414276123
+   ]
+  ],
+  "bytes": 235440,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_coal_mine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_coal_mine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_coal_mine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_coal_mine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_coal_mine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "CoalMine",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1399,
+  "lod_triangles": [
+   1399,
+   825,
+   396
+  ],
+  "bounds": [
+   [
+    -0.8040000200271606,
+    0.0,
+    -0.8600403666496277
+   ],
+   [
+    0.7463673949241638,
+    1.4930000305175781,
+    0.6420600414276123
+   ]
+  ],
+  "bytes": 235460,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_coal_mine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_coal_mine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_coal_mine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_coal_mine_industrial_v0__modern.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_coal_mine_industrial_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_gold_mine_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "GoldMine",
+  "race": "elf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1275,
+  "lod_triangles": [
+   1275,
+   797,
+   399
+  ],
+  "bounds": [
+   [
+    -0.7114371657371521,
+    0.0,
+    -0.8600403666496277
+   ],
+   [
+    0.6831896305084229,
+    0.9929999709129333,
+    0.6420600414276123
+   ]
+  ],
+  "bytes": 220996,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_gold_mine_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_gold_mine_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_gold_mine_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_gold_mine_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "GoldMine",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1275,
+  "lod_triangles": [
+   1275,
+   797,
+   399
+  ],
+  "bounds": [
+   [
+    -0.7114371657371521,
+    0.0,
+    -0.8600403666496277
+   ],
+   [
+    0.6831896305084229,
+    1.1629999876022339,
+    0.6420600414276123
+   ]
+  ],
+  "bytes": 221028,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_gold_mine_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_gold_mine_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_gold_mine_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_gold_mine_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_gold_mine_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_gold_mine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "GoldMine",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1447,
+  "lod_triangles": [
+   1447,
+   857,
+   428
+  ],
+  "bounds": [
+   [
+    -0.8040000200271606,
+    0.0,
+    -0.8600403666496277
+   ],
+   [
+    0.6831896305084229,
+    1.5230000019073486,
+    0.6420600414276123
+   ]
+  ],
+  "bytes": 245392,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_gold_mine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_gold_mine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_gold_mine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_gold_mine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_gold_mine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "GoldMine",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1447,
+  "lod_triangles": [
+   1447,
+   857,
+   428
+  ],
+  "bounds": [
+   [
+    -0.8040000200271606,
+    0.0,
+    -0.8600403666496277
+   ],
+   [
+    0.6831896305084229,
+    1.3530000448226929,
+    0.6420600414276123
+   ]
+  ],
+  "bytes": 245652,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_gold_mine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_gold_mine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_gold_mine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_gold_mine_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_mine_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "Mine",
+  "race": "elf",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1238,
+  "lod_triangles": [
+   1238,
+   789,
+   376
+  ],
+  "bounds": [
+   [
+    -0.7114371657371521,
+    0.0,
+    -0.8600403666496277
+   ],
+   [
+    0.628000020980835,
+    0.9929999709129333,
+    0.6420600414276123
+   ]
+  ],
+  "bytes": 218204,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_mine_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_mine_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_mine_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_mine_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_mine_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "Mine",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1238,
+  "lod_triangles": [
+   1238,
+   789,
+   376
+  ],
+  "bounds": [
+   [
+    -0.7114371657371521,
+    0.0,
+    -0.8600403666496277
+   ],
+   [
+    0.628000020980835,
+    1.1629999876022339,
+    0.6420600414276123
+   ]
+  ],
+  "bytes": 218292,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_mine_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_mine_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_mine_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_mine_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_mine_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_mine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "Mine",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1410,
+  "lod_triangles": [
+   1410,
+   849,
+   405
+  ],
+  "bounds": [
+   [
+    -0.8040000200271606,
+    0.0,
+    -0.8600403666496277
+   ],
+   [
+    0.628000020980835,
+    1.5230000019073486,
+    0.6420600414276123
+   ]
+  ],
+  "bytes": 242856,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_mine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_mine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_mine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_mine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_mine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "Mine",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1410,
+  "lod_triangles": [
+   1410,
+   849,
+   405
+  ],
+  "bounds": [
+   [
+    -0.8040000200271606,
+    0.0,
+    -0.8600403666496277
+   ],
+   [
+    0.628000020980835,
+    1.3530000448226929,
+    0.6420600414276123
+   ]
+  ],
+  "bytes": 242892,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_mine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_mine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_mine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_mine_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_oil_well_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "OilWell",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1170,
+  "lod_triangles": [
+   1170,
+   678,
+   318
+  ],
+  "bounds": [
+   [
+    -0.7308040857315063,
+    0.0,
+    -0.6010000109672546
+   ],
+   [
+    0.7088088989257812,
+    1.433957815170288,
+    0.4976600110530853
+   ]
+  ],
+  "bytes": 200128,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_oil_well_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_oil_well_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_oil_well_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_oil_well_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_oil_well_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "OilWell",
+  "race": "elf",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1146,
+  "lod_triangles": [
+   1146,
+   670,
+   310
+  ],
+  "bounds": [
+   [
+    -0.7308040857315063,
+    0.0,
+    -0.6010000109672546
+   ],
+   [
+    0.7088088989257812,
+    1.223957896232605,
+    0.4976600110530853
+   ]
+  ],
+  "bytes": 195940,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_oil_well_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_oil_well_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_oil_well_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_sawmill_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "Sawmill",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1048,
+  "lod_triangles": [
+   1048,
+   590,
+   307
+  ],
+  "bounds": [
+   [
+    -0.7899952530860901,
+    0.0,
+    -0.6934796571731567
+   ],
+   [
+    0.4959999918937683,
+    1.1951477527618408,
+    0.7675600051879883
+   ]
+  ],
+  "bytes": 169424,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_sawmill_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_sawmill_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_sawmill_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_sawmill_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_sawmill_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "Sawmill",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1024,
+  "lod_triangles": [
+   1024,
+   582,
+   299
+  ],
+  "bounds": [
+   [
+    -0.7899952530860901,
+    0.0,
+    -0.6934796571731567
+   ],
+   [
+    0.4959999918937683,
+    1.0551477670669556,
+    0.7675600051879883
+   ]
+  ],
+  "bytes": 165380,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_sawmill_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_sawmill_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_sawmill_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_sawmill_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_stone_quarry_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "elf",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1018,
+  "lod_triangles": [
+   1018,
+   521,
+   198
+  ],
+  "bounds": [
+   [
+    -0.8782399892807007,
+    0.0,
+    -0.8019238710403442
+   ],
+   [
+    0.7608147263526917,
+    1.051272988319397,
+    0.8421690464019775
+   ]
+  ],
+  "bytes": 164344,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_stone_quarry_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_stone_quarry_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1070,
+  "lod_triangles": [
+   1070,
+   557,
+   222
+  ],
+  "bounds": [
+   [
+    -0.8782399892807007,
+    0.0,
+    -0.8019238710403442
+   ],
+   [
+    0.7608147263526917,
+    1.1500176191329956,
+    0.8421690464019775
+   ]
+  ],
+  "bytes": 176304,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_stone_quarry_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_stone_quarry_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1294,
+  "lod_triangles": [
+   1294,
+   719,
+   320
+  ],
+  "bounds": [
+   [
+    -0.8782399892807007,
+    0.0,
+    -0.8019238710403442
+   ],
+   [
+    0.7608147263526917,
+    1.3477189540863037,
+    0.8421690464019775
+   ]
+  ],
+  "bytes": 212440,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_stone_quarry_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_stone_quarry_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1242,
+  "lod_triangles": [
+   1242,
+   683,
+   296
+  ],
+  "bounds": [
+   [
+    -0.8782399892807007,
+    0.0,
+    -0.8019238710403442
+   ],
+   [
+    0.7608147263526917,
+    1.2488319873809814,
+    0.8421690464019775
+   ]
+  ],
+  "bytes": 201532,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_stone_quarry_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_woodcutter_camp_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "elf",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 882,
+  "lod_triangles": [
+   882,
+   482,
+   218
+  ],
+  "bounds": [
+   [
+    -0.376701682806015,
+    0.0,
+    -0.3969123959541321
+   ],
+   [
+    0.38199999928474426,
+    0.6685006022453308,
+    0.4103200137615204
+   ]
+  ],
+  "bytes": 152776,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_woodcutter_camp_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 914,
+  "lod_triangles": [
+   914,
+   508,
+   232
+  ],
+  "bounds": [
+   [
+    -0.376701682806015,
+    0.0,
+    -0.3969123959541321
+   ],
+   [
+    0.38199999928474426,
+    0.6685006022453308,
+    0.4103200137615204
+   ]
+  ],
+  "bytes": 159528,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_woodcutter_camp_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1118,
+  "lod_triangles": [
+   1118,
+   642,
+   318
+  ],
+  "bounds": [
+   [
+    -0.376701682806015,
+    0.0,
+    -0.3969123959541321
+   ],
+   [
+    0.38199999928474426,
+    0.6855774521827698,
+    0.4103200137615204
+   ]
+  ],
+  "bytes": 191144,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_woodcutter_camp_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1094,
+  "lod_triangles": [
+   1094,
+   634,
+   310
+  ],
+  "bounds": [
+   [
+    -0.376701682806015,
+    0.0,
+    -0.3969123959541321
+   ],
+   [
+    0.38199999928474426,
+    0.6685006022453308,
+    0.4103200137615204
+   ]
+  ],
+  "bytes": 186364,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_industrial_v0__modern.png"
+  }
+ }
+]

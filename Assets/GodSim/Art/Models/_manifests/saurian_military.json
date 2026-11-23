@@ -1,0 +1,614 @@
+[
+ {
+  "id": "bld_saurian_barracks_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Military",
+  "building_type": "Barracks",
+  "race": "saurian",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1005,
+  "lod_triangles": [
+   1005,
+   601,
+   205
+  ],
+  "bounds": [
+   [
+    -0.9049999713897705,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    0.9049999713897705,
+    0.8659999966621399,
+    0.8299999833106995
+   ]
+  ],
+  "bytes": 130316,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_barracks_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_barracks_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_barracks_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_barracks_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Military",
+  "building_type": "Barracks",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1077,
+  "lod_triangles": [
+   1077,
+   673,
+   237
+  ],
+  "bounds": [
+   [
+    -0.9049999713897705,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    0.9049999713897705,
+    1.2099000215530396,
+    0.8299999833106995
+   ]
+  ],
+  "bytes": 144656,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_barracks_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_barracks_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_barracks_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_barracks_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_barracks_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_barracks_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Military",
+  "building_type": "Barracks",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1167,
+  "lod_triangles": [
+   1167,
+   691,
+   259
+  ],
+  "bounds": [
+   [
+    -0.9049999713897705,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    0.9049999713897705,
+    1.0709999799728394,
+    0.8299999833106995
+   ]
+  ],
+  "bytes": 155468,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_barracks_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_barracks_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_barracks_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_barracks_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_barracks_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Military",
+  "building_type": "Barracks",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1073,
+  "lod_triangles": [
+   1073,
+   645,
+   237
+  ],
+  "bounds": [
+   [
+    -0.9049999713897705,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    0.9049999713897705,
+    1.0709999799728394,
+    0.8299999833106995
+   ]
+  ],
+  "bytes": 140740,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_barracks_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_barracks_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_barracks_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_barracks_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_castle_classical_v0",
+  "kind": "townhall",
+  "category": "Buildings/Saurian/Military",
+  "building_type": "Castle",
+  "race": "saurian",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1951,
+  "lod_triangles": [
+   1951,
+   1118,
+   585
+  ],
+  "bounds": [
+   [
+    -1.3849999904632568,
+    0.0,
+    -1.4570000171661377
+   ],
+   [
+    1.3849999904632568,
+    2.680000066757202,
+    1.350000023841858
+   ]
+  ],
+  "bytes": 288820,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_castle_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_castle_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_castle_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_castle_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_military_base_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Military",
+  "building_type": "MilitaryBase",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1161,
+  "lod_triangles": [
+   1161,
+   725,
+   319
+  ],
+  "bounds": [
+   [
+    -1.399999976158142,
+    0.0,
+    -1.4229999780654907
+   ],
+   [
+    1.399999976158142,
+    1.844820261001587,
+    1.3669999837875366
+   ]
+  ],
+  "bytes": 163940,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_military_base_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_military_base_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_military_base_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_military_base_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_military_base_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Military",
+  "building_type": "MilitaryBase",
+  "race": "saurian",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 983,
+  "lod_triangles": [
+   983,
+   611,
+   237
+  ],
+  "bounds": [
+   [
+    -1.399999976158142,
+    0.0,
+    -1.4229999780654907
+   ],
+   [
+    1.399999976158142,
+    1.8350000381469727,
+    1.3669999837875366
+   ]
+  ],
+  "bytes": 137752,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_military_base_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_military_base_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_military_base_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_palisade_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Military",
+  "building_type": "Palisade",
+  "race": "saurian",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   3,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1294,
+  "lod_triangles": [
+   1294,
+   481,
+   266
+  ],
+  "bounds": [
+   [
+    -1.4643306732177734,
+    0.0,
+    -0.14258000254631042
+   ],
+   [
+    1.4736000299453735,
+    1.1360000371932983,
+    0.35700470209121704
+   ]
+  ],
+  "bytes": 143676,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_palisade_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_palisade_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_palisade_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_palisade_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_palisade_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Military",
+  "building_type": "Palisade",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval"
+  ],
+  "footprint": [
+   3,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 992,
+  "lod_triangles": [
+   992,
+   539,
+   232
+  ],
+  "bounds": [
+   [
+    -1.475000023841858,
+    0.0,
+    -0.2070000022649765
+   ],
+   [
+    1.475000023841858,
+    1.3760000467300415,
+    0.35700470209121704
+   ]
+  ],
+  "bytes": 133372,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_palisade_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_palisade_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_palisade_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_palisade_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_saurian_stone_wall_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Military",
+  "building_type": "StoneWall",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 677,
+  "lod_triangles": [
+   677,
+   354,
+   157
+  ],
+  "bounds": [
+   [
+    -0.48711299896240234,
+    0.0,
+    -0.34049999713897705
+   ],
+   [
+    0.48711299896240234,
+    0.8740000128746033,
+    0.31349998712539673
+   ]
+  ],
+  "bytes": 93176,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_stone_wall_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_stone_wall_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_stone_wall_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_stone_wall_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_stone_wall_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_stone_wall_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Military",
+  "building_type": "StoneWall",
+  "race": "saurian",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 741,
+  "lod_triangles": [
+   741,
+   418,
+   197
+  ],
+  "bounds": [
+   [
+    -0.48711299896240234,
+    0.0,
+    -0.34049999713897705
+   ],
+   [
+    0.48711299896240234,
+    1.0130000114440918,
+    0.31349998712539673
+   ]
+  ],
+  "bytes": 106200,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_stone_wall_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_stone_wall_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_stone_wall_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_watchtower_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Military",
+  "building_type": "Watchtower",
+  "race": "saurian",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 739,
+  "lod_triangles": [
+   739,
+   481,
+   232
+  ],
+  "bounds": [
+   [
+    -0.4099999964237213,
+    0.0,
+    -0.4168440103530884
+   ],
+   [
+    0.4099999964237213,
+    2.1041998863220215,
+    0.4000000059604645
+   ]
+  ],
+  "bytes": 120324,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_watchtower_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_watchtower_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_watchtower_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_watchtower_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Military",
+  "building_type": "Watchtower",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 573,
+  "lod_triangles": [
+   573,
+   390,
+   183
+  ],
+  "bounds": [
+   [
+    -0.4099999964237213,
+    0.0,
+    -0.39250001311302185
+   ],
+   [
+    0.4099999964237213,
+    2.293529987335205,
+    0.4000000059604645
+   ]
+  ],
+  "bytes": 86640,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_watchtower_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_watchtower_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_watchtower_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_watchtower_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_watchtower_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_watchtower_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Military",
+  "building_type": "Watchtower",
+  "race": "saurian",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 597,
+  "lod_triangles": [
+   597,
+   402,
+   189
+  ],
+  "bounds": [
+   [
+    -0.4099999964237213,
+    0.0,
+    -0.39250001311302185
+   ],
+   [
+    0.4099999964237213,
+    2.1903300285339355,
+    0.4000000059604645
+   ]
+  ],
+  "bytes": 90652,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_watchtower_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_watchtower_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_watchtower_industrial_v0.png"
+  }
+ }
+]

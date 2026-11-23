@@ -1,0 +1,1024 @@
+[
+ {
+  "id": "bld_orc_armory_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Armory",
+  "race": "orc",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 618,
+  "lod_triangles": [
+   618,
+   397,
+   170
+  ],
+  "bounds": [
+   [
+    -0.9438999891281128,
+    0.0,
+    -0.32362499833106995
+   ],
+   [
+    0.7620000243186951,
+    1.0805795192718506,
+    0.42614999413490295
+   ]
+  ],
+  "bytes": 102980,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_armory_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_armory_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Armory",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 618,
+  "lod_triangles": [
+   618,
+   397,
+   170
+  ],
+  "bounds": [
+   [
+    -0.9438999891281128,
+    0.0,
+    -0.32362499833106995
+   ],
+   [
+    0.7620000243186951,
+    1.1783695220947266,
+    0.42614999413490295
+   ]
+  ],
+  "bytes": 103268,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_armory_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_armory_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Armory",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 638,
+  "lod_triangles": [
+   638,
+   417,
+   190
+  ],
+  "bounds": [
+   [
+    -0.9438999891281128,
+    0.0,
+    -0.32362499833106995
+   ],
+   [
+    0.8299999833106995,
+    1.2566014528274536,
+    0.42614999413490295
+   ]
+  ],
+  "bytes": 108288,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_armory_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_armory_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Armory",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 638,
+  "lod_triangles": [
+   638,
+   417,
+   190
+  ],
+  "bounds": [
+   [
+    -0.9438999891281128,
+    0.0,
+    -0.32362499833106995
+   ],
+   [
+    0.8299999833106995,
+    1.1881484985351562,
+    0.42614999413490295
+   ]
+  ],
+  "bytes": 108872,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_armory_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_blacksmith_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Blacksmith",
+  "race": "orc",
+  "ages": [
+   "iron",
+   "bronze"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 837,
+  "lod_triangles": [
+   837,
+   495,
+   259
+  ],
+  "bounds": [
+   [
+    -0.8949999809265137,
+    0.0,
+    -0.4430133104324341
+   ],
+   [
+    0.7768719792366028,
+    0.850849986076355,
+    0.36500000953674316
+   ]
+  ],
+  "bytes": 145768,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_blacksmith_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_ancient_v0__bronze.png"
+  }
+ },
+ {
+  "id": "bld_orc_blacksmith_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Blacksmith",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 837,
+  "lod_triangles": [
+   837,
+   495,
+   259
+  ],
+  "bounds": [
+   [
+    -0.8949999809265137,
+    0.0,
+    -0.4430133104324341
+   ],
+   [
+    0.7768719792366028,
+    0.9278500080108643,
+    0.36500000953674316
+   ]
+  ],
+  "bytes": 145540,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_blacksmith_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_blacksmith_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Blacksmith",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 837,
+  "lod_triangles": [
+   837,
+   495,
+   259
+  ],
+  "bounds": [
+   [
+    -0.8949999809265137,
+    0.0,
+    -0.4430133104324341
+   ],
+   [
+    0.7768719792366028,
+    0.9894499778747559,
+    0.36500000953674316
+   ]
+  ],
+  "bytes": 145456,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_blacksmith_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_blacksmith_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Blacksmith",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 837,
+  "lod_triangles": [
+   837,
+   495,
+   259
+  ],
+  "bounds": [
+   [
+    -0.8949999809265137,
+    0.0,
+    -0.4430133104324341
+   ],
+   [
+    0.7768719792366028,
+    0.9355499744415283,
+    0.36500000953674316
+   ]
+  ],
+  "bytes": 145268,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_blacksmith_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_electronics_plant_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "ElectronicsPlant",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 550,
+  "lod_triangles": [
+   550,
+   335,
+   174
+  ],
+  "bounds": [
+   [
+    -1.252500057220459,
+    0.0,
+    -1.226271152496338
+   ],
+   [
+    1.1763111352920532,
+    2.3852250576019287,
+    1.1699999570846558
+   ]
+  ],
+  "bytes": 96128,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_electronics_plant_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_electronics_plant_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_electronics_plant_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_electronics_plant_future_v0__ascension.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_electronics_plant_future_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_factory_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Factory",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 606,
+  "lod_triangles": [
+   606,
+   357,
+   180
+  ],
+  "bounds": [
+   [
+    -1.252500057220459,
+    0.0,
+    -1.226271152496338
+   ],
+   [
+    0.9524999856948853,
+    2.3445000648498535,
+    1.1699999570846558
+   ]
+  ],
+  "bytes": 108308,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_factory_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_factory_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_factory_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_factory_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_factory_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Factory",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 632,
+  "lod_triangles": [
+   632,
+   365,
+   196
+  ],
+  "bounds": [
+   [
+    -1.252500057220459,
+    0.0,
+    -1.226271152496338
+   ],
+   [
+    0.9524999856948853,
+    2.1600000858306885,
+    1.1699999570846558
+   ]
+  ],
+  "bytes": 106372,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_factory_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_factory_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_factory_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_factory_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_foundry_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Foundry",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1450,
+  "lod_triangles": [
+   1450,
+   825,
+   418
+  ],
+  "bounds": [
+   [
+    -1.2604799270629883,
+    0.0,
+    -1.289084553718567
+   ],
+   [
+    1.2958500385284424,
+    2.714250087738037,
+    1.117703914642334
+   ]
+  ],
+  "bytes": 251128,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_foundry_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_foundry_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_foundry_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_foundry_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_foundry_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Foundry",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1450,
+  "lod_triangles": [
+   1450,
+   825,
+   418
+  ],
+  "bounds": [
+   [
+    -1.2604799270629883,
+    0.0,
+    -1.289084553718567
+   ],
+   [
+    1.2958500385284424,
+    2.8627500534057617,
+    1.117703914642334
+   ]
+  ],
+  "bytes": 250624,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_foundry_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_foundry_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_foundry_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_foundry_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_smelter_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Smelter",
+  "race": "orc",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 798,
+  "lod_triangles": [
+   798,
+   470,
+   233
+  ],
+  "bounds": [
+   [
+    -0.8949999809265137,
+    0.0,
+    -0.34639406204223633
+   ],
+   [
+    0.8981439471244812,
+    0.9098320007324219,
+    0.36500000953674316
+   ]
+  ],
+  "bytes": 138432,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_smelter_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_orc_smelter_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Smelter",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 798,
+  "lod_triangles": [
+   798,
+   470,
+   233
+  ],
+  "bounds": [
+   [
+    -0.8949999809265137,
+    0.0,
+    -0.34639406204223633
+   ],
+   [
+    0.8981439471244812,
+    1.1340559720993042,
+    0.36500000953674316
+   ]
+  ],
+  "bytes": 138140,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_smelter_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_smelter_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Smelter",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 818,
+  "lod_triangles": [
+   818,
+   490,
+   253
+  ],
+  "bounds": [
+   [
+    -0.8949999809265137,
+    0.0,
+    -0.34639406204223633
+   ],
+   [
+    0.8981439471244812,
+    1.2116719484329224,
+    0.36500000953674316
+   ]
+  ],
+  "bytes": 144372,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_smelter_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_smelter_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Smelter",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 818,
+  "lod_triangles": [
+   818,
+   490,
+   253
+  ],
+  "bounds": [
+   [
+    -0.8949999809265137,
+    0.0,
+    -0.34639406204223633
+   ],
+   [
+    0.8981439471244812,
+    1.28928804397583,
+    0.36500000953674316
+   ]
+  ],
+  "bytes": 144176,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_smelter_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_weaver_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Weaver",
+  "race": "orc",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 750,
+  "lod_triangles": [
+   750,
+   489,
+   218
+  ],
+  "bounds": [
+   [
+    -0.4837248623371124,
+    0.0,
+    -0.29016464948654175
+   ],
+   [
+    0.46887296438217163,
+    0.4393500089645386,
+    0.39594513177871704
+   ]
+  ],
+  "bytes": 143032,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_weaver_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_orc_weaver_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Weaver",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 750,
+  "lod_triangles": [
+   750,
+   489,
+   218
+  ],
+  "bounds": [
+   [
+    -0.4837248623371124,
+    0.0,
+    -0.29016464948654175
+   ],
+   [
+    0.46887296438217163,
+    0.5353000164031982,
+    0.39594513177871704
+   ]
+  ],
+  "bytes": 142928,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_weaver_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_weaver_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Weaver",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 776,
+  "lod_triangles": [
+   776,
+   505,
+   234
+  ],
+  "bounds": [
+   [
+    -0.4837248623371124,
+    0.0,
+    -0.29016464948654175
+   ],
+   [
+    0.46887296438217163,
+    0.5091915130615234,
+    0.39594513177871704
+   ]
+  ],
+  "bytes": 147804,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_weaver_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_weaver_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Weaver",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 760,
+  "lod_triangles": [
+   760,
+   489,
+   218
+  ],
+  "bounds": [
+   [
+    -0.4837248623371124,
+    0.0,
+    -0.29016464948654175
+   ],
+   [
+    0.46887296438217163,
+    0.47384148836135864,
+    0.39594513177871704
+   ]
+  ],
+  "bytes": 143812,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_weaver_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_workshop_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Workshop",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 682,
+  "lod_triangles": [
+   682,
+   405,
+   176
+  ],
+  "bounds": [
+   [
+    -0.9209499955177307,
+    0.0,
+    -0.5925301909446716
+   ],
+   [
+    0.7400000095367432,
+    1.4339499473571777,
+    0.8830999732017517
+   ]
+  ],
+  "bytes": 109948,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_workshop_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_workshop_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_workshop_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_workshop_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_workshop_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_workshop_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Industry",
+  "building_type": "Workshop",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 682,
+  "lod_triangles": [
+   682,
+   405,
+   176
+  ],
+  "bounds": [
+   [
+    -0.9209499955177307,
+    0.0,
+    -0.5925301909446716
+   ],
+   [
+    0.7400000095367432,
+    1.4458500146865845,
+    0.8830999732017517
+   ]
+  ],
+  "bytes": 110128,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_workshop_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_workshop_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_workshop_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_workshop_industrial_v0__modern.png"
+  }
+ }
+]

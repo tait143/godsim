@@ -1,0 +1,499 @@
+{
+  "package": "human_extraction",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Session 9 independent extraction critic (industry builder)",
+      "models": [
+        {
+          "id": "bld_human_coal_mine_future_v0",
+          "evidence_sha256": "0147c5f8cb0d5f6c09cd645300159a61bccd8cf7c96ee5a3c009c9cbe170e59b",
+          "observations": "The boarded bin, loading belt and descending wagon make a clear workflow. The glass weather hood and side cabin read together at 64 px. At Ascension, the apron, wagon, and hopper carry pale tan stock, while daylight shows through the gap above the corner supports. The serialized mesh check passed at 821/479/246 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 78,
+            "charm": 92,
+            "colour": 84,
+            "technical": 96
+          },
+          "defects": [
+            "Extend the four metal corner posts to the outer rim of the hopper, or bridge them to its flared body with load-bearing crossheads, at each LOD.",
+            "Keep the coal dark and distinct from the white/gold metalwork at Ascension, including the heap in the bin, the wagon cargo, and the stockpile."
+          ]
+        },
+        {
+          "id": "bld_human_coal_mine_industrial_v0",
+          "evidence_sha256": "c4536b3384cb4b0d7c25eff2f8cf2d31d357c62f5a80de17bc03e2050fd7426d",
+          "observations": "The rail stop, fenced supply pile and brick boiler cabin read particularly well in Industrial. The taper of the hopper leaves space between its wall and the upper ends of the posts. At the Renaissance unlock the rocks in the hopper, wagon and pile change from charcoal to reddish brown. The serialized mesh check passed at 865/467/214 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 78,
+            "charm": 92,
+            "colour": 87,
+            "technical": 96
+          },
+          "defects": [
+            "Bring corner posts or saddle beams into visible bearing against the hopper rim at all three LODs.",
+            "Adjust the shared-atlas assignment or tint for coal to keep the Renaissance cargo recognisably charcoal in the hopper, wagon, and pile."
+          ]
+        },
+        {
+          "id": "bld_human_gold_mine_ancient_v0",
+          "evidence_sha256": "b8657725800e0d9d8599474db12100731ea9158550eba5760f795f520750c6ec",
+          "observations": "The ochre handwheel rises just above the irregular rock shoulder. A gold pan and blue riffled washing trough flank the framed entrance on the Iron yard; their opposite shapes distinguish this from the ordinary ore cart. The winch sits on a timber platform. The serialized mesh check passed at 1285/755/312 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_gold_mine_classical_v0",
+          "evidence_sha256": "cc19af7ca94115506b6bdbb1ddc154af62fc99efb1a917b361e3fd3222c8f23f",
+          "observations": "The short canopy crowns the braced hoist without hiding the wheel. The gold catch pan and stepped cyan sluice balance the gabled hut and lantern. Slate-shaded Medieval roofs and Renaissance terracotta are legible beside the permanently gold machinery. The serialized mesh check passed at 1319/797/346 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_gold_mine_future_v0",
+          "evidence_sha256": "7e9be393750b093417f3b9c705d51438503739166d6f30a0a0a47395fd812475",
+          "observations": "The steel stamp uprights and paired pestles register immediately behind the bright washing table. The hut changes from blue glazing to gold-edged pale walls; the covered hoist still dominates the top contour. Both rock feet and front track stay grounded. The serialized mesh check passed at 1206/753/384 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_gold_mine_industrial_v0",
+          "evidence_sha256": "785156ac78bb4fb8b24ab8379cf60bac3e57a42b05482b7de115cc36eae60958",
+          "observations": "The exposed elevated gold wheel is carried by a dark portal gantry. Stamp heads sit above the sluice, with a pan and lit operator cabin opposite. The shift from brick and soot to pale metal sets the two ages apart. The serialized mesh check passed at 1230/741/352 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_mine_ancient_v0",
+          "evidence_sha256": "21e7fa5a0af2974c23a13db1ef3ffa89bc3ef7bf1516bb3ba7b1d0aef0ee0b16",
+          "observations": "The heavily loaded wagon emerges between timber portal jambs below a hand-cranked drum. The ladder, bracket lantern and side spoil heap each have their own place. Bronze is earthier than the cooler Iron shoulder and cabin. The serialized mesh check passed at 1232/758/284 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_mine_classical_v0",
+          "evidence_sha256": "7417e98d423f5ab4eca9725ccaefba698c4589dc75c5f163702faa012b1e4313",
+          "observations": "The spoked hoist and sheltered crest frame a route from ore car to adit. White stone and red roof, darker Medieval timber, and warm Renaissance stone register across the three renders. The side lamp and ladder give scale without obscuring the wagon. The serialized mesh check passed at 1306/800/318 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_mine_future_v0",
+          "evidence_sha256": "7ca7039bf556e33a069dbf6a84d597ea786528976a40718494c02286f0f41689",
+          "observations": "The tapered metal headframe over the pale rock mass reads clearly above the small roofed cabin in both late rows. Covered pulley, bracing, ladder and ore car share a straight working axis. Warm lamp and spoil patch break up the Information greys. The serialized mesh check passed at 1119/682/316 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_mine_industrial_v0",
+          "evidence_sha256": "99bc850a471a776a918651b371d55b1deab6cf7c4876c172c66a563909ce169e",
+          "observations": "The iron gantry, exposed winding drum and tall service ladder stand against a lower brick pump house. Industrial dark iron and Modern lighter grey panels preserve an identifiable loaded trolley in front of the entry. The serialized mesh check passed at 1143/670/284 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_oil_well_future_v0",
+          "evidence_sha256": "a49f26d170791d75399e0363d7384a418686ead6db83810dea4f8bbca66ca1db",
+          "observations": "The broad horsehead, thin polished rod and rocking beam read as a pumping unit at phone size. A blue-banded tank, red valve and blue-roofed service hut fit beneath the beam; Ascension gilds the receiver and well fittings. The serialized mesh check passed at 862/456/262 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 95,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_oil_well_industrial_v0",
+          "evidence_sha256": "8db817752dbc7bb7fcfca58f2a4a7d072a6ab52deb387fbcc6b1069eb15c9db7",
+          "observations": "The ochre horsehead and low red valve define the left-hand end of the pumpjack, opposite the dark counterweight. Both beam supports sit visibly on the slab, and the storage tank is plumbed to the head. The little operator hut retains human scale. The serialized mesh check passed at 794/415/245 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_sawmill_future_v0",
+          "evidence_sha256": "2685f1ed505e992fd6f22d667254972346c3ff4b653c4a6fe7a4ddee8c957498",
+          "observations": "The blade rises between the feed rails below a blue scanner, beside an otherwise simple glazed workshop. Round end grain, thick rollers and the blade teeth stay distinct at full size; the stacked logs and long bed preserve its purpose at 64 px. The serialized mesh check passed at 1048/708/330 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_sawmill_industrial_v0",
+          "evidence_sha256": "4fc6182c5a539ff2f2e330e2df93d26da01307f1694a0dc80f052e081737855f",
+          "observations": "The projecting face of the large circular blade contrasts with the square gable and flue. Feed stock rests on the bed, cut logs wait in a stack by the wall, and blue trim sits below the eaves. Modern plaster separates clearly from Industrial brick. The serialized mesh check passed at 1112/706/286 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_stone_quarry_ancient_v0",
+          "evidence_sha256": "f61f45f4880042e777b909db670d39724a285154432f2f2b198b2a9c3bcc6a3c",
+          "observations": "The timber jib, lowered block and loaded cart identify a quarry in every view. On a further direct comparison at 40 and 80 pixels, Dawn and Bronze have nearly the same silhouette, terrain, timber and stone. The darker Iron hut roof is a small area and the identical jib still dominates. The serialized check passed at 891/509/199 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 84,
+            "construction": 94,
+            "charm": 93,
+            "colour": 87,
+            "technical": 99
+          },
+          "defects": [
+            "Make the Ancient quarry age rows visibly different on a prominent structural mass at 40\u201380 pixels. An age-responsive cladding band on the large terraces or a broader age-material working shelter would carry the transition from rough Dawn construction to Bronze masonry to Iron stonework. Preserve the exposed quarry face and the jib."
+          ],
+          "initial_assessment": {
+            "observations": "Tiered quarry faces and a cream block in slings frame the timber jib. The block-loaded handcart gives scale, and the tool hut remains visible behind the winding gear. Dawn, Bronze and Iron show progressively cooler yard stone and roofs. The serialized mesh check passed at 891/509/199 triangles for LOD0/1/2.",
+            "scores": {
+              "silhouette": 94,
+              "identity": 92,
+              "construction": 94,
+              "charm": 93,
+              "colour": 93,
+              "technical": 99
+            },
+            "defects": []
+          }
+        },
+        {
+          "id": "bld_human_stone_quarry_classical_v0",
+          "evidence_sha256": "bc700570519f2b8cc1dcf7ddd4c624c4262f3d836cb7b0bd0818e0ca54b014e3",
+          "observations": "A large open wheel and diagonal stay on the crane contrast with the three cut stone ledges. Trolley and sling preserve the extraction story; a cropped roof, flue and pennon retain a human workshop silhouette through all three ages. The serialized mesh check passed at 937/523/205 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_stone_quarry_future_v0",
+          "evidence_sha256": "1c0a1c6f266df39718de931d2c3ffd334b1dde3807f5f694426a3d66cb2da0e8",
+          "observations": "The glazed cab and projecting jib sit above a supported swivel. A small sight and linked cutting bar add specificity to the three quarry terraces. The pale slab, cream block and blue cab remain separately legible in the gold Ascension row. The serialized mesh check passed at 766/331/215 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_stone_quarry_industrial_v0",
+          "evidence_sha256": "a50c4deb7e8fc54abe72542bc95791ab39a59575ddd66dd521a39f54ed7374db",
+          "observations": "A dark box-cab crane suspends a pale block in front of a stepped cut. The return wall and chimney identify the adjacent lodge; the loaded handcart and hand tool are visible beside the column. Modern stone brightens around the steel framing. The serialized mesh check passed at 674/335/199 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_woodcutter_camp_ancient_v0",
+          "evidence_sha256": "06dd8a8559d381e4efaad69215d3585ee7e8b00a92e5ae08bd43d21769c20a87",
+          "observations": "Warm round log ends and a large chopping stump sit beside a low, cropped hip roof. The little rack with a blue hanging and a basket break its outline without crowding the yard. Changing thatch and shake patterns distinguish the adjacent ages. The serialized mesh check passed at 942/554/222 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_woodcutter_camp_classical_v0",
+          "evidence_sha256": "8a6380e8e52b291e6065156155054bf6551b10984e79c5e6b80c9e2abc29f7d5",
+          "observations": "A steep gable, chimney and blue door hanging sit above the ready-to-split stump. Five trunks are cribbed on the opposite side; their cut rings are visible at full size and the stack still reads in the thumbnail. The three roof and plaster treatments are distinct. The serialized mesh check passed at 952/532/192 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_woodcutter_camp_future_v0",
+          "evidence_sha256": "2d98eafe512e3613f12b24f11bf1dc6f8bc6b5ea794c7ec8575cc6b3b4ccbd03",
+          "observations": "The low glazed roof is offset against a grapple reaching above the timber pile. Both the end-grain pile and separate hand-splitting block remain readable, while the cabin changes from cool metal to gold-edged white between late rows. The serialized mesh check passed at 825/494/236 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "287bddb612dd6641201d870bf1f429187b9e79878da1df94f34ac9c382613b8f",
+          "observations": "The A-shaped loading arm reaches from its plinth to the corralled log stack. Small flue, blue fascia and basket carry the human identity on both brick Industrial and pale Modern cabins; the front door is visible beside the chopping block. The serialized mesh check passed at 887/500/232 triangles for LOD0/1/2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Session 9 independent extraction critic (industry builder)",
+      "models": [
+        {
+          "id": "bld_human_coal_mine_future_v0",
+          "evidence_sha256": "1fa232d6d90ec24740977a9829e9208c3ee6ae4097fbbb0193957d745102fddc",
+          "observations": "The two near columns visibly reach the coal-bin rim, with the heels seated on the rail apron. In both late ages dark charcoal persists in the hopper, wagon and fenced stockpile against the glazed cabin. The gold roof edging remains visible at 64 px. Serialized triangle counts are 821/479/246.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_coal_mine_industrial_v0",
+          "evidence_sha256": "c20f72b9c403abe6fd85be8497caebf27eb2876fd7dc0865325631b91e2c0542",
+          "observations": "The steel columns now meet the rim and frame the wagon. Dark coal separates from the brick Industrial, light Modern and ochre Renaissance surfaces at 64 px. Piles and coal truck all share the same material. Serialized triangle counts are 865/467/214.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_stone_quarry_ancient_v0",
+          "evidence_sha256": "f0595d0a47ef4287e688946ed6ade9f879642f701713c6d6ca721cbc37b653af",
+          "observations": "The new covered upper bench changes from dark hide to copper to iron-grey and is readable at 64 px. The stepped rock face, suspended block and stock remain legible. The newly active surface check detects two exposed overlapping pairs in each LOD where the two sling branches converge. Serialized triangle counts are 975/591/251.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Join the two sling branches below the crane cable without coplanar overlap near (0.580631,0.485150,-0.279500), in all three LODs. Fit the ends to one boss or sweep a single continuous sling with a mitered joint, and rerun the surface check."
+          ]
+        },
+        {
+          "id": "bld_human_stone_quarry_classical_v0",
+          "evidence_sha256": "bc700570519f2b8cc1dcf7ddd4c624c4262f3d836cb7b0bd0818e0ca54b014e3",
+          "observations": "A large open wheel and diagonal stay on the crane contrast with the three cut stone ledges. Trolley and sling preserve the extraction story; a cropped roof, flue and pennon retain a human workshop silhouette through all three ages. The previous round\u2019s visual evidence is byte-identical. The newly active surface check detects two exposed overlapping pairs in each LOD where the two sling branches converge. Serialized triangle counts are 937/523/205.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Join the two sling branches below the crane cable without coplanar overlap near (0.580631,0.485150,-0.279500), in all three LODs. Fit the ends to one boss or sweep a single continuous sling with a mitered joint, and rerun the surface check."
+          ]
+        },
+        {
+          "id": "bld_human_stone_quarry_future_v0",
+          "evidence_sha256": "1c0a1c6f266df39718de931d2c3ffd334b1dde3807f5f694426a3d66cb2da0e8",
+          "observations": "The glazed cab and projecting jib sit above a supported swivel. A small sight and linked cutting bar add specificity to the three quarry terraces. The pale slab, cream block and blue cab remain separately legible in the gold Ascension row. The previous round\u2019s visual evidence is byte-identical. The newly active surface check detects two exposed overlapping pairs in each LOD where the two sling branches converge. Serialized triangle counts are 766/331/215.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Join the two sling branches below the crane cable without coplanar overlap near (0.580631,0.485150,-0.279500), in all three LODs. Fit the ends to one boss or sweep a single continuous sling with a mitered joint, and rerun the surface check."
+          ]
+        },
+        {
+          "id": "bld_human_stone_quarry_industrial_v0",
+          "evidence_sha256": "a50c4deb7e8fc54abe72542bc95791ab39a59575ddd66dd521a39f54ed7374db",
+          "observations": "A dark box-cab crane suspends a pale block in front of a stepped cut. The return wall and chimney identify the adjacent lodge; the loaded handcart and hand tool are visible beside the column. Modern stone brightens around the steel framing. The previous round\u2019s visual evidence is byte-identical. The newly active surface check detects two exposed overlapping pairs in each LOD where the two sling branches converge. Serialized triangle counts are 674/335/199.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "Join the two sling branches below the crane cable without coplanar overlap near (0.580631,0.485150,-0.279500), in all three LODs. Fit the ends to one boss or sweep a single continuous sling with a mitered joint, and rerun the surface check."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Session 9 independent extraction critic (industry builder)",
+      "models": [
+        {
+          "id": "bld_human_stone_quarry_ancient_v0",
+          "evidence_sha256": "8baa83cc979e663eb0a7694aa88fac23805a69aaa4a9781b4bf097240fcd25c8",
+          "observations": "At both 224 and 64 px the shelter over the upper quarry bench stays recognisable. Its charcoal, copper and steel-grey roof separates Dawn, Bronze and Iron; the suspended block now hangs from an uninterrupted sling junction. Confirmed zero exposed coplanar pairs over all three serialized meshes, at 971/587/247 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_stone_quarry_classical_v0",
+          "evidence_sha256": "3fa6a365dbe0ab1c320df6a123ec832431e22a2234c36f8c3192b17aa05a8e42",
+          "observations": "The open wheel and warm jib keep the suspended block legible below the stone steps in all three ages. The revised two-branch sling joins cleanly below the main hoist line. Confirmed zero exposed coplanar pairs over all three serialized meshes, at 933/519/201 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_stone_quarry_future_v0",
+          "evidence_sha256": "c2260b04b430cb3ae376c923fd2000af77c0e7fde303459b30e0b5067e1fc07e",
+          "observations": "The clean sling connection stays visible against the light quarry face. The blue sight, gold or grey column and aligned upper cutting rail preserve the advanced quarry silhouette at phone size. Confirmed zero exposed coplanar pairs over all three serialized meshes, at 762/327/211 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_stone_quarry_industrial_v0",
+          "evidence_sha256": "83af2fb03db833db8468e7198d25706287de23205882f0c295bb6a0328267583",
+          "observations": "The new sling junction reads as one cable bridle below the straight steel jib; the block contrasts with the shaded crane and quarry in both brick and concrete age rows. Confirmed zero exposed coplanar pairs over all three serialized meshes, at 670/331/195 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

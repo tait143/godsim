@@ -1,0 +1,203 @@
+{
+  "package": "saurian_housesancient",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "ancient_critic",
+      "models": [
+        {
+          "id": "bld_saurian_house_ancient_v0",
+          "evidence_sha256": "f3f98c7e5509853a9e75ddd73f6ba79560f655d4a861aba6954b64b11e39796d",
+          "observations": "The tied ridge and broad reed skirt make the single hut legible at 40 px. At 80 px the light thatch at the peak separates from the olive skirt. The rain jar, rolled mat and solar clasp read at full size. The stairs meet the raised deck squarely. Serialized LODs are 516/274/136 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "At LOD0 and LOD1, each front corner post has an outer X face coplanar with the main wall side for 0.014 tile behind the wall\u2019s front edge. Move the post inward or outward far enough to give the two visible planes distinct X coordinates.",
+            "At LOD0 and LOD1 the last tread ends at Z = -0.352 while the deck top starts at -0.353. Both exposed tops are at the same height across that 0.001-tile overlap. Terminate the upper tread at the deck edge or give the joint a small height step."
+          ]
+        },
+        {
+          "id": "bld_saurian_house_ancient_v1",
+          "evidence_sha256": "87e8baf59acc8a856ff7390b1015d89dc702625eb4510587a64bbcccb2b79e46",
+          "observations": "The sleeping wing has a second low reed hip below the bound ridge. Both masses and the front threshold survive the 40 px reduction. Two woven roof lozenges mark the household, and the jar sits clear of the landing. Serialized LODs are 566/326/180 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "At LOD0 and LOD1, each front corner post has an outer X face coplanar with the main wall side for 0.014 tile behind the wall\u2019s front edge. Move the post inward or outward far enough to give the two visible planes distinct X coordinates.",
+            "At LOD0 and LOD1 the last tread ends at Z = -0.352 while the deck top starts at -0.353. Both exposed tops are at the same height across that 0.001-tile overlap. Terminate the upper tread at the deck edge or give the joint a small height step."
+          ]
+        },
+        {
+          "id": "bld_saurian_house_ancient_bronze_v0",
+          "evidence_sha256": "f2d63a7aea10a2687899586cceb63f50a55b9fe6ff3464ec8144b4d4965f04c3",
+          "observations": "A cyan cornice separates the earth-coloured roof terrace from its inset cap at 40 px. The squared courses, rain jar and porch mat give the house both an age and a function. The front opening aligns with the steps. Serialized LODs are 506/284/122 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 92,
+            "charm": 92,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "At LOD0 and LOD1, each front corner post has an outer X face coplanar with the main wall side for 0.014 tile behind the wall\u2019s front edge. Move the post inward or outward far enough to give the two visible planes distinct X coordinates.",
+            "At LOD0 and LOD1 the last tread ends at Z = -0.352 while the deck top starts at -0.353. Both exposed tops are at the same height across that 0.001-tile overlap. Terminate the upper tread at the deck edge or give the joint a small height step."
+          ]
+        },
+        {
+          "id": "bld_saurian_house_ancient_bronze_v1",
+          "evidence_sha256": "9f412a26d5f7bfd6a87e5c29a2d9ee075db0b188a62b16ac6efcd77bda4aec64",
+          "observations": "The low side bay has its own roof terrace and lit corner windows. Its cornice stays distinct from the taller rear cap at 40 and 80 px. The stone deck, wooden piles and decorated entrance form a convincing waterside dwelling. Serialized LODs are 568/348/166 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 92,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "At LOD0 and LOD1, each front corner post has an outer X face coplanar with the main wall side for 0.014 tile behind the wall\u2019s front edge. Move the post inward or outward far enough to give the two visible planes distinct X coordinates.",
+            "At LOD0 and LOD1 the last tread ends at Z = -0.352 while the deck top starts at -0.353. Both exposed tops are at the same height across that 0.001-tile overlap. Terminate the upper tread at the deck edge or give the joint a small height step."
+          ]
+        },
+        {
+          "id": "bld_saurian_house_ancient_iron_v0",
+          "evidence_sha256": "5da9fb4e370e5c00c6c50652202ee599dfe6430ecdbf6dcf259e5c8a683e7720",
+          "observations": "Brown boards cap a raised smoke loft above the dark roof skirt. The warm windows and cyan solar motif remain visible against fieldstone walls at phone size. The jar and striped mat keep the modest house domestic. Serialized LODs are 508/266/112 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 92,
+            "charm": 92,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "At LOD0 and LOD1, each front corner post has an outer X face coplanar with the main wall side for 0.014 tile behind the wall\u2019s front edge. Move the post inward or outward far enough to give the two visible planes distinct X coordinates.",
+            "At LOD0 and LOD1 the last tread ends at Z = -0.352 while the deck top starts at -0.353. Both exposed tops are at the same height across that 0.001-tile overlap. Terminate the upper tread at the deck edge or give the joint a small height step."
+          ]
+        },
+        {
+          "id": "bld_saurian_house_ancient_iron_v1",
+          "evidence_sha256": "966669a25ba40a53ec1dc42ae71300ca37bf88eac3dc046095744cfff3135d55",
+          "observations": "The two-tiered hip over the side bay reads separately from the larger vented timber cap at 40 px. Gold-lit corner glazing, the solar inlays and the doorway ornament keep the charcoal-and-stone palette readable. Serialized LODs are 570/330/156 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "At LOD0 and LOD1, each front corner post has an outer X face coplanar with the main wall side for 0.014 tile behind the wall\u2019s front edge. Move the post inward or outward far enough to give the two visible planes distinct X coordinates.",
+            "At LOD0 and LOD1 the last tread ends at Z = -0.352 while the deck top starts at -0.353. Both exposed tops are at the same height across that 0.001-tile overlap. Terminate the upper tread at the deck edge or give the joint a small height step."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "ancient_critic",
+      "models": [
+        {
+          "id": "bld_saurian_house_ancient_v0",
+          "evidence_sha256": "2c433848b8a3163ec49d258136b43a7d659fe196c43df1b8345a4a9c655eaeca",
+          "observations": "The tied ridge and broad reed skirt make the single hut legible at 40 px. At 80 px the light thatch at the peak separates from the olive skirt. The rain jar, rolled mat and solar clasp read at full size. The stairs meet the raised deck squarely. Serialized LODs are 516/274/136 triangles. The revised corner posts clear the wall sides by 0.009 tile and the top tread ends at the deck edge. Both reduced LODs retain the house profile and entrance at 64 px.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_house_ancient_v1",
+          "evidence_sha256": "1404731be5946248e97b889514e9eef2a98d6ef53a6311459bc39de2bacdf911",
+          "observations": "The sleeping wing has a second low reed hip below the bound ridge. Both masses and the front threshold survive the 40 px reduction. Two woven roof lozenges mark the household, and the jar sits clear of the landing. Serialized LODs are 566/326/180 triangles. The revised corner posts clear the wall sides by 0.009 tile and the top tread ends at the deck edge. Both reduced LODs retain the house profile and entrance at 64 px.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_house_ancient_bronze_v0",
+          "evidence_sha256": "b356fb57ba17fd857df1ef9fb4c7b21fdc393f85fb0a63e86889b4775d9558d2",
+          "observations": "A cyan cornice separates the earth-coloured roof terrace from its inset cap at 40 px. The squared courses, rain jar and porch mat give the house both an age and a function. The front opening aligns with the steps. Serialized LODs are 506/284/122 triangles. The revised corner posts clear the wall sides by 0.009 tile and the top tread ends at the deck edge. Both reduced LODs retain the house profile and entrance at 64 px.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 92,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_house_ancient_bronze_v1",
+          "evidence_sha256": "0019cb71c94f7e522213fd08f491d28f35f20fcaf6cf5983148788cf18cbb2f0",
+          "observations": "The low side bay has its own roof terrace and lit corner windows. Its cornice stays distinct from the taller rear cap at 40 and 80 px. The stone deck, wooden piles and decorated entrance form a convincing waterside dwelling. Serialized LODs are 568/348/166 triangles. The revised corner posts clear the wall sides by 0.009 tile and the top tread ends at the deck edge. Both reduced LODs retain the house profile and entrance at 64 px.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 92,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_house_ancient_iron_v0",
+          "evidence_sha256": "3eb6e488cdf145d350afd583593ff921134b30e1bf19a4f6c4d550e814b5c87b",
+          "observations": "Brown boards cap a raised smoke loft above the dark roof skirt. The warm windows and cyan solar motif remain visible against fieldstone walls at phone size. The jar and striped mat keep the modest house domestic. Serialized LODs are 508/266/112 triangles. The revised corner posts clear the wall sides by 0.009 tile and the top tread ends at the deck edge. Both reduced LODs retain the house profile and entrance at 64 px.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 92,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_house_ancient_iron_v1",
+          "evidence_sha256": "fe493ce211fbd8214f8c9d810978dfdae921048781db6714cd959afa9bd466ac",
+          "observations": "The two-tiered hip over the side bay reads separately from the larger vented timber cap at 40 px. Gold-lit corner glazing, the solar inlays and the doorway ornament keep the charcoal-and-stone palette readable. Serialized LODs are 570/330/156 triangles. The revised corner posts clear the wall sides by 0.009 tile and the top tread ends at the deck edge. Both reduced LODs retain the house profile and entrance at 64 px.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

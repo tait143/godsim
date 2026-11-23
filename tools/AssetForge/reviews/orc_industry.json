@@ -1,0 +1,523 @@
+{
+  "package": "orc_industry",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "orc_critic",
+      "models": [
+        {
+          "id": "bld_orc_armory_ancient_v0",
+          "evidence_sha256": "be24f7524b7bf268dbff470a038ac1ddaee14ea312cc5d483fc3ccb81b808932",
+          "observations": "The three peaked display shields separate against dark hide roofing. Each has an ivory field or contrasting panel and a distinct boss, with a drum next to the unblocked door. Serialized LOD counts 618/397/170.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_armory_classical_v0",
+          "evidence_sha256": "e8401fa3da7262ecd8b01baf26c43221868519a9cec709dbaa53c1bf70c06156",
+          "observations": "Three shields form a continuous outdoor armor rack. The pale wall, warm roof and freestanding drum remain visible around the rack, and trim darkens in Medieval. Serialized LOD counts 618/397/170.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 93,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_armory_future_v0",
+          "evidence_sha256": "8197f95408396b712245dbc41d6a241f4cc0f02a8da92bc6a85fad918eafaeca",
+          "observations": "The side vault and three shield bosses read below a broad roof which shifts from charcoal to gold. A glazed workshop wall and flag complete a recognizable upgraded armory. Serialized LOD counts 638/417/190.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_armory_industrial_v0",
+          "evidence_sha256": "e979ebdb5d60b5a2bb35c3d3224ea95a350f0d4eb07b138da48c9aeca1397b47",
+          "observations": "The angular annex tucked left of the shield display is grounded and leaves the entry legible. The charcoal Ironworks palette lightens toward Modern steel without losing the shield motif. Serialized LOD counts 638/417/190.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_blacksmith_ancient_v0",
+          "evidence_sha256": "595248e72b728b2a31aaafe6f53eba849ebb0c48cae88ec99e205a12fc7a195f",
+          "observations": "A glowing furnace, quench water and stump-mounted anvil identify the trade. In both Iron and Bronze the large anvil and its horn visually cover the doorway and leave no clear front entrance. Serialized LOD counts 837/495/259.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 93,
+            "construction": 86,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Shift the stump and anvil laterally or shift the bay door to expose an unobstructed opening and approach on the negative-Z façade. Keep a clear view of the anvil's projecting horn at 64 pixels."
+          ]
+        },
+        {
+          "id": "bld_orc_blacksmith_classical_v0",
+          "evidence_sha256": "b42785649dc7a9e999de75a3cef0def2827318ab214a497bb7ea87f793b6f45b",
+          "observations": "The masonry kiln with gold-to-dark-iron flue and quench tub reads across its three ages. The anvil and stump sit immediately in the projected door position and hide the dark entry under the eave. Serialized LOD counts 837/495/259.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 92,
+            "construction": 86,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Shift the stump and anvil laterally or shift the bay door to expose an unobstructed opening and approach on the negative-Z façade. Keep a clear view of the anvil's projecting horn at 64 pixels."
+          ]
+        },
+        {
+          "id": "bld_orc_blacksmith_future_v0",
+          "evidence_sha256": "11d0d637f867fbf4c1622eb586316da233ffa18616b1ac7802812578e1c2b30e",
+          "observations": "The tall silver or gold flue contrasts against the glazed work bay. The front anvil nearly fills the doorway in the preview; the red or gold lintel behind it cannot identify an accessible entrance at phone size. Serialized LOD counts 837/495/259.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 94,
+            "construction": 86,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Shift the stump and anvil laterally or shift the bay door to expose an unobstructed opening and approach on the negative-Z façade. Keep a clear view of the anvil's projecting horn at 64 pixels."
+          ]
+        },
+        {
+          "id": "bld_orc_blacksmith_industrial_v0",
+          "evidence_sha256": "3a41548aa22029730ea157265cfff80569b5266c6648b2c239395bc2aadaf19d",
+          "observations": "The brick flue, tapping trough and steel anvil give the works a good process silhouette. The broad anvil body and stump merge into the front service door in both supported rows. Serialized LOD counts 837/495/259.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 93,
+            "construction": 86,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Shift the stump and anvil laterally or shift the bay door to expose an unobstructed opening and approach on the negative-Z façade. Keep a clear view of the anvil's projecting horn at 64 pixels."
+          ]
+        },
+        {
+          "id": "bld_orc_electronics_plant_future_v0",
+          "evidence_sha256": "771c9e11fedb0f4fdff84141ccc0ec482e29a900dd4eb5a528df2ac092ee9be8",
+          "observations": "The horizontal fin stack and blue glass courses make a distinct clean-room roof. Two curved tusks rise above its top plate, and the shift in facade and front fittings is clearest on the gold Ascension row. Serialized LOD counts 550/335/174.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_factory_future_v0",
+          "evidence_sha256": "dce27a5d20d088ec7e3da38208b0876d8f5908e528e8744b961b96d275f3e2e5",
+          "observations": "The future factory and Industrial factory have the same pair of straight stacks, identical sawtooth bays and door geometry. The new wall color alone does not meet the era geometry requirement. Enhanced package validator reports the duplicate LOD0. Serialized LOD counts 632/365/196.",
+          "scores": {
+            "silhouette": 83,
+            "identity": 85,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 95
+          },
+          "defects": [
+            "Replace the repeated sawtooth/stack massing with distinctive future process bays, cowls or another engineered profile and carry this through the authored LODs. Re-run the era duplication check."
+          ]
+        },
+        {
+          "id": "bld_orc_factory_industrial_v0",
+          "evidence_sha256": "4c22471da2793be649fb80a5b62375e79c28ca133e0cf8a49fe9afd434c1af13",
+          "observations": "The twin stacks and northlight bays read as an Industrial works, but the gate tusks are almost completely behind the horizontal roof lip and its small flag is lodged between the bays. Enhanced package validator reports duplicate LOD0 with future factory. Serialized LOD counts 632/365/196.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 86,
+            "construction": 92,
+            "charm": 89,
+            "colour": 93,
+            "technical": 95
+          },
+          "defects": [
+            "Resolve the factory pair's identical LOD0 geometry by rebuilding the future variant with a distinct era silhouette and revalidate both IDs.",
+            "Project the gate tusks or pennant visibly in front of or above the eave. The current small fragments and roof-occluded flag disappear at 64 pixels."
+          ]
+        },
+        {
+          "id": "bld_orc_foundry_future_v0",
+          "evidence_sha256": "9d07a8fbca9cb5f411491cf92c7382aa076254ec55f15ef1b54e5f46d6e27d70",
+          "observations": "Twin pale furnace vessels flank a supported jib and luminous charge ladle. The side office has a clear red-trimmed door, and the gold stack and crane distinguish Ascension from Information. Serialized LOD counts 1450/825/418.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_foundry_industrial_v0",
+          "evidence_sha256": "4d5d06c3eb5773210ec2b335d1600bb53034cb6047d3af436a8df7a43a9ca031",
+          "observations": "The tall brick and iron stacks, intake hall and hanging ladle establish a foundry at 64 pixels. The crane's diagonal brace fits the post and the dark foreground drum is separate from the hot charge. Serialized LOD counts 1450/825/418.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_smelter_ancient_v0",
+          "evidence_sha256": "686eca48108e63afa0cbe75166860b07ff604f9d1f41fa4f708b1fe42f17adbe",
+          "observations": "The tall furnace, tapping spout and separate bright crucible are readable together. The copper-to-iron change on the crucible and furnace collar remains apparent against the painted front eave. Serialized LOD counts 798/470/233.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_smelter_classical_v0",
+          "evidence_sha256": "5fe5be8f75bf038bcb8c183ff85381d74cc6ad76168a38cd18194c680df31c6f",
+          "observations": "The tall white and gray furnace keeps the tapping channel clear of the molten crucible. Light Classical, gray Medieval and warm Renaissance refractory walls separate the three views. Serialized LOD counts 798/470/233.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_smelter_future_v0",
+          "evidence_sha256": "194ac0c47d65e32e8c855eeb395de0789eeb30af21407ccd0dafa9096d4e997e",
+          "observations": "The flue and work hall meet around an overhead duct with a projecting hot crucible. The cream furnace and steel or gold equipment stay legible on the blue wall of the process hall. Serialized LOD counts 818/490/253.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_smelter_industrial_v0",
+          "evidence_sha256": "a18854a5e5c3957656876b4209d8c724d8edb05b393a43d6ac9158333a30834d",
+          "observations": "A dark stack rises from the brick furnace behind a luminous trough. The duct and second vessel make the building distinct from the single anvil of the smithy. Serialized LOD counts 818/490/253.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_weaver_ancient_v0",
+          "evidence_sha256": "ccb605c9517b55617c54ccd4d377c9e3fb0ecbe8e6f85dd05b1cd8f3f9a0a61b",
+          "observations": "A two-roller cloth loom and dyed spools tell the trade clearly. Their large patterned sheet occupies essentially the entire front of the lodge, completely hiding its doorway in Bronze and Iron. Serialized LOD counts 750/489/218.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 93,
+            "construction": 86,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": [
+            "Move or rotate the loom to one side of the hut’s front and expose the negative-Z doorway and route to it. Retain the visible rolled cloth, motif and spools."
+          ]
+        },
+        {
+          "id": "bld_orc_weaver_classical_v0",
+          "evidence_sha256": "35d72be31a0880a1cc9108ffd70061e8d429d2006cde888b08148f6e2eb590d7",
+          "observations": "The folded central weave, contrasting side borders and two spools read across the three rows. The cloth dominates the image and completely masks the lodge's front entrance. Serialized LOD counts 750/489/218.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 92,
+            "construction": 86,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Move or rotate the loom to one side of the hut’s front and expose the negative-Z doorway and route to it. Retain the visible rolled cloth, motif and spools."
+          ]
+        },
+        {
+          "id": "bld_orc_weaver_future_v0",
+          "evidence_sha256": "932d72641487e388033d463c37abec02f39c974e78717e855d7a7da16e6c72a0",
+          "observations": "The white-topped lodge and red-and-ivory loom explain its purpose. The front door is invisible behind the cloth, and the two late ages have nearly identical top panels, cloth and lozenge; only narrow side posts noticeably change. Serialized LOD counts 776/505/234.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 85,
+            "construction": 86,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Move or rotate the loom to one side of the hut’s front and expose the negative-Z doorway and route to it. Retain the visible rolled cloth, motif and spools.",
+            "Give the projecting loom beam, roof crest or another broad visible surface an age-reactive treatment that clearly distinguishes Information from Ascension at 64 pixels."
+          ]
+        },
+        {
+          "id": "bld_orc_weaver_industrial_v0",
+          "evidence_sha256": "4dd71a064f9a5d180e71aae59e89fe6510c93cabca7b5e5e6918d10a749845b1",
+          "observations": "The dark and gray roofs above the loom make the ages visible, and the angled rear legs support the cloth frame. Its full-width woven sheet conceals the doorway at normal and thumbnail size. Serialized LOD counts 760/489/218.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 93,
+            "construction": 86,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Move or rotate the loom to one side of the hut’s front and expose the negative-Z doorway and route to it. Retain the visible rolled cloth, motif and spools."
+          ]
+        },
+        {
+          "id": "bld_orc_workshop_classical_v0",
+          "evidence_sha256": "d93171d273af2d4e0592a78badda830436c4e9571200076e9f357a2c1525d33f",
+          "observations": "The wheel, spare block and broad working bench clearly occupy a front annex beside a visible entrance. Red drum and tusks frame the work area; the stone/metal colors separate the three ages. Serialized LOD counts 682/405/176.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_workshop_industrial_v0",
+          "evidence_sha256": "35f951da05a73782f71324ced229e43575000b5c47e45a86b796eb3ee1d42f92",
+          "observations": "The workbench has clear legs with the wheel and stock on its surface. A pennant and tusks project above the industrial roof; brick and charcoal give way to lighter Modern masonry and steel. Serialized LOD counts 682/405/176.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "orc_critic",
+      "models": [
+        {
+          "id": "bld_orc_blacksmith_ancient_v0",
+          "evidence_sha256": "8f42a49d6e346ccd0139c0b7ee39f9d77764b43ba6ae9012527ecac66d27f480",
+          "observations": "The stump now stands near the hot furnace while the quencher sits beyond the visible front door. The anvil horn projects clear from the stump in both early finishes. Revalidated LOD counts 837/495/259.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_blacksmith_classical_v0",
+          "evidence_sha256": "20b701e1a616065239b3dd1ae518e2f0cd59aa2d25cea998590fcefd4b620da5",
+          "observations": "A clear front approach now separates the smith's door from the working bay and blue tub. The projecting anvil horn and warm furnace tap remain readable in Classical, Medieval and Renaissance. Revalidated LOD counts 837/495/259.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_blacksmith_future_v0",
+          "evidence_sha256": "35925c2ec8400ae761f18620837fa777c92b54dd01b9db7f738ba9989411084a",
+          "observations": "Moving the anvil toward the furnace opened the red-trimmed entrance. Blue wall, dark or gold roof and horn remain distinct in both late ages. Revalidated LOD counts 837/495/259.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_blacksmith_industrial_v0",
+          "evidence_sha256": "0c4d521cd345358f3d8b5ade0e3862a9f3fec3eb1e2838349aa291db5aa7bf32",
+          "observations": "The furnace, anvil and separate quench tub make three legible stations. The negative-Z entry has daylight in front, with dark brick or lighter concrete behind the horn. Revalidated LOD counts 837/495/259.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_factory_future_v0",
+          "evidence_sha256": "15fd60ee691399ff4d6c75ce49fc1b71cd231d2891b11406b239f622c412ca5f",
+          "observations": "The broad individual heat-exchanger caps and raised glazed gallery distinguish Future from Industrial, and the package geometry check clears. In this new profile the earlier pennant is buried in the main roof. A tiny red triangle and pole nub project through the slope in both ages. Revalidated LOD counts 606/357/180.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 87,
+            "charm": 88,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Move the pennant to a visible roof mount so its pole and cloth clear the raised roof, or remove the intersecting decoration. In the Information and Ascension views only a red triangular fragment and pole tip emerge through the roof slope."
+          ]
+        },
+        {
+          "id": "bld_orc_factory_industrial_v0",
+          "evidence_sha256": "2d3c0b58a74d72be2ec12d4e2e83408f77df41e654ddaa727dd9a519a92d140d",
+          "observations": "Large pale horns and a raised pennant now stand in front of the original sawtooth bays; both cues survive 64-pixel downsampling. The other factory now has a different geometry signature. Revalidated LOD counts 632/365/196.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_weaver_ancient_v0",
+          "evidence_sha256": "3f68e11d15d321460a632b7ed65c1373f2b8607d9a664ba8b796d90a61fda8b8",
+          "observations": "Rotating and offsetting the loom gives a clear view of the entry beside the cloth. The diagonal frame is supported on two feet and both dyed spools can be seen in Bronze and Iron. Revalidated LOD counts 750/489/218.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_weaver_classical_v0",
+          "evidence_sha256": "c4f96ad102dc1285485261b61f85f3cd8595463fdc9d21834461572dbb97abbb",
+          "observations": "The side-bay alignment exposes the red-linteled door beside the working pattern. Three canopy and gateway tints remain readable around its planted feet. Revalidated LOD counts 750/489/218.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_weaver_future_v0",
+          "evidence_sha256": "4dc8964db31621eac8ff9ce246b7a910d114f9c1ac9c4ec81e326f27e34d3837",
+          "observations": "The roll and roof now turn from dark graphite to gold, marking Ascension clearly at 64 pixels. The motif still faces the viewer and the dark doorway is visible beyond the diagonal frame. Revalidated LOD counts 776/505/234.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_weaver_industrial_v0",
+          "evidence_sha256": "2a6b506c543684d44507123e824db61bc13f0aaaa989df125210b6afb2f472d3",
+          "observations": "Both rows show the completed cloth and frame off to one side, with a separate doorway and ground approach. The dark iron frame and exposed wall retain their industrial material change. Revalidated LOD counts 760/489/218.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "orc_critic",
+      "models": [
+        {
+          "id": "bld_orc_factory_future_v0",
+          "evidence_sha256": "4a8f4323efb133324d0f5c2c2744897b8f5654e40e2c05ecd9c5ec1ea87f9cfa",
+          "observations": "The pennant pole now rises from the process gallery ridge and its red swallowtail clears the roof in both full-size and 64-pixel previews. Its mount, the pair of cowls and the two entrance-side details remain distinct in both the graphite Information finish and gold Ascension finish. The package validator passed with 606/357/180 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

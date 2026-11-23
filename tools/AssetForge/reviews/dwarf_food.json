@@ -1,0 +1,858 @@
+{
+  "package": "dwarf_food",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Builder session 5 independent critic",
+      "models": [
+        {
+          "id": "bld_dwarf_farm_ancient_v0",
+          "evidence_sha256": "07626f418abfde7cb85375b9e4473080a3d111d5ec67e6ae0599ddc24c752d26",
+          "observations": "The stone terraces, alternating green and ripe rows and blue header tank read at 64 pixels across Dawn, Bronze and Iron. The tank crank stands above the water without a rim bearing; the hut's ochre roof changes very little. All three serialized levels validate at 1180/620/316 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 87,
+            "construction": 86,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Give the ancient workroom roof a broad surface mapped to a dwarf age-row role so that the roof changes visibly through the authored ages at 64 pixels.",
+            "Mount the header-tank crank on a bracket seated in the masonry rim. Its current shaft begins above the water and has no bearing at the tank."
+          ]
+        },
+        {
+          "id": "bld_dwarf_farm_classical_v0",
+          "evidence_sha256": "70aa8bb4b53e50ceeb2874075964c37f8f0ceaae670b32303121c3ab52f6ee52",
+          "observations": "The roof moves from terracotta to dark slate and back to warm tile while the light masonry and terrace stair remain legible. In the larger view the T crank stands alone in the tank with no support at the rim. All three serialized levels validate at 1180/620/316 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 86,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Mount the header-tank crank on a bracket seated in the masonry rim. Its current shaft begins above the water and has no bearing at the tank."
+          ]
+        },
+        {
+          "id": "bld_dwarf_farm_future_v0",
+          "evidence_sha256": "9dce612c07f8e7e845f5e7c578e53a5e51212ea533e34f7c640f6b9d31e3beaa",
+          "observations": "The silo and blue-capped shed separate cleanly from the green and gold crop rows in Information and Ascension. The second curved glass surface cuts a black diagonal through the glazed roof. All three serialized levels validate at 1056/628/336 triangles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 92,
+            "construction": 86,
+            "charm": 90,
+            "colour": 90,
+            "technical": 99
+          },
+          "defects": [
+            "Raise the roof collector on a solid curb, framing the glass and eliminating the intersecting diagonal seam in the workroom roof."
+          ]
+        },
+        {
+          "id": "bld_dwarf_farm_industrial_v0",
+          "evidence_sha256": "cc2bacab89d040a78d3c0f90b43eaa85e10924808117bd3712f2dbede0571247",
+          "observations": "The field edges stay distinct from the brick shed, and the hooped silo has a darker conical cover. The Modern steel roof and Industrial boiler-black roof remain separable at 64 pixels. All three serialized levels validate at 1036/608/316 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_fishing_hut_ancient_v0",
+          "evidence_sha256": "9c47d31a4ac0d5c386c6c412e8bb3563422a13f04d7ba10181d58293fec10158",
+          "observations": "The deep pointed dory, broad landing, barrel and two thwarts establish a fisher's workplace at phone size. The large tan roof is almost identical across Dawn, Bronze and Iron. All three serialized levels validate at 818/386/130 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 86,
+            "construction": 94,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Give the ancient workroom roof a broad surface mapped to a dwarf age-row role so that the roof changes visibly through the authored ages at 64 pixels."
+          ]
+        },
+        {
+          "id": "bld_dwarf_fishing_hut_classical_v0",
+          "evidence_sha256": "da7e22498bc7394e1b9118daa52822b7730230d75325edfa807abd5e7994bfc8",
+          "observations": "The projecting amber-rimmed dory and stumpy wharf piles read clearly in every age. The red Classical vault, dark Medieval roof and warmer Renaissance finish separate from the light jambs and the little cask. All three serialized levels validate at 818/386/130 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_fishing_hut_future_v0",
+          "evidence_sha256": "5532a118b6f6658e261a2cb7bc9031e3c0f6337bff834171f8e89d77e4b263ad",
+          "observations": "The blue glass vault and narrow side glazing sit above a squat, chisel-marked gate. The metal hull brightens across Information and Ascension. The thwart, paddle and dock cask stay distinct in the larger previews. All three serialized levels validate at 830/398/130 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_fishing_hut_industrial_v0",
+          "evidence_sha256": "33db0fb8d356e94fe7e69dd6d8bf7058baa273a07f9da1537613c220a0f99fa6",
+          "observations": "The dark flanged roof sits above the brick Industrial shed, shifting to lighter steel/concrete in Modern. The ochre gunwale outlines the hollow boat and the heavy stone pier anchors the timber deck. All three serialized levels validate at 830/398/130 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_gatherer_hut_ancient_v0",
+          "evidence_sha256": "d4ab2df0b43c7ecc6ff5d59cad02aa72db936778bed253dfa8032eacac84ed49",
+          "observations": "Two mushroom beds on stumps and a cluster of smaller caps around the threshold identify the gatherer. Its roof and much of the large fungus cap keep nearly the same brown value across the three ages. All three serialized levels validate at 994/346/140 triangles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 87,
+            "construction": 93,
+            "charm": 93,
+            "colour": 90,
+            "technical": 99
+          },
+          "defects": [
+            "Give the ancient workroom roof a broad surface mapped to a dwarf age-row role so that the roof changes visibly through the authored ages at 64 pixels."
+          ]
+        },
+        {
+          "id": "bld_dwarf_hunting_lodge_ancient_v0",
+          "evidence_sha256": "5bcbc23953ff1fbbebf96fa57bf98a7b81f6d8a5aa37df37c2eed3ecf350506e",
+          "observations": "The large hanging hide, pegged timber frame and barrel identify the curing yard. Only the ends of two ivory tines poke through the brown roof; their mounting disappears. The ancient roof has little age contrast. All three serialized levels validate at 664/266/130 triangles.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 86,
+            "construction": 86,
+            "charm": 88,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Give the ancient workroom roof a broad surface mapped to a dwarf age-row role so that the roof changes visibly through the authored ages at 64 pixels.",
+            "Bring the antlers forward onto a visible shield or lintel mount and join both antlers to it; only the two upper sticks currently emerge from the roof."
+          ]
+        },
+        {
+          "id": "bld_dwarf_hunting_lodge_classical_v0",
+          "evidence_sha256": "580de3ee191c3295079bd4d2dc747d6e8388b6f13403b8bc5de3fbb03bc99dea",
+          "observations": "The pale carved jamb and gold rune survive the shift from brick red Classical roof to slate Medieval. Two isolated antler tips sit on the roof surface in both views, and the hide rack carries nearly all the hunting identity. All three serialized levels validate at 664/266/130 triangles.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 92,
+            "construction": 86,
+            "charm": 88,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Bring the antlers forward onto a visible shield or lintel mount and join both antlers to it; only the two upper sticks currently emerge from the roof."
+          ]
+        },
+        {
+          "id": "bld_dwarf_hydroponics_tower_future_v0",
+          "evidence_sha256": "ec56e441ed2fbcc224ed10b5e0b1ee152e45e5f6ffc3eb2363d4c5794ceed0a8",
+          "observations": "Four stepped green growing trays are held on the tapered blue core. The pale metal ledges, inset gold bands and glass rooflight define the dwarf tower's silhouette in both future ages. The little portal sits below the first bed. All three serialized levels validate at 766/478/214 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_industrial_farm_future_v0",
+          "evidence_sha256": "c87c52d02e1475a67633d0453ee7c31a5c4b662a899d23e327a11a21f3d249dc",
+          "observations": "The irrigating gantry and twin peaked bins identify the mechanized plot even at 64 pixels, with a clear gold shift on the Ascension bins. The doubled glass shed crown cuts a diagonal line through its front slope. All three serialized levels validate at 1356/804/404 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 87,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Raise the roof collector on a solid curb, framing the glass and eliminating the intersecting diagonal seam in the workroom roof."
+          ]
+        },
+        {
+          "id": "bld_dwarf_industrial_farm_industrial_v0",
+          "evidence_sha256": "84b774b039f57ba563e5d1d9604acfbfd44da346844c64e69da1958f796aa4e8",
+          "observations": "The double grain bins, small spray nozzles and continuous overhead gantry clearly distinguish the large Modern installation from a small farm. The pale planted rows remain visible behind the frame at 64 pixels. All three serialized levels validate at 1336/784/384 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_mill_classical_v0",
+          "evidence_sha256": "0c9cbc2a95329e6d3af6c05ae42dbbeac6fa86cc58917c08df53eafbd3b4bf6d",
+          "observations": "The high-contrast paddle wheel, axle block and dark mill doors make a legible Medieval and Renaissance pair. Its blue stone-lined basin ends under the wheel on both sides, leaving no through-flow. All three serialized levels validate at 960/496/266 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 85,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Extend an open water race through the wheel from one plot boundary to another with side banks, so water can enter and leave the paddles."
+          ]
+        },
+        {
+          "id": "bld_dwarf_mill_industrial_v0",
+          "evidence_sha256": "40879df05b287d29ae8afa41227e636b7b256640c4d1bb4918d0190d0df9ea69",
+          "observations": "The chimney, brick bearing wall and darker iron wheel identify the Industrial retrofit. The coffer beneath the paddles reads as a closed pool; the wheel has no incoming or outgoing race. All three serialized levels validate at 1148/592/266 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 85,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Extend an open water race through the wheel from one plot boundary to another with side banks, so water can enter and leave the paddles."
+          ]
+        },
+        {
+          "id": "bld_dwarf_pasture_ancient_v0",
+          "evidence_sha256": "7cd6e59dd813f6a198b20239069fb6a4b3a35ad1a14054807df04f8d223be2ed",
+          "observations": "Pale horned rams and the blue trough read on the green plateau in Bronze and Iron. The brown hide roof changes little. The fence ends abruptly around a wide opening in front of the animals. All three serialized levels validate at 888/556/276 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 86,
+            "construction": 85,
+            "charm": 94,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Give the ancient workroom roof a broad surface mapped to a dwarf age-row role so that the roof changes visibly through the authored ages at 64 pixels.",
+            "Add two terminal gateposts and a hinged stock gate across the front opening so the pen can contain animals."
+          ]
+        },
+        {
+          "id": "bld_dwarf_pasture_classical_v0",
+          "evidence_sha256": "2c3ba861787260560b7ceaf334242cc103dcee473e35c4dd61df32f7d6a50cda",
+          "observations": "The red roof against light piers, Medieval slate, and warm Renaissance tiles distinguish the ages above the green pen. The two pale rams have clear silhouettes, but the front fence has neither gate nor terminal posts. All three serialized levels validate at 888/556/276 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 85,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Add two terminal gateposts and a hinged stock gate across the front opening so the pen can contain animals."
+          ]
+        },
+        {
+          "id": "bld_dwarf_pasture_future_v0",
+          "evidence_sha256": "5ebdb8ba22df94d51f879ca0ebef41d6a7d3ca2e33e6161b0fa8416f65631f8e",
+          "observations": "Bright blue glazing and the later gold rail finish distinguish the two late-age pens. The dwarf portal and clipped plinth remain visible behind the animals. Two floating rail ends leave the front of the pen open. All three serialized levels validate at 900/568/276 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 85,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Add two terminal gateposts and a hinged stock gate across the front opening so the pen can contain animals."
+          ]
+        },
+        {
+          "id": "bld_dwarf_pasture_industrial_v0",
+          "evidence_sha256": "ec43132a51ea1b10e76157597cc24eabba9584e1b98e1928944157a3be679c94",
+          "observations": "A brick/steel shed shelters two horned animals with a stone water trough. The metal rails contrast well with the grass in Industrial and Modern. The wide front opening has no gate. All three serialized levels validate at 900/568/276 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 85,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Add two terminal gateposts and a hinged stock gate across the front opening so the pen can contain animals."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Builder session 5 independent critic",
+      "models": [
+        {
+          "id": "bld_dwarf_farm_ancient_v0",
+          "evidence_sha256": "53607a69503fbc20b737600b8366ed5168eab6b12e613f1b82c4a12d0777e823",
+          "observations": "The tank bridge bears on both lips and carries the shaft directly above the water. In the 64-pixel triplet the tan Bronze cap, deep Iron roof and golden Dawn thatch separate above the terraced rows. The GLB validates at 1192/632/316 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_farm_classical_v0",
+          "evidence_sha256": "d9b52d946ee372a7b2a0cbdd51e43f8598c88cfe79960a903ce623363c7b994b",
+          "observations": "The new crosspiece spans the circular tank and gives the pump its bearing. At 64 pixels the water, warm or slate workroom roof, and three planted terraces retain separate value bands. The GLB validates at 1192/632/316 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_farm_future_v0",
+          "evidence_sha256": "0c9b3c58f11c77ed356d9866c4ba3442a5d91bd9067203baedf59224a63c8600",
+          "observations": "A pale raised curb sets off the glass collector, which now has a clear base and distinct stepped outline. At 64 pixels the blue shed and its stepped glazing stand apart from the silo in both age rows. The GLB validates at 1068/640/316 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_fishing_hut_ancient_v0",
+          "evidence_sha256": "2e40cca2040664a0c5dcba403fde32d77620e549b030c9fd839551be3903974d",
+          "observations": "The dory keeps its open seats, paddle and gold rim beside the wharf. From Dawn to Bronze to Iron, the aging thatch, ochre covering and dark timber treatments now read on the broad roof at 64 pixels. The GLB validates at 818/386/130 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_gatherer_hut_ancient_v0",
+          "evidence_sha256": "1f5018c955bec1d49c791ee68fb0e5d34f3b519ee1aeb1c786b315bb0acbf356",
+          "observations": "The oversized mushroom caps and short stems remain visible at the entrance. At 64 pixels the caps keep their warmth while the dwarf roof changes from golden reed to brown ochre and dark iron-age timber. The GLB validates at 994/346/140 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_hunting_lodge_ancient_v0",
+          "evidence_sha256": "698161a0e631388c0f1fe86a41d590287e4a38391f75853e4442b9892ed0ce09",
+          "observations": "The two antlers join on a brown plate over the entrance and form one readable crown. The hide rack remains clear at 64 pixels against all three roof values; the plate separates the ivory horns from the stonework. The GLB validates at 704/306/194 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_hunting_lodge_classical_v0",
+          "evidence_sha256": "48ba74773f61e127325259fb7efe9e1f97c8e8d5e08f91b204267d7fd7c3e2fb",
+          "observations": "The antler assembly now sits visibly in front of the end wall, with the tines rising from a common base. The light rack skin and distinctive horn shape read at 64 pixels against the terracotta and slate ages. The GLB validates at 704/306/194 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_industrial_farm_future_v0",
+          "evidence_sha256": "10a6fe9ff5d38bd375e7d26751549820a82b3afe4ddf4bc44ea79665d5a3349d",
+          "observations": "The cap above the glass shed now rests on a deep, contrasting curb. The twin silos, separate roof levels and long irrigation bar survive the reduction to 64 pixels in both late-age palettes. The GLB validates at 1368/816/384 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_mill_classical_v0",
+          "evidence_sha256": "8c97ce7bee6d11e7ed119324e6c0fa007c3f24234f98544c1b3911812f1459ac",
+          "observations": "The blue waterway passes beneath the paddles and runs between parallel masonry banks to both sides. A plank crossing lines up with the door. The blue strip still reads below the open wheel at 64 pixels across both ages. The GLB validates at 996/532/302 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_mill_industrial_v0",
+          "evidence_sha256": "44d0cca24c85609e93d79eda2b1bdf0727a5ee18882d05e183e79b1fef87a211",
+          "observations": "An edge-to-edge open race carries water under the iron wheel. A plank crosses to the entrance clear of the bearing. At 64 pixels the water strip and tall wheel contrast with the brick engine house. The GLB validates at 1184/628/302 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_pasture_ancient_v0",
+          "evidence_sha256": "6760c5a17741cf152598ad7a7d632c62ea28cd0236825ed65cbd48132c39d791",
+          "observations": "The gate closes the front run between two upright posts; the hinge-side detail and grazing stock remain clear in the larger view. The broad roof shifts from Bronze ochre to darker Iron at 64 pixels. The GLB validates at 936/604/292 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_pasture_classical_v0",
+          "evidence_sha256": "22e4c84c9844d47e67893ddf3ef902c80f262c0aeb0901854596ea79afbc7f94",
+          "observations": "Posts and a cross-braced gate complete the fenced foreground. At 64 pixels the animals and shut gate sit distinctly in front of the shelter in Classical, Medieval and Renaissance colors. The GLB validates at 936/604/292 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_pasture_future_v0",
+          "evidence_sha256": "10fe02783c0036e9c7aa3c66ed56102444328b70b35f9231dcf13676d80c3438",
+          "observations": "A closed stock gate continues the front rails and is carried by two posts. The tiny 64-pixel pen keeps both rams visible against the grass, beneath the blue or pale-cyan glazed vault. The GLB validates at 948/616/292 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_pasture_industrial_v0",
+          "evidence_sha256": "551e58b69d20a0bad5aa2d26c898b3c85d97cb3b04b7c17dc384988648090466",
+          "observations": "The new gate completes the metal-railed enclosure and its short solid posts keep the entrance discernible. At 64 pixels the pale rams remain separate from the blue trough and the Industrial or Modern shelter. The GLB validates at 948/616/292 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Dwarf Food final critic",
+      "models": [
+        {
+          "id": "bld_dwarf_farm_ancient_v0",
+          "evidence_sha256": "65c45747e5621529bffd4130a7c9a50f84cb3a78233bf94f36e66a87f535fc5c",
+          "observations": "At 64 pixels the band of ripe heads divides the two green terraces. The well crank meets the crossbar on the rim. Straw, ochre and charcoal roof surfaces distinguish the three early ages. The current surface and serialized checks passed on 1188/628/316 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_farm_classical_v0",
+          "evidence_sha256": "100353483d7f2bea058f511cf86397b3a825c00a7555937fc04063b826920f62",
+          "observations": "In all three ages the compact shed and open blue cistern sit behind a readable three-row plot. At full size a small barrel stands beside the cistern and the masonry lips retain the raised soil. The dark Medieval roof is particularly clear. The current surface and serialized checks passed on 1188/628/316 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_farm_future_v0",
+          "evidence_sha256": "3aadb81b2102e7de1121b9c2807da53b1be23d4d52a051f76d7e40e6a335459b",
+          "observations": "The square-framed blue collector rises above the main roof as a second tier. The left silo goes from gray with a narrow band to gold at Ascension, while the uninterrupted crop rows continue to read at 64 pixels. The current surface and serialized checks passed on 1064/636/316 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_farm_industrial_v0",
+          "evidence_sha256": "89cef51cbe793554c7ad2819b8980f78b177480b9e7588e9957547defaa8b9fe",
+          "observations": "The short silo has a distinct cap and a clear base beside the field. Brass flashes frame the dark metal shed, with a lighter clerestory and wall in Modern. The crops remain the brightest part of the plot at phone size. The current surface and serialized checks passed on 1032/604/316 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_fishing_hut_ancient_v0",
+          "evidence_sha256": "85f8b30109e071f8601c282c01f0f9b5a08b7dd080786387c5912d621b351f97",
+          "observations": "The dory nose extends past the plank landing and the two thwarts are visible at full size. Piles carry the deck and barrel. The low eaves change from straw to copper-brown to slate while retaining a clear hull outline at 64 pixels. The current surface and serialized checks passed on 814/382/130 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_fishing_hut_classical_v0",
+          "evidence_sha256": "2cdc1529905c47333000f90b244bcd0ada78bd587240ddd744056e7c593b24c3",
+          "observations": "The open boat remains separate from the broad shoulder-cut hut in all three rows. Terracotta eaves, dark Medieval roofing and pale Renaissance stone give the dock distinct backdrops. The barrel and small hanging line remain clear at full size. The current surface and serialized checks passed on 814/382/130 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_fishing_hut_future_v0",
+          "evidence_sha256": "79bead1c2da5667134768d9d786ac80dac345a9ee6bb56e4beb35adb0a4146df",
+          "observations": "A blue roof and narrow glass side light identify the newer harbor hut. The oar lies inside the open hull, which reads as its own shape in both metal finishes at 64 pixels. The dock posts meet the shoreline base. The current surface and serialized checks passed on 826/394/130 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_fishing_hut_industrial_v0",
+          "evidence_sha256": "acf313391678e17dd20e63be738a1cf88912142b77d679ac7fcf58e27a8dd4bb",
+          "observations": "The low roof glazing and plate ends distinguish the dark industrial and bright modern dock house. The gold gunwale separates the dinghy from the hull shadow. The landing barrel fits between the mooring and the door. The current surface and serialized checks passed on 826/394/130 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_gatherer_hut_ancient_v0",
+          "evidence_sha256": "9afba2cbbdceade9b5617afca8ed92ab46529f83cb03fa84650cfbf485903afa",
+          "observations": "Groups of different-sized mushrooms flank the porch and read as two warm clusters at 64 pixels. At full size their caps rest on stems, and the stepped stone footing separates the shelter from the ground in all three ages. The current surface and serialized checks passed on 990/342/140 triangles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 92,
+            "construction": 94,
+            "charm": 95,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_hunting_lodge_ancient_v0",
+          "evidence_sha256": "46ec02f722548abbedda60e344348f28bb5b24e033c102967ae7f724bb44ef40",
+          "observations": "The paired antlers meet a plaque over the central door and extend forward of the eaves. The hide and its upright frame form a second silhouette at 64 pixels. A barrel on the opposite side leaves the entrance legible. The current surface and serialized checks passed on 700/302/194 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_hunting_lodge_classical_v0",
+          "evidence_sha256": "956bdf6f899306d9f5cff9d335003263664dde2b4e707b97382a3d8912c8a548",
+          "observations": "Pale antlers stand out against both tile and slate, meeting the mounting block at their roots. The hide hangs from the side frame, distinct from the lower doorway in the full-size view. Both age rows retain the projecting rack at 64 pixels. The current surface and serialized checks passed on 700/302/194 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_hydroponics_tower_future_v0",
+          "evidence_sha256": "65894ab718c083cab12f00519a4af8e1965c3ad5fbef8df533d71fd6b84471fa",
+          "observations": "Four offset green growing decks and their stone rims form a distinct tapered tower at 64 pixels. A cyan roof cap and striped planter lips provide contrasting surfaces. The low, dark entrance meets the base at its front. The current surface and serialized checks passed on 766/478/214 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_industrial_farm_future_v0",
+          "evidence_sha256": "12a6b503ffaa9a639e1fbbd931ed8b24329c647ebf8b20bb02335eebdd4bee52",
+          "observations": "Two capped silos and a gantry bracket the rows without obscuring the seed heads. The blue roof collector has a visible raised edge, and the gantry feet meet the terrace base. The gray to gold equipment change is clear at phone size. The current surface and serialized checks passed on 1364/812/384 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_industrial_farm_industrial_v0",
+          "evidence_sha256": "bbd21956cbc9e1c37ed07ae31f9632b7b7f577d66faab5a86f2fc12d81695b7f",
+          "observations": "The gantry crosses the plot on two supports, with two capped silos tucked behind its end. The orange edge strips and small suspended nozzles are visible at full size. At 64 pixels the paired silos distinguish the mechanized plot. The current surface and serialized checks passed on 1332/780/384 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_mill_classical_v0",
+          "evidence_sha256": "a7713b108f8f94176d5199c598bc1ccda885e23df2dd0e76e4e199d20c29a92f",
+          "observations": "The wheel clears the walls and meets a separate outer bearing in both age views. Water runs the width of the stone race below its paddles. The short bridge gives the door a dry approach, and the open spokes remain recognizable at 64 pixels. The current surface and serialized checks passed on 1040/576/326 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_mill_industrial_v0",
+          "evidence_sha256": "c3f2abd9f64b8b131a4c0a9e9bf5c9c7d44276644441021d225ef4ec909c52d9",
+          "observations": "The steel wheel and brick flue distinguish the industrial mill. The exposed axle meets the stone bearing and the footbridge crosses the open-ended water channel. Even reduced to 64 pixels the blue trough and wheel outline are distinct. The current surface and serialized checks passed on 1228/672/326 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_pasture_ancient_v0",
+          "evidence_sha256": "318a8af228d09dcdd8db19cd768ae43e23a33051a45d0029102885d87357bfc5",
+          "observations": "Both grazing animals remain identifiable as separate pale shapes on the grass. The front gate spans its stone posts and the rails meet around the plot. The trough and the changed Bronze and Iron roof surfaces read clearly at full size. The current surface and serialized checks passed on 932/600/292 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_pasture_classical_v0",
+          "evidence_sha256": "ddf735da65bcbc87043d094a56d70968febc26a0d65c967feff014b89ec29dd2",
+          "observations": "The fenced square provides a clear silhouette around the rams at 64 pixels. At full size the gate has two jambs and a diagonal brace, and the water trough sits inside the enclosure. Roof tile and slate distinguish the age views. The current surface and serialized checks passed on 932/600/292 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_pasture_future_v0",
+          "evidence_sha256": "7f6f2b09ae883cbfd77ff326cbfab40e8ab01e6db559c78e44795cd1e04ce34b",
+          "observations": "Blue glazing and the shallow vault crown distinguish this pen from its predecessors. The gray then gold rails meet at the corners, and the framed gate closes the near side. Two pale rams still separate from the bright building at 64 pixels. The current surface and serialized checks passed on 944/612/292 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_pasture_industrial_v0",
+          "evidence_sha256": "a55df26974dcc5e867dff3f3f69d14d5cf22db4a73bde959fc8d41e0dc168c7f",
+          "observations": "The rail corners and gate connect through the posts around the meadow. The cool blue trough is legible beside the rams. Dark masonry and bright modern panels change the shed while the livestock silhouette stays consistent at thumbnail size. The current surface and serialized checks passed on 944/612/292 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Dwarf Food art-direction re-review",
+      "models": [
+        {
+          "id": "bld_dwarf_hydroponics_tower_future_v0",
+          "evidence_sha256": "5bf009dd6dbf7c9ad6f9907e7a1377468591393d3fe44cd664c81726e266840c",
+          "observations": "The vaulted cap and four wide tray rims change together from charcoal in Information to ochre metal in Ascension. At 64 pixels the change runs from the crown to the lowest planted tier. The green beds remain visible in each age. Renders of the serialized LODs retain the crown, all four green bands and the light stone footing at 766/478/214 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_industrial_farm_future_v0",
+          "evidence_sha256": "f6b9f8ac3c6fc4e59eb85afafe638f8c528656fe3f09daafa2e7f989b7e14922",
+          "observations": "Two broad glazed bays cover the growing hall in both 64-pixel future rows. The ordinary Farm shows an open field, round silo and small glazed shed alongside it. The vent rises on the left and produce boxes flank the hall door. Information has blue panes and dark framing. Ascension has paler panes and gold framing. All three serialized LODs retain the two sloping roofs and front boxes at 1258/526/254 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_industrial_farm_industrial_v0",
+          "evidence_sha256": "b65b85ca993bf43b2f00d4bde2a4ef0279d1f02e6f69522e88fc883c875767dc",
+          "observations": "Modern is the authored age. Three stepped glazed bays span the building. At 64 pixels their roofline and single stack distinguish the growing hall from the ordinary Modern Farm's small shed, silo and exposed crop rows. Front produce boxes give the close view a harvest cue. The finer glazing bars drop out with distance, while the three bay profiles, stack and boxes remain in all serialized LODs at 1294/542/274 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 93,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

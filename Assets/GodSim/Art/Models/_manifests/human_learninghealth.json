@@ -1,0 +1,1324 @@
+[
+ {
+  "id": "bld_human_bathhouse_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Bathhouse",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 841,
+  "lod_triangles": [
+   841,
+   490,
+   208
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.2899999618530273,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 120644,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_bathhouse_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_bathhouse_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_bathhouse_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_bathhouse_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_bathhouse_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_bathhouse_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Bathhouse",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1011,
+  "lod_triangles": [
+   1011,
+   552,
+   224
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.3200000524520874,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 142600,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_bathhouse_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_bathhouse_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_bathhouse_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_bathhouse_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_bathhouse_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Bathhouse",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 935,
+  "lod_triangles": [
+   935,
+   514,
+   218
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.2899999618530273,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 128888,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_bathhouse_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_bathhouse_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_bathhouse_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_bathhouse_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_data_center_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "DataCenter",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 681,
+  "lod_triangles": [
+   681,
+   450,
+   178
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.2345000505447388,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 97868,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_data_center_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_data_center_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_data_center_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_data_center_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_herbalist_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "human",
+  "ages": [
+   "bronze",
+   "iron",
+   "dawn"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1076,
+  "lod_triangles": [
+   1076,
+   486,
+   210
+  ],
+  "bounds": [
+   [
+    -0.4625000059604645,
+    0.0,
+    -0.44999998807907104
+   ],
+   [
+    0.4625000059604645,
+    0.771399974822998,
+    0.44999998807907104
+   ]
+  ],
+  "bytes": 156244,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_herbalist_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_herbalist_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_herbalist_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_herbalist_ancient_v0__iron.png",
+   "dawn": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_herbalist_ancient_v0__dawn.png"
+  }
+ },
+ {
+  "id": "bld_human_herbalist_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1108,
+  "lod_triangles": [
+   1108,
+   508,
+   232
+  ],
+  "bounds": [
+   [
+    -0.4625000059604645,
+    0.0,
+    -0.44999998807907104
+   ],
+   [
+    0.4625000059604645,
+    0.8542904853820801,
+    0.44999998807907104
+   ]
+  ],
+  "bytes": 161776,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_herbalist_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_herbalist_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_herbalist_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_herbalist_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_herbalist_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_herbalist_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1184,
+  "lod_triangles": [
+   1184,
+   546,
+   238
+  ],
+  "bounds": [
+   [
+    -0.4625000059604645,
+    0.0,
+    -0.44999998807907104
+   ],
+   [
+    0.4625000059604645,
+    0.8195400238037109,
+    0.44999998807907104
+   ]
+  ],
+  "bytes": 175088,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_herbalist_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_herbalist_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_herbalist_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_herbalist_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_herbalist_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1236,
+  "lod_triangles": [
+   1236,
+   562,
+   248
+  ],
+  "bounds": [
+   [
+    -0.4625000059604645,
+    0.0,
+    -0.44999998807907104
+   ],
+   [
+    0.4625000059604645,
+    0.6021559834480286,
+    0.44999998807907104
+   ]
+  ],
+  "bytes": 174792,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_herbalist_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_herbalist_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_herbalist_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_herbalist_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_hospital_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Hospital",
+  "race": "human",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 850,
+  "lod_triangles": [
+   850,
+   422,
+   198
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.9229999780654907
+   ],
+   [
+    0.925000011920929,
+    1.2799999713897705,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 112232,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_hospital_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_hospital_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_hospital_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_hospital_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Hospital",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 946,
+  "lod_triangles": [
+   946,
+   480,
+   224
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.9229999780654907
+   ],
+   [
+    0.925000011920929,
+    1.684000015258789,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 129320,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_hospital_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_hospital_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_hospital_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_hospital_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_hospital_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Hospital",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 836,
+  "lod_triangles": [
+   836,
+   418,
+   194
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.9229999780654907
+   ],
+   [
+    0.925000011920929,
+    1.649999976158142,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 109544,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_hospital_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_hospital_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_hospital_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_hospital_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_library_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Library",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 733,
+  "lod_triangles": [
+   733,
+   406,
+   182
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.440000057220459,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 109284,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_library_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_library_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_library_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_library_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_library_classical_v0__renaissance.png",
+   "iron": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_library_classical_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_human_library_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Library",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 827,
+  "lod_triangles": [
+   827,
+   446,
+   206
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.6878000497817993,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 116292,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_library_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_library_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_library_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_library_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_library_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Library",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 787,
+  "lod_triangles": [
+   787,
+   426,
+   208
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.519628643989563,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 112040,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_library_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_library_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_library_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_library_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_medical_center_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "MedicalCenter",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1030,
+  "lod_triangles": [
+   1030,
+   528,
+   198
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.8669999837875366,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 152060,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_medical_center_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_medical_center_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_medical_center_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_medical_center_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_observatory_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Observatory",
+  "race": "human",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 801,
+  "lod_triangles": [
+   801,
+   454,
+   189
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.5679999589920044,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 122908,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_observatory_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_observatory_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_observatory_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_observatory_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Observatory",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 811,
+  "lod_triangles": [
+   811,
+   464,
+   199
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.5479999780654907,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 125272,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_observatory_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_observatory_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_observatory_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_observatory_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_observatory_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Observatory",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 801,
+  "lod_triangles": [
+   801,
+   454,
+   189
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.5041847229003906,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 122728,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_observatory_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_observatory_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_observatory_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_observatory_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_printworks_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Printworks",
+  "race": "human",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 536,
+  "lod_triangles": [
+   536,
+   278,
+   160
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.1100000143051147,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 77060,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_printworks_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_printworks_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_printworks_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_printworks_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Printworks",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 738,
+  "lod_triangles": [
+   738,
+   384,
+   219
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.3242000341415405,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 102792,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_printworks_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_printworks_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_printworks_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_printworks_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_printworks_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Printworks",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 590,
+  "lod_triangles": [
+   590,
+   310,
+   183
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.3911256790161133,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 84480,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_printworks_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_printworks_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_printworks_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_printworks_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_research_lab_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "ResearchLab",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1101,
+  "lod_triangles": [
+   1101,
+   684,
+   350
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.5169999599456787,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 172440,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_research_lab_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_research_lab_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_research_lab_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_research_lab_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_research_lab_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "ResearchLab",
+  "race": "human",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 921,
+  "lod_triangles": [
+   921,
+   588,
+   292
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    0.925000011920929,
+    1.3669999837875366,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 148284,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_research_lab_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_research_lab_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_research_lab_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_scriptorium_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "human",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 615,
+  "lod_triangles": [
+   615,
+   350,
+   180
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.44999998807907104
+   ],
+   [
+    0.925000011920929,
+    0.8813999891281128,
+    0.44999998807907104
+   ]
+  ],
+  "bytes": 96168,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_scriptorium_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_scriptorium_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_scriptorium_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_scriptorium_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 647,
+  "lod_triangles": [
+   647,
+   372,
+   202
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.44999998807907104
+   ],
+   [
+    0.925000011920929,
+    1.1243401765823364,
+    0.44999998807907104
+   ]
+  ],
+  "bytes": 102292,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_scriptorium_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_scriptorium_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_scriptorium_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_scriptorium_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_scriptorium_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_scriptorium_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 723,
+  "lod_triangles": [
+   723,
+   410,
+   208
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.44999998807907104
+   ],
+   [
+    0.925000011920929,
+    1.068600058555603,
+    0.44999998807907104
+   ]
+  ],
+  "bytes": 114644,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_scriptorium_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_scriptorium_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_scriptorium_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_scriptorium_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_scriptorium_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 775,
+  "lod_triangles": [
+   775,
+   426,
+   218
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.44999998807907104
+   ],
+   [
+    0.925000011920929,
+    0.9512879848480225,
+    0.44999998807907104
+   ]
+  ],
+  "bytes": 115056,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_scriptorium_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_scriptorium_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_scriptorium_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_scriptorium_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_university_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "University",
+  "race": "human",
+  "ages": [
+   "renaissance",
+   "medieval"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 836,
+  "lod_triangles": [
+   836,
+   424,
+   188
+  ],
+  "bounds": [
+   [
+    -1.3875000476837158,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    1.3875000476837158,
+    2.0299999713897705,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 112184,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_university_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_university_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_university_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_university_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_human_university_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "University",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1046,
+  "lod_triangles": [
+   1046,
+   550,
+   276
+  ],
+  "bounds": [
+   [
+    -1.3875000476837158,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    1.3875000476837158,
+    2.0999999046325684,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 142316,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_university_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_university_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_university_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_university_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_university_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/LearningHealth",
+  "building_type": "University",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 996,
+  "lod_triangles": [
+   996,
+   500,
+   226
+  ],
+  "bounds": [
+   [
+    -1.3875000476837158,
+    0.0,
+    -0.8999999761581421
+   ],
+   [
+    1.3875000476837158,
+    2.130000114440918,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 130280,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_university_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_university_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_university_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_university_industrial_v0__modern.png"
+  }
+ }
+]

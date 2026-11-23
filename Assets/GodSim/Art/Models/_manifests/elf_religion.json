@@ -1,0 +1,668 @@
+[
+ {
+  "id": "bld_elf_cathedral_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Religion",
+  "building_type": "Cathedral",
+  "race": "elf",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1286,
+  "lod_triangles": [
+   1286,
+   680,
+   277
+  ],
+  "bounds": [
+   [
+    -1.0200166702270508,
+    0.0,
+    -1.1333074569702148
+   ],
+   [
+    1.0200166702270508,
+    1.985200047492981,
+    1.183307409286499
+   ]
+  ],
+  "bytes": 217364,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_cathedral_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_cathedral_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_cathedral_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_cathedral_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_cathedral_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Religion",
+  "building_type": "Cathedral",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1342,
+  "lod_triangles": [
+   1342,
+   714,
+   299
+  ],
+  "bounds": [
+   [
+    -1.0200166702270508,
+    0.0,
+    -1.1333074569702148
+   ],
+   [
+    1.0200166702270508,
+    2.880941152572632,
+    1.183307409286499
+   ]
+  ],
+  "bytes": 229168,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_cathedral_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_cathedral_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_cathedral_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_cathedral_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_cathedral_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Religion",
+  "building_type": "Cathedral",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1286,
+  "lod_triangles": [
+   1286,
+   680,
+   277
+  ],
+  "bounds": [
+   [
+    -1.0200166702270508,
+    0.0,
+    -1.1333074569702148
+   ],
+   [
+    1.0200166702270508,
+    2.2546000480651855,
+    1.183307409286499
+   ]
+  ],
+  "bytes": 217268,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_cathedral_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_cathedral_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_cathedral_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_cathedral_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_monastery_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Religion",
+  "building_type": "Monastery",
+  "race": "elf",
+  "ages": [
+   "medieval",
+   "renaissance",
+   "classical"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 924,
+  "lod_triangles": [
+   924,
+   597,
+   256
+  ],
+  "bounds": [
+   [
+    -0.8647122383117676,
+    0.0,
+    -0.6703454256057739
+   ],
+   [
+    0.8647122383117676,
+    0.892795205116272,
+    0.8253800272941589
+   ]
+  ],
+  "bytes": 161460,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_monastery_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_monastery_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_monastery_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_monastery_classical_v0__renaissance.png",
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_monastery_classical_v0__classical.png"
+  }
+ },
+ {
+  "id": "bld_elf_monastery_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Religion",
+  "building_type": "Monastery",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 924,
+  "lod_triangles": [
+   924,
+   597,
+   256
+  ],
+  "bounds": [
+   [
+    -0.8647122383117676,
+    0.0,
+    -0.6703454256057739
+   ],
+   [
+    0.8647122383117676,
+    1.1361019611358643,
+    0.8253800272941589
+   ]
+  ],
+  "bytes": 161348,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_monastery_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_monastery_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_monastery_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_monastery_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_monastery_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Religion",
+  "building_type": "Monastery",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 924,
+  "lod_triangles": [
+   924,
+   597,
+   256
+  ],
+  "bounds": [
+   [
+    -0.8647122383117676,
+    0.0,
+    -0.6703454256057739
+   ],
+   [
+    0.8647122383117676,
+    1.014448642730713,
+    0.8253800272941589
+   ]
+  ],
+  "bytes": 161540,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_monastery_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_monastery_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_monastery_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_monastery_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_shrine_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Religion",
+  "building_type": "Shrine",
+  "race": "elf",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 760,
+  "lod_triangles": [
+   760,
+   460,
+   164
+  ],
+  "bounds": [
+   [
+    -0.3709155321121216,
+    0.0,
+    -0.4041496217250824
+   ],
+   [
+    0.3709155321121216,
+    0.8108000159263611,
+    0.35303995013237
+   ]
+  ],
+  "bytes": 125688,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_shrine_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_shrine_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Religion",
+  "building_type": "Shrine",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 760,
+  "lod_triangles": [
+   760,
+   460,
+   164
+  ],
+  "bounds": [
+   [
+    -0.3709155321121216,
+    0.0,
+    -0.4041496217250824
+   ],
+   [
+    0.3709155321121216,
+    0.919160008430481,
+    0.35303995013237
+   ]
+  ],
+  "bytes": 125680,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_shrine_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_shrine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Religion",
+  "building_type": "Shrine",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 794,
+  "lod_triangles": [
+   794,
+   482,
+   177
+  ],
+  "bounds": [
+   [
+    -0.3709155321121216,
+    0.0,
+    -0.4041496217250824
+   ],
+   [
+    0.3709155321121216,
+    1.1358799934387207,
+    0.35303995013237
+   ]
+  ],
+  "bytes": 131616,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_shrine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_shrine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Religion",
+  "building_type": "Shrine",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 794,
+  "lod_triangles": [
+   794,
+   482,
+   177
+  ],
+  "bounds": [
+   [
+    -0.3709155321121216,
+    0.0,
+    -0.4041496217250824
+   ],
+   [
+    0.3709155321121216,
+    1.027519941329956,
+    0.35303995013237
+   ]
+  ],
+  "bytes": 131460,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_shrine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_spirit_totem_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Religion",
+  "building_type": "SpiritTotem",
+  "race": "elf",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 570,
+  "lod_triangles": [
+   570,
+   386,
+   178
+  ],
+  "bounds": [
+   [
+    -0.3110281229019165,
+    0.0,
+    -0.3276725709438324
+   ],
+   [
+    0.33500000834465027,
+    0.909217894077301,
+    0.32156145572662354
+   ]
+  ],
+  "bytes": 103308,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_spirit_totem_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_spirit_totem_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_spirit_totem_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_spirit_totem_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_spirit_totem_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_temple_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Religion",
+  "building_type": "Temple",
+  "race": "elf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1112,
+  "lod_triangles": [
+   1112,
+   670,
+   219
+  ],
+  "bounds": [
+   [
+    -0.7727406620979309,
+    0.0,
+    -0.9916044473648071
+   ],
+   [
+    0.7727406620979309,
+    1.2504212856292725,
+    0.8075584173202515
+   ]
+  ],
+  "bytes": 184524,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_temple_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_temple_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Religion",
+  "building_type": "Temple",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1112,
+  "lod_triangles": [
+   1112,
+   670,
+   219
+  ],
+  "bounds": [
+   [
+    -0.7727406620979309,
+    0.0,
+    -0.9916044473648071
+   ],
+   [
+    0.7727406620979309,
+    1.4761883020401,
+    0.8075584173202515
+   ]
+  ],
+  "bytes": 184264,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_temple_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_temple_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Religion",
+  "building_type": "Temple",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1224,
+  "lod_triangles": [
+   1224,
+   738,
+   263
+  ],
+  "bounds": [
+   [
+    -0.8460000157356262,
+    0.0,
+    -0.9916044473648071
+   ],
+   [
+    0.8460000157356262,
+    1.7777223587036133,
+    0.8075584173202515
+   ]
+  ],
+  "bytes": 206332,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_temple_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_temple_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Religion",
+  "building_type": "Temple",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1224,
+  "lod_triangles": [
+   1224,
+   738,
+   263
+  ],
+  "bounds": [
+   [
+    -0.8460000157356262,
+    0.0,
+    -0.9916044473648071
+   ],
+   [
+    0.8460000157356262,
+    1.6119552850723267,
+    0.8075584173202515
+   ]
+  ],
+  "bytes": 206720,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_temple_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_industrial_v0__modern.png"
+  }
+ }
+]

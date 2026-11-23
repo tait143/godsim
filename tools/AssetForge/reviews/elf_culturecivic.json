@@ -1,0 +1,303 @@
+{
+  "package": "elf_culturecivic",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Independent Elf package critic",
+      "models": [
+        {
+          "id": "bld_elf_arcology_future_v0",
+          "evidence_sha256": "52c4dfb055883373f39d56362f5cd569a954e7dfc7b261013c9ee9629603401a",
+          "observations": "Stacked glass habitation drums step inward beneath three green terraces. The root-shaped braces, yellow-green sill and separate blue bud crown remain legible in the Ascension thumbnail.  Checked the 684/450/201 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 92,
+            "charm": 90,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_arena_classical_v0",
+          "evidence_sha256": "f491d5a5229746ec69dd7c36d903d98a08511e4c9e870dee79b00beb20034cc0",
+          "observations": "The broad opening exposes the earth floor and the continuous seating tiers. The paired bud-roof towers pick out the rear boundary, and small gate lamps frame the approaching spectator.  Checked the 1086/566/292 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_arena_future_v0",
+          "evidence_sha256": "51354facb38097e99c2c8580f742eb41c4f220d9d82a9e060b67d8138cfc085e",
+          "observations": "The broad opening exposes the earth floor and the continuous seating tiers. The paired bud-roof towers pick out the rear boundary, and small gate lamps frame the approaching spectator.  Checked the 1086/566/292 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_arena_industrial_v0",
+          "evidence_sha256": "4f16e534223afc4af719f022912b49c2218e5ab8338a9ac95399cd62a10df92a",
+          "observations": "The broad opening exposes the earth floor and the continuous seating tiers. The paired bud-roof towers pick out the rear boundary, and small gate lamps frame the approaching spectator.  Checked the 1086/566/292 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_campfire_ancient_v0",
+          "evidence_sha256": "95dfe11c4ce606f29394716def21bf705ee549105cb23c79685ad511e91082bc",
+          "observations": "The seats face the two-tone flame inside a low rim, with a timber tripod at its base. The shelter or lamp defines the rear edge while the fire stays visible at 64 pixels.  Checked the 667/391/205 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_campfire_classical_v0",
+          "evidence_sha256": "f6fd0a6cef88bf2f0435a4b248c4a6b6ff9d17b457753bb540a22b9f06513fb8",
+          "observations": "The seats face the two-tone flame inside a low rim, with a timber tripod at its base. The shelter or lamp defines the rear edge while the fire stays visible at 64 pixels.  Checked the 737/441/219 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_forum_classical_v0",
+          "evidence_sha256": "9d752f14fc76f62c8502e61d1040c3b8e68c6d1940b6464dd8fd4240a768aaab",
+          "observations": "Flanking leaf-roof colonnades frame a single broad speaking plinth and a tall central audience entrance. Both side aisles remain open around the podium.  Checked the 996/601/231 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 93,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_forum_future_v0",
+          "evidence_sha256": "ef69c6e3fdd596dc973e1ce39312b08938c4ebf91e4ad0b363831b1602be4ea6",
+          "observations": "Flanking leaf-roof colonnades frame a single broad speaking plinth and a tall central audience entrance. Both side aisles remain open around the podium.  Checked the 996/601/231 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 93,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_forum_industrial_v0",
+          "evidence_sha256": "5f59daf5fe90bb922c5677444691ad18178e5be40fcf940f43d5e4176175add1",
+          "observations": "Flanking leaf-roof colonnades frame a single broad speaking plinth and a tall central audience entrance. Both side aisles remain open around the podium.  Checked the 996/601/231 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 93,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_stadium_future_v0",
+          "evidence_sha256": "f1546feb6f94f508775e41de581dfafeddec3e8f342309f58cf9db28fb819795",
+          "observations": "The green playing surface, end hoops and paired tall leaf-shades distinguish the sports venue from the dirt arena. An open end exposes the seating thickness and the playing surface.  Checked the 1262/718/384 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 92,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_stadium_industrial_v0",
+          "evidence_sha256": "80142c68ff049ca2fd766b8040a987d40bb74472527b3d8cc36e00b4330e1199",
+          "observations": "The green playing surface, end hoops and paired tall leaf-shades distinguish the sports venue from the dirt arena. An open end exposes the seating thickness and the playing surface.  Checked the 1262/718/384 triangle LOD chain and 1 age preview.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 92,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_tavern_classical_v0",
+          "evidence_sha256": "a6253c6f1cfb50e925a4891a23afcc0bfc38806ac5af8fd3fac6a3ec73b5bd91",
+          "observations": "The paired casks and twin entrance bays identify the tavern, but the hanging sign and upright bracket visibly merge with the front canopy, appearing planted on the roof.  Checked the 1185/749/292 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 93,
+            "construction": 85,
+            "charm": 87,
+            "colour": 92,
+            "technical": 97
+          },
+          "defects": [
+            "Move the signpost and its hanger outside the entire front roof outline in the preview view; show a continuous ground or wall mounting and a sign suspended clear of the eave."
+          ]
+        },
+        {
+          "id": "bld_elf_tavern_future_v0",
+          "evidence_sha256": "31ccbadc7a5186345a18c7d07fd575cbaba7f49e918db5b802d1655c72f36b3b",
+          "observations": "The paired casks and twin entrance bays identify the tavern, but the hanging sign and upright bracket visibly merge with the front canopy, appearing planted on the roof.  Checked the 1185/749/292 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 93,
+            "construction": 85,
+            "charm": 87,
+            "colour": 92,
+            "technical": 97
+          },
+          "defects": [
+            "Move the signpost and its hanger outside the entire front roof outline in the preview view; show a continuous ground or wall mounting and a sign suspended clear of the eave."
+          ]
+        },
+        {
+          "id": "bld_elf_tavern_industrial_v0",
+          "evidence_sha256": "98b8a90f8cea63591d634d0bed8aafd1ca104df339f1c358c9ffff679a177bca",
+          "observations": "The paired casks and twin entrance bays identify the tavern, but the hanging sign and upright bracket visibly merge with the front canopy, appearing planted on the roof.  Checked the 1185/749/292 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 93,
+            "construction": 85,
+            "charm": 87,
+            "colour": 92,
+            "technical": 97
+          },
+          "defects": [
+            "Move the signpost and its hanger outside the entire front roof outline in the preview view; show a continuous ground or wall mounting and a sign suspended clear of the eave."
+          ]
+        },
+        {
+          "id": "bld_elf_theater_classical_v0",
+          "evidence_sha256": "4d7611e730aca8223685a82a453d01907d5b625a40e1476a84490e1d39fe8232",
+          "observations": "The brown stage projects into the opening of a continuous curved seating bank. A single high leaf awning over the rear seats gives a clear silhouette beside the gate lantern.  Checked the 857/503/260 triangle LOD chain and 3 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 92,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_theater_future_v0",
+          "evidence_sha256": "2b8bc6c4de8e4ee1a9bfd0e60e913015a7a9e318e25fdbb0e1e5ce74051d9da6",
+          "observations": "The brown stage projects into the opening of a continuous curved seating bank. A single high leaf awning over the rear seats gives a clear silhouette beside the gate lantern.  Checked the 857/503/260 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 92,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_theater_industrial_v0",
+          "evidence_sha256": "d68a193b56bc4557354de04e40e416f395b1086afb6b14edbece9e0b0261d5d3",
+          "observations": "The brown stage projects into the opening of a continuous curved seating bank. A single high leaf awning over the rear seats gives a clear silhouette beside the gate lantern.  Checked the 857/503/260 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 92,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Independent Elf package critic",
+      "models": [
+        {
+          "id": "bld_elf_tavern_classical_v0",
+          "evidence_sha256": "b61b39c57f219f3789c959aa01025d8630e5dd5bc5c63397e95c8e0e149f4a68",
+          "observations": "The hanging sign now stands past both roof outlines, with a continuous post into a separate stone footing. Its suspended gilded face, adjacent storage casks and twin leaf roofs remain legible at 64 pixels.  Checked the 1277/810/328 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_tavern_future_v0",
+          "evidence_sha256": "894481eb7f51c2328ead9c37faf57de917a88634697e2777b675d7a32f353803",
+          "observations": "The hanging sign now stands past both roof outlines, with a continuous post into a separate stone footing. Its suspended gilded face, adjacent storage casks and twin leaf roofs remain legible at 64 pixels.  Checked the 1277/810/328 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_tavern_industrial_v0",
+          "evidence_sha256": "1c20b30a5eb5f1c218727b7795844db960af4f6af2ad1706a0949b419de08c48",
+          "observations": "The hanging sign now stands past both roof outlines, with a continuous post into a separate stone footing. Its suspended gilded face, adjacent storage casks and twin leaf roofs remain legible at 64 pixels.  Checked the 1277/810/328 triangle LOD chain and 2 age previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

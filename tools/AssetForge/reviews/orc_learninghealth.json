@@ -1,0 +1,985 @@
+{
+  "package": "orc_learninghealth",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Civic builder, independent LearningHealth art reviewer",
+      "models": [
+        {
+          "id": "bld_orc_bathhouse_classical_v0",
+          "evidence_sha256": "51902f089b63d57f3a99638fec6511d47ff6e8436fedb2d79eca8096af9ec6dd",
+          "observations": "The red-to-slate pitched crown and squat grey flue frame a pale stone hot pool. Its turquoise water remains visible at 60 px. Serialized LODs 727/369/155.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 87,
+            "charm": 94,
+            "colour": 95,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [301, 315] at [-0.284729, 0.0, -0.1748].",
+            "The bath rim covers the approach to the pointed entrance and obscures the worker-sized door. Move the door toward the jar-side opening and align the landing steps to leave a visible threshold and clear route."
+          ]
+        },
+        {
+          "id": "bld_orc_bathhouse_future_v0",
+          "evidence_sha256": "e7846203ecd3c1295af19817759c0df1e125920ce5f469768732f3b865705ab6",
+          "observations": "The glass crown and silver-to-gold flue sit behind a crisp waterline and pale coping. The jar and stair give the bath a public entrance side. Serialized LODs 775/401/175.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 87,
+            "charm": 92,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [349, 363] at [-0.284729, 0.0, -0.1748].",
+            "The bath rim covers the approach to the pointed entrance and obscures the worker-sized door. Move the door toward the jar-side opening and align the landing steps to leave a visible threshold and clear route."
+          ]
+        },
+        {
+          "id": "bld_orc_bathhouse_industrial_v0",
+          "evidence_sha256": "630fa8139868bb88c9d1db5dc217fe1cca99fc08f7ef4ecf4507ceb4035fc0f5",
+          "observations": "The brick and steel bathing lodge has a recognizable stove stack. The deep pool reads in front of the newly raised clerestory. Serialized LODs 775/401/175.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 87,
+            "charm": 93,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [349, 363] at [-0.284729, 0.0, -0.1748].",
+            "The bath rim covers the approach to the pointed entrance and obscures the worker-sized door. Move the door toward the jar-side opening and align the landing steps to leave a visible threshold and clear route."
+          ]
+        },
+        {
+          "id": "bld_orc_data_center_future_v0",
+          "evidence_sha256": "2d9b9be41dcd0868c91b7efe1f0a030c0e6be5dd1b4c1bffde9193bccf8f96a6",
+          "observations": "Three distinct server blades rise beside the vented roof, with short horizontal status lights on the glazed fronts. Their finned outline survives at 60 px in silver and gold. Serialized LODs 658/316/149.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [349, 363] at [-0.306226, 0.0, -0.46075]."
+          ]
+        },
+        {
+          "id": "bld_orc_herbalist_ancient_v0",
+          "evidence_sha256": "c6193f69052910ce47ffc3c0f3cd86d9a254a26d921da3ef6de5c26145ebe6aa",
+          "observations": "The pointed leaves and two smaller ceramic jars frame the herb keeper\u2019s doorway. The broad roof, walls and planting vessel remain very similar across Bronze, Iron and Dawn at phone scale. Serialized LODs 685/347/124.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 86,
+            "construction": 94,
+            "charm": 95,
+            "colour": 90,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [301, 315] at [-0.109739, 0.0, -0.194275].",
+            "Bronze, Iron and Dawn retain nearly identical tan roofing and pot colors. Assign a larger wall, eave or roof region to an age-sensitive shared atlas role so the three rows can be distinguished at phone scale."
+          ]
+        },
+        {
+          "id": "bld_orc_herbalist_classical_v0",
+          "evidence_sha256": "b965e52f7cca9639c7532a85e351141bb54a96759e81e86a48b7e8a240bc7c17",
+          "observations": "The cluster of folded leaves reads in the planted jar in all three ages, and the two smaller pots balance the bright window. The Medieval dark roof is especially clear. Serialized LODs 685/347/124.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 95,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [301, 315] at [-0.109739, 0.0, -0.194275]."
+          ]
+        },
+        {
+          "id": "bld_orc_herbalist_future_v0",
+          "evidence_sha256": "6f37d654a01664d5f3089e9dfd60cb4d0fb9b924afa1cae64ea3b7180038805e",
+          "observations": "The plants stand out in front of a cyan ribbed canopy, with a bone crest against the roof and a little jar by the threshold. Serialized LODs 733/379/144.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [349, 363] at [-0.109739, 0.0, -0.194275]."
+          ]
+        },
+        {
+          "id": "bld_orc_herbalist_industrial_v0",
+          "evidence_sha256": "4f45eb030c276798e34e549d6929b73386f797a80dcf61c33b2c4cb78b5ce1d0",
+          "observations": "The fluted clerestory and brick shell shelter a tall planter. The black roof, red panels and green leaves stay legible into Modern. Serialized LODs 733/379/144.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [349, 363] at [-0.109739, 0.0, -0.194275]."
+          ]
+        },
+        {
+          "id": "bld_orc_hospital_classical_v0",
+          "evidence_sha256": "21b2e0c4a6e1b1a2ea53b6e115c0d20c86bbd003b3155ddfe165d46deda310ff",
+          "observations": "A high central ward and twin bedside lodges share a central entrance. In Renaissance the pale plus and its grey disk merge into the wall at phone size. Serialized LODs 1168/566/198.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 87,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [881, 895] at [0.014277, 0.0, -0.3477].",
+            "The pale medical cross merges with its light backing medallion, especially at 60 px. Use the dark door swatch behind the mark or add a clearly contrasting outline and retain a bold cross width."
+          ]
+        },
+        {
+          "id": "bld_orc_hospital_future_v0",
+          "evidence_sha256": "22bc86a2a79a83231aaff13a82d034e6e87cbd3b062f3a2dc4b6d643a2d71d7c",
+          "observations": "Three blue-topped wards share a stepped entry with two braces. The weathered light cross nearly disappears into the bright disk and white facade in the small previews. Serialized LODs 1312/662/258.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 86,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [1025, 1039] at [0.014277, 0.0, -0.3477].",
+            "The pale medical cross merges with its light backing medallion, especially at 60 px. Use the dark door swatch behind the mark or add a clearly contrasting outline and retain a bold cross width."
+          ]
+        },
+        {
+          "id": "bld_orc_hospital_industrial_v0",
+          "evidence_sha256": "551dbc90aee799ea3a49a95740615ce59d1763e8ef7f1494cbceccf90c7ab710",
+          "observations": "The joined brick wards turn a lighter concrete tone in Modern. The pale cross and the poorly separated backing reduce recognition beside the similarly shaped library. Serialized LODs 1312/662/258.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 88,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [1025, 1039] at [0.014277, 0.0, -0.3477].",
+            "The pale medical cross merges with its light backing medallion, especially at 60 px. Use the dark door swatch behind the mark or add a clearly contrasting outline and retain a bold cross width."
+          ]
+        },
+        {
+          "id": "bld_orc_library_classical_v0",
+          "evidence_sha256": "f0a3edc015deb4b300820e509b81d03a77095a984725cff708782a8d4c4c9542",
+          "observations": "The open pediment book, recessed entry and lit reading rooms establish the library. The dark roof and amber windows carry the Iron and Medieval rows. Serialized LODs 1180/550/195.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 6 pairs per LOD; a representative pair is [881, 895] at [0.009527, 0.0, -0.4047].",
+            "The red book covers overlap at the central fold, as do the pale pages. Join the halves along a shared seam or give them a true depth hinge. This accounts for four additional exposed coplanar pairs on each LOD."
+          ]
+        },
+        {
+          "id": "bld_orc_library_future_v0",
+          "evidence_sha256": "3ba46b48bb45cfa690ba6e25b6b6c3f83691a0e76da228d74954686cef3bb220",
+          "observations": "The open book has pale pages bounded by red covers and grouped cyan reading rooms. The page lines remain visible in the large preview. Serialized LODs 1324/646/255.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 6 pairs per LOD; a representative pair is [1025, 1039] at [0.009527, 0.0, -0.4047].",
+            "The red book covers overlap at the central fold, as do the pale pages. Join the halves along a shared seam or give them a true depth hinge. This accounts for four additional exposed coplanar pairs on each LOD."
+          ]
+        },
+        {
+          "id": "bld_orc_library_industrial_v0",
+          "evidence_sha256": "8c57864827e07f6b28b94bc9d2974c3bb35c78dec81405e4e8cb1b23b7dd8253",
+          "observations": "The book is visible beneath the tall metal clerestory, flanked by reading alcoves. Industrial brick gives way to a paler Modern facade. Serialized LODs 1324/646/255.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 92,
+            "charm": 93,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 6 pairs per LOD; a representative pair is [1025, 1039] at [0.009527, 0.0, -0.4047].",
+            "The red book covers overlap at the central fold, as do the pale pages. Join the halves along a shared seam or give them a true depth hinge. This accounts for four additional exposed coplanar pairs on each LOD."
+          ]
+        },
+        {
+          "id": "bld_orc_medical_center_future_v0",
+          "evidence_sha256": "7a0c5ab2c63236591b1c307de201166628f7be113408b786faf59f8c89c704f0",
+          "observations": "A lit rear medical stack rises above the central dome, and the curved wings step down around the entry. At 60 px the pale medical symbol is hard to isolate from the surrounding ivory and gold facade. Serialized LODs 1370/700/281.",
+          "scores": {
+            "silhouette": 89,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 87,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [1025, 1039] at [0.014277, 0.0, -0.3477].",
+            "The pale medical cross merges with its light backing medallion, especially at 60 px. Use the dark door swatch behind the mark or add a clearly contrasting outline and retain a bold cross width."
+          ]
+        },
+        {
+          "id": "bld_orc_observatory_classical_v0",
+          "evidence_sha256": "84e4f7b68b784de3f23dbbf503e7807545c4cd886b44eaea18b7d3d28519336e",
+          "observations": "The substantial single telescope and gold objective protrude from their stone-mounted dome above the conical entrance hall. The round side plaque adds a second scale cue. Serialized LODs 777/363/146.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 91,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [301, 315] at [-0.343601, 0.0, -0.3572]."
+          ]
+        },
+        {
+          "id": "bld_orc_observatory_future_v0",
+          "evidence_sha256": "f8c5d349f3c6d0769b303d4bd0af0af77214c1f1607963dbbfcf3098abe780af",
+          "observations": "The gold-rimmed objective and turquoise tube remain recognizable against the cyan dome in both late ages. The small horn beneath the turret repeats the roof tip. Serialized LODs 825/395/166.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 91,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [349, 363] at [-0.343601, 0.0, -0.3572]."
+          ]
+        },
+        {
+          "id": "bld_orc_observatory_industrial_v0",
+          "evidence_sha256": "5730d2d75c2199cd3412d60a6b3cc4b120f6d5fe4a0d123db11fe5cf6ce74a02",
+          "observations": "The tilted telescope sits on a brick-battered turret and black dome. Its dark lens has a brighter rim that stays readable in the Modern reskin. Serialized LODs 825/395/166.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 91,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [349, 363] at [-0.343601, 0.0, -0.3572]."
+          ]
+        },
+        {
+          "id": "bld_orc_printworks_classical_v0",
+          "evidence_sha256": "465a574f945c8ec00c2ea3fd526bc4f321343529024fff963d6a8499765b31d9",
+          "observations": "The two jambs, gold screw, plank bed and white sheet describe a compact press. The dark-arched entry remains separate from the equipment. Serialized LODs 680/350/182.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 95,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 6 pairs per LOD; a representative pair is [301, 315] at [-0.306226, 0.0, -0.46075].",
+            "The red book covers overlap at the central fold, as do the pale pages. Join the halves along a shared seam or give them a true depth hinge. This accounts for four additional exposed coplanar pairs on each LOD."
+          ]
+        },
+        {
+          "id": "bld_orc_printworks_future_v0",
+          "evidence_sha256": "2f1f76e3374c7fbf06785871ce05086220acfc23956bdf65de88f1a6b1b22683",
+          "observations": "A cool-clad press over a white page occupies the work bay beside the glass lodge. The crosshead and screw remain distinct at 60 px. Serialized LODs 728/382/202.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 6 pairs per LOD; a representative pair is [349, 363] at [-0.306226, 0.0, -0.46075].",
+            "The red book covers overlap at the central fold, as do the pale pages. Join the halves along a shared seam or give them a true depth hinge. This accounts for four additional exposed coplanar pairs on each LOD."
+          ]
+        },
+        {
+          "id": "bld_orc_printworks_industrial_v0",
+          "evidence_sha256": "e23ea5ed7823766fe7000bb52dac7adf89e674b8c16720d6735603ae44570436",
+          "observations": "The white sheet and brass screw hold their contrast against Industrial metal and Modern concrete. The joined crosshead has a visible handle. Serialized LODs 728/382/202.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 6 pairs per LOD; a representative pair is [349, 363] at [-0.306226, 0.0, -0.46075].",
+            "The red book covers overlap at the central fold, as do the pale pages. Join the halves along a shared seam or give them a true depth hinge. This accounts for four additional exposed coplanar pairs on each LOD."
+          ]
+        },
+        {
+          "id": "bld_orc_research_lab_future_v0",
+          "evidence_sha256": "fe66fb7f9002eaf1275ad4e67f628663d12fd25dd074cda7f36c9fd32df1e3f7",
+          "observations": "The side vessel has a tapered glass body, ivory shoulder and little horn. Its turquoise band breaks into separated spots across the front at full size. Serialized LODs 707/359/151.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 93,
+            "construction": 88,
+            "charm": 91,
+            "colour": 90,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [349, 363] at [-0.306226, 0.0, -0.46075].",
+            "The turquoise waist collar disappears into the vessel around most of its perimeter. Build its two projecting rings from the same angular stations as the glass body, forming a clean continuous band."
+          ]
+        },
+        {
+          "id": "bld_orc_research_lab_industrial_v0",
+          "evidence_sha256": "c14a62aae1b27e44e8fbbcf1663df2bafbed3893d9fcfab75f9d2df09191eed5",
+          "observations": "The glazed canister and dark metal collar are taller than the building eave. A row of intermittent cyan intersections crosses the vessel between cap and plinth. Serialized LODs 707/359/151.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 88,
+            "charm": 91,
+            "colour": 90,
+            "technical": 96
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 2 pairs per LOD; a representative pair is [349, 363] at [-0.306226, 0.0, -0.46075].",
+            "The turquoise waist collar disappears into the vessel around most of its perimeter. Build its two projecting rings from the same angular stations as the glass body, forming a clean continuous band."
+          ]
+        },
+        {
+          "id": "bld_orc_scriptorium_ancient_v0",
+          "evidence_sha256": "c95c557f856d8cd88bdd98a5877ef28ec32a11e2aa414663270340bea569c544",
+          "observations": "The carved quill, book lectern and black baselines are readable against the flatter Iron roof. A small vessel holds the base of the feather. Serialized LODs 682/332/193.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 93,
+            "charm": 95,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 6 pairs per LOD; a representative pair is [301, 315] at [-0.306226, 0.0, -0.230375].",
+            "The red book covers overlap at the central fold, as do the pale pages. Join the halves along a shared seam or give them a true depth hinge. This accounts for four additional exposed coplanar pairs on each LOD."
+          ]
+        },
+        {
+          "id": "bld_orc_scriptorium_classical_v0",
+          "evidence_sha256": "1f1f6f9ccfcdf3c089597e16ddead66d5de6825925456cf3c32e2e352d20f169",
+          "observations": "The bright end-mounted lectern remains legible through Classical, Medieval and Renaissance. The slim hall and folded quill fit the narrow lot. Serialized LODs 682/332/193.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 93,
+            "charm": 95,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 6 pairs per LOD; a representative pair is [301, 315] at [-0.306226, 0.0, -0.230375].",
+            "The red book covers overlap at the central fold, as do the pale pages. Join the halves along a shared seam or give them a true depth hinge. This accounts for four additional exposed coplanar pairs on each LOD."
+          ]
+        },
+        {
+          "id": "bld_orc_scriptorium_future_v0",
+          "evidence_sha256": "a1e65d56b70ef8b7049f2819770fde410c55562e2abab81de6c0acda06755393",
+          "observations": "A gold-edged quill and striped pages sit forward of the blue glazed canopy. The desk is prominent in both Information and Ascension. Serialized LODs 730/364/213.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 95,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 6 pairs per LOD; a representative pair is [349, 363] at [-0.306226, 0.0, -0.230375].",
+            "The red book covers overlap at the central fold, as do the pale pages. Join the halves along a shared seam or give them a true depth hinge. This accounts for four additional exposed coplanar pairs on each LOD."
+          ]
+        },
+        {
+          "id": "bld_orc_scriptorium_industrial_v0",
+          "evidence_sha256": "bcfb5c61fac66eeb5804368e86307d66840a7d4f0e581b61f72d4e4d29a08016",
+          "observations": "The broad page and off-white feather stand out against the black roof and red stripe, including the paler Modern wall row. Serialized LODs 730/364/213.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 95,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 6 pairs per LOD; a representative pair is [349, 363] at [-0.306226, 0.0, -0.230375].",
+            "The red book covers overlap at the central fold, as do the pale pages. Join the halves along a shared seam or give them a true depth hinge. This accounts for four additional exposed coplanar pairs on each LOD."
+          ]
+        },
+        {
+          "id": "bld_orc_university_classical_v0",
+          "evidence_sha256": "ac570d72d00d7017b7894f62024c04752fa3281558b558b8a7fa0b2e9e78678d",
+          "observations": "The reading block spans the lot, with a taller chimney-like lecture turret producing a distinct rear silhouette. The open-book sign and its small page marks face the central entry. Serialized LODs 1297/629/237.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 6 pairs per LOD; a representative pair is [881, 895] at [0.014291, 0.0, -0.4047].",
+            "The red book covers overlap at the central fold, as do the pale pages. Join the halves along a shared seam or give them a true depth hinge. This accounts for four additional exposed coplanar pairs on each LOD."
+          ]
+        },
+        {
+          "id": "bld_orc_university_future_v0",
+          "evidence_sha256": "32f3f921c5ae856c22c674ea0c503ecd2f11289d9e27259025df8a3c5d716265",
+          "observations": "The blue-roofed lecture tower and wings broaden the silhouette relative to the Library. The open book sits squarely above the main door. Serialized LODs 1441/725/297.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 6 pairs per LOD; a representative pair is [1025, 1039] at [0.014291, 0.0, -0.4047].",
+            "The red book covers overlap at the central fold, as do the pale pages. Join the halves along a shared seam or give them a true depth hinge. This accounts for four additional exposed coplanar pairs on each LOD."
+          ]
+        },
+        {
+          "id": "bld_orc_university_industrial_v0",
+          "evidence_sha256": "aff444bb3e5a1c12f20221ff3855b65bb29f8f9d3219e5a3b3934bda72fbf51f",
+          "observations": "Three attached lecture halls and a taller rear turret give the campus a long silhouette. Metal attic bands and small window groups distinguish the two age rows. Serialized LODs 1441/725/297.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Door and surrounding arch have overlapping underside triangles at grade. Remove the hidden sill face from the attached leaf or terminate it short of the surround. The surface check reports 6 pairs per LOD; a representative pair is [1025, 1039] at [0.014291, 0.0, -0.4047].",
+            "The red book covers overlap at the central fold, as do the pale pages. Join the halves along a shared seam or give them a true depth hinge. This accounts for four additional exposed coplanar pairs on each LOD."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Independent learning and health critic, builder session 2 / fort",
+      "models": [
+        {
+          "id": "bld_orc_bathhouse_classical_v0",
+          "evidence_sha256": "6e1483e0a60cd08a0a445294c05bdd240f10fd27b06b276d424e2af8e7d81fcb",
+          "observations": "The pointed bath door now shows above a light landing to the right of the pool. The turquoise basin, curved tusks, roof stripe and squat flue are legible in all three masonry ages. Reopened LODs 723/365/151; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_bathhouse_future_v0",
+          "evidence_sha256": "bd9088ac7ca4f1fb4f0f69fe2a2f7849191c7178daee11ad073c4100eafcad52",
+          "observations": "The ivory coping distinguishes the bath from the cool roof. A dark worker door stands clear of the water enclosure in both late ages; metal and gold frame the threshold. Reopened LODs 771/397/171; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_bathhouse_industrial_v0",
+          "evidence_sha256": "55b41724655dcfb330cb77350c781820fd27c02a7d3ae059ded9ff310f2f42d6",
+          "observations": "The red-brick vessel becomes gray stone in Modern. The heat-house flue, horn spout and landing beside the pool read as separate working parts. Reopened LODs 771/397/171; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_data_center_future_v0",
+          "evidence_sha256": "672a96fb7d5e6668bce7514249ea68061874fa74f912fd054fd3c4569ac9ee6e",
+          "observations": "Three stepped rack faces and their blue indicators stand against the horned red-striped service lodge. The unobstructed door and cooler rack remain clear even in the gold Ascension variant. Reopened LODs 654/312/145; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_herbalist_ancient_v0",
+          "evidence_sha256": "2e3afa0edc1a1d2a99f832fbbebc264348812bcd6437dc2ef9fca8e0fffbdbe4",
+          "observations": "The heavy planter, three-sided leaves and pair of mixing jars identify the herbalist. Straw, coppery ochre and iron-brown roof fields now separate the three tiny age views; the pot also changes to gray or brassy metal. Reopened LODs 681/343/120; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_herbalist_classical_v0",
+          "evidence_sha256": "1ba0be6d81e4f5d3e4c62d9bccfc2a3b663dccb4a0671864c6d59d9ebe452925",
+          "observations": "A foreground herbal planter leans toward the horned door while clay jars balance it on the opposite side. Terracotta and dark medieval roofs stay distinct around the green foliage. Reopened LODs 681/343/120; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_herbalist_future_v0",
+          "evidence_sha256": "db0da6de34acef76fee1265ccb08402fc4268d9336819c7ef877f810fcbe7754",
+          "observations": "An ivory apex sits on the cyan folded roof between the horn tips. Dark leaves, a pale planter lip and two small jars remain easy to distinguish from the glazed doorway. Reopened LODs 729/375/140; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_herbalist_industrial_v0",
+          "evidence_sha256": "abe9d7f7280c6727779b3bc104fe2f91a962112438f1155f39cc0613136bae44",
+          "observations": "The high charcoal roof collar and brick wall shift to steel gray and concrete. The green leaf cluster and jars identify this as a grower's workshop at phone scale. Reopened LODs 729/375/140; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_hospital_classical_v0",
+          "evidence_sha256": "2e69f48ee9e9fdd060d4e44a16d69388efafa672097dab2306ca5ab526cf139a",
+          "observations": "A pale care mark reads inside a dark shield between the ward wings. The triangular entry braces and warm lit side windows flank a clear entrance. Reopened LODs 1164/562/194; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_hospital_future_v0",
+          "evidence_sha256": "af60a24d294ec3539a122d79cd510f633cc5a81ceaa5ed20a507121485c8e4e8",
+          "observations": "The dark medallion separates the pale medical mark from the white walls and glazing. The two rounded wards, approach braces and taller hall preserve the same entrance in Ascension. Reopened LODs 1308/658/254; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_hospital_industrial_v0",
+          "evidence_sha256": "eaef38698457d8e2467657f458a34552a635e840f33c575ee548f26a98de25f4",
+          "observations": "Low ward windows face forward and bracket the twin braces. The bright cross reads against a deep disk on both the rust and gray facades. Reopened LODs 1308/658/254; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_library_classical_v0",
+          "evidence_sha256": "d0a30cf309c5f50c33b5516cc4fd9372f41c2ccc2035a216d412cd081656b310",
+          "observations": "The red binding and two pale page blocks form a clear central library sign. Side hut windows, stone book rests and horn hooks remain readable across the four age rows. Reopened LODs 1176/546/191; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_library_future_v0",
+          "evidence_sha256": "875c618d159b8d09ed1909252d99c2dd77ea543c5d7da5181f7eafc1c6a14398",
+          "observations": "Distinct pale leaves of the paired book crest stand above the doorway. The three galleries have blue glazing, caps and small horns; the gold doorframe warms up in Ascension. Reopened LODs 1320/642/251; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_library_industrial_v0",
+          "evidence_sha256": "313d2f50a985b11bd146a07fb0102cc4aefebc8e95336732c1567f8f025800f0",
+          "observations": "The central reading gallery rises above two smaller bays. Its pale pages remain separate at their red spine above the door as dark brick changes to gray. Reopened LODs 1320/642/251; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_medical_center_future_v0",
+          "evidence_sha256": "9d3dd842b1e42dc451720f826d32fd5c7fc4203c0f50d8282616f45c44e8d440",
+          "observations": "The extended glass cylinder and brighter tip identify the central medical facility beyond the two ward roofs. A high-contrast pale care cross sits above the dark framed entrance. Reopened LODs 1366/696/277; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_observatory_classical_v0",
+          "evidence_sha256": "69bbd35511c0fa92a264ba6d5028104e975af15ccf1bc46d41955e9d112e7bba",
+          "observations": "A broad gold lens ring and tilted blue objective project from the domed instrument chamber. The adjacent warm tiled room has its own front door and two hooked horn accents. Reopened LODs 773/359/142; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_observatory_future_v0",
+          "evidence_sha256": "4104b653a4a00cd1c788fbea83e5b7e475df1f9179846f355a354885225b40a8",
+          "observations": "A bright lens points out of the faceted blue observatory dome, separated from the white service lodge by red trim. Gold comes forward on the frame and lower ring in Ascension. Reopened LODs 821/391/162; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_observatory_industrial_v0",
+          "evidence_sha256": "3a202ee99519369d6624a1f5c2d450dc613755f6709486c82b6ce211587b403f",
+          "observations": "The dark rotating cap and oblique barrel contrast with the glazed lens. Brick, a small gold wall marker and pale horn distinguish the two sides of the observatory. Reopened LODs 821/391/162; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_printworks_classical_v0",
+          "evidence_sha256": "504bb61bbea1e8c64cdb22936e32f362898ac7664ea5f3051ebf9ff0ced58711",
+          "observations": "The square press, threaded spindle and pale sheet are visible in front of the red-roofed shop. Its small book badge retains individual page panels. Reopened LODs 676/346/178; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_printworks_future_v0",
+          "evidence_sha256": "38979e2a00a56bb67cc24fdcf7a1dbb8a696611f519a0c50cd2455dc42f729e5",
+          "observations": "The pale block of paper sits below the freestanding metallic press. Gold frame and bright canopy distinguish Ascension; the smaller red-and-ivory book mark is clear under the eave. Reopened LODs 724/378/198; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_printworks_industrial_v0",
+          "evidence_sha256": "afb1ad5b3b193e6b8f9904cc6ad9b1987481855189ac6d44699e70bbfa37011f",
+          "observations": "The paper is a bright focal point beneath the press screw and hand lever. The dark bay and small book badge distinguish it from the reddish wall and gray Modern wall. Reopened LODs 724/378/198; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_research_lab_future_v0",
+          "evidence_sha256": "06ad76130c2eef625a9b82a840c9556c07b162fce9384488c25b3515574490be",
+          "observations": "The glass instrument vessel has a narrow continuous aqua band around its waist, including its lighting transition across the front corner. The horned cap and pale base remain distinct from the glass roof. Reopened LODs 765/397/187; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_research_lab_industrial_v0",
+          "evidence_sha256": "c8a4009b401c85dc0c9d4de91a90d8dd9d6789382a618358885f27916a4f73c6",
+          "observations": "The laboratory vessel shows a continuous dark-edged aqua collar on the narrowing blue body. It emerges in front of the charcoal roof while leaving the worker doorway clear. Reopened LODs 765/397/187; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_scriptorium_ancient_v0",
+          "evidence_sha256": "c7a237a455e7af2d818cc4fa17819d3dfbd0bd811dd5068fc1b4fcca9ed2a603",
+          "observations": "The full-sized writing desk, linework on the page and carved quill give the long hide-roofed hut an immediate function. The miniature page pair sits above the clear door. Reopened LODs 678/328/189; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_scriptorium_classical_v0",
+          "evidence_sha256": "2430740484c1c550cd8fc7ac8b1fd868fae5293a40f155ff555ac1cb9da18c07",
+          "observations": "A long table with an upstanding pale quill reads clearly from the warm or gray scriptorium. The small paired book panels and forward stone step remain visually separate. Reopened LODs 678/328/189; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_scriptorium_future_v0",
+          "evidence_sha256": "001165cd1dcbe145bcbb7b285824d962542e81f8d6b599fd2ac57e844c54ec55",
+          "observations": "Two pale book panels hang over the studded door while a much larger feather and ruled parchment mark the external writing desk. Its metal base turns gold in Ascension. Reopened LODs 726/360/209; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_scriptorium_industrial_v0",
+          "evidence_sha256": "042ecd2d374d2b4d51535e535249f7f132e657140f82c3f18c271132e940ccb4",
+          "observations": "A red-edged writing board stands beside the long industrial lodge. Its lines and pale quill remain visible on the transition from brick-and-slate to gray Modern materials. Reopened LODs 726/360/209; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_university_classical_v0",
+          "evidence_sha256": "87a68fee157de0117ea1c2b386ee404e5724c529b64f9e257f2dfce6a01e4fba",
+          "observations": "A square of small reading windows contrasts with the tall horned rear turret. The open-book badge is distinct over the centered door on both warm and dark campus roofs. Reopened LODs 1293/625/233; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_university_future_v0",
+          "evidence_sha256": "40136e4b1166b847894c1b8be83206407302c681903cc5970264b452c603861d",
+          "observations": "The small rear tower, three joined glazed halls and open pages above the door establish the campus hierarchy. Frame and glass highlights shift cleanly toward gold and ivory. Reopened LODs 1437/721/293; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_university_industrial_v0",
+          "evidence_sha256": "672bf4638af474d4e76e0c004a92190593812bde7e144231ef45ae9312f723f4",
+          "observations": "The horned rear tower breaks the line of the main lecture hall. Cream page blocks and a tiny jar stand out on the red-brick facade and its lighter Modern row. Reopened LODs 1437/721/293; the surface and orientation checks reported no findings.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Orc clinic art and construction reviewer",
+      "models": [
+        {
+          "id": "bld_orc_medical_center_future_v0",
+          "evidence_sha256": "c1bf4832e781868dcde74060fb99e60714558684da8644f7cdf33f29e05eec23",
+          "observations": "At 64 × 64 in both Information and Ascension, the red receiving canopy and unequal blue tanks distinguish the clinic from the Hospital's three blue wards. The cream cross sits on the dark canopy badge, and the hall and tank caps change from charcoal to ochre. The package validator passed. Independent triangle inspection of the 996/590/299-triangle levels found gaps at the canopy, pipes and badge, and the high-detail door is hidden behind the hall wall.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 80,
+            "charm": 91,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Move the door assembly forward under the canopy. A frontal sample of 8,176 points on the leaf found the hall wall ahead of every point at LOD0 and 53% at LOD1. At LOD0 the center of the leaf is at z=-0.2422 while the wall at y=0.16 is at z=-0.2698.",
+            "Seat both canopy posts in the awning at all three levels. The nearest post-to-canopy distances on the negative and positive X sides are 0.0066/0.0071 at LOD0, 0.0153/0.0158 at LOD1, and 0.0606/0.0013 at LOD2. The horn tips also miss the awning.",
+            "Extend the pipes into the receiving hall. The tall and short tanks' pipe ends miss the wall by 0.0089 and 0.0518 at LOD0. The short tank's pipe still misses by 0.0594 at LOD1.",
+            "Extend the clinic badge backing into the coarsest canopy. At LOD2 the shortest gap between the disk and awning measures 0.0050."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Orc clinic art and construction reviewer",
+      "models": [
+        {
+          "id": "bld_orc_medical_center_future_v0",
+          "evidence_sha256": "f9697c6088a2ea65c948a4d78b8467d661be27045c6693e82b7100d11071474b",
+          "observations": "At 64 × 64 the red triage awning, raised cream cross and staggered blue tank pair distinguish the clinic from the Hospital's three blue ward roofs in both ages. Charcoal caps turn ochre in Ascension while the medical sign keeps its contrast. On the 1006/600/309-triangle levels, all 8,176 frontal door samples clear the hall wall. Both posts enter the canopy, their horn tips intersect its shell, and the sign stem intersects both disk and canopy. Each pipe intersects its tank and the hall on the two levels carrying pipework. The package validator passed.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+[
+ {
+  "id": "bld_elf_barracks_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Military",
+  "building_type": "Barracks",
+  "race": "elf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1028,
+  "lod_triangles": [
+   1028,
+   658,
+   239
+  ],
+  "bounds": [
+   [
+    -0.8169280290603638,
+    0.0,
+    -0.6420648097991943
+   ],
+   [
+    0.9011099934577942,
+    1.0976159572601318,
+    0.7969359755516052
+   ]
+  ],
+  "bytes": 188904,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Military/bld_elf_barracks_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_barracks_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_barracks_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_barracks_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Military",
+  "building_type": "Barracks",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1028,
+  "lod_triangles": [
+   1028,
+   658,
+   239
+  ],
+  "bounds": [
+   [
+    -0.8169280290603638,
+    0.0,
+    -0.6420648097991943
+   ],
+   [
+    0.9011099934577942,
+    1.2217919826507568,
+    0.7969359755516052
+   ]
+  ],
+  "bytes": 188108,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Military/bld_elf_barracks_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_barracks_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_barracks_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_barracks_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_barracks_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_barracks_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Military",
+  "building_type": "Barracks",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1028,
+  "lod_triangles": [
+   1028,
+   658,
+   239
+  ],
+  "bounds": [
+   [
+    -0.8169280290603638,
+    0.0,
+    -0.6420648097991943
+   ],
+   [
+    0.9011099934577942,
+    1.3863199949264526,
+    0.7969359755516052
+   ]
+  ],
+  "bytes": 187960,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Military/bld_elf_barracks_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_barracks_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_barracks_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_barracks_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_barracks_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Military",
+  "building_type": "Barracks",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1028,
+  "lod_triangles": [
+   1028,
+   658,
+   239
+  ],
+  "bounds": [
+   [
+    -0.8169280290603638,
+    0.0,
+    -0.6420648097991943
+   ],
+   [
+    0.9011099934577942,
+    1.067039966583252,
+    0.7969359755516052
+   ]
+  ],
+  "bytes": 188092,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Military/bld_elf_barracks_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_barracks_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_barracks_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_barracks_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_castle_classical_v0",
+  "kind": "townhall",
+  "category": "Buildings/Elf/Military",
+  "building_type": "Castle",
+  "race": "elf",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1861,
+  "lod_triangles": [
+   1861,
+   1202,
+   338
+  ],
+  "bounds": [
+   [
+    -1.2718440294265747,
+    0.0,
+    -1.003715991973877
+   ],
+   [
+    1.2606719732284546,
+    2.4528439044952393,
+    1.1113200187683105
+   ]
+  ],
+  "bytes": 336916,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Military/bld_elf_castle_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_castle_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_castle_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_castle_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_military_base_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Military",
+  "building_type": "MilitaryBase",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1210,
+  "lod_triangles": [
+   1210,
+   789,
+   306
+  ],
+  "bounds": [
+   [
+    -1.1983439922332764,
+    0.0,
+    -1.1068803071975708
+   ],
+   [
+    1.084272027015686,
+    2.1828560829162598,
+    1.1862900257110596
+   ]
+  ],
+  "bytes": 223888,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Military/bld_elf_military_base_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_military_base_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_military_base_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_military_base_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_military_base_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Military",
+  "building_type": "MilitaryBase",
+  "race": "elf",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1210,
+  "lod_triangles": [
+   1210,
+   789,
+   306
+  ],
+  "bounds": [
+   [
+    -1.1983439922332764,
+    0.0,
+    -1.1068803071975708
+   ],
+   [
+    1.084272027015686,
+    1.9980319738388062,
+    1.1862900257110596
+   ]
+  ],
+  "bytes": 223300,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Military/bld_elf_military_base_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_military_base_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_military_base_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_palisade_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Military",
+  "building_type": "Palisade",
+  "race": "elf",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   3,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 970,
+  "lod_triangles": [
+   970,
+   394,
+   300
+  ],
+  "bounds": [
+   [
+    -1.3374637365341187,
+    0.0,
+    -0.2150944620370865
+   ],
+   [
+    1.3374637365341187,
+    0.6783000230789185,
+    0.20529446005821228
+   ]
+  ],
+  "bytes": 168600,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Military/bld_elf_palisade_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_palisade_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_palisade_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_palisade_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_palisade_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Military",
+  "building_type": "Palisade",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval"
+  ],
+  "footprint": [
+   3,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 970,
+  "lod_triangles": [
+   970,
+   394,
+   300
+  ],
+  "bounds": [
+   [
+    -1.33750581741333,
+    0.0,
+    -0.2150944620370865
+   ],
+   [
+    1.33750581741333,
+    0.6783000230789185,
+    0.20529446005821228
+   ]
+  ],
+  "bytes": 168824,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Military/bld_elf_palisade_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_palisade_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_palisade_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_palisade_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_elf_stone_wall_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Military",
+  "building_type": "StoneWall",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 920,
+  "lod_triangles": [
+   920,
+   518,
+   208
+  ],
+  "bounds": [
+   [
+    -0.47040000557899475,
+    0.0,
+    -0.21325890719890594
+   ],
+   [
+    0.47040000557899475,
+    0.6554999947547913,
+    0.22540000081062317
+   ]
+  ],
+  "bytes": 155248,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Military/bld_elf_stone_wall_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_stone_wall_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_stone_wall_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_stone_wall_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_stone_wall_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_stone_wall_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Military",
+  "building_type": "StoneWall",
+  "race": "elf",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 920,
+  "lod_triangles": [
+   920,
+   518,
+   208
+  ],
+  "bounds": [
+   [
+    -0.47040000557899475,
+    0.0,
+    -0.21325890719890594
+   ],
+   [
+    0.47040000557899475,
+    0.6554999947547913,
+    0.22540000081062317
+   ]
+  ],
+  "bytes": 155224,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Military/bld_elf_stone_wall_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_stone_wall_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_stone_wall_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_watchtower_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Military",
+  "building_type": "Watchtower",
+  "race": "elf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 632,
+  "lod_triangles": [
+   632,
+   422,
+   153
+  ],
+  "bounds": [
+   [
+    -0.30379998683929443,
+    0.0,
+    -0.2842000126838684
+   ],
+   [
+    0.30379998683929443,
+    0.9476820230484009,
+    0.34299999475479126
+   ]
+  ],
+  "bytes": 118624,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Military/bld_elf_watchtower_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_watchtower_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_watchtower_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_watchtower_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Military",
+  "building_type": "Watchtower",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 632,
+  "lod_triangles": [
+   632,
+   422,
+   153
+  ],
+  "bounds": [
+   [
+    -0.30379998683929443,
+    0.0,
+    -0.2842000126838684
+   ],
+   [
+    0.30379998683929443,
+    1.0829999446868896,
+    0.34299999475479126
+   ]
+  ],
+  "bytes": 119232,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Military/bld_elf_watchtower_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_watchtower_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_watchtower_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_watchtower_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_watchtower_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_watchtower_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Military",
+  "building_type": "Watchtower",
+  "race": "elf",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 632,
+  "lod_triangles": [
+   632,
+   422,
+   153
+  ],
+  "bounds": [
+   [
+    -0.30379998683929443,
+    0.0,
+    -0.2842000126838684
+   ],
+   [
+    0.30379998683929443,
+    1.0387680530548096,
+    0.34299999475479126
+   ]
+  ],
+  "bytes": 119404,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Military/bld_elf_watchtower_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_watchtower_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_watchtower_industrial_v0.png"
+  }
+ }
+]

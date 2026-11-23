@@ -1,0 +1,808 @@
+[
+ {
+  "id": "bld_elf_aqueduct_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "Aqueduct",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1214,
+  "lod_triangles": [
+   1214,
+   742,
+   356
+  ],
+  "bounds": [
+   [
+    -0.24009999632835388,
+    0.0,
+    -1.3523999452590942
+   ],
+   [
+    0.24009999632835388,
+    0.7729200124740601,
+    1.3523999452590942
+   ]
+  ],
+  "bytes": 211540,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_aqueduct_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_aqueduct_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_aqueduct_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_aqueduct_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_aqueduct_classical_v0__renaissance.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_aqueduct_classical_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_aqueduct_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "Aqueduct",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1214,
+  "lod_triangles": [
+   1214,
+   742,
+   356
+  ],
+  "bounds": [
+   [
+    -0.24009999632835388,
+    0.0,
+    -1.3523999452590942
+   ],
+   [
+    0.24009999632835388,
+    0.8755199909210205,
+    1.3523999452590942
+   ]
+  ],
+  "bytes": 212604,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_aqueduct_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_aqueduct_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_aqueduct_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_aqueduct_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_aqueduct_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "Aqueduct",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1214,
+  "lod_triangles": [
+   1214,
+   742,
+   356
+  ],
+  "bounds": [
+   [
+    -0.24009999632835388,
+    0.0,
+    -1.3523999452590942
+   ],
+   [
+    0.24009999632835388,
+    0.8242200016975403,
+    1.3523999452590942
+   ]
+  ],
+  "bytes": 212736,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_aqueduct_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_aqueduct_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_aqueduct_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_aqueduct_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_fusion_reactor_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "FusionReactor",
+  "race": "elf",
+  "ages": [
+   "ascension",
+   "information"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 880,
+  "lod_triangles": [
+   880,
+   581,
+   235
+  ],
+  "bounds": [
+   [
+    -1.1430720090866089,
+    0.0,
+    -0.9543240070343018
+   ],
+   [
+    1.014299988746643,
+    2.386218309402466,
+    1.0498807430267334
+   ]
+  ],
+  "bytes": 167180,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_fusion_reactor_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_fusion_reactor_future_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_fusion_reactor_future_v0.png",
+   "information": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_fusion_reactor_future_v0__information.png"
+  }
+ },
+ {
+  "id": "bld_elf_granary_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "Granary",
+  "race": "elf",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 942,
+  "lod_triangles": [
+   942,
+   497,
+   207
+  ],
+  "bounds": [
+   [
+    -0.7526400089263916,
+    0.0,
+    -0.6977599859237671
+   ],
+   [
+    0.7036399841308594,
+    1.3560559749603271,
+    0.6511120200157166
+   ]
+  ],
+  "bytes": 162700,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_granary_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_granary_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_granary_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_granary_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_granary_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "Granary",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 942,
+  "lod_triangles": [
+   942,
+   497,
+   207
+  ],
+  "bounds": [
+   [
+    -0.7526400089263916,
+    0.0,
+    -0.6977599859237671
+   ],
+   [
+    0.7036399841308594,
+    1.4223040342330933,
+    0.6511120200157166
+   ]
+  ],
+  "bytes": 163172,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_granary_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_granary_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_granary_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_granary_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_granary_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_granary_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "Granary",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 942,
+  "lod_triangles": [
+   942,
+   497,
+   207
+  ],
+  "bounds": [
+   [
+    -0.7526400089263916,
+    0.0,
+    -0.6977599859237671
+   ],
+   [
+    0.7036399841308594,
+    1.554800033569336,
+    0.6511120200157166
+   ]
+  ],
+  "bytes": 163216,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_granary_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_granary_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_granary_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_granary_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_granary_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "Granary",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 942,
+  "lod_triangles": [
+   942,
+   497,
+   207
+  ],
+  "bounds": [
+   [
+    -0.7526400089263916,
+    0.0,
+    -0.6977599859237671
+   ],
+   [
+    0.7036399841308594,
+    1.4885519742965698,
+    0.6511120200157166
+   ]
+  ],
+  "bytes": 163480,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_granary_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_granary_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_granary_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_granary_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_power_plant_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "PowerPlant",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1311,
+  "lod_triangles": [
+   1311,
+   858,
+   337
+  ],
+  "bounds": [
+   [
+    -1.2130440473556519,
+    0.0,
+    -0.7691745758056641
+   ],
+   [
+    1.0848599672317505,
+    2.0503883361816406,
+    1.0650291442871094
+   ]
+  ],
+  "bytes": 249100,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_power_plant_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_power_plant_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_power_plant_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_power_plant_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_power_plant_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "PowerPlant",
+  "race": "elf",
+  "ages": [
+   "modern",
+   "industrial"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1023,
+  "lod_triangles": [
+   1023,
+   666,
+   209
+  ],
+  "bounds": [
+   [
+    -1.2130440473556519,
+    0.0,
+    -0.7691745758056641
+   ],
+   [
+    1.0848599672317505,
+    1.7063000202178955,
+    1.0650291442871094
+   ]
+  ],
+  "bytes": 187980,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_power_plant_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_power_plant_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_power_plant_industrial_v0.png",
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_power_plant_industrial_v0__industrial.png"
+  }
+ },
+ {
+  "id": "bld_elf_storehouse_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "Storehouse",
+  "race": "elf",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 785,
+  "lod_triangles": [
+   785,
+   512,
+   160
+  ],
+  "bounds": [
+   [
+    -0.825160026550293,
+    0.0,
+    -0.33882299065589905
+   ],
+   [
+    0.7545999884605408,
+    0.5096369981765747,
+    0.38004401326179504
+   ]
+  ],
+  "bytes": 142860,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_storehouse_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_storehouse_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "Storehouse",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 785,
+  "lod_triangles": [
+   785,
+   512,
+   160
+  ],
+  "bounds": [
+   [
+    -0.825160026550293,
+    0.0,
+    -0.33882299065589905
+   ],
+   [
+    0.7545999884605408,
+    0.5676630139350891,
+    0.38004401326179504
+   ]
+  ],
+  "bytes": 142688,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_storehouse_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_storehouse_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "Storehouse",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 870,
+  "lod_triangles": [
+   870,
+   571,
+   206
+  ],
+  "bounds": [
+   [
+    -0.825160026550293,
+    0.0,
+    -0.33882299065589905
+   ],
+   [
+    0.7545999884605408,
+    0.6423329710960388,
+    0.38004401326179504
+   ]
+  ],
+  "bytes": 161092,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_storehouse_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_storehouse_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "Storehouse",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 870,
+  "lod_triangles": [
+   870,
+   571,
+   206
+  ],
+  "bounds": [
+   [
+    -0.825160026550293,
+    0.0,
+    -0.33882299065589905
+   ],
+   [
+    0.7545999884605408,
+    0.5063319802284241,
+    0.38004401326179504
+   ]
+  ],
+  "bytes": 161224,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_storehouse_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_well_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "Well",
+  "race": "elf",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 519,
+  "lod_triangles": [
+   519,
+   321,
+   164
+  ],
+  "bounds": [
+   [
+    -0.2694999873638153,
+    0.0,
+    -0.24412590265274048
+   ],
+   [
+    0.2694999873638153,
+    0.7865999937057495,
+    0.23029999434947968
+   ]
+  ],
+  "bytes": 96628,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_well_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_well_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "Well",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 519,
+  "lod_triangles": [
+   519,
+   321,
+   164
+  ],
+  "bounds": [
+   [
+    -0.2694999873638153,
+    0.0,
+    -0.24412590265274048
+   ],
+   [
+    0.2694999873638153,
+    0.8094000220298767,
+    0.23029999434947968
+   ]
+  ],
+  "bytes": 97032,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_well_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_well_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "Well",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 519,
+  "lod_triangles": [
+   519,
+   321,
+   164
+  ],
+  "bounds": [
+   [
+    -0.2694999873638153,
+    0.0,
+    -0.24412590265274048
+   ],
+   [
+    0.2694999873638153,
+    0.8550000190734863,
+    0.23029999434947968
+   ]
+  ],
+  "bytes": 97016,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_well_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_well_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Infrastructure",
+  "building_type": "Well",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 519,
+  "lod_triangles": [
+   519,
+   321,
+   164
+  ],
+  "bounds": [
+   [
+    -0.2694999873638153,
+    0.0,
+    -0.24412590265274048
+   ],
+   [
+    0.2694999873638153,
+    0.8321999907493591,
+    0.23029999434947968
+   ]
+  ],
+  "bytes": 97404,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_well_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_industrial_v0__modern.png"
+  }
+ }
+]

@@ -1,0 +1,269 @@
+{
+  "package": "human_towncenters",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Session 9 independent critic (religion builder)",
+      "models": [
+        {
+          "id": "bld_human_town_center_ancient_bronze_v0",
+          "evidence_sha256": "ad7bce2316aab48ff50bca6a3303f2606687e4ab016bb5567b95ee8368492ce2",
+          "observations": "The raised bell chamber cuts through the low clay wings. Its posts, thick lintel and central approach read from above. Glazed pots flank the stair and blue shutters punctuate the ochre frontage. The reopened GLB passed the serialized validator at 839, 409, 155 triangles across its three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_town_center_ancient_iron_v0",
+          "evidence_sha256": "d7129072eee575736d62590742fa371bba44106128c7aa94b011386cb3125ab9",
+          "observations": "The projecting timber gable and shake-roofed stone hall read as two masses. Exposed jambs anchor the porch and its banner. The side bench and flower box break up the stone plinth. The reopened GLB passed the serialized validator at 913, 567, 101 triangles across its three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_town_center_ancient_v0",
+          "evidence_sha256": "eb447f6a136df39367bb686c7ee73f656237eca6c0e46fb33fdb731f66ceabd0",
+          "observations": "The reed laps and lower speaker\u2019s porch remain separate at 64 px. The calling drum, ridge lashings and blue gable shield make the gathering hall feel inhabited. Steps meet the porch under a timber frame. The reopened GLB passed the serialized validator at 905, 419, 109 triangles across its three LODs.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 96,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_town_center_classical_medieval_v0",
+          "evidence_sha256": "1e16c9ecb7ad8c2887fd6c2604dda359d2221c8f011254e63385937003f46eaf",
+          "observations": "The open bell tower and slate ridge give this hall a tall public face. The projecting framed upper chamber sits over a stone lower storey. The porch shield, garden and smoking-range flue reinforce the council-hall family. The reopened GLB passed the serialized validator at 1192, 757, 165 triangles across its three LODs.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 97,
+            "construction": 95,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_town_center_classical_renaissance_v0",
+          "evidence_sha256": "4dbc2d553224566cfc0fbe8626c084602d3912d66cef0ffc1570efd612777735",
+          "observations": "The drum separates the terracotta dome from the lower tiled roof at phone size. The central door and two flanking arched windows establish a measured facade. Flowers, flag and finial give the entrance scale. The reopened GLB passed the serialized validator at 948, 481, 171 triangles across its three LODs.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_town_center_classical_v0",
+          "evidence_sha256": "7c498b75322d0ff505c320c3e3bc4dda318ecf230a5f6a7ede65be7b8428e21b",
+          "observations": "Four pale columns land below the porch entablature. The broad steps and terracotta pediment stay legible at 64 px. Blue heraldry and a small planter humanize the otherwise formal order. The reopened GLB passed the serialized validator at 877, 549, 163 triangles across its three LODs.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 96,
+            "construction": 95,
+            "charm": 91,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_town_center_future_ascension_v0",
+          "evidence_sha256": "8ba5d6ffa64ca6418bd970af471551800efafc8ecf2e9d6b3644f0e29c7a5ec9",
+          "observations": "The continuous gold ring and three articulated piers read in silhouette around the pearl dome. The contrasting glazing band separates the drum from the roof. Planted beds, shield and roof beacon locate the civic entrance. The reopened GLB passed the serialized validator at 1036, 669, 321 triangles across its three LODs.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 95,
+            "construction": 95,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_town_center_future_v0",
+          "evidence_sha256": "9fb8b5884db0caa4a2a8ba5f858245871b7d742e727a7150f3a04d5b1ea5bd99",
+          "observations": "The stepped pair of glass towers and low public canopy remain clear at 64 px. Blue glazing, white floor bands and the small entrance shield are well balanced. A vertical intersection check at the secondary rooftop aerial confirms a gap of 0.020645 tile. The reopened GLB passed the serialized validator at 638, 327, 187 triangles across its three LODs.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 87,
+            "charm": 91,
+            "colour": 95,
+            "technical": 96
+          },
+          "defects": [
+            "Extend the LOD0 secondary rooftop aerial at x=-0.103 and z=0.394 from its current y=1.818 base down into the glass roof (surface y=1.797355), for example to y=1.78."
+          ]
+        },
+        {
+          "id": "bld_human_town_center_industrial_modern_v0",
+          "evidence_sha256": "007c1fc7567e09764dfbbb065f869301e2e0ed730ccf090bea15290017734bbe",
+          "observations": "The flag-topped clock slab projects above the low glazed clerestory. The flat canopy has two sidewalk supports and a clear entrance. Window mullions, shield and planted beds work at both preview scales. The reopened GLB passed the serialized validator at 742, 411, 181 triangles across its three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 92,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_town_center_industrial_v0",
+          "evidence_sha256": "3d0c51138ee69700e46c5ce6d300d5dcd66173ea6a71ff4276f468a85659dcce",
+          "observations": "The paired public clock faces and narrow brick stack identify the railway age without relying on the label. Pale courses bind the clock tower and its arched entrance. A flag and planted window bay soften the masonry. The reopened GLB passed the serialized validator at 1075, 547, 219 triangles across its three LODs.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 96,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Session 9 independent critic (religion builder)",
+      "models": [
+        {
+          "id": "bld_human_town_center_future_v0",
+          "evidence_sha256": "fc73b57c8c6a63459c4ae777bb987b51e3193238595202a167d601c4aef6469a",
+          "observations": "The secondary aerial now runs from y=1.780 to y=1.999 and enters the glass roof at y=1.797355. I rechecked the updated 256 px preview, its 64 px reduction and the reopened GLB. The two glazed towers, covered public entry and roof standard keep a clear three-part silhouette. The validator reports 638, 327 and 187 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 91,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_town_center_ancient_bronze_v0",
+          "evidence_sha256": "ad7bce2316aab48ff50bca6a3303f2606687e4ab016bb5567b95ee8368492ce2",
+          "observations": "The original phone and full-size visual observations still apply. The expanded geometry audit now detects exposed coplanar surfaces on the original submitted GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "Set the gatehouse pier and plaster facing at distinct exposed planes. The new surface audit found five LOD0 and six LOD1 pairs around x=0.355, y=0.665648, z=-0.584369."
+          ]
+        },
+        {
+          "id": "bld_human_town_center_ancient_iron_v0",
+          "evidence_sha256": "d7129072eee575736d62590742fa371bba44106128c7aa94b011386cb3125ab9",
+          "observations": "The original phone and full-size visual observations still apply. The expanded geometry audit now detects exposed coplanar surfaces on the original submitted GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "Miter or recess the joined timber bargeboards at the gable apex. Two LOD0 trim pairs overlie one another near x=0.329359, y=1.419621, z=-0.7085."
+          ]
+        },
+        {
+          "id": "bld_human_town_center_classical_v0",
+          "evidence_sha256": "7c498b75322d0ff505c320c3e3bc4dda318ecf230a5f6a7ede65be7b8428e21b",
+          "observations": "The original phone and full-size visual observations still apply. The expanded geometry audit now detects exposed coplanar surfaces on the original submitted GLB.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 96,
+            "construction": 95,
+            "charm": 91,
+            "colour": 95,
+            "technical": 96
+          },
+          "defects": [
+            "Inset or project the porch entablature relative to the basilica side wall. Three plaster/ivory pairs share the exposed x=0.74 plane at every LOD, near y=0.70497, z=-0.301."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Session 9 independent critic (religion builder)",
+      "models": [
+        {
+          "id": "bld_human_town_center_ancient_bronze_v0",
+          "evidence_sha256": "104b9887e0d9236b82dbaac4f7e7760506902d9f684bc90999f4267c82e704db",
+          "observations": "The wider plaster pilasters project from the gatehouse face with a clear side return. The alarm bell, blue shield and central arch retain their full-size and 64 px silhouettes. The new serialized surface audit found no exposed coplanar pairs at any LOD.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_town_center_ancient_iron_v0",
+          "evidence_sha256": "dec705e4eb815ae5a58e03750d60b696e841df2a6f4055808efda9094f17f527",
+          "observations": "The new miter resolves the overlap at the peak of the timber bargeboards. The pitched watch porch retains its facade crest, corner structure and bench at normal viewing scale. The new serialized surface audit found no exposed coplanar pairs at any LOD.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_town_center_classical_v0",
+          "evidence_sha256": "5118c8873e80000b660650219546a8fc013b0e31f026b88a25b8ca0747b34fc6",
+          "observations": "The portico entablature now stands proud of the enclosing wall. Four capitals meet the projecting stonework cleanly and the steps and pediment still read at 64 px. The new serialized surface audit found no exposed coplanar pairs at any LOD.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 96,
+            "construction": 95,
+            "charm": 91,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

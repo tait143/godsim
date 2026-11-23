@@ -1,0 +1,752 @@
+[
+ {
+  "id": "bld_saurian_arcology_future_v0",
+  "kind": "townhall",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Arcology",
+  "race": "saurian",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1489,
+  "lod_triangles": [
+   1489,
+   843,
+   305
+  ],
+  "bounds": [
+   [
+    -1.4474999904632568,
+    0.0,
+    -1.440000057220459
+   ],
+   [
+    1.4474999904632568,
+    3.379499912261963,
+    1.4249999523162842
+   ]
+  ],
+  "bytes": 223536,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_arcology_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_arcology_future_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_arcology_future_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_arena_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Arena",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 876,
+  "lod_triangles": [
+   876,
+   546,
+   258
+  ],
+  "bounds": [
+   [
+    -1.4550000429153442,
+    0.0,
+    -1.3049999475479126
+   ],
+   [
+    1.4550000429153442,
+    1.3355549573898315,
+    1.3642499446868896
+   ]
+  ],
+  "bytes": 120816,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_arena_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_arena_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_arena_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_arena_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_arena_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_arena_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Arena",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 902,
+  "lod_triangles": [
+   902,
+   560,
+   272
+  ],
+  "bounds": [
+   [
+    -1.4700000286102295,
+    0.0,
+    -1.2899999618530273
+   ],
+   [
+    1.4700000286102295,
+    1.537500023841858,
+    1.3447500467300415
+   ]
+  ],
+  "bytes": 123876,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_arena_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_arena_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_arena_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_arena_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_arena_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Arena",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 858,
+  "lod_triangles": [
+   858,
+   524,
+   252
+  ],
+  "bounds": [
+   [
+    -1.3650000095367432,
+    0.0,
+    -1.440000057220459
+   ],
+   [
+    1.3650000095367432,
+    1.266605257987976,
+    1.440000057220459
+   ]
+  ],
+  "bytes": 121608,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_arena_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_arena_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_arena_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_arena_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_campfire_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Campfire",
+  "race": "saurian",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1016,
+  "lod_triangles": [
+   1016,
+   570,
+   245
+  ],
+  "bounds": [
+   [
+    -0.45750001072883606,
+    0.0,
+    -0.41999998688697815
+   ],
+   [
+    0.45750001072883606,
+    0.40700000524520874,
+    0.45500001311302185
+   ]
+  ],
+  "bytes": 156008,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_campfire_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_campfire_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_campfire_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_campfire_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_campfire_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_campfire_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Campfire",
+  "race": "saurian",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1096,
+  "lod_triangles": [
+   1096,
+   632,
+   293
+  ],
+  "bounds": [
+   [
+    -0.45750001072883606,
+    0.0,
+    -0.41999998688697815
+   ],
+   [
+    0.45750001072883606,
+    0.5,
+    0.45500001311302185
+   ]
+  ],
+  "bytes": 173540,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_campfire_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_campfire_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_campfire_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_forum_classical_v0",
+  "kind": "townhall",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Forum",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1173,
+  "lod_triangles": [
+   1173,
+   758,
+   305
+  ],
+  "bounds": [
+   [
+    -1.4550000429153442,
+    0.0,
+    -0.9760000109672546
+   ],
+   [
+    1.4550000429153442,
+    1.399999976158142,
+    0.871999979019165
+   ]
+  ],
+  "bytes": 171772,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_forum_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_forum_future_v0",
+  "kind": "townhall",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Forum",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1235,
+  "lod_triangles": [
+   1235,
+   811,
+   345
+  ],
+  "bounds": [
+   [
+    -1.4550000429153442,
+    0.0,
+    -0.9760000109672546
+   ],
+   [
+    1.4550000429153442,
+    1.5549999475479126,
+    0.871999979019165
+   ]
+  ],
+  "bytes": 184628,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_forum_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_forum_industrial_v0",
+  "kind": "townhall",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Forum",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1185,
+  "lod_triangles": [
+   1185,
+   770,
+   281
+  ],
+  "bounds": [
+   [
+    -1.4550000429153442,
+    0.0,
+    -0.9760000109672546
+   ],
+   [
+    1.4550000429153442,
+    1.1820000410079956,
+    0.871999979019165
+   ]
+  ],
+  "bytes": 172976,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_forum_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_stadium_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Stadium",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1329,
+  "lod_triangles": [
+   1329,
+   593,
+   259
+  ],
+  "bounds": [
+   [
+    -1.4175000190734863,
+    0.0,
+    -1.4737499952316284
+   ],
+   [
+    1.4175000190734863,
+    1.2283200025558472,
+    1.440000057220459
+   ]
+  ],
+  "bytes": 182028,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_stadium_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_stadium_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_stadium_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_stadium_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_stadium_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Stadium",
+  "race": "saurian",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1309,
+  "lod_triangles": [
+   1309,
+   573,
+   239
+  ],
+  "bounds": [
+   [
+    -1.4175000190734863,
+    0.0,
+    -1.4737499952316284
+   ],
+   [
+    1.4175000190734863,
+    1.2283200025558472,
+    1.440000057220459
+   ]
+  ],
+  "bytes": 177692,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_stadium_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_stadium_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_stadium_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_tavern_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Tavern",
+  "race": "saurian",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1033,
+  "lod_triangles": [
+   1033,
+   493,
+   191
+  ],
+  "bounds": [
+   [
+    -0.9229999780654907,
+    0.0,
+    -0.8659999966621399
+   ],
+   [
+    0.9070000052452087,
+    1.312000036239624,
+    0.9039999842643738
+   ]
+  ],
+  "bytes": 135340,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_tavern_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_tavern_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_tavern_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_tavern_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_tavern_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Tavern",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1017,
+  "lod_triangles": [
+   1017,
+   477,
+   183
+  ],
+  "bounds": [
+   [
+    -0.9229999780654907,
+    0.0,
+    -0.8659999966621399
+   ],
+   [
+    0.9070000052452087,
+    1.0549999475479126,
+    0.9039999842643738
+   ]
+  ],
+  "bytes": 132024,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_tavern_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_tavern_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_tavern_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_tavern_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_tavern_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Tavern",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1039,
+  "lod_triangles": [
+   1039,
+   499,
+   193
+  ],
+  "bounds": [
+   [
+    -0.9229999780654907,
+    0.0,
+    -0.8659999966621399
+   ],
+   [
+    0.9070000052452087,
+    1.1670000553131104,
+    0.9039999842643738
+   ]
+  ],
+  "bytes": 136576,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_tavern_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_tavern_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_tavern_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_tavern_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_theater_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Theater",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1024,
+  "lod_triangles": [
+   1024,
+   463,
+   244
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.8949999809265137
+   ],
+   [
+    0.9200000166893005,
+    1.1117000579833984,
+    0.8949999809265137
+   ]
+  ],
+  "bytes": 135436,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_theater_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_theater_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_theater_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_theater_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_theater_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_theater_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Theater",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1034,
+  "lod_triangles": [
+   1034,
+   473,
+   254
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.8949999809265137
+   ],
+   [
+    0.9200000166893005,
+    1.1649999618530273,
+    0.8949999809265137
+   ]
+  ],
+  "bytes": 137200,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_theater_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_theater_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_theater_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_theater_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_theater_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/CultureCivic",
+  "building_type": "Theater",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1034,
+  "lod_triangles": [
+   1034,
+   473,
+   254
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.8949999809265137
+   ],
+   [
+    0.9200000166893005,
+    1.0579999685287476,
+    0.8949999809265137
+   ]
+  ],
+  "bytes": 137460,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_theater_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_theater_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_theater_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_theater_industrial_v0__modern.png"
+  }
+ }
+]

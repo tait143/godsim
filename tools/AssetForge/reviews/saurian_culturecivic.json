@@ -1,0 +1,351 @@
+{
+  "package": "saurian_culturecivic",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "session4-learning_builder",
+      "models": [
+        {
+          "id": "bld_saurian_arcology_future_v0",
+          "evidence_sha256": "80ff65c49f8d1902d5cc332271df5500d301d0a4c6d05b1f9f5149b9693d53c5",
+          "observations": "The Ascension tower reads in three setbacks at 64 px. Gardens, paired pools and gilt crown give scale to the broad stepped podium. Reviewed the serialized three-LOD chain [1489, 843, 305] and full/64 px previews.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_arena_classical_v0",
+          "evidence_sha256": "b0ca8c64de616c249f72a9c80e77ccd398bfdd7ca44bc90e0512767637c785b3",
+          "observations": "The open sand ring, separate entry pylons and projecting judges\u2019 box stay distinct in all three rows. The warm floor still separates from the Renaissance stands. Reviewed the serialized three-LOD chain [876, 546, 258] and full/64 px previews.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_arena_future_v0",
+          "evidence_sha256": "1b6de086c665e52ec45b4c6f1d1d705b3469ea8b5507c29276b8cfe87a0ce722",
+          "observations": "The cyan shell carries three bright terrace rims around the earthen ring. A solar judge's stand and pennants flank the entrance in the distance view. Reviewed the serialized three-LOD chain [902, 560, 272] and full/64 px previews.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_arena_industrial_v0",
+          "evidence_sha256": "8f0d0226f9982680aaacb434cf22e98410c262896787ad2c2de2ed021eb38714",
+          "observations": "Dark canopy over a brick judge's box frames the flag gate. Brick and sand have the closest values in Industrial, where tier edges still show. Reviewed the serialized three-LOD chain [858, 524, 252] and full/64 px previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 90,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_campfire_ancient_v0",
+          "evidence_sha256": "d0641eba37880c1f8378bd4a138270276b94b40eecef856825c571fd50cc8146",
+          "observations": "Three flame tongues rise clearly beyond the rough fire ring; asymmetric benches, a painted stone and a little turquoise vessel define the gathering circle. Reviewed the serialized three-LOD chain [1016, 570, 245] and full/64 px previews.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 91,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_campfire_classical_v0",
+          "evidence_sha256": "39f53014fd941c9808b91401f1eb30fee347290f8a27e4b48066a22f7dbed026",
+          "observations": "Replacing the rough stone ring with a broad gold ceremonial bowl changes the profile. Seated-height benches and two lights remain grounded and readable. Reviewed the serialized three-LOD chain [1096, 632, 293] and full/64 px previews.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_forum_classical_v0",
+          "evidence_sha256": "94635657b294dd5ca7b1a8c833135515ee0b008edd3fe3c48cebf85641648542",
+          "observations": "Open side loggias, sun medallion and an open book give the classical assembly court a focal point across all three rows. Reviewed the serialized three-LOD chain [1179, 764, 311] and full/64 px previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 90,
+            "charm": 94,
+            "colour": 92,
+            "technical": 94
+          },
+          "defects": [
+            "Ten exposed coplanar wall pairs in each LOD at world (0.3585, 0.044031, -0.8595). The stair boxes overlap in depth by 0.001 local units; construct the treads as one non-overlapping stepped solid and make its landing terminate at the podium."
+          ]
+        },
+        {
+          "id": "bld_saurian_forum_future_v0",
+          "evidence_sha256": "e39f16a1c6c541f18da536bd00372f61c7befc186b7cf200d97139089026a91f",
+          "observations": "A supported open halo crowns the glazed central hall. Side flags and the gold-edged lectern remain legible against both pale future surfaces. Reviewed the serialized three-LOD chain [1241, 817, 351] and full/64 px previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 96,
+            "construction": 90,
+            "charm": 93,
+            "colour": 95,
+            "technical": 94
+          },
+          "defects": [
+            "Ten exposed coplanar wall pairs in each LOD at world (0.3585, 0.044031, -0.8595). The stair boxes overlap in depth by 0.001 local units; construct the treads as one non-overlapping stepped solid and make its landing terminate at the podium."
+          ]
+        },
+        {
+          "id": "bld_saurian_forum_industrial_v0",
+          "evidence_sha256": "f283f62cb26fb1f7432c6d5f5e461b53aecb371a2371922a3a4714ea53034120",
+          "observations": "Monitor roof, brick upper story and contrasting solar seal frame the open court. The stepped south approach shows a surface-check defect. Reviewed the serialized three-LOD chain [1191, 776, 287] and full/64 px previews.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 90,
+            "charm": 92,
+            "colour": 91,
+            "technical": 94
+          },
+          "defects": [
+            "Ten exposed coplanar wall pairs in each LOD at world (0.3585, 0.044031, -0.8595). The stair boxes overlap in depth by 0.001 local units; construct the treads as one non-overlapping stepped solid and make its landing terminate at the podium."
+          ]
+        },
+        {
+          "id": "bld_saurian_stadium_future_v0",
+          "evidence_sha256": "222f9880c04cc5435bbe1d0b9ecd61cda9be9e66f5ac36bccb433c1da7441699",
+          "observations": "Twin glazed rain covers frame an open field. Touch lines, canopy lights and the scoreboard remain distinct at 64 px in both future roles. Reviewed the serialized three-LOD chain [1329, 593, 259] and full/64 px previews.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 92,
+            "construction": 95,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_stadium_industrial_v0",
+          "evidence_sha256": "a513222c0f98a5f07128ed1f8c8fbd892b8ca7cf8064faa8b617fe4eaf2f8571",
+          "observations": "The covered terraces face a striped green pitch with separate end gate. Scoreboard and four gilt lights are readable even on Modern's pale roof. Reviewed the serialized three-LOD chain [1309, 573, 239] and full/64 px previews.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 91,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_tavern_classical_v0",
+          "evidence_sha256": "67205cbfb94d454a5232e9927d0be198218fa54e6405ed5ab6a7dc76ffdd648e",
+          "observations": "Tall skirted roof and chimney rise above a side brew kettle, hanging sign and shaded porch. Medieval slate contrasts with the Renaissance roof tile. Reviewed the serialized three-LOD chain [1033, 493, 191] and full/64 px previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_tavern_future_v0",
+          "evidence_sha256": "bae63f13719cdec38c0e14bc01d40c7256bd6d8defe2a807bbe5a766733e8f76",
+          "observations": "The white-edged glazed lantern and side kettle give a recognizable brewhouse profile. The tap, vessel, and hanging sign reward the larger view. Reviewed the serialized three-LOD chain [1017, 477, 183] and full/64 px previews.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_tavern_industrial_v0",
+          "evidence_sha256": "ce29158385a0372974120a3184ba25ce6c6d8715ca7d53205b1a469c751c3fae",
+          "observations": "A brick roof monitor backs the awning; the domed brewing kettle, tap jar and porch sign separate the tavern from a house in both age rows. Reviewed the serialized three-LOD chain [1039, 499, 193] and full/64 px previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_theater_classical_v0",
+          "evidence_sha256": "ee05036c08c87cf028fd6ca26840214d4a7d43c95e78d1f9a1dea4a051629927",
+          "observations": "The splayed seating, part-open red curtains and solar theater mask read under all three roof colors. The stage registration has a technical finding. Reviewed the serialized three-LOD chain [1062, 479, 248] and full/64 px previews.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 91,
+            "charm": 94,
+            "colour": 93,
+            "technical": 95
+          },
+          "defects": [
+            "The stage and approach overlap at the 0.217 world-height terrace plane: LOD0/1/2 report 3/3/2 exposed pairs near z=0. End the approach flush at the stage edge or remove the buried top faces."
+          ]
+        },
+        {
+          "id": "bld_saurian_theater_future_v0",
+          "evidence_sha256": "3912240f9994fc839c931737f7a985cc085cf204d5e0c3a00d88c2b08a080867",
+          "observations": "Glazed fly loft above the mask makes a strong future proscenium silhouette. Red curtains, footlights and the stepped audience aisle identify the function. Reviewed the serialized three-LOD chain [1072, 489, 258] and full/64 px previews.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 91,
+            "charm": 93,
+            "colour": 94,
+            "technical": 95
+          },
+          "defects": [
+            "The stage and approach overlap at the 0.217 world-height terrace plane: LOD0/1/2 report 3/3/2 exposed pairs near z=0. End the approach flush at the stage edge or remove the buried top faces."
+          ]
+        },
+        {
+          "id": "bld_saurian_theater_industrial_v0",
+          "evidence_sha256": "57f0d4fe3c125332610542bca6e55191cfeda128d698bee7b7aacfe11e073eae",
+          "observations": "Industrial brick and the darker monitor cap keep the theatrical frame readable. Separated rows, single stage and a suspended mask remain visible at 64 px. Reviewed the serialized three-LOD chain [1072, 489, 258] and full/64 px previews.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 91,
+            "charm": 93,
+            "colour": 92,
+            "technical": 95
+          },
+          "defects": [
+            "The stage and approach overlap at the 0.217 world-height terrace plane: LOD0/1/2 report 3/3/2 exposed pairs near z=0. End the approach flush at the stage edge or remove the buried top faces."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "session4-learning_builder",
+      "models": [
+        {
+          "id": "bld_saurian_forum_classical_v0",
+          "evidence_sha256": "6ec1e4c2e2136cfedda02eac0ef8229da7dc2fc4b0b8dcce92fb10bf468c61be",
+          "observations": "The revised treads meet the public terrace. The side colonnades and lectern retain their outlines across the three classical-era color rows. Full and 64px age previews reinspected. Current GLB and surface checks clear all three levels [1173, 758, 305].",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_forum_future_v0",
+          "evidence_sha256": "ed631b67b1f160c882ff9f1bea67ad6fba48d77a796dea66f93a74ce726046d5",
+          "observations": "The reworked front stair lands on the podium below the pale lectern. The ring crown stays distinct in both future views. Full and 64px age previews reinspected. Current GLB and surface checks clear all three levels [1235, 811, 345].",
+          "scores": {
+            "silhouette": 94,
+            "identity": 96,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_forum_industrial_v0",
+          "evidence_sha256": "fe82c42cd06eae54e3fd9b361cbca579b6234b213bf46516ddb2bbb1bf2fddf8",
+          "observations": "The front stair profile is continuous beneath the brick hall. Both age views retain the monitor roof and turquoise lectern. Full and 64px age previews reinspected. Current GLB and surface checks clear all three levels [1185, 770, 281].",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_theater_classical_v0",
+          "evidence_sha256": "b7c1fbeeafa12fec42e77a7734f4d2d7f3e9d943f52e525a44a544c9bb26344d",
+          "observations": "The stage edge and landing now meet cleanly between the splayed bench blocks, with clear access to the curtains in all three rows. Full and 64px age previews reinspected. Current GLB and surface checks clear all three levels [1024, 463, 244].",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_theater_future_v0",
+          "evidence_sha256": "704e5673d683dd4072cb68cb3aabb6f6807d9631baef6065c13ec39695d43ac1",
+          "observations": "The stage presents an uninterrupted platform to the shortened stair beneath the suspended mask; pale glass canopy and footlights remain clear. Full and 64px age previews reinspected. Current GLB and surface checks clear all three levels [1034, 473, 254].",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_theater_industrial_v0",
+          "evidence_sha256": "5f3e260741fdd96b2641713fb1270ee094e556f0bd1024fde8c6ac78f19d2302",
+          "observations": "The revised center stair meets the floor of the industrial proscenium. Brick and Modern variants keep the two seat blocks clearly separated. Full and 64px age previews reinspected. Current GLB and surface checks clear all three levels [1034, 473, 254].",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

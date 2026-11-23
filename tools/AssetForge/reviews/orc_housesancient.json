@@ -1,0 +1,201 @@
+{
+  "package": "orc_housesancient",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "ancient_critic (independent Codex art reviewer)",
+      "models": [
+        {
+          "id": "bld_orc_house_ancient_v0",
+          "evidence_sha256": "58694050d521578162df87c9802edbe14a4b308137798584c3f57e79709049e8",
+          "observations": "The tall golden thatch cone, crossed poles and pale tusks stand apart at 48 and 80 px. The red panels descending from the peak disappear completely on the separately rendered 128-triangle LOD2. A small drum and the amber side window explain the hut's domestic scale. The serialized 510/306/128 triangle chain passed validation.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 89,
+            "construction": 93,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Carry the red sewn roof panel into LOD2 as a simplified red insert with roughly the same apparent area and position as LOD1. Check the two LODs side by side at phone scale."
+          ]
+        },
+        {
+          "id": "bld_orc_house_ancient_v1",
+          "evidence_sha256": "4fffaa96a6a8e040627bf9d09fce38cc7633162189c34c0859267cb594d0d4db",
+          "observations": "The low ridge tent reads separately from the pointed Dawn hut. Warm saddle hide, the large red panel and a side drum give it an individual household identity. LOD1 keeps the saddle paint, but its removal leaves a uniformly brown roof in the LOD2 image. The serialized chain passed at 510/306/128 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 88,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Carry the red sewn roof panel into LOD2 as a simplified red insert with roughly the same apparent area and position as LOD1. Check the two LODs side by side at phone scale."
+          ]
+        },
+        {
+          "id": "bld_orc_house_ancient_bronze_v0",
+          "evidence_sha256": "638a91c7788d5e3eab704189b84e6bf3aa806aecf7f86e8b195d16a8f5923ec4",
+          "observations": "Brick courses under a rounded ochre roof signal the switch from Dawn's thatch. The porch tusks, drum and stepped threshold stay readable in the main preview. In the reverse view the back vessel intersects the diagonal masonry, and the red crown marks vanish at LOD2. All 560/322/128 triangles and shared-atlas checks passed.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 90,
+            "construction": 87,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Carry the red sewn roof panel into LOD2 as a simplified red insert with roughly the same apparent area and position as LOD1. Check the two LODs side by side at phone scale.",
+            "The back storage pot passes into the diagonal exterior wall and plinth. Move its complete circumference onto the rear apron, or replace it with a deliberately wall-mounted fitting."
+          ]
+        },
+        {
+          "id": "bld_orc_house_ancient_bronze_v1",
+          "evidence_sha256": "f2dd93a5a83b23b880932043d1fda19254290c1f2feebaa40eb8324f8f02fbea",
+          "observations": "The corbelled rectangular roof, broad hearth-like ridge and two tusks distinguish the stepped Bronze dwelling from its round counterpart. Its red ridge band turns uniformly ochre in the far LOD. A reverse LOD0 view shows the rear pot cut off sharply by the near corner. Export checks passed at 582/344/128 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 90,
+            "construction": 85,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Carry the red sewn roof panel into LOD2 as a simplified red insert with roughly the same apparent area and position as LOD1. Check the two LODs side by side at phone scale.",
+            "The back storage pot passes into the diagonal exterior wall and plinth. Move its complete circumference onto the rear apron, or replace it with a deliberately wall-mounted fitting."
+          ]
+        },
+        {
+          "id": "bld_orc_house_ancient_iron_v0",
+          "evidence_sha256": "cc328bd40d9767302a3b49b3653ce336c72aa33daca1373529aa1c162216c77f",
+          "observations": "A tall slate cap and grey stone wall make a strong Iron-age shift. Broad scarlet strips frame the crown and then vanish in the direct LOD2 view. The front drum is well clear of the door, while the ochre rear jar intersects the foot of the wall in the reverse view. Serialized counts 566/328/128 passed.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 89,
+            "construction": 87,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Carry the red sewn roof panel into LOD2 as a simplified red insert with roughly the same apparent area and position as LOD1. Check the two LODs side by side at phone scale.",
+            "The back storage pot passes into the diagonal exterior wall and plinth. Move its complete circumference onto the rear apron, or replace it with a deliberately wall-mounted fitting."
+          ]
+        },
+        {
+          "id": "bld_orc_house_ancient_iron_v1",
+          "evidence_sha256": "46c9a29c10fe28b405c7ea1c4228ebe555a799c30849f6b7b7d7259eb2040aec",
+          "observations": "The iron-bound ridge, brown angular roof, red sewn panel and stone foundation read clearly on the long variant, including its horned timber portal. At LOD2 the broad paint panel disappears, while the reverse full-detail view shows only a cut portion of the back pot outside the masonry. The exported 566/328/128 triangle chain passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 89,
+            "construction": 85,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Carry the red sewn roof panel into LOD2 as a simplified red insert with roughly the same apparent area and position as LOD1. Check the two LODs side by side at phone scale.",
+            "The back storage pot passes into the diagonal exterior wall and plinth. Move its complete circumference onto the rear apron, or replace it with a deliberately wall-mounted fitting."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "ancient_critic (independent Codex art reviewer)",
+      "models": [
+        {
+          "id": "bld_orc_house_ancient_v0",
+          "evidence_sha256": "683159ec66ba476569fd97b37c7bc54e90abd89651e9be6571dbd3e74269ea4a",
+          "observations": "The straw cone and crossed poles read at 48 px, with a pair of tapering red patches still visible at the 144-triangle LOD. On the full-size hut, the outer posts, curved tusks, drum and amber side window connect the roof to the living space. Validator counts were 510/306/144.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_ancient_v1",
+          "evidence_sha256": "ed4f197d104ef2e9442e49250d9ed197bd56db7c8192a1e6d8158fb5543e8285",
+          "observations": "The low hide saddle and spread ridge poles form a different outline from the pointed Dawn variant. The red flank panel stays visible through all three meshes. The framed horn porch, side light and drum give a strong entrance at 80 px. Validator counts were 510/306/144.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_ancient_bronze_v0",
+          "evidence_sha256": "fe9fc7d99aa01d0e757ce6e88e03d2ddc90c0412f92488f59b905d37851f6ebe",
+          "observations": "The corbelled brick course, rounded hide roof and small red crown marks distinguish the Bronze hut. At 72 px the crown marks retain their proportion on LOD2. The reverse view shows the complete pot with a clear ground contact outside the rear footing. The modeled step leads to the horned front door. Validator counts were 560/322/144.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_ancient_bronze_v1",
+          "evidence_sha256": "a41854f7c302f224ede3a9fb08f1eaaadc2b13785f70aaf1e69ff3a9199c45a6",
+          "observations": "The squat rectangular roof widens beneath a dark ridge cap. its red seam stays visible in the distant silhouette. In the reverse rendering the back pot has a complete rim and distinct side clear of the masonry. The front drum sits beside the porch steps. Validator counts were 582/344/144.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_ancient_iron_v0",
+          "evidence_sha256": "6985cbc5b42c0eb58d2a8c31b46656d0204aabcd339cccc28e8348fe2bc8e50a",
+          "observations": "Slate and fieldstone hold a cool value range around the red peak panels, which are apparent on the 72 px LOD2. A rear render confirms the vessel now stands wholly outside the plinth. The front drum, sheltered amber window and tall timber portal read as household details. Validator counts were 566/328/144.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_ancient_iron_v1",
+          "evidence_sha256": "7987ca380533753bb54c3b1110608477ad194d66b7694b2d67064104d21a7521",
+          "observations": "The metal ridge cap and rectangular timber roof distinguish the Iron longhouse at 48 and 80 px. The broad red panel remains clear when the cap details drop out at LOD2. The rear storage vessel clears the stone corner and reads separately from the front drum. Validator counts were 566/328/144.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

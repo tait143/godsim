@@ -1,0 +1,165 @@
+{
+  "package": "orc_housesclassical",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "classical_critic",
+      "models": [
+        {
+          "id": "bld_orc_house_classical_medieval_v0",
+          "evidence_sha256": "9942692ac759e24c46e3bbbf6909dffe9791df8178688a3d7797d9f9a6c9a775",
+          "observations": "The steep slate gable, raised ridge tips and crooked chimney stay distinct at 64 px. Timber braces flank the shuttered side window, and the tusked doorway is legible beneath the roof. In front elevation the red clan lozenge disappears at the first distance switch, leaving the large timber gable blank. The serialized validator accepted 648/414/160 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 89,
+            "technical": 99
+          },
+          "defects": [
+            "Restore the red gable lozenges at LOD1 and LOD2. The present four triangle cost across the two ends is small, and the mark is legible at phone size."
+          ]
+        },
+        {
+          "id": "bld_orc_house_classical_medieval_v1",
+          "evidence_sha256": "165208876a74fc1fcc09406e34101d3ba5e87638a88e406c4d9bdaf4fdd5b863",
+          "observations": "The stone long wall under the concave transverse ridge distinguishes this from the narrower plaster lodge. The paired tusks frame the door and remain at both distance levels. The red diamond on the short gable vanishes at LOD1, an abrupt colour change from the side view. All three exported LODs passed at 648/414/160 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 89,
+            "technical": 99
+          },
+          "defects": [
+            "Keep the existing red lozenge on each short gable at LOD1 and LOD2, so its side elevation keeps the visible clan mark."
+          ]
+        },
+        {
+          "id": "bld_orc_house_classical_renaissance_v0",
+          "evidence_sha256": "a0db44327da2ff42ee7ff284a344a2235f037d25be7943bd8a8bb66aca46131a",
+          "observations": "The rounded tile shoulder and vent lantern are the identifying silhouette in the front elevation. The two capped pots, window shutters and carved tusks add domestic detail. The LOD2 roof makes a straight ramp from the outer skirt to the lantern, changing the dome into a cone. The 486/290/144 triangle chain passed the serialized checks.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 98
+          },
+          "defects": [
+            "Retain the upper shoulder break at LOD2 so the rounded dome remains visible from the front and at three quarters. Simplify covered or lower roof surfaces if needed for the LOD2 budget."
+          ]
+        },
+        {
+          "id": "bld_orc_house_classical_renaissance_v1",
+          "evidence_sha256": "ae577d08ef816fa97f4e84d2d1660f49d65a943bdd861e77bcd03c731aa6312e",
+          "observations": "A broad hipped profile sits below the vent cap. Its horizontal spread and low eaves survive the distance renders. The inset lit side window, paired blue-green pot lids and red shutters balance the pale wall against the terracotta. A broad lintel carries the entry tusks. The serialized checks passed for all 506/310/144 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_classical_v0",
+          "evidence_sha256": "2279e4615d4432b1fb316b3883a84ec7857458e252702e36dd0f4bc48ecab89b",
+          "observations": "The round porch and sharply pitched roof frame a compact tusked crown at 64 px. Paired columns support the front eave, the door opens toward the steps, and the bandaged porch drum reads clearly against the pale masonry. The crown, columns, full roof and door remain legible in the coarse export. The serialized checks passed at 570/268/132 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_classical_v1",
+          "evidence_sha256": "45e2c6ad93a7479c2f3d9c3e950265893841b92269590ef8d03cdcfdf7745126",
+          "observations": "The wide hip, twin horn terminals and long gold ridge distinguish this classical row house. The drum and shuttered window keep the colonnade domestic. In the front elevation the narrow approach step lands beside part of the doorway. Its centre lies 0.122 tile off the threshold centre, leaving a short sidestep across a shallow landing. The exported 646/268/132 triangles passed the serialized checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 89,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Centre the LOD0 and LOD1 approach step on the offset doorway, or widen it enough to span the entire threshold."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "classical_critic",
+      "models": [
+        {
+          "id": "bld_orc_house_classical_medieval_v0",
+          "evidence_sha256": "71bd5a87851d6e23c15e98a7b3d28dc5e7a9e8d073a75706886498c2f3c38bdc",
+          "observations": "The front gable keeps its red lozenge under both horn tips in all three front elevations. The 64 px preview preserves the steep cruck roof, small chimney and warm entrance, while the side braces and drum add detail at full size. Serialized validation and surface inspection passed at 648/418/164 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_classical_medieval_v1",
+          "evidence_sha256": "1eed4a6c2e3e792b9ac6ac14ef14f84f5f297153cacc038361c5cee960d01d16",
+          "observations": "The red diamond remains centred on the short gable in the side elevation at LOD0, LOD1 and LOD2. The swept slate ridge, stone long wall, horned portal and porch drum still distinguish this house in the 64 px view. Serialized validation and surface inspection passed at 648/418/164 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_classical_renaissance_v0",
+          "evidence_sha256": "8e91262bd4dbfb865687459a00b00aee42755612e7028bb041b963911da786ee",
+          "observations": "The LOD2 front elevation now bends at the upper tile shoulder before narrowing toward the lantern. The same rounded outline is visible in the oblique render. At 64 px the paired pots, shutters and entry tusks remain clear accents beneath the large terracotta roof. Serialized validation and surface inspection passed at 486/290/144 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_classical_v1",
+          "evidence_sha256": "557607674d049b2a35480df535883902a8ed99e01587a54ec872d16c19449fe9",
+          "observations": "The narrow entrance step now spans the portal symmetrically in the front elevations of LOD0 and LOD1. The columns and door stay readable under the wide tile hip, and the drum and long gold ridge ending in ivory tusks remain visible on the phone-sized preview. Serialized validation and surface inspection passed at 646/268/132 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

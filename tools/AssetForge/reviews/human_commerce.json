@@ -1,0 +1,305 @@
+{
+  "package": "human_commerce",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Session 10 independent CultureCivic builder, commerce critic",
+      "models": [
+        {
+          "id": "bld_human_airport_future_v0",
+          "evidence_sha256": "7fd5c698666a501a711f40f89ef80606876efcae8145ec696e759bee9c900e8c",
+          "observations": "The tower head, apron markings and white aircraft are readable at 64 px in both skins. The roof changes from steel to gold and the terminal retains a blue flag, planted bollards and luggage cart. Serialized LOD triangles: 758/456/204.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_bank_classical_v0",
+          "evidence_sha256": "2b58e19ad78c567c88d0a5cb7ce849af5995b027b138674d91685f3db677c450",
+          "observations": "The lantern dome and four-column public portico survive the change from terracotta Renaissance to dark Medieval roof. Stacked steps meet the doorway. Topiary and the blue medallion frame the approach. Serialized LOD triangles: 762/444/154.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_bank_future_v0",
+          "evidence_sha256": "05005f67dd9065858d47137052f6a5fc851c04a0d3fb616969dd56e14a304d78",
+          "observations": "The tapered glazed vault sits on the counting hall. A pale drum separates two tiers, and the metal portico, coin badge and two shrubs remain clear beside the front steps. Serialized LOD triangles: 692/426/167.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_bank_industrial_v0",
+          "evidence_sha256": "60d1d556fe07ef1cdc6b79ed9fa4cf69cfe3037edc864eb48ec58fb3d47cdf3b",
+          "observations": "A shallow cupola rises from the mansard, distinct from both the earlier rotunda and later glass vault. The brick-to-concrete shift is clear on all major facades. Window lights and topiary provide scale. Serialized LOD triangles: 600/380/148.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_guildhall_classical_v0",
+          "evidence_sha256": "613114af7f475307c49cc4e3baed231a3ae63d03d30fc5aa17fc7db08a249b4c",
+          "observations": "The crow-step facade and crossed-tools guild shield distinguish the public entrance and lower wing. Exposed coincident facade faces are measurable on all three LODs. Serialized LOD triangles: 651/414/140.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 85
+          },
+          "defects": [
+            "Remove the positive-area coplanar facade intersections (LOD0/1/2: 24/24/5); first wall/wall overlap at (-0.309316, 1.108036, -0.6915). Join/butt the front planes of the crow-step parapet posts, and check all remaining reported face pairs."
+          ]
+        },
+        {
+          "id": "bld_human_guildhall_future_v0",
+          "evidence_sha256": "67e0295bd0a3ff2bcf47dc40700d22b62a83a0f1d1715aca9ba9857be6576b81",
+          "observations": "The paired registration fins, gold caps and guild badge retain the ceremonial frontage in a glazed hall. The validator identified overlapping ivory faces on its central emblem. Serialized LOD triangles: 544/296/152.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 92,
+            "charm": 92,
+            "colour": 93,
+            "technical": 91
+          },
+          "defects": [
+            "Separate the exposed ivory faces of the crossed-tools crest at (-0.236955, 0.698435, -0.68334) and clear all four coplanar pairs in each of LOD0 and LOD1."
+          ]
+        },
+        {
+          "id": "bld_human_guildhall_industrial_v0",
+          "evidence_sha256": "b79c454cb370908d60521f7c2493ff07f91320bf515d15a30d2a752b9dbaa469",
+          "observations": "A hipped oriel and roof lantern distinguish the brick guildhall from the earlier stepped facade. Shrubs, flag and tool shield are visible; the facade frame has exposed intersections. Serialized LOD triangles: 569/348/127.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 89
+          },
+          "defects": [
+            "Resolve ten trim/trim coplanar overlaps in LOD0 and ten in LOD1, starting at (-0.614633, 0.642188, -0.641). Recess the diagonal braces relative to the uprights and inspect the remaining exposed pairs."
+          ]
+        },
+        {
+          "id": "bld_human_harbor_classical_v0",
+          "evidence_sha256": "d5c1f16b3105196f931640e0e25c5d4b5a75fb7e626700f3944257842da9813c",
+          "observations": "The mast, furled sail, warehouse, gangway and dockside derrick register as a harbor. Cargo tubs and boxes cluster away from the working passage. Classical and Renaissance have the closest colors, with distinct sampled roof and quay values. Serialized LOD triangles: 760/382/170.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_harbor_future_v0",
+          "evidence_sha256": "e8253bf8b54f1442402c2409649acd3353a65ef07142d6052a977fbd5426f21a",
+          "observations": "The articulated loading arm bends over the timber dock and bundled cargo. A glass clerestory and gold Ascension cap separate the two skins. The flagged warehouse provides a Human anchor. Serialized LOD triangles: 724/376/182.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_harbor_industrial_v0",
+          "evidence_sha256": "9bffe1bd96b8cc0820125bc3db06e4dd20c237c50dedad717c3d32188a9fc7e9",
+          "observations": "The triangulated crane and small freight vessel read against the dock at thumbnail size. Industrial brick changes visibly to pale Modern walls. The hoisted load, bollards and dockside cargo are tied to the working bay. Serialized LOD triangles: 744/396/174.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_market_ancient_v0",
+          "evidence_sha256": "f1695c3ab675c615c9628a99a6f7914b342734d188d239e7bdf8be5984b7886f",
+          "observations": "The open-sided blue-striped awning covers the rear counter, with a freestanding produce table, clay jars and front approach. Scalloped cloth stays attached to the ridge beam in the nearer levels. Serialized LOD triangles: 930/430/112.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_market_classical_v0",
+          "evidence_sha256": "a53634f560b136606443e08a9049c0c100229f4cb34b8f269a907c3bd5cbe498",
+          "observations": "The red-striped street awning reads separately from the tall warehouse roof, through all three skins. Display baskets, a chimney and a pot punctuate a clear stall entrance. Serialized LOD triangles: 703/352/122.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_market_future_v0",
+          "evidence_sha256": "0784f7aa1ba2cb9323de4aa4284640b945ca52d04b786f0bdc4d3e6b7a402eae",
+          "observations": "The split roof combines a blue glass wing with a metallic plane that turns gold in Ascension. Produce stays under a smaller striped canopy, retaining the market family silhouette and frontage. Serialized LOD triangles: 713/422/152.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_market_industrial_v0",
+          "evidence_sha256": "a11040cb93644d261be027fcd951e34ad6fbd544313f717072af146f2e6c2a09",
+          "observations": "A clerestory rises above the pitched market hall. The glazed sales floor and the striped external stall are distinct at phone size. The blue flag, stock and planters provide Human scale. Serialized LOD triangles: 705/414/144.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_rail_station_future_v0",
+          "evidence_sha256": "15c329704192d2c8ed677a6afcbfad0153ce7ed079e6848064875b258c9cfcf8",
+          "observations": "The folded glazed platform canopy, two benches, clock house and track read clearly in either skin. The crease between adjacent glass roof members produces exposed co-oriented faces in each LOD. Serialized LOD triangles: 799/446/182.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 92,
+            "charm": 93,
+            "colour": 94,
+            "technical": 89
+          },
+          "defects": [
+            "Butt or offset the overlapping canopy faces around (0.513014, 1.039304, 0.83475); remove 8/4/4 positive-area glass/glass overlaps across LOD0/1/2."
+          ]
+        },
+        {
+          "id": "bld_human_rail_station_industrial_v0",
+          "evidence_sha256": "3ab15318710eb957e0f95d838dbc2673eadac2686f54f2723fd9d7ded2ccdac6",
+          "observations": "The barrel-vault platform contrasts with the pitched ticket office, clock and chimney. Track gauge and the two rows of uprights are legible. Benches and the blue traveler sign place details on the platform. Serialized LOD triangles: 883/568/176.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Session 10 independent CultureCivic builder, commerce critic",
+      "models": [
+        {
+          "id": "bld_human_guildhall_classical_v0",
+          "evidence_sha256": "7004ad72a516f779b28aa447094a6a93d8fc0ed37c98ea485e1f2f538a2f0f3e",
+          "observations": "The joined stone steps have a continuous front through the terrace of caps. The gable profile and blue tool shield remain readable in its Medieval and Renaissance images and all three mesh levels. No exposed coplanar pairs were reported. LOD triangles 651/414/160.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_guildhall_future_v0",
+          "evidence_sha256": "4dac0d8f93901475371d6e08252f2188a17674f6258f928f795c3603c345304d",
+          "observations": "The crossed-tool relief has separated faces. Its blue shield reads against the window and between the two gold-tipped fins in both age images. No exposed coplanar pairs were reported. LOD triangles 544/296/152.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 92,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_guildhall_industrial_v0",
+          "evidence_sha256": "661532ee2510f4d6b21aa2039ae049981b86c0355eabf344a1c231bd2a8dade4",
+          "observations": "The new trim depth resolves the facade joints. Both skins retain the small oriel, roof lantern and planter-lined entry; its thin braces stay inside the front frame. No exposed coplanar pairs were reported. LOD triangles 569/348/127.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_rail_station_future_v0",
+          "evidence_sha256": "2760fe8a306560051e34eb8acaa1e34bb73a7752c20271caea5471308062696e",
+          "observations": "The blue glazed wings meet at a continuous folded seam above the platform. Benches, clock house and rails retain their separation. All three serialized canopy levels render continuously. No exposed coplanar pairs were reported. LOD triangles 795/442/178.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 92,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

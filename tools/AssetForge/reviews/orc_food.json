@@ -1,0 +1,506 @@
+{
+  "package": "orc_food",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "orc_critic",
+      "models": [
+        {
+          "id": "bld_orc_farm_ancient_v0",
+          "evidence_sha256": "f40a1fe4b8d330bac5cc7687b6eb588fa0e67641be3d9488894b1b9b8fab44e5",
+          "observations": "Four gold and green rows give the field an immediate planting read. The red shelter and thatched store remain legible; the shelter roof and store cap keep nearly the same tan value in Dawn and Bronze. Serialized LOD counts 796/452/222 passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 84,
+            "construction": 93,
+            "charm": 90,
+            "colour": 90,
+            "technical": 99
+          },
+          "defects": [
+            "Use an age-reactive surface on a substantial roof area of the work hut or store so Dawn thatch/hide and Bronze copper/mudbrick can be distinguished at 64 pixels."
+          ]
+        },
+        {
+          "id": "bld_orc_farm_classical_v0",
+          "evidence_sha256": "472cf11c243af29637a2d371df13c6c02948ffdbf561bd8d4d801f903641333b",
+          "observations": "Alternating crops cascade toward the viewer with the thatch store set back on the left. The stepped change from pale masonry to dark Medieval stone then warm plaster is visible below the painted roof. Serialized LOD counts 796/452/222 passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_farm_future_v0",
+          "evidence_sha256": "b2923af973c1d882bef977862810bff20c226a468cd4fe0ee947bcec7c6dbcd2",
+          "observations": "A pearl-roofed grower's shelter leads the plot; the twin service tanks shift from charcoal caps to gold, so the later row change shows clearly above the glass walls. Serialized LOD counts 1010/588/302 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_farm_industrial_v0",
+          "evidence_sha256": "b4498e9bdf97a83849555fbdaccbfdb65a57ad784567bc82f3bc69ff30742db5",
+          "observations": "Two industrial silos and a blue supply inlet read against soot-dark wall panels and graded gray Modern metal. Planted beds remain the dominant mass. Serialized LOD counts 994/572/286 passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_fishing_hut_ancient_v0",
+          "evidence_sha256": "b648a56689fefed69930dd3b0bc7ae9e1864c6b2e09ca7c3c736c9e3de79a063",
+          "observations": "The seated coracle, white gunwale and timber skids read at phone size. The red hanging cloth and corks stay distinct from the dock, but the Dawn and Bronze canopies read as the same tan material. Serialized LOD counts 753/405/210 passed.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 85,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Make the Dawn/Bronze change readable on a large canopy or dock crest using age-reactive atlas slots; retain the boat silhouette."
+          ]
+        },
+        {
+          "id": "bld_orc_fishing_hut_classical_v0",
+          "evidence_sha256": "a856f7cdb2dc2bbd40c57fa98f1535090a345d0b3048632238684d4a5884db35",
+          "observations": "The open boat sits on transverse runners adjacent to the raised landing, and there is a clearly separate catch cloth at the right. Stone, darker timber and warmer rendered wall bands separate the three rows. Serialized LOD counts 753/405/210 passed.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_fishing_hut_future_v0",
+          "evidence_sha256": "d2e19e19fce25cf0e9f5c3d1e75ac5d728a7e244b450dd5b59c7b5e35e20220c",
+          "observations": "The white gunwale and two seats make the little craft legible beside the angular bright shelter. Glazing shifts from deep blue to paler aqua, with a visible square lantern crown. Serialized LOD counts 779/421/226 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_fishing_hut_industrial_v0",
+          "evidence_sha256": "b1550a6eaedfd635cd3e97a847a68f65a1c7ba0dbfb35dcdb8acfe7001e36a70",
+          "observations": "The dock has visible bearing supports and the curved open boat makes fishing recognizable. The shed changes from sooted brickwork under dark steel to gray concrete and a lighter roof. Serialized LOD counts 763/405/210 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_gatherer_hut_ancient_v0",
+          "evidence_sha256": "99569750fbf7e49a3be7af0622c34cde0d459c86ed1b5eb77e5023fe45400574",
+          "observations": "Two filled baskets frame the door and hold distinct produce, but the flagpole appears as a short loose stick emerging through the roof slope. The canopy is almost unchanged between Dawn and Bronze. Serialized LOD counts 612/357/154 passed.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 85,
+            "construction": 87,
+            "charm": 88,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Move the pennant outside the shelter eave so its pole visibly stands on the ground or a mounted footing.",
+            "Use an age-reactive roof region large enough to visibly separate Dawn from Bronze beside the produce baskets."
+          ]
+        },
+        {
+          "id": "bld_orc_hunting_lodge_ancient_v0",
+          "evidence_sha256": "35cc11bfacbd97b40b01d9115b55f5650c34a5a3c3936a6163debf1f727fa1e3",
+          "observations": "The horn-tipped hide rack and signal drum flank the dark front entry clearly. Lashings and the folded lower hide edge reward the larger view; Dawn/Bronze retain essentially the same roof and wall read at phone size. Serialized LOD counts 782/411/189 passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 85,
+            "construction": 94,
+            "charm": 94,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Give the lodge canopy a large age-reactive finish so the tan Dawn/Bronze roof does not read identically beside the hide rack."
+          ]
+        },
+        {
+          "id": "bld_orc_hunting_lodge_classical_v0",
+          "evidence_sha256": "59b19513ca4aa98dd08af34c4edcff8b3f4658ba32278471eac820e7264e0286",
+          "observations": "The stretched hide has a dipped edge between two solid posts. Door, drum and curved tips remain separate even on the dark Medieval variant, while the older tiled lodge has pale contrasted walls. Serialized LOD counts 782/411/189 passed.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_hydroponics_tower_future_v0",
+          "evidence_sha256": "438fa966fe59e9ee8dd6b0d9a6201e11e9e090ee6d93e7a2c9585f4ff379028a",
+          "observations": "The tiered outer gardens and blue seed vault make a distinct, well-supported silhouette. Both age previews use the same dominant green collar, blue dome and red edging, so Information versus Ascension is hard to identify. Serialized LOD counts 1420/499/276 passed.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 87,
+            "construction": 94,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Give one or more large tier edges or the dome base an age-reactive band with an obvious dark/metal versus gold change between Information and Ascension."
+          ]
+        },
+        {
+          "id": "bld_orc_industrial_farm_future_v0",
+          "evidence_sha256": "a5b3effafb9643957cbd17e3068d0d9b18c44387c8f98b68909a14202050987a",
+          "observations": "The pair of tall storage tanks, four furrows and lodge repeat the corresponding ordinary Farm silhouette. The small low machine sits behind the crops and vanishes in the 64-pixel image. Serialized LOD counts 1088/633/324 passed.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 93,
+            "construction": 92,
+            "charm": 88,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the mechanized farm a projecting machine large enough to recognize at 64 pixels, such as an overhead irrigation gantry with visible supports spanning the planted rows."
+          ]
+        },
+        {
+          "id": "bld_orc_industrial_farm_industrial_v0",
+          "evidence_sha256": "cb9c9a16cbeac48712c6a892172fb23044ab1a9deb85b1670dd147cc51aeec9d",
+          "observations": "Tall silos and compact machinery appear behind the same four beds as the ordinary Modern farm. The slight increase in tank height does not give the industrial operation a distinct, recognizable silhouette. Serialized LOD counts 1072/617/308 passed.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 92,
+            "construction": 92,
+            "charm": 88,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Add a visible mechanized harvesting or irrigation structure with its own silhouette over the rows to separate this model from the ordinary Modern Farm."
+          ]
+        },
+        {
+          "id": "bld_orc_mill_classical_v0",
+          "evidence_sha256": "58ce7bd11983d6e6d747b0b5f363d3431ddd2b873576d2a43e8cc01c40987f06",
+          "observations": "The crossed cloth sails separate cleanly from the tapered grain tower. Red and ivory panels, an attached lodge and a low grain basket retain town identity as the sail frame progresses from timber to pale trim. Serialized LOD counts 877/475/274 passed.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_mill_industrial_v0",
+          "evidence_sha256": "2653e2b0666102061e3d0d399b41c9b26cd7929b97b7dc7c971780d6f9260c25",
+          "observations": "The four sails and protruding axle are legible against a brick tapering body. The nearby black-roofed miller's lodge and basket give the footprint a recognizable working front. Serialized LOD counts 887/475/274 passed.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_pasture_ancient_v0",
+          "evidence_sha256": "6b5b755a766185c22af1d9ef9130b894dcb4d651c5da8fdbf7c564d4044ddd3d",
+          "observations": "A low timber enclosure, trough and three short-legged livestock establish use at 64 pixels. The dark Iron wall is visible below the keeper hut's painted eave; its entrance opens toward the herd. Serialized LOD counts 1459/784/298 passed.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 90,
+            "construction": 92,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_pasture_classical_v0",
+          "evidence_sha256": "0b5a2a0ebb1e3873a7dff817f2a6beacf0831e79fc1066768dfe10653be373f4",
+          "observations": "The shaded pen contains three boars with different orientations, and a water tub sits by the side rail. Warm Classical wall, deeper Medieval stone and light Renaissance wall are visible through the uncluttered yard. Serialized LOD counts 1459/784/298 passed.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_pasture_future_v0",
+          "evidence_sha256": "863695e33eec058370e2b17dc9b53082ca61d92213ef7b1e32a6672aecac91c2",
+          "observations": "The gap in the metal-clipped rails identifies the gate and the herd is visible from the front. The clear glass hut and changing rail color distinguish the two advanced rows even at reduced size. Serialized LOD counts 1485/800/314 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_pasture_industrial_v0",
+          "evidence_sha256": "d9194ca39bc58180dd23c245c07422ce1c77be167722b7be988f4b4d1ddee401",
+          "observations": "The herd stands inside a low fenced yard on a grass bed and has space between animals and trough. The dark brick shelter gains lighter roofing and wall material in Modern. Serialized LOD counts 1469/784/298 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "orc_critic",
+      "models": [
+        {
+          "id": "bld_orc_farm_ancient_v0",
+          "evidence_sha256": "e9f77bbe59689ff593455e95e07fb85298ef73b88460914d71f8255dae97aa5b",
+          "observations": "Four planted rows retain their contrast, with a copper roof crowning the Bronze plot that reads separately from Dawn's dark brown canvas and Iron's charcoal gray. Serialized LOD counts 796/452/222 passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_fishing_hut_ancient_v0",
+          "evidence_sha256": "b8477db04e466958ff8e6584c71a9f512cfd2835721ac3b28045112939c03ec3",
+          "observations": "The coracle, dock and net retain their silhouettes; Bronze gold reads against the dark gray Iron roof and brown Dawn roof at thumbnail size. Serialized LOD counts 753/405/210 passed.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_gatherer_hut_ancient_v0",
+          "evidence_sha256": "daf47ce2273f66ef0404500db7b030ed7e75e51cd83b80d22fe1dea97861d7c4",
+          "observations": "The pennant now stands beside the right basket, with daylight between the pole and the roof. Copper and charcoal age finishes separate the three canopy states. Serialized LOD counts 612/357/154 passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_hunting_lodge_ancient_v0",
+          "evidence_sha256": "e24e1178d0da71040775caf5d2cf93fbd6cbdff384c970033d4712416ad03470",
+          "observations": "The low split-edge hide rack remains clear beside the entrance. Broad canopy panels progress from dark warm brown to copper to cold steel above the red drum. Serialized LOD counts 782/411/189 passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_hydroponics_tower_future_v0",
+          "evidence_sha256": "5ef5d4e2d20f31f9e26470552e0afa436b691ff7ce106eb58911f7fa50f77ea5",
+          "observations": "The large top dome reads dark graphite in Information and gold in Ascension. Layered gardens and blue glazing stay visible between equally spaced shelf edges. Serialized LOD counts 1420/499/276 passed.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_industrial_farm_future_v0",
+          "evidence_sha256": "c00d97174288eb3e61e1965e3c5955715b342e9059de0cfc61b83464beb052e9",
+          "observations": "A tall irrigation gantry spans the beds on two supported ends. The moving red carriage and gray or gold channel distinguish the operation from the manually tended plot at 64 pixels. Serialized LOD counts 1220/765/378 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_industrial_farm_industrial_v0",
+          "evidence_sha256": "a5773d225bff4bfb438904ea34642fa8609cfd85f4c421e1f1df54ac312b8f31",
+          "observations": "The field-spanning steel irrigation beam has grounded piers and a distinct red machine carriage. Its span above the crop rows separates the Modern industrial farm from its ordinary counterpart. Serialized LOD counts 1204/749/362 passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "mill_critic",
+      "models": [
+        {
+          "id": "bld_orc_mill_classical_v0",
+          "evidence_sha256": "adc98a185a17e03114599ec3a5880d0d20a85c93d89f00b9d73b5ca8cf541d6c",
+          "observations": "Four separate red and ivory sails still identify the mill at 40 and 64 pixels. The large preview shows their slats fastened across the sails and the spars meeting the central hub. Medieval has a dark roof and dark framing. Renaissance has terracotta roofs, a warmer tower and a bronze hub. The little painted lodge and basket flank a clear front door. All three serialized LODs (877/475/274 triangles) passed the enhanced surface, orientation and geometry checks.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 95,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_mill_industrial_v0",
+          "evidence_sha256": "7b4232eacaae0363f887b7d761014c54bf5dbeece9c6b5f173da1e40b6c82d56",
+          "observations": "The dark hub and four separated sail tips read at both 40 and 64 pixels. Brick on the tapered shaft, the iron-colored cap and the blue side window place the mill in the Industrial age. The annex's tusks and red roof gores carry the Orc motif, and the basket sits clear of the entry. No exposed coplanar pairs or inward closed-shell normals were reported in the 887/475/274-triangle LOD chain.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Lead independent of the Orc Food builder and corrective builder. Inspected the seven original age PNGs, conventional Farm references and all three exported LODs at 64 px.",
+      "models": [
+        {
+          "id": "bld_orc_industrial_farm_industrial_v0",
+          "evidence_sha256": "f30eb13bb3d16306e0ee6bc08931962535419e653aea8c644aaceef00c8e460b",
+          "observations": "The open yellow cutter reel, four wheels and discharge auger immediately identify a combine. A red cab and tooth-like reel ends carry the clan colour and motif. The cutter remains wider than the cab at LOD2 and the working field is visible beneath it.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_industrial_farm_future_v0",
+          "evidence_sha256": "904e6499db8436e2f4515e7b75623ccafbf1ae28871da8cd4bdd8cfa47fdcd0e",
+          "observations": "The high ribbed glasshouse and braced tusk entrance stand apart from the conventional low rows and twin silos. Front growing beds and roof vents explain the enclosure. Dark Information cladding turns ochre in Ascension while the glazed bays remain blue in both, down to 64 px.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_fishing_hut_future_v0",
+          "evidence_sha256": "d9c7ecf2c7021ca59827b4cc19e12ce5b92a5ebdcde50dbd899a17ecaf07ddcb",
+          "observations": "The open punt, landing and drying screen retain the fishing read at 64 px. The black Information dock and roof turn gold across broad surfaces in Ascension. Red roof gores, curved tusks and blue glazing remain legible at distance.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_pasture_ancient_v0",
+          "evidence_sha256": "e73e90700b04b6a1302546b13affd05e6e77b04f9bee922dd47dfc08bdc366a5",
+          "observations": "The fence, animals, trough and shelter clearly describe a stock pen. The large shelter roof changes from bronze ochre to iron charcoal around the retained red clan panels. Both ages keep their enclosed yard and the shelter roof remains distinct at LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

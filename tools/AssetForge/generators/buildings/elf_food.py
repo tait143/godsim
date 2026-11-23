@@ -1,0 +1,398 @@
+"""Elven food-producing buildings."""
+import math
+from pathlib import Path
+import sys
+
+import numpy as np
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+from building_scope import package_models
+from forge import MeshBuilder, publish
+from forge.atlas import palette
+from forge.registry import PREVIEWS
+from forge.render import contact_sheet
+
+PACKAGE = "elf_food"
+ERAS = ("ancient", "classical", "industrial", "future")
+TAU = 2 * math.pi
+
+
+class Grove(MeshBuilder):
+    """Curved timber, fitted petal roofs and lantern-pod glazing for the elven trades."""
+
+    def __init__(self, spec, lod):
+        super().__init__(spec.id)
+        self.lod = lod
+        self.era = ERAS.index(spec.band)
+        self.colors = palette(spec.ages[0])[0]
+
+    def color(self, role):
+        return self.colors.get(role) or self.colors["elf/" + role]
+
+    def face(self, role, points):
+        self.poly(points, self.color(role), material=role)
+
+    def disk(self, role, x, y, z, rx, rz, height, top=1, sides=None):
+        n = sides or (12, 8, 5)[self.lod]
+        with self.transform(translate=(x,y,z), scale=(rx,1,rz)):
+            with self.transform(rotate_y=90+180/n):
+                self.cylinder((0,0,0),1,height,self.color(role),segments=n,
+                              top_radius=top,material=role)
+
+    def lump(self, role, point, size, sides=None):
+        with self.transform(translate=point,scale=size):
+            self.sphere((0,0,0),1,self.color(role),rings=(4,3,2)[self.lod],
+                        segments=sides or (8,6,4)[self.lod],material=role)
+
+    def limb(self, role, points, radii, sides=None):
+        """A continuous tapered sweep. Adjacent spans share the complete bend ring."""
+        path = np.asarray(points)
+        n = sides or (6,5,3)[self.lod]
+        axis = path[-1]-path[0]
+        ref = np.eye(3)[np.argmin(np.abs(axis))]
+        rings = []
+        for i,(p,r) in enumerate(zip(path,radii)):
+            direction = path[min(i+1,len(path)-1)]-path[max(i-1,0)]
+            direction = direction / np.linalg.norm(direction)
+            u = np.cross(direction,ref)
+            u /= np.linalg.norm(u)
+            v = np.cross(direction,u)
+            rings.append([p+r*(math.cos(TAU*j/n)*u+math.sin(TAU*j/n)*v) for j in range(n)])
+        for a,b in zip(rings,rings[1:]):
+            for j in range(n):
+                k = (j+1)%n
+                # At bends a ruled facet may be twisted. Project each triangle independently.
+                self.face(role,[a[j],a[k],b[k]])
+                self.face(role,[a[j],b[k],b[j]])
+        self.face(role,rings[0][::-1])
+        self.face(role,rings[-1])
+
+    def leaf(self, role, root, tip, width, arch):
+        """A lance-shaped blade with a keeled underside and a raised central vein."""
+        a,b = np.array(root),np.array(tip)
+        d = b-a
+        side = np.array([d[2],0,-d[0]]) / math.hypot(d[0],d[2])
+        up = np.array([0,1,0])
+        slices = ((.28,.65),(.58,1),(.80,.63)) if self.lod==0 else ((.52,1),)
+        rings = []
+        for t,w in slices:
+            c = a + d*t + up*arch*math.sin(math.pi*t)
+            rings.append([c+up*.32*width*w,c-side*width*w,
+                          c-up*.13*width*w,c+side*width*w])
+        # Cross-section seen looking towards the tip is counterclockwise.
+        for j in range(4):
+            k=(j+1)%4
+            self.face(role,[a,rings[0][k],rings[0][j]])
+            for left,right in zip(rings,rings[1:]):
+                self.face(role,[left[j],left[k],right[k]])
+                self.face(role,[left[j],right[k],right[j]])
+            self.face(role,[rings[-1][j],rings[-1][k],b])
+
+    def crown(self,x,y,z,rx,rz,h,role="roof",lobes=6):
+        """Scalloped roof of overlapping visual lobes, with one continuous weather shell."""
+        n = lobes*(4,2,1)[self.lod]
+        rings=[]
+        bands=[(1,0),(.78,.32),(.45,.65),(.15,.87)]
+        if self.lod==1:
+            bands=[bands[i] for i in (0,2,3)]
+        elif self.lod==2:
+            bands=[bands[i] for i in (0,2)]
+        for r,v in bands:
+            ring=[]
+            for j in range(n):
+                a=TAU*j/n-math.pi/2
+                scallop=.5+.5*math.cos(lobes*a+lobes*math.pi/2)
+                scale=r*(1-.12*(1-scallop))
+                ring.append((x+rx*(scale*math.cos(a)+.12*v*v),
+                             y+h*(v+.19*(1-scallop)*r),
+                             z+rz*(scale*math.sin(a)+.18*v*v)))
+            rings.append(ring)
+        tip=(x+.15*rx,y+h*1.12,z+.19*rz)
+        for j in range(n):
+            k=(j+1)%n
+            mat="leaf" if role=="roof" and (j*lobes//n)%3==1 else role
+            for a,b in zip(rings,rings[1:]):
+                self.face(mat,[a[k],a[j],b[j]])
+                self.face(mat,[a[k],b[j],b[k]])
+            self.face(mat,[rings[-1][k],rings[-1][j],tip])
+            self.face("trim",[(x,y+.035*h,z),rings[0][j],rings[0][k]])
+
+    def portal(self,x,y,z,w,h,role="door"):
+        # A hollow-looking pointed arch with a structural reveal and proud inner door.
+        coords=[(-.5,0),(-.5,.53),(-.37,.77),(0,1),(.37,.77),(.5,.53),(.5,0)]
+        for span,height,depth,mat in ((1,1,0,"trim"),(.71,.82,-.012,role)):
+            self.face(mat,[(x+u*w*span,y+v*h*height,z+depth) for u,v in coords])
+        if self.lod==0:
+            self.lump("gold",(x+.16*w,y+.31*h,z-.014),(.033*w,.034*h,.024*w),5)
+
+    def hall(self,x,y,z,rx,rz,h,cap,role="wall"):
+        n=(12,8,6)[self.lod]
+        self.disk("fieldstone",x,y,z,rx*1.05,rz*1.05,.095*h,.97,n)
+        self.disk(role,x,y+.085*h,z,rx,rz,.92*h,.995,n)
+        self.crown(x,y+.985*h,z,rx*1.21,rz*1.23,cap)
+        # Flat front landing is tangent to the drum. Both reveal and tread meet the wall.
+        front=z-rz*math.cos(math.pi/n)
+        self.disk("trim",x,y+.004*h,front,.40*rx,.18*rz,.066*h,.98,8)
+        self.portal(x,y+.069*h,front-.007,.66*rx,.72*h)
+        if self.lod<2:
+            for s in (-1,1):
+                self.limb("timber" if self.era==0 else "trim",
+                          [(x+s*rx*.92,y+.025*h,z-.38*rz),(x+s*rx*.84,y+.60*h,z-.52*rz),
+                           (x+s*rx*.58,y+1.04*h,z-.80*rz)],
+                          [rx*.12,rx*.082,rx*.055])
+                self.lump("emissive",(x+s*rx*.75,y+.57*h,z-.66*rz),
+                          (rx*.10,h*.131,rz*.103))
+        if self.lod==0:
+            # A bent fruiting shoot above the finial.
+            self.leaf("leaf",(x+rx*.141,y+h+cap*1.06,z+.21*rz),
+                      (x+rx*.49,y+h+cap*1.24,z+.36*rz),rx*.105,.06*cap)
+
+    def pot(self,x,y,z,r,produce="flower"):
+        self.disk("hide",x,y,z,r*.71,r*.71,r*.99,1.34)
+        self.disk("trim",x,y+r*.91,z,r,r,r*.16)
+        if self.lod<2:
+            for a in (0,2.2,4.4):
+                self.lump(produce,(x+r*.40*math.cos(a),y+r*1.10,z+r*.40*math.sin(a)),
+                          (r*.39,r*.38,r*.39),5)
+
+
+def farm(m):
+    m.disk("plaster" if m.era==0 else "soil",0,0,0,1.48,1.45,.055,.99, (20,12,8)[m.lod])
+    m.hall(-.38,.054,.47,.48,.39,.55+.05*m.era,.42+.035*m.era)
+    # Three curved planting beds follow the sweep of the boundary.
+    for row in range(3):
+        z=-.19-.34*row
+        span=(1.19,1.13,.87)[row]
+        mat=("leaf","thatch","grass")[row]
+        for i in range((7,4,2)[m.lod]):
+            count=(7,4,2)[m.lod]
+            x=span*((i+.5)*2/count-1)
+            bend=z+.19*(x/span)**2
+            m.leaf(mat,(x-span/count,.049,bend),(x+span/count,.050,bend+.04),
+                   (.13,.13,.14)[m.lod],.14+.04*(row==1))
+    if m.era<2:
+        m.disk("timber",.50,.053,.46,.21,.21,.37,.89)
+        m.crown(.50,.414,.46,.30,.30,.32,"thatch",5)
+        if m.lod==0:
+            m.pot(.73,.055,.04,.096,"gold")
+    else:
+        for i in range(1+(m.era==3)):
+            x=.48+.34*i
+            m.disk("metal",x,.054,.42,.20,.19,.62+.12*i,.84)
+            m.crown(x,.67+.12*i,.42,.18,.18,.18,"glass",4)
+        if m.lod<2:
+            m.limb("metal",[(.48,.47,.44),(.34,.47,.55),(.03,.28,.56)],[.045,.043,.041])
+
+
+def deer(m,x,z,angle):
+    with m.transform(translate=(x,.052,z),rotate_y=angle):
+        m.lump("hide",(0,.24,0),(.12,.133,.219),6)
+        m.limb("hide",[(0,.25,-.13),(0,.39,-.216),(0,.46,-.241)],[.093,.062,.061])
+        m.lump("ivory",(0,.456,-.264),(.069,.067,.095),6)
+        for s in (-1,1):
+            for end in (-1,1):
+                m.limb("timber",[(.071*s,.008,.147*end),(.070*s,.222,.12*end)],[.023,.036],4)
+            m.leaf("trim",(s*.04,.485,-.23),(s*.102,.576,-.175),.024,.009)
+        if m.lod==0:
+            m.lump("ivory",(0,.261,.201),(.045,.049,.04),5)
+
+
+def pasture(m):
+    m.disk("plaster" if m.era==0 else "grass",0,0,0,1.44,1.40,.055,1, (20,14,10)[m.lod])
+    if m.era==0:
+        m.disk("grass",-.033,.055,-.053,1.06,1.02,.009,1,(16,10,6)[m.lod])
+    m.hall(-.37,.053,.52,.44,.36,.48+.05*m.era,.39+.068*m.era)
+    # Open south gate. Every rail stops inside a post.
+    count=(8,8,7)[m.lod]
+    prev=None
+    for i in range(count):
+        a=-math.pi/2+.26+(TAU-.52)*i/(count-1)
+        x,z=1.32*math.cos(a),1.25*math.sin(a)
+        m.disk("trim",x,.043,z,.044,.044,.295,.64,5)
+        if prev:
+            for y in ((.155,.266) if not m.lod else (.218,)):
+                m.limb("timber" if m.era<2 else "metal",[(prev[0],y,prev[1]),(x,y+.008,z)],
+                       [.023,.024],4)
+        prev=(x,z)
+    for x,z,a in ((.52,-.36,65),(-.37,-.51,-35))[:2 if m.lod<2 else 1]:
+        deer(m,x,z,a)
+    if m.lod<2:
+        m.disk("timber",.62,.055,.32,.23,.11,.109,1.04)
+        m.disk("water",.62,.164,.32,.188,.084,.008)
+    if m.era>=2:
+        m.disk("metal",.42,.055,.86,.16,.15,.45,1)
+        m.lump("glass",(.42,.503,.86),(.151,.124,.146),6)
+
+
+def hull(m,x,y,z,length,width):
+    with m.transform(translate=(x,y,z),scale=(width,1,length)):
+        plan=[(0,-.5),(.45,-.26),(.5,.13),(.33,.34),(0,.5),(-.33,.34),(-.5,.13),(-.45,-.26)]
+        if m.lod==2:
+            plan=plan[::2]
+        def ring(s,base,bow):
+            return [(a*s,base+bow*abs(b)**2,b*s) for a,b in plan]
+        a,b,c,d=ring(.65,0,.08),ring(1,.085,.22),ring(.80,.086,.21),ring(.60,.024,.09)
+        for i in range(len(a)):
+            j=(i+1)%len(a)
+            for r,t,mat in ((a,b,"timber"),(b,c,"accent"),(c,d,"timber")):
+                m.face(mat,[r[j],r[i],t[i]])
+                m.face(mat,[r[j],t[i],t[j]])
+        m.face("hide",d[::-1])
+        if m.lod<2:
+            for depth in (-.15,.16):
+                m.limb("trim",[(-.40,.071,depth),(.40,.071,depth)],[.022,.022],4)
+
+
+def fishing(m):
+    m.disk("timber",-.116,.083,.02,.338,.406,.068,1)
+    for s in (-1,1):
+        for t in (-1,1):
+            m.disk("timber",-.116+.207*s,0,.02+.222*t,.043,.043,.099,.86,5)
+    m.hall(-.12,.151,.115,.238,.215,.235+.018*m.era,.228+.012*m.era)
+    hull(m,.306,.0,-.026,.81,.203)
+    # A shore-mounted lift-net has a curved derrick, cable and gathered net/basket.
+    h=.37+.067*m.era
+    m.limb("trim",[(.014,.143,-.233),(.01,h,-.238),(.095,h+.132,-.246),(.277,h+.16,-.246)],
+           [.032,.024,.020,.014])
+    m.limb("timber",[(.275,h+.161,-.246),(.275,.238,-.246)],[.008,.008],4)
+    m.disk("hide",.275,.17,-.246,.034,.034,.075,2.1, (9,6,4)[m.lod])
+    if m.lod<2:
+        m.lump("emissive",(-.29,.196,-.196),(.03,.048,.03),5)
+        m.disk("trim",-.29,.142,-.196,.025,.025,.055)
+    if m.era>=2:
+        m.disk("metal",.022,.15,-.221,.062,.061,.114)
+        if m.lod==0:
+            m.lump("glass",(.024,.269,-.22),(.051,.035,.049))
+
+
+def small_hut(m,hunt):
+    m.hall(-.031,0,.098,.303,.263,.36+.063*m.era,.32+.095*m.era)
+    if hunt:
+        # Forked stag crest above the porch lintel and a hide-stretching frame in the yard.
+        m.limb("timber",[(0,.291,-.151),(0,.359,-.228),(0,.421,-.278)],[.035,.029,.023])
+        for s in (-1,1):
+            pts=[(0,.418,-.278),(s*.090,.49,-.291),(s*.168,.572,-.270)]
+            m.limb("ivory",pts,[.026,.021,.010],5)
+            if m.lod<2:
+                m.limb("ivory",[pts[1],(s*.066,.563,-.294)],[.014,.005],4)
+        for x in (.032,.337):
+            m.limb("timber",[(x,0,-.334),(x,.037,-.334),(x+.009,.281,-.32)],[.024,.024,.018],5)
+        m.limb("trim",[(.021,.27,-.32),(.364,.275,-.32)],[.019,.02],5)
+        m.leaf("hide",(.054,.26,-.329),(.33,.252,-.325),.080,-.062)
+        m.pot(-.267,0,-.24,.077,"hide")
+    else:
+        # Covered sorter's table with baskets of berries below a broad, asymmetric leaf.
+        m.limb("timber",[(-.32,0,-.213),(-.32,.254,-.21),(-.199,.379,-.243)],[.035,.024,.02])
+        m.leaf("leaf",(-.205,.376,-.237),(.236,.283,-.246),.129,.10)
+        for x in (-.27,.133):
+            m.disk("trim",x,.003,-.22,.032,.032,.144)
+        m.disk("timber",-.067,.143,-.22,.251,.09,.027)
+        m.pot(.242,0,-.21,.082,"flower")
+        if m.lod<2:
+            m.pot(-.198,.17,-.219,.050,"gold")
+
+
+def mill(m):
+    h=1.05 if m.era==1 else 1.21
+    m.hall(.065,0,.16,.42,.40,h,.44)
+    cy,cz=.97,-.43
+    m.limb("metal",[(.065,cy,.10),(.065,cy,cz-.045)],[.067,.059])
+    for i in range(5):
+        with m.transform(translate=(.065,cy,cz),rotate_z=13+i*72):
+            m.limb("trim",[(0,.04,0),(0,.72,0)],[.031,.015],4)
+            # Folded flax sails taper to a pointed outer tip and narrow heel.
+            m.face("ivory",[(0,.16,-.024),(-.195,.52,-.042),(-.074,.73,-.027)])
+            m.face("ivory",[(0,.16,-.024),(-.074,.73,-.027),(.009,.68,-.021)])
+            m.face("hide",[(.009,.68,-.012),(-.074,.73,-.018),(-.195,.52,-.033),(0,.16,-.015)])
+    if m.era==2:
+        m.hall(-.49,0,.29,.257,.24,.41,.25,"brick")
+    if m.lod<2:
+        m.pot(.47,0,-.14,.116,"thatch")
+        m.pot(.62,0,.02,.082,"thatch")
+
+
+def glasshouse(m,x,z,rx,rz,h):
+    m.disk("wall",x,.044,z,rx,rz,.19)
+    with m.transform(translate=(x,.232,z),scale=(rx, h, rz)):
+        m.dome((0,0,0),1,m.color("glass"),rings=(3,2,2)[m.lod],
+               segments=(12,10,6)[m.lod],material="glass")
+    if m.lod<2:
+        for a in (0,math.pi/2,math.pi,3*math.pi/2):
+            rings=(3,2)[m.lod]
+            pts=[(x+(rx+.013)*math.cos(a)*math.cos(b),.232+(h+.016)*math.sin(b),
+                  z+(rz+.013)*math.sin(a)*math.cos(b))
+                 for b in [j*math.pi/(2*rings) for j in range(rings)]+[1.44]]
+            m.limb("accent",pts,[.022]*len(pts),4)
+    front=z-rz
+    m.disk("wall",x,.04,front,.176,.115,.205)
+    m.portal(x,.046,front-.106,.241,.192)
+
+
+def greenhouse(m):
+    m.disk("fieldstone",0,0,0,1.48,1.44,.052,.98, (20,14,8)[m.lod])
+    glasshouse(m,-.55,-.12,.53,.92,.50)
+    glasshouse(m,.51,.03,.43,.83,.64 if m.era==3 else .43)
+    m.hall(-.09,.051,.83,.37,.30,.50,.32)
+    if m.era==3:
+        m.limb("trim",[(.60,.049,.60),(.56,.80,.54),(.22,1.06,.61)],[.06,.039,.022])
+        m.leaf("glass",(.23,1.05,.61),(-.27,1.12,.49),.19,.092)
+    if m.lod<2:
+        for x in (.41,.66):
+            m.pot(x,.052,-.89,.088,"leaf")
+
+
+def hydro(m):
+    m.disk("wall",0,0,0,.55,.51,.16,.96)
+    m.disk("glass",0,.151,0,.366,.357,1.84,.68)
+    for j in range(4):
+        y=.34+j*.42
+        r=.73-j*.074
+        m.disk("roof",0,y,0,r*.67,r*.67,.145,1.49)
+        m.disk("leaf",0,y+.143,0,r*.982,r*.982,.055,.96)
+        for i in range((7,5,3)[m.lod]):
+            n=(7,5,3)[m.lod]
+            a=TAU*i/n+.7*j
+            m.leaf("grass",(.37*r*math.cos(a),y+.19,.37*r*math.sin(a)),
+                   (r*.94*math.cos(a),y+.27,r*.94*math.sin(a)),.127*r,.098)
+    m.crown(0,1.98,0,.42,.43,.42,"roof")
+    m.disk("wall",0,.04,-.389,.216,.161,.282)
+    m.portal(0,.041,-.542,.233,.234)
+    if m.lod<2:
+        for a in (0,2.4,4.4):
+            pts=[((.43-.064*j)*math.cos(a+j*.52),.155+j*.445,
+                  (.43-.064*j)*math.sin(a+j*.52)) for j in range(5)]
+            m.limb("accent",pts,[.044,.042,.036,.029,.022])
+
+
+def build(spec,lod):
+    m=Grove(spec,lod)
+    t=spec.building_type
+    if t=="FishingHut":
+        fishing(m)
+    elif t in ("HuntingLodge","GathererHut"):
+        small_hut(m,t=="HuntingLodge")
+    else:
+        {"Farm":farm,"Mill":mill,"Pasture":pasture,"HydroponicsTower":hydro,
+         "IndustrialFarm":greenhouse}[t](m)
+    return m
+
+
+def publish_package(package,build_model):
+    from building_scope import AGES, ROOT
+
+    rows=[]
+    for spec in package_models(package):
+        levels=[build_model(spec,i) for i in range(3)]
+        entry=publish(levels[0],spec.metadata(),package,lods=levels[1:],preview_size=224)
+        rows.append(entry)
+        print(spec.id,entry["lod_triangles"],flush=True)
+    directory=Path(PREVIEWS)/rows[0]["category"]
+    for age in AGES:
+        models=[e for e in rows if age in e["ages"]]
+        if models:
+            contact_sheet([ROOT/e["age_previews"][age] for e in models],directory/("sheet_"+age+".png"),
+                          cols=min(5,len(models)),cell=160,labels=[e["building_type"] for e in models])
+
+
+if __name__=="__main__":
+    publish_package(PACKAGE,build)

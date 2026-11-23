@@ -1,0 +1,1324 @@
+[
+ {
+  "id": "bld_orc_bathhouse_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Bathhouse",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 723,
+  "lod_triangles": [
+   723,
+   365,
+   151
+  ],
+  "bounds": [
+   [
+    -0.8718193769454956,
+    0.0,
+    -0.9170807003974915
+   ],
+   [
+    0.9420675039291382,
+    1.0592999458312988,
+    0.8146608471870422
+   ]
+  ],
+  "bytes": 118460,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_bathhouse_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_bathhouse_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_bathhouse_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_bathhouse_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_bathhouse_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_bathhouse_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Bathhouse",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 771,
+  "lod_triangles": [
+   771,
+   397,
+   171
+  ],
+  "bounds": [
+   [
+    -0.8718193769454956,
+    0.0,
+    -0.9170807003974915
+   ],
+   [
+    0.9420675039291382,
+    1.0592999458312988,
+    0.8146608471870422
+   ]
+  ],
+  "bytes": 128392,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_bathhouse_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_bathhouse_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_bathhouse_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_bathhouse_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_bathhouse_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Bathhouse",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 771,
+  "lod_triangles": [
+   771,
+   397,
+   171
+  ],
+  "bounds": [
+   [
+    -0.8718193769454956,
+    0.0,
+    -0.9170807003974915
+   ],
+   [
+    0.9420675039291382,
+    1.0592999458312988,
+    0.8146608471870422
+   ]
+  ],
+  "bytes": 128396,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_bathhouse_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_bathhouse_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_bathhouse_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_bathhouse_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_data_center_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "DataCenter",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 654,
+  "lod_triangles": [
+   654,
+   312,
+   145
+  ],
+  "bounds": [
+   [
+    -0.9558951258659363,
+    0.0,
+    -0.5824450254440308
+   ],
+   [
+    0.6887500286102295,
+    1.0127700567245483,
+    0.6971268057823181
+   ]
+  ],
+  "bytes": 103076,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_data_center_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_data_center_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_data_center_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_data_center_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_herbalist_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "orc",
+  "ages": [
+   "bronze",
+   "iron",
+   "dawn"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 681,
+  "lod_triangles": [
+   681,
+   343,
+   120
+  ],
+  "bounds": [
+   [
+    -0.45049265027046204,
+    0.0,
+    -0.3327181339263916
+   ],
+   [
+    0.33875176310539246,
+    0.9357929825782776,
+    0.3938235342502594
+   ]
+  ],
+  "bytes": 111120,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_herbalist_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_herbalist_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_herbalist_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_herbalist_ancient_v0__iron.png",
+   "dawn": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_herbalist_ancient_v0__dawn.png"
+  }
+ },
+ {
+  "id": "bld_orc_herbalist_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 681,
+  "lod_triangles": [
+   681,
+   343,
+   120
+  ],
+  "bounds": [
+   [
+    -0.45049265027046204,
+    0.0,
+    -0.3327181339263916
+   ],
+   [
+    0.33875176310539246,
+    0.8628119826316833,
+    0.3938235342502594
+   ]
+  ],
+  "bytes": 110820,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_herbalist_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_herbalist_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_herbalist_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_herbalist_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_herbalist_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_herbalist_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 729,
+  "lod_triangles": [
+   729,
+   375,
+   140
+  ],
+  "bounds": [
+   [
+    -0.45049265027046204,
+    0.0,
+    -0.3327181339263916
+   ],
+   [
+    0.33875176310539246,
+    0.8842769861221313,
+    0.3938235342502594
+   ]
+  ],
+  "bytes": 121200,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_herbalist_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_herbalist_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_herbalist_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_herbalist_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_herbalist_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 729,
+  "lod_triangles": [
+   729,
+   375,
+   140
+  ],
+  "bounds": [
+   [
+    -0.45049265027046204,
+    0.0,
+    -0.3327181339263916
+   ],
+   [
+    0.33875176310539246,
+    0.8413469791412354,
+    0.3938235342502594
+   ]
+  ],
+  "bytes": 120820,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_herbalist_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_herbalist_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_herbalist_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_herbalist_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_hospital_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Hospital",
+  "race": "orc",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1164,
+  "lod_triangles": [
+   1164,
+   562,
+   194
+  ],
+  "bounds": [
+   [
+    -0.9596929550170898,
+    0.0,
+    -0.5756971836090088
+   ],
+   [
+    0.9621991515159607,
+    1.1404800415039062,
+    0.7584714889526367
+   ]
+  ],
+  "bytes": 180408,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_hospital_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_hospital_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_hospital_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_hospital_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Hospital",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1308,
+  "lod_triangles": [
+   1308,
+   658,
+   254
+  ],
+  "bounds": [
+   [
+    -0.9596929550170898,
+    0.0,
+    -0.5756971836090088
+   ],
+   [
+    0.9621991515159607,
+    1.1761200428009033,
+    0.7584714889526367
+   ]
+  ],
+  "bytes": 210696,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_hospital_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_hospital_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_hospital_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_hospital_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_hospital_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Hospital",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1308,
+  "lod_triangles": [
+   1308,
+   658,
+   254
+  ],
+  "bounds": [
+   [
+    -0.9596929550170898,
+    0.0,
+    -0.5756971836090088
+   ],
+   [
+    0.9621991515159607,
+    1.1048400402069092,
+    0.7584714889526367
+   ]
+  ],
+  "bytes": 210188,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_hospital_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_hospital_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_hospital_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_hospital_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_library_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Library",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1176,
+  "lod_triangles": [
+   1176,
+   546,
+   191
+  ],
+  "bounds": [
+   [
+    -0.9370830059051514,
+    0.0,
+    -0.5402650237083435
+   ],
+   [
+    0.9515724182128906,
+    1.172160029411316,
+    0.7778768539428711
+   ]
+  ],
+  "bytes": 180748,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_library_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_library_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_library_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_library_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_library_classical_v0__renaissance.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_library_classical_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_orc_library_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Library",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1320,
+  "lod_triangles": [
+   1320,
+   642,
+   251
+  ],
+  "bounds": [
+   [
+    -0.9370830059051514,
+    0.0,
+    -0.5402650237083435
+   ],
+   [
+    0.9515724182128906,
+    1.2087899446487427,
+    0.7778768539428711
+   ]
+  ],
+  "bytes": 210496,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_library_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_library_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_library_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_library_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_library_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Library",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1320,
+  "lod_triangles": [
+   1320,
+   642,
+   251
+  ],
+  "bounds": [
+   [
+    -0.9370830059051514,
+    0.0,
+    -0.5402650237083435
+   ],
+   [
+    0.9515724182128906,
+    1.1355299949645996,
+    0.7778768539428711
+   ]
+  ],
+  "bytes": 210628,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_library_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_library_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_library_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_library_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_medical_center_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "MedicalCenter",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1006,
+  "lod_triangles": [
+   1006,
+   600,
+   309
+  ],
+  "bounds": [
+   [
+    -0.8700169920921326,
+    0.0,
+    -0.8182806968688965
+   ],
+   [
+    0.8467404246330261,
+    1.187999963760376,
+    0.723196268081665
+   ]
+  ],
+  "bytes": 173456,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_medical_center_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_medical_center_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_medical_center_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_medical_center_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_observatory_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Observatory",
+  "race": "orc",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 773,
+  "lod_triangles": [
+   773,
+   359,
+   142
+  ],
+  "bounds": [
+   [
+    -0.9283443689346313,
+    0.0,
+    -0.475427508354187
+   ],
+   [
+    0.7681794762611389,
+    1.4439418315887451,
+    0.6820661425590515
+   ]
+  ],
+  "bytes": 124760,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_observatory_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_observatory_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_observatory_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_observatory_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Observatory",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 821,
+  "lod_triangles": [
+   821,
+   391,
+   162
+  ],
+  "bounds": [
+   [
+    -0.9283443689346313,
+    0.0,
+    -0.475427508354187
+   ],
+   [
+    0.7681794762611389,
+    1.4439418315887451,
+    0.6820661425590515
+   ]
+  ],
+  "bytes": 134140,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_observatory_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_observatory_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_observatory_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_observatory_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_observatory_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Observatory",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 821,
+  "lod_triangles": [
+   821,
+   391,
+   162
+  ],
+  "bounds": [
+   [
+    -0.9283443689346313,
+    0.0,
+    -0.475427508354187
+   ],
+   [
+    0.7681794762611389,
+    1.4439418315887451,
+    0.6820661425590515
+   ]
+  ],
+  "bytes": 134528,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_observatory_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_observatory_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_observatory_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_observatory_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_printworks_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Printworks",
+  "race": "orc",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 676,
+  "lod_triangles": [
+   676,
+   346,
+   178
+  ],
+  "bounds": [
+   [
+    -0.9558951258659363,
+    0.0,
+    -0.5824450254440308
+   ],
+   [
+    0.6507499814033508,
+    0.9345600008964539,
+    0.6971268057823181
+   ]
+  ],
+  "bytes": 103696,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_printworks_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_printworks_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_printworks_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_printworks_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Printworks",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 724,
+  "lod_triangles": [
+   724,
+   378,
+   198
+  ],
+  "bounds": [
+   [
+    -0.9558951258659363,
+    0.0,
+    -0.5824450254440308
+   ],
+   [
+    0.6507499814033508,
+    0.963765025138855,
+    0.6971268057823181
+   ]
+  ],
+  "bytes": 113904,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_printworks_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_printworks_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_printworks_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_printworks_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_printworks_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Printworks",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 724,
+  "lod_triangles": [
+   724,
+   378,
+   198
+  ],
+  "bounds": [
+   [
+    -0.9558951258659363,
+    0.0,
+    -0.5824450254440308
+   ],
+   [
+    0.6507499814033508,
+    0.913092851638794,
+    0.6971268057823181
+   ]
+  ],
+  "bytes": 113784,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_printworks_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_printworks_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_printworks_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_printworks_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_research_lab_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "ResearchLab",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 765,
+  "lod_triangles": [
+   765,
+   397,
+   187
+  ],
+  "bounds": [
+   [
+    -0.9558951258659363,
+    0.0,
+    -0.5824450254440308
+   ],
+   [
+    0.7024651765823364,
+    1.144044041633606,
+    0.6971268057823181
+   ]
+  ],
+  "bytes": 129992,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_research_lab_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_research_lab_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_research_lab_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_research_lab_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_research_lab_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "ResearchLab",
+  "race": "orc",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 765,
+  "lod_triangles": [
+   765,
+   397,
+   187
+  ],
+  "bounds": [
+   [
+    -0.9558951258659363,
+    0.0,
+    -0.5824450254440308
+   ],
+   [
+    0.7024651765823364,
+    1.144044041633606,
+    0.6971268057823181
+   ]
+  ],
+  "bytes": 129856,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_research_lab_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_research_lab_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_research_lab_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_scriptorium_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "orc",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 678,
+  "lod_triangles": [
+   678,
+   328,
+   189
+  ],
+  "bounds": [
+   [
+    -0.9558951258659363,
+    0.0,
+    -0.2912225127220154
+   ],
+   [
+    0.8037887215614319,
+    0.8458830118179321,
+    0.34856340289115906
+   ]
+  ],
+  "bytes": 106640,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_scriptorium_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_scriptorium_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_scriptorium_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_scriptorium_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 678,
+  "lod_triangles": [
+   678,
+   328,
+   189
+  ],
+  "bounds": [
+   [
+    -0.9558951258659363,
+    0.0,
+    -0.2912225127220154
+   ],
+   [
+    0.8037887215614319,
+    0.7646399736404419,
+    0.34856340289115906
+   ]
+  ],
+  "bytes": 106804,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_scriptorium_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_scriptorium_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_scriptorium_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_scriptorium_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_scriptorium_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_scriptorium_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 726,
+  "lod_triangles": [
+   726,
+   360,
+   209
+  ],
+  "bounds": [
+   [
+    -0.9558951258659363,
+    0.0,
+    -0.2912225127220154
+   ],
+   [
+    0.8037887215614319,
+    0.7885349988937378,
+    0.34856340289115906
+   ]
+  ],
+  "bytes": 116672,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_scriptorium_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_scriptorium_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_scriptorium_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_scriptorium_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_scriptorium_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 726,
+  "lod_triangles": [
+   726,
+   360,
+   209
+  ],
+  "bounds": [
+   [
+    -0.9558951258659363,
+    0.0,
+    -0.2912225127220154
+   ],
+   [
+    0.8037887215614319,
+    0.7470759749412537,
+    0.34856340289115906
+   ]
+  ],
+  "bytes": 116612,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_scriptorium_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_scriptorium_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_scriptorium_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_scriptorium_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_university_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "University",
+  "race": "orc",
+  "ages": [
+   "renaissance",
+   "medieval"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1293,
+  "lod_triangles": [
+   1293,
+   625,
+   233
+  ],
+  "bounds": [
+   [
+    -1.405624508857727,
+    0.0,
+    -0.5402650237083435
+   ],
+   [
+    1.427358627319336,
+    1.5792479515075684,
+    0.7778768539428711
+   ]
+  ],
+  "bytes": 203480,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_university_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_university_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_university_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_university_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_orc_university_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "University",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1437,
+  "lod_triangles": [
+   1437,
+   721,
+   293
+  ],
+  "bounds": [
+   [
+    -1.405624508857727,
+    0.0,
+    -0.5402650237083435
+   ],
+   [
+    1.427358627319336,
+    1.5792479515075684,
+    0.7778768539428711
+   ]
+  ],
+  "bytes": 233244,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_university_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_university_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_university_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_university_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_university_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/LearningHealth",
+  "building_type": "University",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1437,
+  "lod_triangles": [
+   1437,
+   721,
+   293
+  ],
+  "bounds": [
+   [
+    -1.405624508857727,
+    0.0,
+    -0.5402650237083435
+   ],
+   [
+    1.427358627319336,
+    1.5792479515075684,
+    0.7778768539428711
+   ]
+  ],
+  "bytes": 233568,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/LearningHealth/bld_orc_university_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_university_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_university_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/LearningHealth/bld_orc_university_industrial_v0__modern.png"
+  }
+ }
+]

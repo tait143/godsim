@@ -1,0 +1,808 @@
+[
+ {
+  "id": "bld_human_aqueduct_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "Aqueduct",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 794,
+  "lod_triangles": [
+   794,
+   540,
+   252
+  ],
+  "bounds": [
+   [
+    -0.3075000047683716,
+    0.0,
+    -1.4915000200271606
+   ],
+   [
+    0.3075000047683716,
+    1.63100004196167,
+    1.4105000495910645
+   ]
+  ],
+  "bytes": 114048,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_aqueduct_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_aqueduct_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_aqueduct_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_aqueduct_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_aqueduct_classical_v0__renaissance.png",
+   "iron": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_aqueduct_classical_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_human_aqueduct_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "Aqueduct",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 590,
+  "lod_triangles": [
+   590,
+   376,
+   176
+  ],
+  "bounds": [
+   [
+    -0.3400000035762787,
+    0.0,
+    -1.4915000200271606
+   ],
+   [
+    0.3400000035762787,
+    1.6749999523162842,
+    1.4105000495910645
+   ]
+  ],
+  "bytes": 82936,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_aqueduct_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_aqueduct_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_aqueduct_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_aqueduct_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_aqueduct_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "Aqueduct",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 814,
+  "lod_triangles": [
+   814,
+   504,
+   224
+  ],
+  "bounds": [
+   [
+    -0.3400000035762787,
+    0.0,
+    -1.4915000200271606
+   ],
+   [
+    0.3400000035762787,
+    1.5449999570846558,
+    1.4105000495910645
+   ]
+  ],
+  "bytes": 111464,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_aqueduct_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_aqueduct_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_aqueduct_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_aqueduct_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_fusion_reactor_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "FusionReactor",
+  "race": "human",
+  "ages": [
+   "ascension",
+   "information"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1144,
+  "lod_triangles": [
+   1144,
+   568,
+   290
+  ],
+  "bounds": [
+   [
+    -1.3350000381469727,
+    0.0,
+    -1.2450000047683716
+   ],
+   [
+    1.3350000381469727,
+    1.6996500492095947,
+    1.2450000047683716
+   ]
+  ],
+  "bytes": 176708,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_fusion_reactor_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_fusion_reactor_future_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_fusion_reactor_future_v0.png",
+   "information": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_fusion_reactor_future_v0__information.png"
+  }
+ },
+ {
+  "id": "bld_human_granary_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "Granary",
+  "race": "human",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 662,
+  "lod_triangles": [
+   662,
+   366,
+   182
+  ],
+  "bounds": [
+   [
+    -0.9150000214576721,
+    0.0,
+    -0.8050000071525574
+   ],
+   [
+    0.9150000214576721,
+    1.3849999904632568,
+    0.8050000071525574
+   ]
+  ],
+  "bytes": 99084,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_granary_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_granary_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_granary_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_granary_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_human_granary_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "Granary",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 714,
+  "lod_triangles": [
+   714,
+   406,
+   222
+  ],
+  "bounds": [
+   [
+    -0.9150000214576721,
+    0.0,
+    -0.8050000071525574
+   ],
+   [
+    0.9150000214576721,
+    1.7799999713897705,
+    0.8050000071525574
+   ]
+  ],
+  "bytes": 108800,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_granary_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_granary_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_granary_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_granary_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_granary_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_granary_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "Granary",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1198,
+  "lod_triangles": [
+   1198,
+   716,
+   256
+  ],
+  "bounds": [
+   [
+    -0.9150000214576721,
+    0.0,
+    -0.8379999995231628
+   ],
+   [
+    0.9150000214576721,
+    1.621999979019165,
+    0.8050000071525574
+   ]
+  ],
+  "bytes": 153564,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_granary_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_granary_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_granary_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_granary_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_granary_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "Granary",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1164,
+  "lod_triangles": [
+   1164,
+   682,
+   222
+  ],
+  "bounds": [
+   [
+    -0.9150000214576721,
+    0.0,
+    -0.8379999995231628
+   ],
+   [
+    0.9150000214576721,
+    1.621999979019165,
+    0.8050000071525574
+   ]
+  ],
+  "bytes": 143932,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_granary_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_granary_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_granary_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_granary_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_power_plant_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "PowerPlant",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 785,
+  "lod_triangles": [
+   785,
+   488,
+   178
+  ],
+  "bounds": [
+   [
+    -1.3350000381469727,
+    0.0,
+    -1.2450000047683716
+   ],
+   [
+    1.3350000381469727,
+    1.5329999923706055,
+    1.2450000047683716
+   ]
+  ],
+  "bytes": 119792,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_power_plant_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_power_plant_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_power_plant_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_power_plant_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_power_plant_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "PowerPlant",
+  "race": "human",
+  "ages": [
+   "modern",
+   "industrial"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 893,
+  "lod_triangles": [
+   893,
+   540,
+   216
+  ],
+  "bounds": [
+   [
+    -1.3350000381469727,
+    0.0,
+    -1.2450000047683716
+   ],
+   [
+    1.3350000381469727,
+    1.7999999523162842,
+    1.2450000047683716
+   ]
+  ],
+  "bytes": 141020,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_power_plant_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_power_plant_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_power_plant_industrial_v0.png",
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_power_plant_industrial_v0__industrial.png"
+  }
+ },
+ {
+  "id": "bld_human_storehouse_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "Storehouse",
+  "race": "human",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 485,
+  "lod_triangles": [
+   485,
+   204,
+   110
+  ],
+  "bounds": [
+   [
+    -0.9449999928474426,
+    0.0,
+    -0.4449999928474426
+   ],
+   [
+    0.9449999928474426,
+    1.0399999618530273,
+    0.4449999928474426
+   ]
+  ],
+  "bytes": 60888,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_storehouse_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_human_storehouse_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "Storehouse",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 517,
+  "lod_triangles": [
+   517,
+   226,
+   132
+  ],
+  "bounds": [
+   [
+    -0.9449999928474426,
+    0.0,
+    -0.4449999928474426
+   ],
+   [
+    0.9449999928474426,
+    1.1799999475479126,
+    0.4449999928474426
+   ]
+  ],
+  "bytes": 66992,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_storehouse_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_storehouse_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "Storehouse",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 551,
+  "lod_triangles": [
+   551,
+   250,
+   138
+  ],
+  "bounds": [
+   [
+    -0.9449999928474426,
+    0.0,
+    -0.4449999928474426
+   ],
+   [
+    0.9449999928474426,
+    1.340000033378601,
+    0.4449999928474426
+   ]
+  ],
+  "bytes": 71836,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_storehouse_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_storehouse_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "Storehouse",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 573,
+  "lod_triangles": [
+   573,
+   260,
+   148
+  ],
+  "bounds": [
+   [
+    -0.9449999928474426,
+    0.0,
+    -0.4449999928474426
+   ],
+   [
+    0.9449999928474426,
+    1.2599999904632568,
+    0.4449999928474426
+   ]
+  ],
+  "bytes": 73504,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_storehouse_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_well_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "Well",
+  "race": "human",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 555,
+  "lod_triangles": [
+   555,
+   362,
+   125
+  ],
+  "bounds": [
+   [
+    -0.4399999976158142,
+    0.0,
+    -0.42500001192092896
+   ],
+   [
+    0.4399999976158142,
+    1.0049999952316284,
+    0.42500001192092896
+   ]
+  ],
+  "bytes": 88164,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_well_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_human_well_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "Well",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 595,
+  "lod_triangles": [
+   595,
+   402,
+   149
+  ],
+  "bounds": [
+   [
+    -0.4399999976158142,
+    0.0,
+    -0.42500001192092896
+   ],
+   [
+    0.4399999976158142,
+    1.2009999752044678,
+    0.42500001192092896
+   ]
+  ],
+  "bytes": 95268,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_well_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_well_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "Well",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 685,
+  "lod_triangles": [
+   685,
+   432,
+   151
+  ],
+  "bounds": [
+   [
+    -0.4399999976158142,
+    0.0,
+    -0.42500001192092896
+   ],
+   [
+    0.4399999976158142,
+    1.1449999809265137,
+    0.42500001192092896
+   ]
+  ],
+  "bytes": 109752,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_well_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_well_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Infrastructure",
+  "building_type": "Well",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 595,
+  "lod_triangles": [
+   595,
+   390,
+   141
+  ],
+  "bounds": [
+   [
+    -0.4399999976158142,
+    0.0,
+    -0.42500001192092896
+   ],
+   [
+    0.4399999976158142,
+    1.0670000314712524,
+    0.42500001192092896
+   ]
+  ],
+  "bytes": 95328,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_well_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_industrial_v0__modern.png"
+  }
+ }
+]

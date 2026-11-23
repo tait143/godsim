@@ -1,0 +1,89 @@
+{
+  "package": "human_housesancient",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Codex independent Human Ancient Houses critic",
+      "models": [
+        {
+          "id": "bld_human_house_ancient_v0",
+          "evidence_sha256": "c8edc9bd368eae18007cc64e306dfa90a297c00a1fe35f58e449cd883b4b7d0e",
+          "observations": "The steep pole-bound thatch roof and blue door hanging read at 64 px. The basket, planted sill and tied ridge reward a closer view. Side and rear elevations retain their roof and wall junctions. The serialized levels contain 572, 248 and 94 triangles. The front gable braces and small joined details have coplanar surface intersections beyond the validator's identical-triangle check.",
+          "scores": {"silhouette": 94, "identity": 94, "construction": 93, "charm": 94, "colour": 92, "technical": 96},
+          "defects": [
+            "The two front gable braces have coplanar overlapping cheeks at the apex in all three levels. Miter their ends at the centreline or model the pair as one joined profile.",
+            "The LOD0 gable-end fascia strips backtrack along the stepped thatch profile. Neighboring hide strips overlap in the same plane on the front and back. Generate the fascia as a non-overlapping polygon strip or fit an independent continuous bargeboard.",
+            "At LOD0 the sloping basket handle pieces overlap the horizontal grip on its front and back faces. The opposing ridge tie segments also overlap at their tops. Miter these short sections or assemble each handle or tie from one continuous mesh."
+          ]
+        },
+        {
+          "id": "bld_human_house_ancient_v1",
+          "evidence_sha256": "30bf18b149314f73f122380f5f342f8e9ca540394ad70b8437fbb58ff690adbf",
+          "observations": "The hipped reed roof, lower hide door canopy and its two posts remain distinct at phone size, including at the 40 px low-level check. The open hood frames the doorway, and the sheaf, flower box and little blue pennant identify a working household. Front, side and back views showed no missing roof faces. The three serialized levels passed geometry, UV and material validation at 499, 226 and 90 triangles. The coplanar intersection check found no same-facing overlapping faces.",
+          "scores": {"silhouette": 95, "identity": 94, "construction": 94, "charm": 94, "colour": 93, "technical": 99},
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_ancient_bronze_v0",
+          "evidence_sha256": "cec8f77ffab09f02cd0a6e7f20eb4b645fbe598f8ae669783d72fc94cf36ba9e",
+          "observations": "The side bread oven reads as a separate low dome at 40 px. At the larger size its mouth and shelf, the storage jar, mudbrick wall and planted window establish the household's use. Limewash and copper ridge trim distinguish it from the Dawn gable. The three levels retain the oven and pass serialized checks at 532, 315 and 119 triangles. The pitched metal surround above the door has a depth conflict at its apex.",
+          "scores": {"silhouette": 94, "identity": 94, "construction": 93, "charm": 95, "colour": 94, "technical": 97},
+          "defects": [
+            "The two metal rails of the small triangular gable vent terminate inside one another with coplanar front and rear faces at LOD0 and LOD1. Miter their meeting ends, or form the copper edge as a single continuous frame."
+          ]
+        },
+        {
+          "id": "bld_human_house_ancient_bronze_v1",
+          "evidence_sha256": "75b4a0cd39edf0532dc434f1a848869987f4c2229b91e3da199b317eef673302",
+          "observations": "The flat drying terrace alongside a copper-ridged hip sets this house apart even at 40 px. The ladder meets the parapet opening, its side rails continue in the lower levels, and grain, jars and flowers make the terrace and house legible at close range. The ochre roof and blue shutters separate cleanly from the masonry. Front and reverse views retain the split roof through all levels. The serialized levels passed at 645, 347 and 144 triangles, with no same-facing coplanar intersections found.",
+          "scores": {"silhouette": 96, "identity": 95, "construction": 95, "charm": 96, "colour": 94, "technical": 99},
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_ancient_iron_v0",
+          "evidence_sha256": "9efc690316026a1e145cda79c159697564ef2453b0da72d6cae6a9c4383f87f5",
+          "observations": "The tall wall hearth and slate roof give the strongest Iron Age silhouette in the set at both 40 and 64 px. The flue enters a substantial stone base. Split logs and the planted window remain distinct in the larger front view, and the dark roof separates from the lighter masonry. The reverse elevation retains the chimney cap and continuous roof. The serialized levels passed at 515, 252 and 100 triangles, with no same-facing coplanar intersections found.",
+          "scores": {"silhouette": 96, "identity": 95, "construction": 95, "charm": 94, "colour": 95, "technical": 99},
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_ancient_iron_v1",
+          "evidence_sha256": "e5c0d924e682effe430234dafca16c15e79e0a5e622a7f61391c737b39c33475",
+          "observations": "The projecting entry gable, broad shingle roof and small chimney differentiate the shape from the slate hearth house. Large shutters and a pale stone wall make the doorway side clear at gameplay scale. The lantern is visible on the opposite approach. The three levels passed the serialized validator at 667, 322 and 132 triangles. Additional geometric inspection located intersecting surface patches on the stepped gables and front entry braces.",
+          "scores": {"silhouette": 95, "identity": 93, "construction": 93, "charm": 93, "colour": 93, "technical": 95},
+          "defects": [
+            "On both the main and porch gables at LOD0, the stepped roof profile doubles back at the shingle laps. The coplanar plaster gable fan triangles overlap and sections of the trim fascia overlap. Triangulate each gable without overlapping surface area and build a continuous end fascia without folded faces.",
+            "The opposing entry-gable trim braces overlap their coplanar front and rear cheeks at the apex at LOD0 and LOD1. Miter the exposed ends at the peak or form a single joined frame."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Codex independent Human Ancient Houses critic",
+      "models": [
+        {
+          "id": "bld_human_house_ancient_v0",
+          "evidence_sha256": "bfca7dcbc3f998d1a7a82c2b97628b058cff9557d1a854a898c9eb56fc08bd18",
+          "observations": "In the revised preview, the thatch courses, two ridge ties and basket grip remain legible. A low front view shows a continuous gable face and joined braces, and the reverse view preserves the shape at the roof edge. The door curtain and roof silhouette still identify the house at 40–80 px. Reopening the GLB gave 558, 244 and 90 triangles with valid normals, atlas UVs and LODs. No co-oriented coplanar overlaps were found in the three levels.",
+          "scores": {"silhouette": 94, "identity": 94, "construction": 94, "charm": 94, "colour": 92, "technical": 99},
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_ancient_bronze_v0",
+          "evidence_sha256": "59e43307910ddfafbdc1203699290f92433d3dd86b45206e85599f8433eb836f",
+          "observations": "The repaired vent trim follows a connected triangular edge over the dark gable opening. The low elevation shows the opening clearly, while the side oven with its shelf and jar remains distinct from the main door in the larger preview. The oven silhouette survives the 40 px view. All three serialized levels passed at 528, 311 and 119 triangles, and the overlap inspection found zero co-oriented coplanar pairs.",
+          "scores": {"silhouette": 94, "identity": 94, "construction": 94, "charm": 95, "colour": 94, "technical": 99},
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_ancient_iron_v1",
+          "evidence_sha256": "979c37d50d99d565ca8fd8282aa0bb7471d50f14cdee996d713270a21cea18b4",
+          "observations": "The main roof and projecting entry gable retain separate silhouettes at 40–80 px. Front and reverse views show the rebuilt plaster and bargeboards closing the shingle ends. The entry braces meet under the ridge, with the shuttered window and horn lantern still framing the approach. The exported levels passed at 681, 318 and 132 triangles with valid normals and atlas UVs. The coplanar overlap inspection found zero pairs in all three levels.",
+          "scores": {"silhouette": 95, "identity": 93, "construction": 94, "charm": 93, "colour": 93, "technical": 99},
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

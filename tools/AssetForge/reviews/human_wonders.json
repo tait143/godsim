@@ -1,0 +1,48 @@
+{
+  "package": "human_wonders",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Independent Grand Cathedral critic",
+      "models": [
+        {
+          "id": "bld_human_grand_cathedral_classical_v0",
+          "evidence_sha256": "02d51f68812b4b0b0decbe5410463a3d812c624dfeb6e4429db3c90449f71f3b",
+          "observations": "The twin open belfries flank a rose window and processional entrance beneath a taller octagonal lantern. All seven published age views preserve the three-spire skyline at 40, 64 and 80 pixels. The reddish Industrial wall offers the least separation from the belfry roofs. Blue pennants, honey-coloured bells and the barley motif on the rose identify the Human wonder. Side and rear renders from the exported LODs show the buttresses reaching the piers and a glazed apse under its polygonal roof. The main entrance faces −Z. The serialized validator passed at 2,874, 1,780 and 886 triangles with no reported coplanar or inward-shell findings. The front stair profile and the open underside of the sloping gable edges still need repair.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 87,
+            "charm": 94,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "All LODs: the plinth front at z=−1.385 covers nearly the entire stair run. Only 0.004 tile of the middle tread is exposed, and the upper tread sits inside the platform. The low front/side elevations show a collapsed, shallow ledge. Recess or shorten the podium beneath the central run, or refit the steps within the footprint, leaving a visible tread at each rise and a level landing into the portal.",
+            "All LODs: the long nave and both transept gables have an open sloping edge between the outer bargeboard and the inset gable face. The current horizontal soffit closes the eave level only. Bridge the lower bargeboard edge to the recessed face along each slope on front and rear ends, and check the near-grazing elevations."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Independent Grand Cathedral critic",
+      "models": [
+        {
+          "id": "bld_human_grand_cathedral_classical_v0",
+          "evidence_sha256": "9aa3d41336dbff845b8addee933d715bcbc2aa3b0d5b1e53606edc45c2e7f880",
+          "observations": "The revised front stair has three exposed treads leading between the lamps to the portal. The recessed platform carries the two tower feet and meets the upper landing. Low front, rear and transept views of each exported LOD show continuous rake edges where the new sloping soffits meet the gables. The twin bells and taller crossing lantern still define the Human cathedral at 40, 64 and 80 pixels across all seven age previews. The Industrial brick facade has the closest values to its flanking roofs, but the blue pennants, lighter belfry stages and gold bells separate the forms. The serialized package check passed at 2,930, 1,836 and 938 triangles without exposed coplanar or inward-shell findings.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

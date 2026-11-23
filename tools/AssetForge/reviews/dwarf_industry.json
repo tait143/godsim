@@ -1,0 +1,711 @@
+{
+  "package": "dwarf_industry",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Industry critic, independent session 5 review",
+      "models": [
+        {
+          "id": "bld_dwarf_armory_ancient_v0",
+          "evidence_sha256": "9d9dab968d39595a2f6ba8ce890815264115a661699c67ed449b5d52f17bddb9",
+          "observations": "The low iron-age hall has two ochre shield faces at 64 px. At 224 px the little pier lamps disappear into the dark eaves. Serialized LOD triangle counts were 944, 448, 236.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 95,
+            "construction": 87,
+            "charm": 91,
+            "colour": 91,
+            "technical": 93
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 6 exposed coplanar gold pairs in the two shield chevrons and the central roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check.",
+            "Move both gate-pier lamps beyond the eaves onto solid clear portions of their caps. Their crowns currently intersect the roof and lose the lantern silhouette."
+          ]
+        },
+        {
+          "id": "bld_dwarf_armory_classical_v0",
+          "evidence_sha256": "b6cd47b84c4f2f765fc59100ee73b73308bafd02c5aeff14214d0b15c303e1b3",
+          "observations": "Broad shield piers and the central doorway survive the terracotta-to-dark-slate roof shifts. The gilded emblems are clear at full size, whereas the lamps are largely concealed. Serialized LOD triangle counts were 944, 448, 236.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 87,
+            "charm": 91,
+            "colour": 92,
+            "technical": 93
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 6 exposed coplanar gold pairs in the two shield chevrons and the central roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check.",
+            "Move both gate-pier lamps beyond the eaves onto solid clear portions of their caps. Their crowns currently intersect the roof and lose the lantern silhouette."
+          ]
+        },
+        {
+          "id": "bld_dwarf_armory_future_v0",
+          "evidence_sha256": "8b27af337398835582a781370b30d8805166eaca7416f38064df486aec695844",
+          "observations": "The blue upper vault, gold-edged panels and paired shield piers identify the advanced armory at 64 px. The small capped lamps collide with the eaves in the closer view. Serialized LOD triangle counts were 968, 472, 248.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 87,
+            "charm": 91,
+            "colour": 92,
+            "technical": 93
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 6 exposed coplanar gold pairs in the two shield chevrons and the central roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check.",
+            "Move both gate-pier lamps beyond the eaves onto solid clear portions of their caps. Their crowns currently intersect the roof and lose the lantern silhouette."
+          ]
+        },
+        {
+          "id": "bld_dwarf_armory_industrial_v0",
+          "evidence_sha256": "38ee0efac39f6814ef62fbe5370b9437507ecfb526c05405040186ab1be28893",
+          "observations": "The red-brick ironworks and pale concrete version both show pointed shields by the doorway. On the Modern roof the tops of the two lamps appear as orange fragments through the metal eaves. Serialized LOD triangle counts were 968, 472, 248.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 85,
+            "charm": 90,
+            "colour": 93,
+            "technical": 93
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 6 exposed coplanar gold pairs in the two shield chevrons and the central roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check.",
+            "Move both gate-pier lamps beyond the eaves onto solid clear portions of their caps. Their crowns currently intersect the roof and lose the lantern silhouette."
+          ]
+        },
+        {
+          "id": "bld_dwarf_blacksmith_ancient_v0",
+          "evidence_sha256": "268c5646dc12dd8e41d021cf790d0f338f45a7053ed0d97aaf766d6f8f7b6b2a",
+          "observations": "The stout anvil presents its horn beside a glowing oven; the copper-brown Bronze and darker Iron roof tones both frame a blue quench tub. At 64 px the oven and work stump remain distinct. Serialized LOD triangle counts were 1118, 546, 285.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 94,
+            "charm": 93,
+            "colour": 91,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 2 exposed coplanar gold pairs in the workroom roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check."
+          ]
+        },
+        {
+          "id": "bld_dwarf_blacksmith_classical_v0",
+          "evidence_sha256": "71afba3e90024ceb1863a6a4bf4686e8285ea7cfacacfd8397990d43089732d7",
+          "observations": "The projecting horn and broad stump stay legible across the three ages. The terracotta rows contrast with the Medieval dark vault. The hammer and arc of cool water show in the larger image. Serialized LOD triangle counts were 1118, 546, 285.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 2 exposed coplanar gold pairs in the workroom roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check."
+          ]
+        },
+        {
+          "id": "bld_dwarf_blacksmith_future_v0",
+          "evidence_sha256": "5ff9abf9dcfa017372f0907cf5ff6beb73ca9770e32e117e18b537bdcb9db507",
+          "observations": "A silver-banded chimney and glass roof separate the low shop from the warm-colored forge opening. The anvil stays dark against the pale plinth in Information and turns gold with Ascension. Serialized LOD triangle counts were 1130, 558, 285.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 2 exposed coplanar gold pairs in the workroom roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check."
+          ]
+        },
+        {
+          "id": "bld_dwarf_blacksmith_industrial_v0",
+          "evidence_sha256": "5b688994ac0503db3f79267120303825cdd213a339bf5c125b6034acece9de86",
+          "observations": "Brick, dark roof and squat chimney give a compact ironworks silhouette. The Modern paneled roof lightens it; the timber anvil base, tool and blue quench tub hold their locations. Serialized LOD triangle counts were 1130, 558, 285.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 2 exposed coplanar gold pairs in the workroom roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check."
+          ]
+        },
+        {
+          "id": "bld_dwarf_electronics_plant_future_v0",
+          "evidence_sha256": "7ad5ac998fe31dd2e4ca00aec342265d91d84c4afef085b58cfd04bfd4c5f7c8",
+          "observations": "Four turquoise ribbed insulators frame the central processing enclosure. Their roof conductors, narrow glazing belt and chunky chamfered plinth read across Modern, Information and gold-capped Ascension. The corner lamps and ribs are visible at 224 px; the four corners stay clear at 64 px. No exposed surface, orientation or repeated-shape finding. Serialized LOD triangle counts were 1122, 650, 234.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 95,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_factory_future_v0",
+          "evidence_sha256": "424add6b7e11fb77217a9ab9751fc66f4d097f6eb93798fc0fb197cc57955ba3",
+          "observations": "Three sawtooth roof bays and unequal exhaust stacks identify the factory at both sizes. Its cyan monitor stays above the roof in both the charcoal and gold finishes; the doorway faces the front yard. Serialized LOD triangle counts were 858, 458, 214.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 93
+          },
+          "defects": [
+            "All three LODs have six exposed coplanar pairs at the shared bottom elevation of the door and its trim. Raise or inset the smaller door prism inside the frame, then test all LODs."
+          ]
+        },
+        {
+          "id": "bld_dwarf_factory_industrial_v0",
+          "evidence_sha256": "260678f4dafed139f549040ab645d2c6f1e6dbe737b7d44d33c1ff1cc93cca07",
+          "observations": "The aligned shed ridges and two slender stacks are readable at 64 px. Brick gives way to concrete between the rows, while the small side windows and front equipment panels stay intelligible in the 224 px images. Serialized LOD triangle counts were 826, 426, 182.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 93
+          },
+          "defects": [
+            "All three LODs have six exposed coplanar pairs at the shared bottom elevation of the door and its trim. Raise or inset the smaller door prism inside the frame, then test all LODs."
+          ]
+        },
+        {
+          "id": "bld_dwarf_foundry_future_v0",
+          "evidence_sha256": "23960d9cd15a48df578c60842d749dde81b54a49ad5110266c9db2f4b4e9c823",
+          "observations": "The bright ladle and tiered furnace define this largely white or gold casting yard at phone size. At full size the raised vessel stands above the much lower mouth and lacks a feed spout. Serialized LOD triangle counts were 1240, 592, 332.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 86,
+            "charm": 93,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 2 exposed coplanar gold pairs in the workroom roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check.",
+            "Provide a visible furnace tap higher than the ladle rim, with a supported down-sloping spout into the bowl, or lower the ladle and its supporting trunnions to receive the melt."
+          ]
+        },
+        {
+          "id": "bld_dwarf_foundry_industrial_v0",
+          "evidence_sha256": "76d94ca504856f83de049834ea30cddc95e0f55d70144e44fa3a0fbd71eb9772",
+          "observations": "The firing stack and round orange ladle are unambiguous against red brick and against Modern concrete. The bowl has trunnion supports, but the furnace tap cannot reach the upper rim at the depicted elevations. Serialized LOD triangle counts were 1200, 552, 308.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 86,
+            "charm": 93,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 2 exposed coplanar gold pairs in the workroom roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check.",
+            "Provide a visible furnace tap higher than the ladle rim, with a supported down-sloping spout into the bowl, or lower the ladle and its supporting trunnions to receive the melt."
+          ]
+        },
+        {
+          "id": "bld_dwarf_smelter_ancient_v0",
+          "evidence_sha256": "5a4049956166fa646dbe8b629824be77a5df1201a95f99d4f44debadb040a204",
+          "observations": "The strong hot-metal runnel and banded masonry furnace contrast with the low workroom; Bronze warmth darkens in Iron. The shaped ingot stack and little lamp reward the larger view. Serialized LOD triangle counts were 1104, 488, 252.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 91,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 2 exposed coplanar gold pairs in the workroom roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check."
+          ]
+        },
+        {
+          "id": "bld_dwarf_smelter_classical_v0",
+          "evidence_sha256": "6b3b97b32652e68f2aa9a270fd0dbb01bf5083ec6ee383c2b1f039386be41eab",
+          "observations": "The Classical and Renaissance roofs are warm against pale sidewalls and the Medieval roof darkens. The furnace outlet feeds a small straight channel and clearly labels the use even at 64 px. Serialized LOD triangle counts were 1104, 488, 252.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 2 exposed coplanar gold pairs in the workroom roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check."
+          ]
+        },
+        {
+          "id": "bld_dwarf_smelter_future_v0",
+          "evidence_sha256": "45de37010eb86d1e7a6424a8d0fc109e826208675fd296072303c871ba59014d",
+          "observations": "The stepped kiln, forward tapping channel and ingots remain clear against the reflective blue roof and white shop. Ascension exchanges the dark furnace bands for warm gold. Serialized LOD triangle counts were 1128, 512, 264.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 2 exposed coplanar gold pairs in the workroom roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check."
+          ]
+        },
+        {
+          "id": "bld_dwarf_smelter_industrial_v0",
+          "evidence_sha256": "719813e56d41750a7df3299f4b2e3eab0357ec028b7decf46bd8f5c7002174e8",
+          "observations": "Red brick and soot mark Industrial, with a paler metal-bodied Modern stack. The small bright tapping channel stays attached to the kiln throat; trim, ingots and the lamp are visibly grounded. Serialized LOD triangle counts were 1128, 512, 264.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 2 exposed coplanar gold pairs in the workroom roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check."
+          ]
+        },
+        {
+          "id": "bld_dwarf_weaver_ancient_v0",
+          "evidence_sha256": "bb3a65c2b4c71562530ea3c3533fb269699cbab5ebfbea555753a14d4aee9838",
+          "observations": "The open strip of warp above a warm woven panel and three squat spools identify the weave yard. Bronze and Iron retain their different roofs behind the freestanding timber frame. Serialized LOD triangle counts were 1084, 432, 224.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 95,
+            "charm": 95,
+            "colour": 92,
+            "technical": 94
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 8 exposed coplanar gold pairs in the three textile chevrons and the roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check."
+          ]
+        },
+        {
+          "id": "bld_dwarf_weaver_classical_v0",
+          "evidence_sha256": "f00a758f9d7eb3cb110f9edae84dac03ef0170cada0b5c3fcd6797b5b6d5ab55",
+          "observations": "The rolled red cloth clears the ground between the feet, and the upper warp bars have a clear span. The same striped weaving is legible on each of the three roof palettes at 64 px. Serialized LOD triangle counts were 1084, 432, 224.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 95,
+            "colour": 92,
+            "technical": 94
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 8 exposed coplanar gold pairs in the three textile chevrons and the roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check."
+          ]
+        },
+        {
+          "id": "bld_dwarf_weaver_future_v0",
+          "evidence_sha256": "68d03bcb333c2d54199501a9dc1ee55688935c942f26b1ee835c2457dfdb7690",
+          "observations": "The cool glass roof and powered loom casing identify a newer shop without hiding the bobbins. The vermilion roll and orange textile stand out from the advanced shell in both ages. Serialized LOD triangle counts were 1120, 468, 248.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 8 exposed coplanar gold pairs in the three textile chevrons and the roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check."
+          ]
+        },
+        {
+          "id": "bld_dwarf_weaver_industrial_v0",
+          "evidence_sha256": "333456d58c7c62ab34a42aa4a25fd70ed71ad605dc04faf87340aad4c6ba9be9",
+          "observations": "A dark metal uprated loom with exposed warp and side drive sits forward of the broad workshop roof. The cloth stays warm across both the Industrial and Modern wall materials. Serialized LOD triangle counts were 1120, 468, 248.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 92,
+            "technical": 94
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 8 exposed coplanar gold pairs in the three textile chevrons and the roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check."
+          ]
+        },
+        {
+          "id": "bld_dwarf_workshop_classical_v0",
+          "evidence_sha256": "343af54b4e48e1249b0a758b9d7bf0e4b47629fa751548a47dafaeedcf6c5c2f",
+          "observations": "The broad gold-colored flywheel and bolstered press bed give the workshop a clear work station. The Classical and Renaissance machining stands brighten against the Medieval version; stacked material sits alongside the door. Serialized LOD triangle counts were 878, 434, 277.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 91,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 2 exposed coplanar gold pairs in the workroom roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check."
+          ]
+        },
+        {
+          "id": "bld_dwarf_workshop_industrial_v0",
+          "evidence_sha256": "c2c4581001f6535f953972f340693dced99e272283b21396411231a9fbdc0248",
+          "observations": "The low press has a distinct wheel, pedestal and projecting bed. A short chimney rises through the workshop roof, reading with the dark brick or concrete version and remaining distinct from the press at 64 px. Serialized LOD triangle counts were 1066, 530, 325.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0 and LOD1 each report 2 exposed coplanar gold pairs in the workroom roof rune. Miter or join each pair of strokes into a continuous surface and rerun the exposed-surface check."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Industry critic, independent session 5 review",
+      "models": [
+        {
+          "id": "bld_dwarf_armory_ancient_v0",
+          "evidence_sha256": "6b0636573f3c195b80325556d05baa4b6517ba9c789d8b3f97b3c1c76a1e2fe3",
+          "observations": "Both small warm lamps now sit out in front of the dark timber eaves, on top of the carved piers. The shield emblems and projecting gate stay distinct at 64 px. Checked the 224 px and 64 px previews and the serialized LODs (932, 436, 236 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_armory_classical_v0",
+          "evidence_sha256": "9b8dd724a711b35e8e33ed07fb98f83f5badd68c4d506ce0b71f0fe5e05945d5",
+          "observations": "The new pier caps support both light fixtures clear of the roof. All three palettes preserve the shield faces, the pointed central doorway and the dark or terracotta roof tiers. Checked the 224 px and 64 px previews and the serialized LODs (932, 436, 236 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_armory_future_v0",
+          "evidence_sha256": "c9e4784f718a7a980a91095bf3c6f5a6e55c7decb27ace922decd48e740ffb80",
+          "observations": "The lamps are now fully visible above the shield piers in the white-and-blue hall and the gold-capped variant. Their glow outlines the entrance at 64 px. Checked the 224 px and 64 px previews and the serialized LODs (956, 460, 248 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_armory_industrial_v0",
+          "evidence_sha256": "0c8fbdf41eb27fddd850e479a94891c2024f7cf6db92eddee98c275a6b08f071",
+          "observations": "The Industrial and Modern sheets show a complete fixture on each extended cap. The former orange roof fragments have resolved into lamps flanking the gate. Checked the 224 px and 64 px previews and the serialized LODs (956, 460, 248 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_blacksmith_ancient_v0",
+          "evidence_sha256": "9e5c4b92a4d83cdbbbc531aa3f63130774b47ce9c6ecda58a4f36ee9292c9058",
+          "observations": "The low smithy still frames the forward anvil, bright firebox and blue quench tub. The bronze and iron roof colors grade visibly apart, with a clean chisel rune over the door. Checked the 224 px and 64 px previews and the serialized LODs (1114, 542, 285 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 94,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_blacksmith_classical_v0",
+          "evidence_sha256": "655a6304bdfd189c03c226ccc2dc269720207b5e2674c1b6e6aa3a2dbe5ce7e8",
+          "observations": "The horned anvil and quench barrel remain distinct beneath all three age palettes. The V-shaped entry mark reads as a single relief on inspection. Checked the 224 px and 64 px previews and the serialized LODs (1114, 542, 285 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_blacksmith_future_v0",
+          "evidence_sha256": "0c7bab9bbcdcddf1d45c4653af1244c2a14a94e8c305f1432746fc029bbc5f37",
+          "observations": "The blue roof and bright silvery masonry frame the anvil and hot furnace. The Ascension chimney and anvil pick up gold while the cool water stays blue. Checked the 224 px and 64 px previews and the serialized LODs (1126, 554, 285 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_blacksmith_industrial_v0",
+          "evidence_sha256": "835d0c5bf989fdb4d779a106a6df4f31074179fc10c0fcc0e4f9204a3bf1d851",
+          "observations": "The squat stump, projecting anvil horn and water barrel retain a readable working yard against both the dark industrial and concrete modern rooms. The rune sits cleanly under the eave. Checked the 224 px and 64 px previews and the serialized LODs (1126, 554, 285 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_electronics_plant_future_v0",
+          "evidence_sha256": "44a967010442f829b18dce6fa39f7a5e735ecce69368388efcf04487027034b9",
+          "observations": "Across Modern, Information and Ascension, the revised entrance sill meets the low cut-stone plinth. Four insulators clearly bracket the roof enclosure, with cables above the blue glazing band. Checked the 224 px and 64 px previews and the serialized LODs (1122, 650, 234 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 95,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_factory_future_v0",
+          "evidence_sha256": "08f98ecedb373b0648903c849dd394f0a24fea48ba85e7da5cf66fc9a0cb3789",
+          "observations": "The corrected entry sill sits inside its frame under the unequal flues. The cyan roof monitor is distinct from the sawtooth shed in both advanced-age palettes. Checked the 224 px and 64 px previews and the serialized LODs (858, 458, 214 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_factory_industrial_v0",
+          "evidence_sha256": "b56f0aede22e09754f5b9b9dc4f6b9f0795c58b0ff8bbaadcf6b592afeea8685",
+          "observations": "The frame and door are visibly inset in the front wall. Both the brick and concrete elevations retain three sawtooth roofs, twin stacks and a readable front entrance at 64 px. Checked the 224 px and 64 px previews and the serialized LODs (826, 426, 182 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_foundry_future_v0",
+          "evidence_sha256": "c2b02ee43b69b3e31dbfef608767a63a7b3fa310c70ca961ccfa94d65e56edb3",
+          "observations": "The raised tap projects out of the furnace wall, with the trough sloping over the molten bowl. Its downward route and clearance above the trunnion arm read in both Information and Ascension. Checked the 224 px and 64 px previews and the serialized LODs (1272, 624, 368 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_foundry_industrial_v0",
+          "evidence_sha256": "2b7574d13e28a5f1c15753c363c270c92d5319f185b24c2f65ad0f395ff65b3c",
+          "observations": "The rebuilt spout bridges the brick or concrete furnace and the supported ladle at a believable height. The hot bowl and fallen stream direction remain clear when reduced to 64 px. Checked the 224 px and 64 px previews and the serialized LODs (1232, 584, 344 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_smelter_ancient_v0",
+          "evidence_sha256": "e3bd95de72b660a9a946e9344ea6598b804c7aa832d6e2045efe8ac4c6e97217",
+          "observations": "The gold entry rune reads cleanly beside the banded kiln. A low glowing outlet and matching fore-trough remain distinct against Bronze and Iron masonry. Checked the 224 px and 64 px previews and the serialized LODs (1100, 484, 252 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_smelter_classical_v0",
+          "evidence_sha256": "287797739c21e8bd59b93ed9f57ee5f826b0a94831355579cb8b864d51a3dbf4",
+          "observations": "Across three palettes, the small workroom with its revised rune backs the channeled kiln and stacked ingots. There is a continuous path from the hot face to the runnel. Checked the 224 px and 64 px previews and the serialized LODs (1100, 484, 252 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_smelter_future_v0",
+          "evidence_sha256": "12c3577d59980a9bbc43981655c878904c41fab1d8f52a84398569dd256d78da",
+          "observations": "The cool paneled workroom and banded furnace retain their contrasting heights in both rows. The bright channel leads the eye along the casting surface at thumbnail size. Checked the 224 px and 64 px previews and the serialized LODs (1124, 508, 264 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_smelter_industrial_v0",
+          "evidence_sha256": "8a223d7486ab087a67af326c56383469f8b7892baecc174c4af811f9a779e79e",
+          "observations": "Both chimney palettes preserve the connected hot outlet, short front runnel and grounded stock stack. The clean roof mark remains visible against the concrete and iron roofs. Checked the 224 px and 64 px previews and the serialized LODs (1124, 508, 264 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_weaver_ancient_v0",
+          "evidence_sha256": "6f9f81d8bbf3230f08fc4ba04d3d0721ca36e05c1f7504ae04eb6d6c61891115",
+          "observations": "The hanging cloth and spools remain readable against the early dwelling. The three chisel chevrons on the textile and the roof emblem now have continuous clean strokes. Checked the 224 px and 64 px previews and the serialized LODs (1068, 416, 224 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 95,
+            "charm": 95,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_weaver_classical_v0",
+          "evidence_sha256": "585a09d6ecc409aa5151bc34e07cae50a74ada89a91ce89de783935d6ef8b4bc",
+          "observations": "The detached loom feet support an open warp band and completed cloth, framed by the dark or terracotta roof. The patterned textile remains visible at phone scale under each age row. Checked the 224 px and 64 px previews and the serialized LODs (1068, 416, 224 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 95,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_weaver_future_v0",
+          "evidence_sha256": "8fba90a246ed64c443c1894d85c1aa350d24e5a34bd8c596e3cba8da5b6d82ce",
+          "observations": "The powered frame, casting-colored side housing and bobbins hold their positions in both advanced rows. The finished red cloth contrasts with the blue shell and the continuous patterned relief. Checked the 224 px and 64 px previews and the serialized LODs (1104, 452, 248 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_weaver_industrial_v0",
+          "evidence_sha256": "69efd2f5042cd09cd53d65058bf384621db1bd3d93c3d331c26055580d5aa971",
+          "observations": "The blue-gray drive block, open row of warp and broad red roll read clearly in front of the workshop. The decorative gold strokes remain well defined on the cloth. Checked the 224 px and 64 px previews and the serialized LODs (1104, 452, 248 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_workshop_classical_v0",
+          "evidence_sha256": "7e9b30008c4837926c542dbaa0628345cc9f8bc1bbf83de756aa1e6c668792cd",
+          "observations": "The flywheel rim and spokes remain distinct at full size above the drill table in all three ages. The width and position of the support column keep the machine clear of the entry. Checked the 224 px and 64 px previews and the serialized LODs (910, 466, 289 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_workshop_industrial_v0",
+          "evidence_sha256": "27f43d023cce134f1c591eee467ab389b5f1c76aadabfbed0477b6c488b67cd6",
+          "observations": "The press retains its open spoke wheel with an axle and solid bed in both rows. The short, capped chimney is clearly seated on the workroom and distinct from the press silhouette. Checked the 224 px and 64 px previews and the serialized LODs (1098, 562, 337 triangles). The current surface and orientation checks passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

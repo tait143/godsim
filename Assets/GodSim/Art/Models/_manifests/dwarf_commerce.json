@@ -1,0 +1,708 @@
+[
+ {
+  "id": "bld_dwarf_airport_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "Airport",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1200,
+  "lod_triangles": [
+   1200,
+   744,
+   308
+  ],
+  "bounds": [
+   [
+    -1.3849999904632568,
+    0.0,
+    -1.315999984741211
+   ],
+   [
+    1.3849999904632568,
+    1.659000039100647,
+    1.343999981880188
+   ]
+  ],
+  "bytes": 175932,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_airport_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_airport_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_airport_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_airport_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_bank_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "Bank",
+  "race": "dwarf",
+  "ages": [
+   "renaissance",
+   "medieval"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1204,
+  "lod_triangles": [
+   1204,
+   418,
+   174
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.906000018119812
+   ],
+   [
+    0.9300000071525574,
+    1.5190000534057617,
+    0.8159999847412109
+   ]
+  ],
+  "bytes": 128908,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_bank_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_bank_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_bank_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_bank_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_bank_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "Bank",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1168,
+  "lod_triangles": [
+   1168,
+   450,
+   184
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.906000018119812
+   ],
+   [
+    0.9300000071525574,
+    1.559000015258789,
+    0.8159999847412109
+   ]
+  ],
+  "bytes": 124840,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_bank_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_bank_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_bank_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_bank_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_bank_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "Bank",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1428,
+  "lod_triangles": [
+   1428,
+   526,
+   252
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.906000018119812
+   ],
+   [
+    0.9300000071525574,
+    1.6339999437332153,
+    0.8159999847412109
+   ]
+  ],
+  "bytes": 150824,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_bank_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_bank_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_bank_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_bank_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_guildhall_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "Guildhall",
+  "race": "dwarf",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 938,
+  "lod_triangles": [
+   938,
+   462,
+   198
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.7300000190734863
+   ],
+   [
+    0.9200000166893005,
+    1.3869999647140503,
+    0.8700000047683716
+   ]
+  ],
+  "bytes": 114804,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_guildhall_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "Guildhall",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1030,
+  "lod_triangles": [
+   1030,
+   554,
+   214
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.7300000190734863
+   ],
+   [
+    0.9200000166893005,
+    1.6299999952316284,
+    0.8700000047683716
+   ]
+  ],
+  "bytes": 129828,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_guildhall_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "Guildhall",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1002,
+  "lod_triangles": [
+   1002,
+   526,
+   214
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.7300000190734863
+   ],
+   [
+    0.9200000166893005,
+    1.6019999980926514,
+    0.8700000047683716
+   ]
+  ],
+  "bytes": 124888,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_harbor_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "Harbor",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 833,
+  "lod_triangles": [
+   833,
+   431,
+   247
+  ],
+  "bounds": [
+   [
+    -0.9110000133514404,
+    0.0,
+    -0.8519999980926514
+   ],
+   [
+    0.7490000128746033,
+    1.2829999923706055,
+    0.8880000114440918
+   ]
+  ],
+  "bytes": 116436,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_harbor_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_harbor_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_harbor_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_harbor_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_harbor_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_harbor_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "Harbor",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1061,
+  "lod_triangles": [
+   1061,
+   599,
+   291
+  ],
+  "bounds": [
+   [
+    -0.9110000133514404,
+    0.0,
+    -0.8519999980926514
+   ],
+   [
+    0.7490000128746033,
+    1.2924340963363647,
+    0.8880000114440918
+   ]
+  ],
+  "bytes": 145880,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_harbor_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_harbor_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_harbor_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_harbor_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_harbor_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "Harbor",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1045,
+  "lod_triangles": [
+   1045,
+   535,
+   251
+  ],
+  "bounds": [
+   [
+    -0.9110000133514404,
+    0.0,
+    -0.8519999980926514
+   ],
+   [
+    0.7490000128746033,
+    1.1724340915679932,
+    0.8880000114440918
+   ]
+  ],
+  "bytes": 133452,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_harbor_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_harbor_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_harbor_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_harbor_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_market_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "Market",
+  "race": "dwarf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 858,
+  "lod_triangles": [
+   858,
+   384,
+   196
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8629999756813049
+   ],
+   [
+    0.925000011920929,
+    1.0169999599456787,
+    0.8450000286102295
+   ]
+  ],
+  "bytes": 107148,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_market_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_market_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_market_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_market_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "Market",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 902,
+  "lod_triangles": [
+   902,
+   412,
+   212
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8629999756813049
+   ],
+   [
+    0.925000011920929,
+    1.187000036239624,
+    0.8450000286102295
+   ]
+  ],
+  "bytes": 113920,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_market_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_market_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_market_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_market_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_market_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_market_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "Market",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 874,
+  "lod_triangles": [
+   874,
+   384,
+   212
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8629999756813049
+   ],
+   [
+    0.925000011920929,
+    1.2380000352859497,
+    0.8450000286102295
+   ]
+  ],
+  "bytes": 110752,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_market_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_market_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_market_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_market_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_market_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "Market",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 842,
+  "lod_triangles": [
+   842,
+   368,
+   224
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8629999756813049
+   ],
+   [
+    0.925000011920929,
+    1.0169999599456787,
+    0.8450000286102295
+   ]
+  ],
+  "bytes": 106440,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_market_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_market_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_market_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_market_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_rail_station_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "RailStation",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 676,
+  "lod_triangles": [
+   676,
+   448,
+   188
+  ],
+  "bounds": [
+   [
+    -1.218999981880188,
+    0.0,
+    -1.3899999856948853
+   ],
+   [
+    1.2940000295639038,
+    1.2580000162124634,
+    1.3899999856948853
+   ]
+  ],
+  "bytes": 93500,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_rail_station_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_rail_station_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_rail_station_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_rail_station_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_rail_station_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Commerce",
+  "building_type": "RailStation",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1214,
+  "lod_triangles": [
+   1214,
+   736,
+   281
+  ],
+  "bounds": [
+   [
+    -1.218999981880188,
+    0.0,
+    -1.3899999856948853
+   ],
+   [
+    1.2940000295639038,
+    1.5080000162124634,
+    1.3899999856948853
+   ]
+  ],
+  "bytes": 151288,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_rail_station_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_rail_station_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_rail_station_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_rail_station_industrial_v0__modern.png"
+  }
+ }
+]

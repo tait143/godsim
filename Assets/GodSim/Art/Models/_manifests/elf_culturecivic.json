@@ -1,0 +1,752 @@
+[
+ {
+  "id": "bld_elf_arcology_future_v0",
+  "kind": "townhall",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Arcology",
+  "race": "elf",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 684,
+  "lod_triangles": [
+   684,
+   450,
+   201
+  ],
+  "bounds": [
+   [
+    -1.1328999996185303,
+    0.0,
+    -0.7862618565559387
+   ],
+   [
+    1.145251989364624,
+    3.201200008392334,
+    0.9881801009178162
+   ]
+  ],
+  "bytes": 129744,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_arcology_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_arcology_future_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_arcology_future_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_arena_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Arena",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1086,
+  "lod_triangles": [
+   1086,
+   566,
+   292
+  ],
+  "bounds": [
+   [
+    -1.3236408233642578,
+    0.0,
+    -1.0536398887634277
+   ],
+   [
+    1.3236509561538696,
+    1.6610000133514404,
+    1.335788607597351
+   ]
+  ],
+  "bytes": 166544,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_arena_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_arena_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_arena_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_arena_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_arena_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_arena_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Arena",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1086,
+  "lod_triangles": [
+   1086,
+   566,
+   292
+  ],
+  "bounds": [
+   [
+    -1.3236408233642578,
+    0.0,
+    -1.0536398887634277
+   ],
+   [
+    1.3236509561538696,
+    1.812000036239624,
+    1.335788607597351
+   ]
+  ],
+  "bytes": 166204,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_arena_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_arena_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_arena_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_arena_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_arena_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Arena",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1086,
+  "lod_triangles": [
+   1086,
+   566,
+   292
+  ],
+  "bounds": [
+   [
+    -1.3236408233642578,
+    0.0,
+    -1.0536398887634277
+   ],
+   [
+    1.3236509561538696,
+    1.7365000247955322,
+    1.335788607597351
+   ]
+  ],
+  "bytes": 166276,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_arena_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_arena_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_arena_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_arena_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_campfire_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Campfire",
+  "race": "elf",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 667,
+  "lod_triangles": [
+   667,
+   391,
+   205
+  ],
+  "bounds": [
+   [
+    -0.38186559081077576,
+    0.0,
+    -0.2697634696960449
+   ],
+   [
+    0.3810881972312927,
+    0.4731000065803528,
+    0.3702159523963928
+   ]
+  ],
+  "bytes": 120444,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_campfire_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_campfire_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_campfire_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_campfire_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_campfire_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_campfire_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Campfire",
+  "race": "elf",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 737,
+  "lod_triangles": [
+   737,
+   441,
+   219
+  ],
+  "bounds": [
+   [
+    -0.38186559081077576,
+    0.0,
+    -0.2697634696960449
+   ],
+   [
+    0.3810881972312927,
+    0.48823919892311096,
+    0.40944400429725647
+   ]
+  ],
+  "bytes": 132320,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_campfire_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_campfire_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_campfire_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_forum_classical_v0",
+  "kind": "townhall",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Forum",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 996,
+  "lod_triangles": [
+   996,
+   601,
+   231
+  ],
+  "bounds": [
+   [
+    -1.1759999990463257,
+    0.0,
+    -0.6565999984741211
+   ],
+   [
+    1.1759999990463257,
+    1.1499279737472534,
+    0.728335976600647
+   ]
+  ],
+  "bytes": 181728,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_forum_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_forum_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_forum_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_forum_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_forum_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_forum_future_v0",
+  "kind": "townhall",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Forum",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 996,
+  "lod_triangles": [
+   996,
+   601,
+   231
+  ],
+  "bounds": [
+   [
+    -1.1759999990463257,
+    0.0,
+    -0.6565999984741211
+   ],
+   [
+    1.1759999990463257,
+    1.2985440492630005,
+    0.728335976600647
+   ]
+  ],
+  "bytes": 181836,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_forum_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_forum_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_forum_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_forum_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_forum_industrial_v0",
+  "kind": "townhall",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Forum",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 996,
+  "lod_triangles": [
+   996,
+   601,
+   231
+  ],
+  "bounds": [
+   [
+    -1.1759999990463257,
+    0.0,
+    -0.6565999984741211
+   ],
+   [
+    1.1759999990463257,
+    1.013584017753601,
+    0.728335976600647
+   ]
+  ],
+  "bytes": 181968,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_forum_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_forum_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_forum_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_forum_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_stadium_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Stadium",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1262,
+  "lod_triangles": [
+   1262,
+   718,
+   384
+  ],
+  "bounds": [
+   [
+    -1.3236408233642578,
+    0.0,
+    -0.9877260327339172
+   ],
+   [
+    1.3236509561538696,
+    1.7860280275344849,
+    1.335788607597351
+   ]
+  ],
+  "bytes": 191776,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_stadium_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_stadium_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_stadium_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_stadium_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_stadium_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Stadium",
+  "race": "elf",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1262,
+  "lod_triangles": [
+   1262,
+   718,
+   384
+  ],
+  "bounds": [
+   [
+    -1.3236408233642578,
+    0.0,
+    -0.9877260327339172
+   ],
+   [
+    1.3236509561538696,
+    1.6048280000686646,
+    1.335788607597351
+   ]
+  ],
+  "bytes": 191896,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_stadium_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_stadium_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_stadium_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_tavern_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Tavern",
+  "race": "elf",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1277,
+  "lod_triangles": [
+   1277,
+   810,
+   328
+  ],
+  "bounds": [
+   [
+    -0.952822744846344,
+    0.0,
+    -0.8011429309844971
+   ],
+   [
+    0.7894880175590515,
+    1.4397759437561035,
+    0.7630280256271362
+   ]
+  ],
+  "bytes": 231160,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_tavern_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_tavern_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_tavern_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_tavern_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_tavern_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Tavern",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1277,
+  "lod_triangles": [
+   1277,
+   810,
+   328
+  ],
+  "bounds": [
+   [
+    -0.952822744846344,
+    0.0,
+    -0.8011429309844971
+   ],
+   [
+    0.7894880175590515,
+    1.628119945526123,
+    0.7630280256271362
+   ]
+  ],
+  "bytes": 231472,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_tavern_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_tavern_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_tavern_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_tavern_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_tavern_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Tavern",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1277,
+  "lod_triangles": [
+   1277,
+   810,
+   328
+  ],
+  "bounds": [
+   [
+    -0.952822744846344,
+    0.0,
+    -0.8011429309844971
+   ],
+   [
+    0.7894880175590515,
+    1.265679955482483,
+    0.7630280256271362
+   ]
+  ],
+  "bytes": 231412,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_tavern_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_tavern_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_tavern_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_tavern_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_theater_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Theater",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 857,
+  "lod_triangles": [
+   857,
+   503,
+   260
+  ],
+  "bounds": [
+   [
+    -0.8384925127029419,
+    0.0,
+    -0.5609322190284729
+   ],
+   [
+    0.838611364364624,
+    1.1606816053390503,
+    0.8499537706375122
+   ]
+  ],
+  "bytes": 140548,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_theater_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_theater_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_theater_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_theater_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_theater_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_theater_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Theater",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 857,
+  "lod_triangles": [
+   857,
+   503,
+   260
+  ],
+  "bounds": [
+   [
+    -0.8384925127029419,
+    0.0,
+    -0.5609322190284729
+   ],
+   [
+    0.838611364364624,
+    1.36868155002594,
+    0.8499537706375122
+   ]
+  ],
+  "bytes": 140460,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_theater_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_theater_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_theater_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_theater_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_theater_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/CultureCivic",
+  "building_type": "Theater",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 857,
+  "lod_triangles": [
+   857,
+   503,
+   260
+  ],
+  "bounds": [
+   [
+    -0.8384925127029419,
+    0.0,
+    -0.5609322190284729
+   ],
+   [
+    0.838611364364624,
+    1.2646815776824951,
+    0.8499537706375122
+   ]
+  ],
+  "bytes": 140472,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/CultureCivic/bld_elf_theater_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_theater_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_theater_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/CultureCivic/bld_elf_theater_industrial_v0__modern.png"
+  }
+ }
+]

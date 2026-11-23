@@ -1,0 +1,734 @@
+{
+  "package": "elf_industry",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "industry_critic, independent Codex visual and geometry review",
+      "models": [
+        {
+          "id": "bld_elf_armory_ancient_v0",
+          "evidence_sha256": "97e8504147841605d861b03af354e3e802e4adfab3935318278c496acea0214f",
+          "observations": "The two leafy vaults flank a legible shield rail in Iron. The green fields and gold bosses read clearly against the stone. Reviewed 1 age preview at 224 and 64 px. Serialized LOD counts 1186/628/224 passed package validation.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 95
+          },
+          "defects": [
+            "Seat both rack uprights on ground. Their lower caps clear y=0 by about .008 tile. Give the three free-standing shields a back and thin rim so they remain visible when viewed from behind."
+          ]
+        },
+        {
+          "id": "bld_elf_armory_classical_v0",
+          "evidence_sha256": "a5c3e853624c7454c0197263acbe8ee50f92b540ae92f8478abaa7b3677412ba",
+          "observations": "Marble, dark half-timber and the warm Renaissance palette all preserve the three-shield display. The high and low leaf gables retain their profile at 64 px. Reviewed 3 age previews at 224 and 64 px. Serialized LOD counts 1186/628/224 passed package validation.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 95
+          },
+          "defects": [
+            "Seat both rack uprights on ground. Their lower caps clear y=0 by about .008 tile. Give the three free-standing shields a back and thin rim so they remain visible when viewed from behind."
+          ]
+        },
+        {
+          "id": "bld_elf_armory_future_v0",
+          "evidence_sha256": "5a896b130f62d938e6f253cb5b28c2554c1245dcf713284f7d7369257daa477d",
+          "observations": "The blue-tipped silo and taller vault complement the metal bucklers in Information. The warm roof and gold silo provide a clear Ascension change. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 1348/698/253 passed package validation.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 95
+          },
+          "defects": [
+            "Seat both rack uprights on ground. Their lower caps clear y=0 by about .008 tile. Give the three free-standing shields a back and thin rim so they remain visible when viewed from behind."
+          ]
+        },
+        {
+          "id": "bld_elf_armory_industrial_v0",
+          "evidence_sha256": "93db1454dc3aa8fb71f9a19acb5dc5b09d1f3c0ff7c2c5d6654b8df2aaea3b79",
+          "observations": "Brick gives way to pale panels in Modern while the three shields remain visible against the lower entrance. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 1348/698/253 passed package validation.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 86,
+            "charm": 93,
+            "colour": 91,
+            "technical": 95
+          },
+          "defects": [
+            "Seat both rack uprights on ground. Their lower caps clear y=0 by about .008 tile. Give the three free-standing shields a back and thin rim so they remain visible when viewed from behind."
+          ]
+        },
+        {
+          "id": "bld_elf_blacksmith_ancient_v0",
+          "evidence_sha256": "ea7eeaf2508fe47b3a4f95b2bab03cdb95889c334dcce089b1b92eca16fb2d6e",
+          "observations": "The horned anvil, hammer, ingot stack and orange hearth identify the smith even at phone size. Stone and ochre separate Iron and Bronze. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 1034/582/250 passed package validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 91,
+            "charm": 94,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Recess the chimney throat below the lowest scallop at every LOD. The dark floor currently sits at .940\u2013.941 of stack height, above inner lip vertices at .922\u2013.932. Keep the inner wall running continuously down into the throat and clear the neck cap."
+          ]
+        },
+        {
+          "id": "bld_elf_blacksmith_classical_v0",
+          "evidence_sha256": "db2f4a2911973162d473d09ed20214f0db1cdb51097e90d624a3772db199531a",
+          "observations": "The vessel neck rises above the leaf hall in all three ages. The dark anvil keeps its outline in Medieval, while the Classical and Renaissance versions use brass tones. Reviewed 3 age previews at 224 and 64 px. Serialized LOD counts 1034/582/250 passed package validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 91,
+            "charm": 94,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "Recess the chimney throat below the lowest scallop at every LOD. The dark floor currently sits at .940\u2013.941 of stack height, above inner lip vertices at .922\u2013.932. Keep the inner wall running continuously down into the throat and clear the neck cap."
+          ]
+        },
+        {
+          "id": "bld_elf_blacksmith_future_v0",
+          "evidence_sha256": "2a17769ff0d4dbc7029213007a0bfc88dacec0866a947672102edcb87952820e",
+          "observations": "The crank wheel and long anvil stand clear of the pale furnace. The gold cowl and dark eaves separate the Ascension materials well. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 1246/734/342 passed package validation.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 91,
+            "charm": 93,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "Recess the chimney throat below the lowest scallop at every LOD. The dark floor currently sits at .940\u2013.941 of stack height, above inner lip vertices at .922\u2013.932. Keep the inner wall running continuously down into the throat and clear the neck cap."
+          ]
+        },
+        {
+          "id": "bld_elf_blacksmith_industrial_v0",
+          "evidence_sha256": "b1962850d769d3e06cdd0e7c34a3c965635472a11e5a1ebf2d84b9aa879bee18",
+          "observations": "The wheel and the hearth opening survive downsampling. Sooty brick, pale Modern walls and the elven roof silhouette give the yard a recognizable trade identity. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 1246/734/342 passed package validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 91,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Recess the chimney throat below the lowest scallop at every LOD. The dark floor currently sits at .940\u2013.941 of stack height, above inner lip vertices at .922\u2013.932. Keep the inner wall running continuously down into the throat and clear the neck cap."
+          ]
+        },
+        {
+          "id": "bld_elf_electronics_plant_future_v0",
+          "evidence_sha256": "a2b5dca5cdf15954d722989d4f4054be9b3d9c2a6ec880aa5a039c5beca43176",
+          "observations": "The three fin towers, leaf cottage and broad glazed cleanroom form a distinctive assembly. The horizontal bands break into intermittent tick marks in Modern, Information and Ascension. Reviewed 3 age previews at 224 and 64 px. Serialized LOD counts 1074/546/201 passed package validation.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 87,
+            "charm": 91,
+            "colour": 87,
+            "technical": 97
+          },
+          "defects": [
+            "Fit the three horizontal metal bands entirely around the exterior of the tapered glass drum. Match the polygonal drum slope and facet count so the band edges stay continuously proud and visible."
+          ]
+        },
+        {
+          "id": "bld_elf_factory_future_v0",
+          "evidence_sha256": "f9a5eedb5814cf1f496acd79ea97c699c2e07ba7b0ab10639b2d884d561c5922",
+          "observations": "Three leaf monitors, two flues and a continuous light-coloured drum make the plant recognizable. Only a tiny blue fragment of its future collector survives the roofline. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 798/392/186 passed package validation.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 87,
+            "construction": 90,
+            "charm": 89,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Lift or rotate the future glass collector out of the third roof and seat it on a visible stem. The buried blade leaves a blue fragment and provides no legible future-era profile."
+          ]
+        },
+        {
+          "id": "bld_elf_factory_industrial_v0",
+          "evidence_sha256": "d6185bc6caf6049ef16e7c7a9fda4a7c87f1eee0015439b2c81fcdb4ca8a89cb",
+          "observations": "The three parallel green monitor roofs, blue clerestories and paired flues identify a factory at 64 px. The arched entry and bent service pipe add scale, and the Modern base changes from brick to pale panels. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 774/384/178 passed package validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_foundry_future_v0",
+          "evidence_sha256": "51a10879be9da58e5c2967c6b58fa9fdfaf4b1f72f72e204ccc21cf45b6d8c5d",
+          "observations": "The high-low furnace pair, orange ladle, gold trunnions and attached leaf hall read at both sizes. The suspension yoke visibly meets the ladle. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 1492/910/390 passed package validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 86,
+            "charm": 93,
+            "colour": 94,
+            "technical": 95
+          },
+          "defects": [
+            "Recess the chimney throat below the lowest scallop at every LOD. The dark floor currently sits at .940\u2013.941 of stack height, above inner lip vertices at .922\u2013.932. Keep the inner wall running continuously down into the throat and clear the neck cap.",
+            "Bring the two free-standing ladle gantry posts from y=.012 to ground level, keeping the lower caps flat."
+          ]
+        },
+        {
+          "id": "bld_elf_foundry_industrial_v0",
+          "evidence_sha256": "bd3ae0000a484a6e0cc7a8b6be5bc9c836c14d85db554a1ce0ef4571fca2cbed",
+          "observations": "Two brick-bodied kilns and a suspended teeming ladle give the industrial version a credible production line. The Modern row lightens the furnace bodies while retaining the glow. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 1492/910/390 passed package validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 86,
+            "charm": 94,
+            "colour": 94,
+            "technical": 95
+          },
+          "defects": [
+            "Recess the chimney throat below the lowest scallop at every LOD. The dark floor currently sits at .940\u2013.941 of stack height, above inner lip vertices at .922\u2013.932. Keep the inner wall running continuously down into the throat and clear the neck cap.",
+            "Bring the two free-standing ladle gantry posts from y=.012 to ground level, keeping the lower caps flat."
+          ]
+        },
+        {
+          "id": "bld_elf_smelter_ancient_v0",
+          "evidence_sha256": "69722289febc976f5a5f238f14677812e78bd48f37b047a5fa8c47db9e964fbc",
+          "observations": "The rising chimney and bright casting basin distinguish this from a smithy. A pouring stream, cast ingots and rear leaf canopy remain legible in both early-age rows. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 1112/658/251 passed package validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "Recess the chimney throat below the lowest scallop at every LOD. The dark floor currently sits at .940\u2013.941 of stack height, above inner lip vertices at .922\u2013.932. Keep the inner wall running continuously down into the throat and clear the neck cap."
+          ]
+        },
+        {
+          "id": "bld_elf_smelter_classical_v0",
+          "evidence_sha256": "a3b092c9ed78748fc6eff948a61d8939d92d2dbac263bbda1f45caaa581bed27",
+          "observations": "The spout connects furnace and basin, and the ingots beside them reinforce the purpose. Dark receptive metal and bright molten metal contrast especially well in Medieval. Reviewed 3 age previews at 224 and 64 px. Serialized LOD counts 1112/658/251 passed package validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 92,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Recess the chimney throat below the lowest scallop at every LOD. The dark floor currently sits at .940\u2013.941 of stack height, above inner lip vertices at .922\u2013.932. Keep the inner wall running continuously down into the throat and clear the neck cap."
+          ]
+        },
+        {
+          "id": "bld_elf_smelter_future_v0",
+          "evidence_sha256": "873e05219ff7eff3cae54af78a2d97a2146f1a0463a0e48bc11df91186e77488",
+          "observations": "An auxiliary vessel and elbow feed complete the pale smelting line. The gold trim and glowing orange basin preserve contrast against the white Ascension body. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 1202/714/286 passed package validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 92,
+            "charm": 92,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Recess the chimney throat below the lowest scallop at every LOD. The dark floor currently sits at .940\u2013.941 of stack height, above inner lip vertices at .922\u2013.932. Keep the inner wall running continuously down into the throat and clear the neck cap."
+          ]
+        },
+        {
+          "id": "bld_elf_smelter_industrial_v0",
+          "evidence_sha256": "ba75b80abf512847ac28c03c6556bfc9840ae8ec3568f326b304c7637bca395d",
+          "observations": "The tall brick furnace anchors the yard, and the pipe-fed tank gives it a second recognizable silhouette. Modern metal, stone and hot-metal surfaces remain individually readable. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 1178/706/278 passed package validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 92,
+            "charm": 92,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Recess the chimney throat below the lowest scallop at every LOD. The dark floor currently sits at .940\u2013.941 of stack height, above inner lip vertices at .922\u2013.932. Keep the inner wall running continuously down into the throat and clear the neck cap."
+          ]
+        },
+        {
+          "id": "bld_elf_weaver_ancient_v0",
+          "evidence_sha256": "668fa677b2720b2ace27d5eacd2a1f17e1b38429e90f5e1257cf7e21e4fc0c1c",
+          "observations": "The hanging green cloth reads as weaving even at 64 px. A yarn spindle and basket of red fibre distinguish the earlier working method. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 879/523/207 passed package validation.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 86,
+            "charm": 94,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Seat both loom uprights on vertical feet at y=0. The lower caps currently clear the ground by about .010 tile."
+          ]
+        },
+        {
+          "id": "bld_elf_weaver_classical_v0",
+          "evidence_sha256": "bbfbe3f07456796b16030f3d70a1ddd052c66d343464e34e5c189318691b04c1",
+          "observations": "The spoked winding wheel, striped cloth, shuttle and pointed fringe stay visible across the three classical-era rows. The Classical cloth stripe turns blue. Reviewed 3 age previews at 224 and 64 px. Serialized LOD counts 1009/617/262 passed package validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 86,
+            "charm": 94,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Seat both loom uprights on vertical feet at y=0. The lower caps currently clear the ground by about .010 tile.",
+            "Ground the later winding-wheel stand. Its lower cap sits about .018 tile above the ground."
+          ]
+        },
+        {
+          "id": "bld_elf_weaver_future_v0",
+          "evidence_sha256": "c382c75d4bc90bf88177b00495bfb980f9e8a1048c60861174f2e7b7b058b688",
+          "observations": "Cyan cloth and a pale winding wheel contrast with the dark elven roof. The Ascension roof and wheel pick up gold while the foreground work remains green. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 1033/625/270 passed package validation.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 86,
+            "charm": 94,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Seat both loom uprights on vertical feet at y=0. The lower caps currently clear the ground by about .010 tile.",
+            "Ground the later winding-wheel stand. Its lower cap sits about .018 tile above the ground."
+          ]
+        },
+        {
+          "id": "bld_elf_weaver_industrial_v0",
+          "evidence_sha256": "3ebefbbaccd1aa7f91ea3a894ff16854d00e1f30a0a0fd614731eb6cd6ed0f11",
+          "observations": "The loom is framed by its wheel and dye basket. Dark brick in Industrial and pale wall panels in Modern keep the working props visible. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 1009/617/262 passed package validation.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 86,
+            "charm": 94,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat both loom uprights on vertical feet at y=0. The lower caps currently clear the ground by about .010 tile.",
+            "Ground the later winding-wheel stand. Its lower cap sits about .018 tile above the ground."
+          ]
+        },
+        {
+          "id": "bld_elf_workshop_classical_v0",
+          "evidence_sha256": "2b3f01a4389f2809ea8110e81353a8267d37b0b93b65d0f3f4c282ef39973645",
+          "observations": "The large workshop wheel, suspended cable and oval workbench retain their working arrangement in all three rows. The sample on the bench and parts pot reward a closer look. Reviewed 3 age previews at 224 and 64 px. Serialized LOD counts 1064/638/251 passed package validation.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 86,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Add flat, grounded feet to the capstan axle post and the curved lifting arm. Their lowest surfaces sit about .016 and .012 tile above ground."
+          ]
+        },
+        {
+          "id": "bld_elf_workshop_industrial_v0",
+          "evidence_sha256": "2499ce64b87f4c2c8fcd9f97d5b90ac47585c6eedfe3102afb466deecda6b9ac",
+          "observations": "The added flue is visible above the roof in Industrial and Modern. The wheel and suspended line distinguish the workshop from the blacksmith yard. Reviewed 2 age previews at 224 and 64 px. Serialized LOD counts 1132/682/277 passed package validation.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 86,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Add flat, grounded feet to the capstan axle post and the curved lifting arm. Their lowest surfaces sit about .016 and .012 tile above ground."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "industry_critic, independent Codex visual and geometry review",
+      "models": [
+        {
+          "id": "bld_elf_armory_ancient_v0",
+          "evidence_sha256": "9329a6a71922227240617164cfb75531fa658095412df497eec137fff5f51239",
+          "observations": "The two leafy vaults flank a legible shield rail in Iron. Both upright feet are flush with the ground, and the buckler mesh has an outward-facing leather back and a closed edge. The front faces remain easy to read at 64 px. Examined 1 age preview at 224 and 64 px. LODs contain 1276/714/302 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_armory_classical_v0",
+          "evidence_sha256": "bf81fa953982796c63dcb2cef933b776a5d103a867eeb770b27ac50a24595539",
+          "observations": "Marble, dark half-timber and the warm Renaissance palette all preserve the three-shield display. Both upright feet are flush with the ground, and the buckler mesh has an outward-facing leather back and a closed edge. The front faces remain easy to read at 64 px. Examined 3 age previews at 224 and 64 px. LODs contain 1276/714/302 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_armory_future_v0",
+          "evidence_sha256": "c4b1d7389c54271897664f5504665c6f2e9a6db292900f475fa75d855ccf68ad",
+          "observations": "The blue-tipped silo and taller vault complement the metal bucklers in Information. Both upright feet are flush with the ground, and the buckler mesh has an outward-facing leather back and a closed edge. The front faces remain easy to read at 64 px. Examined 2 age previews at 224 and 64 px. LODs contain 1438/784/331 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_armory_industrial_v0",
+          "evidence_sha256": "93bdf4d5e8bd1715a7a5e285ffd4a52602a0a9f0a3866a02420f1d092e672f9f",
+          "observations": "Brick gives way to pale panels in Modern while the three shields remain visible against the lower entrance.. Both upright feet are flush with the ground, and the buckler mesh has an outward-facing leather back and a closed edge. The front faces remain easy to read at 64 px. Examined 2 age previews at 224 and 64 px. LODs contain 1438/784/331 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_blacksmith_ancient_v0",
+          "evidence_sha256": "2b58688162ab588f2a7a37e7e2966c885492d1897a8dd632ebe0bb75d4929757",
+          "observations": "The horned anvil, hammer, ingot stack and orange hearth identify the smith even at phone size. A clean dark opening is visible above the anvil and the orange hearth. The throat floor sits at .941 of stack height, below the lip minimum of .965 or higher at every LOD. Examined 2 age previews at 224 and 64 px. LODs contain 1034/582/250 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_blacksmith_classical_v0",
+          "evidence_sha256": "fb393df8cc7c34af5f56e7c62b4a97c560b9377ee2987da64b4bb5b1e11e08d2",
+          "observations": "The vessel neck rises above the leaf hall in all three ages. A clean dark opening is visible above the anvil and the orange hearth. The throat floor sits at .941 of stack height, below the lip minimum of .965 or higher at every LOD. Examined 3 age previews at 224 and 64 px. LODs contain 1034/582/250 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_blacksmith_future_v0",
+          "evidence_sha256": "353f9f3cdcd72ccc620aed87abc75c28e2da0eae0b84df2076c5b56993da2710",
+          "observations": "The crank wheel and long anvil stand clear of the pale furnace. A clean dark opening is visible above the anvil and the orange hearth. The throat floor sits at .941 of stack height, below the lip minimum of .965 or higher at every LOD. Examined 2 age previews at 224 and 64 px. LODs contain 1246/734/342 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_blacksmith_industrial_v0",
+          "evidence_sha256": "70b0db0af6ac494157658a8d013c74ed1a2ac5aa74a733841ba6fe7f8296f38d",
+          "observations": "The wheel and the hearth opening survive downsampling. A clean dark opening is visible above the anvil and the orange hearth. The throat floor sits at .941 of stack height, below the lip minimum of .965 or higher at every LOD. Examined 2 age previews at 224 and 64 px. LODs contain 1246/734/342 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_electronics_plant_future_v0",
+          "evidence_sha256": "20b1554ab58a3dd8f90a7d173365e0a1f545b46d11505001eeae97a1b4796927",
+          "observations": "The three fin towers, leaf cottage and broad glazed cleanroom form a distinctive assembly. The glass drum now alternates with three continuous, polygon-matched bands. Their widths and material transitions remain legible in all three age rows, with the cooling fins clear of the surface. Examined 3 age previews at 224 and 64 px. LODs contain 1176/612/201 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_factory_future_v0",
+          "evidence_sha256": "452370f5c62ff790bd9db3e23d9191f7cafb5a17c5c60eaa92e91d8f020183e4",
+          "observations": "Three leaf monitors, two flues and a continuous light-coloured drum make the plant recognizable. The supported glass collector projects above the monitor roof. Its forked silhouette and blue blade distinguish this factory from the earlier triple-monitor design at 64 px. Examined 2 age previews at 224 and 64 px. LODs contain 830/418/200 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_foundry_future_v0",
+          "evidence_sha256": "657fd762cd16174ae28a6be312e051e4a5d5f1e48d4a05b1b884e31d375cb2b3",
+          "observations": "The high-low furnace pair, orange ladle, gold trunnions and attached leaf hall read at both sizes. Both gantry uprights reach the tile plane. The elevated ladle remains attached at its trunnions, and each of the two stacks now has a consistently recessed dark opening. Examined 2 age previews at 224 and 64 px. LODs contain 1492/910/390 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_foundry_industrial_v0",
+          "evidence_sha256": "78b6751efe852fc875d9438759e0720fd2c8848b0c1b4549db556b230c79a386",
+          "observations": "Two brick-bodied kilns and a suspended teeming ladle give the industrial version a credible production line. Both gantry uprights reach the tile plane. The elevated ladle remains attached at its trunnions, and each of the two stacks now has a consistently recessed dark opening. Examined 2 age previews at 224 and 64 px. LODs contain 1492/910/390 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_smelter_ancient_v0",
+          "evidence_sha256": "27be393391d1205d713d51febc235d92bb50c2100c9b61a90dacac8cd396f28f",
+          "observations": "The rising chimney and bright casting basin distinguish this from a smithy. The mouth has a raised, continuous rim around the recessed dark floor at all LODs. The pour stream and orange casting basin remain distinct from the furnace itself. Examined 2 age previews at 224 and 64 px. LODs contain 1112/658/251 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_smelter_classical_v0",
+          "evidence_sha256": "cbcb1239b0d9693f80b4aa91e4c878c4419f1902f127ccc2082a867961db1892",
+          "observations": "The spout connects furnace and basin, and the ingots beside them reinforce the purpose. The mouth has a raised, continuous rim around the recessed dark floor at all LODs. The pour stream and orange casting basin remain distinct from the furnace itself. Examined 3 age previews at 224 and 64 px. LODs contain 1112/658/251 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_smelter_future_v0",
+          "evidence_sha256": "e979d2fc413cd444656e7d31e335462b62df9ebb613ffd279b4fb5690ef7e946",
+          "observations": "An auxiliary vessel and elbow feed complete the pale smelting line. The mouth has a raised, continuous rim around the recessed dark floor at all LODs. The pour stream and orange casting basin remain distinct from the furnace itself. Examined 2 age previews at 224 and 64 px. LODs contain 1202/714/286 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_smelter_industrial_v0",
+          "evidence_sha256": "740891629cebe1d01e93f2b3934a479be223836a45d043ba1202c6359f49e914",
+          "observations": "The tall brick furnace anchors the yard, and the pipe-fed tank gives it a second recognizable silhouette. The mouth has a raised, continuous rim around the recessed dark floor at all LODs. The pour stream and orange casting basin remain distinct from the furnace itself. Examined 2 age previews at 224 and 64 px. LODs contain 1178/706/278 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_weaver_ancient_v0",
+          "evidence_sha256": "e50f611a7318e2233e33f60d6d538f6d4e117eea8aef4dab301b6ab307ac1a6a",
+          "observations": "The hanging green cloth reads as weaving even at 64 px. The loom now has two flat ground-contact caps and stable upright feet. The striped cloth and hanging fringe remain clear in the small preview. Examined 2 age previews at 224 and 64 px. LODs contain 903/543/219 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_weaver_classical_v0",
+          "evidence_sha256": "7fb0d54b30d7905660914ebe19abc7e1f91c056ea77f0fe6caebe00a295a0ece",
+          "observations": "The spoked winding wheel, striped cloth, shuttle and pointed fringe stay visible across the three classical-era rows. The loom now has two flat ground-contact caps and stable upright feet. The striped cloth and hanging fringe remain clear in the small preview. The winding-wheel stand also reaches the ground. Examined 3 age previews at 224 and 64 px. LODs contain 1045/647/280 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_weaver_future_v0",
+          "evidence_sha256": "375919182d0b04c8200076e2bf533f443e71c177c16b861fd7e1ead31b339bab",
+          "observations": "Cyan cloth and a pale winding wheel contrast with the dark elven roof. The loom now has two flat ground-contact caps and stable upright feet. The striped cloth and hanging fringe remain clear in the small preview. The winding-wheel stand also reaches the ground. Examined 2 age previews at 224 and 64 px. LODs contain 1069/655/288 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_weaver_industrial_v0",
+          "evidence_sha256": "4adae2cabc5c01d3d71055a040472b1cf5ee5f168970d97675427d849637b12c",
+          "observations": "The loom is framed by its wheel and dye basket. The loom now has two flat ground-contact caps and stable upright feet. The striped cloth and hanging fringe remain clear in the small preview. The winding-wheel stand also reaches the ground. Examined 2 age previews at 224 and 64 px. LODs contain 1045/647/280 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_workshop_classical_v0",
+          "evidence_sha256": "26f5ea88f992d5bcbfc1c1227c7687a0337f99d5a648c14445e8625cdf1d465e",
+          "observations": "The large workshop wheel, suspended cable and oval workbench retain their working arrangement in all three rows. The two wheel and lifting-arm feet now reach the ground. Their overlapping bottom caps introduce exposed coplanar faces in all three serialized LODs. Examined 3 age previews at 224 and 64 px. LODs contain 1088/658/263 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Separate the timber axle-post foot from the trim lifting-arm foot or mount them on one plinth with staggered inset bases. The validator finds 8 exposed coplanar pairs at LOD0, 6 at LOD1 and 1 at LOD2, all on the y=0 ground plane."
+          ]
+        },
+        {
+          "id": "bld_elf_workshop_industrial_v0",
+          "evidence_sha256": "d3e3e533edf44fcaaf0ffd75dae7f56b29b13b81571760b56fa67c9ff83b91ee",
+          "observations": "The added flue is visible above the roof in Industrial and Modern. The two wheel and lifting-arm feet now reach the ground. Their overlapping bottom caps introduce exposed coplanar faces in all three serialized LODs. Examined 2 age previews at 224 and 64 px. LODs contain 1156/702/289 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Separate the timber axle-post foot from the trim lifting-arm foot or mount them on one plinth with staggered inset bases. The validator finds 8 exposed coplanar pairs at LOD0, 6 at LOD1 and 1 at LOD2, all on the y=0 ground plane."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "industry_critic, independent Codex visual and geometry review",
+      "models": [
+        {
+          "id": "bld_elf_workshop_classical_v0",
+          "evidence_sha256": "c98d75379de3efbe8ebb5835fec9fb22af7f93f921927421ea9fb46df3433d2f",
+          "observations": "The offset timber wheel post reaches ground in front of the separate lifting-arm foot. The gear, rope and workbench retain their outline across Classical, Medieval and Renaissance. Reviewed all three previews at 224 and 64 px. LOD0/1/2 contain 1088/658/263 triangles. The direct exposed-coplanar test found zero pairs at all three levels, and the package orientation check passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_workshop_industrial_v0",
+          "evidence_sha256": "b144dc493acb8e091116abbde37f77900f6bafbc18dc8e8ab2d6973102947a64",
+          "observations": "The wheel post and the lifting-arm foot stand separately on the tile below the brick or pale Modern hall. The flue clears the leaf roof and the small parts pot remains readable in both previews at 224 and 64 px. LOD0/1/2 contain 1156/702/289 triangles. The direct exposed-coplanar test found zero pairs at all three levels, and the package orientation check passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

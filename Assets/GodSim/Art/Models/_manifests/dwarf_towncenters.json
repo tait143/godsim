@@ -1,0 +1,422 @@
+[
+ {
+  "id": "bld_dwarf_town_center_ancient_bronze_v0",
+  "kind": "townhall",
+  "category": "Buildings/Dwarf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "dwarf",
+  "ages": [
+   "bronze"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1058,
+  "lod_triangles": [
+   1058,
+   650,
+   218
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.9300000071525574,
+    1.312999963760376,
+    0.7749999761581421
+   ]
+  ],
+  "bytes": 145132,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_ancient_bronze_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_ancient_bronze_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_ancient_bronze_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_town_center_ancient_iron_v0",
+  "kind": "townhall",
+  "category": "Buildings/Dwarf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "dwarf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 968,
+  "lod_triangles": [
+   968,
+   592,
+   160
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.9300000071525574,
+    1.1460000276565552,
+    0.7749999761581421
+   ]
+  ],
+  "bytes": 126992,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_ancient_iron_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_ancient_iron_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_ancient_iron_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_town_center_ancient_v0",
+  "kind": "townhall",
+  "category": "Buildings/Dwarf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "dwarf",
+  "ages": [
+   "dawn"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 944,
+  "lod_triangles": [
+   944,
+   568,
+   188
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.9300000071525574,
+    0.9054999947547913,
+    0.7749999761581421
+   ]
+  ],
+  "bytes": 125136,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_town_center_classical_medieval_v0",
+  "kind": "townhall",
+  "category": "Buildings/Dwarf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "dwarf",
+  "ages": [
+   "medieval"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1286,
+  "lod_triangles": [
+   1286,
+   814,
+   342
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.9300000071525574,
+    1.277999997138977,
+    0.7749999761581421
+   ]
+  ],
+  "bytes": 175824,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_classical_medieval_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_classical_medieval_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_classical_medieval_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_town_center_classical_renaissance_v0",
+  "kind": "townhall",
+  "category": "Buildings/Dwarf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "dwarf",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1062,
+  "lod_triangles": [
+   1062,
+   606,
+   169
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.9300000071525574,
+    1.3420000076293945,
+    0.7749999761581421
+   ]
+  ],
+  "bytes": 141772,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_classical_renaissance_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_classical_renaissance_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_classical_renaissance_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_town_center_classical_v0",
+  "kind": "townhall",
+  "category": "Buildings/Dwarf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "dwarf",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1056,
+  "lod_triangles": [
+   1056,
+   632,
+   200
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.9300000071525574,
+    1.2410000562667847,
+    0.7749999761581421
+   ]
+  ],
+  "bytes": 142660,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_town_center_future_ascension_v0",
+  "kind": "townhall",
+  "category": "Buildings/Dwarf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "dwarf",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1156,
+  "lod_triangles": [
+   1156,
+   736,
+   287
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.9300000071525574,
+    1.5010000467300415,
+    0.7749999761581421
+   ]
+  ],
+  "bytes": 159304,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_future_ascension_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_future_ascension_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_future_ascension_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_town_center_future_v0",
+  "kind": "townhall",
+  "category": "Buildings/Dwarf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "dwarf",
+  "ages": [
+   "information"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1046,
+  "lod_triangles": [
+   1046,
+   670,
+   198
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.9300000071525574,
+    1.4609999656677246,
+    0.7749999761581421
+   ]
+  ],
+  "bytes": 141660,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_future_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_town_center_industrial_modern_v0",
+  "kind": "townhall",
+  "category": "Buildings/Dwarf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "dwarf",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1094,
+  "lod_triangles": [
+   1094,
+   690,
+   237
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.9300000071525574,
+    1.2990000247955322,
+    0.7749999761581421
+   ]
+  ],
+  "bytes": 146000,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_industrial_modern_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_industrial_modern_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_industrial_modern_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_town_center_industrial_v0",
+  "kind": "townhall",
+  "category": "Buildings/Dwarf/TownCenters",
+  "building_type": "TownCenter",
+  "race": "dwarf",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1252,
+  "lod_triangles": [
+   1252,
+   700,
+   238
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.9700000286102295
+   ],
+   [
+    0.9300000071525574,
+    1.315999984741211,
+    0.7749999761581421
+   ]
+  ],
+  "bytes": 158488,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_industrial_v0.png"
+  }
+ }
+]

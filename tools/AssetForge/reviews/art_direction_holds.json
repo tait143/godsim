@@ -1,0 +1,46 @@
+[
+  {
+    "finding": "At 64 pixels the Dwarf coal and gold operations use the generic Mine silhouette. Coal needs bulk storage and gold needs ore-sorting or washing terraces.",
+    "models": [
+      "bld_dwarf_coal_mine_industrial_v0",
+      "bld_dwarf_coal_mine_future_v0",
+      "bld_dwarf_gold_mine_ancient_v0",
+      "bld_dwarf_gold_mine_classical_v0",
+      "bld_dwarf_gold_mine_industrial_v0",
+      "bld_dwarf_gold_mine_future_v0"
+    ],
+    "status": "closed"
+  },
+  {
+    "finding": "The Elf, Dwarf and Orc MedicalCenter read like their Hospital at phone scale. Add a dominant clinical wing, emergency entrance or ward tower.",
+    "models": ["bld_elf_medical_center_future_v0","bld_dwarf_medical_center_future_v0","bld_orc_medical_center_future_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "Dwarf and Orc IndustrialFarm read like conventional Farms in each matching age. Give the mechanised farm its own dominant growing or harvesting structure.",
+    "models": ["bld_dwarf_industrial_farm_industrial_v0","bld_dwarf_industrial_farm_future_v0","bld_orc_industrial_farm_industrial_v0","bld_orc_industrial_farm_future_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "The early Orc Storehouse needs a visibly different dominant surface across Dawn, Bronze and Iron.",
+    "models": ["bld_orc_storehouse_ancient_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "The Human, Elf, Dwarf and Saurian HydroponicsTower need visibly different large surfaces between Information and Ascension.",
+    "models": ["bld_human_hydroponics_tower_future_v0","bld_elf_hydroponics_tower_future_v0","bld_dwarf_hydroponics_tower_future_v0","bld_saurian_hydroponics_tower_future_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "The dominant structures or yards on these models remain too alike in adjacent early or late ages at phone size. Preserve the activity and change a broad architectural or paved surface in each age row.",
+    "models": [
+      "bld_orc_pasture_ancient_v0","bld_saurian_farm_ancient_v0","bld_human_farm_ancient_v0",
+      "bld_saurian_woodcutter_camp_ancient_v0","bld_elf_farm_ancient_v0","bld_saurian_fishing_hut_ancient_v0",
+      "bld_saurian_pasture_ancient_v0","bld_elf_pasture_ancient_v0","bld_elf_palisade_ancient_v0",
+      "bld_orc_palisade_ancient_v0","bld_saurian_stone_quarry_ancient_v0","bld_elf_spirit_totem_ancient_v0",
+      "bld_saurian_hunting_lodge_ancient_v0","bld_saurian_gatherer_hut_ancient_v0",
+      "bld_elf_aqueduct_future_v0","bld_orc_fishing_hut_future_v0"
+    ],
+    "status": "closed"
+  }
+]

@@ -1,0 +1,322 @@
+{
+  "package": "dwarf_commerce",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Builder session 6 independent CultureCivic artist (/root/culture)",
+      "models": [
+        {
+          "id": "bld_dwarf_airport_future_v0",
+          "evidence_sha256": "a7f0c422b9a03393b7ee7602a3ebb19f1644a6766765843056a5ecbad704dddd",
+          "observations": "The swept courier and octagonal control lantern separate the apron from the terminal at 64 px. The supported boarding bridge and twin rooftop vents reward the larger view. The apron and tower cap shift from blue-black to warm gold. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_bank_classical_v0",
+          "evidence_sha256": "77aba92cf44b7d7072ba5538054352ca5748e5cc02787308d6a38c52183396c8",
+          "observations": "The broad coin vault, clipped stone abutments and small lamps survive the small view. The dark Medieval roof and terracotta Renaissance dome are easy to distinguish. Stairs meet the vault sill. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_bank_future_v0",
+          "evidence_sha256": "49e6ab30702e29757c6996f0b1a05609a9187d4c3e0142cf91ef70bee93883a0",
+          "observations": "The vault remains the public face beneath stepped glass stories. The rivet circle and diamond lock are legible at the published size. Gold replaces charcoal across the Ascension roof. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_bank_industrial_v0",
+          "evidence_sha256": "8884f63913d96775af12de39374613d206706ccbcb24e5919593d3f98411462b",
+          "observations": "Twin brick vents, a low metal roof and the brass vault define the bank from above. The brick counting room becomes grey concrete in Modern. The deep front buttresses visibly carry the cornice. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_guildhall_classical_v0",
+          "evidence_sha256": "c60e8276cd2eb71c37c2a0e588c5b2c40b9c38defdd3ec1f51a37e533e3c79ee",
+          "observations": "The two side roofs frame the raised guild chamber and crossed-hammer seal. Short standards and warm entrance lamps flank the door. The shift from dark Medieval timber to Renaissance tile reads at phone size. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_guildhall_future_v0",
+          "evidence_sha256": "a74c6814015184b0f0ae73b2a0730970125fca26ebce6ae991688f34846c2e17",
+          "observations": "The stacked glass chamber preserves the hammered charter seal and side pavilions. Its bright gold Ascension roofline separates it from the darker Information hall. The lanterns frame an open approach. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_guildhall_industrial_v0",
+          "evidence_sha256": "f1f96bfac4ce70045fbbc022bd34317641025a3270fa41d8381ef638c1ea4b80",
+          "observations": "The tall square charter room and low side roofs give the industrial hall its stepped outline. The portal, gold lamps and crossed hammers remain distinct from the separate bank vault. Brick gives way to grey Modern cladding. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_harbor_classical_v0",
+          "evidence_sha256": "ed665b5186dfdb7f1ed443e9552b00bf9f7ca2dc8817f909a650c5949c443553",
+          "observations": "The projecting timber quay, billowing sail and suspended cargo establish a working harbor. Mooring posts and coiled rope sit on the platform. At 64 px the Medieval roof darkens clearly, while the Classical and Renaissance sails, roofs and hulls read almost alike. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 86,
+            "construction": 94,
+            "charm": 94,
+            "colour": 87,
+            "technical": 99
+          },
+          "defects": [
+            "Shift a broad visible area such as the sail's pale panels onto an age-responsive shared atlas role. Keep both the sail and the loading crane readable and compare the Classical and Renaissance thumbnails again."
+          ]
+        },
+        {
+          "id": "bld_dwarf_harbor_future_v0",
+          "evidence_sha256": "33ef4ab821f0cac4a49ecbb2e4155b4281129cb93a088bc8d7690bcb92fbdeec",
+          "observations": "The loaded barge, overhead crane and stepped glass freight shed form three distinct masses. Cargo straps, short mast and suspended crate are legible in the native image. The Ascension hull and wheelhouse cap turn gold. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_harbor_industrial_v0",
+          "evidence_sha256": "e7a4277812b95be44e163a33e2e2a318350c0980a47c42252066f9c4d6e57794",
+          "observations": "A stack-topped freight boat ties the berth to its brick shed and lifting jib. The sling, mooring coil and strapped freight add scale. The change in warehouse masonry and hull edging is visible at 64 px. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_market_ancient_v0",
+          "evidence_sha256": "d3cedce3941eaec7ca1ddd83f4c7fa9cdaf81bbee65efb17c52405c42f723821",
+          "observations": "Striped cloth, hide roof and stocked counters make a clear iron-age bazaar. Both sloped canopy corners show sections of the supporting posts poking through. The middle coin intersects the fabric and reads as a partial gold chip. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 86,
+            "charm": 91,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Shorten the two front posts to fit under the sloped fabric or give each a deliberate cap. Set the complete coin on a solid fascia or valance with clearance from the canopy."
+          ]
+        },
+        {
+          "id": "bld_dwarf_market_classical_v0",
+          "evidence_sha256": "05aea4ec68f6e6824063402d2f366041aeae9add3b1e1a3c1abfd944480ea487",
+          "observations": "The raised lantern roof and two loaded counters establish a bustling covered market. The support ends and sliced coin interrupt the striped canopy. The Classical and Renaissance orange-and-cream stripes and terracotta roof read almost identically at 64 px. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 87,
+            "construction": 86,
+            "charm": 91,
+            "colour": 86,
+            "technical": 97
+          },
+          "defects": [
+            "Finish the projecting post tops and move the complete trading coin onto the front fascia or valance.",
+            "Put a broad visible awning stripe or fascia on an age-responsive atlas slot and check Classical and Renaissance side by side at 64 px."
+          ]
+        },
+        {
+          "id": "bld_dwarf_market_future_v0",
+          "evidence_sha256": "ae8b02de04a30373c0f94a46ff0c67e77b2aa55f0ffadb707f03c38b950c3cf1",
+          "observations": "The bright glass pavilion, market bins and metal-striped canopy read clearly. Information blue turns to Ascension gold across the broad roof. The posts and partial trading coin emerge through the sloped glazing. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 86,
+            "charm": 91,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Seat both posts below the glass or give them intentional metal caps. Relocate the complete coin to an attached fascia clear of the glazing."
+          ]
+        },
+        {
+          "id": "bld_dwarf_market_industrial_v0",
+          "evidence_sha256": "560ee55411757766f61be1436a6613f7f70ca3364d272b566d9455e128c1bd61",
+          "observations": "Twin factory-style roof monitors and blue metal awning stripes suit the industrial trading hall. The red sales bases become grey in Modern. Two support ends protrude from the slope, and the coin appears sliced by its surface. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 86,
+            "charm": 91,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Finish the support-to-awning contacts and mount the whole trading coin against a fascia clear of the striped canopy."
+          ]
+        },
+        {
+          "id": "bld_dwarf_rail_station_future_v0",
+          "evidence_sha256": "bbc6e7066a1d34ee558ed89021d1d46edd3b61af5918f785941b3a17d64b98ce",
+          "observations": "The glazed shuttle rests on exposed rails beside a separate roofed platform. Sleepers and the lamp beside the waiting bench remain distinct in the larger view. The dark station roof changes to gold in Ascension. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_rail_station_industrial_v0",
+          "evidence_sha256": "f4f312a7f26eb0c383eb9b2826eec9a4b5bd093a1eaad0aabd026382b7680b3f",
+          "observations": "The clock tower, round-front steam locomotive and visible track establish this station at 64 px. Its waiting bench and brass-rimmed boiler provide scale. The Industrial brick waiting room becomes concrete in Modern. Serialized GLB and surface checks passed.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Builder session 6 independent CultureCivic artist (/root/culture)",
+      "models": [
+        {
+          "id": "bld_dwarf_harbor_classical_v0",
+          "evidence_sha256": "39c0ce8843ac72ec5662c66cc59a9267da7b2fa847802cf5cbfc1f22400a04a7",
+          "observations": "The larger warehouse vault and its shoulders give the three quay views a distinct progression. The Classical stone is pale, the Medieval roof darkens, and the Renaissance dock reads warm ochre at 64 px. The sail, crane and rope retain their silhouette. All three serialized LODs passed the geometry and surface review.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 94,
+            "charm": 94,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_market_ancient_v0",
+          "evidence_sha256": "bf798d238b37abb7799a34eaea0db491f6c03b56a0869c0a5843311106ff5137",
+          "observations": "The two support ends sit below continuous stripes. The full round trade seal now hangs over the aisle between crates, clear of the fabric. The hide crown, hewn counters and striped canopy still read at 64 px. All three serialized LODs passed the geometry and surface review.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_market_classical_v0",
+          "evidence_sha256": "541a4b2abb3bf56ed05b857b798b152312a2c0dd465d1e603b22e0cd9f39e118",
+          "observations": "The pale roof lantern, cream cloth and orange stripes separate the Classical stand from its ochre Renaissance variant. The Medieval roof is darker again. The stamped coin and both canopy corners are clean across all three views. All three serialized LODs passed the geometry and surface review.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_market_future_v0",
+          "evidence_sha256": "d2846605c711fe605f7260509d2effbded4a156b03c184b326290efbb6a5cca5",
+          "observations": "The blue glass and gold Ascension stripes form an uninterrupted canopy. The complete mounted trade token sits below the lip, central to the two goods counters, and the front fittings no longer break the glass. All three serialized LODs passed the geometry and surface review.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_market_industrial_v0",
+          "evidence_sha256": "c7a60fb1709e724dc2174e321b556af68622e84df0fe7bd2d2dc29b381f3ced5",
+          "observations": "The folded steel and glass roof reads cleanly over the stalls. The gold seal is visible between the front boxes without intersecting the slope. Modern concrete and the industrial brick booth remain distinct at 64 px. All three serialized LODs passed the geometry and surface review.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

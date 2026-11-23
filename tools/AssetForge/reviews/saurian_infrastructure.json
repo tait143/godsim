@@ -1,0 +1,285 @@
+{
+  "package": "saurian_infrastructure",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "session4-learning_builder",
+      "models": [
+        {
+          "id": "bld_saurian_aqueduct_classical_v0",
+          "evidence_sha256": "724a0ed77baab2b43af0ee6d753b976393ef2d114e80fd0bf265b45453b9b783",
+          "observations": "Three masonry arches support an uninterrupted water ribbon. Channel weirs, end ladder and small solar gauge give the linear silhouette human scale even in the darker Iron and Medieval rows. Checked the serialized triangle chain [820, 424, 238] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 95,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_aqueduct_future_v0",
+          "evidence_sha256": "22e3c8067c03425ec3fe76ecbe328758b6d7e3844d32f265067e8b9b83ccf4ba",
+          "observations": "The forked piers and open turquoise channel are distinct at 64 px. Gold medallions sit on the glazed piers and the maintenance ladder meets the outlet. Checked the serialized triangle chain [812, 512, 218] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_aqueduct_industrial_v0",
+          "evidence_sha256": "ae4d8e51617867d1d6dad0670156035e7e949a3caf1faf19894e37fbb9ab3e42",
+          "observations": "The brick buttresses, iron diagonal brackets and continuous trough read as a supported utility. Bright channel water and the service ladder stay clear against both rows. Checked the serialized triangle chain [1020, 488, 278] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 95,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_fusion_reactor_future_v0",
+          "evidence_sha256": "6cf045e374e58cebab668be74efc24844ec8363b63cf29b39c7d541a7cbb7c98",
+          "observations": "Bright circular chamber, supported gold collar and pearl-colored outer buttresses make a compact energy station. A separate entry and stairs ground the luminous core. Checked the serialized triangle chain [1285, 777, 284] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 97,
+            "construction": 95,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_granary_ancient_v0",
+          "evidence_sha256": "6bd9808dfd16c159329b936eb3c51415169447b11770874b4162be3c8297912b",
+          "observations": "The pair of raised reed bins and two distinct chute mouths still read at 64 px. The sacks and small sun seals sit where grain would be handled. Checked the serialized triangle chain [1042, 612, 306] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_granary_classical_v0",
+          "evidence_sha256": "7e823fa3877bd19d85baf88020567530a5ca41c8867ae423f7c0f84b8a74124e",
+          "observations": "Turquoise banding, conical roof pair and front chutes establish the grain bins. Gold sacks sit on the forward loading apron in all three masonry palettes. Checked the serialized triangle chain [1124, 670, 340] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_granary_future_v0",
+          "evidence_sha256": "18bdba78169dfe4fc09bbf93d8daadb8832874c87d84e32ac81d52b821d28a6f",
+          "observations": "The flared blue upper bins, narrow hoppers and conveyor head read as a pair of sealed silos. Repeated chute castings and grain vessels remain visible. Checked the serialized triangle chain [1318, 652, 330] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_granary_industrial_v0",
+          "evidence_sha256": "781b67ac61552379f3b338a3b80cbea71b5ecdc05f9c45f28816557976d63c1a",
+          "observations": "Two banded metal bins flank the elevator. The narrow discharge chutes and sacks survive the darker Industrial palette, while Modern reads as concrete and steel. Checked the serialized triangle chain [1262, 616, 310] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_power_plant_future_v0",
+          "evidence_sha256": "989ebf4685519366ef3e0977a6996c239b8263aeb165ac7654c5100894362908",
+          "observations": "The open cooling tower and the two tilted collector arrays distinguish this utility at thumbnail size. A stepped glass-roofed turbine hall anchors the entrance. Checked the serialized triangle chain [1171, 764, 345] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_power_plant_industrial_v0",
+          "evidence_sha256": "84ac2a6b36cdb64075e05f443617dc795377eee1f21b2e4acbbe5bcb34211048",
+          "observations": "The flared cooling tower, paired brick stacks and low turbine house make a convincing station silhouette. The cooling tower has a dark hollow mouth, while both exhaust stacks visibly terminate in solid light disks. Checked the serialized triangle chain [1185, 770, 331] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 86,
+            "charm": 91,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "Both tall smokestacks end in solid cap polygons. Form dark, inset flue openings within the existing collars so each stack has an open exhaust path in the large preview."
+          ]
+        },
+        {
+          "id": "bld_saurian_storehouse_ancient_v0",
+          "evidence_sha256": "9680c05a05d3697049ca53a2f832b225cd1ea02626dd70db1c06998e719ca18a",
+          "observations": "Heavy double doors open onto a raised wooden loading dock. The side cargo shelter and stepped access are visible against the straw roof; the canopy and walls change values through Dawn, Bronze and Iron. Checked the serialized triangle chain [690, 395, 206] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_storehouse_classical_v0",
+          "evidence_sha256": "2914eed52aca5bbc1af812b3b70b5f65b4ce5785ca58a703307073178355f981",
+          "observations": "The broad stepped roof covers a double cargo door facing the stairs. Open side bay, boxed stock and gold trade seal distinguish it from a residence. Checked the serialized triangle chain [648, 389, 178] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_storehouse_future_v0",
+          "evidence_sha256": "56d2e13bcde8166e71ff6bc0ecb114797a9dec5831521b3f6b0b93ce96bab32a",
+          "observations": "Blue glass canopy and a raised roof monitor modernize the long dock. The oversized loading door, side canopy, and timber cargo define the storehouse at phone size. Checked the serialized triangle chain [736, 441, 216] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_storehouse_industrial_v0",
+          "evidence_sha256": "317ba2e5a2f21ab6191a00cc94f684b8d1b90d3b0907450de4e1ae31f5606cb6",
+          "observations": "Clerestory, brick walls, broad dock doors and open freight canopy read across the two rows. Stepped access, cargo container and hanging lifting hook establish use. Checked the serialized triangle chain [642, 383, 176] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_well_ancient_v0",
+          "evidence_sha256": "32b17cda7598a91bfa84b58c3db4fd7014938510e281507ba4289a491e1089fa",
+          "observations": "Pivoted sweep, hanging jar and a counterweight are distinct above the open well. Dark inner walls and turquoise rim give the water real depth on all three grounds. Checked the serialized triangle chain [670, 338, 194] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_well_classical_v0",
+          "evidence_sha256": "987a689ecb982a8a65890e298ff8c86c4e500fa3fafd2c4079d9553a15365748",
+          "observations": "The beam and line reach into a recessed blue basin. A stepped pavilion with sun crest and a jar beside its post distinguishes the village water source. Checked the serialized triangle chain [754, 411, 184] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_well_future_v0",
+          "evidence_sha256": "75f43bee33d8e23a7d0b9b422a1e6ae6efbd3a72085df5b6044a07fa37b2fef7",
+          "observations": "The supported circular sun arch frames the luminous outlet. The open blue basin, gold crest and small service vessel read clearly against the future surfaces. Checked the serialized triangle chain [738, 390, 222] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 96,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_well_industrial_v0",
+          "evidence_sha256": "0f13183b0b068b731ef93433f0e0943d17fe57bdb3e72e808e64819b51d9af95",
+          "observations": "The dark pump projects its spout above the basin. The turquoise lip, small bucket, and gold plaque maintain a Saurian identity through brick and pale concrete. Checked the serialized triangle chain [722, 351, 180] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Session 4 independent commerce builder",
+      "models": [
+        {
+          "id": "bld_saurian_power_plant_industrial_v0",
+          "evidence_sha256": "730896011dbd40d4fe50862c5455b1129fd024358d58912a50a8028440a535c0",
+          "observations": "Both stacks have legible dark openings and metal collars above the masonry shafts. The lip turns inward and down to a tapered liner, visible in both the red-brick Industrial and grey Modern views. The cooling tower and flues remain separated at 64 px. Reopened GLB and serialized surfaces passed at 1377, 890 and 415 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

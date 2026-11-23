@@ -12,18 +12,18 @@ namespace GodSim.Unity
     /// construction scaffold and civ banner children). Views are created/updated incrementally from
     /// EventBus events; per-tick state (construction progress, fire, style age, owner, tier) is synced
     /// round-robin with fixed per-frame budgets. Destroyed buildings leave a ruin that sinks away after
-    /// <see cref="RuinLifetime"/> seconds of real time. Far views swap to a box LOD mesh.
+    /// <see cref="RuinLifetime"/> seconds of real time. Authored models use three distance LODs.
     /// Handles a new world (SimulationCreated fired again) by releasing all views and rebinding.
     /// </summary>
     [DisallowMultipleComponent]
-    public sealed class BuildingRenderer : MonoBehaviour
+    public sealed partial class BuildingRenderer : MonoBehaviour
     {
         /// <summary>The active renderer (null when none is enabled).</summary>
         public static BuildingRenderer Instance { get; private set; }
 
         [Tooltip("Show scaffolds and grow incomplete buildings by construction progress. Off = draw them finished.")]
         public bool ShowConstruction = true;
-        [Tooltip("Camera distance (world units) beyond which views swap to a simple box mesh. <= 0 disables LOD.")]
+        [Tooltip("First LOD distance in world units. Authored models use LOD2 at twice this distance. <= 0 disables LOD.")]
         public float LodDistance = 90f;
         [Tooltip("Seconds (real time) a ruin stays before it sinks away and returns to the pool.")]
         public float RuinLifetime = 10f;
@@ -39,6 +39,8 @@ namespace GodSim.Unity
         private const int MeshCacheSoftLimit = 4096;
         private static readonly int BaseColorId = Shader.PropertyToID("_BaseColor");
         private static readonly int ColorId = Shader.PropertyToID("_Color");
+        private static readonly int AgeRowId = Shader.PropertyToID("_AgeRowOffset");
+        private static readonly int VertexTintId = Shader.PropertyToID("_UseVertexTint");
         private static readonly Color FireColor = new Color(1.35f, 0.55f, 0.14f, 1f);
         private static readonly Color CharredTint = new Color(0.5f, 0.45f, 0.42f, 1f);
         private static readonly Color NoCivColor = new Color(0.6f, 0.6f, 0.6f, 1f);
@@ -63,7 +65,12 @@ namespace GodSim.Unity
             public Transform BannerT;
             public MeshRenderer BannerMr;
 
-            public Mesh Full, Lod;
+            public Mesh Full, Lod, Far;
+            public bool HasArt;
+            public float AgeRowOffset, HeightScale;
+            public int LodLevel, Variant;
+            public RaceId StyleRace;
+            public BodyBatch Batch;
             public BuildingType Type;
             public BuildingShape Shape;
             public AgeId StyleAge;
@@ -73,8 +80,10 @@ namespace GodSim.Unity
             public int CivId;
             public int MeshW, MeshH;
             public float TopHeight, ScaleXZ = 1f, Progress;
-            public bool Complete, OnFire, UsingLod, HasBanner, HasTint, IsRuin;
-            public Color BaseTint = Color.white;
+            public bool Complete, OnFire, HasBanner, HasTint, IsRuin;
+            public bool UsingLod => LodLevel != 0;
+            public Color DefinitionTint = Color.white;
+            public Color BaseTint => HasArt ? Color.white : DefinitionTint;
             public Vector3 Position;
             public float RuinStart;
             public int ActiveIndex = -1, IncompleteIndex = -1, BurningIndex = -1, RuinIndex = -1;
@@ -90,6 +99,7 @@ namespace GodSim.Unity
         private GodSimRunner _runner;
         private GodSimulation _sim;
         private EventBus _bus;
+        private ArtLibrary _art;
         private MaterialPropertyBlock _mpb;
         private Camera _mainCamera;
         private float _nextCameraLookup;
@@ -158,6 +168,7 @@ namespace GodSim.Unity
 
         private void OnDestroy()
         {
+            ClearBatches();
             UnbindRunner();
             UnbindSimulation();
             if (Instance == this) Instance = null;
@@ -191,6 +202,7 @@ namespace GodSim.Unity
             ReleaseAll();
             if (ProceduralBuildingMeshes.CachedMeshCount > MeshCacheSoftLimit) ProceduralBuildingMeshes.ClearCache();
             if (sim == null || sim.State == null || sim.Db == null || sim.Events == null) return;
+            _art = ArtLibrary.Load();
             _sim = sim;
             _bus = sim.Events;
             _bus.Subscribe(_onPlaced);
@@ -259,6 +271,7 @@ namespace GodSim.Unity
             UpdateFire();
             UpdateLod();
             UpdateRuins();
+            FlushBatches();
         }
 
         private void UpdateProgress()
@@ -304,7 +317,7 @@ namespace GodSim.Unity
                     continue;
                 }
                 if (b.IsOnFire != v.OnFire) SetFire(v, b.IsOnFire);
-                if (b.StyleAge != v.StyleAge || b.Rotation != v.Rotation || (v.Type == BuildingType.TownCenter && TierOf(b) != v.Tier))
+                if (b.StyleRace != v.StyleRace || b.Variant != v.Variant || b.StyleAge != v.StyleAge || b.Rotation != v.Rotation || (v.Type == BuildingType.TownCenter && TierOf(b) != v.Tier))
                     RebuildAppearance(v, b);
                 if (b.CivilizationId != v.CivId)
                 {
@@ -359,7 +372,7 @@ namespace GodSim.Unity
                 {
                     if (_lodCursor >= _active.Count) _lodCursor = 0;
                     var v = _active[_lodCursor++];
-                    if (v.UsingLod) SetLod(v, false);
+                    if (v.UsingLod) SetLod(v, 0);
                 }
                 return;
             }
@@ -374,8 +387,8 @@ namespace GodSim.Unity
                 if (_lodCursor >= _active.Count) _lodCursor = 0;
                 var v = _active[_lodCursor++];
                 float d2 = (v.Position - cp).sqrMagnitude;
-                bool want = v.UsingLod ? d2 > near2 : d2 > far2;
-                if (want != v.UsingLod) SetLod(v, want);
+                int level = SelectLod(v.LodLevel, v.HasArt, d2, near2, far2);
+                if (level != v.LodLevel) SetLod(v, level);
             }
         }
 
@@ -491,7 +504,7 @@ namespace GodSim.Unity
             v.CivId = b.CivilizationId;
             v.Complete = b.IsComplete;
             v.Progress = MathUtil.Clamp01(MathUtil.Sanitize(b.ConstructionProgress));
-            v.UsingLod = false;
+            v.LodLevel = 0;
 #if UNITY_EDITOR
             v.Root.name = "Building " + b.Id + " (" + b.Type + ")";
 #endif
@@ -531,37 +544,55 @@ namespace GodSim.Unity
 
         private void ApplyAppearance(View v, Building b, BuildingDefinition def)
         {
-            ArchitectureStyle style = StyleOf(b.StyleRace);
             AgeId age = b.StyleAge;
-            RoofStyle roof = ProceduralBuildingMeshes.ResolveRoof(def.Shape, style, age);
             bool odd = (b.Rotation & 1) != 0;
             int mw = MathUtil.Clamp(odd ? b.Height : b.Width, 1, 8);
             int mh = MathUtil.Clamp(odd ? b.Width : b.Height, 1, 8);
-            float vh = def.VisualHeight;
             float sxz = 1f;
             SettlementTier tier = SettlementTier.Camp;
             if (b.Type == BuildingType.TownCenter)
             {
                 tier = TierOf(b);
                 int t = (int)tier;
-                vh *= 1f + 0.3f * t;
                 sxz = 1f + 0.05f * t;
             }
-            var set = ProceduralBuildingMeshes.GetSet(def.Shape, roof, style, age, mw, mh, vh, b.Variant);
-            v.Full = set.Full;
-            v.Lod = set.Lod;
-            v.TopHeight = set.TopHeight;
+            float tierHeight = 1f + 0.3f * (int)tier;
+            v.HasArt = _art.TryGet(b.Type, b.StyleRace, age, b.Variant, out var model, out v.AgeRowOffset);
+            if (v.HasArt)
+            {
+                sxz = 1f; // The exported outline already occupies its allotted tiles.
+                v.Full = model.Lod0;
+                v.Lod = model.Lod1;
+                v.Far = model.Lod2;
+                v.HeightScale = T * tierHeight;
+                v.TopHeight = v.Full.bounds.max.y * v.HeightScale;
+                v.BodyMr.sharedMaterial = _art.Material;
+            }
+            else
+            {
+                var style = StyleOf(b.StyleRace);
+                var roof = ProceduralBuildingMeshes.ResolveRoof(def.Shape, style, age);
+                var set = ProceduralBuildingMeshes.GetSet(def.Shape, roof, style, age, mw, mh, def.VisualHeight * tierHeight, b.Variant);
+                v.Full = set.Full;
+                v.Lod = v.Far = set.Lod;
+                v.LodLevel = Math.Min(1, v.LodLevel);
+                v.HeightScale = 1f;
+                v.TopHeight = set.TopHeight;
+                v.BodyMr.sharedMaterial = MaterialLibrary.VertexColorOpaque;
+            }
             v.ScaleXZ = sxz;
             v.Tier = tier;
             v.StyleAge = age;
+            v.StyleRace = b.StyleRace;
+            v.Variant = b.Variant;
             v.Level = b.Level;
             v.Rotation = b.Rotation;
             v.MeshW = mw;
             v.MeshH = mh;
-            v.BodyMf.sharedMesh = v.UsingLod ? v.Lod : v.Full;
+            v.BodyMf.sharedMesh = BodyMesh(v);
             v.ScaffoldMf.sharedMesh = null; // fetched lazily for the new size
 
-            float top = Mathf.Max(0.1f * T, set.TopHeight);
+            float top = Mathf.Max(0.1f * T, v.TopHeight);
             v.Collider.size = new Vector3(mw * T * 0.95f * sxz, top, mh * T * 0.95f * sxz);
             v.Collider.center = new Vector3(0f, top * 0.5f, 0f);
             v.Collider.enabled = true;
@@ -574,7 +605,7 @@ namespace GodSim.Unity
             }
 
             v.HasTint = def.TintColor != 0xFFFFFFFFu;
-            v.BaseTint = v.HasTint ? GodSimPalette.FromRgba(def.TintColor) : Color.white;
+            v.DefinitionTint = v.HasTint ? GodSimPalette.FromRgba(def.TintColor) : Color.white;
             ApplyBaseTint(v);
         }
 
@@ -597,6 +628,7 @@ namespace GodSim.Unity
             if (n > 0) p.y = v.Shape == BuildingShape.Dock ? max : sum / n;
             v.Position = p;
             v.RootT.SetPositionAndRotation(p, Quaternion.Euler(0f, (b.Rotation & 3) * 90f, 0f));
+            if (v.Batch != null) v.Batch.Dirty = true;
         }
 
         private void ApplyConstruction(View v)
@@ -605,8 +637,11 @@ namespace GodSim.Unity
             bool site = ShowConstruction && !v.Complete;
             float prog = site ? v.Progress : 1f;
             v.BodyT.localPosition = Vector3.zero;
-            v.BodyT.localScale = new Vector3(v.ScaleXZ, Mathf.Max(0.02f, prog), v.ScaleXZ);
+            float widthScale = v.HasArt ? v.ScaleXZ * T : v.ScaleXZ;
+            v.BodyT.localScale = new Vector3(widthScale, v.HeightScale * Mathf.Max(0.02f, prog), widthScale);
             bool bodyVisible = !site || prog > 0.02f;
+            SetBatched(v, v.HasArt && !site && !v.OnFire);
+            bodyVisible &= v.Batch == null;
             if (v.BodyMr.enabled != bodyVisible) v.BodyMr.enabled = bodyVisible;
             bool scaffold = site && !v.UsingLod && v.Shape != BuildingShape.Field;
             if (scaffold && v.ScaffoldMf.sharedMesh == null)
@@ -623,10 +658,19 @@ namespace GodSim.Unity
             ApplyConstruction(v);
         }
 
-        private void SetLod(View v, bool lod)
+        internal static int SelectLod(int current, bool authored, float distanceSquared, float nearSquared, float farSquared)
         {
-            v.UsingLod = lod;
-            v.BodyMf.sharedMesh = lod ? v.Lod : v.Full;
+            if (authored && distanceSquared > (current == 2 ? nearSquared : farSquared) * 4f) return 2;
+            return distanceSquared > (current > 0 ? nearSquared : farSquared) ? 1 : 0;
+        }
+
+        private static Mesh BodyMesh(View v) => v.LodLevel == 0 ? v.Full : v.LodLevel == 1 ? v.Lod : v.Far;
+
+        private void SetLod(View v, int level)
+        {
+            v.LodLevel = level;
+            v.BodyMf.sharedMesh = BodyMesh(v);
+            if (v.HasArt) ApplyBaseTint(v);
             ApplyConstruction(v);
             ApplyBanner(v);
         }
@@ -640,7 +684,7 @@ namespace GodSim.Unity
             var civ = _sim != null ? _sim.State.Civilizations.Get(v.CivId) : null;
             if (civ != null) col = GodSimPalette.FromRgba(civ.Color);
             _mpb.Clear();
-            _mpb.SetColor(BaseColorId, col);
+            if (v.BannerMr.sharedMaterial.HasProperty(BaseColorId)) _mpb.SetColor(BaseColorId, col);
             _mpb.SetColor(ColorId, col);
             v.BannerMr.SetPropertyBlock(_mpb);
         }
@@ -649,6 +693,7 @@ namespace GodSim.Unity
         {
             if (v.OnFire == on) return;
             v.OnFire = on;
+            ApplyConstruction(v);
             if (on) ListAdd(_burning, v, ListKind.Burning);
             else
             {
@@ -660,14 +705,19 @@ namespace GodSim.Unity
         private void ApplyBaseTint(View v)
         {
             if (v.OnFire) return; // the flicker owns the block while burning
-            if (v.HasTint) SetBodyColor(v, v.BaseTint);
+            if (v.HasTint || v.HasArt) SetBodyColor(v, v.BaseTint);
             else v.BodyMr.SetPropertyBlock(null); // no block: keeps the body SRP-batcher friendly
         }
 
         private void SetBodyColor(View v, Color c)
         {
             _mpb.Clear();
-            _mpb.SetColor(BaseColorId, c);
+            if (v.HasArt)
+            {
+                _mpb.SetFloat(AgeRowId, v.AgeRowOffset);
+                _mpb.SetFloat(VertexTintId, v.BodyMf.sharedMesh.HasVertexAttribute(VertexAttribute.Color) ? 1f : 0f);
+            }
+            else _mpb.SetColor(BaseColorId, c);
             _mpb.SetColor(ColorId, c);
             v.BodyMr.SetPropertyBlock(_mpb);
         }
@@ -675,6 +725,9 @@ namespace GodSim.Unity
         private void MakeRuin(View v, DestroyCause cause)
         {
             if (v.IsRuin) return;
+            SetBatched(v, false);
+            v.HasArt = false;
+            v.BodyMr.sharedMaterial = MaterialLibrary.VertexColorOpaque;
             _views.Remove(v.Id);
             ListRemove(_active, v, ListKind.Active);
             ListRemove(_incomplete, v, ListKind.Incomplete);
@@ -753,6 +806,7 @@ namespace GodSim.Unity
 
         private void Release(View v)
         {
+            SetBatched(v, false);
             if (v.Root == null) return; // destroyed with the scene
             v.Root.SetActive(false);
             v.BodyMf.sharedMesh = null;
@@ -766,10 +820,11 @@ namespace GodSim.Unity
             if (v.ScaffoldGo.activeSelf) v.ScaffoldGo.SetActive(false);
             if (v.BannerGo.activeSelf) v.BannerGo.SetActive(false);
             v.Building = null;
-            v.Full = v.Lod = null;
+            v.Full = v.Lod = v.Far = null;
             v.Id = 0;
-            v.IsRuin = v.OnFire = v.UsingLod = v.Complete = v.HasTint = false;
-            v.BaseTint = Color.white;
+            v.IsRuin = v.OnFire = v.HasArt = v.Complete = v.HasTint = false;
+            v.LodLevel = 0;
+            v.DefinitionTint = Color.white;
             v.ActiveIndex = v.IncompleteIndex = v.BurningIndex = v.RuinIndex = -1;
             if (_pool.Count < MaxPooledViews) _pool.Push(v);
             else Destroy(v.Root);
