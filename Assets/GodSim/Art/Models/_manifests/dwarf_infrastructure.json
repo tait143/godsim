@@ -778,25 +778,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1060,
+  "triangles": 1294,
   "lod_triangles": [
-   1060,
-   604,
-   256
+   1294,
+   648,
+   401
   ],
   "bounds": [
    [
-    -0.33000001311302185,
+    -0.4794999957084656,
     0.0,
-    -0.33775749802589417
+    -0.3050000071525574
    ],
    [
-    0.33000001311302185,
-    0.6370000243186951,
-    0.33000001311302185
+    0.4189999997615814,
+    0.6035000085830688,
+    0.24774999916553497
    ]
   ],
-  "bytes": 150856,
+  "bytes": 180628,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Infrastructure/bld_dwarf_well_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_well_industrial_v0.png",

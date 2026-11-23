@@ -629,6 +629,48 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC5 model critic",
+      "models": [
+        {
+          "id": "bld_saurian_bank_future_v0",
+          "evidence_sha256": "941b82aa15198d94af11534e02e1ec1f5cf36425cc78692f098f95285c2ce446",
+          "observations": "The tall annulus clears the squat Industrial bank in both 64 px unpainted views. The drum sits convincingly on its inclined podium. The teal stripe, inner gold lip and coin relief make an attractive facade, but the opening still dominates from front and back at all three LODs. On painted family page 02 the Ascension bank and Neutral AscensionGate both present a turquoise-and-gold hoop over an ivory plinth with centered stairs. The two authored previews shift the lining from steel to gold without resolving the duplicate landmark. Serialized LODs 1380/822/392 passed check_entry. Direct checks found zero exposed coplanar overlaps and zero inverted closed shells.",
+          "scores": {
+            "silhouette": 83,
+            "identity": 82,
+            "construction": 94,
+            "charm": 90,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "At 64 px the open hoop reads as the AscensionGate before the lower coin door can identify the bank. Replace the open portal mass with a visibly enclosed treasury or strongroom and retain the Saurian stepped architecture and clear coin or vault front."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent RC5 model critic",
+      "models": [
+        {
+          "id": "bld_saurian_bank_future_v0",
+          "evidence_sha256": "3d9e38523823b537ba70228f2dac09ffa1923ee59f579bd4a8aa2b93afc49cc5",
+          "observations": "At 64 px the glazed teller hall steps down from a solid, canted strongroom. Its hinge and concentric locking door stand proud of the wall, and the roof has two raised bands visible from the reverse. The Industrial bank has a centered rooftop crest and square tiers. The revised bank has a low asymmetrical outline in both unpainted views. On family page 02, the AscensionGate retains its tall open center while the bank reads as an enclosed treasury. The bronze coin-sized lock, gold hardware, narrow turquoise fascia and pale stepped base tie the taller vault to the public hall. The Information door has a steel rim and the Ascension door has a gold rim. LOD1 retains the door relief, hinges and roof bands. LOD2 retains the inset entrance, vault face and two building heights. All three serialized LODs passed check_entry at 1245/709/393 triangles. Direct surface and winding checks found zero exposed coplanar pairs and zero inverted closed shells. The revised vault shares zero rounded LOD0 corners in either direction with either older Saurian bank.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 96,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

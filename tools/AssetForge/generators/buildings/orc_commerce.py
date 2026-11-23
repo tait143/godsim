@@ -141,7 +141,60 @@ def coin(m, x, y, z, radius):
             m.block("accent",0,.073,0,radius*.30,.018,radius*1.2,.12)
 
 
+def counting_tower(m):
+    """A brick strongroom with a public pay arcade at the foot of its assay tower."""
+    x,z=.37,.19
+    m.block("fieldstone",.01,0,.035,1.73,.135,1.30,.055)
+    m.block("brick",x,.135,z,.83,1.12,.86,.035)
+    m.block("trim",x,1.255,z,.90,.105,.93,.045)
+    m.block("metal",x,1.36,z,.81,.23,.83,.40)
+    m.block("gold",x,1.59,z,.46,.048,.47,.10)
+    # Tusks grow from individual iron shoes at the edge of the parapet.
+    for side in (-1,1):
+        sx=x+side*.325
+        if m.lod<2:
+            m.block("banner",sx,1.32,-.074,.151,.095,.166,.12)
+        m.tusk(sx,1.407,-.074,side,.54)
+    coin(m,x,.962,-.258,.22)
+    m.entry(x,-.242,.135,.32,.47,2)
+    for j in range((3,2,1)[m.lod]):
+        n=(3,2,1)[m.lod]
+        m.block("fieldstone",x,0,-.843+(j+.5)*.24/n,.50,.135*(j+1)/n,.24/n)
+
+    # A low, iron-roofed counting hall opens onto the pay windows under a lean-to.
+    hx=-.40
+    m.block("wall",hx,.135,.11,.74,.55,.89)
+    m.prism_x((hx,.685,.11),.84,1.01,.225,m.col("metal"),material="metal")
+    m.block("door",hx,.346,-.342,.60,.234,.048)
+    m.block("timber",hx,.328,-.404,.67,.052,.20)
+    with m.transform(translate=(hx,.669,-.453),rotate_x=-14):
+        m.block("banner",0,0,0,.85,.056,.37)
+    for side in (-1,1):
+        m.block("trim",hx+side*.36,.135,-.568,.068,.518,.076)
+    if m.lod<2:
+        for slot in (-.22,0,.22):
+            m.block("gold",hx+slot,.379,-.374,.031,.206,.023)
+        # The high security lights are aligned to the tapered tower wall.
+        for side in (-1,1):
+            with m.transform(translate=(x+side*.412,0,z),rotate_y=-90*side):
+                m.block("trim",0,.79,-.003,.46,.26,.045)
+                m.block("glass",0,.819,-.027,.38,.196,.019)
+                for bar in (-.105,.105):
+                    m.block("metal",bar,.809,-.039,.030,.215,.021)
+    if m.lod==0:
+        for side in (-1,1):
+            m.post("trim",(x+side*.416,.14,-.206),(x+side*.378,.696,-.181),
+                   .063,.052,sides=7)
+            for k in range(2):
+                course(m,hx+side*.20,-.431,[(.380+k*.020,.047,"gold"),(.400+k*.020,.047,"gold")],10)
+        m.block("metal",x,.332,-.329,.25,.053,.031,.06)
+        m.block("gold",x-.089,.335,-.350,.049,.044,.029,.12)
+        m.block("banner",x,1.183,-.234,.58,.053,.047,.04)
+
+
 def bank(m):
+    if m.era==2:
+        return counting_tower(m)
     # Broad low vault, flared ingot cap and mounted mint coin above the counting wicket.
     h=(.69,.74,.82,.91)[m.era]
     course(m,0,.13,[(0,.84,"fieldstone"),(.15,.87,"wall"),

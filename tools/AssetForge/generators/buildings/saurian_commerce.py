@@ -144,8 +144,84 @@ def market(m):
             pennon(m,-.33,(1.279,1.19,1.15)[e-1],.37,.28)
 
 
+def solar_treasury(m):
+    """A sloping armoured strongroom and a lower public banking hall share a forecourt."""
+    x,z=-.274,.115
+    m.slab("fieldstone",.005,0,.035,1.82,.105,1.43,.975,cut=.125)
+    # The chamfered concrete vault rises toward its locked street face. The
+    # shallow glazing at the eaves follows the incline of the armour above it.
+    outline=[(-.402,-.570),(.402,-.570),(.582,-.392),(.582,.408),
+             (.411,.57),(-.411,.57),(-.582,.408),(-.582,-.392)]
+    def course(width,depth,height,slope):
+        return [(x+u*width,height-v*depth*slope,z+v*depth) for u,v in outline]
+    foundation=course(1,1,.105,0)
+    shoulder=course(.944,.947,.836,.475)
+    clerestory=course(.950,.953,.907,.475)
+    fascia=course(1.005,1.017,.931,.475)
+    roof=course(.974,.985,.993,.475)
+    for lower,upper,role in ((foundation,shoulder,"wall"),(shoulder,clerestory,"glass"),
+                             (clerestory,fascia,"metal"),(fascia,roof,"ivory")):
+        for i,a in enumerate(lower):
+            j=(i+1)%len(lower)
+            m.face(role,(lower[j],a,upper[i],upper[j]))
+    m.face("metal",roof[::-1])
+    # Two raised plates are bolted along the roof fall, with turquoise weather seals.
+    pitch=math.degrees(math.atan(.475))
+    for side in (-1,1):
+        with m.transform(translate=(x+side*.269,.993,z),rotate_x=pitch):
+            if m.lod<2:
+                m.slab("turquoise",0,0,0,.196,.032,.985,.93,cut=.16)
+            m.slab("ivory",0,.032 if m.lod<2 else 0,0,.172,.059,.947,.76,cut=.20)
+    # A thick door leaf, sun-wheel dial and two hinge knuckles sit inside the wall outline.
+    door_y=.586
+    m.block("trim",x,.159,-.428,.796,.839,.102,.026)
+    m.disc(x,door_y,-.480,.365,role="metal",boss=False)
+    m.disc(x,door_y,-.571,.289,role="ivory",boss=False)
+    if m.lod<2:
+        m.disc(x,door_y,-.643,.196,role="trim",boss=False)
+    else:
+        m.block("trim",x,door_y-.123,-.665,.255,.245,.070,.10)
+    m.ring("gold",x,door_y,-.708,.143,.108,.026,n=(18,12,7)[m.lod])
+    m.disc(x,door_y,-.702,.044,role="gold",boss=False)
+    for angle in (0,120,240):
+        with m.transform(translate=(x,door_y,-.700),rotate_z=angle):
+            m.block("gold",0,.024,0,.026,.100,.019)
+    for y in (.379,.739):
+        m.block("gold",x+.282,y,-.544,.177,.070,.113,.08)
+    if m.lod==0:
+        for i in range(8):
+            angle=math.tau*(i+.5)/8
+            with m.transform(translate=(x+.257*math.cos(angle),door_y+.257*math.sin(angle),-.645),
+                             rotate_x=-90):
+                m.drum("metal",0,0,0,.025,.010,n=8)
+
+    # Clerks serve through a continuous counter in the side wing. Its flat
+    # canopy covers the public entrance and turns the corner above the wicket.
+    hx,hz=.548,.065
+    m.slab("wall",hx,.105,hz,.648,.490,1.095,.98,cut=.10)
+    m.slab("ivory",hx,.595,hz,.735,.098,1.205,.95,cut=.13,underside=True)
+    m.slab("turquoise",hx,.693,hz,.615,.071,.958,.88,cut=.19)
+    m.entry(hx,.106,-.492,.262,.373)
+    m.stairs(hx,0,-.876,.395,.252,.109)
+    m.block("door",.859,.278,hz,.039,.235,.754)
+    m.slab("turquoise",.864,.257,hz,.116,.042,.781,.96,cut=.07)
+    for offset in ((-.251,0,.251) if m.lod<2 else (-.17,.17)):
+        m.block("gold",.883,.294,hz+offset,.024,.219,.027)
+    if m.lod<2:
+        m.disc(hx,.528,-.495,.066,boss=False)
+        # Reinforced piers along the blind side bear the sloping vault roof.
+        for offset in (-.258,.223):
+            height=.806-offset*.475
+            m.slab("metal",x-.552,.105,z+offset,.139,height,.139,.61,cut=.09)
+    if m.lod==0:
+        for offset in (-.33,.33):
+            m.slab("ivory",.873,.112,hz+offset,.105,.148,.095,.68,cut=.11)
+
+
 def bank(m):
     e=m.era
+    if e==3:
+        return solar_treasury(m)
     m.slab("fieldstone",0,0,.03,1.74,.13,1.54,.95,cut=.14)
     m.slab("wall",0,.13,.12,1.55,.54,1.16,.96)
     # Broad barred treasury wing on either side of a south-facing public entrance.

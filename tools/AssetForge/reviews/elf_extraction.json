@@ -1004,6 +1004,26 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC5 model critic",
+      "models": [
+        {
+          "id": "bld_elf_gold_mine_industrial_v0",
+          "evidence_sha256": "b40523a4f4c8abe5d307f67e851b33192c970fee88a53d0b198342e3b80ed66c",
+          "observations": "In both unpainted views, a freestanding banded chimney rises at one end of the horizontal battery of ore stamps. That uneven skyline replaces the ancient forked timber headframe. The exposed flywheel, gold in the end of the blue sluice, side access and three guided stamp rods show how the ore moves through the works. A green bank around the chimney and curved brass fittings soften the machinery. The Industrial dark supports and the paler Modern masonry both frame the stamps and separate the outflow from the rock. LOD2 simplifies the sluice bars while keeping the wheel, stamps, stack and channel. Serialized LODs 1475/839/439 passed check_entry. Direct checks found zero exposed coplanar overlaps and zero inverted closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 95,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

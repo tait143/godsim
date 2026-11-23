@@ -555,6 +555,26 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC5 model critic",
+      "models": [
+        {
+          "id": "bld_orc_bank_industrial_v0",
+          "evidence_sha256": "caaedd91c5c077292bea80d82939f0346a3c7092c1df0f06aa0011c9fd124893",
+          "observations": "At 64 px the horned square tower steps down to an offset counter roof on both unpainted views. The Classical round bank and Future barrel vault have different roof lines from either approach. The oversized coin above the entry, a second coin at the counter and the red overhang read as a public counting house. The two roofs meet over a seated, stepped masonry base. The Modern roof and walls lighten while the gold and red stay legible. Both painted ages and the reverse middle LOD retain the two-part mass. Serialized LODs 732/426/220 passed check_entry. Direct checks found zero exposed coplanar overlaps and zero inverted closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

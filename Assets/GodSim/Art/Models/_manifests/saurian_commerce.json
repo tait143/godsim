@@ -104,25 +104,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 722,
+  "triangles": 1245,
   "lod_triangles": [
-   722,
-   428,
-   151
+   1245,
+   709,
+   393
   ],
   "bounds": [
    [
-    -0.8700000047683716,
+    -0.9049999713897705,
     0.0,
-    -0.9359999895095825
+    -0.8759999871253967
    ],
    [
-    0.8700000047683716,
-    1.746999979019165,
-    0.800000011920929
+    0.9254999756813049,
+    1.2596887350082397,
+    0.75
    ]
   ],
-  "bytes": 98508,
+  "bytes": 183708,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_bank_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_future_v0.png",

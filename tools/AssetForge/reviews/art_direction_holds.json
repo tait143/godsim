@@ -82,5 +82,11 @@
     "finding": "The Iron, Classical and Future Saurian Temples repeat the massing, stair and solar crowns of the coexisting Iron, Classical and Ascension TownCenters respectively. Give each temple a legible worship space distinct from the civic hall at both 64 px angles.",
     "models": ["bld_saurian_temple_ancient_v0", "bld_saurian_temple_classical_v0", "bld_saurian_temple_future_v0"],
     "status": "closed"
+  },
+  {
+    "finding": "Round 3 candidate a9942168f1cd934b85028f22d8d049cb9697c1b1154f521bef44d7dedef30585 gives the Future Saurian Bank a dominant open turquoise-and-gold hoop on stepped ivory masonry, duplicating the neutral AscensionGate at 64 px on painted page 02. Make the bank read as a secured treasury with a dominant vault door or enclosed mass in both views.",
+    "models": ["bld_saurian_bank_future_v0"],
+    "status": "closed",
+    "resolution": "Reinspected a3fe3b6506914f63f491fb13e74e7139e8fba507022a22650d3de9f0ed988cc1. The solid stepped strongroom and lower teller hall read as an enclosed treasury. Its large hinged vault door remains visible at 64 px, and the neutral AscensionGate retains a distinct open center."
   }
 ]

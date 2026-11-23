@@ -627,6 +627,26 @@
           ]
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC5 model critic",
+      "models": [
+        {
+          "id": "bld_dwarf_well_industrial_v0",
+          "evidence_sha256": "52032c6ca9cac4017ca3c06fe2dc207d3f054796893ef8bad8f8b69e677d383d",
+          "observations": "Both 64 px gray views show a walking beam pivoting beside an open circular cistern. The end rod reaches the water and the opposite end drives a piston beside the flywheel. This gives the Industrial well a working profile distinct from the Ancient crossbar and the offset Future pump column. The thick stone foundation, banded tank and heavy brass pin suit the Dwarf construction. The Industrial brick changes to gray masonry in Modern while the blue opening remains clear. The beam, shaft and water are readable from the reverse middle LOD and survive the far LOD. Serialized LODs 1294/648/401 passed check_entry. Direct checks found zero exposed coplanar overlaps and zero inverted closed shells.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 96,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

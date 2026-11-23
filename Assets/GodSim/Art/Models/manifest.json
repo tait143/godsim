@@ -9775,25 +9775,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1060,
+   "triangles": 1294,
    "lod_triangles": [
-    1060,
-    604,
-    256
+    1294,
+    648,
+    401
    ],
    "bounds": [
     [
-     -0.33000001311302185,
+     -0.4794999957084656,
      0.0,
-     -0.33775749802589417
+     -0.3050000071525574
     ],
     [
-     0.33000001311302185,
-     0.6370000243186951,
-     0.33000001311302185
+     0.4189999997615814,
+     0.6035000085830688,
+     0.24774999916553497
     ]
    ],
-   "bytes": 150856,
+   "bytes": 180628,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Infrastructure/bld_dwarf_well_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_well_industrial_v0.png",
@@ -9801,7 +9801,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_well_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_well_industrial_v0__modern.png"
    },
-   "sha256": "c0e0f12a744e22d897017057eeb8669cc9751b0038c23f98bf682c2a318e0773",
+   "sha256": "19684148a57e9855839f0d1e728d52d54ca25bb0958834e19cf6c68b61a3b3ec",
    "sourceIds": [
     "bld_dwarf_well_industrial_v0"
    ],
@@ -12300,25 +12300,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 897,
+   "triangles": 1094,
    "lod_triangles": [
-    897,
-    528,
-    234
+    1094,
+    623,
+    322
    ],
    "bounds": [
     [
-     -0.44248291850090027,
+     -0.4669643044471741,
      0.0,
-     -0.4309999942779541
+     -0.453000009059906
     ],
     [
-     0.4074999988079071,
-     0.7722045183181763,
-     0.41216588020324707
+     0.4544079899787903,
+     0.7480000257492065,
+     0.39968737959861755
     ]
    ],
-   "bytes": 153476,
+   "bytes": 196396,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Elf/Food/bld_elf_fishing_hut_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_future_v0.png",
@@ -12326,7 +12326,7 @@
     "information": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Elf/Food/bld_elf_fishing_hut_future_v0__ascension.png"
    },
-   "sha256": "cf7a948b908a8ad5a68ed2977568753e65999880931ecc4885d7695697146de3",
+   "sha256": "3ea9e9a4f847f0652f2c54974fb18b066b87f920c386b40b7b9d054eda6c907b",
    "sourceIds": [
     "bld_elf_fishing_hut_future_v0"
    ],
@@ -12892,25 +12892,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1447,
+   "triangles": 1475,
    "lod_triangles": [
-    1447,
-    857,
-    428
+    1475,
+    839,
+    439
    ],
    "bounds": [
     [
-     -0.8040000200271606,
+     -0.8749316930770874,
      0.0,
-     -0.8600403666496277
+     -0.9465749263763428
     ],
     [
-     0.6831896305084229,
-     1.3530000448226929,
-     0.6420600414276123
+     0.728373646736145,
+     1.3619999885559082,
+     0.7138102650642395
     ]
    ],
-   "bytes": 245652,
+   "bytes": 242516,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_gold_mine_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_gold_mine_industrial_v0.png",
@@ -12918,7 +12918,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_gold_mine_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_gold_mine_industrial_v0__modern.png"
    },
-   "sha256": "bbdc810858d2f3ef91558b76a235802688e56fe99610f5686a91801380ee453d",
+   "sha256": "a4eeffc33219d438921152642b1c158978cdafb45dea2c66f43d865d3fc719e1",
    "sourceIds": [
     "bld_elf_gold_mine_industrial_v0"
    ],
@@ -31237,25 +31237,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 760,
+   "triangles": 732,
    "lod_triangles": [
-    760,
-    428,
-    198
+    732,
+    426,
+    220
    ],
    "bounds": [
     [
-     -0.8235483765602112,
+     -0.8378999829292297,
      0.0,
-     -0.8967000246047974
+     -0.8261399865150452
     ],
     [
-     0.8235483765602112,
-     1.4846999645233154,
-     0.8109451532363892
+     0.8575000166893005,
+     1.7731139659881592,
+     0.6712999939918518
     ]
    ],
-   "bytes": 129128,
+   "bytes": 114548,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_bank_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_bank_industrial_v0.png",
@@ -31263,7 +31263,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_bank_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_bank_industrial_v0__modern.png"
    },
-   "sha256": "94287b2c689cc68a6f68f72792d35b828f4cb9d386023c2fafd22ec3e89cc03f",
+   "sha256": "163f005b62de3561aa182fc09f96cf49f942fca5446539868a1c70ade0a1241e",
    "sourceIds": [
     "bld_orc_bank_industrial_v0"
    ],
@@ -41293,25 +41293,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 722,
+   "triangles": 1245,
    "lod_triangles": [
-    722,
-    428,
-    151
+    1245,
+    709,
+    393
    ],
    "bounds": [
     [
-     -0.8700000047683716,
+     -0.9049999713897705,
      0.0,
-     -0.9359999895095825
+     -0.8759999871253967
     ],
     [
-     0.8700000047683716,
-     1.746999979019165,
-     0.800000011920929
+     0.9254999756813049,
+     1.2596887350082397,
+     0.75
     ]
    ],
-   "bytes": 98508,
+   "bytes": 183708,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_bank_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_future_v0.png",
@@ -41319,7 +41319,7 @@
     "information": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_future_v0__ascension.png"
    },
-   "sha256": "c330a29de45e2daeb45d9c4a3fc8557ffc59281f9f5ebc335f3a5073df31f88a",
+   "sha256": "a3fe3b6506914f63f491fb13e74e7139e8fba507022a22650d3de9f0ed988cc1",
    "sourceIds": [
     "bld_saurian_bank_future_v0"
    ],

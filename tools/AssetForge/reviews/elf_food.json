@@ -748,6 +748,26 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent RC5 model critic",
+      "models": [
+        {
+          "id": "bld_elf_fishing_hut_future_v0",
+          "evidence_sha256": "7ad4dc69401cc806c546a162cd46d9cd7913dc1865a7ae43526d2c4fb9a5d473",
+          "observations": "The sharply rising folded leaf shelter and the low, open-sided circular fish pen separate from the Industrial cottage and boat in both unpainted 64 px views. The connected platform, separate stair and legs at the pen rim make the height change believable. At authored size the fish are visible against blue water and the diamond lattice recurs around the rim and underneath the pen. At phone size the pen opening and steps carry the fishery read. The green and blue Information shelter takes a gold-green highlight in Ascension. LOD2 keeps both the basin opening and the stepped entrance. Serialized LODs 1094/623/322 passed check_entry. Direct checks found zero exposed coplanar overlaps and zero inverted closed shells.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

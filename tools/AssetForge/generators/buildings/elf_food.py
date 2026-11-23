@@ -353,6 +353,9 @@ def hull(m,x,y,z,length,width):
 
 
 def fishing(m):
+    if m.era == 3:
+        tidal_fishery(m)
+        return
     if m.era == 1:
         net_house(m)
         return
@@ -375,6 +378,98 @@ def fishing(m):
         m.disk("metal",.022,.15,-.221,.062,.061,.114)
         if m.lod==0:
             m.lump("glass",(.024,.269,-.22),(.051,.035,.049))
+
+
+def tidal_fishery(m):
+    from generators.buildings.elf_trade_forms import block
+
+    # A shore stair reaches the observation cabin independently of the tidal pen.
+    # Its load-bearing shell sweeps up into a pointed leaf keel at the stern.
+    x = -.259
+    for px,pz in ((-.354,.264),(-.157,.268),(-.322,-.118)):
+        m.disk("wall",px,0,pz,.063,.066,.191,.77,(8,6,4)[m.lod])
+    m.disk("trim",x,.158,.079,.213,.332,.052,.98,(12,8,6)[m.lod])
+    for i in range(3):
+        h=.064*(i+1)
+        block(m,"wall",(x,h*.5,-.403+.089*i),(.207,h,.100),.07)
+    stations=[(-.169,.118,.284,.361),(-.063,.191,.368,.434),
+              (.127,.198,.421,.547),(.271,.148,.434,.678),(.387,.067,.361,.748)]
+    if m.lod==2:
+        stations=[stations[i] for i in (0,2,4)]
+    sections=[]
+    for z,width,sill,ridge in stations:
+        sections.append([(x+u*width,y,z) for u,y in
+                         ((-1,.234),(-.78,.205),(.78,.205),(1,.234),
+                          (.92,sill),(.74,sill+.024),(0,ridge),
+                          (-.74,sill+.024),(-.92,sill))])
+    m.face("wall",sections[0][::-1])
+    m.face("roof",sections[-1])
+    zones=("wall","wall","wall","glass","accent","roof","leaf","trim","glass")
+    for fore,aft in zip(sections,sections[1:]):
+        for i,role in enumerate(zones):
+            j=(i+1)%len(zones)
+            m.face(role,[fore[i],fore[j],aft[j]])
+            m.face(role,[fore[i],aft[j],aft[i]])
+    m.portal(x,.204,-.172,.135,.140)
+    if m.lod<2:
+        for i in (1,2):
+            s=sections[i]
+            for a,b in ((s[0],s[-1]),(s[3],s[4])):
+                m.limb("trim",[a,b],[.010,.008],4)
+
+    # A fixed, round lift-net stays open to the tide. Its hoop rides on three
+    # guide piles. The drawn-in lower edge and diagonal ropes form the basket.
+    cx,cz=.181,-.059
+    rx,rz=.267,.308
+    n=(16,12,8)[m.lod]
+    def ring_point(a,scale,y):
+        return (cx+rx*scale*math.cos(a),y,cz+rz*scale*math.sin(a))
+    rings=[[ring_point(TAU*j/n,scale,y) for j in range(n)]
+           for scale,y in ((.907,.208),(.924,.246),(1,.253),(1.024,.217))]
+    for i,role in enumerate(("trim","ivory","metal","trim")):
+        a,b=rings[i],rings[(i+1)%4]
+        for j in range(n):
+            k=(j+1)%n
+            m.face(role,[a[j],a[k],b[k],b[j]])
+    rim_y=.216
+    base_y=.047
+    for i in range(0,n,2 if m.lod==2 else 1):
+        a=TAU*i/n
+        b=TAU*(i+1)/n
+        top=ring_point(a,.958,rim_y)
+        heel=ring_point(b,.645,base_y)
+        m.limb("metal",[top,heel],[.007,.007],(4,3,3)[m.lod])
+        if m.lod<2:
+            m.limb("trim",[top,ring_point(a-TAU/n,.645,base_y)],[.006,.006],3)
+    for i in (0,1,2):
+        a=(.41,2.43,4.74)[i]
+        u,_,v=ring_point(a,.986,0)
+        m.disk("wall",u,0,v,.033,.031,.227,.85,(8,5,4)[m.lod])
+        if m.lod<2:
+            m.disk("trim",u,.223,v,.030,.028,.054,.91,6)
+    # The perforated well has a weighted bottom and a waterline inside the mesh.
+    for height,scale,role in ((.046,.660,"trim"),(.128,.804,"water")):
+        rim=[ring_point(TAU*j/n,scale,height) for j in range(n)]
+        m.face(role,rim[::-1])
+
+    # A larger catch and a fingerling sit at the surface below the retractable guide.
+    school=((.014,.038,.225,-19),(-.038,-.089,.170,26))
+    for dx,dz,length,angle in (school[:1] if m.lod==2 else school):
+        with m.transform(translate=(cx+dx,.121,cz+dz),rotate_y=angle,scale=length):
+            outline=[(.48,0),(.21,.115),(-.05,.137),(-.31,.052),
+                     (-.32,-.046),(-.08,-.123),(.17,-.124)]
+            pts=[(u,.018,v) for u,v in outline]
+            dorsal=(.085,.172,.001)
+            for j,p in enumerate(pts):
+                m.face("ivory",[pts[(j+1)%len(pts)],p,dorsal])
+            m.face("trim",pts)
+            for sign in (-1,1):
+                m.leaf("accent",(-.245,.054,0),(-.512,.084,sign*.182),.070,.023)
+    # Its hollow collection arm links the wet well to the shore-side cabin.
+    m.limb("wall",[(-.119,.302,.133),(-.038,.363,.149),
+                   (.055,.357,.170),(.102,.257,.198)],[.037,.032,.026,.024])
+    if m.lod<2:
+        m.lump("emissive",(.045,.365,.170),(.028,.018,.024),6)
 
 
 def net_house(m):

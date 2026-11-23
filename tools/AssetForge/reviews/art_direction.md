@@ -1,6 +1,6 @@
 # GodSim building art direction review
 
-**The coordinator’s 101 RC4 lineages passed independent art direction after nine corrections.** All 53 final sheets and the current 1,034-model evidence set are signed. The inherited Elf FishingHut observation remains outside this scope. [Signed RC4 disposition](#signed-rc4-disposition)
+**All five coordinator round 3 pairs passed independent visual review.** The revised Saurian treasury closes the bank hold. The Elf net-pen fishing station resolves the inherited Industrial/Future resemblance. [Signed round 3 disposition](#signed-round-3-disposition)
 
 ## First full assembly, 23 November 2026
 
@@ -259,5 +259,35 @@ Compared with `7e905bb`, 154 GLBs changed in 87 listed lineages. The strict pack
 The inherited Elf FishingHut observation remains open outside the RC4 list. Both of its original exports retain the same dock, leaf hut, skiff and bucket frame in the final sheets. The comparison gives 1,141 of 2,691 matching corners in each direction (42.40%). Its Industrial GLB has SHA-256 `aed534d3ddddf6415dee66142fa284148bf34bea06ad8e7b17568093698e982b`. Its Future GLB has SHA-256 `cf7a948b908a8ad5a68ed2977568753e65999880931ecc4885d7695697146de3`. This visual similarity limits any broader claim about the full catalog. The review covered the rendered assets and exported model evidence. Runtime and device verification are separate.
 
 Signed by `catalog_art_director`, 23 November 2026. Catalog evidence SHA-256 `755e649839bc18281984253149f5b4dfeda06f658d5db3f118b0c9f23914ce48`. The approval record binds this disposition to all 19 painted and 34 geometry pages. [Signed evidence and sheet hashes](art_direction_approval.json)
+
+## Coordinator round 3 candidate review, 23 November 2026
+
+I compared the five named pairs at checkpoint `9b09d38` and in the revised exports using both 64 px unpainted views. I opened the painted age and LOD panel, the four changed canonical painted pages (02, 06, 07 and 18) and all seven changed canonical neutral pages (`dwarf-03`, `elf-01`, `elf-02`, `rc4-dwarf-03`, `rc4-elf-01`, `rc4-orc-01`, `rc4-saurian-01`). The comparisons cover Classical and Industrial Orc Bank, Ancient and Industrial Elf Gold Mine, Industrial and Future Elf Fishing Hut, Industrial and Future Saurian Bank, and Ancient and Industrial Dwarf Well.
+
+| Pair | Reading at 64 px |
+| --- | --- |
+| Orc Bank | The older round, red-banded hall carries a flag above a conical roof. The industrial building has a square vault tower, gold medallion over the entrance, and a separate low red-roofed wing. Its horn tip and red canopy carry the Orc treatment across the change. |
+| Elf Gold Mine | The early rock adit has a triangular timber frame, with its cart at the side. The industrial works put a wheel beside a bank of upright stamps. A tall stack and a broad gold-edged wash trough give the ore works a different outline from either side. |
+| Elf Fishing Hut | The Industrial leaf-roofed hut sits on a round dock with a skiff and lifting arm. The Future fishing station pairs a tall swept leaf with a circular net pen on legs. The fish and water are visible in the painted pen. Both 64 px angles retain the tall leaf and separate pen. This resolves the Industrial/Future resemblance recorded at RC4. |
+| Saurian Bank | **Hold.** The Industrial stepped roof and the Future ring are distinct within the pair. On painted page 02, the Future Bank and the neutral AscensionGate each read as an upright open turquoise-and-gold hoop on a stepped ivory platform. The bank’s front plaque occupies too few pixels to overcome that resemblance. This collision first appears on the revised bank. |
+| Dwarf Well | The early beam, bucket and rope sit directly above the circular well. The industrial wheel and pump housing stand beside an exposed round water tank, with a long beam reaching over it. The heavy supports and layered rim retain the Dwarf construction in both views. |
+
+Reopen `bld_saurian_bank_future_v0` for a substantial locked vault face or enclosed treasury recognizable from both angles. Preserve the Saurian stepped masonry and compare against the neutral AscensionGate on painted page 02 before approval. The held GLB has SHA-256 `a9942168f1cd934b85028f22d8d049cb9697c1b1154f521bef44d7dedef30585`. Its painted page 02 has SHA-256 `957382435a3861096df1176a3a03c25cc2bbc11173e8374596ce36e5551d9ab1`, and its neutral `rc4-saurian-01.png` has SHA-256 `1c8152d11af4d409d5cb6c7390d7a7b1640083e054cdde637c1aff4ee4951fcf`.
+
+### Signed round 3 disposition
+
+**Approved all five requested era comparisons. The Future Saurian Bank hold is closed.** The rebuilt treasury has a tall, solid strongroom and a lower public hall. Its hinged circular vault door fills the strongroom wall. Both 64 px neutral views retain the two unequal roof heights and the vault face. The stepped pale base, turquoise fascia and gold hardware carry the Saurian treatment through Information and Ascension. The Industrial bank retains a centered crest and tiered roof. Beside the final treasury on painted page 02, the neutral gate reads as an open passage. I also compared the final bank with the other four races’ late banks on that page and inspected both original-size age previews and the three LODs. The reverse of LOD1 shows the two raised roof bands and the difference in roof heights. LOD2 retains the vault door and separate public entrance. [Held bank and gate](rc5/held-bank-and-gate.png) · [Final two-angle comparisons](rc5/final-families.png) · [Age and LOD images](rc5/models-and-lods.png)
+
+| Approved model | Package review round | Approved GLB SHA-256 |
+| --- | ---: | --- |
+| `bld_orc_bank_industrial_v0` | 8 | `163f005b62de3561aa182fc09f96cf49f942fca5446539868a1c70ade0a1241e` |
+| `bld_elf_gold_mine_industrial_v0` | 8 | `a4eeffc33219d438921152642b1c158978cdafb45dea2c66f43d865d3fc719e1` |
+| `bld_elf_fishing_hut_future_v0` | 9 | `3ea9e9a4f847f0652f2c54974fb18b066b87f920c386b40b7b9d054eda6c907b` |
+| `bld_saurian_bank_future_v0` | 9 | `a3fe3b6506914f63f491fb13e74e7139e8fba507022a22650d3de9f0ed988cc1` |
+| `bld_dwarf_well_industrial_v0` | 6 | `19684148a57e9855839f0d1e728d52d54ca25bb0958834e19cf6c68b61a3b3ec` |
+
+I checked current package evidence and surface results for each replacement. The strict loader accepted all 1,034 models in 71 packages. I reopened the final bank on painted page 02 and neutral page `rc4-saurian-01` after correction. Of the 53 canonical pages, the 11 named in the candidate review changed from `9b09d38`. The other 42 retain their previously signed SHA-256 values. The signature covers all 19 painted and 34 neutral pages. The final bank pages have SHA-256 `385794aa069ef774302111054c5ab6c98750dc4b1a636b9ffd65609dae3f7d99` and `c5902e0e4cd2b316fb911883bf326103c3dd78d905b95ad4a68accc44e05a448` respectively. The five final pair records report zero matching rounded LOD0 corners in both directions. [Checkpoint evidence](rc5/checkpoint-pairs.json) · [Final pair evidence](rc5/final-pairs.json)
+
+Signed by `catalog_art_director`, 23 November 2026. Catalog evidence SHA-256 `2a44c4c4f0186b3a0836bd1819fde28f019509928415f2478aeb3eb41202d353`. The visual disposition covers these five pairs in the exported models and offline renders. [Catalog signature and canonical page hashes](art_direction_approval.json)
 
 

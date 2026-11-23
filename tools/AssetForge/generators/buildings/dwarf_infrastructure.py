@@ -9,8 +9,71 @@ from generators.buildings.dwarf_learninghealth import Stonework, publish_package
 PACKAGE = "dwarf_infrastructure"
 
 
+def beam_pump(m):
+    """A flywheel drives the walking beam above a public, stone-lined water well."""
+    bx,bz=-.478,-.129
+    n=(20,12,6)[m.lod]
+    m.drum("fieldstone",bx,0,bz,.481,.105,.453,n=n)
+    m.drum("brick",bx,.105,bz,.405,.199,.427,n=n)
+    m.ring("metal",bx,.304,bz,.445,.350,.081,n=n)
+    m.drum("water",bx,.305,bz,.393,.027,n=n)
+    m.slab("fieldstone",.343,.098,.990,.795,0,.137,.112,.024)
+    m.slab("brick",.389,.119,.785,.572,.137,.298,.073)
+    # Twin bearing cheeks leave daylight around the central trunnion.
+    for z in (-.035,.275):
+        m.slab("wall",.097,z,.36,.148,.137,.961,.039,.050)
+        m.slab("metal",.097,z,.262,.166,.961,1.053,.035)
+    with m.transform(translate=(.096,.998,.358),rotate_x=-90):
+        m.drum("gold",0,0,0,.084,.502,n=(12,8,5)[m.lod])
+
+    # The cast girder is deeper above the bearing and tapers to each rod socket.
+    outline=[(-.664,.785),(-.497,.875),(.076,1.135),(.219,1.126),
+             (.714,1.207),(.73,1.101),(.212,.950),(.055,.901),(-.508,.772),(-.630,.702)]
+    for z in (.044,.194):
+        # Split the slightly concave side into vertical strips.
+        for j in range(4):
+            if z==.044:
+                points=[outline[j],outline[j+1],outline[8-j],outline[9-j]]
+            else:
+                points=[outline[9-j],outline[8-j],outline[j+1],outline[j]]
+            m.face("metal",[(x,y,z) for x,y in points])
+    for j,(x,y) in enumerate(outline):
+        u,v=outline[(j+1)%len(outline)]
+        m.face("trim",[(x,y,.194),(u,v,.194),(u,v,.044),(x,y,.044)])
+    # The well end works a polished vertical piston, with its delivery spout bent over the water.
+    m.beam("gold",(-.563,.403,.119),(-.563,.817,.119),.042)
+    m.drum("metal",-.563,.297,.119,.079,.246,.070,n=(12,7,5)[m.lod])
+    m.beam("metal",(-.562,.448,.118),(-.516,.439,-.184),.066)
+    m.beam("metal",(-.517,.449,-.182),(-.516,.401,-.193),.069)
+    m.drum("water",-.516,.328,-.194,.024,.088,.021,n=(7,5,4)[m.lod])
+    # Steam cylinder and eccentric share the engine bed at the drive end.
+    m.drum("metal",.629,.298,.122,.118,.300,.112,n=(12,8,5)[m.lod])
+    m.drum("gold",.629,.598,.122,.124,.060,.113,n=(12,8,5)[m.lod])
+    m.beam("metal",(.629,.646,.119),(.656,1.139,.119),.051)
+    wx,wy=.451,.493
+    with m.transform(translate=(wx,wy,-.165),rotate_x=-90):
+        m.ring("trim",0,0,0,.286,.231,.071,n=(22,12,7)[m.lod])
+        m.drum("gold",0,-.031,0,.065,.124,n=(12,8,5)[m.lod])
+        spoke_count=(6,5,3)[m.lod]
+        for j in range(spoke_count):
+            with m.transform(rotate_y=360*j/spoke_count):
+                m.block("metal",(.149,.033,0),(.202,.041,.042),taper=.12)
+    if m.lod<2:
+        # A crank and connecting rod link the rim to the drive-end pin.
+        m.beam("gold",(wx+.156,wy+.149,-.235),(.669,1.147,-.113),.043)
+        with m.transform(translate=(.673,1.144,.123),rotate_x=-90):
+            m.drum("trim",0,0,0,.051,.246,n=(9,6)[m.lod])
+    if m.lod==0:
+        m.rune(.275,.225,-.174,.105)
+        for y in (.35,.49):
+            m.drum("trim",.629,y,.122,.121,.035,n=12)
+        m.ring("gold",bx,.200,bz,.422,.405,.023,n=n)
+
+
 def well(m):
     e=m.era
+    if e==2:
+        return beam_pump(m)
     if e==3:
         return service_well(m)
     r=.49

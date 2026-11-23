@@ -323,7 +323,87 @@ def conduit_mine(m):
            [.085,.064,.061])
 
 
+def stamp_mine(m):
+    # The adit opens beside a steam stamp battery. Three falling shoes grind the
+    # ore in a common mortar, which discharges into the riffled gold launder.
+    cliff(m,-.51,.36,.38,.37,.57,1 if m.lod==2 else 2,"fieldstone")
+    arch(m,-.535,0,.052,.508,.498,.205,"wall")
+    block(m,"door",(-.535,.142,.074),(.335,.284,.073))
+    if m.lod<2:
+        for x in (-.634,-.437):
+            block(m,"metal",(x,.021,-.202),(.027,.041,.545))
+        for z in (-.38,-.229,-.089):
+            block(m,"timber",(-.538,.011,z),(.305,.022,.047))
+
+    # The round boiler house and bonded brick flue occupy the back of the works.
+    m.disk("brick",.347,0,.395,.365,.293,.398,.97)
+    m.crown(.347,.387,.395,.401,.323,.146,"roof",5)
+    m.disk("brick",.421,.418,.495,.144,.141,.806,.69)
+    if m.lod<2:
+        m.disk("trim",.421,1.210,.495,.102,.100,.087,1.27)
+        m.disk("metal",.421,1.294,.495,.130,.127,.065,.99)
+        m.disk("door",.421,1.355,.495,.096,.092,.007,.98)
+    else:
+        m.disk("metal",.421,1.210,.495,.102,.100,.149,1.23)
+    if not m.lod:
+        for y,r in ((.721,.133),(1.004,.115)):
+            m.disk("metal",.421,y,.495,r,r*.98,.023,.99)
+
+    # Curved cheeks spring from separate piers and carry the raised guide beam.
+    for x in (-.30,.389):
+        block(m,"brick",(x,.116,-.159),(.159,.232,.27),.08)
+        feet=(x,.217,-.152)
+        shoulder=(x-.066,.900,-.187)
+        if m.lod<2:
+            m.limb("trim",[feet,(x,.515,-.146),(x-.033,.831,-.160),shoulder],
+                   [.067,.052,.045,.043],(8,5)[m.lod])
+        else:
+            m.limb("trim",[feet,shoulder],[.067,.043],4)
+    if m.lod<2:
+        block(m,"metal",(.014,.493,-.148),(.863,.102,.083),.05)
+    block(m,"trim",(-.013,.862,-.168),(.813,.097,.095),.035)
+    block(m,"fieldstone",(.048,.128,-.299),(.763,.256,.258),.055)
+    if m.lod<2:
+        block(m,"metal",(.048,.253,-.295),(.730,.074,.235),.025)
+    for i,x in enumerate((-.167,.038,.242)):
+        shoe=(.313,.349,.301)[i]
+        block(m,"metal",(x,(shoe+.984)*.5,-.221),(.058,.984-shoe,.064))
+        block(m,"slate",(x,shoe,-.245),(.123,.104,.124),.035)
+        if m.lod<2:
+            block(m,"gold",(x,.906,-.222),(.097,.057,.096),.06)
+    shaft(m,"metal",(-.359,.51,-.127),(.596,.51,-.127),.046)
+    wheel(m,.547,.510,-.127,.296,axis="x",role="metal")
+    if m.lod<2:
+        shaft(m,"metal",(.543,.452,.001),(.48,.315,.28),.032)
+        # The connecting rod runs into the steam cylinder on the boiler saddle.
+        shaft(m,"trim",(.49,.315,.256),(.452,.304,.40),.073)
+
+    # Paired timber bents carry the wash box down to a clean-up trough.
+    for z,y in ((-.415,.23),(-.742,.123)):
+        block(m,"timber",(.083,y*.5,z),(.35,y,.059),.07)
+    with m.transform(translate=(.083,.182,-.581),rotate_x=-18):
+        block(m,"timber",(0,0,0),(.422,.049,.459))
+        if m.lod<2:
+            block(m,"water",(0,.027,0),(.348,.013,.443))
+        else:
+            m.face("water",[(-.174,.031,-.221),(-.174,.031,.221),
+                            (.174,.031,.221),(.174,.031,-.221)])
+        for s in (-1,1):
+            block(m,"trim",(s*.196,.044,0),(.038,.071,.461))
+        if m.lod<2:
+            for z in (-.13,-.017,.094):
+                block(m,"gold",(0,.038,z),(.341,.014,.018))
+    m.disk("trim",.085,0,-.820,.207,.126,.077,1.04)
+    m.disk("gold",.085,.074,-.820,.193,.115,.023,.96)
+    if m.lod<2:
+        for x,z,r in ((.032,-.843,.048),(.11,-.859,.060),(.151,-.807,.038)):
+            m.lump("gold",(x,.104,z),(r,r*.60,r*.72),5)
+
+
 def mine(m,kind):
+    if kind=="GoldMine" and m.era==2:
+        stamp_mine(m)
+        return
     if kind in ("GoldMine","CoalMine") and m.era==3:
         sorting_works(m,kind)
         return
