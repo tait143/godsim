@@ -300,6 +300,76 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_house_classical_medieval_v0",
+          "evidence_sha256": "a4c35e6021a199f16b27516f23ae3651d9475e1f4e8ef2e2fd3334d3753a562d",
+          "observations": "The blue-grey gable overhangs an exposed timber triangle. Paired flower boxes and the recessed front door anchor the upper story to its stone base, and the forward gable remains readable at game scale. Serialized triangle counts are 476, 270, 114 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_classical_medieval_v1",
+          "evidence_sha256": "4986f3ead9cdbe195bfa0607413fff4d744495a248818fef3caeb812600d90c3",
+          "observations": "A front dormer and chimney break the broad tiled roof. The timber door, bracket lantern and flower box cluster around a small stoop. The dormer remains distinct as the facade detail simplifies. Serialized triangle counts are 488, 278, 132 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_house_classical_medieval_v0",
+          "evidence_sha256": "d9e2bda3d1601641ca29a19a8e6cd73a52aae4b2ab8ec20ceaf3b28c78956ad8",
+          "observations": "The front gable, exposed timber posts and stone lower story stay aligned in the 190-pixel middle views. The dark doorway still opens onto the stoop after the flower box and trim are reduced. Serialized triangle counts are 476, 270, 114 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_classical_medieval_v1",
+          "evidence_sha256": "c55075498f3abe52bfbdfe6e609f8fa09e1d796f3215f4a479b1f035c26bc98a",
+          "observations": "The dormer, chimney and steep roof stay distinct at medium distance. The entrance and sill remain continuous below the eaves, with the window box still marking the street side. Serialized triangle counts are 488, 278, 132 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

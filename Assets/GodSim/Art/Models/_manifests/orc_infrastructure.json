@@ -21,7 +21,7 @@
   "triangles": 616,
   "lod_triangles": [
    616,
-   392,
+   350,
    182
   ],
   "bounds": [
@@ -36,7 +36,7 @@
     1.415024995803833
    ]
   ],
-  "bytes": 103528,
+  "bytes": 101292,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Infrastructure/bld_orc_aqueduct_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_aqueduct_classical_v0.png",
@@ -64,25 +64,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 744,
+  "triangles": 600,
   "lod_triangles": [
-   744,
-   496,
-   195
+   600,
+   300,
+   180
   ],
   "bounds": [
    [
-    -0.31511566042900085,
+    -0.40849998593330383,
     0.0,
-    -1.415024995803833
+    -1.4107500314712524
    ],
    [
-    0.3185825049877167,
-    1.5867899656295776,
-    1.415024995803833
+    0.40849998593330383,
+    1.481328010559082,
+    1.4107500314712524
    ]
   ],
-  "bytes": 118652,
+  "bytes": 93508,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Infrastructure/bld_orc_aqueduct_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_aqueduct_future_v0.png",
@@ -111,7 +111,7 @@
   "triangles": 744,
   "lod_triangles": [
    744,
-   496,
+   424,
    195
   ],
   "bounds": [
@@ -126,7 +126,7 @@
     1.415024995803833
    ]
   ],
-  "bytes": 119872,
+  "bytes": 116816,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Infrastructure/bld_orc_aqueduct_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_aqueduct_industrial_v0.png",
@@ -374,25 +374,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 962,
+  "triangles": 880,
   "lod_triangles": [
-   962,
-   530,
-   252
+   880,
+   472,
+   226
   ],
   "bounds": [
    [
-    -1.3776971101760864,
+    -1.2741996049880981,
     0.0,
-    -1.1633700132369995
+    -1.1120699644088745
    ],
    [
-    1.2835924625396729,
-    2.043287992477417,
-    0.8486843705177307
+    1.1415636539459229,
+    2.038062334060669,
+    1.0452743768692017
    ]
   ],
-  "bytes": 167588,
+  "bytes": 131132,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Infrastructure/bld_orc_power_plant_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_power_plant_future_v0.png",
@@ -646,7 +646,7 @@
   "triangles": 706,
   "lod_triangles": [
    706,
-   430,
+   402,
    188
   ],
   "bounds": [
@@ -661,7 +661,7 @@
     0.25174999237060547
    ]
   ],
-  "bytes": 118264,
+  "bytes": 116912,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Infrastructure/bld_orc_well_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_well_ancient_v0.png",
@@ -689,25 +689,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 706,
+  "triangles": 582,
   "lod_triangles": [
-   706,
-   430,
-   188
+   582,
+   312,
+   148
   ],
   "bounds": [
    [
-    -0.3230000138282776,
+    -0.3790270984172821,
     0.0,
-    -0.35624998807907104
+    -0.367692768573761
    ],
    [
-    0.3102708160877228,
-    1.2717000246047974,
-    0.25174999237060547
+    0.38120174407958984,
+    0.9153000116348267,
+    0.2061927616596222
    ]
   ],
-  "bytes": 118288,
+  "bytes": 102120,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Infrastructure/bld_orc_well_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_well_classical_v0.png",
@@ -734,25 +734,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 745,
+  "triangles": 744,
   "lod_triangles": [
-   745,
-   451,
-   204
+   744,
+   379,
+   176
   ],
   "bounds": [
    [
-    -0.3230000138282776,
+    -0.38830241560935974,
     0.0,
-    -0.35624998807907104
+    -0.29326653480529785
    ],
    [
-    0.3102708160877228,
-    1.2069000005722046,
-    0.25174999237060547
+    0.38910356163978577,
+    1.058508038520813,
+    0.3065403401851654
    ]
   ],
-  "bytes": 124620,
+  "bytes": 126412,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Infrastructure/bld_orc_well_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_well_future_v0.png",
@@ -778,25 +778,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 741,
+  "triangles": 992,
   "lod_triangles": [
-   741,
-   451,
-   207
+   992,
+   484,
+   229
   ],
   "bounds": [
    [
-    -0.3230000138282776,
+    -0.3996863067150116,
     0.0,
-    -0.35624998807907104
+    -0.298356831073761
    ],
    [
-    0.31587499380111694,
-    1.3199759721755981,
-    0.25174999237060547
+    0.37665390968322754,
+    0.9153000116348267,
+    0.3046863079071045
    ]
   ],
-  "bytes": 119852,
+  "bytes": 150160,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Infrastructure/bld_orc_well_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_well_industrial_v0.png",

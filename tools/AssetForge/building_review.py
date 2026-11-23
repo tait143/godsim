@@ -63,12 +63,14 @@ def approved_family_sheets(entries):
     if not path.exists():
         raise ValueError(f"Missing independent catalog approval: {path}")
     approval = json.loads(path.read_text())
-    sheets = approval.get("family_sheets")
+    painted = approval.get("family_sheets")
+    unpainted = approval.get("era_sheets")
     if (approval.get("schema") != "godsim.art-direction/1" or not approval.get("reviewer")
-            or approval.get("model_count") != len(entries) or not isinstance(sheets, dict)
-            or not sheets or approval.get("evidence_sha256") != catalog_evidence(entries)):
+            or approval.get("model_count") != len(entries)
+            or not all(isinstance(group, dict) and group for group in (painted, unpainted))
+            or approval.get("evidence_sha256") != catalog_evidence(entries)):
         raise ValueError("Independent art direction approval does not match the current catalog")
-    return sheets
+    return painted, unpainted
 
 
 def read_reviews(package):

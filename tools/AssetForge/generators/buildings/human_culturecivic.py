@@ -194,6 +194,26 @@ def arena(m,era):
 
 
 def stadium(m,era):
+    if era=='future':
+        # A radial bowl, open at the players' tunnel, puts the pitch under a
+        # single suspended halo. Four leaning pylons carry its perimeter.
+        m.course('fieldstone',0,0,2.72,2.73,0,.063,.23)
+        m.course('grass',0,-.07,1.35,1.79,.063,.078,.22)
+        terrace(m,1.15,1.11,.04,[(-155,155)],(4,3,2)[m.lod],
+                (32,20,10)[m.lod],.56,.49,base=.068)
+        for a in (-2.21,-.68,.68,2.21):
+            x,z=1.09*sin(a),1.07*cos(a)
+            m.beam('metal',(x,.075,z),(x*.91,1.06,z*.90),.102)
+        circular_band(m,'ivory',0,1.05,.03,1.11,.89,.089,(36,20,9)[m.lod],.98)
+        for z in (-.66,.69):
+            for x in (-.19,.19):
+                m.block('ivory',(x,.16,z),(.035,.17,.04))
+            m.block('ivory',(0,.255,z),(.42,.035,.042))
+        if m.lod<2:
+            circular_band(m,'ivory',0,.081,-.05,.155,.139,.012,(14,8)[m.lod])
+            for x in (-.46,.46):
+                pennon(m,x,.07,-1.03,.38,.15)
+        return
     future=era=='future'
     m.course('fieldstone',0,0,2.62,2.73,0,.062,.26)
     m.course('grass',0,0,1.34,2.32,.060,.074,.14)
@@ -276,71 +296,78 @@ def drape(m,x,z,s):
 
 
 def theater(m,era):
-    future=era=='future'
-    retro=era=='industrial'
+    if era=='industrial':
+        # A brick opera house: high fly loft behind a pitched auditorium and a lit street marquee.
+        m.course('fieldstone',-.04,.03,1.58,1.77,0,.118,.08)
+        m.block('brick',(-.04,.526,.02),(1.43,.84,1.44))
+        with m.transform(translate=(-.04,0,-.10)):
+            m.roof(1.53,1.35,.942,.37,'roof','wall',hip=.12,ridge_mat='trim')
+        m.block('wall',(-.04,1.058,.52),(1.19,.80,.48))
+        m.block('trim',(-.04,1.48,.52),(1.27,.085,.54))
+        m.entry(-.04,-.711,.51,.117,.57,curtain=True)
+        m.wedge((-.04,.67,-.75),1.12,.30,.14,m.color('banner'),material='banner')
+        if m.lod<2:
+            for side in (-1,1):
+                m.light(-.04+side*.49,.54,-.707,.21,.29,shutters=m.lod==0)
+                if m.lod==0:
+                    m.block('accent',(-.04+side*.59,.75,-.724),(.08,.25,.085))
+            lamps=7 if m.lod==0 else 1
+            for j in range(lamps):
+                x=-.035+(j-(lamps-1)*.5)*.91/max(1,lamps-1)
+                m.block('emissive',(x,.687,-.894),(.048,.037,.025))
+        return
+    if era=='future':
+        # In-the-round stage with raked seating and a high lighting bridge on splayed steel legs.
+        cylinder(m,'wall',0,0,.01,.87,.11,sides=(20,12,7)[m.lod])
+        cylinder(m,'timber',0,.105,.01,.405,.18,sides=(16,10,6)[m.lod])
+        terrace(m,.86,.82,.014,[(-128,-21),(21,128)],(3,2,1)[m.lod],
+                (7,4,3)[m.lod],.55,.36,.106)
+        for side in (-1,1):
+            x=side*.70
+            for z in (-.25,.30):
+                m.beam('ivory',(x,.11,z),(side*.47,.98,z*.64),.085)
+            m.block('roof',(side*.47,.983,.014),(.13,.094,.44))
+        m.block('metal',(0,1.082,.014),(1.12,.13,.31))
+        for j in range((6,4,2)[m.lod]):
+            x=-.42+.84*j/max(1,(6,4,2)[m.lod]-1)
+            cylinder(m,'emissive',x,.944,-.048,.063,.086)
+        if m.lod==0:
+            for s in (-1,1):
+                pennon(m,s*.70,.21,-.27,.48,.12)
+        return
     m.course('fieldstone',0,.070,1.78,1.69,0,.055,.15)
     m.course('trim',0,.38,1.54,.80,.052,.185,.049)
     m.block('timber',(0,.191,.363),(1.51,.045,.81))
-    back_y, back_h = (.579, .731) if future else (.586, .745)
-    m.block('door',(0,back_y,.659),(1.42,back_h,.155))
+    m.block('door',(0,.586,.659),(1.42,.745,.155))
     for s in (-1,1):
         x=s*.667
         m.block('wall',(x,.573,.29),(.148,.729,.385))
         if m.lod<2:
             m.block('accent',(x,.882,.282),(.181,.059,.424))
         drape(m,s*.60,.199,s)
-    if retro:
-        m.block('brick',(0,.849,.617),(1.55,.65,.35))
-        panel(m,'door',0,.77,.438,1.14,.53)
-        m.prism_x((0,1.174,.617),1.63,.438,.17,m.color('roof'),material='roof')
-        m.block('trim',(0,1.015,.284),(1.565,.12,.37))
-        for i in range(5 if m.lod==0 else 3):
-            x=-.61+1.22*i/(4 if m.lod==0 else 2)
-            m.block('emissive',(x,1.01,.091),(.048,.045,.018))
-    elif future:
-        # Rising shell behind the actors, folded in sections over an open-air stage.
-        n=(8,6,4)[m.lod]
-        # Outer eaves rest directly on the two stage piers at every mesh resolution.
-        # The terminal bays are level, keeping the bearing width independent of the facets.
-        xs=[-.86]+[-.665+1.33*j/n for j in range(n+1)]+[.86]
-        for x0,x1 in zip(xs,xs[1:]):
-            def pt(x,front):
-                u=max(0,1-(x/.665)**2)
-                return (x,.958+(.47 if front else .12)*u,.004-.07*u if front else .778)
-            a,b,c,d=pt(x0,True),pt(x1,True),pt(x1,False),pt(x0,False)
-            m.face('metal',(d,c,b,a))
-            m.face('banner',[(x,y-.032,z) for x,y,z in (a,b,c,d)])
-            m.face('metal',(b,a,(a[0],a[1]-.032,a[2]),(b[0],b[1]-.032,b[2])))
-    else:
-        m.block('ivory',(0,.951,.364),(1.61,.11,.74))
-        m.prism_x((0,1.006,.386),1.69,.80,.30,m.color('roof'),material='roof')
-        if m.lod<2:
-            panel(m,'accent',0,.965,-.012,.94,.028)
+    m.block('ivory',(0,.951,.364),(1.61,.11,.74))
+    m.prism_x((0,1.006,.386),1.69,.80,.30,m.color('roof'),material='roof')
+    if m.lod<2:
+        panel(m,'accent',0,.965,-.012,.94,.028)
     terrace(m,.87,1.15,.305,[(100,166),(194,260)],(3,2,1)[m.lod],(6,4,3)[m.lod],.53,.274,.058)
     for k in range(3 if m.lod<2 else 1):
         m.block('wall',(0,.086+.019*k,-.71+.102*k),(.256,.058+.038*k,.109))
     if m.lod<2:
         # Blue-and-gold comedy mask is a crest, raised above the curtain.
-        cylinder_mat='gold' if not future else 'ascension'
-        if future:
-            m.beam('metal',(0,1.363,.027),(0,1.060,.112),.029)
-        elif not retro:
-            m.block('trim',(0,.965,-.002),(.14,.124,.048))
-        crest_z=.088 if retro else .111 if future else -.028
-        with m.transform(translate=(0,.979 if not future else 1.057,crest_z),rotate_x=-90):
-            cylinder(m,cylinder_mat,0,0,0,.087,.031,sides=8)
+        m.block('trim',(0,.965,-.002),(.14,.124,.048))
+        with m.transform(translate=(0,.979,-.028),rotate_x=-90):
+            cylinder(m,'gold',0,0,0,.087,.031,sides=8)
         for s in (-1,1):
             m.block('trim',(s*.605,.459,.170),(.150,.030,.045))
         # Painted hill flats and a rising moon form a small touring stage set.
-        front=.429 if retro else .572
+        front=.572
         panel(m,'banner',0,.580,front,.91,.454)
         m.face('leaf',[(.448,.354,front-.007),(-.446,.354,front-.007),
                        (-.446,.415,front-.007),(-.169,.581,front-.007)])
         m.face('trim',[(.449,.354,front-.013),(-.154,.354,front-.013),(.202,.537,front-.013),(.449,.426,front-.013)])
         with m.transform(translate=(-.01,.678,front-.010),rotate_x=-90):
             cylinder(m,'gold',0,0,0,.060,.010,sides=(9,6)[m.lod])
-        if not future:
-            pennon(m,-.632,1.097,.38,.344,.169)
+        pennon(m,-.632,1.097,.38,.344,.169)
     if m.lod==0:
         for s in (-1,1):
             m.block('trim',(s*.52,.234,-.004),(.091,.045,.055))

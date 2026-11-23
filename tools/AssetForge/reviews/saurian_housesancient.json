@@ -198,6 +198,52 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "independent_saurian_round1_2026_11_23",
+      "models": [
+        {
+          "id": "bld_saurian_house_ancient_bronze_v1",
+          "evidence_sha256": "879da27d6573a76fd5e57e485d55d6f16d42acd6612c2cfa86c0a88db6fdc8de",
+          "observations": "An offset pair of straw-coloured hipped roofs rises above a three-sided landing, timber feet and a frontal stair. Enlarged LOD1 shows the front opening and both roof tiers intact. The central diamond still marks the entrance. The serialized meshes have 568, 322, 166 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 2.15% of front-view pixels and 3.30% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_saurian_house_ancient_bronze_v1",
+          "evidence_sha256": "c6be387fcc4b8ae4ba4e15cf3a9c14d3e9950829d8a1415ac5b17b79b1becac6",
+          "observations": "The two offset roof sections still meet above the raised house, with both side walls filled. The main stair and dark door survive the change to LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            568,
+            322,
+            166
+          ]
+        }
+      ]
     }
   ]
 }

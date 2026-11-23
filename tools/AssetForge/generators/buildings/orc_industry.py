@@ -94,7 +94,33 @@ def shield(m,x,y,z,s,paint):
             m.post("gold",(0,.033,-.059),(0,.033,-.125),.070,sides=6)
 
 
+def fabrication_vault(m):
+    # A polygonal stock vault feeds an open sizing cradle with displayed armor plates.
+    m.shell(-.33,.25,[(0,.44,"fieldstone"),(.14,.48,"metal"),(.29,.34,"ivory"),
+                       (.67,.34,"glass"),(.75,.47,"metal"),(.91,.46,"turquoise"),
+                       (1.09,.29,"ivory"),(1.13,.18,"metal")],(12,7,4)[m.lod],flatten=.82)
+    m.entry(-.34,-.056,0,.30,.45,3)
+    for s in (-1,1):
+        m.tusk(-.33+s*.35,.73,.24,s,.49)
+    m.block("metal",.41,0,-.08,.61,.15,1.10,.07)
+    for j in range(2):
+        z=-.42+j*.53
+        h=.58+j*.20
+        for side in (-1,1):
+            m.post("ivory",(.40+side*.27,.15,z),(.40+side*.19,h,z),.047,.034,
+                   sides=(8,5,4)[m.lod])
+        m.block("turquoise",.40,h-.023,z,.43,.074,.11,.10)
+        if m.lod<2:
+            m.post("metal",(.40,.31,z),(.40,h,z),.051,sides=(8,5)[m.lod])
+        shield(m,.40,h*.71,z-.098,.63 if not j else .78,"roof")
+    if m.lod==0:
+        m.drum(-.65,0,-.31,.134,.19)
+
+
+
 def armory(m):
+    if m.era==3:
+        return fabrication_vault(m)
     shelter(m,-.22,.23,1.27,w=.97)
     for x in (-.25,.70):
         m.block("timber" if m.era<2 else "metal",x,0,-.46,.086,.62,.108,.08)
@@ -110,7 +136,55 @@ def armory(m):
         m.block("glass" if m.era==3 else "metal",.64,.47,.25,.37,.243,.45,.19)
 
 
+def textile_gallery(m):
+    # The warp hangs vertically inside a freestanding roofed colonnade.
+    m.block("fieldstone",0,0,.14,1.63,.095,1.10,.06)
+    for x in (-.62,.62):
+        for z in (-.25,.49):
+            m.shell(x,z,[(.095,.11,"fieldstone"),(.18,.106,"plaster"),(.75,.07,"plaster"),
+                         (.80,.11,"gold")],(8,5,4)[m.lod])
+        m.tusk(x,.78,-.25,1 if x>0 else -1,.48)
+    m.hip_roof((0,.80,.12),1.61,1.02,.40,m.col("roof_tile"),overhang=0,material="roof_tile")
+    for y in (.28,.70):
+        m.post("timber",(-.65,y,-.24),(.64,y,-.24),.044,sides=(8,6,4)[m.lod])
+    for x in (-.32,.30):
+        with m.transform(translate=(x,0,-.24),rotate_y=8 if x<0 else -8):
+            m.block("cloth" if x<0 else "hide",0,.214,0,.49,.494,.064)
+            if m.lod<2:
+                m.block("ivory",0,.28,-.036,.48,.057,.018)
+    if m.lod==0:
+        m.drum(-.49,.095,.27,.142,.21)
+
+
+def powered_loom(m):
+    # A digital jacquard carriage draws a broad ribbon off the two horizontal winding drums.
+    m.block("metal",-.10,0,.10,1.48,.17,1.23,.08)
+    for x in (-.65,.45):
+        m.block("ivory",x,.14,.05,.175,.54,1.00,.15)
+    for z,y,r in ((-.32,.55,.22),(.31,.74,.29)):
+        for x in (-.59,.39):
+            m.post("metal",(x,y,z),(x+.14,y,z),r*1.13,sides=(14,8,5)[m.lod])
+        m.post("cloth" if z<0 else "ivory",(-.455,y,z),(.393,y,z),r,sides=(16,9,6)[m.lod])
+    with m.transform(translate=(-.045,.835,-.02),rotate_x=-22):
+        m.block("cloth",0,-.026,0,.76,.052,.71)
+        if m.lod==0:
+            for s in (-1,1):
+                m.block("ivory",s*.26,.026,0,.065,.010,.68)
+    m.shell(.66,.36,[(0,.20,"fieldstone"),(.13,.22,"metal"),(.57,.18,"glass"),
+                      (.72,.27,"ivory"),(.89,.16,"turquoise")],(10,6,4)[m.lod])
+    m.tusk(.65,.71,.36,1,.52)
+    if m.lod==0:
+        m.flag(-.68,.18,.37,.91,.24)
+        for z,y in ((-.32,.55),(.31,.74)):
+            m.post("gold",(.52,y,z),(.60,y,z),.084,sides=8)
+
+
+
 def loom(m):
+    if m.era==1:
+        return textile_gallery(m)
+    if m.era==3:
+        return powered_loom(m)
     roof={0:"metal",3:"roof"}.get(m.era)
     m.hut(-.426,.31,1.01,roof_material=roof)
     # The loom occupies a separate working bay, leaving the hut door and its approach open.
@@ -183,7 +257,8 @@ def factory(m,electronic):
         for side in (-1,1):
             m.tusk(-.17+side*.21,1.24,.13,side,.47)
         if m.lod<2:
-            m.shell(.62,-.41,[(0,.17,"metal"),(.39,.16,"turquoise"),(.49,.149,"metal")])
+            m.shell(.62,-.41,[(0,.17,"metal"),(.39,.16,"turquoise"),(.49,.149,"metal")],
+                    sides=5 if m.lod==1 else None)
     elif e==3:
         # A glazed process gallery and two broad recuperator cowls replace the old sawtooth bays.
         m.block("glass",-.38,.697,.105,.67,.235,1.13,.105)

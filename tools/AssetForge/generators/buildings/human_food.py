@@ -46,7 +46,7 @@ def fishing_net(m):
     for u in (0,1):
         m.beam("timber",knot(u,0),knot(u,1),.011)
     m.beam("timber",knot(0,0),knot(1,0),.012)
-    divisions=4 if m.lod==0 else 3
+    divisions=4 if m.lod==0 else 2
     for side in (-1,1):
         for i in range(2*divisions-1):
             intercept=(i-divisions+1)/divisions
@@ -58,7 +58,7 @@ def fishing_net(m):
             m.beam("hide",knot(a,v0,side*.003),knot(b,v1,side*.003),.008)
 
 
-def shed(m, x, ground, z, size, era, fishing=False):
+def shed(m, x, ground, z, size, era, fishing=False, simple_windows=False):
     # The four eras replace the frame, roof profile and upper floors of the outbuilding.
     with m.transform(translate=(x,ground,z),scale=size):
         h=(.35,.43,.47,.50)[era]
@@ -82,7 +82,7 @@ def shed(m, x, ground, z, size, era, fishing=False):
             m.block("accent",(0,h+.035,-.312),(.72,.027,.023))
         m.entry(-.09,-.285,.18,.077,h*.59)
         if m.lod < 2:
-            m.light(.182,h*.62,-.285,.12,.102,shutters=era<2)
+            m.light(.182,h*.62,-.285,.12,.102,shutters=era<2 and (m.lod==0 or not simple_windows))
             if m.lod==0:
                 for side in (-1,1):
                     m.block("trim",(side*.342,h*.52,-.282),(.038,h*.94,.045))
@@ -100,7 +100,7 @@ def little_boat(m, x, z, size, era):
     # A shallow, open clinker dinghy with pointed ends and two thwarts.
     with m.transform(translate=(x,.008,z),scale=size):
         plan=[(0,-.48),(.137,-.26),(.166,.13),(.092,.39),(0,.44),(-.092,.39),(-.166,.13),(-.137,-.26)]
-        if m.lod==2:
+        if m.lod==2 or m.lod==1 and era<2:
             plan=[plan[i] for i in (0,2,4,6)]
         bottom=[(.65*a,.01,.79*b) for a,b in plan]
         sheer=[(a,.12+abs(b)*.16,b) for a,b in plan]
@@ -123,7 +123,7 @@ def fisher(m,era):
         for z in (-.307,.330):
             drum(m,"timber",x,0,z,.038,.155,segments=(7,5,4)[m.lod])
     m.block("timber",(-.10,.154,0),(.68,.072,.84))
-    shed(m,-.105,.19,.095,.71,era,True)
+    shed(m,-.105,.19,.095,.71,era,True,simple_windows=era<2)
     little_boat(m,.337,-.008,.83,era)
     if m.lod<2:
         m.block("trim",(.18,.264,-.33),(.047,.15,.053))
@@ -181,7 +181,7 @@ def forest_hut(m,kind,era):
         if m.lod==0:
             m.beam("timber",(.33,.03,-.16),(.33,.43,.08),.026)
     else:
-        shed(m,.003,0,.085,.91,era)
+        shed(m,.003,0,.085,.91,era,simple_windows=era==1)
         for x in (-.37,-.085):
             m.block("trim",(x,.1575,-.342),(.026,.315,.032))
         m.beam("trim",(-.40,.33,-.341),(-.06,.33,-.341),.030)
@@ -191,7 +191,8 @@ def forest_hut(m,kind,era):
             m.block("timber",(0,.542,-.202),(.111,.117,.117),taper=.12)
             for s in (-1,1):
                 m.beam("ivory",(0,.538,-.235),(s*.099,.645,-.227),.026)
-                m.beam("ivory",(s*.068,.611,-.23),(s*.071,.683,-.222),.020)
+                if era!=1 or m.lod==0:
+                    m.beam("ivory",(s*.068,.611,-.23),(s*.071,.683,-.222),.020)
         if m.lod==0:
             with m.transform(translate=(.28,0,-.31),scale=.64):
                 m.jar(0,0,0,.11,.16)
@@ -276,19 +277,41 @@ def growing_range(m,x,z,width,length,era):
 
 
 def industrial_farm(m,era):
+    if era==3:
+        # The packing house turns harvest racks out toward the sun from a
+        # central irrigation core. The open sides expose the planted shelves.
+        m.course("fieldstone",0,0,2.72,2.56,0,.048,.17)
+        m.course("ivory",.16,.30,.86,.80,.048,1.36,.12)
+        for j in range(3):
+            y=.35+j*.39
+            x=-.26+.13*j
+            if m.lod<2:
+                m.course("metal",x,.27,1.95-.16*j,1.39-.12*j,y,y+.075,.15)
+            else:
+                m.block("metal",(x,y+.038,.27),(1.95-.16*j,.075,1.39-.12*j))
+            if m.lod==2 and j==1:
+                continue
+            plants=(4,3,1)[m.lod]
+            for k in range(plants):
+                xx=x+(k-(plants-1)*.5)*1.26/max(1,plants-1)
+                m.block("leaf",(xx,y+.13,-.08),(.19 if plants>1 else .85,.12,.43),taper=.23)
+        if m.lod==2:
+            m.block("roof",(.16,1.415,.30),(.99,.11,.91))
+        else:
+            m.course("roof",.16,.30,.99,.91,1.36,1.47,.14)
+        m.course("glass",.51,-.61,.77,.64,.048,.37,.09)
+        m.entry(.51,-.934,.26,.048,.27,lintel="metal")
+        if m.lod<2:
+            pennant(m,-.57,1.205,.62,.35)
+        return
     m.course("fieldstone",0,0,2.77,2.61,0,.044,corner=.15)
     growing_range(m,-.64,.01,.96,1.70,era)
-    growing_range(m,.46,.13,.81,1.69 if era==3 else 1.46,era)
+    growing_range(m,.46,.13,.81,1.46,era)
     # A common head house collects the harvest and supplies both growing ranges.
     m.block("wall",(-.16,.26,1.00),(1.93,.43,.36))
     m.hip_roof((-.16,.475,1.0),1.96,.41,.17,m.color("roof"),overhang=0,material="roof")
     drum(m,"metal",1.076,.044,.85,.161,.68)
     drum(m,"roof",1.076,.724,.85,.17,.066,.13)
-    if era==3:
-        for s in (-1,1):
-            m.block("metal",(.58+s*.265,.276,-.967),(.048,.46,.05))
-        with m.transform(translate=(.58,.539,-.967),rotate_x=-14):
-            m.box((0,0,0),(.68,.063,.33),m.color("glass"),material="glass",bottom=True)
     if m.lod<2:
         for x,z in ((-.93,-1.07),(-.28,-1.06),(.012,-.92)):
             m.block("hide",(x,.125,z),(.21,.16,.19),taper=.09)
@@ -330,12 +353,49 @@ def ewe(m,x,z,turn):
 
 
 def pasture(m,era):
+    if era:
+        m.course("grass",.06,-.03,2.69,2.55,0,.044,corner=.19)
+        if era==1:
+            # A timber byre forms one side of a triangular lambing fold.
+            with m.transform(translate=(-.51,.044,.48),rotate_y=-23):
+                m.block("wall",(0,.38,0),(.81,.76,1.11))
+                m.roof(.96,1.25,.75,.47,"roof","wall",hip=.14,ridge_mat="trim")
+                m.entry(0,-.562,.32,.035,.48)
+            fence=[(-1.13,-.12),(-.53,-1.11),(.91,-.92),(1.14,.33),(.57,.92)]
+            herd=[(.28,.29,-19),(.52,-.48,57),(-.14,-.60,109)]
+        elif era==2:
+            # Brick dairy, milk tower and long handling race.
+            m.block("brick",(-.05,.405,.66),(1.72,.73,.70))
+            with m.transform(translate=(-.05,0,.66)):
+                m.roof(1.87,.84,.77,.28,"roof","wall",ridge_mat="trim")
+            m.entry(-.31,.301,.36,.04,.53)
+            drum(m,"metal",-.99,.044,.42,.236,1.04,.22)
+            m.dome((-.99,1.08,.42),.225,m.color("roof"),segments=(12,8,5)[m.lod],rings=(3,2,1)[m.lod],material="roof")
+            fence=[(-1.18,-.97),(.99,-.97),(1.19,-.17),(1.07,.54)]
+            herd=[(-.58,-.38,31),(.16,-.31,-75),(.72,-.41,16)]
+        else:
+            # A sensor-equipped radial milking carousel shelters the herd beside an open exercise yard.
+            cx,cz=.24,.33
+            drum(m,"wall",cx,.044,cz,.69,.22,.76)
+            drum(m,"glass",cx,.262,cz,.305,.86,.255)
+            drum(m,"roof",cx,1.10,cz,.83,.18,.46)
+            for j in range((7,5,3)[m.lod]):
+                a=math.tau*j/(7,5,3)[m.lod]
+                x,z=cx+.62*math.cos(a),cz+.62*math.sin(a)
+                drum(m,"ivory",x,.245,z,.046,.884)
+            m.entry(cx,-.005,.27,.264,.51)
+            fence=[(-1.19,.84),(-1.21,-.91),(-.65,-1.15),(.69,-1.11),(1.20,-.70)]
+            herd=[(-.72,.20,-31),(-.64,-.53,96),(.26,-.70,42)]
+        for a,b in zip(fence,fence[1:]):
+            rail(m,a,b,era,3)
+        for x,z,turn in herd[:(3,2,1)[m.lod]]:
+            ewe(m,x,z,turn)
+        if m.lod<2:
+            m.block("timber",(.86,.134,-.55),(.22,.18,.36))
+            m.block("water",(.86,.228,-.55),(.16,.014,.29))
+        return
     m.course("grass",0,0,2.76,2.64,0,.043,corner=.13)
     shed(m,-.56,.043,.68,1.39,era)
-    if era==1:
-        # Gravel path leading from the stock gate into the sheltered shearing yard.
-        with m.transform(translate=(-.32,.046,-.42),rotate_y=-17):
-            m.block("fieldstone",(0,0,0),(.37,.010,1.63))
     corners=[(-1.27,-1.19),(-.44,-1.19)]
     rail(m,corners[0],corners[1],era,2)
     rail(m,(.14,-1.19),(1.27,-1.19),era,3)
@@ -356,11 +416,6 @@ def pasture(m,era):
                 m.block("trim",(0,.188,-.159),(.115,.118,.115),taper=.14)
     if m.lod==0:
         m.beam("banner",(-.42,.30,-1.18),(-.28,.50,-1.17),.055)
-    if era>=2:
-        with m.transform(translate=(.64,.042,.73)):
-            for s in (-1,1):
-                m.block("metal",(s*.31,.38,0),(.072,.76,.078))
-            m.wedge((0,.76,0),.83,.54,.13,m.color("glass"),material="glass")
 
 
 def gristmill(m,era):

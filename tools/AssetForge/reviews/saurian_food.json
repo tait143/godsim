@@ -831,6 +831,336 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 7,
+      "critic": "independent_saurian_round1_2026_11_23",
+      "models": [
+        {
+          "id": "bld_saurian_farm_classical_v0",
+          "evidence_sha256": "72cc32ac0907ce541ceec9aa6dda7da32ca7c3784047fc6348ffcfaf2c0112f5",
+          "observations": "The farm now climbs three planted terraces, with a small two-tier roof perched at the back. Green crops stand above the irrigation bands on the stepped fronts. The shelves replace the old flat field layout even at LOD2. The serialized meshes have 783, 445, 177 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_farm_future_v0",
+          "evidence_sha256": "17356cfa04c6b3b4d92a82a7d778ae31798f301e392129a3931e26563650381e",
+          "observations": "The footprint has changed from a rectangular field to concentric cylindrical growing decks. Green shoots punctuate multiple levels and a small blue service dome remains behind. The tower still separates into tiers at the far LOD. The serialized meshes have 752, 441, 237 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_farm_industrial_v0",
+          "evidence_sha256": "e44834c9dbfb4321f2398cf878b1b4b6388107fb058e73c08fbdca7ce45b775f",
+          "observations": "Parallel crop beds flank a pump wheel and blue reservoir outside a rounded metal pump house. LOD1 keeps the wheel and pool distinct and LOD2 retains the working arrangement. The tall stack breaks the new roofline. The serialized meshes have 1173, 607, 253 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_fishing_hut_classical_v0",
+          "evidence_sha256": "58514aff0fdbc4173d7c402029a06d71d5c8050852ad91957ab3712eccbca16f",
+          "observations": "An A-frame lift net stands in open water before a roofed platform on piles. Its large triangular spread replaces the old boat alongside the hut. The broad blue plane remains visible through the piles at all three LODs. The serialized meshes have 523, 311, 157 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 95,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_fishing_hut_future_v0",
+          "evidence_sha256": "1b7583e1371e2c90abfcdb3a5da807daca46a7af04529deb91add5f96f454eb5",
+          "observations": "A circular floating pen, visible struts and a raised domed control hut occupy the water tile. The open center of the pond frame survives the lowest mesh. This is a distinct installation beside the earlier boat-and-dock design. The serialized meshes have 792, 451, 243 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_fishing_hut_industrial_v0",
+          "evidence_sha256": "678532abeac6aae6ceabf66bcc85806946b55f9dcccbea3c7bbbba035c913cf9",
+          "observations": "A squared overhead davit reaches past the curved dock house and over the narrow fishing boat. The hull stays seated against the blue quay edge. Neither the suspended span nor the house silhouette disappears at LOD2. The serialized meshes have 607, 335, 117 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_industrial_farm_future_v0",
+          "evidence_sha256": "85fa41b744a198b9f11262357020bc97af1e13f77032aebbe906e6f94b911198",
+          "observations": "Three long, glazed pitched structures replace the previous silo-and-field layout. The end openings and alternating roof valleys are visible on the reduced mesh. Blue panes and ivory supports stay separate in both supplied colourways. The serialized meshes have 961, 519, 248 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_mill_classical_v0",
+          "evidence_sha256": "a28c0cc3ce7116ddda8ec4f3b7423aebac10071da7edbb753421173c5e397502",
+          "observations": "The timber wheel projects over an open blue race between the two house roofs. In enlarged comparisons the new and previous LOD1 both simplify paddles but retain the outer rim, the hub and its supports. The water remains visible below. The serialized meshes have 899, 512, 259 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 3.93% of front-view pixels and 2.42% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_mill_industrial_v0",
+          "evidence_sha256": "a6360455298589dcc6af8bccb1033954f168ede04444320833d7f4deda3c27ec",
+          "observations": "Twin upright grain cylinders over a lower curved processing hall replace the older exterior waterwheel. A sloping feed links one cylinder to the roof. All levels retain the tall pair and the low intake on the right. The serialized meshes have 855, 453, 113 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_pasture_ancient_v0",
+          "evidence_sha256": "dd87fbdbeba308ada1ff029beaf17ec02daca44641057f6dae9039f8858fe461",
+          "observations": "A low fence closes around the grass, horned livestock and thatched shelter. The near fence rail, corner posts and shelter doorway remain recognizable at LOD1. Bronze and Iron keep their ochre and moss roof contrast. The serialized meshes have 1041, 592, 263 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.59% of front-view pixels and 0.05% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_pasture_classical_v0",
+          "evidence_sha256": "628c937482d86fff559207eea66ce6cc05c3427581902f789382acd31e20a682",
+          "observations": "A curved line of posts now leads to a raised open stock shelter. Livestock can be seen through the arc, and the turf stays visible around the group. This gives the court a different outline from the old square paddock. The serialized meshes have 788, 449, 223 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_pasture_future_v0",
+          "evidence_sha256": "7bebc2e1ae8465027790630276fef163b387c0ce25658b8e56641d9d1825087c",
+          "observations": "Two inclined sheets shelter livestock with a bright trough alongside. The A-frame closes onto visible feet on the lawn. At phone size the new sharp triangular roof remains unlike the earlier enclosed four-post shed. The serialized meshes have 624, 354, 184 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_pasture_industrial_v0",
+          "evidence_sha256": "7b8ace00bf4c1738391c32ea3ded950243fc781d8f507a1b0e3711b7663e1f30",
+          "observations": "The barrel-roof stock barn and feed bin occupy adjoining areas of the green pad. The cattle head in front and feed-rail uprights remain readable at LOD1. It no longer shares the earlier planted square-pen silhouette. The serialized meshes have 745, 361, 210 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_saurian_farm_classical_v0",
+          "evidence_sha256": "a55c96e7becbf3946e750c1864835a57d343fccae8ee459d0e0dbdebd7523780",
+          "observations": "The stepped growing beds retain their filled side walls, with bright parallel rows for each level. A small roofed shelter keeps its connection to the upper terrace.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            783,
+            445,
+            177
+          ]
+        },
+        {
+          "id": "bld_saurian_mill_classical_v0",
+          "evidence_sha256": "40366bb5b086a57f9859e0bfeab202013155e09e06340df3257d75013041d692",
+          "observations": "The large wheel remains fixed to the building over the blue watercourse. Both roofed rooms and the full rear wall survive at LOD1, as do the main wheel spokes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            899,
+            512,
+            259
+          ]
+        },
+        {
+          "id": "bld_saurian_pasture_classical_v0",
+          "evidence_sha256": "164f0f49820bc5c1a0eacda2c0786199bf40a25e2d050521c0d6686e22df6fee",
+          "observations": "The ring of posts, cross-rails, grazing animals and two-stage shelter remain visible around the pasture. The access at the gap in the fence stays clear.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            788,
+            449,
+            223
+          ]
+        },
+        {
+          "id": "bld_saurian_pasture_future_v0",
+          "evidence_sha256": "8b4fe95cac1a7658df2b69f4ce143f8999b1e2319f04f3a432841baece3c87bc",
+          "observations": "The swept blue shelter roof retains its two frames and ridgeline above the pen. The feeding trough and animal remain legible from the front once small fittings disappear.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            624,
+            354,
+            184
+          ]
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent visual critic, corrective Saurian Future Farm role comparison",
+      "inspection": "Reviewed the archived painted Farm and Hydroponics Tower age cells and both unpainted Farm views from the held canonical pages. The previous GLB had already been replaced. Its evidence hash, triangle counts and technical score come from the prior matching review.",
+      "archived_sheet_sha256": {
+        "held-family-05.png": "7e0ae8c8c817e991b79d8a6804f376ce0c8b074f4721403cb62dab8e5463b720",
+        "reference-family-10.png": "7232ca2770dc1d164a9d12b903d84b246c94d26c05fea01548ff7a7f487e4c9b",
+        "held-neutral-saurian-01.png": "2704dbda439aefa1c0fd1e709800573c23aeb60cb1f4a0a5eaffbf2ddceb2fb4"
+      },
+      "models": [
+        {
+          "id": "bld_saurian_farm_future_v0",
+          "evidence_sha256": "17356cfa04c6b3b4d92a82a7d778ae31798f301e392129a3931e26563650381e",
+          "observations": "Both painted age cells show a small mound of leaf-crowned circular trays in the middle of a largely bare brown plot. The same vertically tiered form dominates both neutral views. The Hydroponics Tower next to it has a taller stack but the same arrangement of planted rims around a central axis. At phone scale the difference is height, and there is too little ground cultivation to identify the Farm. The earlier serialized technical score and triangle counts are carried forward from the matching prior record.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 78,
+            "construction": 94,
+            "charm": 88,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [
+            "Move production onto the ground plane. Expose sizable planted rows, water distribution or agricultural access around a smaller service structure so the building reads as a farm beside the Hydroponics Tower in both neutral phone views."
+          ],
+          "lod_triangles": [
+            752,
+            441,
+            237
+          ]
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "critic": "Independent visual critic, revised Saurian Future Farm",
+      "inspection": "Opened both age previews and rendered the three serialized LODs at 64 px. Compared two neutral 64 px views against every Farm era, Hydroponics Tower and both Industrial Farm eras, then inspected LOD0 and LOD1 in colour at 218 px from four angles. Verified fragment, triangle ratios, geometry and shell orientation at the new evidence hash.",
+      "models": [
+        {
+          "id": "bld_saurian_farm_future_v0",
+          "evidence_sha256": "0dcce26f06d8e35205ddcbcef0866526b925887421f7029caded0cb519486c46",
+          "observations": "Four curved planting beds span the open blue irrigation deck. Repeated leafy crops trace the field rows from either direction, and a small corner shelter gives them a scale. In two unpainted 64 px views this low horizontal plan separates from the Hydroponics Tower’s vertical stack, the Industrial Farm’s greenhouse roofs and silos, and the older Farm’s terraces and machinery. Painted LOD1 retains the crop rows, planter walls, shelter roof and clear access around them when viewed from either side or behind. LOD2 keeps the parallel bands. Information and Ascension share a restrained blue-green palette, with the pier and trim providing the subtler age change. Serialized metadata and LOD ratios passed, with zero exposed coplanar pairs or inverted closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 93,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1257,
+            735,
+            353
+          ]
+        }
+      ]
     }
   ]
 }

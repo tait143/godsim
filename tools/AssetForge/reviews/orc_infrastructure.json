@@ -412,6 +412,198 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Orc model critic, RC2 round 1",
+      "method": "Inspected saved age previews, rendered serialized LOD0, LOD1 and LOD2, and compared neutral 64px geometry at 215 and 145 degrees. Independently checked package metadata, GLB streams, exposed coplanar faces, inverted shells and repeated meshes. Compared all ordered era pairs in the 14 directed families.",
+      "models": [
+        {
+          "id": "bld_orc_aqueduct_classical_v0",
+          "evidence_sha256": "4b731e7e9bc9423898b88e03377118f23bce1fc6e5d29d1c1aa763af1b2dcc56",
+          "observations": "The arch cutouts read through to the far side beneath a thin blue channel. The paired pier feet and the forward tusk stay aligned at LOD1. The medieval stone darkens while the water line remains visible.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 95,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_aqueduct_future_v0",
+          "evidence_sha256": "1bb7d7da4a4bf85da9c15adf61bfa90643247397c4dbdcb15a76a2ae43f47896",
+          "observations": "The pale piers and aqua rail are pleasant in Information. At both unpainted angles the three feet, intervening arches, rail line and central tusk reproduce the industrial profile. LOD1 retains the flume and supports.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 83,
+            "construction": 94,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Information water conduit a distinct span or support system that reads without aqua trim. Preserve a visible water channel."
+          ]
+        },
+        {
+          "id": "bld_orc_aqueduct_industrial_v0",
+          "evidence_sha256": "f331119e2ddd80c507adff1d9cdbe7fabc1a0aa5de5e9468fba1ef6effd638c2",
+          "observations": "The raised dark side girder adds a clear horizontal layer above the three masonry supports. Red brick and its more muted modern variant separate from the blue channel. The girder continues across both intervening spans at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 95,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_power_plant_future_v0",
+          "evidence_sha256": "6768bb2a79e7693208f374be93470b9bd6ea2f9b806398cfeeb72887121f1915",
+          "observations": "Two separate three-bladed turbines rise above the low blue control house. They replace the industrial furnace and stacks convincingly in gray. The slender towers meet their bases and the blades remain attached in both lower meshes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_well_ancient_v0",
+          "evidence_sha256": "d12911ce8263e169446a48cae70a216870ebc78bd11125b1cd3725450443cf22",
+          "observations": "A timber drum and hanging bucket span the open well beneath a little horned roof. Its round curb and stout base remain apparent in the three early skins. LOD1 keeps the crank, curb and vertical posts aligned.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_well_classical_v0",
+          "evidence_sha256": "31821ef8c1e8128f91a43fd530adf5545ed8834a38865d0a57b29bef53991cb9",
+          "observations": "A light stone basin with a standing spout sits below a high rectangular tile beam. The air around the spout gives a different gray opening from the ancient roof and windlass. The basin rim and both uprights survive at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_well_future_v0",
+          "evidence_sha256": "0373ac31b8c228014797be844cffe5fe93d640e6a5af6bd4dd5656d73640e25d",
+          "observations": "A tall horned header tank distributes water through unequal descending pipes to two open basins. The isolated tank, legs and branch between bowls distinguish it clearly from the older pump. All contact points remain at LOD1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_well_industrial_v0",
+          "evidence_sha256": "2944c7799a6dde7f1034ae68984cfba518134164f5d624c0bff645c0209ed5c8",
+          "observations": "An exposed brass flywheel turns beside the slim chimney and feeds a separate brick catch basin. The beam projects clearly from the machine in neutral gray. Its spout still reaches the open basin at both lower levels.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_orc_aqueduct_future_v0",
+          "evidence_sha256": "a00d252fc13c9d2c3cd7473306818891bf1cdbfa810ecef8fb335dd5178bf4e5",
+          "observations": "A tall tusked pylon carries diagonal stays down to the twin water channels, forming two open triangular spans. The bridge ends sit on independent piers. Both channels, pylon feet and principal stays remain continuous at LOD1, distinct from the older supported trough.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            600,
+            300,
+            180
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_orc_aqueduct_classical_v0",
+          "evidence_sha256": "09b8c54d7d15cf5fb7444c53e0a3f5efe02cf5761dfe10800c0e3e2ff1da87f9",
+          "observations": "The doubled stone spans form complete arches between the piers. The water trough and protective side rims run continuously over the support at the centre.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 95,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            616,
+            350,
+            182
+          ]
+        },
+        {
+          "id": "bld_orc_aqueduct_industrial_v0",
+          "evidence_sha256": "dd95373b508e041bbe0eaa316ecb48b6d2159f51efe69e9c1eff73b08542bafb",
+          "observations": "The industrial conduit keeps full lengths of paired dark rails and a visible water channel. Both spans still rest on the brick piers.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 95,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            744,
+            424,
+            195
+          ]
+        }
+      ]
     }
   ]
 }

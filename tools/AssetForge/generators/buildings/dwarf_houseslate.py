@@ -277,11 +277,11 @@ def modern(m, variant):
             m.block("metal",(-.066,.187,.386),(.028,.328,.025))
 
 
-def receiver(m, x, z, y):
+def receiver(m, x, z, y, crossbars=True):
     with m.transform(translate=(x,y,z)):
         m.block("metal",(0,.036,0),(.045,.072,.045),taper=.25)
         m.block("trim",(0,.101,0),(.016,.079,.016))
-        if m.lod<2:
+        if m.lod<2 and crossbars:
             for i in range(2 if m.lod==0 else 1):
                 m.block("gold",(.005,.111+.027*i,0),(.087-.024*i,.012,.015))
 
@@ -304,7 +304,7 @@ def information(m, variant):
         shell(m,.002,.056,[(.351,.681,.508,.125,"metal"),(.401,.684,.509,.125,"glass"),
                            (.515,.521,.383,.105,"glass"),(.531,.512,.377,.105,"turquoise"),
                            (.556,.458,.329,.090,"ivory")])
-        receiver(m,-.122,.135,.556)
+        receiver(m,-.122,.135,.556,crossbars=m.lod==0)
     if m.lod<2:
         # Separate glazing bars rise with the rake of the windward panes.
         if variant:

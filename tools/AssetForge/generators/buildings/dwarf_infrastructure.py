@@ -11,6 +11,8 @@ PACKAGE = "dwarf_infrastructure"
 
 def well(m):
     e=m.era
+    if e==3:
+        return service_well(m)
     r=.49
     m.drum("fieldstone",0,0,0,.66,.115,.62)
     m.drum("wall",0,.115,0,r*.91,.225,r,n=(14,10,6)[m.lod])
@@ -49,6 +51,30 @@ def well(m):
         if m.lod==0:
             m.bent_rail("trim",[(-.499,.197),(-.47,.301),(-.30,.309),(-.262,.197)],-.54,.023)
             m.rune(.426,.64,-.08,.095)
+
+
+def service_well(m):
+    m.slab("fieldstone",.005,0,1.72,1.47,0,.122,.146)
+    # The open inspection basin is fed from an offset vertical pump, with a separate return manifold.
+    m.drum("slate",-.284,.116,-.087,.462,.192,.436,n=(14,10,6)[m.lod])
+    m.ring("metal",-.284,.301,-.087,.448,.321,.093,n=(14,10,6)[m.lod])
+    m.drum("water",-.284,.304,-.087,.354,.027,n=(14,10,6)[m.lod])
+    m.slab("trim",.454,.185,.49,.74,.120,.282,.095)
+    m.drum("wall",.454,.276,.184,.203,.589,.173)
+    m.drum("glass",.454,.861,.184,.179,.142,.173)
+    m.crown("ivory",.454,.997,.184,.212,.53)
+    m.beam("metal",(.454,.781,.184),(-.187,.78,.085),.099)
+    m.drum("accent",-.186,.532,.086,.080,.282,.075)
+    m.drum("water",-.186,.328,.086,.042,.207,.047)
+    if m.lod<2:
+        m.beam("metal",(.455,.374,.189),(.546,.382,-.397),.083)
+        m.slab("ivory",.554,-.466,.365,.263,.123,.343,.062)
+    if m.lod==0:
+        for y in (.411,.573,.736):
+            m.drum("trim",.454,y,.184,.205-(y-.411)*.05,.041)
+        m.rune(.554,.247,-.605,.144)
+        for x in (.10,.243,.386):
+            m.block("metal",(x,.129,-.558),(.092,.018,.211))
 
 
 def aqueduct(m):

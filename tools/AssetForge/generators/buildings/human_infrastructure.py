@@ -33,7 +33,7 @@ def pail(m,x,y,z,r=.084):
 
 def well(m):
     e=m.era
-    n=(14,10,6)[m.lod]
+    n=(14,7 if e==2 else 10,6)[m.lod]
     m.course('fieldstone',0,0,.88,.85,0,.052,.15)
     profile=[(.322,.052,None),(.350,.101,'fieldstone'),(.32,.125,'trim'),
              (.323,.36,'wall'),(.36,.38,'trim'),(.355,.43,'wall'),
@@ -95,7 +95,8 @@ def arch(m,z):
                 u=pi*(i+delta)/n; v=pi*(i+1-delta)/n
                 def edge(t,rad,height):
                     return (sign*(half+.015),spring+height*sin(t),z-rad*cos(t))
-                q=[edge(u,r,rise),edge(u,r+.077,rise+.080),edge(v,r+.077,rise+.080),edge(v,r,rise)]
+                outer = r + (.065 if m.lod==1 else .077)
+                q=[edge(u,r,rise),edge(u,outer,rise+.080),edge(v,outer,rise+.080),edge(v,r,rise)]
                 m.face('ivory' if i==n//2 else 'fieldstone',q if sign==1 else q[::-1])
         m.face('fieldstone',[(-half,ya,a),(half,ya,a),(half,yb,b),(-half,yb,b)])
     for side in (-1,1):

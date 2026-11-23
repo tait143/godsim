@@ -127,8 +127,148 @@ def transit(m,kind):
         m.lamp(-.46,0,-.44,.106)
 
 
+def vault_face(m,x,y,z,r):
+    with m.transform(translate=(x,y,z),rotate_x=-90):
+        m.lathe(0,0,r,r,[(0,.94,"metal"),(.065,1,"gold"),(.086,.87,"metal")])
+    m.hoop(x,y,z-.102,r*.61,r*.61,r*.11,"trim")
+    for a in (() if m.lod==2 else (0,pi/3,2*pi/3)):
+        m.bar((x-r*.54*cos(a),y-r*.54*sin(a),z-.109),
+              (x+r*.54*cos(a),y+r*.54*sin(a),z-.109),r*.068,"gold")
+
+
+def later_exchange(m,kind):
+    e=m.era
+    if kind=="Market":
+        if e==1:
+            # A cloister of stalls faces the stone weighing court.
+            for x,z,r,h in ((-.49,.26,.32,.58),(.34,.43,.37,.65),(.50,-.24,.27,.44)):
+                if m.lod==2:
+                    m.bar((x,.24,z),(x,h,z),.055,m.bark)
+                    m.leaf((x-r,h,z),(x+r,h+.05,z),r*.49,"roof")
+                else:
+                    canopy(m,x,z,r,h)
+                m.lathe(x,z-.02,r*.80,r*.48,[(0,.84,"wall"),(.25,1,"accent")])
+                if x<0:
+                    m.cargo(x,.25,z-.025,(.27,.13,.18),"cloth")
+                    m.cargo(x+.04,.38,z-.015,(.19,.068,.15),"ivory")
+                elif z>0:
+                    for side in (-1,1):
+                        m.lathe(x+side*.093,z-.02,.084,.076,[(.25,.72,"hide"),(.32,1,"hide"),
+                                (.36,.80,"gold")],n=(9,6,4)[m.lod])
+                else:
+                    m.cargo(x,.25,z-.02,(.24,.12,.17),"leaf")
+            m.basin(-.23,0,-.35,.32,.22,.12,"gold")
+        elif e==2:
+            # One high steel market shed covers both wholesale aisles.
+            m.lathe(-.07,.11,.76,.53,[(0,.98,"brick"),(.18,1,"trim")])
+            for x in (-.50,.37):
+                for z in (-.23,.41):
+                    m.bar((x,.18,z),(x*.78,.83,z),.059,"metal")
+            m.hood(-.06,.82,.09,.80,.63,.32,"metal")
+            for x in (-.44,.30):
+                m.lathe(x,-.36,.23,.20,[(.13,.81,"timber"),(.34,1.02,"accent")])
+                if m.lod<2:
+                    m.tulip(x,.34,-.36,.094,.17,"gold")
+        else:
+            # Two inhabited trading balconies spiral around the auction steward.
+            m.hall(.16,.34,.34,.36,.93,.41,small=True)
+            for x,z,y,r in ((-.40,-.09,.39,.39),(.37,-.31,.56,.34)):
+                m.lathe(x,z,r,r*.82,[(0,.43,"ivory"),(y*.73,.59,"glass"),(y,1,"ivory")])
+                if m.lod<2:
+                    m.tulip(x,y,z,.11,.19,"flower")
+            m.lamp(-.61,0,-.49,.12)
+            m.cargo(-.46,.39,-.16,(.23,.16,.18),"cloth")
+            m.cargo(.38,.56,-.34,(.20,.12,.16),"gold")
+            # Shared sales desk and panel awning face the path between the decks.
+            m.box((-.01,.145,-.53),(.46,.29,.18),WHITE,material="timber")
+            m.bar((-.20,.29,-.52),(-.23,.83,-.53),.031,"ivory")
+            m.bar((.17,.29,-.52),(.19,.83,-.53),.031,"ivory")
+            m.leaf((-.28,.83,-.53),(.24,.88,-.52),.15,"banner")
+    elif kind=="Bank":
+        if e==2:
+            # Two masonry strongrooms support a single uninterrupted banking floor.
+            for x in (-.45,.41):
+                m.lathe(x,.15,.35,.55,[(0,.97,"brick"),(.49,1,"wall"),(.59,.94,"trim")])
+            m.box((-.02,.686,.16),(1.45,.20,.87),WHITE,material="metal")
+            m.hood(-.02,.779,.16,.80,.51,.24,"metal")
+            vault_face(m,-.44,.31,-.34,.224)
+            m.portal(.42,0,-.38,.28,.42)
+        else:
+            # The vault rises vertically. Each upper strongroom sits on the neck below.
+            m.lathe(.31,.18,.46,.47,[(0,.69,"wall"),(.49,.78,"ivory"),(.62,1,"trim"),
+                    (.96,.90,"glass"),(1.08,1.04,"ivory"),(1.33,.63,"metal")])
+            m.hall(-.41,-.26,.34,.35,.43,.24,small=True)
+            vault_face(m,.30,.70,-.226,.225)
+    elif kind=="Guildhall":
+        if e==2:
+            m.hall(-.21,.19,.58,.46,.59,.24,roof="metal")
+            m.lathe(.46,.02,.22,.25,[(0,.98,"brick"),(.82,.86,"wall"),(1.02,1.21,"trim")])
+            m.hood(.46,1.02,.02,.32,.31,.31,"metal",small=True)
+            m.hoop(.44,.80,-.21,.106,.113,.029,"gold")
+        else:
+            # The guild seal hangs between the slender wings of the exchange.
+            for x,z,h in ((-.49,.15,.92),(.42,.21,.69)):
+                m.hall(x,z,.26,.38,h,.27,roof="glass",small=True)
+            m.bar((-.49,.84,.04),(.42,.78,.04),.059,"ivory")
+            m.bar((-.04,.81,.04),(-.04,.68,.04),.026,"gold")
+            m.hoop(-.04,.49,.04,.22,.20,.054,"gold")
+            m.lamp(-.14,0,-.48,.11)
+    if m.lod==0:
+        m.lamp(.73,0,-.56,.062)
+
+
+def lighter(m,x,z):
+    if m.lod<2:
+        boat(m,x,z)
+        return
+    m.lathe(x,z,.16,.51,[(.06,.55,"timber"),(.22,1.01,"timber")],n=5)
+    m.bar((x,.22,z),(x,.67,z),.027,"trim")
+    m.leaf((x,.28,z),(x+.04,.67,z),.12,"banner")
+
+
+def freight_berth(m):
+    if m.era==2:
+        # A harbour crane pivots over a low stone quay and a loaded river lighter.
+        m.lathe(-.40,.06,.38,.62,[(0,.98,"brick"),(.21,1,"wall")])
+        m.lathe(-.40,.24,.23,.22,[(.21,1,"metal"),(.81,.56,"trim")])
+        m.stem([(-.40,.79,.24),(-.31,1.05,.18),(.42,1.06,-.20)],
+               [.092,.068,.046],"metal")
+        m.bar((-.39,.58,.23),(.24,1.03,-.13),.044,"trim")
+        m.bar((.39,1.06,-.19),(.39,.57,-.19),.018,"gold")
+        lighter(m,.44,-.23)
+        if m.lod<2:
+            m.portal(-.40,0,-.525,.26,.21)
+    else:
+        # Ferry passengers board through a raised gangway bridging two moorings.
+        for x,z,h in ((-.52,.28,.56),(.47,-.04,.40)):
+            m.lathe(x,z,.27,.33,[(0,.84,"ivory"),(h,1,"glass"),(h+.08,1.08,"trim")])
+            m.hood(x,h+.08,z,.32,.37,.20,"glass",small=True)
+        m.bar((-.53,.51,.25),(.47,.40,-.04),.10,"ivory")
+        m.lathe(.04,-.44,.75,.29,[(0,.93,"wall"),(.074,1,"water")])
+        with m.transform(translate=(.06,.05,-.40),rotate_y=72,scale=.78):
+            lighter(m,0,0)
+        m.portal(-.52,0,-.04,.23,.37)
+    if m.lod<2:
+        m.lamp(-.67,0,-.39,.091)
+
+
 def draw(m,kind):
-    if kind=="Harbor":
+    if kind=="Market" and m.era or kind in ("Bank","Guildhall") and m.era>=2:
+        later_exchange(m,kind)
+    elif kind=="Harbor" and m.era>=2:
+        freight_berth(m)
+    elif kind=="RailStation" and m.era==3:
+        # A suspended train passes between the two signal books at the platform.
+        for z in (-.48,.51):
+            m.stem([(-.41,.024,z),(-.43,.64,z),(-.24,.95,z),(.44,.95,z)],
+                   [.096,.075,.065,.051],"ivory")
+        m.bar((.32,.94,-.77),(.32,.94,.78),.063,"metal")
+        m.lathe(.32,.01,.18,.54,[(.42,.58,"ivory"),(.55,1,"glass"),(.71,.88,"trim"),
+                                  (.77,.51,"ivory")])
+        m.bar((.32,.75,0),(.32,.94,0),.067,"metal")
+        m.hall(-.49,.15,.27,.28,.38,.28,small=True)
+        m.lathe(-.11,-.18,.23,.64,[(0,.92,"wall"),(.17,1,"ivory")])
+    elif kind=="Harbor":
         harbor(m)
     elif kind in ("RailStation","Airport"):
         transit(m,kind)

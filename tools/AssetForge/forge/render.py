@@ -22,7 +22,7 @@ def _rot(yaw_deg: float, pitch_deg: float) -> np.ndarray:
     return Rx @ Ry
 
 
-def render(tris, path: str, size: int = 512, yaw: float = 215.0, pitch: float = 32.0, margin: float = 0.12, footprint=None, background=(0.93, 0.92, 0.88), *, uv=None, age='dawn', race=None, tint=None):
+def render(tris, path: str, size: int = 512, yaw: float = 215.0, pitch: float = 32.0, margin: float = 0.12, footprint=None, background=(0.93, 0.92, 0.88), *, uv=None, age='dawn', race=None, tint=None, unpainted=False):
     if not tris:
         Image.new('RGB', (size, size), tuple(int(c * 255) for c in background)).save(path, format='PNG')
         return
@@ -96,7 +96,7 @@ def render(tris, path: str, size: int = 512, yaw: float = 215.0, pitch: float = 
         st = (w0[mask, None] * uv_in_pixels[i, 0] + w1[mask, None] * uv_in_pixels[i, 1]
               + w2[mask, None] * uv_in_pixels[i, 2]).astype(int)
         s, t = np.clip(st, 0, atlas.SIZE-1).T
-        lit = (albedo[t,s] * (shade[i] * tint_srgb) + emission[t//4,s//4] * .45) / 255
+        lit = .72 * shade[i] if unpainted else (albedo[t,s] * (shade[i] * tint_srgb) + emission[t//4,s//4] * .45) / 255
         img[ymin:ymax + 1, xmin:xmax + 1][mask] = lit
         nbuf[ymin:ymax + 1, xmin:xmax + 1][mask] = i
 

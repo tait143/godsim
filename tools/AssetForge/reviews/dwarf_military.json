@@ -256,6 +256,466 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_barracks_ancient_v0",
+          "evidence_sha256": "7f956f964047ad1f30c17df03ec66d2819cd97214426c0f3b18d1ccd36b7ef21",
+          "observations": "The low battered barracks has a dark roof plate, short front stair, shield and separate red standard. The low broad profile and short eaves survive LOD1 along with the door jambs and standard base.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            532,
+            302,
+            148
+          ]
+        },
+        {
+          "id": "bld_dwarf_barracks_classical_v0",
+          "evidence_sha256": "88930a9abae7349740bccd28bd769c13ccde626de9ae8a87cb958b32a9e89313",
+          "observations": "A flag tops the new raised roof stage, giving the tiled barracks a higher centre than the ancient cap. The broader ground floor retains its corner piers and door beneath that roof in LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            570,
+            324,
+            158
+          ]
+        },
+        {
+          "id": "bld_dwarf_barracks_future_v0",
+          "evidence_sha256": "b023eff0b990bc7797b092bf084a3f3b5e46c4675c556c1566a433ec3b9b1b59",
+          "observations": "The barracks has one tall glazed roof housing above a dark deck, distinct from the paired dark vents on the Industrial roof. The red standard, flanking masonry and front steps survive the middle mesh.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            622,
+            354,
+            158
+          ]
+        },
+        {
+          "id": "bld_dwarf_barracks_industrial_v0",
+          "evidence_sha256": "8388c6aa5df2efdce1f987d2370fa0a43b122b4bbb020f560059ba6e2a817e72",
+          "observations": "Paired roof vents and a separate tall stack make a clear industrial silhouette above the dark cornice. The front remains accessible between the shielded corner and free-standing banner at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            622,
+            354,
+            190
+          ]
+        },
+        {
+          "id": "bld_dwarf_castle_classical_v0",
+          "evidence_sha256": "dd3f8e4721479b53dbcc78c88d2d16bb323a83183c29667f2fc24aef769be741",
+          "observations": "A stepped keep rises above four lower corner turrets and a front gate. The copper caps, central flag and shields mark its scale and allegiance. LOD1 holds the turrets, gate opening and upper roof together without a break in the wall mass.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1310,
+            746,
+            320
+          ]
+        },
+        {
+          "id": "bld_dwarf_military_base_future_v0",
+          "evidence_sha256": "2958ac3d771e9cef2f172b9f71f9f0e5bc07eb31bd3a3e07e10794761ebdbc8f",
+          "observations": "A high blue dish is visible at phone scale, but the low command block, dish, left-hand barracks and small right-hand gatehouse repeat the Modern base in both grey views. Dish height is the only strong profile change. The middle mesh retains all the supporting buildings.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 84,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Give the future base a different command and service plan. A split command tower with a recessed launch or landing court would distinguish it without relying on the larger dish."
+          ],
+          "lod_triangles": [
+            1166,
+            664,
+            354
+          ]
+        },
+        {
+          "id": "bld_dwarf_military_base_industrial_v0",
+          "evidence_sha256": "6840c8434d743c0b3ddc1727e9ba12f57b292f0bac5677a79347c8a353c4fe06",
+          "observations": "A large white dish marks the low central command room, with a long side barracks and guardhouse across an open approach. The mast, three roofs and guardhouse doorway still read clearly at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1012,
+            576,
+            306
+          ]
+        },
+        {
+          "id": "bld_dwarf_palisade_ancient_v0",
+          "evidence_sha256": "1d69b5867aff75d6ae59275c3f7cc103da8261721309373f34d49ecaa0ed71b5",
+          "observations": "A stout lintel bridges two gate posts between sharpened timber runs. The open pass, stone feet and low rails stay visible after reduction. The dark Iron upper frame and lighter Bronze surround separate from the pickets.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 92,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            740,
+            420,
+            224
+          ]
+        },
+        {
+          "id": "bld_dwarf_palisade_classical_v0",
+          "evidence_sha256": "d944e8f792922be760be864312b29f0fda2262a656ad65e2b881e395366e2ef6",
+          "observations": "A shallow tiled gate hood joins two pale stone uprights. The exposed timber stakes continue along both sides on a low foundation, making the opening legible against the earlier heavy lintel. LOD1 retains the gate passage and rail seats.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            674,
+            384,
+            194
+          ]
+        },
+        {
+          "id": "bld_dwarf_stone_wall_classical_v0",
+          "evidence_sha256": "385340158487e90ebbe6ff8992d25318653d8c12d61d1ffbb2cd8a6694c34727",
+          "observations": "Three broad merlons cap the short defensive wall above a shielded pier and two narrow lit openings. The middle mesh keeps the merlons, wall cap and the full pier thickness. The central shield remains visible against all three masonry finishes.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            340,
+            192,
+            70
+          ]
+        },
+        {
+          "id": "bld_dwarf_watchtower_ancient_v0",
+          "evidence_sha256": "34f41ce832095d46f8d290f7eaabbef3ace8815a10292674fb81d47bce614dd7",
+          "observations": "Four posts carry a separate canopy above the lookout opening. The squat roof, tapered base and door at its foot preserve the tower's scale at phone size. All three parts remain attached in LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            486,
+            276,
+            146
+          ]
+        },
+        {
+          "id": "bld_dwarf_watchtower_classical_v0",
+          "evidence_sha256": "a1a81d29bef2ab58543df5f94f49cde31b02c6014934f6b099a71ac15b77a292",
+          "observations": "A brazier with a bright pointed flame replaces the old post-supported lookout cap. The tapered stone tower and dark door make a readable base. The middle mesh keeps the brazier seat, roof ledge and front access.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            504,
+            286,
+            136
+          ]
+        },
+        {
+          "id": "bld_dwarf_watchtower_industrial_v0",
+          "evidence_sha256": "078a5ba46280eb28782bc0b423a960027b129c75dbdc554ba3672a29befabb5d",
+          "observations": "A projecting roof encloses a glazed lookout and a small circular lamp crowns it. The brick tower and entrance read vertically even at 64 px, with continuous wall, sill and roof support in LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            502,
+            286,
+            132
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_dwarf_military_base_future_v0",
+          "evidence_sha256": "2556c2201776bf614b285e07127d6fd37c96ac68185a93b136e0447ee6087785",
+          "observations": "Two tall command blocks overlook a recessed circular landing pad between low service wings. The high bridge remains seated in both towers and the doors open toward the landing court at LOD1. Both neutral views clearly differ from the earlier shallow radar complex.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            846,
+            482,
+            227
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_barracks_classical_v0",
+          "evidence_sha256": "c4c645a0a2933fce8a475ab6e04a9040360a66e02c6e454e11b13334761f7a3f",
+          "observations": "The two-tiered tiled roof and flag remain over an enclosed hall. At the front the arched door stays visible between the shield and freestanding banner.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            570,
+            324,
+            158
+          ]
+        },
+        {
+          "id": "bld_dwarf_barracks_future_v0",
+          "evidence_sha256": "939602d4822f0a4ddc65c075a99aa62a946e22f00154e1d9c6043ef6c40f8106",
+          "observations": "The bright glazed roof monitor is supported by the solid dark roof. The front arch, low stair and banner remain intact, with no exposed rear wall gaps.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            622,
+            354,
+            158
+          ]
+        },
+        {
+          "id": "bld_dwarf_castle_classical_v0",
+          "evidence_sha256": "7e3d628ff46eb2180db94472aa44f27050b3a6d66febf2bc736c79d75f7b9d79",
+          "observations": "Four turrets meet the curtain walls around the stepped central keep. The middle mesh retains the gateway opening and the broad keep roof from both sides.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1310,
+            746,
+            320
+          ]
+        },
+        {
+          "id": "bld_dwarf_military_base_industrial_v0",
+          "evidence_sha256": "4955a9641312781dfcb64fc53589fadc76dc4a1aad61075d46232d1118f0682d",
+          "observations": "The radar dish, roof pedestal and three separate buildings remain in contact with the base. The open route beside the sentry box still reaches the command door.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1012,
+            576,
+            306
+          ]
+        },
+        {
+          "id": "bld_dwarf_palisade_ancient_v0",
+          "evidence_sha256": "a1eecf324d561c515514ba34ca03910807e08fd39dc5795e20b55d072250635a",
+          "observations": "Timber runs remain joined to the gateposts and the lintel still bridges the open entrance. The back of each fence run shows continuous upright stakes.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 92,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            740,
+            420,
+            224
+          ]
+        },
+        {
+          "id": "bld_dwarf_palisade_classical_v0",
+          "evidence_sha256": "a05c2f98f1da89c279a7b180b785965889cc83c17565762fb378fc7797a80c91",
+          "observations": "The gate hood still spans two stone uprights and both side walls retain their timber stakes. The middle mesh leaves the passage clear in both front views.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            674,
+            384,
+            194
+          ]
+        },
+        {
+          "id": "bld_dwarf_stone_wall_classical_v0",
+          "evidence_sha256": "1b01ff2c075932b7ee31244457678b5f84d356516e2153039142e4cd10ac5c33",
+          "observations": "The broad rear face remains closed below the merlons. The shield, wall cap and front pier remain legible even when the fine crown ornaments drop out.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            340,
+            192,
+            70
+          ]
+        },
+        {
+          "id": "bld_dwarf_watchtower_ancient_v0",
+          "evidence_sha256": "306476090ddf69070786f3a199703b7fb3ce1773f998b085e4496bbe8358736a",
+          "observations": "The canopy keeps the supporting posts and an open lookout level. The tapered stone shaft and dark entry door remain complete beneath it.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            486,
+            276,
+            146
+          ]
+        },
+        {
+          "id": "bld_dwarf_watchtower_classical_v0",
+          "evidence_sha256": "de14c7f92f89c6a6a2f1ada01fed3fe076c3dd03c399ffffc88434e923a1df23",
+          "observations": "The brazier stands clearly above the tower with a supported cap and intact shaft. The door opening retains its dark leaf at the base.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            504,
+            286,
+            136
+          ]
+        }
+      ]
     }
   ]
 }

@@ -118,6 +118,153 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_ancient_bronze_v0",
+          "evidence_sha256": "ed38b3ddc53c252cfcdb7fa436f42bba92e59c0c3a0eaabf4a8bd163ceedd188",
+          "observations": "The stepped hip roof has a low raised cap and a projecting square flue. Heavy corner buttresses frame a short stair and dark recessed door. These hold the Bronze house together in both side views at LOD1.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            439,
+            250,
+            134
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_ancient_bronze_v1",
+          "evidence_sha256": "3fd29de079739706a8848a51ce90cc387d47f4da5a10a390f02cbb3bf304069f",
+          "observations": "The long round-backed roof, offset side room and square chimney distinguish the second Bronze house from the stepped-cap version. The broad roof lands on intact walls and the short stair reaches the door at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 92,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            485,
+            276,
+            152
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_ancient_iron_v1",
+          "evidence_sha256": "0c2eec33455320eb6788c6a7350b198c580b3add3eb360475edbfa56c2dc4a8e",
+          "observations": "The strapped vault projects forward over a squared-off stone gable, while an attached lower vault flanks the main door. Both roofs and the entrance surround hold their shapes at LOD1. A warm lamp separates the entrance from the dark iron.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            469,
+            266,
+            138
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_ancient_v0",
+          "evidence_sha256": "10a67bea3c3a976aa21599988cb9f752a193911eb6a722dd7461f7ecb413286e",
+          "observations": "The single low straw-covered vault sits on splayed supports, with one small roof opening and a sheltered front door. The warm roof dominates at phone size. The middle mesh keeps the supports and broad entrance stair.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            387,
+            220,
+            112
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_ancient_bronze_v1",
+          "evidence_sha256": "3e12ba285f62fb64a790f251acbb2823078ce5bcde989930a4aae3663086481e",
+          "observations": "The vault, low side annex, porch steps and supported corner walls stay complete when the loose barrel disappears. The roof-to-gable joins remain solid from behind.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 92,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            485,
+            276,
+            152
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_ancient_iron_v1",
+          "evidence_sha256": "1fbafe834a4e9a873facafc95acf66086531abaa9ed1f8856198c096fae33884",
+          "observations": "The two strapped roof sections, attached annex and stone entry frame stay in place. Rear and side views show a complete stone shell between the buttresses.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            469,
+            266,
+            138
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_ancient_v0",
+          "evidence_sha256": "2cf90570e595225654133cf56c5ec14225c1407f510a59a68d6de6f170fa6de5",
+          "observations": "The broad straw vault still spans both brown gables. Its squat supports and dark timber door remain intact after the small barrel is omitted.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            387,
+            220,
+            112
+          ]
+        }
+      ]
     }
   ]
 }

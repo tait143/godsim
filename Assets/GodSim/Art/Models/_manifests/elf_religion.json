@@ -152,7 +152,7 @@
   "triangles": 924,
   "lod_triangles": [
    924,
-   597,
+   525,
    256
   ],
   "bounds": [
@@ -167,7 +167,7 @@
     0.8253800272941589
    ]
   ],
-  "bytes": 161460,
+  "bytes": 157184,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_monastery_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_monastery_classical_v0.png",
@@ -194,25 +194,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 924,
+  "triangles": 1463,
   "lod_triangles": [
-   924,
-   597,
-   256
+   1463,
+   775,
+   373
   ],
   "bounds": [
    [
-    -0.8647122383117676,
+    -0.7881159782409668,
     0.0,
-    -0.6703454256057739
+    -0.6614036560058594
    ],
    [
-    0.8647122383117676,
-    1.1361019611358643,
-    0.8253800272941589
+    0.7937999963760376,
+    1.7770761251449585,
+    0.6552344560623169
    ]
   ],
-  "bytes": 161348,
+  "bytes": 255068,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_monastery_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_monastery_future_v0.png",
@@ -238,25 +238,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 924,
+  "triangles": 1303,
   "lod_triangles": [
-   924,
-   597,
-   256
+   1303,
+   701,
+   380
   ],
   "bounds": [
    [
-    -0.8647122383117676,
+    -0.6685383319854736,
     0.0,
-    -0.6703454256057739
+    -0.9331168532371521
    ],
    [
-    0.8647122383117676,
-    1.014448642730713,
-    0.8253800272941589
+    0.7006999850273132,
+    1.371145248413086,
+    0.7545999884605408
    ]
   ],
-  "bytes": 161540,
+  "bytes": 225928,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_monastery_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_monastery_industrial_v0.png",
@@ -285,7 +285,7 @@
   "triangles": 760,
   "lod_triangles": [
    760,
-   460,
+   432,
    164
   ],
   "bounds": [
@@ -300,7 +300,7 @@
     0.35303995013237
    ]
   ],
-  "bytes": 125688,
+  "bytes": 123920,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_shrine_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_ancient_v0.png",
@@ -327,25 +327,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 760,
+  "triangles": 721,
   "lod_triangles": [
-   760,
-   460,
-   164
+   721,
+   397,
+   210
   ],
   "bounds": [
    [
-    -0.3709155321121216,
+    -0.2498999983072281,
     0.0,
-    -0.4041496217250824
+    -0.433151513338089
    ],
    [
-    0.3709155321121216,
-    0.919160008430481,
-    0.35303995013237
+    0.21070000529289246,
+    0.5547183156013489,
+    0.40177175402641296
    ]
   ],
-  "bytes": 125680,
+  "bytes": 131688,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_shrine_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_classical_v0.png",
@@ -372,25 +372,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 794,
+  "triangles": 621,
   "lod_triangles": [
-   794,
-   482,
-   177
+   621,
+   346,
+   197
   ],
   "bounds": [
    [
-    -0.3709155321121216,
+    -0.3363648056983948,
     0.0,
-    -0.4041496217250824
+    -0.3798657953739166
    ],
    [
-    0.3709155321121216,
-    1.1358799934387207,
-    0.35303995013237
+    0.34231141209602356,
+    0.7355315089225769,
+    0.31590595841407776
    ]
   ],
-  "bytes": 131616,
+  "bytes": 116352,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_shrine_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_future_v0.png",
@@ -416,25 +416,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 794,
+  "triangles": 833,
   "lod_triangles": [
-   794,
-   482,
-   177
+   833,
+   485,
+   259
   ],
   "bounds": [
    [
-    -0.3709155321121216,
+    -0.2859640121459961,
     0.0,
-    -0.4041496217250824
+    -0.4049800634384155
    ],
    [
-    0.3709155321121216,
-    1.027519941329956,
-    0.35303995013237
+    0.35280001163482666,
+    0.8777999877929688,
+    0.26181522011756897
    ]
   ],
-  "bytes": 131460,
+  "bytes": 153720,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_shrine_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_shrine_industrial_v0.png",
@@ -464,7 +464,7 @@
   "triangles": 570,
   "lod_triangles": [
    570,
-   386,
+   324,
    178
   ],
   "bounds": [
@@ -479,7 +479,7 @@
     0.32156145572662354
    ]
   ],
-  "bytes": 103308,
+  "bytes": 99192,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_spirit_totem_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_spirit_totem_ancient_v0.png",
@@ -508,7 +508,7 @@
   "triangles": 1112,
   "lod_triangles": [
    1112,
-   670,
+   632,
    219
   ],
   "bounds": [
@@ -523,7 +523,7 @@
     0.8075584173202515
    ]
   ],
-  "bytes": 184524,
+  "bytes": 182504,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_temple_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_ancient_v0.png",
@@ -549,25 +549,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1112,
+  "triangles": 1358,
   "lod_triangles": [
-   1112,
-   670,
-   219
+   1358,
+   783,
+   353
   ],
   "bounds": [
    [
-    -0.7727406620979309,
+    -0.5978000164031982,
     0.0,
-    -0.9916044473648071
+    -0.8665487766265869
    ],
    [
-    0.7727406620979309,
-    1.4761883020401,
-    0.8075584173202515
+    0.5978000164031982,
+    1.4717336893081665,
+    0.7734346389770508
    ]
   ],
-  "bytes": 184264,
+  "bytes": 238208,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_temple_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_classical_v0.png",
@@ -594,25 +594,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1224,
+  "triangles": 1301,
   "lod_triangles": [
-   1224,
-   738,
-   263
+   1301,
+   675,
+   329
   ],
   "bounds": [
    [
-    -0.8460000157356262,
+    -0.8139879703521729,
     0.0,
-    -0.9916044473648071
+    -0.7619146704673767
    ],
    [
-    0.8460000157356262,
-    1.7777223587036133,
-    0.8075584173202515
+    0.8044112920761108,
+    1.773842692375183,
+    0.750381350517273
    ]
   ],
-  "bytes": 206332,
+  "bytes": 229024,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_temple_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_future_v0.png",
@@ -638,25 +638,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1224,
+  "triangles": 1059,
   "lod_triangles": [
-   1224,
-   738,
-   263
+   1059,
+   561,
+   253
   ],
   "bounds": [
    [
-    -0.8460000157356262,
+    -0.7251999974250793,
     0.0,
-    -0.9916044473648071
+    -0.9273144006729126
    ],
    [
-    0.8460000157356262,
-    1.6119552850723267,
-    0.8075584173202515
+    0.7251999974250793,
+    1.743332862854004,
+    0.7056000232696533
    ]
   ],
-  "bytes": 206720,
+  "bytes": 171616,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Religion/bld_elf_temple_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Religion/bld_elf_temple_industrial_v0.png",

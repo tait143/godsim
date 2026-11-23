@@ -16,25 +16,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 956,
+  "triangles": 802,
   "lod_triangles": [
-   956,
-   628,
-   294
+   802,
+   468,
+   245
   ],
   "bounds": [
    [
-    -0.9549999833106995,
+    -0.9449999928474426,
     0.0,
-    -0.8700000047683716
+    -0.8460000157356262
    ],
    [
-    0.9549999833106995,
-    1.5499999523162842,
-    0.8700000047683716
+    0.9449999928474426,
+    1.225000023841858,
+    0.8740000128746033
    ]
   ],
-  "bytes": 151112,
+  "bytes": 111776,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Extraction/bld_dwarf_coal_mine_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Extraction/bld_dwarf_coal_mine_future_v0.png",
@@ -152,7 +152,7 @@
   "triangles": 1079,
   "lod_triangles": [
    1079,
-   686,
+   614,
    302
   ],
   "bounds": [
@@ -167,7 +167,7 @@
     0.9100000262260437
    ]
   ],
-  "bytes": 147432,
+  "bytes": 146840,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Extraction/bld_dwarf_gold_mine_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Extraction/bld_dwarf_gold_mine_classical_v0.png",
@@ -462,25 +462,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1114,
+  "triangles": 678,
   "lod_triangles": [
-   1114,
-   646,
-   302
+   678,
+   374,
+   184
   ],
   "bounds": [
    [
     -0.925000011920929,
     0.0,
-    -0.8299999833106995
+    -0.8669999837875366
    ],
    [
     0.925000011920929,
-    1.274999976158142,
-    0.8299999833106995
+    1.6059999465942383,
+    0.8330000042915344
    ]
   ],
-  "bytes": 152844,
+  "bytes": 95912,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Extraction/bld_dwarf_oil_well_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Extraction/bld_dwarf_oil_well_future_v0.png",
@@ -548,25 +548,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1060,
+  "triangles": 514,
   "lod_triangles": [
-   1060,
-   494,
-   281
+   514,
+   276,
+   142
   ],
   "bounds": [
    [
-    -0.9100000262260437,
+    -0.9449999928474426,
     0.0,
-    -0.8349999785423279
+    -0.8949999809265137
    ],
    [
-    0.9100000262260437,
-    1.1139999628067017,
-    0.8349999785423279
+    0.9449999928474426,
+    1.343000054359436,
+    0.8949999809265137
    ]
   ],
-  "bytes": 126048,
+  "bytes": 65476,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Extraction/bld_dwarf_sawmill_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Extraction/bld_dwarf_sawmill_future_v0.png",
@@ -683,25 +683,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 876,
+  "triangles": 668,
   "lod_triangles": [
-   876,
-   444,
-   182
+   668,
+   370,
+   161
   ],
   "bounds": [
    [
-    -0.9300000071525574,
+    -0.9399999976158142,
     0.0,
-    -0.8730000257492065
+    -0.8299999833106995
    ],
    [
-    0.9300000071525574,
-    1.2657746076583862,
-    0.8970000147819519
+    0.9399999976158142,
+    1.3841973543167114,
+    0.8100000023841858
    ]
   ],
-  "bytes": 108236,
+  "bytes": 86796,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Extraction/bld_dwarf_stone_quarry_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Extraction/bld_dwarf_stone_quarry_classical_v0.png",
@@ -728,25 +728,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 896,
+  "triangles": 654,
   "lod_triangles": [
-   896,
-   464,
-   202
+   654,
+   382,
+   162
   ],
   "bounds": [
    [
-    -0.9300000071525574,
+    -0.9350000023841858,
     0.0,
-    -0.8730000257492065
+    -0.8899999856948853
    ],
    [
-    0.9300000071525574,
-    1.3257746696472168,
-    0.8970000147819519
+    0.9350000023841858,
+    1.3669999837875366,
+    0.8899999856948853
    ]
   ],
-  "bytes": 112032,
+  "bytes": 84308,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Extraction/bld_dwarf_stone_quarry_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Extraction/bld_dwarf_stone_quarry_future_v0.png",
@@ -772,25 +772,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 896,
+  "triangles": 850,
   "lod_triangles": [
-   896,
-   464,
-   202
+   850,
+   502,
+   180
   ],
   "bounds": [
    [
-    -0.9300000071525574,
+    -0.9649999737739563,
     0.0,
-    -0.8730000257492065
+    -0.8799999952316284
    ],
    [
-    0.9300000071525574,
-    1.405774712562561,
-    0.8970000147819519
+    0.9649999737739563,
+    1.024999976158142,
+    0.8799999952316284
    ]
   ],
-  "bytes": 112036,
+  "bytes": 108080,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Extraction/bld_dwarf_stone_quarry_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Extraction/bld_dwarf_stone_quarry_industrial_v0.png",
@@ -863,25 +863,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 886,
+  "triangles": 610,
   "lod_triangles": [
-   886,
-   370,
-   196
+   610,
+   280,
+   186
   ],
   "bounds": [
    [
-    -0.45500001311302185,
+    -0.4625000059604645,
     0.0,
-    -0.41749998927116394
+    -0.42250001430511475
    ],
    [
-    0.45500001311302185,
-    0.4571000039577484,
-    0.41749998927116394
+    0.4625000059604645,
+    0.5569999814033508,
+    0.42250001430511475
    ]
   ],
-  "bytes": 101488,
+  "bytes": 76440,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Extraction/bld_dwarf_woodcutter_camp_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Extraction/bld_dwarf_woodcutter_camp_classical_v0.png",
@@ -908,25 +908,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 910,
+  "triangles": 716,
   "lod_triangles": [
-   910,
-   394,
-   208
+   716,
+   372,
+   222
   ],
   "bounds": [
    [
     -0.45500001311302185,
     0.0,
-    -0.41749998927116394
+    -0.4300000071525574
    ],
    [
     0.45500001311302185,
-    0.44589999318122864,
-    0.41749998927116394
+    0.6398993134498596,
+    0.4399999976158142
    ]
   ],
-  "bytes": 105804,
+  "bytes": 94180,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Extraction/bld_dwarf_woodcutter_camp_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Extraction/bld_dwarf_woodcutter_camp_future_v0.png",
@@ -952,25 +952,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 910,
+  "triangles": 818,
   "lod_triangles": [
-   910,
-   394,
-   208
+   818,
+   450,
+   147
   ],
   "bounds": [
    [
-    -0.45500001311302185,
+    -0.4699999988079071,
     0.0,
-    -0.41749998927116394
+    -0.42500001192092896
    ],
    [
-    0.45500001311302185,
-    0.4128600060939789,
-    0.41749998927116394
+    0.4699999988079071,
+    0.6823824644088745,
+    0.4449999928474426
    ]
   ],
-  "bytes": 105932,
+  "bytes": 101212,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Extraction/bld_dwarf_woodcutter_camp_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Extraction/bld_dwarf_woodcutter_camp_industrial_v0.png",

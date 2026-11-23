@@ -60,25 +60,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1300,
+  "triangles": 1488,
   "lod_triangles": [
-   1300,
-   787,
-   398
+   1488,
+   788,
+   373
   ],
   "bounds": [
    [
-    -1.3593286275863647,
+    -1.1314799785614014,
     0.0,
-    -1.2135000228881836
+    -1.2000000476837158
    ],
    [
-    1.3593286275863647,
-    2.702924966812134,
-    1.2675000429153442
+    1.1359200477600098,
+    2.700000047683716,
+    1.2899999618530273
    ]
   ],
-  "bytes": 226012,
+  "bytes": 235512,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_cathedral_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_cathedral_future_v0.png",
@@ -107,7 +107,7 @@
   "triangles": 1323,
   "lod_triangles": [
    1323,
-   801,
+   753,
    406
   ],
   "bounds": [
@@ -122,7 +122,7 @@
     1.2675000429153442
    ]
   ],
-  "bytes": 230868,
+  "bytes": 227156,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_cathedral_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_cathedral_industrial_v0.png",
@@ -152,7 +152,7 @@
   "triangles": 664,
   "lod_triangles": [
    664,
-   445,
+   377,
    199
   ],
   "bounds": [
@@ -167,7 +167,7 @@
     0.8450000286102295
    ]
   ],
-  "bytes": 113588,
+  "bytes": 108920,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_monastery_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_monastery_classical_v0.png",
@@ -194,25 +194,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 752,
+  "triangles": 1288,
   "lod_triangles": [
-   752,
-   506,
-   233
+   1288,
+   679,
+   371
   ],
   "bounds": [
    [
-    -0.9150000214576721,
+    -0.9458000063896179,
     0.0,
-    -0.8450000286102295
+    -0.7616795897483826
    ],
    [
-    0.9150000214576721,
-    1.1660000085830688,
-    0.8450000286102295
+    0.9440000057220459,
+    1.1399999856948853,
+    0.8652511239051819
    ]
   ],
-  "bytes": 131280,
+  "bytes": 212368,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_monastery_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_monastery_future_v0.png",
@@ -238,25 +238,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 696,
+  "triangles": 970,
   "lod_triangles": [
-   696,
-   471,
-   209
+   970,
+   470,
+   309
   ],
   "bounds": [
    [
-    -0.9150000214576721,
+    -0.8899999856948853,
     0.0,
-    -0.8450000286102295
+    -0.8273623585700989
    ],
    [
-    0.9150000214576721,
-    1.0266799926757812,
-    0.8450000286102295
+    0.7526629567146301,
+    1.934340000152588,
+    0.8100000023841858
    ]
   ],
-  "bytes": 119232,
+  "bytes": 160412,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_monastery_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_monastery_industrial_v0.png",
@@ -327,25 +327,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 838,
+  "triangles": 722,
   "lod_triangles": [
-   838,
-   469,
-   225
+   722,
+   400,
+   183
   ],
   "bounds": [
    [
-    -0.3453184962272644,
+    -0.336487740278244,
     0.0,
-    -0.3988642692565918
+    -0.27461621165275574
    ],
    [
-    0.3453184962272644,
-    0.892799973487854,
-    0.34850382804870605
+    0.3382999897003174,
+    0.6449999809265137,
+    0.3149999976158142
    ]
   ],
-  "bytes": 149904,
+  "bytes": 121468,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_shrine_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_classical_v0.png",
@@ -372,25 +372,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 848,
+  "triangles": 690,
   "lod_triangles": [
-   848,
-   479,
-   235
+   690,
+   384,
+   197
   ],
   "bounds": [
    [
-    -0.3453184962272644,
+    -0.3881531059741974,
     0.0,
-    -0.3988642692565918
+    -0.38035038113594055
    ],
    [
-    0.3453184962272644,
-    0.8628000020980835,
-    0.34850382804870605
+    0.3913849890232086,
+    0.6850000023841858,
+    0.28069379925727844
    ]
   ],
-  "bytes": 152184,
+  "bytes": 125920,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_shrine_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_future_v0.png",
@@ -416,25 +416,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 848,
+  "triangles": 764,
   "lod_triangles": [
-   848,
-   479,
-   235
+   764,
+   435,
+   173
   ],
   "bounds": [
    [
-    -0.3453184962272644,
+    -0.3040222227573395,
     0.0,
-    -0.3988642692565918
+    -0.38270020484924316
    ],
    [
-    0.3453184962272644,
-    0.7928000092506409,
-    0.34850382804870605
+    0.304898202419281,
+    0.7250000238418579,
+    0.2998982071876526
    ]
   ],
-  "bytes": 151676,
+  "bytes": 134952,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_shrine_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_shrine_industrial_v0.png",
@@ -549,25 +549,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1056,
+  "triangles": 696,
   "lod_triangles": [
-   1056,
-   596,
-   270
+   696,
+   396,
+   182
   ],
   "bounds": [
    [
-    -0.6416283249855042,
+    -0.8104217648506165,
     0.0,
-    -0.8335000276565552
+    -0.5989999771118164
    ],
    [
-    0.852696418762207,
-    1.313349962234497,
-    0.8450000286102295
+    0.8145899772644043,
+    1.4299999475479126,
+    0.7549999952316284
    ]
   ],
-  "bytes": 180812,
+  "bytes": 118428,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_temple_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_temple_classical_v0.png",
@@ -594,25 +594,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 968,
+  "triangles": 964,
   "lod_triangles": [
-   968,
-   531,
-   218
+   964,
+   476,
+   279
   ],
   "bounds": [
    [
-    -0.6416283249855042,
+    -0.8211836814880371,
     0.0,
-    -0.8090000152587891
+    -0.6474137306213379
    ],
    [
-    0.852696418762207,
-    1.409999966621399,
-    0.8450000286102295
+    0.8211836814880371,
+    1.6799999475479126,
+    0.9599999785423279
    ]
   ],
-  "bytes": 161296,
+  "bytes": 168544,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_temple_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_temple_future_v0.png",
@@ -638,25 +638,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 991,
+  "triangles": 822,
   "lod_triangles": [
-   991,
-   545,
-   226
+   822,
+   475,
+   262
   ],
   "bounds": [
    [
-    -0.6416283249855042,
+    -0.8700000047683716,
     0.0,
-    -0.8090000152587891
+    -0.8865000009536743
    ],
    [
-    0.852696418762207,
-    1.5299999713897705,
-    0.8450000286102295
+    0.8700000047683716,
+    1.8464670181274414,
+    0.6050000190734863
    ]
   ],
-  "bytes": 166024,
+  "bytes": 143904,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Religion/bld_orc_temple_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Religion/bld_orc_temple_industrial_v0.png",

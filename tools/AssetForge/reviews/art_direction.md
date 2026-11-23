@@ -1,6 +1,6 @@
 # GodSim building art direction review
 
-**Current decision: the corrected 1,034-model catalog passed art direction.** The final re-review records the resolution of all 34 original holds and identifies the reviewed images by hash. [Corrected full assembly](#corrected-full-assembly-23-november-2026)
+**The 1,034-model coordinator RC1 catalog passed independent art direction.** The final Farm correction closes the only finding from the two-angle era review. [Signed RC1 disposition](#signed-rc1-disposition)
 
 ## First full assembly, 23 November 2026
 
@@ -163,5 +163,35 @@ The package records for all 1,034 models had current file evidence, passing scor
 | `17.png` | `e35a2637e77723e0fb93a6dcba69f03a9bccefd4ebdc2bf078e4dcb2551de9f7` |
 | `18.png` | `55661396188332d81893774eec075c25bccfe1d5f06e57be368d85e0acdb5ec8` |
 | `19.png` | `49a8888e7ca35be30aba366cfc28287c26254266fb99b46d4d4f75d69bee85ae` |
+
+## Coordinator RC1 visual review, 23 November 2026
+
+I opened all **36 canonical pages**. The 19 colour family sheets contain 2,096 age previews from 1,034 models across all 75 functions. The 17 unpainted sheets show 361 era models in 119 race/function lineages, each rendered twice at 64 px from the serialized LOD0 mesh, at 215° and 145°. I compared the earliest and latest available models in each row, followed intermediate generations, and used the colour sheets to compare the same function across races and against adjacent functions. The 119 lineages comprise the coordinator’s 61, the separately pictured Elf Herbalist, and 57 lineages with additional critic findings. The images include all siblings of each repaired model.
+
+| Race | Coordinator lineages, including pictured Herbalist | Additional lineages | Era models / unpainted views | Form and technology observed |
+|---|---:|---:|---:|---|
+| Dwarf | 11 | 8 | 58 / 116 | The cathedral progresses from a square nave and side tower to a domed hall, then buttress-like ribs enclosing a tall faceted center. The quarry’s lever and exposed blocks give way to an enclosed lifting unit and a gantry over cut beds. Wide bases and rectilinear working bays keep both Dwarven. |
+| Elf | 6 | 30 | 110 / 220 | The Herbalist moves from pots beside a leaf hut to a canopied planting bed, a suspended pair of processing vessels and a tall flowering treatment station. The future factory exposes its elevated production line, while the theater splits its seating around a leaf-shaded performance end. The repaired Classical fishing station has two jetties and a hanging net. The Classical gold works expose a wheel in a masonry arch above a sluice. |
+| Human | 4 | 7 | 32 / 64 | A boat at a roofed waterfront landing becomes a dockside loading tower, then a crane spanning the quay. The pasture advances from a hut and fenced animals to masonry and industrial stock shelters, then a broad roof above an open pen. The theater preserves the stage as its enclosure changes from an open shed to a hall and a curved audience bowl. |
+| Orc | 14 | 9 | 71 / 142 | The early ritual shelter becomes an arch, paired industrial uprights and a gem held between tusks. At the observatory, a short roof-mounted optic gives way to a larger enclosed instrument and then a dish array. The research lab’s surrounding instrument frame and the rail station’s long raised platform remain distinct even in gray. |
+| Saurian | 27 | 3 | 90 / 180 | The forge and furnace lineages move from small kiln buildings to mechanized sheds, then a supported energy furnace or working arch. The theater progresses from a framed, open stage to a roofed hall and a fan-shaped acoustic shell. The college’s paired pavilions and suspended horizontal ring read differently from the monastery’s frontal arch and pool. |
+
+I also compared the future Elf Hospital and MedicalCenter at the same two unpainted angles and in colour. The Hospital encloses a stair among three elevated wards. The MedicalCenter has two staggered towers and an open, projecting triage entry. In the supplemental Elf fishing and gold-mining lineages, the Industrial and Future checkpoint siblings remain close silhouettes. The distinctly rebuilt Classical siblings resolve the findings recorded for those lineages. This review does not establish independent recreations of every inherited era mesh.
+
+### RC1 first candidate finding
+
+**Held `bld_saurian_farm_future_v0` for its Information and Ascension appearances.** At 64 px the ordinary farm was a three-tier circular planter with a leaf crown on a nearly empty plot. The coexisting HydroponicsTower used the same round planted tiers and central cap. Comparing both unpainted angles confirmed that the similarly shaped towers occupied the playable silhouettes. Restore a low spread of cultivated beds or irrigation terraces as the primary form of the ordinary Future Farm. Keep the coexisting industrial glasshouses and hydroponics tower distinct.
+
+The held painted Farm page 05 had SHA-256 `7e0ae8c8c817e991b79d8a6804f376ce0c8b074f4721403cb62dab8e5463b720`. Its corresponding `saurian-01.png` geometry page had SHA-256 `2704dbda439aefa1c0fd1e709800573c23aeb60cb1f4a0a5eaffbf2ddceb2fb4`. The HydroponicsTower comparison on page 10 had SHA-256 `7232ca2770dc1d164a9d12b903d84b246c94d26c05fea01548ff7a7f487e4c9b`.
+
+### Signed RC1 disposition
+
+**Approved. The Saurian future Farm hold is closed.** I reopened painted pages 05 and 10 and unpainted page `saurian-01.png` after the repair. Four gently curving crop rows fill the farm plot. A low irrigation channel and a small shelter at the corner leave the field visible in both Information and Ascension. At both gray angles the Farm reads as a broad cultivated surface. The HydroponicsTower remains a stack of circular planting decks, and the IndustrialFarm remains a group of pitched glasshouses. Saurian Food round 10 independently passed the revised model.
+
+Updated painted page 05 has SHA-256 `de7247208cd7b0df52aa5668ea0c469c4f64ae9076470161e8039c5661f18e87`. Updated unpainted page `saurian-01.png` has SHA-256 `3598986ca125ff0ba421c43f2448aa216961368ca6c7c32396efafe013995473`. The other 34 page hashes match those I inspected in the initial RC1 comparison. The repaired GLB has SHA-256 `0b80a224fcdebc552d245af199168653e7c0b1ff263e75bc0d2b4dd7c8668fb9`.
+
+I checked the latest individual review against current evidence for each of the 1,034 models in 71 package fragments. All passed. I signed the aggregate evidence digest `a019521f7faeff6fe8478107e730c5284b967c7ded349000903e89a5b1f4b0f1` and the SHA-256 values for all 19 painted and all 17 unpainted pages. This signature covers the inspected assets, appearances and scoped era repairs. Runtime and device verification are separate. [Signed evidence and sheet hashes](art_direction_approval.json)
+
+Signed by `catalog_art_director`, 23 November 2026.
 
 

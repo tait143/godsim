@@ -5,6 +5,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from generators.buildings.saurian_towncenters import Delta, generate
+from generators.buildings import saurian_delta_works as works
 
 PACKAGE = "saurian_military"
 
@@ -149,6 +150,26 @@ def watch(m):
 
 
 def wall(m):
+    if m.era==2:
+        # Batter the curtain into a low casemate. The offset watch cupola covers an
+        # exposed firing shelf, its narrow observation slit continuous on three faces.
+        m.slab("fieldstone",0,0,.035,.985,.30,.59,.78,cut=.07)
+        m.slab("brick",0,.30,.035,.776,.16,.46,.92)
+        m.slab("metal",0,.46,.035,.813,.072,.51,.93,underside=True)
+        m.slab("brick",-.184,.532,.056,.45,.26,.38,.82)
+        m.slab("door",-.184,.792,.056,.37,.059,.307,.98)
+        m.slab("metal",-.184,.851,.056,.45,.10,.38,.67,underside=True)
+        m.block("wall",.16,0,-.232,.28,.27,.20)
+        m.entry(.16,0,-.332,.15,.215)
+        m.slab("turquoise",.16,.27,-.232,.31,.048,.226,.89)
+        for z in (-.133,.23):
+            m.block("metal",.22,.532,z,.34,.094,.055)
+        if m.lod<2:
+            m.disc(-.184,.688,-.110,.069)
+            if m.lod==0:
+                for x in (.075,.225,.37):
+                    m.slab("trim",x,0,-.196,.054,.34,.17,.57)
+        return
     modern=m.era==2
     # The curtain is continuous along X. A deep central buttress contains its postern.
     m.slab("fieldstone",0,0,.056,.965,.118,.51,.95,cut=.028)
@@ -273,6 +294,22 @@ def fort(m):
 
 
 def station(m):
+    if m.era==3:
+        # Protected command core in a tall open signal bow. Two low perimeter
+        # hangars face the assembly court and keep the approach visually open.
+        works.footing(m,2.80,2.73)
+        works.lens(m,-.23,.50,.575,.44)
+        works.arch(m,-.23,.57,1.53,1.68,.138,.206)
+        m.rod("gold",(-.23,1.07,.57),(-.23,1.67,.57),.047)
+        m.disc(-.23,1.41,.47,.179,"turquoise")
+        for x,z in ((-.91,-.32),(.80,.07)):
+            works.barrel(m,x,z,.63,1.06,.36,.26)
+        m.slab("turquoise",0,.08,-.79,.97,.05,.58,.96)
+        if m.lod<2:
+            for x in (-.83,.83):
+                m.slab("wall",x,.08,-.95,.25,.25,.22,.68)
+                m.mound("glass",x,.33,-.95,.086,.105)
+        return
     future=m.era==3
     m.slab("wall",0,0,.032,2.80,.105,2.67,.96)
     # A command gallery and the radio annex shelter two sides of the muster apron.

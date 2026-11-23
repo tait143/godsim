@@ -198,7 +198,7 @@
   "triangles": 962,
   "lod_triangles": [
    962,
-   592,
+   548,
    236
   ],
   "bounds": [
@@ -213,7 +213,7 @@
     0.36625000834465027
    ]
   ],
-  "bytes": 143364,
+  "bytes": 141372,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_ancient_v0.png",
@@ -241,25 +241,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 962,
+  "triangles": 808,
   "lod_triangles": [
-   962,
-   592,
-   236
+   808,
+   460,
+   228
   ],
   "bounds": [
    [
-    -0.41499999165534973,
+    -0.45249998569488525,
     0.0,
-    -0.4099999964237213
+    -0.4074999988079071
    ],
    [
-    0.4154999852180481,
-    0.4350000023841858,
-    0.36625000834465027
+    0.44999998807907104,
+    0.4729999899864197,
+    0.4124999940395355
    ]
   ],
-  "bytes": 143188,
+  "bytes": 131120,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_classical_v0.png",
@@ -286,25 +286,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 962,
+  "triangles": 844,
   "lod_triangles": [
-   962,
-   592,
-   236
+   844,
+   506,
+   216
   ],
   "bounds": [
    [
-    -0.41499999165534973,
+    -0.45750001072883606,
     0.0,
     -0.4099999964237213
    ],
    [
-    0.4154999852180481,
-    0.5099999904632568,
-    0.36625000834465027
+    0.45750001072883606,
+    0.5654112100601196,
+    0.41999998688697815
    ]
   ],
-  "bytes": 143172,
+  "bytes": 129284,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_future_v0.png",
@@ -330,25 +330,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 962,
+  "triangles": 822,
   "lod_triangles": [
-   962,
-   592,
-   236
+   822,
+   466,
+   184
   ],
   "bounds": [
    [
-    -0.41499999165534973,
+    -0.46000000834465027,
     0.0,
-    -0.4099999964237213
+    -0.39750000834465027
    ],
    [
-    0.4154999852180481,
-    0.47999998927116394,
-    0.36625000834465027
+    0.46000000834465027,
+    0.5644999742507935,
+    0.4074999988079071
    ]
   ],
-  "bytes": 143116,
+  "bytes": 116628,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_industrial_v0.png",
@@ -509,7 +509,7 @@
   "triangles": 512,
   "lod_triangles": [
    512,
-   312,
+   290,
    102
   ],
   "bounds": [
@@ -524,7 +524,7 @@
     0.6675000190734863
    ]
   ],
-  "bytes": 67768,
+  "bytes": 67636,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_library_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_library_classical_v0.png",
@@ -552,25 +552,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 534,
+  "triangles": 1172,
   "lod_triangles": [
-   534,
-   322,
-   112
+   1172,
+   436,
+   232
   ],
   "bounds": [
    [
-    -0.8025000095367432,
+    -0.9604072570800781,
     0.0,
-    -0.7764999866485596
+    -0.8500000238418579
    ],
    [
-    0.8025000095367432,
-    1.3317811489105225,
-    0.6675000190734863
+    0.9604072570800781,
+    1.090559959411621,
+    0.8740000128746033
    ]
   ],
-  "bytes": 69796,
+  "bytes": 141596,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_library_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_library_future_v0.png",
@@ -1032,7 +1032,7 @@
   "triangles": 748,
   "lod_triangles": [
    748,
-   474,
+   426,
    232
   ],
   "bounds": [
@@ -1047,7 +1047,7 @@
     0.3362500071525574
    ]
   ],
-  "bytes": 110288,
+  "bytes": 109164,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_ancient_v0.png",
@@ -1073,25 +1073,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 748,
+  "triangles": 656,
   "lod_triangles": [
-   748,
-   474,
-   232
+   656,
+   328,
+   208
   ],
   "bounds": [
    [
-    -0.8525000214576721,
+    -0.9300000071525574,
     0.0,
-    -0.46645909547805786
+    -0.41749998927116394
    ],
    [
-    0.9655722379684448,
-    0.9954699277877808,
-    0.3362500071525574
+    0.9100000262260437,
+    0.8955000042915344,
+    0.42250001430511475
    ]
   ],
-  "bytes": 109808,
+  "bytes": 87816,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_classical_v0.png",
@@ -1121,7 +1121,7 @@
   "triangles": 780,
   "lod_triangles": [
    780,
-   490,
+   444,
    240
   ],
   "bounds": [
@@ -1136,7 +1136,7 @@
     0.3362500071525574
    ]
   ],
-  "bytes": 113200,
+  "bytes": 112092,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_future_v0.png",
@@ -1165,7 +1165,7 @@
   "triangles": 756,
   "lod_triangles": [
    756,
-   482,
+   430,
    240
   ],
   "bounds": [
@@ -1180,7 +1180,7 @@
     0.3362500071525574
    ]
   ],
-  "bytes": 111668,
+  "bytes": 110524,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_industrial_v0.png",

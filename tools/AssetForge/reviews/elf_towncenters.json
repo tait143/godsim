@@ -324,6 +324,26 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_elf_town_center_classical_v0",
+          "evidence_sha256": "732bab62a67b7030f9a29034b4b79f291f3388c06d72c003739543abb314dda9",
+          "observations": "A ring of columns supports a faceted leaf canopy over the civic rotunda. The wide stairs and central dark doorway distinguish the public entrance from the side bays. Highest outgoing family corner share was 198/5973 (3.3%) with bld_elf_town_center_ancient_v0. Checked classical previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1991/1133/442. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

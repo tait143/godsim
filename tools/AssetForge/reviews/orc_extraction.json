@@ -515,6 +515,326 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Orc model critic, RC2 round 1",
+      "method": "Inspected saved age previews, rendered serialized LOD0, LOD1 and LOD2, and compared neutral 64px geometry at 215 and 145 degrees. Independently checked package metadata, GLB streams, exposed coplanar faces, inverted shells and repeated meshes. Compared all ordered era pairs in the 14 directed families.",
+      "models": [
+        {
+          "id": "bld_orc_coal_mine_future_v0",
+          "evidence_sha256": "0c668b7df6dd8603e29b7b0e58905ae22e8fa776f7d1aff2930144218368edde",
+          "observations": "A blue hood now shelters the hoist above the coal hopper and gate. The diamond of open space beneath the hood is visible from the reverse angle. LOD1 keeps the legs on the ground and the hopper mouth open.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 90,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_coal_mine_industrial_v0",
+          "evidence_sha256": "4b15b739ec262a32587e0f141dd0572b1a32007ee11a34fd1e92140b15002da7",
+          "observations": "The black hopper and chute contrast with the orange-brick gate. Four exposed legs carry the red hoist deck above the yard. The hoodless hoist, stairs and loading opening remain readable in the intermediate mesh.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_gold_mine_future_v0",
+          "evidence_sha256": "838e6a83e0147d8335f5bcd3c8d52b64a327b977565bae7ba3cb10f9e8152e62",
+          "observations": "The raised canopy covers the winding gear above pale legs and gold veining at the base. From the rear it breaks above the side shed. The gold ore marker, hoist feet, gate and earthen ramp remain in the intermediate mesh.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_mine_ancient_v0",
+          "evidence_sha256": "cf1e3fdd8b1013b19a46a700a7303e820ca2bf22d1c0e9e69cb26791a9f290d2",
+          "observations": "The squat timber winding frame stands over a small horned gate with a heap of bare rocks to its left. LOD1 keeps the hoist wheel and two visible forward feet. Bronze and Iron make the ore and timber weights read differently.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_mine_classical_v0",
+          "evidence_sha256": "3dbfe3343847863f2a91602abc6f8b94a703616e7e4924f8d5031edc75736ef5",
+          "observations": "A roof now shelters the winding wheel above a taller open headframe, with a pale lintel between the gate tusks. The pale canopy stays above the cross platform from both angles and the braces remain connected at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_mine_future_v0",
+          "evidence_sha256": "ba89c4eb3f19a18d7a04d3439474fb1eac4951480dcf3f136b35df7047d040f8",
+          "observations": "The high pale legs carry a new blue rain canopy above the winding wheel. The broad machinery cabinet on the left remains lower than the hoist, and the gold skin keeps the tusked doorway visible. LOD1 retains the roof, braces and ramp.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 90,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_mine_industrial_v0",
+          "evidence_sha256": "4b0bf8ef5e3f439f3edfd36cfa0aed37ffc44d4bc0f7585006864c396c9b1a84",
+          "observations": "A low flat-roof engine house with a vent attaches to the left of the exposed iron headframe. That extra volume fills the side of the once-open mine yard. The rails, dark shaft opening and supporting legs remain in the intermediate view.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_oil_well_future_v0",
+          "evidence_sha256": "154230c6e3282bac7cc7b2afd21b6349bffe5381291babaae10563606bfe6d11",
+          "observations": "In both neutral views the pump beam, A-frame, large wheel, tank and rear structure have the industrial layout and proportions. Moving to ivory, cyan and gold makes the age visible only in paint. The pump frame and footings remain sound at LOD1.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 80,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the future extractor an identifiable new pump or separation mechanism with a different profile and connected supports."
+          ]
+        },
+        {
+          "id": "bld_orc_oil_well_industrial_v0",
+          "evidence_sha256": "6a2355e3b52279e57992b184a983c95b7e6acc96fc3fc937eaa6097785ff9d90",
+          "observations": "A walking beam crosses a pair of inclined steel legs above an exposed flywheel. The squat tank and round rear shelter fill the opposite side. The machine and its counterweight remain distinct in gray at LOD1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_orc_oil_well_future_v0",
+          "evidence_sha256": "5583850a30f078ca38faf7f6854f8ea230b3a0a1ffbc2d6615671b3ae357c774",
+          "observations": "A banded vertical separator joins a horizontal tank and low valve pedestal. The connected pipework replaces the old walking-beam silhouette at phone scale. The tank saddles and powered head stay seated in the painted middle mesh.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1118,
+            637,
+            333
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_orc_coal_mine_future_v0",
+          "evidence_sha256": "af7920a11093581ffb835bb97e19fc51443ea462ca59310278b0fc92d0b7220a",
+          "observations": "The coal hopper and chute remain separate from the winch tower and covered mine entrance. The grey tower struts still connect the high roof to the foundation from behind.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 90,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1092,
+            621,
+            345
+          ]
+        },
+        {
+          "id": "bld_orc_coal_mine_industrial_v0",
+          "evidence_sha256": "c2eceb040e9d03669677fb65f39c334127b005e291d8af6c668e764ad176381c",
+          "observations": "The loaded hopper, trestle and dark winch remain supported next to the brick engine house. The mine entrance retains its tusked frame and dark interior.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1064,
+            605,
+            317
+          ]
+        },
+        {
+          "id": "bld_orc_mine_ancient_v0",
+          "evidence_sha256": "88c620e586c20e961e78f436d4dc8d149f51fb78e14362b215ad1b0b51fb47ae",
+          "observations": "The wheel and red coverage sit on a braced wooden hoist above the mine approach. Loose rock simplifies, while the rails, gate tusks and entrance stay legible.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            934,
+            531,
+            266
+          ]
+        },
+        {
+          "id": "bld_orc_mine_classical_v0",
+          "evidence_sha256": "8aae4b1492152a8cd720dd590f3233857bcd9acf990fd592b426605dca14ac83",
+          "observations": "The canopy, bright mine entrance and timber headframe remain connected. Rear views retain the braced sides and the rail ends still meet the doorway.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            926,
+            527,
+            282
+          ]
+        },
+        {
+          "id": "bld_orc_mine_future_v0",
+          "evidence_sha256": "b4ec1b0b105dddbfedf12a77bf3c0a1825cceabb2bfe2612271787f69de48a7f",
+          "observations": "The pale metal headframe and blue cap keep their open bracing alongside the engine room. Both curved door horns, the dark opening and the short rails survive the reduction.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 90,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            979,
+            558,
+            302
+          ]
+        },
+        {
+          "id": "bld_orc_mine_industrial_v0",
+          "evidence_sha256": "ae608e43afea98f10cd9260d1e6c18ef5886b443969ada6c86134ef30ac80052",
+          "observations": "The brick engine house retains its closed rear, complete roof and flue. Trestle feet, upper winding wheel, minecart rail and entrance all remain readable.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            951,
+            542,
+            274
+          ]
+        },
+        {
+          "id": "bld_orc_oil_well_future_v0",
+          "evidence_sha256": "597eb6c779c408b946568f46a391a3bca5044f6d16e61f0800ac191c50fe62ff",
+          "observations": "The separator column still connects to the tank and valve head. The middle mesh keeps complete tank end plates, both saddles and the thick connecting pipe.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1118,
+            637,
+            333
+          ]
+        },
+        {
+          "id": "bld_orc_oil_well_industrial_v0",
+          "evidence_sha256": "9f34d38488e718d5ac1a2b329fbf88710a4c351e9081bf85bb42d3c53edf8665",
+          "observations": "The beam pivots on its central frame, and the drive wheel, tank and roofed engine hut stay separate. The red beam and black legs remain complete at phone scale.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1020,
+            581,
+            298
+          ]
+        }
+      ]
     }
   ]
 }

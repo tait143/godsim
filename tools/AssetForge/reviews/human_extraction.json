@@ -494,6 +494,192 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_gold_mine_classical_v0",
+          "evidence_sha256": "4e5bfc28da0fcf66c9456c7c74be9b6d7d8e286e7bac4fcf9291e900c2ed8406",
+          "observations": "The roofed timber winding tower rises above the rock and stepped wash table. The gold wheel, panning basin and exposed sluice riffles distinguish the yard from an ordinary ore mine. Serialized triangle counts are 1319, 751, 346 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_gold_mine_future_v0",
+          "evidence_sha256": "6e17c3bab26a2a079623b9fd7175093373293379b7789584102fa7edefdebed8",
+          "observations": "The capped hoist retains the industrial wheel, four slanting legs, stamp, sluice and side cabin. The added rain cover recalls the classical tower. The bright metals change much more than the working silhouette. Serialized triangle counts are 1206, 687, 384 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 84,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Give the future gold mine a distinct mechanical head or sorting structure above the sluice. Preserve the visible gold-washing lane and readable adit."
+          ]
+        },
+        {
+          "id": "bld_human_gold_mine_industrial_v0",
+          "evidence_sha256": "f61f2687adbec4e11311426fd03b04b47a9f3c9a969df38a87f349f570e52e6b",
+          "observations": "The exposed steel headframe and stamp over the blue wash table give the mine an industrial working face. Both the rearward braces and the front-side processing lane remain legible at medium distance. Serialized triangle counts are 1230, 701, 352 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_mine_ancient_v0",
+          "evidence_sha256": "dc79e44e8e0259fb76c39bf4a46f36bdc2c096e682528786474426d5e50ccf01",
+          "observations": "An exposed timber windlass sits close to the crag, with a squat working shack and a loaded cart at the adit. The compact hoist and solid rock mass stay clear at medium and far distance. Serialized triangle counts are 1232, 702, 284 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_mine_classical_v0",
+          "evidence_sha256": "a9adcc14125ddbebc02d3033b982ab18736fd3d853e172fc7de99a2792fc3c0a",
+          "observations": "The roofed windlass rises higher on timber legs above the adit than the earlier uncovered drum. The loaded cart, lantern and small tiled hut give the mine a working yard, with the cross-bracing visible at medium distance. Serialized triangle counts are 1306, 744, 318 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_mine_future_v0",
+          "evidence_sha256": "20ee06fd8dc6f5384afbe51513abec54a233e71a6a93db7bd849f6d640b1d1a8",
+          "observations": "The wheel above the adit, leaning four-legged frame, side shed and loaded wagon reproduce the industrial layout. The extra height and small sheet roof do not convey a new hoisting system from either phone view. Serialized triangle counts are 1119, 636, 316 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 84,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the exposed industrial windlass with a clearly different enclosed future lift or transfer head. Keep an accessible adit and a readable ore route."
+          ]
+        },
+        {
+          "id": "bld_human_sawmill_future_v0",
+          "evidence_sha256": "baa30749d29f658942237d4f0c00a81e0fce7e3240b83bda83f7d7eee1db4edc",
+          "observations": "The saw line passes under a heavy portal on paired piers, beside a low glazed control room. Stacked logs and the infeed table preserve the milling function. This open gantry reads separately from the older shed from both unpainted angles. Serialized triangle counts are 1208, 688, 316 at LOD0, LOD1 and LOD2. Its largest directed LOD0 corner match with another era is 1.8%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_sawmill_industrial_v0",
+          "evidence_sha256": "bb5e28511d31257c40d3b38d0c9949bb3fbef135f6d5b5a2161846da7f1f1c2d",
+          "observations": "A visible circular saw sits between the workbench and a chimney-topped timber shed. Cut logs, blocked stock and the loading table make the operation legible at game scale. Both grey angles preserve this shed-and-yard arrangement. Serialized triangle counts are 1112, 632, 286 at LOD0, LOD1 and LOD2. Its largest directed LOD0 corner match with another era is 2.0%.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_stone_quarry_ancient_v0",
+          "evidence_sha256": "c3923bfafded93443319c8794310e57de3a2a0c479db35374b01061e3414775d",
+          "observations": "A timber-roofed work platform stands above the stepped quarry face beside a short lifting arm. Pale cut blocks and a wheeled load mark the working area. The roofed observation deck is distinct from the classical block-topped terrace. Serialized triangle counts are 971, 553, 247 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_gold_mine_future_v0",
+          "evidence_sha256": "c028ba5af9353a9144002dfddbe51fdffa89ffc57645ef8d9e4e943774b0c575",
+          "observations": "A low horizontal washing drum on two saddles and a row of blue settling basins replace the industrial winding frame. The offset adit, rock face and gold in the water distinguish the working yard. The drum and tanks stay supported at LOD1. Serialized triangle counts are 464, 275, 138 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_mine_future_v0",
+          "evidence_sha256": "5fc8890e7860c4fa7f4a95d067a667a704c422bd830aa623affcaedd86ce742f",
+          "observations": "A rectangular enclosed lift house now rises directly above the wagon rails. Its glass control band, mineral outcrop and loaded wagon distinguish the future shaft from the open industrial wheel and framework. The medium mesh retains the track-aligned door. Serialized triangle counts are 466, 265, 126 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 90,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_sawmill_industrial_v0",
+          "evidence_sha256": "dc42d69c1c558cea1ff3f4b2e731081b22142ef7d1be8661b40c94e0f04d286b",
+          "observations": "The teeth of the large circular blade rise above the supported workbench in the middle side view. Cut timber, the small chimney and the shed opening distinguish this yard from the future portal saw. Serialized triangle counts are 1112, 632, 286 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

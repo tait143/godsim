@@ -102,14 +102,19 @@ def armory(m):
 
 def loom(m):
     e=m.era
+    if e == 1:
+        return dyers_guild(m)
+    if e == 2:
+        return power_loom(m)
+    if e == 3:
+        return filament_loom(m)
     m.slab("fieldstone",0,0,0,1.86,.103,1.69,.10)
-    m.hearth(-.32,.099,.31,(1.01,1.16,.98),roof_material="roof" if e==0 else None)
+    m.hearth(-.32,.099,.31,(1.01,1.16,.98),roof_material="roof")
     x,z=.37,-.38
-    mat="timber" if e<2 else "metal"
     for s in (-1,1):
-        m.block(mat,x+s*.318,.104,z,.089,.72,.114)
+        m.block("timber",x+s*.318,.104,z,.089,.72,.114)
         m.block("trim",x+s*.318,.104,z,.127,.075,.40)
-    m.block(mat,x,.765,z,.77,.084,.10)
+    m.block("timber",x,.765,z,.77,.084,.10)
     # The warp hangs from the breast beam and rolls back over the front cloth beam.
     m.block("banner",x,.307,z,.564,.310,.044)
     for j in range((7,5,3)[m.lod]):
@@ -128,9 +133,137 @@ def loom(m):
             m.drum("trim",sx,.104,-.50,.082,.031)
             m.drum(("ivory","banner","gold")[i],sx,.131,-.50,.065,.15,top=.058)
             m.drum("trim",sx,.28,-.50,.078,.023)
-    if e>=2:
-        m.block("metal",.74,.104,-.02,.187,.41,.26)
-        m.beam("accent",(.74,.405,-.05),(.69,.41,z),.047)
+
+
+def roll(m, material, x, y, z, radius, width):
+    """Cloth or sheet gathered onto a horizontal spindle between its bearings."""
+    with m.transform(translate=(x-width/2,y,z),rotate_z=-90):
+        m.drum(material,0,0,0,radius,width,n=(12,7,4)[m.lod])
+        if m.lod == 0:
+            for along in (-.017,width-.002):
+                m.drum("trim",0,along,0,radius*1.11,.022,n=10)
+
+
+def dyers_guild(m):
+    m.slab("fieldstone",0,0,.02,1.83,.095,1.65)
+    m.slab("wall",0,.088,.37,1.54,.50,.79,.085)
+    m.hip_roof((0,.581,.37),1.57,.83,.38,m.color("roof_tile"),overhang=.035,material="roof_tile")
+    m.entry(.46,.095,-.032,.36,.42)
+    # Finished lengths hang over a covered drying rail above the dye vats.
+    for x in (-.70,.19):
+        m.block("timber",x,.093,-.415,.082,.66,.084)
+    m.block("trim",-.255,.733,-.415,.985,.069,.103)
+    for i,mat in enumerate(("cloth","banner","ivory")):
+        x=-.53+i*.272
+        height=(.38,.46,.33)[i]
+        m.block(mat,x,.763-height,-.471,.212,height,.036)
+        if m.lod==0:
+            m.rune(x,.797-height,-.493,.125)
+    for x,z in ((-.47,-.57),(.41,-.43))[:1 if m.lod==2 else 2]:
+        m.drum("timber",x,.096,z,.199,.19,.204)
+        m.drum("banner",x,.283,z,.165,.015)
+        if m.lod==0:
+            m.drum("metal",x,.144,z,.202,.032)
+            m.beam("timber",(x-.07,.26,z),(x+.14,.46,z+.05),.039)
+
+
+def power_loom(m):
+    m.slab("fieldstone",0,0,.01,1.89,.12,1.52,.07)
+    m.slab("brick",-.12,.114,.38,1.40,.51,.59,.09)
+    m.wedge((-.12,.617,.38),1.49,.69,.23,m.color("metal"),material="metal")
+    m.stack(.61,.120,.42,.168,.94,"brick")
+    m.block("glass",-.14,.609,.708,.91,.15,.04)
+    # A cast-iron power loom: triangular end frames hold two beams and the beating reed.
+    for x in (-.55,.38):
+        m.slab("wall",x,.117,-.30,.185,.38,.69,.12,.22)
+        m.beam("accent",(x,.417,-.48),(x,.78,-.13),.084)
+    roll(m,"banner",-.085,.442,-.493,.139,1.01)
+    roll(m,"timber",-.085,.768,-.126,.084,1.01)
+    with m.transform(translate=(-.085,.60,-.31),rotate_x=-47):
+        m.block("cloth",0,-.021,0,.83,.042,.44)
+    if m.lod<2:
+        with m.transform(translate=(.50,.374,-.29),rotate_y=90):
+            m.wheel(0,0,0,.235,"metal",4)
+    if m.lod==0:
+        for x in (-.41,-.24,-.07,.10,.27):
+            m.beam("ivory",(x,.487,-.48),(x,.759,-.134),.021)
+        m.entry(-.50,.126,.078,.32,.39)
+
+
+def filament_loom(m):
+    m.slab("wall",0,0,.035,1.67,.15,1.74,.21)
+    # Three cartridges feed a broad translating print head over the take-up roll.
+    for x in (-.50,0,.50):
+        m.drum("trim",x,.145,.43,.189,.102)
+        m.drum("ivory" if x else "banner",x,.239,.43,.151,.51,.132)
+        m.drum("metal",x,.741,.43,.192,.085,.128)
+        if m.lod==0:
+            for y in (.315,.419,.523,.627):
+                m.drum("accent",x,y,.43,.156-(y-.30)*.04,.022,n=8)
+    for x in (-.63,.63):
+        m.slab("wall",x,.144,-.19,.23,.70,.61,.14,.20)
+    m.vault("metal",0,.806,-.16,1.53,.24,.52)
+    m.slab("glass",-.08,.986,-.125,.66,.17,.34)
+    m.block("banner",0,.422,-.299,.92,.365,.067)
+    roll(m,"cloth",0,.416,-.38,.139,1.14)
+    if m.lod<2:
+        for x in (-.31,0,.31):
+            m.block("ascension",x,.511,-.336,.032,.238,.016)
+    if m.lod==0:
+        m.rune(-.08,.942,-.433,.195)
+
+
+def assembly_works(m):
+    m.slab("fieldstone",0,0,.012,1.90,.153,1.69,.20)
+    m.slab("wall",-.04,.147,.36,1.57,.51,.85,.20,.07)
+    m.slab("glass",-.04,.652,.36,1.49,.175,.79,.19)
+    m.slab("ivory",-.04,.819,.36,1.65,.12,.91,.23,.05)
+    m.vault("metal",-.37,.935,.39,.59,.251,.67)
+    m.entry(.38,.153,-.066,.41,.39)
+    m.slab("metal",.05,.149,-.50,1.54,.18,.40,.16)
+    m.block("door",.05,.321,-.50,1.34,.034,.29)
+    # Opposed articulated pick-and-place arms reach over a conveyor.
+    for s in (-1,1):
+        x=s*.60
+        m.drum("trim",x,.151,-.225,.16,.276,.125)
+        base=(x,.419,-.225)
+        joint=(s*.71,.781,-.32)
+        wrist=(s*.38,.70,-.51)
+        m.beam("accent",base,joint,.143)
+        m.beam("ivory",joint,wrist,.106)
+        m.block("metal",wrist[0],.551,wrist[2],.092,.15,.089)
+        if m.lod<2:
+            roll(m,"metal",joint[0],joint[1],joint[2],.088,.167)
+            m.block("trim",wrist[0],.514,wrist[2],.164,.053,.081)
+    if m.lod==0:
+        for x in (-.43,.03,.44):
+            m.slab("metal",x,.351,-.495,.21,.113,.19,.16,.20)
+        m.rune(-.37,1.065,.041,.171)
+
+
+def arc_foundry(m):
+    m.slab("fieldstone",0,0,0,1.91,.138,1.72,.17)
+    # Three electrodes descend from a cantilever over the open refractory vessel.
+    m.drum("wall",-.18,.132,-.116,.42,.22,.49)
+    m.drum("metal",-.18,.348,-.116,.49,.292,.442)
+    m.drum("trim",-.18,.635,-.116,.468,.106,.48)
+    m.drum("forge",-.18,.735,-.116,.406,.014)
+    m.slab("wall",.593,.132,.22,.40,.91,.73,.17,.14)
+    m.slab("glass",.593,1.037,.22,.35,.14,.63,.14)
+    m.slab("ivory",.22,1.167,.065,1.13,.158,.45,.14)
+    for x,z in ((-.34,-.10),(-.08,-.12),(-.19,.13)):
+        m.drum("trim",x,.786,z,.062,.412,.071)
+        if m.lod==0:
+            m.drum("accent",x,1.049,z,.089,.064)
+    m.block("trim",.035,.158,-.639,.50,.18,.295)
+    m.beam("metal",(-.18,.608,-.48),(.034,.345,-.615),.145)
+    if m.lod<2:
+        ingots(m,.30,.14,-.58)
+        m.beam("forge",(-.18,.638,-.50),(.034,.364,-.64),.069)
+    if m.lod==0:
+        m.rune(.594,.66,-.154,.209)
+        for z in (.39,.58):
+            m.slab("metal",-.43,.137,z,.69,.173,.15)
 
 
 def workshop(m):
@@ -175,13 +308,14 @@ def sheds(m):
 def large(m,kind):
     e=m.era
     if kind=="Factory":
+        if e == 3:
+            return assembly_works(m)
         sheds(m)
         for x in (-.49,.03):
-            m.stack(x,.571,.463,.137,(.59 if x<0 else .45),"brick" if e==2 else "metal")
-        if e==3:
-            m.block("trim",.40,.556,.03,.44,.190,.31)
-            m.vault("glass",.40,.743,.03,.50,.111,.35)
+            m.stack(x,.571,.463,.137,(.59 if x<0 else .45),"brick")
     elif kind=="Foundry":
+        if e == 3:
+            return arc_foundry(m)
         m.slab("fieldstone",0,0,0,1.88,.115,1.76,.12)
         m.hearth(-.45,.111,.32,(.81,1.41,1.06))
         kiln(m,.376,.33,.41,1.02)
@@ -197,9 +331,6 @@ def large(m,kind):
         m.beam("trim",(.376,.61,-.032),(.291,.512,-.284),.102,.116)
         m.beam("forge",(.376,.628,-.043),(.289,.529,-.287),.056,.071)
         if m.lod<2: ingots(m,-.67,.113,-.39)
-        if e==3:
-            m.block("trim",-.45,1.110,.32,.41,.063,.53)
-            m.slab("glass",-.45,1.168,.32,.39,.102,.50,.11)
         if m.lod==0: m.lamp(-.09,.116,-.67,.111)
     else:
         m.slab("fieldstone",0,0,0,1.85,.12,1.73,.14)

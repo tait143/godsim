@@ -385,6 +385,8 @@ def checkpoint(m,future):
 def base(m):
     l=m.lod
     future=m.era==3
+    if future:
+        return landing_command(m)
     m.course(0,0,2.69,2.48,0,.09,"fieldstone",.13)
     x,z=(-.37,.37) if future else (-.32,.45)
     w,d=(1.53,1.34) if future else (1.56,1.14)
@@ -431,6 +433,38 @@ def base(m):
             m.block(x-.19+j*.19,.091,-.64,.071,.006,.27,"ivory")
         for j in (-1,1):
             m.slit(x+j*.48,h*.49,z-d*.48,.11,.094)
+
+
+def landing_command(m):
+    m.course(0,0,2.73,2.54,0,.108,"fieldstone",.19)
+    # Split command blocks overlook a sunken landing court. The observation bridge spans the gap.
+    for x,h in ((-.67,1.03),(.578,1.32)):
+        m.course(x,.516,.789,.979,.104,h,"wall",.21,.19)
+        m.course(x,.516,.721,.898,.103+h,.199,"glass",.17)
+        m.course(x,.516,.795,.968,.294+h,.127,"ivory",.20,.055)
+        m.entry(x,.030,.115,.427,.51)
+        if m.lod<2:
+            m.badge(x,.813,.035,.28,.312)
+        if m.lod==0:
+            m.shaft(x+.047,.686,.089,.415+h,.23,"metal")
+            for s in (-1,1):
+                m.slit(x+s*.247,.674,.044,.086,.14)
+    m.course(-.051,.621,.879,.381,.805,.224,"glass",.14)
+    m.course(-.051,.621,.902,.416,1.023,.073,"trim",.12)
+    m.drum(-.021,.105,-.555,.588,.064,"metal",.570,segments=(16,10,7)[m.lod])
+    # Three raised landing marks frame an uninterrupted central manoeuvring surface.
+    for i in range(3):
+        with m.transform(translate=(-.021,.167,-.555),rotate_y=i*120):
+            m.block(0,0,-.373,.29,.017,.067,"ivory")
+    for x in (-1.007,.99):
+        m.course(x,-.502,.367,1.138,.101,.312,"wall",.18,.11)
+        m.course(x,-.502,.382,1.159,.410,.079,"trim",.15)
+        if m.lod<2:
+            m.lantern(x,.483,-.881,.151)
+    if m.lod==0:
+        for x in (-1.008,.99):
+            for z in (-.574,-.378,-.182):
+                m.block(x,.485,z,.245,.045,.062,"metal")
 
 
 BUILDERS = dict(Barracks=barracks, Castle=castle, MilitaryBase=base,

@@ -288,6 +288,32 @@ def dyed_web(m,x,z,width,top,bottom,mat):
 
 
 def weaver(m,era):
+    if era==1:
+        # A broad horizontal drawloom fills the guild's open undercroft. Woven
+        # lengths run over the front beam and hang outside into the dye yard.
+        band(m,"fieldstone",0,0,.92,.87,0,.040,.05)
+        for x in (-.34,.34):
+            for z in (-.20,.23):
+                m.beam("timber",(x,.040,z),(x,.49,z),.047)
+        roof(m,0,.015,.83,.62,.49,.23,era,True)
+        m.block("wall",(0,.25,.23),(.68,.42,.071))
+        if m.lod<2:
+            m.entry(-.15,.188,.17,.04,.28)
+        else:
+            pane(m,"door",-.15,.18,.19,.17,.28)
+        for x in (-.21,.22):
+            m.block("timber",(x,.15,-.27),(.044,.22,.28))
+        m.block("timber",(.004,.25,-.265),(.53,.067,.26))
+        dyed_web(m,.002,-.394,.44,.28,.09,"banner")
+        if m.lod<2:
+            for x in (-.13,0,.13):
+                m.beam("ivory",(x,.286,-.376),(x,.354,.04),.013)
+            turned(m,.32,-.30,[(.04,.063,None),(.15,.090,"trim")],(9,6,4),"turquoise")
+        if m.lod==0:
+            for x,z in ((-.32,-.25),(.33,-.12)):
+                turned(m,x,z,[(.04,.066,None),(.07,.073,"timber"),(.08,.055,"timber"),
+                              (.18,.054,"cloth"),(.19,.072,"trim")],(8,5,4))
+        return
     band(m,"fieldstone",0,0,.91,.88,0,.045,.065)
     hall(m,-.172,.09,.465,.60,.42,.27 if era<2 else .15,era,-.25,era==0,False)
     if era==1:
@@ -350,6 +376,21 @@ def wheel(m,x,y,z,r,era):
 
 
 def workshop(m,era):
+    if era==2:
+        # A line-shaft shop displays the large driving wheel and its belt
+        # beside two north-lit machining bays.
+        band(m,"fieldstone",.01,.015,1.72,1.60,0,.055,.12)
+        band(m,"brick",-.20,.24,.99,.80,.055,.57,.07)
+        sheds(m,-.20,.24,1.08,.87,.57,.24,2,2)
+        m.entry(-.39,-.167,.24,.06,.36)
+        m.block("metal",(.39,.29,-.24),(.21,.47,.48))
+        wheel(m,.39,.49,-.486,.34,era)
+        m.beam("trim",(.36,.67,-.36),(-.05,.55,-.18),.045)
+        m.beam("metal",(.45,.28,-.36),(.10,.35,-.15),.040)
+        if m.lod<2:
+            m.crate((-.55,.057,-.49),.20)
+            flue(m,-.50,.38,.58,.46,.07,era)
+        return
     band(m,"fieldstone",0,.025,1.75,1.63,0,.062,.12)
     hall(m,-.26,.266,.98,.84,.62,.39 if era==1 else .22,era,-.43,True)
     # A wheelwright's gantry carries the wheel spindle and the hoist over the workbench.
@@ -443,6 +484,22 @@ def factory(m,era):
 
 
 def foundry(m,era):
+    if era==3:
+        # A suspended electric melt head feeds a bank of wide casting moulds.
+        band(m,"fieldstone",-.02,.02,2.51,2.45,0,.074,.18)
+        for x in (-.68,.66):
+            band(m,"ivory",x,.30,.35,.66,.074,1.35,.075)
+        band(m,"metal",0,.29,1.73,.69,1.35,1.53,.10)
+        turned(m,0,.28,[(.48,.32,None),(.60,.45,"trim"),(1.06,.49,"metal"),
+                        (1.32,.34,"ivory"),(1.37,.24,"trim")],(16,10,6))
+        for x,z in ((-.55,-.62),(.34,-.57)):
+            turned(m,x,z,[(.074,.34,None),(.27,.39,"metal"),(.34,.42,"trim")],(14,8,5),"forge")
+        m.beam("metal",(0,.51,.20),(-.45,.36,-.43),.115)
+        hall(m,-.88,.72,.56,.48,.50,.16,era,-.91,False,False)
+        if m.lod<2:
+            ingots(m,.73,-.92,era,1)
+            flag(m,-.89,.78,.66,.25)
+        return
     band(m,"fieldstone",0,0,2.69,2.57,0,.077,.15)
     # Tall charge vessel, enclosed tap floor and heat-recovery stove share a raised cast house.
     furnace(m,.30,.26,(2.02,1.38,1.72) if era==2 else (2.09,1.56,1.72),era)

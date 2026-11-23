@@ -244,6 +244,9 @@ def hull(m,x,y,z,length,width):
 
 
 def fishing(m):
+    if m.era == 1:
+        net_house(m)
+        return
     m.disk("timber",-.116,.083,.02,.338,.406,.068,1)
     for s in (-1,1):
         for t in (-1,1):
@@ -265,7 +268,79 @@ def fishing(m):
             m.lump("glass",(.024,.269,-.22),(.051,.035,.049))
 
 
+def net_house(m):
+    from generators.buildings.elf_trade_forms import arch, block, gable, shaft
+
+    # A boat can enter between the two pile jetties and tie up under the lift net.
+    for x,end in ((-.314,-.445),(.308,-.387)):
+        for z in (end+.055,.296):
+            m.disk("timber",x,0,z,.042,.042,.222,.85)
+        block(m,"timber",(x,.209,(.374+end)/2),(.124,.046,.374-end))
+        if not m.lod:
+            m.disk("trim",x,.219,end+.054,.030,.030,.050,.8)
+    block(m,"trim",(-.021,.226,.218),(.746,.068,.329))
+    block(m,"wall",(-.101,.384,.225),(.405,.275,.255),.07)
+    gable(m,-.10,.516,.22,.52,.349,.171)
+    m.portal(-.105,.253,.093,.167,.218)
+    arch(m,-.105,.253,.090,.205,.222,.035,"timber")
+    for x in (-.266,.253):
+        shaft(m,"timber",(x,.211,-.284),(x,.624,-.273),.031,.022)
+        shaft(m,"trim",(x,.239,-.13),(x,.518,-.274),.018,.014)
+    shaft(m,"trim",(-.302,.611,-.272),(.284,.612,-.272),.025)
+    # Solid knotted mouth and hanging pocket give the open mesh a silhouette at distance.
+    count=(6,4,2)[m.lod]
+    for i in range(count+1):
+        x=-.22+.42*i/count
+        u=i/count
+        bottom=(x*.63,.345+.104*(2*u-1)**2,-.229)
+        shaft(m,"hide",(x,.601,-.272),bottom,.0065)
+        if i<count:
+            shaft(m,"thatch",(x+.42/count,.597,-.268),bottom,.0053)
+    m.limb("hide",[(-.143,.445,-.229),(-.078,.357,-.232),(.009,.331,-.218),
+                   (.128,.433,-.229)],[.014,.021,.024,.013])
+    hull(m,.03,.001,-.16,.483,.151)
+    if m.lod<2:
+        m.pot(-.289,.235,-.015,.052,"hide")
+
+
+def lodge(m):
+    from generators.buildings.elf_trade_forms import arch, block, gable, shaft, textile
+
+    block(m,"fieldstone",(-.121,.040,.046),(.46,.080,.701),.045)
+    block(m,"timber",(-.121,.218,.053),(.422,.326,.632),.07)
+    gable(m,-.127,.379,.05,.511,.776,.226)
+    m.portal(-.12,.073,-.266,.215,.268)
+    arch(m,-.12,.070,-.283,.246,.297,.057,"trim")
+    if m.lod<2:
+        for z in (-.187,.190):
+            shaft(m,"timber",(-.329,.089,z),(-.314,.376,z),.019,.015)
+    # Shallow-pitched curing gallery along the east side of the longhouse.
+    for z in (-.227,.043,.334):
+        shaft(m,"timber",(.34,.003,z),(.318,.277,z),.027,.022)
+    with m.transform(translate=(.202,.316,.056),rotate_z=-19):
+        block(m,"leaf",(0,0,0),(.336,.037,.643))
+    for z in ((-.156,.111) if m.lod < 2 else (0,)):
+        with m.transform(translate=(.35,.251,z),rotate_y=90):
+            textile(m,0,0,0,.168,.154,"hide")
+    block(m,"trim",(-.114,.036,-.319),(.237,.072,.098),.035)
+    # A trophy skull fixes the spreading antlers to the gable face.
+    m.lump("ivory",(-.126,.429,-.344),(.051,.061,.036))
+    for sign in (-1,1):
+        def p(dx,dy,dz):
+            return (-.126+sign*dx,dy,-.344+dz)
+        m.limb("ivory",[p(.024,.461,0),p(.090,.516,-.018),p(.148,.557,-.012),
+                        p(.17,.619,.005)],[.017,.016,.012,.006])
+        shaft(m,"ivory",p(.079,.506,-.012),p(.084,.568,-.034),.014,.005)
+        if m.lod<2:
+            shaft(m,"ivory",p(.133,.547,-.013),p(.12,.594,-.032),.011,.004)
+    if not m.lod:
+        m.pot(.312,0,-.317,.062,"hide")
+
+
 def small_hut(m,hunt):
+    if hunt and m.era == 1:
+        lodge(m)
+        return
     m.hall(-.031,0,.098,.303,.263,.36+.063*m.era,.32+.095*m.era)
     if hunt:
         # Forked stag crest above the porch lintel and a hide-stretching frame in the yard.
@@ -329,6 +404,24 @@ def glasshouse(m,x,z,rx,rz,h):
 
 
 def greenhouse(m):
+    if m.era==3:
+        # The grower moves from paired ground tunnels to an orchard of elevated planting trays.
+        for x,z,r,height in ((-.53,.35,.62,1.53),(.67,-.09,.45,.99)):
+            m.disk("wall",x,0,z,r*.65,r*.72,.22,.93)
+            m.disk("glass",x,.213,z,r*.46,r*.49,height-.20,.76)
+            for tier in range(2):
+                y=height*(.38+.42*tier)
+                m.disk("roof",x,y,z,r*.60,r*.67,.14,1.54)
+                m.disk("grass",x,y+.135,z,r*.89,r*.99,.062)
+                if m.lod<2:
+                    for j in range((5,3)[m.lod]):
+                        a=j*TAU/(5,3)[m.lod]
+                        u,v=x+r*.72*math.cos(a),z+r*.78*math.sin(a)
+                        with m.transform(translate=(u,y+.245,v),scale=(.092,.113,.087)):
+                            m.sphere((0,0,0),1,m.color("leaf"),rings=2,segments=5,material="leaf")
+            m.crown(x,height,z,r*.52,r*.53,.23,"glass",5)
+        m.hall(-.17,0,-.64,.36,.30,.40,.245)
+        return
     m.disk("fieldstone",0,0,0,1.48,1.44,.052,.98, (20,14,8)[m.lod])
     glasshouse(m,-.55,-.12,.53,.92,.50)
     glasshouse(m,.51,.03,.43,.83,.64 if m.era==3 else .43)

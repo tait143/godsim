@@ -408,6 +408,348 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_elf_monastery_classical_v0",
+          "evidence_sha256": "73cae8937351951f1979aeca178216d885cc0a079e5928103ee3dc133f379671",
+          "observations": "An open courtyard separates the ring of cloister roofs from the small pointed central tower. Its entry arch and continuous outer wall carry through to LOD1. Highest outgoing family corner share was 1705/2772 (61.5%) with bld_elf_monastery_industrial_v0. Checked medieval, renaissance, classical previews, 215° and 145° LOD0/1 views, and serialized LOD counts 924/525/256. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_monastery_future_v0",
+          "evidence_sha256": "67baa1a0610098ab29f01c8847774f93ade31642ba0473258f6ae13f82f51451",
+          "observations": "An open courtyard separates the ring of cloister roofs from the small pointed central tower. Its entry arch and continuous outer wall carry through to LOD1. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1705/2772 (61.5%) with bld_elf_monastery_classical_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 924/525/256. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Stack contemplative gardens with a separate chapel above an open cloister bridge."
+          ]
+        },
+        {
+          "id": "bld_elf_monastery_industrial_v0",
+          "evidence_sha256": "44a426d4f024e8d028512bc3fc8d242fef7130512535e8e2d3497efe4b8ac2e0",
+          "observations": "An open courtyard separates the ring of cloister roofs from the small pointed central tower. Its entry arch and continuous outer wall carry through to LOD1. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1705/2772 (61.5%) with bld_elf_monastery_classical_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 924/525/256. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Open a long cloister beside a taller chapel block and a stepped gatehouse."
+          ]
+        },
+        {
+          "id": "bld_elf_shrine_ancient_v0",
+          "evidence_sha256": "684344de4995b0a2f6d0b213c73f158d6117a741b08997ad507fd1f3efb9fab6",
+          "observations": "Two curving supports shelter a crescent above the stepped round altar. The offering bowls flank its base and the front steps are preserved at LOD1. Highest outgoing family corner share was 1524/2280 (66.8%) with bld_elf_shrine_classical_v0. Checked bronze, iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 760/432/164. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_shrine_classical_v0",
+          "evidence_sha256": "53c4c03e9da70a5a38d8dc174d6f89da05eed8b754c687fcce3214bdd4480545",
+          "observations": "Two curving supports shelter a crescent above the stepped round altar. The offering bowls flank its base and the front steps are preserved at LOD1. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1524/2280 (66.8%) with bld_elf_shrine_ancient_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 760/432/164. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the crescent a freestanding arched niche and build the offering steps into a long plinth."
+          ]
+        },
+        {
+          "id": "bld_elf_shrine_future_v0",
+          "evidence_sha256": "17c91e5c82b12e98a2b2a95fd3ee57ddb2060647327e11c025a17377c61890e9",
+          "observations": "Two curving supports shelter a crescent above the stepped round altar. The offering bowls flank its base and the front steps are preserved at LOD1. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1626/2382 (68.3%) with bld_elf_shrine_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 794/452/177. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Split the shrine canopy into two arms that cradle an elevated crescent over an open approach."
+          ]
+        },
+        {
+          "id": "bld_elf_shrine_industrial_v0",
+          "evidence_sha256": "f0d83ef3b909fe657afe8cf00fb6ac0a9f26fe96ce40d8b47e0958729598c121",
+          "observations": "Two curving supports shelter a crescent above the stepped round altar. The offering bowls flank its base and the front steps are preserved at LOD1. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1626/2382 (68.3%) with bld_elf_shrine_future_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 794/452/177. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Carry the shrine in a tall open lantern frame above an offset gathering terrace."
+          ]
+        },
+        {
+          "id": "bld_elf_spirit_totem_ancient_v0",
+          "evidence_sha256": "20ebf55783e5c00b33bab15f9d46b0d0522b05c21bebfc48e602f6d8d6437ff9",
+          "observations": "The forked tree carries a prominent crescent finial and hanging votive light. The small separate offering step reads clearly against the round base. Checked dawn, bronze, iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 570/324/178. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_temple_ancient_v0",
+          "evidence_sha256": "c6df7704485118bbb2dec85bdcd209c77edd80780ae7c5ceec3f1ed8da7f9c92",
+          "observations": "Bent ribs frame the sanctuary doorway under a single leaf roof. The congregation approaches via a small stair on the circular terrace. Highest outgoing family corner share was 1050/3336 (31.5%) with bld_elf_temple_classical_v0. Checked iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1112/632/219. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_temple_classical_v0",
+          "evidence_sha256": "6e3d2bfbc0775748ebab7f1bd6fd7f0c70d8fe601043866bfbac6ab938de11fc",
+          "observations": "Bent ribs frame the sanctuary doorway under a single leaf roof. The congregation approaches via a small stair on the circular terrace. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1098/3336 (32.9%) with bld_elf_temple_industrial_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1112/632/219. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the one-room plan with a processional colonnade and elevated sanctuary."
+          ]
+        },
+        {
+          "id": "bld_elf_temple_future_v0",
+          "evidence_sha256": "afab4e22ba3ee90f4b37b154be5a24e46cdaafa8d1e1312da6848d167d434c37",
+          "observations": "Bent ribs frame the sanctuary doorway under a single leaf roof. The congregation approaches via a small stair on the circular terrace. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1123/3672 (30.6%) with bld_elf_temple_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1224/696/263. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Split the sanctuary into elevated ritual chambers spanning an open processional court."
+          ]
+        },
+        {
+          "id": "bld_elf_temple_industrial_v0",
+          "evidence_sha256": "b7263cc3a7a3ae22bd5e949df8af942174e87c6cc137b359c65c3ebfc8585f2f",
+          "observations": "Bent ribs frame the sanctuary doorway under a single leaf roof. The congregation approaches via a small stair on the circular terrace. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1123/3672 (30.6%) with bld_elf_temple_future_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1224/696/263. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the sanctuary a taller nave, lower side aisles and an entry court. The slender outer rods barely affect the present roofline."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Elf critic — Coordinator repair round 2, first submitted meshes",
+      "models": [
+        {
+          "id": "bld_elf_monastery_future_v0",
+          "evidence_sha256": "8d4335713949271b8c7f4241d9e3eb78e33a29925cd8dcc032fd6cc6c241894e",
+          "observations": "A crescent chapel on a flared pier anchors the stepped garden terraces, their plantings and a connecting walkway. The garden sequence differentiates the complex from a single shrine. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1463/775/373 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_monastery_industrial_v0",
+          "evidence_sha256": "85f082c98125e4aa5a095be564deef3603e7dd1a66aca7f8e4b8ee79f5b7edbe",
+          "observations": "A long open cloister walk and a stepped gatehouse adjoin the tall barrel-roofed chapel. The crescent and planted courtyard distinguish its monastic purpose from the temple. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1303/701/380 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_shrine_classical_v0",
+          "evidence_sha256": "75ae3d6e2514e6873eac476e43f7b8b47e4d42c70a7e34bd5116ccde324fbf00",
+          "observations": "A crescent sits inside two freestanding stone arches. A small set of steps leads up to the offerings in front of the niche. Compared all 3 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 721/397/210 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_shrine_future_v0",
+          "evidence_sha256": "30b896ebc6629b005585d44eb88ab5e5370a30586a859174915a99df90638ec6",
+          "observations": "Two tall curved blades frame an open blue crescent above a low stepped altar. The broad approach and contrasting votive lamps reinforce the shrine silhouette. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 621/346/197 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_shrine_industrial_v0",
+          "evidence_sha256": "ec92e031cb25359a3d9e0da5b3b020c75cc26717c9783e48ee31afb59cdd6a05",
+          "observations": "The protected crescent sits in a tall open metal lantern frame above a separate stepped offering court. The canopy and frame retain clear gaps in the medium mesh. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 833/485/259 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_temple_classical_v0",
+          "evidence_sha256": "91402137d200760b9522f59390ecbaef266aa6250cde162e954867d1a83ca3a7",
+          "observations": "Twin colonnades flank a frontal stair leading to the small crescent-topped sanctuary. Their light capitals and roofline remain visibly separate from the main chamber. Compared all 3 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1358/783/353 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_temple_future_v0",
+          "evidence_sha256": "7d83b39c975d6b8af8a5d267203475a0d5a777283b60914df50e5c630138d2d3",
+          "observations": "Two elevated ritual chambers support opposed crystal fins and a connecting bridge above a crescent court. The elevated silhouette and low central altar stay separate. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1301/675/329 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_temple_industrial_v0",
+          "evidence_sha256": "d8758a748df1e602aae4f26de18a45b840645049e8b59915100b63c7f1c2d711",
+          "observations": "A high barrel-vaulted nave and two lower aisles frame the stepped processional terrace. The crest and faceted blue symbol mark the large central door. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1059/561/253 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent Elf critic — frozen LOD export inspection",
+      "models": [
+        {
+          "id": "bld_elf_monastery_classical_v0",
+          "evidence_sha256": "72a7c44b025bc66c6d118597cdfb480e34785b87f965036ad26979d8cd0bf18b",
+          "observations": "The ring of roofed cloister walls encloses a clearly visible chapel. The large entry arch frames the courtyard and the rear wall and roof remain continuous. Opened medieval, renaissance, classical previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 924/525/256 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_spirit_totem_ancient_v0",
+          "evidence_sha256": "c7142f6248d500b93f0daab3a85a446591cef7ed255f193437fb2c2a78b25232",
+          "observations": "The forked timber shrine carries a crescent and two small hanging lights. The roots, offering step, and raised bowls stay discernible from the front and rear. Opened dawn, bronze, iron previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 570/324/178 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

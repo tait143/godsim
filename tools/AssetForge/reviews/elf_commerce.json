@@ -300,6 +300,618 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_elf_airport_future_v0",
+          "evidence_sha256": "8500f413cf68fc7e9a9674b2c2f3e24520f304f24a8b0c16e6e33802b0282727",
+          "observations": "The ivory seedship hull, green tail fin and narrower supports separate it from the rounded terminal and its pointed boarding door. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1020/581/261. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_bank_classical_v0",
+          "evidence_sha256": "411ce0e1289ed7dcb27ccddef547a8776d0b71655464fb881666101f0757ef3e",
+          "observations": "The attached circular vault has a gold wheel and the pointed pedestrian door remains visible beside it. The smaller vault and taller leaf-roofed hall define the outline. Highest outgoing family corner share was 1942/3090 (62.8%) with bld_elf_bank_industrial_v0. Checked renaissance, medieval previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1030/587/301. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_bank_future_v0",
+          "evidence_sha256": "f3ebd84127dd4035a6e11624da4cf8b875e7c900f51f049103517950310c48bb",
+          "observations": "The attached circular vault has a gold wheel and the pointed pedestrian door remains visible beside it. The smaller vault and taller leaf-roofed hall define the outline. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1931/3090 (62.5%) with bld_elf_bank_classical_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1030/587/301. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Group the vaults around an elevated secure exchange chamber with a separate public access ramp."
+          ]
+        },
+        {
+          "id": "bld_elf_bank_industrial_v0",
+          "evidence_sha256": "5df6edbb5bcca3717738edae27ea5918a2da29eaafdd683b3887bd9d8f501ca7",
+          "observations": "The attached circular vault has a gold wheel and the pointed pedestrian door remains visible beside it. The smaller vault and taller leaf-roofed hall define the outline. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1942/3090 (62.8%) with bld_elf_bank_classical_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1030/587/301. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Build a long banking hall with a taller attached vault housing and an independently roofed counting entrance."
+          ]
+        },
+        {
+          "id": "bld_elf_guildhall_classical_v0",
+          "evidence_sha256": "3472d9352395769aa9006cd7b751bc4c34e90007ef6b9e0954c93a76ecd5d591",
+          "observations": "The suspended gold guild seal sits between the tall meeting hall and lower annex. Its open bracket and the dark pointed entrance stay legible. Highest outgoing family corner share was 1469/3084 (47.6%) with bld_elf_guildhall_industrial_v0. Checked medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1028/585/247. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_guildhall_future_v0",
+          "evidence_sha256": "b283692f649ca0299438b4b6370b00e08149fde5a08c2eff9170b74093014d81",
+          "observations": "The suspended gold guild seal sits between the tall meeting hall and lower annex. Its open bracket and the dark pointed entrance stay legible. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1463/3084 (47.4%) with bld_elf_guildhall_classical_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1028/585/247. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Arrange meeting chambers around an elevated exchange bridge with a separate entry pavilion."
+          ]
+        },
+        {
+          "id": "bld_elf_guildhall_industrial_v0",
+          "evidence_sha256": "28eb2d044bd463458cab5f825e73f6c2941f378ad13e1ece641b3b677d4055b7",
+          "observations": "The suspended gold guild seal sits between the tall meeting hall and lower annex. Its open bracket and the dark pointed entrance stay legible. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1469/3084 (47.6%) with bld_elf_guildhall_classical_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1028/585/247. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Use a high glazed assembly roof over a long workshop wing and a recessed trade entrance."
+          ]
+        },
+        {
+          "id": "bld_elf_harbor_classical_v0",
+          "evidence_sha256": "ef7f72f46bc01ff5ca77398a91574d86636ad6a651442f56342c638bb35813e4",
+          "observations": "A small open boat occupies the blue berth alongside a raised pier, with the harbor hall entrance behind it. The thin mast and the pier remain distinct at phone scale. Highest outgoing family corner share was 1493/2571 (58.1%) with bld_elf_harbor_industrial_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 857/488/231. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_harbor_future_v0",
+          "evidence_sha256": "aead6746ce8d9dc3ef8b93df97ecbc7cc17c8c446ed357f311dcce524bd73d61",
+          "observations": "A small open boat occupies the blue berth alongside a raised pier, with the harbor hall entrance behind it. The thin mast and the pier remain distinct at phone scale. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1484/2571 (57.7%) with bld_elf_harbor_classical_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 857/488/231. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Build an elevated forked dock around a recessed berth and prominent mooring arms."
+          ]
+        },
+        {
+          "id": "bld_elf_harbor_industrial_v0",
+          "evidence_sha256": "c42ecf6a78aad4f52ee52edee55e0155fc173b0fef3bd503769c79fae2e0dd58",
+          "observations": "A small open boat occupies the blue berth alongside a raised pier, with the harbor hall entrance behind it. The thin mast and the pier remain distinct at phone scale. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1493/2571 (58.1%) with bld_elf_harbor_classical_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 857/488/231. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the cargo pier a gantry and long loading shed with a berth along its side."
+          ]
+        },
+        {
+          "id": "bld_elf_market_ancient_v0",
+          "evidence_sha256": "2acd84179c03cdfb7c3f1b02dfb2380e6074ec4d00ed15617a8490ed0162f517",
+          "observations": "Two staggered produce counters with three bright wares apiece sit under supported awnings. A small enclosed booth anchors the near corner. Highest outgoing family corner share was 1682/3216 (52.3%) with bld_elf_market_classical_v0. Checked iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1072/611/295. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_market_classical_v0",
+          "evidence_sha256": "c76d0d5dc62fcec795abbd9a47bbd4c90fe21e35873d7586fa3a577c26aaea49",
+          "observations": "Two staggered produce counters with three bright wares apiece sit under supported awnings. A small enclosed booth anchors the near corner. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1682/3216 (52.3%) with bld_elf_market_ancient_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1072/611/295. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the two separate counters with a covered market arcade bordering a central aisle."
+          ]
+        },
+        {
+          "id": "bld_elf_market_future_v0",
+          "evidence_sha256": "d69cf2219accdd49a4a4b0ccfbc13e11f4cbd1b40665795d7c1fbb080115df33",
+          "observations": "Two staggered produce counters with three bright wares apiece sit under supported awnings. A small enclosed booth anchors the near corner. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1713/3216 (53.3%) with bld_elf_market_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1072/611/295. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Arrange buying and selling decks at two heights around a central circulation space."
+          ]
+        },
+        {
+          "id": "bld_elf_market_industrial_v0",
+          "evidence_sha256": "b16e8601d5bfd9e177d418db70f2b2c263499c3040b1f71e41d076784efdf173",
+          "observations": "Two staggered produce counters with three bright wares apiece sit under supported awnings. A small enclosed booth anchors the near corner. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1713/3216 (53.3%) with bld_elf_market_future_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1072/611/295. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Build a long exchange shed with a loading end and staggered awnings."
+          ]
+        },
+        {
+          "id": "bld_elf_rail_station_future_v0",
+          "evidence_sha256": "6f4156560e873c1cb525f4032b310314645c62a5b1de2e7189adc7f285e404a6",
+          "observations": "A straight pair of rails and sleepers runs along a raised passenger platform. The station canopy is carried on two distinct front supports. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1049/2634 (39.8%) with bld_elf_rail_station_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 878/499/231. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Build a split or elevated guideway with a suspended passenger canopy and a clearly different boarding level."
+          ]
+        },
+        {
+          "id": "bld_elf_rail_station_industrial_v0",
+          "evidence_sha256": "03ad2e673eabdc350a42c9dbafd222368356e66d6957136da6d7fb61a27cc9bd",
+          "observations": "A straight pair of rails and sleepers runs along a raised passenger platform. The station canopy is carried on two distinct front supports. Highest outgoing family corner share was 1049/2634 (39.8%) with bld_elf_rail_station_future_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 878/499/231. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Elf critic — Coordinator repair round 2, first submitted meshes",
+      "models": [
+        {
+          "id": "bld_elf_bank_future_v0",
+          "evidence_sha256": "3e809dee4b1ded3d14f8d4eb13059ee2836c4bcac2104144a70d1567564739ce",
+          "observations": "A tall vault silo with a blue steel band rises beside a low public entry pod. The vault wheel remains a strong gold graphic on the projecting bank chamber. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 7.1%. Serialized LODs 827/471/223 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_bank_industrial_v0",
+          "evidence_sha256": "bc0aa4621278400daab5dd05eb6a36299960f1fb3c2f7326cf8a93e27d30b107",
+          "observations": "Two brick strongrooms support a common hipped roof. The near vault has a metal wheel door while the customer entrance occupies the other room. Both are visible at phone size. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 7.1%. Serialized LODs 666/399/209 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_guildhall_future_v0",
+          "evidence_sha256": "c999f54b646ec73d310c59fbc3066250b0421fa4608938f2c55633dc1d0e0226",
+          "observations": "The open guild seal hangs on a projecting crossbeam between two blue guild chambers of unequal height. The pointed doorways and roof facets survive the middle mesh. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 5.4%. Serialized LODs 974/555/248 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_guildhall_industrial_v0",
+          "evidence_sha256": "e74c8775cac57db6e68c34b2e0650cb9896d10fb076d3c05c4c77ea0435a73e2",
+          "observations": "A narrow seal tower rises above the projecting meeting hall. The arched entry opens directly into the broader wing and the seal still clears the tower edge. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 5.4%. Serialized LODs 863/493/191 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_harbor_future_v0",
+          "evidence_sha256": "8d156c133d94f0af9ede67eda18bf84afac28a0a99947c5ccf220cbfdef603af",
+          "observations": "Two roofed mooring pavilions flank a sheltered working berth. A bridge crosses above the open boat and its mast, with water visible at the front of the dock. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 13.4%. Serialized LODs 576/328/184 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_harbor_industrial_v0",
+          "evidence_sha256": "286b4613aa565dc8e27a8f093dee8d71b77b87ffb7089c447259e854be072b72",
+          "observations": "The cargo boom reaches beyond its tapered base to the boat in a clearly separate berth. The load line, low working pier and leaf-shaped sail give the harbor a strong sideways silhouette. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 13.4%. Serialized LODs 350/198/109 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_market_classical_v0",
+          "evidence_sha256": "521d33d9bdf0553a418d0749d723e2098bdaf003ee3be205af69d9030e6c8909",
+          "observations": "Three awnings surround an empty trading yard. The counters have bare blue tops and the only feature on the ground is a gold basin. Neither goods nor a buying point reads at 64 pixels. Compared all 3 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 9.1%. Serialized LODs 756/429/160 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 83,
+            "construction": 91,
+            "charm": 86,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Group produce, cloth or baskets under the awnings in varied, visible blocks on the counters. Give the central weighing station a recognizable scale or staffed counter."
+          ]
+        },
+        {
+          "id": "bld_elf_market_future_v0",
+          "evidence_sha256": "d74b4d6e08ee282a13309f6e3c5da331cd0b0803eb85bbdd5c8b149bb95c4205",
+          "observations": "A pointed tower anchors two high white disks, each containing a single isolated pink flower. The trade decks read as elevated planters at phone scale. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 9.1%. Serialized LODs 668/380/149 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 82,
+            "construction": 89,
+            "charm": 87,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Connect a trading deck to the merchant pavilion and group contrasting goods on a counter or awning with an accessible aisle."
+          ]
+        },
+        {
+          "id": "bld_elf_market_industrial_v0",
+          "evidence_sha256": "6b850e1c3cbc4e2ae5eb2ac948e210d4ce9b2df25655ecc9e0c915a959a8ec32",
+          "observations": "One broad metal-leaf roof covers a shared trading floor. Both front counters and their gold wares remain legible against the open hall at medium distance. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 9.1%. Serialized LODs 517/286/128 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 90,
+            "construction": 92,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_rail_station_future_v0",
+          "evidence_sha256": "7c1c3f37a8dc2e48987d53e046b33b9cfe375dbf4c9b79aab96f5abdc0a7b256",
+          "observations": "Two overhead portal frames hold a suspended guideway above a pod and boarding platform. The separate green-roofed entrance and continuous beam identify a station distinct from conventional rails. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 632/359/203 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Elf critic — frozen LOD export inspection",
+      "models": [
+        {
+          "id": "bld_elf_airport_future_v0",
+          "evidence_sha256": "78680b93085c4b5de9a44c1d782c7ed4a4ad36d3ee4841cea2b9f818a68e5506",
+          "observations": "An ivory seedship with a green tail perches beside the terminal. The support struts, hull, wing tips and arched boarding door remain legible at LOD1. Opened information, ascension previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 1020/581/261 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_bank_classical_v0",
+          "evidence_sha256": "b266e2d11ff2ec72eb8a26a890b62d7af5641a17d671e534d39d1aed5b438645",
+          "observations": "The higher vault hall and lower vault annex preserve their roof skins in the painted middle mesh. The radial lock wheel remains distinct beside the public entrance. Opened renaissance, medieval previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 1030/587/301 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_guildhall_classical_v0",
+          "evidence_sha256": "ac9c4647c16b1bcf6a8f284c966d1aa813de2dfc5dbce27dfd7ba0cc098baf5a",
+          "observations": "The bracket projects cleanly from the paired hall roofs. Its gold guild seal hangs clear in the side view, and the surrounding walls and entry retain their planes. Opened medieval, renaissance previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 1028/585/247 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_guildhall_future_v0",
+          "evidence_sha256": "66ab7bc4a2fa593dee2e86f055fdc3511693caa054b3e2cc860a6b6dfe6f2ca3",
+          "observations": "The open guild seal hangs on a projecting crossbeam between two blue guild chambers of unequal height. The pointed doorways and roof facets survive the middle mesh. Opened information, ascension previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 974/555/248 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_harbor_classical_v0",
+          "evidence_sha256": "72eadd64adee05d14d7a740aebe08c48e1f806cf2609f14496d2e932982cd4a0",
+          "observations": "The skiff, low wooden pier and roofed harbor office remain distinct. The middle mesh preserves a continuous hull and the slender pier supports. Opened classical, medieval, renaissance previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 857/488/231 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_harbor_future_v0",
+          "evidence_sha256": "1868ccbfa959f594d17ab566c581927dcd217da51c6f7b4df236bfcab7cdb0da",
+          "observations": "Two roofed mooring pavilions flank a sheltered working berth. A bridge crosses above the open boat and its mast, with water visible at the front of the dock. Opened information, ascension previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 576/328/184 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_harbor_industrial_v0",
+          "evidence_sha256": "b46609566cdf47b74695b74959252905ee39cb3cb681da2b9aa2749eff9b7121",
+          "observations": "The cargo boom reaches beyond its tapered base to the boat in a clearly separate berth. The load line, low working pier and leaf-shaped sail give the harbor a strong sideways silhouette. Opened industrial, modern previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 350/198/109 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_market_ancient_v0",
+          "evidence_sha256": "b290d1f071c4e944f764cb93cfd9bb54b8199829d37de6087bff826311c233c2",
+          "observations": "Two offset awnings cover visible rows of coloured goods. The roof supports, low counters and small merchant booth remain fully formed from behind. Opened iron previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 1072/611/295 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_market_classical_v0",
+          "evidence_sha256": "e701f9e0d6706ac694f9db80b7515a35fe1629a8dab3e7a814c19bf1ce502785",
+          "observations": "Three awnings surround an empty trading yard. The counters have bare blue tops and the only feature on the ground is a gold basin. Neither goods nor a buying point reads at 64 pixels. Opened classical, medieval, renaissance previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 756/429/160 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 83,
+            "construction": 91,
+            "charm": 86,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Group produce, cloth or baskets under the awnings in varied, visible blocks on the counters. Give the central weighing station a recognizable scale or staffed counter."
+          ]
+        },
+        {
+          "id": "bld_elf_market_future_v0",
+          "evidence_sha256": "323fee11da3cc23e411c1638f6b71bd50b01d24d9864899d046436ca28ed3ec7",
+          "observations": "A pointed tower anchors two high white disks, each containing a single isolated pink flower. The trade decks read as elevated planters at phone scale. Opened information, ascension previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 668/380/149 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 82,
+            "construction": 89,
+            "charm": 87,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Connect a trading deck to the merchant pavilion and group contrasting goods on a counter or awning with an accessible aisle."
+          ]
+        },
+        {
+          "id": "bld_elf_rail_station_future_v0",
+          "evidence_sha256": "1336ad1d3265c82bb8a6ea056fc622c6a38ec1c423727da6159cc79422ca401b",
+          "observations": "Two overhead portal frames hold a suspended guideway above a pod and boarding platform. The separate green-roofed entrance and continuous beam identify a station distinct from conventional rails. Opened information, ascension previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 632/359/203 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_rail_station_industrial_v0",
+          "evidence_sha256": "509610e7c7ee4a57b732ed429c65f15fe465361f9ac68d3286657d7769da021a",
+          "observations": "The sheltered platform meets the tracks alongside the arched station entrance. The middle version reduces the sleeper count while retaining both continuous rails and the supported leaf canopy. Opened industrial, modern previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 878/499/231 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent Elf critic — function and construction corrections after solver freeze",
+      "models": [
+        {
+          "id": "bld_elf_market_classical_v0",
+          "evidence_sha256": "094188798bbd0a18277c8c02910854f664f5862177d52b5da6403a772014a50e",
+          "observations": "Separate awnings now shelter recognisable merchandise. Pale contents in the red case, green goods and paired small gold containers make the formerly empty stalls distinct. Inspected classical, medieval, renaissance previews, two 64 px unpainted angles and the painted LOD1 at 215°, 125° and 35°. Serialized LODs 992/565/226 passed with zero exposed coplanar pairs or inward closed shells. Highest two-way era corner share 9.1%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_market_future_v0",
+          "evidence_sha256": "5fb9acca59c6e39bc9576f40b5006f350c94fe85bbb1e128a6b6a7adf6df7fe3",
+          "observations": "A green awning and a proper vendor counter now link the two trading pods. Crates and a flower display give the shop a clear front and goods that are readable at 64 pixels. Inspected information, ascension previews, two 64 px unpainted angles and the painted LOD1 at 215°, 125° and 35°. Serialized LODs 834/474/211 passed with zero exposed coplanar pairs or inward closed shells. Highest two-way era corner share 9.1%.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 91,
+            "construction": 92,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

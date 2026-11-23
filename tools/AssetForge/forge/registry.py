@@ -215,7 +215,7 @@ def _serialized(data, path, expected=None):
         counts.append(len(faces))
     hi, mid, low = counts
     require(0 < low < mid < hi <= _budget(meta), f'{meta.id}: invalid LOD chain {counts}, budget {_budget(meta)}')
-    require(.32*hi-1 <= mid <= .68*hi+1 and low <= max(32,.32*hi+1),
+    require(.32*hi-1 <= mid and 5*mid <= 3*hi and low <= max(32,.32*hi+1),
             f'{meta.id}: LOD triangle ratios {counts} must approximate 50% and 20% (or simple silhouette)')
     memory = _shared_files()
     return dict(triangles=hi,lod_triangles=counts,bounds=bounds[0],bytes=len(data),texture_bytes_astc=memory)
@@ -248,7 +248,10 @@ def publish(builder, meta: AssetMeta, generator: str, preview: bool = True, *, l
         raise AssetError(f'{meta.id}: supply two authored lower LOD builders')
     out = Path(MODELS) / meta.category / (meta.id+'.glb')
     base_age = (meta.ages or ['dawn'])[0]
-    levels = [(b.tris, atlas.uv_for(b.tris,base_age,meta.race), b.tint) for b in (builder,*lods)]
+    from .lod import middle_lod
+    mid = middle_lod(lods[0].tris, len(builder.tris))
+    levels = [(tris, atlas.uv_for(tris,base_age,meta.race), b.tint)
+              for tris,b in ((builder.tris,builder),(mid,lods[0]),(lods[1].tris,lods[1]))]
     data = gltf.encode(levels,out,dict(id=meta.id,godsim=asdict(meta)))
     stats = _serialized(data,out,meta)
     _atomic(out,data)

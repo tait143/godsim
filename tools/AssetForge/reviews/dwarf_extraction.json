@@ -757,6 +757,257 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_coal_mine_future_v0",
+          "evidence_sha256": "83643cecb9a9a80cd95aa4c3d92b6ae35aa93d362a40522f948af972c6051127",
+          "observations": "The top bunker, coal load and angled conveyor form a coherent mine even at LOD1. The Industrial comparison has the same tower, descending belt and low receiving building. The cyan belt largely accounts for the sense of a later era.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 82,
+            "construction": 92,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the future mine a different extraction and loading system. Break the present stacked bunker and diagonal-conveyor profile using a recessed lift and a horizontal loading bay."
+          ],
+          "lod_triangles": [
+            956,
+            544,
+            294
+          ]
+        },
+        {
+          "id": "bld_dwarf_gold_mine_classical_v0",
+          "evidence_sha256": "d9f4f8c436aaed00081c646a2eaa690a0ccd648dd110654d2a16bf8520b6f4bf",
+          "observations": "The blue sluices step down from a high lintelled header to a low work shed. Each basin is visible from above, and the open frame distinguishes the Classical head from the solid Industrial cover and the split Future head. LOD1 keeps both bearing posts and the shed entrance.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 92,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1079,
+            614,
+            302
+          ]
+        },
+        {
+          "id": "bld_dwarf_oil_well_future_v0",
+          "evidence_sha256": "41cf72605f490e9864cc5747509a2660e0962068d81d366497d1d29c2a188b8a",
+          "observations": "The two cylindrical storage tanks sit separately from a high vertical extraction head on a stepped platform. Both unpainted views distinguish the compact unit from the Industrial walking beam. LOD1 keeps a continuous post, head cover and tank rims.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 92,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            678,
+            374,
+            184
+          ]
+        },
+        {
+          "id": "bld_dwarf_sawmill_future_v0",
+          "evidence_sha256": "58d0760c6d50206fdfc283cd2898c5f673ff80a86dfb92d6a98ad84ab32baba4",
+          "observations": "A single log feeds through the tall enclosed portal alongside a square stack of cut timber. The white arch drops onto two thick cheeks, unlike the earlier low shed and wheel. LOD1 loses the blue roof insert, but keeps the roof, throat and log route.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            514,
+            276,
+            142
+          ]
+        },
+        {
+          "id": "bld_dwarf_stone_quarry_classical_v0",
+          "evidence_sha256": "430adadfabb52d60caaacf83179d367fb6869469993263f6023513e6deac1cfc",
+          "observations": "A spoked winding wheel stands proud of the masonry ledges above the sled and hoisted block. It changes the quarry outline from the Ancient low stepped machinery. Wheel bearings, braced boom and lift line still read in the middle mesh.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            668,
+            370,
+            161
+          ]
+        },
+        {
+          "id": "bld_dwarf_stone_quarry_future_v0",
+          "evidence_sha256": "36dd9200999c8bd769a84bff90867e2dee555b0c3b2751cacc7026330efa6f0e",
+          "observations": "Twin thick foundations carry the drill bridge above a visible open cutting slot. The suspended vertical head distinguishes it from both the exposed timber hoist and the belt-driven Industrial plant without colour. Both abutments and the upper bridge survive LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            654,
+            382,
+            162
+          ]
+        },
+        {
+          "id": "bld_dwarf_stone_quarry_industrial_v0",
+          "evidence_sha256": "ed0c10c08158057b3ef899b8a529ccfdef940ffd98ad220c4fcc8ee0b40ab9a5",
+          "observations": "The horizontal drive belt, two wheels and chimney form a low linear quarry machine. They read clearly beside the earlier high hoist and later twin-abutment bridge. The LOD1 machinery stays attached to the support wall and stone bed.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 92,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            850,
+            502,
+            180
+          ]
+        },
+        {
+          "id": "bld_dwarf_woodcutter_camp_classical_v0",
+          "evidence_sha256": "e731063282180f0782c9532500e2794e3955f27370c9baa8636c78b6e7b068e3",
+          "observations": "The open four-post cutting shelter leaves air beneath a broad pitched roof, with split ends and rounds at the front. In the unpainted family it reads distinctly from the Ancient enclosed hut. The roof and posts remain at LOD1 even as the smallest loose billets disappear.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            610,
+            280,
+            186
+          ]
+        },
+        {
+          "id": "bld_dwarf_woodcutter_camp_future_v0",
+          "evidence_sha256": "54a5f106333465d8190ec40c889a8f184f3d09217825e809148eb3e89ad19c33",
+          "observations": "Three large logs lead to a powered arm working across them beside a compact control cabin. In grey the arm and log cradle distinguish the model from the earlier tall derrick. LOD1 retains the arm pivot, log stops and cabin roof.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            716,
+            372,
+            222
+          ]
+        },
+        {
+          "id": "bld_dwarf_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "e1641238b190215b58a04492d0e1726bd31a8bc1d882dcacd7b19122f6d491b2",
+          "observations": "A triangulated timber derrick leans over the timber bed alongside a compact boiler. The triangular opening makes the Industrial mechanism distinct from both adjacent eras at phone scale. The mast feet, stay, boiler seat and log roll remain visible at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            818,
+            450,
+            147
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_dwarf_coal_mine_future_v0",
+          "evidence_sha256": "217bdd4d0402820c3e4c344bf6ff0590b05f51d793890099581d73dc198e6b00",
+          "observations": "A roofed lift stands over a recessed shaft alongside a bank of loaded coal bins and a low loading shelter. That horizontal work yard separates it from the Industrial conveyor-and-tower outline at 64 px. The middle mesh keeps the shaft frame, open centre and bin walls.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            802,
+            468,
+            245
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_gold_mine_classical_v0",
+          "evidence_sha256": "833977f7ef307951d5de565f343093c006a44ddd16045f49b0976a5e912ea981",
+          "observations": "The sluice tiers, open header, two heavy supports and low shed roof stay intact. Fine gold pieces drop out of the water trays at LOD1 without breaking the channel.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 92,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1079,
+            614,
+            302
+          ]
+        }
+      ]
     }
   ]
 }

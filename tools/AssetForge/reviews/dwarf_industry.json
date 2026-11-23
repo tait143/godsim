@@ -706,6 +706,108 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_factory_future_v0",
+          "evidence_sha256": "09230622dc24ba4847221edcae25e6303dfcfacaf5b127bee1560e10ded719a2",
+          "observations": "A rounded manufacturing cell rises behind an open conveyor line with two articulated arms. Seen without paint, its working side and broad raised hood distinguish it from the Industrial long shed and stacks. The tall light roof sits on intact supports at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            750,
+            408,
+            234
+          ]
+        },
+        {
+          "id": "bld_dwarf_foundry_future_v0",
+          "evidence_sha256": "d78a3961c7e5702e002d7131f28e7f967c232cbdea636b92e61b1c18fc6eaa7c",
+          "observations": "A thick cantilever carries twin electrodes into an open glowing vessel. The clear gap beneath the beam distinguishes this foundry from the Industrial chimney furnace. The pier, cantilever, paired contacts and crucible all survive LOD1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            694,
+            350,
+            182
+          ]
+        },
+        {
+          "id": "bld_dwarf_weaver_classical_v0",
+          "evidence_sha256": "9f122e1738255028ea92ff841d88c637345c438521196018aa273f15bfcde413",
+          "observations": "Two open dye vats and hanging cloth sit beneath a wide low eave. The Classical dye court replaces the Ancient hut and freestanding loom in the grey family views. Both columns, the workshop doorway and vat rims remain distinct at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            578,
+            294,
+            174
+          ]
+        },
+        {
+          "id": "bld_dwarf_weaver_future_v0",
+          "evidence_sha256": "221a075d6cb2925cea8e8910deb05aa960490145b77d9186efc7d604a7b0bccd",
+          "observations": "Thick end housings support a continuous roof over a large exposed red textile roll. The unpainted industrial loom has a pitched shed and external drive, both replaced here by an enclosed machine frame. LOD1 keeps the beam, end supports and roller gap.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1024,
+            445,
+            232
+          ]
+        },
+        {
+          "id": "bld_dwarf_weaver_industrial_v0",
+          "evidence_sha256": "cd2e025a48a13a701e622bccbb43295211fd5ae7494689ff3a92db3ee067622d",
+          "observations": "A flue and geared wheel stand beside a sloping web of cloth feeding a wide roller. Its direction of work and roof line remain legible without colour. The wheel support, roller feet and workshop roof survive the middle level.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            902,
+            448,
+            168
+          ]
+        }
+      ]
     }
   ]
 }

@@ -21,7 +21,7 @@
   "triangles": 1214,
   "lod_triangles": [
    1214,
-   742,
+   690,
    356
   ],
   "bounds": [
@@ -36,7 +36,7 @@
     1.3523999452590942
    ]
   ],
-  "bytes": 211540,
+  "bytes": 208732,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_aqueduct_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_aqueduct_classical_v0.png",
@@ -64,25 +64,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1214,
+  "triangles": 735,
   "lod_triangles": [
-   1214,
-   742,
-   356
+   735,
+   417,
+   148
   ],
   "bounds": [
    [
-    -0.24009999632835388,
+    -0.15052799880504608,
     0.0,
-    -1.3523999452590942
+    -1.456740140914917
    ],
    [
-    0.24009999632835388,
-    0.8755199909210205,
-    1.3523999452590942
+    0.19778792560100555,
+    0.7219948768615723,
+    1.4593244791030884
    ]
   ],
-  "bytes": 212604,
+  "bytes": 111480,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_aqueduct_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_aqueduct_future_v0.png",
@@ -108,25 +108,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1214,
+  "triangles": 544,
   "lod_triangles": [
-   1214,
-   742,
-   356
+   544,
+   324,
+   148
   ],
   "bounds": [
    [
-    -0.24009999632835388,
+    -0.20579999685287476,
     0.0,
-    -1.3523999452590942
+    -1.3468716144561768
    ],
    [
-    0.24009999632835388,
-    0.8242200016975403,
-    1.3523999452590942
+    0.20579999685287476,
+    0.7717800140380859,
+    1.3468716144561768
    ]
   ],
-  "bytes": 212736,
+  "bytes": 88776,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_aqueduct_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_aqueduct_industrial_v0.png",
@@ -155,7 +155,7 @@
   "triangles": 880,
   "lod_triangles": [
    880,
-   581,
+   501,
    235
   ],
   "bounds": [
@@ -170,7 +170,7 @@
     1.0498807430267334
    ]
   ],
-  "bytes": 167180,
+  "bytes": 160204,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_fusion_reactor_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_fusion_reactor_future_v0.png",
@@ -374,25 +374,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1311,
+  "triangles": 482,
   "lod_triangles": [
-   1311,
-   858,
-   337
+   482,
+   273,
+   127
   ],
   "bounds": [
    [
-    -1.2130440473556519,
+    -1.2136319875717163,
     0.0,
-    -0.7691745758056641
+    -0.8846459984779358
    ],
    [
-    1.0848599672317505,
-    2.0503883361816406,
-    1.0650291442871094
+    1.2016921043395996,
+    2.3627383708953857,
+    1.1134921312332153
    ]
   ],
-  "bytes": 249100,
+  "bytes": 87400,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_power_plant_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_power_plant_future_v0.png",
@@ -421,7 +421,7 @@
   "triangles": 1023,
   "lod_triangles": [
    1023,
-   666,
+   582,
    209
   ],
   "bounds": [
@@ -436,7 +436,7 @@
     1.0650291442871094
    ]
   ],
-  "bytes": 187980,
+  "bytes": 180596,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_power_plant_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_power_plant_industrial_v0.png",
@@ -466,7 +466,7 @@
   "triangles": 785,
   "lod_triangles": [
    785,
-   512,
+   446,
    160
   ],
   "bounds": [
@@ -481,7 +481,7 @@
     0.38004401326179504
    ]
   ],
-  "bytes": 142860,
+  "bytes": 137184,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_storehouse_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_ancient_v0.png",
@@ -509,25 +509,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 785,
+  "triangles": 728,
   "lod_triangles": [
-   785,
-   512,
-   160
+   728,
+   414,
+   215
   ],
   "bounds": [
    [
-    -0.825160026550293,
+    -0.78302001953125,
     0.0,
-    -0.33882299065589905
+    -0.3209500014781952
    ],
    [
-    0.7545999884605408,
-    0.5676630139350891,
-    0.38004401326179504
+    0.740880012512207,
+    0.5472000241279602,
+    0.34251001477241516
    ]
   ],
-  "bytes": 142688,
+  "bytes": 123680,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_storehouse_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_classical_v0.png",
@@ -554,25 +554,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 870,
+  "triangles": 877,
   "lod_triangles": [
-   870,
-   571,
-   206
+   877,
+   498,
+   259
   ],
   "bounds": [
    [
-    -0.825160026550293,
+    -0.6958000063896179,
     0.0,
-    -0.33882299065589905
+    -0.3356499969959259
    ],
    [
-    0.7545999884605408,
-    0.6423329710960388,
-    0.38004401326179504
+    0.6613039970397949,
+    0.7010999917984009,
+    0.2474837750196457
    ]
   ],
-  "bytes": 161092,
+  "bytes": 148884,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_storehouse_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_future_v0.png",
@@ -598,25 +598,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 870,
+  "triangles": 489,
   "lod_triangles": [
-   870,
-   571,
-   206
+   489,
+   277,
+   150
   ],
   "bounds": [
    [
-    -0.825160026550293,
+    -0.8623999953269958,
     0.0,
-    -0.33882299065589905
+    -0.36504292488098145
    ],
    [
-    0.7545999884605408,
-    0.5063319802284241,
-    0.38004401326179504
+    0.7056000232696533,
+    0.484499990940094,
+    0.3625999987125397
    ]
   ],
-  "bytes": 161224,
+  "bytes": 80468,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_storehouse_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_storehouse_industrial_v0.png",
@@ -646,7 +646,7 @@
   "triangles": 519,
   "lod_triangles": [
    519,
-   321,
+   295,
    164
   ],
   "bounds": [
@@ -661,7 +661,7 @@
     0.23029999434947968
    ]
   ],
-  "bytes": 96628,
+  "bytes": 94456,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_well_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_ancient_v0.png",
@@ -689,25 +689,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 519,
+  "triangles": 334,
   "lod_triangles": [
-   519,
-   321,
-   164
+   334,
+   190,
+   75
   ],
   "bounds": [
    [
-    -0.2694999873638153,
+    -0.3501724898815155,
     0.0,
-    -0.24412590265274048
+    -0.31358587741851807
    ],
    [
-    0.2694999873638153,
-    0.8094000220298767,
-    0.23029999434947968
+    0.2361234426498413,
+    0.6306778788566589,
+    0.2591805160045624
    ]
   ],
-  "bytes": 97032,
+  "bytes": 58176,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_well_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_classical_v0.png",
@@ -734,25 +734,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 519,
+  "triangles": 299,
   "lod_triangles": [
-   519,
-   321,
-   164
+   299,
+   165,
+   83
   ],
   "bounds": [
    [
-    -0.2694999873638153,
+    -0.3501724898815155,
     0.0,
-    -0.24412590265274048
+    -0.32840871810913086
    ],
    [
-    0.2694999873638153,
-    0.8550000190734863,
-    0.23029999434947968
+    0.2373560070991516,
+    0.7067999839782715,
+    0.23761554062366486
    ]
   ],
-  "bytes": 97016,
+  "bytes": 54360,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_well_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_future_v0.png",
@@ -778,25 +778,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 519,
+  "triangles": 635,
   "lod_triangles": [
-   519,
-   321,
-   164
+   635,
+   360,
+   175
   ],
   "bounds": [
    [
-    -0.2694999873638153,
+    -0.3912160098552704,
     0.0,
-    -0.24412590265274048
+    -0.3641829490661621
    ],
    [
-    0.2694999873638153,
-    0.8321999907493591,
-    0.23029999434947968
+    0.2498999983072281,
+    0.515355110168457,
+    0.31105199456214905
    ]
   ],
-  "bytes": 97404,
+  "bytes": 114216,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Infrastructure/bld_elf_well_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Infrastructure/bld_elf_well_industrial_v0.png",

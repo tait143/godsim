@@ -5,6 +5,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from generators.buildings.saurian_towncenters import Delta, generate
+from generators.buildings import saurian_delta_works as works
 
 PACKAGE = "saurian_learninghealth"
 
@@ -45,10 +46,10 @@ class College(Delta):
                       w*side*.69,h*.19,d*side*.68,.85)
         return y+rise+.043
 
-    def folio(self, x,y,z,w,d):
+    def folio(self, x,y,z,w,d, wing_center=.238):
         # Two separate sloping banks of parchment open about their low binding.
         for s in (-1,1):
-            with self.transform(translate=(x+s*w*.238,y+w*.075,z),rotate_z=s*15):
+            with self.transform(translate=(x+s*w*wing_center,y+w*.075,z),rotate_z=s*15):
                 self.box((0,0,0),(w*.48,w*.055,d),self.color("trim"),material="trim",bottom=True)
                 self.block("ivory",0,w*.027,0,w*.46,w*.036,d*.94)
                 if self.lod==0:
@@ -80,6 +81,21 @@ class College(Delta):
 
 
 def bathhouse(m):
+    if m.era==3:
+        # An elevated thermal spring spills into a second bathing pool. The round
+        # changing room opens on the dry side and the stair follows the cascade.
+        works.footing(m)
+        works.lens(m,-.53,.30,.30,.33)
+        for x,z,r,h in ((.28,.35,.49,.58),(.13,-.42,.48,.17)):
+            m.drum("ivory",x,.08,z,r*.87,h,r,n=(18,10,6)[m.lod])
+            m.drum("turquoise",x,.08+h,z,r*1.04,.072,n=(18,10,6)[m.lod])
+            m.drum("water",x,.152+h,z,r*.90,.014,n=(18,10,6)[m.lod])
+        m.block("glass",.27,.32,-.105,.29,.42,.05)
+        m.stairs(-.36,.08,-.51,.23,.66,.55)
+        if m.lod<2:
+            m.leafpot(-.65,.08,-.54,.094)
+            m.tile(.27,.49,-.11,.082)
+        return
     m.footing()
     # A public pool in the rain court, with raised stone coping and a cascade spout.
     m.hall(-.43,.29,.73,.80,.49,roof=False)
@@ -112,6 +128,37 @@ def bathhouse(m):
 
 
 def herbalist(m):
+    if m.era:
+        works.footing(m,1.88,1.81,"soil")
+        if m.era==1:
+            # Apothecary's drying house and its terraces of cultivated medicinal reeds.
+            works.pagoda(m,-.39,.28,.94,.89,.86)
+            for x,z,h in ((.42,.38,.33),(.41,-.23,.19),(-.24,-.48,.11)):
+                m.slab("wall",x,.08,z,.48,h,.38,.89)
+                m.leafpot(x,.08+h,z,.125,True)
+        elif m.era==2:
+            # The hot-house roof springs from a brick knee-wall. A boiler and
+            # dispensing window beside visible potted samples explain the building.
+            works.barrel(m,-.29,.12,1.05,1.16,.41,.54)
+            works.spire(m,.55,.47,.15,.96)
+            m.rod("metal",(.55,.26,.47),(.17,.26,.24),.047)
+            for x,z,r in ((.47,-.29,.18),(-.49,-.64,.13)):
+                m.leafpot(x,.08,z,r,True)
+        else:
+            # Tall, light-fed propagation rack growing from a ceramic service pod.
+            works.lens(m,-.39,.31,.40,.34)
+            x,z=.40,-.11
+            m.drum("glass",x,.08,z,.115,1.21)
+            for j in range(3):
+                y=.26+j*.35
+                m.drum("ivory",x,y,z,.25,.068,.33)
+                for k in range((4,3,2)[m.lod]):
+                    a=math.tau*k/(4,3,2)[m.lod]+j
+                    xx,zz=x+.20*math.cos(a),z+.20*math.sin(a)
+                    m.blade("leaf",(xx,y+.068,zz),(xx+.10*math.cos(a),y+.34,zz+.10*math.sin(a)),.066)
+            if m.lod<2:
+                m.leafpot(-.40,.08,-.49,.15,True)
+        return
     if m.era==0:
         # Age rows change both the packing yard and the dominant roof:
         # raw timber/reed in Dawn, coppery hide in Bronze and dark timber in Iron.
@@ -137,6 +184,48 @@ def herbalist(m):
 
 
 def scriptorium(m):
+    if m.era:
+        works.footing(m)
+        if m.era==1:
+            # A sunken writing court lies between the archive tower and a raised
+            # pavilion. The gilt-bound folio is visible from the approach.
+            works.pagoda(m,-.38,.34,.88,.75,.87)
+            m.slab("wall",.48,.08,.08,.45,.68,.57,.85)
+            m.rooflet(.48,.76,.08,.55,.65,.23,"roof")
+            m.slab("timber",-.12,.08,-.43,.55,.27,.35,.80)
+            m.folio(-.12,.35,-.43,.48,.32,wing_center=.25)
+            if m.lod<2:
+                m.tile(.48,.56,-.19,.087)
+        elif m.era==2:
+            # North-facing roof lights supply even light to the draughtsmen,
+            # and an exterior winding bench can handle a single long manuscript.
+            works.northlights(m,-.20,.27,1.28,.87,.51,.35)
+            for x in (-.56,.19):
+                m.block("metal",x,.08,-.44,.088,.33,.30)
+            m.slab("timber",-.185,.41,-.44,.94,.055,.36,underside=True)
+            for x in (-.52,.15):
+                m.rod("ivory",(x,.54,-.62),(x,.54,-.26),.075)
+            m.block("ivory",-.185,.465,-.44,.63,.032,.27)
+            works.spire(m,.59,.46,.10,.78)
+        else:
+            # A continuous manuscript unrolls over a sloping writing desk. The two
+            # large spindles carry the sheet. A scaled reed nib marks its active end.
+            works.shell(m,.12,.39,.74,.60,.42)
+            m.slab("glass",.12,.50,.39,.84,.18,.67,.68)
+            m.slab("ivory",-.13,.08,-.24,.64,.35,.47,.80)
+            with m.transform(translate=(-.13,.54,-.23),rotate_x=-22):
+                m.slab("turquoise",0,-.12,0,1.31,.12,.81,.97,underside=True)
+                m.block("ivory",0,0,0,1.10,.039,.72)
+                for x in (-.59,.59):
+                    m.rod("ivory",(x,.071,-.39),(x,.071,.39),.123)
+                    for end in ((-.42,.42) if m.lod<2 else ()):
+                        m.rod("gold",(x,.071,end-.03),(x,.071,end+.03),.143)
+                if m.lod<2:
+                    for j in range((4,2)[m.lod]):
+                        m.block("timber",-.04,.039,-.24+.13*j,.64-.05*j,.016,.042)
+            m.rod("gold",(.22,.51,.49),(.46,1.13,.26),.041)
+            m.blade("ivory",(.31,.78,.39),(.51,1.23,.22),.11)
+        return
     m.footing(1.89,1.80)
     # A shallow writing gallery has space for both the scribe's desk and the entry.
     m.hall(-.14,.277,1.31,.775,.505,roof=False)
@@ -163,6 +252,37 @@ def scriptorium(m):
 
 
 def library(m):
+    if m.era>=2:
+        works.footing(m)
+        if m.era==2:
+            # The two book galleries carry the spine and leaves of a monumental
+            # open folio. Readers enter the clear bay below its binding.
+            for x in (-.52,.52):
+                works.shell(m,x,.21,.49,1.0,.76)
+                m.slab("trim",x,.84,.21,.56,.10,1.13,.94)
+                if m.lod<2:
+                    for j in range((3,2)[m.lod]):
+                        m.block("timber",x,.30+.16*j,-.314,.31,.06,.061)
+            m.slab("brick",0,.08,.44,.60,.78,.42,.96)
+            m.block("trim",0,.85,.12,1.49,.094,1.17)
+            m.folio(0,.942,.12,1.55,1.15,wing_center=.25)
+            m.stairs(0,.08,-.64,.45,.39,.18)
+            if m.lod<2:
+                m.leafpot(.62,.08,-.53,.105)
+        else:
+            # Two faceted stacks rise from a common archive lobby. Their ceramic
+            # floors project past the blue archive cells like shelf edges.
+            for x,z,r,h,floors in ((-.41,.30,.38,.94,3),(.44,-.04,.30,.64,2)):
+                m.drum("glass",x,.08,z,r*.77,h,n=(12,8,5)[m.lod])
+                for j in range(floors):
+                    y=.08+(j+.60)*h/floors
+                    m.drum("ivory",x,y,z,r,.071,r*.89,n=(12,8,5)[m.lod])
+                m.mound("glass",x,.08+h,z,r*.78,r*.39)
+            works.shell(m,-.19,-.39,.57,.45,.32)
+            m.slab("turquoise",-.19,.40,-.39,.65,.069,.51,.85,underside=True)
+            if m.lod<2:
+                m.folio(-.19,.47,-.39,.36,.24,wing_center=.25)
+        return
     m.footing()
     m.hall(0,.13,1.32,1.08,.52,roof=False)
     m.slab("trim",0,.584,.13,1.45,.091,1.17,.98,underside=True)
@@ -199,6 +319,35 @@ def library(m):
 
 
 def university(m):
+    if m.era>=2:
+        works.footing(m)
+        if m.era==2:
+            # A stepped clock tower orders two brick lecture wings. Their barrel
+            # roofs run across the meridian court instead of down its main axis.
+            works.barrel(m,-.47,.25,.69,.97,.43,.24)
+            works.barrel(m,.51,.41,.56,.80,.38,.20)
+            top=works.shell(m,.01,-.09,.47,.57,.92)
+            m.slab("wall",.01,top,-.09,.45,.23,.54,.83)
+            m.disc(.01,top+.11,-.363,.151)
+            m.rooflet(.01,top+.23,-.09,.58,.63,.29,"metal")
+            if m.lod<2:
+                m.slab("wall",-.40,.08,-.48,.37,.23,.28,.85)
+                m.folio(-.40,.31,-.48,.31,.22,wing_center=.25)
+        else:
+            # The open lecture court is ringed by two glazed lecture pods;
+            # a large suspended armillary is sighted from the central dais.
+            for x,z,r,h in ((-.55,.18,.31,.45),(.47,.38,.38,.36)):
+                works.lens(m,x,z,r,h)
+            m.drum("ivory",.02,.08,-.37,.32,.13,.29)
+            works.arch(m,.01,.08,1.32,1.39,.105,.16)
+            m.rod("metal",(.01,.88,.08),(.01,1.38,.08),.034)
+            with m.transform(translate=(.01,.88,.08),rotate_x=-29):
+                m.ring("gold",0,0,-.063,.30,.24,.11,n=(17,10,6)[m.lod])
+                m.rod("gold",(-.23,-.10,0),(.23,.10,0),.028)
+                m.disc(0,0,-.025,.085,"turquoise",False)
+            if m.lod==0:
+                m.tile(.02,.165,-.65,.063)
+        return
     m.footing(1.88,1.81)
     # Two lecture pavilions surround a meridian court with an inclined gnomon.
     m.hall(0,.44,.84,.67,.72)
@@ -252,6 +401,35 @@ def observatory(m):
 
 
 def printworks(m):
+    if m.era>=2:
+        works.footing(m)
+        if m.era==2:
+            # A web-fed rotary press projects from the end of its engine shed.
+            works.barrel(m,-.26,.39,1.09,.78,.40,.24)
+            works.spire(m,.53,.52,.138,1.14)
+            for x in (-.53,.23):
+                m.slab("metal",x,.08,-.32,.13,.44,.66,.89)
+            for z,y in ((-.51,.39),(-.19,.51)):
+                m.rod("ivory" if z<-.4 else "metal",(-.50,y,z),(.20,y,z),.106)
+            if m.lod<2:
+                works.wheel(m,.30,.40,-.52,.19)
+        else:
+            # The press is a vertical web tower. Silk paper passes between two
+            # exposed roller pairs, then emerges onto the shallow folding table.
+            works.shell(m,.42,.44,.62,.53,.41)
+            for x in (-.68,.24):
+                m.slab("ivory",x,.08,-.085,.205,.94,.62,.73)
+                m.drum("gold",x,1.02,-.085,.09,.09)
+            for y,z,r,role in ((.88,-.12,.176,"ivory"),(.59,-.02,.146,"turquoise"),
+                                (.37,-.21,.113,"ivory")):
+                m.rod(role,(-.62,y,z),(.18,y,z),r,n=(16,10,6)[m.lod])
+            m.slab("metal",-.22,.08,-.54,.52,.16,.44,.88)
+            for j in range((4,3,2)[m.lod]):
+                m.block("ivory",-.22,.24+j*.034,-.51+.009*j,.64,.033,.41)
+            if m.lod<2:
+                m.tile(.42,.40,.16,.095)
+                m.jar(.55,.08,-.32,.111,"turquoise")
+        return
     m.footing()
     m.hall(-.23,.372,1.12,.723,.485)
     # The public proof press stands beside the door on the delivery terrace.
@@ -298,6 +476,33 @@ def lotus(m,x,y,z,r):
 
 
 def hospital(m):
+    if m.era>=2:
+        works.footing(m)
+        if m.era==2:
+            # Deep, sunlit ward with a projecting ambulance porch and a rooftop
+            # lantern. The medical mark is large enough to read from above.
+            works.barrel(m,-.07,.29,1.48,.78,.46,.30)
+            for x in (-.46,.32):
+                m.post(x,.08,-.60,.063,.39)
+            m.slab("metal",-.07,.47,-.36,1.01,.075,.67,.95,underside=True)
+            m.drum("brick",-.49,.64,.36,.185,.31)
+            m.mound("glass",-.49,.95,.36,.20,.16)
+            cx,cy,cz=-.07,.545,-.36
+        else:
+            # Curved inpatient tower rises above the low circular triage platform.
+            for x,z,r,h in ((.32,.35,.42,1.0),(-.44,.19,.32,.43)):
+                m.drum("glass",x,.08,z,r*.81,h,n=(15,9,5)[m.lod])
+                for f in (.28,.66,1):
+                    m.drum("ivory",x,.08+h*f,z,r,.068,r*.94,n=(15,9,5)[m.lod])
+            works.shell(m,-.10,-.40,.80,.54,.27)
+            m.drum("turquoise",-.10,.35,-.40,.44,.07,n=(16,10,6)[m.lod])
+            cx,cy,cz=-.10,.42,-.40
+        m.block("ivory",cx,cy,cz,.13,.045,.42)
+        for s in (-1,1):
+            m.block("ivory",cx+s*.145,cy,cz,.16,.044,.13)
+        if m.lod<2:
+            m.leafpot(.64,.08,-.49,.10)
+        return
     m.footing()
     # Cross-plan infirmary: breezy recovery wards flank the high intake hall.
     for sign in (-1,1):
@@ -319,6 +524,22 @@ def hospital(m):
 
 
 def research(m):
+    if m.era==3:
+        # Suspended experimental torus within three inclined pylons, paired
+        # with a smaller glazed control-room dome.
+        works.footing(m)
+        works.lens(m,-.48,.34,.35,.38)
+        x,z=.26,-.17
+        m.drum("ivory",x,.08,z,.40,.13,.35)
+        for dx,dz in ((-.39,-.14),(.37,-.17),(.03,.36)):
+            m.rod("ivory",(x+dx,.08,z+dz),(x+dx*.75,1.08,z+dz*.73),.073)
+        with m.transform(translate=(x,.98,z),rotate_x=-27):
+            m.ring("turquoise",0,0,-.09,.39,.279,.16,n=(20,12,8)[m.lod])
+            m.rod("gold",(-.32,0,0),(.32,0,0),.031)
+            m.mound("glass",0,-.063,0,.12,.18)
+        if m.lod<2:
+            m.tile(x,.174,z-.37,.072)
+        return
     m.footing()
     m.hall(-.177,-.052,1.13,1.17,.45,roof=False)
     m.slab("trim",-.177,.514,-.052,1.22,.071,1.26,.98,underside=True)

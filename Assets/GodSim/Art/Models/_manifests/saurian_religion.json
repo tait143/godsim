@@ -152,7 +152,7 @@
   "triangles": 1365,
   "lod_triangles": [
    1365,
-   897,
+   777,
    217
   ],
   "bounds": [
@@ -167,7 +167,7 @@
     0.9049999713897705
    ]
   ],
-  "bytes": 178652,
+  "bytes": 176684,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_monastery_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_monastery_classical_v0.png",
@@ -194,25 +194,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1337,
+  "triangles": 1028,
   "lod_triangles": [
-   1337,
-   869,
-   205
+   1028,
+   582,
+   192
   ],
   "bounds": [
    [
-    -0.9549999833106995,
+    -0.949999988079071,
     0.0,
-    -0.9049999713897705
+    -0.9100000262260437
    ],
    [
-    0.9549999833106995,
-    1.1469999551773071,
-    0.9049999713897705
+    0.949999988079071,
+    1.3200000524520874,
+    0.9684000015258789
    ]
   ],
-  "bytes": 171700,
+  "bytes": 145792,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_monastery_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_monastery_future_v0.png",
@@ -238,25 +238,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1387,
+  "triangles": 756,
   "lod_triangles": [
-   1387,
-   871,
-   207
+   756,
+   449,
+   200
   ],
   "bounds": [
    [
-    -0.9549999833106995,
+    -0.949999988079071,
     0.0,
-    -0.9049999713897705
+    -0.9100000262260437
    ],
    [
-    0.9549999833106995,
-    1.2640000581741333,
-    0.9049999713897705
+    0.949999988079071,
+    1.4609999656677246,
+    0.9100000262260437
    ]
   ],
-  "bytes": 179900,
+  "bytes": 101712,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_monastery_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_monastery_industrial_v0.png",

@@ -240,7 +240,7 @@
   "triangles": 683,
   "lod_triangles": [
    683,
-   464,
+   388,
    181
   ],
   "bounds": [
@@ -255,7 +255,7 @@
     0.39544162154197693
    ]
   ],
-  "bytes": 127256,
+  "bytes": 120656,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_campfire_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_campfire_classical_v0.png",
@@ -284,7 +284,7 @@
   "triangles": 1114,
   "lod_triangles": [
    1114,
-   682,
+   634,
    345
   ],
   "bounds": [
@@ -299,7 +299,7 @@
     0.8550000190734863
    ]
   ],
-  "bytes": 198488,
+  "bytes": 194296,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_forum_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_forum_classical_v0.png",
@@ -326,25 +326,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1170,
+  "triangles": 758,
   "lod_triangles": [
-   1170,
-   722,
-   369
+   758,
+   417,
+   186
   ],
   "bounds": [
    [
-    -1.2699999809265137,
+    -1.1766268014907837,
     0.0,
-    -0.9240000247955322
+    -0.7021638751029968
    ],
    [
-    1.2699999809265137,
-    1.407729983329773,
-    0.8550000190734863
+    1.1758997440338135,
+    1.506363034248352,
+    0.8079628944396973
    ]
   ],
-  "bytes": 211160,
+  "bytes": 125748,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_forum_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_forum_future_v0.png",
@@ -370,25 +370,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1140,
+  "triangles": 693,
   "lod_triangles": [
-   1140,
-   708,
-   345
+   693,
+   326,
+   211
   ],
   "bounds": [
    [
-    -1.2699999809265137,
+    -1.2000000476837158,
     0.0,
-    -0.9240000247955322
+    -0.7429369688034058
    ],
    [
-    1.2699999809265137,
-    1.307729959487915,
-    0.8550000190734863
+    1.073413610458374,
+    1.9049999713897705,
+    0.7850000262260437
    ]
   ],
-  "bytes": 203776,
+  "bytes": 112228,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_forum_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_forum_industrial_v0.png",
@@ -414,25 +414,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1397,
+  "triangles": 820,
   "lod_triangles": [
-   1397,
-   932,
-   413
+   820,
+   446,
+   262
   ],
   "bounds": [
    [
-    -1.4273102283477783,
+    -1.368348479270935,
     0.0,
-    -1.0786199569702148
+    -1.1799999475479126
    ],
    [
-    1.4273102283477783,
-    1.1724908351898193,
-    1.184999942779541
+    1.309999942779541,
+    1.2288731336593628,
+    1.2400000095367432
    ]
   ],
-  "bytes": 242696,
+  "bytes": 140548,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_stadium_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_stadium_future_v0.png",
@@ -460,7 +460,7 @@
   "triangles": 1397,
   "lod_triangles": [
    1397,
-   932,
+   796,
    413
   ],
   "bounds": [
@@ -475,7 +475,7 @@
     1.184999942779541
    ]
   ],
-  "bytes": 242752,
+  "bytes": 232272,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_stadium_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_stadium_industrial_v0.png",
@@ -636,7 +636,7 @@
   "triangles": 1010,
   "lod_triangles": [
    1010,
-   661,
+   575,
    314
   ],
   "bounds": [
@@ -651,7 +651,7 @@
     0.8365969061851501
    ]
   ],
-  "bytes": 178740,
+  "bytes": 173424,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_theater_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_theater_classical_v0.png",
@@ -678,25 +678,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1010,
+  "triangles": 840,
   "lod_triangles": [
-   1010,
-   661,
-   314
+   840,
+   294,
+   145
   ],
   "bounds": [
    [
-    -0.9019361734390259,
+    -0.8595003485679626,
     0.0,
-    -0.9008968472480774
+    -0.7468918561935425
    ],
    [
-    0.9019361734390259,
-    1.0772329568862915,
-    0.8365969061851501
+    0.8635975122451782,
+    0.9928194880485535,
+    0.6829302906990051
    ]
   ],
-  "bytes": 178720,
+  "bytes": 120012,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_theater_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_theater_future_v0.png",
@@ -722,25 +722,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 946,
+  "triangles": 496,
   "lod_triangles": [
-   946,
-   581,
-   238
+   496,
+   270,
+   149
   ],
   "bounds": [
    [
-    -0.9019361734390259,
+    -0.8647772669792175,
     0.0,
-    -0.9008968472480774
+    -0.7077500224113464
    ],
    [
-    0.9019361734390259,
-    1.0210000276565552,
-    0.7419999837875366
+    0.6934999823570251,
+    1.4778720140457153,
+    0.7457500100135803
    ]
   ],
-  "bytes": 160000,
+  "bytes": 83588,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_theater_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_theater_industrial_v0.png",

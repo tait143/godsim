@@ -518,6 +518,358 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Orc model critic, RC2 round 1",
+      "method": "Inspected saved age previews, rendered serialized LOD0, LOD1 and LOD2, and compared neutral 64px geometry at 215 and 145 degrees. Independently checked package metadata, GLB streams, exposed coplanar faces, inverted shells and repeated meshes. Compared all ordered era pairs in the 14 directed families.",
+      "models": [
+        {
+          "id": "bld_orc_armory_ancient_v0",
+          "evidence_sha256": "564aced428184faf27772f5114ec0090c4b445976830538796057b2754333e4b",
+          "observations": "A long, slightly irregular hide roof shelters three shield faces. The open-front rack, horn tips and red drum identify the lodge at close distance. The rack and roof still meet their posts in the intermediate mesh.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_armory_classical_v0",
+          "evidence_sha256": "bac060604142c0fa7b0505d6ec2a12d37b1e3213dbbe01b233c5ea03c21b18ac",
+          "observations": "The terracotta hipped ridges and a fuller pale wall enclose the shield shop. The flag and front rack keep the older Orc language. At LOD1 the rack's three diamond marks and the solid wall remain readable.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_armory_future_v0",
+          "evidence_sha256": "94b7c1be78f7503bbf6289ce093d952fbdbb396f0feb9255a74009490c872750",
+          "observations": "The blue enclosed end, red entry flap and dark eave make a clear equipment shop. In gray its left equipment bay, long roof, flag, rack and drum match the industrial hall at both angles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 81,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Build a visibly different fabrication or equipment-storage bay for Information. Give it a top or side profile distinguishable from the industrial hall at 64px."
+          ]
+        },
+        {
+          "id": "bld_orc_armory_industrial_v0",
+          "evidence_sha256": "274889d38fff641c15298558c461a7e95dc73b939a483ff6bd716176c3dc1067",
+          "observations": "The dark flat-sided roof faces and square annex extend beyond the footprint of the classical hipped shop. Shields in front and the warm door lintel remain clear against the near-black end bay. LOD1 retains both bay and shield line.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_electronics_plant_future_v0",
+          "evidence_sha256": "3d4a576bfa0e5768dbc7abb3a0c01e3fab8ee6520826dd3dcf3cab2e209aee86",
+          "observations": "Alternating ivory and blue roof plates form the stepped stack above a broad overhang. The tusk tips and red entry lintel preserve an Orc accent. The stepped outline, side wall and doorway persist through LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_weaver_ancient_v0",
+          "evidence_sha256": "d0af60cc4087f1ffc4d6543af88136f3e2afc47706a2abfe6313980f2cf703d5",
+          "observations": "A large diamond-patterned textile stretches on an inclined timber frame beside a round hide hut. Two dye jars at the front ground the craft. The sheet remains taut between its end poles at both lower levels.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_weaver_classical_v0",
+          "evidence_sha256": "21916e75c58ad8861298d916832a80451102304db560c63b9805196deab9f137",
+          "observations": "The tiled roof and pale walls add colour contrast, but the conical round hut, tilted loom, jars and entry occupy the same silhouette as ancient. The small increase in crown height gives little age information.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 83,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Build a distinct classical weaving room or covered loom gallery with a new roof or frame profile. Retain visible cloth."
+          ]
+        },
+        {
+          "id": "bld_orc_weaver_future_v0",
+          "evidence_sha256": "ed7d9bbd3e9dabf2ff060bbb1574d00a1cee7cfab8616a07fbb4472db716a567",
+          "observations": "The luminous roof cap and blue side material mark the painted future skin. At 64px the lower conical hut, two jars and inclined handloom still reproduce the industrial view from both sides. LOD1 retains loom and roof.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 80,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Information textile shop a visibly different weaving mechanism or work bay that reads in unpainted gray."
+          ]
+        },
+        {
+          "id": "bld_orc_weaver_industrial_v0",
+          "evidence_sha256": "2b66bcfa996bd1a1cb4c894af485f9a4e39e0bc212555f5aea5da182f6c8db12",
+          "observations": "The steeper classical tiled crown gives way to a broad, lower metal cap above the drum-shaped workshop. The crimson-and-ivory textile contrasts with the charcoal shell. The working face of the loom stays visible in LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_orc_armory_future_v0",
+          "evidence_sha256": "967aefcbf74fedc92312ec04a00cfd5ea0499f33cee1aebe3c51a078cffe3250",
+          "observations": "Two shield racks stand alongside an oval equipment hall with tusks at its roof ends. The shield faces and their central bosses remain visible below the transverse rack members at LOD1. The exposed racks and rounded hall differ from the earlier pitched armory even in grey.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            790,
+            427,
+            248
+          ]
+        },
+        {
+          "id": "bld_orc_weaver_classical_v0",
+          "evidence_sha256": "b6dc87729440a34d694743392cf555c2bf9d67eeaa1a522eb5da7138a02c0b8d",
+          "observations": "Two full-width cloth panels hang inside an open, four-column loom pavilion under a horn-tipped hip roof. The loom is visible from the sides and both cloth panels stay in their frame through LOD1. The pavilion separates from the hut-and-outdoor-frame eras without colour.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            606,
+            300,
+            190
+          ]
+        },
+        {
+          "id": "bld_orc_weaver_future_v0",
+          "evidence_sha256": "7550fc9976d8d5bf5a4e1ebccd4eea4bcd0d63a125fbe3bb95eb6cc88724db62",
+          "observations": "Large drums and a visibly tensioned textile web fill an open machine bed. The paired side housings carry the axles and the red sheet remains legible at 64 px. Both neutral views distinguish the roll-to-roll machinery from the earlier roofed looms, and the middle mesh retains the web.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            626,
+            303,
+            190
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_orc_armory_ancient_v0",
+          "evidence_sha256": "ff11725300f2f4586e1c28c17afe69831bc58492479e41a6ceb9f19ebbc43d23",
+          "observations": "The outer shield rack keeps its hanging shields and posts, aligned to the entrance under the deep roof. Both end walls remain closed when the flag disappears.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            618,
+            351,
+            170
+          ]
+        },
+        {
+          "id": "bld_orc_armory_classical_v0",
+          "evidence_sha256": "0552d391c715d2fef88f4229d40d40689c638bb565684ae6b3b6e341acb05db8",
+          "observations": "The triangular shield faces and their bosses still read along the open rack. The terracotta hip roof meets the complete pale side and rear walls.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            618,
+            351,
+            170
+          ]
+        },
+        {
+          "id": "bld_orc_armory_industrial_v0",
+          "evidence_sha256": "43a977135badcfeb784ac1e8cf1a0d63ec5a7c9eed1b0542bc61322ec0f182ea",
+          "observations": "The roof stays over the brick hall and the end annex remains a distinct volume. The entrance, red drum and row of shields survive at 64 px.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            638,
+            363,
+            190
+          ]
+        },
+        {
+          "id": "bld_orc_electronics_plant_future_v0",
+          "evidence_sha256": "31c3a2f7a6692901f9c04e554a591b732a9a169da3544ddd779de31757cdfb61",
+          "observations": "The stepped roof and blue shop shell remain intact, but the reduction breaks the rectangular front grilles into stepped and L-shaped remnants. From either front angle large corners are missing within two of the three panels.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 86,
+            "charm": 91,
+            "colour": 94,
+            "technical": 88
+          },
+          "defects": [
+            "Protect the four corners of each visible grille or use three simpler rectangular grille faces at LOD1."
+          ],
+          "lod_triangles": [
+            550,
+            313,
+            174
+          ]
+        },
+        {
+          "id": "bld_orc_weaver_ancient_v0",
+          "evidence_sha256": "b2436f0e58c1368a11ba1e8ec9dcf129849ec3452eed105e6056fbd7dda02908",
+          "observations": "The broad hanging fabric and gold diamond remain legible in their timber frame. The round workshop's roof and side wall remain attached and the frame legs still meet the ground.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            750,
+            427,
+            218
+          ]
+        },
+        {
+          "id": "bld_orc_weaver_industrial_v0",
+          "evidence_sha256": "95f9f1e7746d4da36b5698368c02e82662cfcc7a451af2300f00ad554d7627f2",
+          "observations": "The metal-framed outdoor loom retains its broad cloth and central diamond beside the dark roofed hut. Rear and side views retain the complete cloth beam, legs and hut shell.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            760,
+            433,
+            218
+          ]
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent visual critic, final door, canopy and grille repair review",
+      "inspection": "Reopened the authored age previews and all three serialized LODs at 64 px. Compared LOD0 and LOD1 at two 190 px front angles and at 195 px from the side and rear. Revalidated serialized metadata, triangle ratios, exposed surfaces and shell orientation at the recorded hashes.",
+      "models": [
+        {
+          "id": "bld_orc_electronics_plant_future_v0",
+          "evidence_sha256": "a3a1d7dfa32e9356814cbbff5f46c9bdd0ee1f501f9e56045eb71d5816c0249b",
+          "observations": "The front now retains three separate rectangular dark grille faces at the middle distance. Their corners remain intact in both front views. The stepped roof, glazed walls and entrance stay continuous in the side and rear comparisons.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            550,
+            320,
+            174
+          ]
+        }
+      ]
     }
   ]
 }

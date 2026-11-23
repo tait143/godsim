@@ -386,6 +386,332 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_arcology_future_v0",
+          "evidence_sha256": "31657e63ec66bc14e5f99298d8fdc07f7f851ee04ef43de36476ecd8dd08b630",
+          "observations": "Three staggered glazed towers step up to a supported ring and suspended-looking crystal. Their gold bands and the small door on the ivory base give the tall group a readable scale. The three levels retain the tiered skyline. Serialized triangle counts are 2338, 1332, 490 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_arena_future_v0",
+          "evidence_sha256": "6877dbd196a5ac10eae50b21728ba92f96193a0a22f663bf51c46654eaf6e0c3",
+          "observations": "The high curved spectator canopy rises over a ring of open seating. Its thin uprights are still visible at medium distance, and the flag, scoreboard and front gate mark the approach. The canopy separates it from the open classical bowl. Serialized triangle counts are 984, 560, 288 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_campfire_classical_v0",
+          "evidence_sha256": "58a2d60eddfe2afd3eb8a4a0b303b96ae8bd6a4e225418cb4077325ae9f0b575",
+          "observations": "The high orange flame stands above a built stone hearth, with cut stone benches on two sides. The pennant, individual logs and step in the rim make it read as a tended public fire. The reduced meshes preserve the seated layout. Serialized triangle counts are 550, 313, 173 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_forum_classical_v0",
+          "evidence_sha256": "28550dd8f3675f8b25fa1015241080708247595c2002c3ae8b2d7b9d3c19438d",
+          "observations": "The pediment and columns frame a flight of civic steps between two lower wings. The slate and terracotta skins preserve that hierarchy. The central columns and approach stay clear at medium distance. Serialized triangle counts are 510, 290, 144 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_forum_future_v0",
+          "evidence_sha256": "818329e595a313f51e862c7c2cb8dfede9a0465da6968ded4627c754cf5691ec",
+          "observations": "Layered flat wings, an inclined glass canopy and a small offset dome replace the tiled council roof. The wide stair still reaches a supported public portico and the paired planted pots give the entrance scale. Serialized triangle counts are 567, 322, 174 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_forum_industrial_v0",
+          "evidence_sha256": "68f7993d5192e5d4b3c1150a1cc4bb8a597570adcc52a31ee1f195286b34aa17",
+          "observations": "An asymmetric clock tower interrupts the long roof behind the portico and remains above it in both grey views. The brick base, formal stairs, planters and pennon retain the public-square frontage. Serialized triangle counts are 604, 344, 188 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_stadium_future_v0",
+          "evidence_sha256": "9ec63c4cbe8690ef7e7590f4812d6aee62763f64f55aebb3879695f697925eeb",
+          "observations": "The two long canopies curve along the same touchlines above the same bleachers, with unchanged stadium footprint, goals and scoreboard placement. The grey profiles remain very close despite the taller canopy curvature. Serialized triangle counts are 960, 546, 264 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 82,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Give the future stadium a substantially different roof or seating structure that reads from both angles. Preserve the pitch, entry and structural supports."
+          ]
+        },
+        {
+          "id": "bld_human_stadium_industrial_v0",
+          "evidence_sha256": "deed1e895c6ab011240bc0a4ae68a20f7b1c9089f08963903c125ee88941e843",
+          "observations": "Two banks of roofed seating flank a marked green pitch, with goals, a scoreboard and corner lights. The entrances and roof supports remain visible at middle distance, and the field reads along its long axis. Serialized triangle counts are 924, 526, 264 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_tavern_classical_v0",
+          "evidence_sha256": "95c1d46c115bb37210fafc48efd3695efa053766bb8113f1cbe3334a357d2d4f",
+          "observations": "The steep gable runs into a projecting entry porch. A mug sign, striped awning and outdoor table give the timber-framed inn a clear public face. The medium model retains the sign beneath the roof. Serialized triangle counts are 742, 422, 216 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_tavern_industrial_v0",
+          "evidence_sha256": "8200605eb3b829553b2fe6a2773a05df201c8a218a7057c36f77b065a340674a",
+          "observations": "A lower roof with a dormer replaces the cross-gabled porch and a tall flue rises behind the brick hall. The striped side shelter, barrel and mug sign preserve the inn’s identity. Serialized triangle counts are 694, 394, 184 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_theater_future_v0",
+          "evidence_sha256": "1cc8da01d2eecf55e8cb48de808e4b30f8c625d6feae5b6799d40762d113f2d4",
+          "observations": "The round timber stage and raked crescent seating are open to the promenade. A raised lighting bridge stands on splayed legs and pennants mark the entries. Both angles retain the open stage and curved seating at middle distance. Serialized triangle counts are 638, 324, 189 at LOD0, LOD1 and LOD2. Its largest directed LOD0 corner match with another era is 0.0%.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_theater_industrial_v0",
+          "evidence_sha256": "10c99750e69295433de4f48ca8a7d619bba66063a51d2874b0243c867caf02dc",
+          "observations": "The tall fly loft and low street marquee distinguish the opera house from the older open stage. At medium distance the side and rear brick walls retract into triangles, leaving daylight through the hall, and the loft cap deforms. Serialized triangle counts are 316, 180, 88 at LOD0, LOD1 and LOD2. Its largest directed LOD0 corner match with another era is 0.0%.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 94,
+            "construction": 77,
+            "charm": 92,
+            "colour": 93,
+            "technical": 88
+          },
+          "defects": [
+            "Restore whole walls and solid roof and fly-loft planes in LOD1. Take the budget from marquee lights or other small detail. Compare at 215, 145 and 35 degrees."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_arcology_future_v0",
+          "evidence_sha256": "efee1ae3de2ae3dde5f28658c1591b453977f2e374b981a58d76b4133ef41b49",
+          "observations": "The mid-distance towers retain their individual glass drums and gold bands. The support beneath the high ring reads against the open sky from both sides, and the stair still meets the base door. Serialized triangle counts are 2338, 1332, 490 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_campfire_classical_v0",
+          "evidence_sha256": "48715218942fae0ff0535e1fc84aac83c65a8ffafd73894f252b90e83c902f1f",
+          "observations": "The opening in the stone seating ring is visible from the front and reverse angles. At medium distance the pennant, firewood and alternating rim blocks still frame the single flame. Serialized triangle counts are 550, 313, 173 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_forum_classical_v0",
+          "evidence_sha256": "dbe4d05e9aaa79206617639570e0e05c94a84f575899d9ae106097107abd0e2b",
+          "observations": "The center portico preserves daylight between its columns at medium distance. Both side wings keep their smaller roofs and the rear wall closes beneath the long hall roof. Serialized triangle counts are 510, 290, 144 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_forum_future_v0",
+          "evidence_sha256": "77e338da01d1f02b1cdeab3ad9fd9ac1c43ce388ab6a3c4b205cd1614f10e291",
+          "observations": "The cantilevered glass entry canopy and flat side roofs read separately in all three mid-distance angles. The central entry, columns and stepped approach remain open below the canopy. Serialized triangle counts are 567, 322, 174 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_forum_industrial_v0",
+          "evidence_sha256": "4b14f31fbd01bfcc9df2faa32cee8fa603ce833a31357b2b9ba37651e629ef89",
+          "observations": "The clock lantern projects above the long brick roof at LOD1, including on the reverse view. Two side pavilions, columns and planted entrance steps preserve the forum layout. Serialized triangle counts are 604, 344, 188 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_stadium_future_v0",
+          "evidence_sha256": "a1ef32ada4e8e26352278c14f9a94eef507b580ec38ae7e1647ce4c338e701ad",
+          "observations": "A continuous elevated ring spans a rounded bowl with raked tiers, an open entrance and a green playing field. Uprights support the ring in the medium views. Both grey angles distinguish this structure from the industrial twin canopies. Serialized triangle counts are 1176, 688, 308 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_stadium_industrial_v0",
+          "evidence_sha256": "d9a3d29a7307b6b01d2e1de398682d63bd3b2f33b2741645edd11d41c060137b",
+          "observations": "The paired touchline canopies remain supported above stepped blue bleachers at middle distance. The goals and scoreboards locate the ends of the long field, clearly distinct from the future ring stadium. Serialized triangle counts are 924, 526, 264 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_tavern_classical_v0",
+          "evidence_sha256": "b4152ba541fc9ecda2dc99ea582fb70a768297b56604ada7febb1f552017a62b",
+          "observations": "The projecting gabled doorway, hanging mug and striped side canopy remain identifiable at LOD1. The covered table is still readable on the near side and the long rear wall stays closed under the pitched roof. Serialized triangle counts are 742, 422, 216 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_tavern_industrial_v0",
+          "evidence_sha256": "444500518b933b759f2a1d55bf03afe06207badb64f00d4b9662903d39b772c1",
+          "observations": "The dormer and tall narrow flue remain visible across the middle roof. A flush entrance, mug sign and side awning keep the brick hall recognizable after the barrel detail drops away. Serialized triangle counts are 694, 394, 184 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_theater_industrial_v0",
+          "evidence_sha256": "c2bf4df9ab16eb8a7ca3b558e8bd59e48259ddd6941796194c76488179e073c7",
+          "observations": "The formerly torn brick auditorium is closed on both sides and across the back at LOD1. The fly-loft cap and pitched roof remain continuous above the lit street marquee. The profile is distinct from both era siblings in grey. Serialized triangle counts are 316, 156, 88 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

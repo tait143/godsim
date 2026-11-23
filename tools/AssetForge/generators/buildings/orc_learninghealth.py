@@ -9,6 +9,7 @@ from building_scope import ROOT, package_models
 from forge import MeshBuilder, publish
 from forge.atlas import palette
 from forge.render import contact_sheet
+from generators.buildings.orc_guild_eras import DESIGNERS, FIRST_ERA
 
 PACKAGE = "orc_learninghealth"
 ERAS = ("ancient", "classical", "industrial", "future")
@@ -378,7 +379,9 @@ def machinery(m,t):
 
 
 def design(m,t):
-    if t=="Bathhouse":
+    if t in DESIGNERS and m.e>=FIRST_ERA[t]:
+        DESIGNERS[t](m)
+    elif t=="Bathhouse":
         bath(m)
     elif t=="Herbalist":
         herbalist(m)

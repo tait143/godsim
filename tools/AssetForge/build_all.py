@@ -12,6 +12,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 from building_review import approved_family_sheets, check_entry, director_holds, passing, read_fragment, read_reviews
 from building_scope import AGES, RACES, ROOT, specifications
+from building_eras import check_families, comparison_sheets
 from building_surfaces import current as surface_check, refresh as inspect_surfaces, repeated_shapes
 
 
@@ -184,6 +185,10 @@ def retire_obsolete_pages(sheets, packages):
         for path in directory.glob("*.png"):
             if path.stem.isdecimal() and path not in current_pages:
                 path.unlink()
+    for path in (SHEETS / "era_geometry").glob("*.png"):
+        race, _, page = path.stem.rpartition("-")
+        if race in RACES and page.isdecimal() and path not in current_pages:
+            path.unlink()
 
 
 def write_if_changed(path, content):
@@ -266,14 +271,17 @@ def build(args, models):
             require_regenerated(before)
     inspect_surfaces(models)
     entries = sorted(load_approved(models, args.partial), key=lambda e: e["id"])
+    check_families(entries)
     approved_sheets = approved_family_sheets(entries) if len(entries) == len(models) else None
     lookup = bindings(entries)
     family = family_sheets(entries)
+    eras = comparison_sheets(entries, SHEETS / "era_geometry")
     if approved_sheets is not None:
-        actual = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in family}
-        if actual != approved_sheets:
-            raise ValueError("Generated family sheets differ from the independently reviewed images")
-    sheets = contact_sheets(entries) + family
+        for pages, signed in zip((family, eras), approved_sheets):
+            actual = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in pages}
+            if actual != signed:
+                raise ValueError("Generated family sheets differ from the independently reviewed images")
+    sheets = contact_sheets(entries) + family + eras
     retire_obsolete_pages(sheets, {model.package for model in models})
     publish_runtime(entries, lookup)
     print(f"{len(entries)}/{len(models)} approved models, {len(lookup)} runtime lookup keys, {len(sheets)} sheets")

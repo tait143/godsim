@@ -19,7 +19,7 @@
   "triangles": 1128,
   "lod_triangles": [
    1128,
-   720,
+   642,
    271
   ],
   "bounds": [
@@ -34,7 +34,7 @@
     1.0951499938964844
    ]
   ],
-  "bytes": 198980,
+  "bytes": 194192,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_airport_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_airport_future_v0.png",
@@ -328,7 +328,7 @@
   "triangles": 970,
   "lod_triangles": [
    970,
-   591,
+   551,
    272
   ],
   "bounds": [
@@ -343,7 +343,7 @@
     0.9211999773979187
    ]
   ],
-  "bytes": 164696,
+  "bytes": 162152,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_harbor_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_classical_v0.png",
@@ -370,25 +370,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 996,
+  "triangles": 936,
   "lod_triangles": [
-   996,
-   607,
-   272
+   936,
+   513,
+   278
   ],
   "bounds": [
    [
-    -0.886900007724762,
+    -0.9506000280380249,
     0.0,
-    -0.9211999773979187
+    -0.8623999953269958
    ],
    [
-    0.9358999729156494,
-    1.5758399963378906,
-    0.9211999773979187
+    0.9506000280380249,
+    1.32123601436615,
+    0.8722000122070312
    ]
   ],
-  "bytes": 168004,
+  "bytes": 156428,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_harbor_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_future_v0.png",
@@ -417,7 +417,7 @@
   "triangles": 980,
   "lod_triangles": [
    980,
-   591,
+   557,
    272
   ],
   "bounds": [
@@ -432,7 +432,7 @@
     0.9211999773979187
    ]
   ],
-  "bytes": 165256,
+  "bytes": 163132,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_harbor_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_industrial_v0.png",
@@ -460,7 +460,7 @@
   "triangles": 872,
   "lod_triangles": [
    872,
-   530,
+   496,
    225
   ],
   "bounds": [
@@ -475,7 +475,7 @@
     0.8451009392738342
    ]
   ],
-  "bytes": 151108,
+  "bytes": 148248,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_market_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_ancient_v0.png",
@@ -504,7 +504,7 @@
   "triangles": 980,
   "lod_triangles": [
    980,
-   610,
+   558,
    277
   ],
   "bounds": [
@@ -519,7 +519,7 @@
     0.8451009392738342
    ]
   ],
-  "bytes": 172648,
+  "bytes": 168176,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_market_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_classical_v0.png",
@@ -549,7 +549,7 @@
   "triangles": 984,
   "lod_triangles": [
    984,
-   602,
+   560,
    271
   ],
   "bounds": [
@@ -564,7 +564,7 @@
     0.8451009392738342
    ]
   ],
-  "bytes": 171292,
+  "bytes": 168032,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_market_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_future_v0.png",
@@ -593,7 +593,7 @@
   "triangles": 1016,
   "lod_triangles": [
    1016,
-   634,
+   578,
    255
   ],
   "bounds": [
@@ -608,7 +608,7 @@
     0.8451009392738342
    ]
   ],
-  "bytes": 175388,
+  "bytes": 171244,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_market_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_market_industrial_v0.png",
@@ -634,25 +634,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 981,
+  "triangles": 854,
   "lod_triangles": [
-   981,
-   655,
-   227
+   854,
+   434,
+   262
   ],
   "bounds": [
    [
-    -1.3964999914169312,
+    -1.4249999523162842,
     0.0,
-    -1.1392500400543213
+    -0.8528624773025513
    ],
    [
-    1.3964999914169312,
-    1.7786999940872192,
-    1.3476959466934204
+    1.4249999523162842,
+    1.484495997428894,
+    1.0450607538223267
    ]
   ],
-  "bytes": 151316,
+  "bytes": 141716,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_rail_station_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_rail_station_future_v0.png",
@@ -681,7 +681,7 @@
   "triangles": 1040,
   "lod_triangles": [
    1040,
-   702,
+   554,
    266
   ],
   "bounds": [
@@ -696,7 +696,7 @@
     1.3476959466934204
    ]
   ],
-  "bytes": 161880,
+  "bytes": 150944,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_rail_station_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_rail_station_industrial_v0.png",

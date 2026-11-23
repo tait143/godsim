@@ -139,6 +139,26 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_neutral_ascension_gate_v0",
+          "evidence_sha256": "e05ee7845de6870cac1741fe9485836744f1951148c06d6ca9b03971b5396bd2",
+          "observations": "The cyan-and-gold ring is carried by two broad pylons. The middle mesh keeps the opening, axial staircase, landing and side lamps legible. Checked ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 2970/1692/858. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

@@ -762,6 +762,214 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_elf_gold_mine_ancient_v0",
+          "evidence_sha256": "593a0431524f434aaa185cb74c8208dfdaf98a645fa0c793214f9835ac2ec95c",
+          "observations": "A framed hoist serves a loaded ore cart at the rock face. The additional blue sluice discharges toward a gold catch basin and distinguishes the gold works from the ordinary mine. Highest outgoing family corner share was 2859/3825 (74.7%) with bld_elf_gold_mine_classical_v0. Checked iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1275/725/399. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_gold_mine_classical_v0",
+          "evidence_sha256": "63feec1b5d501c5bd0a6a41556b122838f0d5052f43964e061948028cf869b3c",
+          "observations": "A framed hoist serves a loaded ore cart at the rock face. The additional blue sluice discharges toward a gold catch basin and distinguishes the gold works from the ordinary mine. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 2859/3825 (74.7%) with bld_elf_gold_mine_ancient_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1275/725/399. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Carry the lifting wheel in a masonry arch over a stepped sluice and off-axis ore yard."
+          ]
+        },
+        {
+          "id": "bld_elf_mine_ancient_v0",
+          "evidence_sha256": "437b447436c06bd8d5d296a6279aa5c81d6ea01c58a4091e5f59abe415da56c1",
+          "observations": "A timber headframe lifts ore beside a loaded cart, with its wheel silhouetted above the rock face. Both cart rails and braced lifting geometry read at phone size. Highest outgoing family corner share was 2475/3714 (66.6%) with bld_elf_mine_classical_v0. Checked bronze, iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1238/705/376. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mine_classical_v0",
+          "evidence_sha256": "32f8e499d0752ceabe3548702e6aa9162417f8a9f0804d9299e0cf544be0f03b",
+          "observations": "A timber headframe lifts ore beside a loaded cart, with its wheel silhouetted above the rock face. Both cart rails and braced lifting geometry read at phone size. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 2475/3714 (66.6%) with bld_elf_mine_ancient_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1238/705/376. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Frame a stepped adit with a horizontal winding drum and a separate ore platform."
+          ]
+        },
+        {
+          "id": "bld_elf_mine_future_v0",
+          "evidence_sha256": "458df8b83cbf1b19c76c93c60d1df5fa2b1fcc701f39760e3c33a51bea8cb0cf",
+          "observations": "A timber headframe lifts ore beside a loaded cart, with its wheel silhouetted above the rock face. Both cart rails and braced lifting geometry read at phone size. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 2541/4230 (60.1%) with bld_elf_mine_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1410/803/405. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Build a short enclosed extraction head linked by elevated ore conduit to a receiving tower."
+          ]
+        },
+        {
+          "id": "bld_elf_mine_industrial_v0",
+          "evidence_sha256": "42bd4a04a8ea7cbbd6580d6fa7225f217328a4b990daf5bf232fcebe9c73e49d",
+          "observations": "A timber headframe lifts ore beside a loaded cart, with its wheel silhouetted above the rock face. Both cart rails and braced lifting geometry read at phone size. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 2541/4230 (60.1%) with bld_elf_mine_future_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1410/803/405. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Use a tall enclosed winding house, skip tower and side-loading bunker."
+          ]
+        },
+        {
+          "id": "bld_elf_oil_well_future_v0",
+          "evidence_sha256": "0f74ae01c98cb4acb3ed3b4ba656e9571e7902e0da5188b236c37451df0a3879",
+          "observations": "An open four-legged derrick replaces the low walking-beam pump. Separate tanks and the small leaf-roofed service hut leave the derrick open below the crown. Highest outgoing family corner share was 0/3582 (0.0%) with bld_elf_oil_well_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1194/650/294. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Elf critic — Coordinator repair round 2, first submitted meshes",
+      "models": [
+        {
+          "id": "bld_elf_gold_mine_classical_v0",
+          "evidence_sha256": "864687a36add6a3659cf6cf57255a7b8627e1bd5ae64427972f50b017551fbdd",
+          "observations": "An exposed winding wheel fills a stone arch above the stepped blue sluice. Ore carts and the gold receiving basin read independently from the smaller entrance hut. Compared all 3 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1247/709/391 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mine_classical_v0",
+          "evidence_sha256": "bcfdfdc51b7942cdf81a911c57c52839f8da6f72ba58fd4d3f6ec451d8b1606c",
+          "observations": "A stone-vaulted adit meets a flight of steps cut into the rock face. A separate winding drum and loaded cart flank the entrance without obscuring it. Compared all 3 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 917/521/248 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mine_future_v0",
+          "evidence_sha256": "c03aeec3c0ab0dd30e733c615f324601a580d67af0b9eae99eba0f34d08d0650",
+          "observations": "A striped transfer pipe connects the enclosed extraction head to an elevated receiving tank. A separate small spill of ore below it helps distinguish the facility from a utility pump. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1056/598/258 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mine_industrial_v0",
+          "evidence_sha256": "519349354956f2d3e478180d88eb36cdbbc832b00ce740a7d28daceb4dec61d2",
+          "observations": "The tall headframe is exposed beside a roofed winding house. Its cross-bracing, receiving hopper and low ore wagon remain separate at 64 pixels. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1378/784/341 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent Elf critic — frozen LOD export inspection",
+      "models": [
+        {
+          "id": "bld_elf_gold_mine_classical_v0",
+          "evidence_sha256": "d108f67e7961b388605c2648914fa801ebcf950d8b89a3d00d7c7ab7f8e13beb",
+          "observations": "An exposed winding wheel fills a stone arch above the stepped blue sluice. Ore carts and the gold receiving basin read independently from the smaller entrance hut. Opened classical, medieval, renaissance previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 1247/709/391 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mine_classical_v0",
+          "evidence_sha256": "c959e87075f5444db59e8579aa0c1dedcf0ff9c841e3208c0bd285e4a9a975db",
+          "observations": "A stone-vaulted adit meets a flight of steps cut into the rock face. A separate winding drum and loaded cart flank the entrance without obscuring it. Opened classical, medieval, renaissance previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 917/521/248 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

@@ -5,6 +5,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from generators.buildings.saurian_towncenters import Delta, generate
+from generators.buildings import saurian_delta_works as works
 
 PACKAGE = "saurian_culturecivic"
 
@@ -158,6 +159,25 @@ def playfield(m):
 
 
 def stadium(m):
+    if m.era==3:
+        # Oval sun-bowl: continuous terraced spectator ring cut open on the south
+        # for the field tunnel. Opposite end bows carry a retractable membrane.
+        m.slab("ivory",0,0,0,1.93,.079,1.91,.98,cut=.21)
+        playfield(m)
+        fan(m,.53,1.0,.92,.88,16,344,.079,.38,(4,2,1)[m.lod],(23,14,9)[m.lod],"wall","turquoise")
+        for z in (-.44,.49):
+            works.arch(m,0,z,1.69,.94,.078,.089)
+        for side in (-1,1):
+            # The split roof leaves the pitch and its touchlines visible.
+            p=[(side*.76,.49,-.44),(side*.46,.83,-.44),
+               (side*.46,.83,.49),(side*.76,.49,.49)]
+            m.face("glass",p if side>0 else p[::-1])
+            m.face("roof",[(a,b-.025,c) for a,b,c in (p[::-1] if side>0 else p)])
+        m.slab("wall",0,.079,-.799,.39,.19,.215,.91)
+        m.entry(0,.079,-.9065,.205,.167)
+        if m.lod<2:
+            m.disc(0,.931,-.489,.096,"gold",False)
+        return
     y=.079
     m.slab("wall",0,0,0,1.89,y,1.92,.97,cut=.145)
     playfield(m)
@@ -228,6 +248,39 @@ def terrace_steps(m, x, width, front, landing, base, summit, count):
 
 
 def theater(m):
+    if m.era>=2:
+        works.footing(m,1.92,1.82)
+        if m.era==2:
+            # The proscenium is the gable end of a tall brick fly tower, with a
+            # low, vaulted auditorium extending towards the ticket doors.
+            works.barrel(m,-.035,-.30,1.13,.88,.45,.27)
+            works.shell(m,-.035,.40,1.31,.51,.99,door=False)
+            m.rooflet(-.035,1.07,.40,1.42,.59,.19,"metal")
+            m.block("door",-.035,.37,.138,.95,.52,.035)
+            curtain(m,-.48,.39,.106,.50,1)
+            curtain(m,.41,.39,.106,.50,-1)
+            if m.lod<2:
+                m.disc(-.035,.958,.133,.114)
+            m.slab("roof",-.035,.41,-.75,.88,.063,.28,.88,underside=True)
+        else:
+            # Fan-shaped bank of seats wraps an open performance dais. Single
+            # gold-edged acoustic sail rises behind the actors like a shell.
+            fan(m,.54,1,.89,.83,-78,78,.08,.28,(4,2,1)[m.lod],(11,8,5)[m.lod],"wall","turquoise")
+            m.drum("ivory",0,.08,.27,.45,.16,n=(16,10,6)[m.lod])
+            for i in range((9,6,4)[m.lod]):
+                n=(9,6,4)[m.lod]
+                a,b=math.pi*i/n,math.pi*(i+1)/n
+                def edge(angle,high):
+                    return ((.79 if high else .41)*math.cos(angle),
+                            (1.12+.30*math.sin(angle)) if high else .24,
+                            .32+(.52 if high else .38)*math.sin(angle))
+                A,B,C,D=edge(a,0),edge(b,0),edge(b,1),edge(a,1)
+                m.face("glass" if i%2 else "ivory",(A,B,C,D))
+                m.face("turquoise",[(x,y,z+.018) for x,y,z in (D,C,B,A)])
+            m.slab("wall",0,.08,-.35,.33,.082,.31,.87)
+            if m.lod<2:
+                m.drum("gold",0,.24,.54,.085,.19,.042)
+        return
     stage=.217
     m.slab("fieldstone",0,0,0,1.84,.065,1.79,.97,cut=.16)
     m.slab("wall",0,.065,.389,1.46,stage-.065,.85,.97)
@@ -323,6 +376,31 @@ def forum(m):
 
 
 def tavern(m):
+    if m.era>=2:
+        works.footing(m)
+        if m.era==2:
+            # Tall brewery kettle-house with an accessible low taproom under
+            # the barrel roof. Hot liquor crosses the service alley in a pipe.
+            works.barrel(m,-.37,.09,.85,1.31,.42,.29)
+            works.vessel(m,.44,.28,.34,.96,role="hide")
+            works.spire(m,.68,.57,.102,1.27)
+            m.rod("metal",(.44,.79,.28),(.02,.57,.28),.048)
+            for x in (.31,.58):
+                m.drum("timber",x,.08,-.46,.115,.28)
+                m.drum("trim",x,.36,-.46,.118,.03)
+        else:
+            works.lens(m,-.27,.29,.53,.41)
+            # A two-storey open drinking terrace, its parasols sitting on
+            # central stems as in a sunlit public gathering court.
+            for x,z,r,h in ((.56,-.04,.32,.63),(-.32,-.55,.27,.48)):
+                m.drum("ivory",x,.08,z,r*.33,h,n=(10,6,4)[m.lod])
+                m.drum("turquoise",x,.08+h,z,r,.118,r*.32,n=(12,8,5)[m.lod])
+                if m.lod==0:
+                    m.drum("gold",x,.08+h+.118,z,r*.15,.036,n=7)
+            works.vessel(m,.51,.57,.216,.83,role="hide")
+            if m.lod<2:
+                m.rod("gold",(.51,.50,.39),(.49,.43,.27),.043)
+        return
     # A broad brewhouse, its copper steeping kettle, and a shaded drinking porch.
     hero_z=.197
     m.slab("fieldstone",-.008,0,.019,1.83,.092,1.77,.96)

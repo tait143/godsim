@@ -980,6 +980,223 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Orc model critic, RC2 round 1",
+      "method": "Inspected saved age previews, rendered serialized LOD0, LOD1 and LOD2, and compared neutral 64px geometry at 215 and 145 degrees. Independently checked package metadata, GLB streams, exposed coplanar faces, inverted shells and repeated meshes. Compared all ordered era pairs in the 14 directed families.",
+      "models": [
+        {
+          "id": "bld_orc_bathhouse_future_v0",
+          "evidence_sha256": "0e8ba77d6c6a4c80d023bfbf1abcfa22e12e24f0e4fe9aee438a161d92eaacc6",
+          "observations": "The broad mushroom-shaped canopy over two open blue pools replaces the boiler stack on the industrial sheet. Pool rims, central support and the little framed opening survive both lower levels. Ascension makes the pool rims warmer.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_bathhouse_industrial_v0",
+          "evidence_sha256": "aa52065cc37e615fb6ebaba8346683d9b766c1e5e943f4f35dec980dd2840a83",
+          "observations": "A tall flaring stack overtops a gabled boiler house and a spout bends into the raised bath. The stack and basin project clearly at 64px. The basin opening and door remain present in both lower meshes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_herbalist_classical_v0",
+          "evidence_sha256": "d5b9d2240989a640606a1a5bbaee095154e71f24b6d82d2ae3942aab562243a1",
+          "observations": "Three large plant clumps and pots wrap a square pyramidal-roofed pavilion. The roof stands clear of the tallest leaves from the reverse angle. The leaves are densely grouped in front, but the pots and continuous roof remain legible in both lower meshes.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 92,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_herbalist_future_v0",
+          "evidence_sha256": "44b618e2f43f56f44ffcb4d80c5962e6acc970d64139af143c6f51e8188c4f46",
+          "observations": "Three unequal blue growing vessels each carry a green crown, replacing the industrial greenhouse roof and chimney. Their feet and distinct necks survive in gray at phone scale. Gold bands pick them out in Ascension.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_herbalist_industrial_v0",
+          "evidence_sha256": "a7fe0f29fd61abde568bb394dc095e332d6a9513e02b36d65587ff2e24fc4dbd",
+          "observations": "A tall narrow chimney flanks a steep roof divided into blue panes. Foreground planting pots preserve the herbalist role. The plants stay below the roof line in gray and both endpoints of the stack remain intact at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_observatory_future_v0",
+          "evidence_sha256": "c0e2d15e691a9e6cb03ed18de5b488883d4fdcb6cce97f6e0f6ec14df8ae6e05",
+          "observations": "Three differently scaled dishes surround a blue-roofed control room. Their supports hold the reflectors clear of the roof at 64px. LOD2 reduces the bowls to broad angled reflectors while retaining all three dish-and-pedestal forms.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_observatory_industrial_v0",
+          "evidence_sha256": "e91c7c7e24f3cfff57f57029965f9fbbdc7488bcab0375c712315950df62b786",
+          "observations": "From the back a long inclined tube is clearly separated from the gabled operations house. The near face shows its large blue lens and brass adjustment wheel over a wide plinth. The tip, pivot and foundation survive the LOD reduction.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_printworks_future_v0",
+          "evidence_sha256": "f032e4fd7153ed7ce2d7b744e0528cbc866eed5484d32d1e4bd1013aef4efc22",
+          "observations": "A horn-edged blue cylinder stands behind a low feeder displaying two broad hand sheets. Unlike the industrial flywheel press the lower box and tall reservoir define the profile. The feeder and its sheet stock remain in LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_printworks_industrial_v0",
+          "evidence_sha256": "22b5b40cab5d5402aaec8d56cfe7ce7ca6ecedd4388f28d0c9dd4ab8136ed4a9",
+          "observations": "A brass flywheel and rolled paper sit ahead of a short factory chimney. The exposed press deck and separate brick shed carry the function and era without the old hut shape. The feed roll stays seated over its frame at LOD1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_research_lab_future_v0",
+          "evidence_sha256": "cc904b969c8fd0780308295753ddded138b64a7fc096a70b87df8c68291534ef",
+          "observations": "A tall faceted crystal stands inside crossing rings on a low circular platform, replacing the earlier cylindrical plant. The dark portal interrupts the front blue band and golden supports pick up the Ascension skin. LOD1 preserves the open ring space.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_scriptorium_classical_v0",
+          "evidence_sha256": "53ca93678b816976e1fffd8e45622b848e9f93d32c0edc691f5cab0b0a1bf75d",
+          "observations": "An open book beneath a shallow porch sits in front of a larger hipped house. From the second gray angle the roofed reading bay is clearly separate from the old round hut. Its columns, worktop and roof stay connected at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_scriptorium_future_v0",
+          "evidence_sha256": "674307e7b67d31bba724ccde40a515fe91f420a563fefde32fd87ce542cda178",
+          "observations": "Two tall splayed reading panels give the central structure a V profile. The older open-book desk sits forward and lower so the place of work remains legible when the writing marks simplify at LOD1. Its base meets the ground.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_scriptorium_industrial_v0",
+          "evidence_sha256": "e75f8081b00eaa1d701754deddeeeb0292b45530f513967913bebb8877f32c65",
+          "observations": "Three large tilted blue rooflights make a serrated edge above a long brick workshop. An open book rests on the low angled desk beside the door. The row of rooflights and the low desk stay present through LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_university_future_v0",
+          "evidence_sha256": "0310f63cd9c5a8674293c8fa8b28483fa198295ab3e625a98c69ca02d8ae65c3",
+          "observations": "Two low oval pavilions flank a taller domed central hall, joined by short low links. Their vertical hierarchy survives in gray, with the pale roof fields separated by blue collars. LOD1 keeps all three occupied volumes and the entrance.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_university_industrial_v0",
+          "evidence_sha256": "ad416a41201a947e9828df0504cfe21bf0b6b46800813d41e231a2bc3a9a53ee",
+          "observations": "A tall capped clock tower anchors the end of a long brick lecture hall. The lower entry wing breaks the long facade. At LOD1 the clock housing, junction of roofs and recessed main door remain intact.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

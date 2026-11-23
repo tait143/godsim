@@ -504,25 +504,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1210,
+  "triangles": 734,
   "lod_triangles": [
-   1210,
-   774,
-   346
+   734,
+   422,
+   212
   ],
   "bounds": [
    [
-    -1.3450000286102295,
+    -1.274999976158142,
     0.0,
-    -1.284999966621399
+    -1.2050000429153442
    ],
    [
-    1.3450000286102295,
-    1.6829999685287476,
-    1.284999966621399
+    1.2350000143051147,
+    1.5299999713897705,
+    1.2450000047683716
    ]
   ],
-  "bytes": 199640,
+  "bytes": 116040,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_foundry_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_foundry_future_v0.png",
@@ -551,7 +551,7 @@
   "triangles": 1024,
   "lod_triangles": [
    1024,
-   669,
+   583,
    301
   ],
   "bounds": [
@@ -566,7 +566,7 @@
     1.284999966621399
    ]
   ],
-  "bytes": 170488,
+  "bytes": 165556,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_foundry_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_foundry_industrial_v0.png",
@@ -640,7 +640,7 @@
   "triangles": 773,
   "lod_triangles": [
    773,
-   475,
+   439,
    151
   ],
   "bounds": [
@@ -655,7 +655,7 @@
     0.4399999976158142
    ]
   ],
-  "bytes": 123064,
+  "bytes": 121120,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_smelter_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_smelter_classical_v0.png",
@@ -729,7 +729,7 @@
   "triangles": 779,
   "lod_triangles": [
    779,
-   481,
+   443,
    187
   ],
   "bounds": [
@@ -744,7 +744,7 @@
     0.4399999976158142
    ]
   ],
-  "bytes": 125904,
+  "bytes": 124076,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_smelter_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_smelter_industrial_v0.png",
@@ -773,7 +773,7 @@
   "triangles": 645,
   "lod_triangles": [
    645,
-   393,
+   367,
    100
   ],
   "bounds": [
@@ -788,7 +788,7 @@
     0.4399999976158142
    ]
   ],
-  "bytes": 92764,
+  "bytes": 91200,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_weaver_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_ancient_v0.png",
@@ -815,25 +815,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 691,
+  "triangles": 439,
   "lod_triangles": [
-   691,
-   427,
-   124
+   439,
+   250,
+   118
   ],
   "bounds": [
    [
-    -0.45500001311302185,
+    -0.46000000834465027,
     0.0,
-    -0.4399999976158142
+    -0.453000009059906
    ],
    [
-    0.45500001311302185,
-    0.8190000057220459,
-    0.4399999976158142
+    0.46000000834465027,
+    0.7309998273849487,
+    0.4350000023841858
    ]
   ],
-  "bytes": 99812,
+  "bytes": 67212,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_weaver_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_classical_v0.png",
@@ -952,7 +952,7 @@
   "triangles": 611,
   "lod_triangles": [
    611,
-   402,
+   348,
    162
   ],
   "bounds": [
@@ -967,7 +967,7 @@
     0.8399999737739563
    ]
   ],
-  "bytes": 89568,
+  "bytes": 86908,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_workshop_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_workshop_classical_v0.png",
@@ -994,25 +994,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 723,
+  "triangles": 579,
   "lod_triangles": [
-   723,
-   469,
-   179
+   579,
+   329,
+   184
   ],
   "bounds": [
    [
-    -0.875,
+    -0.8500000238418579,
     0.0,
-    -0.7900000214576721
+    -0.7850000262260437
    ],
    [
-    0.875,
-    1.1100000143051147,
-    0.8399999737739563
+    0.8700000047683716,
+    1.0399999618530273,
+    0.8149999976158142
    ]
   ],
-  "bytes": 108984,
+  "bytes": 91060,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_workshop_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_workshop_industrial_v0.png",

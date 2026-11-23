@@ -853,6 +853,238 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_hydroponics_tower_future_v0",
+          "evidence_sha256": "96917fd5f47483712e6f6f2f8aa7633b79dff116fe9aa4346439b9a6e730e9af",
+          "observations": "The tapering layers of green beds make a readable growing tower, with a small arched access door cut into the lowest grey tier. The stepped plan, broad cap and continuous supports survive the middle LOD. Dark Information trim and gold Ascension trim separate cleanly.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            766,
+            436,
+            214
+          ]
+        },
+        {
+          "id": "bld_dwarf_pasture_ancient_v0",
+          "evidence_sha256": "ee1b7da5afb1a1e23ed30a02a947cb239a0a898180a12d8f9f6931079e4c7b19",
+          "observations": "Two woolly animals, an open pen and low timber byre establish the scale at 64 px. The neutral shape reads as the only simple roofed timber shelter beside the later silo, raised tank and split canopy. LOD1 preserves posts, fence opening and byre door.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            932,
+            530,
+            292
+          ]
+        },
+        {
+          "id": "bld_dwarf_pasture_classical_v0",
+          "evidence_sha256": "2e865a098dd80b6c4703ba7836db4acb3ba37767ffb3d664317b848385012792",
+          "observations": "A round covered animal house occupies the back of a low walled pen, with livestock at the opening. Its conical roof gives the Classical period a distinct skyline even unpainted. LOD1 keeps the roof rim, wall openings and gate path.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            682,
+            388,
+            202
+          ]
+        },
+        {
+          "id": "bld_dwarf_pasture_future_v0",
+          "evidence_sha256": "904f9b1df0a0366ead2aa3f470cd3fa20e0acf415afb99440ea3903c463fd0b6",
+          "observations": "Two swept blue collector wings spread over a low pasture, leaving clear space around the animals. Their upward curve and supporting pedestals read differently from the Industrial tank without paint. The canopy and its bases remain at LOD1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 92,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            870,
+            494,
+            254
+          ]
+        },
+        {
+          "id": "bld_dwarf_pasture_industrial_v0",
+          "evidence_sha256": "17144f1fc82e9489b0133f21a203d3aa8f739f44fe835b8e3de64183640bb675",
+          "observations": "A raised cylindrical water tank above a low feeding shelter replaces the older walled pen. Space between the tank legs is visible at phone size. LOD1 preserves the small roof, tank supports and animals, even after the fence loses some detail.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            884,
+            502,
+            266
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_hydroponics_tower_future_v0",
+          "evidence_sha256": "b01b4acf7bc701cd9db0d58d110f7e4db87815cb857e1f0b49ecc1c75b3c1345",
+          "observations": "The stacked growing floors and broad green belts survive the reduction. At the base, pale wall geometry covers almost the entire dark doorway and leaves a triangular sliver in both front views.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 82,
+            "charm": 92,
+            "colour": 94,
+            "technical": 86
+          },
+          "defects": [
+            "Preserve the complete dark hydroponics door and its doorframe in LOD1. Keep the light plinth clear of the opening."
+          ],
+          "lod_triangles": [
+            766,
+            436,
+            214
+          ]
+        },
+        {
+          "id": "bld_dwarf_pasture_ancient_v0",
+          "evidence_sha256": "7ee3dbcab9b2f820fbe89acaf46717b19b55808a4f1c3483164797ce50869129",
+          "observations": "The fence and low timber byre remain attached to the green pen. The open entrance and both animals still read once optional trough detail drops out.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            932,
+            530,
+            292
+          ]
+        },
+        {
+          "id": "bld_dwarf_pasture_classical_v0",
+          "evidence_sha256": "b8af1a39a10ce584515b2a2665d8e66d81f8281dbe4a9d011be7ed4c59fcf76d",
+          "observations": "The conical roof sits on an intact round animal house behind the masonry paddock. LOD1 keeps the door, open gate and animals in front of the wall.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            682,
+            388,
+            202
+          ]
+        },
+        {
+          "id": "bld_dwarf_pasture_future_v0",
+          "evidence_sha256": "11e741e924214e1e28742621e380cc2a61626081036c76312819258972f301ee",
+          "observations": "The swept planting canopy keeps both broad blue wings and their sloping supports above the animals. Its support bases and fence remain continuous from the rear.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 92,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            870,
+            494,
+            254
+          ]
+        },
+        {
+          "id": "bld_dwarf_pasture_industrial_v0",
+          "evidence_sha256": "a0cd814977b5b8c9b1c0912c1d4afed26b1aa99b83c88c1a631e66d8cb6dd92f",
+          "observations": "The water tower retains four legs with daylight between them and the small covered feeder keeps its front bearing. Livestock remain readable against the grass.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            884,
+            502,
+            266
+          ]
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent visual critic, final door, canopy and grille repair review",
+      "inspection": "Reopened the authored age previews and all three serialized LODs at 64 px. Compared LOD0 and LOD1 at two 190 px front angles and at 195 px from the side and rear. Revalidated serialized metadata, triangle ratios, exposed surfaces and shell orientation at the recorded hashes.",
+      "models": [
+        {
+          "id": "bld_dwarf_hydroponics_tower_future_v0",
+          "evidence_sha256": "13bd0ca9835033dd36519d0c3bf2fa9a8510699a524bf1a916a2a26ce8e30566",
+          "observations": "The middle mesh now shows the full dark opening under the low doorway lintel on both sides of the growing tower's front. The plinth stays outside the opening. The stacked beds and broad roof remain continuous in side and rear views.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            766,
+            438,
+            214
+          ]
+        }
+      ]
     }
   ]
 }

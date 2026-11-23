@@ -458,7 +458,7 @@
   "triangles": 424,
   "lod_triangles": [
    424,
-   256,
+   240,
    120
   ],
   "bounds": [
@@ -473,7 +473,7 @@
     0.25200000405311584
    ]
   ],
-  "bytes": 71084,
+  "bytes": 69452,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_stone_wall_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_stone_wall_industrial_v0.png",
@@ -500,7 +500,7 @@
   "triangles": 708,
   "lod_triangles": [
    708,
-   473,
+   403,
    188
   ],
   "bounds": [
@@ -515,7 +515,7 @@
     0.42702436447143555
    ]
   ],
-  "bytes": 124004,
+  "bytes": 119772,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_watchtower_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_watchtower_ancient_v0.png",
@@ -544,7 +544,7 @@
   "triangles": 590,
   "lod_triangles": [
    590,
-   380,
+   336,
    143
   ],
   "bounds": [
@@ -559,7 +559,7 @@
     0.42702436447143555
    ]
   ],
-  "bytes": 99196,
+  "bytes": 96660,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_watchtower_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_watchtower_classical_v0.png",
@@ -585,25 +585,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 592,
+  "triangles": 860,
   "lod_triangles": [
-   592,
-   373,
-   143
+   860,
+   435,
+   270
   ],
   "bounds": [
    [
-    -0.4490000009536743,
+    -0.41893404722213745,
     0.0,
-    -0.42702436447143555
+    -0.3889999985694885
    ],
    [
-    0.4490000009536743,
-    2.305000066757202,
-    0.42702436447143555
+    0.42129001021385193,
+    1.8047103881835938,
+    0.39500001072883606
    ]
   ],
-  "bytes": 99304,
+  "bytes": 148176,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_watchtower_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_watchtower_industrial_v0.png",

@@ -336,6 +336,76 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_military_base_industrial_v0",
+          "evidence_sha256": "d22a77aee3598f588f4da570ff8c68fb3e450a783219df170d0eb506b9760165",
+          "observations": "An oversized radio dish on a square tower marks the low barracks compound. The front checkpoint, stacked supplies and flag set its scale. The later stepped communications block has a different profile. Serialized triangle counts are 723, 411, 204 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_palisade_classical_v0",
+          "evidence_sha256": "b593d31bff9775d61edadcf634fbce82ed564558dea0ef9586482132b9ea27f8",
+          "observations": "A tiled gate roof spans stone-based posts between two rows of pointed timber. The pennant marks the entry side, and the wide through-opening distinguishes it from the ancient crossbeam gate even in the far mesh. Serialized triangle counts are 693, 395, 160 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_military_base_industrial_v0",
+          "evidence_sha256": "0cb71c2f291c6cb5c0f627c10fa475825e3e42486563de385f05214a0d7c6af2",
+          "observations": "The radar dish and pedestal remain distinct from the low barracks wing at LOD1. The larger roof plane, front checkpoint and shaded entrance all survive from both approaches. Serialized triangle counts are 723, 411, 204 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_palisade_classical_v0",
+          "evidence_sha256": "5f576aa81e769af9d7d42db411bd7f3d9caa33ef155b88c4a83eea0fa4d159b8",
+          "observations": "The central tiled gate spans two square footed posts, with an open passage between them. From the rear, the two rails and diagonal braces still link the timber segments at medium distance. Serialized triangle counts are 693, 395, 160 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

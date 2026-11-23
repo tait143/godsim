@@ -42,5 +42,10 @@
       "bld_elf_aqueduct_future_v0","bld_orc_fishing_hut_future_v0"
     ],
     "status": "closed"
+  },
+  {
+    "finding": "RC1 catalog review at 64 px found that the Future Saurian Farm repeated the stacked circular crop decks and leaf crown of the HydroponicsTower. Replace the main tower with low, visible cultivated or irrigated beds in both Information and Ascension.",
+    "models": ["bld_saurian_farm_future_v0"],
+    "status": "closed"
   }
 ]

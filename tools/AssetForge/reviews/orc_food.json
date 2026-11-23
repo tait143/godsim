@@ -501,6 +501,27 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Orc model critic, RC2 round 1",
+      "method": "Inspected saved age previews, rendered serialized LOD0, LOD1 and LOD2, and compared neutral 64px geometry at 215 and 145 degrees. Independently checked package metadata, GLB streams, exposed coplanar faces, inverted shells and repeated meshes. Compared all ordered era pairs in the 14 directed families.",
+      "models": [
+        {
+          "id": "bld_orc_industrial_farm_industrial_v0",
+          "evidence_sha256": "ec9813e6087d8c0d6c009644accf6f6aaf7d19f5f690cc919efdc7fd445304ee",
+          "observations": "Four dark tires, a front cutter bar and a grain bin define the harvester on its planted strip. The red cab remains forward of the bin and the discharge pipe clears the side profile. The cutter and its ground contact survive both reductions.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

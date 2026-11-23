@@ -5,6 +5,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from generators.buildings.saurian_towncenters import Delta, generate
+from generators.buildings import saurian_delta_works as works
 
 PACKAGE="saurian_extraction"
 
@@ -106,6 +107,38 @@ def mine(m,kind):
 
 
 def quarry(m):
+    if m.era>=2:
+        works.footing(m,1.87,1.77,"soil")
+        if m.era==2:
+            # An engine drives a large circular quarry saw into a long stone bed.
+            works.barrel(m,.44,.36,.72,.76,.38,.23)
+            works.spire(m,.68,.58,.094,.82)
+            for x in (-.69,-.25):
+                m.slab("brick",x,.08,.07,.19,.51,.53,.90)
+            m.rod("metal",(-.73,.57,.07),(-.14,.57,.07),.075)
+            with m.transform(translate=(-.46,.57,.07),rotate_y=90):
+                m.disc(0,0,0,.41,"metal",False)
+                m.disc(0,0,-.105,.15,"gold",False)
+            for x,z,w,d in ((-.48,-.42,.62,.42),(.33,-.44,.66,.30)):
+                m.slab("fieldstone",x,.08,z,w,.29,d,.945,cut=.07)
+        else:
+            # A travelling cutter on twin rails straddles the excavation. Its
+            # suspended head scores channels across the full width of each bench.
+            for x in (-.64,.61):
+                m.slab("fieldstone",x,.08,.05,.30,.23,1.48,.91)
+                if m.lod<2:
+                    m.block("metal",x,.31,.04,.11,.075,1.49)
+                bearing=.385 if m.lod<2 else .31
+                m.slab("ivory",x,bearing,.16,.24,1.105-bearing,.36,.67)
+            m.slab("turquoise",-.015,1.105,.16,1.49,.17,.35,.89,underside=True)
+            m.drum("ivory",-.18,.54,.16,.12,.59,.17)
+            m.drum("metal",-.18,.32,.16,.035,.22,.113)
+            for j in range(3):
+                m.slab("fieldstone",-.35+j*.32,.08,-.27,.26,.19+j*.045,
+                       .81-.11*j,.93,cut=.09)
+            if m.lod<2:
+                m.disc(.61,.89,-.029,.082)
+        return
     m.slab("soil",0,0,.02,1.87,.07,1.76,.98)
     for j in range(3):
         m.slab("plaster" if m.era==0 else "fieldstone",-.22+j*.043,.07+j*.205,.05+j*.20,
@@ -150,6 +183,55 @@ def log(m,x,y,z,length,r,angle=0):
 
 
 def timberworks(m,sawmill):
+    if m.era and (not sawmill or m.era==3):
+        works.footing(m,role="soil")
+        if sawmill:
+            # The scanning saw is an open portal straddling the feed conveyor;
+            # the glazed roof encloses the saw drive and dust separators.
+            works.conveyor(m,.12,-.06,.63,1.43,.34)
+            works.arch(m,.12,-.09,1.22,1.17,.17,.27)
+            m.block("metal",.12,.72,-.09,.075,.33,.092)
+            for x in (-.58,.70):
+                works.vessel(m,x,.47,.18,.63,role="turquoise")
+            log(m,.12,.51,.39,.87,.10)
+            if m.lod<2:
+                m.disc(.12,1.14,-.232,.09)
+        elif m.era==1:
+            # A radial log boom and open marked sorting court replace a fixed woodpile.
+            works.pagoda(m,-.48,.45,.70,.63,.62)
+            m.drum("wall",.24,.08,.04,.20,.28,.14)
+            m.rod("timber",(.24,.36,.04),(.24,1.17,.04),.073)
+            m.rod("timber",(-.19,.72,-.32),(.56,1.18,.30),.069)
+            m.rod("trim",(-.19,.45,-.32),(-.19,.72,-.32),.026)
+            for x,z,angle in ((-.37,-.27,54),(.48,.19,-20)):
+                log(m,x,.19,z,.63,.113,angle)
+            if m.lod==0:
+                m.jar(.63,.08,-.57,.13,"turquoise")
+        elif m.era==2:
+            # Steam winch, winding drum and open iron logging arch straddle the haul road.
+            works.barrel(m,-.46,.26,.70,.94,.34,.26)
+            works.spire(m,-.57,.56,.10,1.00)
+            works.arch(m,.36,-.06,.94,.88,.082,.12,"metal")
+            m.drum("metal",.39,.08,.45,.18,.31)
+            m.rod("metal",(.39,.36,.45),(.36,.85,-.06),.028)
+            log(m,.36,.18,.30,.98,.109)
+            if m.lod<2:
+                log(m,-.23,.20,-.49,.47,.11,75)
+        else:
+            # The crawler's articulated harvesting head grips a horizontal bole.
+            # Its pivot rests on a stepped service pod, with a small cut-stack at left.
+            works.lens(m,.29,.31,.38,.33)
+            m.drum("gold",.29,.78,.31,.091,.14)
+            m.rod("ivory",(.29,.88,.31),(.30,1.33,-.06),.089)
+            m.rod("turquoise",(.30,1.33,-.06),(.16,.66,-.46),.070)
+            for x in (.06,.26):
+                m.rod("metal",(x,.68,-.46),(x,.33,-.46),.039)
+            log(m,.16,.408,-.15,.67,.116)
+            for x,z in ((-.68,.50),(-.43,.44)):
+                log(m,x,.19,z,.98,.117)
+            if m.lod<2:
+                log(m,-.55,.37,.43,.89,.112)
+        return
     m.slab("soil",0,0,0,1.86,.068,1.79,.98)
     m.house(-.38,.068,.39,.91,.74,.76 if not sawmill else .91,role="metal" if m.era==0 and not sawmill else None)
     for i in range((3,3,2)[m.lod]):
@@ -188,6 +270,27 @@ def timberworks(m,sawmill):
 
 
 def oil(m):
+    if m.era==3:
+        # An axial electric wellhead within a four-foot drilling mast. The crane
+        # tip houses the travelling block, and the return line enters the separator.
+        works.footing(m,1.90,1.68)
+        x,z=-.25,.12
+        for dx,dz in ((-.42,-.38),(.42,-.38),(-.42,.38),(.42,.38)):
+            m.rod("ivory",(x+dx,.08,z+dz),(x+dx*.15,1.52,z+dz*.15),.068)
+        m.slab("turquoise",x,1.50,z,.34,.17,.34,.71)
+        m.rod("metal",(x,.41,z),(x,1.51,z),.043)
+        m.drum("metal",x,.08,z,.19,.27,.144)
+        m.drum("gold",x,.35,z,.14,.075)
+        works.vessel(m,.53,-.17,.285,.70)
+        works.shell(m,.51,.50,.52,.35,.38)
+        m.slab("glass",.51,.46,.50,.57,.11,.42,.68,underside=True)
+        m.rod("turquoise",(x,.24,z),(.52,.24,-.17),.050)
+        if m.lod<2:
+            m.disc(x,1.58,z-.164,.093)
+            if m.lod==0:
+                for side in (-1,1):
+                    m.rod("metal",(x+side*.38,.21,z-.33),(x-side*.21,.81,z-.21),.027)
+        return
     m.slab("fieldstone",0,0,.01,1.88,.115,1.49,.96)
     m.slab("wall",-.23,.115,.19,.68,.37,.62)
     m.entry(-.23,.116,-.119,.27,.30)

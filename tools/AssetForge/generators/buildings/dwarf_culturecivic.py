@@ -199,7 +199,8 @@ def arena(m):
 
 def stadium(m):
     """Two grandstands share an open rectangular pitch with clear sight lines."""
-    future=m.era==3
+    if m.era==3:
+        return cup_stadium(m)
     m.slab("fieldstone",0,0,0,1.91,.089,1.63,.112)
     m.slab("grass",0,.085,-.033,1.53,.027,.65,.051)
     if m.lod<2:
@@ -223,12 +224,12 @@ def stadium(m):
                 m.block("banner" if j%2==0 else "roof",x,y-.003,z,width+.008,.027,d*.971)
     # The roof slopes towards the spectator tiers. Heavy raking columns behind the
     # last row carry the canopy. The roof covers one side, so the pitch stays visible.
-    canopy=.791 if future else .703
+    canopy=.703
     for x in (-.69,.69):
-        m.beam("wall" if future else "metal",(x,.08,.746),(x*.94,canopy+.025,.624),.095)
-    with m.transform(translate=(0,canopy,.511),rotate_x=-10 if future else -7):
-        m.slab("glass" if future else "roof",0,-.038,0,1.85,.085,.47 if future else .38,.11)
-        m.block("gold",0,-.007,-(.235 if future else .190),1.64,.037,.038)
+        m.beam("metal",(x,.08,.746),(x*.94,canopy+.025,.624),.095)
+    with m.transform(translate=(0,canopy,.511),rotate_x=-7):
+        m.slab("roof",0,-.038,0,1.85,.085,.38,.11)
+        m.block("gold",0,-.007,-.190,1.64,.037,.038)
     # A monumental clipped arch and a bronze clan hammer mark the ticket aisle.
     m.slab("fieldstone",0,0,-.682,.81,.096,.41,.12)
     for hand in (-1,1):
@@ -244,31 +245,9 @@ def stadium(m):
             m.relief("door",[(-.115,.567),(0,.487),(.115,.568),(.094,.658),(-.094,.658)],-.862,.028)
         m.block("ivory",0,.521,-.865,.038,.100,.017)
         m.block("gold",.001,.606,-.872,.140,.040,.022)
-    if future:
-        # A continuous luminous score-arch rests directly over the two canopy piers.
-        outer=[(-.74,.791),(-.65,1.017),(-.34,1.18),(.34,1.18),(.65,1.017),(.74,.791)]
-        inner=[(-.609,.791),(-.544,.935),(-.304,1.059),(.304,1.059),(.544,.935),(.609,.791)]
-        if m.lod==2:
-            outer=[outer[i] for i in (0,2,3,5)]
-            inner=[inner[i] for i in (0,2,3,5)]
-        def edge(pair,z):
-            return (pair[0],pair[1],z)
-        for i in range(len(outer)-1):
-            o,p=outer[i:i+2]
-            a,b=inner[i:i+2]
-            front=.521
-            back=.661
-            m.face("glass",[edge(o,front),edge(p,front),edge(b,front),edge(a,front)])
-            m.face("metal",[edge(a,back),edge(b,back),edge(p,back),edge(o,back)])
-            m.face("gold",[edge(o,front),edge(o,back),edge(p,back),edge(p,front)])
-            m.face("trim",[edge(a,front),edge(b,front),edge(b,back),edge(a,back)])
-        for i in (0,-1):
-            # Both feet end inside the solid rear canopy.
-            foot=[edge(outer[i],front),edge(inner[i],front),edge(inner[i],back),edge(outer[i],back)]
-            m.face("metal",foot if i==0 else foot[::-1])
     for s in (-1,1):
         x,z=s*.822,(-.325 if s==1 else .289)
-        h=.61 if future else .52
+        h=.52
         m.beam("metal",(x,.085,z),(x+s*.019,h,z+s*.031),.046)
         m.block("trim",x+s*.019,h-.009,z+s*.031,.214,.095,.067)
         if m.lod<2:
@@ -279,6 +258,52 @@ def stadium(m):
             m.slab("wall",x,.088,-.752,.143,.223,.063,.12,taper=.11)
             m.chevron(x,.226,-.785,.094,.061)
         m.standard(.89,.084,.091,.49,-1)
+
+
+def cup_stadium(m):
+    """An enclosed pitch bowl with a split cantilever above its end stands."""
+    m.slab("fieldstone",0,0,.01,1.93,.105,1.73,.23)
+    m.slab("grass",0,.097,-.018,1.36,.026,.65,.16)
+    m.block("ivory",0,.121,-.018,.022,.009,.528)
+    m.ring(0,-.018,0,360,(14,9,6)[m.lod],[(.089,.131,"ivory"),(.104,.131,"ivory")])
+    for s in (-1,1):
+        for t in (-1,1):
+            m.block("ivory",s*.531,.121,-.018+t*.11,.023,.155,.025)
+        m.block("ivory",s*.531,.272,-.018,.027,.026,.246)
+    # Split the bowl at the four access aisles. The two main stands wrap the goals.
+    sections=((48,84),(139,82),(228,84),(319,82))
+    for j,(start,sweep) in enumerate(sections):
+        tiers=(4,3,1)[m.lod]
+        profile=[(.606,.096,"wall")]
+        for i in range(tiers):
+            radius=.606+i*.335/tiers
+            y=.142+(i+1)*(.30 if j%2==0 else .22)/tiers
+            profile.extend(((radius,y,"wall"),(radius+.335/tiers,y,"banner" if i%2==0 else "roof")))
+        profile.append((.952,.091,"ivory"))
+        m.ring(0,0,start,sweep,(5,3,2)[m.lod],profile,width=.98,depth=.808)
+    # Two upswept ring sectors make the split roof visible across the pitch.
+    for side in (-1,1):
+        for z in (-.37,.37):
+            m.beam("wall",(side*.792,.103,z),(side*.789,.674,z*.81),.095)
+        start=58 if side>0 else 238
+        profile=[(.617,.529,"metal"),(.638,.615,"accent"),(.993,.748,"glass"),
+                 (.969,.657,"ivory"),(.617,.529,"metal")]
+        m.ring(0,0,start,64,(5,3,2)[m.lod],profile,width=.988,depth=.88,canopy=True)
+    # The suspended score panel faces the grandstands above the north aisle.
+    for x in (-.34,.34):
+        m.beam("metal",(x,.11,.661),(x*.89,.699,.605),.068)
+    m.slab("trim",0,.548,.607,.76,.297,.111,.11)
+    m.block("glass",0,.588,.546,.598,.188,.026)
+    if m.lod<2:
+        for s in (-1,1):
+            m.block("ascension",s*.138,.648,.529,.124,.054,.015)
+        m.slab("wall",0,.105,-.707,.55,.142,.235,.12)
+        m.chevron(0,.203,-.831,.211,.067)
+    if m.lod==0:
+        for s in (-1,1):
+            m.standard(s*.64,.101,-.503,.453,-s)
+            for z in (-.233,0,.241):
+                m.slab("metal",s*.902,.359,z,.089,.095,.128,.11)
 
 
 def theater(m):
@@ -342,6 +367,8 @@ def theater(m):
 
 def tavern(m):
     era=m.era
+    if era==3:
+        return tap_court(m)
     m.slab("fieldstone",0,0,.035,1.78,.125,1.58,.115)
     m.slab("wall",-.12,.118,.084,1.38,.54,1.19,.10)
     m.vault("roof" if era==1 else "metal" if era==2 else "glass",
@@ -380,6 +407,41 @@ def tavern(m):
         m.slab("slate",-.265,.107,-.583,.473,.053,.17,.1)
         m.slab("timber",.12,.123,-.576,.231,.102,.111,.06)
         m.slab("grass",.12,.222,-.575,.211,.050,.091,.06)
+
+
+def tap_court(m):
+    m.slab("fieldstone",0,0,.012,1.86,.117,1.70,.21)
+    # A bridge connects the pair of brewing tanks with the taproom around a recessed beer garden.
+    for x,z,r,h in ((-.57,.24,.265,.573),(-.192,.555,.197,.719)):
+        m.drum("trim",x,.113,z,r,.109,.87*r)
+        m.drum("accent",x,.215,z,r*.88,h,r*.95)
+        m.dome((x,.21+h,z),r*.98,m.color("gold"),rings=(4,2,1)[m.lod],
+               segments=(12,8,5)[m.lod],squash=.80,material="gold")
+        if m.lod==0:
+            m.drum("metal",x,.284+h*.51,z,r*.958,.038)
+    m.slab("wall",.459,.112,.258,.67,.581,.916,.15,.08)
+    m.slab("glass",.459,.689,.258,.642,.168,.861,.16)
+    m.vault("ivory",.459,.852,.258,.758,.163,.966)
+    m.port(.459,.119,-.204,.347,.395)
+    m.slab("metal",.019,.572,.455,.64,.100,.292,.075)
+    if m.lod<2:
+        for z in (.331,.573):
+            m.block("gold",.03,.717,z,.64,.035,.034)
+            for x in (-.209,.237):
+                m.block("metal",x,.663,z,.028,.066,.03)
+    # The front court has circular communal tables. Individual taps project from the tank wall.
+    for x,z in ((-.32,-.38),(.207,-.55))[:1 if m.lod==2 else 2]:
+        m.drum("trim",x,.115,z,.071,.131,.054)
+        m.drum("timber",x,.239,z,.198,.051,.188)
+        if m.lod==0:
+            for dx in (-.239,.239):
+                m.drum("wall",x+dx,.116,z,.069,.092)
+    if m.lod<2:
+        m.block("trim",-.575,.508,-.008,.133,.104,.158)
+        m.drum("gold",-.575,.423,-.077,.044,.099)
+    if m.lod==0:
+        m.relief("gold",[(.349,.746),(.478,.746),(.498,.842),(.335,.842)],-.181,.032)
+        m.block("gold",.517,.773,-.172,.043,.045,.035)
 
 
 def forum(m):

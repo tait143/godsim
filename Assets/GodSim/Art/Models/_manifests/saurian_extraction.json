@@ -460,25 +460,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 871,
+  "triangles": 759,
   "lod_triangles": [
-   871,
-   392,
-   191
+   759,
+   398,
+   180
   ],
   "bounds": [
    [
-    -0.9399999976158142,
+    -0.949999988079071,
     0.0,
-    -0.7350000143051147
+    -0.8399999737739563
    ],
    [
-    0.9399999976158142,
-    1.4718222618103027,
-    0.7549999952316284
+    0.949999988079071,
+    1.6729999780654907,
+    0.8399999737739563
    ]
   ],
-  "bytes": 119196,
+  "bytes": 111924,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_oil_well_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_oil_well_future_v0.png",
@@ -546,25 +546,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1107,
+  "triangles": 762,
   "lod_triangles": [
-   1107,
-   619,
-   239
+   762,
+   381,
+   176
   ],
   "bounds": [
    [
-    -0.9300000071525574,
+    -0.949999988079071,
     0.0,
-    -0.8949999809265137
+    -0.8899999856948853
    ],
    [
-    0.9300000071525574,
-    1.1670000553131104,
-    0.8949999809265137
+    0.949999988079071,
+    1.25,
+    0.8899999856948853
    ]
   ],
-  "bytes": 157500,
+  "bytes": 105640,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_sawmill_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_sawmill_future_v0.png",
@@ -726,25 +726,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 746,
+  "triangles": 402,
   "lod_triangles": [
-   746,
-   449,
-   238
+   402,
+   229,
+   124
   ],
   "bounds": [
    [
     -0.9350000023841858,
     0.0,
-    -0.8600000143051147
+    -0.8849999904632568
    ],
    [
     0.9350000023841858,
-    1.7046006917953491,
-    0.8999999761581421
+    1.274999976158142,
+    0.8849999904632568
    ]
   ],
-  "bytes": 119304,
+  "bytes": 65812,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_future_v0.png",
@@ -770,25 +770,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 746,
+  "triangles": 657,
   "lod_triangles": [
-   746,
-   449,
-   238
+   657,
+   349,
+   163
   ],
   "bounds": [
    [
     -0.9350000023841858,
     0.0,
-    -0.8600000143051147
+    -0.8849999904632568
    ],
    [
     0.9350000023841858,
-    1.5646005868911743,
-    0.8999999761581421
+    0.9800000190734863,
+    0.8849999904632568
    ]
   ],
-  "bytes": 119180,
+  "bytes": 85336,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_industrial_v0.png",
@@ -861,25 +861,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1067,
+  "triangles": 649,
   "lod_triangles": [
-   1067,
-   558,
-   177
+   649,
+   305,
+   133
   ],
   "bounds": [
    [
-    -0.4650000035762787,
+    -0.4749999940395355,
     0.0,
-    -0.44749999046325684
+    -0.4449999928474426
    ],
    [
-    0.4650000035762787,
-    0.5633000135421753,
-    0.44749999046325684
+    0.4749999940395355,
+    0.6204085350036621,
+    0.4449999928474426
    ]
   ],
-  "bytes": 151288,
+  "bytes": 91776,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_classical_v0.png",
@@ -906,25 +906,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1085,
+  "triangles": 756,
   "lod_triangles": [
-   1085,
-   552,
-   187
+   756,
+   397,
+   171
   ],
   "bounds": [
    [
-    -0.4650000035762787,
+    -0.4749999940395355,
     0.0,
-    -0.44749999046325684
+    -0.4449999928474426
    ],
    [
-    0.4650000035762787,
-    0.5835000276565552,
-    0.44749999046325684
+    0.4749999940395355,
+    0.6925595998764038,
+    0.4449999928474426
    ]
   ],
-  "bytes": 151848,
+  "bytes": 105376,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_future_v0.png",
@@ -950,25 +950,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1085,
+  "triangles": 747,
   "lod_triangles": [
-   1085,
-   552,
-   187
+   747,
+   347,
+   143
   ],
   "bounds": [
    [
-    -0.4650000035762787,
+    -0.4749999940395355,
     0.0,
-    -0.44749999046325684
+    -0.4449999928474426
    ],
    [
-    0.4650000035762787,
-    0.5835000276565552,
-    0.44749999046325684
+    0.4749999940395355,
+    0.5580000281333923,
+    0.4449999928474426
    ]
   ],
-  "bytes": 151724,
+  "bytes": 94168,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_industrial_v0.png",

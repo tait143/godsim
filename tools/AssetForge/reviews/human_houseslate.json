@@ -254,6 +254,76 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_house_industrial_v0",
+          "evidence_sha256": "7d4d2fb171903812f8dfb6c58b0d3fb395a5212230326386ac7c00c4286a423a",
+          "observations": "The brick house has a long glazed strip under the slate eave and paired chimney pots on the ridge. The flower box and inset door identify the street side below that horizontal window. Serialized triangle counts are 508, 288, 126 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_industrial_v1",
+          "evidence_sha256": "cd52562a3813fa9df15dba2edd1083eb752f1f0641129c9415034141dfb4c33e",
+          "observations": "Crossed slate gables give the brick house a larger front wing. A lower covered entrance and planted bay window sit under separate roof faces. The side chimney and crossed roof survive the far mesh. Serialized triangle counts are 546, 310, 164 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_house_industrial_v0",
+          "evidence_sha256": "7ebadfe3ba3021606fb5b69630c10cbd937550e472f145a991df137d203c21b0",
+          "observations": "The simplified middle facade keeps the high horizontal window strip, double chimney pots, door and stoop. The gable still meets the full-height brick end walls in the reverse views. Serialized triangle counts are 508, 288, 126 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_industrial_v1",
+          "evidence_sha256": "faa1c9449c067dbf1a2d884fafa4657d8ed2c7ebdc7502d2e0c65228514f72fc",
+          "observations": "The two roof wings meet cleanly above the projecting bay and recessed porch. At middle distance the chimney, blue trim and bay window remain legible around the intact brick corner. Serialized triangle counts are 546, 310, 164 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

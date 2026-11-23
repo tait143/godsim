@@ -197,7 +197,38 @@ def quarry(m):
         m.drum(-.72,0,-.51,.126,.219)
 
 
+def separator(m):
+    # A compact downhole pump feeds a production tree, a vertical separator and a horizontal tank.
+    m.shell(-.37,.26,[(0,.37,"fieldstone"),(.12,.40,"metal"),(.25,.28,"ivory"),
+                       (.43,.25,"metal"),(.78,.24,"glass"),(.85,.29,"turquoise"),
+                       (1.13,.26,"metal"),(1.27,.20,"ivory"),(1.34,.10,"trim")],(14,8,5)[m.lod])
+    for x in (-.62,-.12):
+        m.post("metal",(x,.02,.28),(x,.59,.28),.066,.042,sides=(8,5,4)[m.lod])
+        m.tusk(x,.52,.28,1 if x>-.3 else -1,.52)
+    for z in (-.23,.40):
+        m.block("fieldstone",.47,0,z,.51,.19,.22,.08)
+    m.post("ivory",(.47,.40,-.44),(.47,.40,.62),.247,.247,sides=(14,8,5)[m.lod])
+    for z in (-.38,.48):
+        m.post("metal",(.47,.40,z),(.47,.40,z+.09),.258,.258,sides=(14,8,5)[m.lod])
+    # The wellhead tree branches out to a pair of control wheels.
+    m.shell(-.19,-.51,[(0,.24,"fieldstone"),(.11,.25,"metal"),(.17,.11,"trim"),
+                         (.38,.10,"metal"),(.44,.15,"ivory"),(.58,.11,"metal"),
+                         (.68,.15,"turquoise")],(10,7,4)[m.lod])
+    m.post("metal",(-.19,.37,-.49),(-.37,.37,.21),.065,sides=(8,5,4)[m.lod])
+    m.post("metal",(-.29,.44,.29),(.48,.44,.25),.075,sides=(8,5,4)[m.lod])
+    m.post("trim",(-.40,.52,-.50),(.02,.52,-.50),.046,sides=(7,5,4)[m.lod])
+    for s in (-1,1):
+        cx=-.19+s*.21
+        with m.transform(translate=(cx,.52,-.50),rotate_y=s*90):
+            wheel(m,0,0,-.04,.11,"gold")
+    if m.lod==0:
+        m.flag(-.39,1.27,.24,.30,.17)
+
+
+
 def pump(m):
+    if m.era==3:
+        return separator(m)
     m.block("fieldstone",-.15,0,.04,1.34,.125,1.24,.065)
     m.hut(-.45,.40,.74,base=.125)
     mat="ivory" if m.era==3 else "metal"

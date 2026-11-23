@@ -149,7 +149,49 @@ def hearth(m):
             lozenge(m,0,.24,.322,.025,.039)
 
 
+def cantilever_stadium(m):
+    # A rectangular pitch with two open end zones replaces the older oval arena.
+    m.block("fieldstone",0,0,.03,2.62,.085,2.42,.07)
+    m.block("grass",0,.085,.03,1.39,.031,2.11)
+    for s in (-1,1):
+        # Taller home terrace to the left, low visitor bleachers on the opposite side.
+        levels=(4,3,2)[m.lod] if s<0 else (2,2,1)[m.lod]
+        h=.68 if s<0 else .41
+        for j in range(levels):
+            x=s*(.73+(j+.5)*.52/levels)
+            m.block("ivory" if j%2 else "metal",x,.085,.02,.52/levels,h*(j+1)/levels,
+                    1.95-.05*j)
+        if m.lod<2:
+            for z in (-.97,.99):
+                m.tusk(s*.89,.29,z,s,.47)
+        # Broad goal mouths at both ends, facing the long axis of the field.
+        z=s*.88
+        for x in (-.27,.27):
+            m.block("ivory",x,.116,z,.035,.19,.046)
+        m.block("ivory",0,.306,z,.57,.038,.046)
+    for z in (-.72,.68):
+        m.post("metal",(-1.21,.09,z),(-1.16,.88,z),.095,.067,sides=(8,5,4)[m.lod])
+        m.post("ivory",(-1.16,.85,z),(-.76,1.08,z),.067,.045,sides=(8,5,4)[m.lod])
+    with m.transform(translate=(-1.02,1.025,.03),rotate_y=90,rotate_x=9):
+        skin(m,0,0,1.10,.357,0,.19,"glass",saddle=True)
+    # Single elevated scoreboard behind the far end, clear of the open entrance.
+    for x in (-.42,.42):
+        m.post("metal",(x,.083,1.10),(x,.63,1.10),.069,.049,sides=(7,5,4)[m.lod])
+    m.block("metal",0,.59,1.09,1.13,.35,.15,.10)
+    m.block("glass",0,.635,1.011,.95,.25,.035)
+    if m.lod==0:
+        for x in (-.33,0,.33):
+            m.block("turquoise",x,.72,.991,.15,.059,.016)
+        for z in (-.62,.20,.69):
+            m.block("cloth",1.247,.18,z,.036,.17,.34)
+            m.post("metal",(-1.27,.093,z),(-1.14,.68,z+.07),.049,sides=6)
+            m.post("trim",(1.26,.09,z),(1.23,.37,z+.085),.042,sides=5)
+
+
+
 def public_ring(m, stadium):
+    if stadium and m.era==3:
+        return cantilever_stadium(m)
     lod,e=m.lod,m.era
     levels=(3,3,2)[lod] if stadium else (4,3,2)[lod]
     n=(18,13,8)[lod]
@@ -306,7 +348,72 @@ def tavern(m):
             m.shell(x,z,[(0,r*.80,"trim"),(.034,r*.96,"timber"),(.147,r,"metal"),(.17,r*.94,"timber"),(.215,r*.85,"hide")],8)
 
 
+def iron_moot(m):
+    # An industrial assembly hall backs a public speaking platform; its clock overlooks the square.
+    m.block("fieldstone",-.18,0,.20,2.04,.13,1.12,.045)
+    m.block("brick",-.32,.13,.48,1.52,.50,.47,.04)
+    m.prism_x((-.32,.63,.48),1.65,.61,.32,m.col("metal"),material="metal")
+    m.entry(-.45,.20,.13,.31,.39,2)
+    m.block("brick",.78,0,.28,.51,.94,.54,.08)
+    m.block("metal",.78,.94,.27,.58,.096,.60,.06)
+    m.block("wall",.78,1.033,.28,.46,.28,.47)
+    m.post("ivory",(.78,1.18,.044),(.78,1.18,.014),.117,sides=(12,7,4)[m.lod])
+    m.pyramid((.78,1.312,.28),.58,.59,.32,m.col("metal"),material="metal")
+    # Two sloped rows face the orator's rostrum. Leave room to approach the lectern.
+    for side in (-1,1):
+        with m.transform(translate=(side*.72,0,-.43),rotate_y=-side*34):
+            m.block("fieldstone",0,0,0,.63,.17,.33,.08)
+            m.block("timber",0,.17,.089,.62,.10,.12)
+        m.tusk(side*.88,.135,-.22,side,.47)
+    m.shell(-.02,-.06,[(.13,.26,"trim"),(.21,.30,"metal"),(.26,.25,"wall")],(11,7,5)[m.lod])
+    m.block("trim",-.02,.25,-.01,.16,.20,.13,.1)
+    if m.lod<2:
+        m.drum(-.93,.13,.085,.144,.22)
+    if m.lod==0:
+        for x in (-.87,.15):
+            m.block("glass",x,.32,.239,.17,.20,.030)
+            m.post("trim",(x-.10,.64,.24),(x-.16,.80,.34),.033,sides=6)
+            m.post("trim",(x+.10,.64,.24),(x+.16,.80,.34),.033,sides=6)
+        m.post("trim",(.78,1.18,-.008),(.78,1.263,-.008),.015,sides=5)
+        m.post("trim",(.78,1.18,-.010),(.829,1.146,-.010),.014,sides=5)
+        m.flag(.73,1.50,.26,.38,.25)
+
+
+def signal_moot(m):
+    # An open circular council chamber faces a broadcasting dais with a broad canopy
+    # shaped like a war shield held upright. The gap in the seats is the public aisle.
+    m.shell(0,.07,[(0,.68,"fieldstone"),(.10,.73,"ivory"),(.16,.68,"metal")],
+            (16,10,6)[m.lod],flatten=.75)
+    for side in (-1,1):
+        section=[(.62,0,"metal"),(.62,.19,"hide"),(.75,.19,"ivory"),(.75,.36,"cloth"),
+                 (.91,.36,"metal"),(.98,.42,"turquoise"),(1,.38,"ivory"),(1,0,"metal")]
+        if m.lod==2:
+            section=[(.62,0,"metal"),(.62,.24,"ivory"),(.96,.35,"metal"),(1,0,"metal")]
+        bench_arc(m,0,.035,1.18,.86,31 if side>0 else 206,153 if side>0 else 329,
+                  section,(9,6,4)[m.lod])
+        m.tusk(side*.91,.34,.23,side,.60)
+    m.shell(0,.37,[(.15,.32,"metal"),(.31,.23,"glass"),(.66,.135,"turquoise"),
+                    (.81,.24,"ivory")],(10,7,4)[m.lod],flatten=.68)
+    with m.transform(translate=(0,1.09,.35),rotate_x=-13):
+        pts=[(0,.41),(-.44,.27),(-.53,.06),(-.29,-.26),(0,-.39),(.29,-.26),(.53,.06),(.44,.27)]
+        for i,(x,y) in enumerate(pts):
+            u,v=pts[(i+1)%len(pts)]
+            m.panel("ivory" if i%3==0 else "glass",[(u,v,0),(x,y,0),(0,.023,-.11)])
+            m.panel("metal",[(x,y,.075),(u,v,.075),(0,.023,.075)])
+            m.panel("trim",[(x,y,0),(u,v,0),(u,v,.075),(x,y,.075)])
+    m.block("trim",0,.16,-.04,.16,.21,.14,.10)
+    with m.transform(translate=(0,.37,-.05),rotate_x=-13):
+        m.block("turquoise",0,0,0,.26,.043,.22)
+    if m.lod==0:
+        m.drum(.40,.16,.08,.105,.146)
+
+
+
 def forum(m):
+    if m.era==2:
+        return iron_moot(m)
+    if m.era==3:
+        return signal_moot(m)
     lod,e=m.lod,m.era
     # Three-sided moot court with a covered rear gallery and open speaking circle.
     wall=material(m)
@@ -400,6 +507,10 @@ def skyhold(m):
 
 
 def build(spec,lod):
+    if spec.building_type == "Theater" and spec.band in ("industrial","future"):
+        from generators.buildings.orc_learninghealth import build_lodge
+        from generators.buildings.orc_era_forms import performance_hall
+        return build_lodge(spec,lod,lambda m,t: performance_hall(m))
     m=Lodge(spec,lod)
     kind=spec.building_type
     if kind in ("Arena","Stadium"):

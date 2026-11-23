@@ -378,6 +378,510 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_elf_aqueduct_classical_v0",
+          "evidence_sha256": "a8a0fded027cc9274904c49b7ddc81383105646df34d199157c9d1cbbb26434d",
+          "observations": "The open blue channel rests on three flared piers with two round spans. Both arches and the continuous waterway survive the middle mesh. Highest outgoing family corner share was 604/3642 (16.6%) with bld_elf_aqueduct_industrial_v0. Checked classical, medieval, renaissance, iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1214/690/356. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_aqueduct_future_v0",
+          "evidence_sha256": "1ea66f3f6f7be72443436fd561793716e72e3e46ff6d3ea3dfc77bbab4081575",
+          "observations": "The open blue channel rests on three flared piers with two round spans. Both arches and the continuous waterway survive the middle mesh. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 678/3642 (18.6%) with bld_elf_aqueduct_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1214/690/356. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Use a cantilevered or branching watercourse with a clearly different pier rhythm."
+          ]
+        },
+        {
+          "id": "bld_elf_aqueduct_industrial_v0",
+          "evidence_sha256": "456a0c41ad46957b10a05d8de3510179e48d19a02d6099be46b6d2c47edf8407",
+          "observations": "The open blue channel rests on three flared piers with two round spans. Both arches and the continuous waterway survive the middle mesh. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 684/3642 (18.8%) with bld_elf_aqueduct_future_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1214/690/356. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Use a low tank or pump header feeding a suspended pipe on a broad truss."
+          ]
+        },
+        {
+          "id": "bld_elf_fusion_reactor_future_v0",
+          "evidence_sha256": "f1f9497de6fbaa0df720c4f8e51c3fdd85a549d134a5e999b2ff0b2a0b8930ad",
+          "observations": "The upright restraint ring and spine frame the blue suspended crystal. A low drum supports the assembly and the service hut sits to one side. Checked ascension, information previews, 215° and 145° LOD0/1 views, and serialized LOD counts 880/501/235. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_power_plant_future_v0",
+          "evidence_sha256": "0481ed6ec21024ceae6fb9f2f44fadb8e2a457c18dfb5624bf57465b40d94acb",
+          "observations": "Two flared cooling stacks stand beside a round generating hall. The open stack mouths and dark entrance survive at medium distance. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1938/3933 (49.3%) with bld_elf_power_plant_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1311/746/337. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the two flared cooling towers with a distinct elevated generating core and separated heat exchangers."
+          ]
+        },
+        {
+          "id": "bld_elf_power_plant_industrial_v0",
+          "evidence_sha256": "14d1bc4ceb6e004291a21cfe57d7530e49eb0452db93e8267efa8ab1d35e7160",
+          "observations": "Two flared cooling stacks stand beside a round generating hall. The open stack mouths and dark entrance survive at medium distance. Highest outgoing family corner share was 1938/3069 (63.1%) with bld_elf_power_plant_future_v0. Checked modern, industrial previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1023/582/209. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_storehouse_ancient_v0",
+          "evidence_sha256": "c889961f9b7b0599b3e113e4ada98f36d218da92d4ffad547dd33999d9a88485",
+          "observations": "A row of barrels occupies the loading apron at the end of a long, low leaf-roofed store. The side entrance stays distinct from the cargo. Highest outgoing family corner share was 1279/2355 (54.3%) with bld_elf_storehouse_industrial_v0. Checked dawn, bronze, iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 785/446/160. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_storehouse_classical_v0",
+          "evidence_sha256": "77b7c3ec6ef8056475c2a8dece6aa886ba9907d46c5eb5624a8d4ecaf052d9d1",
+          "observations": "A row of barrels occupies the loading apron at the end of a long, low leaf-roofed store. The side entrance stays distinct from the cargo. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1279/2355 (54.3%) with bld_elf_storehouse_industrial_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 785/446/160. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Group two storerooms around a raised loading court with a broad supported porch."
+          ]
+        },
+        {
+          "id": "bld_elf_storehouse_future_v0",
+          "evidence_sha256": "a5c7de8a72085e5ca884f9f7c2f252dd97c1de0e03460af6fb4a5897f5ecc3eb",
+          "observations": "A row of barrels occupies the loading apron at the end of a long, low leaf-roofed store. The side entrance stays distinct from the cargo. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1513/2610 (58.0%) with bld_elf_storehouse_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 870/495/206. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Lift the cargo vaults above a receiving floor and connect them with an open overhead carrier."
+          ]
+        },
+        {
+          "id": "bld_elf_storehouse_industrial_v0",
+          "evidence_sha256": "b037815993fe2ab7d554c634817ac4ab4a5d2699c5b42a4780ca388a3e30ccec",
+          "observations": "A row of barrels occupies the loading apron at the end of a long, low leaf-roofed store. The side entrance stays distinct from the cargo. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1513/2610 (58.0%) with bld_elf_storehouse_future_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 870/495/206. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Use a tall loading bay, a bulk silo and a separate sheltered freight apron."
+          ]
+        },
+        {
+          "id": "bld_elf_well_ancient_v0",
+          "evidence_sha256": "078befb0830a0119c4807245a140da3a213fb021c17e66f072766a281a7bf045",
+          "observations": "The canopy supports a crossbeam and suspended drawing bucket over the open water. The round stone curb and opposite posts stay legible at LOD1. Highest outgoing family corner share was 1141/1557 (73.3%) with bld_elf_well_classical_v0. Checked dawn, bronze, iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 519/295/164. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_well_classical_v0",
+          "evidence_sha256": "79eff98527828b455dea2748079e32d05a994b62f8cee9935c2c1982743519ac",
+          "observations": "The canopy supports a crossbeam and suspended drawing bucket over the open water. The round stone curb and opposite posts stay legible at LOD1. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1189/1557 (76.4%) with bld_elf_well_industrial_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 519/295/164. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the bucket canopy with a colonnaded draw court and a side-mounted windlass."
+          ]
+        },
+        {
+          "id": "bld_elf_well_future_v0",
+          "evidence_sha256": "a14977ea12631e0e907d41e6a409d7cdc3992a2445f69c34a2b13ac135632660",
+          "observations": "The canopy supports a crossbeam and suspended drawing bucket over the open water. The round stone curb and opposite posts stay legible at LOD1. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1141/1557 (73.3%) with bld_elf_well_ancient_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 519/295/164. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Raise a distribution reservoir above an open drawing platform with a clearly visible water outlet."
+          ]
+        },
+        {
+          "id": "bld_elf_well_industrial_v0",
+          "evidence_sha256": "2916ae77a11e6626581df6d2c12e68da50dcaaaa07a9dd93100dd6d36fa55076",
+          "observations": "The canopy supports a crossbeam and suspended drawing bucket over the open water. The round stone curb and opposite posts stay legible at LOD1. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1189/1557 (76.4%) with bld_elf_well_classical_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 519/295/164. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Build a pump house with a visible flywheel and a connected raised cistern."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent Elf critic — Coordinator repair round 2, first submitted meshes",
+      "models": [
+        {
+          "id": "bld_elf_aqueduct_future_v0",
+          "evidence_sha256": "980a9cffbe47bded46b44f2bb58ad7238ba9b891d8a0c031bccc101f868858f2",
+          "observations": "A segmented blue channel changes height across three pale piers, discharging down an inclined chute. Its large joint bands stay visible as the viewing angle changes. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 735/417/148 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_aqueduct_industrial_v0",
+          "evidence_sha256": "fcad7942bd91145c49e301e57cfebf4229722370a01d1919dfaf09005ba185c4",
+          "observations": "A continuous open blue flume hangs between the two curved end-to-end trusses. The dark steel arches span the end piers without the repeated masonry arches of the old waterway. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 544/324/148 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_power_plant_future_v0",
+          "evidence_sha256": "fd1f27eefcfc196e88522313993f07c3e6e31baf5b15ad57f31d5ffaba4a89ed",
+          "observations": "Four glazed turbine petals crown a freestanding generating mast linked to a service house. It reads as a wind-driven plant at both phone angles. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 482/273/127 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_storehouse_classical_v0",
+          "evidence_sha256": "41920b810e0536bdbc7a1a20ee6e6799a5c4073bbb7e33b8d9fb77ebdd5bb70f",
+          "observations": "Three small pale huts have similar single-sloping roofs. Viewed from the working side they show one narrow door, without goods, bins, loading access or a recognizable shared freight yard. Compared all 3 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 12.1%. Serialized LODs 568/322/175 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 89,
+            "charm": 85,
+            "colour": 90,
+            "technical": 99
+          },
+          "defects": [
+            "Group substantial stored goods on an accessible loading apron and give the raised storage bins large operable hatches facing that apron."
+          ]
+        },
+        {
+          "id": "bld_elf_storehouse_future_v0",
+          "evidence_sha256": "23b9bcc4d466d8c11474e426cc0007fa6f7d8c4e9a349ea3004029139f3f92e0",
+          "observations": "Three bare disks rise on a cream trunk behind an unrelated small hut. At phone size the disks resemble trays on a tree and there are no visible freight compartments or goods. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 12.1%. Serialized LODs 635/360/167 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 80,
+            "construction": 87,
+            "charm": 85,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Make the cantilevers enclosed cargo pods with loading hatches, then connect a visible ground-level freight apron and loaded carrier to the lift."
+          ]
+        },
+        {
+          "id": "bld_elf_storehouse_industrial_v0",
+          "evidence_sha256": "7660f39627c9820d888c50fbb0b89a962639130b11a1b5cf8dd74528a3c67f86",
+          "observations": "A smooth brick shed sits behind a waist-high rail and an unmarked cylindrical block. The side view does not reveal a freight entrance or stored cargo. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 12.1%. Serialized LODs 388/220/119 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 82,
+            "construction": 88,
+            "charm": 86,
+            "colour": 90,
+            "technical": 99
+          },
+          "defects": [
+            "Expose a broad loading door, give it a ramp or freight platform and use readable stacked cargo to identify the stored material."
+          ]
+        },
+        {
+          "id": "bld_elf_well_classical_v0",
+          "evidence_sha256": "d0e652a2dfcdb0dd6ee3cc82627510282c1a730e8e45726ccb1aa7330348b3e4",
+          "observations": "A long timber sweep pivots on a single stone support and lowers a small bucket over the blue well. The basin remains open and the long lever reads against its rim. Compared all 3 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 15.7%. Serialized LODs 334/190/75 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_well_future_v0",
+          "evidence_sha256": "f6e7823b7c597b699791f96823af74ec1744a841ae899e60ce569d8e02b3a1f0",
+          "observations": "A high blue reservoir feeds an open leaf spout and a thin stream into a lower round drawing basin. Both reservoir and basin stay visibly connected. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 15.7%. Serialized LODs 299/160/83 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_well_industrial_v0",
+          "evidence_sha256": "37b3714c3a68bc2eeae1e8297c34db1f7bbbc3266d8431a7aefc4010ac89029f",
+          "observations": "A broad discharge pipe bends from the raised pump head into a separate blue basin outside the pumphouse door. It is readily distinguished from a hand-drawn well. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 15.7%. Serialized LODs 635/360/175 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent Elf critic — frozen LOD export inspection",
+      "models": [
+        {
+          "id": "bld_elf_fusion_reactor_future_v0",
+          "evidence_sha256": "6adad1f277a3342c2bea08f1507f533bdac401568a58993c4f536807bb42c975",
+          "observations": "The restraint ring and vertical spine enclose the blue crystal above a solid drum. The middle mesh keeps the loop, service building and ground supports intact from the reverse angle. Opened ascension, information previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 880/501/235 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_power_plant_industrial_v0",
+          "evidence_sha256": "7c55ae556b101b1619dfd06f8bd76099867f538cf53cf4f759a2fff1a7b5b1ad",
+          "observations": "Both open cooling stacks retain their inner rims and taper above the service hall. The rear view preserves the connecting pipe and the front view retains the marked access door. Opened modern, industrial previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 1023/582/209 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_storehouse_ancient_v0",
+          "evidence_sha256": "399d47867a5e3262500615b3d4d3612775b7f0d280ca21adbb3a7b7dd680d119",
+          "observations": "The three visible barrel ends, timber apron and side entrance identify the store beneath its long leaf roof. The full roof remains continuous from the rear. Opened dawn, bronze, iron previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 785/446/160 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_well_ancient_v0",
+          "evidence_sha256": "61bf7bb5745e346b2c15fd9eded5416028efb82ad749da3e46839d6d8c99b74d",
+          "observations": "A crossbeam and suspended bucket span the ring of water. Opposed posts carry the canopy and remain connected from front, side and rear. Opened dawn, bronze, iron previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 519/295/164 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent Elf critic — function and construction corrections after solver freeze",
+      "models": [
+        {
+          "id": "bld_elf_storehouse_classical_v0",
+          "evidence_sha256": "c7090de40bdefa48a6c1c8d503c27b9e2bcf82086c3779381e6becebc1172469",
+          "observations": "An accessible freight apron connects the raised bins with large stacks of crates and sacks. The door and loaded front platform clearly identify a storehouse at both phone angles. Inspected classical, medieval, renaissance previews, two 64 px unpainted angles and the painted LOD1 at 215°, 125° and 35°. Serialized LODs 728/414/215 passed with zero exposed coplanar pairs or inward closed shells. Highest two-way era corner share 9.6%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_storehouse_future_v0",
+          "evidence_sha256": "c5fb64913e3627ea77435224ea664dd99fbc51a25f9b98d2f63c60a1a954054a",
+          "observations": "A loaded receiving platform, overhead hoist and projecting transfer frame now give the elevated pods a readable freight route. Access is visible on the low receiving pavilion. Inspected information, ascension previews, two 64 px unpainted angles and the painted LOD1 at 215°, 125° and 35°. Serialized LODs 877/498/259 passed with zero exposed coplanar pairs or inward closed shells. Highest two-way era corner share 9.6%.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 91,
+            "construction": 92,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_storehouse_industrial_v0",
+          "evidence_sha256": "7a846808605d2d5df12785ee81805fe42f70ab7dbbc80bff9ff1ef4fde4947a2",
+          "observations": "A broad projecting freight canopy marks the rail, loading bay and long platform. Red and timber crates remain visible against the brick shed below the eave. Inspected industrial, modern previews, two 64 px unpainted angles and the painted LOD1 at 215°, 125° and 35°. Serialized LODs 489/277/150 passed with zero exposed coplanar pairs or inward closed shells. Highest two-way era corner share 9.6%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_well_future_v0",
+          "evidence_sha256": "08f5fcec9dfbd6e13c5160d723361958ce101a06714f763d0f66d6a10d090773",
+          "observations": "The eight-sided basin and water stream remain geometrically intact, but the medium mesh renders the vessel wall and lip in almost the same blue as the water. LOD0 retains a strong pale rim and outer bowl, both important for separating collected water from its container. Inspected information, ascension previews, two 64 px unpainted angles and the painted LOD1 at 215°, 125° and 35°. Serialized LODs 299/149/83 passed with zero exposed coplanar pairs or inward closed shells. Highest two-way era corner share 15.7%.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 91,
+            "construction": 90,
+            "charm": 89,
+            "colour": 83,
+            "technical": 97
+          },
+          "defects": [
+            "Restore the contrasting pale outer wall and ivory lip on the eight-sector medium vessel. The water surface should stay distinctly blue inside the rim."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent Elf critic — final tower and basin verification",
+      "models": [
+        {
+          "id": "bld_elf_well_future_v0",
+          "evidence_sha256": "9a66adce4e05be595f040f767c2b47745e057cfa2d09933ae8060c072ee49eb3",
+          "observations": "A continuous light stone outer bowl and ivory lip now surround the blue water at all three medium angles. The leaf spout feeds a visible stream into the vessel; at phone size the reservoir, stream and open basin remain legible. Examined information, ascension previews and both 64 px unpainted angles. Painted medium views were rendered at 192 px and 215°, 125° and 35°. LODs 299/165/83 passed serialized checks; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

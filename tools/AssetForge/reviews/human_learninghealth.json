@@ -645,6 +645,90 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_data_center_future_v0",
+          "evidence_sha256": "d601c1a2d2afb511fab889a9167ea3f7ec9508030d45b20c39df85bba426600e",
+          "observations": "Three square cooling bays line the flat roof above a band of glazing. The awning, planters and door sit on the long street facade, with the cooling blocks still distinct in the distant mesh. Serialized triangle counts are 681, 388, 178 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_research_lab_future_v0",
+          "evidence_sha256": "c30e1a210c9eb2c8fa9a9d29b0c5af8f90c316658ad750dc3b92cc35dfaea073",
+          "observations": "The raised flat roof and second roof block distinguish the laboratory from the earlier pitched one. A bright sample platform, blue instrument barrel and entry awning remain legible against the cream walls. Serialized triangle counts are 1101, 626, 350 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_research_lab_industrial_v0",
+          "evidence_sha256": "28e3de8af07457d9171249e00c5af4774453e596b797532360e1971f46fd68eb",
+          "observations": "An exterior instrument points at a small sample stage beside the cylindrical tower. A slate-roofed brick laboratory with an awning anchors the equipment, with clear gaps between the instrument and building. Serialized triangle counts are 921, 524, 292 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_research_lab_future_v0",
+          "evidence_sha256": "d066bc70ff6e10356469cc172cded6550303c495898cc0e09b90ddc9a59048bb",
+          "observations": "The upper roof block and flat-roofed entry remain squared off against the instrument tower. Medium views preserve the gap around the exterior sample station and the continuous glazed-side elevation. Serialized triangle counts are 1101, 626, 350 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_research_lab_industrial_v0",
+          "evidence_sha256": "6ad0f6e8943272b46b493a4bba4a6e1b44489c44107f3fb98013e1fae19bc264",
+          "observations": "A tall tank and angled instrument still flank the pitched laboratory at LOD1. The sample stage, covered front entry and brick rear wall remain coherent from all three angles. Serialized triangle counts are 921, 524, 292 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

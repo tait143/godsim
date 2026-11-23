@@ -5,6 +5,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from generators.buildings.orc_learninghealth import build_lodge, run_package
+from generators.buildings.orc_era_forms import clean_power, well_pump
 
 PACKAGE = "orc_infrastructure"
 
@@ -63,7 +64,40 @@ def well(m):
         bucket(m,-.42,0,-.57,.105)
 
 
+def suspended_flume(m):
+    # One central A-pylon carries the water trough by four pairs of cable stays.
+    for side in (-1,1):
+        x=side*.66
+        m.block("fieldstone",x,0,.03,.40,.13,.32,.12)
+        m.beam("ivory",(x,.09,.03),(side*.19,1.52,.03),.18,.17)
+        m.horn(side*.20,1.40,.03,.67,side)
+        for z in (-.85,.85):
+            m.beam("metal",(side*.22,1.47,.031),(side*.27,.63,z),.048)
+            if m.lod<2:
+                m.beam("trim",(side*.23,1.38,.023),(side*.27,.63,z*.55),.029)
+                m.block("gold",side*.27,.57,z,.12,.11,.071)
+    m.block("metal",0,1.44,.03,.48,.15,.20,.11)
+    if m.lod==0:
+        for y in (.31,.48,.65,.82,1.0):
+            x=.66-(y-.09)*.47/1.43
+            m.beam("metal",(x-.09,y,-.085),(x+.085,y,-.085),.034)
+    # Two end shoes rest on concrete piers. The raised water runs between tall side walls.
+    for z in (-.88,.88):
+        m.block("fieldstone",0,0,z,.48,.48,.14,.15)
+    m.block("ivory",0,.455,0,.61,.133,1.98,.04)
+    m.block("water",0,.585,0,.38,.034,1.96)
+    for s in (-1,1):
+        m.block("turquoise",s*.25,.581,0,.108,.126,1.98)
+        if m.lod==0:
+            for z in (-.89,-.48,0,.48,.89):
+                with m.transform(translate=(s*.272,.53,z),rotate_x=90):
+                    m.drum("metal",0,0,0,.069,.043,n=8)
+
+
+
 def aqueduct(m):
+    if m.e==3:
+        return suspended_flume(m)
     # The arch has a continuous soffit and a level top carrying the actual trough.
     # Coordinates across each face are longitudinal Z / elevation Y.
     mat=("wall","fieldstone","brick","plaster")[m.e]
@@ -250,7 +284,11 @@ def works(m,t):
 
 
 def design(m,t):
-    if t=="Well":
+    if t=="Well" and m.e>0:
+        well_pump(m)
+    elif t=="PowerPlant" and m.e==3:
+        clean_power(m)
+    elif t=="Well":
         well(m)
     elif t=="Aqueduct":
         aqueduct(m)

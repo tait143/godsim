@@ -140,6 +140,217 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "independent_saurian_round1_2026_11_23",
+      "models": [
+        {
+          "id": "bld_saurian_house_future_ascension_v0",
+          "evidence_sha256": "435680731224756466826f0bd460d6d45088de14cd621769d6cafc95eaff7fe6",
+          "observations": "The shallow gold halo stays elliptical above an ivory stepped roof. Front and reverse LOD1 retain the thin roof band and platform feet. The two older LOD1 views show the same simplification of porch pots. The serialized meshes have 645, 366, 196 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 2.56% of front-view pixels and 1.07% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_house_future_ascension_v1",
+          "evidence_sha256": "b3c4a7275946d7565a798c8066c39cf50366412c7923b89a52c3e671173db5e9",
+          "observations": "An upright gold hoop, seen edge-on from behind, is visibly held by separate braces. The open hoop, white eaves, front stair and recessed door survive LOD1. Its tilted profile differs clearly from the flat-halo house. The serialized meshes have 645, 366, 196 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 1.93% of front-view pixels and 1.44% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_house_future_v0",
+          "evidence_sha256": "e513c872c9d92748c913df62e1bd635b72923c9ac8213e22144ce87a2c24583b",
+          "observations": "The broad cyan hip breaks into an upper cap and lower eave around a dark recessed entry. The new middle mesh retains the same roof facets, blue-gray deck and steps as the older level. The bright small door diamond still reads. The serialized meshes have 496, 282, 132 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 3.74% of front-view pixels and 2.61% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_house_future_v1",
+          "evidence_sha256": "55cd9415974d0b62354850a6508cd004319b3cc122d2f8fbef91ca75084fa70a",
+          "observations": "A pale roof cap and antenna stand over two blue roof bands. The largest pixel change in this house group affects facets and trim. The enlarged current and previous middle LODs keep a complete cap, window strip, dark front door, stair and feet from both angles. The serialized meshes have 516, 294, 142 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 7.35% of front-view pixels and 5.62% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_house_industrial_modern_v0",
+          "evidence_sha256": "7e1579781c1162c05b818d29674603f25499a2dc365bb458b894361e7241b674",
+          "observations": "The small dark hip sits above a square pale cornice with a continuous blue window ribbon. In the enlarged previous and current middle LODs the outer trim and steps stay continuous, with a single clear entrance at center front. The serialized meshes have 468, 266, 124 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 4.76% of front-view pixels and 4.20% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_house_industrial_modern_v1",
+          "evidence_sha256": "a613bbdc54e6a27796190ad628e234561a9b873edd0e4087f2f6acd1bfde5a49",
+          "observations": "The asymmetrically raised roof corner and rectangular skylight read immediately against the cream cornice. The high roof corner and skylight remain visible from behind at LOD1. The porch, main door and corner footing also survive. The serialized meshes have 446, 254, 132 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 2.27% of front-view pixels and 2.71% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_saurian_house_future_ascension_v0",
+          "evidence_sha256": "f182be5382af7cf30e9474eab3acec06199d8dd0dfcbb112d4b08ad82e479966",
+          "observations": "The horizontal gold ring remains above a complete stepped ivory roof. The front door, continuous lower terrace and access steps stay legible at the middle distance.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            645,
+            366,
+            196
+          ]
+        },
+        {
+          "id": "bld_saurian_house_future_ascension_v1",
+          "evidence_sha256": "f79019eb049c8a755c5a71da294375bd3824829f833b9020d788d71e12aa77f4",
+          "observations": "The upright gold ring retains its two sloping feet above the roof. The turquoise belt, main door, raised platform and front stairs all remain complete.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            645,
+            366,
+            196
+          ]
+        },
+        {
+          "id": "bld_saurian_house_future_v0",
+          "evidence_sha256": "31ae4f37d6a557317afc39d5d62cb93863a89c18e7a6c99571ffc5530b4f08c5",
+          "observations": "The broad blue roof holds an uninterrupted lower edge over the doorway. Both dark access steps and the side wall survive the reduction, even after the bench drops out.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            496,
+            282,
+            132
+          ]
+        },
+        {
+          "id": "bld_saurian_house_future_v1",
+          "evidence_sha256": "c708392fbb64203d48bf4a7e8768a4b7ae32e9109c0016522cee8c71ad2c40b5",
+          "observations": "The upper glazed roof and small mast retain their bearing on the lower roof. The raised platform, central opening and steps stay clear in the front view.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            516,
+            294,
+            142
+          ]
+        },
+        {
+          "id": "bld_saurian_house_industrial_modern_v0",
+          "evidence_sha256": "3e59864a3c978040543eeeed69d89277882367eef786dc4d0f87d45cb28e783d",
+          "observations": "The low hipped roof, broad glazing band and lower eaves remain continuous. The single dark door still aligns with the terrace stair at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            468,
+            266,
+            124
+          ]
+        },
+        {
+          "id": "bld_saurian_house_industrial_modern_v1",
+          "evidence_sha256": "3ace82abc6884b547f911aaf907cacb873662d82bdc20035b10457509541b93a",
+          "observations": "The sharply folded roof retains its rectangular skylight and full fascia. At LOD1 the rear wall stays enclosed and the door remains visible above the front steps.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            446,
+            254,
+            132
+          ]
+        }
+      ]
     }
   ]
 }

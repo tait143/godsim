@@ -265,6 +265,88 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_elf_house_industrial_modern_v0",
+          "evidence_sha256": "12527aa75c32476cc0b2ff62da2fac6bd6330671de411712d2eae241729b301d",
+          "observations": "A folded asymmetric leaf sweeps up over a low dwelling. The white entry steps and hanging light make the front easy to find and the LOD1 sheet remains intact. Highest outgoing family corner share was 0/1434 (0.0%) with bld_elf_house_ancient_v0. Checked modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 478/271/125. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_industrial_modern_v1",
+          "evidence_sha256": "0d99018375825df09c34268d3896c778be7db9d240a965dae31a89dbad7b22de",
+          "observations": "A low blue side room counterbalances the tall folded roof of the main house, differentiating this variant from the single-room modern dwelling. The front stairs stay visible. Highest outgoing family corner share was 0/1752 (0.0%) with bld_elf_house_ancient_v1. Checked modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 584/331/171. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_industrial_v0",
+          "evidence_sha256": "c8965a8cb2f718ceb43d5e0950368dee6762b8d63b71a8b28146c8c4450455d7",
+          "observations": "The solid brick base, chimney, domed leaf roof and front stoop give this dwelling a compact industrial silhouette distinct from the modern folded roof. Highest outgoing family corner share was 0/2100 (0.0%) with bld_elf_house_ancient_v0. Checked industrial previews, 215° and 145° LOD0/1 views, and serialized LOD counts 700/399/159. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Elf critic — frozen LOD export inspection",
+      "models": [
+        {
+          "id": "bld_elf_house_industrial_modern_v0",
+          "evidence_sha256": "8213ba9b525730bc34f7e76c14dae05ad7e1eb4819091f9d9be9c245e43f4de1",
+          "observations": "The folded green leaf roof remains closed on all sides above the low dwelling, with a hanging lamp, arched door and intact entry steps. Opened modern previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 478/271/125 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_industrial_modern_v1",
+          "evidence_sha256": "8d1d4744b651e17047974b4fbf7a65080a767163b87643be02c447ee882807ab",
+          "observations": "The swept roof covers the narrow upper house. A lower side extension, clear entry steps and hanging lantern preserve the variant’s asymmetry in the medium view. Opened modern previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 584/331/171 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

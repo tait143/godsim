@@ -665,6 +665,185 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "independent_saurian_round1_2026_11_23",
+      "models": [
+        {
+          "id": "bld_saurian_oil_well_future_v0",
+          "evidence_sha256": "3366cb0e15d345ed948a250cd309000ebf85876b7c7737b52a817d96ea807fb2",
+          "observations": "A tall braced drilling tripod replaces the old horizontal walking beam. The pale struts stay separate at the center, with two tanks at their feet. Both front and rear remain readable in the smallest mesh. The serialized meshes have 759, 398, 180 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_sawmill_future_v0",
+          "evidence_sha256": "87c1fc0499da6e5093b8c012ba88c51c8a04aace7bb9895f37bd0ebc5328491d",
+          "observations": "An arch spans an exposed log feed with timber ends on a brown yard and a teal service cylinder to one side. At 64 px the curved frame dominates in every LOD. It replaces the former enclosed square saw shed. The serialized meshes have 762, 381, 176 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 95,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_stone_quarry_future_v0",
+          "evidence_sha256": "254a0a7ab7b337e03db91d6da314ae3e892a969153fc80d95bbef3a74045cb58",
+          "observations": "The stepped rock bank, lifting jib, suspended block and stacks at the near edge are intact at the new LOD1. The same geometry reads almost identically to Industrial from both sides in unpainted 64 px views. The serialized meshes have 746, 425, 238 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.98% of front-view pixels and 0.78% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 93,
+            "identity": 84,
+            "construction": 95,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [
+            "Replace the industrial crane-and-terrace outline with a visibly different future extraction system, for example a spanning cutter gantry over an open cut."
+          ]
+        },
+        {
+          "id": "bld_saurian_stone_quarry_industrial_v0",
+          "evidence_sha256": "979c7e801d6b522cdd4a4d2e6e3ccd8c83403632e4c855116e56a9d37c9673bc",
+          "observations": "At both middle-LOD angles the upright hoist and projecting steps remain clear. Against its future and preindustrial siblings the same hoist and stockpiles occupy the same positions. The dark iron colour provides most of the age signal. The serialized meshes have 746, 425, 238 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.61% of front-view pixels and 0.73% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 93,
+            "identity": 86,
+            "construction": 95,
+            "charm": 92,
+            "colour": 92,
+            "technical": 100
+          },
+          "defects": [
+            "Give this quarry a dominant industrial mechanism or a bench arrangement that separates it from the other eras in an unpainted view."
+          ]
+        },
+        {
+          "id": "bld_saurian_woodcutter_camp_classical_v0",
+          "evidence_sha256": "3e197c19cd0bbc64dc8ba7b1aca833b46a78423c3188b470f7c6749c0bd51283",
+          "observations": "A projecting log boom and forked support rise in front of the small stepped shelter. The loose cut trunk and hoist anchor remain visible into the far LOD. This changes the old enclosed camp into an open working yard. The serialized meshes have 649, 305, 133 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_woodcutter_camp_future_v0",
+          "evidence_sha256": "6e31c756dc227f1649be0a665426df76180ee5bc66c34ef710e496d6222aedc8",
+          "observations": "The angled teal lift reaches from the round shelter toward long cut trunks. The ends read as separate cylinders even on the small mesh. The old square store and roof-top mast have been removed from the silhouette. The serialized meshes have 756, 397, 171 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "9edae5607e72d58df4b2ac509bcee6fa96d7f35d420f97deaf697db8bfa879b5",
+          "observations": "The bent timber-handling line crosses the barrel roof to the foreground trunk. A pair of parallel timber stacks still flank the works in LOD2. The new profile reads as a powered yard rather than the former pitched hut. The serialized meshes have 747, 347, 143 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_saurian_stone_quarry_future_v0",
+          "evidence_sha256": "91776f71eaf97c2a2bc7d3641cc8b5a54889e38f1523aaadf3f0c9dfe7f72c9f",
+          "observations": "Two supports carry a long cutter housing over block slabs between parallel guides. The cutting head is visible underneath from the back, and both guide walls and the full beam survive LOD1. The open cut and gantry separate from the earlier terraces and the Industrial saw.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            402,
+            229,
+            124
+          ]
+        },
+        {
+          "id": "bld_saurian_stone_quarry_industrial_v0",
+          "evidence_sha256": "24c7603a31f664662b27af0c9f7c0779650bd795859a2ecbaa3fb01f5353703e",
+          "observations": "A large dark cutting wheel stands between masonry abutments beside a barrel-roofed engine shed. Quarried blocks flank the machine, and an open service door remains visible under the shed roof. Both wheel and engine house survive the middle LOD, distinct from the older stepped quarry.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            657,
+            349,
+            163
+          ]
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_saurian_stone_quarry_future_v0",
+          "evidence_sha256": "cc25adaa6bbd341c65f0313f2929ca88f9153ffa75109ca956ca78191e59051f",
+          "observations": "The cutter head, long beam and guide rails hold their alignment above the slabs. Both full-height supports remain visible from the side and rear.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            402,
+            229,
+            124
+          ]
+        }
+      ]
     }
   ]
 }

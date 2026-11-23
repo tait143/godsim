@@ -54,7 +54,7 @@ def inventory(progress=None):
         progress.extend(["## Package checklist", "",
                          f"{len(generated):,}/{len(models):,} models generated. {len(approved):,} have current individual "
                          f"reviews and {len(published):,} are bound in the runtime manifest. "
-                         "The [art report](BUILDING_ART_REPORT.md) lists outstanding IDs and geometry findings.", "",
+                         "The [art report](BUILDING_ART_REPORT.md) records individual scores and findings.", "",
                          "| Package | Due | Generated | Passing critique | In manifest | Next work |",
                          "|---|---:|---:|---:|---:|---|"])
         for package, specs in sorted(groups.items()):
@@ -138,17 +138,30 @@ def inventory(progress=None):
             for item in review["models"]:
                 history[item["id"]].append((review["round"], item))
         for ident, attempts in history.items():
-            consecutive = 0
-            for number, attempt in attempts:
-                scores = attempt["scores"]
-                if attempt["defects"] or scores["technical"] < 99 or min(scores[k] for k in CRITERIA[:-1]) < 90:
-                    consecutive += 1
-                    if consecutive == 3:
-                        reason = " / ".join(attempt["defects"]) or str(scores)
-                        escalations.append(f"- `{ident}` ({package}, round {number}) — {reason}")
-                else:
-                    consecutive = 0
-    out.extend(escalations or ["No model failed three successive independent reviews."])
+            last_round, last = attempts[-1]
+            reasons = []
+            first_pass = None
+            for number, item in attempts:
+                scores = item["scores"]
+                if item["defects"] or scores["technical"] < 99 or min(scores[k] for k in CRITERIA[:-1]) < 90:
+                    why = " / ".join(map(str,item["defects"])) or str(scores)
+                    reasons.append(f"Round {number}: {why}")
+                elif first_pass is None:
+                    first_pass = number
+            late_first_pass = attempts[0][0] <= 3 and last_round >= 3 and (first_pass is None or first_pass > 3)
+            if len(attempts) <= 3 and not late_first_pass:
+                continue
+            result = "Open" if ident not in approved else f"Passed in round {last_round}"
+            reason = " ".join(reasons) or "Previously accepted; revised asset returned for fresh verification."
+            resolution = last.get("observations","").replace("|","/")
+            escalations.append(f"| `{ident}` | {package} | {', '.join(str(n) for n,_ in attempts)} | "
+                               f"{reason.replace('|','/')} | {result}. {resolution} |")
+    if escalations:
+        out.extend([f"The table lists {len(escalations)} models. It includes every model that needed a fourth individual evaluation and every model whose first pass was still outstanding after its package’s third round. The review column lists the package rounds in which that model was actually scored. Reopened assets retain their earlier passes and findings.", "",
+                    "| Model | Package | Reviews | Reason for continued review | Resolution |",
+                    "|---|---|---|---|---|", *escalations])
+    else:
+        out.append("All models completed review within their package’s first three rounds.")
     out.extend(["", "## Surface checks", "",
                 f"{len(generated)-len(surface_pending)} current models have been checked across their exported LODs. "
                 f"{len(surface_holds)} have exposed, same-facing coplanar surfaces. {len(surface_pending)} still await the check. "

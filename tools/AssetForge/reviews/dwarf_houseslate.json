@@ -156,6 +156,124 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_future_v0",
+          "evidence_sha256": "3f9f0dbb0981a235f1b495c5e763b3bca6836ecc679d3f82a0f4cea4125eed8c",
+          "observations": "A raised blue-glass lantern with a light cap sits above the entrance, with a little workbench beside the stairs. The chunky stone plinth, lintel and glass roof stay continuous at LOD1.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            468,
+            266,
+            110
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_future_v1",
+          "evidence_sha256": "a5bd79068994c07513653b4b8874dd6c39419fbcc06d382bb64e43c6626a6a1b",
+          "observations": "The taller offset lantern and second low blue roof break the symmetry of this future house. Glazed side bays and a recessed front door still provide a human scale. Both roof volumes meet the walls cleanly at the middle LOD.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            588,
+            334,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_future_v0",
+          "evidence_sha256": "7802f29fdd225ffc6285db7a4b186cca82844352fdc63596e7e36690ef3ffd84",
+          "observations": "The large roof lantern and its base remain sound. At the front the reduction pulls a grey triangle diagonally across the door, removing roughly half the dark opening in both front views.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 82,
+            "charm": 91,
+            "colour": 94,
+            "technical": 86
+          },
+          "defects": [
+            "Keep the complete dark door leaf and preserve the opening inside its grey surround at LOD1."
+          ],
+          "lod_triangles": [
+            468,
+            266,
+            110
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_future_v1",
+          "evidence_sha256": "6def72e0d0613740fcf34172ca70733e9107450078974f8f57defd7bf30bd4c5",
+          "observations": "The offset blue lantern and lower roof cap keep their asymmetric relationship. The walls and stair remain complete around a full dark main door, even after the workbench drops out.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            588,
+            334,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent visual critic, final door, canopy and grille repair review",
+      "inspection": "Reopened the authored age previews and all three serialized LODs at 64 px. Compared LOD0 and LOD1 at two 190 px front angles and at 195 px from the side and rear. Revalidated serialized metadata, triangle ratios, exposed surfaces and shell orientation at the recorded hashes.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_future_v0",
+          "evidence_sha256": "d4940000928bf1c8cf8eab9101d6192284ed93d0b5a2837de5d5ea340243f577",
+          "observations": "The door leaf now fills the entrance frame and meets the top step without a diagonal grey wedge. The blue roof lantern, masonry sides and projecting cap remain complete at LOD1.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            468,
+            278,
+            110
+          ]
+        }
+      ]
     }
   ]
 }

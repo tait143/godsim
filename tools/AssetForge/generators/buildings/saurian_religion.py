@@ -5,6 +5,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from generators.buildings.saurian_towncenters import Delta, generate
+from generators.buildings import saurian_delta_works as works
 
 PACKAGE="saurian_religion"
 
@@ -150,6 +151,36 @@ def cathedral(m):
 
 
 def cloister(m):
+    if m.era>=2:
+        works.footing(m,1.90,1.82)
+        if m.era==2:
+            # North dormitory, belfry and covered walking aisle on three sides of a cistern.
+            works.barrel(m,.13,.49,1.25,.58,.34,.20)
+            top=works.shell(m,-.61,-.02,.41,.53,.91)
+            for x in (-.75,-.47):
+                for z in (-.15,.11):
+                    m.block("wall",x,top,z,.079,.25,.08)
+            m.rooflet(-.61,top+.25,-.02,.48,.47,.20,"metal")
+            m.drum("gold",-.61,top+.06,-.02,.093,.20,.056)
+            works.basin(m,.15,-.20,.66,.48)
+            for x in (.57,.80):
+                for z in (-.43,.11):
+                    m.block("brick",x,.08,z,.075,.38,.079)
+            m.slab("roof",.685,.46,-.16,.37,.10,.71,.84,underside=True)
+            if m.lod<2:
+                m.disc(-.61,.76,-.287,.081)
+        else:
+            # A meditative cloister spirals up behind a reflective pool. The linked
+            # glass sanctums sit under a single tilted, open sun portal.
+            works.lens(m,-.45,.40,.32,.39)
+            works.lens(m,.36,.49,.46,.57)
+            works.basin(m,-.09,-.40,.90,.52)
+            works.arch(m,-.07,-.24,1.58,1.24,.115,.13,"gold")
+            if m.lod<2:
+                for x in (-.64,.61):
+                    m.slab("ivory",x,.08,-.55,.21,.19,.38,.83)
+                    votive(m,x,.27,-.55,.069)
+        return
     m.slab("fieldstone",0,0,0,1.91,.076,1.81,.98)
     # The enclosed water court has an entrance between the two south-facing dormitories.
     for s in (-1,1):

@@ -302,6 +302,367 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_cathedral_classical_v0",
+          "evidence_sha256": "5dbef4f81344003331a9e0295c43c2cac1b21267cc011dc5156fb70ab6b77f1e",
+          "observations": "Two separate roof caps flank a central window over a recessed arch. Strong exterior buttresses support the nave and distinguish it from the later domed and open-spire designs in the neutral family comparison. LOD1 preserves both towers and the entrance.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1344,
+            766,
+            369
+          ]
+        },
+        {
+          "id": "bld_dwarf_cathedral_future_v0",
+          "evidence_sha256": "983a7f11b0ee4cd5cc6931dec9d770d82266c65239309601ec36faa64d54d01f",
+          "observations": "Four steep exterior ribs frame a tall cyan crystal and leave real air between the spire and the nave. The open triangular outline survives without paint. The ribs, stepped plinth, side lights and low front portal remain attached in LOD1.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            672,
+            374,
+            206
+          ]
+        },
+        {
+          "id": "bld_dwarf_cathedral_industrial_v0",
+          "evidence_sha256": "bea58b8128d68002fa9cad9cccb295d30e38e50148ce509a4a7720a929476705",
+          "observations": "A large central dome rises over lower, dark entry and side vaults. The dome is the dominant neutral silhouette between the earlier paired towers and later open ribs. LOD1 keeps the tower drum, front roof and entry stairs.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            814,
+            390,
+            180
+          ]
+        },
+        {
+          "id": "bld_dwarf_monastery_future_v0",
+          "evidence_sha256": "1a5584e0b06a6604ea390617af6a865deddc56be6e629afc38f936277c17380d",
+          "observations": "A ring of tall cells encloses a low pool and a roofed entrance walk. Its unequal tower heights and open central space distinguish the complex from the Industrial single ward and garden. All four pavilions and the entrance canopy keep their supports at LOD1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1208,
+            620,
+            266
+          ]
+        },
+        {
+          "id": "bld_dwarf_monastery_industrial_v0",
+          "evidence_sha256": "acf3c70191f4998163da3deecc7b064fb16c8e17e28e57e743662a2221333f8c",
+          "observations": "An elevated square vent crowns the modest gabled ward, with a sunken rectangular garden running down one side. That large open planting bed changes the earlier enclosed complex's footprint. LOD1 retains the ward doorway, garden walls and stepped roof.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            953,
+            508,
+            202
+          ]
+        },
+        {
+          "id": "bld_dwarf_shrine_ancient_v0",
+          "evidence_sha256": "33de55f400c74ce24ef76b1fba2a663e03c215941017fdc2050bb619a109997f",
+          "observations": "A suspended gold bell fronts an offering stone above broad steps. A deep gabled hood stands on solid piers, keeping the bell chamber open at LOD1. The two small flames light the outer corners without masking the approach.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            832,
+            474,
+            204
+          ]
+        },
+        {
+          "id": "bld_dwarf_shrine_classical_v0",
+          "evidence_sha256": "12c32d824fd6cdf1b758d733cc0579e7d43959a33fc990f29dd2d9dca201ad2f",
+          "observations": "The tiled roof and lighter piers change the paint, while the Ancient bell, twin piers, altar tablet and front stair occupy the same low envelope in both grey views. LOD1 retains the bell's suspension and the two roof bearings.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 82,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Build a Classical shrine around a stepped processional entrance and an apsed altar or colonnaded court. Change its open and solid spaces from the earlier two-pier bell hood."
+          ],
+          "lod_triangles": [
+            832,
+            474,
+            204
+          ]
+        },
+        {
+          "id": "bld_dwarf_shrine_future_v0",
+          "evidence_sha256": "f525861dab2f5c9694c50dc8390201356760ee37ef85e3d603f4e118ba43527a",
+          "observations": "The glowing square breaks the dark roof surface, but both neutral views still show the two-pier shrine with a bell over a low offering tablet. The roof, piers and approach remain coherent at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 83,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the bell porch with a split or open sanctuary around a tall crystal, providing a distinctive worship space that reads at 64 px without emission."
+          ],
+          "lod_triangles": [
+            860,
+            490,
+            216
+          ]
+        },
+        {
+          "id": "bld_dwarf_shrine_industrial_v0",
+          "evidence_sha256": "23a85c3354d0b1cee99323bf61f962dfcf722fe20f4865ae55e4580e7eb29f23",
+          "observations": "Brick cladding and a black roof pick out the period in colour. In neutral light the shallow gable, short piers, bell, table and stepped approach still match the older shrine. The complete portal survives LOD1.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 82,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Use an industrial pilgrimage structure with an exposed bell frame and separate power or counterweight tower. Change the roof and support arrangement from the Ancient shrine."
+          ],
+          "lod_triangles": [
+            832,
+            474,
+            204
+          ]
+        },
+        {
+          "id": "bld_dwarf_spirit_totem_ancient_v0",
+          "evidence_sha256": "f00e106662e5e79bd02bfbe9708e8132dbd5c520868d2de15979e9ec80ffd142",
+          "observations": "A warm relief emblem and two flames stand clear against the tapered stone monolith. The helmet-like cap, flared base and low approach slab make a distinct Dwarf object even in the darker Iron finish. The shell remains continuous at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            468,
+            266,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_dwarf_shrine_classical_v0",
+          "evidence_sha256": "6fc9b481d9da68e60f26947d430320fab7da6cf55ec289557934de14bb174bef",
+          "observations": "The round tiled apse, paired flame columns and stepped altar distinguish this era in both neutral views. The full-width approach steps are straight and intact in the painted LOD0. In LOD1 diagonal edges run across the front and cut away large triangular halves of the treads. The defect is visible at 64 px as well as in the larger front and side views.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 82,
+            "charm": 92,
+            "colour": 93,
+            "technical": 85
+          },
+          "defects": [
+            "Retain the width and rectangular top faces of each processional stair at LOD1. Protect these approach pieces from corner collapse and take the triangle savings from curved surfaces or small decoration."
+          ],
+          "lod_triangles": [
+            662,
+            376,
+            141
+          ]
+        },
+        {
+          "id": "bld_dwarf_shrine_future_v0",
+          "evidence_sha256": "153c77ff8276952c73c36fa53fbfa40e14b8bf5d23a7f442c583e7d68f0f444f",
+          "observations": "Two open, inward-leaning stone uprights frame a faceted crystal on a central plinth. The low offering block and little flames establish a shrine in the open space, distinct from the apse and bell tower. The large crystal, separate supports and offering platform survive LOD1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            482,
+            276,
+            144
+          ]
+        },
+        {
+          "id": "bld_dwarf_shrine_industrial_v0",
+          "evidence_sha256": "844eaaad192c6954354bb4b938f5564bea06f720de7fdf244abbda7cb63237f3",
+          "observations": "A cantilever suspends a broad bell off the side of a tall brick tower, leaving the offering slab and fire exposed to the sky. The unpainted profile stands apart from the earlier symmetrical porch. The bell connection, doorway and cantilever all survive LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            679,
+            406,
+            170
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_cathedral_classical_v0",
+          "evidence_sha256": "0f5f61710228095f2eff1a7538cfdb34c18c0c1042fd6cd78ec0ed621d1781af",
+          "observations": "The paired turrets, nave and rear buttresses remain solid. The central arched entrance loses a large section of its dark right-hand door to an exposed pale diagonal surface at LOD1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 82,
+            "charm": 93,
+            "colour": 93,
+            "technical": 86
+          },
+          "defects": [
+            "Keep the full central door leaves and separate the pale arch geometry from their face at LOD1."
+          ],
+          "lod_triangles": [
+            1344,
+            766,
+            369
+          ]
+        },
+        {
+          "id": "bld_dwarf_shrine_classical_v0",
+          "evidence_sha256": "60c01b6c4b5aa80246494ab75cec181c75f9f5486f40f8283ed16c36cfe92509",
+          "observations": "The tiled apse and columns keep their profiles. The middle mesh retains level, full-width stair faces from both front approaches and the side, with no diagonal cuts across the centre. The offering platform remains reachable.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            662,
+            340,
+            141
+          ]
+        },
+        {
+          "id": "bld_dwarf_spirit_totem_ancient_v0",
+          "evidence_sha256": "ced52807623730fc51298e7af8ec1de0a5176927d9cd3bcb6f9e9ca34737f16c",
+          "observations": "The golden crest, tapered stone face, cap and stepped base survive in both phone and larger views. Rear stone faces stay closed down to the base.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            468,
+            266,
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent visual critic, final door, canopy and grille repair review",
+      "inspection": "Reopened the authored age previews and all three serialized LODs at 64 px. Compared LOD0 and LOD1 at two 190 px front angles and at 195 px from the side and rear. Revalidated serialized metadata, triangle ratios, exposed surfaces and shell orientation at the recorded hashes.",
+      "models": [
+        {
+          "id": "bld_dwarf_cathedral_classical_v0",
+          "evidence_sha256": "f6396dadc0673a304d1f107e94814fd1de18da52c2b1372f0c1d297df4bf3880",
+          "observations": "The paired tower caps and buttressed nave retain their full forms. Both front angles now show a complete dark central door with a clear stone surround beneath the circular window. The middle door remains recognizable at 64 px.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1344,
+            794,
+            369
+          ]
+        }
+      ]
     }
   ]
 }

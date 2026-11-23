@@ -18,7 +18,7 @@
   "triangles": 1809,
   "lod_triangles": [
    1809,
-   1134,
+   1030,
    342
   ],
   "bounds": [
@@ -33,7 +33,7 @@
     1.3830000162124634
    ]
   ],
-  "bytes": 233556,
+  "bytes": 231460,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_arcology_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arcology_future_v0.png",
@@ -196,7 +196,7 @@
   "triangles": 618,
   "lod_triangles": [
    618,
-   383,
+   351,
    167
   ],
   "bounds": [
@@ -211,7 +211,7 @@
     0.4300000071525574
    ]
   ],
-  "bytes": 105956,
+  "bytes": 103652,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_campfire_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_campfire_ancient_v0.png",
@@ -240,7 +240,7 @@
   "triangles": 574,
   "lod_triangles": [
    574,
-   363,
+   327,
    163
   ],
   "bounds": [
@@ -255,7 +255,7 @@
     0.4300000071525574
    ]
   ],
-  "bytes": 97920,
+  "bytes": 95368,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_campfire_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_campfire_classical_v0.png",
@@ -414,25 +414,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1020,
+  "triangles": 1130,
   "lod_triangles": [
-   1020,
-   680,
-   280
+   1130,
+   608,
+   334
   ],
   "bounds": [
    [
-    -1.4325000047683716,
+    -1.4624546766281128,
     0.0,
-    -1.3305000066757202
+    -1.2825000286102295
    ],
    [
-    1.4325000047683716,
-    1.7699999809265137,
-    1.222499966621399
+    1.4624546766281128,
+    1.2675000429153442,
+    1.3125
    ]
   ],
-  "bytes": 146920,
+  "bytes": 162608,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_stadium_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_stadium_future_v0.png",
@@ -460,7 +460,7 @@
   "triangles": 976,
   "lod_triangles": [
    976,
-   636,
+   556,
    252
   ],
   "bounds": [
@@ -475,7 +475,7 @@
     1.222499966621399
    ]
   ],
-  "bytes": 138596,
+  "bytes": 135652,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_stadium_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_stadium_industrial_v0.png",
@@ -503,7 +503,7 @@
   "triangles": 820,
   "lod_triangles": [
    820,
-   540,
+   466,
    183
   ],
   "bounds": [
@@ -518,7 +518,7 @@
     0.824999988079071
    ]
   ],
-  "bytes": 105156,
+  "bytes": 103140,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_classical_v0.png",
@@ -544,25 +544,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 876,
+  "triangles": 1110,
   "lod_triangles": [
-   876,
-   596,
-   207
+   1110,
+   546,
+   208
   ],
   "bounds": [
    [
-    -0.8899999856948853,
+    -0.9300000071525574,
     0.0,
-    -0.7645000219345093
+    -0.8379999995231628
    ],
    [
-    0.8899999856948853,
-    1.284999966621399,
-    0.824999988079071
+    0.9300000071525574,
+    1.083448052406311,
+    0.8619999885559082
    ]
   ],
-  "bytes": 113648,
+  "bytes": 140588,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_future_v0.png",
@@ -591,7 +591,7 @@
   "triangles": 876,
   "lod_triangles": [
    876,
-   596,
+   498,
    207
   ],
   "bounds": [
@@ -606,7 +606,7 @@
     0.824999988079071
    ]
   ],
-  "bytes": 113592,
+  "bytes": 109804,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_tavern_industrial_v0.png",

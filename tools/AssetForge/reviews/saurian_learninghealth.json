@@ -560,6 +560,616 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "independent_saurian_round1_2026_11_23",
+      "models": [
+        {
+          "id": "bld_saurian_bathhouse_classical_v0",
+          "evidence_sha256": "769903f50f71943dfd9f485c8bb454674eef83fe843ba1175c0fa8fd01ebcb5c",
+          "observations": "The masonry dome stands behind a sunken blue bathing court, with a smaller service hut and clear walkway along the front. The pool and two roofs survive the new middle level. This is a legible early anchor for the later steam works. The serialized meshes have 926, 527, 190 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.78% of front-view pixels and 0.46% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_bathhouse_future_v0",
+          "evidence_sha256": "79c730f7e0a63a775510b55d9a34e49494acdb9adf8b9450a375bd2dc6745a69",
+          "observations": "The foreground rectangular bath, left-side hut and domed rear room all survive the middle level. In the unpainted comparison their disposition and roof profiles match the classical bath almost exactly. Blue plating supplies the strongest future cue. The serialized meshes have 926, 527, 190 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.66% of front-view pixels and 0.49% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 85,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [
+            "Replace the classical dome-and-pool arrangement with visibly different future bathing architecture while retaining the water and access."
+          ]
+        },
+        {
+          "id": "bld_saurian_bathhouse_industrial_v0",
+          "evidence_sha256": "411169fdf86800a58f8f155c2c502a1d0dec8c73d9bb10f5b883967ea778500b",
+          "observations": "A tall flue breaks the dome line over the heated bath, unlike the stack-free early court. The front walkway stays clear of the blue pool at LOD1, and the chimney, pool rim and two buildings remain distinct in both colours. The serialized meshes have 1006, 573, 238 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.68% of front-view pixels and 0.39% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_data_center_future_v0",
+          "evidence_sha256": "1e7b8bcfe809540433bcf0fd5da5418edcc0177d09ab06a0248f11763d0716fe",
+          "observations": "Three bright rounded server-room roofs end at a dark transverse spine. The central gap and door are clear in the middle mesh, and the blue walls remain distinct from the cream covers in both the green- and gold-spine palettes. The serialized meshes have 764, 434, 148 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.63% of front-view pixels and 1.22% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_herbalist_classical_v0",
+          "evidence_sha256": "586cd52a18b302a0b76dae9cc9a8a1ed0e6df8b9146fb2e339e7742697d52e42",
+          "observations": "Three separate planters flank a stepped-roof treatment pavilion. Their pale plinths carry visible leaves and remain clear of the central door. At LOD1 the potted plants are readable against all three supplied roofs. The serialized meshes have 663, 377, 165 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_herbalist_future_v0",
+          "evidence_sha256": "aed0d2b55d285e8b303dc6699410c1928e225773f88815effdd092bd919c62bf",
+          "observations": "Three white rings carry conspicuous dark leaves above a slender planting column beside the blue-domed treatment room. At LOD2 both the stacked gardens and rear dome are present, in place of the older roof-top planter on a box. The serialized meshes have 668, 385, 183 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_herbalist_industrial_v0",
+          "evidence_sha256": "41c8743ee1e7ea9895c3f00b9aa4a0ae5625e8c754d9d9f6755c0db8c88772ca",
+          "observations": "Large leafy pots stand at both sides of the entrance below a deep arched greenhouse roof. The tall service flue is offset from the canopy. LOD1 preserves two planted silhouettes against the brick and pale wall finishes. The serialized meshes have 677, 305, 127 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_hospital_classical_v0",
+          "evidence_sha256": "88bbdcf08993cca447ef17d91f3660e43bd86e60718e0de351c115043b9fe6fe",
+          "observations": "The tall ward and lower side wing have a pronounced pitched roof and a leafy finial. Twin entrance planters and the central door remain clear at LOD1. This early masonry clinic provides the comparison shape for the later wards. The serialized meshes have 1277, 727, 247 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.76% of front-view pixels and 0.34% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_hospital_future_v0",
+          "evidence_sha256": "1a3db061e209f2ce6432cd9cfd79dbaa95098007e28af60e5e2c73b1737802a8",
+          "observations": "Both ward roofs and the clinic entrance remain intact in the revised middle mesh. In unpainted front and rear views the low wing, tall ward, pots and central plant still reproduce the classical hospital, despite the blue glazing. The serialized meshes have 1277, 727, 247 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 1.15% of front-view pixels and 0.17% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 93,
+            "identity": 84,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [
+            "Make the later ward plan recognizable in silhouette, for example with a round diagnostic tower or an elevated cross-wing above an ambulance court."
+          ]
+        },
+        {
+          "id": "bld_saurian_hospital_industrial_v0",
+          "evidence_sha256": "f4ffcb5435dcb509cb2b8f106fdcd06157ed21235856b1fb29846c5e0549a4fa",
+          "observations": "The brick and Modern pale versions retain their small entrance and rooted side wing at LOD1. From either side in unpainted views the building remains nearly the same roof-and-wing mass as the early and future hospitals. The serialized meshes have 1211, 689, 247 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.37% of front-view pixels and 0.00% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 93,
+            "identity": 86,
+            "construction": 95,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [
+            "Give the industrial ward a clearly distinct plan and rooftop structure, such as a long ventilated ward linked to a separate service wing."
+          ]
+        },
+        {
+          "id": "bld_saurian_library_classical_v0",
+          "evidence_sha256": "24b92a4ec383129c74983784df7a10eef20194312cf2b9aeaa46de8dd00be4c4",
+          "observations": "The building itself is an open book, with two sloping covers, a pronounced central gutter and pale page blocks above the street door. Iron and Medieval use the dark covers and the other previews use earth tones. The book silhouette survives LOD1 from both angles. The serialized meshes have 649, 369, 167 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 1.20% of front-view pixels and 0.12% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_library_future_v0",
+          "evidence_sha256": "a4b269c9f1e1b21eca08de6a6527ecb3912d1b5202a07f65f69f24fd79e89326",
+          "observations": "A pair of rounded stacks, one three tiers high, stands behind a separate small reading kiosk. The pale horizontal bands keep the rounded volumes distinct at 64 px and the old book-shaped roof is clearly absent. The serialized meshes have 687, 379, 138 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_library_industrial_v0",
+          "evidence_sha256": "1a14dce39d4d5eb48fd99fa639f3a99fb1c27f62f3742b4c34dec5f00f7122ff",
+          "observations": "The barrel-roof room and capped brick cylinder nearly duplicate the industrial tavern in mass and arrangement. A small book on a low front pedestal disappears into the facade at 64 px in both age palettes. The serialized meshes have 571, 303, 159 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 84,
+            "construction": 94,
+            "charm": 90,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [
+            "Make the public reading room and shelves or book motif dominate the silhouette. Break the silo-and-brewhouse arrangement shared by the tavern."
+          ]
+        },
+        {
+          "id": "bld_saurian_medical_center_future_v0",
+          "evidence_sha256": "18cd9d27570ddda680ccbadfeedcc80e98617f30fe4673e2e2afa69589b97e7a",
+          "observations": "Two low ivory wards flank a short round clinical tower and a teal entrance canopy. At 64 px the doorway cross remains distinct from the plant crown. The middle level retains the round tower and separated wing roofs. The serialized meshes have 1023, 583, 239 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 1.05% of front-view pixels and 0.17% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_printworks_classical_v0",
+          "evidence_sha256": "cf45d133508d426fcfe2b52ec005f764a78ef5cd6cb887a6fe24ae856fbebec7",
+          "observations": "A heavy framed press stands in front of the roofed shop with a visible pale platen and an adjoining sheet table. The middle mesh retains the dark press uprights, handle and separate tables on the plinth. The serialized meshes have 717, 407, 167 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.95% of front-view pixels and 0.34% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_printworks_future_v0",
+          "evidence_sha256": "b180b14249d11c4c329ddbb2f91628e36d87735b35ff6fa6f4c5c265abe6ac79",
+          "observations": "A cream arch spans a sloped bed beside a small cyan tank, the same dominant outline as the future sawmill. At 64 px the pale rectangle on the bed is the only readily visible paper cue. It reads as a feed table rather than a press. The serialized meshes have 562, 332, 165 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 84,
+            "construction": 94,
+            "charm": 90,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [
+            "Replace the single arch and incline with a recognizable large roller press, paper path and sheet delivery, distinct from the future sawmill."
+          ]
+        },
+        {
+          "id": "bld_saurian_printworks_industrial_v0",
+          "evidence_sha256": "bd21af86711451efb554a50bc525db209eefd1a828746b83e116396b799192e1",
+          "observations": "A full-width paper roll emerges under the open nose of the metal-roofed print shop. The roll and side bearing remain visible at the middle level, with a tall cylindrical chimney behind. The prior stepped-roof shop offered no comparable front feed. The serialized meshes have 867, 425, 107 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_research_lab_future_v0",
+          "evidence_sha256": "5797ad297d7f1d9af0ec9c8386a80f6f2139ae88cc5f6b9affc890a5c794f271",
+          "observations": "Two tapered piers support a teal ring above a round experiment platform, with a separate blue service chamber behind. The open central aperture survives even the faceted far mesh and differs from the previous roof-top beacon. The serialized meshes have 802, 455, 205 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_scriptorium_ancient_v0",
+          "evidence_sha256": "0031599212a6c66fc5579cc46cace45c693059d4352ada1149ccda3e422d9cd7",
+          "observations": "A large diagonal pen projects above the long low thatch. The open front still shows a writing shelf below the canopy, and the pen tip breaks the skyline at both reduced levels. The rear remains a continuous low wall. The serialized meshes have 833, 473, 189 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.32% of front-view pixels and 0.00% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_scriptorium_classical_v0",
+          "evidence_sha256": "6b5525a9285cb07db1a6d7326f689f44a3374f91d14bfa22204cef14d759cc44",
+          "observations": "A writing counter and spread of light pages occupy the open front of the stepped-roof hall. A small separate tower at one end anchors the court. All three age previews keep enough contrast on the paper to find the desk at 64 px. The serialized meshes have 603, 343, 163 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_scriptorium_future_v0",
+          "evidence_sha256": "5555603306fe41d65a5c27eccce1924d769269f3acf5721d350ab8fabc666c8f",
+          "observations": "A triangular brace, thin horizontal cyan strip and blue capsule occupy the three main positions. Even in the larger preview the strip reads like a rail. The previous sloping pen silhouette has disappeared at every LOD. The serialized meshes have 468, 267, 135 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 82,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [
+            "Build a broad, readable writing or inscription surface and a raised stylus, scroll or page assembly that will still identify the scriptorium at 64 px."
+          ]
+        },
+        {
+          "id": "bld_saurian_scriptorium_industrial_v0",
+          "evidence_sha256": "52257cfd03b581235f656292995d3311802e17f96d517a6d4147b6206a260109",
+          "observations": "A broad pale writing roll extends across the street frontage beneath three stepped roof lights. The scroll passes between two independently visible bearings. The old unbroken roof-and-pen silhouette is replaced at each LOD. The serialized meshes have 471, 259, 133 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_university_classical_v0",
+          "evidence_sha256": "f32b4e4e81b6f6d3bd0afc603a297b25dc62949a2b6b2060879d4c17caa93092",
+          "observations": "The main hall, two flanking wings and gold teaching ring define a courtyard. Enlarged before-and-after LOD1 views retain the ring and its legs in front of the central entrance. The brown and green roofs stay separate above the wings. The serialized meshes have 1289, 733, 256 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 3.76% of front-view pixels and 1.88% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_university_future_v0",
+          "evidence_sha256": "a99fecbc10707f24d4f2ab40aa8da6c6aeaec2a6de6f44607dfd8274917f64e9",
+          "observations": "A tall ivory span carries a gold ring between two glazed domes over an open paved lecture court. Both the ring and lower round dais remain at 64 px. The two sides read as separate buildings from the reverse. The serialized meshes have 1142, 546, 284 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_university_industrial_v0",
+          "evidence_sha256": "051d83f1b5816890c821a13159a7247473f805154a9564365ae59d17e1576de8",
+          "observations": "The front-facing academic tower rises above two lower vaulted wings. A low lectern stands outside one wing, leaving a gap before the central doorway. Both side roofs and central emblem survive the middle LOD. The serialized meshes have 971, 468, 133 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_saurian_bathhouse_future_v0",
+          "evidence_sha256": "7c2280323df18af2c794a53fe6809295af28967c6e68f19861738f0e919e9206",
+          "observations": "A raised round bath stands above a lower open pool. An exterior stair connects the bathing levels beside a small service room. The pair of water surfaces and stepped access survive LOD1 and distinguish the future complex from the older domed pavilion.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            928,
+            507,
+            197
+          ]
+        },
+        {
+          "id": "bld_saurian_hospital_future_v0",
+          "evidence_sha256": "81c7d7905670326ca3d0ea6f67469e25e45390c577fa4322b239363c25122401",
+          "observations": "A cylindrical diagnostic tower rises behind a low round clinic, with a prominent medical cross over its street entrance and a lower wing to the side. The glass bands, tower collars, emblem and door stay readable at LOD1. It differs from both the long Industrial ward and the round bathing pools.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            681,
+            383,
+            173
+          ]
+        },
+        {
+          "id": "bld_saurian_hospital_industrial_v0",
+          "evidence_sha256": "79ca94edc350da31f21a5bd770394a055ba45daae9ed559a9fb3fce818f7b48f",
+          "observations": "The long ventilated ward has a curved roof behind a large cross-marked receiving canopy. The open arrival space is visible between front posts at phone scale and all the posts remain in LOD1. The ward reads distinctly beside the older hospital and the future round clinic.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            579,
+            315,
+            121
+          ]
+        },
+        {
+          "id": "bld_saurian_library_industrial_v0",
+          "evidence_sha256": "bf2eeb91aa02bd8919e6a562d9f3d7d72d4f9daf5265c5f40fac32f2481f5c6b",
+          "observations": "Two tilted stacks meet along the binding to form a giant open book above the stair and outward-facing stacks. In both grey angles it differs from the Industrial tavern with its chimney and tank. Although the ruled lines disappear at LOD1, the page edges, crease, stacks and door survive.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            746,
+            408,
+            160
+          ]
+        },
+        {
+          "id": "bld_saurian_printworks_future_v0",
+          "evidence_sha256": "2997a368944a84e5660dec1a871c52d81bce5934f678ccc139f4a1ff6df5c8a3",
+          "observations": "A large roller between thick piers feeds bright sheets onto a short delivery bed beside an enclosed operator cabin. The roller and sheet path remain visible from the rear and at LOD1. The squared press and discharge stack clearly separate from the Future sawmill arch in the neutral comparison.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            797,
+            459,
+            165
+          ]
+        },
+        {
+          "id": "bld_saurian_scriptorium_future_v0",
+          "evidence_sha256": "5b0866e260565e44deb41a37dec78b8af34dd681ea77119d2e351a74cb559c43",
+          "observations": "An inclined scroll spans the full width of the building between two raised spools. The quill and parallel inscription lines identify writing at 64 px. The scroll, quill and large strokes survive LOD1, including the supported paper surface seen from behind. It reads differently from the towered library.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            475,
+            269,
+            109
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_saurian_bathhouse_classical_v0",
+          "evidence_sha256": "76aa61c96a95c6fa6c977ae64dbb15580ac93bb81f7c5c478e2fc3f94361a98d",
+          "observations": "The roofed changing room and domed bath stay connected to the open rectangular pool. The rim and water spout remain intact at LOD1 when the bench drops out.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            926,
+            527,
+            190
+          ]
+        },
+        {
+          "id": "bld_saurian_bathhouse_industrial_v0",
+          "evidence_sha256": "e7e83eb2d77c30f12f49b204da72d8fd465391d6a5a20696651a28c341269023",
+          "observations": "The tall stack remains seated in the domed brick service room. The adjacent pool keeps its rim, water and visible pipe after the front bench disappears.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1006,
+            573,
+            238
+          ]
+        },
+        {
+          "id": "bld_saurian_hospital_classical_v0",
+          "evidence_sha256": "395d42fbcfb6b3838b9e16035ae546aaebf08e7680f022462ddf04c2980eaa8d",
+          "observations": "The low side wards, central roof and crown ornament keep their full forms. The three entrance openings remain visible under their lintels in the middle mesh.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1277,
+            727,
+            247
+          ]
+        },
+        {
+          "id": "bld_saurian_library_classical_v0",
+          "evidence_sha256": "0a361727ccbcc4df11bf0592a33e85b9a76a08708179362e45abe85e178119d3",
+          "observations": "The two raised book covers keep their centre crease and edge thickness above the reading hall. The shelves, door and approach steps remain readable from the front.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            649,
+            369,
+            167
+          ]
+        },
+        {
+          "id": "bld_saurian_medical_center_future_v0",
+          "evidence_sha256": "2db584ba8caaef101005d25fa79a25d519a48d8ec502407834625eeaea85d1b5",
+          "observations": "The cross-marked canopy spans two supports in front of the glazed wings. The tall central drum and side rooms stay enclosed and retain their roof slabs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1023,
+            583,
+            239
+          ]
+        },
+        {
+          "id": "bld_saurian_printworks_classical_v0",
+          "evidence_sha256": "74a192feb50eeb5e23326791b63e6691be7a634cfdb142cf01cbb007dee0089b",
+          "observations": "The free-standing press still has a supported head above the working surface beside the workshop. Its open frame and the low roofed building survive the change in distance.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            717,
+            407,
+            167
+          ]
+        }
+      ]
     }
   ]
 }

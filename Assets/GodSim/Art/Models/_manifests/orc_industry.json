@@ -18,7 +18,7 @@
   "triangles": 618,
   "lod_triangles": [
    618,
-   397,
+   351,
    170
   ],
   "bounds": [
@@ -33,7 +33,7 @@
     0.42614999413490295
    ]
   ],
-  "bytes": 102980,
+  "bytes": 100272,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_armory_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_ancient_v0.png",
@@ -62,7 +62,7 @@
   "triangles": 618,
   "lod_triangles": [
    618,
-   397,
+   351,
    170
   ],
   "bounds": [
@@ -77,7 +77,7 @@
     0.42614999413490295
    ]
   ],
-  "bytes": 103268,
+  "bytes": 100176,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_armory_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_classical_v0.png",
@@ -104,25 +104,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 638,
+  "triangles": 790,
   "lod_triangles": [
-   638,
-   417,
-   190
+   790,
+   427,
+   248
   ],
   "bounds": [
    [
-    -0.9438999891281128,
+    -0.8294299840927124,
     0.0,
-    -0.32362499833106995
+    -0.3149999976158142
    ],
    [
-    0.8299999833106995,
-    1.2566014528274536,
-    0.42614999413490295
+    0.7166255712509155,
+    0.8701000213623047,
+    0.3150942027568817
    ]
   ],
-  "bytes": 108288,
+  "bytes": 134380,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_armory_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_future_v0.png",
@@ -151,7 +151,7 @@
   "triangles": 638,
   "lod_triangles": [
    638,
-   417,
+   363,
    190
   ],
   "bounds": [
@@ -166,7 +166,7 @@
     0.42614999413490295
    ]
   ],
-  "bytes": 108872,
+  "bytes": 105344,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_armory_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_armory_industrial_v0.png",
@@ -374,7 +374,7 @@
   "triangles": 550,
   "lod_triangles": [
    550,
-   335,
+   320,
    174
   ],
   "bounds": [
@@ -389,7 +389,7 @@
     1.1699999570846558
    ]
   ],
-  "bytes": 96128,
+  "bytes": 94784,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_electronics_plant_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_electronics_plant_future_v0.png",
@@ -773,7 +773,7 @@
   "triangles": 750,
   "lod_triangles": [
    750,
-   489,
+   427,
    218
   ],
   "bounds": [
@@ -788,7 +788,7 @@
     0.39594513177871704
    ]
   ],
-  "bytes": 143032,
+  "bytes": 136772,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_weaver_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_ancient_v0.png",
@@ -815,25 +815,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 750,
+  "triangles": 606,
   "lod_triangles": [
-   750,
-   489,
-   218
+   606,
+   300,
+   190
   ],
   "bounds": [
    [
-    -0.4837248623371124,
+    -0.4074999988079071,
     0.0,
-    -0.29016464948654175
+    -0.20499999821186066
    ],
    [
-    0.46887296438217163,
-    0.5353000164031982,
-    0.39594513177871704
+    0.4074999988079071,
+    0.6000000238418579,
+    0.3449999988079071
    ]
   ],
-  "bytes": 142928,
+  "bytes": 101672,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_weaver_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_classical_v0.png",
@@ -860,25 +860,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 776,
+  "triangles": 626,
   "lod_triangles": [
-   776,
-   505,
-   234
+   626,
+   303,
+   190
   ],
   "bounds": [
    [
-    -0.4837248623371124,
+    -0.41999998688697815,
     0.0,
-    -0.29016464948654175
+    -0.2842999994754791
    ],
    [
-    0.46887296438217163,
-    0.5091915130615234,
-    0.39594513177871704
+    0.4650000035762787,
+    0.5575000047683716,
+    0.35749998688697815
    ]
   ],
-  "bytes": 147804,
+  "bytes": 85128,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_weaver_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_future_v0.png",
@@ -907,7 +907,7 @@
   "triangles": 760,
   "lod_triangles": [
    760,
-   489,
+   433,
    218
   ],
   "bounds": [
@@ -922,7 +922,7 @@
     0.39594513177871704
    ]
   ],
-  "bytes": 143812,
+  "bytes": 138320,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_weaver_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_industrial_v0.png",

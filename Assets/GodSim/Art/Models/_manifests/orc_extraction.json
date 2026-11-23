@@ -19,7 +19,7 @@
   "triangles": 1092,
   "lod_triangles": [
    1092,
-   713,
+   621,
    345
   ],
   "bounds": [
@@ -34,7 +34,7 @@
     0.8149999976158142
    ]
   ],
-  "bytes": 193896,
+  "bytes": 188224,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_coal_mine_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_coal_mine_future_v0.png",
@@ -64,7 +64,7 @@
   "triangles": 1064,
   "lod_triangles": [
    1064,
-   685,
+   605,
    317
   ],
   "bounds": [
@@ -79,7 +79,7 @@
     0.8149999976158142
    ]
   ],
-  "bytes": 187452,
+  "bytes": 182972,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_coal_mine_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_coal_mine_industrial_v0.png",
@@ -197,7 +197,7 @@
   "triangles": 1120,
   "lod_triangles": [
    1120,
-   680,
+   638,
    320
   ],
   "bounds": [
@@ -212,7 +212,7 @@
     0.8149999976158142
    ]
   ],
-  "bytes": 194668,
+  "bytes": 192816,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_gold_mine_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_gold_mine_future_v0.png",
@@ -285,7 +285,7 @@
   "triangles": 934,
   "lod_triangles": [
    934,
-   577,
+   531,
    266
   ],
   "bounds": [
@@ -300,7 +300,7 @@
     0.6338409781455994
    ]
   ],
-  "bytes": 161228,
+  "bytes": 159416,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_mine_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_ancient_v0.png",
@@ -330,7 +330,7 @@
   "triangles": 926,
   "lod_triangles": [
    926,
-   581,
+   527,
    282
   ],
   "bounds": [
@@ -345,7 +345,7 @@
     0.6338409781455994
    ]
   ],
-  "bytes": 163532,
+  "bytes": 161352,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_mine_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_classical_v0.png",
@@ -375,7 +375,7 @@
   "triangles": 979,
   "lod_triangles": [
    979,
-   634,
+   558,
    302
   ],
   "bounds": [
@@ -390,7 +390,7 @@
     0.8149999976158142
    ]
   ],
-  "bytes": 174576,
+  "bytes": 170344,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_mine_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_future_v0.png",
@@ -419,7 +419,7 @@
   "triangles": 951,
   "lod_triangles": [
    951,
-   606,
+   542,
    274
   ],
   "bounds": [
@@ -434,7 +434,7 @@
     0.8149999976158142
    ]
   ],
-  "bytes": 168124,
+  "bytes": 164732,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_mine_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_mine_industrial_v0.png",
@@ -460,25 +460,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1036,
+  "triangles": 1118,
   "lod_triangles": [
-   1036,
-   635,
-   314
+   1118,
+   637,
+   333
   ],
   "bounds": [
    [
-    -0.8467057347297668,
+    -0.7785787582397461,
     0.0,
-    -0.5799999833106995
+    -0.7477641105651855
    ],
    [
-    0.7519910931587219,
-    1.1494522094726562,
-    0.7530680894851685
+    0.7279999852180481,
+    1.5950000286102295,
+    0.6499711871147156
    ]
   ],
-  "bytes": 178720,
+  "bytes": 181836,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_oil_well_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_oil_well_future_v0.png",
@@ -506,7 +506,7 @@
   "triangles": 1020,
   "lod_triangles": [
    1020,
-   619,
+   581,
    298
   ],
   "bounds": [
@@ -521,7 +521,7 @@
     0.7530680894851685
    ]
   ],
-  "bytes": 174904,
+  "bytes": 172084,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Extraction/bld_orc_oil_well_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Extraction/bld_orc_oil_well_industrial_v0.png",

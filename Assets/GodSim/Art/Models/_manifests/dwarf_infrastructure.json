@@ -466,7 +466,7 @@
   "triangles": 576,
   "lod_triangles": [
    576,
-   348,
+   328,
    82
   ],
   "bounds": [
@@ -481,7 +481,7 @@
     0.40450000762939453
    ]
   ],
-  "bytes": 77264,
+  "bytes": 77144,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Infrastructure/bld_dwarf_storehouse_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_storehouse_ancient_v0.png",
@@ -512,7 +512,7 @@
   "triangles": 572,
   "lod_triangles": [
    572,
-   352,
+   326,
    78
   ],
   "bounds": [
@@ -527,7 +527,7 @@
     0.40450000762939453
    ]
   ],
-  "bytes": 75080,
+  "bytes": 74956,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Infrastructure/bld_dwarf_storehouse_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_storehouse_classical_v0.png",
@@ -557,7 +557,7 @@
   "triangles": 576,
   "lod_triangles": [
    576,
-   348,
+   328,
    82
   ],
   "bounds": [
@@ -572,7 +572,7 @@
     0.40450000762939453
    ]
   ],
-  "bytes": 76308,
+  "bytes": 76188,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Infrastructure/bld_dwarf_storehouse_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_storehouse_future_v0.png",
@@ -601,7 +601,7 @@
   "triangles": 560,
   "lod_triangles": [
    560,
-   356,
+   318,
    90
   ],
   "bounds": [
@@ -616,7 +616,7 @@
     0.40450000762939453
    ]
   ],
-  "bytes": 75672,
+  "bytes": 74996,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Infrastructure/bld_dwarf_storehouse_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_storehouse_industrial_v0.png",
@@ -646,7 +646,7 @@
   "triangles": 902,
   "lod_triangles": [
    902,
-   584,
+   514,
    220
   ],
   "bounds": [
@@ -661,7 +661,7 @@
     0.33000001311302185
    ]
   ],
-  "bytes": 128444,
+  "bytes": 125752,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Infrastructure/bld_dwarf_well_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_well_ancient_v0.png",
@@ -692,7 +692,7 @@
   "triangles": 934,
   "lod_triangles": [
    934,
-   592,
+   532,
    228
   ],
   "bounds": [
@@ -707,7 +707,7 @@
     0.33000001311302185
    ]
   ],
-  "bytes": 132656,
+  "bytes": 130984,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Infrastructure/bld_dwarf_well_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_well_classical_v0.png",
@@ -734,25 +734,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 934,
+  "triangles": 664,
   "lod_triangles": [
-   934,
-   592,
-   228
+   664,
+   314,
+   182
   ],
   "bounds": [
    [
-    -0.33000001311302185,
+    -0.42750000953674316,
     0.0,
-    -0.33775749802589417
+    -0.3675000071525574
    ],
    [
-    0.33000001311302185,
-    0.5274999737739563,
-    0.33000001311302185
+    0.4325000047683716,
+    0.5546799898147583,
+    0.3675000071525574
    ]
   ],
-  "bytes": 132896,
+  "bytes": 93216,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Infrastructure/bld_dwarf_well_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_well_future_v0.png",
@@ -781,7 +781,7 @@
   "triangles": 1060,
   "lod_triangles": [
    1060,
-   660,
+   604,
    256
   ],
   "bounds": [
@@ -796,7 +796,7 @@
     0.33000001311302185
    ]
   ],
-  "bytes": 151128,
+  "bytes": 150856,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Infrastructure/bld_dwarf_well_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_well_industrial_v0.png",

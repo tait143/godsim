@@ -596,6 +596,343 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_herbalist_ancient_v0",
+          "evidence_sha256": "b2e662697dc09a94aaccb5e9548d38dc2fb2d09689b5636452a72dd9ad77d74a",
+          "observations": "A large mortar and slanted pestle sit outside the squat timber workshop, with three smaller planting pots marking the door. The dark opening, roof cap and stone feet remain legible at LOD1. Ochre and green separate the work surfaces from the planting.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            962,
+            548,
+            236
+          ]
+        },
+        {
+          "id": "bld_dwarf_herbalist_classical_v0",
+          "evidence_sha256": "b0e27b9c9acc3b8ca70bccd7bc4bf0ecbdba0fde91d965bf402fdfc9b9c97733",
+          "observations": "The tiled belt and white cap brighten the shop, but the same mortar, three pots, door position and squat stepped box remain from the Ancient herbalist in both unpainted views. The roof and masonry still join cleanly in LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 82,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Arrange the apothecary around a walled herb garden with a colonnade and herb-drying roof. Break the earlier single-room outline while keeping the hand tools."
+          ],
+          "lod_triangles": [
+            962,
+            548,
+            236
+          ]
+        },
+        {
+          "id": "bld_dwarf_herbalist_future_v0",
+          "evidence_sha256": "b86ff08af3280417955c03fffe95b143477757b7396883c8892bd39507ea75fd",
+          "observations": "Blue panels surround the upper storey of the same squat house, beside the same large mortar and trio of low pots. The outline in neutral light closely matches the older shops. The LOD1 entrance, overhang and support walls are intact.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 81,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the future herbalist box with a terraced growing chamber or paired culture pods linked to a dispensing entrance. Expose that production system in the outline."
+          ],
+          "lod_triangles": [
+            962,
+            548,
+            236
+          ]
+        },
+        {
+          "id": "bld_dwarf_herbalist_industrial_v0",
+          "evidence_sha256": "d8a80cc1da05d118f4770b3c0af4f8171334291feddcc6dde09d6d5238283dfb",
+          "observations": "Dark trim and brick identify the material, but the herb pots, mortar and two-stage square roof retain the Classical and Ancient plan at 64 px. Glazed openings, roof apron and doorway survive the middle LOD.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 82,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Build an industrial distillery with an external condenser or drying loft and service yard. Move the growing and processing areas to change the whole silhouette."
+          ],
+          "lod_triangles": [
+            962,
+            548,
+            236
+          ]
+        },
+        {
+          "id": "bld_dwarf_library_classical_v0",
+          "evidence_sha256": "12e8fba1046eb43c65d60e790bfbcaa6a871918f0bf6b446963afa661a8a5022",
+          "observations": "The large upturned leaves of an open book project over a masonry reading hall. The door, stair and two corner piers anchor the emblem at architectural scale. LOD1 keeps the open-book fold and access from the front.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            512,
+            290,
+            102
+          ]
+        },
+        {
+          "id": "bld_dwarf_library_future_v0",
+          "evidence_sha256": "d89b4602abaef49bfd2a806d3eff6bf94c3fecc6a94472c23fadef9d8b2de308",
+          "observations": "Both grey views show the same large open book over the same rectangular plinth and central door as the Classical library. The thin blue stripe and revised cornice disappear as age cues. The book and supporting hall remain intact at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 82,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Make the future stacks part of a distinct structure, such as a radial archive with an open central reading chamber, while retaining a smaller book emblem."
+          ],
+          "lod_triangles": [
+            534,
+            304,
+            112
+          ]
+        },
+        {
+          "id": "bld_dwarf_scriptorium_ancient_v0",
+          "evidence_sha256": "bbb00698fc9fde294dccf3dbc6afb035e8879cbea471b01b1ed9b3ee14b9b73a",
+          "observations": "The long timber room has an upright quill, projecting writing desk and a short stack of books. Together they identify a copyist's workshop at phone scale. LOD1 keeps the desk ledge, solid flank and doorway under the overhang.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 92,
+            "charm": 94,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            748,
+            426,
+            232
+          ]
+        },
+        {
+          "id": "bld_dwarf_scriptorium_classical_v0",
+          "evidence_sha256": "99a07110bac1ecf95e46995766718ea8831d76136aee45452d6a5e8846f7f1e8",
+          "observations": "The great quill and desk still work as signs of the trade, and the roof and front opening survive LOD1. The narrow shed, end quill, sloping desk roof and book stack retain the Ancient proportions in the two unpainted views.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 83,
+            "construction": 92,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Design a Classical reading cloister or a stepped pair of writing rooms lit through a high arcade. Reposition the desks to suit the changed plan."
+          ],
+          "lod_triangles": [
+            748,
+            426,
+            232
+          ]
+        },
+        {
+          "id": "bld_dwarf_scriptorium_future_v0",
+          "evidence_sha256": "069d59abfaaf49cd6836fa68d6a155ffff328f1935dc4e3856e7248f58b0ade7",
+          "observations": "A high continuous glazed barrel lights the copy room and changes its profile from the paired Industrial roof panels. The quill and slanted desk keep the function identifiable. LOD1 keeps the glazing, roof rim and front access distinct.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            780,
+            444,
+            240
+          ]
+        },
+        {
+          "id": "bld_dwarf_scriptorium_industrial_v0",
+          "evidence_sha256": "53ed7395ab03b7375cc8714300a02077d3519a9fc432829594252f8bf35fb16a",
+          "observations": "Two pitched lights divide the workroom roof and a tall vent rises behind the desk. The added roof bay remains visible at phone scale and the desk, doorway and book-end wall survive LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            756,
+            430,
+            240
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_dwarf_herbalist_classical_v0",
+          "evidence_sha256": "a5daf15c5ad78079755215d9b81292bd5a4d4badaba0ba8ced8c502dcc597334",
+          "observations": "Three exposed medicinal planters occupy a court between low stone walls and an open colonnade. The long pitched roof and planting space separate from the Ancient mortar house and the later distillery. All supports and planters survive LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            808,
+            460,
+            228
+          ]
+        },
+        {
+          "id": "bld_dwarf_herbalist_future_v0",
+          "evidence_sha256": "346dcaa7175d4a6bd2844778643bdf1f96c51065d0ec53d50c982d3003a8137d",
+          "observations": "The two domed growth pods do distinguish this era from the apothecary and distillery in grey. From the main view, however, solid blue tanks and a dispensing booth hide the only herbs between buildings. The plants disappear entirely at LOD1, including in the side view, so the installation reads as tank storage.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 80,
+            "construction": 92,
+            "charm": 84,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Move a substantial planted growing bed, leaf clusters or medicinal cultivation trays to the public-facing side of the dispensing building. Preserve recognizable growing forms in LOD1 and LOD2."
+          ],
+          "lod_triangles": [
+            844,
+            338,
+            160
+          ]
+        },
+        {
+          "id": "bld_dwarf_herbalist_industrial_v0",
+          "evidence_sha256": "7f2f243cae5e2884f995fdcf1385f7e1d246be54b8e514b032f656d87ed989ea",
+          "observations": "A tall banded condenser, spherical still and connected pipe occupy a service yard beside the herb workshop. The low wing has a visible door and a planter stays in front at LOD1. Both neutral angles distinguish it from the older garden and the later pods.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            822,
+            466,
+            184
+          ]
+        },
+        {
+          "id": "bld_dwarf_library_future_v0",
+          "evidence_sha256": "49b5a31570031455f08e366cb8b6e0efcdabba6e8d32a539244816e952291a08",
+          "observations": "Unequal archive towers embrace an open reading court, with shelves turned inward toward the book on its round platform. The counter at the court opening provides scale. The book, shelf bands and courtyard survive the middle mesh, giving a different plan from the Classical book-roof hall.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1172,
+            436,
+            232
+          ]
+        },
+        {
+          "id": "bld_dwarf_scriptorium_classical_v0",
+          "evidence_sha256": "9e86ecbe7146deafd5ea982b3bbd2bfd1f6dd78aa692693d420d67b8ae50d9b6",
+          "observations": "Two vaulted copy rooms flank a taller open arcade. Light-coloured writing surfaces face the central passage, and both rooms have a gold-trimmed door. The middle mesh keeps the desk tops and arcade piers. The passage opens up the dense profile of the Ancient copy shop.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            656,
+            328,
+            208
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_herbalist_future_v0",
+          "evidence_sha256": "bb5c2513365c4717034b4a4f29f015bcd1cfc739cc7a49704256559b80686e08",
+          "observations": "Two prominent leafy planters now sit on the dispensing booth roof and on the public side of the pods. Their plant silhouettes survive the middle mesh, remain legible in both painted age previews, and identify the cultivation function at phone size.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            844,
+            506,
+            216
+          ]
+        }
+      ]
     }
   ]
 }

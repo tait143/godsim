@@ -103,7 +103,33 @@ def bell(m,x,z,foot,h,s):
             m.tusk(0,h+.201,0,1,.31)
 
 
+def cathedral_of_ribs(m):
+    # Deep, sequential white vaults step up toward the faceted apse. Their open portals
+    # frame a ceremonial approach through a luminous shell, with no flanking bell turrets.
+    m.block("fieldstone",0,0,.03,1.46,.12,1.66,.08)
+    m.shell(0,.43,[(.12,.57,"metal"),(.30,.61,"ivory"),(.76,.51,"glass"),
+                    (1.00,.43,"turquoise"),(1.26,.30,"glass"),(1.56,.17,"ascension"),
+                    (1.80,.024,"ivory")],(14,8,5)[m.lod],flatten=.69)
+    for i,(z,h,w) in enumerate(((-.53,.96,1.17),(-.16,1.17,1.32),(.19,1.37,1.41))):
+        with m.transform(translate=(0,.12,z)):
+            memorial_arch(m,0,0,h,w,.17,"ivory" if i!=1 else "turquoise")
+        if m.lod<2 and i!=1:
+            for side in (-1,1):
+                m.tusk(side*w*.429,.48+.15*i,z,side,.49)
+    m.entry(0,.04,.12,.41,.57,3)
+    for s in (-1,1):
+        m.shell(s*.45,-.64,[(.12,.14,"metal"),(.19,.15,"gold"),(.28,.10,"ivory")],(8,6,4)[m.lod])
+        m.tusk(s*.45,.25,-.64,s,.76)
+    mask(m,0,1.06,.118,.54,clad=True)
+    if m.lod==0:
+        for s in (-1,1):
+            offering(m,s*.54,-.19,.115,.12)
+
+
+
 def temple(m,cathedral):
+    if cathedral and m.era==3:
+        return cathedral_of_ribs(m)
     e=m.era
     stone=("wall","plaster","brick","glass")[e]
     roof=("roof","roof_tile","metal","roof")[e]
@@ -201,12 +227,178 @@ def cloister(m):
             m.block("banner",side*.655,.256,-.64,.095,.19,.04)
 
 
+def dressed_tower(m,x,z,h,r):
+    rows=[(0,r*1.11,"fieldstone"),(.12*h,r*1.06,"brick"),(.69*h,r*.77,"brick"),
+          (.71*h,r*.86,"trim"),(.76*h,r*.82,"brick"),(.85*h,r*.78,"brick"),
+          (.88*h,r*.96,"metal"),(.95*h,r*.99,"roof"),(h,r*.60,"trim")]
+    if m.lod==2:
+        rows=[rows[i] for i in (0,1,5,6,8)]
+    m.shell(x,z,rows,(12,7,4)[m.lod])
+
+
+def memorial_arch(m,x,z,h,w,depth,mat):
+    # A continuous inverted U. The piers and arched soffit enclose a real opening.
+    n=(12,8,4)[m.lod]
+    radius=w/2
+    inner=.63*radius
+    spring=h-radius
+    for side in (-1,1):
+        m.block(mat,x+side*.5*(radius+inner),0,z,radius-inner,spring,depth)
+    def p(r,i,d):
+        angle=math.pi*i/n
+        return (x+r*math.cos(angle),spring+r*math.sin(angle),z+d)
+    for i in range(n):
+        a,b,c,d=[p(r,k,-depth/2) for r,k in ((inner,i),(inner,i+1),(radius,i+1),(radius,i))]
+        e,f,g,hp=[(u,v,q+depth) for u,v,q in (a,b,c,d)]
+        m.panel(mat,(a,b,c,d))
+        m.panel(mat,(hp,g,f,e))
+        m.panel("trim",(d,c,g,hp))
+        m.panel(mat,(b,a,e,f))
+
+
+def pilgrim_shrine(m):
+    e=m.era
+    if e==1:
+        # A stone triumphal niche frames the ancestor tablet, with the bowl on the processional axis.
+        memorial_arch(m,0,.13,1.29,1.18,.36,"plaster")
+        m.block("fieldstone",0,0,.39,.88,.15,.48,.08)
+        m.block("wall",0,.15,.39,.46,.58,.23,.14)
+        mask(m,0,.59,.236,.76)
+        for s in (-1,1):
+            m.tusk(s*.49,.78,.12,s,.60)
+        offering(m,0,-.34,.22)
+        if m.lod<2:
+            m.drum(-.51,0,-.31,.14,.17)
+    elif e==2:
+        # A brick devotional furnace with a wrought canopy over a cinder altar.
+        dressed_tower(m,-.34,.25,1.09,.25)
+        dressed_tower(m,.39,.38,1.45,.205)
+        m.block("brick",.02,0,.14,.85,.63,.53,.08)
+        m.prism_x((.02,.63,.14),.99,.71,.23,m.col("metal"),material="metal")
+        mask(m,.02,.53,-.155,.72,clad=True)
+        offering(m,.02,-.54,.237)
+        if m.lod<2:
+            for s in (-1,1):
+                m.post("metal",(s*.39,.12,-.45),(s*.29,.68,-.04),.048,sides=5)
+    else:
+        # The ancestor face is inset into a faceted crystal, guarded by two great tusks.
+        m.shell(0,.19,[(0,.47,"fieldstone"),(.12,.55,"metal"),(.23,.38,"ivory"),
+                        (.46,.22,"turquoise"),(.84,.36,"glass"),(1.10,.27,"ascension"),
+                        (1.37,.047,"ivory")],(10,7,4)[m.lod],flatten=.71)
+        mask(m,0,.71,-.039,.61,clad=True)
+        for s in (-1,1):
+            m.shell(s*.45,-.02,[(0,.18,"fieldstone"),(.12,.21,"metal"),(.23,.12,"gold")],(8,5,4)[m.lod])
+            m.tusk(s*.45,.20,-.02,s,1.07)
+        offering(m,.02,-.58,.19)
+        if m.lod==0:
+            for s in (-1,1):
+                m.post("metal",(s*.40,.14,.015),(s*.22,.41,.16),.044,sides=6)
+
+
+def high_temple(m):
+    e=m.era
+    if e==1:
+        # A pyramidal terrace raises the sanctuary above a line of processional stairs.
+        for k,(w,d,h) in enumerate(((1.55,1.11,.15),(1.24,.90,.18),(.96,.69,.21))):
+            y=(0,.15,.33)[k]
+            m.block("fieldstone" if k==0 else "plaster",0,y,.20,w,h,d,.08)
+        m.block("wall",0,.54,.19,.72,.47,.58)
+        m.entry(0,-.12,.54,.29,.35,e)
+        m.pyramid((0,1.01,.19),.96,.83,.42,m.col("roof_tile"),material="roof_tile")
+        mask(m,0,.95,-.169,.47)
+        for j in range((5,4,3)[m.lod]):
+            n=(5,4,3)[m.lod]
+            z=-.55+j*.49/n
+            m.block("wall",0,0,z,.49+.06*(1-j/n),.54*(j+1)/n,.49/n)
+        for s in (-1,1):
+            m.tusk(s*.60,.154,.20,s,.69)
+            if m.lod<2:
+                offering(m,s*.48,-.46,.14)
+    elif e==2:
+        # A bell and metal lantern crown a compact cruciform hall with low transepts.
+        for s in (-1,1):
+            x=s*.55
+            m.block("brick",x,0,.20,.54,.43,.72,.055)
+            m.hip_roof((x,.43,.20),.64,.81,.24,m.col("metal"),overhang=0,material="metal")
+            if m.lod<2:
+                m.tusk(x+s*.12,.45,.18,s,.51)
+        m.block("fieldstone",0,0,-.17,.75,.12,1.17,.03)
+        m.block("brick",0,.115,-.17,.69,.52,1.11)
+        with m.transform(translate=(0,.635,-.17),rotate_y=90):
+            m.prism_x((0,0,0),1.20,.80,.26,m.col("metal"),material="metal")
+        bell(m,0,.25,0,1.31,1.06)
+        m.entry(0,-.75,.04,.33,.44,e)
+        mask(m,0,.69,-.773,.48,clad=True)
+        if m.lod==0:
+            offering(m,-.63,-.44,.169)
+    else:
+        # Three exterior buttresses carry a faceted luminous spire over a broad congregation drum.
+        m.shell(0,.19,[(0,.72,"fieldstone"),(.12,.77,"ivory"),(.23,.68,"metal"),
+                        (.55,.60,"glass"),(.64,.70,"ivory"),(.73,.55,"turquoise"),
+                        (.82,.39,"metal"),(1.11,.26,"glass"),(1.46,.15,"ascension"),
+                        (1.68,.032,"ivory")],(12,7,5)[m.lod],flatten=.81)
+        m.entry(0,-.375,.03,.34,.43,e)
+        for angle in (-64,64,180):
+            with m.transform(translate=(0,0,.19),rotate_y=angle):
+                foot=.65 if angle==180 else .74
+                m.block("fieldstone",0,0,-foot,.22,.12,.24,.08)
+                m.post("ivory",(0,.08,-foot),(0,.83,-.40),.12,.065,sides=(7,5,4)[m.lod])
+                m.post("turquoise",(0,.81,-.41),(0,1.41,-.16),.072,.029,sides=(7,5,4)[m.lod])
+                if m.lod==0:
+                    m.tusk(.04,.32,-.65,1,.42)
+        mask(m,0,.66,-.356,.50,clad=True)
+        if m.lod<2:
+            offering(m,-.40,-.50,.155)
+
+
+def monastic_order(m):
+    if m.era==2:
+        # The communal refectory joins a lantern tower to the low walled herb garth.
+        m.block("brick",-.27,0,.43,1.12,.57,.64)
+        m.prism_x((-.27,.57,.43),1.24,.76,.29,m.col("metal"),material="metal")
+        m.entry(-.45,.080,0,.32,.43,m.era)
+        bell(m,.45,.33,0,1.18,1.20)
+        for s in (-1,1):
+            m.block("brick",s*.60,0,-.30,.15,.28,.78)
+            m.block("plaster",s*.60,.28,-.30,.18,.067,.80,.05)
+        m.block("grass",0,0,-.30,1.05,.048,.76,.06)
+        offering(m,.03,-.29,.195,.048)
+        mask(m,-.27,.68,.046,.49)
+        if m.lod==0:
+            for s in (-1,1):
+                m.drum(s*.57,0,-.72,.107,.18)
+    else:
+        # Pods of individual cells cluster round a raised gong on its open frame.
+        for x,z,h,r in ((-.58,.19,.62,.31),(-.30,.54,.88,.30),(.27,.56,.79,.32),(.59,.12,.55,.30)):
+            m.shell(x,z,[(0,r,"fieldstone"),(.13*h,r*1.10,"metal"),(.52*h,.94*r,"glass"),
+                         (.65*h,1.18*r,"ivory"),(.73*h,1.15*r,"turquoise"),
+                         (h,.28*r,"metal")],(10,7,4)[m.lod],flatten=.85)
+            if m.lod<2:
+                m.block("door",x,0,z-r*.78,r*.55,.35*h,.052)
+            if m.lod==0:
+                m.tusk(x+r*.72,.63*h,z,1,.35)
+        memorial_arch(m,0,-.27,1.14,1.00,.16,"ivory")
+        m.post("gold",(0,.71,-.27),(0,1.07,-.27),.026,sides=5)
+        m.post("gold",(0,.66,-.326),(0,.66,-.211),.232,sides=(14,9,6)[m.lod])
+        m.post("trim",(0,.66,-.344),(0,.66,-.322),.069,sides=(9,6,4)[m.lod])
+        for s in (-1,1):
+            m.shell(s*.47,-.36,[(0,.13,"fieldstone"),(.12,.15,"metal"),(.22,.092,"ivory")],(9,6,4)[m.lod])
+            m.tusk(s*.47,.18,-.36,s,.49)
+        offering(m,.02,-.60,.17)
+
+
 def build(spec,lod):
     m=Lodge(spec,lod)
     t=spec.building_type
     with m.transform(scale=spec.footprint[0]/2):
         if t=="SpiritTotem":
             idol(m)
+        elif t=="Shrine" and m.era>0:
+            pilgrim_shrine(m)
+        elif t=="Temple" and m.era>0:
+            high_temple(m)
+        elif t=="Monastery" and m.era>1:
+            monastic_order(m)
         elif t=="Shrine":
             shrine(m)
         elif t=="Monastery":

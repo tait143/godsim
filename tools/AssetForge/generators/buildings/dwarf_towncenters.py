@@ -90,10 +90,10 @@ class Stonework(MeshBuilder):
                     self.block("timber",x+s*w*.184,y+.009,z-.062,w*.18,h*.55,.015)
                     self.block("gold",x+s*w*.096,y+h*.32,z-.072,w*.044,h*.079,.018)
 
-    def lamp(self,x,y,z,size):
-        self.drum("trim",x,y,z,size*.67,size*.44,top=size*.52)
-        self.drum("forge",x,y+size*.43,z,size*.49,size*.66,top=size*.39)
-        self.drum("accent",x,y+size*1.08,z,size*.63,size*.32,top=size*.27)
+    def lamp(self,x,y,z,size,segments=None):
+        self.drum("trim",x,y,z,size*.67,size*.44,top=size*.52,n=segments)
+        self.drum("forge",x,y+size*.43,z,size*.49,size*.66,top=size*.39,n=segments)
+        self.drum("accent",x,y+size*1.08,z,size*.63,size*.32,top=size*.27,n=segments)
 
     def vault(self,mat,x,y,z,w,h,d):
         # Five-sided transverse barrel with flat crown and two loading shoulders.
@@ -262,7 +262,9 @@ def build(spec,lod):
         for s in (-1,1):
             m.slab("wall",s*.636,.065,-.535,.245,h+.034,.36,.14,.19)
             m.slab("accent",s*.636,h+.092,-.535,.238,.043,.318,.12)
-            m.lamp(s*.636,h+.13,-.535,.10)
+            # The small braziers need fewer facets than the nearby recessed gate.
+            segments=5 if lod==1 and age in (0,7,8,9) else None
+            m.lamp(s*.636,h+.13,-.535,.10,segments)
         m.rune(0,h+.012,-.811,.174)
         for s in (-1,1):
             m.block("trim",s*.847,.138,.13,.105,h-.02,.118,taper=.16)

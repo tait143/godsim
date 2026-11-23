@@ -446,6 +446,80 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "independent_saurian_round1_2026_11_23",
+      "models": [
+        {
+          "id": "bld_saurian_monastery_classical_v0",
+          "evidence_sha256": "b56b5a37fec22db9cc80f0ea067e9054c9c3df8f6c8b4863bf2a653bd92b3b52",
+          "observations": "Two long cloister roofs flank a bright inner court and lead toward a distinct central bell roof. The court stays visible between the outer porch posts on the middle mesh. All three palettes retain the path and tower. The serialized meshes have 1365, 777, 217 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 1.51% of front-view pixels and 1.90% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_monastery_future_v0",
+          "evidence_sha256": "5228db56c008dc11b7296fb5bf1704ac210532c71e7dee90f364998b8da87607",
+          "observations": "Two domed cells and a high gold arch frame a turquoise courtyard basin. At 64 px the twin rooms, arch opening and near-edge pool read as separate forms. The earlier linear cloister and pointed bell roof have been replaced. The serialized meshes have 1028, 582, 192 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_monastery_industrial_v0",
+          "evidence_sha256": "8d46d3e7586817ddb863d15af304b8badc53baf520bc6b9b170c5929d5445dbe",
+          "observations": "A square bell tower stands alongside a low barrel-roof hall, with a covered walk and a visible pool below. The tower remains separated from the hall even in the reverse far view. The asymmetrical layout breaks the older paired cloister wings. The serialized meshes have 756, 449, 200 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_saurian_monastery_classical_v0",
+          "evidence_sha256": "c3238f38fb8976c84284a6985b5a23ee50e4f4d00b4125f87d04479c2cc1d0e4",
+          "observations": "Three roofed ranges remain around the small blue courtyard pool. Their back walls and roof edges stay connected, and the sheltered doors remain visible from the front.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1365,
+            777,
+            217
+          ]
+        }
+      ]
     }
   ]
 }

@@ -578,6 +578,336 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_farm_classical_v0",
+          "evidence_sha256": "4e395eada0e55199d35b2385ac9f622b9510d8aca35f30501b163e09441093ff",
+          "observations": "The planted furrows and small side granary identify this as a working field. The tall gable and supported front porch change the earlier hip-roofed farmhouse profile. The rows remain readable at the far level. Serialized triangle counts are 639, 364, 166 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 90,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_ancient_v0",
+          "evidence_sha256": "a95f80efe1a4af1273935ab14592ad6009a8dc258a39d58e1ed9949a599e3c0d",
+          "observations": "The hip roof, open boat and net rack identify the timber landing. At LOD1 the side and rear of the cabin fold inward diagonally, opening the lower part of the wall above the dock. Serialized triangle counts are 733, 416, 134 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 92,
+            "construction": 80,
+            "charm": 93,
+            "colour": 92,
+            "technical": 88
+          },
+          "defects": [
+            "Keep a complete rectangular cabin wall and continuous sill under the hip roof at LOD1. Check the side and rear at 35 and 305 degrees."
+          ]
+        },
+        {
+          "id": "bld_human_fishing_hut_classical_v0",
+          "evidence_sha256": "7dc94a0845a118bb5fd31ba4542f91dd7289af1995357f79d7ea43bb8404c225",
+          "observations": "The tile gable and extended pale porch distinguish the classical landing. The LOD1 cabin loses the corner between its blank side and rear, leaving large triangular wall openings above the deck. Serialized triangle counts are 783, 446, 166 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 90,
+            "construction": 79,
+            "charm": 93,
+            "colour": 94,
+            "technical": 88
+          },
+          "defects": [
+            "Restore the two solid plane faces at the side and rear cabin corner in LOD1. Simplify the net or small dock items to recover the budget."
+          ]
+        },
+        {
+          "id": "bld_human_fishing_hut_future_v0",
+          "evidence_sha256": "d3a7fda6fb8e830e75f81fa07342fd9618f93024d9d83a7657d919697188b95b",
+          "observations": "The glazed single-slope roof and continuous eave replace the industrial gable and chimney. The small window, dock crane and moored dinghy keep the bright hut tied to fishing. Serialized triangle counts are 453, 258, 136 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_industrial_v0",
+          "evidence_sha256": "27755d58c5a5b4072ba19c4402e67a178ed7f14a1f762454895f795549e9a74f",
+          "observations": "A raised roof vent and chimney accompany the brick shed, while the open net rack gives way to a loading davit. The medium model keeps the opening beneath the roof and a clear boat alongside the dock. Serialized triangle counts are 475, 270, 126 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_hunting_lodge_classical_v0",
+          "evidence_sha256": "84db26235d87fd6c6f0dde0e9f870d2e4b8cfaa49c09db8578992326a01318e7",
+          "observations": "The antler badge, stretched hide and pale porch distinguish the lodge. At LOD1 the rear plaster wall and its adjacent side collapse toward one point, leaving the roof over a large open wedge. Serialized triangle counts are 423, 240, 134 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 90,
+            "construction": 79,
+            "charm": 92,
+            "colour": 93,
+            "technical": 88
+          },
+          "defects": [
+            "Preserve box-shaped side and rear wall planes between the sill and gable in LOD1. Verify the 35- and 305-degree views as well as the front porch."
+          ]
+        },
+        {
+          "id": "bld_human_hydroponics_tower_future_v0",
+          "evidence_sha256": "88696f4e8a622e91f3a7549576d0af72b99dbbad64af64d077659c7bebeca541",
+          "observations": "Stacked green growing decks wrap a glazed central shaft, with a domed roof above and a blue entry canopy below. The setbacks and crop bands read from both sides as the planter detail thins. Serialized triangle counts are 725, 412, 232 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_industrial_farm_future_v0",
+          "evidence_sha256": "c2422a3d37b3c4f8f06ee36ae4d5ad23260c88ffe555f1ba31866038bb8afe64",
+          "observations": "The same two parallel glass ranges, common head house and single corner silo occupy virtually the same footprint as the modern farm. A slightly longer tunnel and small entry canopy do little to separate the unpainted views. Serialized triangle counts are 666, 378, 178 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 83,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Change the future growing system or layout at building scale, such as one stepped vertical growing hall. Retain a visible produce entrance and the agricultural function."
+          ]
+        },
+        {
+          "id": "bld_human_industrial_farm_industrial_v0",
+          "evidence_sha256": "a8e20e3aa427c1fdf4095195b241b0d89e335b6bb5c406d0a1f7064d682001fd",
+          "observations": "Two low greenhouse ranges line the farm pad next to a tall cylindrical tank and a shared head house. Produce crates give scale at the front. Both growing tunnels remain identifiable at each distance. Serialized triangle counts are 634, 360, 146 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_pasture_ancient_v0",
+          "evidence_sha256": "de8234bff840f64ac5b10672f8308a84baed7dc60c5e02652a4da583b3e4fa9b",
+          "observations": "A low timber shelter sits in a roughly square rail pen with white sheep around its front. Grass, fencing and the water trough make the yard readable, and both grey views distinguish it from the upright classical byre. Serialized triangle counts are 891, 506, 228 at LOD0, LOD1 and LOD2. Its largest directed LOD0 corner match with another era is 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_pasture_classical_v0",
+          "evidence_sha256": "bafc3a8b1bb60ddec323e8bba67bf3196f78bab2289172d52ae7186dadba9ef8",
+          "observations": "An upright masonry byre faces a shortened, angled paddock. The prominent dark doorway and pitched tile roof remain legible behind the sheep. The changed orientation and building proportions show up from both sides without paint. Serialized triangle counts are 654, 372, 208 at LOD0, LOD1 and LOD2. Its largest directed LOD0 corner match with another era is 6.4%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_pasture_future_v0",
+          "evidence_sha256": "e9bdbe4dbdf6904894383730f69997769a58e49b2d7b897317f336d7d64a2ebb",
+          "observations": "A round shelter with spaced piers and a broad shallow cap replaces the earlier barn and silo. The fenced strip, sheep and trough keep its function clear. The supported circular shelter reads in both unpainted angles. Serialized triangle counts are 860, 490, 250 at LOD0, LOD1 and LOD2. Its largest directed LOD0 corner match with another era is 4.9%.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_pasture_industrial_v0",
+          "evidence_sha256": "60e39a395549c7970e2686c7cad136f878a16002a994b6dfa474e5c03c6bcb44",
+          "observations": "The broad barn and attached silo form a long, high back edge to the fenced pen. The sheep, dark entry and trough give scale, while the paired roof and silo remain recognizable at all three distances. Serialized triangle counts are 699, 397, 210 at LOD0, LOD1 and LOD2. Its largest directed LOD0 corner match with another era is 6.0%.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_farm_classical_v0",
+          "evidence_sha256": "4cd9de324e75798bd03b1115af919ee96a2db75f4b36356c919741d18b0638b2",
+          "observations": "The middle mesh simplifies individual plants into long crop rows and keeps the granary distinct from the farmhouse. The front porch and enclosed rear walls remain intact below the tiled gable. Serialized triangle counts are 639, 364, 166 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 90,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_ancient_v0",
+          "evidence_sha256": "08037571b7db25b15c6e52415cf8635fbfeb6e81cbb34af1a0476dee664235e3",
+          "observations": "The pile landing, moored boat and rack flank a low hip-roofed timber cabin. The previously collapsed side and rear corner now stand continuously on the sill at LOD1 in all three painted angles. Serialized triangle counts are 733, 382, 134 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_classical_v0",
+          "evidence_sha256": "587fc6b70063c502f52b44e71a7c015eac511a05fc5e6d88f9ac379de781a21d",
+          "observations": "The projecting cream porch still marks the gabled hut across its three age finishes. The middle mesh now closes the side and rear walls beneath the roof, retaining both porch posts, the net rack and boat. Serialized triangle counts are 783, 426, 166 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_future_v0",
+          "evidence_sha256": "db288dafe9ac3efba67bed08c9dc4e80255dd2703b3a6013d5c8aee1f84ec3b7",
+          "observations": "The blue single-slope roof remains whole, and the davit stays attached to the dock in both middle-distance approach views. The rear wall closes cleanly beneath the glazed eave. Serialized triangle counts are 453, 258, 136 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_industrial_v0",
+          "evidence_sha256": "5b13ca761a6f6d5818c2e41b9e11fbb5d21b49da617c439cd89c97661a3b3008",
+          "observations": "The squared lifting crane and brick cabin frame an identifiable boat slip. LOD1 retains the sill, rear wall and continuous pitched roof, with a block roof vent replacing much of the small chimney detail. Serialized triangle counts are 475, 270, 126 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_hunting_lodge_classical_v0",
+          "evidence_sha256": "01e1d83c3cfd7e58beeae3a5010c59b88ebd96ce9359abefce2a45fcf9f7f00d",
+          "observations": "The hide hangs between the porch posts beneath the antler-marked gable. The broad plaster side and rear wall now meet at a closed vertical corner at medium distance. The front doorway and porch roof still read clearly. Serialized triangle counts are 423, 234, 134 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_hydroponics_tower_future_v0",
+          "evidence_sha256": "dbe6ea43394c33b29601a53c559566a5b0923d006fe57aeabf5c5a95e70ce03d",
+          "observations": "The glass growing core, green trays and blue entry canopy remain identifiable in the middle and far meshes. Side views show each tray joining the core, with clear gaps between planted levels. Serialized triangle counts are 725, 412, 232 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_industrial_farm_future_v0",
+          "evidence_sha256": "9762e156de43ce2d332688153877e6f67d07a22b664e4ced8f5d544de0c7437c",
+          "observations": "Three cantilevered crop shelves step up a central irrigation block above a separate blue packing entrance. Their profile is distinct from the earlier twin glass tunnels at both grey angles. Individual plants remain visible on the middle-distance trays. Serialized triangle counts are 342, 194, 102 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_industrial_farm_industrial_v0",
+          "evidence_sha256": "29c238432e315b1a8635cb10f72e6a6781ef0a60b148b411d7a4dc659839e374",
+          "observations": "The two glazed growing ranges, corner silo and low shared head house remain legible in each middle view. The wider service gap and small produce crates give the low farm a readable working front. Serialized triangle counts are 634, 360, 146 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

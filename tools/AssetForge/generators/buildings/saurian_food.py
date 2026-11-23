@@ -5,6 +5,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from generators.buildings.saurian_towncenters import Delta, generate
+from generators.buildings import saurian_delta_works as works
 
 PACKAGE = "saurian_food"
 
@@ -40,6 +41,54 @@ def punt(m,x,z):
 
 
 def fisher(m):
+    if m.era:
+        # A landing net, a roofed commercial slip and an offshore harvesting
+        # station are three different methods of working the same tidal fishery.
+        m.slab("water",0,0,0,1.90,.058,1.76,.97)
+        if m.era==1:
+            for x in (-.61,.09):
+                for z in (-.17,.57):
+                    m.drum("timber",x,.058,z,.071,.27,n=(8,5,4)[m.lod])
+            m.slab("timber",-.26,.328,.20,1.02,.083,1.08,underside=True)
+            works.pagoda(m,-.32,.34,.84,.76,.61,y=.411)
+            # Four dog-leg poles gather the suspended square dip-net to a common hook.
+            cx,cz=.49,-.32
+            for x,z in ((.14,-.63),(.80,-.63),(.80,.00),(.14,.00)):
+                m.rod("trim",(x,.32,z),(cx,1.03,cz),.027,n=(6,4,3)[m.lod])
+            corners=[(.14,.32,-.63),(.80,.32,-.63),(.80,.32,0),(.14,.32,0)]
+            for i,corner in enumerate(corners):
+                m.face("hide",(corner,(cx,.163,cz),corners[(i+1)%4]))
+            m.rod("timber",(-.03,.408,-.01),(.49,1.05,-.32),.060)
+            if m.lod==0:
+                for x in (-.61,.09):
+                    m.drum("gold",x,.24,-.17,.076,.044,n=8)
+        elif m.era==2:
+            m.slab("fieldstone",-.40,.058,.08,.93,.195,1.56,.94)
+            works.barrel(m,-.42,.41,.74,.79,.37,.32,y=.253)
+            with m.transform(translate=(.48,0,-.16),scale=(1.4,1.15,1)):
+                punt(m,0,0)
+            for x in (-.26,.64):
+                m.slab("metal",x,.058,.18,.11,.98,.13,.85)
+            m.slab("metal",.19,1.038,.18,1.05,.11,.18,.95,underside=True)
+            m.rod("trim",(.45,.54,.18),(.45,1.04,.18),.024)
+            if m.lod<2:
+                m.jar(-.54,.253,-.46,.129,"hide")
+        else:
+            # Circular tidal pen and pier-mounted boom feed the raised sorting pod.
+            for x in (-.61,-.26):
+                for z in (.09,.60):
+                    m.slab("ivory",x,.058,z,.12,.38,.14,.74)
+            m.slab("ivory",-.435,.438,.345,.80,.077,.87,underside=True)
+            works.lens(m,-.435,.35,.33,.37,y=.515)
+            with m.transform(translate=(.37,.258,-.24),rotate_x=90):
+                m.ring("turquoise",0,0,0,.46,.378,.16,n=(18,10,6)[m.lod])
+            for x,z in ((.02,-.48),(.73,-.48),(.36,.14)):
+                m.drum("ivory",x,.058,z,.048,.24)
+            m.rod("gold",(-.15,.67,.25),(.36,.82,-.24),.043)
+            m.rod("metal",(.36,.23,-.24),(.36,.82,-.24),.025)
+            if m.lod<2:
+                m.mound("turquoise",.36,.19,-.24,.12,.10)
+        return
     for x in (-.70,.18):
         for z in (-.52,.60):
             m.drum("timber",x,0,z,.075,.325,n=(8,6,4)[m.lod])
@@ -106,7 +155,101 @@ def rack_silo(m,x,z,large):
             m.drum("turquoise",x,.06+h*k,z,r*1.027,.037,n=(10,7)[m.lod])
 
 
+def irrigated_delta(m):
+    """Low contour beds follow the delta's waterline below a solar sluice house."""
+    m.slab("water",0,.08,-.015,1.80,.033,1.69,.98,cut=.11)
+    for row,(front,end) in enumerate(((-.65,.65),(-.29,.75),(.07,.70),(.43,.12))):
+        start=-.79 if row < 3 else -.67
+        depth=.117
+        top=.21+row*.023
+        # The planting strip follows a sweeping contour, with sloped shoulders
+        # and a dark earth crown. The continuous water between berms is visible.
+        sections=(7,5,3)[m.lod]
+        def center(t):
+            return start+(end-start)*t, front+.15*math.sin(math.pi*t)
+        def course(t):
+            x,z=center(t)
+            # Bevel only the two ends of each bed so water can flow round them.
+            breadth=depth*(.67 if t==0 or t==1 else 1)
+            return [(x,.113,z-breadth),(x,top,z-breadth*.78),
+                    (x,top,z+breadth*.78),(x,.113,z+breadth)]
+        rings=[course(i/sections) for i in range(sections+1)]
+        m.face("soil",rings[0][::-1])
+        m.face("soil",rings[-1])
+        for near,far in zip(rings,rings[1:]):
+            for i,role in enumerate(("wall","soil","wall")):
+                m.face(role,(near[i],near[i+1],far[i+1],far[i]))
+
+        count=((6,4,3) if row<3 else (4,3,2))[m.lod]
+        for j in range(count):
+            x,z=center((j+.5)/count)
+            # Paired folded leaves silhouette the crop at a distance. The seed
+            # head leans towards open water, visible above the plant's crown.
+            direction=1 if (row+j)%2 else -1
+            crown=(x,top,z)
+            for side in (-1,1):
+                m.blade("leaf" if side==-1 else "grass",crown,
+                        (x+side*.105,top+.122,z+side*.049),.060)
+            if m.lod<2:
+                m.blade("thatch" if row%2 else "gold",crown,
+                        (x+.048*direction,top+.223,z-.036),.036)
+            if m.lod==0:
+                m.blade("leaf",crown,(x-.043,top+.149,z+.100),.050)
+    # This small pump sits on dry ground at the head of the canal. Its gold
+    # calendar faces the service court, with a horizontal solar collector above.
+    x,z=.53,.58
+    m.slab("fieldstone",x,.113,z,.59,.068,.45,.94)
+    m.slab("ivory",x,.181,z,.42,.224,.31,.89)
+    m.entry(x,.181,z-.155,.163,.176)
+    with m.transform(translate=(x,.403,z),rotate_x=-11):
+        m.slab("turquoise",0,0,0,.55,.048,.36,.94,cut=.11,underside=True)
+        m.slab("glass",0,.048,0,.48,.015,.295,.96)
+    m.rod("turquoise",(.72,.257,.54),(.837,.257,.36),.042)
+    m.rod("ivory",(.837,.257,.36),(.837,.136,.31),.042)
+    if m.lod<2:
+        m.disc(x,.322,z-.169,.056,"gold",False)
+        if m.lod==0:
+            for i in (-1,0,1):
+                m.block("turquoise",x+.206,.270,z+i*.064,.022,.080,.032)
+
+
 def field(m,mechanical):
+    if m.era and (not mechanical or m.era==3):
+        works.footing(m,1.94,1.88,"soil")
+        if mechanical:
+            # Three walk-in hydroponic glasshouses share a circular feed reservoir.
+            for x,z,depth in ((-.60,.09,1.35),(-.01,.04,1.54),(.58,.22,1.11)):
+                m.slab("wall",x,.08,z,.52,.18,depth,.96)
+                works.ridge(m,x,z,.54,depth,.65,y=.26)
+                m.entry(x,.08,z-depth/2,.16,.158)
+            works.vessel(m,.60,-.55,.214,.38,role="turquoise")
+        elif m.era==1:
+            # An upland gravity-fed terrace with paddies stepping back and up.
+            for j in range(3):
+                w=1.76-.17*j
+                z=-.53+.45*j
+                h=.145+.215*j
+                m.slab("wall",-.015,.08,z,w,h,.43,.96)
+                m.slab("water",-.015,.08+h,z,w*.93,.023,.348)
+                for k in range((6,4,2)[m.lod]):
+                    n=(6,4,2)[m.lod]; x=-.015+w*.81*((k+.5)/n-.5)
+                    m.slab("leaf",x,.103+h,z,w*.64/n,.094,.224,.36,cut=.078)
+            works.pagoda(m,.08,.57,.61,.49,.48,y=.655)
+        elif m.era==2:
+            # A steam irrigation wheel lifts the river into two long planting beds.
+            works.barrel(m,-.47,.39,.74,.85,.39,.20)
+            works.spire(m,-.70,.53,.098,1.02)
+            m.slab("water",-.41,.08,-.45,.87,.064,.55)
+            works.wheel(m,-.39,.49,-.34,.34)
+            m.rod("metal",(-.39,.49,-.35),(-.39,.49,.21),.062)
+            for x in (.24,.63):
+                m.slab("soil",x,.08,-.03,.31,.12,1.45,.91)
+                for k in range((7,4,2)[m.lod]):
+                    n=(7,4,2)[m.lod];z=-.62+(k+.5)*1.18/n
+                    m.slab("leaf",x,.20,z,.23,.16,1.03/n,.47)
+        else:
+            irrigated_delta(m)
+        return
     m.slab("plaster" if m.era==0 else "soil",0,0,0,1.94,.06,1.87,.99,cut=.045)
     m.house(-.43,.06,.54,.84,.55,.59,role="metal" if m.era==0 else None)
     rack_silo(m,.262 if mechanical else .35,.55,mechanical)
@@ -155,6 +298,47 @@ def animal(m,x,z,angle):
 
 
 def pasture(m):
+    if m.era:
+        works.footing(m,1.93,1.86,"grass")
+        if m.era==1:
+            # Crescent dry-stone paddock leaves an open pasture gate in front.
+            works.pagoda(m,-.42,.44,.78,.63,.59)
+            center=(.23,-.16)
+            count=(13,8,4)[m.lod]
+            for i in range(count):
+                a,b=[math.radians(-60+(290*j/count)) for j in (i,i+1)]
+                A=(center[0]+.57*math.cos(a),.24,center[1]+.56*math.sin(a))
+                B=(center[0]+.57*math.cos(b),.24,center[1]+.56*math.sin(b))
+                m.rod("timber",A,B,.039,n=4)
+                m.drum("wall",A[0],.08,A[2],.057,.25,.047,n=(7,5,4)[m.lod])
+            with m.transform(translate=(0,.015,0)):
+                animal(m,.18,-.13,-42)
+        elif m.era==2:
+            works.barrel(m,-.31,.31,1.12,.98,.39,.34)
+            works.vessel(m,.56,.48,.24,.78)
+            # Fenced handling chute leads to the open shed.
+            for x in (-.64,-.07):
+                for z in (-.68,-.19):
+                    m.block("timber",x,.08,z,.069,.32,.07)
+                m.rod("metal",(x,.34,-.69),(x,.34,-.17),.032)
+            if m.lod==0:
+                m.disc(-.31,.42,-.183,.088)
+            with m.transform(translate=(0,.015,0)):
+                animal(m,.43,-.32,22)
+        else:
+            # Free-range cooling canopy: two ridge frames throw shade onto a
+            # low grazing yard. The drinking reservoir sits outside the pen.
+            works.ridge(m,-.25,.25,1.24,1.15,1.03)
+            works.basin(m,.60,-.13,.39,.81)
+            with m.transform(translate=(0,.015,0)):
+                animal(m,-.24,-.13,-14)
+                if m.lod<2:
+                    animal(m,-.09,.47,77)
+            for x in (-.74,.23):
+                m.slab("ivory",x,.08,-.61,.15,.26,.17,.77)
+            if m.lod==0:
+                m.disc(.23,.28,-.70,.055)
+        return
     m.slab("plaster" if m.era==0 else "grass",0,0,0,1.92,.066,1.84,cut=.07)
     if m.era==0:
         m.slab("grass",-.023,.066,-.058,1.55,.009,1.34,cut=.15)
@@ -179,6 +363,21 @@ def pasture(m):
 
 
 def mill(m):
+    if m.era==2:
+        works.footing(m)
+        # The elevator dominates the new steam roller mill. Two grain bins
+        # discharge into the low winding house through a covered transfer chute.
+        works.barrel(m,.29,-.27,1.08,.86,.41,.25)
+        for x,z,r,h in ((-.45,.32,.31,1.14),(.23,.48,.27,.88)):
+            m.drum("wall",x,.08,z,r,h)
+            m.drum("metal",x,.08+h,z,r*1.05,.18,r*.20)
+            if m.lod<2:
+                m.drum("trim",x,.08+h*.72,z,r*1.016,.046)
+        m.rod("metal",(-.45,1.09,.32),(.24,.63,-.23),.081)
+        if m.lod<2:
+            works.wheel(m,-.51,.39,-.48,.22)
+            m.slab("brick",-.51,.08,-.31,.33,.35,.25,.88)
+        return
     m.house(-.34,0,.24,.88,.85,.72)
     m.slab("wall",.29,0,.18,.67,.84,.77,.81)
     m.rooflet(.29,.84,.18,.78,.87,.34,m.skin)

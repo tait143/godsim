@@ -346,6 +346,314 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_arcology_future_v0",
+          "evidence_sha256": "4cfdaec9a56bc718bbcd6996506175c41b9dd0016d939e272ba23328d21b829c",
+          "observations": "The unequal stacks of glazed floors give the paired towers a strong outline, and the green vault directs the eye to the pedestrian door. The setbacks, straight wall piers and door surround stay attached in LOD1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 92,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1809,
+            1030,
+            342
+          ]
+        },
+        {
+          "id": "bld_dwarf_campfire_ancient_v0",
+          "evidence_sha256": "a9c41c7995db4db84cf997b05108c62415d1668d9c22aa84f15fca1dea97120c",
+          "observations": "A forked flame rises well above its stone ring and the backed benches face it at different angles. Bronze and Iron darken the seating without dulling the fire. The bench legs, fire bed and seating circle remain coherent at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            618,
+            351,
+            167
+          ]
+        },
+        {
+          "id": "bld_dwarf_campfire_classical_v0",
+          "evidence_sha256": "9c752185626b0f959c48588f2e4fe77f2c81f9aef1a6566ce855ff8101ef9ae1",
+          "observations": "The pale polygonal hearth and short stone seats give this gathering place a different perimeter from the timber campfire. Two upright standards frame the sightline. The middle mesh keeps the seats joined to the base around the flame.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 92,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            574,
+            327,
+            163
+          ]
+        },
+        {
+          "id": "bld_dwarf_stadium_future_v0",
+          "evidence_sha256": "19dc6d223b13ac2467e5f7365ebf2de1370ac70fc3aadac808cc1aad61008114",
+          "observations": "At phone scale the curved tiers wrap the open field and the two separated blue canopy wings frame a tall scoreboard. That enclosing stand reads differently from the Industrial straight grandstand in both unpainted views. The roof posts and entry break survive LOD1.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1130,
+            608,
+            334
+          ]
+        },
+        {
+          "id": "bld_dwarf_stadium_industrial_v0",
+          "evidence_sha256": "00aadc4a2dd7a7feef9414efb623180eeac426b79b1467799f46beca4ef38fd6",
+          "observations": "The roofed grandstand sits along one side of a rectangular pitch, opposite a low entrance wall. The orange seats read through the dark roof at 64 px. The gate and long supporting frame remain distinct in the middle mesh.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            976,
+            556,
+            252
+          ]
+        },
+        {
+          "id": "bld_dwarf_tavern_classical_v0",
+          "evidence_sha256": "6c23bbe9754f39faca46d8cc1b269c66df2f7d8a00bcd43f5ed79de761f74fb0",
+          "observations": "The chimney over a simple pitched inn and the wall-sized cask make a clear sign for the tavern. The bracketed front sign, doorway and thick roof overhang survive the middle mesh in both Medieval slate and Renaissance tile.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 92,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            820,
+            466,
+            183
+          ]
+        },
+        {
+          "id": "bld_dwarf_tavern_future_v0",
+          "evidence_sha256": "a5c393f3192650c85b0007d2446d7fe6ecfdb9fd205438f29fe70cc71012a4a8",
+          "observations": "The bright canopy and metal cask remain legible, but the unpainted outline still repeats the Industrial monitor, chimney, side barrel and sign in the same locations. The middle mesh preserves the cask cradle, overhang and door.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 81,
+            "construction": 92,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Rebuild the future tavern around a different gathering space, such as a recessed tap court with a bridge and tanks, so its massing separates from the Industrial cask-house at 64 px."
+          ],
+          "lod_triangles": [
+            876,
+            498,
+            207
+          ]
+        },
+        {
+          "id": "bld_dwarf_tavern_industrial_v0",
+          "evidence_sha256": "92e9219dcf2e6e6aedd8225813f66ebea9a912476254172ad72106eb3c4ccabd",
+          "observations": "The flat roof monitor and taller flue distinguish the working brewhouse from the earlier plain roof. The thick side barrel and wall-hung sign identify the inn at LOD1. Industrial brick and Modern metal both leave the door and sign readable.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            876,
+            498,
+            207
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_dwarf_tavern_future_v0",
+          "evidence_sha256": "67ee260fe11a79a5824e018e19be7620918bc8d672266bf55df34f16ea696407",
+          "observations": "Two exterior tables and tap handles on the paired brew tanks mark an open drinking court. The covered taproom and the tanks have separate foundations and clear wall contact. In grey the court replaces the older chimney inn and cask. The tables and tanks remain distinct at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1110,
+            546,
+            208
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_arcology_future_v0",
+          "evidence_sha256": "9f0c6c907f8fa55dd363518dcd279d5e7396b6ec6897fac74f5f557af493000e",
+          "observations": "The rear of each stepped tower has a full wall under every projecting slab. At the front the green entry canopy and its door remain readable beneath the two unequal towers.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 92,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1809,
+            1030,
+            342
+          ]
+        },
+        {
+          "id": "bld_dwarf_campfire_ancient_v0",
+          "evidence_sha256": "53b01966a3b1d87f3c7b10dcec44c393cac93c5d79b17083434f6c754d5c0f7d",
+          "observations": "The meeting circle keeps its low, backed benches, broad fire bed and upright fork of flame. Looking behind the fire shows the seats and stone ring still touch the ground.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            618,
+            351,
+            167
+          ]
+        },
+        {
+          "id": "bld_dwarf_campfire_classical_v0",
+          "evidence_sha256": "c33e7d524060142da613cb6c86439e5b8e6530d21cad00d60fbe1d4b04c182e2",
+          "observations": "The square-ended stone seats remain separate and supported around the hearth. The two standards and the flame survive the change of distance.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 92,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            574,
+            327,
+            163
+          ]
+        },
+        {
+          "id": "bld_dwarf_stadium_industrial_v0",
+          "evidence_sha256": "c217e7d9f8467a3409b9a964f07ae8ebf22469b1dc07d1c29ee880f7775a9f2e",
+          "observations": "The long grandstand still has an uninterrupted roof above its orange seating and a full back wall. The pitch and the gate on the opposite side remain open.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            976,
+            556,
+            252
+          ]
+        },
+        {
+          "id": "bld_dwarf_tavern_classical_v0",
+          "evidence_sha256": "818262d42e0a49cba8e215b4567513842fc9605be6eddf4b85f3fded874e3492",
+          "observations": "The pitched tavern roof lands on both full side walls. Its chimney, side cask, hanging sign and dark central door still identify the inn at 64 px.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 92,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            820,
+            466,
+            183
+          ]
+        },
+        {
+          "id": "bld_dwarf_tavern_industrial_v0",
+          "evidence_sha256": "81813dc391e98ff8170e40736efeead66184b3274a35207915e0d605f3fcd3bc",
+          "observations": "The taller flue and raised roof plate remain seated in the broad roof, alongside a legible cask and wall sign. The dark front door is clear against the masonry.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            876,
+            498,
+            207
+          ]
+        }
+      ]
     }
   ]
 }

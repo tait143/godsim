@@ -416,25 +416,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 858,
+  "triangles": 750,
   "lod_triangles": [
-   858,
-   458,
-   214
+   750,
+   408,
+   234
   ],
   "bounds": [
    [
-    -1.409999966621399,
+    -1.4249999523162842,
     0.0,
-    -1.3200000524520874
+    -1.249500036239624
    ],
    [
-    1.409999966621399,
-    1.809000015258789,
-    1.3200000524520874
+    1.4249999523162842,
+    1.7790000438690186,
+    1.2855000495910645
    ]
   ],
-  "bytes": 107144,
+  "bytes": 103888,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_factory_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_factory_future_v0.png",
@@ -504,25 +504,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1272,
+  "triangles": 694,
   "lod_triangles": [
-   1272,
-   624,
-   368
+   694,
+   350,
+   182
   ],
   "bounds": [
    [
-    -1.409999966621399,
+    -1.4325000047683716,
     0.0,
-    -1.3200000524520874
+    -1.2899999618530273
    ],
    [
-    1.409999966621399,
-    2.06820011138916,
-    1.3200000524520874
+    1.4325000047683716,
+    1.9874999523162842,
+    1.2899999618530273
    ]
   ],
-  "bytes": 161412,
+  "bytes": 92844,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_foundry_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_foundry_future_v0.png",
@@ -815,25 +815,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1068,
+  "triangles": 578,
   "lod_triangles": [
-   1068,
-   416,
-   224
+   578,
+   294,
+   174
   ],
   "bounds": [
    [
-    -0.4650000035762787,
+    -0.45750001072883606,
     0.0,
-    -0.42250001430511475
+    -0.4025000035762787
    ],
    [
-    0.4650000035762787,
-    0.4758000075817108,
+    0.45750001072883606,
+    0.4805000126361847,
     0.42250001430511475
    ]
   ],
-  "bytes": 119760,
+  "bytes": 75144,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_weaver_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_classical_v0.png",
@@ -860,25 +860,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1104,
+  "triangles": 1024,
   "lod_triangles": [
-   1104,
-   452,
-   248
+   1024,
+   445,
+   232
   ],
   "bounds": [
    [
-    -0.4650000035762787,
+    -0.41749998927116394,
     0.0,
-    -0.42250001430511475
+    -0.41749998927116394
    ],
    [
-    0.4650000035762787,
-    0.4641999900341034,
-    0.42250001430511475
+    0.41749998927116394,
+    0.578000009059906,
+    0.45249998569488525
    ]
   ],
-  "bytes": 127236,
+  "bytes": 120636,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_weaver_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_future_v0.png",
@@ -904,25 +904,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1104,
+  "triangles": 902,
   "lod_triangles": [
-   1104,
-   452,
-   248
+   902,
+   448,
+   168
   ],
   "bounds": [
    [
-    -0.4650000035762787,
+    -0.4724999964237213,
     0.0,
-    -0.42250001430511475
+    -0.375
    ],
    [
-    0.4650000035762787,
-    0.42998000979423523,
-    0.42250001430511475
+    0.4724999964237213,
+    0.5525000095367432,
+    0.38499999046325684
    ]
   ],
-  "bytes": 127880,
+  "bytes": 105636,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_weaver_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_weaver_industrial_v0.png",

@@ -6,6 +6,7 @@ import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
 from generators.buildings.elf_food import Grove, TAU, publish_package
 from generators.buildings.elf_extraction import wheel
+from generators.buildings.elf_trade_forms import arch, block, gable, shaft, textile
 
 PACKAGE="elf_industry"
 
@@ -113,7 +114,82 @@ def loom(m,x,y,z,s):
             m.limb("gold",[(-.154,.251,-.019),(.078,.247,-.026)],[.011,.009],4)
 
 
+def weaving_court(m):
+    # The drying court is a low, three-sided terrace that leaves the loom exposed.
+    m.disk("fieldstone",0,0,0,.471,.424,.049,.97, (16,10,8)[m.lod])
+    with m.transform(translate=(-.191,.049,.037),rotate_y=-24,scale=.68):
+        loom(m,0,0,0,1)
+        block(m,"timber",(0,.062,.106),(.532,.075,.276))
+    for x in (-.395,.03,.389):
+        shaft(m,"timber",(x,.050,.208),(x*.96,.416,.231),.030,.022)
+    shaft(m,"trim",(-.410,.404,.231),(.412,.407,.232),.025)
+    for i,(x,w,dy) in enumerate(((-.205,.278,0),(.150,.271,.014))):
+        textile(m,x,.405+dy,.209,w,.255+.041*i,"cloth" if i else "banner",-.015)
+    m.pot(.257,.052,-.119,.105,"cloth")
+    if m.lod<2:
+        m.pot(.089,.05,-.222,.082,"thatch")
+        shaft(m,"timber",(-.298,.054,-.28),(-.297,.239,-.277),.021)
+        m.lump("ivory",(-.294,.159,-.277),(.052,.076,.048),6)
+
+
+def power_weavery(m):
+    # A folded monitor roof covers the rear half of the power-loom floor, leaving
+    # the two tilted webs and the flywheel visible along the open factory side.
+    block(m,"brick",(0,.042,.010),(.884,.084,.598),.035)
+    for x in (-.324,.329):
+        shaft(m,"metal",(x,.076,.289),(x,.556,.255),.038,.028)
+        shaft(m,"trim",(x,.077,.002),(x,.478,.046),.032,.021)
+    with m.transform(translate=(0,.510,.157),rotate_y=90):
+        gable(m,0,0,0,.363,.936,.136)
+    for x in (-.192,.153):
+        with m.transform(translate=(x,.085,-.137),rotate_x=13,scale=(.65,.70,.68)):
+            loom(m,0,0,0,1)
+        if m.lod<2:
+            shaft(m,"metal",(x-.126,.134,-.10),(x+.127,.134,-.10),.036)
+    wheel(m,.377,.263,-.108,.147,"x")
+    shaft(m,"metal",(-.304,.267,-.09),(.40,.265,-.09),.025)
+    block(m,"metal",(.336,.162,-.094),(.072,.163,.09),.10)
+    if not m.lod:
+        for x in (-.22,.21):
+            m.limb("metal",[(x,.256,-.095),(x,.132,-.026),(x,.124,.080)],
+                   [.014,.014,.012],4)
+    if m.lod<2:
+        for i,x in enumerate((-.241,.118)):
+            shaft(m,"trim",(x-.057,.147,-.23),(x+.061,.147,-.23),.028)
+            shaft(m,"cloth" if i else "banner",(x-.04,.149,-.23),(x+.042,.149,-.23),.046)
+    if not m.lod:
+        for i,z in enumerate((.028,.125,.221)):
+            m.disk("metal",-.388,.081,z,.040,.040,.051)
+            m.disk("ivory" if i!=1 else "cloth",-.388,.130,z,.033,.033,.116,.77)
+
+
+def aerial_weavery(m):
+    # A folded length of fabric travels from the upper warp beam down to the
+    # winding roll. The adjacent low finishing bay receives the completed bolt.
+    for s in (-1,1):
+        x=-.106+s*.235
+        m.disk("wall",x,0,-.040,.097,.134,.096,.79)
+        m.limb("trim",[(x,.081,-.041),(x+s*.035,.415,-.027),
+                       (x+s*.020,.772,.042),(x-s*.096,.935,.091)],[.061,.043,.033,.029])
+    shaft(m,"metal",(-.30,.867,.07),(.088,.867,.07),.046)
+    for t in range((7,5,3)[m.lod]):
+        x=-.255+.298*t/((7,5,3)[m.lod]-1)
+        shaft(m,"ivory",(x,.862,.065),(x,.697,.028),.006)
+    textile(m,-.105,.705,.031,.318,.394,"banner",-.102)
+    shaft(m,"accent",(-.286,.311,-.058),(.075,.311,-.058),.041)
+    m.limb("trim",[(.051,.31,-.059),(.131,.293,-.032),(.285,.232,.026)],
+           [.041,.044,.050])
+    m.disk("wall",.292,0,.119,.157,.232,.265,.93)
+    m.crown(.292,.259,.119,.182,.259,.173,"glass",5)
+    if m.lod<2:
+        m.portal(.292,.014,-.101,.130,.19)
+        m.leaf("roof",(-.202,.880,.078),(-.338,1.00,.203),.063,.05)
+
+
 def weaver(m):
+    if m.era:
+        (weaving_court,power_weavery,aerial_weavery)[m.era-1](m)
+        return
     m.hall(-.068,0,.163,.261,.214,.377+.028*m.era,.293+.021*m.era)
     loom(m,.039,0,-.253,.97)
     m.pot(-.249,0,-.206,.081,"cloth")
@@ -158,9 +234,100 @@ def armory(m):
         m.crown(.56,.44,.145,.13,.124,.13,"glass",4)
 
 
+def production_line(m):
+    # Feed and discharge conveyors run all the way through the open stamping press.
+    # The heavy ram has a matching die below, and a jointed feeder lifts the billets.
+    for x in (-1.07,-.33,.50,1.08):
+        block(m,"wall",(x,.19,-.183),(.208,.38,.489),.17)
+    block(m,"metal",(0,.397,-.183),(2.54,.108,.53),.018)
+    for z in (-.473,.111):
+        block(m,"trim",(0,.447,z),(2.57,.111,.068),.015)
+    for j in range((11,8,3)[m.lod]):
+        x=-1.144+2.288*j/((11,8,3)[m.lod]-1)
+        shaft(m,"metal",(x,.461,-.439),(x,.461,.071),.053)
+    # The arch of the press runs across the work, its center clear for the moving stock.
+    for z in (-.595,.231):
+        block(m,"fieldstone",(.172,.101,z),(.318,.202,.239),.13)
+        m.limb("wall",[(.172,.178,z),(.172,.715,z),
+                       (.172,1.088,-.183+(z+.183)*.77),(.172,1.204,-.183+(z+.183)*.45)],
+               [.115,.081,.073,.091])
+    block(m,"roof",(.172,1.204,-.183),(.358,.175,.63),.14)
+    m.disk("metal",.172,.85,-.183,.104,.132,.318,1.09)
+    block(m,"accent",(.172,.842,-.183),(.31,.092,.292),.06)
+    block(m,"metal",(.172,.564,-.183),(.333,.10,.31),.12)
+    for x in (-.98,.871):
+        block(m,"accent" if x>0 else "metal",(x,.55,-.180),(.253,.083,.262),.14)
+    if m.lod<2:
+        m.disk("roof",.871,.58,-.183,.093,.111,.075,.62)
+    # A rail-mounted pick arm reaches over the feeding rollers.
+    m.disk("wall",-.817,0,.507,.229,.236,.217,.87)
+    m.disk("metal",-.817,.204,.507,.142,.166,.144,1.04)
+    m.limb("accent",[(-.817,.342,.507),(-.983,.771,.430),(-.736,.936,.218),
+                     (-.603,.811,.006)],[.091,.076,.062,.034])
+    if m.lod<2:
+        for x,y,z,r in ((-.981,.768,.432,.094),(-.736,.936,.218,.069)):
+            m.lump("metal",(x,y,z),(r,r,r),7)
+    for s in (-1,1):
+        shaft(m,"trim",(-.602,.808,.005),(-.604+s*.070,.709,-.035),.026,.019)
+    block(m,"wall",(.662,.220,.595),(.606,.44,.473),.09)
+    m.crown(.662,.436,.595,.432,.336,.268,"roof",5)
+    if not m.lod:
+        m.portal(.662,.011,.352,.261,.306)
+    if m.lod<2:
+        arch(m,.662,.012,.348,.337,.341,.052,"trim")
+        for x in (-.953,.971):
+            shaft(m,"accent",(x,.174,-.396),(x-.080,.395,-.459),.032)
+
+
+def induction_foundry(m):
+    # The crucible tilts between two bearing cheeks. The lip, hot metal surface and
+    # pouring stream remain exposed below the charging bridge.
+    cx,cz=-.326,-.151
+    for z in (-.482,.177):
+        block(m,"wall",(cx,.260,z),(.335,.52,.159),.20)
+    shaft(m,"metal",(cx,.405,-.591),(cx,.405,.249),.098)
+    with m.transform(translate=(cx,.301,cz),rotate_z=-20):
+        rings=[]
+        profile=[(.187,0),(.281,.116),(.355,.213),(.379,.249),(.389,.327),
+                 (.404,.358),(.431,.445),(.428,.488),(.343,.470),(.316,.386)]
+        n=(16,10,6)[m.lod]
+        if m.lod==2:
+            profile=[profile[j] for j in (0,2,4,6,7,8,9)]
+        for r,y in profile:
+            rings.append([(r*math.cos(i*TAU/n),y,r*math.sin(i*TAU/n)) for i in range(n)])
+        for k,(lo,hi) in enumerate(zip(rings,rings[1:])):
+            role="metal" if k<2 else "accent" if k%2==0 else "wall"
+            for i in range(n):
+                j=(i+1)%n
+                m.face(role,[lo[j],lo[i],hi[i],hi[j]])
+        m.face("metal",rings[0])
+        m.face("forge",rings[-1][::-1])
+    m.limb("forge",[(.185,.607,cz),(.251,.556,cz),(.313,.350,-.163),(.342,.156,-.165)],
+           [.049,.044,.031,.027])
+    for j in range(3):
+        x=.347+.295*j
+        block(m,"metal",(x,.065,-.157),(.248,.13,.301),.08)
+        block(m,"forge" if j<2 else "accent",(x,.132,-.157),(.17,.022,.219),.08)
+    # Charge hopper and its inclined feed bridge project above the rear lip.
+    block(m,"fieldstone",(-.746,.139,.730),(.396,.278,.314),.16)
+    m.disk("metal",-.746,.261,.730,.151,.137,.453,1.96)
+    m.disk("slate",-.746,.707,.730,.276,.252,.081,.62)
+    m.limb("trim",[(-.746,.628,.629),(-.718,.911,.402),(-.438,.913,.116),
+                   (-.354,.775,.022)],[.095,.093,.083,.074])
+    shaft(m,"metal",(-.643,.008,.425),(-.653,.883,.339),.054,.038)
+    if m.lod<2:
+        wheel(m,cx,.407,-.579,.149)
+        m.lump("metal",(.96,.198,-.151),(.089,.064,.095),6)
+    if not m.lod:
+        ingots(m,.878,-.501,"metal")
+
+
 def works(m,t):
     factory=t=="Factory"
     foundry=t=="Foundry"
+    if m.era == 3 and (factory or foundry):
+        (production_line if factory else induction_foundry)(m)
+        return
     if foundry:
         kiln(m,-.33,.22,.484,1.54 if m.era==2 else 1.77,True)
         kiln(m,.341,.54,.292,1.19 if m.era==2 else 1.39)
@@ -223,7 +390,66 @@ def works(m,t):
         m.limb("metal",[(.644,.35,.32),(.52,.414,.389),(.405,.462,.37)],[.048,.043,.041])
 
 
+def machine_shed(m):
+    # A single roof follows a line shaft over two open machine bays. The light
+    # front edge leaves a clear loading route across the lathe and drilling table.
+    block(m,"fieldstone",(0,.049,.052),(1.72,.098,1.082),.025)
+    block(m,"brick",(-.62,.332,.246),(.279,.491,.599),.05)
+    for x in (-.674,.0,.715):
+        shaft(m,"timber",(x,.095,.476),(x,.893,.449),.056,.040)
+    for x in (-.692,.719):
+        m.limb("trim",[(x,.095,-.161),(x,.512,-.151),(x,.836,-.048)],
+               [.050,.036,.036])
+    # The brick drive enclosure and its flue break the roof on the engine end.
+    # The remaining roof spans the open machines, stepping down to a loading hood.
+    with m.transform(translate=(-.157,.854,.226),rotate_y=90):
+        gable(m,0,0,0,.692,1.468,.271)
+    with m.transform(translate=(.673,.789,.234),rotate_y=90):
+        gable(m,0,0,0,.636,.464,.128)
+    m.disk("brick",-.598,.565,.421,.088,.092,.601,.77)
+    m.disk("metal",-.598,1.158,.421,.079,.081,.078,.92)
+    m.disk("door",-.598,1.234,.421,.055,.057,.006)
+    shaft(m,"metal",(-.725,.661,.139),(.716,.661,.139),.050)
+    for x in (-.361,.334):
+        shaft(m,"trim",(x,.664,.135),(x,.910,.196),.022)
+    wheel(m,-.726,.592,.119,.196,"x")
+    for x in (-.446,-.192):
+        block(m,"wall",(x,.206,-.258),(.126,.222,.184),.1)
+    block(m,"metal",(-.322,.348,-.263),(.484,.095,.234))
+    shaft(m,"trim",(-.492,.432,-.265),(-.169,.432,-.265),.050)
+    block(m,"metal",(-.517,.417,-.265),(.081,.174,.173),.09)
+    block(m,"metal",(-.143,.417,-.265),(.072,.155,.137),.09)
+    # Tall drill spindle over a separate work rest at the loading end.
+    block(m,"wall",(.354,.188,-.251),(.275,.182,.238),.10)
+    shaft(m,"metal",(.424,.255,-.192),(.424,.600,-.188),.039)
+    block(m,"roof",(.35,.589,-.199),(.222,.076,.107),.08)
+    shaft(m,"metal",(.281,.584,-.207),(.281,.405,-.207),.021,.011)
+    block(m,"metal",(.32,.327,-.238),(.182,.048,.168))
+    if m.lod<2:
+        for x,h in ((-.404,.43),(.412,.572)):
+            m.limb("hide",[(x,.671,.125),(x,h,-.189),(x,h,-.276)],
+                   [.019,.018,.016],4)
+        for x in (-.546,.035):
+            shaft(m,"timber",(x,.100,.480),(x+.284,.831,.449),.027)
+    if not m.lod:
+        block(m,"timber",(.487,.116,-.552),(.318,.074,.113),.03)
+    if m.lod<2:
+        # A belt pulley and the lathe chuck stand proud of their drive shafts.
+        for x in (-.451,.391):
+            shaft(m,"accent",(x-.022,.661,.138),(x+.020,.661,.138),.094)
+        shaft(m,"trim",(-.502,.437,-.265),(-.471,.437,-.265),.074)
+        shaft(m,"hide",(-.464,.433,-.265),(-.240,.433,-.265),.060,.043)
+        m.disk("metal",.609,.097,.282,.102,.118,.298,.91)
+        m.limb("trim",[(.609,.391,.280),(.568,.498,.231),(.417,.416,-.102)],
+               [.025,.022,.021],5)
+        if not m.lod:
+            wheel(m,.431,.381,-.192,.068,role="accent")
+
+
 def workshop(m):
+    if m.era == 2:
+        machine_shed(m)
+        return
     m.hall(-.25,0,.20,.408,.371,.534+.093*(m.era==2),.405)
     # The geared capstan and its pivoted arm lift finished work from the open bench.
     wheel(m,.343,.428,-.217,.253)

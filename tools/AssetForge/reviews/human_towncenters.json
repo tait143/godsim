@@ -264,6 +264,90 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_town_center_ancient_iron_v0",
+          "evidence_sha256": "64454e770e34713e8a6d100ff5230a227ba861625d10ecb9a7096221db4c9cf6",
+          "observations": "An offset stone gate with an arched entrance interrupts the long timber-and-stone gable. A side bench, lit windows and blue shield give the iron-age hall a civic frontage. Serialized triangle counts are 909, 517, 101 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_town_center_classical_medieval_v0",
+          "evidence_sha256": "b12ea7b4b72db257587697525e06116a00f44a0dd79e84f3e55fd4366722abda",
+          "observations": "The enclosed gate tower advances from the half-timbered hall, with a steep cap above its blue shield. Steps, planters and lit windows scale the facade. The tall arched gate survives in the far mesh. Serialized triangle counts are 1192, 679, 165 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_town_center_classical_v0",
+          "evidence_sha256": "42137d1b784e72e8f80604ba61aa188921a1e8e333cc4c8fb318ba241733dea3",
+          "observations": "A full pediment and columned portico rise above the wide front steps. Blue pennon and shield contrast with pale stone and terracotta. The principal columns still support the roof at middle and far distance. Serialized triangle counts are 877, 499, 163 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_town_center_future_ascension_v0",
+          "evidence_sha256": "11405ccb72d053d9660b246bf18b3464fb5a8833d2242f6f62867121223d26e2",
+          "observations": "Splayed gold ribs hold a hoop around a glazed drum and peaked inner lantern. The portico and two planted beds mark the approach. The hoop stays visibly supported at all three distances. Serialized triangle counts are 1036, 589, 321 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_town_center_future_ascension_v0",
+          "evidence_sha256": "5c8a40eb0ca499fa1ad4b638911b2e27abb67f1a2b1caad52a0adeac3d7e5536",
+          "observations": "The gold supports link the upper ring to the glazed drum. The dome and blue band stay continuous around the sides at medium distance, with a dark arched doorway and steps beneath the entrance canopy. Serialized triangle counts are 1036, 589, 321 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

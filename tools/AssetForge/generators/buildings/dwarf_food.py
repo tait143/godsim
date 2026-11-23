@@ -169,6 +169,12 @@ def ram(m,x,z,turn):
 
 
 def pasture(m):
+    if m.era == 1:
+        return stone_fold(m)
+    if m.era == 2:
+        return stockyard(m)
+    if m.era == 3:
+        return canopy_pasture(m)
     m.slab("grass",0,0,0,1.87,.065,1.84,.09)
     m.hearth(-.36,.06,.49,(1.02,.94,.89),roof_material="roof" if m.era==0 else None)
     for a,b in (((-.83,-.80),(-.31,-.80)),((.11,-.80),(.83,-.80)),
@@ -198,6 +204,101 @@ def pasture(m):
     if m.lod==0:
         m.slab("wall",.50,.061,.18,.42,.13,.191,.12)
         m.block("water",.50,.188,.18,.34,.009,.115)
+
+
+def stone_fold(m):
+    m.slab("grass",0,0,.01,1.81,.063,1.78,.18)
+    # A dry-stone fold shares its rear wall with a shepherd's corbel-roofed watch hut.
+    for x in (-.716,.716):
+        m.slab("fieldstone",x,.059,.03,.215,.255,1.30,.08,.14)
+    m.slab("wall",-.13,.061,.642,1.17,.293,.19,.085,.10)
+    m.slab("fieldstone",-.486,.057,-.626,.58,.24,.198,.10,.10)
+    m.slab("fieldstone",.519,.0615,-.654,.45,.22,.18,.12,.13)
+    m.drum("wall",-.412,.057,.384,.389,.45,.359,n=(10,7,5)[m.lod])
+    m.drum("slate",-.412,.503,.384,.402,.173,.306,n=(10,7,5)[m.lod])
+    m.drum("roof",-.412,.671,.384,.314,.209,.139,n=(10,7,5)[m.lod])
+    m.entry(-.411,.065,.035,.296,.33)
+    ram(m,.27,-.25,54)
+    if m.lod<2:
+        ram(m,-.30,-.28,-31)
+    if m.lod==0:
+        for x in (-.72,.72):
+            for z in (-.41,-.02,.37):
+                m.block("slate",x,.308,z,.156,.037,.19,taper=.12)
+        m.block("timber",.052,.102,-.645,.49,.145,.047)
+        m.rune(-.412,.565,-.003,.123)
+
+
+def stockyard(m):
+    m.slab("grass",0,0,.02,1.89,.062,1.71,.09)
+    # A riveted header tank gravity-feeds the covered trough along the stock lane.
+    for x in (-.67,-.27):
+        for z in ((.25,.63) if m.lod<2 else (.44,)):
+            m.beam("metal",(x,.06,z),(-.47+(x+.47)*.73,.705,.44+(z-.44)*.75),.071)
+    m.drum("trim",-.47,.69,.44,.329,.092,.31)
+    m.drum("metal",-.47,.779,.44,.308,.34,.301)
+    m.drum("roof",-.47,1.114,.44,.337,.136,.101)
+    m.slab("wall",.40,.059,.337,.74,.167,.47,.06)
+    m.slab("water",.40,.22,.337,.61,.019,.36,.09)
+    for z in ((.19,.50) if m.lod<2 else (.345,)):
+        for x in (.088,.706):
+            m.block("trim",x,.061,z,.061,.502,.067)
+    m.vault("metal",.40,.554,.344,.835,.118,.46)
+    for x in (-.84,.85):
+        m.beam("metal",(x,.223,-.65),(x,.223,.52),.049)
+        for z in (-.60,.44):
+            m.block("trim",x,.06,z,.075,.263,.081)
+    ram(m,.197,-.421,69)
+    if m.lod<2:
+        ram(m,-.427,-.255,-66)
+        m.beam("metal",(-.21,.712,.39),(.20,.286,.408),.043)
+    if m.lod==0:
+        m.drum("accent",-.47,.916,.44,.312,.047)
+        m.drum("trim",-.47,1.075,.44,.307,.037)
+        for x in (-.556,-.40):
+            m.beam("metal",(x,.082,.119),(x,.803,.135),.027)
+        for i in range(6):
+            m.block("metal",-.478,.162+i*.101,.126+i*.0018,.166,.022,.028)
+        with m.transform(translate=(-.138,.485,.388),rotate_x=-90):
+            m.drum("accent",0,0,0,.084,.059,n=8)
+        for x in (-.68,-.50,.47,.67):
+            m.block("timber",x,.076,-.695,.144,.256,.054)
+        m.beam("trim",(.32,.23,-.699),(.78,.23,-.699),.044)
+
+
+def canopy_pasture(m):
+    m.slab("grass",0,0,-.028,1.90,.063,1.73,.21)
+    # Broad cantilevered shade leaves the front of the grazing terrace open.
+    for x in (-.60,.54):
+        m.slab("wall",x,.058,.40,.302,.234,.49,.14)
+        m.beam("ivory",(x,.284,.51),(x,.803,.24),.124)
+    for s in (-1,1):
+        with m.transform(translate=(-.031+s*.393,.838,.287),rotate_z=s*15):
+            m.slab("glass",0,-.047,0,.758,.098,.825,.22)
+            if m.lod==0:
+                for z in (-.244,0,.244):
+                    m.block("metal",0,-.082,z,.697,.042,.046)
+    m.slab("trim",-.031,.711,.291,.132,.079,.79,.18)
+    m.drum("metal",.484,.06,-.263,.199,.222,.154)
+    m.drum("accent",.484,.274,-.263,.266,.105,.239)
+    m.drum("wall",.484,.374,-.263,.13,.234,.079)
+    # Low curved segments form a sorting corral around the feeder.
+    for a,b in (((-.78,.23),(-.78,-.39)),((-.75,-.42),(-.52,-.70)),
+                ((.76,-.43),(.77,.29))):
+        m.beam("ivory",(a[0],.189,a[1]),(b[0],.189,b[1]),.075)
+        m.block("trim",a[0],.06,a[1],.081,.18,.083)
+    ram(m,-.34,-.427,-27)
+    if m.lod<2:
+        ram(m,.028,-.14,75)
+    if m.lod==0:
+        for x in (-.50,.45):
+            m.block("accent",x,.156,.158,.12,.052,.025)
+        m.rune(.483,.324,-.526,.119)
+        for angle in (-.81,1.31,3.38):
+            x=.484+.171*math.cos(angle)
+            z=-.263+.171*math.sin(angle)
+            m.drum("trim",x,.064,z,.10,.081,.126,n=9)
+            m.drum("grass",x,.142,z,.105,.021,n=8)
 
 
 def mill(m):
@@ -234,7 +335,7 @@ def hydro(m):
         y=.30+i*.354
         m.slab("roof",0,y,0,w,.11,w*.77,.20)
         m.slab("leaf",0,y+.106,0,w*.94,.068,w*.72,.20)
-        if m.lod==0 or (m.lod==1 and i%2==1):
+        if m.lod==0 or (m.lod==1 and i==3):
             for s in (-1,1):
                 m.vault("grass",s*w*.29,y+.17,0,w*.19,.103,w*.40)
         if m.lod==0:

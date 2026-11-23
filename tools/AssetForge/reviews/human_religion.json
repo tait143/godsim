@@ -345,6 +345,62 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_monastery_classical_v0",
+          "evidence_sha256": "4631ab15d322774cfae7692450018dcec1bfa903e44fd020b226fd6ff7f4ed5e",
+          "observations": "A low gate between individual gabled wings opens into a planted cloister. The dark pointed bell roof peeks above the long rear range. The entry void and courtyard persist as small garden detail drops away. Serialized triangle counts are 1155, 657, 324 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_spirit_totem_ancient_v0",
+          "evidence_sha256": "9a9d5b508d97a8799de327cbf4284940689bc289338ce1db01606b559daf234c",
+          "observations": "A broad-winged bird caps a tapered carved post with an inset blue shield. The offerings and small stones on its plinth keep it human in scale. The wing tips and tall upright remain recognizable from either side. Serialized triangle counts are 451, 257, 141 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_spirit_totem_ancient_v0",
+          "evidence_sha256": "fb9ebb36a40cd6bfef1e63375c416af8857642e3c564adf1ae9968faabccb51a",
+          "observations": "The carved bird keeps both extended wings above its tapering post. The blue shield, warm offering and small stones remain readable at mid distance and the distant model keeps the winged silhouette. Serialized triangle counts are 451, 257, 141 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

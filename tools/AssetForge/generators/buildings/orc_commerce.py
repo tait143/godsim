@@ -251,7 +251,41 @@ def boat(m, x, z, w, d):
                 m.panel("cloth",(paint(j,.56),paint(i,.56),paint(i,.74),paint(j,.74)))
 
 
+def transfer_dock(m):
+    # The freighter berths broadside underneath a rail-travelling portal crane.
+    m.block("water",0,0,-.28,1.94,.043,1.20)
+    m.block("wall",0,0,.55,1.89,.22,.68,.04)
+    deck(m,0,.22,.55,1.91,.68)
+    with m.transform(translate=(.03,0,-.15),rotate_y=90):
+        boat(m,0,0,.77,.90)
+    for x in (-.61,.15):
+        for z in (-.64,.46):
+            if m.lod<2:
+                m.block("fieldstone",x,0,z,.23,.26,.20,.07)
+            m.post("ivory",(x,.24 if m.lod<2 else .022,z),(x+.085,1.00,z*.88),.070,.055,
+                   sides=(8,5,4)[m.lod])
+        m.block("metal",x+.083,.975,-.083,.16,.13,1.21,.05)
+        if m.lod<2:
+            m.tusk(x+.08,1.08,.38,1,.36)
+    m.block("turquoise",-.16,1.085,-.20,.94,.14,.24,.07)
+    for x in ((-.30,-.07) if m.lod<2 else (-.185,)):
+        m.post("metal",(x,1.10,-.20),(x,.64,-.20),.020,sides=4)
+    crate(m,-.186,.41,-.20,.30)
+    m.shell(.55,.56,[(.256,.27,"metal"),(.35,.28,"ivory"),(.57,.23,"glass"),
+                       (.65,.29,"turquoise"),(.76,.15,"ivory")],(10,6,4)[m.lod],flatten=.73)
+    m.entry(.55,.368,.255,.23,.25,3)
+    if m.lod==0:
+        for x in (.03,-.54):
+            crate(m,x,.256,.62,.20)
+        for x in (-.83,-.43,.04,.52):
+            m.post("ivory",(x,.254,.83),(x,.45,.83),.024,sides=5)
+        m.post("metal",(-.85,.45,.83),(.54,.45,.83),.021,sides=5)
+
+
+
 def harbor(m):
+    if m.era==3:
+        return transfer_dock(m)
     m.block("water",.49,0,0,.93,.042,1.88)
     for x in (-.82,.035):
         for z in (-.77,.67):
@@ -290,9 +324,9 @@ def railway(m):
         m.block("metal",0,.099,z,1.90,.048,.043)
     m.block("wall",0,0,.19,1.88,.20,.75,.045)
     m.block("ivory",0,.20,.19,1.89,.054,.758)
-    if m.lod==2:
+    if m.lod==2 or m.lod==1 and m.era==2:
         m.block("wall",.18,.254,.58,.81,.416,.60)
-        m.prism_x((.18,.67,.58),.85,.64,.24,m.col("roof"),material="roof")
+        m.prism_x((.18,.67,.58),.87 if m.lod==1 else .85,.64,.24,m.col("roof"),material="roof")
     else:
         inset_gable(m,.81,.60,.67,"slate" if m.era==2 else "glass",.24,x=.18,z=.58)
     if m.lod < 2:
@@ -302,7 +336,7 @@ def railway(m):
     canopy(m,0,.254,.139,1.74,.49,.61)
     with m.transform(translate=(-.35,.147,-.486)):
         for j in (-1,1):
-            if m.lod==2:
+            if m.lod==2 or m.lod==1 and m.era==2:
                 m.post("trim",(j*.23,.083,-.198),(j*.23,.083,.198),.083,sides=4)
             else:
                 for s in (-1,1):
@@ -390,6 +424,10 @@ MODELS = {"Airport": airport, "Bank": bank, "Guildhall": guild, "Harbor": harbor
 
 
 def build(spec, lod):
+    if spec.building_type == "RailStation" and spec.band == "future":
+        from generators.buildings.orc_learninghealth import build_lodge
+        from generators.buildings.orc_era_forms import skyrail
+        return build_lodge(spec,lod,lambda m,t: skyrail(m))
     m=Lodge(spec,lod)
     w,d=spec.footprint
     with m.transform(scale=(w*.49,min(w,d)*.49,d*.49)):

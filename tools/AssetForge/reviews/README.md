@@ -4,6 +4,8 @@ One builder owns each package generator and its output folder. The independent c
 
 From the repository root, run `python tools/AssetForge/building_review.py <package>` with the project interpreter. It reopens each GLB and prints the three triangle counts, evidence digest and paths of all age previews. The digest covers the actual GLB, age previews, shared textures, material and shader.
 
+Compare neighboring eras in unpainted 64-pixel views from both sides. A recolour of an earlier era cannot reach 90 for race identity and age correctness. Inspect the painted middle LOD from the front, side and rear at larger size as well. A missing wall, diagonal cut through an eave or broken support requires a geometry repair even when the triangle count passes. The catalog's unpainted comparison pages are in [era geometry](../previews/_sheets/era_geometry/).
+
 The same command reports exposed coplanar surfaces by face index, atlas material and position. Check all three LODs after fixing a surface. List individual intersections with `python tools/AssetForge/tests/inspect_coplanar.py --exposed-only --limit 0 <model.glb>`. Exactly repeated LOD0 shapes in different eras or house variants also require a mesh revision. The lead's catalog survey checks these conditions across packages before assembling the manifest. New geometry requires fresh image evidence and independent review.
 
 Save each round in `<package>.json`. The top-level fields are `package` and `rounds`. Within a round, record its one-based `round`, the independent `critic` name, and a list named `models`. Each model record has these fields.

@@ -43,6 +43,27 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_grand_cathedral_classical_v0",
+          "evidence_sha256": "6de3224766f682a6b8ed9b87cb31815a339bda9e659272ed223c00e24c0f9eca",
+          "observations": "Three differently sized pointed towers rise above the nave and the stepped central portal. Blue banners and a round window keep the facade orderly across all seven painted ages. The far mesh retains the dominant spire and paired frontage. Serialized triangle counts are 2930, 1670, 938 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 95,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

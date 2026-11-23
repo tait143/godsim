@@ -160,6 +160,119 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Orc model critic, RC2 round 1",
+      "method": "Inspected saved age previews, rendered serialized LOD0, LOD1 and LOD2, and compared neutral 64px geometry at 215 and 145 degrees. Independently checked package metadata, GLB streams, exposed coplanar faces, inverted shells and repeated meshes. Compared all ordered era pairs in the 14 directed families.",
+      "models": [
+        {
+          "id": "bld_orc_house_classical_medieval_v0",
+          "evidence_sha256": "09a6fa9b457a9ace730ca71f4288df4a3f4d5c31539b126f2e83b819219ea59e",
+          "observations": "The small side window sits below a dark gable marked by horn finials. The front gable retains its little red motif and the projecting doorway remains attached through both reductions. A chimney breaks the rear slope.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_classical_medieval_v1",
+          "evidence_sha256": "9e7bcd9909a867a870a5e5cf7d6447ce7dcc28af656f0e401b92c1a405166f47",
+          "observations": "The wider dark slate slope falls toward the front tusked door, with the stack offset behind the ridge. LOD1 keeps the recessed window and door under that eave. The narrower inner roof line remains visible from the rear.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_classical_renaissance_v1",
+          "evidence_sha256": "3e61cea2aa7bec67fa21606dba64c59ec8f343c715583a6c6e9d102d16fe5ff9",
+          "observations": "The low terracotta hipped cap carries a squat pot-shaped vent. The ochre window and twin jars give the front scale. The front steps and the doorway stay seated below the deep roof edge in the reduced model.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_orc_house_classical_medieval_v0",
+          "evidence_sha256": "2e66c7b7e484fb9fbbd1f77a19a7d868e62b755823116e01dc6d9ee47d640dc6",
+          "observations": "The peaked slate roof, chimney and horned lintel remain over a continuous plaster shell. The recessed front door stays open and recognizable as trim simplifies.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            648,
+            368,
+            164
+          ]
+        },
+        {
+          "id": "bld_orc_house_classical_medieval_v1",
+          "evidence_sha256": "fb3a658580a3fc32b2b1e281759503ca69265aec724e27192162d4b889de047e",
+          "observations": "The transverse gable keeps its ridge horns, chimney and stone end wall. The fitted door and frame remain intact between the corner posts at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            648,
+            368,
+            164
+          ]
+        },
+        {
+          "id": "bld_orc_house_classical_renaissance_v1",
+          "evidence_sha256": "3127ce3b2c4529629ddd3c062443db808bd8d52cb06bd54d04dbbebe7638cebe",
+          "observations": "The hip roof and low cupola remain seated above the pale walls. The arched dark entry survives the loss of the little pots, as do both front horns.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            506,
+            288,
+            144
+          ]
+        }
+      ]
     }
   ]
 }

@@ -433,7 +433,7 @@ def castle(m):
             post(m,"fieldstone",x,-1.152,.107,.222,.096,.223)
 
 
-def reflector(m, x, z, base, size):
+def reflector(m, x, z, base, size, *, deep_back=False):
     """An offset parabolic signal receiver turned towards the public approach."""
     with m.transform(translate=(x,base,z), scale=size):
         drum(m,"metal",0,0,0,.28,.168,.11)
@@ -448,7 +448,9 @@ def reflector(m, x, z, base, size):
                 m.face("glass",[(0,.018,0),inner[j],inner[i]])
                 m.face("ivory",[inner[i],inner[j],rim[j],rim[i]])
                 m.face("metal",[rear[j],rear[i],rim[i],rim[j]])
-                m.face("metal",[(0,-.037,0),rear[i],rear[j]])
+                # The low-resolution dish needs clearance behind its concave receiving surface.
+                back_y=-.125 if deep_back and m.lod==1 else -.037
+                m.face("metal",[(0,back_y,0),rear[i],rear[j]])
             if m.lod<2:
                 for i in (1,n//2,n-3):
                     p=rim[i]
@@ -471,7 +473,7 @@ def signal_base(m, future):
         hipped(m,-.305,z,1.82,1.14,hall_h,.258)
         m.course("brick",.823,.58,.53,.69,.085,.917,.04)
         m.block("metal",(.823,.942,.58),(.65,.071,.77))
-        reflector(m,.823,.58,.974,.91)
+        reflector(m,.823,.58,.974,.91,deep_back=True)
     if future:
         m.course("metal",.90,.49,.50,.65,.084,.696,.082,.037)
         m.course("glass",.90,.49,.58,.71,.694,.905,.107)

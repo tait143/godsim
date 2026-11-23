@@ -376,6 +376,257 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_storehouse_ancient_v0",
+          "evidence_sha256": "40d3e3a301d064a82a3a382812222c24923f025bb1c22980aec94a14567a2462",
+          "observations": "The long squat store has a low stepped timber cap, stacked crates and broad door at the head of short stairs. The rich wood darkens through the three ages. The door, roof cap and cargo at each front corner survive LOD1.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            576,
+            328,
+            82
+          ]
+        },
+        {
+          "id": "bld_dwarf_storehouse_classical_v0",
+          "evidence_sha256": "1e8cbb942cb3a7881e406944a41a1abe69877d7d3059730ba9d658cfc1dbc3bb",
+          "observations": "The long continuous vaulted roof rises from a clear masonry cornice. The dark gate and steps between crate stacks give the store a loading frontage. LOD1 keeps the vault, walls and door reveal in all three tile and slate colours.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            572,
+            326,
+            78
+          ]
+        },
+        {
+          "id": "bld_dwarf_storehouse_future_v0",
+          "evidence_sha256": "9b987a6172a51e0bf7711c79ead2331e5bd68885ac6c1da9dd8d22f9314e4dfb",
+          "observations": "A long raised clerestory with a light projecting cap changes the store's section above the loading frontage. The window strip remains distinct through Information and Ascension. The middle mesh retains the high roof, both end walls and front steps.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            576,
+            328,
+            82
+          ]
+        },
+        {
+          "id": "bld_dwarf_storehouse_industrial_v0",
+          "evidence_sha256": "3ae7fc0d82dbaebe8e7fda3acee002d8dc1e2bf78daad4ac55a4dc212979467b",
+          "observations": "Twin industrial roof bays interrupt the long storehouse ridge, replacing the single earlier vault. Crates, steps and wide door are still recognizable against brick or steel. The roof halves stay over the full wall span at LOD1.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 92,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            560,
+            318,
+            90
+          ]
+        },
+        {
+          "id": "bld_dwarf_well_ancient_v0",
+          "evidence_sha256": "50dacbf6e40c0f074e074729e8a29ff296829e62f714081dc3ca0907e2fb1c71",
+          "observations": "An exposed drum winds a vertical line into the blue water, with a separate pail beside the broad stone curb. The drum has a post at either end. The middle mesh keeps those bearings, frame and water opening.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            902,
+            514,
+            220
+          ]
+        },
+        {
+          "id": "bld_dwarf_well_classical_v0",
+          "evidence_sha256": "9e0494b79d43d0baa24cfee7c1d92bb5d83cc5ab714c0346274535d95a770e8b",
+          "observations": "A pitched tile canopy stands over the circular masonry shaft on two substantial piers. The rope and pail still explain its purpose at 64 px. the retaining curb, columns and canopy remain connected in LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            934,
+            532,
+            228
+          ]
+        },
+        {
+          "id": "bld_dwarf_well_future_v0",
+          "evidence_sha256": "cc8cc846d38bd6b915e9d0e950f11cb83a62e4f8f5a030ab1a5e36b6c73157e6",
+          "observations": "The white cap and glazed skirt change the colour and detailing, but in unpainted views the dominant canopy, paired supports, rope shaft, pail and round curb repeat the Classical well. They remain structurally intact in LOD1.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 83,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Build a powered well with an offset pump, return manifold and maintenance deck. Change the hood and central-lift arrangement enough to separate the two wells without colour."
+          ],
+          "lod_triangles": [
+            934,
+            532,
+            228
+          ]
+        },
+        {
+          "id": "bld_dwarf_well_industrial_v0",
+          "evidence_sha256": "fe1a0522287bd9a277876274c0f190022c443d0342eb9eadb881abe6c537833e",
+          "observations": "An exposed horizontal drive bridges one cylindrical housing to a much taller exhaust stack. The open well and freestanding pail remain visible underneath. LOD1 keeps the motor supports, shaft opening and base intact.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1060,
+            604,
+            256
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_dwarf_well_future_v0",
+          "evidence_sha256": "ce4af6ee3225172b90752eb623d62bb21867db3ca6c8bb3dd84124c906cfe66d",
+          "observations": "The offset pump column sends its pipe down into an uncovered circular basin. A small control box sits alongside the service deck. The arrangement reads without the earlier rope canopy, and both pipe ends remain seated in the middle mesh.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            664,
+            314,
+            182
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_storehouse_industrial_v0",
+          "evidence_sha256": "93d1c1aa3be43714886a5e56c04b1e26ff642678ba3bbab77738001f6ea17e4b",
+          "observations": "The twin roof bays meet the back wall without an open seam. Crates frame a broad loading door and an uninterrupted front stair at LOD1.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 92,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            560,
+            318,
+            90
+          ]
+        },
+        {
+          "id": "bld_dwarf_well_ancient_v0",
+          "evidence_sha256": "5dad332ea66d67c8a5a4cd36b67d8e617db0c2d7af3e5d1502904ed306589758",
+          "observations": "The drum has a bearing at each end and its line still descends toward the water. The rear curb, timber uprights and separate pail keep their shapes.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            902,
+            514,
+            220
+          ]
+        },
+        {
+          "id": "bld_dwarf_well_classical_v0",
+          "evidence_sha256": "8195656cda8a81932afadf916eb836dda188253cfdc322ea6cbc63e4fd59076d",
+          "observations": "The tiled canopy spans both masonry posts. The rim, shaft, pail and steps remain visible from the rear as well as the front at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            934,
+            532,
+            228
+          ]
+        }
+      ]
     }
   ]
 }

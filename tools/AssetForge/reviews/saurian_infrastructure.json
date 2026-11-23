@@ -280,6 +280,108 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "independent_saurian_round1_2026_11_23",
+      "models": [
+        {
+          "id": "bld_saurian_aqueduct_future_v0",
+          "evidence_sha256": "3b2a134c1f47952e335fbcb3972859ebf504ea5714f623f049bb19cac530006b",
+          "observations": "Three separated piers carry a long channel above open ground. LOD1 keeps the water strip and the piers visibly seated on their individual feet. Blue and gold edge rails change the palette without obscuring the channel. The serialized meshes have 812, 462, 218 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.51% of front-view pixels and 0.24% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_fusion_reactor_future_v0",
+          "evidence_sha256": "20eeca3e24c2a7db3f1d785161a3901c0a979bd07c38e8882e7b301b3cb2f7d6",
+          "observations": "The glowing central cap and turquoise torus rise above a splayed octagonal plinth. The plinth, rim and recessed entrance remain at LOD1, including from the rear. The dark green and gold foundations distinguish the two supplied previews. The serialized meshes have 1285, 731, 284 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.98% of front-view pixels and 0.98% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_power_plant_future_v0",
+          "evidence_sha256": "fd41bcbb82ecaf6c46f08117637073458fd63919a02c38e075d152998ae3bace",
+          "observations": "An open-topped cooling tower and a blue panel wing flank a low power hall. Enlarged LOD1 shows the tower lip, complete roof and connection to the panel in both revisions. The industrial pair of tall exhaust pipes is absent from the future outline. The serialized meshes have 1171, 666, 345 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 1.93% of front-view pixels and 0.63% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_power_plant_industrial_v0",
+          "evidence_sha256": "171efe7038c9c8359748d60168a615afdfed0e64cd751b662b38c1ca04f190c1",
+          "observations": "Twin narrow smokestacks rise behind a flared cooling tower, defining the industrial plant even without paint. The middle LOD retains the two gaps between them and the dark roof inset. Brick and pale concrete keep their separation from the teal fittings. The serialized meshes have 1377, 784, 415 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 1.20% of front-view pixels and 0.90% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_storehouse_classical_v0",
+          "evidence_sha256": "32adcf07c26def420e191733e04b24349a0b9087182ea880668a53f6df052734",
+          "observations": "The long raised storehouse has unequal roof levels, a wide loading door and projecting side store. LOD1 keeps the central steps separated from the raised stone apron and preserves the long uninterrupted ridge across the three palettes. The serialized meshes have 648, 369, 178 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.63% of front-view pixels and 0.24% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_saurian_power_plant_future_v0",
+          "evidence_sha256": "b0863d07fd14b093213c1e0c09ebfcb37fc64f8bf49d15eb2858457445174fa1",
+          "observations": "The cooling tower, collector panels and main plant stay attached to their bases. The dark green inset roof and small control door stay distinct in the middle view.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1171,
+            666,
+            345
+          ]
+        }
+      ]
     }
   ]
 }

@@ -181,7 +181,46 @@ def barracks(m):
         m.flag(-.46,.7,.18,.40 if e==2 else .52,.24)
 
 
+def steel_lookout(m):
+    # A brick guardroom sits at the foot of an open riveted observation gantry.
+    if m.lod<2:
+        m.block("fieldstone",-.08,0,.06,.67,.103,.67,.06)
+        m.block("brick",-.12,.10,.10,.48,.35,.49)
+    else:
+        m.block("brick",-.12,0,.10,.49,.45,.50)
+    m.wedge((-.12,.45,.10),.53,.54,.13,m.col("metal"),material="metal")
+    gate(m,-.13,-.168,.23,.32)
+    for x in (-1,1):
+        for z in (-1,1):
+            m.block("fieldstone",x*.321,0,z*.312,.166,.095,.154,.05)
+            rail(m,"metal",(x*.32,.084,z*.31),(x*.227,1.07,z*.21),.043,.036,
+                 faces=(7,5,4)[m.lod])
+        rail(m,"trim",(x*.30,.32,-.30),(x*.237,.95,.22),.029,faces=(6,4,4)[m.lod])
+        if m.lod==0:
+            rail(m,"trim",(x*.30,.32,.30),(x*.237,.95,-.22),.025,faces=5)
+    m.block("trim",0,1.045,0,.77,.093,.72,.04)
+    m.block("brick",-.065,1.134,.033,.54,.155,.52)
+    m.block("glass",-.065,1.289,.033,.50,.165,.48)
+    m.wedge((-.065,1.454,.033),.65,.62,.14,m.col("metal"),material="metal")
+    for s in (-1,1):
+        m.tusk(s*.30,1.095,-.22,s,.39)
+    # Mounted search lamp projects ahead of the cabin brow.
+    with m.transform(translate=(.16,1.59,-.06),rotate_y=22,rotate_x=-70):
+        m.shell(0,0,[(-.05,.078,"metal"),(.036,.11,"trim"),(.20,.145,"metal"),
+                      (.235,.148,"gold"),(.236,.106,"emissive")],(12,7,4)[m.lod])
+    if m.lod==0:
+        m.flag(-.27,1.49,.23,.27,.123)
+        for x in (-.33,.33):
+            for z in (-.29,.26):
+                rail(m,"metal",(x,1.125,z),(x,1.295,z),.019,faces=5)
+            rail(m,"trim",(x,1.29,-.30),(x,1.29,.28),.023,faces=5)
+        rail(m,"metal",(-.33,1.29,-.3),(.33,1.29,-.3),.023,faces=5)
+
+
+
 def tower(m,small=False):
+    if not small and m.era==2:
+        return steel_lookout(m)
     e=m.era
     n=(10,7,5)[m.lod]
     # Four converging legs leave open sky under the timber lookout. Masonry and brick

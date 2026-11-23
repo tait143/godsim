@@ -300,6 +300,192 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_airport_future_v0",
+          "evidence_sha256": "d5a528ad0c2671dd47b2feb94d0ddceed2e95ace196cf13bb49b5484b0aeacf7",
+          "observations": "The glazed control tower rises well above the blue-window terminal. A small aircraft, baggage cart and marked apron establish the scale. The tower, entrance canopy and apron remain legible in the reduced meshes. Serialized triangle counts are 758, 432, 204 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_bank_future_v0",
+          "evidence_sha256": "6ca97c28d21182adaca36a1deecd4ec41e02ee470abe6380ce971fc1092771db",
+          "observations": "The tall tapered blue vault is now the main roof mass, with a thin flat slab at its foot. The sheltered porch, front steps and clipped shrubs anchor it to the Human bank frontage. Serialized triangle counts are 692, 394, 167 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_bank_industrial_v0",
+          "evidence_sha256": "f924c50f92a310f07815ed747c0940b56df43290fe1e706bc2251628bcbee5ce",
+          "observations": "The shallow cupola is nearly flush with a broad mansard above a square counting hall. Steps between planted urns lead to the columned entry. The roof mass and short cupola remain recognizable in the far model. Serialized triangle counts are 600, 342, 148 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_guildhall_classical_v0",
+          "evidence_sha256": "d5d263ea1b0928e54e2703caac52081d0970360dd6672574c16b49995ecdc6e1",
+          "observations": "The stepped parapet projects above the gabled guild hall and frames the blue tool emblem. Shrubs flank the entry and a lit side window breaks up the smaller wing. The stepped roofline survives at medium distance. Serialized triangle counts are 651, 370, 160 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_guildhall_industrial_v0",
+          "evidence_sha256": "25e569d9adc74c1ae77ae94b13f44c2778fcdbd0472dae15a2094d213578af8e",
+          "observations": "A roof lantern and projecting entry bay replace the earlier crow-step outline. The crossed tools, flag and shrubs remain recognizably civic while the industrial brick keeps the doors and windows distinct. Serialized triangle counts are 569, 324, 127 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_harbor_future_v0",
+          "evidence_sha256": "db6160daedaf0542677b1c7948bfcc88feeba31801fcc93cc897557e7a415e09",
+          "observations": "The open gantry, cargo boat and waterside office distinguish the future dock at full and far levels. At LOD1 the box trolley and upper rails collapse diagonally. Parts of the office roof and walls also buckle. Serialized triangle counts are 692, 394, 216 at LOD0, LOD1 and LOD2. Its largest directed LOD0 corner match with another era is 22.3%.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 95,
+            "construction": 77,
+            "charm": 93,
+            "colour": 94,
+            "technical": 88
+          },
+          "defects": [
+            "Restore the solid crane trolley, parallel rails, and the waterside office at LOD1. Preserve the clear span and take detail from small cargo or ropes."
+          ]
+        },
+        {
+          "id": "bld_human_harbor_industrial_v0",
+          "evidence_sha256": "7cd43b702068e7f8fd7e68a158919a74175d73f5b55ea545ef74730ea344839f",
+          "observations": "The twin hoist drums, loading arm and boat identify the industrial dock from both phone views. At LOD1 the shed beneath the towers loses part of its side and back wall, leaving a triangular wedge under its intact roof. Serialized triangle counts are 654, 372, 168 at LOD0, LOD1 and LOD2. Its largest directed LOD0 corner match with another era is 23.5%.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 94,
+            "construction": 80,
+            "charm": 92,
+            "colour": 93,
+            "technical": 88
+          },
+          "defects": [
+            "Restore the quayside office walls at LOD1, particularly the rear corner visible at 35 degrees. Keep the twin drums and loading arm intact."
+          ]
+        },
+        {
+          "id": "bld_human_rail_station_industrial_v0",
+          "evidence_sha256": "f9ff1814f2d2f08fbbe8ff5bc959abf5f38065c2cb3bf97041a242de5425c8ee",
+          "observations": "The arched platform canopy stands on slender posts beside a clock-fronted station and parallel rails. Benches and pennants define the passenger side. The later station’s sweeping canopy has a different roof profile in grey. Serialized triangle counts are 883, 502, 176 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_bank_industrial_v0",
+          "evidence_sha256": "9ead4359ad5475ba4ad512fdf88849b5fceebc93339a79a567d0775728e593e8",
+          "observations": "The shallow cupola, sloping mansard and four entrance columns remain complete at medium distance. The bare brick back wall meets the roof along its full length, with the front steps readable in the far mesh. Serialized triangle counts are 600, 342, 148 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_guildhall_industrial_v0",
+          "evidence_sha256": "90dae3a6219a4d7f02eade37acc57a8909009499ea3605da78a9faea4d0a0cb4",
+          "observations": "The roof lantern and projecting guild entry remain visible in both mid-distance approaches. The blue badge marks the door at LOD1, and the side and rear brick bays keep their full height beneath the eaves. Serialized triangle counts are 569, 324, 127 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_harbor_future_v0",
+          "evidence_sha256": "8781adda917fd85eee45e085fa3e70cda7dffc30905733a60eb3a52023966a19",
+          "observations": "The box trolley now spans two straight crane rails at medium distance. Both ends of the loading frame stay connected, and the waterside office under its hipped blue roof has a continuous facade. The full gantry still contrasts with the industrial towers in grey. Serialized triangle counts are 692, 414, 216 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_harbor_industrial_v0",
+          "evidence_sha256": "98c0cf7f919688e33202aaae254d3daf474551bb9d9c5bde27070c727b5867e2",
+          "observations": "The twin drums and sloping loader reach over the moored boat. The rebuilt middle mesh keeps the waterfront office solid behind its door and under both eaves, including the previously open rear corner. Serialized triangle counts are 654, 388, 168 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,4394 @@
+{
+  "checkpoint": "91863de5a788e77dc2baaaed86fbd9a52c58df63",
+  "models": 1034,
+  "prior_lod1": {
+    "above_sixty": 376,
+    "above_sixty_five": 104,
+    "peak_id": "bld_human_hunting_lodge_classical_v0",
+    "peak_triangles": [
+      423,
+      288,
+      134
+    ],
+    "peak_ratio": 0.6808510638297872
+  },
+  "current_lod1": {
+    "above_sixty": 0,
+    "above_sixty_five": 0,
+    "peak_id": "bld_orc_house_ancient_v0",
+    "peak_triangles": [
+      510,
+      306,
+      144
+    ],
+    "peak_ratio": 0.6
+  },
+  "changed_by_race": {
+    "dwarf": 89,
+    "elf": 111,
+    "human": 75,
+    "neutral": 1,
+    "orc": 85,
+    "saurian": 100
+  },
+  "changed_models": 461,
+  "changed_lod0": 217,
+  "changed_position_levels": {
+    "bld_dwarf_airport_future_v0": [
+      1
+    ],
+    "bld_dwarf_arcology_future_v0": [
+      1
+    ],
+    "bld_dwarf_barracks_ancient_v0": [
+      1
+    ],
+    "bld_dwarf_barracks_classical_v0": [
+      1
+    ],
+    "bld_dwarf_barracks_future_v0": [
+      1
+    ],
+    "bld_dwarf_barracks_industrial_v0": [
+      1
+    ],
+    "bld_dwarf_campfire_ancient_v0": [
+      1
+    ],
+    "bld_dwarf_campfire_classical_v0": [
+      1
+    ],
+    "bld_dwarf_castle_classical_v0": [
+      1
+    ],
+    "bld_dwarf_cathedral_classical_v0": [
+      1
+    ],
+    "bld_dwarf_cathedral_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_cathedral_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_coal_mine_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_deep_forge_ancient_v0": [
+      1
+    ],
+    "bld_dwarf_factory_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_foundry_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_gold_mine_classical_v0": [
+      1
+    ],
+    "bld_dwarf_herbalist_ancient_v0": [
+      1
+    ],
+    "bld_dwarf_herbalist_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_herbalist_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_herbalist_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_house_ancient_bronze_v0": [
+      1
+    ],
+    "bld_dwarf_house_ancient_bronze_v1": [
+      1
+    ],
+    "bld_dwarf_house_ancient_iron_v1": [
+      1
+    ],
+    "bld_dwarf_house_ancient_v0": [
+      1
+    ],
+    "bld_dwarf_house_classical_medieval_v1": [
+      1
+    ],
+    "bld_dwarf_house_classical_v0": [
+      1
+    ],
+    "bld_dwarf_house_classical_v1": [
+      1
+    ],
+    "bld_dwarf_house_future_v0": [
+      1
+    ],
+    "bld_dwarf_house_future_v1": [
+      1
+    ],
+    "bld_dwarf_hydroponics_tower_future_v0": [
+      1
+    ],
+    "bld_dwarf_library_classical_v0": [
+      1
+    ],
+    "bld_dwarf_library_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_military_base_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_military_base_industrial_v0": [
+      1
+    ],
+    "bld_dwarf_monastery_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_monastery_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_oil_well_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_palisade_ancient_v0": [
+      1
+    ],
+    "bld_dwarf_palisade_classical_v0": [
+      1
+    ],
+    "bld_dwarf_pasture_ancient_v0": [
+      1
+    ],
+    "bld_dwarf_pasture_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_pasture_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_pasture_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_rail_station_future_v0": [
+      1
+    ],
+    "bld_dwarf_rail_station_industrial_v0": [
+      1
+    ],
+    "bld_dwarf_sawmill_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_scriptorium_ancient_v0": [
+      1
+    ],
+    "bld_dwarf_scriptorium_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_scriptorium_future_v0": [
+      1
+    ],
+    "bld_dwarf_scriptorium_industrial_v0": [
+      1
+    ],
+    "bld_dwarf_shrine_ancient_v0": [
+      1
+    ],
+    "bld_dwarf_shrine_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_shrine_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_shrine_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_spirit_totem_ancient_v0": [
+      1
+    ],
+    "bld_dwarf_stadium_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_stadium_industrial_v0": [
+      1
+    ],
+    "bld_dwarf_stone_quarry_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_stone_quarry_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_stone_quarry_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_stone_wall_classical_v0": [
+      1
+    ],
+    "bld_dwarf_storehouse_ancient_v0": [
+      1
+    ],
+    "bld_dwarf_storehouse_classical_v0": [
+      1
+    ],
+    "bld_dwarf_storehouse_future_v0": [
+      1
+    ],
+    "bld_dwarf_storehouse_industrial_v0": [
+      1
+    ],
+    "bld_dwarf_tavern_classical_v0": [
+      1
+    ],
+    "bld_dwarf_tavern_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_tavern_industrial_v0": [
+      1
+    ],
+    "bld_dwarf_town_center_ancient_bronze_v0": [
+      1
+    ],
+    "bld_dwarf_town_center_ancient_iron_v0": [
+      1
+    ],
+    "bld_dwarf_town_center_ancient_v0": [
+      1
+    ],
+    "bld_dwarf_town_center_classical_medieval_v0": [
+      1
+    ],
+    "bld_dwarf_town_center_future_ascension_v0": [
+      1
+    ],
+    "bld_dwarf_town_center_future_v0": [
+      1
+    ],
+    "bld_dwarf_town_center_industrial_modern_v0": [
+      1
+    ],
+    "bld_dwarf_watchtower_ancient_v0": [
+      1
+    ],
+    "bld_dwarf_watchtower_classical_v0": [
+      1
+    ],
+    "bld_dwarf_watchtower_industrial_v0": [
+      1
+    ],
+    "bld_dwarf_weaver_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_weaver_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_weaver_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_well_ancient_v0": [
+      1
+    ],
+    "bld_dwarf_well_classical_v0": [
+      1
+    ],
+    "bld_dwarf_well_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_well_industrial_v0": [
+      1
+    ],
+    "bld_dwarf_woodcutter_camp_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_woodcutter_camp_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_dwarf_woodcutter_camp_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_airport_future_v0": [
+      1
+    ],
+    "bld_elf_aqueduct_classical_v0": [
+      1
+    ],
+    "bld_elf_aqueduct_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_aqueduct_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_arcology_future_v0": [
+      1
+    ],
+    "bld_elf_bank_classical_v0": [
+      1
+    ],
+    "bld_elf_bank_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_bank_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_barracks_ancient_v0": [
+      1
+    ],
+    "bld_elf_barracks_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_barracks_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_barracks_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_bathhouse_classical_v0": [
+      1
+    ],
+    "bld_elf_bathhouse_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_bathhouse_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_castle_classical_v0": [
+      1
+    ],
+    "bld_elf_data_center_future_v0": [
+      1
+    ],
+    "bld_elf_factory_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_fishing_hut_ancient_v0": [
+      1
+    ],
+    "bld_elf_fishing_hut_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_forum_classical_v0": [
+      1
+    ],
+    "bld_elf_forum_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_forum_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_foundry_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_foundry_industrial_v0": [
+      1
+    ],
+    "bld_elf_fusion_reactor_future_v0": [
+      1
+    ],
+    "bld_elf_gold_mine_ancient_v0": [
+      1
+    ],
+    "bld_elf_gold_mine_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_guildhall_classical_v0": [
+      1
+    ],
+    "bld_elf_guildhall_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_guildhall_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_harbor_classical_v0": [
+      1
+    ],
+    "bld_elf_harbor_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_harbor_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_herbalist_ancient_v0": [
+      1
+    ],
+    "bld_elf_herbalist_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_herbalist_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_herbalist_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_hospital_classical_v0": [
+      1
+    ],
+    "bld_elf_hospital_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_hospital_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_house_industrial_modern_v0": [
+      1
+    ],
+    "bld_elf_house_industrial_modern_v1": [
+      1
+    ],
+    "bld_elf_house_industrial_v0": [
+      1
+    ],
+    "bld_elf_hunting_lodge_ancient_v0": [
+      1
+    ],
+    "bld_elf_hunting_lodge_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_industrial_farm_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_library_classical_v0": [
+      1
+    ],
+    "bld_elf_library_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_library_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_market_ancient_v0": [
+      1
+    ],
+    "bld_elf_market_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_market_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_market_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_military_base_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_military_base_industrial_v0": [
+      1
+    ],
+    "bld_elf_mine_ancient_v0": [
+      1
+    ],
+    "bld_elf_mine_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_mine_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_mine_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_monastery_classical_v0": [
+      1
+    ],
+    "bld_elf_monastery_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_monastery_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_observatory_classical_v0": [
+      1
+    ],
+    "bld_elf_observatory_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_observatory_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_oil_well_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_power_plant_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_power_plant_industrial_v0": [
+      1
+    ],
+    "bld_elf_printworks_classical_v0": [
+      1
+    ],
+    "bld_elf_printworks_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_printworks_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_rail_station_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_rail_station_industrial_v0": [
+      1
+    ],
+    "bld_elf_scriptorium_ancient_v0": [
+      1
+    ],
+    "bld_elf_scriptorium_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_scriptorium_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_scriptorium_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_shrine_ancient_v0": [
+      1
+    ],
+    "bld_elf_shrine_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_shrine_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_shrine_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_spirit_totem_ancient_v0": [
+      1
+    ],
+    "bld_elf_stone_wall_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_storehouse_ancient_v0": [
+      1
+    ],
+    "bld_elf_storehouse_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_storehouse_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_storehouse_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_tavern_classical_v0": [
+      1
+    ],
+    "bld_elf_tavern_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_tavern_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_temple_ancient_v0": [
+      1
+    ],
+    "bld_elf_temple_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_temple_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_temple_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_theater_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_theater_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_town_center_classical_v0": [
+      1
+    ],
+    "bld_elf_watchtower_ancient_v0": [
+      1
+    ],
+    "bld_elf_watchtower_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_watchtower_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_weaver_ancient_v0": [
+      1
+    ],
+    "bld_elf_weaver_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_weaver_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_weaver_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_well_ancient_v0": [
+      1
+    ],
+    "bld_elf_well_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_well_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_well_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_elf_workshop_classical_v0": [
+      1
+    ],
+    "bld_elf_workshop_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_human_airport_future_v0": [
+      1
+    ],
+    "bld_human_aqueduct_classical_v0": [
+      1
+    ],
+    "bld_human_aqueduct_future_v0": [
+      1
+    ],
+    "bld_human_aqueduct_industrial_v0": [
+      1
+    ],
+    "bld_human_arcology_future_v0": [
+      1
+    ],
+    "bld_human_arena_future_v0": [
+      1
+    ],
+    "bld_human_bank_future_v0": [
+      1
+    ],
+    "bld_human_bank_industrial_v0": [
+      1
+    ],
+    "bld_human_campfire_classical_v0": [
+      1
+    ],
+    "bld_human_data_center_future_v0": [
+      1
+    ],
+    "bld_human_farm_classical_v0": [
+      1
+    ],
+    "bld_human_fishing_hut_ancient_v0": [
+      1
+    ],
+    "bld_human_fishing_hut_classical_v0": [
+      1
+    ],
+    "bld_human_fishing_hut_future_v0": [
+      1
+    ],
+    "bld_human_fishing_hut_industrial_v0": [
+      1
+    ],
+    "bld_human_forum_classical_v0": [
+      1
+    ],
+    "bld_human_forum_future_v0": [
+      1
+    ],
+    "bld_human_forum_industrial_v0": [
+      1
+    ],
+    "bld_human_foundry_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_human_foundry_industrial_v0": [
+      1
+    ],
+    "bld_human_gold_mine_classical_v0": [
+      1
+    ],
+    "bld_human_gold_mine_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_human_gold_mine_industrial_v0": [
+      1
+    ],
+    "bld_human_grand_cathedral_classical_v0": [
+      1
+    ],
+    "bld_human_guildhall_classical_v0": [
+      1
+    ],
+    "bld_human_guildhall_industrial_v0": [
+      1
+    ],
+    "bld_human_harbor_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_human_harbor_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_human_house_classical_medieval_v0": [
+      1
+    ],
+    "bld_human_house_classical_medieval_v1": [
+      1
+    ],
+    "bld_human_house_industrial_v0": [
+      1
+    ],
+    "bld_human_house_industrial_v1": [
+      1
+    ],
+    "bld_human_hunting_lodge_classical_v0": [
+      1
+    ],
+    "bld_human_hydroponics_tower_future_v0": [
+      1
+    ],
+    "bld_human_industrial_farm_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_human_industrial_farm_industrial_v0": [
+      1
+    ],
+    "bld_human_military_base_industrial_v0": [
+      1
+    ],
+    "bld_human_mine_ancient_v0": [
+      1
+    ],
+    "bld_human_mine_classical_v0": [
+      1
+    ],
+    "bld_human_mine_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_human_monastery_classical_v0": [
+      1
+    ],
+    "bld_human_palisade_classical_v0": [
+      1
+    ],
+    "bld_human_pasture_ancient_v0": [
+      1
+    ],
+    "bld_human_pasture_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_human_pasture_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_human_pasture_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_human_power_plant_future_v0": [
+      1
+    ],
+    "bld_human_power_plant_industrial_v0": [
+      1
+    ],
+    "bld_human_rail_station_industrial_v0": [
+      1
+    ],
+    "bld_human_research_lab_future_v0": [
+      1
+    ],
+    "bld_human_research_lab_industrial_v0": [
+      1
+    ],
+    "bld_human_sawmill_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_human_sawmill_industrial_v0": [
+      1
+    ],
+    "bld_human_smelter_classical_v0": [
+      1
+    ],
+    "bld_human_smelter_industrial_v0": [
+      1
+    ],
+    "bld_human_spirit_totem_ancient_v0": [
+      1
+    ],
+    "bld_human_stadium_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_human_stadium_industrial_v0": [
+      1
+    ],
+    "bld_human_stone_quarry_ancient_v0": [
+      1
+    ],
+    "bld_human_tavern_classical_v0": [
+      1
+    ],
+    "bld_human_tavern_industrial_v0": [
+      1
+    ],
+    "bld_human_theater_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_human_theater_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_human_town_center_ancient_iron_v0": [
+      1
+    ],
+    "bld_human_town_center_classical_medieval_v0": [
+      1
+    ],
+    "bld_human_town_center_classical_v0": [
+      1
+    ],
+    "bld_human_town_center_future_ascension_v0": [
+      1
+    ],
+    "bld_human_weaver_ancient_v0": [
+      1
+    ],
+    "bld_human_weaver_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_human_well_ancient_v0": [
+      1
+    ],
+    "bld_human_well_classical_v0": [
+      1
+    ],
+    "bld_human_well_future_v0": [
+      1
+    ],
+    "bld_human_well_industrial_v0": [
+      1
+    ],
+    "bld_human_workshop_classical_v0": [
+      1
+    ],
+    "bld_human_workshop_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_neutral_ascension_gate_v0": [
+      1
+    ],
+    "bld_orc_airport_future_v0": [
+      1
+    ],
+    "bld_orc_aqueduct_classical_v0": [
+      1
+    ],
+    "bld_orc_aqueduct_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_aqueduct_industrial_v0": [
+      1
+    ],
+    "bld_orc_armory_ancient_v0": [
+      1
+    ],
+    "bld_orc_armory_classical_v0": [
+      1
+    ],
+    "bld_orc_armory_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_armory_industrial_v0": [
+      1
+    ],
+    "bld_orc_bathhouse_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_bathhouse_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_campfire_classical_v0": [
+      1
+    ],
+    "bld_orc_cathedral_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_cathedral_industrial_v0": [
+      1
+    ],
+    "bld_orc_coal_mine_future_v0": [
+      1
+    ],
+    "bld_orc_coal_mine_industrial_v0": [
+      1
+    ],
+    "bld_orc_electronics_plant_future_v0": [
+      1
+    ],
+    "bld_orc_forum_classical_v0": [
+      1
+    ],
+    "bld_orc_forum_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_forum_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_gold_mine_future_v0": [
+      1
+    ],
+    "bld_orc_harbor_classical_v0": [
+      1
+    ],
+    "bld_orc_harbor_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_harbor_industrial_v0": [
+      1
+    ],
+    "bld_orc_herbalist_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_herbalist_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_herbalist_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_house_classical_medieval_v0": [
+      1
+    ],
+    "bld_orc_house_classical_medieval_v1": [
+      1
+    ],
+    "bld_orc_house_classical_renaissance_v1": [
+      1
+    ],
+    "bld_orc_house_future_ascension_v0": [
+      1
+    ],
+    "bld_orc_house_future_ascension_v1": [
+      1
+    ],
+    "bld_orc_house_future_v0": [
+      1
+    ],
+    "bld_orc_house_future_v1": [
+      1
+    ],
+    "bld_orc_house_industrial_modern_v0": [
+      1
+    ],
+    "bld_orc_house_industrial_modern_v1": [
+      1
+    ],
+    "bld_orc_industrial_farm_industrial_v0": [
+      1
+    ],
+    "bld_orc_market_ancient_v0": [
+      1
+    ],
+    "bld_orc_market_classical_v0": [
+      1
+    ],
+    "bld_orc_market_future_v0": [
+      1
+    ],
+    "bld_orc_market_industrial_v0": [
+      1
+    ],
+    "bld_orc_mine_ancient_v0": [
+      1
+    ],
+    "bld_orc_mine_classical_v0": [
+      1
+    ],
+    "bld_orc_mine_future_v0": [
+      1
+    ],
+    "bld_orc_mine_industrial_v0": [
+      1
+    ],
+    "bld_orc_monastery_classical_v0": [
+      1
+    ],
+    "bld_orc_monastery_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_monastery_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_observatory_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_observatory_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_oil_well_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_oil_well_industrial_v0": [
+      1
+    ],
+    "bld_orc_power_plant_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_printworks_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_printworks_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_rail_station_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_rail_station_industrial_v0": [
+      1
+    ],
+    "bld_orc_research_lab_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_scriptorium_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_scriptorium_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_scriptorium_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_shrine_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_shrine_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_shrine_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_stadium_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_stadium_industrial_v0": [
+      1
+    ],
+    "bld_orc_stone_wall_industrial_v0": [
+      1
+    ],
+    "bld_orc_temple_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_temple_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_temple_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_theater_classical_v0": [
+      1
+    ],
+    "bld_orc_theater_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_theater_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_university_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_university_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_watchtower_ancient_v0": [
+      1
+    ],
+    "bld_orc_watchtower_classical_v0": [
+      1
+    ],
+    "bld_orc_watchtower_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_weaver_ancient_v0": [
+      1
+    ],
+    "bld_orc_weaver_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_weaver_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_weaver_industrial_v0": [
+      1
+    ],
+    "bld_orc_well_ancient_v0": [
+      1
+    ],
+    "bld_orc_well_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_well_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_orc_well_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_airport_future_v0": [
+      1
+    ],
+    "bld_saurian_aqueduct_future_v0": [
+      1
+    ],
+    "bld_saurian_arena_classical_v0": [
+      1
+    ],
+    "bld_saurian_arena_future_v0": [
+      1
+    ],
+    "bld_saurian_arena_industrial_v0": [
+      1
+    ],
+    "bld_saurian_armory_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_armory_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_armory_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_bank_classical_v0": [
+      1
+    ],
+    "bld_saurian_bank_industrial_v0": [
+      1
+    ],
+    "bld_saurian_barracks_classical_v0": [
+      1
+    ],
+    "bld_saurian_barracks_industrial_v0": [
+      1
+    ],
+    "bld_saurian_bathhouse_classical_v0": [
+      1
+    ],
+    "bld_saurian_bathhouse_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_bathhouse_industrial_v0": [
+      1
+    ],
+    "bld_saurian_blacksmith_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_blacksmith_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_blacksmith_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_data_center_future_v0": [
+      1
+    ],
+    "bld_saurian_factory_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_farm_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_farm_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_farm_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_fishing_hut_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_fishing_hut_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_fishing_hut_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_forum_classical_v0": [
+      1
+    ],
+    "bld_saurian_forum_future_v0": [
+      1
+    ],
+    "bld_saurian_forum_industrial_v0": [
+      1
+    ],
+    "bld_saurian_foundry_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_fusion_reactor_future_v0": [
+      1
+    ],
+    "bld_saurian_guildhall_industrial_v0": [
+      1
+    ],
+    "bld_saurian_herbalist_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_herbalist_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_herbalist_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_hospital_classical_v0": [
+      1
+    ],
+    "bld_saurian_hospital_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_hospital_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_house_ancient_bronze_v1": [
+      1
+    ],
+    "bld_saurian_house_future_ascension_v0": [
+      1
+    ],
+    "bld_saurian_house_future_ascension_v1": [
+      1
+    ],
+    "bld_saurian_house_future_v0": [
+      1
+    ],
+    "bld_saurian_house_future_v1": [
+      1
+    ],
+    "bld_saurian_house_industrial_modern_v0": [
+      1
+    ],
+    "bld_saurian_house_industrial_modern_v1": [
+      1
+    ],
+    "bld_saurian_industrial_farm_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_library_classical_v0": [
+      1
+    ],
+    "bld_saurian_library_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_library_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_medical_center_future_v0": [
+      1
+    ],
+    "bld_saurian_military_base_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_military_base_industrial_v0": [
+      1
+    ],
+    "bld_saurian_mill_classical_v0": [
+      1
+    ],
+    "bld_saurian_mill_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_monastery_classical_v0": [
+      1
+    ],
+    "bld_saurian_monastery_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_monastery_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_oil_well_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_pasture_ancient_v0": [
+      1
+    ],
+    "bld_saurian_pasture_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_pasture_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_pasture_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_power_plant_future_v0": [
+      1
+    ],
+    "bld_saurian_power_plant_industrial_v0": [
+      1
+    ],
+    "bld_saurian_printworks_classical_v0": [
+      1
+    ],
+    "bld_saurian_printworks_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_printworks_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_rail_station_future_v0": [
+      1
+    ],
+    "bld_saurian_rail_station_industrial_v0": [
+      1
+    ],
+    "bld_saurian_research_lab_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_sawmill_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_scriptorium_ancient_v0": [
+      1
+    ],
+    "bld_saurian_scriptorium_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_scriptorium_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_scriptorium_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_smelter_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_smelter_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_smelter_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_stadium_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_stone_quarry_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_stone_quarry_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_stone_wall_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_storehouse_classical_v0": [
+      1
+    ],
+    "bld_saurian_tavern_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_tavern_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_theater_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_theater_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_university_classical_v0": [
+      1
+    ],
+    "bld_saurian_university_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_university_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_watchtower_ancient_v0": [
+      1
+    ],
+    "bld_saurian_watchtower_classical_v0": [
+      1
+    ],
+    "bld_saurian_watchtower_industrial_v0": [
+      1
+    ],
+    "bld_saurian_weaver_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_weaver_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_weaver_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_woodcutter_camp_classical_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_woodcutter_camp_future_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_woodcutter_camp_industrial_v0": [
+      0,
+      1,
+      2
+    ],
+    "bld_saurian_workshop_industrial_v0": [
+      0,
+      1,
+      2
+    ]
+  },
+  "era_families": [
+    {
+      "race": "dwarf",
+      "building_type": "Cathedral",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 4032,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_cathedral_classical_v0",
+      "compared_to": "bld_dwarf_cathedral_future_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "CoalMine",
+      "scope": "additional critic finding",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2406,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_coal_mine_future_v0",
+      "compared_to": "bld_dwarf_coal_mine_industrial_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "Factory",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2250,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_factory_future_v0",
+      "compared_to": "bld_dwarf_factory_industrial_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "Foundry",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2082,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_foundry_future_v0",
+      "compared_to": "bld_dwarf_foundry_industrial_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "Herbalist",
+      "scope": "additional critic finding",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 2886,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_herbalist_ancient_v0",
+      "compared_to": "bld_dwarf_herbalist_classical_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "Library",
+      "scope": "additional critic finding",
+      "ordered_pairs": 4,
+      "shared": 0,
+      "corners": 1536,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_library_classical_v0",
+      "compared_to": "bld_dwarf_library_future_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "MilitaryBase",
+      "scope": "additional critic finding",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2538,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_military_base_future_v0",
+      "compared_to": "bld_dwarf_military_base_industrial_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "Monastery",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 4224,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_monastery_classical_v0",
+      "compared_to": "bld_dwarf_monastery_future_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "OilWell",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2034,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_oil_well_future_v0",
+      "compared_to": "bld_dwarf_oil_well_industrial_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "Pasture",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 2796,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_pasture_ancient_v0",
+      "compared_to": "bld_dwarf_pasture_classical_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "Sawmill",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 1542,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_sawmill_future_v0",
+      "compared_to": "bld_dwarf_sawmill_industrial_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "Scriptorium",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 2244,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_scriptorium_ancient_v0",
+      "compared_to": "bld_dwarf_scriptorium_classical_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "Shrine",
+      "scope": "additional critic finding",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 2496,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_shrine_ancient_v0",
+      "compared_to": "bld_dwarf_shrine_classical_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "Stadium",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 3390,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_stadium_future_v0",
+      "compared_to": "bld_dwarf_stadium_industrial_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "StoneQuarry",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 2628,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_stone_quarry_ancient_v0",
+      "compared_to": "bld_dwarf_stone_quarry_classical_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "Tavern",
+      "scope": "additional critic finding",
+      "ordered_pairs": 4,
+      "shared": 0,
+      "corners": 2460,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_tavern_classical_v0",
+      "compared_to": "bld_dwarf_tavern_future_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "Weaver",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 3204,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_weaver_ancient_v0",
+      "compared_to": "bld_dwarf_weaver_classical_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "Well",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 2706,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_well_ancient_v0",
+      "compared_to": "bld_dwarf_well_future_v0"
+    },
+    {
+      "race": "dwarf",
+      "building_type": "WoodcutterCamp",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 2658,
+      "max_fraction": 0.0,
+      "source": "bld_dwarf_woodcutter_camp_ancient_v0",
+      "compared_to": "bld_dwarf_woodcutter_camp_classical_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Aqueduct",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 3642,
+      "max_fraction": 0.0,
+      "source": "bld_elf_aqueduct_classical_v0",
+      "compared_to": "bld_elf_aqueduct_future_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Bank",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 141,
+      "corners": 1998,
+      "max_fraction": 0.07057057057057058,
+      "source": "bld_elf_bank_industrial_v0",
+      "compared_to": "bld_elf_bank_future_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Barracks",
+      "scope": "additional critic finding",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 3084,
+      "max_fraction": 0.0,
+      "source": "bld_elf_barracks_ancient_v0",
+      "compared_to": "bld_elf_barracks_classical_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Bathhouse",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 2424,
+      "max_fraction": 0.0,
+      "source": "bld_elf_bathhouse_classical_v0",
+      "compared_to": "bld_elf_bathhouse_future_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Factory",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 3978,
+      "max_fraction": 0.0,
+      "source": "bld_elf_factory_future_v0",
+      "compared_to": "bld_elf_factory_industrial_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "FishingHut",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 2445,
+      "max_fraction": 0.0,
+      "source": "bld_elf_fishing_hut_ancient_v0",
+      "compared_to": "bld_elf_fishing_hut_classical_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Forum",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 141,
+      "corners": 1383,
+      "max_fraction": 0.1019522776572668,
+      "source": "bld_elf_forum_industrial_v0",
+      "compared_to": "bld_elf_forum_future_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Foundry",
+      "scope": "additional critic finding",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2694,
+      "max_fraction": 0.0,
+      "source": "bld_elf_foundry_future_v0",
+      "compared_to": "bld_elf_foundry_industrial_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "GoldMine",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 3825,
+      "max_fraction": 0.0,
+      "source": "bld_elf_gold_mine_ancient_v0",
+      "compared_to": "bld_elf_gold_mine_classical_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Guildhall",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 141,
+      "corners": 2589,
+      "max_fraction": 0.054461181923522596,
+      "source": "bld_elf_guildhall_industrial_v0",
+      "compared_to": "bld_elf_guildhall_future_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Harbor",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 141,
+      "corners": 1050,
+      "max_fraction": 0.13428571428571429,
+      "source": "bld_elf_harbor_industrial_v0",
+      "compared_to": "bld_elf_harbor_future_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Herbalist",
+      "scope": "coordinator visual example",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 2790,
+      "max_fraction": 0.0,
+      "source": "bld_elf_herbalist_ancient_v0",
+      "compared_to": "bld_elf_herbalist_classical_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Hospital",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 3951,
+      "max_fraction": 0.0,
+      "source": "bld_elf_hospital_classical_v0",
+      "compared_to": "bld_elf_hospital_future_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "HuntingLodge",
+      "scope": "additional critic finding",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2592,
+      "max_fraction": 0.0,
+      "source": "bld_elf_hunting_lodge_ancient_v0",
+      "compared_to": "bld_elf_hunting_lodge_classical_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "IndustrialFarm",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 4302,
+      "max_fraction": 0.0,
+      "source": "bld_elf_industrial_farm_future_v0",
+      "compared_to": "bld_elf_industrial_farm_industrial_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Library",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 1908,
+      "max_fraction": 0.0,
+      "source": "bld_elf_library_classical_v0",
+      "compared_to": "bld_elf_library_future_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Market",
+      "scope": "additional critic finding",
+      "ordered_pairs": 12,
+      "shared": 141,
+      "corners": 1551,
+      "max_fraction": 0.09090909090909091,
+      "source": "bld_elf_market_industrial_v0",
+      "compared_to": "bld_elf_market_classical_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "MilitaryBase",
+      "scope": "additional critic finding",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 4023,
+      "max_fraction": 0.0,
+      "source": "bld_elf_military_base_future_v0",
+      "compared_to": "bld_elf_military_base_industrial_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Mine",
+      "scope": "additional critic finding",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 3714,
+      "max_fraction": 0.0,
+      "source": "bld_elf_mine_ancient_v0",
+      "compared_to": "bld_elf_mine_classical_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Monastery",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 2772,
+      "max_fraction": 0.0,
+      "source": "bld_elf_monastery_classical_v0",
+      "compared_to": "bld_elf_monastery_future_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Observatory",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 3267,
+      "max_fraction": 0.0,
+      "source": "bld_elf_observatory_classical_v0",
+      "compared_to": "bld_elf_observatory_future_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "OilWell",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 3582,
+      "max_fraction": 0.0,
+      "source": "bld_elf_oil_well_future_v0",
+      "compared_to": "bld_elf_oil_well_industrial_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "PowerPlant",
+      "scope": "additional critic finding",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 1446,
+      "max_fraction": 0.0,
+      "source": "bld_elf_power_plant_future_v0",
+      "compared_to": "bld_elf_power_plant_industrial_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Printworks",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 2238,
+      "max_fraction": 0.0,
+      "source": "bld_elf_printworks_classical_v0",
+      "compared_to": "bld_elf_printworks_future_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "RailStation",
+      "scope": "additional critic finding",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 1896,
+      "max_fraction": 0.0,
+      "source": "bld_elf_rail_station_future_v0",
+      "compared_to": "bld_elf_rail_station_industrial_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Scriptorium",
+      "scope": "additional critic finding",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 1992,
+      "max_fraction": 0.0,
+      "source": "bld_elf_scriptorium_ancient_v0",
+      "compared_to": "bld_elf_scriptorium_classical_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Shrine",
+      "scope": "additional critic finding",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 2280,
+      "max_fraction": 0.0,
+      "source": "bld_elf_shrine_ancient_v0",
+      "compared_to": "bld_elf_shrine_classical_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "StoneWall",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2760,
+      "max_fraction": 0.0,
+      "source": "bld_elf_stone_wall_classical_v0",
+      "compared_to": "bld_elf_stone_wall_industrial_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Storehouse",
+      "scope": "additional critic finding",
+      "ordered_pairs": 12,
+      "shared": 141,
+      "corners": 1467,
+      "max_fraction": 0.09611451942740286,
+      "source": "bld_elf_storehouse_industrial_v0",
+      "compared_to": "bld_elf_storehouse_classical_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Tavern",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 141,
+      "corners": 1953,
+      "max_fraction": 0.07219662058371736,
+      "source": "bld_elf_tavern_industrial_v0",
+      "compared_to": "bld_elf_tavern_future_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Temple",
+      "scope": "additional critic finding",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 3336,
+      "max_fraction": 0.0,
+      "source": "bld_elf_temple_ancient_v0",
+      "compared_to": "bld_elf_temple_classical_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Theater",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 2571,
+      "max_fraction": 0.0,
+      "source": "bld_elf_theater_classical_v0",
+      "compared_to": "bld_elf_theater_future_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Watchtower",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 3,
+      "corners": 1896,
+      "max_fraction": 0.0015822784810126582,
+      "source": "bld_elf_watchtower_ancient_v0",
+      "compared_to": "bld_elf_watchtower_classical_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Weaver",
+      "scope": "additional critic finding",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 2709,
+      "max_fraction": 0.0,
+      "source": "bld_elf_weaver_ancient_v0",
+      "compared_to": "bld_elf_weaver_classical_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Well",
+      "scope": "additional critic finding",
+      "ordered_pairs": 12,
+      "shared": 141,
+      "corners": 897,
+      "max_fraction": 0.15719063545150502,
+      "source": "bld_elf_well_future_v0",
+      "compared_to": "bld_elf_well_classical_v0"
+    },
+    {
+      "race": "elf",
+      "building_type": "Workshop",
+      "scope": "additional critic finding",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 3264,
+      "max_fraction": 0.0,
+      "source": "bld_elf_workshop_classical_v0",
+      "compared_to": "bld_elf_workshop_industrial_v0"
+    },
+    {
+      "race": "human",
+      "building_type": "Foundry",
+      "scope": "additional critic finding",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2202,
+      "max_fraction": 0.0,
+      "source": "bld_human_foundry_future_v0",
+      "compared_to": "bld_human_foundry_industrial_v0"
+    },
+    {
+      "race": "human",
+      "building_type": "GoldMine",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 66,
+      "corners": 1392,
+      "max_fraction": 0.04741379310344827,
+      "source": "bld_human_gold_mine_future_v0",
+      "compared_to": "bld_human_gold_mine_ancient_v0"
+    },
+    {
+      "race": "human",
+      "building_type": "Harbor",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 462,
+      "corners": 1962,
+      "max_fraction": 0.23547400611620795,
+      "source": "bld_human_harbor_industrial_v0",
+      "compared_to": "bld_human_harbor_future_v0"
+    },
+    {
+      "race": "human",
+      "building_type": "IndustrialFarm",
+      "scope": "additional critic finding",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 1026,
+      "max_fraction": 0.0,
+      "source": "bld_human_industrial_farm_future_v0",
+      "compared_to": "bld_human_industrial_farm_industrial_v0"
+    },
+    {
+      "race": "human",
+      "building_type": "Mine",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 66,
+      "corners": 1398,
+      "max_fraction": 0.04721030042918455,
+      "source": "bld_human_mine_future_v0",
+      "compared_to": "bld_human_mine_ancient_v0"
+    },
+    {
+      "race": "human",
+      "building_type": "Pasture",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 126,
+      "corners": 1962,
+      "max_fraction": 0.06422018348623854,
+      "source": "bld_human_pasture_classical_v0",
+      "compared_to": "bld_human_pasture_future_v0"
+    },
+    {
+      "race": "human",
+      "building_type": "Sawmill",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 66,
+      "corners": 3336,
+      "max_fraction": 0.019784172661870502,
+      "source": "bld_human_sawmill_industrial_v0",
+      "compared_to": "bld_human_sawmill_future_v0"
+    },
+    {
+      "race": "human",
+      "building_type": "Stadium",
+      "scope": "additional critic finding",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 3528,
+      "max_fraction": 0.0,
+      "source": "bld_human_stadium_future_v0",
+      "compared_to": "bld_human_stadium_industrial_v0"
+    },
+    {
+      "race": "human",
+      "building_type": "Theater",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 1842,
+      "max_fraction": 0.0,
+      "source": "bld_human_theater_classical_v0",
+      "compared_to": "bld_human_theater_future_v0"
+    },
+    {
+      "race": "human",
+      "building_type": "Weaver",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 1935,
+      "max_fraction": 0.0,
+      "source": "bld_human_weaver_ancient_v0",
+      "compared_to": "bld_human_weaver_classical_v0"
+    },
+    {
+      "race": "human",
+      "building_type": "Workshop",
+      "scope": "additional critic finding",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 1833,
+      "max_fraction": 0.0,
+      "source": "bld_human_workshop_classical_v0",
+      "compared_to": "bld_human_workshop_industrial_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Aqueduct",
+      "scope": "additional critic finding",
+      "ordered_pairs": 4,
+      "shared": 0,
+      "corners": 1848,
+      "max_fraction": 0.0,
+      "source": "bld_orc_aqueduct_classical_v0",
+      "compared_to": "bld_orc_aqueduct_future_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Armory",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 1854,
+      "max_fraction": 0.0,
+      "source": "bld_orc_armory_ancient_v0",
+      "compared_to": "bld_orc_armory_future_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Bathhouse",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 2169,
+      "max_fraction": 0.0,
+      "source": "bld_orc_bathhouse_classical_v0",
+      "compared_to": "bld_orc_bathhouse_future_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Cathedral",
+      "scope": "additional critic finding",
+      "ordered_pairs": 4,
+      "shared": 0,
+      "corners": 3786,
+      "max_fraction": 0.0,
+      "source": "bld_orc_cathedral_classical_v0",
+      "compared_to": "bld_orc_cathedral_future_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Forum",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 3342,
+      "max_fraction": 0.0,
+      "source": "bld_orc_forum_classical_v0",
+      "compared_to": "bld_orc_forum_future_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Harbor",
+      "scope": "additional critic finding",
+      "ordered_pairs": 4,
+      "shared": 0,
+      "corners": 2910,
+      "max_fraction": 0.0,
+      "source": "bld_orc_harbor_classical_v0",
+      "compared_to": "bld_orc_harbor_future_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Herbalist",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 2043,
+      "max_fraction": 0.0,
+      "source": "bld_orc_herbalist_ancient_v0",
+      "compared_to": "bld_orc_herbalist_classical_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Monastery",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 1992,
+      "max_fraction": 0.0,
+      "source": "bld_orc_monastery_classical_v0",
+      "compared_to": "bld_orc_monastery_future_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Observatory",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 2319,
+      "max_fraction": 0.0,
+      "source": "bld_orc_observatory_classical_v0",
+      "compared_to": "bld_orc_observatory_future_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "OilWell",
+      "scope": "additional critic finding",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 3354,
+      "max_fraction": 0.0,
+      "source": "bld_orc_oil_well_future_v0",
+      "compared_to": "bld_orc_oil_well_industrial_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "PowerPlant",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2640,
+      "max_fraction": 0.0,
+      "source": "bld_orc_power_plant_future_v0",
+      "compared_to": "bld_orc_power_plant_industrial_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Printworks",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 2028,
+      "max_fraction": 0.0,
+      "source": "bld_orc_printworks_classical_v0",
+      "compared_to": "bld_orc_printworks_future_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "RailStation",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2562,
+      "max_fraction": 0.0,
+      "source": "bld_orc_rail_station_future_v0",
+      "compared_to": "bld_orc_rail_station_industrial_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "ResearchLab",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2094,
+      "max_fraction": 0.0,
+      "source": "bld_orc_research_lab_future_v0",
+      "compared_to": "bld_orc_research_lab_industrial_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Scriptorium",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 2034,
+      "max_fraction": 0.0,
+      "source": "bld_orc_scriptorium_ancient_v0",
+      "compared_to": "bld_orc_scriptorium_classical_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Shrine",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 2514,
+      "max_fraction": 0.0,
+      "source": "bld_orc_shrine_ancient_v0",
+      "compared_to": "bld_orc_shrine_classical_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Stadium",
+      "scope": "additional critic finding",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2460,
+      "max_fraction": 0.0,
+      "source": "bld_orc_stadium_future_v0",
+      "compared_to": "bld_orc_stadium_industrial_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Temple",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 2790,
+      "max_fraction": 0.0,
+      "source": "bld_orc_temple_ancient_v0",
+      "compared_to": "bld_orc_temple_classical_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Theater",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 3030,
+      "max_fraction": 0.0,
+      "source": "bld_orc_theater_classical_v0",
+      "compared_to": "bld_orc_theater_future_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "University",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 0,
+      "corners": 3879,
+      "max_fraction": 0.0,
+      "source": "bld_orc_university_classical_v0",
+      "compared_to": "bld_orc_university_future_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Watchtower",
+      "scope": "additional critic finding",
+      "ordered_pairs": 4,
+      "shared": 0,
+      "corners": 2124,
+      "max_fraction": 0.0,
+      "source": "bld_orc_watchtower_ancient_v0",
+      "compared_to": "bld_orc_watchtower_industrial_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Weaver",
+      "scope": "additional critic finding",
+      "ordered_pairs": 10,
+      "shared": 0,
+      "corners": 2250,
+      "max_fraction": 0.0,
+      "source": "bld_orc_weaver_ancient_v0",
+      "compared_to": "bld_orc_weaver_classical_v0"
+    },
+    {
+      "race": "orc",
+      "building_type": "Well",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 0,
+      "corners": 2118,
+      "max_fraction": 0.0,
+      "source": "bld_orc_well_ancient_v0",
+      "compared_to": "bld_orc_well_classical_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Armory",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 66,
+      "corners": 1293,
+      "max_fraction": 0.05104408352668213,
+      "source": "bld_saurian_armory_industrial_v0",
+      "compared_to": "bld_saurian_armory_classical_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Bathhouse",
+      "scope": "additional critic finding",
+      "ordered_pairs": 4,
+      "shared": 0,
+      "corners": 2778,
+      "max_fraction": 0.0,
+      "source": "bld_saurian_bathhouse_classical_v0",
+      "compared_to": "bld_saurian_bathhouse_future_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Blacksmith",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 66,
+      "corners": 1323,
+      "max_fraction": 0.049886621315192746,
+      "source": "bld_saurian_blacksmith_classical_v0",
+      "compared_to": "bld_saurian_blacksmith_future_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Factory",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2172,
+      "max_fraction": 0.0,
+      "source": "bld_saurian_factory_future_v0",
+      "compared_to": "bld_saurian_factory_industrial_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Farm",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 66,
+      "corners": 2349,
+      "max_fraction": 0.0280970625798212,
+      "source": "bld_saurian_farm_classical_v0",
+      "compared_to": "bld_saurian_farm_future_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "FishingHut",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 66,
+      "corners": 1569,
+      "max_fraction": 0.04206500956022945,
+      "source": "bld_saurian_fishing_hut_classical_v0",
+      "compared_to": "bld_saurian_fishing_hut_future_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Foundry",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 1482,
+      "max_fraction": 0.0,
+      "source": "bld_saurian_foundry_future_v0",
+      "compared_to": "bld_saurian_foundry_industrial_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Herbalist",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 66,
+      "corners": 1989,
+      "max_fraction": 0.033182503770739065,
+      "source": "bld_saurian_herbalist_classical_v0",
+      "compared_to": "bld_saurian_herbalist_future_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Hospital",
+      "scope": "additional critic finding",
+      "ordered_pairs": 6,
+      "shared": 318,
+      "corners": 1737,
+      "max_fraction": 0.18307426597582038,
+      "source": "bld_saurian_hospital_industrial_v0",
+      "compared_to": "bld_saurian_hospital_future_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "IndustrialFarm",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2883,
+      "max_fraction": 0.0,
+      "source": "bld_saurian_industrial_farm_future_v0",
+      "compared_to": "bld_saurian_industrial_farm_industrial_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Library",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 66,
+      "corners": 2061,
+      "max_fraction": 0.03202328966521106,
+      "source": "bld_saurian_library_future_v0",
+      "compared_to": "bld_saurian_library_industrial_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "MilitaryBase",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 3660,
+      "max_fraction": 0.0,
+      "source": "bld_saurian_military_base_future_v0",
+      "compared_to": "bld_saurian_military_base_industrial_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Mill",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2697,
+      "max_fraction": 0.0,
+      "source": "bld_saurian_mill_classical_v0",
+      "compared_to": "bld_saurian_mill_industrial_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Monastery",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 66,
+      "corners": 2268,
+      "max_fraction": 0.0291005291005291,
+      "source": "bld_saurian_monastery_industrial_v0",
+      "compared_to": "bld_saurian_monastery_future_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "OilWell",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2277,
+      "max_fraction": 0.0,
+      "source": "bld_saurian_oil_well_future_v0",
+      "compared_to": "bld_saurian_oil_well_industrial_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Pasture",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 66,
+      "corners": 1872,
+      "max_fraction": 0.035256410256410256,
+      "source": "bld_saurian_pasture_future_v0",
+      "compared_to": "bld_saurian_pasture_classical_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Printworks",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 66,
+      "corners": 2391,
+      "max_fraction": 0.027603513174404015,
+      "source": "bld_saurian_printworks_future_v0",
+      "compared_to": "bld_saurian_printworks_industrial_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "ResearchLab",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2406,
+      "max_fraction": 0.0,
+      "source": "bld_saurian_research_lab_future_v0",
+      "compared_to": "bld_saurian_research_lab_industrial_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Sawmill",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2286,
+      "max_fraction": 0.0,
+      "source": "bld_saurian_sawmill_future_v0",
+      "compared_to": "bld_saurian_sawmill_industrial_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Scriptorium",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 66,
+      "corners": 1413,
+      "max_fraction": 0.04670912951167728,
+      "source": "bld_saurian_scriptorium_industrial_v0",
+      "compared_to": "bld_saurian_scriptorium_classical_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Smelter",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 66,
+      "corners": 1614,
+      "max_fraction": 0.040892193308550186,
+      "source": "bld_saurian_smelter_industrial_v0",
+      "compared_to": "bld_saurian_smelter_classical_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Stadium",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 552,
+      "corners": 3129,
+      "max_fraction": 0.17641418983700863,
+      "source": "bld_saurian_stadium_future_v0",
+      "compared_to": "bld_saurian_stadium_industrial_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "StoneQuarry",
+      "scope": "additional critic finding",
+      "ordered_pairs": 10,
+      "shared": 66,
+      "corners": 1206,
+      "max_fraction": 0.05472636815920398,
+      "source": "bld_saurian_stone_quarry_future_v0",
+      "compared_to": "bld_saurian_stone_quarry_industrial_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "StoneWall",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2031,
+      "max_fraction": 0.0,
+      "source": "bld_saurian_stone_wall_classical_v0",
+      "compared_to": "bld_saurian_stone_wall_industrial_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Tavern",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 66,
+      "corners": 2010,
+      "max_fraction": 0.03283582089552239,
+      "source": "bld_saurian_tavern_future_v0",
+      "compared_to": "bld_saurian_tavern_industrial_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Theater",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 66,
+      "corners": 1122,
+      "max_fraction": 0.058823529411764705,
+      "source": "bld_saurian_theater_future_v0",
+      "compared_to": "bld_saurian_theater_industrial_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "University",
+      "scope": "coordinator list",
+      "ordered_pairs": 6,
+      "shared": 66,
+      "corners": 2913,
+      "max_fraction": 0.02265705458290422,
+      "source": "bld_saurian_university_industrial_v0",
+      "compared_to": "bld_saurian_university_future_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Weaver",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 66,
+      "corners": 1839,
+      "max_fraction": 0.03588907014681892,
+      "source": "bld_saurian_weaver_classical_v0",
+      "compared_to": "bld_saurian_weaver_future_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "WoodcutterCamp",
+      "scope": "coordinator list",
+      "ordered_pairs": 12,
+      "shared": 66,
+      "corners": 1947,
+      "max_fraction": 0.03389830508474576,
+      "source": "bld_saurian_woodcutter_camp_classical_v0",
+      "compared_to": "bld_saurian_woodcutter_camp_future_v0"
+    },
+    {
+      "race": "saurian",
+      "building_type": "Workshop",
+      "scope": "coordinator list",
+      "ordered_pairs": 2,
+      "shared": 0,
+      "corners": 2571,
+      "max_fraction": 0.0,
+      "source": "bld_saurian_workshop_classical_v0",
+      "compared_to": "bld_saurian_workshop_industrial_v0"
+    }
+  ],
+  "repair_reviews": {
+    "dwarf_commerce": [
+      {
+        "round": 3,
+        "critic": "Independent Dwarf repair critic, round 1",
+        "evaluated": 3,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "dwarf_culturecivic": [
+      {
+        "round": 3,
+        "critic": "Independent Dwarf repair critic, round 1",
+        "evaluated": 8,
+        "held": [
+          "bld_dwarf_tavern_future_v0"
+        ]
+      },
+      {
+        "round": 4,
+        "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+        "evaluated": 1,
+        "held": []
+      },
+      {
+        "round": 5,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 6,
+        "held": []
+      }
+    ],
+    "dwarf_extraction": [
+      {
+        "round": 4,
+        "critic": "Independent Dwarf repair critic, round 1",
+        "evaluated": 10,
+        "held": [
+          "bld_dwarf_coal_mine_future_v0"
+        ]
+      },
+      {
+        "round": 5,
+        "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+        "evaluated": 1,
+        "held": []
+      },
+      {
+        "round": 6,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "dwarf_food": [
+      {
+        "round": 5,
+        "critic": "Independent Dwarf repair critic, round 1",
+        "evaluated": 5,
+        "held": []
+      },
+      {
+        "round": 6,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 5,
+        "held": [
+          "bld_dwarf_hydroponics_tower_future_v0"
+        ]
+      },
+      {
+        "round": 7,
+        "critic": "Independent visual critic, final door, canopy and grille repair review",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "dwarf_housesancient": [
+      {
+        "round": 3,
+        "critic": "Independent Dwarf repair critic, round 1",
+        "evaluated": 4,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 3,
+        "held": []
+      }
+    ],
+    "dwarf_housesclassical": [
+      {
+        "round": 3,
+        "critic": "Independent Dwarf repair critic, round 1",
+        "evaluated": 3,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "dwarf_houseslate": [
+      {
+        "round": 3,
+        "critic": "Independent Dwarf repair critic, round 1",
+        "evaluated": 2,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 2,
+        "held": [
+          "bld_dwarf_house_future_v0"
+        ]
+      },
+      {
+        "round": 5,
+        "critic": "Independent visual critic, final door, canopy and grille repair review",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "dwarf_industry": [
+      {
+        "round": 3,
+        "critic": "Independent Dwarf repair critic, round 1",
+        "evaluated": 5,
+        "held": []
+      }
+    ],
+    "dwarf_infrastructure": [
+      {
+        "round": 3,
+        "critic": "Independent Dwarf repair critic, round 1",
+        "evaluated": 8,
+        "held": [
+          "bld_dwarf_well_future_v0"
+        ]
+      },
+      {
+        "round": 4,
+        "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+        "evaluated": 1,
+        "held": []
+      },
+      {
+        "round": 5,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 3,
+        "held": []
+      }
+    ],
+    "dwarf_learninghealth": [
+      {
+        "round": 4,
+        "critic": "Independent Dwarf repair critic, round 1",
+        "evaluated": 10,
+        "held": [
+          "bld_dwarf_herbalist_classical_v0",
+          "bld_dwarf_herbalist_future_v0",
+          "bld_dwarf_herbalist_industrial_v0",
+          "bld_dwarf_library_future_v0",
+          "bld_dwarf_scriptorium_classical_v0"
+        ]
+      },
+      {
+        "round": 5,
+        "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+        "evaluated": 5,
+        "held": [
+          "bld_dwarf_herbalist_future_v0"
+        ]
+      },
+      {
+        "round": 6,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "dwarf_military": [
+      {
+        "round": 3,
+        "critic": "Independent Dwarf repair critic, round 1",
+        "evaluated": 13,
+        "held": [
+          "bld_dwarf_military_base_future_v0"
+        ]
+      },
+      {
+        "round": 4,
+        "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+        "evaluated": 1,
+        "held": []
+      },
+      {
+        "round": 5,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 9,
+        "held": []
+      }
+    ],
+    "dwarf_religion": [
+      {
+        "round": 3,
+        "critic": "Independent Dwarf repair critic, round 1",
+        "evaluated": 10,
+        "held": [
+          "bld_dwarf_shrine_classical_v0",
+          "bld_dwarf_shrine_future_v0",
+          "bld_dwarf_shrine_industrial_v0"
+        ]
+      },
+      {
+        "round": 4,
+        "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+        "evaluated": 3,
+        "held": [
+          "bld_dwarf_shrine_classical_v0"
+        ]
+      },
+      {
+        "round": 5,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 3,
+        "held": [
+          "bld_dwarf_cathedral_classical_v0"
+        ]
+      },
+      {
+        "round": 6,
+        "critic": "Independent visual critic, final door, canopy and grille repair review",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "dwarf_towncenters": [
+      {
+        "round": 4,
+        "critic": "Independent Dwarf repair critic, round 1",
+        "evaluated": 7,
+        "held": []
+      },
+      {
+        "round": 5,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 7,
+        "held": [
+          "bld_dwarf_town_center_ancient_v0",
+          "bld_dwarf_town_center_future_ascension_v0",
+          "bld_dwarf_town_center_future_v0",
+          "bld_dwarf_town_center_industrial_modern_v0"
+        ]
+      },
+      {
+        "round": 6,
+        "critic": "Independent visual critic, final door, canopy and grille repair review",
+        "evaluated": 4,
+        "held": []
+      }
+    ],
+    "dwarf_wonders": [
+      {
+        "round": 3,
+        "critic": "Independent Dwarf repair critic, round 1",
+        "evaluated": 1,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "elf_commerce": [
+      {
+        "round": 3,
+        "critic": "Independent Elf and Neutral critic \u2014 Coordinator repair round 1",
+        "evaluated": 16,
+        "held": [
+          "bld_elf_bank_future_v0",
+          "bld_elf_bank_industrial_v0",
+          "bld_elf_guildhall_future_v0",
+          "bld_elf_guildhall_industrial_v0",
+          "bld_elf_harbor_future_v0",
+          "bld_elf_harbor_industrial_v0",
+          "bld_elf_market_classical_v0",
+          "bld_elf_market_future_v0",
+          "bld_elf_market_industrial_v0",
+          "bld_elf_rail_station_future_v0"
+        ]
+      },
+      {
+        "round": 4,
+        "critic": "Independent Elf critic \u2014 Coordinator repair round 2, first submitted meshes",
+        "evaluated": 10,
+        "held": [
+          "bld_elf_market_classical_v0",
+          "bld_elf_market_future_v0"
+        ]
+      },
+      {
+        "round": 5,
+        "critic": "Independent Elf critic \u2014 frozen LOD export inspection",
+        "evaluated": 12,
+        "held": [
+          "bld_elf_market_classical_v0",
+          "bld_elf_market_future_v0"
+        ]
+      },
+      {
+        "round": 6,
+        "critic": "Independent Elf critic \u2014 function and construction corrections after solver freeze",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "elf_culturecivic": [
+      {
+        "round": 3,
+        "critic": "Independent Elf and Neutral critic \u2014 Coordinator repair round 1",
+        "evaluated": 9,
+        "held": [
+          "bld_elf_forum_future_v0",
+          "bld_elf_forum_industrial_v0",
+          "bld_elf_tavern_future_v0",
+          "bld_elf_tavern_industrial_v0",
+          "bld_elf_theater_future_v0",
+          "bld_elf_theater_industrial_v0"
+        ]
+      },
+      {
+        "round": 4,
+        "critic": "Independent Elf critic \u2014 Coordinator repair round 2, first submitted meshes",
+        "evaluated": 6,
+        "held": [
+          "bld_elf_forum_industrial_v0",
+          "bld_elf_tavern_future_v0",
+          "bld_elf_tavern_industrial_v0"
+        ]
+      },
+      {
+        "round": 5,
+        "critic": "Independent Elf critic \u2014 frozen LOD export inspection",
+        "evaluated": 2,
+        "held": []
+      },
+      {
+        "round": 6,
+        "critic": "Independent Elf critic \u2014 function and construction corrections after solver freeze",
+        "evaluated": 4,
+        "held": []
+      }
+    ],
+    "elf_extraction": [
+      {
+        "round": 4,
+        "critic": "Independent Elf and Neutral critic \u2014 Coordinator repair round 1",
+        "evaluated": 7,
+        "held": [
+          "bld_elf_gold_mine_classical_v0",
+          "bld_elf_mine_classical_v0",
+          "bld_elf_mine_future_v0",
+          "bld_elf_mine_industrial_v0"
+        ]
+      },
+      {
+        "round": 5,
+        "critic": "Independent Elf critic \u2014 Coordinator repair round 2, first submitted meshes",
+        "evaluated": 4,
+        "held": []
+      },
+      {
+        "round": 6,
+        "critic": "Independent Elf critic \u2014 frozen LOD export inspection",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "elf_food": [
+      {
+        "round": 5,
+        "critic": "Independent Elf and Neutral critic \u2014 Coordinator repair round 1",
+        "evaluated": 5,
+        "held": [
+          "bld_elf_fishing_hut_classical_v0",
+          "bld_elf_hunting_lodge_classical_v0"
+        ]
+      },
+      {
+        "round": 6,
+        "critic": "Independent Elf critic \u2014 Coordinator repair round 2, first submitted meshes",
+        "evaluated": 2,
+        "held": []
+      },
+      {
+        "round": 7,
+        "critic": "Independent Elf critic \u2014 frozen LOD export inspection",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "elf_houseslate": [
+      {
+        "round": 3,
+        "critic": "Independent Elf and Neutral critic \u2014 Coordinator repair round 1",
+        "evaluated": 3,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent Elf critic \u2014 frozen LOD export inspection",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "elf_industry": [
+      {
+        "round": 4,
+        "critic": "Independent Elf and Neutral critic \u2014 Coordinator repair round 1",
+        "evaluated": 9,
+        "held": [
+          "bld_elf_factory_future_v0",
+          "bld_elf_foundry_future_v0",
+          "bld_elf_weaver_classical_v0",
+          "bld_elf_weaver_future_v0",
+          "bld_elf_weaver_industrial_v0",
+          "bld_elf_workshop_industrial_v0"
+        ]
+      },
+      {
+        "round": 5,
+        "critic": "Independent Elf critic \u2014 Coordinator repair round 2, first submitted meshes",
+        "evaluated": 6,
+        "held": []
+      }
+    ],
+    "elf_infrastructure": [
+      {
+        "round": 5,
+        "critic": "Independent Elf and Neutral critic \u2014 Coordinator repair round 1",
+        "evaluated": 14,
+        "held": [
+          "bld_elf_aqueduct_future_v0",
+          "bld_elf_aqueduct_industrial_v0",
+          "bld_elf_power_plant_future_v0",
+          "bld_elf_storehouse_classical_v0",
+          "bld_elf_storehouse_future_v0",
+          "bld_elf_storehouse_industrial_v0",
+          "bld_elf_well_classical_v0",
+          "bld_elf_well_future_v0",
+          "bld_elf_well_industrial_v0"
+        ]
+      },
+      {
+        "round": 6,
+        "critic": "Independent Elf critic \u2014 Coordinator repair round 2, first submitted meshes",
+        "evaluated": 9,
+        "held": [
+          "bld_elf_storehouse_classical_v0",
+          "bld_elf_storehouse_future_v0",
+          "bld_elf_storehouse_industrial_v0"
+        ]
+      },
+      {
+        "round": 7,
+        "critic": "Independent Elf critic \u2014 frozen LOD export inspection",
+        "evaluated": 4,
+        "held": []
+      },
+      {
+        "round": 8,
+        "critic": "Independent Elf critic \u2014 function and construction corrections after solver freeze",
+        "evaluated": 4,
+        "held": [
+          "bld_elf_well_future_v0"
+        ]
+      },
+      {
+        "round": 9,
+        "critic": "Independent Elf critic \u2014 final tower and basin verification",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "elf_learninghealth": [
+      {
+        "round": 5,
+        "critic": "Independent Elf and Neutral critic \u2014 Coordinator repair round 1",
+        "evaluated": 24,
+        "held": [
+          "bld_elf_bathhouse_future_v0",
+          "bld_elf_bathhouse_industrial_v0",
+          "bld_elf_hospital_future_v0",
+          "bld_elf_hospital_industrial_v0",
+          "bld_elf_library_future_v0",
+          "bld_elf_library_industrial_v0",
+          "bld_elf_observatory_future_v0",
+          "bld_elf_observatory_industrial_v0",
+          "bld_elf_printworks_future_v0",
+          "bld_elf_printworks_industrial_v0",
+          "bld_elf_scriptorium_classical_v0",
+          "bld_elf_scriptorium_future_v0",
+          "bld_elf_scriptorium_industrial_v0"
+        ]
+      },
+      {
+        "round": 6,
+        "critic": "Independent Elf critic \u2014 Coordinator repair round 2, first submitted meshes",
+        "evaluated": 13,
+        "held": [
+          "bld_elf_observatory_future_v0"
+        ]
+      },
+      {
+        "round": 7,
+        "critic": "Independent Elf critic \u2014 frozen LOD export inspection",
+        "evaluated": 10,
+        "held": []
+      },
+      {
+        "round": 8,
+        "critic": "Independent Elf critic \u2014 function and construction corrections after solver freeze",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "elf_military": [
+      {
+        "round": 6,
+        "critic": "Independent Elf and Neutral critic \u2014 Coordinator repair round 1",
+        "evaluated": 11,
+        "held": [
+          "bld_elf_barracks_classical_v0",
+          "bld_elf_barracks_future_v0",
+          "bld_elf_barracks_industrial_v0",
+          "bld_elf_military_base_future_v0",
+          "bld_elf_watchtower_classical_v0",
+          "bld_elf_watchtower_industrial_v0"
+        ]
+      },
+      {
+        "round": 7,
+        "critic": "Independent Elf critic \u2014 Coordinator repair round 2, first submitted meshes",
+        "evaluated": 6,
+        "held": []
+      },
+      {
+        "round": 8,
+        "critic": "Independent Elf critic \u2014 frozen LOD export inspection",
+        "evaluated": 5,
+        "held": [
+          "bld_elf_castle_classical_v0"
+        ]
+      },
+      {
+        "round": 9,
+        "critic": "Independent Elf critic \u2014 final tower and basin verification",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "elf_religion": [
+      {
+        "round": 4,
+        "critic": "Independent Elf and Neutral critic \u2014 Coordinator repair round 1",
+        "evaluated": 12,
+        "held": [
+          "bld_elf_monastery_future_v0",
+          "bld_elf_monastery_industrial_v0",
+          "bld_elf_shrine_classical_v0",
+          "bld_elf_shrine_future_v0",
+          "bld_elf_shrine_industrial_v0",
+          "bld_elf_temple_classical_v0",
+          "bld_elf_temple_future_v0",
+          "bld_elf_temple_industrial_v0"
+        ]
+      },
+      {
+        "round": 5,
+        "critic": "Independent Elf critic \u2014 Coordinator repair round 2, first submitted meshes",
+        "evaluated": 8,
+        "held": []
+      },
+      {
+        "round": 6,
+        "critic": "Independent Elf critic \u2014 frozen LOD export inspection",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "elf_towncenters": [
+      {
+        "round": 3,
+        "critic": "Independent Elf and Neutral critic \u2014 Coordinator repair round 1",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "human_commerce": [
+      {
+        "round": 3,
+        "critic": "Independent Human building critic, repair round 1",
+        "evaluated": 8,
+        "held": [
+          "bld_human_harbor_future_v0",
+          "bld_human_harbor_industrial_v0"
+        ]
+      },
+      {
+        "round": 4,
+        "critic": "Independent Human building critic, repair round 2",
+        "evaluated": 4,
+        "held": []
+      }
+    ],
+    "human_culturecivic": [
+      {
+        "round": 4,
+        "critic": "Independent Human building critic, repair round 1",
+        "evaluated": 12,
+        "held": [
+          "bld_human_stadium_future_v0",
+          "bld_human_theater_industrial_v0"
+        ]
+      },
+      {
+        "round": 5,
+        "critic": "Independent Human building critic, repair round 2",
+        "evaluated": 10,
+        "held": []
+      }
+    ],
+    "human_extraction": [
+      {
+        "round": 4,
+        "critic": "Independent Human building critic, repair round 1",
+        "evaluated": 9,
+        "held": [
+          "bld_human_gold_mine_future_v0",
+          "bld_human_mine_future_v0"
+        ]
+      },
+      {
+        "round": 5,
+        "critic": "Independent Human building critic, repair round 2",
+        "evaluated": 3,
+        "held": []
+      }
+    ],
+    "human_food": [
+      {
+        "round": 5,
+        "critic": "Independent Human building critic, repair round 1",
+        "evaluated": 13,
+        "held": [
+          "bld_human_fishing_hut_ancient_v0",
+          "bld_human_fishing_hut_classical_v0",
+          "bld_human_hunting_lodge_classical_v0",
+          "bld_human_industrial_farm_future_v0"
+        ]
+      },
+      {
+        "round": 6,
+        "critic": "Independent Human building critic, repair round 2",
+        "evaluated": 9,
+        "held": []
+      }
+    ],
+    "human_housesclassical": [
+      {
+        "round": 4,
+        "critic": "Independent Human building critic, repair round 1",
+        "evaluated": 2,
+        "held": []
+      },
+      {
+        "round": 5,
+        "critic": "Independent Human building critic, repair round 2",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "human_houseslate": [
+      {
+        "round": 3,
+        "critic": "Independent Human building critic, repair round 1",
+        "evaluated": 2,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent Human building critic, repair round 2",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "human_industry": [
+      {
+        "round": 3,
+        "critic": "Independent Human building critic, repair round 1",
+        "evaluated": 8,
+        "held": [
+          "bld_human_foundry_future_v0",
+          "bld_human_weaver_classical_v0",
+          "bld_human_workshop_industrial_v0"
+        ]
+      },
+      {
+        "round": 4,
+        "critic": "Independent Human building critic, repair round 2",
+        "evaluated": 6,
+        "held": []
+      }
+    ],
+    "human_infrastructure": [
+      {
+        "round": 3,
+        "critic": "Independent Human building critic, repair round 1",
+        "evaluated": 9,
+        "held": [
+          "bld_human_well_industrial_v0"
+        ]
+      },
+      {
+        "round": 4,
+        "critic": "Independent Human building critic, repair round 2",
+        "evaluated": 5,
+        "held": []
+      }
+    ],
+    "human_learninghealth": [
+      {
+        "round": 3,
+        "critic": "Independent Human building critic, repair round 1",
+        "evaluated": 3,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent Human building critic, repair round 2",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "human_military": [
+      {
+        "round": 3,
+        "critic": "Independent Human building critic, repair round 1",
+        "evaluated": 2,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent Human building critic, repair round 2",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "human_religion": [
+      {
+        "round": 3,
+        "critic": "Independent Human building critic, repair round 1",
+        "evaluated": 2,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent Human building critic, repair round 2",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "human_towncenters": [
+      {
+        "round": 4,
+        "critic": "Independent Human building critic, repair round 1",
+        "evaluated": 4,
+        "held": []
+      },
+      {
+        "round": 5,
+        "critic": "Independent Human building critic, repair round 2",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "human_wonders": [
+      {
+        "round": 3,
+        "critic": "Independent Human building critic, repair round 1",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "neutral_wonders": [
+      {
+        "round": 4,
+        "critic": "Independent Elf and Neutral critic \u2014 Coordinator repair round 1",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "orc_commerce": [
+      {
+        "round": 3,
+        "critic": "Independent Orc model critic, RC2 round 1",
+        "evaluated": 10,
+        "held": [
+          "bld_orc_harbor_future_v0"
+        ]
+      },
+      {
+        "round": 4,
+        "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+        "evaluated": 1,
+        "held": []
+      },
+      {
+        "round": 5,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 3,
+        "held": [
+          "bld_orc_rail_station_industrial_v0"
+        ]
+      },
+      {
+        "round": 6,
+        "critic": "Independent visual critic, final door, canopy and grille repair review",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "orc_culturecivic": [
+      {
+        "round": 3,
+        "critic": "Independent Orc model critic, RC2 round 1",
+        "evaluated": 9,
+        "held": [
+          "bld_orc_forum_future_v0",
+          "bld_orc_forum_industrial_v0",
+          "bld_orc_stadium_future_v0"
+        ]
+      },
+      {
+        "round": 4,
+        "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+        "evaluated": 3,
+        "held": []
+      },
+      {
+        "round": 5,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "orc_extraction": [
+      {
+        "round": 3,
+        "critic": "Independent Orc model critic, RC2 round 1",
+        "evaluated": 9,
+        "held": [
+          "bld_orc_oil_well_future_v0"
+        ]
+      },
+      {
+        "round": 4,
+        "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+        "evaluated": 1,
+        "held": []
+      },
+      {
+        "round": 5,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 8,
+        "held": []
+      }
+    ],
+    "orc_food": [
+      {
+        "round": 5,
+        "critic": "Independent Orc model critic, RC2 round 1",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "orc_housesclassical": [
+      {
+        "round": 3,
+        "critic": "Independent Orc model critic, RC2 round 1",
+        "evaluated": 3,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 3,
+        "held": []
+      }
+    ],
+    "orc_houseslate": [
+      {
+        "round": 3,
+        "critic": "Independent Orc model critic, RC2 round 1",
+        "evaluated": 6,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 6,
+        "held": []
+      }
+    ],
+    "orc_industry": [
+      {
+        "round": 4,
+        "critic": "Independent Orc model critic, RC2 round 1",
+        "evaluated": 9,
+        "held": [
+          "bld_orc_armory_future_v0",
+          "bld_orc_weaver_classical_v0",
+          "bld_orc_weaver_future_v0"
+        ]
+      },
+      {
+        "round": 5,
+        "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+        "evaluated": 3,
+        "held": []
+      },
+      {
+        "round": 6,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 6,
+        "held": [
+          "bld_orc_electronics_plant_future_v0"
+        ]
+      },
+      {
+        "round": 7,
+        "critic": "Independent visual critic, final door, canopy and grille repair review",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "orc_infrastructure": [
+      {
+        "round": 4,
+        "critic": "Independent Orc model critic, RC2 round 1",
+        "evaluated": 8,
+        "held": [
+          "bld_orc_aqueduct_future_v0"
+        ]
+      },
+      {
+        "round": 5,
+        "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+        "evaluated": 1,
+        "held": []
+      },
+      {
+        "round": 6,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "orc_learninghealth": [
+      {
+        "round": 5,
+        "critic": "Independent Orc model critic, RC2 round 1",
+        "evaluated": 15,
+        "held": []
+      }
+    ],
+    "orc_military": [
+      {
+        "round": 4,
+        "critic": "Independent Orc model critic, RC2 round 1",
+        "evaluated": 4,
+        "held": [
+          "bld_orc_watchtower_industrial_v0"
+        ]
+      },
+      {
+        "round": 5,
+        "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+        "evaluated": 1,
+        "held": []
+      },
+      {
+        "round": 6,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "orc_religion": [
+      {
+        "round": 3,
+        "critic": "Independent Orc model critic, RC2 round 1",
+        "evaluated": 11,
+        "held": [
+          "bld_orc_cathedral_future_v0"
+        ]
+      },
+      {
+        "round": 4,
+        "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+        "evaluated": 1,
+        "held": []
+      },
+      {
+        "round": 5,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "saurian_commerce": [
+      {
+        "round": 3,
+        "critic": "independent_saurian_round1_2026_11_23",
+        "evaluated": 6,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "saurian_culturecivic": [
+      {
+        "round": 3,
+        "critic": "independent_saurian_round1_2026_11_23",
+        "evaluated": 11,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "saurian_extraction": [
+      {
+        "round": 5,
+        "critic": "independent_saurian_round1_2026_11_23",
+        "evaluated": 7,
+        "held": [
+          "bld_saurian_stone_quarry_future_v0",
+          "bld_saurian_stone_quarry_industrial_v0"
+        ]
+      },
+      {
+        "round": 6,
+        "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+        "evaluated": 2,
+        "held": []
+      },
+      {
+        "round": 7,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "saurian_food": [
+      {
+        "round": 7,
+        "critic": "independent_saurian_round1_2026_11_23",
+        "evaluated": 13,
+        "held": []
+      },
+      {
+        "round": 8,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 4,
+        "held": []
+      },
+      {
+        "round": 9,
+        "critic": "Independent visual critic, corrective Saurian Future Farm role comparison",
+        "evaluated": 1,
+        "held": [
+          "bld_saurian_farm_future_v0"
+        ]
+      },
+      {
+        "round": 10,
+        "critic": "Independent visual critic, revised Saurian Future Farm",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "saurian_housesancient": [
+      {
+        "round": 3,
+        "critic": "independent_saurian_round1_2026_11_23",
+        "evaluated": 1,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "saurian_houseslate": [
+      {
+        "round": 3,
+        "critic": "independent_saurian_round1_2026_11_23",
+        "evaluated": 6,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 6,
+        "held": []
+      }
+    ],
+    "saurian_industry": [
+      {
+        "round": 3,
+        "critic": "independent_saurian_round1_2026_11_23",
+        "evaluated": 15,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "saurian_infrastructure": [
+      {
+        "round": 3,
+        "critic": "independent_saurian_round1_2026_11_23",
+        "evaluated": 5,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 1,
+        "held": []
+      }
+    ],
+    "saurian_learninghealth": [
+      {
+        "round": 3,
+        "critic": "independent_saurian_round1_2026_11_23",
+        "evaluated": 25,
+        "held": [
+          "bld_saurian_bathhouse_future_v0",
+          "bld_saurian_hospital_future_v0",
+          "bld_saurian_hospital_industrial_v0",
+          "bld_saurian_library_industrial_v0",
+          "bld_saurian_printworks_future_v0",
+          "bld_saurian_scriptorium_future_v0"
+        ]
+      },
+      {
+        "round": 4,
+        "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+        "evaluated": 6,
+        "held": []
+      },
+      {
+        "round": 5,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 6,
+        "held": []
+      }
+    ],
+    "saurian_military": [
+      {
+        "round": 3,
+        "critic": "independent_saurian_round1_2026_11_23",
+        "evaluated": 8,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 2,
+        "held": []
+      }
+    ],
+    "saurian_religion": [
+      {
+        "round": 3,
+        "critic": "independent_saurian_round1_2026_11_23",
+        "evaluated": 3,
+        "held": []
+      },
+      {
+        "round": 4,
+        "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+        "evaluated": 1,
+        "held": []
+      }
+    ]
+  },
+  "catalog_wide_era_peak": {
+    "source": "bld_human_granary_industrial_v0",
+    "compared_to": "bld_human_granary_future_v0",
+    "shared": 3468,
+    "corners": 3492
+  }
+}

@@ -5,6 +5,7 @@ import sys
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
 from generators.buildings.elf_food import Grove, TAU, publish_package
+from generators.buildings.elf_trade_forms import arch, block, gable, shaft
 
 PACKAGE="elf_extraction"
 
@@ -183,7 +184,152 @@ def ore_cart(m,x,z,role):
             m.lump(role,(u,.244,v),(r,r*.87,r*.87),5)
 
 
+def washing_mine(m):
+    # A freestanding stone wheelhouse spans the stair of wash trays. Its mill wheel
+    # and descending, water-filled launders remain visible through the central arch.
+    cx=-.165
+    arch(m,cx,0,.16,.99,1.16,.30)
+    for side in (-1,1):
+        m.disk("fieldstone",cx+side*.406,0,.167,.158,.24,.124,.92)
+    wheel(m,cx,.651,-.014,.293,role="timber")
+    shaft(m,"metal",(cx,.652,-.09),(cx,.652,.435),.061)
+    for x in (cx-.27,cx+.27):
+        shaft(m,"trim",(x,.485,.178),(cx,.646,.362),.035,.046)
+    # Each progressively lower launder discharges into the next one.
+    for i in range(3):
+        z=-.092-i*.235
+        y=.374-i*.109
+        block(m,"fieldstone",(cx,y*.5,z),(.263,y,.272),.10)
+        block(m,"water",(cx,y+.008,z),(.175,.018,.247))
+        if m.lod<2:
+            for s in (-1,1):
+                block(m,"trim",(cx+s*.111,y+.022,z),(.037,.083,.265))
+    m.disk("metal",cx,.0,-.777,.193,.174,.106,1.10)
+    m.disk("gold",cx,.103,-.777,.177,.161,.026)
+    cliff(m,-.586,.494,.346,.295,.47,2,"fieldstone")
+    block(m,"wall",(.514,.14,.385),(.397,.28,.346),.08)
+    gable(m,.514,.275,.385,.521,.463,.213)
+    if m.lod<2:
+        m.portal(.514,.006,.208,.176,.216)
+        shaft(m,"timber",(.696,.051,.223),(.687,.301,.236),.027,.019)
+        ore_cart(m,.570,-.262,"gold")
+    else:
+        m.disk("timber",.569,0,-.262,.138,.166,.183,1.18)
+        m.lump("gold",(.569,.183,-.262),(.125,.095,.133),5)
+    if m.lod<2:
+        for i in (-1,0,1):
+            m.lump("gold",(cx+i*.068,.132,-.791+.030*(i==0)),(.043,.028,.049),5)
+
+
+def adit(m):
+    # A deep pointed entry sits below the stepped rock face. Stone steps and
+    # an offset ore yard give the winding engine its own distinct route.
+    cliff(m,.016,.426,.637,.420,.711,3,"fieldstone")
+    arch(m,.151,0,-.045,.847,.746,.346)
+    m.portal(.151,.033,.018,.47,.572)
+    for i in range(3):
+        block(m,"fieldstone",(.151,.036+i*.031,-.529+.146*i),
+              (.59-.057*i,.072+.062*i,.153))
+    m.disk("fieldstone",-.589,0,-.121,.251,.347,.104,1)
+    for x in (-.724,-.415):
+        block(m,"timber",(x,.229,-.155),(.070,.29,.224),.13)
+    shaft(m,"timber",(-.773,.355,-.153),(-.364,.355,-.153),.123)
+    for x in (-.751,-.396):
+        shaft(m,"trim",(x-.016,.355,-.153),(x+.016,.355,-.153),.172)
+    if m.lod<2:
+        for x in (-.637,-.567,-.497):
+            shaft(m,"hide",(x-.014,.355,-.153),(x+.014,.355,-.153),.137)
+        shaft(m,"hide",(-.552,.463,-.154),(.136,.431,.019),.013)
+    with m.transform(translate=(.624,.022,-.175),rotate_y=-19):
+        block(m,"timber",(0,.035,0),(.386,.11,.707))
+        with m.transform(translate=(0,.09,0),scale=.86):
+            if m.lod<2:
+                ore_cart(m,0,0,"metal")
+            else:
+                m.disk("timber",0,0,0,.145,.16,.184,1.18)
+                m.lump("metal",(0,.183,0),(.122,.088,.130),5)
+    if not m.lod:
+        m.lump("emissive",(-.23,.394,-.216),(.037,.060,.038))
+
+
+def skip_mine(m):
+    # The winding house is lifted on a stout brick base. An exposed haulage skip
+    # travels in a separate braced steel frame, above the ore bunker and cart.
+    block(m,"brick",(-.36,.48,.216),(.521,.96,.637),.09)
+    block(m,"glass",(-.36,1.064,.216),(.535,.221,.647),.035)
+    block(m,"trim",(-.36,.954,.216),(.575,.055,.667),.02)
+    if m.lod<2:
+        for dx in (-.19,0,.19):
+            shaft(m,"metal",(-.36+dx,.974,-.111),(-.36+dx,1.167,-.101),.018)
+        for dz in (-.18,.16):
+            shaft(m,"metal",(-.633,.976,.216+dz),(-.618,1.169,.216+dz),.020)
+    gable(m,-.36,1.170,.216,.652,.811,.26)
+    m.portal(-.36,.015,-.109,.291,.449)
+    for s in (-1,1):
+        shaft(m,"trim",(-.36+s*.247,.199,-.112),(-.36+s*.228,.927,-.082),.035,.027)
+    tx,tz=.332,-.079
+    for side in (-1,1):
+        x=tx+side*.165
+        for z in (tz-.121,tz+.121):
+            shaft(m,"metal",(x,0,z),(x,1.40,z),.047,.032)
+        if m.lod<2:
+            shaft(m,"trim",(x,.151,tz-.117),(x,.659,tz+.117),.027)
+            shaft(m,"trim",(x,.647,tz+.117),(x,1.18,tz-.117),.027)
+    block(m,"roof",(tx,1.39,tz),(.452,.092,.359),.08)
+    wheel(m,tx,1.448,tz-.017,.157)
+    shaft(m,"trim",(-.13,1.097,.047),(tx-.038,1.554,tz-.02),.021)
+    shaft(m,"trim",(tx+.144,1.459,tz-.054),(tx+.144,.69,tz-.054),.015)
+    block(m,"metal",(tx,.573,tz),(.220,.268,.161),.07)
+    # The sloped discharge chute emerges from the bunker above the pickup point.
+    m.disk("brick",.653,0,.290,.225,.211,.165)
+    m.disk("metal",.653,.155,.290,.129,.135,.354,2.12)
+    m.disk("slate",.653,.506,.290,.252,.258,.074,.54)
+    shaft(m,"trim",(.65,.261,.226),(.686,.172,-.264),.068,.08)
+    if m.lod<2:
+        with m.transform(translate=(.60,0,-.458),scale=.82):
+            ore_cart(m,0,0,"metal")
+
+
+def conduit_mine(m):
+    # A rotary cutter at the foot of a low reinforced extraction hood feeds a
+    # sloping transparent ore tube. Twin pylons support the receiving head.
+    x,z=-.493,.071
+    m.disk("fieldstone",x,0,z,.411,.379,.143,.94)
+    m.disk("wall",x,.137,z,.351,.32,.415,.89)
+    m.crown(x,.544,z,.371,.358,.205,"roof",5)
+    with m.transform(translate=(x,.306,-.212),rotate_x=-76):
+        m.disk("metal",0,0,0,.243,.231,.097,.89)
+        m.disk("emissive",0,.094,0,.168,.159,.073,.75)
+        m.disk("metal",0,.163,0,.105,.101,.089,.12)
+    for side in (-1,1):
+        m.limb("wall",[(.502+side*.265,.019,.232),(.502+side*.210,.523,.213),
+                        (.502+side*.095,1.101,.181)],[.097,.069,.080])
+        m.disk("fieldstone",.502+side*.262,0,.232,.127,.129,.087,.93)
+    m.disk("wall",.502,.924,.181,.228,.236,.327,1.21)
+    m.disk("glass",.502,1.238,.181,.262,.27,.149,.79)
+    m.crown(.502,1.374,.181,.271,.261,.189,"roof",5)
+    a=(-.458,.458,.051)
+    b=(.500,1.089,.145)
+    shaft(m,"glass",a,b,.108)
+    for t in ((.18,.40,.63,.84) if m.lod<2 else (.27,.71)):
+        pts=[tuple(f+(g-f)*u for f,g in zip(a,b)) for u in (t-.023,t+.023)]
+        shaft(m,"trim",*pts,.127)
+    m.disk("metal",.482,0,-.306,.219,.207,.137,1.19)
+    for i in range((4,3,1)[m.lod]):
+        ang=1.63*i
+        m.lump("metal",(.476+.098*math.cos(ang),.146,-.305+.092*math.sin(ang)),
+               (.088,.067,.084),5)
+    m.limb("accent",[(.501,.948,.172),(.496,.709,.078),(.480,.441,-.249)],
+           [.085,.064,.061])
+
+
 def mine(m,kind):
+    if kind == "GoldMine" and m.era == 1:
+        washing_mine(m)
+        return
+    if kind == "Mine" and m.era:
+        (adit,skip_mine,conduit_mine)[m.era-1](m)
+        return
     price=kind=="GoldMine"
     coal=kind=="CoalMine"
     ore="gold" if price else "door" if coal else "metal"
@@ -239,6 +385,25 @@ def mine(m,kind):
 
 
 def oilwell(m):
+    if m.era==3:
+        # An open three-legged rotary rig drives the well below the crown block.
+        x,z=-.28,.10
+        for j in range(3):
+            a=TAU*j/3-.70
+            dx,dz=math.cos(a),math.sin(a)
+            m.disk("wall",x+.43*dx,0,z+.43*dz,.13,.13,.14)
+            m.limb("metal",[(x+.43*dx,.085,z+.43*dz),(x+.28*dx,.91,z+.28*dz),
+                            (x+.075*dx,1.69,z+.075*dz)],[.079,.053,.050])
+        m.disk("roof",x,1.61,z,.18,.16,.155,.78)
+        m.disk("metal",x,.12,z,.040,.040,1.58)
+        m.disk("trim",x,0,z,.208,.18,.23,.70)
+        for j in range(2):
+            tx,tz=.50,.33-.49*j
+            m.disk("wall",tx,0,tz,.215,.20,.45+.15*j,.92)
+            m.crown(tx,.44+.15*j,tz,.22,.20,.12,"metal",4)
+            m.limb("trim",[(tx,.23,tz),(tx-.21,.23,tz),(x,.13,z)],[.037,.039,.035])
+        m.hall(-.12,0,-.48,.24,.20,.33,.16)
+        return
     # Walking beam balances on the column; a broad curved horsehead guides the polished rod.
     h=.89 if m.era==2 else 1.10
     for s in (-1,1):

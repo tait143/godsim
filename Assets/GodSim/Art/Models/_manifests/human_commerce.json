@@ -19,7 +19,7 @@
   "triangles": 758,
   "lod_triangles": [
    758,
-   456,
+   432,
    204
   ],
   "bounds": [
@@ -34,7 +34,7 @@
     1.3274999856948853
    ]
   ],
-  "bytes": 117132,
+  "bytes": 116156,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_airport_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_airport_future_v0.png",
@@ -107,7 +107,7 @@
   "triangles": 692,
   "lod_triangles": [
    692,
-   426,
+   394,
    167
   ],
   "bounds": [
@@ -122,7 +122,7 @@
     0.699999988079071
    ]
   ],
-  "bytes": 102304,
+  "bytes": 102144,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_bank_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_bank_future_v0.png",
@@ -151,7 +151,7 @@
   "triangles": 600,
   "lod_triangles": [
    600,
-   380,
+   342,
    148
   ],
   "bounds": [
@@ -166,7 +166,7 @@
     0.699999988079071
    ]
   ],
-  "bytes": 87120,
+  "bytes": 86860,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_bank_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_bank_industrial_v0.png",
@@ -195,7 +195,7 @@
   "triangles": 651,
   "lod_triangles": [
    651,
-   414,
+   370,
    160
   ],
   "bounds": [
@@ -210,7 +210,7 @@
     0.7960000038146973
    ]
   ],
-  "bytes": 94540,
+  "bytes": 93700,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_guildhall_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_guildhall_classical_v0.png",
@@ -283,7 +283,7 @@
   "triangles": 569,
   "lod_triangles": [
    569,
-   348,
+   324,
    127
   ],
   "bounds": [
@@ -298,7 +298,7 @@
     0.7960000038146973
    ]
   ],
-  "bytes": 81068,
+  "bytes": 80796,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_guildhall_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_guildhall_industrial_v0.png",
@@ -370,25 +370,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 724,
+  "triangles": 692,
   "lod_triangles": [
-   724,
-   376,
-   182
+   692,
+   414,
+   216
   ],
   "bounds": [
    [
-    -0.9300000071525574,
+    -0.949999988079071,
     0.0,
-    -0.8429999947547913
+    -0.8784999847412109
    ],
    [
-    0.8600000143051147,
-    1.3159235715866089,
-    0.8399999737739563
+    0.8999999761581421,
+    1.4889999628067017,
+    0.9049999713897705
    ]
   ],
-  "bytes": 103100,
+  "bytes": 101416,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_harbor_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_harbor_future_v0.png",
@@ -414,25 +414,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 744,
+  "triangles": 654,
   "lod_triangles": [
-   744,
-   396,
-   174
+   654,
+   388,
+   168
   ],
   "bounds": [
    [
-    -0.9300000071525574,
+    -0.949999988079071,
     0.0,
-    -0.8429999947547913
+    -0.824999988079071
    ],
    [
-    0.8600000143051147,
-    1.2599999904632568,
-    0.8399999737739563
+    0.8050719499588013,
+    1.4739999771118164,
+    0.9049999713897705
    ]
   ],
-  "bytes": 105152,
+  "bytes": 100296,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_harbor_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_harbor_industrial_v0.png",
@@ -681,7 +681,7 @@
   "triangles": 883,
   "lod_triangles": [
    883,
-   568,
+   502,
    176
   ],
   "bounds": [
@@ -696,7 +696,7 @@
     1.0019999742507935
    ]
   ],
-  "bytes": 119372,
+  "bytes": 118400,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Commerce/bld_human_rail_station_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Commerce/bld_human_rail_station_industrial_v0.png",

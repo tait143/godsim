@@ -496,6 +496,366 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_elf_barracks_ancient_v0",
+          "evidence_sha256": "09fe5448158ec3bbf6fc6b7e4050b8a6ad4b841f10b4ae22ac40af83b97d0f2d",
+          "observations": "Two target shields stand in front of a low side room and a higher training hall. The dark pointed doorway is clear beside the practice area. Highest outgoing family corner share was 1398/3084 (45.3%) with bld_elf_barracks_industrial_v0. Checked iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1028/584/239. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_barracks_classical_v0",
+          "evidence_sha256": "217cca13db963c79540ea7be6c58128f05fa8718292066b4749d94a1b6255fdc",
+          "observations": "Two target shields stand in front of a low side room and a higher training hall. The dark pointed doorway is clear beside the practice area. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1384/3084 (44.9%) with bld_elf_barracks_future_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1028/584/239. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Extend covered sleeping bays along a distinct shield practice court."
+          ]
+        },
+        {
+          "id": "bld_elf_barracks_future_v0",
+          "evidence_sha256": "10af2f44f1770e54fa67a6b8b5259fe32b7ea8abf576acd66a8655967622d5f2",
+          "observations": "Two target shields stand in front of a low side room and a higher training hall. The dark pointed doorway is clear beside the practice area. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1380/3084 (44.7%) with bld_elf_barracks_classical_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1028/584/239. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Build elevated quarters around a linked command and training deck."
+          ]
+        },
+        {
+          "id": "bld_elf_barracks_industrial_v0",
+          "evidence_sha256": "aec9790c8d2e7ef69361ac9dbd9890645d02f3a9373772946b396cee0f38709c",
+          "observations": "Two target shields stand in front of a low side room and a higher training hall. The dark pointed doorway is clear beside the practice area. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1398/3084 (45.3%) with bld_elf_barracks_ancient_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1028/584/239. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the barracks a long drill shed facing a recessed training yard."
+          ]
+        },
+        {
+          "id": "bld_elf_castle_classical_v0",
+          "evidence_sha256": "bb83e7a10241148ea05157a393e28bbc79b55f1c5bdea7b67aea68bf78e34de5",
+          "observations": "Four distinctly capped towers frame the raised keep and a recessed front gate. Their separate roof peaks and flaring bases survive the middle mesh. Checked medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1861/1060/338. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_military_base_future_v0",
+          "evidence_sha256": "da17a525deaa95820473af114a72cd285f325fa4e643f037db5beaf63f35a667",
+          "observations": "A signal dish on its own plinth and a separate watchtower flank the blue-roofed command building. The entrance remains accessible between the masses. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 2257/3630 (62.2%) with bld_elf_military_base_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1210/689/306. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Put the command post over a protected operations deck with offset sensor masts and a vehicle bay."
+          ]
+        },
+        {
+          "id": "bld_elf_military_base_industrial_v0",
+          "evidence_sha256": "76065e89b83aa3d8982b28bc4258165c4265a1199b5e6f48ddbc085642bc1dea",
+          "observations": "A signal dish on its own plinth and a separate watchtower flank the blue-roofed command building. The entrance remains accessible between the masses. Highest outgoing family corner share was 2257/3630 (62.2%) with bld_elf_military_base_future_v0. Checked modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1210/689/306. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_stone_wall_industrial_v0",
+          "evidence_sha256": "4c6c0a75d3f3780e78ec6a5ab6464b7c0e5b2e1683081b54eaf19357f5cce876",
+          "observations": "Broad battered bastions and low flat caps frame a short wall and pointed doorway. Their low profile differs visibly from the classical slender peaked towers. Highest outgoing family corner share was 0/2025 (0.0%) with bld_elf_stone_wall_classical_v0. Checked industrial previews, 215° and 145° LOD0/1 views, and serialized LOD counts 675/383/139. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_watchtower_ancient_v0",
+          "evidence_sha256": "24638b12b1278b4673f2c5cd9046e49462349933c1019dd602d45b585405e4a5",
+          "observations": "A broad covered lookout caps the tapered tower shaft. The timber brackets, lower access annex and flame at the base communicate scale. Highest outgoing family corner share was 281/1896 (14.8%) with bld_elf_watchtower_classical_v0. Checked iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 632/360/153. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_watchtower_classical_v0",
+          "evidence_sha256": "f6f178cb08e386ea951d93a185f18c5971b3fac3d81ae7a00b33ea5b5704b60c",
+          "observations": "A broad covered lookout caps the tapered tower shaft. The timber brackets, lower access annex and flame at the base communicate scale. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 296/1896 (15.6%) with bld_elf_watchtower_industrial_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 632/360/153. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Separate the watch deck from its roof with an open supported gallery above a robust stair tower."
+          ]
+        },
+        {
+          "id": "bld_elf_watchtower_industrial_v0",
+          "evidence_sha256": "be0a9fb78e8ca3cc4fe866ed0d9f6844013866cce272679cffee974a853ebe97",
+          "observations": "A broad covered lookout caps the tapered tower shaft. The timber brackets, lower access annex and flame at the base communicate scale. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 296/1896 (15.6%) with bld_elf_watchtower_classical_v0. Checked industrial previews, 215° and 145° LOD0/1 views, and serialized LOD counts 632/360/153. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Build a taller triangulated or braced lookout with an offset access house and exposed observation deck."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent Elf critic — Coordinator repair round 2, first submitted meshes",
+      "models": [
+        {
+          "id": "bld_elf_barracks_classical_v0",
+          "evidence_sha256": "600ac66c4a1408573ae6c22828b255428142a87c0b089cebdd17243971bbd37f",
+          "observations": "Three arched quarters open onto a shared shield practice court. The individual doors, repeated hut roofs and clear targets retain their visibility in grey. Compared all 3 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1397/613/248 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_barracks_future_v0",
+          "evidence_sha256": "af6221cf45e12f39bc0f3474d7c73b08e17810bc5848025e03095897b0ae5b67",
+          "observations": "Three raised quarters enclose a command and training deck with shield cue and entrance stair. The supporting legs and center approach are visible from both angles. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1319/673/339 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_barracks_industrial_v0",
+          "evidence_sha256": "9bcd5a5710d654ac7290256e41d4b1a6f31bd0b4633490f26655f4d42f8d12b3",
+          "observations": "A long brick drill hall backs an enclosed training yard. The shields, low sidewalls and prominent arched access door are visible without the colour cue. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 835/419/188 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_military_base_future_v0",
+          "evidence_sha256": "e08fe0a36d1bef1c1c174821961aa78c43d6516a90d31e67a428de164d588bdf",
+          "observations": "A raised operations pod, vehicle garage and separate thin sensor masts surround a defended forecourt. The garage opening and blue vehicle front remain visible. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1341/707/337 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_watchtower_classical_v0",
+          "evidence_sha256": "feb4b50d4fafe0adb4666b5182fcd4f090e18158fbcfc9a90ca8a71cbaaed9b1",
+          "observations": "A broad open observation gallery sits on top of a narrow stone stair tower. The posts, roof and outside climbing route remain distinct. Compared all 3 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.2%. Serialized LODs 854/448/206 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_watchtower_industrial_v0",
+          "evidence_sha256": "4a93b11d67f0d3ba63b6768fe8e14af06070d5862e50204aa5eed200f01cc410",
+          "observations": "The lookout deck crowns an open steel truss with cross-bracing, service hut and an exposed climbing route. It reads as a watchtower from either phone angle. Compared all 1 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1235/703/358 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent Elf critic — frozen LOD export inspection",
+      "models": [
+        {
+          "id": "bld_elf_barracks_ancient_v0",
+          "evidence_sha256": "9bd9073f9d706d750127a724e59eba5ff9528d95a2669a0ab1274c57118f1ded",
+          "observations": "Two practice shields stand off the paired sleeping quarters. The projecting training wing and dark doorway remain intact, and both roof sections carry around to the back. Opened iron previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 1028/584/239 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_castle_classical_v0",
+          "evidence_sha256": "a8dde631b99452e44edce7ddea2ae77ede80e00bc42c2b005fb5323a0a86093b",
+          "observations": "The gate, four tower roofs and central keep remain legible, but LOD1 breaks the continuous dark base band common to all four LOD0 towers into large triangular patches and ivory slashes. The discrepancy is visible from front, side and rear. Opened medieval, renaissance previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 1861/1060/338 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 93,
+            "construction": 82,
+            "charm": 86,
+            "colour": 85,
+            "technical": 97
+          },
+          "defects": [
+            "Keep both perimeter loops of the timber base stripe on the authored middle turrets, or use a simpler continuous band. Check all four turrets at the three painted camera angles."
+          ]
+        },
+        {
+          "id": "bld_elf_military_base_industrial_v0",
+          "evidence_sha256": "79e34281b93f6df48cbca15dfce31539df2f10a65e89187e47c2ced699f46812",
+          "observations": "The dish on its low plinth and the separate communications tower flank a blue-roofed command house. The painted middle mesh retains the dish shell, mast and supported tower. Opened modern previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 1210/689/306 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_stone_wall_industrial_v0",
+          "evidence_sha256": "aad23a2cd78e2ef0777f60eca2b81472a2a479183db966cf7ffc65f77ae24dbc",
+          "observations": "Low oval-capped bastions flank the access arch. The battered brick curtain and bastions remain closed on the rear face and clearly differ from the classical pointed towers. Opened industrial previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 675/383/139 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_watchtower_ancient_v0",
+          "evidence_sha256": "d0dea9b0b44ec3f49c4eb70f35a46e62acd79cbe7c88266b45fc6aa32df4c0ad",
+          "observations": "Four braces carry the broad roofed lookout above the tapered shaft. The entry annex, low lantern and roof profile remain connected from the reverse angle. Opened iron previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 632/360/153 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent Elf critic — final tower and basin verification",
+      "models": [
+        {
+          "id": "bld_elf_castle_classical_v0",
+          "evidence_sha256": "037842b5fd421afe7e29e820c08db15629a5abf1a8a013a12302cea37e42bbc7",
+          "observations": "The brown timber bands now continue cleanly around all four tower bases, with level top and bottom edges at front, side and rear. The gate, its curved canopy and the five roof peaks remain distinct at middle distance. Examined medieval, renaissance previews and both 64 px unpainted angles. Painted medium views were rendered at 192 px and 215°, 125° and 35°. LODs 1861/1074/338 passed serialized checks; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

@@ -362,6 +362,377 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_town_center_ancient_bronze_v0",
+          "evidence_sha256": "bfc722a00011b533f4bcdb88dcd2911b58775d86ca71ccf05d96c2ad89841dee",
+          "observations": "A small round bronze lantern crowns the stepped hip roof and the broad door sits below paired corner lamps. The change in shape between lantern and lower hall is readable at 64 px. The roof stages, door surround and plinth survive LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1058,
+            602,
+            218
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_ancient_iron_v0",
+          "evidence_sha256": "b0a82ca8a5b18df0bafac223d9f64debb4e9592cc7c0207b6c8b13276b43bff5",
+          "observations": "A tall squared roof cap replaces the Bronze round lantern, with the darker upper stages offset against warm lamps. At LOD1 the stacked roof bases, thick walls and deep entrance remain connected.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            968,
+            550,
+            160
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_ancient_v0",
+          "evidence_sha256": "c139c074e7be3a5ded669ac8cdc9a78905b166d6ace3f54a265252bb0c2db3c3",
+          "observations": "Cross-ribbing breaks up the broad straw-coloured vault above the heavy entrance arch. The corners and lamps anchor the hall at phone scale. LOD1 keeps the full vault, walls and broad doorway.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            944,
+            538,
+            188
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_classical_medieval_v0",
+          "evidence_sha256": "ae4b320a688e42affdff1a3e5dacea0aa03b463d8316c06497decf083917fed2",
+          "observations": "Four corner battlements enclose the central vault over a second-storey hall. The sturdy arch and lit upper gallery establish the entrance hierarchy. The roof projections and large doorway remain distinct in LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1286,
+            732,
+            342
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_future_ascension_v0",
+          "evidence_sha256": "50051a2f58df6f50d7fadef1c464c7270bd1166b827077d08604ddb7043c8df1",
+          "observations": "A freestanding gold wheel surmounts the bright pyramidal glass roof, making a recognizable Ascension monument at 64 px. LOD1 keeps its legs seated on the roof, with a thick wall and broad door below.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1156,
+            658,
+            287
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_future_v0",
+          "evidence_sha256": "f3a08c41d107790dccf16a547e6033e709402d8e57041b09f8dd4efde06c9763",
+          "observations": "A tiered blue and white lantern is recessed above the dark perimeter roof. Its stacked profile differs from the clock of the earlier hall and the wheel of Ascension. LOD1 retains the roof stages, corner lamps and arched entrance.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1046,
+            596,
+            198
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_industrial_modern_v0",
+          "evidence_sha256": "9fc920d3ed6df2ca158033a0910984e3d6c7571b7b380027d62a2b2fc05ee04c",
+          "observations": "A raised band of office glazing supports a clock dormer behind the roof edge. The clock cuts the skyline above the established broad entry arch, and the glazing, clock base and doorway remain intact at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1094,
+            622,
+            237
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_town_center_ancient_bronze_v0",
+          "evidence_sha256": "d344c6cc7a70de45cf380a1b9f06410a14102453d9c28f9e7d3625e94ca44bc5",
+          "observations": "The round roof lantern and stepped hips keep their vertical separation. The doorway simplifies to a continuous dark opening above the visible entry steps.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1058,
+            602,
+            218
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_ancient_iron_v0",
+          "evidence_sha256": "68e12f1dc76b67b3453503d2a7bebe000ce7e96a3603176bd9f5a7be87b7ba9f",
+          "observations": "The square iron cap still rests on a complete raised crown. The simplification keeps the door open and dark beneath the heavy arch and paired lamps.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            968,
+            550,
+            160
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_ancient_v0",
+          "evidence_sha256": "20d5b817f6d9b4871030f115c1b9c7bbc206d3d134e19d114954204044bfbbce",
+          "observations": "The straw-coloured ribbed roof remains solid, but pale masonry fills the right side of the central entrance at LOD1. The plug is visible from both front angles inside the otherwise intact arch.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 82,
+            "charm": 92,
+            "colour": 93,
+            "technical": 86
+          },
+          "defects": [
+            "Keep both dark leaves of the Dawn entrance clear of the inner stone surround in the middle mesh."
+          ],
+          "lod_triangles": [
+            944,
+            538,
+            188
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_classical_medieval_v0",
+          "evidence_sha256": "71269d59819ac27a39a8abb3679bb51bf97232164f8552d4a4fca2ded8ffbb68",
+          "observations": "The crenellated upper roof, gallery and corners retain full wall surfaces from the rear. The central opening remains dark and complete under its arch.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1286,
+            732,
+            342
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_future_ascension_v0",
+          "evidence_sha256": "597366dcc9c99c8829aa4b4b0f74322dde0268be664f7317eb6a85905c777e65",
+          "observations": "The gold roof wheel and bright pyramid keep their supports. A large pale block occludes the right-hand door leaf at LOD1, leaving a stepped patch inside the front arch.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 82,
+            "charm": 94,
+            "colour": 94,
+            "technical": 86
+          },
+          "defects": [
+            "Keep the Ascension hall's full two-leaf entrance visible below its gold roof at LOD1."
+          ],
+          "lod_triangles": [
+            1156,
+            658,
+            287
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_future_v0",
+          "evidence_sha256": "f11ac02c05a58bf1f276fc84810d536dfd0b5e3d255827ec24fa90c4bf0f0160",
+          "observations": "The tiered blue lantern, square roof and rear wall are complete. The right half of the main arched doorway becomes a pale rectangular intrusion at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 82,
+            "charm": 92,
+            "colour": 94,
+            "technical": 86
+          },
+          "defects": [
+            "Separate the inner arch faces from the door skin and preserve both door leaves in the middle mesh."
+          ],
+          "lod_triangles": [
+            1046,
+            596,
+            198
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_industrial_modern_v0",
+          "evidence_sha256": "cebe087a0a561ab84a2e2f8338711cd0eff4eec545039d9ee7f17dd1cfd1f4cb",
+          "observations": "The clock dormer, glass storey and broad roof keep their shapes. A large stone-coloured patch interrupts the right door leaf at LOD1 despite the intact outer arch and stairs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 82,
+            "charm": 93,
+            "colour": 93,
+            "technical": 86
+          },
+          "defects": [
+            "Protect the clock hall's full door surface and keep the right-hand leaf clear at the middle distance."
+          ],
+          "lod_triangles": [
+            1094,
+            622,
+            237
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent visual critic, final door, canopy and grille repair review",
+      "inspection": "Reopened the authored age previews and all three serialized LODs at 64 px. Compared LOD0 and LOD1 at two 190 px front angles and at 195 px from the side and rear. Revalidated serialized metadata, triangle ratios, exposed surfaces and shell orientation at the recorded hashes.",
+      "models": [
+        {
+          "id": "bld_dwarf_town_center_ancient_v0",
+          "evidence_sha256": "113846395d6541729b2c097fef5ba4cb05e3a346d2d31abf59b5efc97b40ed42",
+          "observations": "The middle mesh preserves the full entrance within the masonry arch, visible at both 215 and 145 degrees. The low stair and ribbed timber vault retain the Dawn hall's broad profile from the side and rear.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            944,
+            496,
+            188
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_future_ascension_v0",
+          "evidence_sha256": "b25ccfb558cc85c7d33b0e318855d64dc5ccfa67ed478946f187146b82003f83",
+          "observations": "The Ascension wheel remains seated above the glass roof. The large dark portal now spans the whole opening beneath the stone arch, with no pale rectangle over the right side at LOD1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1156,
+            664,
+            287
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_future_v0",
+          "evidence_sha256": "9360e766718b8ff5c2a996684fc73897bbaed4285eceda0a4b3f537cb34ccd47",
+          "observations": "The right-hand side of the entrance remains dark in the simplified hall, completing the doorway below the blue roof stages. The entrance steps, sides and roof support all stay intact.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1046,
+            598,
+            198
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_industrial_modern_v0",
+          "evidence_sha256": "08f8f0a25c682cc118971b5b05e1b289c0fa5e30f2c83d796a59295789fce1b1",
+          "observations": "The clock and glazed storey remain readable above the broad roof. LOD1 now retains a continuous dark doorway between the jambs and above the front stair when viewed from either side.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1094,
+            618,
+            237
+          ]
+        }
+      ]
     }
   ]
 }

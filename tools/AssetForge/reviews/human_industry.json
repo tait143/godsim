@@ -571,6 +571,222 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_foundry_future_v0",
+          "evidence_sha256": "20cdc86366f3f81bee4a553442b69db1a3ea081130534d5c737295c93b5c1fb1",
+          "observations": "The steel vessel, crane, glowing ladle and casting shed preserve the same arrangement and profile as the industrial works in both unpainted views. A narrow extra exhaust and lowered shed roof are secondary. Serialized triangle counts are 1210, 688, 346 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 84,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the industrial tap-floor silhouette with a visibly different future melting or casting installation. Keep the crane and ladle readable if retained."
+          ]
+        },
+        {
+          "id": "bld_human_foundry_industrial_v0",
+          "evidence_sha256": "7517caca021e49f5de5da25af2c104b573a70e456da68b73951f44f6469191e9",
+          "observations": "The brick furnace narrows at its open glowing mouth. A braced crane spans the pouring ladle, and stacked moulds and ingots occupy the work floor. The furnace and crane can still be read at the middle level. Serialized triangle counts are 1024, 583, 301 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_smelter_classical_v0",
+          "evidence_sha256": "c09ca1ade53d40fc3c69f4325587c70c3767e9d08b25cccde5864f2fdccecf57",
+          "observations": "A pale tapered furnace has a hot opening near the ground, a tiled workroom and a thin rear flue. Pots and tools line the firing mouth. The vessel and flue remain distinct from the gable at distance. Serialized triangle counts are 773, 439, 151 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_smelter_industrial_v0",
+          "evidence_sha256": "79e8949acc71f6301668abef4588fc1d2c60a6372d892f5db9c73d1644281ec5",
+          "observations": "The tall brick flue and side blast duct extend the furnace silhouette beyond the earlier detached-looking workshop. The glowing tap, fuel bucket and tiny ingots establish scale on the casting floor. Serialized triangle counts are 779, 443, 187 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_weaver_ancient_v0",
+          "evidence_sha256": "5c73332727a27eae8a09578eca84343bffc5771f8cc7ae64148910fc7527ca51",
+          "observations": "Long blue and red cloths hang from an angled drying frame beside a hip-roofed timber hut. A loom, dye vat and rolled cloth make the small workspace recognizable. Serialized triangle counts are 645, 367, 100 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_weaver_classical_v0",
+          "evidence_sha256": "c977b6fa70dce1f7749d7337ac72908cd184657351d0bcca4b8fce727639ebd0",
+          "observations": "The drying frame, canvas strips, loom, dye vat and hut occupy the same arrangement as the ancient weaver. The front gable and small ridge cap have little effect on either phone-scale profile. Serialized triangle counts are 691, 393, 124 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 86,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the classical workshop a new main work structure, such as an open attached loom hall or a drying gallery, while keeping the cloth and working equipment legible."
+          ]
+        },
+        {
+          "id": "bld_human_workshop_classical_v0",
+          "evidence_sha256": "4a68f0a7511857bfc4d4921eeff2f462351314bfff867f618e65b0fd31995253",
+          "observations": "A braced timber gantry carries a spoked wheel in front of the gabled wheelwright’s hut. A tool pile and wooden crate sit clear of the entry. The gantry and wheel stay visible at middle and far distance. Serialized triangle counts are 611, 348, 162 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_workshop_industrial_v0",
+          "evidence_sha256": "f8848c7aaf72c1baaaf879eb693e62ca8678d1e9548cd53e9a7fd9ba9c670e36",
+          "observations": "The hand-hoist, suspended wheel, low bench and gabled workshop keep the same proportions and relative positions as the classical yard. The chimney and shallower roof barely change either grey view. Serialized triangle counts are 723, 411, 179 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 85,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Replace or enlarge the industrial work equipment, such as a sheltered powered wheel or belt-driven line, so the street-facing mass changes at 64 pixels."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_foundry_future_v0",
+          "evidence_sha256": "45de584cdfcd151794027816b67b3ecfd42a187242cd8c866a86def5b8f104ad",
+          "observations": "An overhead electric melting head now hangs between two solid piers and feeds two glowing round moulds. The broad portal is distinct from the old conical furnace at both grey angles. The little rear service hut and ingots give the equipment scale. Serialized triangle counts are 734, 422, 212 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_foundry_industrial_v0",
+          "evidence_sha256": "26fa46b0cc7ad185fbc8557111592f123d1d3f92d3565512e1c102333febcb65",
+          "observations": "The tapered brick furnace and braced ladle gantry read separately at middle distance. The pouring mouth, shed and flue remain visible around the works, with a different skyline from the later overhead melting installation. Serialized triangle counts are 1024, 583, 301 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_weaver_ancient_v0",
+          "evidence_sha256": "0fab400c9febbd638f886c578f3f0befa274177ed1ffeb2821988e20faf43da1",
+          "observations": "The outdoor drying frame and cloth bolts retain clear gaps beside the hip-roofed timber house. Medium views preserve the loom and dye vat, and distinguish this open yard from the new covered classical work hall. Serialized triangle counts are 645, 367, 100 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_weaver_classical_v0",
+          "evidence_sha256": "bc148962d611c196c305d0e095910cff8f8ca7e6cbd4aebe835d9e8aea15ce29",
+          "observations": "A full-width open loom hall replaces the outdoor upright drying frame. Its timber posts flank a broad sloping loom, finished blue web and dye vessels. The canopy, work opening and front cloth read in the middle and far meshes. Serialized triangle counts are 439, 250, 118 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_workshop_classical_v0",
+          "evidence_sha256": "c00308c5207f4de366c41e5c833e6ae8ce0379ae8cb9e2522d7ce005d48ab190",
+          "observations": "The timber hoist, spoked wheel and small pitched tool hut remain distinct in all three middle views. The offset door stays clear of the workbench, with small ingots marking the working yard. Serialized triangle counts are 611, 348, 162 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_workshop_industrial_v0",
+          "evidence_sha256": "577c1853b3aea235b847c48a28efd772f95aa6b89f7b018d533bc995e058fa17",
+          "observations": "The large powered flywheel and paired sawtooth roof lights now dominate a wider brick shop. The two raised roof bays and solid support beneath the wheel are clear in grey and in three painted LOD1 views. Chimney, entry and crate give the building scale. Serialized triangle counts are 579, 329, 184 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

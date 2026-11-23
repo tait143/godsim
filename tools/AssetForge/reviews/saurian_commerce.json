@@ -348,6 +348,141 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "independent_saurian_round1_2026_11_23",
+      "models": [
+        {
+          "id": "bld_saurian_airport_future_v0",
+          "evidence_sha256": "db44657e0140edd1b0f0df568d4067bc86a99867a931435fc9b8fe4b0c150e2f",
+          "observations": "The cream control tower stands above the low terminal and a plane crosses the runway markings. Its canopy still has a continuous outer edge at LOD1. The strip reads against both the blue and sand aprons. The serialized meshes have 796, 452, 239 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.07% of front-view pixels and 0.15% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_bank_classical_v0",
+          "evidence_sha256": "8f68530d25bc83e634788b3d7c36029ac02fc947195048c32613949eab5b0b6a",
+          "observations": "The sun coin, raised porch and short stair align on one axis. Both earth and green hip roofs taper toward a narrow coin plinth at 64 px. LOD1 retains the porch opening and stair. The serialized meshes have 750, 426, 163 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.83% of front-view pixels and 0.27% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_bank_industrial_v0",
+          "evidence_sha256": "628ba48bcfcacb5a098b890389c5b35c029c3ef8a056fd81236580bb9f6d2fb9",
+          "observations": "The stepped brick upper storey, flat dark cap and teal-backed coin give the bank a heavier silhouette than its classical hip roof. The central door and two jambs survive in both street views of LOD1. The serialized meshes have 742, 422, 171 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.59% of front-view pixels and 0.15% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_guildhall_industrial_v0",
+          "evidence_sha256": "650e403618655a76bbc32ee8698b5f980a9e22229476791d2e658f707c87dc9c",
+          "observations": "The tall pitched hall has a long cyan front awning, a low porch and a separate dark flue. The Modern wall turns pale below the same green roof. The LOD1 awning stays attached at both ends. The serialized meshes have 868, 493, 201 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.29% of front-view pixels and 0.02% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_rail_station_future_v0",
+          "evidence_sha256": "4bf414c8c097b88da291b50b935cec39a00dcea1027944ffccd8f7130ef11c58",
+          "observations": "A glazed canopy stands on a thin platform post beside a short turquoise train. Enlarging the old and new LOD1 confirms both have fewer sleepers than LOD0, while the platform, rails and train remain connected. The serialized meshes have 921, 524, 269 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 2.42% of front-view pixels and 1.56% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_rail_station_industrial_v0",
+          "evidence_sha256": "652457398c36c86b34f91231e7dab5ec06658dfa99319e7e272b997b4c2d4b0d",
+          "observations": "The green station roof, protruding stovepipe, dark cab and exposed rails survive at LOD1. The simplified sleeper spacing appears in the older LOD1 as well. Brick gives way to gray on the platform in Modern. The serialized meshes have 1029, 586, 319 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 1.98% of front-view pixels and 1.44% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_saurian_rail_station_future_v0",
+          "evidence_sha256": "52af408151e06f527fd8456ab4d886b3fecc62f30eee66d2f8085a5a3e1e6ccf",
+          "observations": "The train retains a continuous body beside the platform. The broad glazed canopy keeps its rim, two supporting posts and little boarding stair in the middle view.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            921,
+            524,
+            269
+          ]
+        },
+        {
+          "id": "bld_saurian_rail_station_industrial_v0",
+          "evidence_sha256": "1d795eaf9e6e05ce82393bbbc46c25f972b4fce179341826d76a7baf1a159b19",
+          "observations": "The low locomotive and its wheels remain grounded on the track beside the brick station. The long green roof and rear enclosure retain their full silhouettes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1029,
+            586,
+            319
+          ]
+        }
+      ]
     }
   ]
 }

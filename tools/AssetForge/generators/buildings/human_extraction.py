@@ -182,6 +182,37 @@ def wagon(m,x,z,ore):
 
 
 def mine(m,era,gold):
+    if era==3:
+        if gold:
+            # A rotating ore-washing drum feeds a cascade of settling basins.
+            rock(m,-.42,.38,.79,.74,.60,'fieldstone')
+            for z in (.04,.46):
+                m.block('metal',(.23,.27,z),(.61,.41,.14),taper=.08)
+            with m.transform(translate=(.23,.55,.25),rotate_x=78):
+                drum(m,'ivory',0,-.42,0,.33,.86,top=.26,n=(18,10,6)[m.lod])
+                drum(m,'trim',0,-.47,0,.35,.08,n=(16,10,6)[m.lod])
+            for j in range((3,3,2)[m.lod]):
+                x,z=-.58+j*.36,-.44-j*.08
+                drum(m,'metal',x,.066,z,.245,.16+.055*j)
+                drum(m,'water',x,.226+.055*j,z,.215,.015)
+                if m.lod==0:
+                    rock(m,x,z,.14,.12,.052,'gold',.243+.055*j)
+            m.entry(-.42,-.002,.25,.066,.31)
+        else:
+            # The enclosed shaft head raises skips directly above the loading track.
+            m.course('ivory',.23,.25,.82,.75,.066,1.04,.11)
+            m.course('glass',.23,.22,.91,.82,1.04,1.34,.12)
+            m.course('metal',.23,.20,.96,.87,1.34,1.44,.14)
+            m.entry(.22,-.128,.33,.068,.58,lintel='metal')
+            tracks(m,.23,-.82,-.12,.32)
+            wagon(m,.23,-.58,'fieldstone')
+            rock(m,-.52,.26,.62,.85,.62)
+            if m.lod<2:
+                drum(m,'metal',-.45,.066,-.43,.17,.22)
+                m.light(.22,1.17,-.198,.49,.14,shutters=False)
+        if m.lod==0:
+            badge(m,-.46,.54,.002,.16,.15)
+        return
     # Outcrop forms the tunnel face. An ore wagon rides straight out from the framed adit.
     cx=-.015
     rock(m,-.28,.35,1.25,1.10,.97)
@@ -393,6 +424,27 @@ def quarry(m,era):
 
 
 def saw(m,era):
+    if era==3:
+        # Portal band mill. The enclosed blade travels between its upper and lower flywheels.
+        cabin(m,-.47,.45,.73,.57,.60,era)
+        for x in (-.29,.61):
+            m.block('wall',(x,.385,-.16),(.186,.65,.36),taper=.05)
+        m.block('roof',(.16,.775,-.16),(1.12,.15,.41))
+        m.block('glass',(.16,.894,-.16),(.66,.14,.28))
+        for x in (-.26,.58):
+            axle(m,'metal',x,.67,-.354,.133,.104)
+        m.block('metal',(.35,.529,-.31),(.032,.48,.074))
+        m.block('timber',(.17,.274,-.22),(.75,.094,1.26))
+        for z in (-.70,.23):
+            m.block('trim',(.17,.168,z),(.57,.225,.10))
+        logs(m,.15,-.51,.42,.69)
+        logs(m,-.61,-.31,.36,.71)
+        if m.lod<2:
+            for j in range((6,3)[m.lod]):
+                z=-.72+j*.75/(5 if m.lod==0 else 2)
+                m.block('metal',(.14,.324,z),(.64,.035,.031))
+            badge(m,-.49,.47,.148,.12,.12)
+        return
     cabin(m,-.446,.260,.72,.93,.795 if era==2 else .837,era)
     logs(m,-.372,-.51,.47,.84)
     cx,cz=.38,-.088

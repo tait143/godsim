@@ -152,7 +152,7 @@
   "triangles": 1319,
   "lod_triangles": [
    1319,
-   797,
+   751,
    346
   ],
   "bounds": [
@@ -167,7 +167,7 @@
     0.9049999713897705
    ]
   ],
-  "bytes": 193676,
+  "bytes": 192728,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_gold_mine_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_classical_v0.png",
@@ -194,25 +194,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1206,
+  "triangles": 464,
   "lod_triangles": [
-   1206,
-   753,
-   384
+   464,
+   275,
+   138
   ],
   "bounds": [
    [
-    -0.9229999780654907,
+    -0.9200000166893005,
     0.0,
     -0.9049999713897705
    ],
    [
     0.9200000166893005,
-    2.2869999408721924,
+    0.8919358253479004,
     0.9049999713897705
    ]
   ],
-  "bytes": 183892,
+  "bytes": 75332,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_gold_mine_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_future_v0.png",
@@ -241,7 +241,7 @@
   "triangles": 1230,
   "lod_triangles": [
    1230,
-   741,
+   701,
    352
   ],
   "bounds": [
@@ -256,7 +256,7 @@
     0.9049999713897705
    ]
   ],
-  "bytes": 182104,
+  "bytes": 181320,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_gold_mine_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_industrial_v0.png",
@@ -285,7 +285,7 @@
   "triangles": 1232,
   "lod_triangles": [
    1232,
-   758,
+   702,
    284
   ],
   "bounds": [
@@ -300,7 +300,7 @@
     0.9049999713897705
    ]
   ],
-  "bytes": 179448,
+  "bytes": 179080,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_mine_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_ancient_v0.png",
@@ -330,7 +330,7 @@
   "triangles": 1306,
   "lod_triangles": [
    1306,
-   800,
+   744,
    318
   ],
   "bounds": [
@@ -345,7 +345,7 @@
     0.9049999713897705
    ]
   ],
-  "bytes": 190164,
+  "bytes": 189476,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_mine_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_classical_v0.png",
@@ -372,25 +372,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1119,
+  "triangles": 466,
   "lod_triangles": [
-   1119,
-   682,
-   316
+   466,
+   265,
+   126
   ],
   "bounds": [
    [
-    -0.9229999780654907,
+    -0.9200000166893005,
     0.0,
     -0.9049999713897705
    ],
    [
     0.9200000166893005,
-    2.117000102996826,
+    1.440000057220459,
     0.9049999713897705
    ]
   ],
-  "bytes": 166452,
+  "bytes": 68568,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_mine_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_future_v0.png",
@@ -546,11 +546,11 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1048,
+  "triangles": 1208,
   "lod_triangles": [
-   1048,
-   708,
-   330
+   1208,
+   688,
+   316
   ],
   "bounds": [
    [
@@ -560,11 +560,11 @@
    ],
    [
     0.9200000166893005,
-    1.05239999294281,
+    0.9639999866485596,
     0.9049999713897705
    ]
   ],
-  "bytes": 146780,
+  "bytes": 159192,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_sawmill_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_sawmill_future_v0.png",
@@ -593,7 +593,7 @@
   "triangles": 1112,
   "lod_triangles": [
    1112,
-   706,
+   632,
    286
   ],
   "bounds": [
@@ -608,7 +608,7 @@
     0.9049999713897705
    ]
   ],
-  "bytes": 148308,
+  "bytes": 147864,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_sawmill_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_sawmill_industrial_v0.png",
@@ -638,7 +638,7 @@
   "triangles": 971,
   "lod_triangles": [
    971,
-   587,
+   553,
    247
   ],
   "bounds": [
@@ -653,7 +653,7 @@
     0.9049999713897705
    ]
   ],
-  "bytes": 144640,
+  "bytes": 144500,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_stone_quarry_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_stone_quarry_ancient_v0.png",

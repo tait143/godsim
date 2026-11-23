@@ -298,6 +298,342 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_elf_arcology_future_v0",
+          "evidence_sha256": "23ec922f81bda9047feef22b4b338b03e287ae1847838b0a563824791d5b27f8",
+          "observations": "Green balcony rings circle three tapering blue levels. The buttressed base and pointed street entrance make this read as inhabited Elf architecture. Checked ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 684/388/201. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_forum_classical_v0",
+          "evidence_sha256": "863539b67563f3668b044cdc57a6c116a26864436fc884cbf32d1ef9fb32c258",
+          "observations": "The central assembly roof opens onto a low speaking platform. Two smaller roofs on independent supports flank the gathering space. Highest outgoing family corner share was 1627/2988 (54.5%) with bld_elf_forum_industrial_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 996/567/231. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_forum_future_v0",
+          "evidence_sha256": "6d3fb816145b5b6899a5157c2cabca43d2909bf6533ad1698060d22e86c268d4",
+          "observations": "The central assembly roof opens onto a low speaking platform. Two smaller roofs on independent supports flank the gathering space. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1621/2988 (54.3%) with bld_elf_forum_classical_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 996/567/231. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Arrange the assembly decks around a low circular speakers’ court and a split canopy."
+          ]
+        },
+        {
+          "id": "bld_elf_forum_industrial_v0",
+          "evidence_sha256": "487624c56771b9915543c583dd3dfe320a5d1a174cf52ee7e4e34de90344452e",
+          "observations": "The central assembly roof opens onto a low speaking platform. Two smaller roofs on independent supports flank the gathering space. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1627/2988 (54.5%) with bld_elf_forum_classical_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 996/567/231. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Enclose an elongated debating hall beneath a raised clerestory with a clear forecourt."
+          ]
+        },
+        {
+          "id": "bld_elf_tavern_classical_v0",
+          "evidence_sha256": "851cf3c4a4bb37057cbf63329411a8aab9f372ed3b8e851bf11b2b1f65d8190b",
+          "observations": "A hanging tankard and stave barrels mark the front of the paired roof volumes. The lower public entrance stays clear of the signpost. Highest outgoing family corner share was 2131/3831 (55.6%) with bld_elf_tavern_industrial_v0. Checked medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1277/726/328. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_tavern_future_v0",
+          "evidence_sha256": "613b1a0d0d66de15f611ab450bba14f8c6804cb49894ace964466bb25685d26a",
+          "observations": "A hanging tankard and stave barrels mark the front of the paired roof volumes. The lower public entrance stays clear of the signpost. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 2115/3831 (55.2%) with bld_elf_tavern_classical_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1277/726/328. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Terrace the public rooms around a garden bar beneath a split leaf canopy."
+          ]
+        },
+        {
+          "id": "bld_elf_tavern_industrial_v0",
+          "evidence_sha256": "275d1493c949e109e6646fb524a3f36dc9511fb0d93fcc4982ca795c54e58d98",
+          "observations": "A hanging tankard and stave barrels mark the front of the paired roof volumes. The lower public entrance stays clear of the signpost. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 2131/3831 (55.6%) with bld_elf_tavern_classical_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1277/726/328. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Use a two-storey public house above a long public porch, with a distinct keg delivery bay."
+          ]
+        },
+        {
+          "id": "bld_elf_theater_future_v0",
+          "evidence_sha256": "63a6565c26c6fa7f8f5a0f202f3d6dce588a9e69e109beee454788fef7f3bf20",
+          "observations": "A bare oval dais faces a row of canopy posts. At 64 pixels it can be read as a pavilion or monument, with no legible place for an audience. Highest outgoing family corner share was 0/1380 (0.0%) with bld_elf_theater_classical_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 460/262/104. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 82,
+            "construction": 91,
+            "charm": 85,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Build recognisable audience banks facing a raised performance end. Keep the split, leaf-shaded stage visibly different from the industrial theater."
+          ]
+        },
+        {
+          "id": "bld_elf_theater_industrial_v0",
+          "evidence_sha256": "5dadfe2197dcedbf077718a1dd7ac666fb0124490f2342f57f7cb1e81f4cfc63",
+          "observations": "A high curved front wall and solid back tower frame an empty flat floor. The audience and performance areas merge in both grey angles. Highest outgoing family corner share was 0/2460 (0.0%) with bld_elf_theater_classical_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 820/464/236. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 81,
+            "construction": 91,
+            "charm": 85,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Add visible raked audience tiers facing a raised stage, and lower or open the front wall so the seating and proscenium read at 64 pixels."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Elf critic — Coordinator repair round 2, first submitted meshes",
+      "models": [
+        {
+          "id": "bld_elf_forum_future_v0",
+          "evidence_sha256": "2fd11bef83bbca66c5b9824cfbe0f3ba9c02e06ae2d7366da9fe08f601ce7ccd",
+          "observations": "The stepped horseshoe opens onto a lectern with steep white seating tiers. The slender frame curves around the debating chamber without hiding its approach. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 11.5%. Serialized LODs 671/377/172 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_forum_industrial_v0",
+          "evidence_sha256": "5347430bf33ef11c08f6be4a51151e0287f8ff387363f312619541b9953f90b8",
+          "observations": "Three detached solid wood blocks sit in front of a brick drum with a canopy on top. At phone size the blocks resemble logs and the drum provides no clear speaker position or public approach. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 11.5%. Serialized LODs 407/233/114 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 81,
+            "construction": 88,
+            "charm": 85,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Build a recognizable lectern, stair or platform front, and arrange supported benches or raked rows facing the speakers."
+          ]
+        },
+        {
+          "id": "bld_elf_tavern_future_v0",
+          "evidence_sha256": "d964c92aa2a4ff3ee8aa1fadc134252991b0730cdb0241fe550901c255c9e620",
+          "observations": "Two tiny mushroom-shaped tables occupy an elevated disk. A blue base hides the doorway, the terrace has no visible access, and a single isolated basin gives little indication of a public tavern. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 9.4%. Serialized LODs 500/284/123 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 81,
+            "construction": 83,
+            "charm": 85,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Open a readable entrance or stair to the terrace and provide a visible serving counter with keg, tap or tankards at the same level as the diners."
+          ]
+        },
+        {
+          "id": "bld_elf_tavern_industrial_v0",
+          "evidence_sha256": "1c47745e641120116e821b00d5b614a381b0528da788d1f977256680a3b38bfc",
+          "observations": "A horizontal wooden cask sits across two masonry saddles beside the pub. The front has no cask head, so the gold spigot is visibly suspended in the open mouth. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 9.4%. Serialized LODs 619/352/163 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 88,
+            "construction": 79,
+            "charm": 86,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Add a stave head to the tap end of the barrel and mount the spigot to that face. Confirm both ends are closed in all relevant LODs."
+          ]
+        },
+        {
+          "id": "bld_elf_theater_future_v0",
+          "evidence_sha256": "1c113fd1921c808511c222851ac1bf8aa93b752de6ee6cd7bbccbba501b91823",
+          "observations": "Two curved, tiered seating banks open toward a thrust stage. The fanned leaves and colonnade over its back edge distinguish the acoustic stage from the industrial proscenium. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 610/346/124 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_theater_industrial_v0",
+          "evidence_sha256": "809f804296a9df37a56ee41bf257fa4269bea9a7b4d8c1aba6d0f8823a6c268a",
+          "observations": "The raked banks face a raised timber stage with a center aisle. Curtains and a supported proscenium separate the playhouse from the solid loft behind it. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 500/298/140 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Elf critic — frozen LOD export inspection",
+      "models": [
+        {
+          "id": "bld_elf_arcology_future_v0",
+          "evidence_sha256": "89d08db492437f3ed9196c867d551585a8f745c095f0be8a7624a0ba7128dd6f",
+          "observations": "Three inhabited levels and planted ledges enclose the central tower. The front entrance remains distinct, and the rear buttresses continue to meet the platforms. Opened ascension previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 684/388/201 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_tavern_classical_v0",
+          "evidence_sha256": "6d7be2c655acee388d0284e3b54b4e994f43f94f18b36730c656152ced4405ad",
+          "observations": "The suspended tankard and two stave barrels remain visible beside adjoining taproom roofs. From behind, the rounded walls and roofs meet cleanly. Opened medieval, renaissance previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 1277/726/328 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent Elf critic — function and construction corrections after solver freeze",
+      "models": [
+        {
+          "id": "bld_elf_forum_industrial_v0",
+          "evidence_sha256": "848e9b735453028e89dd85694e984e47f7fce3e2dd7b7270d189999a66283bbd",
+          "observations": "Two long benches face the lectern on the open-sided, roofed speaking platform. A side flight now gives the speaker access and the public can approach between the rows. Inspected industrial, modern previews, two 64 px unpainted angles and the painted LOD1 at 215°, 125° and 35°. Serialized LODs 461/273/142 passed with zero exposed coplanar pairs or inward closed shells. Highest two-way era corner share 10.2%.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 91,
+            "construction": 92,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_tavern_future_v0",
+          "evidence_sha256": "1768a99d5dc026532bed8e6b2d96ee91b8fcd8f29bfc2898d16fbacc33ec8e60",
+          "observations": "A stair reaches the dining terrace from the street, with the barrel and tankard on a separate serving counter alongside. The tables and pointed shelter now read as a public taproom. Inspected information, ascension previews, two 64 px unpainted angles and the painted LOD1 at 215°, 125° and 35°. Serialized LODs 714/406/140 passed with zero exposed coplanar pairs or inward closed shells. Highest two-way era corner share 7.2%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_tavern_industrial_v0",
+          "evidence_sha256": "a4ca723f3e85beb9c6a0ac185036cce5b89d933eccce3a4a9cac2cb50c818c08",
+          "observations": "The giant cask now has a continuous wooden head with the tap visibly set into it. Both ends and its masonry saddles are intact from the front, side and rear. Inspected industrial, modern previews, two 64 px unpainted angles and the painted LOD1 at 215°, 125° and 35°. Serialized LODs 651/370/167 passed with zero exposed coplanar pairs or inward closed shells. Highest two-way era corner share 7.2%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_theater_industrial_v0",
+          "evidence_sha256": "06b9b36a05bed119ecfa104f9a40c40b417fab497c52a98a7ac4f8e2f143dbee",
+          "observations": "The raked seats flank an aisle facing the raised stage, with a supported proscenium and green side curtains. The simplified rear fly tower and stage floor keep continuous planes on the middle mesh. Inspected industrial, modern previews, two 64 px unpainted angles and the painted LOD1 at 215°, 125° and 35°. Serialized LODs 500/272/140 passed with zero exposed coplanar pairs or inward closed shells. Highest two-way era corner share 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

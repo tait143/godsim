@@ -16,6 +16,14 @@ from building_surfaces import inverted_shells, overlaps, outward_ray_hits_surfac
 
 
 class BuildingScopeTests(unittest.TestCase):
+    def test_era_comparisons_count_repeated_corners_in_both_directions(self):
+        from building_eras import ordered_counts
+        rows = [{"id":"small"},{"id":"large"}]
+        a = [[0,0,0],[1,0,0],[0,1,0]]
+        b = [[0.0001,0,0],[1,0,0],[0,1,0],[0,0,0],[2,0,0],[0,2,0]]
+        with patch("building_eras.serialized_level",side_effect=[(np.array(a),None),(np.array(b),None)]):
+            self.assertEqual(ordered_counts(rows),[("small","large",3,3),("large","small",4,6)])
+
     def test_director_gate_only_withholds_open_findings_for_known_models(self):
         import json
         from types import SimpleNamespace
@@ -47,7 +55,12 @@ class BuildingScopeTests(unittest.TestCase):
                     approved_family_sheets([{"id":"house"}])
                 approval["evidence_sha256"] = "current"
                 path.write_text(json.dumps(approval))
-                self.assertEqual(approved_family_sheets([{"id":"house"}]), {"01.png":"hash"})
+                with self.assertRaisesRegex(ValueError, "does not match"):
+                    approved_family_sheets([{"id":"house"}])
+                approval["era_sheets"] = {"dwarf-01.png":"grey"}
+                path.write_text(json.dumps(approval))
+                self.assertEqual(approved_family_sheets([{"id":"house"}]),
+                                 ({"01.png":"hash"}, {"dwarf-01.png":"grey"}))
 
     def test_withdrawn_package_retires_only_numbered_contact_pages(self):
         with tempfile.TemporaryDirectory() as directory, patch("build_all.SHEETS",Path(directory)):
@@ -55,8 +68,13 @@ class BuildingScopeTests(unittest.TestCase):
             package.mkdir(parents=True)
             for name in ("01.png","02.png","round-2-lods.png"):
                 (package/name).touch()
-            retire_obsolete_pages([package/"01.png"],["elf_food"])
+            grey = Path(directory) / "era_geometry"
+            grey.mkdir()
+            for name in ("elf-01.png", "elf-02.png", "manual-comparison.png"):
+                (grey / name).touch()
+            retire_obsolete_pages([package/"01.png",grey/"elf-01.png"],["elf_food"])
             self.assertEqual(sorted(p.name for p in package.iterdir()),["01.png","round-2-lods.png"])
+            self.assertEqual(sorted(p.name for p in grey.iterdir()),["elf-01.png","manual-comparison.png"])
             retire_obsolete_pages([],["elf_food"])
             self.assertEqual([p.name for p in package.iterdir()],["round-2-lods.png"])
 

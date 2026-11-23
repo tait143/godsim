@@ -538,6 +538,140 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_elf_fishing_hut_ancient_v0",
+          "evidence_sha256": "453ee4e8843816cbe7aab44d5208035417486927e73fb67d75e20ae1a4e69a18",
+          "observations": "The hollow skiff is tied alongside the round timber landing. A lamp and the posts identify the sheltered hut entrance above the waterline. Highest outgoing family corner share was 886/2445 (36.2%) with bld_elf_fishing_hut_classical_v0. Checked dawn, bronze, iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 815/464/221. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_fishing_hut_classical_v0",
+          "evidence_sha256": "2d35a4ae8f57c25058a08bcbd44d35494bfef6a21d37fb2953879323912d24af",
+          "observations": "The hollow skiff is tied alongside the round timber landing. A lamp and the posts identify the sheltered hut entrance above the waterline. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 886/2445 (36.2%) with bld_elf_fishing_hut_ancient_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 815/464/221. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the single round landing with a raised net house, two jetties and a hanging net frame."
+          ]
+        },
+        {
+          "id": "bld_elf_hunting_lodge_ancient_v0",
+          "evidence_sha256": "1805c95a4ed13bf6cd5563a0a6312ac16d9aac0cf1089de7a451020648d26e9e",
+          "observations": "A forked antler hangs over the doorway below the leaf roof. A hide rack stands on the forecourt beside a supply basket. Highest outgoing family corner share was 1110/2592 (42.8%) with bld_elf_hunting_lodge_classical_v0. Checked dawn, bronze, iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 864/492/256. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_hunting_lodge_classical_v0",
+          "evidence_sha256": "bb30a9e51d556c4756301b27c56f074773f0bd9e51b726e0bfb1dc3788f6cae3",
+          "observations": "A forked antler hangs over the doorway below the leaf roof. A hide rack stands on the forecourt beside a supply basket. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1110/2592 (42.8%) with bld_elf_hunting_lodge_ancient_v0. Checked classical, medieval previews, 215° and 145° LOD0/1 views, and serialized LOD counts 864/492/256. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Extend a long game-processing porch under a lean-to and shift the antlered entrance to its gabled end."
+          ]
+        },
+        {
+          "id": "bld_elf_industrial_farm_future_v0",
+          "evidence_sha256": "9c97212335e1be443c7306d67f321b008a5851516890f1a00ee422f1fc7ee33d",
+          "observations": "Two unequal growing towers carry rings of planted beds around blue reservoirs. The repeated crop clusters and access hut read in both information and ascension colours. Highest outgoing family corner share was 0/4302 (0.0%) with bld_elf_industrial_farm_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1434/752/284. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent Elf critic — Coordinator repair round 2, first submitted meshes",
+      "models": [
+        {
+          "id": "bld_elf_fishing_hut_classical_v0",
+          "evidence_sha256": "d83067ff7f45c847f8705b93e69051998828ada5ac44d113add1cb3bef1749c2",
+          "observations": "A rigged net hangs visibly between two timber landings. The small skiff occupies the central channel and the raised fishing house retains a clear door off the pier. Compared all 3 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1358/810/354 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_hunting_lodge_classical_v0",
+          "evidence_sha256": "f780377684908810b0a089152fa2f2ff186d7b05ebd866250a2627d72256aeb8",
+          "observations": "The antlered gable marks the stepped entrance to a long roofed lodge. A separate lean-to on posts shelters the game-processing side of the building. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1030/586/294 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent Elf critic — frozen LOD export inspection",
+      "models": [
+        {
+          "id": "bld_elf_fishing_hut_ancient_v0",
+          "evidence_sha256": "9cfd8e75e72962ea7076ce51a5058e202cfe7e5ec9c3fa19955d6cde326f0604",
+          "observations": "The moored skiff lies alongside a raised round landing. The middle mesh retains the front hut opening, dock piles and the boat’s continuous hull from each angle. Opened dawn, bronze, iron previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 815/464/221 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

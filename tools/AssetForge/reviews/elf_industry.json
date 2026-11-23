@@ -729,6 +729,240 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_elf_factory_future_v0",
+          "evidence_sha256": "c6a7047bc145a5c8421816fb17bfdf45cd8ef5642d7887ecd4754e10c251cf52",
+          "observations": "Two blue cylindrical towers and their skybridge dominate both angles. The only visible product line consists of small parts on a very short strip beside the entrance. The only production cue shrinks into three loose blocks, and both large buildings read like the Elf data center at 64 pixels. Highest outgoing family corner share was 0/3936 (0.0%) with bld_elf_factory_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1312/668/239. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 84,
+            "construction": 92,
+            "charm": 88,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Expose a raised manufacturing line with a supported press or roller frame and visible feed and discharge ends."
+          ]
+        },
+        {
+          "id": "bld_elf_foundry_future_v0",
+          "evidence_sha256": "ad68dc1a0ea246927060d154374bfe4a462a15d5dc6ad20862b725078bde6262",
+          "observations": "Two tapering furnaces have dark flues. The bright crucible suspended from its frame reads in front of the taller furnace at 64 pixels. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 2201/4476 (49.2%) with bld_elf_foundry_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1492/850/390. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the paired vertical furnaces with a bridge-fed induction hearth and an exposed pouring bay."
+          ]
+        },
+        {
+          "id": "bld_elf_foundry_industrial_v0",
+          "evidence_sha256": "ed579e82489fb73df654d0e6cae8a382ae90e9b2dfa44e8fcde662613a824d05",
+          "observations": "Two tapering furnaces have dark flues. The bright crucible suspended from its frame reads in front of the taller furnace at 64 pixels. Highest outgoing family corner share was 2201/4476 (49.2%) with bld_elf_foundry_future_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1492/850/390. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_weaver_ancient_v0",
+          "evidence_sha256": "7e35764b72bb46f6d632281f849fa53cef9c961372cab38b96829da75dd06a4c",
+          "observations": "The exposed timber loom carries a green striped cloth with a visible fringe. The sheltered workroom, warp frame and basket stay readable in the smaller view. Highest outgoing family corner share was 1015/2709 (37.5%) with bld_elf_weaver_classical_v0. Checked bronze, iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 903/513/219. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_weaver_classical_v0",
+          "evidence_sha256": "fdc3ee765a153fc2442500023a3e19ef0957de593f2eed392e0519c466249d9a",
+          "observations": "The exposed timber loom carries a green striped cloth with a visible fringe. The sheltered workroom, warp frame and basket stay readable in the smaller view. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1122/3135 (35.8%) with bld_elf_weaver_industrial_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1045/595/280. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the loom its own low weaving court and an extended rack for drying lengths of cloth."
+          ]
+        },
+        {
+          "id": "bld_elf_weaver_future_v0",
+          "evidence_sha256": "4a3a07e8a6af12981fb873a387ca985aa8629294c584193656be37b44dde3046",
+          "observations": "The exposed timber loom carries a green striped cloth with a visible fringe. The sheltered workroom, warp frame and basket stay readable in the smaller view. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1120/3207 (34.9%) with bld_elf_weaver_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1069/609/288. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Frame the woven sheet in a tall suspended production loom linked to an enclosed finishing bay."
+          ]
+        },
+        {
+          "id": "bld_elf_weaver_industrial_v0",
+          "evidence_sha256": "7ff7375770f200b91c8ee29c402432aca56c3146b78a6368bd512cf133966ac9",
+          "observations": "The exposed timber loom carries a green striped cloth with a visible fringe. The sheltered workroom, warp frame and basket stay readable in the smaller view. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1122/3135 (35.8%) with bld_elf_weaver_classical_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1045/595/280. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Expose multiple powered looms beneath a long high factory roof with an end drive."
+          ]
+        },
+        {
+          "id": "bld_elf_workshop_classical_v0",
+          "evidence_sha256": "29abcc0e17aad0c9f3fd4e54c133f7b8e8e1ad836f08ecbace06cc58bbfd3931",
+          "observations": "The wheel and axle frame stand alongside a sheltered workbench with visible material on its surface. The dark workshop entrance remains separate. Highest outgoing family corner share was 1782/3264 (54.6%) with bld_elf_workshop_industrial_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1088/620/263. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_workshop_industrial_v0",
+          "evidence_sha256": "be6a16e1df92586c261931b4f4ffce9dfe8d2af6f32a99d7d5a93388b279fc74",
+          "observations": "The wheel and axle frame stand alongside a sheltered workbench with visible material on its surface. The dark workshop entrance remains separate. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1782/3468 (51.4%) with bld_elf_workshop_classical_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1156/658/289. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Extend the work into an open machine shed with a raised drive shaft, multiple stations and a clear loading entrance."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Elf critic — Coordinator repair round 2, first submitted meshes",
+      "models": [
+        {
+          "id": "bld_elf_factory_future_v0",
+          "evidence_sha256": "18faa5fe0b508339d7ea653ff7821baca6766994f2172249a69fd39b75686f08",
+          "observations": "An open conveyor carries components beneath a roofed press frame between separated feed and discharge ends. The rollers, punched workpieces and service hut distinguish the repaired factory from the earlier storage towers. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1326/754/345 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_foundry_future_v0",
+          "evidence_sha256": "baca516927a2bc614c30a6eb5dda8ab55cd5d2707fb714923147b07f5aa2f5a2",
+          "observations": "Molten metal pours down an exposed stream from the suspended induction crucible into a line of castings. The hopper and frame define the opposite working end at phone size. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 898/510/266 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_weaver_classical_v0",
+          "evidence_sha256": "43e74de1bd8742aabb84720956e0eabb6097bd6479327ab7fb9f70c3b1afadc1",
+          "observations": "A freestanding drying frame shows rows of contrasting cloth, backed by a distinct working loom. Baskets and spindles sit along the open court. Compared all 3 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 939/535/288 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_weaver_future_v0",
+          "evidence_sha256": "f005089ec7bd62cf7580c303ea8afe3b203bc7996960b01b37649695e49b1bb6",
+          "observations": "A tall arch carries a suspended sheet between widely spaced working feet. The feeder strip, separate work hut and green finished textile retain a clear silhouette. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 866/506/229 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_weaver_industrial_v0",
+          "evidence_sha256": "3ca748a1abff630f25625cbc769c3c6ff3608a85f080e5cf7d94708c81f1e120",
+          "observations": "Two powered looms share a drive wheel beneath a continuous shed roof. The green textile, contrasting rolled output and repeated frames read through the front opening. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1238/730/344 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_workshop_industrial_v0",
+          "evidence_sha256": "391aa18b0384be184b2e50a2f4580e4cd90719471b9702afb130c932d2edadfa",
+          "observations": "A line of machine stations, drive wheel and chimney fill an open-front roofed shop. The individual supporting posts and central work aisle survive the middle mesh. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1460/832/461 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

@@ -178,7 +178,8 @@ def ship(m, z, era):
     with m.transform(translate=(.67,0,z)):
         plan=[(0,-.69),(.14,-.49),(.190,-.16),(.183,.34),(.133,.54),
               (0,.62),(-.133,.54),(-.183,.34),(-.190,-.16),(-.14,-.49)]
-        if m.lod==2:
+        open_hold = m.lod<2 and (era<2 or m.lod==0)
+        if not open_hold:
             plan=[plan[i] for i in (0,2,3,5,7,8)]
         def ring(sx,sz,y,rake):
             return [(a*sx,y+abs(b)**2*rake,b*sz) for a,b in plan]
@@ -186,10 +187,10 @@ def ship(m, z, era):
         for i in range(len(plan)):
             j=(i+1)%len(plan)
             m.face("timber" if era==1 else "roof",(keel[j],keel[i],rail[i],rail[j]))
-            if m.lod<2:
+            if open_hold:
                 m.face("ivory",(rail[j],rail[i],inner[i],inner[j]))
                 m.face("timber",(inner[j],inner[i],floor[i],floor[j]))
-        if m.lod<2:
+        if open_hold:
             m.face("timber",floor[::-1])
         else:
             # A flat weather deck replaces the recessed hold of the near model.
@@ -210,6 +211,58 @@ def ship(m, z, era):
 
 
 def harbor(m, era):
+    if era>=2:
+        # Steam docks have a grain elevator; the later port straddles the berth with a container gantry.
+        m.course("fieldstone",-.47,.04,.96,1.73,0,.14,.07)
+        with m.transform(translate=(-.10,0,-.04),rotate_y=9):
+            ship(m,.06,era)
+        if era==2:
+            hall(m,-.48,-.34,.65,.66,.62,era,.14)
+            m.entry(-.48,-.672,.24,.14,.38)
+            for cx,cz in ((-.60,.46),(-.23,.43)):
+                drum(m,"brick",cx,.137,cz,.19,1.18,.182)
+                m.hip_roof((cx,1.314,cz),.38,.38,.16,m.color("roof"),overhang=0,material="roof")
+            m.beam("metal",(-.41,1.12,.47),(.57,.68,.22),.114)
+            m.block("trim",(.56,.60,.22),(.117,.26,.138))
+            if m.lod<2:
+                for i in range(4 if m.lod==0 else 2):
+                    m.block("wall",(-.48,.63+.14*i,.26),(.16,.044,.087))
+                for x in (-.60,-.23):
+                    for y in ((.34,.69,1.05) if m.lod==0 else (.69,)):
+                        drum(m,"metal",x,y,.46 if x==-.60 else .43,.196,.036,.194)
+                glazed(m,-.68,.50,-.672,.12,.13,2)
+            flag(m,-.72,.14,-.58,.72,.16)
+        else:
+            for x in (-.53,.78):
+                for z in (-.29,.43):
+                    if m.lod<2:
+                        m.block("fieldstone",(x,.10,z),(.24,.20,.27))
+                    m.beam("metal",(x,.16 if m.lod<2 else .016,z),(x*.90,1.14,z),.095)
+                m.block("roof",(x*.90,1.14,.07),(.14,.13,.92))
+            for z in (-.29,.43):
+                m.block("accent",(.12,1.25,z),(1.49,.16,.103))
+            m.block("glass",(.33,1.369,.072),(.31,.24,.81))
+            m.beam("trim",(.34,1.28,-.17),(.34,.77,-.17),.034)
+            m.block("banner",(.34,.68,-.17),(.31,.18,.19))
+            hall(m,-.48,-.59,.61,.39,.44,era,.14)
+            m.entry(-.50,-.792,.22,.14,.26)
+            if m.lod<2:
+                for x in (-.53,.78):
+                    m.beam("metal",(x,.21,-.29),(x*.90,1.10,.43),.043)
+                for z in (-.29,.43):
+                    bays=5 if m.lod==0 else 1
+                    for j in range(bays):
+                        x=-.53+j*1.28/bays
+                        end=x+1.28/bays
+                        m.beam("trim",(x,1.16,z-.061),(end,1.32,z-.061),.025)
+                glazed(m,-.69,.33,-.79,.10,.10,2)
+            if m.lod==0:
+                for x in (-.73,-.36):
+                    for z in (.11,.41):
+                        m.block("banner",(x,.253,z),(.27,.22,.25))
+                        for side in (-1,1):
+                            m.block("metal",(x+side*.087,.254,z-.128),(.025,.224,.016))
+        return
     m.course("fieldstone",-.355,0,1.15,1.68,0,.17,.095)
     # Mooring finger extends over pile caps; vessel stays outside its edge.
     m.block("timber",(.32,.155,-.008),(.25,.087,1.67))
@@ -220,24 +273,15 @@ def harbor(m, era):
     if m.lod<2:
         m.light(-.105,.498,-.05,.125,.16,shutters=era==1)
     ship(m,.018,era)
-    # Dock cranes: guyed timber derrick, riveted rotating jib, then articulated boom.
+    # The classical dock's guyed timber derrick swings a parcel onto the quay.
     mast_x,mast_z=-.35,-.52
-    top=(.84,1.04,1.11)[era-1]
+    top=.84
     if m.lod<2:
         drum(m,"fieldstone",mast_x,.17,mast_z,.192,.131,.15)
-    pier(m,"timber" if era==1 else "metal",mast_x,mast_z,.30 if m.lod<2 else .17,top,.121)
-    if era==1:
-        m.beam("trim",(mast_x,.45,mast_z),(.24,.91,mast_z),.082)
-        m.beam("trim",(mast_x,top,mast_z),(.24,.91,mast_z),.023)
-        boom=(.24,.91,mast_z)
-    elif era==2:
-        boom=(.38,top+.07,mast_z)
-        m.beam("gold",(mast_x-.14,top-.08,mast_z),boom,.09)
-        m.beam("metal",(mast_x,top-.41,mast_z),(.32,top+.02,mast_z),.065)
-    else:
-        boom=(.39,.97,mast_z)
-        m.beam("ivory",(mast_x,top-.12,mast_z),(.047,1.261,mast_z),.133)
-        m.beam("trim",(.047,1.261,mast_z),boom,.084)
+    pier(m,"timber",mast_x,mast_z,.30 if m.lod<2 else .17,top,.121)
+    boom=(.24,.91,mast_z)
+    m.beam("trim",(mast_x,.45,mast_z),boom,.082)
+    m.beam("trim",(mast_x,top,mast_z),boom,.023)
     m.beam("trim",boom,(boom[0],.49,mast_z),.023 if m.lod<2 else .034)
     m.block("hide",(boom[0],.424,mast_z),(.134,.132,.121))
     if m.lod<2:

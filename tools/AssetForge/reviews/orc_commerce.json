@@ -268,6 +268,273 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Orc model critic, RC2 round 1",
+      "method": "Inspected saved age previews, rendered serialized LOD0, LOD1 and LOD2, and compared neutral 64px geometry at 215 and 145 degrees. Independently checked package metadata, GLB streams, exposed coplanar faces, inverted shells and repeated meshes. Compared all ordered era pairs in the 14 directed families.",
+      "models": [
+        {
+          "id": "bld_orc_airport_future_v0",
+          "evidence_sha256": "33a26fc65c4fdfa3b4cf776c7cc5a11305d0a9f370a23165db6099edaa984b58",
+          "observations": "The windsock, white aircraft nose and elevated control cab resolve separately on the dark runway. The tower remains grounded and the terminal canopy keeps its edge at LOD1. Ascension picks out the tower ring in gold.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_harbor_classical_v0",
+          "evidence_sha256": "47cd7dd97c36e14524f788b8dc12a151b4501488e28074bbc02ec3d2c978f7fa",
+          "observations": "A pitched round shed sits behind the angular hoist arm and shallow cargo boat. The stone landing has clear steps and red prow trim. The two main hoist supports and the continuous quay remain present at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_harbor_future_v0",
+          "evidence_sha256": "2cd55ba467703c7f0be745e3e6e0d29d53258b7abdebe52bf6b93d8e58060076",
+          "observations": "White and gold pier variants frame the crane. The boat, crane arm, mast, right-hand quay and rear low shed keep the industrial arrangement at both gray angles. The little crown on the shed disappears at phone scale.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 83,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the conventional hoist or quayside terminal with a clear Information-era handling system that changes the 64px profile. Keep boat and dock contact."
+          ]
+        },
+        {
+          "id": "bld_orc_harbor_industrial_v0",
+          "evidence_sha256": "ab622856056ebaff07ae33d677e6f23a747daae31daa9ad3cf964d4cd8b6789b",
+          "observations": "A flatter dock shed makes the crane stand clear above it. The dark metal boom and brick landing replace the classical pitched hut and pale masonry. The hoist still meets its posts, and the boat hull reads against the water at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_market_ancient_v0",
+          "evidence_sha256": "e1ebaefc33ddd671ecdf8b88e2299aacde39dfdec1bde0e6b2d49aca007c2c88",
+          "observations": "Woven red-and-cream stripes hang over a low timber counter of separate produce bowls. A small hide conical roof rises behind the open left side. The four corner poles and the counter survive at intermediate detail.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_market_classical_v0",
+          "evidence_sha256": "bcac3c1211d33c80d02cf2d9e8a31f036df3989caf63c4829d4e6c1df4e204f2",
+          "observations": "Thicker pale end columns and a taller, steeper tiled stockroom roof frame the stall. The red stripe and produce baskets remain clear across its three saved skins. The landing and reinforced posts stay complete in LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_market_future_v0",
+          "evidence_sha256": "200f74299abb9efe8e7d36ef6a45ea7a6aa7a936e8cf8714ecf5fb012812ecba",
+          "observations": "A high rectangular display sign breaks the left skyline over the retained trading awning. It replaces the right-side mechanical clock on the industrial market. The sign face and three bowls stay attached in the intermediate mesh.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_market_industrial_v0",
+          "evidence_sha256": "6e1d9040448f0db9cd353b47ad688e9e31a9e49181ef4a2770bcf5219a22857d",
+          "observations": "A tall clock case on the right and a slender flag on the left lift the skyline above the striped counter. The broad dark shed behind them is lower than the classical stockroom. In gray the clock remains well above the canopy.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_rail_station_future_v0",
+          "evidence_sha256": "d32646b785f76f9f9675fdf7c83836d4806f2259337917f49660b31d5573a61d",
+          "observations": "The rounded twin bodies and broad overhead teal canopy run lengthwise above two anchored piers. The elevated track line clearly separates this station from the previous ground track. LOD1 keeps the supports and clearance.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_rail_station_industrial_v0",
+          "evidence_sha256": "aa287592bf240a7dcca28256a5e0733bdf5b8dfd87eb7006203ed00705227ac4",
+          "observations": "Exposed sleepers, a small red engine, station clock and striped waiting canopy make the rail role legible. The canopy meets its posts and the engine remains on the track in all three levels. The modern skin keeps the rails distinct from the platform.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_orc_harbor_future_v0",
+          "evidence_sha256": "7a5ac550a8d8fcdf650bdc23645e0aa66c06ea1574dff1ed48b8b96a8ea567e5",
+          "observations": "Four legs straddle the moored boat and quay, with a wide transverse carrier above the cargo. The gantry changes the neutral profile of the former single hoist. The pillars remain founded on the dock and channel pads at LOD1, and the hull stays alongside the quay.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            936,
+            513,
+            278
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_orc_harbor_classical_v0",
+          "evidence_sha256": "3c143cb829a3840ca1a31f61883b5568cbee3f69a5613401d3279ec8a56084fb",
+          "observations": "The cargo hoist still meets its two bearings, the hull remains alongside the quay, and the small terminal keeps its walls and roof. The middle mesh retains a clear gap under the boom.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            970,
+            551,
+            272
+          ]
+        },
+        {
+          "id": "bld_orc_harbor_industrial_v0",
+          "evidence_sha256": "aa82130a78c539e80c07ecd82854d204bc8bd19469407f1e11322b0b0897123f",
+          "observations": "The metal crane, suspended load and adjacent freight boat remain legible after the loose dock crates drop out. Both quay edges and the small terminal are complete from behind.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            980,
+            557,
+            272
+          ]
+        },
+        {
+          "id": "bld_orc_rail_station_industrial_v0",
+          "evidence_sha256": "42a73396a0579e0f170b8b87ece80f7411abfd0a79d134cb4d00c5137e359d33",
+          "observations": "The engine, tracks, brick station and awning posts remain sound. A right-hand red stripe cuts sharply across the adjacent pale fabric at LOD1. The resulting triangular colour wedge and kink span a substantial part of the canopy in both front views.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 86,
+            "charm": 95,
+            "colour": 94,
+            "technical": 88
+          },
+          "defects": [
+            "Preserve the striped awning's fabric seams and shape in the middle mesh or use a deliberately simplified continuous striped canopy."
+          ],
+          "lod_triangles": [
+            1040,
+            592,
+            266
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent visual critic, final door, canopy and grille repair review",
+      "inspection": "Reopened the authored age previews and all three serialized LODs at 64 px. Compared LOD0 and LOD1 at two 190 px front angles and at 195 px from the side and rear. Revalidated serialized metadata, triangle ratios, exposed surfaces and shell orientation at the recorded hashes.",
+      "models": [
+        {
+          "id": "bld_orc_rail_station_industrial_v0",
+          "evidence_sha256": "aaff7f7a83b3310e294725fa9d51f6540a9c27996a254c980e3cd3adfa2d31e3",
+          "observations": "The rebuilt fabric retains continuous alternating pale and red stripes from ridge to lower edge. The projecting canopy remains attached to its posts, with the station wall, roof and train distinct from both side and rear.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 92,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1040,
+            554,
+            266
+          ]
+        }
+      ]
     }
   ]
 }

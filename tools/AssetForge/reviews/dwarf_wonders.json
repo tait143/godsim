@@ -44,6 +44,58 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_deep_forge_ancient_v0",
+          "evidence_sha256": "d76236a6b63b220f48b865698a006e93c04a684146a9debc05a6012b398a4d24",
+          "observations": "Two unequal chimney stacks, rocky shoulders and a glowing furnace channel make the Deep Forge readable across all nine age previews at 64 px. The middle mesh keeps the rock-supported entrance arch, barred furnace and two chimney throats. The smaller side gate gives the workers an access point beside the tap.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 93,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1465,
+            835,
+            411
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_deep_forge_ancient_v0",
+          "evidence_sha256": "7969a91c74c1b3b1aac68ce5e045a1a49c2b307827f577d54ef72cd8790d9ede",
+          "observations": "The rocky supports enclose the furnace and two open stacks continue to project above the roof. The barred furnace, tapping channel and separate worker door stay visible in the middle mesh.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 93,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1465,
+            835,
+            411
+          ]
+        }
+      ]
     }
   ]
 }

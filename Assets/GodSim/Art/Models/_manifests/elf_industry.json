@@ -416,25 +416,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 830,
+  "triangles": 1326,
   "lod_triangles": [
-   830,
-   418,
-   200
+   1326,
+   754,
+   345
   ],
   "bounds": [
    [
-    -1.0984795093536377,
+    -1.284999966621399,
     0.0,
-    -0.8862898945808411
+    -0.7145000100135803
    ],
    [
-    1.0984795093536377,
-    1.5204952955245972,
-    0.8933207988739014
+    1.284999966621399,
+    1.2914999723434448,
+    0.8953816890716553
    ]
   ],
-  "bytes": 136140,
+  "bytes": 212172,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_factory_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_factory_future_v0.png",
@@ -504,25 +504,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1492,
+  "triangles": 898,
   "lod_triangles": [
-   1492,
-   910,
-   390
+   898,
+   510,
+   266
   ],
   "bounds": [
    [
-    -1.0578213930130005,
+    -1.0318753719329834,
     0.0,
-    -0.8845000267028809
+    -0.6132699847221375
    ],
    [
-    0.8810955286026001,
-    1.8761999607086182,
-    0.833332359790802
+    1.0609999895095825,
+    0.9837135076522827,
+    0.9893704056739807
    ]
   ],
-  "bytes": 258956,
+  "bytes": 158032,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_foundry_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_foundry_future_v0.png",
@@ -551,7 +551,7 @@
   "triangles": 1492,
   "lod_triangles": [
    1492,
-   910,
+   850,
    390
   ],
   "bounds": [
@@ -566,7 +566,7 @@
     0.833332359790802
    ]
   ],
-  "bytes": 258896,
+  "bytes": 254440,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_foundry_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_foundry_industrial_v0.png",
@@ -773,7 +773,7 @@
   "triangles": 903,
   "lod_triangles": [
    903,
-   543,
+   513,
    219
   ],
   "bounds": [
@@ -788,7 +788,7 @@
     0.42621999979019165
    ]
   ],
-  "bytes": 155708,
+  "bytes": 153608,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_weaver_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_ancient_v0.png",
@@ -815,25 +815,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1045,
+  "triangles": 939,
   "lod_triangles": [
-   1045,
-   647,
-   280
+   939,
+   535,
+   288
   ],
   "bounds": [
    [
-    -0.35474610328674316,
+    -0.4619498550891876,
     0.0,
-    -0.2985900044441223
+    -0.41585296392440796
    ],
    [
-    0.41499999165534973,
-    0.7996547222137451,
-    0.42621999979019165
+    0.4619498550891876,
+    0.4319998323917389,
+    0.41585296392440796
    ]
   ],
-  "bytes": 177448,
+  "bytes": 170204,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_weaver_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_classical_v0.png",
@@ -860,25 +860,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1069,
+  "triangles": 866,
   "lod_triangles": [
-   1069,
-   655,
-   288
+   866,
+   506,
+   229
   ],
   "bounds": [
    [
-    -0.35474610328674316,
+    -0.4346947968006134,
     0.0,
-    -0.2985900044441223
+    -0.169434055685997
    ],
    [
-    0.43700000643730164,
-    0.9077039361000061,
-    0.42621999979019165
+    0.465092271566391,
+    1.0181891918182373,
+    0.3505442142486572
    ]
   ],
-  "bytes": 181992,
+  "bytes": 153752,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_weaver_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_future_v0.png",
@@ -904,25 +904,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1045,
+  "triangles": 1238,
   "lod_triangles": [
-   1045,
-   647,
-   280
+   1238,
+   730,
+   344
   ],
   "bounds": [
    [
-    -0.35474610328674316,
+    -0.46799999475479126,
     0.0,
-    -0.2985900044441223
+    -0.289000004529953
    ],
    [
-    0.4259999990463257,
-    0.853679358959198,
-    0.42621999979019165
+    0.46799999475479126,
+    0.6704800128936768,
+    0.3384999930858612
    ]
   ],
-  "bytes": 177524,
+  "bytes": 197808,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_weaver_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_weaver_industrial_v0.png",
@@ -952,7 +952,7 @@
   "triangles": 1088,
   "lod_triangles": [
    1088,
-   658,
+   620,
    263
   ],
   "bounds": [
@@ -967,7 +967,7 @@
     0.6563299894332886
    ]
   ],
-  "bytes": 176096,
+  "bytes": 173948,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_workshop_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_workshop_classical_v0.png",
@@ -994,25 +994,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1156,
+  "triangles": 1460,
   "lod_triangles": [
-   1156,
-   702,
-   289
+   1460,
+   832,
+   461
   ],
   "bounds": [
    [
-    -0.6982467770576477,
+    -0.890999972820282,
     0.0,
-    -0.526820719242096
+    -0.6085000038146973
    ],
    [
-    0.6640355587005615,
-    1.1375397443771362,
-    0.6563299894332886
+    0.9049999713897705,
+    1.2400000095367432,
+    0.5929999947547913
    ]
   ],
-  "bytes": 185680,
+  "bytes": 238412,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_workshop_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_workshop_industrial_v0.png",

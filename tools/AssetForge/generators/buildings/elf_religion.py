@@ -5,6 +5,8 @@ import sys
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
 from generators.buildings.elf_food import Grove, TAU, publish_package
+from generators.buildings.elf_learninghealth import Grove as WardGrove, WHITE
+from generators.buildings.elf_institution_forms import arch_rib, deck, drum, pod, stair, vault
 
 PACKAGE="elf_religion"
 
@@ -224,7 +226,150 @@ def cloister(m):
         offering(m,.169,.062,-.075,.59)
 
 
+class Sanctuary(WardGrove):
+    def face(self, role, points):
+        self.poly(points,WHITE,role)
+
+
+def votive(m,x,y,z,r):
+    drum(m,x,z,r,r*.92,[(y,.65,"wall"),(y+.47*r,1,"accent"),
+                          (y+.75*r,.69,"emissive"),(y+1.23*r,.18,"emissive")])
+
+
+def moon_shrine(m):
+    if m.era==1:
+        # Narrow steps from an elongated stone processional plinth lead into the empty niche.
+        deck(m,-.04,0,.04,.47,.80,.145)
+        stair(m,-.04,-.65,.12,.32,.24,.056)
+        for z in (.19,.41):
+            arch_rib(m,-.06,.14,z,.34,.77,role="wall",lean=.04,width=.089)
+        drum(m,-.06,.25,.16,.16,[(.14,.92,"wall"),(.26,.78,"trim"),(.33,1.08,"wall")])
+        crescent(m,-.06,.54,.19,.22,turn=-14)
+        for side in (-1,1):
+            votive(m,-.04+.31*side,.116,-.16,.092)
+    elif m.era==2:
+        # A four-sided cast lantern stands above a separate congregation terrace.
+        x,z=-.23,.22
+        drum(m,x,z,.34,.31,[(0,.92,"brick"),(.15,1,"accent"),(.22,.79,"brick"),
+                             (.57,.68,"wall"),(.64,1.04,"trim")])
+        for i in range(4):
+            a=TAU*(i+.5)/4
+            u,v=x+.24*math.cos(a),z+.22*math.sin(a)
+            m.stem([(u,.63,v),(u,1.12,v),(x+.20*math.cos(a),1.31,z+.18*math.sin(a))],
+                   [.052,.034,.049],"metal")
+        crescent(m,x,.94,z,.214,turn=-21)
+        m.stem([(x,.62,z),(x,.68,z),(x+.006,.76,z)],
+               [.054,.039,.023],"accent",sides=(8,5,3)[m.lod])
+        if m.lod<2:
+            for side in ((-1,1) if m.lod==0 else (1,)):
+                m.bar((x+.14*side,1.045,z+.05*side),(x+.15*side,1.30,z+.05*side),.015,"metal")
+        drum(m,x,z,.31,.29,[(1.27,.97,"metal"),(1.32,1.09,"trim"),(1.46,.42,"roof"),
+                              (1.54,.13,"accent")])
+        deck(m,.26,0,-.34,.46,.37,.135)
+        stair(m,.26,-.69,.06,.28,.14,.048,steps=2)
+        votive(m,.51,.13,-.22,.11)
+    else:
+        deck(m,0,0,.05,.64,.61,.14,"ivory")
+        for side in (-1,1):
+            # An off-axis tapered arm on each side makes an open vesica around the crescent.
+            m.stem([(side*.22,.12,.17),(side*.57,.49,.19),(side*.59,.91,.19),
+                    (side*.39,1.19,.18),(side*.29,1.28,.15)],
+                   [.153,.142,.091,.046,.014],"ivory")
+            m.leaf((side*.54,.57,.19),(side*.39,1.23,.18),.145,"glass")
+        drum(m,0,.15,.105,.11,[(.12,1,"trim"),(.31,.75,"ivory"),(.59,.32,"accent")])
+        crescent(m,0,.86,.15,.31,turn=-13)
+        stair(m,0,-.59,.08,.37,.19,.055,steps=2)
+        if m.lod<2:
+            for x in ((-.33,.33) if m.lod==0 else (.33,)):
+                votive(m,x,.12,-.22,.067)
+
+
+def processional_temple(m):
+    if m.era==1:
+        deck(m,0,0,.37,.61,.43,.27)
+        with m.transform(translate=(0,.24,0)):
+            m.hall(0,.39,.42,.33,.52,.39,small=True)
+        for side in (-1,1):
+            x=.46*side
+            for z in (-.59,-.21,.14):
+                drum(m,x,z,.095,.091,[(0,1,"fieldstone"),(.081,1.08,"trim"),(.13,.69,"wall"),
+                                        (.55,.55,"wall"),(.61,1.10,"accent")])
+            deck(m,x,.58,-.21,.119,.57,.102,"wall")
+        stair(m,0,-.66,.16,.31,.23,.072)
+        crescent(m,0,1.32,.42,.145,turn=-12)
+    elif m.era==2:
+        vault(m,0,.08,.41,.64,.89,.46)
+        for side in (-1,1):
+            vault(m,side*.51,.16,.23,.48,.33,.19,door=False,ribs=False)
+            if m.lod<2:
+                votive(m,side*.47,.11,-.45,.095)
+        deck(m,0,0,-.57,.65,.35,.12)
+        stair(m,0,-.80,.08,.34,.15,.042)
+        with m.transform(translate=(0,.69,-.568),rotate_x=-90):
+            drum(m,0,0,.159,.159,[(0,1,"trim"),(.031,.96,"accent"),(.052,.73,"glass")])
+        drum(m,0,.11,.064,.060,[(1.32,1,"metal"),(1.43,.68,"trim")])
+        crescent(m,0,1.57,.11,.162,turn=-14)
+    else:
+        for x,z,b,h,r in ((-.46,.22,.44,.47,.34),(.44,.33,.59,.49,.34)):
+            side=1 if x>0 else -1
+            pod(m,x,z,r,.41,b,h)
+            # Great curving shell vaults sweep up on the outside of the prayer chambers.
+            m.stem([(x,b+h-.10,z+.04),(x+side*.16,b+h+.17,z+.11),
+                    (x+side*.22,b+h+.46,z+.14),(x+side*.16,b+h+.62,z+.16)],
+                   [.151,.129,.067,.016],"ivory")
+            m.leaf((x-side*.25,b+h-.13,z-.10),(x+side*.17,b+h+.58,z+.16),.244,"glass")
+        arch_rib(m,0,0,.30,.48,.82,role="ivory",width=.10)
+        vault(m,-.01,.27,.13,.37,.12,.16,base=.76,turn=83,roof="glass",door=False,ribs=False)
+        deck(m,0,0,-.29,.71,.50,.13,"ivory")
+        drum(m,0,-.23,.19,.16,[(.126,1,"wall"),(.24,.69,"trim"),(.33,.78,"ivory")])
+        crescent(m,0,.59,-.23,.264,turn=-18)
+        if m.lod<2:
+            for x in (-.43,.43):
+                votive(m,x,.12,-.52,.083)
+
+
+def garden(m,x,y,z,r):
+    deck(m,x,y,z,r,r*.85,.117,"grass")
+    for j in range((5,3,2)[m.lod]):
+        a=j*TAU/5
+        m.leaf((x,y+.102,z),(x+.68*r*math.cos(a),y+.17+.07*(j%2),z+.65*r*math.sin(a)),
+               r*.18,"leaf")
+    votive(m,x+.07*r,y+.114,z,.067)
+
+
+def cloister_campus(m):
+    if m.era==2:
+        vault(m,-.35,.31,.31,.46,.74,.34)
+        crescent(m,-.35,1.22,.33,.15,turn=-18)
+        # Open gallery down the garden's east boundary, chapel at its northern end.
+        for z in (-.44,-.04,.39):
+            arch_rib(m,.44,0,z,.22,.49,role="wall",width=.055)
+        vault(m,.44,.02,.245,.60,.065,.14,base=.45,door=False,ribs=False)
+        vault(m,-.26,-.52,.22,.22,.335,.18,ribs=False)
+        stair(m,-.26,-.83,.085,.23,.13,.057)
+        garden(m,.05,0,-.17,.23)
+    else:
+        # Prayer garden terraces climb the hill opposite a single chapel on pilotis.
+        for x,z,r,h in ((.43,-.36,.38,.17),(.39,.08,.33,.53),(.33,.42,.30,.89)):
+            drum(m,x,z,r*.50,r*.49,[(0,1,"wall"),(.72*h,.78,"ivory"),(h,1.32,"trim")])
+            garden(m,x,h-.005,z,r)
+        pod(m,-.39,.25,.38,.39,.77,.51)
+        m.hood(-.39,1.25,.25,.34,.36,.30,"glass",small=True)
+        crescent(m,-.34,1.63,.29,.12,turn=-13)
+        arch_rib(m,-.02,.02,.26,.40,.65,role="ivory",width=.082)
+        deck(m,-.02,.64,.28,.47,.13,.107,"ivory")
+
+
 def build(spec,lod):
+    orders={"Shrine":(1,moon_shrine),"Temple":(1,processional_temple),"Monastery":(2,cloister_campus)}
+    if spec.building_type in orders:
+        threshold,draw=orders[spec.building_type]
+        m=Sanctuary(spec,lod)
+        if m.era>=threshold:
+            w,d=spec.footprint
+            with m.transform(scale=(w*.49,min(w,d)*.47+.10,d*.49)):
+                draw(m)
+            return m
     m=Grove(spec,lod)
     {"SpiritTotem":totem,"Shrine":shrine,"Temple":temple,"Cathedral":cathedral,
      "Monastery":cloister}[spec.building_type](m)

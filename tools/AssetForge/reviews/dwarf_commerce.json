@@ -317,6 +317,96 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_airport_future_v0",
+          "evidence_sha256": "511fc01340a555f19f557eee66e6ab0da747bd46d7dcc5dd103c0d7a72184245",
+          "observations": "The aircraft has a readable wing and tail on the apron beside a much taller control tower. The blue windows and the two dark roof vents separate from the ivory terminal. At LOD1 the canopy, tower drum and paved approach still meet cleanly.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1200,
+            684,
+            308
+          ]
+        },
+        {
+          "id": "bld_dwarf_rail_station_future_v0",
+          "evidence_sha256": "71ed0484dd7af07fdc55de8183379c3c0dea2a220bc068c0d970d3feff22196b",
+          "observations": "The capsule train sits on its own strip of rail alongside a low platform. The station has a broad projecting canopy and deeply inset bright roof light distinct from the clock-and-locomotive station. LOD1 keeps the canopy posts and the boarding space.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            676,
+            384,
+            188
+          ]
+        },
+        {
+          "id": "bld_dwarf_rail_station_industrial_v0",
+          "evidence_sha256": "d419567bd9ebaa0f74e5cc389ae082a270ce69aab971346a0a3e6425c7086585",
+          "observations": "The clock case breaks the ridge above the platform and the round locomotive boiler projects well forward. Removing the small station furniture at LOD1 leaves the supported awning and a clear route from train to building.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 92,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1214,
+            690,
+            281
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_rail_station_future_v0",
+          "evidence_sha256": "5332f0580f3655f898f8d1dcfd7367a6230af4393da0f75f0f47a28e558dab68",
+          "observations": "The raised blue roof rim, glazed station shell and boarding posts remain continuous at the middle distance. The train still occupies its own rail bed beside the platform.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            676,
+            384,
+            188
+          ]
+        }
+      ]
     }
   ]
 }

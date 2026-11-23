@@ -177,6 +177,8 @@ def baths(m):
 
 def herbs(m):
     e=m.era
+    if e:
+        return (apothecary_court,still_house,culture_pods)[e-1](m)
     h=(.42,.55,.61,.64)[e]
     # Stepped apothecary with an open mortar, pestle and a public physic garden.
     m.hall(-.24,.17,1.06,1.06,h)
@@ -194,6 +196,77 @@ def herbs(m):
         m.foliate(.59,0,.48,.166)
     if m.lod==0:
         m.rune(-.24,h+.135,-.245,.105)
+
+
+def apothecary_court(m):
+    m.slab("fieldstone",0,.005,1.80,1.64,0,.104,.15)
+    # A covered herb-drying walk faces an enclosed garden. Its open front lets air through the racks.
+    m.slab("wall",-.13,.576,1.36,.26,.099,.594,.045)
+    for x in (-.678,-.12,.426):
+        m.drum("fieldstone",x,.102,.087,.095,.098,.077,n=7)
+        m.drum("plaster",x,.196,.087,.062,.411,.055,n=7)
+    m.hip_roof((-.12,.592,.333),1.49,.77,.354,m.color("roof_tile"),material="roof_tile",overhang=.04)
+    for x in (-.748,.706):
+        m.slab("wall",x,-.247,.198,.86,.104,.30,.05)
+    m.slab("wall",.437,-.649,.58,.184,.102,.332,.055)
+    for x,z,r in ((-.42,-.293,.173),(.06,-.378,.16),(.46,-.196,.135))[:1 if m.lod==2 else 3]:
+        m.foliate(x,.105,z,r)
+    if m.lod<2:
+        m.drum("fieldstone",-.533,.103,-.612,.128,.154,.155)
+        m.drum("leaf",-.533,.25,-.612,.106,.012)
+        m.beam("timber",(-.55,.254,-.611),(-.423,.419,-.55),.031)
+    if m.lod==0:
+        for x in (-.49,-.29,.10,.30):
+            m.beam("trim",(x,.589,.36),(x,.383,.325),.024)
+            m.drum("leaf",x,.331,.326,.054,.098,.031,n=7)
+
+
+def still_house(m):
+    m.slab("fieldstone",0,.01,1.84,1.61,0,.114,.13)
+    m.hall(-.38,.361,.77,.69,.488,wall="brick",cap="slate")
+    m.wedge((-.38,.584,.36),.81,.72,.225,m.color("roof"),material="roof")
+    # A heated copper alembic leads into a tall water-jacketed condenser.
+    m.drum("brick",.04,.109,-.383,.269,.231,.248)
+    m.drum("accent",.04,.336,-.383,.229,.213,.288)
+    m.drum("gold",.04,.546,-.383,.291,.232,.097)
+    m.drum("metal",.04,.774,-.383,.074,.164)
+    m.drum("trim",.579,.112,.12,.24,.128,.196)
+    m.drum("metal",.579,.235,.12,.188,.794,.176)
+    m.drum("accent",.579,1.023,.12,.202,.106,.123)
+    m.beam("gold",(.04,.911,-.383),(.579,1.043,.12),.055)
+    if m.lod<2:
+        m.foliate(-.55,.116,-.396,.179)
+        for y in ((.402,.581,.760,.939) if m.lod==0 else (.457,.813)):
+            m.drum("gold",.579,y,.12,.195,.044)
+    if m.lod==0:
+        m.drum("metal",.519,.113,-.485,.105,.166,.119)
+        m.beam("gold",(.543,.369,-.045),(.522,.288,-.468),.046)
+
+
+def culture_pods(m):
+    m.slab("wall",0,.01,1.83,1.66,0,.144,.18)
+    # Two transparent plant cultures on raised vessels supply the dispensing counter.
+    for x,z,r,h in ((-.446,.26,.352,.648),(.381,.42,.277,.456)):
+        m.drum("metal",x,.14,z,r,.148,r*.92)
+        m.drum("glass",x,.283,z,r*.90,h,r*.84)
+        m.crown("glass",x,.280+h,z,r*.86,.67)
+        m.drum("ivory",x,.252,z,r*1.01,.084)
+        if m.lod<2:
+            for s in (-1,1):
+                m.beam("ivory",(x+s*r*.85,.298,z),(x+s*r*.79,.27+h,z),.041)
+    m.slab("ivory",.145,-.387,.96,.543,.14,.406,.112)
+    m.slab("glass",.145,-.391,.89,.518,.403,.548,.119)
+    m.slab("trim",.145,-.399,1.02,.583,.544,.618,.118)
+    m.portal(.146,.145,-.661,.32,.33)
+    # A public herb bed is visible from the dispensing door, below the culture pods.
+    m.foliate(-.58,.144,-.464,.239)
+    if m.lod<2:
+        m.foliate(.405,.618,-.39,.145)
+    if m.lod<2:
+        m.beam("metal",(-.43,.279,.075),(-.185,.298,-.321),.098)
+    if m.lod==0:
+        for x,z,r,h in ((-.446,.26,.352,.648),(.381,.42,.277,.456)):
+            m.drum("gold",x,h+.245,z,r*.88,.052)
 
 
 def trauma_center(m):
@@ -287,6 +360,10 @@ def writing_desk(m):
 
 def reading(m,scriptorium=False):
     e=m.era
+    if scriptorium and e==1:
+        return writing_cloister(m)
+    if not scriptorium and e==3:
+        return radial_archive(m)
     h=(.43,.55,.62,.67)[e]
     if scriptorium:
         m.hall(0,.065,1.64,1.15,h)
@@ -324,6 +401,61 @@ def reading(m,scriptorium=False):
                 m.book(x,.43,-.68,.30)
     if m.lod==0:
         m.rune(0,h-.042,-(.515 if scriptorium else .606),.087)
+
+
+def writing_cloister(m):
+    m.slab("fieldstone",-.01,.005,1.84,1.68,0,.112,.14)
+    # Two writing rooms flank a higher north-light arcade. Desks face the open court.
+    for x,h in ((-.606,.52),(.574,.706)):
+        m.slab("wall",x,.015,.422,1.16,.107,h,.062)
+        m.vault(x,.011,.475,1.23,h-.008,.20,"roof_tile","slate",(6,4,2)[m.lod])
+        m.portal(x,.114,-.568,.26,h*.61)
+    for x in (-.316,.257):
+        m.drum("plaster",x,.111,.371,.078,.804,.061,n=(9,7,4)[m.lod])
+    m.slab("trim",-.029,.379,.91,.316,.911,1.008,.053)
+    m.hip_roof((-.029,1.004,.38),1.08,.472,.19,m.color("roof_tile"),overhang=.022,material="roof_tile")
+    for x,z in ((-.185,-.248),(.198,.117)):
+        m.block("timber",(x,.228,z),(.321,.233,.212),taper=.16)
+        m.book(x,.343,z,.382)
+    if m.lod<2:
+        m.plaque("banner",.575,.551,-.574,.128,.110)
+    if m.lod==0:
+        for x,z in ((-.185,-.248),(.198,.117)):
+            m.block("accent",(x,.211,z-.112),(.206,.034,.039))
+            m.drum("trim",x+.119,.341,z+.109,.031,.053,n=7)
+            m.beam("gold",(x+.119,.387,z+.109),(x+.190,.555,z+.146),.018)
+        for x in (-.316,.257):
+            m.drum("fieldstone",x,.112,.371,.111,.110,.085,n=8)
+            m.drum("accent",x,.850,.371,.09,.065,.109,n=8)
+        m.rune(-.030,.963,.214,.13)
+
+
+def radial_archive(m):
+    m.slab("fieldstone",0,0,1.81,1.70,0,.121,.24)
+    # Reading floor at the centre; radial book stacks make a horseshoe of terraced wings.
+    m.drum("trim",0,.116,-.077,.333,.067,.315)
+    m.drum("plaster",0,.179,-.077,.242,.104,.28)
+    m.book(0,.278,-.077,.46)
+    for angle,height in ((-70,.51),(-36,.75),(0,.98),(36,.75),(70,.51)):
+        a=math.radians(angle)
+        x,z=.679*math.sin(a),-.109+.688*math.cos(a)
+        with m.transform(translate=(x,0,z),rotate_y=angle):
+            m.slab("wall",0,.036,.32,.481,.118,height,.05,.018)
+            m.slab("glass",0,.036,.299,.45,height-.004,height+.082,.052)
+            m.slab("ivory",0,.035,.374,.52,height+.076,height+.156,.055,.026)
+            if m.lod<2:
+                m.plaque("door",0,height*.59,-.207,.219,height*.47)
+                if m.lod==1:
+                    for y in (.41,.68):
+                        m.block("gold",(0,height*y,-.210),(.196,.022,.028))
+            if m.lod==0:
+                for y in (.37,.55,.73):
+                    m.block("gold",(0,height*y,-.210),(.196,.019,.028))
+                    for k in (-1,0,1):
+                        m.block("banner" if k==0 else "ivory",(k*.052,height*y+.043,-.209),(.028,.064,.023))
+    if m.lod<2:
+        m.slab("slate",0,-.562,.58,.28,.121,.193,.066)
+        m.book(0,.189,-.562,.315)
 
 
 def academy(m):

@@ -367,6 +367,240 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Orc model critic, RC2 round 1",
+      "method": "Inspected saved age previews, rendered serialized LOD0, LOD1 and LOD2, and compared neutral 64px geometry at 215 and 145 degrees. Independently checked package metadata, GLB streams, exposed coplanar faces, inverted shells and repeated meshes. Compared all ordered era pairs in the 14 directed families.",
+      "models": [
+        {
+          "id": "bld_orc_cathedral_future_v0",
+          "evidence_sha256": "5319ca3e1d87efe071613b67e761a27d4916e6a16a8d4131b3bfc3f5dcd4a1b0",
+          "observations": "Bright blue wall drums and a cyan ridge lantern distinguish the paint. In neutral gray the paired turrets, gabled nave, flanking steps and tiny roof lantern retain the industrial design at both yaws. LOD1 preserves the roof and entry.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 77,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Give the future cathedral a distinct nave or worship-space roofline and retain the tusked entrance. A different lantern colour cannot resolve the repeated outline."
+          ]
+        },
+        {
+          "id": "bld_orc_cathedral_industrial_v0",
+          "evidence_sha256": "8671b0c619f21e5694b0e965e91473452531d9ad35ab4b947bfbcc095c508db5",
+          "observations": "The new central roof lantern between the corner turrets gives the brick version a third vertical marker against the black roof. The broad entry stair stays legible below the low red lintel. Both gables meet the tower bases at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 90,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_monastery_classical_v0",
+          "evidence_sha256": "71782cf00203b09f12253e81ea433ec195adc572febd5222ccb0eca27d20cc01",
+          "observations": "Low tiled cloister wings surround a planted square. The paired red gate posts open onto the court and the gold devotional disc. The enclosure, inner opening and entry remain on all three meshes.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_monastery_future_v0",
+          "evidence_sha256": "9236a113274ffd865000db58cb13bf5002e4d991fa8e40cd9da7f285919ebd44",
+          "observations": "A freestanding light arch suspends a large gold gong in front of a cluster of turquoise domes. The two arch feet, foreground offering basin and four rounded volumes give a distinctive composition in gray. The gong stays visibly under the arch at LOD1.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_monastery_industrial_v0",
+          "evidence_sha256": "06303a9078a7075e970fcdab79aaf8532f56407fc8e50441d2cd72229f51f5a9",
+          "observations": "The narrow capped bell tower rises at the corner of a brick enclosure attached to a gabled wing. A bright offering basin occupies its grass court. Solid tower-to-ground contact and an open forecourt persist at both lower levels.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_shrine_classical_v0",
+          "evidence_sha256": "133f7237bbdf56e2d202c2be1054fe0b12bf6c6e91594061efe14eb6b66066c1",
+          "observations": "The thick arch encloses a small suspended red devotional piece over an open platform. Its side horns and the separate bright offering dish retain the Orc shrine identity. The opening reads against the rear wall in the reduced meshes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_shrine_future_v0",
+          "evidence_sha256": "b7ddfaadf43bfcfb83930456fb665523f1e40897b0b01e9a38912ffd2f525ee5",
+          "observations": "Two rising ivory tusks cradle a tall turquoise crystal with an inset devotional mask. The two gaps beside the crystal remain distinct in gray. The separate basin and weight-bearing outer feet keep their placement at LOD1.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_shrine_industrial_v0",
+          "evidence_sha256": "554d225e327750f1cc50b5a4c98aff768277a0dac50314697f28e79491f5cb88",
+          "observations": "Unequal brick stacks flank a low supported metal canopy over the horned emblem. The separate offering bowl gives the workshop-like structure a ceremonial use. Both inclined posts and the two caps stay in place in LOD1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_temple_classical_v0",
+          "evidence_sha256": "41ba83f3c674185654928150913e7d6f1cdb09a6dafa88d143535ea2f1593359",
+          "observations": "Three broad stone tiers and a long front stair lift the square sanctuary above its flanking offering bowls. The horned red entry stays framed by the deep tiled roof at phone scale. LOD1 retains the complete stair and both sides of the plinth.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_temple_future_v0",
+          "evidence_sha256": "ae31d027ebed539f8e54b98f9834795d39f3f2fb80af65237e13de5d82b24189",
+          "observations": "A tall glass cone rises above a circular projecting ring and outward-sloping buttresses. The red tusked door keeps the front distinct from the pale supports. Its cone, ring and low solid base remain connected in both lower meshes.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_temple_industrial_v0",
+          "evidence_sha256": "4df9aa6defbae438d92338bbbcb0bf88b051cd8f931cbad6a207ec8e17c90c9c",
+          "observations": "The side wing and its low roof cross a longer sanctuary beneath an offset bell tower. In gray this T-shaped volume is distinct from the stepped classical block. The bell opening, entrance and roof junction stay legible at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_orc_cathedral_future_v0",
+          "evidence_sha256": "a3a613f7c53f908694c7933bedb5038426661abdbc4cb22e6711a395267e8cbf",
+          "observations": "Tall parallel arch ribs form an open nave leading to a pointed apse. Paired ivory tusks mark the entry and several ribs remain visible from the side at phone scale. The LOD1 arch feet and rear shell stay on their foundations. This outline differs clearly from the earlier twin-tower cathedrals.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1488,
+            788,
+            373
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_orc_monastery_classical_v0",
+          "evidence_sha256": "c1c7ef7878f5b437ea75f06a3084c305ff6ccef04aa59fa7ca6e703c0e227b28",
+          "observations": "The low courtyard ranges retain complete roof pitches and enclosing back walls. The double-posted entrance and internal garden remain open and visible.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            664,
+            377,
+            199
+          ]
+        },
+        {
+          "id": "bld_orc_temple_classical_v0",
+          "evidence_sha256": "9226c04c01bdedcbcefd17753ec017d12e8157de06cfbeb45634827dd17a17d4",
+          "observations": "The high temple roof, raised sanctuary and ceremonial horns remain above full-width front steps. Both sloping side tiers retain their top and back faces.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            696,
+            396,
+            182
+          ]
+        }
+      ]
     }
   ]
 }

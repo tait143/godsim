@@ -204,6 +204,115 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_classical_medieval_v1",
+          "evidence_sha256": "b7f2682585a332e697b4d67d4be4dd967f569d6a2747e17be603eaefea5b4e64",
+          "observations": "Front crenellations interrupt the barrel roof and a chimney stands behind them. The smaller side room keeps the footprint asymmetric. At LOD1 the facing, side vault and entry steps all stay attached to the main wall.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            599,
+            340,
+            192
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_v0",
+          "evidence_sha256": "42f3b55a72c758a7190d00e06c128e25691a7b737d95d53ed9f86111c08ec178",
+          "observations": "The projecting red hip roof and smaller tiled porch provide two clear tiers above the pale masonry. LOD1 retains the porch posts, door reveal and stair without thin gaps at the eaves.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            403,
+            228,
+            122
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_v1",
+          "evidence_sha256": "a473274667350d3b2a1998aafe1a98de0524710947d56d38b3b67e857d220b61",
+          "observations": "The main barrel roof, small round side chamber and pitched portico form three distinct masses. The warm tile remains separated from the pale walls, and both porch columns and the stairs stay visible at the middle level.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            457,
+            260,
+            144
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_classical_medieval_v1",
+          "evidence_sha256": "9be4e89f015437ef6b910cef4b084dede9f0ee23067b321ea1f8e440bba65445",
+          "observations": "The slate vault keeps its crenellated parapet, attached wing and full rear wall. The short entry stair remains underneath a complete door and lintel.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            599,
+            340,
+            192
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_v1",
+          "evidence_sha256": "f71eba4796e441f3ce4e220f556582ca64a74f8dde8bfa9e0e22f5c3b719e67b",
+          "observations": "The barrel roof and small pitched portico retain complete facings. The steps, two porch columns and circular side room remain recognizable at phone scale.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            457,
+            260,
+            144
+          ]
+        }
+      ]
     }
   ]
 }

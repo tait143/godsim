@@ -276,6 +276,142 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Orc model critic, RC2 round 1",
+      "method": "Inspected saved age previews, rendered serialized LOD0, LOD1 and LOD2, and compared neutral 64px geometry at 215 and 145 degrees. Independently checked package metadata, GLB streams, exposed coplanar faces, inverted shells and repeated meshes. Compared all ordered era pairs in the 14 directed families.",
+      "models": [
+        {
+          "id": "bld_orc_stone_wall_industrial_v0",
+          "evidence_sha256": "9452d85427c377bf1890dcc69852c91b1f682a404112f86893639049c5adfed6",
+          "observations": "Paired raised capstones with upward tusks break the previously flat flanks of the battlement. A bright band crosses above the reinforced central gate. The widened capstones, gate cheeks and wall remain intact at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_watchtower_ancient_v0",
+          "evidence_sha256": "23fdcc60db07f4ea75ad6f41358f383affceddbaae6222a61273e0279e730330",
+          "observations": "Four splayed timber legs and an external ladder hold up the red-banded lookout. The negative space beneath the platform separates this tower from the later solid shafts. The ladder and major feet are still visible at LOD1.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_watchtower_classical_v0",
+          "evidence_sha256": "738fd156209a85a7c8b04d00dffff8e08659342fc0e3fdce4e0ab529659f0326",
+          "observations": "A continuous pale stone shaft replaces the exposed timber legs beneath the red ring and horned lookout roof. The narrow doorway frames the base and remains seated at intermediate detail. Medieval darkens the roof without obscuring the balcony.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_watchtower_industrial_v0",
+          "evidence_sha256": "08904fda94d50e191d72f5ed8cdd4d29361025669fe14f62d01fbdad8f8c9297",
+          "observations": "The gray tapered shaft, base door, circular balcony and horned cap have the same proportions as classical. A short button atop the roof replaces the small pennant. Brick and steel distinguish the coloured version. LOD1 preserves the structure.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 83,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Redesign the industrial lookout platform or shaft as an identifiable later watch installation in two 64px neutral views."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_orc_watchtower_industrial_v0",
+          "evidence_sha256": "0ddcd73a93f872e7807bb16a66957c64b3be50dc06b71f93ae5e0ba8f16e3617",
+          "observations": "A searchlight crowns a broad cabin carried on four splayed legs with cross-bracing, over a separate ground-level entry shed. That gap distinguishes it from the earlier closed stone shaft in grey. The middle mesh keeps the roof, lamp, bearings and structural frame.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            860,
+            435,
+            270
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_orc_stone_wall_industrial_v0",
+          "evidence_sha256": "a3152bae9158e5a96638c1c84574af8bdd693c8eed618d89a1f82c5ed8e47629",
+          "observations": "The defensive wall, toothed crown, horned caps and central gate survive in the middle mesh. The back face remains filled between the flanking towers.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            424,
+            240,
+            120
+          ]
+        },
+        {
+          "id": "bld_orc_watchtower_ancient_v0",
+          "evidence_sha256": "a1c5e7d0552d0da891f768ff404697f1fd8bb7b5e3451a38a14b7d74b1472248",
+          "observations": "The high timber cabin still sits on independently readable braced legs with a ladder and broad roof cap. The rear legs keep their ground contact.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            708,
+            403,
+            188
+          ]
+        }
+      ]
     }
   ]
 }

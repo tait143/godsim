@@ -11,6 +11,7 @@ from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from forge import MeshBuilder, atlas, gltf, registry
+from forge.lod import middle_lod
 from forge.render import render
 from generators._samples.sample_house import human_house
 
@@ -113,6 +114,76 @@ class BuildingPipelineTests(unittest.TestCase):
                         struct.pack('<I4s', len(binary), b'BIN\0') + binary)
                 with self.assertRaises(registry.AssetError):
                     registry._serialized(data, self.sample)
+
+    def test_middle_lod_ceiling_applies_to_the_actual_exported_index_count(self):
+        doc,_ = gltf.unpack(self.sample.read_bytes())
+        extras = doc["nodes"][0]["extras"]
+        builders = [human_house("dawn",0,i) for i in range(3)]
+        high = builders[0].tris
+        count = len(high)*3//5
+        def payload(n):
+            levels = [(t,atlas.uv_for(t,"dawn","human"),None)
+                      for t in (high,high[:n],builders[2].tris)]
+            return gltf.encode(levels,self.sample,extras)
+        self.assertEqual(registry._serialized(payload(count),self.sample)["lod_triangles"][1],count)
+        with self.assertRaisesRegex(registry.AssetError,"LOD triangle ratios"):
+            registry._serialized(payload(count+1),self.sample)
+
+    def test_reduction_preserves_large_wall_roof_and_tread_planes(self):
+        builder = MeshBuilder()
+        color = (1, 1, 1)
+        builder.box((0,.35,0), (1.5,.7,1.1), color, material='wall', bottom=True)
+        builder.gable_roof((0,.715,0), 1.74, 1.28, .33, color, material='roof')
+        builder.box((0,.7,0), (1.77,.03,1.32), color, material='eave', bottom=True)
+        for j in range(3):
+            builder.box((0,(j+.5)*.03,-.66-j*.11), (.83,.03,.13), color,
+                        material='step', bottom=True)
+        for i in range(4):
+            builder.cylinder((i*.18-.52,.03,.81), .05, .035, color, segments=5,
+                             top_radius=.08, cap_bottom=True, material='gold')
+        high_count = len(builder.tris) + 12
+        reduced = middle_lod(builder.tris, high_count)
+        self.assertLessEqual(5 * len(reduced), 3 * high_count)
+        # Measure actual area on each broad original plane. A diagonal slice
+        # can preserve both the bounds and the silhouette of an eave or stair.
+        def area_on_plane(tris, point, normal):
+            planar = tris[np.max(np.abs((tris-point) @ normal), axis=1) < 1e-6]
+            vectors = np.cross(planar[:,1]-planar[:,0], planar[:,2]-planar[:,0])
+            return np.maximum(0, vectors @ normal).sum() / 2
+
+        for role in ('wall', 'roof', 'eave', 'step'):
+            old, new = [np.stack([t.p for t in tris if t.material == role])
+                        for tris in (builder.tris, reduced)]
+            for face in old:
+                cross = np.cross(face[1]-face[0], face[2]-face[0])
+                if np.linalg.norm(cross) < .08:
+                    continue
+                normal = cross / np.linalg.norm(cross)
+                with self.subTest(role=role, normal=normal):
+                    self.assertAlmostEqual(area_on_plane(old, face[0], normal),
+                                           area_on_plane(new, face[0], normal), places=6)
+
+    def test_reduction_keeps_each_flared_dish_closed_and_facing_outward(self):
+        builder = MeshBuilder()
+        color = (1, 1, 1)
+        builder.box((0,.04,0), (1.4,.08,1), color, bottom=True)
+        for role, x in [('left', -.255), ('right', .255)]:
+            builder.cylinder((x,.1157,-.085), .0309, .024, color, segments=5,
+                             top_radius=.0456, cap_bottom=True, material=role)
+        reduced = middle_lod(builder.tris, 50)
+        self.assertLessEqual(len(reduced), 30)
+        for role in ('left', 'right'):
+            with self.subTest(dish=role):
+                p = np.stack([t.p for t in reduced if t.material == role])
+                _, faces = np.unique(p.reshape(-1, 3), axis=0, return_inverse=True)
+                faces = faces.reshape(-1, 3)
+                edges = np.concatenate([faces[:,[0,1]], faces[:,[1,2]], faces[:,[2,0]]])
+                directed = sorted(map(tuple, edges))
+                self.assertEqual(directed, sorted(map(tuple, edges[:,::-1])))
+                relative = p - p[0,0]
+                volume = np.einsum('ij,ij->', relative[:,0],
+                                   np.cross(relative[:,1], relative[:,2])) / 6
+                self.assertGreater(volume, 0)
 
 
 if __name__ == '__main__':
