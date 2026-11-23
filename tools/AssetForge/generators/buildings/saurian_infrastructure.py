@@ -5,6 +5,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from generators.buildings.saurian_towncenters import Delta, generate
+from generators.buildings import saurian_delta_works as works
 
 PACKAGE = "saurian_infrastructure"
 
@@ -157,8 +158,63 @@ def sack(m,x,y,z,r):
         m.drum("trim",x,y+r*1.6,z,r*.44,r*.14,n=6)
 
 
+def grain_sorting_floor(m):
+    # Three graduated gravity bins share a sorting floor. Each hopper has a
+    # discharge slide to the transverse belt feeding the packing bay at right.
+    works.court(m,w=1.91)
+    for x,w,h in ((-.54,.56,1.38),(.025,.475,1.07),(.54,.38,.88)):
+        z=.28
+        for dz in (-.215,.215):
+            m.slab("ivory",x,.08,z+dz,w*.72,.64,.10,.88,cut=.065)
+        m.slab("metal",x,.483,z,.165,.237,.205,top=w/.165,cut=.09,underside=True)
+        m.slab("ivory",x,.72,z,w,h-.72,.64,cut=.075)
+        m.slab("turquoise",x,h,z,w+.039,.063,.68,.94,underside=True)
+        m.slab("metal",x,h+.063,z,w*.87,.095,.56,.63,cut=.10)
+        m.block("glass",x,h-.11,-.044,w*.67,.066,.022)
+        with m.transform(translate=(x,.436,-.036),rotate_x=-15):
+            m.box((0,0,0),(.17,.043,.69),m.color("metal"),material="metal",bottom=True)
+            if m.lod<2:
+                for side in (-1,1):
+                    m.block("turquoise",side*.08,.0215,0,.018,.049,.68)
+    # The head pulley projects beyond its support and discharges over an open receiver.
+    for x in (-.66,.36):
+        m.slab("metal",x,.08,-.38,.15,.169,.27,.82)
+    m.slab("ivory",-.10,.249,-.38,1.43,.073,.33,.98,underside=True)
+    m.block("trim",-.10,.322,-.38,1.37,.024,.236)
+    if m.lod<2:
+        for x in (-.57,-.28,.02,.30):
+            m.mound("thatch",x,.346,-.38,.082,.051,n=(9,5)[m.lod])
+    m.slab("turquoise",.72,.08,-.38,.29,.17,.36,1.11)
+    m.mound("thatch",.72,.25,-.38,.138,.103,n=(12,7,5)[m.lod])
+    if m.lod==0:
+        sack(m,.73,.08,-.65,.070)
+        # The grain cooperative's sheaf is cast into the tallest bin.
+        m.rod("gold",(-.54,.87,-.059),(-.54,1.15,-.059),.012,n=5)
+        for y in (.90,.99,1.07):
+            for side in (-1,1):
+                m.blade("gold",(-.54,y,-.060),(-.54+side*.078,y+.094,-.060),.027)
+
+
 def granary(m):
     era=m.era
+    if era==3:
+        return grain_sorting_floor(m)
+    if era==0:
+        # Raised reed longhouse dries grain above the damp floodplain.
+        works.court(m,-.16,w=1.86,role="soil")
+        for x in (-.62,.51):
+            for z in (-.22,.48):
+                m.drum("timber",x,.08,z,.095,.31,.080)
+                if m.lod<2:
+                    m.drum("fieldstone",x,.31,z,.133,.045,.097)
+        m.slab("timber",-.055,.39,.13,1.48,.09,1.05,underside=True)
+        works.shell(m,-.055,.23,1.27,.73,.39,.48,material="thatch")
+        m.hip_roof((-.055,.87,.23),1.46,.90,.49,m.color("thatch"),overhang=.022,material="thatch")
+        m.stairs(-.055,.08,-.735,.28,.34,.40)
+        for x in (-.54,.49):
+            sack(m,x,.08,-.51,.132)
+        works.cartouche(m,-.055,.81,-.145,.066)
+        return
     for s in (-1,1):
         x=s*.444; z=.148+s*.099
         profile={
@@ -268,6 +324,25 @@ def turbine_hall(m,x,z,y,w,d):
 
 def power(m):
     future=m.era==3
+    if future:
+        # Two banks of tracking mirrors surround the receiver. A tapered shaft
+        # and gold absorber replace the combustion plant's stacks and wet tower.
+        with m.transform(scale=1.45):
+            works.court(m,-.30)
+            works.shell(m,-.30,.30,.85,.71,.33)
+            m.slab("metal",-.30,.41,.30,.92,.082,.78,.93,underside=True)
+            m.slab("ivory",-.30,.492,.30,.38,.68,.38,.45)
+            m.drum("gold",-.30,1.172,.30,.147,.21,.124)
+            m.mound("emissive",-.30,1.382,.30,.127,.09)
+            for x,z,w,angle in ((-.44,-.44,.79,-29),(.45,-.43,.72,-25),
+                                (.54,.32,.55,21)):
+                if m.lod==2:
+                    m.slab("wall",x,.08,z,.19,.315,.20,.69)
+                else:
+                    m.slab("wall",x,.08,z,w*.55,.135,.32,.81)
+                    m.drum("metal",x,.215,z,.085,.18,.063)
+                works.panel(m,x,.395,z,w,.47,angle)
+        return
     m.slab("fieldstone",0,0,.025,2.78,.102,2.67,.96)
     turbine_hall(m,-.553,-.13,.102,1.19,1.44)
     # A pinched, open cooling tower stands on a ring of concrete pile caps.

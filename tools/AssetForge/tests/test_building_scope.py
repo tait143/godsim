@@ -16,6 +16,73 @@ from building_surfaces import inverted_shells, overlaps, outward_ray_hits_surfac
 
 
 class BuildingScopeTests(unittest.TestCase):
+    def test_comparison_label_keeps_retroactive_unlocks_in_chronological_intervals(self):
+        from building_eras import age_span
+        self.assertEqual(age_span(["industrial","modern","renaissance"]), "Renaissance - Modern")
+        self.assertEqual(age_span(["renaissance","medieval"]), "Medieval - Renaissance")
+        self.assertEqual(age_span(["classical","iron"]), "Iron - Classical")
+        self.assertEqual(age_span(["medieval","dawn","iron"]), "Dawn, Iron, Medieval")
+
+    def test_round_two_report_rejects_missing_models_and_inherited_or_stale_scores(self):
+        from building_round2 import check_repair_reviews, require_inventory
+        entries={"A":{"id":"A"},"B":{"id":"B"}}
+        require_inventory(list(entries.values()),entries)
+        for bad in ([entries["A"]], [entries["A"],entries["A"]], [entries["A"],{"id":"C"}]):
+            with self.assertRaisesRegex(ValueError,"checkpoint ID set"):
+                require_inventory(bad,entries)
+        review=dict(id="A",scores={key:99 for key in CRITERIA},defects=[],observations="Viewed both sides.",
+                    evidence_sha256="approved")
+        with patch("building_review.evidence",return_value="approved"):
+            self.assertEqual(check_repair_reviews({"A"},entries,[{"models":[review]}]),[review["scores"]])
+            for rounds in ([], [{"models":[dict(review,evidence_sha256="old")]}],
+                           [{"models":[review]},{"models":[dict(review,defects=["Open issue"])]}]):
+                with self.assertRaisesRegex(ValueError,"missing current passing"):
+                    check_repair_reviews({"A"},entries,rounds)
+
+    def test_catalog_compares_same_era_ages_and_nonadjacent_models_within_a_variant(self):
+        from building_eras import catalog_pairs
+        rows = [dict(kind="townhall", race="dwarf", building_type="TownCenter", variant=0,
+                     id=age, ages=[age]) for age in ("classical", "medieval", "renaissance")]
+        other = [dict(rows[0], kind="wonder", id="wonder"), dict(rows[0], variant=1, id="variant")]
+        pts = np.array([[[0.,0.,0.],[1.,0.,0.],[0.,1.,0.]]])
+        with patch("building_eras.serialized_level", return_value=(pts,None)):
+            actual = {(p["a"],p["b"]) for p in catalog_pairs(rows+other)}
+        self.assertEqual(actual, {(a["id"],b["id"]) for a in rows for b in rows if a!=b})
+
+    def test_moderate_overlap_needs_exact_current_visual_exception(self):
+        from building_eras import reviewed_exceptions
+        pair = dict(a="A", b="B", matched=601, total=1000)
+        hashes = {"A":"alpha", "B":"beta"}
+        item = dict(a="B", b="A", decision="keep", glb_sha256=hashes.copy(), reason="Distinct roof mass.",
+                    shares={"b_to_a":dict(matched=601,total=1000)})
+        triage = {"pairs":[item]}
+        self.assertEqual(reviewed_exceptions([pair], hashes, triage), [dict(pair,reason=item["reason"])])
+        self.assertEqual(reviewed_exceptions([dict(pair,matched=600)], {}, {"pairs":[]}), [])
+        for variant in (dict(item,decision="rework"), dict(item,glb_sha256={"A":"stale","B":"beta"}),
+                        dict(item,reason=""), dict(item,shares={"b_to_a":dict(matched=600,total=1000)})):
+            with self.assertRaises(ValueError):
+                reviewed_exceptions([pair], hashes, {"pairs":[variant]})
+        with self.assertRaises(ValueError):
+            reviewed_exceptions([dict(pair,matched=801)], hashes, triage)
+
+    def test_baseline_triage_rejects_a_changed_comparison_image(self):
+        import hashlib
+        import json
+        from building_eras import load_triage
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            (root/"triage").mkdir()
+            page=root/"triage/elf-01.png"
+            page.write_bytes(b"reviewed image")
+            record={"reviewer":"critic","sheet_sha256":{page.name:hashlib.sha256(page.read_bytes()).hexdigest()},
+                    "pairs":[{"a":"a","b":"b","decision":"keep","evidence":{"path":"triage/elf-01.png"}}]}
+            (root/"triage.json").write_text(json.dumps(record))
+            with patch("building_eras.ROOT", root):
+                self.assertEqual(load_triage(root),record)
+                page.write_bytes(b"different image")
+                with self.assertRaisesRegex(ValueError, "checkpoint sheets"):
+                    load_triage(root)
+
     def test_era_comparisons_count_repeated_corners_in_both_directions(self):
         from building_eras import ordered_counts
         rows = [{"id":"small"},{"id":"large"}]
@@ -70,11 +137,11 @@ class BuildingScopeTests(unittest.TestCase):
                 (package/name).touch()
             grey = Path(directory) / "era_geometry"
             grey.mkdir()
-            for name in ("elf-01.png", "elf-02.png", "manual-comparison.png"):
+            for name in ("elf-01.png", "elf-02.png", "rc4-elf-01.png", "rc4-elf-02.png", "manual-comparison.png"):
                 (grey / name).touch()
-            retire_obsolete_pages([package/"01.png",grey/"elf-01.png"],["elf_food"])
+            retire_obsolete_pages([package/"01.png",grey/"elf-01.png",grey/"rc4-elf-01.png"],["elf_food"])
             self.assertEqual(sorted(p.name for p in package.iterdir()),["01.png","round-2-lods.png"])
-            self.assertEqual(sorted(p.name for p in grey.iterdir()),["elf-01.png","manual-comparison.png"])
+            self.assertEqual(sorted(p.name for p in grey.iterdir()),["elf-01.png","manual-comparison.png","rc4-elf-01.png"])
             retire_obsolete_pages([],["elf_food"])
             self.assertEqual([p.name for p in package.iterdir()],["round-2-lods.png"])
 

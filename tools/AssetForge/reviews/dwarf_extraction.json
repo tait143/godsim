@@ -1008,6 +1008,87 @@
           ]
         }
       ]
+    },
+    {
+      "round": 7,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_dwarf_mine_classical_v0",
+          "evidence_sha256": "c0fd0f381ff05fae9ef3d105046202cfb3ecb3453f0f1c11fc09e50bcbeda369",
+          "observations": "The separate spoked winding wheel and faceted mine portal make two distinct forms, with a spoil bin between their approaches. The side view exposes the wheel's stone support. Its openings simplify at the far level but the wheel and portal remain legible.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            968,
+            504,
+            283
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_mine_ancient_v0",
+            "b": "bld_dwarf_mine_classical_v0",
+            "matched": 0,
+            "total": 2874
+          }
+        },
+        {
+          "id": "bld_dwarf_mine_future_v0",
+          "evidence_sha256": "6644205c3541dea2b260107a6726766875845ee517fdf3c3f94527a548ca92ec",
+          "observations": "The hoist yoke straddles a circular shaft and suspends a bucket beside a flat-roofed service block. The small ore tray sits clear of the shaft. Its rear opening, supported lintel and bucket remain visible at every distance.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            819,
+            465,
+            236
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_mine_ancient_v0",
+            "b": "bld_dwarf_mine_future_v0",
+            "matched": 0,
+            "total": 2874
+          }
+        },
+        {
+          "id": "bld_dwarf_mine_industrial_v0",
+          "evidence_sha256": "95af42d8e2fed428446516c020a74e7fcc6c83cf3197f69f834de522129b0ca9",
+          "observations": "The tall braced headhouse drops into a receiving bin while the separate sloping conveyor reaches the low shed. Side and reverse views show the four supporting legs and a clear space under the conveyor. The far silhouette keeps those load paths.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            727,
+            394,
+            225
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_mine_ancient_v0",
+            "b": "bld_dwarf_mine_industrial_v0",
+            "matched": 0,
+            "total": 2874
+          }
+        }
+      ]
     }
   ]
 }

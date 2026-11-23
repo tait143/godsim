@@ -5,6 +5,8 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from generators.buildings.orc_towncenters import Lodge, generate
+from generators.buildings import orc_civic_trades
+from generators.buildings.orc_learninghealth import build_lodge
 
 PACKAGE = "orc_commerce"
 
@@ -424,8 +426,9 @@ MODELS = {"Airport": airport, "Bank": bank, "Guildhall": guild, "Harbor": harbor
 
 
 def build(spec, lod):
+    if spec.building_type == "Bank" and spec.band == "future":
+        return build_lodge(spec,lod,lambda m,t: orc_civic_trades.bank(m))
     if spec.building_type == "RailStation" and spec.band == "future":
-        from generators.buildings.orc_learninghealth import build_lodge
         from generators.buildings.orc_era_forms import skyrail
         return build_lodge(spec,lod,lambda m,t: skyrail(m))
     m=Lodge(spec,lod)

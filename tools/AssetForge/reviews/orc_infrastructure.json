@@ -604,6 +604,40 @@
           ]
         }
       ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_orc_granary_classical_v0",
+          "evidence_sha256": "6789a7803cfff969a9c363ad46a13e11a5c0eb1aa0289e72334b85a393f7b69c",
+          "observations": "A raised gabled grain hall stands on discrete footings with a broad loading stair and a sack at the landing. The undercroft remains open in the rear LOD1. Its pitched roof is clearly distinct from the later vertical hopper. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 656/372/140 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_granary_future_v0",
+          "evidence_sha256": "5a61bd62e2fd03a5cdb44da4776ea721e3359e977fe43ca8d0f5e59d31538a62",
+          "observations": "A blue-and-ivory hopper on four tall feet feeds a low adjacent shed. From the rear its sloping transfer chute remains attached at both ends. Grain sacks sit below the cone and small tusks break the rim. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 760/428/241 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

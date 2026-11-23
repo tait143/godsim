@@ -7,6 +7,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from building_scope import AGES, ROOT, package_models
 from forge import MeshBuilder, publish
 from forge.atlas import palette
+from generators.buildings import saurian_delta_works as works
 from PIL import Image, ImageDraw
 
 PACKAGE = "saurian_towncenters"
@@ -198,9 +199,43 @@ def crown(m, age, y):
             m.disc(0,y+.55,.142,.105,"ascension",False)
 
 
+def renaissance_council(m):
+    # The loggia opens along the palace front. A separate tide clock and
+    # open bell chamber govern council meetings and the river landings.
+    works.court(m,.18)
+    works.shell(m,.205,.265,1.11,.84,.68,material="plaster")
+    m.slab("trim",.205,.76,.24,1.21,.09,.95,underside=True)
+    m.slab("wall",.205,.85,.29,.95,.27,.70)
+    m.hip_roof((.205,1.12,.29),1.20,.87,.35,m.color("roof_tile"),
+               overhang=.034,material="roof_tile")
+    works.shutters(m,.205,.904,-.071,.86,.137,3)
+    for x in (-.23,.19,.61):
+        m.drum("ivory",x,.08,-.40,.065,.515,.051)
+        if m.lod<2:
+            m.drum("turquoise",x,.518,-.40,.063,.073)
+    m.slab("wall",.19,.595,-.30,1.06,.086,.40,.95,underside=True)
+    m.slab("roof_tile",.19,.681,-.30,1.14,.15,.44,.65,underside=True)
+    m.slab("fieldstone",-.59,.08,.08,.48,.29,.53,.86)
+    m.slab("plaster",-.59,.37,.08,.40,.81,.45,.95)
+    m.slab("trim",-.59,1.18,.08,.47,.077,.51,underside=True)
+    for x in (-.735,-.445):
+        for z in (-.078,.238):
+            m.block("ivory",x,1.257,z,.07,.28,.071)
+    m.rooflet(-.59,1.537,.08,.49,.54,.31,"roof_tile")
+    m.drum("gold",-.59,1.37,.08,.119,.14,.069)
+    m.drum("gold",-.59,1.51,.08,.031,.03)
+    works.cartouche(m,-.59,.966,-.139,.106)
+    if m.lod==0:
+        for x in (-.17,.57):
+            m.jar(x,.08,-.57,.070,"turquoise")
+
+
 def build(spec,lod):
     m=Delta(spec,lod)
     age=AGES.index(spec.ages[0])
+    if age==5:
+        renaissance_council(m)
+        return m
     base=("timber","wall","fieldstone","plaster","fieldstone","wall","brick","plaster","ivory","ivory")[age]
     pillar=("timber","wall","trim","ivory","trim","plaster","metal","metal","metal","gold")[age]
     # Arrival by axial causeway; columns enclose a shaded civic balcony.
@@ -253,6 +288,10 @@ def generate(package, builder):
         entry=publish(levels[0],spec.metadata(),package,lods=levels[1:],preview_size=224)
         print(spec.id,entry["lod_triangles"],flush=True)
         entries.append(entry)
+    preview_sheets(entries)
+
+
+def preview_sheets(entries):
     # Pair every original with a 64px copy so a critic can inspect the full set in pages.
     tiles=[(e,age,ROOT/path) for e in entries for age,path in e["age_previews"].items()]
     out=tiles[0][2].parent/"sheets"

@@ -486,6 +486,87 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_human_bank_industrial_v0",
+          "evidence_sha256": "019adc6e5fc6315a2612b70557eb9d3c1bb33495180d12fe82dadf2d0bbf3a5f",
+          "observations": "The gabled clock entrance projects above a lower hipped banking hall with paired blue street windows. Its side wall continues directly into the tall entry volume. From both rear angles the offset gable distinguishes it from the domed banks even after the small frontage detail falls away.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            604,
+            336,
+            192
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_bank_classical_v0",
+            "b": "bld_human_bank_industrial_v0",
+            "matched": 0,
+            "total": 2286
+          }
+        },
+        {
+          "id": "bld_human_guildhall_industrial_v0",
+          "evidence_sha256": "d065e85e4fd38e356fcec92d705a0b67cdda98f4c8abb98653c1fe0078ae8ce1",
+          "observations": "A square guild tower with a blue shield fronts a large drum-shaped meeting room. The little entrance canopy projects beside it. At distance the canopy drops out but the shield tower, doorway and circular roof still read as a single civic building.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            587,
+            270,
+            148
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_guildhall_classical_v0",
+            "b": "bld_human_guildhall_industrial_v0",
+            "matched": 0,
+            "total": 1953
+          }
+        },
+        {
+          "id": "bld_human_market_future_v0",
+          "evidence_sha256": "8a1f9b5da42a9fc266b62db0a7a7421f58e0248977782185a005bc890fe08a78",
+          "observations": "Two freestanding circular market roofs sit over individual goods counters at different heights. The visible stall contents give the blue-and-ivory supports a scale at close range. Both high covered counters stay legible from behind and at distance.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1166,
+            466,
+            164
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_market_ancient_v0",
+            "b": "bld_human_market_future_v0",
+            "matched": 0,
+            "total": 2790
+          }
+        }
+      ]
     }
   ]
 }

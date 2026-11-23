@@ -238,25 +238,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1257,
+  "triangles": 901,
   "lod_triangles": [
-   1257,
-   719,
-   314
+   901,
+   498,
+   226
   ],
   "bounds": [
    [
-    -0.925000011920929,
+    -0.9200000166893005,
     0.0,
-    -0.9100000262260437
+    -0.8899999856948853
    ],
    [
-    0.925000011920929,
-    1.469499945640564,
-    0.9100000262260437
+    0.9200000166893005,
+    1.4329999685287476,
+    0.8899999856948853
    ]
   ],
-  "bytes": 180336,
+  "bytes": 121404,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_monastery_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_monastery_industrial_v0.png",
@@ -416,25 +416,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 603,
+  "triangles": 807,
   "lod_triangles": [
-   603,
-   305,
-   151
+   807,
+   316,
+   201
   ],
   "bounds": [
    [
-    -0.4118399918079376,
+    -0.3131999969482422,
     0.0,
-    -0.40299999713897705
+    -0.33399999141693115
    ],
    [
-    0.3996399939060211,
-    1.0829999446868896,
-    0.3750447630882263
+    0.2874271869659424,
+    1.371999979019165,
+    0.3370000123977661
    ]
   ],
-  "bytes": 89136,
+  "bytes": 120068,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_shrine_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_shrine_industrial_v0.png",
@@ -549,25 +549,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 627,
+  "triangles": 1159,
   "lod_triangles": [
-   627,
-   336,
-   140
+   1159,
+   532,
+   195
   ],
   "bounds": [
    [
-    -0.8349999785423279,
+    -0.7749999761581421,
     0.0,
-    -0.8960000276565552
+    -0.8429999947547913
    ],
    [
-    0.8349999785423279,
-    1.3220000267028809,
-    0.8650188446044922
+    0.753000020980835,
+    1.3980000019073486,
+    0.8643931150436401
    ]
   ],
-  "bytes": 83640,
+  "bytes": 161920,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_temple_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_classical_v0.png",

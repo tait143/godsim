@@ -15,25 +15,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1005,
+  "triangles": 1029,
   "lod_triangles": [
-   1005,
-   601,
-   205
+   1029,
+   541,
+   185
   ],
   "bounds": [
    [
-    -0.9049999713897705,
+    -0.949999988079071,
     0.0,
-    -0.8899999856948853
+    -0.9350000023841858
    ],
    [
-    0.9049999713897705,
-    0.8659999966621399,
-    0.8299999833106995
+    0.949999988079071,
+    1.0,
+    0.8650000095367432
    ]
   ],
-  "bytes": 130316,
+  "bytes": 130828,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_barracks_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_barracks_ancient_v0.png",
@@ -148,25 +148,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1073,
+  "triangles": 880,
   "lod_triangles": [
-   1073,
-   611,
-   237
+   880,
+   388,
+   176
   ],
   "bounds": [
    [
-    -0.9049999713897705,
+    -0.949999988079071,
     0.0,
-    -0.8899999856948853
+    -0.9350000023841858
    ],
    [
-    0.9049999713897705,
-    1.0709999799728394,
-    0.8299999833106995
+    0.949999988079071,
+    1.3482400178909302,
+    0.8650000095367432
    ]
   ],
-  "bytes": 140088,
+  "bytes": 102544,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_barracks_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_barracks_industrial_v0.png",
@@ -585,25 +585,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 597,
+  "triangles": 546,
   "lod_triangles": [
-   597,
-   340,
-   189
+   546,
+   311,
+   172
   ],
   "bounds": [
    [
-    -0.4099999964237213,
+    -0.4050000011920929,
     0.0,
-    -0.39250001311302185
+    -0.36500000953674316
    ],
    [
-    0.4099999964237213,
-    2.1903300285339355,
-    0.4000000059604645
+    0.4050000011920929,
+    1.7805089950561523,
+    0.36500000953674316
    ]
   ],
-  "bytes": 89476,
+  "bytes": 93380,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_watchtower_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_watchtower_industrial_v0.png",

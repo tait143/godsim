@@ -230,6 +230,75 @@ def ingots(m,x,z,era,scale=1):
 
 
 def smith(m,era):
+    if era==1:
+        # Open masonry hearth: the smoke hood springs from two piers, with
+        # bellows blowing into the fire from opposite sides of the hearth.
+        band(m,'fieldstone',0,.01,1.86,.87,0,.057,.079)
+        x,z=-.085,.099
+        band(m,'wall',x,z,.64,.459,.057,.267,.054)
+        m.block('door',(x,.283,z-.022),(.475,.028,.354))
+        m.block('forge',(x,.301,z-.08),(.341,.023,.210),taper=.11)
+        for s in (-1,1):
+            m.course('fieldstone',x+s*.258,z+.044,.127,.29,.263,.641,.024)
+        m.block('brick',(x,.458,z+.160),(.443,.382,.114))
+        m.block('trim',(x,.666,z+.04),(.729,.081,.467))
+        m.block('wall',(x,.879,z+.04),(.716,.346,.458),taper=.58)
+        m.block('fieldstone',(x,1.206,z+.04),(.271,.31,.179),taper=.12)
+        m.block('trim',(x,1.381,z+.04),(.31,.073,.218))
+        m.block('door',(x,1.419,z+.04),(.212,.006,.139))
+        # The taper of each leather lung ends in a copper nozzle at hearth
+        # height. Faceted pleats carry a broad timber handle at the far end.
+        for s in (-1,1):
+            with m.transform(translate=(x+s*.291,0,z),rotate_y=0 if s>0 else 180):
+                outline=[(.005,-.031),(.225,-.125),(.412,-.106),(.48,0),
+                         (.412,.106),(.225,.125),(.005,.031)]
+                if m.lod==2:
+                    outline=[outline[i] for i in (0,1,3,5,6)]
+                def ring(y,k):
+                    return [(u,y+.088*u,v*k) for u,v in outline]
+                profiles=[(.214,.74),(.255,1),(.293,.80),(.329,1.04),(.363,.77)]
+                if m.lod==2:
+                    profiles=[profiles[0],profiles[-1]]
+                for i,((lo,a),(hi,b)) in enumerate(zip(profiles,profiles[1:])):
+                    lower,upper=ring(lo,a),ring(hi,b)
+                    for j in range(len(outline)):
+                        k=(j+1)%len(outline)
+                        m.face('hide' if i%2==0 else 'trim',(lower[k],lower[j],upper[j],upper[k]))
+                m.face('timber',ring(.363,.77)[::-1])
+                m.face('timber',ring(.214,.74))
+                m.block('timber',(.332,.14,.005),(.155,.164,.142),taper=.18)
+                m.beam('gold',(-.093,.289,0),(.081,.289,0),.063)
+                m.beam('timber',(.327,.391,0),(.529,.432,0),.039)
+                if m.lod==0:
+                    for u in (.24,.37):
+                        m.block('gold',(u,.372+.088*u,0),(.025,.02,.160))
+        anvil(m,.431,-.240,1.12,era)
+        turned(m,-.62,-.222,[(.057,.119,None),(.212,.143,'timber'),(.247,.145,'metal')],
+               (12,8,5),'water')
+        if m.lod<2:
+            # The arch springs from the inner jambs; each iron tie bears on
+            # a stone cheek rather than spanning unsupported over the hearth.
+            n=9 if m.lod==0 else 5
+            arch=[(x-.22*math.cos(math.pi*i/n),.478+.156*math.sin(math.pi*i/n))
+                  for i in range(n+1)]
+            m.bent_rail('brick',arch,z-.110,.044)
+            for i in range((7,4)[m.lod]):
+                xx=x-.125+.041*i
+                m.dome((xx,.314,z-.077+(.024 if i%2 else -.018)),.038,
+                       m.color('forge' if i%3 else 'door'),rings=2,segments=6,squash=.56,
+                       material='forge' if i%3 else 'door')
+            shield(m,x,.832,z-.147,.10)
+        if m.lod==0:
+            flag(m,-.34,.202,.685,.212)
+            ingots(m,.726,-.24,era,.67)
+            for s in (-1,1):
+                for y in (.377,.465,.552):
+                    m.block('wall',(x+s*.259,y,z-.106),(.147,.029,.061))
+            for zoff in (-.037,.038):
+                m.beam('metal',(-.786,.117,-.194+zoff),(-.715,.405,-.193+zoff),.019)
+            m.block('timber',(.414,.394,-.24),(.151,.025,.028))
+            m.block('metal',(.36,.411,-.24),(.048,.046,.055))
+        return
     band(m,"fieldstone",0,0,1.85,.87,0,.058,.085)
     hall(m,-.415,.057,.82,.62,(.421,.52,.52,.54)[era],(.30,.36,.15,.16)[era],era,-.50,True)
     furnace(m,.375,.202,.96,era,short=True)
@@ -288,6 +357,60 @@ def dyed_web(m,x,z,width,top,bottom,mat):
 
 
 def weaver(m,era):
+    if era==2:
+        # The long, north-lit weaving shed drives its horizontal loom by belt.
+        band(m,'fieldstone',0,0,.94,.89,0,.038,.05)
+        band(m,'brick',-.026,.18,.76,.42,.038,.405,.025)
+        for z in (.054,.218,.382):
+            m.wedge((-.026,.405,z),.82,.16,.134,m.color('slate'),material='slate')
+            if m.lod<2:
+                with m.transform(translate=(0,0,z+.082),rotate_y=180):
+                    pane(m,'glass',.026,.478,0,.65,.074)
+        m.entry(-.24,-.032,.158,.043,.24)
+        # Loom feet rise through the trestle to the front and rear cloth beams.
+        for x in (-.02,.293):
+            m.block('metal',(x,.134,-.235),(.043,.192,.228))
+        m.beam('trim',(-.055,.225,-.329),(.331,.225,-.329),.062)
+        m.beam('trim',(-.053,.292,-.120),(.329,.292,-.120),.055)
+        dyed_web(m,.144,-.344,.285,.239,.078,'banner')
+        for j in range((9,5,2)[m.lod]):
+            x=.022+j*.239/((9,5,2)[m.lod]-1)
+            m.beam('ivory',(x,.254,-.323),(x,.314,-.13),.009)
+        m.flue(.291,.242,.455,.77,.078)
+        if m.lod==0:
+            flag(m,-.352,.08,.46,.18)
+            m.light(.23,.29,-.031,.153,.125,False)
+            m.herbs(-.37,.186,-.031,.092)
+            for x in (-.205,-.32):
+                turned(m,x,-.277,[(.038,.042,None),(.051,.059,'timber'),(.14,.046,'cloth'),
+                                   (.153,.056,'timber')],(8,5,4))
+        return
+    if era==3:
+        # A circular knitting frame feeds material down from a crown of cone
+        # spools into a continuous sleeve. Its operator enters the base at front.
+        band(m,'fieldstone',0,.015,.82,.82,0,.041,.115)
+        turned(m,-.02,.066,[(.041,.30,None),(.14,.334,'ivory'),(.335,.285,'glass'),
+                             (.37,.30,'ivory')],(16,9,6))
+        for i in range(4):
+            a=math.pi*.5*i+.55
+            x,z=-.02+.245*math.cos(a),.066+.245*math.sin(a)
+            m.beam('metal',(x,.361,z),(x,.731,z),.033)
+        turned(m,-.02,.066,[(.367,.125,None),(.475,.129,'cloth'),(.586,.160,'banner'),
+                             (.685,.196,'cloth')],(16,9,6))
+        turned(m,-.02,.066,[(.679,.186,None),(.726,.319,'ivory'),(.766,.322,'metal')],(16,9,6))
+        for j in range(6 if m.lod==0 else 4):
+            a=2*math.pi*j/(6 if m.lod==0 else 4)
+            x,z=-.02+.235*math.cos(a),.066+.235*math.sin(a)
+            turned(m,x,z,[(.765,.059,None),(.802,.064,'trim'),(.931,.034,'banner' if j%2 else 'ivory')],(9,5,4))
+        m.block('ivory',(-.052,.148,-.255),(.253,.213,.164))
+        m.entry(-.052,-.338,.146,.043,.155,lintel='metal')
+        if m.lod==0:
+            for j in range(8):
+                a=2*math.pi*j/8
+                m.beam('ivory',(-.02+.228*math.cos(a),.699,.066+.228*math.sin(a)),
+                       (-.02+.158*math.cos(a),.578,.066+.158*math.sin(a)),.009)
+            m.herbs(.163,.07,-.218,.128)
+        return
     if era==1:
         # A broad horizontal drawloom fills the guild's open undercroft. Woven
         # lengths run over the front beam and hang outside into the dye yard.

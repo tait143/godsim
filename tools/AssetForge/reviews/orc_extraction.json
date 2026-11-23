@@ -835,6 +835,264 @@
           ]
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_orc_gold_mine_industrial_v0",
+          "evidence_sha256": "91f38d59aa3bb5a6bca47caf06077177001f0d5fda5bb12ac494033f3d90af74",
+          "observations": "The exposed stamp battery, gold ore and chimney are readable from the side. The adjacent flywheel sits forward of the gabled shop, with a visible stand-off behind the hub. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1134/614/273 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 85,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Extend the flywheel axle into a wall-mounted bearing at each LOD so the wheel has a load path into the shop."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_orc_coal_mine_future_v0",
+          "evidence_sha256": "060d6af3c648778213e7f0ded14f1aefb02f038aa1a0892a3caa02f62247e3b0",
+          "observations": "The toothed bucket wheel projects from a braced boom beside two dark coal piles. The counterweight, cab and blue-roofed building form a low working yard that reads differently from the tall predecessor headframe. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 870/478/217 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_gold_mine_classical_v0",
+          "evidence_sha256": "be55fef73e330c1be2a5f5decee0d7b65186a7590dcac354410b6715b41ac9e5",
+          "observations": "Three descending riffled wash tables and the exposed gold pile give the mine a visible processing sequence. Horn tips mark the high end, and the descending channels retain their stepped profile from the opposite direction. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 452/257/120 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_gold_mine_future_v0",
+          "evidence_sha256": "dce80e002d64b0f921fcb846c34c2b35369baf1441431c32133e817c4302417e",
+          "observations": "An exposed golden spiral winds down a central support into a broad collection basin. The small glazed shed gives the structure scale. Both sides preserve the descending helix, unlike the boxy washing tables or stamp battery. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 972/530/272 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_mine_classical_v0",
+          "evidence_sha256": "644a7d7f4aa6f2f245a49f34b8afcb39ef2eb84ae9f4a2f71744cf51815a37ac",
+          "observations": "A large open treadwheel straddles two timber supports beside a rail spur into a low adit. The rungs between the two spoked wheels remain legible from behind, where the axle and splayed supports are easiest to see. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1001/569/219 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_mine_future_v0",
+          "evidence_sha256": "5e91f9d60735c09a5f6cb15ecceee93d0eba2f0c356137d6c68d600b2a20e0ab",
+          "observations": "The circular cutting head faces out of an armoured horizontal drill shield. The wedge-shaped spoil wall and small control hut flank the machine; its bright radial blades survive on the middle mesh. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 880/386/210 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_mine_industrial_v0",
+          "evidence_sha256": "1d4be560bacd3ed280a25061477b83955753addc8dc77c74b21bfe73be0c02eb",
+          "observations": "A low dark mine opening feeds a sloping conveyor to a tall brick screening house. The chimney and separate spoil heaps remain evident behind the building. The inclined belt distinguishes this era from the circular machines. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 776/334/146 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_sawmill_future_v0",
+          "evidence_sha256": "1815768162eb6c714862a2c934178284b4c66936e1c8aa610e6b2de26f9abfdb",
+          "observations": "A rectangular saw portal straddles the long carriage with a log loaded and a separate stack alongside. The frame lands on two footed uprights, and the yellow cutter remains visible between them from the side. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 624/294/142 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_stone_quarry_classical_v0",
+          "evidence_sha256": "12b68d38e856c4818e32c2b629b366bb7b2709d69162daacb200f0b7227e71a1",
+          "observations": "Three tall timbers meet above a suspended block, dressed stone and a ground winch. The middle view shows the sling and tripod feet, making the hoist clear even from behind. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 479/279/147 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_stone_quarry_future_v0",
+          "evidence_sha256": "6afd56f8e310983806721b45aa58bc1282431b8fda66984c88d0a70535c98d2d",
+          "observations": "Two roller wheels and a diagonal cutting wire cross under a rail-mounted bridge above the stepped stone. The feet, rails and sawn blocks are readable behind the machine; the wide pale beam marks it at thumbnail size. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 648/368/170 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_stone_quarry_industrial_v0",
+          "evidence_sha256": "eb24308e626023a2f055fb029f5d33ffcdb3c4c9d5f79998da9ebe08414848ed",
+          "observations": "The cantilevered lifting boom, hanging line, stone block and separate spoil pieces identify a steam crane. The rear middle view keeps the boom and brick counterweight on a rail chassis. The chimney rises from the machine. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 743/291/179 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_woodcutter_camp_future_v0",
+          "evidence_sha256": "e88578733b16bbb3cffd86539e65b0a4700fe3084562e6bd87b3f6d79ab2b57d",
+          "observations": "An articulated grapple reaches over an exposed log from a compact tracked carrier. Its descending jaw and piston remain visible around the trunk at the side. The forked silhouette separates it from the industrial cable engine. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 725/239/169 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "0d7ab86f82a00c94d990fd0f8c4e81dbab881708bffcb941820c69db3c732672",
+          "observations": "A steam winch, drum and tall boiler share timber runners with felled trunks stacked alongside. The dark stack, exposed wheel and log ends stay readable around the middle model. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 709/414/185 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_orc_gold_mine_industrial_v0",
+          "evidence_sha256": "8dc03bb832871279ddd9e4f6e455abd75a85593b5b57b034395e2cdd0b1ed882",
+          "observations": "The stamp mill now has a distinct grounded bearing pedestal. At 82° and 268° the metal shaft runs from the hub through the gold bearing into the brick engine shop. I checked both side lines at all three LODs; the outer wheel reduces to a plate on the far mesh while the shaft and foot remain connected. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1320/692/327 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent RC4 critic, checkpoint catalog comparison",
+      "models": [
+        {
+          "id": "bld_orc_woodcutter_camp_classical_v0",
+          "evidence_sha256": "dfcd3327170fb8325e38a7628023fd70ea7b8ccc984bdd19794df44b678853e8",
+          "observations": "The conical roof, round shelter, stacked logs and solitary chopping stump sit in the same positions as the Ancient WoodcutterCamp. Both grayscale angles read as the same operation and structure. The pale walls and orange tiles carry the change in the color previews. Checkpoint directed corner shares were 59.021% to the comparison model and 59.021% in reverse. I inspected both 64 px unpainted angles, every assigned age preview, and painted LOD1 at 215°, 125° and 35°. Serialized LODs 776/433/194 passed the geometry, budget, overlap and winding checks.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 80,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Classical timber camp a distinct working structure or lifting/skidding equipment that changes its massing and silhouette."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "critic": "Independent RC4 critic, catalog repair reinspection",
+      "models": [
+        {
+          "id": "bld_orc_woodcutter_camp_classical_v0",
+          "evidence_sha256": "7655931356669d551b1af06eb65ef7e25f6b4a7a7c24630a4bed0f54d64e5c0b",
+          "observations": "A felled trunk lies on crossed timber bucks under a tall frame saw. The loaded cart, rear log crib and footings separate in the side and rear views. Both unpainted angles retain the high horizontal log and open timber legs, giving this era a shape distinct from the ancient hut, industrial steam winch and future grapple. Inspected all 3 age previews, both 64 px gray family views and painted middle LOD at 215°, 125° and 35°. Serialized LODs 1126/640/346 passed geometry, budget, exposed overlap and winding checks. Maximum directed LOD0 corner overlap with an era sibling was 0.000%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

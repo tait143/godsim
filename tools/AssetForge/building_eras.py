@@ -1,12 +1,14 @@
 """Audit each ordered pair of era meshes and render the geometry without paint at phone scale."""
 from collections import defaultdict
+import hashlib
 from io import BytesIO
+import json
 from types import SimpleNamespace
 
 import numpy as np
 from PIL import Image, ImageDraw
 
-from building_scope import ROOT
+from building_scope import AGES, RACES, ROOT
 from forge import gltf
 from forge.registry import _access
 from forge.render import render
@@ -21,6 +23,7 @@ SCOPE = {
     "saurian": "Armory Blacksmith Factory Farm FishingHut Foundry Herbalist IndustrialFarm Library MilitaryBase Mill Monastery OilWell Pasture Printworks ResearchLab Sawmill Scriptorium Smelter Stadium StoneWall Tavern Theater University Weaver WoodcutterCamp Workshop",
 }
 ERAS = ("ancient", "classical", "industrial", "future")
+RC4 = ROOT / "tools/AssetForge/reviews/rc4"
 
 # Additional families in which fresh critics held changed models for era identity.
 # Some earlier siblings in these families were outside the repair request.
@@ -57,6 +60,59 @@ def ordered_counts(rows):
             for a,k in keys.items() for b in keys if a!=b]
 
 
+def catalog_families(entries):
+    families = defaultdict(list)
+    for entry in entries:
+        if entry["kind"] != "wonder":
+            families[entry["race"], entry["building_type"], entry["variant"]].append(entry)
+    return {key: sorted(rows, key=lambda e: (min(AGES.index(age) for age in e["ages"]), e["id"]))
+            for key, rows in sorted(families.items()) if len(rows) > 1}
+
+
+def catalog_pairs(entries):
+    """Include every pair within a variant, even two Town Centers in the same era."""
+    for (race, kind, variant), rows in catalog_families(entries).items():
+        for a, b, matched, total in ordered_counts(rows):
+            yield dict(race=race, family=kind, variant=variant, a=a, b=b, matched=matched, total=total)
+
+
+def reviewed_exceptions(pairs, hashes, triage):
+    """Allow a moderate overlap only for the precise two exports an independent critic kept."""
+    decisions = {tuple(sorted((item["a"], item["b"]))): item for item in triage["pairs"]}
+    if len(decisions) != len(triage["pairs"]):
+        raise ValueError("Duplicate grayscale pair decision")
+    kept = []
+    for pair in pairs:
+        a, b, matched, total = (pair[k] for k in ("a", "b", "matched", "total"))
+        if 5 * matched <= 3 * total:
+            continue
+        item = decisions.get(tuple(sorted((a, b))))
+        valid = (item and item["decision"] == "keep" and item["reason"].strip()
+                 and item["glb_sha256"] == {a: hashes[a], b: hashes[b]}
+                 and 5 * matched <= 4 * total)
+        if valid:
+            direction = "a_to_b" if a == item["a"] else "b_to_a"
+            reviewed = item["shares"][direction]
+            valid = (reviewed["matched"], reviewed["total"]) == (matched, total)
+        if not valid:
+            raise ValueError(f"{a} shares {matched}/{total} LOD0 corners with {b} without current grayscale approval")
+        kept.append(dict(pair, reason=item["reason"]))
+    return kept
+
+
+def load_triage(directory):
+    triage = json.loads((directory / "triage.json").read_text())
+    sheets = directory / "triage"
+    actual = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in sheets.glob("*.png")}
+    if not triage.get("reviewer") or not actual or triage.get("sheet_sha256") != actual:
+        raise ValueError("Independent grayscale review does not match its checkpoint sheets")
+    for item in triage["pairs"]:
+        path = ROOT / item["evidence"]["path"]
+        if path.parent != sheets or path.name not in actual or item["decision"] not in ("keep","rework"):
+            raise ValueError(f"Invalid grayscale evidence for {item['a']} and {item['b']}")
+    return triage
+
+
 def groups(entries, include_supplement=False):
     grouped = defaultdict(list)
     for entry in entries:
@@ -70,10 +126,19 @@ def groups(entries, include_supplement=False):
 
 
 def check_families(entries):
-    for rows in groups(entries).values():
-        for a,b,count,total in ordered_counts(rows):
-            if count*5 > total*3:
-                raise ValueError(f"{a} shares {count}/{total} LOD0 corners with {b}; maximum 60%")
+    pairs = list(catalog_pairs(entries))
+    mandatory = {(row["race"], row["family"], row["variant"])
+                 for row in json.loads((RC4 / "checkpoint_pairs.json").read_text())
+                 if row["severity"] == "required"}
+    for pair in pairs:
+        race, kind = pair["race"], pair["family"]
+        if kind in SCOPE.get(race, "").split() or (race, kind, pair["variant"]) in mandatory:
+            if 5 * pair["matched"] > 3 * pair["total"]:
+                raise ValueError(f"{pair['a']} exceeds 60% shared LOD0 corners with {pair['b']}")
+    hashes = {entry["id"]: hashlib.sha256((ROOT / entry["path"]).read_bytes()).hexdigest()
+              for entry in entries}
+    triage = load_triage(RC4)
+    return pairs, reviewed_exceptions(pairs, hashes, triage)
 
 
 def level_image(entry, level=0, size=64, *, unpainted=False, yaw=215):
@@ -106,6 +171,49 @@ def comparison_sheets(entries, directory):
                     for j,yaw in enumerate((215,145)):
                         sheet.paste(level_image(entry,unpainted=True,yaw=yaw),(x+j*65,y))
             path=directory/f"{race}-{offset//8+1:02}.png"
+            sheet.save(path)
+            paths.append(path)
+    return paths + rc4_sheets(entries, directory)
+
+
+def age_span(ages):
+    """Display chronological contiguous intervals while retaining the authored base age elsewhere."""
+    runs = []
+    for index in sorted({AGES.index(age) for age in ages}):
+        if runs and index==runs[-1][-1]+1:
+            runs[-1].append(index)
+        else:
+            runs.append([index])
+    return ", ".join(AGES[run[0]].title() if len(run)==1 else
+                     f"{AGES[run[0]].title()} - {AGES[run[-1]].title()}" for run in runs)
+
+
+def rc4_sheets(entries, directory):
+    """Give all ten individual Town Center ages their own labelled pair of cameras."""
+    scope = {(row[1], row[2], row[3]) for row in json.loads((RC4 / "coordinator_families.json").read_text())}
+    families = catalog_families(entries)
+    paths = []
+    for race in RACES:
+        rows = []
+        for key, family in families.items():
+            if key[0] == race and key in scope:
+                for start in range(0, len(family), 5):
+                    rows.append((key[1], family[start:start+5]))
+        for offset in range(0, len(rows), 7):
+            page = rows[offset:offset+7]
+            sheet = Image.new("L", (823, 38+len(page)*86), 244)
+            pen = ImageDraw.Draw(sheet)
+            pen.text((8, 8), f"{race.title()}  |  coordinator round 2  |  unpainted LOD0, two 64 px views", fill=22)
+            for i, (kind, family) in enumerate(page):
+                y = 36+i*86
+                pen.text((8, y+32), kind, fill=22)
+                for j, entry in enumerate(family):
+                    x = 127+j*138
+                    label = age_span(entry["ages"])
+                    pen.text((x, y), label, fill=45)
+                    for camera, yaw in enumerate((215,145)):
+                        sheet.paste(level_image(entry, unpainted=True, yaw=yaw), (x+65*camera, y+15))
+            path = directory / f"rc4-{race}-{offset//7+1:02}.png"
             sheet.save(path)
             paths.append(path)
     return paths

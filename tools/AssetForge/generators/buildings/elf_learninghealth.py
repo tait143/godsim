@@ -380,8 +380,39 @@ def written_arts(m,kind):
             m.box((x,.259,z-.09),(.39,.034,.29),WHITE,material="ivory")
 
 
+def lecture_campus(m):
+    if m.era==2:
+        # A vaulted assembly hall and two reading galleries frame the college green.
+        vault(m,-.23,.32,.49,.37,.42,.43,roof="roof")
+        for x,z in ((.54,.12),(-.54,-.38)):
+            vault(m,x,z,.18,.31,.24,.19,roof="metal",ribs=False)
+        deck(m,.08,0,-.41,.30,.245,.17,"timber")
+        drum(m,.09,-.43,.13,.13,[(.17,1,"wall"),(.34,.70,"wall"),(.40,1,"trim")])
+        open_book(m,.09,.40,-.43,.89)
+        if m.lod==0:
+            for x in (-.50,-.13):
+                m.lamp(x,.02,-.08,.068)
+        return
+    # Classrooms radiate from the mast of a sky college. Its glazed bridge leads
+    # to a shaded ground-level reading court and a broad, forward-facing entrance.
+    drum(m,-.30,.19,.27,.26,[(0,1.03,"wall"),(.25,.80,"wall"),(1.09,.67,"glass"),
+                             (1.27,1.08,"trim"),(1.43,.54,"ivory")])
+    m.leaf((-.30,1.30,.18),(-.22,1.74,.32),.125,"accent")
+    pod(m,.36,.13,.36,.31,.58,.43,role="glass")
+    m.box((.015,.760,.17),(.42,.14,.19),WHITE,material="ivory")
+    if m.lod<2:
+        m.box((.015,.868,.17),(.40,.081,.15),WHITE,material="glass")
+    vault(m,-.29,-.20,.276,.25,.30,.14,roof="ivory",ribs=False)
+    deck(m,.27,0,-.46,.32,.25,.126,"roof")
+    drum(m,.27,-.45,.125,.11,[(.126,.93,"wall"),(.31,.73,"ivory"),(.35,1,"accent")])
+    open_book(m,.27,.35,-.46,.79)
+
+
 def science(m,kind):
     if kind=="University":
+        if m.era>=2:
+            lecture_campus(m)
+            return
         m.hall(-.40,.28,.36,.42,1.01,.61)
         # Half-round outdoor lecture court. The ranks face an open folio at the dais.
         with m.transform(translate=(.29,0,-.04),scale=(.77,.80,1.0)):

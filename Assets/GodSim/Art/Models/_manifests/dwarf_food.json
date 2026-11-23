@@ -63,25 +63,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1188,
+  "triangles": 914,
   "lod_triangles": [
-   1188,
-   628,
-   316
+   914,
+   520,
+   222
   ],
   "bounds": [
    [
-    -1.409999966621399,
+    -1.3949999809265137,
     0.0,
-    -1.3799999952316284
+    -1.3012499809265137
    ],
    [
-    1.409999966621399,
-    1.083150029182434,
-    1.3799999952316284
+    1.3949999809265137,
+    1.4850000143051147,
+    1.3424999713897705
    ]
   ],
-  "bytes": 145264,
+  "bytes": 123536,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_farm_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_classical_v0.png",
@@ -108,25 +108,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1064,
+  "triangles": 1302,
   "lod_triangles": [
-   1064,
-   636,
-   316
+   1302,
+   742,
+   398
   ],
   "bounds": [
    [
     -1.409999966621399,
     0.0,
-    -1.3799999952316284
+    -1.277999997138977
    ],
    [
     1.409999966621399,
-    1.372499942779541,
-    1.3799999952316284
+    1.1115000247955322,
+    1.3170000314712524
    ]
   ],
-  "bytes": 138152,
+  "bytes": 178084,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_farm_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_future_v0.png",
@@ -152,25 +152,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1032,
+  "triangles": 1070,
   "lod_triangles": [
-   1032,
-   604,
-   316
+   1070,
+   462,
+   298
   ],
   "bounds": [
    [
-    -1.409999966621399,
+    -1.4325000047683716,
     0.0,
-    -1.3799999952316284
+    -1.3049999475479126
    ],
    [
-    1.409999966621399,
-    0.9812399744987488,
-    1.3799999952316284
+    1.4325000047683716,
+    1.7115000486373901,
+    1.3350000381469727
    ]
   ],
-  "bytes": 133932,
+  "bytes": 130964,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_farm_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_farm_industrial_v0.png",
@@ -243,25 +243,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 814,
+  "triangles": 734,
   "lod_triangles": [
-   814,
-   382,
-   130
+   734,
+   374,
+   198
   ],
   "bounds": [
    [
-    -0.42500001192092896,
+    -0.4675000011920929,
     0.0,
-    -0.39500001072883606
+    -0.42399999499320984
    ],
    [
-    0.4025000035762787,
-    0.4602000117301941,
-    0.38499999046325684
+    0.4675000011920929,
+    0.484499990940094,
+    0.4410000145435333
    ]
   ],
-  "bytes": 98916,
+  "bytes": 96356,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_classical_v0.png",
@@ -288,25 +288,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 826,
+  "triangles": 758,
   "lod_triangles": [
-   826,
-   394,
-   130
+   758,
+   450,
+   202
   ],
   "bounds": [
    [
-    -0.42500001192092896,
+    -0.4699999988079071,
     0.0,
-    -0.39500001072883606
+    -0.4325000047683716
    ],
    [
-    0.4025000035762787,
-    0.4498000144958496,
-    0.38499999046325684
+    0.4699999988079071,
+    0.44699999690055847,
+    0.44749999046325684
    ]
   ],
-  "bytes": 100708,
+  "bytes": 101900,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_future_v0.png",
@@ -332,25 +332,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 826,
+  "triangles": 872,
   "lod_triangles": [
-   826,
-   394,
-   130
+   872,
+   386,
+   230
   ],
   "bounds": [
    [
-    -0.42500001192092896,
+    -0.4724999964237213,
     0.0,
-    -0.39500001072883606
+    -0.429500013589859
    ],
    [
-    0.4025000035762787,
-    0.41912001371383667,
-    0.38499999046325684
+    0.4724999964237213,
+    0.5580977201461792,
+    0.43549999594688416
    ]
   ],
-  "bytes": 100716,
+  "bytes": 111072,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_fishing_hut_industrial_v0.png",
@@ -468,25 +468,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 700,
+  "triangles": 750,
   "lod_triangles": [
-   700,
-   302,
-   194
+   750,
+   346,
+   226
   ],
   "bounds": [
    [
-    -0.42750000953674316,
+    -0.453249990940094,
     0.0,
-    -0.3395000100135803
+    -0.4000000059604645
    ],
    [
-    0.40689998865127563,
-    0.5718220472335815,
-    0.40959998965263367
+    0.453249990940094,
+    0.796999990940094,
+    0.42500001192092896
    ]
   ],
-  "bytes": 91792,
+  "bytes": 95928,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_hunting_lodge_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_hunting_lodge_classical_v0.png",
@@ -556,25 +556,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1258,
+  "triangles": 1122,
   "lod_triangles": [
-   1258,
-   526,
-   254
+   1122,
+   642,
+   282
   ],
   "bounds": [
    [
     -1.4175000190734863,
     0.0,
-    -1.350000023841858
+    -1.3020000457763672
    ],
    [
     1.4175000190734863,
-    1.9049999713897705,
-    1.350000023841858
+    1.3028249740600586,
+    1.3530000448226929
    ]
   ],
-  "bytes": 149584,
+  "bytes": 158212,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_industrial_farm_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_industrial_farm_future_v0.png",
@@ -685,25 +685,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1228,
+  "triangles": 1110,
   "lod_triangles": [
-   1228,
-   672,
-   326
+   1110,
+   562,
+   260
   ],
   "bounds": [
    [
-    -0.9745000004768372,
+    -0.9350000023841858,
     0.0,
-    -0.8050000071525574
+    -0.8299999833106995
    ],
    [
-    0.9745000004768372,
-    1.284999966621399,
-    0.8050000071525574
+    0.9350000023841858,
+    1.4279999732971191,
+    0.8500000238418579
    ]
   ],
-  "bytes": 157336,
+  "bytes": 131312,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Food/bld_dwarf_mill_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Food/bld_dwarf_mill_industrial_v0.png",

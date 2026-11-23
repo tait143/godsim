@@ -5,6 +5,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from generators.buildings.saurian_towncenters import Delta, generate
+from generators.buildings import saurian_delta_works as works
 
 PACKAGE = "saurian_commerce"
 
@@ -51,7 +52,57 @@ def pennon(m, x, y, z, h):
         m.face("turquoise", [(u,v,w+.005) for u,v,w in face])
 
 
+def counter(m,x,z,w,goods):
+    m.slab("timber" if m.era==1 else "ivory",x,.08,z,w,.22,.275,.87)
+    m.slab("turquoise",x,.30,z,w*1.04,.045,.298,underside=True)
+    for i,role in enumerate(goods):
+        if m.lod==2:
+            break
+        m.mound(role,x+(i-(len(goods)-1)/2)*w*.26,.345,z,w*.098,.078,n=(8,5)[m.lod])
+
+
+def exchange_market(m):
+    works.court(m)
+    if m.era==1:
+        # An open trading loggia carries a clay-tiled roof on cut stone columns.
+        for x in (-.68,0,.68):
+            for z in (.03,.59):
+                m.drum("wall",x,.08,z,.086,.63,.068)
+                if m.lod<2:
+                    m.drum("turquoise",x,.624,z,.088,.066)
+        m.slab("wall",0,.71,.31,1.61,.115,.79,underside=True)
+        m.hip_roof((0,.825,.31),1.55,.75,.46,m.color("roof_tile"),
+                   overhang=.048,material="roof_tile")
+        for x in (-.46,.48):
+            counter(m,x,-.235,.65,("leaf","thatch","flower"))
+        works.cartouche(m,0,.762,-.095,.059)
+    elif m.era==2:
+        # Covered wholesale hall with a tall sawtooth clerestory and a row of
+        # traders' counters beneath the broad awning on the street.
+        works.northlights(m,0,.25,1.54,.93,.61,.40)
+        works.shutters(m,0,.51,-.226,1.46,.135,6)
+        awning(m,.025,.52,-.397,1.53,.34,.087,"turquoise","ivory")
+        for x in (-.52,.52):
+            counter(m,x,-.52,.38,("leaf","hide"))
+        if m.lod<2:
+            m.jar(.47,.08,-.20,.081,"hide")
+    else:
+        # A mushroom-shaped shopping rotunda shelters a ring of vendor islands.
+        m.drum("glass",0,.08,.22,.31,.55,.28)
+        m.block("ivory",0,.08,-.055,.32,.40,.16)
+        m.entry(0,.08,-.135,.20,.335)
+        m.drum("ivory",0,.63,.22,.39,.26,.73,n=(16,10,7)[m.lod])
+        m.drum("turquoise",0,.89,.22,.746,.059,.70,n=(16,10,7)[m.lod])
+        m.mound("glass",0,.949,.22,.67,.29)
+        for x,z in ((-.56,-.23),(.52,-.34),(0,-.53)):
+            counter(m,x,z,.40,("gold","leaf"))
+        if m.lod<2:
+            m.disc(0,.80,-.282,.078)
+
+
 def market(m):
+    if m.era:
+        return exchange_market(m)
     m.slab("fieldstone",0,0,0,1.87,.08,1.77,.986,cut=.075)
     e=m.era
     # The roofline steps from the high exchange hut into the two open produce bays.
@@ -148,8 +199,67 @@ def sail(m,x,y,z,width,height,depth,role,reverse=False):
         m.face(role,[(u,v,w+.009) for u,v,w in reversed(face)])
 
 
+def charter_assembly(m):
+    # The ceremonial stair opens onto a broad council loggia. Its folded
+    # roof rises on two outward-facing wings above the public chamber.
+    works.court(m,-.19)
+    m.slab("ivory",-.18,.08,.15,1.28,.20,1.10,cut=.075)
+    m.stairs(-.19,.08,-.72,.67,.32,.20)
+    works.shell(m,-.18,.33,1.02,.65,.55,.28,door=False,material="glass")
+    m.block("ivory",-.18,.28,-.012,.49,.54,.10)
+    m.entry(-.18,.28,-.062,.40,.44)
+    m.slab("metal",-.18,.83,.30,.78,.14,.51)
+    for x in (-.70,.34):
+        m.block("ivory",x,.28,-.19,.103,.86,.12)
+    offsets=(-.69,-.31,.31,.69)
+    eaves=(1.25,.957,.957,1.25)
+    front,back=-.31,.74
+    for i,(left,right) in enumerate(zip(offsets,offsets[1:])):
+        x1,x2=left-.18,right-.18
+        low,high=eaves[i],eaves[i+1]
+        A,B,C,D=(x1,low,front),(x2,high,front),(x2,high,back),(x1,low,back)
+        E,F,G,H=((x,y+.071,z) for x,y,z in (A,B,C,D))
+        m.face("ivory",[A,B,C,D])
+        m.face("turquoise",[H,G,F,E])
+        m.face("gold",[B,A,E,F])
+        m.face("ivory",[D,C,G,H])
+        if i==0:
+            m.face("ivory",[A,D,H,E])
+        if i==2:
+            m.face("ivory",[C,B,F,G])
+    # The public charter hangs from a tall, footed standard at the stairhead.
+    x,z=.72,-.37
+    m.slab("ivory",x,.08,z,.26,.17,.27,.78)
+    m.drum("gold",x,.25,z,.043,1.16,.033)
+    m.rod("gold",(x-.46,1.32,z),(x+.047,1.32,z),.033)
+    a=(x-.41,1.30,z); b=(x-.08,1.30,z)
+    c=(x-.08,.76,z-.027); d=(x-.245,.87,z-.039); e=(x-.41,.72,z-.033)
+    for poly in ((a,b,d),(b,c,d),(a,d,e)):
+        m.face("banner",poly)
+        m.face("turquoise",[(xx,yy,zz+.014) for xx,yy,zz in reversed(poly)])
+    m.disc(x-.245,1.115,z-.017,.081,boss=False)
+    if m.lod==0:
+        m.disc(-.18,.76,-.068,.051)
+
+
 def guild(m):
     e=m.era
+    if e>=2:
+        if e==2:
+            # The weigh house and the trade clock stand on opposite sides
+            # of a single brick exchange floor.
+            works.court(m,-.25)
+            works.northlights(m,-.25,.17,1.08,1.13,.54,.29)
+            works.shell(m,.52,-.23,.41,.48,1.04,material="brick")
+            m.slab("trim",.52,1.12,-.23,.49,.10,.55,.95,underside=True)
+            m.rooflet(.52,1.22,-.23,.47,.52,.29,"roof")
+            m.disc(.52,.91,-.477,.138)
+            if m.lod==0:
+                m.rod("trim",(.52,.91,-.522),(.581,.967,-.522),.012,n=4)
+            works.shutters(m,-.25,.38,-.405,.99,.14,4)
+        else:
+            charter_assembly(m)
+        return
     m.slab("fieldstone",0,0,.03,1.85,.09,1.64,.978,cut=.11)
     m.slab("wall",-.10,.09,.17,1.49,.63,1.08,.97)
     m.slab("trim",-.10,.72,.17,1.60,.07,1.14,underside=True)
@@ -222,6 +332,34 @@ def cargo_boat(m,x,z,scale):
 
 def harbor(m):
     e=m.era
+    if e>=2:
+        m.slab("water",0,0,0,1.93,.055,1.85,cut=.10)
+        if e==2:
+            # A bucket elevator feeds a long, high loading spout over the barge.
+            m.slab("brick",-.56,.055,.08,.72,.21,1.53,.97)
+            works.barrel(m,-.56,.39,.59,.74,.37,.26,y=.265)
+            for x in (-.46,-.20):
+                for z in (-.43,-.17):
+                    m.block("metal",x,.265,z,.066,.75,.067)
+            works.vessel(m,-.33,-.30,.22,.42,y=1.015)
+            m.rod("metal",(-.29,1.23,-.30),(.38,.66,-.27),.095)
+            cargo_boat(m,.53,-.10,.92)
+            m.stairs(-.59,.055,-.895,.30,.21,.21)
+        else:
+            # A drive-through tidal lock straddles the hull, with a high control
+            # room carried by the lock walls and two distinct navigation beacons.
+            for x in (-.58,.58):
+                m.slab("ivory",x,.055,0,.39,.37,1.56,.92)
+                m.slab("turquoise",x,.425,0,.385,.075,1.57,.96)
+                works.shell(m,x,.28,.32,.52,.49,y=.50,door=False)
+                m.drum("gold",x,.50,-.56,.087,.20,.066)
+                m.mound("emissive",x,.70,-.56,.066,.09)
+            m.slab("glass",0,.99,.28,1.54,.26,.53,.91,underside=True)
+            m.slab("ivory",0,1.25,.28,1.49,.07,.55,.90,underside=True)
+            works.cartouche(m,0,1.118,.014,.066)
+            cargo_boat(m,0,-.32,.81)
+            m.stairs(-.58,.055,-.96,.30,.18,.445)
+        return
     m.slab("water",0,0,0,1.93,.060,1.86,.985,cut=.096)
     for x in (-.76,.106):
         for z in (-.52,.65):
@@ -268,6 +406,24 @@ def rails(m):
 
 def station(m):
     e=m.era
+    if e==3:
+        # The maglev runs across the site on a raised guideway. Its terminal
+        # occupies the ground floor and runs to the sheltered boarding level.
+        works.court(m,-.32)
+        works.shell(m,-.32,.25,.97,.83,.52,material="glass")
+        for x in (-.63,.06,.66):
+            m.slab("ivory",x,.08,-.37,.19,.63,.29,.78)
+        m.slab("turquoise",0,.71,-.33,1.82,.105,.47,.95,underside=True)
+        m.slab("metal",0,.815,-.33,1.76,.046,.27,.98)
+        m.slab("ivory",-.08,.861,-.33,1.28,.21,.37,.89,cut=.21)
+        m.slab("glass",-.08,1.071,-.33,1.09,.14,.33,.73,cut=.25)
+        m.slab("ivory",-.32,.60,.25,1.08,.10,.90,.89,underside=True)
+        for x in (-.67,.03):
+            m.block("ivory",x,.70,.36,.086,.42,.123)
+        works.panel(m,-.32,1.12,.36,1.10,.67,-12)
+        if m.lod<2:
+            works.cartouche(m,-.32,.47,-.172,.065)
+        return
     rails(m)
     m.slab("wall",-.43,.062,.02,.88,.10,1.73,.99,cut=.04)
     m.slab("brick" if e==2 else "glass",-.54,.162,.43,.55,.46,.61,.96)

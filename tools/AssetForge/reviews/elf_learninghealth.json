@@ -1438,6 +1438,40 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_elf_university_future_v0",
+          "evidence_sha256": "89ebb9eb7fe25a38f3915b42d06ea281be5e4fca0f7f7888bf553c9341eddbcc",
+          "observations": "A tall glazed tower and a broad, low lecture chamber share the site with an open book at the entrance. The book and chambers stay distinct when seen from the side; the tower provides a clear distant marker. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 737/425/210 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 92,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_university_industrial_v0",
+          "evidence_sha256": "786a30ab0f841989260dfff7b7f118a6fc7b52690e29c08a206b9b363e4b5aab",
+          "observations": "The main hall has a ribbed green vault and two low flanking wings. A broad, open volume on a reading stand marks the entrance, and the rear view preserves the spine of the vaulted hall. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 860/438/214 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

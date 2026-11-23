@@ -39,7 +39,247 @@ def pulley(m,x,y,z,r):
     m.disc(x,y,z+r*.08,r*.30,"gold",False)
 
 
+def ore_belt(m,x,z,w,length,low,angle):
+    """Inclined belt, its two abutments and deep girder cheeks."""
+    a=math.radians(angle)
+    middle=low+length*math.sin(a)*.5
+    for side in (-1,1):
+        offset=side*length*.39
+        zz=z+offset*math.cos(a)
+        h=middle+offset*math.sin(a)
+        m.slab("trim",x,.08,zz,w*.68,h-.08,w*.47,.83)
+    with m.transform(translate=(x,middle,z),rotate_x=-angle):
+        m.box((0,0,0),(w,.065,length),m.color("metal"),material="metal",bottom=True)
+        for s in (-1,1):
+            m.block("turquoise",s*w*.47,.0325,0,w*.105,.07,length*.98)
+        if m.lod==0:
+            for i in range(5):
+                m.block("trim",0,.0325,(i-2)*length*.16,w*.80,.029,.037)
+
+
+def ore_chunk(m,role,x,y,z,r,h,twist):
+    if m.lod<2:
+        return boulder(m,role,x,y,z,r,h,twist)
+    # A small nugget reads as one facet group. Keep the wider shoulder of
+    # bedrock outcrops so the reduced adit still has its supporting overburden.
+    def vertices(rad,height):
+        return [(x+r*rad*math.cos(twist+k*math.tau/5),y+height,
+                 z+r*.79*rad*math.sin(twist+k*math.tau/5)) for k in range(5)]
+    base=vertices(.93,0)
+    if r>=.30:
+        shoulders=vertices(.89,h*.51)
+        for i,b in enumerate(base):
+            j=(i+1)%5
+            m.face(role,[base[j],b,shoulders[i],shoulders[j]])
+        base=shoulders
+    tip=(x-r*.11,y+h,z+r*.053)
+    for i,v in enumerate(base):
+        m.face(role,[base[(i+1)%5],v,tip])
+
+
+def mineral_bench(m):
+    """Two cut faces with a continuous mineral seam and a walkable ledge between them."""
+    sections=[]
+    for x,front,low,high,back in ((-.86,-.04,.38,.81,.65),(-.43,.042,.47,1.03,.78),
+                                 (.08,.001,.45,.89,.73),(.47,.095,.37,.76,.77),
+                                 (.84,.177,.28,.51,.65)):
+        profile=[(front,.08),(front+.011,low*.53),(front+.024,low*.64),
+                 (front+.055,low),(front+.255,low+.012),
+                 (front+.284,high*.77),(front+.298,high*.84),
+                 (front+.333,high),(back,high-.085),(back,.08)]
+        sections.append([(x,y,z) for z,y in profile])
+    strata=("fieldstone","metal","fieldstone","slate","fieldstone","metal",
+            "fieldstone","slate","fieldstone")
+    for left,right in zip(sections,sections[1:]):
+        for j,role in enumerate(strata):
+            m.face(role,[right[j],left[j],left[j+1],right[j+1]])
+    for side,edge in ((-1,sections[0]),(1,sections[-1])):
+        for a,b in zip(edge,edge[1:]):
+            if a[2]==b[2]:
+                continue
+            face=[(a[0],.08,a[2])]
+            if a[1]>.08:
+                face.append(a)
+            face.extend([b,(b[0],.08,b[2])])
+            m.face("fieldstone",face if side==1 else face[::-1])
+
+
+def haul_track(m,z):
+    # The long bottom run sits flat. The curved ends and road wheels are still
+    # visible underneath the dump body from the two opposing isometric views.
+    outline=[(-.54,.08),(.49,.08),(.61,.17),(.56,.29),(-.55,.29),(-.66,.19)]
+    near=[(x,y,z-.068) for x,y in outline]
+    far=[(x,y,z+.068) for x,y in outline]
+    m.face("trim",near[::-1])
+    m.face("trim",far)
+    for i in range(len(near)):
+        j=(i+1)%len(near)
+        m.face("metal",[near[i],near[j],far[j],far[i]])
+    if m.lod<2:
+        for x in (-.47,-.15,.17,.47):
+            with m.transform(translate=(x,.181,z),rotate_x=-90):
+                m.drum("metal",0,-.078,0,.081,.156,n=(10,6)[m.lod],bottom=True)
+
+
+def bench_hauler(m):
+    z=-.400
+    for side in (-1,1):
+        haul_track(m,z+side*.183)
+    m.slab("turquoise",-.01,.29,z,1.34,.088,.49,.94,underside=True)
+    m.slab("ivory",-.466,.378,z,.40,.15,.43,.94)
+    m.slab("glass",-.471,.528,z,.351,.232,.39,.81)
+    m.slab("ivory",-.471,.760,z,.355,.045,.397,.93,underside=True)
+    # A flared ore skip, with a solid rim and an open interior for its load.
+    bottom=[(-.224,.378,z-.166),(.503,.378,z-.166),
+            (.503,.378,z+.166),(-.224,.378,z+.166)]
+    rim=[(-.247,.60,z-.275),(.70,.682,z-.275),(.70,.682,z+.275),(-.247,.60,z+.275)]
+    inner=[(x+(.027 if x<0 else -.035),y,zg+(.033 if zg<z else -.033)) for x,y,zg in rim]
+    floor=[(x*.94+.006,.409,z+(zg-z)*.90) for x,y,zg in bottom]
+    for i in range(4):
+        j=(i+1)%4
+        m.face("turquoise",[bottom[j],bottom[i],rim[i],rim[j]])
+        m.face("ivory",[rim[j],rim[i],inner[i],inner[j]])
+        m.face("metal",[inner[j],inner[i],floor[i],floor[j]])
+    m.face("slate",floor[::-1])
+    for x,dz,r,h in ((-.087,-.018,.167,.25),(.13,.031,.207,.31),(.40,-.023,.21,.29)):
+        ore_chunk(m,"fieldstone",x,.409,z+dz,r,h,.27+x)
+    if m.lod<2:
+        m.disc(-.466,.453,z-.215,.052,"gold",False)
+        for x in (-.08,.21,.49):
+            m.rod("ivory",(x,.40,z-.173),(x+.048,.602+(x+.16)*.07,z-.277),.020,n=4)
+
+
+def surface_mine(m):
+    mineral_bench(m)
+    bench_hauler(m)
+    # A short loading chute is built into the upper rock cut. Its lip spills
+    # into the hauler from the side, leaving the ore exposed throughout.
+    with m.transform(translate=(.34,.665,.125),rotate_x=-23):
+        m.box((0,0,0),(.26,.051,.60),m.color("metal"),material="metal",bottom=True)
+        for side in (-1,1):
+            m.block("ivory",side*.12,.0255,0,.034,.081,.59)
+        if m.lod==0:
+            for zz in (-.13,.025,.17):
+                m.block("metal",0,.0255,zz,.195,.021,.018)
+
+
+def ore_gallery(m):
+    works.court(m,role="soil")
+    if m.era==1:
+        # A timbered adit disappears between the two bedrock shoulders.
+        # Ore carts run out onto the loading apron beside a heap of tailings.
+        ore_chunk(m,"fieldstone",-.55,.08,.16,.34,.81,.41)
+        ore_chunk(m,"fieldstone",.43,.08,.34,.45,.68,.84)
+        ore_chunk(m,"fieldstone",-.18,.08,.46,.40,.98,.18)
+        x=-.11
+        m.block("door",x,.08,.075,.51,.40,.10)
+        for side in (-1,1):
+            m.rod("timber",(x+side*.26,.08,-.12),(x+side*.205,.52,-.12),.062,n=6)
+        m.block("timber",x,.505,-.12,.68,.12,.22)
+        ore_chunk(m,"fieldstone",x,.595,-.008,.31,.24,.33)
+        for z in ((-.68,-.49,-.30,-.11) if m.lod<2 else (-.62,-.16)):
+            m.block("timber",x,.08,z,.51,.027,.059)
+        for sign in (-1,1):
+            m.block("metal",x+sign*.146,.107,-.34,.036,.026,.86)
+            for z in (-.54,-.30):
+                with m.transform(translate=(x+sign*.146-.024,.206,z),rotate_z=-90):
+                    m.drum("metal",0,0,0,.073,.048,n=(8,6,4)[m.lod],bottom=True)
+        m.slab("timber",x,.228,-.42,.385,.21,.42,1.19,cut=.045,underside=True)
+        ore_chunk(m,"metal",x-.063,.438,-.45,.135,.11,.37)
+        ore_chunk(m,"fieldstone",x+.081,.438,-.37,.108,.087,.5)
+        ore_chunk(m,"soil",.58,.08,-.31,.264,.26,.24)
+        for xx,zz,r in ((.45,-.46,.093),(.73,-.32,.083)):
+            ore_chunk(m,"metal",xx,.08,zz,r,r,.61)
+        if m.lod<2:
+            for sx,yy,zz in ((-.63,.50,-.015),(.55,.33,.027)):
+                boulder(m,"metal",sx,yy,zz,.10,.105,.21)
+    elif m.era==2:
+        # Elevated ore tipple on column bearings empties onto a sloping belt.
+        for x in (-.40,.05):
+            for z in (.22,.62):
+                m.block("brick",x,.08,z,.125,.69,.13)
+        m.slab("metal",-.175,.77,.42,.53,.35,.47,1.36,underside=True)
+        m.slab("brick",-.175,1.12,.42,.75,.22,.66)
+        m.rooflet(-.175,1.34,.42,.80,.72,.22,"metal")
+        ore_belt(m,-.18,-.25,.39,1.02,.19,24)
+        works.barrel(m,.54,.14,.46,.75,.35,.13)
+        works.cartouche(m,-.175,1.22,.087,.060)
+    else:
+        surface_mine(m)
+
+
+def placer_works(m):
+    works.court(m,-.46,role="soil")
+    if m.era==1:
+        # River wheel turns a line of timber stampers over a gravel-washing bed.
+        works.basin(m,.14,-.22,1.18,.91)
+        for zz in (-.25,.13):
+            m.slab("wall",.27,.177,zz,.16,.47,.122,.79)
+        m.rod("timber",(.27,.64,-.37),(.27,.64,.23),.064)
+        works.wheel(m,.27,.64,-.139,.422,"timber")
+        works.pagoda(m,-.57,.41,.56,.72,.59)
+        m.slab("gold",-.21,.177,-.52,.31,.081,.19,.85)
+    elif m.era==2:
+        # A horizontal rotary wash drum discharges concentrate beside its furnace.
+        for z in (-.23,.47):
+            m.slab("brick",-.29,.08,z,.57,.31,.19,.76)
+        with m.transform(translate=(-.29,.55,-.375),rotate_x=83):
+            m.drum("metal",0,0,0,.255,1.08,.238,n=(16,10,6)[m.lod],bottom=True)
+            for h in (.19,.83):
+                m.drum("turquoise",0,h,0,.266,.062,n=(16,9,6)[m.lod])
+        works.spire(m,.51,.46,.21,.98)
+        ore_belt(m,.31,-.36,.45,.71,.17,21)
+        if m.lod<2:
+            m.disc(-.29,.55,-.390,.105)
+    else:
+        # Visible gold-bearing rock feeds the upper hopper; the sloping open
+        # wash plant deposits concentrate at its low end under an optical sorter.
+        ore_chunk(m,"fieldstone",-.58,.08,.35,.36,.77,.37)
+        ore_chunk(m,"fieldstone",-.60,.08,-.09,.23,.42,.89)
+        for x,y,z,r in ((-.56,.38,.085,.134),(-.43,.54,.24,.101),(-.65,.21,-.21,.086)):
+            ore_chunk(m,"gold",x,y,z,r,r*.83,.42)
+        for x in (.00,.40):
+            m.slab("ivory",x,.08,.50,.14,.48,.21,.78)
+        m.slab("metal",.20,.56,.50,.44,.25,.33,1.48,underside=True)
+        ore_chunk(m,"fieldstone",.18,.81,.49,.236,.17,.21)
+        ore_chunk(m,"gold",.32,.812,.42,.112,.097,.43)
+        ore_belt(m,.20,-.04,.63,1.07,.22,25)
+        # Freestanding optical bridge and underside scanner sit over the riffles.
+        for x in (-.22,.62):
+            m.slab("ivory",x,.08,-.12,.095,.65,.19,.78)
+        m.slab("turquoise",.20,.73,-.12,.96,.13,.22,.91,underside=True)
+        m.drum("glass",.20,.636,-.12,.084,.094,.104)
+        m.slab("metal",.20,.08,-.65,.65,.14,.27,1.10)
+        for x,z,r in ((.06,-.67,.125),(.31,-.61,.129),(.43,-.70,.087)):
+            ore_chunk(m,"gold",x,.22,z,r,r*.73,.27)
+
+
+def coal_reclaimer(m):
+    works.court(m,.41,role="soil")
+    # The bucket wheel cuts into the coal face and a belt carries it to the hopper.
+    boulder(m,"door",-.46,.08,.27,.47,.36,.20)
+    if m.lod<2:
+        boulder(m,"fieldstone",-.67,.08,.43,.22,.43,.51)
+    m.slab("ivory",.25,.08,-.06,.59,.25,.48,.79)
+    m.rod("metal",(.25,.33,-.06),(-.36,.67,-.11),.085)
+    m.rod("ivory",(.25,.33,-.06),(.32,.87,.13),.077)
+    m.rod("gold",(.32,.87,.13),(-.38,.67,-.10),.043)
+    works.wheel(m,-.38,.67,-.19,.35)
+    for k in range((7,5,3)[m.lod]):
+        a=k*math.tau/(7,5,3)[m.lod]
+        with m.transform(translate=(-.38+.34*math.cos(a),.67+.34*math.sin(a),-.145),
+                         rotate_z=math.degrees(a)):
+            m.slab("ivory",0,-.063,0,.125,.14,.17,.81)
+    ore_belt(m,.53,.21,.31,.88,.22,31)
+
+
 def mine(m,kind):
+    if kind=="Mine" and m.era:
+        return ore_gallery(m)
+    if kind=="GoldMine" and m.era:
+        return placer_works(m)
+    if kind=="CoalMine" and m.era==3:
+        return coal_reclaimer(m)
     role="gold" if kind=="GoldMine" else "door" if kind=="CoalMine" else "metal"
     frame="timber" if m.era<2 else "metal"
     m.slab("soil",0,0,.01,1.88,.078,1.74,.97)
@@ -107,6 +347,32 @@ def mine(m,kind):
 
 
 def quarry(m):
+    if m.era==1:
+        # A treadwheel crane on a broad masonry berth can drop blocks directly
+        # on the low stone sled. The uncut face forms a separate back wall.
+        works.court(m,role="soil")
+        m.slab("fieldstone",-.08,.08,.53,1.53,.47,.38,.93)
+        m.slab("wall",-.26,.55,.54,1.05,.21,.33,.95)
+        for z in (-.32,.02):
+            m.slab("wall",-.29,.08,z,.29,.46,.19,.65)
+        m.rod("timber",(-.29,.52,-.40),(-.29,.52,.13),.055)
+        works.wheel(m,-.29,.52,-.205,.337,"timber")
+        m.rod("timber",(-.29,.52,-.03),(.59,1.05,-.18),.079)
+        m.rod("trim",(-.48,.08,.08),(.38,.92,-.14),.039)
+        m.rod("trim",(.59,1.05,-.18),(.59,.58,-.18),.021)
+        for s in (-1,1):
+            m.rod("trim",(.59,.58,-.18),(.59+s*.10,.40,-.18),.020,n=4)
+        m.slab("fieldstone",.59,.28,-.18,.33,.175,.27,.91)
+        m.slab("timber",-.08,.08,-.55,.64,.085,.33,.90)
+        m.slab("wall",-.08,.165,-.55,.44,.16,.27,.92)
+        if m.lod==0:
+            for side in (-1,1):
+                m.rod("timber",(-.46,.08,side*.16-.14),(-.29,.52,side*.16-.14),.037)
+                m.block("gold",.59+side*.10,.272,-.18,.041,.012,.241)
+                for j in (-.051,.051):
+                    m.block("trim",.59+side*.10,.284,-.18+j,.032,.165,.031)
+            m.disc(-.29,.52,-.405,.091)
+        return
     if m.era>=2:
         works.footing(m,1.87,1.77,"soil")
         if m.era==2:

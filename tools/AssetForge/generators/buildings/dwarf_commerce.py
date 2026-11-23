@@ -55,6 +55,8 @@ def goods(m,x,y,z,role):
 
 def market(m):
     e=m.era
+    if e==3:
+        return kiosk_market(m)
     m.slab("fieldstone",0,0,.015,1.85,.117,1.66,.12)
     # The raised stone shop behind the open sales counters doubles as a roof abutment.
     h=(.60,.71,.67,.76)[e]
@@ -113,6 +115,33 @@ def market(m):
             lozenge(m,"trim",0,h-.208,-.762,.080,.101,.012)
             for side in (-1,1):
                 m.lamp(side*.722,.308,-.62,.064)
+
+
+def kiosk_market(m):
+    # A public market street runs between two mushroom-roofed sales islands.
+    m.slab("fieldstone",0,0,.018,1.90,.115,1.73,.18)
+    for x,z,r in ((-.502,-.22,.365),(.473,.028,.398)):
+        m.drum("wall",x,.108,z,r*.81,.309,r*.77)
+        m.drum("trim",x,.411,z,r*.937,.061,r*.917)
+        m.drum("metal",x,.467,z,r*.176,.438,r*.135)
+        m.drum("accent",x,.896,z,r*.782,.071,r*1.11)
+        m.drum("glass",x,.963,z,r*1.112,.173,r*.323)
+        if m.lod<2:
+            goods(m,x,.469,z-r*.57,"leaf" if x<0 else "flower")
+        if m.lod==0:
+            for side in (-1,1):
+                m.drum("gold",x+side*r*.565,.47,z-.012,.044,.059)
+    m.slab("wall",-.089,.112,.569,1.211,.316,.354,.125)
+    m.slab("glass",-.089,.422,.569,1.165,.164,.342,.125)
+    m.vault("ivory",-.089,.58,.569,1.291,.127,.402)
+    portal(m,-.201,.118,.392,.283,.272)
+    if m.lod<2:
+        m.block("metal",.21,.683,.565,.085,.166,.109)
+        disc(m,"gold",.21,.875,.599,.132,.082)
+    if m.lod==0:
+        lozenge(m,"trim",.21,.875,.513,.106,.128,.021)
+        for x in (-.236,.193):
+            m.block("accent",x,.116,-.633,.095,.015,.196)
 
 
 def vault_bank(m):

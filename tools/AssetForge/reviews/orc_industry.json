@@ -870,6 +870,82 @@
           ]
         }
       ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_orc_workshop_industrial_v0",
+          "evidence_sha256": "4d954bdf6c6225c834b7258f7030cd1bde7a9a0189fbbc5f65bafa2a8518d831",
+          "observations": "The open hammer gantry reads over its die. In the oblique view the spoked wheel stands off the brick shop, and the short axle ends before the facade. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 854/484/198 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 86,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Bridge the space between the wheel hub and the machine shop with a seated bearing and continuous axle at each LOD."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_orc_foundry_future_v0",
+          "evidence_sha256": "79455e32d667b116dc3553580770160626aff18e1de4b50500f266d70ff2bdae",
+          "observations": "The overhead electrode frame reaches into a broad glowing crucible. A short chute pours into a separate mould. The open gantry, bright orange pool and casting bed remain intelligible from the back. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 680/396/211 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_weaver_industrial_v0",
+          "evidence_sha256": "394ea64344478c1066d1c064a996df166a1d8fc78d4e61d683d1eb6c6bd4c929",
+          "observations": "An exposed broad cloth roll with tusk tips spans the front of a sawtooth-roofed weaving hall. Parallel hanging textile lengths remain visible at the middle distance. The chimney, beams and footings keep the frame legible from the side. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 802/391/218 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_orc_workshop_industrial_v0",
+          "evidence_sha256": "9718e513d84bc2e9f91822d5972cc9eb872752d32abaf712884faa4713700dbb",
+          "observations": "Beside the power hammer, the gold bearing rests on a tall cast frame with a visible footing. The extended axle spans the gap to the shop. Both 82° and 268° views show the path into the shop across all three LODs, including the simplified plate at LOD2. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 996/538/240 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

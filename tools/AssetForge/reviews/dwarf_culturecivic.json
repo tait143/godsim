@@ -654,6 +654,112 @@
           ]
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_dwarf_forum_future_v0",
+          "evidence_sha256": "36dacc3e257b9a70c903d9b0b757a34bdb49fcccbbdf8d1c86c1bb55ae97008b",
+          "observations": "The broad luminous oculus and paired diagonal masonry struts read over a squat round assembly hall. The base of each strut can be seen on the plinth in the side views. The reduced mesh keeps the skylight rim and the entrance beneath it.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            958,
+            546,
+            254
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_forum_classical_v0",
+            "b": "bld_dwarf_forum_future_v0",
+            "matched": 0,
+            "total": 2880
+          }
+        },
+        {
+          "id": "bld_dwarf_forum_industrial_v0",
+          "evidence_sha256": "81352a2943183220cc73d2d0874a4acde03e4baa767bc658fb775bfd660ca522",
+          "observations": "A glazed central hall sits below two brick wings and a projecting clock bay. The entrance forecourt reads in front, while the rear reveals the full depth of the shed. The clock face simplifies at distance but its raised bay and the central glass volume remain.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            968,
+            544,
+            255
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_forum_classical_v0",
+            "b": "bld_dwarf_forum_industrial_v0",
+            "matched": 0,
+            "total": 2880
+          }
+        },
+        {
+          "id": "bld_dwarf_theater_future_v0",
+          "evidence_sha256": "995fa592229c044196639b074d3ade4572064a926c1cd3dc198d2dd2cfd3840c",
+          "observations": "Canted acoustic panels stand behind a bare circular stage with split arcs of seating. From behind, the panels have visible supports. From the front, the open stage has a clear audience side. This remains legible apart from the enclosed Arena bowl at 64 pixels.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            760,
+            356,
+            208
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_theater_classical_v0",
+            "b": "bld_dwarf_theater_future_v0",
+            "matched": 0,
+            "total": 2838
+          }
+        },
+        {
+          "id": "bld_dwarf_theater_industrial_v0",
+          "evidence_sha256": "9ae708257d19cb1f5c025f66a5ab6b98754bbdfe6dcbc592af565bacfcbb7528",
+          "observations": "A tall brick stage house opens onto a raised platform, with two short audience banks facing it. The side view shows why the fly tower rises over the lower wing. At distance the proscenium, boards and benches still separate the theater from an arena.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            874,
+            498,
+            218
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_theater_classical_v0",
+            "b": "bld_dwarf_theater_industrial_v0",
+            "matched": 0,
+            "total": 2838
+          }
+        }
+      ]
     }
   ]
 }

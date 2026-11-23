@@ -412,6 +412,26 @@
           ]
         }
       ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_orc_military_base_future_v0",
+          "evidence_sha256": "294a0972f113babd25a347e9eb44c1898757fee6de1a485c5d3d0c68c401460f",
+          "observations": "An inclined radar array stands above a broad bunker, with two separate outlined landing pads at the approach. The reverse view shows the panel on its mounts. The flat pads and giant array separate the base from the previous gabled compound. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 704/401/207 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 92,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

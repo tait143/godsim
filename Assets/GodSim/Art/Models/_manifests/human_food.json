@@ -108,25 +108,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 720,
+  "triangles": 1192,
   "lod_triangles": [
-   720,
-   400,
-   166
+   1192,
+   576,
+   332
   ],
   "bounds": [
    [
-    -1.409999966621399,
+    -1.4049999713897705,
     0.0,
-    -1.409999966621399
+    -1.3250000476837158
    ],
    [
-    1.409999966621399,
-    1.190000057220459,
-    1.309999942779541
+    1.4049999713897705,
+    1.173050045967102,
+    1.3250000476837158
    ]
   ],
-  "bytes": 103420,
+  "bytes": 198636,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Food/bld_human_farm_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Food/bld_human_farm_future_v0.png",
@@ -243,25 +243,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 783,
+  "triangles": 589,
   "lod_triangles": [
-   783,
-   426,
-   166
+   589,
+   350,
+   148
   ],
   "bounds": [
    [
-    -0.4399999976158142,
+    -0.48500001430511475,
     0.0,
-    -0.41999998688697815
+    -0.4699999988079071
    ],
    [
-    0.47477999329566956,
-    0.8297099471092224,
-    0.41999998688697815
+    0.38609999418258667,
+    0.8899999856948853,
+    0.44999998807907104
    ]
   ],
-  "bytes": 113204,
+  "bytes": 97136,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Food/bld_human_fishing_hut_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Food/bld_human_fishing_hut_classical_v0.png",
@@ -288,25 +288,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 453,
+  "triangles": 693,
   "lod_triangles": [
-   453,
-   258,
-   136
+   693,
+   403,
+   220
   ],
   "bounds": [
    [
-    -0.4399999976158142,
+    -0.3721776008605957,
     0.0,
-    -0.41999998688697815
+    -0.43785199522972107
    ],
    [
-    0.47477999329566956,
-    0.6955199837684631,
-    0.41999998688697815
+    0.3721776008605957,
+    0.7210000157356262,
+    0.3923560082912445
    ]
   ],
-  "bytes": 68184,
+  "bytes": 112284,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Food/bld_human_fishing_hut_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Food/bld_human_fishing_hut_future_v0.png",
@@ -332,25 +332,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 475,
+  "triangles": 1241,
   "lod_triangles": [
-   475,
-   270,
-   126
+   1241,
+   742,
+   296
   ],
   "bounds": [
    [
-    -0.4399999976158142,
+    -0.48899999260902405,
     0.0,
-    -0.41999998688697815
+    -0.47699999809265137
    ],
    [
-    0.47477999329566956,
-    0.7987496256828308,
-    0.41999998688697815
+    0.48899999260902405,
+    0.7850000262260437,
+    0.47699999809265137
    ]
   ],
-  "bytes": 70476,
+  "bytes": 201892,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Food/bld_human_fishing_hut_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Food/bld_human_fishing_hut_industrial_v0.png",
@@ -685,25 +685,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 699,
+  "triangles": 697,
   "lod_triangles": [
-   699,
-   383,
-   196
+   697,
+   286,
+   108
   ],
   "bounds": [
    [
-    -0.7062932848930359,
+    -0.9100000262260437,
     0.0,
-    -0.49799999594688416
+    -0.8149999976158142
    ],
    [
-    0.835319995880127,
-    1.781293272972107,
-    0.6237199902534485
+    0.9100000262260437,
+    1.621000051498413,
+    0.875
    ]
   ],
-  "bytes": 99028,
+  "bytes": 87144,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Food/bld_human_mill_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Food/bld_human_mill_industrial_v0.png",

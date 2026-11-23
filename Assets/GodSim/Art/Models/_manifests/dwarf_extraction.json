@@ -329,25 +329,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 958,
+  "triangles": 968,
   "lod_triangles": [
-   958,
-   558,
-   245
+   968,
+   504,
+   283
   ],
   "bounds": [
    [
-    -0.9350000023841858,
+    -0.949999988079071,
     0.0,
-    -0.9100000262260437
+    -0.843999981880188
    ],
    [
-    0.9350000023841858,
-    1.4009000062942505,
-    0.9100000262260437
+    0.949999988079071,
+    1.091158151626587,
+    0.8859999775886536
    ]
   ],
-  "bytes": 136236,
+  "bytes": 129664,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Extraction/bld_dwarf_mine_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Extraction/bld_dwarf_mine_classical_v0.png",
@@ -374,25 +374,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 990,
+  "triangles": 819,
   "lod_triangles": [
-   990,
-   590,
-   277
+   819,
+   465,
+   236
   ],
   "bounds": [
    [
-    -0.9350000023841858,
+    -0.9549999833106995,
     0.0,
-    -0.9100000262260437
+    -0.8450000286102295
    ],
    [
-    0.9350000023841858,
-    1.683899998664856,
-    0.9100000262260437
+    0.9549999833106995,
+    1.371000051498413,
+    0.875
    ]
   ],
-  "bytes": 142236,
+  "bytes": 110572,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Extraction/bld_dwarf_mine_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Extraction/bld_dwarf_mine_future_v0.png",
@@ -418,25 +418,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 978,
+  "triangles": 727,
   "lod_triangles": [
-   978,
-   578,
-   265
+   727,
+   394,
+   225
   ],
   "bounds": [
    [
-    -0.9350000023841858,
+    -0.9399999976158142,
     0.0,
-    -0.9100000262260437
+    -0.8529999852180481
    ],
    [
-    0.9350000023841858,
-    1.6988999843597412,
-    0.9100000262260437
+    0.9399999976158142,
+    1.4709999561309814,
+    0.8769999742507935
    ]
   ],
-  "bytes": 139848,
+  "bytes": 104896,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Extraction/bld_dwarf_mine_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Extraction/bld_dwarf_mine_industrial_v0.png",

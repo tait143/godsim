@@ -522,6 +522,166 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_orc_farm_classical_v0",
+          "evidence_sha256": "7956c937630a50a53d4d0311f42e95636a40839b32a89d6caeaa2d0ca4b091d8",
+          "observations": "The beds descend as three broad watered terraces. A timber trellis with visible feet and horn tips spans the top bed. Its open uprights, crop lines and blue channels remain clear from the reverse. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 749/417/220 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_farm_future_v0",
+          "evidence_sha256": "b23ddd19d597b63ce7efe428c83c9af8610c3bc8713b12e086687c503db82660",
+          "observations": "Two three-tier crop racks stand on footed sloping steel legs. The side and rear views show the cradled trays meeting those frames, cross-bracing below, and the blue nutrient tank between the rows. This has a distinct A-shaped outline. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1086/481/340 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_fishing_hut_industrial_v0",
+          "evidence_sha256": "8f6aabc537004571665af20b03953c4d43cb30a1541e748ed01eeca2218faacd",
+          "observations": "A deep-hulled boat with mast and loading boom lies alongside the tall gabled landing shed. Barrels and the hanging catch connect the activities. The boat remains a continuous hull beside the yard from side and rear. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 945/440/226 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_hunting_lodge_classical_v0",
+          "evidence_sha256": "86c1f580fd2c379038a2ff5f505a45b11c7369455070247a48985e029abbb0bd",
+          "observations": "A tall hide-roofed lookout on splayed legs adjoins a smaller lodge. Its access ladder clears the roof and reaches the platform. The horned lookout, entry and stored gear survive the middle mesh. Painted previews cover classical, medieval. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 616/350/184 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_mill_industrial_v0",
+          "evidence_sha256": "2b8f2177db1601758003a2b57708b68639ead68899dcf30d3380180242252a88",
+          "observations": "A large open grain hopper, flywheel and intake wall sit outside the chimney-topped engine house. The open hopper rim and exposed wheel identify processing from both sides against the earlier windmill sails. Painted previews cover industrial. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1083/570/203 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_pasture_classical_v0",
+          "evidence_sha256": "350f927d73aaaa66289db0dc97d9fa8ea88612ddea850ccecf6405b0a53b19a7",
+          "observations": "A low, curved stone pen surrounds an elevated hide canopy and stock. The canopy corners land on timber posts. The open entrance and animals survive the side view as well as the main angle. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 574/284/168 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_pasture_future_v0",
+          "evidence_sha256": "fbb1502390e3d436fc68ccec297ed57287226d4ea14afd77048a1dd7bfbe95c7",
+          "observations": "Two stock animals locate the radial feeding unit on its pale pad. Several metal arms reach out from the blue central hopper. The functional arms, animals and horn-tipped cover carry through the mid-distance views. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 830/472/262 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 92,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_pasture_industrial_v0",
+          "evidence_sha256": "38f58d9242eb9128f1a9604e675aef6359e36b6abe08bb4739af7034b6961699",
+          "observations": "A round feed silo and dark barrel-roofed barn stand behind the fenced feeding line. The animals remain separate silhouettes in front, while the reverse preserves the continuous shelter and attached silo. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 762/383/232 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC4 critic, archived catalog comparison",
+      "models": [
+        {
+          "id": "bld_orc_fishing_hut_classical_v0",
+          "evidence_sha256": "a856f7cdb2dc2bbd40c57fa98f1535090a345d0b3048632238684d4a5884db35",
+          "observations": "Ancient and Classical both have the conical hut at the rear of a square jetty, a short boat across the near corner, and a hanging rack beside it. Switching the hut wall to pale masonry and varying the roof colour leaves the deck and roof profiles almost identical in both unpainted views. Inspected the archived GLB, all 3 painted age previews, both 64 px unpainted angles, the package assembly image and middle LOD from 215°, 125° and 35°. Serialized LODs 753/405/210 passed the geometry, budget, exposed overlap and winding checks. The largest directed corner share with a current era sibling was 57.769%.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 80,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Change the Classical fishing station's main roof or massing and rearrange the working dock and equipment so the era reads on an unpainted thumbnail."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC4 critic, catalog repair reinspection",
+      "models": [
+        {
+          "id": "bld_orc_fishing_hut_classical_v0",
+          "evidence_sha256": "0b5a60053596bc5c065e482c607c3d3feca8c25da4584c7c06242629ef780812",
+          "observations": "Two tall, horn-tipped timber posts carry perforated hanging fishing nets above the stone landing. A skiff alongside the steps and the open gap between the nets remain readable around the middle mesh. The tall drying rack replaces the ancient cone hut and sets the Classical station apart from the later gabled shed and the Future roofed dock. Inspected all 3 age previews, both 64 px gray family views and painted middle LOD at 215°, 125° and 35°. Serialized LODs 1411/675/370 passed geometry, budget, exposed overlap and winding checks. Maximum directed LOD0 corner overlap with an era sibling was 0.000%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

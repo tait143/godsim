@@ -63,25 +63,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 796,
+  "triangles": 749,
   "lod_triangles": [
-   796,
-   452,
-   222
+   749,
+   417,
+   220
   ],
   "bounds": [
    [
-    -1.402500033378601,
+    -1.147125005722046,
     0.0,
-    -1.3799999952316284
+    -1.0837124586105347
    ],
    [
-    1.402500033378601,
-    1.376099944114685,
-    1.3799999952316284
+    1.1237692832946777,
+    1.565693974494934,
+    1.0829999446868896
    ]
   ],
-  "bytes": 137572,
+  "bytes": 127344,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_farm_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_classical_v0.png",
@@ -108,25 +108,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1010,
+  "triangles": 1086,
   "lod_triangles": [
-   1010,
-   588,
-   302
+   1086,
+   481,
+   340
   ],
   "bounds": [
    [
-    -1.402500033378601,
+    -1.2825000286102295,
     0.0,
-    -1.3799999952316284
+    -0.9120000004768372
    ],
    [
-    1.402500033378601,
-    1.314835548400879,
-    1.3799999952316284
+    1.2825000286102295,
+    1.4784120321273804,
+    1.1991111040115356
    ]
   ],
-  "bytes": 177832,
+  "bytes": 178044,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_farm_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_future_v0.png",
@@ -243,25 +243,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 753,
+  "triangles": 1411,
   "lod_triangles": [
-   753,
-   405,
-   210
+   1411,
+   675,
+   370
   ],
   "bounds": [
    [
-    -0.4594879746437073,
+    -0.41562706232070923,
     0.0,
-    -0.42899999022483826
+    -0.33820000290870667
    ],
    [
-    0.4353843629360199,
-    0.7093999981880188,
-    0.4009999930858612
+    0.42214199900627136,
+    1.2218040227890015,
+    0.3610000014305115
    ]
   ],
-  "bytes": 124644,
+  "bytes": 234676,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_fishing_hut_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_classical_v0.png",
@@ -332,25 +332,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 763,
+  "triangles": 945,
   "lod_triangles": [
-   763,
-   405,
-   210
+   945,
+   440,
+   226
   ],
   "bounds": [
    [
-    -0.4594879746437073,
+    -0.4159815311431885,
     0.0,
-    -0.42899999022483826
+    -0.38243478536605835
    ],
    [
-    0.4353843629360199,
-    0.6436820030212402,
-    0.4009999930858612
+    0.34157073497772217,
+    0.8180999755859375,
+    0.37049999833106995
    ]
   ],
-  "bytes": 125780,
+  "bytes": 143980,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_fishing_hut_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_industrial_v0.png",
@@ -468,25 +468,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 782,
+  "triangles": 616,
   "lod_triangles": [
-   782,
-   411,
-   189
+   616,
+   350,
+   184
   ],
   "bounds": [
    [
-    -0.4365793466567993,
+    -0.4526750147342682,
     0.0,
-    -0.36590999364852905
+    -0.28825122117996216
    ],
    [
-    0.41438618302345276,
-    0.7896999716758728,
-    0.45545369386672974
+    0.3951905071735382,
+    1.2519359588623047,
+    0.42512500286102295
    ]
   ],
-  "bytes": 134808,
+  "bytes": 104180,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_hunting_lodge_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_hunting_lodge_classical_v0.png",
@@ -685,25 +685,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 887,
+  "triangles": 1083,
   "lod_triangles": [
-   887,
-   475,
-   274
+   1083,
+   570,
+   203
   ],
   "bounds": [
    [
-    -0.6096663475036621,
+    -0.8559609055519104,
     0.0,
-    -0.4165920615196228
+    -0.6055585145950317
    ],
    [
-    0.874540388584137,
-    1.609666347503662,
-    0.6744409799575806
+    0.7111528515815735,
+    1.3365000486373901,
+    0.7409999966621399
    ]
   ],
-  "bytes": 141756,
+  "bytes": 157224,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_mill_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_mill_industrial_v0.png",
@@ -773,25 +773,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1459,
+  "triangles": 574,
   "lod_triangles": [
-   1459,
-   784,
-   298
+   574,
+   284,
+   168
   ],
   "bounds": [
    [
-    -1.402500033378601,
+    -1.2108862400054932,
     0.0,
-    -1.372499942779541
+    -0.8428140878677368
    ],
    [
-    1.402500033378601,
-    1.5144000053405762,
-    1.372499942779541
+    1.2108862400054932,
+    1.2285000085830688,
+    1.0049099922180176
    ]
   ],
-  "bytes": 229224,
+  "bytes": 95868,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_pasture_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_classical_v0.png",
@@ -818,25 +818,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1485,
+  "triangles": 830,
   "lod_triangles": [
-   1485,
-   800,
-   314
+   830,
+   472,
+   262
   ],
   "bounds": [
    [
-    -1.402500033378601,
+    -1.0736265182495117,
     0.0,
-    -1.372499942779541
+    -1.3918200731277466
    ],
    [
-    1.402500033378601,
-    1.4438295364379883,
-    1.372499942779541
+    1.0736265182495117,
+    1.4990040063858032,
+    1.1548155546188354
    ]
   ],
-  "bytes": 233460,
+  "bytes": 154008,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_pasture_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_future_v0.png",
@@ -862,25 +862,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1469,
+  "triangles": 762,
   "lod_triangles": [
-   1469,
-   784,
-   298
+   762,
+   383,
+   232
   ],
   "bounds": [
    [
-    -1.402500033378601,
+    -1.251969575881958,
     0.0,
-    -1.372499942779541
+    -1.0623375177383423
    ],
    [
-    1.402500033378601,
-    1.3482794761657715,
-    1.372499942779541
+    1.14211106300354,
+    1.322100043296814,
+    1.0544999837875366
    ]
   ],
-  "bytes": 229848,
+  "bytes": 128532,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_pasture_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_industrial_v0.png",

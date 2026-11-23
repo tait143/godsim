@@ -33,6 +33,71 @@ def pail(m,x,y,z,r=.084):
 
 def well(m):
     e=m.era
+    if e==1:
+        # The spring issues from a hillside shrine into a public dipping basin.
+        m.course('fieldstone',0,.015,.89,.85,0,.063,.10)
+        m.solid('wall',-.012,.205,.67,.25,.063,.60)
+        m.hip(-.012,.205,.77,.36,.60,.19,'roof')
+        for x in (-.27,.25):
+            m.drum('ivory',x,.068,.056,.067,.57,.047)
+            if m.lod==0:
+                m.drum('gold',x,.068,.061,.52,.56)
+        inside=vessel(m,-.012,-.15,[(.214,.063,None),(.272,.189,'wall'),
+                          (.275,.255,'ivory'),(.221,.255,'trim'),(.193,.156,'wall')])
+        m.face('water',inside[::-1])
+        m.beam('gold',(-.012,.425,.12),(-.012,.403,-.107),.045)
+        m.beam('water',(-.012,.397,-.106),(-.012,.158,-.114),.016)
+        if m.lod<2:
+            m.front_panel('banner',-.012,.411,.075,.147,.146)
+        if m.lod==0:
+            pail(m,.326,.063,-.238,.052)
+            m.herbs(-.20,.285,.078,.13)
+        return
+    if e==2:
+        # Cast-iron village pump on its brick pedestal; a long rocking lever
+        # clears both the column and the shallow trough beneath the spout.
+        m.course('fieldstone',0,0,.84,.79,0,.056,.09)
+        x,z=-.14,.09
+        m.course('brick',x,z,.32,.29,.056,.33,.046)
+        m.drum('metal',x,z,.116,.33,.403,.103)
+        m.drum('metal',x,z,.085,.403,.79,.066)
+        m.drum('gold',x,z,.094,.79,.858,.070)
+        m.cupola('metal',x,z,.071,.858,.055)
+        m.bent_rail('metal',[(x,.793),(.11,.90),(.327,.59)],z,.048)
+        with m.transform(translate=(x,0,0),rotate_y=90):
+            m.bent_rail('metal',[(-z,.64),(.175,.654),(.197,.59)],0,.048)
+        m.course('wall',x,-.195,.37,.37,.056,.185,.046)
+        m.solid('water',x,-.195,.293,.286,.185,.19)
+        if m.lod<2:
+            m.drum('gold',x,z,.087,.55,.585)
+            m.beam('trim',(x+.044,.75,z),(.102,.857,z),.024)
+        if m.lod==0:
+            pail(m,.26,.056,-.20,.071)
+            m.front_panel('banner',x,.155,-.058,.124,.093)
+        return
+    if e==3:
+        # A sealed extraction head supplies a raised pressure tank and filling station.
+        m.course('wall',0,.01,.9,.79,0,.075,.10)
+        x,z=.14,.14
+        m.drum('metal',x,z,.125,.075,.323,.102)
+        m.drum('ivory',x,z,.125,.323,.444,.265)
+        m.drum('glass',x,z,.265,.444,.734,.24)
+        m.cupola('ivory',x,z,.24,.734,.131)
+        m.drum('accent',x,z,.059,.855,.908,.036)
+        m.solid('metal',-.254,-.133,.143,.174,.075,.45)
+        m.beam('ivory',(-.254,.423,-.133),(-.254,.423,-.29),.075)
+        m.beam('metal',(-.254,.262,-.134),(.14,.262,.14),.056)
+        m.course('metal',-.254,-.297,.266,.171,.075,.14,.025)
+        if m.lod<2:
+            m.front_panel('turquoise',-.254,.286,-.226,.073,.087)
+            m.drum('gold',x,z,.253,.646,.672,.252)
+        if m.lod==0:
+            for a in range(6):
+                t=2*pi*a/6
+                m.beam('ivory',(x+.255*cos(t),.445,z+.255*sin(t)),
+                       (x+.231*cos(t),.731,z+.231*sin(t)),.023)
+            m.herbs(.267,.103,-.288,.165)
+        return
     n=(14,7 if e==2 else 10,6)[m.lod]
     m.course('fieldstone',0,0,.88,.85,0,.052,.15)
     profile=[(.322,.052,None),(.350,.101,'fieldstone'),(.32,.125,'trim'),
@@ -224,6 +289,56 @@ def storehouse(m):
 
 def granary(m):
     e=m.era
+    if e==1:
+        # A masonry horreum: ventilated, buttressed storage nave and an open
+        # sack-weighing porch at the short end.
+        x,z=-.14,.16
+        f=m.hall(x,z,.90,1.07,.83,rise=.41,windows=False)
+        for sx in (-1,1):
+            for bz in (-.27,.13,.53):
+                m.block('fieldstone',(x+sx*.47,.325,bz),(.16,.52,.12),taper=.18)
+                if m.lod==0:
+                    with m.transform(translate=(x+sx*.455,0,bz),rotate_y=-90*sx):
+                        m.windows(0,-.004,.64,.12,.087,1)
+        m.entry(x,f,.31,.103,.47)
+        for sx in (-.45,.17):
+            m.drum('timber',sx,-.59,.040,.065,.57,.032)
+        m.hip(x,-.49,.82,.40,.568,.14)
+        for j,(bx,bz) in enumerate(((.565,-.26),(.56,.087),(.63,.42))):
+            if m.lod==2 and j==1: continue
+            if m.lod==2:
+                m.drum('roof_tile',bx,bz,.108,.066,.284,.091,n=5)
+            else:
+                m.jar(bx,bz,.066,.130,.27)
+        if m.lod==0:
+            m.pennon(-.51,-.58,.614,.25)
+        return
+    if e==3:
+        # Steep-sided dispensing hoppers sit in a braced rack. Grain descends
+        # to the collection bay beneath them from an enclosed top distributor.
+        for j,(x,z,r) in enumerate(((-.36,.21,.305),(.29,.29,.256))):
+            for s in (-1,1):
+                for t in (-1,1):
+                    m.solid('metal',x+s*r*.66,z+t*r*.69,.069,.069,.064,.78)
+            m.drum('metal',x,z,r*.22,.34,.69,r)
+            m.drum('ivory',x,z,r,.69,1.02,r*.98)
+            m.cupola('roof',x,z,r*.98,1.02,.13)
+            if m.lod<2:
+                m.drum('accent',x,z,r*1.008,.78,.827)
+                if m.lod==0:
+                    for s in (-1,1):
+                        m.beam('metal',(x-r*.66,.13,z+s*r*.69),(x+r*.66,.64,z+s*r*.69),.033)
+        m.course('wall',-.01,-.418,.69,.43,.064,.39,.071)
+        m.entry(-.01,-.633,.29,.070,.265,lintel='metal')
+        m.solid('metal',.642,.06,.215,.28,.065,1.29)
+        m.solid('glass',.642,.06,.19,.25,1.29,1.44)
+        m.beam('metal',(.64,1.33,.06),(-.36,1.14,.21),.089)
+        if m.lod==0:
+            m.windows(.642,-.085,.42,.14,.42,1)
+            m.pennon(.63,.06,1.431,.23)
+            for y in (.32,.49,.66,.83,1.00,1.17):
+                m.solid('gold',.757,.06,.042,.144,y,y+.027)
+        return
     if e<2:
         # A timber loft on mushroom-capped staddles keeps the store above damp ground.
         x,z=-.20,.16; w,d=1.18,.91

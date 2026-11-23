@@ -483,6 +483,152 @@
           ]
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_guildhall_future_v0",
+          "evidence_sha256": "4feb02879f4ecb332475e166a0ebeb1f9b0bdd063ccc0e5814e1addbc3724dcc",
+          "observations": "The two chambers and elevated link form a sound structure. Their cylindrical walls and blue caps are easily confused with the GoldMine tanks. Both front doors are too small to establish the public meeting function. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 868/454/210 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 3.143%.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 85,
+            "construction": 94,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the hall a public council entrance, gathering terrace or conspicuous charter standard that changes the two-chamber outline."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_guildhall_industrial_v0",
+          "evidence_sha256": "55df7b66d8a2bed61d0ac10ec7980d316389954985fdcd2398dbfb23eb94887d",
+          "observations": "A tall clock tower marks an entrance beside a broad sawtooth-roofed exchange floor. The clock and turquoise shutter band remain visible from the front quarter, and the side/rear keeps the tower separate from the lower trading hall. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 700/379/132 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 3.143%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_harbor_future_v0",
+          "evidence_sha256": "f459f9fecb87b6c63b0fa109a6efcb4301b8d0353e52e460e520a791a15b356a",
+          "observations": "Two loading quays flank a small craft in blue water below a bright transverse terminal. The ends carry stairways and small posts. The berth remains open through the middle mesh and under the bridge from the reverse. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 800/456/246 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 3.121%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_harbor_industrial_v0",
+          "evidence_sha256": "de2b7bd3c40889714166d155435e36b84a9787adf4eb08498369a7f5cc9a6b95",
+          "observations": "A dark loading crane and tripod frame project over a ship at a brick wharf. The craft sits clearly in the water from three views, with stairs at the quay end. The open steel frame contrasts with the later bridging terminal. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 705/409/204 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 3.121%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_market_classical_v0",
+          "evidence_sha256": "117a55684d563b9de3591b2bbf6a927f3a2bbac19797eb41048fd8e6700aa366",
+          "observations": "Two separate stocked counters sit under a long tile canopy carried on clear posts. Small coloured wares and turquoise rims identify the stalls from the entrance. The middle rear view reveals an open-sided arcade. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 996/566/224 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 10.443%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_market_future_v0",
+          "evidence_sha256": "7fd2377bd6eed4b789c48d770beed4bfda59bcef45ce1ca4b0e021e7c4e25557",
+          "observations": "Three separate selling counters surround a central kiosk with an oversized blue disc roof. The wares and entrances stay readable from the front and flank. The low circular canopy distinguishes this era from the gabled market. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 881/502/169 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 10.443%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_market_industrial_v0",
+          "evidence_sha256": "fd2e8740a75b232c3aaa6c8d8ccb63827faadb4adff395bc0945d667e350d631",
+          "observations": "A striped awning shades separate sales counters at the opening of a brick market hall. Three sawtooth roof bays remain clear from behind. The turquoise awning and counter rims set the stalls apart from the workshop-like roofline. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 886/490/152 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 10.443%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_rail_station_future_v0",
+          "evidence_sha256": "9ad7dc4e8b225603b45cc4a382e58648495415201fe31db9412db4a1ee06cb9b",
+          "observations": "The tapered carriage sits on a guideway that projects past both ends on three piers, with a separate shelter above the concourse. It reads best from the side where the carriage, track and roof separate; their similar blues merge somewhat from the main angle. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 617/351/169 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 90,
+            "construction": 93,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_guildhall_future_v0",
+          "evidence_sha256": "ad033e5c3210c0fa307cd8a43d100b4276e19a9963eae416fd5a5aca4e9471b4",
+          "observations": "The broad stair leads to a public colonnade beside a conspicuous charter banner. The folded turquoise roof stretches over the full assembly porch and changes its outline from both angles. At LOD1 the council hall retains its entry, stairs, charter and glazed enclosure. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 675/369/209 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 3.259%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

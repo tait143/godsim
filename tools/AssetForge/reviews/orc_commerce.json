@@ -535,6 +535,26 @@
           ]
         }
       ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_orc_bank_future_v0",
+          "evidence_sha256": "9899bbd1f2ad3b9b297e2fbb41c23678b7ee7f5d94dd6d08beee4a6071e3fd12",
+          "observations": "A thick arched strongroom presents a large combination wheel on its end wall. An offset round blue annex leaves the vault door clear from either approach. Both the wheel and the horn-tipped pale vault survive at the middle distance. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 996/515/198 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

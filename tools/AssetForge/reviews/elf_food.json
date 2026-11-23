@@ -672,6 +672,82 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_elf_farm_classical_v0",
+          "evidence_sha256": "2eaee1062f1fc29c79d28aea5bb8484d2b451b368cd352448f49643ce7f177ef",
+          "observations": "Three planted beds climb the stepped field. Repeated hanging purple crops and a tall leaf-shaped arch distinguish this orchard from the low round plots of the adjacent eras. The terraces stay intact from behind. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1214/458/258 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_farm_future_v0",
+          "evidence_sha256": "6ab7b892c1cbe07d1ea004d2c6d961b4457cd2a172fa6fa8514ee75d4a78777f",
+          "observations": "The crop channels run beneath two blue collector panels at the back of an oval plot. The slender frame, crop rows and two pale storage vessels survive the middle LOD; the roofed farmhouse of the earlier ages has gone. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1038/416/296 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 92,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_pasture_classical_v0",
+          "evidence_sha256": "1476913a4e2786664e53584b1f0ac2fad20e3a684554e49d05f3321e13eceffa",
+          "observations": "The paddock uses curved low fences, an arched gateway and a separate raised-roof stock shelter. The animals remain visible from the front and side of the middle model, and the dark door breaks the pale wall. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 820/466/169 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 6.616%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_pasture_future_v0",
+          "evidence_sha256": "2f990c25dbaddd2f6f2f16f550b918fe3576a3e32d4bae84c1576366876cbcd2",
+          "observations": "An umbrella-shaped blue roof on spreading white ribs shades the animal and trough. Small posts mark the open paddock. At the rear the upright cluster and separate trough still explain the layout. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1010/606/220 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 6.616%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_pasture_industrial_v0",
+          "evidence_sha256": "98007ee21a3d6fdfa4c41648eb43f8de7a27e5d6610ae4c92c409117ad24dcf3",
+          "observations": "An open-front, dark-roofed feeding shed places the animals in front of a long manger. The flank view reveals the stall posts and feeding area; the roof and back wall carry through the rear middle view. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 786/448/219 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 6.616%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

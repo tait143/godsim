@@ -5,6 +5,7 @@ from math import pi, cos, sin
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
 from generators.buildings.elf_learninghealth import WHITE, generate
+from generators.buildings.elf_institution_forms import deck, drum, vault
 
 
 def waterworks(m,kind):
@@ -50,6 +51,9 @@ def waterworks(m,kind):
 
 def storage(m,kind):
     if kind=="Granary":
+        if m.era:
+            seed_store(m)
+            return
         # Seed-shaped bins hold the grain above broad, rodent-resistant footings.
         for i,(x,z,r,h) in enumerate([(-.39,.18,.36,.83),(.34,.29,.36,1.04),(.13,-.40,.30,.64)]):
             rows=[(0,.54,m.masonry),(.13,.59,m.masonry),(.18,.81,"accent"),
@@ -72,6 +76,48 @@ def storage(m,kind):
             m.stem([(.58,.16,-.12),(.65,.70,-.11),(.46,.86,-.18)],
                    [.067,.043,.037],"metal")
             m.lamp(.46,.72,-.18,.065)
+
+
+def seed_store(m):
+    if m.era==1:
+        # A ventilated grain loft keeps the harvest off the wet ground.
+        for x in (-.37,.34):
+            for z in (-.27,.32):
+                drum(m,x,z,.15,.14,[(0,.96,"fieldstone"),(.27,.67,"wall"),(.36,1,"trim")])
+        vault(m,-.01,.04,.55,.46,.32,.31,base=.34,roof="thatch")
+        for step in range((5,3,2)[m.lod]):
+            count=(5,3,2)[m.lod]
+            h=.34*(step+1)/count
+            m.box((0,h/2,-.77+(step+.5)*.39/count),(.31,h,.39/count),WHITE,material="timber")
+        for x,z in ((.58,-.18),(.56,.12)):
+            drum(m,x,z,.127,.112,[(0,.68,"hide"),(.10,1,"hide"),(.22,.48,"trim"),(.24,.54,"thatch")])
+        return
+    if m.era==2:
+        # A tall bucket elevator feeds the drying silos through a covered gallery.
+        m.box((-.36,.67,.08),(.32,1.34,.36),WHITE,material="brick")
+        m.hood(-.36,1.32,.08,.27,.28,.24,"metal",small=True)
+        m.portal(-.36,0,-.11,.215,.33)
+        for z in (-.24,.33):
+            drum(m,.26,z,.285,.27,[(0,.78,"brick"),(.18,1,"metal"),(.86,1,"wall"),
+                                    (.90,1.04,"trim"),(1.02,.32,"metal")])
+        m.stem([(-.34,1.19,.07),(.27,1.03,.07),(.27,.96,.30)],
+               [.069,.061,.053],"roof",sides=(8,5,3)[m.lod])
+        if m.lod<2:
+            for h in (.45,.82):
+                m.box((-.36,h,-.105),(.17,.074,.021),WHITE,material="glass")
+        return
+    # An enclosed seed vault has a single almond-shaped shell and a low grading yard.
+    drum(m,-.15,.19,.49,.41,[(0,.60,"wall"),(.22,.78,"ivory"),(.49,.96,"roof"),
+                              (.78,1.04,"glass"),(1.03,.82,"ivory"),(1.24,.47,"roof"),
+                              (1.41,.10,"accent")])
+    for side in (-1,1):
+        m.stem([(-.15+side*.38,.04,.20),(-.15+side*.48,.64,.18),
+                (-.15+side*.36,1.05,.17),(-.15+side*.07,1.37,.17)],
+               [.064,.056,.048,.025],"trim",sides=(7,4,3)[m.lod])
+    vault(m,-.15,-.26,.24,.22,.31,.13,ribs=False,roof="ivory")
+    deck(m,.44,0,-.30,.27,.33,.13,"timber")
+    for z in (-.43,-.19):
+        drum(m,.44,z,.145,.10,[(.13,.64,"metal"),(.27,1,"gold"),(.29,.90,"thatch")])
 
 
 def power(m,kind):

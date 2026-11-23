@@ -712,6 +712,112 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_human_arena_industrial_v0",
+          "evidence_sha256": "1a783a08430f0b5acf1fec46900de389c2e0e426e6d5f16d73f15cfc713e59f0",
+          "observations": "Two facing roofed grandstands leave an open rectangular contest floor. The small end gates and blue railings give the approach a human scale. Both banks retain their seating and supports at distance, distinct from the round arenas and the single-ended theater stage.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1079,
+            520,
+            336
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_arena_classical_v0",
+            "b": "bld_human_arena_industrial_v0",
+            "matched": 0,
+            "total": 3624
+          }
+        },
+        {
+          "id": "bld_human_forum_industrial_v0",
+          "evidence_sha256": "ccb52bcb5e4625f43ddd712dcf5e811bc5528ad5431f42f856a16219a2f06410",
+          "observations": "The clock tower stands independently beside a tiered polygonal assembly hall. The low public entry reads against the round room, and the illuminated windows add scale at close range. The tower and round chamber stay separate in both far views.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            782,
+            352,
+            248
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_forum_classical_v0",
+            "b": "bld_human_forum_industrial_v0",
+            "matched": 0,
+            "total": 1530
+          }
+        },
+        {
+          "id": "bld_human_tavern_future_v0",
+          "evidence_sha256": "0f0fedaccd93a7a1dceaee7cc1aaf4d923935e0fbdd5c5734a42b6f8ef1249c9",
+          "observations": "The broad top-lit drum rises over a narrower blue glazed room. A serving entrance and freestanding tables make the public use apparent from the front. At distance the outer seating and narrower stem still separate it from the earlier gabled taproom.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            963,
+            434,
+            272
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_tavern_classical_v0",
+            "b": "bld_human_tavern_future_v0",
+            "matched": 0,
+            "total": 2226
+          }
+        },
+        {
+          "id": "bld_human_tavern_industrial_v0",
+          "evidence_sha256": "e07a8b73d90c9d73a951b81aebb8dea81f5c0a3d039adddc5fd94ff1c1627ab0",
+          "observations": "A conical brewery tower sits beside a brick taproom, with large horizontal casks at the junction. The casks mark the approach and the Human gable anchors the composition. The second roof and tower remain separate in both far views.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            627,
+            342,
+            152
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_tavern_classical_v0",
+            "b": "bld_human_tavern_industrial_v0",
+            "matched": 0,
+            "total": 2226
+          }
+        }
+      ]
     }
   ]
 }

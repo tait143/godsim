@@ -157,6 +157,9 @@ class Grove(MeshBuilder):
 
 
 def farm(m):
+    if m.era in (1,3):
+        planted_fields(m)
+        return
     m.disk("plaster" if m.era==0 else "soil",0,0,0,1.48,1.45,.055,.99, (20,12,8)[m.lod])
     m.hall(-.38,.054,.47,.48,.39,.55+.05*m.era,.42+.035*m.era)
     # Three curved planting beds follow the sweep of the boundary.
@@ -184,6 +187,49 @@ def farm(m):
             m.limb("metal",[(.48,.47,.44),(.34,.47,.55),(.03,.28,.56)],[.045,.043,.041])
 
 
+def planted_fields(m):
+    from generators.buildings.elf_trade_forms import arch, block
+    if m.era==1:
+        # Three rising vineyard terraces, each with a loaded vine and a dry sidewall.
+        for j in range(3):
+            z=-.72+j*.62
+            h=.14+.135*j
+            width=2.10-.21*j
+            block(m,"fieldstone",(0,h/2,z),(width,h,.54),.06)
+            block(m,"soil",(0,h+.016,z),(width*.90,.032,.46))
+            for s in (-1,1):
+                block(m,"timber",(s*.37*width,h+.178,z),(.058,.34,.06))
+            m.limb("timber",[(-.38*width,h+.319,z),(.38*width,h+.321,z+.008)],[.028,.028],4)
+            clusters=(6,4,2)[m.lod]
+            for i in range(clusters):
+                x=width*.74*((i+.5)/clusters-.5)
+                reach=.42*width/clusters
+                m.leaf("leaf",(x-reach,h+.31,z),(x+reach,h+.31,z+.03),.10,.068)
+                if m.lod==0 or (m.lod==1 and i%2==0):
+                    m.lump("flower",(x,h+.235,z-.05),(.055,.083,.052),5)
+        arch(m,0,.394,.58,.62,.85,.17,"trim")
+        return
+    # A solar rake spans two long beds. The small drive carriage stays beside the rows.
+    m.disk("soil",0,0,-.01,1.34,1.20,.071,.99,(18,12,7)[m.lod])
+    for j in range(4):
+        x=-.76+j*.47
+        length=1.45+.19*(j in (1,2))
+        block(m,"wall",(x,.108,.02),(.33,.082,length))
+        block(m,"grass",(x,.153,.02),(.24,.016,length*.96))
+        blades=(7,5,3)[m.lod]
+        for i in range(blades):
+            z=.02+length*((i+.5)/blades-.5)
+            m.leaf("leaf" if j%2==0 else "thatch",(x-.123,.157,z-.047),(x+.105,.22,z+.055),.11,.12)
+    for x in (-.91,.85):
+        block(m,"metal",(x,.30,.33),(.081,.47,.103))
+    block(m,"trim",(-.03,.548,.33),(1.84,.084,.14))
+    for x in (-.41,.35):
+        with m.transform(translate=(x,.601,.32),rotate_x=-12):
+            block(m,"glass",(0,0,0),(.68,.053,.38))
+    m.disk("metal",.82,.069,-.27,.17,.19,.25,.87)
+    m.crown(.82,.31,-.27,.18,.20,.10,"ivory",4)
+
+
 def deer(m,x,z,angle):
     with m.transform(translate=(x,.052,z),rotate_y=angle):
         m.lump("hide",(0,.24,0),(.12,.133,.219),6)
@@ -198,6 +244,9 @@ def deer(m,x,z,angle):
 
 
 def pasture(m):
+    if m.era:
+        stockyard(m)
+        return
     m.disk("plaster" if m.era==0 else "grass",0,0,0,1.44,1.40,.055,1, (20,14,10)[m.lod])
     if m.era==0:
         m.disk("grass",-.033,.055,-.053,1.06,1.02,.009,1,(16,10,6)[m.lod])
@@ -222,6 +271,66 @@ def pasture(m):
     if m.era>=2:
         m.disk("metal",.42,.055,.86,.16,.15,.45,1)
         m.lump("glass",(.42,.503,.86),(.151,.124,.146),6)
+
+
+def stockyard(m):
+    from generators.buildings.elf_trade_forms import arch, block, gable
+    m.disk("grass",0,0,0,1.33,1.23,.055,.98,(18,12,7)[m.lod])
+    if m.era==1:
+        # An almond-shaped stone byre shelters one side of the grazing court.
+        block(m,"wall",(-.45,.37,.34),(.70,.64,.65),.09)
+        gable(m,-.45,.67,.34,.96,1.02,.46)
+        m.portal(-.45,.055,.005,.38,.48)
+        arch(m,.59,.055,-.48,.58,.47,.091,"timber")
+        animals=[(.24,-.47,24),(-.56,-.65,-54)]
+    elif m.era==2:
+        # An open feed barn has a long steel spine, paired stanchions and a hayloft.
+        for x in (-.70,.64):
+            for z in (.10,.68):
+                block(m,"metal",(x,.39,z),(.077,.67,.077))
+        gable(m,-.03,.72,.39,1.72,1.01,.45,"metal")
+        block(m,"timber",(-.03,.238,.62),(1.31,.367,.16))
+        for x in (-.48,.16,.48):
+            m.lump("thatch",(x,.23,.35),(.15,.18,.15),6)
+        # The deer face the feeder, with an open lane between the stock and the barn.
+        animals=[(-.29,-.30,164),(.53,-.39,194)]
+        block(m,"timber",(-.03,.19,-.01),(1.02,.25,.16),.12)
+        if m.lod<2:
+            for x in (-.40,.34):
+                block(m,"trim",(x,.275,-.015),(.072,.42,.18))
+    else:
+        # A high weather sail protects an open nursery. The stalk and roots carry the canopy.
+        m.disk("wall",-.38,.053,.41,.32,.31,.18,.74)
+        for a in (.21,2.18,4.12):
+            dx,dz=math.cos(a),math.sin(a)
+            m.limb("ivory",[(-.38+.38*dx,.08,.41+.33*dz),(-.38+.12*dx,.54,.41+.12*dz),
+                            (-.38+.22*dx,1.10,.41+.19*dz)],[.11,.09,.072])
+        m.crown(-.38,1.04,.41,.79,.63,.29,"glass",5)
+        m.disk("trim",.65,.056,.23,.22,.37,.24,.93)
+        m.disk("water",.65,.294,.23,.18,.31,.014)
+        # A smaller calf rests in the lee of the sail. An adult drinks at the trough.
+        animals=[(.65,-.27,179),(-.31,.22,79)]
+        for x in (-.74,.13):
+            m.disk("ivory",x,.054,-.56,.12,.11,.20,.58)
+            m.lump("emissive",(x,.265,-.56),(.075,.065,.075),6)
+    if m.lod==2:
+        x,z,angle=animals[0]
+        with m.transform(translate=(x,.05,z),rotate_y=angle):
+            m.lump("hide",(0,.25,0),(.13,.13,.22),5)
+            m.limb("hide",[(0,.22,-.13),(0,.42,-.24),(0,.43,-.30)],[.09,.072,.043],4)
+            for z in (-.13,.13):
+                block(m,"timber",(0,.105,z),(.13,.21,.043))
+        return
+    for i,(x,z,a) in enumerate(animals):
+        with m.transform(translate=(x,0,z),scale=(.72,.72,.72) if i and m.era==3 else (1,1,1)):
+            deer(m,0,0,a)
+    if m.era!=1:
+        return
+    for sign in (-1,1):
+        points=[(sign*1.01,.14,-.45),(sign*1.12,.14,.10),(sign*.94,.14,.55)]
+        for x,y,z in points:
+            m.disk("trim",x,.043,z,.045,.043,.22,.78,5)
+        m.limb("timber" if m.era==1 else "metal",points,[.035]*3,4)
 
 
 def hull(m,x,y,z,length,width):

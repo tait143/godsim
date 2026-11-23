@@ -401,6 +401,87 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_human_monastery_industrial_v0",
+          "evidence_sha256": "770189f23f9ace620f4fd524e46253aa24154ed18eb2e07181c2b220265ccb31",
+          "observations": "The tall refectory-like wing, lower chapel roof and separate bell opening create a stepped complex. A blue banner and two garden beds mark the entry. The bell tower remains visible from the rear above the smaller wing in the coarse mesh.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            901,
+            498,
+            226
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_monastery_classical_v0",
+            "b": "bld_human_monastery_industrial_v0",
+            "matched": 0,
+            "total": 3465
+          }
+        },
+        {
+          "id": "bld_human_shrine_industrial_v0",
+          "evidence_sha256": "46bb5f33d7b739d7c8d4b024309dcea612c6616eb1e93a78c2fa2186acdfe3bd",
+          "observations": "An open iron lantern rises from a stepped brick pedestal, with a small blue plaque and planting at the approach. Its bright core can be seen from both sides. The slender post, pedestal and canopy stay distinct when the far level drops the small ornament.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            807,
+            316,
+            201
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_shrine_ancient_v0",
+            "b": "bld_human_shrine_industrial_v0",
+            "matched": 0,
+            "total": 1626
+          }
+        },
+        {
+          "id": "bld_human_temple_classical_v0",
+          "evidence_sha256": "9b335cf98e054810dc0f2f076a237053ff244e5a9ec699a5b91d5752f61c2b33",
+          "observations": "A full peristyle carries a broad tiled round roof and gold finial. Entry steps, planters and a small blue banner locate the front without interrupting the columns. The rear and far views retain both the colonnade and recessed wall around the cella.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1159,
+            532,
+            195
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_temple_ancient_v0",
+            "b": "bld_human_temple_classical_v0",
+            "matched": 0,
+            "total": 2241
+          }
+        }
+      ]
     }
   ]
 }

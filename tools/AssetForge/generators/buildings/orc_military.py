@@ -8,6 +8,8 @@ from building_scope import AGES, package_models
 from forge import publish
 from forge.render import contact_sheet
 from generators.buildings.orc_towncenters import Lodge
+from generators.buildings import orc_civic_trades
+from generators.buildings.orc_learninghealth import build_lodge
 
 PACKAGE = "orc_military"
 WALL = ("hide", "fieldstone", "brick", "glass")
@@ -439,6 +441,8 @@ def base(m):
 
 
 def build(spec,lod):
+    if spec.building_type=="MilitaryBase" and spec.band=="future":
+        return build_lodge(spec,lod,lambda m,t: orc_civic_trades.military_base(m))
     m=Lodge(spec,lod)
     draw={"Barracks":barracks,"Watchtower":tower,"Castle":castle,"MilitaryBase":base,
           "Palisade":palisade,"StoneWall":stonewall}

@@ -183,25 +183,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1315,
+  "triangles": 1247,
   "lod_triangles": [
-   1315,
-   620,
-   245
+   1247,
+   653,
+   305
   ],
   "bounds": [
    [
-    -0.925000011920929,
+    -0.949999988079071,
     0.0,
-    -0.9700000286102295
+    -0.9350000023841858
    ],
    [
-    0.925000011920929,
-    1.9759999513626099,
+    0.949999988079071,
+    1.8801000118255615,
     0.8650000095367432
    ]
   ],
-  "bytes": 161788,
+  "bytes": 162932,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_classical_renaissance_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_classical_renaissance_v0.png",

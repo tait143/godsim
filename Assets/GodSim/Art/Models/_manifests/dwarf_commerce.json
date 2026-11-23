@@ -546,25 +546,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 874,
+  "triangles": 944,
   "lod_triangles": [
-   874,
-   384,
-   212
+   944,
+   530,
+   254
   ],
   "bounds": [
    [
-    -0.925000011920929,
+    -0.949999988079071,
     0.0,
-    -0.8629999756813049
+    -0.847000002861023
    ],
    [
-    0.925000011920929,
-    1.2380000352859497,
-    0.8450000286102295
+    0.949999988079071,
+    1.1360000371932983,
+    0.8830000162124634
    ]
   ],
-  "bytes": 110752,
+  "bytes": 129712,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_market_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_market_future_v0.png",

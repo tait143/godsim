@@ -6,6 +6,8 @@ import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
 from generators.buildings.orc_towncenters import Lodge, generate
 from generators.buildings.orc_extraction import wheel
+from generators.buildings.orc_learninghealth import build_lodge
+from generators.buildings import orc_machine_halls
 
 PACKAGE="orc_industry"
 
@@ -306,6 +308,9 @@ def foundry(m):
 
 
 def build(spec,lod):
+    designer=orc_machine_halls.DESIGNS.get((spec.building_type,spec.band))
+    if designer:
+        return build_lodge(spec,lod,lambda m,t: designer(m))
     m=Lodge(spec,lod)
     w,d=spec.footprint
     name=spec.building_type

@@ -47,5 +47,40 @@
     "finding": "RC1 catalog review at 64 px found that the Future Saurian Farm repeated the stacked circular crop decks and leaf crown of the HydroponicsTower. Replace the main tower with low, visible cultivated or irrigated beds in both Information and Ascension.",
     "models": ["bld_saurian_farm_future_v0"],
     "status": "closed"
+  },
+  {
+    "finding": "RC4 catalog review found the Future Saurian Mine and OilWell share a tall tripod bore rig and turquoise cap at both Information and Ascension. Give the Mine a visible mineral face or adit and a haulage or sorting structure large enough to identify at 64 px.",
+    "models": ["bld_saurian_mine_future_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "RC4 review found that both unpainted angles of the Classical Orc FishingHut repeat its ancient round hut, conical roof, skiff, net hanger and square dock. Give the Classical fishing station its own profile and work arrangement visible at 64 px.",
+    "models": ["bld_orc_fishing_hut_classical_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "Classical Human Barracks repeats the Iron cross-gabled block, projecting front gable, pennant and entry shield from both camera angles. Reorganize the Classical barracks around a court, arcade or transverse hall.",
+    "models": ["bld_human_barracks_classical_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "Classical Human Blacksmith repeats the earlier end-gabled shop, shallow side awning and open furnace at the same height and position. Give the Classical forge a different working section, such as an open masonry forge bay with a deep hood and bellows.",
+    "models": ["bld_human_blacksmith_classical_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "Classical Orc WoodcutterCamp repeats the earlier conical hut, stack of three logs, stump and axe in the same positions. Give the Classical camp a different log-splitting or piling arrangement under an open frame.",
+    "models": ["bld_orc_woodcutter_camp_classical_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "Future Saurian Granary repeats the industrial paired upright silos, overhead feeding pipe, matching slab supports and same chutes. The sides swell slightly but the industrial handling plant dominates both 64 px views. Reconfigure the storage and loading equipment.",
+    "models": ["bld_saurian_granary_future_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "The Iron, Classical and Future Saurian Temples repeat the massing, stair and solar crowns of the coexisting Iron, Classical and Ascension TownCenters respectively. Give each temple a legible worship space distinct from the civic hall at both 64 px angles.",
+    "models": ["bld_saurian_temple_ancient_v0", "bld_saurian_temple_classical_v0", "bld_saurian_temple_future_v0"],
+    "status": "closed"
   }
 ]

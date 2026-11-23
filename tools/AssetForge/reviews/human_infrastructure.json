@@ -541,6 +541,137 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_human_granary_classical_v0",
+          "evidence_sha256": "3bb28d08f73bfd9270cb02558ab4e7d2d58ff6b5be4eea65e15b6ea434a7ba44",
+          "observations": "A buttressed masonry store has a tiled loading porch and a line of grain jars beside the approach. The buttresses remain visible from the flank at distance. The covered loading side separates this store from the ancient low timber building and the industrial silo group.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            699,
+            355,
+            186
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_granary_ancient_v0",
+            "b": "bld_human_granary_classical_v0",
+            "matched": 66,
+            "total": 1986
+          }
+        },
+        {
+          "id": "bld_human_granary_future_v0",
+          "evidence_sha256": "f9f785dffa6db892676d3da6f0e34403db1ac8a905b265d97d41d7da9a0872c3",
+          "observations": "Paired raised hoppers and an overhead transfer bridge give the silos a legible route to the tall elevator. The reverse view exposes their legs and tapered undersides. These lift clear of the ground at the far level, unlike the solid lower cylinders of the earlier granary.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            792,
+            454,
+            244
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_granary_ancient_v0",
+            "b": "bld_human_granary_future_v0",
+            "matched": 66,
+            "total": 1986
+          }
+        },
+        {
+          "id": "bld_human_well_classical_v0",
+          "evidence_sha256": "3b07906b6a1eb086da915ec1a82962101e1577eca1697153a91467191780dcf6",
+          "observations": "A stone basin stands under the forward edge of a tiled wall pavilion. The projecting spout and dark vertical stream meet the water, with a pot at the near corner. The basin, upright supports and water remain distinct from the older pitched wellhead at the far level.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 92,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            505,
+            210,
+            136
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_well_ancient_v0",
+            "b": "bld_human_well_classical_v0",
+            "matched": 0,
+            "total": 1665
+          }
+        },
+        {
+          "id": "bld_human_well_future_v0",
+          "evidence_sha256": "bfe7311b54cddefd95b383785e5f3332a882f01825984f8b0bdd71ddec074b2c",
+          "observations": "The bulbous elevated reservoir feeds a separate dispenser through a level pipe. Its side view shows the tank on its own pier and the dispenser resting on a separate base. The far mesh preserves their connection even as the tank loses facets.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            505,
+            258,
+            136
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_well_ancient_v0",
+            "b": "bld_human_well_future_v0",
+            "matched": 0,
+            "total": 1665
+          }
+        },
+        {
+          "id": "bld_human_well_industrial_v0",
+          "evidence_sha256": "8901c014379934735c89c6b42f107113c3f55e359c824e4be1a1e4caf9683c66",
+          "observations": "A cast-iron hand pump stands above a low open trough on a brick plinth. The handle reaches to one side while the spout points over the water. The handle, column and receiving basin remain readable from the flank at the far level.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            470,
+            266,
+            146
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_well_ancient_v0",
+            "b": "bld_human_well_industrial_v0",
+            "matched": 0,
+            "total": 1665
+          }
+        }
+      ]
     }
   ]
 }

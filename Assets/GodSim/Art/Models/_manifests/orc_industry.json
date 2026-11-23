@@ -504,25 +504,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1450,
+  "triangles": 680,
   "lod_triangles": [
-   1450,
-   825,
-   418
+   680,
+   396,
+   211
   ],
   "bounds": [
    [
-    -1.2604799270629883,
+    -1.142169713973999,
     0.0,
-    -1.289084553718567
+    -1.1328749656677246
    ],
    [
-    1.2958500385284424,
-    2.714250087738037,
-    1.117703914642334
+    0.9833986759185791,
+    1.565459966659546,
+    1.1542500257492065
    ]
   ],
-  "bytes": 251128,
+  "bytes": 110580,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_foundry_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_foundry_future_v0.png",
@@ -904,25 +904,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 760,
+  "triangles": 802,
   "lod_triangles": [
-   760,
-   433,
+   802,
+   391,
    218
   ],
   "bounds": [
    [
-    -0.4837248623371124,
+    -0.3657500147819519,
     0.0,
-    -0.29016464948654175
+    -0.28737500309944153
    ],
    [
-    0.46887296438217163,
-    0.47384148836135864,
-    0.39594513177871704
+    0.3695791959762573,
+    1.077299952507019,
+    0.3526875078678131
    ]
   ],
-  "bytes": 138320,
+  "bytes": 122216,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_weaver_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_weaver_industrial_v0.png",
@@ -994,25 +994,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 682,
+  "triangles": 996,
   "lod_triangles": [
-   682,
-   405,
-   176
+   996,
+   538,
+   240
   ],
   "bounds": [
    [
-    -0.9209499955177307,
+    -0.8646934628486633,
     0.0,
-    -0.5925301909446716
+    -0.6813874840736389
    ],
    [
-    0.7400000095367432,
-    1.4458500146865845,
-    0.8830999732017517
+    0.8263764977455139,
+    1.4418359994888306,
+    0.7742499709129333
    ]
   ],
-  "bytes": 110128,
+  "bytes": 148560,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_workshop_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_workshop_industrial_v0.png",

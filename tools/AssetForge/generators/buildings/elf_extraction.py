@@ -324,6 +324,9 @@ def conduit_mine(m):
 
 
 def mine(m,kind):
+    if kind in ("GoldMine","CoalMine") and m.era==3:
+        sorting_works(m,kind)
+        return
     if kind == "GoldMine" and m.era == 1:
         washing_mine(m)
         return
@@ -382,6 +385,44 @@ def mine(m,kind):
             m.portal(-.61,.005,-.169,.139,.201)
     elif m.lod<2:
         m.lump("emissive",(-.287,.264,-.263),(.035,.058,.036),5)
+
+
+def sorting_works(m, kind):
+    if kind=="CoalMine":
+        # An enclosed incline runs over the portal to the open coal loading pocket.
+        cliff(m,-.34,.28,.37,.31,.68,1 if m.lod==2 else 2,"slate")
+        arch(m,-.33,0,-.067,.46,.47,.22,"ivory")
+        block(m,"door",(-.33,.145,-.06),(.27,.29,.085))
+        for x,z,h in ((.035,.28,.66),(.47,-.31,.37)):
+            block(m,"metal",(x,h/2,z),(.10,h,.10))
+        m.limb("trim",[(.028,.67,.28),(.27,.55,-.02),(.50,.37,-.33)],
+               [.119,.116,.11],(9,6,4)[m.lod])
+        m.disk("metal",.45,0,-.42,.28,.25,.25,1.15)
+        heap=[(.43,-.40,.36),(.31,-.47,.30),(.56,-.47,.32)]
+        for x,z,h in (heap[:1] if m.lod==2 else heap):
+            m.lump("door",(x,.245,z),(.14,h-.12,.13),6)
+        m.disk("ivory",-.025,.58,.26,.18,.18,.25,.89)
+        m.crown(-.025,.81,.26,.22,.20,.20,"roof",4)
+        if m.lod<2:
+            m.leaf("accent",(-.14,.78,.25),(-.31,1.09,.35),.07,.05)
+        return
+    # A split rock cut feeds a bank of descending centrifugal gold pans.
+    cliff(m,-.33,.39,.34,.29,.56,1 if m.lod==2 else 2,"fieldstone")
+    arch(m,-.32,0,.14,.46,.38,.20,"wall")
+    block(m,"door",(-.32,.11,.14),(.27,.22,.08))
+    for i,(x,z,r,h) in enumerate(((.32,.32,.33,.72),(.27,-.13,.25,.42),(.12,-.52,.19,.23))):
+        m.disk("ivory",x,0,z,r*.45,r*.48,h*.69,.87,(12,8,4)[m.lod])
+        m.disk("metal",x,h*.67,z,r*.52,r*.52,h*.28,1.86)
+        m.disk("gold",x,h*.94,z,r*.97,r*.97,h*.065,1.02)
+        if m.lod<2 or i==0:
+            m.disk("water",x,h*1.004,z,r*.80,r*.81,.013,.99)
+        if i<2 and m.lod<2:
+            m.limb("water",[(x,h*.94,z-r*.80),(x-.06,h*.66,z-r-.07)],
+                   [.042,.037],5)
+    jib(m,-.56,0,-.31,.37,.64)
+    if m.lod==0:
+        for x in (-.37,-.23):
+            m.lump("gold",(x,.071,-.43),(.08,.07,.09),6)
 
 
 def oilwell(m):

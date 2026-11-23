@@ -182,6 +182,12 @@ def prayer_door(m,x,y,z,w,h):
 
 def temple(m):
     e=m.era
+    if e==1:
+        return ancestor_rotunda(m)
+    if e==2:
+        return carillon_temple(m)
+    if e==3:
+        return halo_temple(m)
     m.slab("fieldstone",0,0,.04,1.84,.166,1.58,.14,.035)
     m.slab("wall",0,.16,.18,1.52,.46,1.17,.14)
     m.vault("roof",0,.614,.19,1.69,(.251,.311,.232,.258)[e],1.33)
@@ -208,6 +214,81 @@ def temple(m):
         for s in (-1,1):
             for z in (-.14,.49):
                 m.slab("fieldstone",s*.753,.128,z,.156,.48,.166,.11,.20)
+
+
+def ancestor_rotunda(m):
+    # A drum sanctuary sits behind a low freestanding bell gate on the processional axis.
+    m.slab("fieldstone",0,0,.01,1.85,.149,1.71,.205)
+    m.drum("wall",0,.143,.303,.577,.512,.547,n=(12,8,6)[m.lod])
+    m.drum("accent",0,.649,.303,.574,.086,.561,n=(12,8,6)[m.lod])
+    m.dome((0,.73,.303),.584,m.color("roof_tile"),rings=(4,3,2)[m.lod],
+           segments=(12,8,6)[m.lod],squash=.681,material="roof_tile")
+    prayer_door(m,0,.153,-.249,.443,.413)
+    for x in (-.445,.445):
+        m.slab("fieldstone",x,.142,-.52,.249,.573,.31,.12,.145)
+        if m.lod==0:
+            m.slab("trim",x,.629,-.52,.229,.084,.298,.12)
+    m.vault("wall",0,.707,-.52,1.176,.168,.354)
+    bell(m,0,.463,-.527,.344)
+    if m.lod<2:
+        m.rune(0,.796,-.699,.173)
+        for x in (-.69,.69):
+            votive(m,x,.147,-.166,.59)
+    if m.lod==0:
+        for angle in (-1.22,-.69,.71,1.23):
+            x,z=.561*math.sin(angle),.303-.561*math.cos(angle)
+            m.drum("ivory",x,.153,z,.075,.468,.062,n=7)
+
+
+def carillon_temple(m):
+    # Cast bells hang in two open slots in the stepped industrial campanile.
+    m.slab("fieldstone",0,0,.012,1.87,.129,1.74,.12)
+    m.slab("brick",.197,.123,.227,1.117,.529,1.011,.097)
+    m.vault("slate",.197,.645,.227,1.241,.317,1.102)
+    prayer_door(m,.197,.133,-.284,.429,.455)
+    x,z=-.566,.237
+    m.slab("brick",x,.121,z,.461,.687,.577,.109,.047)
+    m.slab("trim",x,.802,z,.491,.071,.607,.12)
+    for s in (-1,1):
+        m.block("brick",x+s*.169,.868,z,.084,.586,.414)
+    for j in range(2):
+        y=.968+j*.295
+        bell(m,x,y,z-.032,.241)
+        m.block("metal",x,y+.173,z-.024,.365,.041,.122)
+    m.vault("metal",x,1.448,z,.491,.172,.595)
+    m.slab("slate",.201,.123,-.496,.612,.092,.389,.095)
+    if m.lod<2:
+        for side in (-1,1):
+            m.slab("brick",.178+side*.433,.124,-.472,.242,.204,.231,.105)
+            votive(m,.178+side*.433,.324,-.472,.476)
+    if m.lod==0:
+        for xx in (-.086,.201,.478):
+            m.block("glass",xx,.685,-.328,.103,.109,.031)
+        m.rune(x,.603,z-.295,.163)
+
+
+def halo_temple(m):
+    # A suspended annular resonator and bronze bell share the axis of a terraced prayer hall.
+    m.slab("fieldstone",0,0,.026,1.86,.138,1.73,.212)
+    m.slab("wall",0,.132,.284,1.47,.302,.918,.221,.13)
+    m.slab("glass",0,.428,.284,1.28,.107,.813,.205)
+    m.slab("ivory",0,.528,.284,1.374,.105,.894,.185)
+    for s in (-1,1):
+        m.beam("ivory",(s*.525,.615,.336),(s*.273,1.083,.274),.169)
+    m.wheel(0,1.238,.287,.395,"gold",4)
+    m.block("trim",0,.915,.263,.225,.082,.186)
+    bell(m,0,.669,.252,.359)
+    m.slab("wall",0,.137,-.236,.648,.264,.398,.13)
+    m.vault("metal",0,.393,-.235,.72,.12,.443)
+    prayer_door(m,0,.144,-.434,.368,.24)
+    if m.lod<2:
+        for s in (-1,1):
+            m.slab("slate",s*.529,.134,-.451,.235,.142,.25,.17)
+            votive(m,s*.529,.271,-.451,.61)
+    if m.lod==0:
+        m.rune(0,.46,-.464,.152)
+        for x in (-.516,.516):
+            m.block("accent",x,.25,-.151,.118,.061,.061)
 
 
 def cathedral(m):

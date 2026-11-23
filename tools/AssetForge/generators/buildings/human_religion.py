@@ -186,6 +186,31 @@ def totem(m):
 
 
 def shrine(m,era):
+    if era==2:
+        # A cast street lantern on a civic memorial pillar stands where
+        # the older open altar stood. The eternal flame shows through the cage.
+        x,z=-.032,.072
+        m.course('fieldstone',x,z,.56,.53,0,.105,.073)
+        m.course('brick',x,z,.39,.36,.105,.376,.036,.022)
+        m.drum('metal',x,.376,z,.175,.146,.129,n=8)
+        m.drum('metal',x,.522,z,.086,.331,.063,n=8)
+        m.drum('gold',x,.853,z,.078,.08,.161,n=8)
+        for sx in (-1,1):
+            for sz in (-1,1):
+                m.beam('metal',(x+sx*.094,.925,z+sz*.09),(x+sx*.123,1.166,z+sz*.116),.023)
+        m.flame(x,.932,z,.402)
+        m.hip_roof((x,1.16,z),.303,.29,.14,m.color('slate'),overhang=0,material='slate')
+        m.drum('gold',x,1.3,z,.026,.072,.010)
+        m.steps(x,z-.268,.36,.104,n=2)
+        if m.lod<2:
+            m.standard(x,.316,z-.183,.158,.125)
+            with m.transform(translate=(.212,0,-.20),scale=.72):
+                m.planter(0,0,.097)
+        if m.lod==0:
+            for s in (-1,1):
+                m.drum('gold',x,.533+s*.019,z,.09,.012,n=10)
+                m.planter(x+s*.211,.21,.065)
+        return
     # All roadside shrines present an open, accessible lamp under a weatherproof canopy.
     m.course('fieldstone',0,.036,.77,.63,0,.080,.086)
     m.steps(0,-.275,.48,.081,n=2,tread=.068)
@@ -239,6 +264,30 @@ def shrine(m,era):
 
 
 def temple(m,era):
+    if era==1:
+        # A circular sanctuary, ringed by a peristyle beneath a tiled cone.
+        # A broad stone approach and a projecting door bay interrupt the ring.
+        x,z=-.011,.112
+        m.drum('fieldstone',x,0,z,.764,.125,n=(18,12,8)[m.lod])
+        m.drum('wall',x,.125,z,.441,.655,n=(14,9,7)[m.lod])
+        n=(10,8,6)[m.lod]
+        for i in range(n):
+            a=2*math.pi*(i+.5)/n
+            cx,cz=x+.605*math.sin(a),z+.605*math.cos(a)
+            m.drum('ivory',cx,.125,cz,.052,.626,.041,n=(8,6,4)[m.lod])
+            if m.lod==0:
+                m.drum('wall',cx,.712,cz,.062,.053,.072,n=8)
+        m.drum('trim',x,.751,z,.699,.094,n=(18,12,8)[m.lod])
+        m.drum('roof',x,.845,z,.755,.414,.189,n=(18,12,8)[m.lod])
+        m.dome_cap('gold',x,1.259,z,.185,.139)
+        m.course('wall',x,-.319,.31,.203,.125,.593,.029)
+        m.entry(x,-.421,.205,.126,.348)
+        m.steps(x,-.632,.46,.126,n=3)
+        if m.lod<2:
+            m.standard(x,.599,-.421,.137,.107)
+            for s in (-1,1):
+                m.planter(x+s*.447,-.567,.103)
+        return
     m.course('fieldstone',0,.07,1.67,1.55,0,.145,.14)
     m.steps(0,-.703,1.04,.146,n=3,tread=.067)
     if era in (0,1):
@@ -362,6 +411,31 @@ def cathedral(m,era):
 
 
 def monastery(m,era):
+    if era==2:
+        # A hillside religious house combines a tall dormitory with a compact
+        # chapel. The detached brick bell gable overlooks its kitchen garden.
+        m.course('fieldstone',0,0,1.84,1.78,0,.078,.128)
+        m.course('brick',-.385,.24,.68,1.03,.078,1.102,.04)
+        m.gable(-.385,1.102,.24,.78,1.13,.32,'slate','brick')
+        m.entry(-.385,-.275,.256,.082,.402)
+        m.course('wall',.307,.356,.565,.78,.078,.602,.033)
+        m.gable(.307,.602,.356,.65,.879,.363)
+        m.pointed_light(.307,.122,-.040,.235,.40,'door')
+        m.belfry(.488,-.48,.078,.32,.91,2)
+        for x in (-.55,-.20):
+            m.block('timber',(x,.124,-.564),(.26,.094,.412))
+            m.block('leaf',(x,.191,-.564),(.19,.083,.369),taper=.17)
+        if m.lod<2:
+            for y in (.595,.848):
+                for x in (-.573,-.37,-.174):
+                    m.pointed_light(x,y,-.28,.129,.172)
+            m.rose(.307,.679,-.071,.078)
+        if m.lod==0:
+            for z in (-.029,.325,.591):
+                with m.transform(translate=(-.042,0,z),rotate_y=-90):
+                    m.pointed_light(0,.71,0,.157,.251)
+            m.standard(-.635,.539,-.283,.151,.222)
+        return
     # Three residential ranges surround a sunken herb garth; the pedestrian gate is on its south side.
     m.course('fieldstone',0,0,1.85,1.82,0,.08,.13)
     chapel_height=(0,.66,.74,.70)[era]

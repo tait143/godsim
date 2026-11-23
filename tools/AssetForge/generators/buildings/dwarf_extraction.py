@@ -60,6 +60,12 @@ def headframe(m,x,z,y,span,h,mat):
 
 def mine(m):
     e=m.era
+    if e==1:
+        return treadwheel_mine(m)
+    if e==2:
+        return incline_mine(m)
+    if e==3:
+        return shaft_mine(m)
     mineral="metal"
     height=.71
     m.slab("soil",0,0,0,1.87,.075,1.82,.12)
@@ -109,6 +115,115 @@ def mine(m):
             m.block("metal",x+s*.186,.106,z,.059,.066,.353)
     if m.lod==0:
         m.lamp(-.57,.074,-.48,.128)
+
+
+def ore_heap(m,x,y,z,scale):
+    stones=(((0,0,.191),) if m.lod==2 else
+            ((-.114,-.051,.13),(.037,.074,.147),(.129,-.072,.087)))
+    for dx,dz,r in stones:
+        m.dome((x+dx*scale,y,z+dz*scale),r*scale,m.color("metal"),
+               rings=1,segments=(7,5,4)[m.lod],squash=.91,material="metal")
+
+
+def treadwheel_mine(m):
+    # Hand-powered winch on a masonry bearing wall beside the rock-cut entrance.
+    m.slab("soil",0,0,.021,1.90,.089,1.73,.17)
+    outcrop(m,.325,.38,.543,.404,.605,"metal")
+    m.vault("fieldstone",.316,.084,-.031,.897,.619,.681)
+    m.entry(.315,.092,-.374,.469,.491)
+    for z in (-.275,.197):
+        m.slab("fieldstone",-.446,.082,z,.277,.563,.166,.125,.185)
+    m.wheel(-.448,.642,-.023,.447,"timber",4 if m.lod==2 else 6)
+    with m.transform(translate=(-.448,.644,.251),rotate_x=-90):
+        m.drum("trim",0,0,0,.079,.609)
+    if m.lod<2:
+        for j in range((10,5)[m.lod]):
+            a=math.tau*j/(10,5)[m.lod]
+            with m.transform(translate=(-.448+.414*math.cos(a),.642+.414*math.sin(a),-.023),
+                             rotate_z=math.degrees(a)):
+                m.block("timber",0,-.025,0,.099,.052,.247)
+    m.slab("timber",-.401,.083,-.568,.519,.134,.319,.066)
+    ore_heap(m,-.403,.208,-.568,.98)
+    if m.lod==0:
+        for x in (.163,.457):
+            m.block("timber",x,.09,-.571,.053,.034,.402)
+        m.lamp(.689,.088,-.445,.111)
+        # Rope drum on the back of the axle. Its cheeks keep the coils aligned.
+        with m.transform(translate=(-.448,.644,.293),rotate_x=90):
+            m.drum("timber",0,0,0,.124,.208)
+            for y in (.015,.154):
+                m.drum("trim",0,y,0,.143,.035)
+        m.beam("trim",(-.331,.65,.383),(-.331,.24,.381),.022)
+
+
+def incline_mine(m):
+    # An inclined skipway runs from a low buttressed adit to a high ore tipple.
+    m.slab("fieldstone",0,0,.012,1.88,.107,1.73,.125)
+    outcrop(m,-.45,.361,.392,.391,.473,"metal")
+    m.vault("brick",-.423,.099,-.048,.713,.502,.591)
+    m.entry(-.423,.111,-.346,.382,.398)
+    for x in (.317,.718):
+        for z in ((.119,.544) if m.lod<2 else (.319,)):
+            m.block("metal",x,.102,z,.098,.715,.098)
+    m.slab("metal",.517,.711,.332,.457,.328,.453,.085,-.35)
+    m.slab("brick",.517,1.031,.332,.625,.288,.619,.08)
+    m.vault("metal",.517,1.313,.332,.678,.158,.684)
+    m.beam("trim",(-.508,.199,-.531),(.481,1.087,.244),.194,.258)
+    m.beam("metal",(-.183,.104,-.266),(-.183,.507,-.266),.086)
+    if m.lod<2:
+        for s in (-1,1):
+            m.beam("metal",(-.499+s*.064,.227,-.531-s*.078),
+                   (.465+s*.064,1.099,.243-s*.078),.034)
+        for x in (.317,.718):
+            m.beam("metal",(x,.172,.119),(x,.692,.546),.052)
+    m.slab("timber",.537,.103,-.323,.523,.24,.508,.098)
+    ore_heap(m,.54,.34,-.322,1.04)
+    m.beam("metal",(.534,.743,.259),(.534,.393,-.226),.151)
+    if m.lod==0:
+        m.block("glass",.517,1.119,.016,.316,.128,.037)
+        m.lamp(-.726,.11,-.354,.104)
+        with m.transform(translate=(-.018,.633,-.14),rotate_y=52,rotate_x=-29):
+            m.slab("metal",0,0,0,.261,.109,.355,.08,-.17)
+            ore_heap(m,0,.105,0,.67)
+        with m.transform(translate=(.419,1.132,.247),rotate_z=90):
+            m.drum("metal",0,0,0,.108,.187)
+            m.drum("accent",0,.177,0,.129,.035)
+
+
+def shaft_mine(m):
+    # A sealed lift pod rises inside a C-shaped shaft collar; the ore transfer rail reaches its mouth.
+    m.slab("fieldstone",0,0,.015,1.91,.127,1.72,.203)
+    x,z=-.253,.264
+    m.drum("trim",x,.122,z,.544,.208,.528,n=(14,10,6)[m.lod])
+    m.drum("door",x,.323,z,.453,.028,n=(14,10,6)[m.lod])
+    # Segment the collar into three solid buttresses so the mouth remains visible.
+    for a in (-69,0,69):
+        rad=math.radians(a)
+        px=x+.423*math.sin(rad); pz=z+.423*math.cos(rad)
+        with m.transform(translate=(px,.326,pz),rotate_y=a):
+            m.slab("ivory",0,0,0,.351,.763 if m.lod==2 else .664,.201,.135,.13)
+            if m.lod<2:
+                m.slab("glass",0,.658,0,.304,.105,.18,.12)
+    m.slab("ivory",x,1.077,z+.187,.918,.129,.423,.187)
+    m.block("trim",x,.649,z+.066,.075,.436,.075)
+    m.drum("metal",x,.431,z+.061,.185,.236,.199)
+    m.drum("accent",x,.662,z+.061,.203,.084,.121)
+    m.slab("wall",.533,.121,-.091,.549,.452,.789,.15)
+    m.slab("glass",.533,.569,-.091,.531,.115,.747,.14)
+    m.vault("ivory",.533,.679,-.091,.594,.137,.844)
+    m.entry(.532,.129,-.488,.306,.341)
+    m.slab("metal",-.26,.119,-.416,.43,.115,.601,.095)
+    ore_heap(m,-.262,.23,-.511,1.03)
+    if m.lod==0:
+        for x in (-.396,-.118):
+            m.block("gold",x,.234,-.326,.034,.022,.289)
+        m.rune(.531,.746,-.517,.149)
+        with m.transform(translate=(-.253,1.247,.503),rotate_x=-90):
+            m.drum("metal",0,0,0,.114,.26)
+            m.drum("gold",0,.241,0,.124,.042)
+        for px in (-.373,-.133):
+            m.beam("trim",(px,1.19,.426),(px,1.265,.416),.062)
+        m.drum("trim",-.253,.489,.325,.201,.043)
 
 
 def coal_chunk(m,r):

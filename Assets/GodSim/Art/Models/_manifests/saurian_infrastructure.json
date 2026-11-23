@@ -196,25 +196,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1042,
+  "triangles": 865,
   "lod_triangles": [
-   1042,
-   612,
-   306
+   865,
+   487,
+   221
   ],
   "bounds": [
    [
-    -0.8259999752044678,
+    -0.9300000071525574,
     0.0,
-    -0.7910000085830688
+    -0.9350000023841858
    ],
    [
-    0.8259999752044678,
-    1.1200000047683716,
-    0.619422435760498
+    0.9300000071525574,
+    1.3600000143051147,
+    0.8650000095367432
    ]
   ],
-  "bytes": 165296,
+  "bytes": 122116,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_granary_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_granary_ancient_v0.png",
@@ -286,25 +286,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1318,
+  "triangles": 1118,
   "lod_triangles": [
-   1318,
-   652,
-   330
+   1118,
+   637,
+   345
   ],
   "bounds": [
    [
-    -0.8220000267028809,
+    -0.9549999833106995,
     0.0,
-    -0.7910000085830688
+    -0.9350000023841858
    ],
    [
-    0.8220000267028809,
-    1.340999960899353,
-    0.6155227422714233
+    0.9549999833106995,
+    1.5379999876022339,
+    0.8650000095367432
    ]
   ],
-  "bytes": 189044,
+  "bytes": 179720,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_granary_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_granary_future_v0.png",
@@ -374,25 +374,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1171,
+  "triangles": 685,
   "lod_triangles": [
-   1171,
-   666,
-   345
+   685,
+   389,
+   183
   ],
   "bounds": [
    [
-    -1.3899999856948853,
+    -1.377500057220459,
     0.0,
-    -1.4249999523162842
+    -1.3557499647140503
    ],
    [
-    1.3899999856948853,
-    1.5069999694824219,
-    1.3600000143051147
+    1.377500057220459,
+    2.134399890899658,
+    1.2542500495910645
    ]
   ],
-  "bytes": 177504,
+  "bytes": 102752,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_power_plant_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_power_plant_future_v0.png",

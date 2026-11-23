@@ -323,6 +323,26 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_town_center_classical_renaissance_v0",
+          "evidence_sha256": "18bb28854ce992398840ccc3e058f4a59e7d8fc1bb9c487ed22cc30777fa76d5",
+          "observations": "A separate tall tower adjoins a hipped civic hall and deep pillared portico. The sharp span between portico columns and asymmetrical height remain visible in both grey views among all ten Town Center ages, including the neighboring Medieval and Industrial versions. Painted previews cover renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1247/653/305 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

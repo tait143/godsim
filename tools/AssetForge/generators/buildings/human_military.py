@@ -299,6 +299,54 @@ def muster_drum(m,x,z,era):
 
 
 def bunks(m, era):
+    if era==1:
+        # A two-storey barrack closes the far end of an open drill court. The
+        # dormitory rests on an accessible colonnade. An open bunk gallery
+        # turns the corner on its west side, facing the target and muster yard.
+        m.course('fieldstone',0,.014,1.83,1.74,0,.072,.088)
+        m.course('soil',.04,-.217,1.45,.97,.072,.087,.052)
+        m.block('plaster',(.012,.32,.584),(1.43,.496,.295))
+        arched_entry(m,.045,.434,.077,.152,.226)
+        for x in (-.64,-.205,.23,.664):
+            drum(m,'ivory',x,.237,.072,.562,.059,.050,n=(9,6,4)[m.lod])
+            if m.lod<2:
+                m.block('fieldstone',(x,.114,.237),(.136,.083,.132))
+                m.block('wall',(x,.543,.237),(.134,.051,.135))
+        m.block('trim',(.012,.585,.48),(1.51,.058,.573))
+        m.course('wall',.012,.481,1.49,.552,.614,.967,.041)
+        m.hip_roof((.012,.967,.481),1.62,.67,.229,m.color('roof'),overhang=0,material='roof')
+        # The barrack's signal standard and paired upper casements are visible
+        # above the line of the lower gallery from either side of the court.
+        for x in ((-.51,-.245,.235,.5) if m.lod==0 else (-.45,.43)):
+            m.light(x,.804,.203,.145,.153,shutters=m.lod==0)
+        hanging(m,.022,.927,.192,.19,.263)
+        m.block('wall',(-.73,.282,-.271),(.17,.418,.944))
+        for z in (-.633,-.247,.113):
+            post(m,'timber',-.434,z,.086,.526,.047)
+        with m.transform(translate=(-.603,.552,-.262),rotate_z=8):
+            m.box((0,0,0),(.438,.077,1.015),m.color('roof'),material='roof',bottom=True)
+        for z in (-.48,-.004):
+            m.block('timber',(-.59,.177,z),(.224,.159,.324))
+            m.block('banner',(-.59,.267,z),(.229,.031,.272))
+            if m.lod==0: m.block('ivory',(-.591,.296,z+.092),(.191,.035,.067))
+        # A straw practice target and blue guard standard flank the clear
+        # central approach. Their separate ground supports survive at LOD2.
+        post(m,'timber',.53,-.319,.087,.59,.082)
+        with m.transform(translate=(.53,.502,-.355),rotate_x=-90):
+            drum(m,'thatch',0,0,0,.075,.208,.195,n=(14,8,6)[m.lod])
+            drum(m,'banner',0,0,.075,.082,.131,n=(12,8,6)[m.lod])
+            drum(m,'ivory',0,0,.082,.094,.061,n=(10,6,4)[m.lod])
+        pennon(m,-.284,-.653,.086,.70)
+        if m.lod<2:
+            for x in (-.69,.69):
+                m.light(x,.329,.434,.112,.148,False)
+        if m.lod==0:
+            with m.transform(translate=(.759,0,.484),rotate_y=-90):
+                m.light(0,.810,-.003,.244,.149,True)
+            m.herbs(.491,.698,.201,.182)
+            for x in (-.157,.143):
+                m.block('fieldstone',(x,.10,-.654),(.193,.027,.141))
+        return
     # A high transverse hall is paired with a projecting front gatehouse.
     hall_h=(.59,.71,.62,.67)[era]
     m.course("fieldstone",0,.065,1.67,1.37,0,.086,.085)

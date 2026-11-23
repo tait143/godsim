@@ -244,9 +244,81 @@ def crown(m,age,base):
             m.wheel(0,.59,0,.32,"gold",4)
 
 
+def domed_moot(m):
+    # The basilica's high crossing opens onto a lower three-bay council loggia.
+    m.slab("fieldstone",0,0,.029,1.89,.119,1.59,.16)
+    m.slab("plaster",-.165,.113,.321,1.25,.554,.914,.12)
+    m.slab("roof_tile",-.165,.662,.321,1.34,.125,1.001,.15,.095)
+    m.drum("plaster",-.165,.781,.323,.448,.213,.424)
+    m.dome((-.165,.988,.323),.449,m.color("roof_tile"),rings=(4,3,2)[m.lod],
+           segments=(16,10,7)[m.lod],squash=.85,material="roof_tile")
+    m.drum("gold",-.165,1.356,.323,.081,.118,.049)
+    m.slab("wall",.58,.112,.108,.404,.811,.682,.125,.045)
+    m.vault("roof_tile",.58,.915,.108,.466,.176,.753)
+    m.entry(0,.167,-.141,.373,.398)
+    m.slab("slate",-.084,.109,-.388,1.526,.075,.628,.12)
+    for x in (-.702,-.345,.171,.545):
+        m.drum("fieldstone",x,.179,-.572,.088,.398,.072,n=(8,6,4)[m.lod])
+        if m.lod==0:
+            m.slab("gold",x,.568,-.572,.183,.062,.187,.15)
+    m.slab("trim",-.08,.571,-.392,1.544,.126,.583,.08)
+    m.vault("roof_tile",-.08,.689,-.386,1.605,.139,.635)
+    m.slab("wall",-.075,.012,-.798,.637,.098,.241,.10)
+    m.slab("slate",-.075,.11,-.635,.593,.071,.17,.10)
+    if m.lod<2:
+        m.rune(-.076,.753,-.707,.192)
+    if m.lod==0:
+        for x in (-.701,-.349,.017,.382):
+            m.block("accent",x,.721,-.703,.043,.051,.039)
+        for a in (-1.24,-.59,.06,.72):
+            m.block("door",-.165+.438*math.sin(a),.834,.323-.438*math.cos(a),.056,.108,.060)
+        m.lamp(.708,.115,-.579,.122)
+
+
+def network_moot(m):
+    # Two occupied wings step up around a low glazed council bridge. A beacon tops the tall wing.
+    m.slab("fieldstone",0,0,.01,1.88,.143,1.67,.215)
+    for x,z,w,d,levels in ((-.515,.245,.689,.975,3),(.473,.104,.704,.959,2)):
+        for i in range(levels):
+            y=.137+.258*i
+            width=w-.077*i
+            depth=d-.125*i
+            m.slab("wall",x,y,z+i*.036,width,.125,depth,.17,.047)
+            m.slab("glass",x,y+.121,z+i*.036,width*.953,.145,depth*.954,.185)
+            if m.lod==0:
+                for dx in (-.22,0,.22):
+                    m.block("metal",x+dx*width,y+.132,z+i*.036-depth*.476,.029,.123,.033)
+        roof=.138+levels*.258
+        m.slab("ivory",x,roof,z+.036*(levels-1),w-.077*(levels-1)+.065,.102,
+               d-.125*(levels-1)+.071,.158)
+    m.slab("glass",-.032,.419,.348,.732,.23,.348,.12)
+    m.slab("ivory",-.032,.642,.348,.792,.083,.402,.135)
+    m.slab("wall",-.001,.138,-.103,.678,.292,.488,.107)
+    m.entry(0,.143,-.351,.416,.268)
+    m.vault("metal",0,.423,-.104,.713,.124,.506)
+    m.slab("slate",0,.134,-.505,.513,.059,.339,.126)
+    m.slab("glass",-.515,1.008,.318,.321,.16,.378,.21,.14)
+    m.beam("metal",(-.515,1.148,.316),(-.515,1.426,.316),.051)
+    m.drum("accent",-.515,1.406,.316,.076,.083,.05)
+    if m.lod<2:
+        for s in (-1,1):
+            m.slab("wall",s*.462,.134,-.492,.228,.193,.237,.18,.13)
+            m.lamp(s*.462,.321,-.492,.097)
+    if m.lod==0:
+        m.rune(0,.495,-.359,.147)
+        for z in (.089,.519):
+            m.beam("trim",(-.825,.146,z),(-.747,.855,z+.014),.082)
+
+
 def build(spec,lod):
     m=Stonework(spec,lod)
     age=AGES.index(spec.ages[0])
+    if age in (5,8):
+        if age==5:
+            domed_moot(m)
+        else:
+            network_moot(m)
+        return m
     masonry=("fieldstone","brick","fieldstone","plaster","wall","plaster","brick","wall","wall","ivory")[age]
     h=(.39,.44,.46,.51,.52,.51,.54,.48,.48,.49)[age]
     m.slab("fieldstone",0,0,.02,1.86,.12,1.48,.15,.035)

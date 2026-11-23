@@ -787,6 +787,126 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_human_weaver_future_v0",
+          "evidence_sha256": "37e167b176f84fc5bb9f98f1c271cce15226115f2c3c916910c5ac85137f063a",
+          "observations": "A circular loom rises above a blue drum, with alternating spools on the upper deck and a red-and-blue core visible between the uprights. The supporting posts remain visible from behind at LOD2. This open vertical machine separates it clearly from the industrial loom shed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            839,
+            379,
+            260
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_weaver_ancient_v0",
+            "b": "bld_human_weaver_future_v0",
+            "matched": 0,
+            "total": 1935
+          }
+        },
+        {
+          "id": "bld_human_weaver_industrial_v0",
+          "evidence_sha256": "603124aa30be37d82e5f8a9029089768d26699990116bcb66b546dddaef7cb77",
+          "observations": "The stepped sawtooth roof and flue rise behind a broad exposed loom. Warp bars, a blue cloth panel and small coloured supplies identify its working face. The far mesh keeps the loom and cloth under the same strong roof profile.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            511,
+            236,
+            150
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_weaver_ancient_v0",
+            "b": "bld_human_weaver_industrial_v0",
+            "matched": 0,
+            "total": 1935
+          }
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "RC4 independent Human art critic, checkpoint comparison",
+      "models": [
+        {
+          "id": "bld_human_blacksmith_classical_v0",
+          "evidence_sha256": "7d3a4e70b2e2dd3454c77bb04f614db2dfbdbbb85a48d9c5dd4e0ab2c6150edd",
+          "observations": "The Bronze/Iron and Classical smithies place the same hipped house, low timber lean-to, glowing round furnace and anvil along one straight frontage. The tiled workshop roof changes colour and finish without changing the massing. The distant mesh preserves that same arrangement.",
+          "scores": {
+            "silhouette": 83,
+            "identity": 80,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Classical forge a distinct furnace enclosure and work bay. Preserve the furnace opening, working anvil and their supports at the reduced levels."
+          ],
+          "lod_triangles": [
+            789,
+            461,
+            233
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_blacksmith_classical_v0",
+            "b": "bld_human_blacksmith_industrial_v0",
+            "matched": 1455,
+            "total": 2367
+          }
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "RC4 independent Human art critic, replacement mesh re-review",
+      "models": [
+        {
+          "id": "bld_human_blacksmith_classical_v0",
+          "evidence_sha256": "ea5b61ebba64c6c6868f498201f410bb8a2f2dcd31972cfb6e79cb483df30e41",
+          "observations": "An open, glowing hearth sits below a broad stone hood and tall square flue. The anvil on its block, paired timber bellows and quench tub flank the work area. The hood\u2019s masonry piers still reach the plinth in the side and rear views at LOD2. The high flue and exposed hearth distinguish it from the older house and lean-to even without colour.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            964,
+            548,
+            296
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_blacksmith_ancient_v0",
+            "b": "bld_human_blacksmith_classical_v0",
+            "matched": 0,
+            "total": 2487
+          }
+        }
+      ]
     }
   ]
 }

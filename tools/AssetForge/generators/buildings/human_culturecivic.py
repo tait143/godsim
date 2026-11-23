@@ -129,6 +129,58 @@ def campfire(m,era):
 
 
 def arena(m,era):
+    if era=='industrial':
+        # The exhibition ring has two facing straight grandstands, their
+        # pitched truss canopies open to the track. The turnstiles face south.
+        m.course('fieldstone',0,0,2.73,2.32,0,.072,.19)
+        m.course('soil',0,-.04,1.25,1.84,.072,.09,.21)
+        # A raised canvas ring leaves a continuous aisle for the spectators.
+        m.block('banner',(0,.172,.036),(.946,.164,.95))
+        m.block('ivory',(0,.267,.036),(.958,.026,.958))
+        corners=[(-.423,-.385),(.423,-.385),(.423,.457),(-.423,.457)]
+        for i,(x,z) in enumerate(corners):
+            cylinder(m,'banner' if i%2 else 'cloth',x,.269,z,.037,.211,
+                     sides=(8,5,4)[m.lod])
+            nx,nz=corners[(i+1)%4]
+            for y in ((.348,.438) if m.lod<2 else (.421,)):
+                m.beam('trim',(x,y,z),(nx,y,nz),.017 if i%2==0 else .019)
+        for s in (-1,1):
+            tiers=2 if m.lod==2 else 3
+            for j in range(tiers):
+                seat=.588/tiers
+                x=s*(.582+seat*(j+.5))
+                h=.16+.308*j/(tiers-1)
+                m.block('brick' if j==tiers-1 else 'timber',(x,.073+h/2,.09),(seat-.001,h,1.73))
+                if m.lod==0:
+                    for z in (-.52,0,.52):
+                        m.block('banner',(x,.247+j*.154,z),(.145,.028,.41))
+            for z in (-.65,.79):
+                m.beam('metal',(s*1.176,.075,z),(s*1.176,.998,z),.068)
+                m.beam('metal',(s*1.176,.685,z),(s*.815,.951,z),.047)
+            with m.transform(translate=(s*.965,.963,.076),rotate_z=s*9):
+                m.box((0,0,0),(.674,.061,1.93),m.color('roof'),material='roof',bottom=True)
+            if m.lod<2:
+                for z in (-.48,.01,.49):
+                    m.block('ivory',(s*1.19,.294,z),(.044,.391,.067))
+        for x in (-.29,.29):
+            m.course('brick',x,-.92,.272,.285,.071,.564,.045)
+            m.hip_roof((x,.562,-.92),.322,.331,.14,m.color('roof'),overhang=0,material='roof')
+        m.beam('trim',(-.286,.48,-.923),(.286,.48,-.923),.087)
+        if m.lod<2:
+            pennon(m,-1.158,1.00,.713,.33,.22)
+            pennon(m,1.163,1.00,.713,.33,.20)
+        if m.lod==0:
+            for z in (-.41,.48):
+                for x in (-.543,.543):
+                    m.block('ivory',(x,.11,z),(.029,.042,.703))
+            for s in (-1,1):
+                for z in (-.37,.13,.52):
+                    m.beam('metal',(s*1.176,.49,z),(s*1.176,.93,z+.206),.032)
+            from generators.buildings.human_commerce import badge
+            for x in (-.29,.29):
+                badge(m,x,.403,-1.067,.084)
+            m.herbs(.291,.278,-1.067,.186)
+        return
     future=era=='future'
     victorian=era=='industrial'
     side=(26,16,10)[m.lod]
@@ -376,6 +428,43 @@ def theater(m,era):
 
 
 def forum(m,era):
+    if era=='industrial':
+        # An octagonal assembly chamber faces a speakers' stair. Its glazed
+        # lantern and a separate brick clock tower rise above the civic square.
+        m.course('fieldstone',0,.015,2.69,1.70,0,.084,.13)
+        x,z=-.30,.153
+        cylinder(m,'brick',x,.084,z,.671,.651,sides=8)
+        cylinder(m,'ivory',x,.735,z,.69,.073,sides=8)
+        cylinder(m,'roof',x,.808,z,.732,.264,.37,sides=8)
+        cylinder(m,'glass',x,1.072,z,.339,.183,sides=8)
+        cylinder(m,'roof',x,1.255,z,.398,.19,.086,sides=8)
+        m.course('brick',x,-.443,.55,.43,.083,.564,.049)
+        m.entry(x,-.658,.319,.101,.394)
+        m.prism_x((x,.562,-.443),.63,.52,.20,m.color('roof'),material='roof')
+        tx,tz=.80,.272
+        m.course('brick',tx,tz,.49,.48,.084,1.06,.045)
+        m.course('ivory',tx,tz,.568,.557,1.06,1.19,.058)
+        m.course('wall',tx,tz,.48,.472,1.19,1.53,.045)
+        m.hip_roof((tx,1.528,tz),.56,.55,.31,m.color('slate'),overhang=0,material='slate')
+        from generators.buildings.human_commerce import badge
+        badge(m,tx,1.352,.032,.129,True)
+        for j in range(3 if m.lod==0 else 1):
+            m.block('fieldstone',(x,.032+.022*j,-.821+.053*j),(.60-.044*j,.064+.044*j,.079))
+        if m.lod<2:
+            for i in (1,2,3,4,5,6,7):
+                a=2*pi*(i+.5)/8
+                with m.transform(translate=(x+.624*sin(a),0,z+.624*cos(a)),rotate_y=180+a*180/pi):
+                    m.light(0,.425,0,.188,.285,False)
+            pennon(m,tx,1.812,tz,.24,.155)
+        if m.lod==0:
+            for y in (.525,.792):
+                for sx in (-.108,.108):
+                    m.light(tx+sx,y,.029,.123,.172,False)
+            for sx in (-1,1):
+                m.herbs(tx+sx*.112,.412,.027,.185)
+            with m.transform(translate=(tx+.247,0,tz),rotate_y=-90):
+                badge(m,0,1.352,0,.129,True)
+        return
     future=era=='future'
     retro=era=='industrial'
     m.course('fieldstone',0,0,2.70,1.68,0,.106,.106)
@@ -452,6 +541,63 @@ def forum(m,era):
 
 
 def tavern(m,era):
+    if era=='industrial':
+        # A brewery tap: the conical oast dries hops beside the public bar.
+        m.course('fieldstone',0,.045,1.75,1.60,0,.082,.12)
+        x,z=.396,.30
+        cylinder(m,'brick',x,.082,z,.383,.916,.342)
+        cylinder(m,'roof',x,.998,z,.399,.56,.083)
+        cylinder(m,'ivory',x,1.556,z,.103,.158,.091)
+        m.wedge((x,1.714,z),.18,.188,.115,m.color('slate'),material='slate')
+        m.course('brick',-.37,.015,.79,1.07,.082,.716,.04)
+        with m.transform(translate=(-.37,0,.015)):
+            m.roof(.89,1.19,.716,.385,'slate','brick',ridge_mat='trim')
+        m.entry(-.42,-.52,.25,.086,.371)
+        from generators.buildings.human_extraction import axle
+        for bx in (.184,.544):
+            axle(m,'timber',bx,.234,-.549,.141,.329)
+            if m.lod<2:
+                axle(m,'gold',bx,.237,-.557,.103,.012)
+        if m.lod<2:
+            m.light(-.13,.451,-.52,.14,.19,True)
+            pennon(m,-.69,.837,-.293,.27,.15)
+        if m.lod==0:
+            m.herbs(-.13,.323,-.52,.196)
+            for y in (.32,.59,.88):
+                cylinder(m,'trim',x,y,z,.375-.046*(y-.082),.034)
+        return
+    if era=='future':
+        # Circular sky lounge over a smaller ground-floor bar. The seating
+        # terrace projects under the awning and overlooks the plaza.
+        x,z=.079,.133
+        m.course('fieldstone',0,0,1.73,1.64,0,.081,.21)
+        cylinder(m,'glass',x,.081,z,.382,.573,.325)
+        cylinder(m,'metal',x,.654,z,.331,.169,.675)
+        cylinder(m,'ivory',x,.823,z,.675,.068)
+        cylinder(m,'glass',x,.891,z,.635,.219,.596)
+        cylinder(m,'roof',x,1.11,z,.666,.112,.35)
+        cylinder(m,'gold',x,1.222,z,.333,.037,.298)
+        m.course('ivory',x,-.346,.47,.374,.081,.437,.064)
+        m.entry(x,-.533,.23,.082,.277,lintel='metal')
+        # A projecting tavern sign hangs beside the door from the lounge soffit.
+        m.beam('gold',(.33,.743,-.32),(.33,.638,-.478),.031)
+        cylinder(m,'gold',.33,.422,-.478,.083,.204,.095)
+        cylinder(m,'ivory',.33,.626,-.478,.102,.032,.094)
+        m.bent_rail('gold',[(.398,.594),(.453,.59),(.467,.558),(.45,.501),(.399,.494)],-.478,.023)
+        for bx,bz in ((-.48,-.39),(.61,-.341)):
+            cylinder(m,'metal',bx,.081,bz,.044,.198)
+            cylinder(m,'timber',bx,.279,bz,.148,.045)
+        if m.lod<2:
+            for j in range(7 if m.lod==0 else 4):
+                a=2*pi*j/(7 if m.lod==0 else 4)
+                m.beam('ivory',(x+.636*cos(a),.891,z+.636*sin(a)),
+                       (x+.597*cos(a),1.109,z+.597*sin(a)),.035)
+        if m.lod==0:
+            for bx,bz in ((-.47,-.61),(-.48,-.184),(.60,-.127),(.61,-.553)):
+                cylinder(m,'trim',bx,.081,bz,.041,.135)
+                cylinder(m,'banner',bx,.216,bz,.081,.037)
+            m.herbs(-.54,.093,.095,.23)
+        return
     future=era=='future'
     pub=era=='industrial'
     h=.80 if future else .84 if pub else .704

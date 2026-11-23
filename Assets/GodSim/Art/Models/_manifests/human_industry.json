@@ -237,25 +237,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 789,
+  "triangles": 964,
   "lod_triangles": [
-   789,
-   461,
-   233
+   964,
+   548,
+   296
   ],
   "bounds": [
    [
-    -0.925000011920929,
+    -0.9300000071525574,
     0.0,
-    -0.4350000023841858
+    -0.42500001192092896
    ],
    [
-    0.925000011920929,
-    0.8909998536109924,
-    0.4662773013114929
+    0.9300000071525574,
+    1.4220000505447388,
+    0.4449999928474426
    ]
   ],
-  "bytes": 120884,
+  "bytes": 155196,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_blacksmith_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_classical_v0.png",
@@ -860,25 +860,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 712,
+  "triangles": 839,
   "lod_triangles": [
-   712,
-   397,
-   144
+   839,
+   379,
+   260
   ],
   "bounds": [
    [
-    -0.45500001311302185,
+    -0.4099999964237213,
     0.0,
-    -0.4399999976158142
+    -0.4244999885559082
    ],
    [
-    0.45500001311302185,
-    0.7400000095367432,
-    0.4399999976158142
+    0.4099999964237213,
+    0.9309999942779541,
+    0.42500001192092896
    ]
   ],
-  "bytes": 101108,
+  "bytes": 134048,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_weaver_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_future_v0.png",
@@ -904,25 +904,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 674,
+  "triangles": 511,
   "lod_triangles": [
-   674,
-   395,
-   122
+   511,
+   236,
+   150
   ],
   "bounds": [
    [
-    -0.45500001311302185,
+    -0.4699999988079071,
     0.0,
-    -0.4399999976158142
+    -0.4449999928474426
    ],
    [
-    0.45500001311302185,
-    0.7400000095367432,
-    0.4399999976158142
+    0.4699999988079071,
+    0.7758520245552063,
+    0.46399998664855957
    ]
   ],
-  "bytes": 97348,
+  "bytes": 72344,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_weaver_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_weaver_industrial_v0.png",

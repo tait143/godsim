@@ -148,25 +148,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1256,
+  "triangles": 1079,
   "lod_triangles": [
-   1256,
-   498,
-   236
+   1079,
+   520,
+   336
   ],
   "bounds": [
    [
-    -1.3459618091583252,
+    -1.3650000095367432,
     0.0,
-    -1.322899341583252
+    -1.159999966621399
    ],
    [
-    1.3459618091583252,
-    1.0199999809265137,
-    1.1529476642608643
+    1.3650000095367432,
+    1.3300000429153442,
+    1.159999966621399
    ]
   ],
-  "bytes": 158944,
+  "bytes": 139444,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_arena_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_arena_industrial_v0.png",
@@ -370,25 +370,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 604,
+  "triangles": 782,
   "lod_triangles": [
-   604,
-   344,
-   188
+   782,
+   352,
+   248
   ],
   "bounds": [
    [
-    -1.350000023841858,
+    -1.3450000286102295,
     0.0,
-    -0.9415000081062317
+    -0.8604999780654907
    ],
    [
-    1.350000023841858,
-    1.6169999837875366,
-    0.8399999737739563
+    1.3450000286102295,
+    2.052000045776367,
+    0.8849999904632568
    ]
   ],
-  "bytes": 93132,
+  "bytes": 103764,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_forum_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_forum_industrial_v0.png",
@@ -544,25 +544,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 688,
+  "triangles": 963,
   "lod_triangles": [
-   688,
-   386,
-   158
+   963,
+   434,
+   272
   ],
   "bounds": [
    [
-    -0.7900000214576721,
+    -0.8650000095367432,
     0.0,
-    -0.7558119893074036
+    -0.8199999928474426
    ],
    [
-    0.8872330784797668,
-    1.3250000476837158,
-    0.6474999785423279
+    0.8650000095367432,
+    1.2589999437332153,
+    0.8199999928474426
    ]
   ],
-  "bytes": 97744,
+  "bytes": 127864,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_tavern_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_tavern_future_v0.png",
@@ -588,25 +588,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 694,
+  "triangles": 627,
   "lod_triangles": [
-   694,
-   394,
-   184
+   627,
+   342,
+   152
   ],
   "bounds": [
    [
-    -0.8149999976158142,
+    -0.875,
     0.0,
-    -0.7558119893074036
+    -0.7549999952316284
    ],
    [
-    0.8872330784797668,
-    1.4718321561813354,
-    0.6600000262260437
+    0.875,
+    1.8289999961853027,
+    0.8450000286102295
    ]
   ],
-  "bytes": 102408,
+  "bytes": 85136,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_tavern_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_tavern_industrial_v0.png",

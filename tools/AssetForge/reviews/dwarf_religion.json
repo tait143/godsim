@@ -663,6 +663,87 @@
           ]
         }
       ]
+    },
+    {
+      "round": 7,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_dwarf_temple_classical_v0",
+          "evidence_sha256": "4c9ee85be36ee9153d93e367881b6cec520b10fa9a6e9bccb88884f131f5de5a",
+          "observations": "A compact domed cella sits behind a heavy two-pier portico. The small warm brazier and suspended gold detail read at the approach, while the round wall is visible from the rear. The portico opening and dome survive the coarsest mesh.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            998,
+            488,
+            180
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_temple_ancient_v0",
+            "b": "bld_dwarf_temple_classical_v0",
+            "matched": 0,
+            "total": 2856
+          }
+        },
+        {
+          "id": "bld_dwarf_temple_future_v0",
+          "evidence_sha256": "9844964acdad22b85fedf3f0a1f0cba45f38fa42f2159abda7c162aa1081cc29",
+          "observations": "The high gold ring sits between sloping masonry legs over a broad low sanctuary. The inner suspended ornament and paired entrance braziers add scale. Both rear angles show the struts seated on the roof and the ring still open at the far level.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1056,
+            600,
+            307
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_temple_ancient_v0",
+            "b": "bld_dwarf_temple_future_v0",
+            "matched": 0,
+            "total": 2856
+          }
+        },
+        {
+          "id": "bld_dwarf_temple_industrial_v0",
+          "evidence_sha256": "31dc76da4eb2dfe744b5b1a7d408b228093aca2c119164ee074de2d547a0baeb",
+          "observations": "A square open belfry rises from one side of the brick nave, with paired fire bowls and steps framing the entrance. The dark curved nave roof reads distinctly below the tower from the rear. The belfry aperture and stair survive LOD2.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1144,
+            686,
+            242
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_temple_ancient_v0",
+            "b": "bld_dwarf_temple_industrial_v0",
+            "matched": 0,
+            "total": 2856
+          }
+        }
+      ]
     }
   ]
 }

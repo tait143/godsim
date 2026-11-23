@@ -166,3 +166,38 @@ def wheel(m,x,y,z,r,role="metal"):
         m.rod("trim",(x+r*.105*math.cos(a),y+r*.105*math.sin(a),z+r*.15),(x+r*.89*math.cos(a),y+r*.89*math.sin(a),z+r*.15),
               r*.075,n=4)
     seal(m,x,y,z-.017,r*.22)
+
+
+def court(m, entry_x=0, w=1.90, d=1.64, role="fieldstone"):
+    """Shallow flood terrace with its first tide stair meeting the south edge."""
+    m.slab(role,0,0,.045,w,.08,d,cut=.085)
+    front=.045-d/2
+    m.stairs(entry_x,0,front-.16,.35,.16,.08)
+
+
+def cartouche(m,x,y,z,r):
+    """A gold sun in a squared turquoise lintel, sized for the actual bearing wall."""
+    m.block("turquoise",x,y-r*1.18,z,r*3.15,r*2.36,r*.30)
+    m.disc(x,y,z-r*.15,r,boss=m.lod==0)
+
+
+def shutters(m,x,y,z,w,h,count):
+    """Front-facing timber shutters or glazing in separated masonry bays."""
+    if m.lod==2:
+        return
+    bay=w/count
+    for i in range(count):
+        cx=x-w/2+bay*(i+.5)
+        m.block("glass" if m.era>=2 else "turquoise",cx,y,z,bay*.64,h,.026)
+        if m.lod==0:
+            m.block("trim",cx,y+h*.46,z-.015,bay*.69,h*.095,.019)
+
+
+def panel(m,x,y,z,w,d,tilt,role="glass"):
+    """A glazed collector cassette, complete with the back and frame."""
+    with m.transform(translate=(x,y,z),rotate_x=tilt):
+        m.box((0,0,0),(w,.065,d),m.color("metal"),material="metal",bottom=True)
+        panes=(3,2,1)[m.lod]
+        for j in range(panes):
+            m.block(role,(j-(panes-1)*.5)*w*.92/panes,.0325,0,
+                    w*.88/panes,.013,d*.88)

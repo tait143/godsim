@@ -118,6 +118,130 @@ def little_boat(m, x, z, size, era):
 
 
 def fisher(m,era):
+    if era==1:
+        # Boat drawn bow-first into a little stone slip beside the net loft.
+        for x in (-.37,-.02):
+            for z in (-.28,.30):
+                m.block('fieldstone',(x,.072,z),(.09,.144,.10),taper=.12)
+        m.block('timber',(-.19,.145,.012),(.55,.061,.81))
+        m.block('plaster',(-.21,.328,.201),(.41,.307,.35))
+        m.entry(-.21,.026,.15,.177,.23)
+        for x in (-.405,-.02):
+            m.beam('timber',(x,.176,-.308),(x,.488,-.308),.040)
+        with m.transform(translate=(-.21,0,.045)):
+            m.roof(.55,.81,.482,.31,'roof','plaster',hip=.095,ridge_mat='trim')
+        little_boat(m,.245,-.062,.85,era)
+        if m.lod<2:
+            for x in (-.39,-.285):
+                m.beam('trim',(x,.197,-.336),(x,.456,-.31),.015)
+            m.beam('timber',(-.397,.445,-.31),(-.274,.445,-.31),.025)
+            with m.transform(translate=(-.123,.056,-.085),scale=.67):
+                fishing_net(m)
+        if m.lod==0:
+            m.jar(-.05,-.14,.177,.052,.099)
+            pennant(m,-.20,.77,.12,.12)
+        return
+    if era==2:
+        # A drifter lies broadside to a piled tidal wharf. Its catch is being
+        # lifted between the gunwale and the receiving door of the curing shed.
+        m.course('water',0,0,.978,.954,0,.033,.081)
+        m.course('fieldstone',-.06,.316,.81,.25,.033,.136,.034)
+        for x in (-.363,.286):
+            drum(m,'timber',x,.008,-.048,.041,.178,segments=(9,6,4)[m.lod])
+        m.block('timber',(-.039,.16,.151),(.837,.059,.485))
+        m.block('brick',(-.137,.323,.253),(.471,.274,.289))
+        m.entry(-.195,.107,.161,.19,.212)
+        with m.transform(translate=(-.137,0,.253)):
+            m.roof(.537,.358,.458,.154,'slate','brick',ridge_mat='trim')
+        m.flue(-.268,.308,.491,.664,.065)
+        # A framed winch foundation and a crane with a deep jib give the
+        # working front a clear outline even when the landing line disappears.
+        x,z=.264,.096
+        m.block('metal',(x,.228,z),(.152,.077,.145),taper=.10)
+        m.beam('metal',(x,.255,z),(x,.645,z),.062)
+        m.beam('metal',(x,.586,z),(.143,.566,-.206),.066)
+        m.beam('gold',(x,.365,z),(.169,.563,-.151),.028)
+        m.beam('trim',(.143,.561,-.206),(.143,.449,-.206),.021)
+        with m.transform(translate=(.022,.020,-.259),rotate_y=70,scale=(1.11,.91,.98)):
+            little_boat(m,0,0,.81,1)
+            if m.lod==0:
+                m.block('banner',(0,.12,-.226),(.169,.044,.057))
+        # Each mesh row is offset half a diamond from the next one. The
+        # slings and knotted belly remain a single loaded net at distance.
+        nx,nz=.143,-.206
+        count=(8,6,5)[m.lod]
+        def knot(j,y,r,turn=0):
+            a=2*math.pi*(j+turn)/count
+            return (nx+r*math.cos(a),y,nz+r*.78*math.sin(a))
+        for j in range(count):
+            lip=knot(j,.363,.114)
+            shoulder=knot(j,.276,.117,.5)
+            toe=knot(j,.204,.064)
+            if m.lod==2:
+                m.face('hide',(lip,knot(j+1,.363,.114),shoulder))
+                m.face('timber',(knot(j-.5,.276,.117),lip,shoulder,toe))
+                m.face('hide',(toe,shoulder,knot(j+1,.204,.064)))
+            else:
+                m.beam('hide',lip,shoulder,.012)
+                m.beam('hide',shoulder,knot(j+1,.363,.114),.010)
+                m.beam('timber',shoulder,toe,.011)
+                m.beam('hide',toe,knot(j-.5,.276,.117),.009)
+            if m.lod<2 or j%2==0:
+                m.beam('trim',lip,(nx,.449,nz),.012+j*.0002)
+        with m.transform(translate=(nx,.278,nz),scale=(1,.82,.77)):
+            m.sphere((0,0,0),.093,m.color('ivory'),rings=(4,3,2)[m.lod],
+                     segments=(10,6,5)[m.lod],material='ivory')
+        for sx in (-.329,.046):
+            drum(m,'hide',sx,.19,-.011,.046,.073,.054,segments=(8,5,4)[m.lod])
+        if m.lod<2:
+            with m.transform(translate=(.10,0,.25),rotate_y=-90):
+                m.light(0,.348,0,.137,.09,False)
+            pennant(m,x,.645,z,.14)
+            for bx in (-.329,.046):
+                m.dome((bx,.263,-.011),.044,m.color('ivory'),rings=1,segments=6,squash=.48,material='ivory')
+        if m.lod==0:
+            for bx in (-.361,.289):
+                drum(m,'trim',bx,.188,-.048,.034,.051)
+                drum(m,'gold',bx,.239,-.048,.042,.018)
+            m.herbs(.031,.321,.107,.10)
+            for j in range(6):
+                x=-.384+j*.14
+                m.block('trim',(x,.191,.014),(.006,.006,.162))
+        return
+    if era==3:
+        # Twin pontoons carry a catamaran net tender. A lift net hangs off its
+        # working stern between the tips of a forked aluminum boom.
+        for x in (-.267,.267):
+            m.block('metal',(x,.016,.004),(.071,.032,.48),taper=.12)
+            with m.transform(translate=(x,.011,0),scale=(.66,.82,.94)):
+                little_boat(m,0,-.005,.96,era)
+        m.block('metal',(0,.143,.025),(.692,.066,.635))
+        m.course('ivory',-.063,.179,.43,.32,.168,.368,.055)
+        m.course('glass',-.063,.179,.423,.313,.368,.485,.054,.023)
+        m.course('ivory',-.063,.179,.458,.353,.485,.516,.062)
+        m.entry(-.092,.019,.14,.17,.158,lintel='metal')
+        for x in (-.237,.237):
+            m.beam('metal',(x,.17,-.107),(x,.47,-.322),.037)
+            m.beam('trim',(x,.469,-.322),(x,.23,-.355),.012)
+        m.beam('metal',(-.244,.232,-.355),(.244,.232,-.355),.026)
+        for i in range((9,5,3)[m.lod]):
+            x=(i/((9,5,3)[m.lod]-1)-.5)*.451
+            m.beam('banner',(x,.228,-.353),(x*.74,.094,-.299),.012)
+        if m.lod<2:
+            m.beam('ivory',(-.11,.512,.195),(-.11,.675,.195),.027)
+            m.dome((-.11,.666,.195),.055,m.color('accent'),rings=2,segments=7,material='accent')
+        if m.lod==0:
+            with m.transform(translate=(.155,0,.179),rotate_y=-90):
+                m.light(0,.268,0,.128,.089,False)
+            m.block('metal',(-.062,.524,.244),(.134,.025,.078))
+            for x in (-.234,.224):
+                for z in (-.09,.015):
+                    drum(m,'metal',x,.176,z,.042,.070,.03)
+            for x in (-.325,.325):
+                m.beam('gold',(x,.177,.18),(x,.244,.18),.017)
+                m.beam('gold',(x,.177,-.094),(x,.244,-.094),.017)
+                m.beam('gold',(x,.244,-.098),(x,.244,.184),.015)
+        return
     # The landing and the boat stay outside the house envelope; timber piles support the deck.
     for x in (-.365,.153):
         for z in (-.307,.330):
@@ -212,6 +336,33 @@ def furrow(m,x,z,length,width,era,ripe):
 
 
 def crops(m,era):
+    if era==3:
+        # A solar orchard replaces the cereal rows. The arrays tip above
+        # alternating lines of fruit trees with a produce cooler on the lane.
+        m.course('grass',0,0,2.81,2.65,0,.055,.16)
+        for j,(x,z) in enumerate(((-.89,-.78),(-.82,.02),(-.88,.84),
+                                   (.13,-.84),(.21,-.06),(.17,.84))):
+            h=.47+.06*(j%3)
+            drum(m,'timber',x,.055,z,.088,h,.058,segments=(8,5,4)[m.lod])
+            for s in (-1,1):
+                m.beam('timber',(x,h*.69,z),(x+s*.144,h+.047,z+.023*s),.048)
+                m.dome((x+s*.142,h+.015,z+.023*s),.226,
+                       m.color('leaf' if s<0 else 'grass'),segments=(9,6,4)[m.lod],rings=(3,2,1)[m.lod],
+                       squash=1.07,material='leaf' if s<0 else 'grass')
+            if m.lod==0:
+                for bx in (-.177,.13):
+                    drum(m,'roof_tile',x+bx,h+.074,z-.173,.035,.044,.022,segments=5)
+        for z in (-.49,.609):
+            m.beam('metal',(.833,.055,z),(.833,1.025,z),.102)
+            with m.transform(translate=(.83,1.028,z),rotate_z=-17):
+                m.box((0,0,0),(.76,.071,.77),m.color('glass'),bottom=True,material='glass')
+                if m.lod==0:
+                    for u in (-.18,0,.18):
+                        m.block('ivory',(u,.039,0),(.016,.013,.74))
+        m.course('ivory',.923,-.933,.53,.48,.055,.411,.058)
+        m.entry(.924,-1.173,.227,.065,.267,lintel='metal')
+        if m.lod<2: pennant(m,.781,.399,-.892,.271)
+        return
     yard = ("plaster","fieldstone","soil","soil")[era]
     m.course(yard,0,-.05,2.82,2.72,0,.04,corner=.12)
     shed(m,-.72,.04,.75,1.19,era)
@@ -419,6 +570,30 @@ def pasture(m,era):
 
 
 def gristmill(m,era):
+    if era==2:
+        # Steam roller mill: flour descends through a tall processing block.
+        # The boiler's flywheel and sack chute are exposed to the loading yard.
+        m.course('fieldstone',0,.03,1.82,1.69,0,.078,.10)
+        m.course('brick',-.15,.275,1.03,.89,.078,1.17,.058)
+        m.prism_x((-.15,1.17,.275),1.16,1.01,.30,m.color('slate'),material='slate')
+        m.entry(-.31,-.17,.30,.082,.44)
+        drum(m,'brick',.60,.078,.47,.167,1.47,.105)
+        drum(m,'trim',.60,1.53,.47,.126,.091)
+        m.block('metal',(.53,.28,-.15),(.41,.40,.56),taper=.09)
+        from generators.buildings.human_extraction import wheel
+        wheel(m,.524,.332,-.481,.239,'metal',.087)
+        m.beam('timber',(.17,.749,-.163),(.17,.339,-.619),.118,.106)
+        if m.lod<2:
+            for x in (-.49,-.16,.172):
+                m.light(x,.863,-.175,.169,.261,False)
+            for z in (.094,.47):
+                with m.transform(translate=(.37,0,z),rotate_y=-90):
+                    m.light(0,.823,0,.17,.255,False)
+        if m.lod==0:
+            for x,z in ((-.43,-.619),(-.62,-.55),(.03,-.669)):
+                m.jar(x,z,.079,.084,.165)
+            pennant(m,-.53,1.31,.27,.26)
+        return
     h=1.10
     m.course("fieldstone",0,.11,1.06,.96,0,.15,corner=.15)
     drum(m,"wall",0,.15,.11,.457,h,.309)

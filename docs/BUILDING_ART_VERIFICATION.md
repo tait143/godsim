@@ -1,5 +1,21 @@
 # Building art verification
 
+## Coordinator repair round 2
+
+The baseline for this round is `7e905bbc7c393fdfa647a0bf364239328e001203`. The coordinator’s independent all-pairs script and the in-repository audit matched on every family above 60% and its maximum rounded share. The coordinator’s final distribution had 206 multi-model families at or below 40%, 56 above 40% through 60%, and 23 above 60% through 80%. The highest actual fraction was 1,275/1,596, or 79.887%, for the Future Human Shrine measured against both its Ancient and Classical siblings. The independently reviewed Human shrine changes from an open canopy to a tall pointed frame. [Full measurements](../tools/AssetForge/reviews/rc4/final_audit.json)
+
+The in-repository audit compares indexed LOD0 corners across all 3,230 directions, including comparisons within a single era for distinct Town Center and House ages. The 227 checkpoint judgments include the old GLB SHA-256 values and both directions. Hashes for the 32 inspected grayscale pages are also recorded, and missing or changed evidence fails publication. All 276 directions in the 27 mandatory families passed the ceiling. Each of the 154 revised GLBs changed positional geometry at all three LODs. The revised models account for 329 of the 2,096 age previews. [Independent checkpoint decisions](../tools/AssetForge/reviews/rc4/triage.json)
+
+The final independent art-direction pass covered all 101 listed lineages on 19 painted pages and 34 grayscale pages. The 17 pages added in round 2 show 336 models at two 64-pixel camera angles, including all ten separate Town Center ages where applicable. The director closed nine holds after the replacement models passed package critique, and signed the catalog evidence digest `755e649839bc18281984253149f5b4dfeda06f658d5db3f118b0c9f23914ce48`. [Signed page hashes](../tools/AssetForge/reviews/art_direction_approval.json) · [Art direction and hold resolutions](../tools/AssetForge/reviews/art_direction.md)
+
+All 24 AssetForge tests passed. The headless building integration project compiled offline with zero warnings and errors. All 19 NUnitLite tests passed against the republished catalog with zero skips. Its 200-building fixture assembled 409,720 vertices and 173,105 triangles into four single-material meshes containing 64, 64, 64 and eight bodies. Three meshes needed 32-bit indices. The test exercises the production CPU batching path with exported LOD0 geometry. GPU submissions and iPhone performance still need a device capture.
+
+Two complete builds each regenerated all 71 packages, published 1,034 models with 2,130 runtime lookup keys, and produced 314 contact sheets. Both inventories matched byte for byte across 4,939 output paths. A separate read of all 4,939 files in the working tree reproduced every listed SHA-256. The canonical sorted-JSON digest is `7f2d87557eafb7598dd438b7ed58112cea642c0a22d1485f9c6a05007bacc7db`. The uncompressed, indented inventory file SHA-256 is `2670e7646a6308b3fed0e61b05086a57191461313b65b0416ac66c97ca219895`. [Complete rebuild inventory](../tools/AssetForge/reviews/rc4/rebuild_inventory.json.gz)
+
+The independent whole-diff reviewer verified the two corrections, checked all 3,102 serialized LODs, matched all 53 signed page hashes and reconstructed the 908 checkpoint views, 672 final grayscale views and 336 age captions pixel for pixel. The audit reproduced the stored JSON exactly. [Independent final review](../tools/AssetForge/reviews/rc4/diff_review.md)
+
+To reproduce the audit and refresh the report on this branch, run `python -B tools/AssetForge/building_round2.py audit` with the project interpreter. The full-build and test commands below apply to both repair rounds.
+
 ## Coordinator repair round 1
 
 The comparison baseline is commit `91863de5a788e77dc2baaaed86fbd9a52c58df63`. The review uses serialized GLBs on the Apple M1 and the repository's NumPy/Pillow pipeline. Reviewers open the age PNGs and compare atlas-free renders of the exported geometry.

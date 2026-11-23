@@ -729,6 +729,312 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_human_bathhouse_future_v0",
+          "evidence_sha256": "4e71afb85a34432ad4e455d4cb42b0804ea32a1fe9c5fb432e1e0ea94d7b87f0",
+          "observations": "A rooftop pool over a glazed pavilion steps down to two lower pools. Blue water and a small planted entry mark the approach. The separate basins, terrace edges and central supporting pavilion remain visible at distance and read differently from the industrial bath shed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1154,
+            470,
+            158
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_bathhouse_industrial_v0",
+            "b": "bld_human_bathhouse_future_v0",
+            "matched": 66,
+            "total": 1134
+          }
+        },
+        {
+          "id": "bld_human_bathhouse_industrial_v0",
+          "evidence_sha256": "a17353c72127b42afa83ab2489b8567ec36e27336541996bdc3bf4ba4472c803",
+          "observations": "A high brick flue rises beside a broad glazed barrel roof, with a low service housing along the furnace wall. Fine glazing ribs disappear at the middle distance. The deep vault, end wall and boiler stack retain the public bath profile from front and rear.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 93,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            378,
+            196,
+            80
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_bathhouse_industrial_v0",
+            "b": "bld_human_bathhouse_classical_v0",
+            "matched": 66,
+            "total": 1134
+          }
+        },
+        {
+          "id": "bld_human_herbalist_classical_v0",
+          "evidence_sha256": "7d561b71129fd2c89571bd3e03c9bff9ce10681259f329d654d4434d018ed340",
+          "observations": "A long column-supported portico opens directly onto two divided medicinal beds. The beds expose more working area than the ancient hut, with an earthen jar by the door. They retain their raised frames and planting at the far level.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            825,
+            419,
+            172
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_herbalist_classical_v0",
+            "b": "bld_human_herbalist_ancient_v0",
+            "matched": 66,
+            "total": 2475
+          }
+        },
+        {
+          "id": "bld_human_herbalist_future_v0",
+          "evidence_sha256": "83ca7915fee3d74429e1b8685f748ca7b193e28d5290dd8178bfbc61d62d3968",
+          "observations": "Three planting ledges spiral around a tall blue growing column, with an access hut at its base. The ledges can be seen meeting the core from the rear. At LOD2 they still carry visible greenery beneath the broad cap, distinct from the glasshouse and stone garden.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            959,
+            544,
+            202
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_herbalist_classical_v0",
+            "b": "bld_human_herbalist_future_v0",
+            "matched": 66,
+            "total": 2475
+          }
+        },
+        {
+          "id": "bld_human_herbalist_industrial_v0",
+          "evidence_sha256": "3c7ec1f059a72f4fa57f83c3e076e124d8590fd9a70f1d832a72d0b4c9f8313e",
+          "observations": "A tall roof vent stands above a brick processing house with a large copper vessel at the side and a herb bed in front. The side view exposes the vessel and its pipe next to the wall. The reduced mesh retains the herbs and distilling apparatus as separate forms.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1158,
+            561,
+            227
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_herbalist_classical_v0",
+            "b": "bld_human_herbalist_industrial_v0",
+            "matched": 66,
+            "total": 2475
+          }
+        },
+        {
+          "id": "bld_human_observatory_future_v0",
+          "evidence_sha256": "ced29491dd2fd1f766f127cc6c4540674875056fbacc18a6ba178d178a61ba8f",
+          "observations": "A broad dish on a forked pedestal is unmistakable in both unpainted views. Its feed arms converge over the face while a small control room anchors the site. At LOD2 the dish perimeter facets simplify, but the pedestal and receiver still read from behind.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            677,
+            314,
+            190
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_observatory_future_v0",
+            "b": "bld_human_observatory_classical_v0",
+            "matched": 66,
+            "total": 2031
+          }
+        },
+        {
+          "id": "bld_human_observatory_industrial_v0",
+          "evidence_sha256": "906148aa1763b53914a0ec2727881a763aadfa59028167bf48524cc0a1fb3afe",
+          "observations": "The projecting telescope barrel, broad pivot and stepped masonry pier create a different optical instrument from the future dish. A reading stand sits beside the service room. The mounting and tube survive the rear and distant views, including the open gap beneath the barrel.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            796,
+            422,
+            184
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_observatory_future_v0",
+            "b": "bld_human_observatory_industrial_v0",
+            "matched": 66,
+            "total": 2031
+          }
+        },
+        {
+          "id": "bld_human_printworks_industrial_v0",
+          "evidence_sha256": "d841c8d49a97cf466e8919e45b9f242bbb02fc134e44b8b56a394b055d3af9e2",
+          "observations": "A large cream web passes around the rollers at the front of a tall brick works. The open dark press frame gives the paper a clear backing. The upright shop and projecting paper feed read from both angles even after the far mesh loses individual windows.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            495,
+            256,
+            142
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_printworks_industrial_v0",
+            "b": "bld_human_printworks_classical_v0",
+            "matched": 66,
+            "total": 1485
+          }
+        },
+        {
+          "id": "bld_human_research_lab_future_v0",
+          "evidence_sha256": "c12676be799705232c68b63d34475198f8e377793a8b676ef859e198837c4c63",
+          "observations": "Splayed external legs connect the high cap to a low base around a luminous test vessel. A separate flat-roofed control room sets its scale. The side and rear views retain the open frame and distinguish the apparatus from the earlier broad laboratory hall.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            623,
+            320,
+            186
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_research_lab_future_v0",
+            "b": "bld_human_research_lab_industrial_v0",
+            "matched": 66,
+            "total": 1869
+          }
+        },
+        {
+          "id": "bld_human_scriptorium_classical_v0",
+          "evidence_sha256": "bd54488ae1fbf55b02f37d682208c3d0028ad79401b0a31b8ea52b17edc6fae3",
+          "observations": "A rounded reading room with a hipped tiled cap projects beyond the small covered entry. The white leaves of an open book stand out against its lectern at the front. The round wall, porch and book remain legible at distance.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            986,
+            342,
+            164
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_scriptorium_industrial_v0",
+            "b": "bld_human_scriptorium_classical_v0",
+            "matched": 66,
+            "total": 1611
+          }
+        },
+        {
+          "id": "bld_human_scriptorium_future_v0",
+          "evidence_sha256": "504d8b98bfe9d2d2c1e9af6b0b177d164adb19cc483379f432417fec226eeea7",
+          "observations": "The stacked offset archive floors and blue clerestories make a stepped silhouette above an entrance desk. The end view shows the middle floor bearing on the central block. The far model retains its projected floors and the open book by the door.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            938,
+            388,
+            142
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_scriptorium_industrial_v0",
+            "b": "bld_human_scriptorium_future_v0",
+            "matched": 66,
+            "total": 1611
+          }
+        },
+        {
+          "id": "bld_human_scriptorium_industrial_v0",
+          "evidence_sha256": "15ae9e3cebb4d6288c17ed9a70d2b66add672896e5cf5cc7f758e853a4732c0b",
+          "observations": "A slim flagged entry tower steps above a long roof-lit brick writing hall. Its side view separates the open book from the doorway and the rear view exposes parallel roof ridges. The tower, ridges and book survive the distant mesh.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            537,
+            274,
+            114
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_scriptorium_industrial_v0",
+            "b": "bld_human_scriptorium_ancient_v0",
+            "matched": 66,
+            "total": 1611
+          }
+        }
+      ]
     }
   ]
 }

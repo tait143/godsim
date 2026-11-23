@@ -1,5 +1,11 @@
 # Building art production progress
 
+## Coordinator repair round 2
+
+Working from `7e905bb`. An exact audit reproduced the coordinator's 101 families across 3,230 ordered comparisons of 285 multi-model families. At the checkpoint 27 families required redesign, accounting for 142 directed comparisons over 60%. The 74 families subject to visual triage had 408 directed comparisons above 60% across 227 distinct model pairs. The [checkpoint audit](../tools/AssetForge/reviews/rc4/checkpoint_pairs.json) lists every affected ID in both directions. The [independent pair ledger](../tools/AssetForge/reviews/rc4/triage.json) records the critic’s decision for all 227 pairs.
+
+The independent package critics have approved all 154 current changed models. Each of the nine director holds has a revised model and a fresh package judgment. The director reopened the final 19 painted and 34 unpainted sheets, closed all nine holds and signed the 101 listed families. Two full builds matched for all 4,939 outputs. All 24 AssetForge tests and all 19 headless integration tests passed. [Director findings](../tools/AssetForge/reviews/art_direction.md) The [independent final diff review](../tools/AssetForge/reviews/rc4/diff_review.md) closed both findings. All 71 packages passed. The changes remain in the working tree for the coordinator’s commit.
+
 ## Coordinator repair round 1
 
 The repair on `art/buildings` compares the catalog with checkpoint `91863de`. Artists reworked all 61 listed era families, the separately pictured Elf Herbalist and 57 additional families that received specific findings during review. The repair changed 461 GLBs. All 1,034 currently meet the 60% LOD1 ceiling. [Binary measurements and model IDs](../tools/AssetForge/reviews/coordinator_round1.json)

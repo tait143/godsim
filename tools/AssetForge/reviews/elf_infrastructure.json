@@ -882,6 +882,54 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 10,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_elf_granary_classical_v0",
+          "evidence_sha256": "8e41ae3811d8d9539ffe9f1f40650e96920d90b34bc5fa2c69c18ab24ce1ef05",
+          "observations": "The storage room sits above open stone feet and a flight of steps. The warm ribbed barrel roof, containers at the landing and pointed door retain a softer outline than the later bank of silos. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 709/335/181 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_granary_future_v0",
+          "evidence_sha256": "ef5284af68b0f58be36aca38589ea542ef7cb673462ba7d43eb206ab5ee8cd57",
+          "observations": "A tall tapered seed-shaped bin rises behind a short arched intake and grain sacks. The green, pale and blue bands run across the large volume; the middle LOD keeps its vertical ribs and broad shoulders. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 573/341/175 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 92,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_granary_industrial_v0",
+          "evidence_sha256": "83cb53a8ab85709120f23b6919aab363f17941fcca3ae67b12fc6a1d004b756c",
+          "observations": "Two cylindrical grain bins and a narrow elevator have dark caps and a connecting overhead chute. The rear view shows the chute terminating on the silhouettes. The pod and the vaulted grain room in adjacent eras are distinct. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 447/253/133 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

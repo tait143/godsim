@@ -1170,6 +1170,40 @@
           ]
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_observatory_future_v0",
+          "evidence_sha256": "cb9a1e83b67c1a6161851c8f88f847c8279f29dd3aa78c00223e1c983aa1cc4a",
+          "observations": "A large tilted blue dish and smaller companion instrument stand on pale supports beside a control hut. The main dish’s central receiver and radial struts remain legible when viewed from the side; its projecting angle differs from the enclosed earlier dome. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 587/333/175 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 15.673%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_observatory_industrial_v0",
+          "evidence_sha256": "c7a9c57523f6275157319dd7deed807178ee3d9574fb7eeb5c352580926c2e44",
+          "observations": "A continuous dark green observing dome caps the circular brick drum. The wide slit and turquoise base band continue around its back, while a gold-trimmed door gives the large dome scale. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 641/301/157 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 15.673%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

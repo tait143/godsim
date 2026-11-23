@@ -1161,6 +1161,26 @@
           ]
         }
       ]
+    },
+    {
+      "round": 11,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_hunting_lodge_classical_v0",
+          "evidence_sha256": "882c11528616eb5ea079028b60c49e8f6c0e29ca590fa35032653d93de5b753a",
+          "observations": "A thatched hunting lookout on tall timber stilts rises beside a drying rack. A ladder reaches the platform and a small turquoise jar stands below. Its open framework separates it from the earlier closed hut in both grey angles. Painted previews cover classical, medieval. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 821/467/241 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

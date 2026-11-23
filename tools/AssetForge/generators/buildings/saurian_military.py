@@ -92,6 +92,33 @@ def palisade(m):
 
 def watch(m):
     era=m.era
+    if era==2:
+        # Splayed iron bents carry an enclosed signal cabin. The beacon
+        # pivots above the roof, with the access ladder on the south bent.
+        m.slab("brick",0,0,0,.81,.12,.73,.92)
+        for x in (-.29,.29):
+            for z in (-.235,.235):
+                m.rod("metal",(x,.12,z),(x*.58,1.00,z*.66),.050)
+        for z in (-.222,.222):
+            m.rod("trim",(-.272,.19,z),(.178,.94,z*.70),.030,n=4)
+        m.slab("metal",0,1.00,0,.63,.105,.54,.92,underside=True)
+        m.slab("glass",0,1.105,0,.54,.24,.44,.88)
+        m.slab("ivory",0,1.345,0,.64,.065,.55,.88,underside=True)
+        m.drum("metal",0,1.410,0,.076,.093,n=(12,8,4)[m.lod])
+        with m.transform(translate=(0,1.57,.08),rotate_x=-71):
+            m.drum("metal",0,0,0,.102,.24,.14,bottom=True)
+            m.drum("emissive",0,.24,0,.132,.014)
+        if m.lod<2:
+            for x in (-.077,.077):
+                m.rod("trim",(x,.12,-.33),(x,1.033,-.258),.016,n=4)
+            for k in range((8,5)[m.lod]):
+                t=(k+1)/((8,5)[m.lod]+1)
+                m.block("timber",0,.12+.913*t,-.33+.072*t,.155,.020,.032)
+            m.disc(0,1.202,-.217,.059)
+        else:
+            with m.transform(translate=(0,.12,-.33),rotate_x=4.5):
+                m.block("timber",0,0,0,.155,.916,.036)
+        return
     if era==0:
         # A reed lookout with an open, cross-braced undercroft.
         m.slab("fieldstone",0,0,.035,.66,.105,.65,.94)
@@ -208,6 +235,35 @@ def court_target(m,x,z,r):
 
 def barracks(m):
     era=m.era
+    if era==0:
+        works.court(m,role="soil")
+        # Three circular troop lodges gather around the muster ground.
+        for x,z,r,h in ((-.41,.28,.37,.43),(.41,.29,.33,.38),(.39,-.43,.24,.29)):
+            m.drum("timber",x,.08,z,r*.88,h,r*.82)
+            m.block("wall",x,.08,z-r*.73,r*.76,h*.83,r*.38)
+            m.entry(x,.08,z-r*.92,r*.46,h*.69)
+            m.drum("thatch",x,.08+h,z,r,h*.93,r*.15)
+            if m.lod<2:
+                m.drum("trim",x,.08+h*.99,z,r*1.013,.052,r*.89)
+        flag(m,-.55,.08,-.48,.92)
+        if m.lod<2:
+            m.slab("timber",-.26,.08,-.38,.40,.16,.20,.85)
+            for x in (-.37,-.16):
+                m.disc(x,.235,-.463,.094,"turquoise")
+        return
+    if era==2:
+        # A brick drill hall faces the muster square, with bunks in a
+        # transverse two-storey dormitory and a boiler room at one end.
+        works.court(m,-.20)
+        works.northlights(m,-.24,.05,1.00,.95,.70,.30)
+        works.shell(m,.46,.25,.46,1.03,.94,material="brick")
+        m.rooflet(.46,1.02,.25,.53,1.12,.18,"metal")
+        works.spire(m,-.67,.55,.108,1.23)
+        works.cartouche(m,-.24,.65,-.436,.079)
+        flag(m,.57,.08,-.54,.72)
+        if m.lod==0:
+            works.shutters(m,.46,.76,-.277,.40,.14,2)
+        return
     floor=.106
     m.slab("fieldstone",0,0,.09,1.81,floor,1.48,.96)
     # Two dormitory aisles flank an open forecourt; a transverse mess hall joins them.

@@ -5,6 +5,78 @@ from math import cos, sin, pi
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
 from generators.buildings.elf_learninghealth import TAU, generate, terrace
+from generators.buildings.elf_institution_forms import arch_rib, deck, drum, vault
+
+
+def grandstand(m, x, z, length, height, *, width=.37):
+    steps=(5,3,1)[m.lod]
+    for j in range(steps):
+        h=height*(j+1)/steps
+        d=width/steps
+        m.box((x,h*.5,z+j*d),(length,h,d),(1,1,1),material="wall")
+        if m.lod==0:
+            m.box((x,h+.013,z+j*d-.006),(length*.99,.024,d*.94),(1,1,1),material="timber")
+
+
+def contest_ground(m, kind):
+    if kind=="Stadium":
+        # A sprinters' oval lies below a single long, banked grandstand.
+        deck(m,0,0,-.16,.83,.53,.092,"grass")
+        drum(m,0,-.16,.74,.43,[(.089,1,"wall"),(.102,1,"banner")])
+        drum(m,0,-.16,.60,.27,[(.101,1,"wall"),(.113,1,"grass")])
+        for side in (-1,1):
+            grandstand(m,side*.39,.26,.53,.52,width=.43)
+        vault(m,0,.49,.132,.240,.20,.14,roof="ivory",ribs=False)
+        for x in (-.48,.48):
+            m.stem([(x,.03,.70),(x,.58,.69),(x,.91,.56)],[.068,.055,.036],"ivory")
+            m.leaf((x,.88,.57),(x*.54,1.10,.07),.35,"roof")
+        for x in (-.23,.23):
+            m.box((x,.235,-.52),(.044,.29,.04),(1,1,1),material="ivory")
+        m.box((0,.39,-.52),(.50,.042,.045),(1,1,1),material="accent")
+        if m.lod==0:
+            for x in (-.18,-.036,.108):
+                m.box((x,.341,-.52),(.071,.074,.027),(1,1,1),material="banner")
+        return
+    if m.era==2:
+        # The roofed judges' gallery runs transversely across the end of the duelling sand.
+        deck(m,.015,0,-.17,.65,.57,.087,"soil")
+        vault(m,.025,.49,.63,.216,.38,.36,door=False,roof="metal")
+        grandstand(m,.025,.10,1.17,.365,width=.22)
+        for side in (-1,1):
+            with m.transform(translate=(side*.60,0,-.20),rotate_y=side*90):
+                grandstand(m,0,0,.71,.26,width=.18)
+            m.stem([(side*.63,.03,-.52),(side*.61,.40,-.53),(side*.55,.60,-.52)],
+                   [.054,.04,.027],"timber")
+            m.leaf((side*.565,.57,-.532),(side*.48,.29,-.565),.089,"banner")
+        sparring_circle(m,.015,.087,-.20,.32)
+        return
+    # The suspended scoring ring follows the perimeter of the combat floor.
+    deck(m,0,0,.025,.63,.55,.16,"soil")
+    with m.transform(translate=(0,1.04,.026),rotate_x=90):
+        m.hoop(0,0,0,.66,.54,.095,"roof")
+    for a in (.27,2.37,4.14):
+        c,s=cos(a),sin(a)
+        m.stem([(.79*c,.026,.025+.68*s),(.72*c,.61,.025+.60*s),
+                (.61*c,1.045,.025+.50*s)],[.093,.066,.052],"trim")
+        drum(m,.79*c,.025+.68*s,.106,.11,[(0,1,"wall"),(.09,.91,"ivory")])
+    for side in (-1,1):
+        with m.transform(translate=(side*.48,0,.05),rotate_y=side*90):
+            grandstand(m,0,0,.55,.31,width=.22)
+    arch_rib(m,0,0,-.54,.255,.42,"ivory",width=.044)
+    sparring_circle(m,0,.16,-.035,.32)
+    if m.lod<2:
+        for x in (-.43,.43):
+            m.lamp(x,.16,-.275,.076)
+
+
+def sparring_circle(m,x,y,z,r):
+    # A bright scoring boundary and opposing fighters' marks identify the sand court.
+    n=(15,9,6)[m.lod]
+    m.lathe(x,z,r,r,[(y-.003,.98,"wall"),(y+.008,1,"ivory")],n=n)
+    m.lathe(x,z,r*.83,r*.83,[(y+.007,.99,"timber"),(y+.014,1,"hide")],n=n)
+    if m.lod<2:
+        for s in (-1,1):
+            m.box((x+s*.105,y+.021,z),(.035,.016,.112),(1,1,1),material="banner")
 
 
 def canopy(m,x,z,w,h,angle=0):
@@ -19,9 +91,49 @@ def canopy(m,x,z,w,h,angle=0):
             m.lamp(-w*.67,h-.13,.032,.063)
 
 
+def cooking_hearth(m):
+    # A livewood crane suspends a communal cauldron above an oval fireboat.
+    n = (13, 9, 5)[m.lod]
+    m.lathe(.02, -.09, .50, .31, [(0,.86,"fieldstone"),(.15,1,"wall"),(.23,.92,"brick")], n=n)
+    m.lathe(.02, -.09, .40, .22, [(.228,.95,"timber"),(.25,1,"forge")], n=n)
+    fires = [(-.17,-.12,.46),(.03,-.10,.54),(.21,-.05,.41)]
+    for x,z,h in fires:
+        m.leaf((x,.245,z+.055),(x+.075,h,z-.02),.095,"forge")
+        if m.lod == 0:
+            m.leaf((x-.035,.25,z-.060),(x+.008,h-.038,z-.081),.051,"emissive")
+    for side in (-1,1):
+        m.lathe(side*.69,.14,.136,.115,[(0,1,"fieldstone"),(.084,.85,"wall")],n=(9,6,4)[m.lod])
+        m.stem([(side*.69,.062,.14),(side*.58,.63,.15),(side*.39,1.04,.07),
+                (side*.10,1.16,-.04)], [.114,.085,.059,.038], "timber", sides=(8,5,3)[m.lod])
+        if m.lod<2:
+            m.leaf((side*.51,.78,.11),(side*.83,1.04,.24),.105,"leaf")
+        # Carved bench on continuous low feet leaves the southern approach open.
+        m.lathe(side*.55,-.44,.21,.105,[(0,.71,"fieldstone"),(.13,.73,"wall"),(.19,1.04,"timber")],
+                n=(11,7,4)[m.lod])
+    m.bar((-.13,1.15,-.036),(.13,1.15,-.036),.038,"trim")
+    m.bar((.006,1.15,-.036),(.006,.875,-.036),.022,"metal")
+    handle = [(-.194,.718,-.036),(-.123,.822,-.036),(.006,.876,-.036),
+              (.128,.818,-.036),(.196,.714,-.036)]
+    if m.lod==2:
+        handle = handle[::2]
+    m.stem(handle,[.021]*len(handle),"metal",sides=(6,4,3)[m.lod])
+    m.lathe(.004,-.036,.202,.167,[(.535,.40,"metal"),(.565,.83,"metal"),
+                                  (.684,1,"metal"),(.72,.96,"gold")],n=n,bottom=True)
+    if m.lod<2:
+        m.lathe(.004,-.036,.173,.141,[(.719,.97,"hide"),(.727,1,"soil")],n=n)
+    if m.lod==0:
+        # A ladle rests inside the rim; two split logs lie on the back of the fireboat.
+        m.bar((.078,.727,-.02),(.19,.845,.061),.016,"timber")
+        for z in (.145,.23):
+            m.bar((-.26,.274,z),(.27,.291,z+.038),.042,"timber")
+
+
 def gathering(m,kind):
     e=m.era
     if kind=="Campfire":
+        if e==1:
+            cooking_hearth(m)
+            return
         m.basin(0,0,.04,.43,.39,.15,"soil")
         for i in range(3):
             a=TAU*i/3
@@ -145,6 +257,9 @@ def gathering(m,kind):
             m.lamp(x,.17,-.11,.09)
     elif kind in ("Arena","Stadium"):
         stadium=kind=="Stadium"
+        if (stadium and e==3) or (not stadium and e>=2):
+            contest_ground(m,kind)
+            return
         terrace(m,0,.06,.87,.82,-1.04,4.18,(5,3,2)[m.lod])
         m.lathe(0,.06,.48,.42,[(0,1,"fieldstone"),(.052,1,"grass" if stadium else "soil")])
         if stadium:

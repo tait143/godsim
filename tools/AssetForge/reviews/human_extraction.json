@@ -680,6 +680,162 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_human_coal_mine_future_v0",
+          "evidence_sha256": "fbcaab3012167c71f0185209f082f6c41676f587ff13ea809e3aaa796f6c9647",
+          "observations": "The low vaulted portal frames a loaded rail cart and an elevated side conveyor carries cut coal above the yard. The cart and its rails are clearest from the entrance, while the conveyor separates in the side view. Both remain recognizable at the far level.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 92,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            504,
+            296,
+            156
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_coal_mine_future_v0",
+            "b": "bld_human_coal_mine_industrial_v0",
+            "matched": 66,
+            "total": 1512
+          }
+        },
+        {
+          "id": "bld_human_oil_well_future_v0",
+          "evidence_sha256": "2c2cdce01cdbdb1993087fe4af86b4e7a256ba94978e1f3441198a3cbad91532",
+          "observations": "A valve tree stands next to a horizontal tank held clear of the ground on saddles. The valve wheels and connecting pipe explain the wellhead at close range. Both tank supports and the branches of the valve assembly remain identifiable at the far level.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            962,
+            548,
+            283
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_oil_well_industrial_v0",
+            "b": "bld_human_oil_well_future_v0",
+            "matched": 66,
+            "total": 2382
+          }
+        },
+        {
+          "id": "bld_human_stone_quarry_industrial_v0",
+          "evidence_sha256": "23fa30cad7745343009414ddfdfee6fae40e3c080719b0ec9c8c95ea226b219a",
+          "observations": "A dark jib crane swings from a round bearing above the stepped cut, suspending a light stone block at the working face. The rear view clearly separates the quarried steps from the boom. Both faces of the braced crane and its load remain at LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            591,
+            225,
+            171
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_stone_quarry_industrial_v0",
+            "b": "bld_human_stone_quarry_ancient_v0",
+            "matched": 66,
+            "total": 1773
+          }
+        },
+        {
+          "id": "bld_human_woodcutter_camp_classical_v0",
+          "evidence_sha256": "57d2d3f03150b4d2dcb9030016430ccb1491261cd30f41bd2b92bf7faab1ca8c",
+          "observations": "A raised frame and long cutting bench sit in front of a small gabled shed, with peeled trunks and squared ends arranged across the yard. The reverse view separates the bench from the store. The frame and a workpiece remain at distance.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1054,
+            606,
+            208
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_woodcutter_camp_future_v0",
+            "b": "bld_human_woodcutter_camp_classical_v0",
+            "matched": 66,
+            "total": 2274
+          }
+        },
+        {
+          "id": "bld_human_woodcutter_camp_future_v0",
+          "evidence_sha256": "6b4301ce0534a3a6353757d4a7390971a55676d53485221da384eb0a532eb36b",
+          "observations": "Wide-set gantry legs straddle a log pile and carry a boom back to a compact blue-capped control station. Both feet of the frame and the clearance above the logs are visible in the reverse views. The far mesh retains the gantry span and material underneath.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            758,
+            450,
+            238
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_woodcutter_camp_future_v0",
+            "b": "bld_human_woodcutter_camp_ancient_v0",
+            "matched": 66,
+            "total": 2274
+          }
+        },
+        {
+          "id": "bld_human_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "aba728368e5269a994d06fc3f68dfe687d5ec05e7af1a79e9e212e97795ec7c8",
+          "observations": "A black boiler and stack power a horizontal log feed on a timber skid. The exposed workpiece and nearby stockpile establish its purpose without a shed. The stack, engine and feed remain in their working arrangement through the distant mesh.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            832,
+            452,
+            210
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_woodcutter_camp_future_v0",
+            "b": "bld_human_woodcutter_camp_industrial_v0",
+            "matched": 66,
+            "total": 2274
+          }
+        }
+      ]
     }
   ]
 }

@@ -733,6 +733,62 @@
           ]
         }
       ]
+    },
+    {
+      "round": 7,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_dwarf_town_center_classical_renaissance_v0",
+          "evidence_sha256": "1de5a7e474e2c2950e5e729fc72bbd5f32464b4b16511cb7f6539e27114b5c98",
+          "observations": "The broad terracotta dome stands above an axial columned loggia and long lower roof. The dome reads differently from the Medieval raised hall and the Industrial stacks in the ten-age comparison. The stair, covered porch and rounded drum remain legible at the far level.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1030,
+            516,
+            275
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_town_center_ancient_v0",
+            "b": "bld_dwarf_town_center_classical_renaissance_v0",
+            "matched": 0,
+            "total": 2832
+          }
+        },
+        {
+          "id": "bld_dwarf_town_center_future_v0",
+          "evidence_sha256": "cce483de30a6db3859a8781c5ef2c23232d1a582a1c24c3a0f2019212118b12a",
+          "observations": "An offset beacon tower and low administrative wing share a stepped entry court. Its two unequal silhouettes separate Information from the Modern rooftop drum and Ascension ring in both grayscale views. The reduced tower keeps its horizontal bands, beacon and stepped base.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1218,
+            694,
+            302
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_town_center_ancient_v0",
+            "b": "bld_dwarf_town_center_future_v0",
+            "matched": 0,
+            "total": 2832
+          }
+        }
+      ]
     }
   ]
 }

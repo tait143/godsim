@@ -186,7 +186,7 @@ def retire_obsolete_pages(sheets, packages):
             if path.stem.isdecimal() and path not in current_pages:
                 path.unlink()
     for path in (SHEETS / "era_geometry").glob("*.png"):
-        race, _, page = path.stem.rpartition("-")
+        race, _, page = path.stem.removeprefix("rc4-").rpartition("-")
         if race in RACES and page.isdecimal() and path not in current_pages:
             path.unlink()
 

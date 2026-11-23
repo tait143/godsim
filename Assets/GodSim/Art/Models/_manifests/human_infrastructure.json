@@ -241,11 +241,11 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 714,
+  "triangles": 699,
   "lod_triangles": [
-   714,
-   406,
-   222
+   699,
+   355,
+   186
   ],
   "bounds": [
    [
@@ -255,11 +255,11 @@
    ],
    [
     0.9150000214576721,
-    1.7799999713897705,
+    1.25,
     0.8050000071525574
    ]
   ],
-  "bytes": 108800,
+  "bytes": 107892,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_granary_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_granary_classical_v0.png",
@@ -286,25 +286,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1198,
+  "triangles": 792,
   "lod_triangles": [
-   1198,
-   716,
-   256
+   792,
+   454,
+   244
   ],
   "bounds": [
    [
     -0.9150000214576721,
     0.0,
-    -0.8379999995231628
+    -0.8050000071525574
    ],
    [
     0.9150000214576721,
-    1.621999979019165,
+    1.7309999465942383,
     0.8050000071525574
    ]
   ],
-  "bytes": 153564,
+  "bytes": 123372,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_granary_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_granary_future_v0.png",
@@ -689,25 +689,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 595,
+  "triangles": 505,
   "lod_triangles": [
-   595,
-   338,
-   149
+   505,
+   210,
+   136
   ],
   "bounds": [
    [
-    -0.4399999976158142,
+    -0.4449999928474426,
     0.0,
     -0.42500001192092896
    ],
    [
-    0.4399999976158142,
-    1.2009999752044678,
-    0.42500001192092896
+    0.4449999928474426,
+    0.7900000214576721,
+    0.4399999976158142
    ]
   ],
-  "bytes": 90692,
+  "bytes": 72336,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_well_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_classical_v0.png",
@@ -734,25 +734,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 685,
+  "triangles": 505,
   "lod_triangles": [
-   685,
-   390,
-   151
+   505,
+   258,
+   136
   ],
   "bounds": [
    [
-    -0.4399999976158142,
+    -0.44999998807907104,
     0.0,
-    -0.42500001192092896
+    -0.38499999046325684
    ],
    [
-    0.4399999976158142,
-    1.1449999809265137,
-    0.42500001192092896
+    0.44999998807907104,
+    0.9079999923706055,
+    0.4050000011920929
    ]
   ],
-  "bytes": 106680,
+  "bytes": 79592,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_well_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_future_v0.png",
@@ -778,25 +778,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 595,
+  "triangles": 470,
   "lod_triangles": [
-   595,
-   345,
-   141
+   470,
+   266,
+   146
   ],
   "bounds": [
    [
-    -0.4399999976158142,
+    -0.41999998688697815,
     0.0,
-    -0.42500001192092896
+    -0.39500001072883606
    ],
    [
-    0.4399999976158142,
-    1.0670000314712524,
-    0.42500001192092896
+    0.41999998688697815,
+    0.9297356009483337,
+    0.39500001072883606
    ]
   ],
-  "bytes": 90932,
+  "bytes": 73704,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_well_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_well_industrial_v0.png",

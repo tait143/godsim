@@ -5,6 +5,8 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from generators.buildings.orc_towncenters import Lodge, generate
+from generators.buildings.orc_learninghealth import build_lodge
+from generators.buildings import orc_food_yards
 
 PACKAGE="orc_food"
 
@@ -294,6 +296,9 @@ def grow_tower(m):
 
 
 def build(spec,lod):
+    designer=orc_food_yards.DESIGNS.get((spec.building_type,spec.band))
+    if designer:
+        return build_lodge(spec,lod,lambda m,t: designer(m))
     m=Lodge(spec,lod)
     t=spec.building_type
     scale=spec.footprint[0]/2

@@ -520,6 +520,198 @@
           ]
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_cathedral_future_v0",
+          "evidence_sha256": "413752b3ebb07197adb9b41614893d0c1cfd853f4a8c772b3d23acbdccce17d6",
+          "observations": "A single great arch on thick footings frames the domed worship hall and suspended sun disc. The glazed dome and low corner stones remain legible around the middle model. This arch now belongs clearly to the cathedral beside the revised lotus shrine. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 776/441/247 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 12.69%.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_cathedral_industrial_v0",
+          "evidence_sha256": "86849800ec9421cdcba0d4662c4cda3aa76b57d4af197bf1a577fccf5c4ec0d4",
+          "observations": "The long, barrel-vaulted nave has a separate square bell tower and thick buttresses framing its end doorway. The dark vault and copper-red walls remain distinct behind the building. The freestanding lantern shrine reads smaller and differently. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 725/397/201 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 12.69%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_shrine_classical_v0",
+          "evidence_sha256": "55beb52864644a18219eddb0e91b5398f677a804c32047eacede94e907c014b0",
+          "observations": "Two slender obelisks frame a sun disc on a low turquoise altar. The gold tips and central disc remain distinct around the middle mesh. The low open court differs clearly from the later single tall votive lantern. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 620/353/144 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 19.167%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_shrine_future_v0",
+          "evidence_sha256": "63d885546216fb5182db641c55bb116f081328c031f338d3fc8470eaefc06ded",
+          "observations": "Four pale lotus-like blades cradle a gold sun disc above a shallow turquoise pool. The flared petals form a compact open silhouette in both grey views and the middle side view. The Cathedral’s high architectural arch and enclosed chapel are absent from the shrine outline. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 480/273/140 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 19.167%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_shrine_industrial_v0",
+          "evidence_sha256": "adc8ed516ca132884ab0ba9449b8aff429fc4c1c304fcced55d2a64b50a761d9",
+          "observations": "A freestanding lit lantern rises directly from a stepped brick altar with small votive pedestals. The gold-lit opening and dark metal cap stay visible around its back. The cathedral has a nave beside its separate tower, whereas the votive shrine stands in open space. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 738/420/234 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 19.167%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_temple_industrial_v0",
+          "evidence_sha256": "22783ad6165bb729161f8612a2c734671955b66a76fff0396bc6c41eac0f4b3e",
+          "observations": "A turquoise-stepped central sanctuary rises above two lower vaulted side chapels. The entrance portal carries a prominent sun emblem. Both side chapels and the stepped transition to the dark roof survive the middle rear view. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1007/485/195 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC4 critic, checkpoint catalog comparison",
+      "models": [
+        {
+          "id": "bld_saurian_temple_ancient_v0",
+          "evidence_sha256": "4120294bf45ecb6084cd7a99c23579d03df27e3db0ddbaca4eb3bb405fe4589b",
+          "observations": "The Iron Temple and TownCenter both put a broad hipped roof over a square chamber reached by one large stair on a stepped plinth. The sun crest sits in the same position above each roof. The more open adjacent Shrine has its own silhouette. I viewed all assigned age previews, both 64 px unpainted angles and the front, side and rear of LOD1. Serialized LODs 971/452/163 passed the geometry, budget, exposed overlap and winding checks. The checkpoint cross-function comparisons with bld_saurian_town_center_ancient_iron_v0 share 0.000% of Temple corners and 0.000% in reverse.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 81,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give early worship an open ritual space or processional layout that separates its main volumes from the civic chamber."
+          ]
+        },
+        {
+          "id": "bld_saurian_temple_classical_v0",
+          "evidence_sha256": "f921937f26b1f4db0d2522f4551d56fdd12a95261aa4a3f2f7f5e03c860338a3",
+          "observations": "The Classical Temple repeats the Classical TownCenter’s low dome, cornice, central stair and broad square terraces in both grey views. The Medieval TownCenter has a steeper roof and the revised Renaissance TownCenter has a tower, but the Temple still lacks a distinctive ceremonial arrangement. The twin-obelisk Shrine is distinct. I viewed all assigned age previews, both 64 px unpainted angles and the front, side and rear of LOD1. Serialized LODs 1015/448/163 passed the geometry, budget, exposed overlap and winding checks. The checkpoint cross-function comparisons with bld_saurian_town_center_classical_v0 share 0.000% of Temple corners and 0.000% in reverse.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 82,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Change the temple architecture and approach so the worship space reads differently from the Classical domed civic hall."
+          ]
+        },
+        {
+          "id": "bld_saurian_temple_future_v0",
+          "evidence_sha256": "784be7109a6082d900c989e0a0dd33def38c41ac98c9d936e3c477fb87bafe19",
+          "observations": "The Future Temple and Ascension TownCenter both place a large ring between two feet over a square sanctuary and central stairs. Almost the whole outline coincides at both camera angles. The Information TownCenter has a separate blue roof and the lotus Shrine has a low open pool. I viewed all assigned age previews, both 64 px unpainted angles and the front, side and rear of LOD1. Serialized LODs 969/477/191 passed the geometry, budget, exposed overlap and winding checks. The checkpoint cross-function comparisons with bld_saurian_town_center_future_ascension_v0 share 0.000% of Temple corners and 0.000% in reverse.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 80,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Future Temple a distinct ceremonial profile and a different arrangement of entry, worship space and sun symbol."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC4 critic, catalog repair reinspection",
+      "models": [
+        {
+          "id": "bld_saurian_temple_ancient_v0",
+          "evidence_sha256": "bce0ab98002a77973b64f93ca91e703778e5ee37aa206f2b4152de562587ce72",
+          "observations": "Paired upright stones carry broad lintels around a low circular altar. The sun disc and two offering lights frame the near approach. From the side and back, the spaces between uprights remain visible at all three LODs. Both grey views clearly separate the open sanctuary from the Iron Town Center and roofed Shrine. Inspected all 1 assigned age previews, two 64 px unpainted angles, and 215°, 125° and 35° painted cameras on all three LODs. Serialized LODs 974/554/283 passed geometry and budget checks. Direct checks found zero exposed coplanar overlaps or inward closed shells. The maximum directed shared-corner fraction with any era sibling was 0.000%.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_temple_classical_v0",
+          "evidence_sha256": "0db711a9d411761ed54b811efeddab832abcd14dd0da548d0fa5be3a20daceae",
+          "observations": "Parallel colonnades define a processional court leading to the sheltered sun altar. Their lintels rest on individual columns and the open approach remains readable from the side at every LOD. The courtyard has a different profile from the domed or towered Town Centers, the twin-obelisk Shrine and the enclosed Cathedral. Inspected all 3 assigned age previews, two 64 px unpainted angles, and 215°, 125° and 35° painted cameras on all three LODs. Serialized LODs 1312/747/384 passed geometry and budget checks. Direct checks found zero exposed coplanar overlaps or inward closed shells. The maximum directed shared-corner fraction with any era sibling was 9.136%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_temple_future_v0",
+          "evidence_sha256": "46fd09c539431075c55ea0c69f95ecaf68eee8235421fe1dcd42b534751e5153",
+          "observations": "Two steep pale nave walls rise from turquoise footings, enclosing an altar and a short central approach. Gold-edged circular daylight openings pierce the walls in both age previews; the far mesh keeps the holes when the mullions simplify away. The triangular nave, side light and open end distinguish it from the ring-crowned Town Center, lotus Shrine and arched Cathedral in both grey views. Inspected all 2 assigned age previews, two 64 px unpainted angles, and 215°, 125° and 35° painted cameras on all three LODs. Serialized LODs 844/480/260 passed geometry and budget checks. Direct checks found zero exposed coplanar overlaps or inward closed shells. The maximum directed shared-corner fraction with any era sibling was 0.000%.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

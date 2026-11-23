@@ -406,6 +406,70 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "RC4 independent Human art critic, checkpoint comparison",
+      "models": [
+        {
+          "id": "bld_human_barracks_classical_v0",
+          "evidence_sha256": "7b87707e9c4a5b830d135aba5fdb84e29ea7e0ee4037eb4dd2ab0c67e0bd65a0",
+          "observations": "Both 64-pixel views show the Iron barracks and the Classical barracks with the same long hipped hall, projecting entrance gable, small rear chimney, drum and flag. The tile and masonry change in the painted previews. The single hall and porch still dominate all three levels, with no new space for assembly or drill.",
+          "scores": {
+            "silhouette": 82,
+            "identity": 79,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Classical barracks a different plan and roofline. An open muster court and an arcade with visible bearing columns would distinguish it from the Iron hall in both unpainted views."
+          ],
+          "lod_triangles": [
+            943,
+            470,
+            137
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_barracks_future_v0",
+            "b": "bld_human_barracks_classical_v0",
+            "matched": 1188,
+            "total": 2031
+          }
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "RC4 independent Human art critic, replacement mesh re-review",
+      "models": [
+        {
+          "id": "bld_human_barracks_classical_v0",
+          "evidence_sha256": "174a80cee4fbb3d712361a729da9c6f572caaa3fc58260ac24c3e6ccb4baf83f",
+          "observations": "The gallery and its perpendicular equipment shed enclose two sides of a drill court. A round practice target occupies that open ground and the striped shutters mark the upper quarters. At LOD2 the gallery columns still meet the ground, the side shed retains its posts and both grayscale family views show a different plan from the Iron hall.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            984,
+            460,
+            284
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_barracks_ancient_v0",
+            "b": "bld_human_barracks_classical_v0",
+            "matched": 0,
+            "total": 3027
+          }
+        }
+      ]
     }
   ]
 }

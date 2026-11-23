@@ -1085,6 +1085,237 @@
           ]
         }
       ]
+    },
+    {
+      "round": 8,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_dwarf_farm_classical_v0",
+          "evidence_sha256": "465f459167f6830e93707ab22a27cbb3b64aa47a775436ea7ac2007959e570df",
+          "observations": "The water channel spans three stepped crop beds on masonry piers, with a tiled cap at one end. The back view exposes the piers and the far level retains the elevated channel. Its planted terraces read separately from the other farms even without the green and ochre rows.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            914,
+            520,
+            222
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_farm_ancient_v0",
+            "b": "bld_dwarf_farm_classical_v0",
+            "matched": 0,
+            "total": 3564
+          }
+        },
+        {
+          "id": "bld_dwarf_farm_future_v0",
+          "evidence_sha256": "32b3e926e02633bfc97bfbd61dd4fa4475ad8c88e862a6593f013c311405a1e1",
+          "observations": "The curved beam straddles the planted bays ahead of a low blue-roofed service house. Both feet of the span remain evident from the sides at distance. Open beds separate this farm from the two sealed IndustrialFarm domes and the vertically stacked HydroponicsTower.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1302,
+            742,
+            398
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_farm_ancient_v0",
+            "b": "bld_dwarf_farm_future_v0",
+            "matched": 0,
+            "total": 3564
+          }
+        },
+        {
+          "id": "bld_dwarf_farm_industrial_v0",
+          "evidence_sha256": "2d2c9c2a30f176daf03e578518391ec7471718ad2b9f9ae3ae58f2b4c27b0068",
+          "observations": "Two capped storage cylinders stand beside the transfer head and brick shed. In the reverse view the sloping chute meets the shed roof, while the planted field remains in front. All three principal volumes and the field read clearly at the far level.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1070,
+            462,
+            298
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_farm_ancient_v0",
+            "b": "bld_dwarf_farm_industrial_v0",
+            "matched": 0,
+            "total": 3564
+          }
+        },
+        {
+          "id": "bld_dwarf_fishing_hut_classical_v0",
+          "evidence_sha256": "3dec7a9b653519a6b017ea985d211d616ea4d2586158485d8fed9eaa66bddf0e",
+          "observations": "A round hut occupies one end of the stone quay. Its piles and projecting timber racks form an open-sided workplace over blue water. The reduced wharf loses the small fittings but retains the rack, deck and drum-shaped hut.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            734,
+            374,
+            198
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_fishing_hut_ancient_v0",
+            "b": "bld_dwarf_fishing_hut_classical_v0",
+            "matched": 0,
+            "total": 2442
+          }
+        },
+        {
+          "id": "bld_dwarf_fishing_hut_future_v0",
+          "evidence_sha256": "69cc45afd9fdeba7b6d9281697b1e3c27ea35236112e8c4c93ca937954d435d7",
+          "observations": "Two broad circular fish pens in front of the square shore station are recognizable from either angle. The outreach booms and exposed water separate this from the earlier hoist. At LOD2 the pens become angular without closing the channels around them.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            758,
+            450,
+            202
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_fishing_hut_ancient_v0",
+            "b": "bld_dwarf_fishing_hut_future_v0",
+            "matched": 0,
+            "total": 2442
+          }
+        },
+        {
+          "id": "bld_dwarf_fishing_hut_industrial_v0",
+          "evidence_sha256": "cb59f8a71219d4a49b77834411da80d493d8b43eb730cd11f0cf7ae9098a898d",
+          "observations": "A braced hoist stands outboard of a low brick landing building, with its line meeting the dark net at the water. The cask is readable beside the door. The triangle of boom, upright and hanging line remains clear from the rear at the far level.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            872,
+            386,
+            230
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_fishing_hut_ancient_v0",
+            "b": "bld_dwarf_fishing_hut_industrial_v0",
+            "matched": 0,
+            "total": 2442
+          }
+        },
+        {
+          "id": "bld_dwarf_hunting_lodge_classical_v0",
+          "evidence_sha256": "734e520dc697d83a7191b06d3d5d28436f4fddee984bbce1c133ed4a14ea4450",
+          "observations": "An overhanging timber lookout sits on a broad masonry shaft beside a low tiled shed and hide rack. This tower adds a full storey over the rafter hut seen in the early lineage. The rack frame, lookout and its bearing walls remain visible at LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            750,
+            346,
+            226
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_hunting_lodge_ancient_v0",
+            "b": "bld_dwarf_hunting_lodge_classical_v0",
+            "matched": 0,
+            "total": 2100
+          }
+        },
+        {
+          "id": "bld_dwarf_industrial_farm_future_v0",
+          "evidence_sha256": "1f864a07b67bfdcda659aa2f401ebf69de88f92e8bed2a8f7624bb3786fff0c6",
+          "observations": "Two blue growing domes of different diameters rise directly from thick drum walls. A low entrance and boxed produce occupy the front. Its two rounded crowns remain distinct from the field-and-gantry Farm and the tall terraced HydroponicsTower in both 64-pixel views.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1122,
+            642,
+            282
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_industrial_farm_industrial_v0",
+            "b": "bld_dwarf_industrial_farm_future_v0",
+            "matched": 0,
+            "total": 3882
+          }
+        },
+        {
+          "id": "bld_dwarf_mill_industrial_v0",
+          "evidence_sha256": "8f2ad3915a254d592030b1fd6e9a4ca41686d00a5e997ce22ea5a09b2380cd59",
+          "observations": "The open grain hopper and paired rollers face the yard beside a flue and hoist head. The barrels give a visible sense of scale at the entrance. The hopper and chunky roller housings remain legible when the far mesh drops the grain and barrel detail.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1110,
+            562,
+            260
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_mill_classical_v0",
+            "b": "bld_dwarf_mill_industrial_v0",
+            "matched": 0,
+            "total": 3120
+          }
+        }
+      ]
     }
   ]
 }

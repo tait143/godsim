@@ -634,6 +634,68 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_elf_arena_future_v0",
+          "evidence_sha256": "d18734aec68b201a7ad2fadd5325f5d8c77db8782eae5bc5947363eb60fbebf8",
+          "observations": "Four splayed posts lift a continuous ring above a circular contest floor. The narrow doorway, lean posts and two opposing banks remain visible on the middle mesh when viewed around the ring. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 957/531/257 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 92,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_arena_industrial_v0",
+          "evidence_sha256": "d8f92210898da55a41a2c3c7706fcd93a72bc42b138dd3b6c104fedd4fd24fcd",
+          "observations": "The barrel-covered grandstand stands behind a low fighting circle, with terraced seats and two leaf standards at the open end. Its low one-sided profile separates it from the ring on four legs. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 930/400/165 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_campfire_classical_v0",
+          "evidence_sha256": "e51634c48293eb1b9b22e6787973c384872f638f34598498abe7a24f032db3c8",
+          "observations": "An arched pair of living wooden uprights carries the suspended pot above a bright open fire. Two stools frame the clearing. The firelight, little leaves and dangling pot are still distinct from the reverse. Painted previews cover classical. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 753/439/230 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 93,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_stadium_future_v0",
+          "evidence_sha256": "35d3c8f7e84c8429a5964dac5085176d5d3ec9fac6408c601bb5856839bd7f92",
+          "observations": "The pair of stepped spectator stands faces a green pitch with a goal. Two curved supports carry separate leaf-shaped sunshades. The stepped white mid-distance seats and front goal remain recognisable from both sides. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 635/339/198 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

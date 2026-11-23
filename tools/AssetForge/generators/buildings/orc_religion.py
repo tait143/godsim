@@ -5,6 +5,8 @@ import sys
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
 from generators.buildings.orc_towncenters import Lodge, generate
+from generators.buildings import orc_civic_trades
+from generators.buildings.orc_learninghealth import build_lodge
 
 PACKAGE="orc_religion"
 
@@ -388,6 +390,8 @@ def monastic_order(m):
 
 
 def build(spec,lod):
+    if spec.building_type=="Cathedral" and spec.band=="industrial":
+        return build_lodge(spec,lod,lambda m,t: orc_civic_trades.cathedral(m))
     m=Lodge(spec,lod)
     t=spec.building_type
     with m.transform(scale=spec.footprint[0]/2):

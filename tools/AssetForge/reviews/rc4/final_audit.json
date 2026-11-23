@@ -1,0 +1,4429 @@
+{
+ "checkpoint": "7e905bbc7c393fdfa647a0bf364239328e001203",
+ "models": 1034,
+ "families_compared": 285,
+ "directed_comparisons": 3230,
+ "catalog_peak": {
+  "race": "human",
+  "family": "Shrine",
+  "variant": 0,
+  "a": "bld_human_shrine_future_v0",
+  "b": "bld_human_shrine_ancient_v0",
+  "matched": 1275,
+  "total": 1596
+ },
+ "catalog_peak_pairs": [
+  {
+   "race": "human",
+   "family": "Shrine",
+   "variant": 0,
+   "a": "bld_human_shrine_future_v0",
+   "b": "bld_human_shrine_ancient_v0",
+   "matched": 1275,
+   "total": 1596
+  },
+  {
+   "race": "human",
+   "family": "Shrine",
+   "variant": 0,
+   "a": "bld_human_shrine_future_v0",
+   "b": "bld_human_shrine_classical_v0",
+   "matched": 1275,
+   "total": 1596
+  }
+ ],
+ "lod1_above_sixty": 0,
+ "changed_by_race": {
+  "dwarf": 26,
+  "elf": 16,
+  "human": 42,
+  "orc": 35,
+  "saurian": 35
+ },
+ "changed_models": [
+  "bld_dwarf_armory_classical_v0",
+  "bld_dwarf_armory_future_v0",
+  "bld_dwarf_armory_industrial_v0",
+  "bld_dwarf_farm_classical_v0",
+  "bld_dwarf_farm_future_v0",
+  "bld_dwarf_farm_industrial_v0",
+  "bld_dwarf_fishing_hut_classical_v0",
+  "bld_dwarf_fishing_hut_future_v0",
+  "bld_dwarf_fishing_hut_industrial_v0",
+  "bld_dwarf_forum_future_v0",
+  "bld_dwarf_forum_industrial_v0",
+  "bld_dwarf_hunting_lodge_classical_v0",
+  "bld_dwarf_industrial_farm_future_v0",
+  "bld_dwarf_market_future_v0",
+  "bld_dwarf_mill_industrial_v0",
+  "bld_dwarf_mine_classical_v0",
+  "bld_dwarf_mine_future_v0",
+  "bld_dwarf_mine_industrial_v0",
+  "bld_dwarf_temple_classical_v0",
+  "bld_dwarf_temple_future_v0",
+  "bld_dwarf_temple_industrial_v0",
+  "bld_dwarf_theater_future_v0",
+  "bld_dwarf_theater_industrial_v0",
+  "bld_dwarf_town_center_classical_renaissance_v0",
+  "bld_dwarf_town_center_future_v0",
+  "bld_dwarf_workshop_industrial_v0",
+  "bld_elf_arena_future_v0",
+  "bld_elf_arena_industrial_v0",
+  "bld_elf_campfire_classical_v0",
+  "bld_elf_coal_mine_future_v0",
+  "bld_elf_farm_classical_v0",
+  "bld_elf_farm_future_v0",
+  "bld_elf_gold_mine_future_v0",
+  "bld_elf_granary_classical_v0",
+  "bld_elf_granary_future_v0",
+  "bld_elf_granary_industrial_v0",
+  "bld_elf_pasture_classical_v0",
+  "bld_elf_pasture_future_v0",
+  "bld_elf_pasture_industrial_v0",
+  "bld_elf_stadium_future_v0",
+  "bld_elf_university_future_v0",
+  "bld_elf_university_industrial_v0",
+  "bld_human_arena_industrial_v0",
+  "bld_human_bank_industrial_v0",
+  "bld_human_barracks_classical_v0",
+  "bld_human_bathhouse_future_v0",
+  "bld_human_bathhouse_industrial_v0",
+  "bld_human_blacksmith_classical_v0",
+  "bld_human_coal_mine_future_v0",
+  "bld_human_farm_future_v0",
+  "bld_human_fishing_hut_classical_v0",
+  "bld_human_fishing_hut_future_v0",
+  "bld_human_fishing_hut_industrial_v0",
+  "bld_human_forum_industrial_v0",
+  "bld_human_granary_classical_v0",
+  "bld_human_granary_future_v0",
+  "bld_human_guildhall_industrial_v0",
+  "bld_human_herbalist_classical_v0",
+  "bld_human_herbalist_future_v0",
+  "bld_human_herbalist_industrial_v0",
+  "bld_human_market_future_v0",
+  "bld_human_mill_industrial_v0",
+  "bld_human_monastery_industrial_v0",
+  "bld_human_observatory_future_v0",
+  "bld_human_observatory_industrial_v0",
+  "bld_human_oil_well_future_v0",
+  "bld_human_printworks_industrial_v0",
+  "bld_human_research_lab_future_v0",
+  "bld_human_scriptorium_classical_v0",
+  "bld_human_scriptorium_future_v0",
+  "bld_human_scriptorium_industrial_v0",
+  "bld_human_shrine_industrial_v0",
+  "bld_human_stone_quarry_industrial_v0",
+  "bld_human_tavern_future_v0",
+  "bld_human_tavern_industrial_v0",
+  "bld_human_temple_classical_v0",
+  "bld_human_weaver_future_v0",
+  "bld_human_weaver_industrial_v0",
+  "bld_human_well_classical_v0",
+  "bld_human_well_future_v0",
+  "bld_human_well_industrial_v0",
+  "bld_human_woodcutter_camp_classical_v0",
+  "bld_human_woodcutter_camp_future_v0",
+  "bld_human_woodcutter_camp_industrial_v0",
+  "bld_orc_bank_future_v0",
+  "bld_orc_cathedral_industrial_v0",
+  "bld_orc_coal_mine_future_v0",
+  "bld_orc_farm_classical_v0",
+  "bld_orc_farm_future_v0",
+  "bld_orc_fishing_hut_classical_v0",
+  "bld_orc_fishing_hut_industrial_v0",
+  "bld_orc_foundry_future_v0",
+  "bld_orc_gold_mine_classical_v0",
+  "bld_orc_gold_mine_future_v0",
+  "bld_orc_gold_mine_industrial_v0",
+  "bld_orc_granary_classical_v0",
+  "bld_orc_granary_future_v0",
+  "bld_orc_hospital_future_v0",
+  "bld_orc_hospital_industrial_v0",
+  "bld_orc_hunting_lodge_classical_v0",
+  "bld_orc_library_future_v0",
+  "bld_orc_library_industrial_v0",
+  "bld_orc_military_base_future_v0",
+  "bld_orc_mill_industrial_v0",
+  "bld_orc_mine_classical_v0",
+  "bld_orc_mine_future_v0",
+  "bld_orc_mine_industrial_v0",
+  "bld_orc_pasture_classical_v0",
+  "bld_orc_pasture_future_v0",
+  "bld_orc_pasture_industrial_v0",
+  "bld_orc_sawmill_future_v0",
+  "bld_orc_stone_quarry_classical_v0",
+  "bld_orc_stone_quarry_future_v0",
+  "bld_orc_stone_quarry_industrial_v0",
+  "bld_orc_weaver_industrial_v0",
+  "bld_orc_woodcutter_camp_classical_v0",
+  "bld_orc_woodcutter_camp_future_v0",
+  "bld_orc_woodcutter_camp_industrial_v0",
+  "bld_orc_workshop_industrial_v0",
+  "bld_saurian_barracks_ancient_v0",
+  "bld_saurian_barracks_industrial_v0",
+  "bld_saurian_cathedral_future_v0",
+  "bld_saurian_cathedral_industrial_v0",
+  "bld_saurian_coal_mine_future_v0",
+  "bld_saurian_gold_mine_classical_v0",
+  "bld_saurian_gold_mine_future_v0",
+  "bld_saurian_gold_mine_industrial_v0",
+  "bld_saurian_granary_ancient_v0",
+  "bld_saurian_granary_future_v0",
+  "bld_saurian_guildhall_future_v0",
+  "bld_saurian_guildhall_industrial_v0",
+  "bld_saurian_harbor_future_v0",
+  "bld_saurian_harbor_industrial_v0",
+  "bld_saurian_hunting_lodge_classical_v0",
+  "bld_saurian_market_classical_v0",
+  "bld_saurian_market_future_v0",
+  "bld_saurian_market_industrial_v0",
+  "bld_saurian_mine_classical_v0",
+  "bld_saurian_mine_future_v0",
+  "bld_saurian_mine_industrial_v0",
+  "bld_saurian_observatory_future_v0",
+  "bld_saurian_observatory_industrial_v0",
+  "bld_saurian_power_plant_future_v0",
+  "bld_saurian_rail_station_future_v0",
+  "bld_saurian_shrine_classical_v0",
+  "bld_saurian_shrine_future_v0",
+  "bld_saurian_shrine_industrial_v0",
+  "bld_saurian_stone_quarry_classical_v0",
+  "bld_saurian_temple_ancient_v0",
+  "bld_saurian_temple_classical_v0",
+  "bld_saurian_temple_future_v0",
+  "bld_saurian_temple_industrial_v0",
+  "bld_saurian_town_center_classical_renaissance_v0",
+  "bld_saurian_watchtower_industrial_v0"
+ ],
+ "changed_position_levels": {
+  "bld_dwarf_armory_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_armory_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_armory_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_farm_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_farm_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_farm_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_fishing_hut_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_fishing_hut_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_fishing_hut_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_forum_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_forum_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_hunting_lodge_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_industrial_farm_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_market_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_mill_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_mine_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_mine_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_mine_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_temple_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_temple_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_temple_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_theater_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_theater_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_town_center_classical_renaissance_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_town_center_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_dwarf_workshop_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_arena_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_arena_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_campfire_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_coal_mine_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_farm_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_farm_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_gold_mine_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_granary_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_granary_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_granary_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_pasture_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_pasture_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_pasture_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_stadium_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_university_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_elf_university_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_arena_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_bank_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_barracks_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_bathhouse_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_bathhouse_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_blacksmith_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_coal_mine_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_farm_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_fishing_hut_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_fishing_hut_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_fishing_hut_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_forum_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_granary_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_granary_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_guildhall_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_herbalist_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_herbalist_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_herbalist_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_market_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_mill_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_monastery_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_observatory_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_observatory_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_oil_well_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_printworks_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_research_lab_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_scriptorium_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_scriptorium_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_scriptorium_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_shrine_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_stone_quarry_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_tavern_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_tavern_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_temple_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_weaver_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_weaver_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_well_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_well_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_well_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_woodcutter_camp_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_woodcutter_camp_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_human_woodcutter_camp_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_bank_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_cathedral_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_coal_mine_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_farm_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_farm_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_fishing_hut_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_fishing_hut_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_foundry_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_gold_mine_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_gold_mine_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_gold_mine_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_granary_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_granary_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_hospital_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_hospital_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_hunting_lodge_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_library_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_library_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_military_base_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_mill_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_mine_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_mine_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_mine_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_pasture_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_pasture_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_pasture_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_sawmill_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_stone_quarry_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_stone_quarry_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_stone_quarry_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_weaver_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_woodcutter_camp_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_woodcutter_camp_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_woodcutter_camp_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_orc_workshop_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_barracks_ancient_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_barracks_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_cathedral_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_cathedral_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_coal_mine_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_gold_mine_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_gold_mine_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_gold_mine_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_granary_ancient_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_granary_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_guildhall_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_guildhall_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_harbor_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_harbor_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_hunting_lodge_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_market_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_market_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_market_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_mine_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_mine_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_mine_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_observatory_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_observatory_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_power_plant_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_rail_station_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_shrine_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_shrine_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_shrine_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_stone_quarry_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_temple_ancient_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_temple_classical_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_temple_future_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_temple_industrial_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_town_center_classical_renaissance_v0": [
+   0,
+   1,
+   2
+  ],
+  "bld_saurian_watchtower_industrial_v0": [
+   0,
+   1,
+   2
+  ]
+ },
+ "families": [
+  {
+   "race": "dwarf",
+   "family": "Armory",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_dwarf_armory_classical_v0",
+    "bld_dwarf_armory_future_v0",
+    "bld_dwarf_armory_industrial_v0"
+   ],
+   "peak": {
+    "race": "dwarf",
+    "family": "Armory",
+    "variant": 0,
+    "a": "bld_dwarf_armory_ancient_v0",
+    "b": "bld_dwarf_armory_classical_v0",
+    "matched": 0,
+    "total": 2796
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "Bathhouse",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [],
+   "peak": {
+    "race": "dwarf",
+    "family": "Bathhouse",
+    "variant": 0,
+    "a": "bld_dwarf_bathhouse_future_v0",
+    "b": "bld_dwarf_bathhouse_classical_v0",
+    "matched": 1950,
+    "total": 2670
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "Farm",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_dwarf_farm_classical_v0",
+    "bld_dwarf_farm_future_v0",
+    "bld_dwarf_farm_industrial_v0"
+   ],
+   "peak": {
+    "race": "dwarf",
+    "family": "Farm",
+    "variant": 0,
+    "a": "bld_dwarf_farm_ancient_v0",
+    "b": "bld_dwarf_farm_classical_v0",
+    "matched": 0,
+    "total": 3564
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "FishingHut",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_dwarf_fishing_hut_classical_v0",
+    "bld_dwarf_fishing_hut_future_v0",
+    "bld_dwarf_fishing_hut_industrial_v0"
+   ],
+   "peak": {
+    "race": "dwarf",
+    "family": "FishingHut",
+    "variant": 0,
+    "a": "bld_dwarf_fishing_hut_ancient_v0",
+    "b": "bld_dwarf_fishing_hut_classical_v0",
+    "matched": 0,
+    "total": 2442
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "Forum",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_dwarf_forum_future_v0",
+    "bld_dwarf_forum_industrial_v0"
+   ],
+   "peak": {
+    "race": "dwarf",
+    "family": "Forum",
+    "variant": 0,
+    "a": "bld_dwarf_forum_classical_v0",
+    "b": "bld_dwarf_forum_industrial_v0",
+    "matched": 0,
+    "total": 2880
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "GoldMine",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [],
+   "peak": {
+    "race": "dwarf",
+    "family": "GoldMine",
+    "variant": 0,
+    "a": "bld_dwarf_gold_mine_future_v0",
+    "b": "bld_dwarf_gold_mine_ancient_v0",
+    "matched": 1941,
+    "total": 3057
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "Guildhall",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [],
+   "peak": {
+    "race": "dwarf",
+    "family": "Guildhall",
+    "variant": 0,
+    "a": "bld_dwarf_guildhall_classical_v0",
+    "b": "bld_dwarf_guildhall_industrial_v0",
+    "matched": 1764,
+    "total": 2814
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "Harbor",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [],
+   "peak": {
+    "race": "dwarf",
+    "family": "Harbor",
+    "variant": 0,
+    "a": "bld_dwarf_harbor_classical_v0",
+    "b": "bld_dwarf_harbor_industrial_v0",
+    "matched": 1815,
+    "total": 2499
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "HuntingLodge",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_dwarf_hunting_lodge_classical_v0"
+   ],
+   "peak": {
+    "race": "dwarf",
+    "family": "HuntingLodge",
+    "variant": 0,
+    "a": "bld_dwarf_hunting_lodge_ancient_v0",
+    "b": "bld_dwarf_hunting_lodge_classical_v0",
+    "matched": 0,
+    "total": 2100
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "IndustrialFarm",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_dwarf_industrial_farm_future_v0"
+   ],
+   "peak": {
+    "race": "dwarf",
+    "family": "IndustrialFarm",
+    "variant": 0,
+    "a": "bld_dwarf_industrial_farm_industrial_v0",
+    "b": "bld_dwarf_industrial_farm_future_v0",
+    "matched": 0,
+    "total": 3882
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "Market",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_dwarf_market_future_v0"
+   ],
+   "peak": {
+    "race": "dwarf",
+    "family": "Market",
+    "variant": 0,
+    "a": "bld_dwarf_market_industrial_v0",
+    "b": "bld_dwarf_market_ancient_v0",
+    "matched": 1656,
+    "total": 2526
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "Mill",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_dwarf_mill_industrial_v0"
+   ],
+   "peak": {
+    "race": "dwarf",
+    "family": "Mill",
+    "variant": 0,
+    "a": "bld_dwarf_mill_classical_v0",
+    "b": "bld_dwarf_mill_industrial_v0",
+    "matched": 0,
+    "total": 3120
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "Mine",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_dwarf_mine_classical_v0",
+    "bld_dwarf_mine_future_v0",
+    "bld_dwarf_mine_industrial_v0"
+   ],
+   "peak": {
+    "race": "dwarf",
+    "family": "Mine",
+    "variant": 0,
+    "a": "bld_dwarf_mine_ancient_v0",
+    "b": "bld_dwarf_mine_classical_v0",
+    "matched": 0,
+    "total": 2874
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "RailStation",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [],
+   "peak": {
+    "race": "dwarf",
+    "family": "RailStation",
+    "variant": 0,
+    "a": "bld_dwarf_rail_station_future_v0",
+    "b": "bld_dwarf_rail_station_industrial_v0",
+    "matched": 1568,
+    "total": 2028
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "Temple",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_dwarf_temple_classical_v0",
+    "bld_dwarf_temple_future_v0",
+    "bld_dwarf_temple_industrial_v0"
+   ],
+   "peak": {
+    "race": "dwarf",
+    "family": "Temple",
+    "variant": 0,
+    "a": "bld_dwarf_temple_ancient_v0",
+    "b": "bld_dwarf_temple_classical_v0",
+    "matched": 0,
+    "total": 2856
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "Theater",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_dwarf_theater_future_v0",
+    "bld_dwarf_theater_industrial_v0"
+   ],
+   "peak": {
+    "race": "dwarf",
+    "family": "Theater",
+    "variant": 0,
+    "a": "bld_dwarf_theater_classical_v0",
+    "b": "bld_dwarf_theater_industrial_v0",
+    "matched": 0,
+    "total": 2838
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "TownCenter",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_dwarf_town_center_classical_renaissance_v0",
+    "bld_dwarf_town_center_future_v0"
+   ],
+   "peak": {
+    "race": "dwarf",
+    "family": "TownCenter",
+    "variant": 0,
+    "a": "bld_dwarf_town_center_ancient_iron_v0",
+    "b": "bld_dwarf_town_center_ancient_bronze_v0",
+    "matched": 762,
+    "total": 2904
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "Well",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [],
+   "peak": {
+    "race": "dwarf",
+    "family": "Well",
+    "variant": 0,
+    "a": "bld_dwarf_well_ancient_v0",
+    "b": "bld_dwarf_well_industrial_v0",
+    "matched": 1854,
+    "total": 2706
+   }
+  },
+  {
+   "race": "dwarf",
+   "family": "Workshop",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_dwarf_workshop_industrial_v0"
+   ],
+   "peak": {
+    "race": "dwarf",
+    "family": "Workshop",
+    "variant": 0,
+    "a": "bld_dwarf_workshop_classical_v0",
+    "b": "bld_dwarf_workshop_industrial_v0",
+    "matched": 0,
+    "total": 2730
+   }
+  },
+  {
+   "race": "elf",
+   "family": "Arena",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_elf_arena_future_v0",
+    "bld_elf_arena_industrial_v0"
+   ],
+   "peak": {
+    "race": "elf",
+    "family": "Arena",
+    "variant": 0,
+    "a": "bld_elf_arena_classical_v0",
+    "b": "bld_elf_arena_industrial_v0",
+    "matched": 0,
+    "total": 3258
+   }
+  },
+  {
+   "race": "elf",
+   "family": "Campfire",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_elf_campfire_classical_v0"
+   ],
+   "peak": {
+    "race": "elf",
+    "family": "Campfire",
+    "variant": 0,
+    "a": "bld_elf_campfire_ancient_v0",
+    "b": "bld_elf_campfire_classical_v0",
+    "matched": 0,
+    "total": 2001
+   }
+  },
+  {
+   "race": "elf",
+   "family": "CoalMine",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_elf_coal_mine_future_v0"
+   ],
+   "peak": {
+    "race": "elf",
+    "family": "CoalMine",
+    "variant": 0,
+    "a": "bld_elf_coal_mine_industrial_v0",
+    "b": "bld_elf_coal_mine_future_v0",
+    "matched": 0,
+    "total": 4197
+   }
+  },
+  {
+   "race": "elf",
+   "family": "Farm",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_elf_farm_classical_v0",
+    "bld_elf_farm_future_v0"
+   ],
+   "peak": {
+    "race": "elf",
+    "family": "Farm",
+    "variant": 0,
+    "a": "bld_elf_farm_industrial_v0",
+    "b": "bld_elf_farm_ancient_v0",
+    "matched": 1727,
+    "total": 3786
+   }
+  },
+  {
+   "race": "elf",
+   "family": "GoldMine",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_elf_gold_mine_future_v0"
+   ],
+   "peak": {
+    "race": "elf",
+    "family": "GoldMine",
+    "variant": 0,
+    "a": "bld_elf_gold_mine_ancient_v0",
+    "b": "bld_elf_gold_mine_industrial_v0",
+    "matched": 2643,
+    "total": 3825
+   }
+  },
+  {
+   "race": "elf",
+   "family": "Granary",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_elf_granary_classical_v0",
+    "bld_elf_granary_future_v0",
+    "bld_elf_granary_industrial_v0"
+   ],
+   "peak": {
+    "race": "elf",
+    "family": "Granary",
+    "variant": 0,
+    "a": "bld_elf_granary_ancient_v0",
+    "b": "bld_elf_granary_classical_v0",
+    "matched": 0,
+    "total": 2826
+   }
+  },
+  {
+   "race": "elf",
+   "family": "Pasture",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_elf_pasture_classical_v0",
+    "bld_elf_pasture_future_v0",
+    "bld_elf_pasture_industrial_v0"
+   ],
+   "peak": {
+    "race": "elf",
+    "family": "Pasture",
+    "variant": 0,
+    "a": "bld_elf_pasture_industrial_v0",
+    "b": "bld_elf_pasture_classical_v0",
+    "matched": 156,
+    "total": 2358
+   }
+  },
+  {
+   "race": "elf",
+   "family": "Stadium",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_elf_stadium_future_v0"
+   ],
+   "peak": {
+    "race": "elf",
+    "family": "Stadium",
+    "variant": 0,
+    "a": "bld_elf_stadium_industrial_v0",
+    "b": "bld_elf_stadium_future_v0",
+    "matched": 0,
+    "total": 3786
+   }
+  },
+  {
+   "race": "elf",
+   "family": "University",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_elf_university_future_v0",
+    "bld_elf_university_industrial_v0"
+   ],
+   "peak": {
+    "race": "elf",
+    "family": "University",
+    "variant": 0,
+    "a": "bld_elf_university_classical_v0",
+    "b": "bld_elf_university_industrial_v0",
+    "matched": 0,
+    "total": 3504
+   }
+  },
+  {
+   "race": "human",
+   "family": "Arena",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_human_arena_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Arena",
+    "variant": 0,
+    "a": "bld_human_arena_future_v0",
+    "b": "bld_human_arena_classical_v0",
+    "matched": 786,
+    "total": 2952
+   }
+  },
+  {
+   "race": "human",
+   "family": "Bank",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_human_bank_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Bank",
+    "variant": 0,
+    "a": "bld_human_bank_future_v0",
+    "b": "bld_human_bank_classical_v0",
+    "matched": 1224,
+    "total": 2076
+   }
+  },
+  {
+   "race": "human",
+   "family": "Barracks",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_human_barracks_classical_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Barracks",
+    "variant": 0,
+    "a": "bld_human_barracks_future_v0",
+    "b": "bld_human_barracks_industrial_v0",
+    "matched": 1458,
+    "total": 2031
+   }
+  },
+  {
+   "race": "human",
+   "family": "Bathhouse",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_human_bathhouse_future_v0",
+    "bld_human_bathhouse_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Bathhouse",
+    "variant": 0,
+    "a": "bld_human_bathhouse_industrial_v0",
+    "b": "bld_human_bathhouse_classical_v0",
+    "matched": 66,
+    "total": 1134
+   }
+  },
+  {
+   "race": "human",
+   "family": "Blacksmith",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_human_blacksmith_classical_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Blacksmith",
+    "variant": 0,
+    "a": "bld_human_blacksmith_industrial_v0",
+    "b": "bld_human_blacksmith_future_v0",
+    "matched": 1395,
+    "total": 2703
+   }
+  },
+  {
+   "race": "human",
+   "family": "Cathedral",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [],
+   "peak": {
+    "race": "human",
+    "family": "Cathedral",
+    "variant": 0,
+    "a": "bld_human_cathedral_future_v0",
+    "b": "bld_human_cathedral_classical_v0",
+    "matched": 3012,
+    "total": 3924
+   }
+  },
+  {
+   "race": "human",
+   "family": "CoalMine",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_human_coal_mine_future_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "CoalMine",
+    "variant": 0,
+    "a": "bld_human_coal_mine_future_v0",
+    "b": "bld_human_coal_mine_industrial_v0",
+    "matched": 66,
+    "total": 1512
+   }
+  },
+  {
+   "race": "human",
+   "family": "Farm",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_human_farm_future_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Farm",
+    "variant": 0,
+    "a": "bld_human_farm_classical_v0",
+    "b": "bld_human_farm_ancient_v0",
+    "matched": 1116,
+    "total": 1917
+   }
+  },
+  {
+   "race": "human",
+   "family": "FishingHut",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_human_fishing_hut_classical_v0",
+    "bld_human_fishing_hut_future_v0",
+    "bld_human_fishing_hut_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "FishingHut",
+    "variant": 0,
+    "a": "bld_human_fishing_hut_ancient_v0",
+    "b": "bld_human_fishing_hut_classical_v0",
+    "matched": 0,
+    "total": 2199
+   }
+  },
+  {
+   "race": "human",
+   "family": "Forum",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_human_forum_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Forum",
+    "variant": 0,
+    "a": "bld_human_forum_classical_v0",
+    "b": "bld_human_forum_future_v0",
+    "matched": 834,
+    "total": 1530
+   }
+  },
+  {
+   "race": "human",
+   "family": "Granary",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_human_granary_classical_v0",
+    "bld_human_granary_future_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Granary",
+    "variant": 0,
+    "a": "bld_human_granary_ancient_v0",
+    "b": "bld_human_granary_classical_v0",
+    "matched": 66,
+    "total": 1986
+   }
+  },
+  {
+   "race": "human",
+   "family": "Guildhall",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_human_guildhall_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Guildhall",
+    "variant": 0,
+    "a": "bld_human_guildhall_future_v0",
+    "b": "bld_human_guildhall_classical_v0",
+    "matched": 759,
+    "total": 1632
+   }
+  },
+  {
+   "race": "human",
+   "family": "Herbalist",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_human_herbalist_classical_v0",
+    "bld_human_herbalist_future_v0",
+    "bld_human_herbalist_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Herbalist",
+    "variant": 0,
+    "a": "bld_human_herbalist_classical_v0",
+    "b": "bld_human_herbalist_ancient_v0",
+    "matched": 66,
+    "total": 2475
+   }
+  },
+  {
+   "race": "human",
+   "family": "Library",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [],
+   "peak": {
+    "race": "human",
+    "family": "Library",
+    "variant": 0,
+    "a": "bld_human_library_classical_v0",
+    "b": "bld_human_library_industrial_v0",
+    "matched": 1359,
+    "total": 2199
+   }
+  },
+  {
+   "race": "human",
+   "family": "Market",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_human_market_future_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Market",
+    "variant": 0,
+    "a": "bld_human_market_industrial_v0",
+    "b": "bld_human_market_ancient_v0",
+    "matched": 114,
+    "total": 2115
+   }
+  },
+  {
+   "race": "human",
+   "family": "Mill",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_human_mill_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Mill",
+    "variant": 0,
+    "a": "bld_human_mill_classical_v0",
+    "b": "bld_human_mill_industrial_v0",
+    "matched": 0,
+    "total": 1671
+   }
+  },
+  {
+   "race": "human",
+   "family": "Monastery",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_human_monastery_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Monastery",
+    "variant": 0,
+    "a": "bld_human_monastery_future_v0",
+    "b": "bld_human_monastery_classical_v0",
+    "matched": 2145,
+    "total": 2835
+   }
+  },
+  {
+   "race": "human",
+   "family": "Observatory",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_human_observatory_future_v0",
+    "bld_human_observatory_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Observatory",
+    "variant": 0,
+    "a": "bld_human_observatory_future_v0",
+    "b": "bld_human_observatory_classical_v0",
+    "matched": 66,
+    "total": 2031
+   }
+  },
+  {
+   "race": "human",
+   "family": "OilWell",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_human_oil_well_future_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "OilWell",
+    "variant": 0,
+    "a": "bld_human_oil_well_industrial_v0",
+    "b": "bld_human_oil_well_future_v0",
+    "matched": 66,
+    "total": 2382
+   }
+  },
+  {
+   "race": "human",
+   "family": "Printworks",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_human_printworks_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Printworks",
+    "variant": 0,
+    "a": "bld_human_printworks_classical_v0",
+    "b": "bld_human_printworks_future_v0",
+    "matched": 1194,
+    "total": 1608
+   }
+  },
+  {
+   "race": "human",
+   "family": "RailStation",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [],
+   "peak": {
+    "race": "human",
+    "family": "RailStation",
+    "variant": 0,
+    "a": "bld_human_rail_station_future_v0",
+    "b": "bld_human_rail_station_industrial_v0",
+    "matched": 1797,
+    "total": 2385
+   }
+  },
+  {
+   "race": "human",
+   "family": "ResearchLab",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_human_research_lab_future_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "ResearchLab",
+    "variant": 0,
+    "a": "bld_human_research_lab_future_v0",
+    "b": "bld_human_research_lab_industrial_v0",
+    "matched": 66,
+    "total": 1869
+   }
+  },
+  {
+   "race": "human",
+   "family": "Scriptorium",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_human_scriptorium_classical_v0",
+    "bld_human_scriptorium_future_v0",
+    "bld_human_scriptorium_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Scriptorium",
+    "variant": 0,
+    "a": "bld_human_scriptorium_industrial_v0",
+    "b": "bld_human_scriptorium_ancient_v0",
+    "matched": 66,
+    "total": 1611
+   }
+  },
+  {
+   "race": "human",
+   "family": "Shrine",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_human_shrine_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Shrine",
+    "variant": 0,
+    "a": "bld_human_shrine_future_v0",
+    "b": "bld_human_shrine_ancient_v0",
+    "matched": 1275,
+    "total": 1596
+   }
+  },
+  {
+   "race": "human",
+   "family": "StoneQuarry",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_human_stone_quarry_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "StoneQuarry",
+    "variant": 0,
+    "a": "bld_human_stone_quarry_classical_v0",
+    "b": "bld_human_stone_quarry_ancient_v0",
+    "matched": 1875,
+    "total": 2799
+   }
+  },
+  {
+   "race": "human",
+   "family": "Tavern",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_human_tavern_future_v0",
+    "bld_human_tavern_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Tavern",
+    "variant": 0,
+    "a": "bld_human_tavern_classical_v0",
+    "b": "bld_human_tavern_industrial_v0",
+    "matched": 0,
+    "total": 2226
+   }
+  },
+  {
+   "race": "human",
+   "family": "Temple",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_human_temple_classical_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Temple",
+    "variant": 0,
+    "a": "bld_human_temple_future_v0",
+    "b": "bld_human_temple_industrial_v0",
+    "matched": 984,
+    "total": 2298
+   }
+  },
+  {
+   "race": "human",
+   "family": "Weaver",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_human_weaver_future_v0",
+    "bld_human_weaver_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Weaver",
+    "variant": 0,
+    "a": "bld_human_weaver_ancient_v0",
+    "b": "bld_human_weaver_classical_v0",
+    "matched": 0,
+    "total": 1935
+   }
+  },
+  {
+   "race": "human",
+   "family": "Well",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_human_well_classical_v0",
+    "bld_human_well_future_v0",
+    "bld_human_well_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "Well",
+    "variant": 0,
+    "a": "bld_human_well_ancient_v0",
+    "b": "bld_human_well_classical_v0",
+    "matched": 0,
+    "total": 1665
+   }
+  },
+  {
+   "race": "human",
+   "family": "WoodcutterCamp",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_human_woodcutter_camp_classical_v0",
+    "bld_human_woodcutter_camp_future_v0",
+    "bld_human_woodcutter_camp_industrial_v0"
+   ],
+   "peak": {
+    "race": "human",
+    "family": "WoodcutterCamp",
+    "variant": 0,
+    "a": "bld_human_woodcutter_camp_future_v0",
+    "b": "bld_human_woodcutter_camp_ancient_v0",
+    "matched": 66,
+    "total": 2274
+   }
+  },
+  {
+   "race": "orc",
+   "family": "Bank",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_bank_future_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "Bank",
+    "variant": 0,
+    "a": "bld_orc_bank_classical_v0",
+    "b": "bld_orc_bank_industrial_v0",
+    "matched": 1488,
+    "total": 2082
+   }
+  },
+  {
+   "race": "orc",
+   "family": "Cathedral",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_cathedral_industrial_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "Cathedral",
+    "variant": 0,
+    "a": "bld_orc_cathedral_classical_v0",
+    "b": "bld_orc_cathedral_industrial_v0",
+    "matched": 0,
+    "total": 3786
+   }
+  },
+  {
+   "race": "orc",
+   "family": "CoalMine",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_coal_mine_future_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "CoalMine",
+    "variant": 0,
+    "a": "bld_orc_coal_mine_industrial_v0",
+    "b": "bld_orc_coal_mine_future_v0",
+    "matched": 0,
+    "total": 3192
+   }
+  },
+  {
+   "race": "orc",
+   "family": "Farm",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_farm_classical_v0",
+    "bld_orc_farm_future_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "Farm",
+    "variant": 0,
+    "a": "bld_orc_farm_ancient_v0",
+    "b": "bld_orc_farm_industrial_v0",
+    "matched": 1202,
+    "total": 2388
+   }
+  },
+  {
+   "race": "orc",
+   "family": "FishingHut",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_fishing_hut_classical_v0",
+    "bld_orc_fishing_hut_industrial_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "FishingHut",
+    "variant": 0,
+    "a": "bld_orc_fishing_hut_ancient_v0",
+    "b": "bld_orc_fishing_hut_future_v0",
+    "matched": 1113,
+    "total": 2259
+   }
+  },
+  {
+   "race": "orc",
+   "family": "Foundry",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_foundry_future_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "Foundry",
+    "variant": 0,
+    "a": "bld_orc_foundry_industrial_v0",
+    "b": "bld_orc_foundry_future_v0",
+    "matched": 0,
+    "total": 4350
+   }
+  },
+  {
+   "race": "orc",
+   "family": "GoldMine",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_gold_mine_classical_v0",
+    "bld_orc_gold_mine_future_v0",
+    "bld_orc_gold_mine_industrial_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "GoldMine",
+    "variant": 0,
+    "a": "bld_orc_gold_mine_ancient_v0",
+    "b": "bld_orc_gold_mine_classical_v0",
+    "matched": 0,
+    "total": 3117
+   }
+  },
+  {
+   "race": "orc",
+   "family": "Granary",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_orc_granary_classical_v0",
+    "bld_orc_granary_future_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "Granary",
+    "variant": 0,
+    "a": "bld_orc_granary_ancient_v0",
+    "b": "bld_orc_granary_industrial_v0",
+    "matched": 1554,
+    "total": 3348
+   }
+  },
+  {
+   "race": "orc",
+   "family": "Hospital",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_orc_hospital_future_v0",
+    "bld_orc_hospital_industrial_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "Hospital",
+    "variant": 0,
+    "a": "bld_orc_hospital_classical_v0",
+    "b": "bld_orc_hospital_industrial_v0",
+    "matched": 0,
+    "total": 3492
+   }
+  },
+  {
+   "race": "orc",
+   "family": "HuntingLodge",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_hunting_lodge_classical_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "HuntingLodge",
+    "variant": 0,
+    "a": "bld_orc_hunting_lodge_ancient_v0",
+    "b": "bld_orc_hunting_lodge_classical_v0",
+    "matched": 0,
+    "total": 2346
+   }
+  },
+  {
+   "race": "orc",
+   "family": "Library",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_orc_library_future_v0",
+    "bld_orc_library_industrial_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "Library",
+    "variant": 0,
+    "a": "bld_orc_library_classical_v0",
+    "b": "bld_orc_library_industrial_v0",
+    "matched": 0,
+    "total": 3528
+   }
+  },
+  {
+   "race": "orc",
+   "family": "MilitaryBase",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_military_base_future_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "MilitaryBase",
+    "variant": 0,
+    "a": "bld_orc_military_base_industrial_v0",
+    "b": "bld_orc_military_base_future_v0",
+    "matched": 0,
+    "total": 4104
+   }
+  },
+  {
+   "race": "orc",
+   "family": "Mill",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_mill_industrial_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "Mill",
+    "variant": 0,
+    "a": "bld_orc_mill_classical_v0",
+    "b": "bld_orc_mill_industrial_v0",
+    "matched": 0,
+    "total": 2631
+   }
+  },
+  {
+   "race": "orc",
+   "family": "Mine",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_mine_classical_v0",
+    "bld_orc_mine_future_v0",
+    "bld_orc_mine_industrial_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "Mine",
+    "variant": 0,
+    "a": "bld_orc_mine_ancient_v0",
+    "b": "bld_orc_mine_classical_v0",
+    "matched": 0,
+    "total": 2802
+   }
+  },
+  {
+   "race": "orc",
+   "family": "Pasture",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_pasture_classical_v0",
+    "bld_orc_pasture_future_v0",
+    "bld_orc_pasture_industrial_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "Pasture",
+    "variant": 0,
+    "a": "bld_orc_pasture_ancient_v0",
+    "b": "bld_orc_pasture_classical_v0",
+    "matched": 0,
+    "total": 4392
+   }
+  },
+  {
+   "race": "orc",
+   "family": "Sawmill",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_sawmill_future_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "Sawmill",
+    "variant": 0,
+    "a": "bld_orc_sawmill_industrial_v0",
+    "b": "bld_orc_sawmill_future_v0",
+    "matched": 0,
+    "total": 2940
+   }
+  },
+  {
+   "race": "orc",
+   "family": "StoneQuarry",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_stone_quarry_classical_v0",
+    "bld_orc_stone_quarry_future_v0",
+    "bld_orc_stone_quarry_industrial_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "StoneQuarry",
+    "variant": 0,
+    "a": "bld_orc_stone_quarry_ancient_v0",
+    "b": "bld_orc_stone_quarry_classical_v0",
+    "matched": 0,
+    "total": 2760
+   }
+  },
+  {
+   "race": "orc",
+   "family": "Weaver",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_weaver_industrial_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "Weaver",
+    "variant": 0,
+    "a": "bld_orc_weaver_ancient_v0",
+    "b": "bld_orc_weaver_classical_v0",
+    "matched": 0,
+    "total": 2250
+   }
+  },
+  {
+   "race": "orc",
+   "family": "WoodcutterCamp",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_woodcutter_camp_classical_v0",
+    "bld_orc_woodcutter_camp_future_v0",
+    "bld_orc_woodcutter_camp_industrial_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "WoodcutterCamp",
+    "variant": 0,
+    "a": "bld_orc_woodcutter_camp_ancient_v0",
+    "b": "bld_orc_woodcutter_camp_classical_v0",
+    "matched": 0,
+    "total": 2328
+   }
+  },
+  {
+   "race": "orc",
+   "family": "Workshop",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_orc_workshop_industrial_v0"
+   ],
+   "peak": {
+    "race": "orc",
+    "family": "Workshop",
+    "variant": 0,
+    "a": "bld_orc_workshop_classical_v0",
+    "b": "bld_orc_workshop_industrial_v0",
+    "matched": 0,
+    "total": 2046
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Bank",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [],
+   "peak": {
+    "race": "saurian",
+    "family": "Bank",
+    "variant": 0,
+    "a": "bld_saurian_bank_future_v0",
+    "b": "bld_saurian_bank_industrial_v0",
+    "matched": 1660,
+    "total": 2166
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Barracks",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_saurian_barracks_ancient_v0",
+    "bld_saurian_barracks_industrial_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "Barracks",
+    "variant": 0,
+    "a": "bld_saurian_barracks_classical_v0",
+    "b": "bld_saurian_barracks_future_v0",
+    "matched": 1841,
+    "total": 3231
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Bathhouse",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [],
+   "peak": {
+    "race": "saurian",
+    "family": "Bathhouse",
+    "variant": 0,
+    "a": "bld_saurian_bathhouse_classical_v0",
+    "b": "bld_saurian_bathhouse_industrial_v0",
+    "matched": 1932,
+    "total": 2778
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Cathedral",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_saurian_cathedral_future_v0",
+    "bld_saurian_cathedral_industrial_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "Cathedral",
+    "variant": 0,
+    "a": "bld_saurian_cathedral_industrial_v0",
+    "b": "bld_saurian_cathedral_future_v0",
+    "matched": 276,
+    "total": 2175
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "CoalMine",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_saurian_coal_mine_future_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "CoalMine",
+    "variant": 0,
+    "a": "bld_saurian_coal_mine_industrial_v0",
+    "b": "bld_saurian_coal_mine_future_v0",
+    "matched": 0,
+    "total": 3855
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Forum",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [],
+   "peak": {
+    "race": "saurian",
+    "family": "Forum",
+    "variant": 0,
+    "a": "bld_saurian_forum_classical_v0",
+    "b": "bld_saurian_forum_industrial_v0",
+    "matched": 2793,
+    "total": 3519
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "GoldMine",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_saurian_gold_mine_classical_v0",
+    "bld_saurian_gold_mine_future_v0",
+    "bld_saurian_gold_mine_industrial_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "GoldMine",
+    "variant": 0,
+    "a": "bld_saurian_gold_mine_industrial_v0",
+    "b": "bld_saurian_gold_mine_classical_v0",
+    "matched": 276,
+    "total": 2082
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Granary",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_saurian_granary_ancient_v0",
+    "bld_saurian_granary_future_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "Granary",
+    "variant": 0,
+    "a": "bld_saurian_granary_classical_v0",
+    "b": "bld_saurian_granary_industrial_v0",
+    "matched": 1974,
+    "total": 3372
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Guildhall",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_saurian_guildhall_future_v0",
+    "bld_saurian_guildhall_industrial_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "Guildhall",
+    "variant": 0,
+    "a": "bld_saurian_guildhall_future_v0",
+    "b": "bld_saurian_guildhall_industrial_v0",
+    "matched": 66,
+    "total": 2025
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Harbor",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_saurian_harbor_future_v0",
+    "bld_saurian_harbor_industrial_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "Harbor",
+    "variant": 0,
+    "a": "bld_saurian_harbor_industrial_v0",
+    "b": "bld_saurian_harbor_future_v0",
+    "matched": 66,
+    "total": 2115
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "HuntingLodge",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_saurian_hunting_lodge_classical_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "HuntingLodge",
+    "variant": 0,
+    "a": "bld_saurian_hunting_lodge_ancient_v0",
+    "b": "bld_saurian_hunting_lodge_classical_v0",
+    "matched": 0,
+    "total": 1977
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Market",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_saurian_market_classical_v0",
+    "bld_saurian_market_future_v0",
+    "bld_saurian_market_industrial_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "Market",
+    "variant": 0,
+    "a": "bld_saurian_market_future_v0",
+    "b": "bld_saurian_market_classical_v0",
+    "matched": 276,
+    "total": 2643
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Mine",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_saurian_mine_classical_v0",
+    "bld_saurian_mine_future_v0",
+    "bld_saurian_mine_industrial_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "Mine",
+    "variant": 0,
+    "a": "bld_saurian_mine_industrial_v0",
+    "b": "bld_saurian_mine_classical_v0",
+    "matched": 276,
+    "total": 2133
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Observatory",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_saurian_observatory_future_v0",
+    "bld_saurian_observatory_industrial_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "Observatory",
+    "variant": 0,
+    "a": "bld_saurian_observatory_future_v0",
+    "b": "bld_saurian_observatory_industrial_v0",
+    "matched": 276,
+    "total": 1761
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Palisade",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [],
+   "peak": {
+    "race": "saurian",
+    "family": "Palisade",
+    "variant": 0,
+    "a": "bld_saurian_palisade_classical_v0",
+    "b": "bld_saurian_palisade_ancient_v0",
+    "matched": 2118,
+    "total": 2976
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "PowerPlant",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_saurian_power_plant_future_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "PowerPlant",
+    "variant": 0,
+    "a": "bld_saurian_power_plant_industrial_v0",
+    "b": "bld_saurian_power_plant_future_v0",
+    "matched": 0,
+    "total": 4131
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "RailStation",
+   "variant": 0,
+   "severity": "required",
+   "changed": [
+    "bld_saurian_rail_station_future_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "RailStation",
+    "variant": 0,
+    "a": "bld_saurian_rail_station_industrial_v0",
+    "b": "bld_saurian_rail_station_future_v0",
+    "matched": 0,
+    "total": 3087
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Shrine",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_saurian_shrine_classical_v0",
+    "bld_saurian_shrine_future_v0",
+    "bld_saurian_shrine_industrial_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "Shrine",
+    "variant": 0,
+    "a": "bld_saurian_shrine_future_v0",
+    "b": "bld_saurian_shrine_classical_v0",
+    "matched": 276,
+    "total": 1440
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "StoneQuarry",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_saurian_stone_quarry_classical_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "StoneQuarry",
+    "variant": 0,
+    "a": "bld_saurian_stone_quarry_future_v0",
+    "b": "bld_saurian_stone_quarry_industrial_v0",
+    "matched": 66,
+    "total": 1206
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Temple",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_saurian_temple_ancient_v0",
+    "bld_saurian_temple_classical_v0",
+    "bld_saurian_temple_future_v0",
+    "bld_saurian_temple_industrial_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "Temple",
+    "variant": 0,
+    "a": "bld_saurian_temple_industrial_v0",
+    "b": "bld_saurian_temple_classical_v0",
+    "matched": 276,
+    "total": 3021
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "TownCenter",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_saurian_town_center_classical_renaissance_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "TownCenter",
+    "variant": 0,
+    "a": "bld_saurian_town_center_ancient_iron_v0",
+    "b": "bld_saurian_town_center_classical_medieval_v0",
+    "matched": 2685,
+    "total": 3621
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Watchtower",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [
+    "bld_saurian_watchtower_industrial_v0"
+   ],
+   "peak": {
+    "race": "saurian",
+    "family": "Watchtower",
+    "variant": 0,
+    "a": "bld_saurian_watchtower_ancient_v0",
+    "b": "bld_saurian_watchtower_classical_v0",
+    "matched": 0,
+    "total": 2217
+   }
+  },
+  {
+   "race": "saurian",
+   "family": "Well",
+   "variant": 0,
+   "severity": "triage",
+   "changed": [],
+   "peak": {
+    "race": "saurian",
+    "family": "Well",
+    "variant": 0,
+    "a": "bld_saurian_well_ancient_v0",
+    "b": "bld_saurian_well_classical_v0",
+    "matched": 1350,
+    "total": 2010
+   }
+  }
+ ],
+ "triage_counts": {
+  "keep": 73,
+  "rework": 154
+ },
+ "kept_directions": [
+  {
+   "race": "dwarf",
+   "family": "Bathhouse",
+   "variant": 0,
+   "a": "bld_dwarf_bathhouse_classical_v0",
+   "b": "bld_dwarf_bathhouse_industrial_v0",
+   "matched": 1950,
+   "total": 2820,
+   "reason": "The classical bath hall carries a low hemisphere. A conspicuous pair of tall exhaust stacks rises above the industrial bath hall; its exterior basins preserve its function."
+  },
+  {
+   "race": "dwarf",
+   "family": "Bathhouse",
+   "variant": 0,
+   "a": "bld_dwarf_bathhouse_classical_v0",
+   "b": "bld_dwarf_bathhouse_future_v0",
+   "matched": 1950,
+   "total": 2820,
+   "reason": "The classical bathhouse terminates in a distinctly round dome. The future hall instead carries a broad rectangular monitor extending over the roof above the same pools."
+  },
+  {
+   "race": "dwarf",
+   "family": "Bathhouse",
+   "variant": 0,
+   "a": "bld_dwarf_bathhouse_future_v0",
+   "b": "bld_dwarf_bathhouse_classical_v0",
+   "matched": 1950,
+   "total": 2670,
+   "reason": "The classical bathhouse terminates in a distinctly round dome. The future hall instead carries a broad rectangular monitor extending over the roof above the same pools."
+  },
+  {
+   "race": "dwarf",
+   "family": "Bathhouse",
+   "variant": 0,
+   "a": "bld_dwarf_bathhouse_future_v0",
+   "b": "bld_dwarf_bathhouse_industrial_v0",
+   "matched": 1950,
+   "total": 2670,
+   "reason": "Two tall, thin stacks above the industrial bath become a low, broad rectangular roof monitor on the future bath. The outer basins remain readable."
+  },
+  {
+   "race": "dwarf",
+   "family": "GoldMine",
+   "variant": 0,
+   "a": "bld_dwarf_gold_mine_ancient_v0",
+   "b": "bld_dwarf_gold_mine_classical_v0",
+   "matched": 1941,
+   "total": 3093,
+   "reason": "Above the ore terraces the early mine has a short, studded cap. The classical mine spans the rear with a wide beam carried on upright piers."
+  },
+  {
+   "race": "dwarf",
+   "family": "GoldMine",
+   "variant": 0,
+   "a": "bld_dwarf_gold_mine_ancient_v0",
+   "b": "bld_dwarf_gold_mine_industrial_v0",
+   "matched": 1941,
+   "total": 3093,
+   "reason": "The earlier ore workings end in a short rough cap. A conspicuous enclosed rectangular head structure rises above the industrial terraces."
+  },
+  {
+   "race": "dwarf",
+   "family": "GoldMine",
+   "variant": 0,
+   "a": "bld_dwarf_gold_mine_ancient_v0",
+   "b": "bld_dwarf_gold_mine_future_v0",
+   "matched": 1941,
+   "total": 3093,
+   "reason": "The early mine has a small roofed head assembly. The future workings lift a large crescent of uprights around the head above the stepped cut."
+  },
+  {
+   "race": "dwarf",
+   "family": "GoldMine",
+   "variant": 0,
+   "a": "bld_dwarf_gold_mine_future_v0",
+   "b": "bld_dwarf_gold_mine_ancient_v0",
+   "matched": 1941,
+   "total": 3057,
+   "reason": "The early mine has a small roofed head assembly. The future workings lift a large crescent of uprights around the head above the stepped cut."
+  },
+  {
+   "race": "dwarf",
+   "family": "GoldMine",
+   "variant": 0,
+   "a": "bld_dwarf_gold_mine_future_v0",
+   "b": "bld_dwarf_gold_mine_classical_v0",
+   "matched": 1941,
+   "total": 3057,
+   "reason": "The classical mine crowns its terraces with a straight lintel between uprights. The future machinery has an open round profile enclosed by two curved supports."
+  },
+  {
+   "race": "dwarf",
+   "family": "GoldMine",
+   "variant": 0,
+   "a": "bld_dwarf_gold_mine_future_v0",
+   "b": "bld_dwarf_gold_mine_industrial_v0",
+   "matched": 1941,
+   "total": 3057,
+   "reason": "A solid, horizontal rectangular head enclosure gives way to an open crescent of equipment on top of the mine terraces."
+  },
+  {
+   "race": "dwarf",
+   "family": "Guildhall",
+   "variant": 0,
+   "a": "bld_dwarf_guildhall_classical_v0",
+   "b": "bld_dwarf_guildhall_industrial_v0",
+   "matched": 1764,
+   "total": 2814,
+   "reason": "The medieval hall has a wide, low cap with pitched sides. The industrial hall stacks square tiers into a taller tower over the same buttressed guild floor."
+  },
+  {
+   "race": "dwarf",
+   "family": "Guildhall",
+   "variant": 0,
+   "a": "bld_dwarf_guildhall_classical_v0",
+   "b": "bld_dwarf_guildhall_future_v0",
+   "matched": 1764,
+   "total": 2814,
+   "reason": "The early guildhall has one broad, low cap. The later tower steps through several narrower tiers above the same square hall."
+  },
+  {
+   "race": "dwarf",
+   "family": "Harbor",
+   "variant": 0,
+   "a": "bld_dwarf_harbor_classical_v0",
+   "b": "bld_dwarf_harbor_industrial_v0",
+   "matched": 1815,
+   "total": 2499,
+   "reason": "The classical harbor has a tall open sail-like frame above its quay. The industrial harbor replaces that rig with a squat capped vessel and an open loading frame."
+  },
+  {
+   "race": "dwarf",
+   "family": "Harbor",
+   "variant": 0,
+   "a": "bld_dwarf_harbor_classical_v0",
+   "b": "bld_dwarf_harbor_future_v0",
+   "matched": 1755,
+   "total": 2499,
+   "reason": "The tall triangular rig and single quay house become a low working vessel alongside a bulky, capped loading structure over the same quay."
+  },
+  {
+   "race": "dwarf",
+   "family": "Harbor",
+   "variant": 0,
+   "a": "bld_dwarf_harbor_industrial_v0",
+   "b": "bld_dwarf_harbor_future_v0",
+   "matched": 2103,
+   "total": 3135,
+   "reason": "The industrial quay has a tall open portal with a small pointed fitting on the adjacent craft. The future quay has a squat rectangular hood and a denser loading assembly."
+  },
+  {
+   "race": "dwarf",
+   "family": "Harbor",
+   "variant": 0,
+   "a": "bld_dwarf_harbor_future_v0",
+   "b": "bld_dwarf_harbor_industrial_v0",
+   "matched": 2103,
+   "total": 3183,
+   "reason": "The industrial quay has a tall open portal with a small pointed fitting on the adjacent craft. The future quay has a squat rectangular hood and a denser loading assembly."
+  },
+  {
+   "race": "dwarf",
+   "family": "Market",
+   "variant": 0,
+   "a": "bld_dwarf_market_ancient_v0",
+   "b": "bld_dwarf_market_classical_v0",
+   "matched": 1656,
+   "total": 2574,
+   "reason": "The early market sits under a broad hipped roof. The classical stalls have a flatter projecting eave and a distinct second raised tier."
+  },
+  {
+   "race": "dwarf",
+   "family": "Market",
+   "variant": 0,
+   "a": "bld_dwarf_market_ancient_v0",
+   "b": "bld_dwarf_market_industrial_v0",
+   "matched": 1656,
+   "total": 2574,
+   "reason": "The early market has one broad sloping roof. The industrial market's two separate raised roofs break the outline above a long stall canopy."
+  },
+  {
+   "race": "dwarf",
+   "family": "Market",
+   "variant": 0,
+   "a": "bld_dwarf_market_classical_v0",
+   "b": "bld_dwarf_market_ancient_v0",
+   "matched": 1656,
+   "total": 2706,
+   "reason": "The early market sits under a broad hipped roof. The classical stalls have a flatter projecting eave and a distinct second raised tier."
+  },
+  {
+   "race": "dwarf",
+   "family": "Market",
+   "variant": 0,
+   "a": "bld_dwarf_market_classical_v0",
+   "b": "bld_dwarf_market_industrial_v0",
+   "matched": 1656,
+   "total": 2706,
+   "reason": "One broad, central raised cap above the classical market changes into two clearly separated rectangular roof volumes above the industrial stalls."
+  },
+  {
+   "race": "dwarf",
+   "family": "Market",
+   "variant": 0,
+   "a": "bld_dwarf_market_industrial_v0",
+   "b": "bld_dwarf_market_ancient_v0",
+   "matched": 1656,
+   "total": 2526,
+   "reason": "The early market has one broad sloping roof. The industrial market's two separate raised roofs break the outline above a long stall canopy."
+  },
+  {
+   "race": "dwarf",
+   "family": "Market",
+   "variant": 0,
+   "a": "bld_dwarf_market_industrial_v0",
+   "b": "bld_dwarf_market_classical_v0",
+   "matched": 1656,
+   "total": 2526,
+   "reason": "One broad, central raised cap above the classical market changes into two clearly separated rectangular roof volumes above the industrial stalls."
+  },
+  {
+   "race": "dwarf",
+   "family": "RailStation",
+   "variant": 0,
+   "a": "bld_dwarf_rail_station_future_v0",
+   "b": "bld_dwarf_rail_station_industrial_v0",
+   "matched": 1568,
+   "total": 2028,
+   "reason": "The industrial station reads as an open-sided shed beside the track with a narrow upright. The future station builds a taller, solid stepped block over the platform."
+  },
+  {
+   "race": "dwarf",
+   "family": "Well",
+   "variant": 0,
+   "a": "bld_dwarf_well_ancient_v0",
+   "b": "bld_dwarf_well_classical_v0",
+   "matched": 1848,
+   "total": 2706,
+   "reason": "The early well has an exposed horizontal winch beam between uprights. The classical well adds a substantial pitched canopy over the round shaft."
+  },
+  {
+   "race": "dwarf",
+   "family": "Well",
+   "variant": 0,
+   "a": "bld_dwarf_well_ancient_v0",
+   "b": "bld_dwarf_well_industrial_v0",
+   "matched": 1854,
+   "total": 2706,
+   "reason": "The early well's long exposed crossbeam becomes compact winch equipment with a tall offset upright. The large circular well remains recognizable."
+  },
+  {
+   "race": "dwarf",
+   "family": "Well",
+   "variant": 0,
+   "a": "bld_dwarf_well_classical_v0",
+   "b": "bld_dwarf_well_ancient_v0",
+   "matched": 1848,
+   "total": 2802,
+   "reason": "The early well has an exposed horizontal winch beam between uprights. The classical well adds a substantial pitched canopy over the round shaft."
+  },
+  {
+   "race": "dwarf",
+   "family": "Well",
+   "variant": 0,
+   "a": "bld_dwarf_well_classical_v0",
+   "b": "bld_dwarf_well_industrial_v0",
+   "matched": 1848,
+   "total": 2802,
+   "reason": "The classical well wears a broad roof over the shaft. The open industrial well directly exposes a winch and a single high post."
+  },
+  {
+   "race": "elf",
+   "family": "GoldMine",
+   "variant": 0,
+   "a": "bld_elf_gold_mine_ancient_v0",
+   "b": "bld_elf_gold_mine_industrial_v0",
+   "matched": 2643,
+   "total": 3825,
+   "reason": "The iron mine's rounded rear chamber rises above a low headframe. The industrial headframe becomes a tall pointed truss with the chamber lower beside it."
+  },
+  {
+   "race": "elf",
+   "family": "GoldMine",
+   "variant": 0,
+   "a": "bld_elf_gold_mine_industrial_v0",
+   "b": "bld_elf_gold_mine_ancient_v0",
+   "matched": 2643,
+   "total": 4341,
+   "reason": "The iron mine's rounded rear chamber rises above a low headframe. The industrial headframe becomes a tall pointed truss with the chamber lower beside it."
+  },
+  {
+   "race": "human",
+   "family": "Barracks",
+   "variant": 0,
+   "a": "bld_human_barracks_industrial_v0",
+   "b": "bld_human_barracks_ancient_v0",
+   "matched": 1344,
+   "total": 2079,
+   "reason": "The iron barracks has intersecting pitched roofs over the entry. The industrial hall presents one low, lengthwise roof monitor and a long eave."
+  },
+  {
+   "race": "human",
+   "family": "Barracks",
+   "variant": 0,
+   "a": "bld_human_barracks_industrial_v0",
+   "b": "bld_human_barracks_future_v0",
+   "matched": 1458,
+   "total": 2079,
+   "reason": "The industrial hall stretches under a low shed roof. The future hall rises behind a deep parapet, with transverse slots plainly visible from above."
+  },
+  {
+   "race": "human",
+   "family": "Barracks",
+   "variant": 0,
+   "a": "bld_human_barracks_future_v0",
+   "b": "bld_human_barracks_ancient_v0",
+   "matched": 1245,
+   "total": 2031,
+   "reason": "The pitched roof and projecting gable give way to a tall, squared barrack block with a broad parapet and recessed roof panels."
+  },
+  {
+   "race": "human",
+   "family": "Barracks",
+   "variant": 0,
+   "a": "bld_human_barracks_future_v0",
+   "b": "bld_human_barracks_industrial_v0",
+   "matched": 1458,
+   "total": 2031,
+   "reason": "The industrial hall stretches under a low shed roof. The future hall rises behind a deep parapet, with transverse slots plainly visible from above."
+  },
+  {
+   "race": "human",
+   "family": "Cathedral",
+   "variant": 0,
+   "a": "bld_human_cathedral_classical_v0",
+   "b": "bld_human_cathedral_industrial_v0",
+   "matched": 3114,
+   "total": 4434,
+   "reason": "The clustered gables and pointed corner turret give way to a single long nave with a substantial square lantern. The buttresses keep the cathedral legible."
+  },
+  {
+   "race": "human",
+   "family": "Cathedral",
+   "variant": 0,
+   "a": "bld_human_cathedral_classical_v0",
+   "b": "bld_human_cathedral_future_v0",
+   "matched": 3012,
+   "total": 4434,
+   "reason": "The medieval pointed turret and high roof planes give way to an open, sweeping pair of ribs above the nave and its buttresses."
+  },
+  {
+   "race": "human",
+   "family": "Cathedral",
+   "variant": 0,
+   "a": "bld_human_cathedral_industrial_v0",
+   "b": "bld_human_cathedral_classical_v0",
+   "matched": 3114,
+   "total": 4176,
+   "reason": "The clustered gables and pointed corner turret give way to a single long nave with a substantial square lantern. The buttresses keep the cathedral legible."
+  },
+  {
+   "race": "human",
+   "family": "Cathedral",
+   "variant": 0,
+   "a": "bld_human_cathedral_industrial_v0",
+   "b": "bld_human_cathedral_future_v0",
+   "matched": 3012,
+   "total": 4176,
+   "reason": "The industrial cathedral has a low roof with a box lantern. The future cathedral frames the roof with tall curved structural ribs."
+  },
+  {
+   "race": "human",
+   "family": "Cathedral",
+   "variant": 0,
+   "a": "bld_human_cathedral_future_v0",
+   "b": "bld_human_cathedral_classical_v0",
+   "matched": 3012,
+   "total": 3924,
+   "reason": "The medieval pointed turret and high roof planes give way to an open, sweeping pair of ribs above the nave and its buttresses."
+  },
+  {
+   "race": "human",
+   "family": "Cathedral",
+   "variant": 0,
+   "a": "bld_human_cathedral_future_v0",
+   "b": "bld_human_cathedral_industrial_v0",
+   "matched": 3012,
+   "total": 3924,
+   "reason": "The industrial cathedral has a low roof with a box lantern. The future cathedral frames the roof with tall curved structural ribs."
+  },
+  {
+   "race": "human",
+   "family": "Library",
+   "variant": 0,
+   "a": "bld_human_library_classical_v0",
+   "b": "bld_human_library_industrial_v0",
+   "matched": 1359,
+   "total": 2199,
+   "reason": "The early library has a broad low roof and rounded end turret. The later reading hall is taller and has a long rectangular roof monitor."
+  },
+  {
+   "race": "human",
+   "family": "Library",
+   "variant": 0,
+   "a": "bld_human_library_classical_v0",
+   "b": "bld_human_library_future_v0",
+   "matched": 1359,
+   "total": 2199,
+   "reason": "The spreading low roof and rounded turret give way to a tall square archive with a stepped cap over the entry."
+  },
+  {
+   "race": "human",
+   "family": "Monastery",
+   "variant": 0,
+   "a": "bld_human_monastery_classical_v0",
+   "b": "bld_human_monastery_future_v0",
+   "matched": 2145,
+   "total": 3465,
+   "reason": "The medieval cloister ends in two pointed roofs. The future cloister lifts a broad drum and dome over one corner, changing the skyline in both views."
+  },
+  {
+   "race": "human",
+   "family": "Monastery",
+   "variant": 0,
+   "a": "bld_human_monastery_future_v0",
+   "b": "bld_human_monastery_classical_v0",
+   "matched": 2145,
+   "total": 2835,
+   "reason": "The medieval cloister ends in two pointed roofs. The future cloister lifts a broad drum and dome over one corner, changing the skyline in both views."
+  },
+  {
+   "race": "human",
+   "family": "Printworks",
+   "variant": 0,
+   "a": "bld_human_printworks_classical_v0",
+   "b": "bld_human_printworks_future_v0",
+   "matched": 1194,
+   "total": 1608,
+   "reason": "The low, single roof on the early print shop becomes a tall stepped stack above the print room. The front press remains recognizable."
+  },
+  {
+   "race": "human",
+   "family": "RailStation",
+   "variant": 0,
+   "a": "bld_human_rail_station_industrial_v0",
+   "b": "bld_human_rail_station_future_v0",
+   "matched": 1797,
+   "total": 2649,
+   "reason": "The industrial station has a large rounded shed next to the ticket house. The future station spreads a flat platform canopy under exposed roof supports."
+  },
+  {
+   "race": "human",
+   "family": "RailStation",
+   "variant": 0,
+   "a": "bld_human_rail_station_future_v0",
+   "b": "bld_human_rail_station_industrial_v0",
+   "matched": 1797,
+   "total": 2385,
+   "reason": "The industrial station has a large rounded shed next to the ticket house. The future station spreads a flat platform canopy under exposed roof supports."
+  },
+  {
+   "race": "human",
+   "family": "Shrine",
+   "variant": 0,
+   "a": "bld_human_shrine_ancient_v0",
+   "b": "bld_human_shrine_classical_v0",
+   "matched": 1275,
+   "total": 1626,
+   "reason": "The open shrine keeps its raised altar and steps while the pitched canopy becomes a distinct hemisphere resting on a square cornice."
+  },
+  {
+   "race": "human",
+   "family": "Shrine",
+   "variant": 0,
+   "a": "bld_human_shrine_ancient_v0",
+   "b": "bld_human_shrine_future_v0",
+   "matched": 1275,
+   "total": 1626,
+   "reason": "The open, overhanging temple canopy becomes an enclosed, tall pointed frame surrounding the altar. The steps and shrine remain legible."
+  },
+  {
+   "race": "human",
+   "family": "Shrine",
+   "variant": 0,
+   "a": "bld_human_shrine_future_v0",
+   "b": "bld_human_shrine_ancient_v0",
+   "matched": 1275,
+   "total": 1596,
+   "reason": "The open, overhanging temple canopy becomes an enclosed, tall pointed frame surrounding the altar. The steps and shrine remain legible."
+  },
+  {
+   "race": "human",
+   "family": "Shrine",
+   "variant": 0,
+   "a": "bld_human_shrine_future_v0",
+   "b": "bld_human_shrine_classical_v0",
+   "matched": 1275,
+   "total": 1596,
+   "reason": "The classical round canopy and projecting cornice give way to a tall pointed wall that frames the altar and closes its sides."
+  },
+  {
+   "race": "human",
+   "family": "StoneQuarry",
+   "variant": 0,
+   "a": "bld_human_stone_quarry_ancient_v0",
+   "b": "bld_human_stone_quarry_classical_v0",
+   "matched": 1881,
+   "total": 2913,
+   "reason": "The ancient quarry rises to a roofed stand above its cut. The later quarry has a long low working ledge with open equipment over the rock."
+  },
+  {
+   "race": "human",
+   "family": "StoneQuarry",
+   "variant": 0,
+   "a": "bld_human_stone_quarry_classical_v0",
+   "b": "bld_human_stone_quarry_ancient_v0",
+   "matched": 1875,
+   "total": 2799,
+   "reason": "The ancient quarry rises to a roofed stand above its cut. The later quarry has a long low working ledge with open equipment over the rock."
+  },
+  {
+   "race": "orc",
+   "family": "Bank",
+   "variant": 0,
+   "a": "bld_orc_bank_classical_v0",
+   "b": "bld_orc_bank_industrial_v0",
+   "matched": 1488,
+   "total": 2082,
+   "reason": "The early bank is a broad conical roof over a round vault. The industrial bank's roof flattens into a low drum visible between raised perimeter posts."
+  },
+  {
+   "race": "orc",
+   "family": "Bank",
+   "variant": 0,
+   "a": "bld_orc_bank_industrial_v0",
+   "b": "bld_orc_bank_classical_v0",
+   "matched": 1488,
+   "total": 2280,
+   "reason": "The early bank is a broad conical roof over a round vault. The industrial bank's roof flattens into a low drum visible between raised perimeter posts."
+  },
+  {
+   "race": "saurian",
+   "family": "Bank",
+   "variant": 0,
+   "a": "bld_saurian_bank_classical_v0",
+   "b": "bld_saurian_bank_industrial_v0",
+   "matched": 1638,
+   "total": 2250,
+   "reason": "The earlier bank has a broad sloping cap down to the entrance. The industrial bank has a raised, rounded vault roof with a strong horizontal ledge beneath it."
+  },
+  {
+   "race": "saurian",
+   "family": "Bank",
+   "variant": 0,
+   "a": "bld_saurian_bank_classical_v0",
+   "b": "bld_saurian_bank_future_v0",
+   "matched": 1638,
+   "total": 2250,
+   "reason": "The low sloping roof above the early bank becomes a tall square upper storey with a flat crown over the familiar vault entrance."
+  },
+  {
+   "race": "saurian",
+   "family": "Bank",
+   "variant": 0,
+   "a": "bld_saurian_bank_industrial_v0",
+   "b": "bld_saurian_bank_classical_v0",
+   "matched": 1638,
+   "total": 2226,
+   "reason": "The earlier bank has a broad sloping cap down to the entrance. The industrial bank has a raised, rounded vault roof with a strong horizontal ledge beneath it."
+  },
+  {
+   "race": "saurian",
+   "family": "Bank",
+   "variant": 0,
+   "a": "bld_saurian_bank_industrial_v0",
+   "b": "bld_saurian_bank_future_v0",
+   "matched": 1654,
+   "total": 2226,
+   "reason": "The industrial bank's rounded raised roof gives way to a clearly square, stepped upper block. Both retain the stepped base, projecting entry and apex emblem."
+  },
+  {
+   "race": "saurian",
+   "family": "Bank",
+   "variant": 0,
+   "a": "bld_saurian_bank_future_v0",
+   "b": "bld_saurian_bank_classical_v0",
+   "matched": 1638,
+   "total": 2166,
+   "reason": "The low sloping roof above the early bank becomes a tall square upper storey with a flat crown over the familiar vault entrance."
+  },
+  {
+   "race": "saurian",
+   "family": "Bank",
+   "variant": 0,
+   "a": "bld_saurian_bank_future_v0",
+   "b": "bld_saurian_bank_industrial_v0",
+   "matched": 1660,
+   "total": 2166,
+   "reason": "The industrial bank's rounded raised roof gives way to a clearly square, stepped upper block. Both retain the stepped base, projecting entry and apex emblem."
+  },
+  {
+   "race": "saurian",
+   "family": "Bathhouse",
+   "variant": 0,
+   "a": "bld_saurian_bathhouse_classical_v0",
+   "b": "bld_saurian_bathhouse_industrial_v0",
+   "matched": 1932,
+   "total": 2778,
+   "reason": "The classical bath has a large domed steam room. A conspicuous tall exhaust stack rises over the lower industrial boiler roof beside the same baths."
+  },
+  {
+   "race": "saurian",
+   "family": "Bathhouse",
+   "variant": 0,
+   "a": "bld_saurian_bathhouse_industrial_v0",
+   "b": "bld_saurian_bathhouse_classical_v0",
+   "matched": 1932,
+   "total": 3018,
+   "reason": "The classical bath has a large domed steam room. A conspicuous tall exhaust stack rises over the lower industrial boiler roof beside the same baths."
+  },
+  {
+   "race": "saurian",
+   "family": "Forum",
+   "variant": 0,
+   "a": "bld_saurian_forum_classical_v0",
+   "b": "bld_saurian_forum_industrial_v0",
+   "matched": 2793,
+   "total": 3519,
+   "reason": "The classical forum centers on one low sloping hall between smaller pavilions. The industrial forum has a separate raised rectangular monitor over the meeting hall."
+  },
+  {
+   "race": "saurian",
+   "family": "Forum",
+   "variant": 0,
+   "a": "bld_saurian_forum_classical_v0",
+   "b": "bld_saurian_forum_future_v0",
+   "matched": 2793,
+   "total": 3519,
+   "reason": "The early forum has a continuous sloping central hall. The future forum spreads lower roofs around a clearly elevated circular crown above the center."
+  },
+  {
+   "race": "saurian",
+   "family": "Forum",
+   "variant": 0,
+   "a": "bld_saurian_forum_industrial_v0",
+   "b": "bld_saurian_forum_classical_v0",
+   "matched": 2793,
+   "total": 3555,
+   "reason": "The classical forum centers on one low sloping hall between smaller pavilions. The industrial forum has a separate raised rectangular monitor over the meeting hall."
+  },
+  {
+   "race": "saurian",
+   "family": "Forum",
+   "variant": 0,
+   "a": "bld_saurian_forum_industrial_v0",
+   "b": "bld_saurian_forum_future_v0",
+   "matched": 2793,
+   "total": 3555,
+   "reason": "The industrial forum has a solid box over the central hall. The future forum instead has a narrow elevated circular crown above a lower flat canopy."
+  },
+  {
+   "race": "saurian",
+   "family": "Forum",
+   "variant": 0,
+   "a": "bld_saurian_forum_future_v0",
+   "b": "bld_saurian_forum_classical_v0",
+   "matched": 2793,
+   "total": 3705,
+   "reason": "The early forum has a continuous sloping central hall. The future forum spreads lower roofs around a clearly elevated circular crown above the center."
+  },
+  {
+   "race": "saurian",
+   "family": "Forum",
+   "variant": 0,
+   "a": "bld_saurian_forum_future_v0",
+   "b": "bld_saurian_forum_industrial_v0",
+   "matched": 2793,
+   "total": 3705,
+   "reason": "The industrial forum has a solid box over the central hall. The future forum instead has a narrow elevated circular crown above a lower flat canopy."
+  },
+  {
+   "race": "saurian",
+   "family": "Palisade",
+   "variant": 0,
+   "a": "bld_saurian_palisade_classical_v0",
+   "b": "bld_saurian_palisade_ancient_v0",
+   "matched": 2118,
+   "total": 2976,
+   "reason": "The early fence has a steep line of small points and a raised horizontal brace above the gap. The later fence uses tall rounded stakes around a roofed opening."
+  },
+  {
+   "race": "saurian",
+   "family": "TownCenter",
+   "variant": 0,
+   "a": "bld_saurian_town_center_ancient_bronze_v0",
+   "b": "bld_saurian_town_center_classical_v0",
+   "matched": 2685,
+   "total": 3909,
+   "reason": "The bronze council hall has a broad pyramidal canopy. The classical center has a rounded cupola raised above a square cornice on the same civic terrace."
+  },
+  {
+   "race": "saurian",
+   "family": "TownCenter",
+   "variant": 0,
+   "a": "bld_saurian_town_center_ancient_bronze_v0",
+   "b": "bld_saurian_town_center_industrial_v0",
+   "matched": 2685,
+   "total": 3909,
+   "reason": "The bronze center's pitched canopy is replaced by a broad, flat civic roof with widely spaced tall stacks at its rear corners."
+  },
+  {
+   "race": "saurian",
+   "family": "TownCenter",
+   "variant": 0,
+   "a": "bld_saurian_town_center_ancient_iron_v0",
+   "b": "bld_saurian_town_center_classical_medieval_v0",
+   "matched": 2685,
+   "total": 3621,
+   "reason": "The iron center's low wide canopy gives way to a steep tall pyramid that occupies much more of the medieval tower's height above the terrace."
+  },
+  {
+   "race": "saurian",
+   "family": "TownCenter",
+   "variant": 0,
+   "a": "bld_saurian_town_center_classical_v0",
+   "b": "bld_saurian_town_center_ancient_bronze_v0",
+   "matched": 2685,
+   "total": 3747,
+   "reason": "The bronze council hall has a broad pyramidal canopy. The classical center has a rounded cupola raised above a square cornice on the same civic terrace."
+  },
+  {
+   "race": "saurian",
+   "family": "TownCenter",
+   "variant": 0,
+   "a": "bld_saurian_town_center_classical_v0",
+   "b": "bld_saurian_town_center_industrial_v0",
+   "matched": 2685,
+   "total": 3747,
+   "reason": "The classical dome and projecting cornice give way to an unmistakably flat industrial roof with two tall, separate stacks."
+  },
+  {
+   "race": "saurian",
+   "family": "TownCenter",
+   "variant": 0,
+   "a": "bld_saurian_town_center_classical_medieval_v0",
+   "b": "bld_saurian_town_center_ancient_iron_v0",
+   "matched": 2685,
+   "total": 3909,
+   "reason": "The iron center's low wide canopy gives way to a steep tall pyramid that occupies much more of the medieval tower's height above the terrace."
+  },
+  {
+   "race": "saurian",
+   "family": "TownCenter",
+   "variant": 0,
+   "a": "bld_saurian_town_center_industrial_v0",
+   "b": "bld_saurian_town_center_ancient_bronze_v0",
+   "matched": 2685,
+   "total": 3885,
+   "reason": "The bronze center's pitched canopy is replaced by a broad, flat civic roof with widely spaced tall stacks at its rear corners."
+  },
+  {
+   "race": "saurian",
+   "family": "TownCenter",
+   "variant": 0,
+   "a": "bld_saurian_town_center_industrial_v0",
+   "b": "bld_saurian_town_center_classical_v0",
+   "matched": 2685,
+   "total": 3885,
+   "reason": "The classical dome and projecting cornice give way to an unmistakably flat industrial roof with two tall, separate stacks."
+  },
+  {
+   "race": "saurian",
+   "family": "TownCenter",
+   "variant": 0,
+   "a": "bld_saurian_town_center_industrial_modern_v0",
+   "b": "bld_saurian_town_center_future_ascension_v0",
+   "matched": 2685,
+   "total": 4023,
+   "reason": "The modern center has a compact solid stepped cap. The ascension center has a prominent open ring on an altar-like roof above the terraces."
+  },
+  {
+   "race": "saurian",
+   "family": "TownCenter",
+   "variant": 0,
+   "a": "bld_saurian_town_center_future_ascension_v0",
+   "b": "bld_saurian_town_center_industrial_modern_v0",
+   "matched": 2685,
+   "total": 3975,
+   "reason": "The modern center has a compact solid stepped cap. The ascension center has a prominent open ring on an altar-like roof above the terraces."
+  },
+  {
+   "race": "saurian",
+   "family": "Well",
+   "variant": 0,
+   "a": "bld_saurian_well_ancient_v0",
+   "b": "bld_saurian_well_classical_v0",
+   "matched": 1350,
+   "total": 2010,
+   "reason": "The early well exposes the lifting beam above the water. The later well is covered by a large pyramidal canopy, clearly visible from both directions."
+  },
+  {
+   "race": "saurian",
+   "family": "Well",
+   "variant": 0,
+   "a": "bld_saurian_well_ancient_v0",
+   "b": "bld_saurian_well_industrial_v0",
+   "matched": 1350,
+   "total": 2010,
+   "reason": "The early well spans the water with a long elevated lifting beam. The industrial well leaves it open with a short offset pump and handle."
+  },
+  {
+   "race": "saurian",
+   "family": "Well",
+   "variant": 0,
+   "a": "bld_saurian_well_ancient_v0",
+   "b": "bld_saurian_well_future_v0",
+   "matched": 1350,
+   "total": 2010,
+   "reason": "The early well has an exposed horizontal beam and dangling line. A prominent upright ring replaces that assembly above the future shaft."
+  },
+  {
+   "race": "saurian",
+   "family": "Well",
+   "variant": 0,
+   "a": "bld_saurian_well_industrial_v0",
+   "b": "bld_saurian_well_ancient_v0",
+   "matched": 1350,
+   "total": 2166,
+   "reason": "The early well spans the water with a long elevated lifting beam. The industrial well leaves it open with a short offset pump and handle."
+  },
+  {
+   "race": "saurian",
+   "family": "Well",
+   "variant": 0,
+   "a": "bld_saurian_well_industrial_v0",
+   "b": "bld_saurian_well_classical_v0",
+   "matched": 1350,
+   "total": 2166,
+   "reason": "The classical well has a wide, solid canopy over the shaft. The industrial well opens the top and puts a narrow upright pump beside the lip."
+  },
+  {
+   "race": "saurian",
+   "family": "Well",
+   "variant": 0,
+   "a": "bld_saurian_well_industrial_v0",
+   "b": "bld_saurian_well_future_v0",
+   "matched": 1350,
+   "total": 2166,
+   "reason": "The short, offset industrial pump leaves the shaft open. The future well arches a large ring across the top of the same round basin."
+  },
+  {
+   "race": "saurian",
+   "family": "Well",
+   "variant": 0,
+   "a": "bld_saurian_well_future_v0",
+   "b": "bld_saurian_well_ancient_v0",
+   "matched": 1350,
+   "total": 2214,
+   "reason": "The early well has an exposed horizontal beam and dangling line. A prominent upright ring replaces that assembly above the future shaft."
+  },
+  {
+   "race": "saurian",
+   "family": "Well",
+   "variant": 0,
+   "a": "bld_saurian_well_future_v0",
+   "b": "bld_saurian_well_classical_v0",
+   "matched": 1350,
+   "total": 2214,
+   "reason": "The classical roof covers the full shaft. The future well exposes the basin beneath a tall open ring supported on its edge."
+  },
+  {
+   "race": "saurian",
+   "family": "Well",
+   "variant": 0,
+   "a": "bld_saurian_well_future_v0",
+   "b": "bld_saurian_well_industrial_v0",
+   "matched": 1350,
+   "total": 2214,
+   "reason": "The short, offset industrial pump leaves the shaft open. The future well arches a large ring across the top of the same round basin."
+  }
+ ],
+ "package_reviews": {
+  "dwarf_commerce": [
+   {
+    "round": 5,
+    "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+    "evaluated": [
+     "bld_dwarf_market_future_v0"
+    ],
+    "held": []
+   }
+  ],
+  "dwarf_culturecivic": [
+   {
+    "round": 6,
+    "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+    "evaluated": [
+     "bld_dwarf_forum_future_v0",
+     "bld_dwarf_forum_industrial_v0",
+     "bld_dwarf_theater_future_v0",
+     "bld_dwarf_theater_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "dwarf_extraction": [
+   {
+    "round": 7,
+    "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+    "evaluated": [
+     "bld_dwarf_mine_classical_v0",
+     "bld_dwarf_mine_future_v0",
+     "bld_dwarf_mine_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "dwarf_food": [
+   {
+    "round": 8,
+    "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+    "evaluated": [
+     "bld_dwarf_farm_classical_v0",
+     "bld_dwarf_farm_future_v0",
+     "bld_dwarf_farm_industrial_v0",
+     "bld_dwarf_fishing_hut_classical_v0",
+     "bld_dwarf_fishing_hut_future_v0",
+     "bld_dwarf_fishing_hut_industrial_v0",
+     "bld_dwarf_hunting_lodge_classical_v0",
+     "bld_dwarf_industrial_farm_future_v0",
+     "bld_dwarf_mill_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "dwarf_industry": [
+   {
+    "round": 4,
+    "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+    "evaluated": [
+     "bld_dwarf_armory_classical_v0",
+     "bld_dwarf_armory_future_v0",
+     "bld_dwarf_armory_industrial_v0",
+     "bld_dwarf_workshop_industrial_v0"
+    ],
+    "held": [
+     "bld_dwarf_armory_future_v0"
+    ]
+   },
+   {
+    "round": 5,
+    "critic": "RC4 independent Human and Dwarf art critic, replacement mesh re-review",
+    "evaluated": [
+     "bld_dwarf_armory_future_v0"
+    ],
+    "held": []
+   }
+  ],
+  "dwarf_religion": [
+   {
+    "round": 7,
+    "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+    "evaluated": [
+     "bld_dwarf_temple_classical_v0",
+     "bld_dwarf_temple_future_v0",
+     "bld_dwarf_temple_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "dwarf_towncenters": [
+   {
+    "round": 7,
+    "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+    "evaluated": [
+     "bld_dwarf_town_center_classical_renaissance_v0",
+     "bld_dwarf_town_center_future_v0"
+    ],
+    "held": []
+   }
+  ],
+  "elf_culturecivic": [
+   {
+    "round": 7,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_elf_arena_future_v0",
+     "bld_elf_arena_industrial_v0",
+     "bld_elf_campfire_classical_v0",
+     "bld_elf_stadium_future_v0"
+    ],
+    "held": []
+   }
+  ],
+  "elf_extraction": [
+   {
+    "round": 7,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_elf_coal_mine_future_v0",
+     "bld_elf_gold_mine_future_v0"
+    ],
+    "held": []
+   }
+  ],
+  "elf_food": [
+   {
+    "round": 8,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_elf_farm_classical_v0",
+     "bld_elf_farm_future_v0",
+     "bld_elf_pasture_classical_v0",
+     "bld_elf_pasture_future_v0",
+     "bld_elf_pasture_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "elf_infrastructure": [
+   {
+    "round": 10,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_elf_granary_classical_v0",
+     "bld_elf_granary_future_v0",
+     "bld_elf_granary_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "elf_learninghealth": [
+   {
+    "round": 9,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_elf_university_future_v0",
+     "bld_elf_university_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "human_commerce": [
+   {
+    "round": 5,
+    "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+    "evaluated": [
+     "bld_human_bank_industrial_v0",
+     "bld_human_guildhall_industrial_v0",
+     "bld_human_market_future_v0"
+    ],
+    "held": []
+   }
+  ],
+  "human_culturecivic": [
+   {
+    "round": 6,
+    "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+    "evaluated": [
+     "bld_human_arena_industrial_v0",
+     "bld_human_forum_industrial_v0",
+     "bld_human_tavern_future_v0",
+     "bld_human_tavern_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "human_extraction": [
+   {
+    "round": 6,
+    "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+    "evaluated": [
+     "bld_human_coal_mine_future_v0",
+     "bld_human_oil_well_future_v0",
+     "bld_human_stone_quarry_industrial_v0",
+     "bld_human_woodcutter_camp_classical_v0",
+     "bld_human_woodcutter_camp_future_v0",
+     "bld_human_woodcutter_camp_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "human_food": [
+   {
+    "round": 7,
+    "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+    "evaluated": [
+     "bld_human_farm_future_v0",
+     "bld_human_fishing_hut_classical_v0",
+     "bld_human_fishing_hut_future_v0",
+     "bld_human_fishing_hut_industrial_v0",
+     "bld_human_mill_industrial_v0"
+    ],
+    "held": [
+     "bld_human_fishing_hut_industrial_v0"
+    ]
+   },
+   {
+    "round": 8,
+    "critic": "RC4 independent Human and Dwarf art critic, replacement mesh re-review",
+    "evaluated": [
+     "bld_human_fishing_hut_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "human_industry": [
+   {
+    "round": 5,
+    "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+    "evaluated": [
+     "bld_human_weaver_future_v0",
+     "bld_human_weaver_industrial_v0"
+    ],
+    "held": []
+   },
+   {
+    "round": 6,
+    "critic": "RC4 independent Human art critic, checkpoint comparison",
+    "evaluated": [
+     "bld_human_blacksmith_classical_v0"
+    ],
+    "held": [
+     "bld_human_blacksmith_classical_v0"
+    ]
+   },
+   {
+    "round": 7,
+    "critic": "RC4 independent Human art critic, replacement mesh re-review",
+    "evaluated": [
+     "bld_human_blacksmith_classical_v0"
+    ],
+    "held": []
+   }
+  ],
+  "human_infrastructure": [
+   {
+    "round": 5,
+    "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+    "evaluated": [
+     "bld_human_granary_classical_v0",
+     "bld_human_granary_future_v0",
+     "bld_human_well_classical_v0",
+     "bld_human_well_future_v0",
+     "bld_human_well_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "human_learninghealth": [
+   {
+    "round": 5,
+    "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+    "evaluated": [
+     "bld_human_bathhouse_future_v0",
+     "bld_human_bathhouse_industrial_v0",
+     "bld_human_herbalist_classical_v0",
+     "bld_human_herbalist_future_v0",
+     "bld_human_herbalist_industrial_v0",
+     "bld_human_observatory_future_v0",
+     "bld_human_observatory_industrial_v0",
+     "bld_human_printworks_industrial_v0",
+     "bld_human_research_lab_future_v0",
+     "bld_human_scriptorium_classical_v0",
+     "bld_human_scriptorium_future_v0",
+     "bld_human_scriptorium_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "human_military": [
+   {
+    "round": 5,
+    "critic": "RC4 independent Human art critic, checkpoint comparison",
+    "evaluated": [
+     "bld_human_barracks_classical_v0"
+    ],
+    "held": [
+     "bld_human_barracks_classical_v0"
+    ]
+   },
+   {
+    "round": 6,
+    "critic": "RC4 independent Human art critic, replacement mesh re-review",
+    "evaluated": [
+     "bld_human_barracks_classical_v0"
+    ],
+    "held": []
+   }
+  ],
+  "human_religion": [
+   {
+    "round": 5,
+    "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+    "evaluated": [
+     "bld_human_monastery_industrial_v0",
+     "bld_human_shrine_industrial_v0",
+     "bld_human_temple_classical_v0"
+    ],
+    "held": []
+   }
+  ],
+  "orc_commerce": [
+   {
+    "round": 7,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_orc_bank_future_v0"
+    ],
+    "held": []
+   }
+  ],
+  "orc_extraction": [
+   {
+    "round": 6,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_orc_gold_mine_industrial_v0"
+    ],
+    "held": [
+     "bld_orc_gold_mine_industrial_v0"
+    ]
+   },
+   {
+    "round": 7,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_orc_coal_mine_future_v0",
+     "bld_orc_gold_mine_classical_v0",
+     "bld_orc_gold_mine_future_v0",
+     "bld_orc_mine_classical_v0",
+     "bld_orc_mine_future_v0",
+     "bld_orc_mine_industrial_v0",
+     "bld_orc_sawmill_future_v0",
+     "bld_orc_stone_quarry_classical_v0",
+     "bld_orc_stone_quarry_future_v0",
+     "bld_orc_stone_quarry_industrial_v0",
+     "bld_orc_woodcutter_camp_future_v0",
+     "bld_orc_woodcutter_camp_industrial_v0"
+    ],
+    "held": []
+   },
+   {
+    "round": 8,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_orc_gold_mine_industrial_v0"
+    ],
+    "held": []
+   },
+   {
+    "round": 9,
+    "critic": "Independent RC4 critic, checkpoint catalog comparison",
+    "evaluated": [
+     "bld_orc_woodcutter_camp_classical_v0"
+    ],
+    "held": [
+     "bld_orc_woodcutter_camp_classical_v0"
+    ]
+   },
+   {
+    "round": 10,
+    "critic": "Independent RC4 critic, catalog repair reinspection",
+    "evaluated": [
+     "bld_orc_woodcutter_camp_classical_v0"
+    ],
+    "held": []
+   }
+  ],
+  "orc_food": [
+   {
+    "round": 6,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_orc_farm_classical_v0",
+     "bld_orc_farm_future_v0",
+     "bld_orc_fishing_hut_industrial_v0",
+     "bld_orc_hunting_lodge_classical_v0",
+     "bld_orc_mill_industrial_v0",
+     "bld_orc_pasture_classical_v0",
+     "bld_orc_pasture_future_v0",
+     "bld_orc_pasture_industrial_v0"
+    ],
+    "held": []
+   },
+   {
+    "round": 7,
+    "critic": "Independent RC4 critic, archived catalog comparison",
+    "evaluated": [
+     "bld_orc_fishing_hut_classical_v0"
+    ],
+    "held": [
+     "bld_orc_fishing_hut_classical_v0"
+    ]
+   },
+   {
+    "round": 8,
+    "critic": "Independent RC4 critic, catalog repair reinspection",
+    "evaluated": [
+     "bld_orc_fishing_hut_classical_v0"
+    ],
+    "held": []
+   }
+  ],
+  "orc_industry": [
+   {
+    "round": 8,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_orc_workshop_industrial_v0"
+    ],
+    "held": [
+     "bld_orc_workshop_industrial_v0"
+    ]
+   },
+   {
+    "round": 9,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_orc_foundry_future_v0",
+     "bld_orc_weaver_industrial_v0"
+    ],
+    "held": []
+   },
+   {
+    "round": 10,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_orc_workshop_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "orc_infrastructure": [
+   {
+    "round": 7,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_orc_granary_classical_v0",
+     "bld_orc_granary_future_v0"
+    ],
+    "held": []
+   }
+  ],
+  "orc_learninghealth": [
+   {
+    "round": 6,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_orc_hospital_future_v0",
+     "bld_orc_hospital_industrial_v0",
+     "bld_orc_library_future_v0",
+     "bld_orc_library_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "orc_military": [
+   {
+    "round": 7,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_orc_military_base_future_v0"
+    ],
+    "held": []
+   }
+  ],
+  "orc_religion": [
+   {
+    "round": 6,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_orc_cathedral_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "saurian_commerce": [
+   {
+    "round": 5,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_saurian_guildhall_future_v0"
+    ],
+    "held": [
+     "bld_saurian_guildhall_future_v0"
+    ]
+   },
+   {
+    "round": 6,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_saurian_guildhall_industrial_v0",
+     "bld_saurian_harbor_future_v0",
+     "bld_saurian_harbor_industrial_v0",
+     "bld_saurian_market_classical_v0",
+     "bld_saurian_market_future_v0",
+     "bld_saurian_market_industrial_v0",
+     "bld_saurian_rail_station_future_v0"
+    ],
+    "held": []
+   },
+   {
+    "round": 7,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_saurian_guildhall_future_v0"
+    ],
+    "held": []
+   }
+  ],
+  "saurian_extraction": [
+   {
+    "round": 8,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_saurian_gold_mine_future_v0",
+     "bld_saurian_mine_classical_v0"
+    ],
+    "held": [
+     "bld_saurian_gold_mine_future_v0",
+     "bld_saurian_mine_classical_v0"
+    ]
+   },
+   {
+    "round": 9,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_saurian_coal_mine_future_v0",
+     "bld_saurian_gold_mine_classical_v0",
+     "bld_saurian_gold_mine_industrial_v0",
+     "bld_saurian_mine_future_v0",
+     "bld_saurian_mine_industrial_v0",
+     "bld_saurian_stone_quarry_classical_v0"
+    ],
+    "held": []
+   },
+   {
+    "round": 10,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_saurian_gold_mine_future_v0",
+     "bld_saurian_mine_classical_v0"
+    ],
+    "held": []
+   },
+   {
+    "round": 11,
+    "critic": "Independent RC4 critic, archived catalog comparison",
+    "evaluated": [
+     "bld_saurian_mine_future_v0"
+    ],
+    "held": [
+     "bld_saurian_mine_future_v0"
+    ]
+   },
+   {
+    "round": 12,
+    "critic": "Independent RC4 critic, catalog repair reinspection",
+    "evaluated": [
+     "bld_saurian_mine_future_v0"
+    ],
+    "held": []
+   }
+  ],
+  "saurian_food": [
+   {
+    "round": 11,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_saurian_hunting_lodge_classical_v0"
+    ],
+    "held": []
+   }
+  ],
+  "saurian_infrastructure": [
+   {
+    "round": 5,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_saurian_granary_ancient_v0",
+     "bld_saurian_power_plant_future_v0"
+    ],
+    "held": []
+   },
+   {
+    "round": 6,
+    "critic": "Independent RC4 critic, checkpoint catalog comparison",
+    "evaluated": [
+     "bld_saurian_granary_future_v0"
+    ],
+    "held": [
+     "bld_saurian_granary_future_v0"
+    ]
+   },
+   {
+    "round": 7,
+    "critic": "Independent RC4 critic, catalog repair reinspection",
+    "evaluated": [
+     "bld_saurian_granary_future_v0"
+    ],
+    "held": []
+   }
+  ],
+  "saurian_learninghealth": [
+   {
+    "round": 6,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_saurian_observatory_future_v0",
+     "bld_saurian_observatory_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "saurian_military": [
+   {
+    "round": 5,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_saurian_barracks_ancient_v0",
+     "bld_saurian_barracks_industrial_v0",
+     "bld_saurian_watchtower_industrial_v0"
+    ],
+    "held": []
+   }
+  ],
+  "saurian_religion": [
+   {
+    "round": 5,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_saurian_cathedral_future_v0",
+     "bld_saurian_cathedral_industrial_v0",
+     "bld_saurian_shrine_classical_v0",
+     "bld_saurian_shrine_future_v0",
+     "bld_saurian_shrine_industrial_v0",
+     "bld_saurian_temple_industrial_v0"
+    ],
+    "held": []
+   },
+   {
+    "round": 6,
+    "critic": "Independent RC4 critic, checkpoint catalog comparison",
+    "evaluated": [
+     "bld_saurian_temple_ancient_v0",
+     "bld_saurian_temple_classical_v0",
+     "bld_saurian_temple_future_v0"
+    ],
+    "held": [
+     "bld_saurian_temple_ancient_v0",
+     "bld_saurian_temple_classical_v0",
+     "bld_saurian_temple_future_v0"
+    ]
+   },
+   {
+    "round": 7,
+    "critic": "Independent RC4 critic, catalog repair reinspection",
+    "evaluated": [
+     "bld_saurian_temple_ancient_v0",
+     "bld_saurian_temple_classical_v0",
+     "bld_saurian_temple_future_v0"
+    ],
+    "held": []
+   }
+  ],
+  "saurian_towncenters": [
+   {
+    "round": 3,
+    "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+    "evaluated": [
+     "bld_saurian_town_center_classical_renaissance_v0"
+    ],
+    "held": []
+   }
+  ]
+ },
+ "changed_score_minima": {
+  "silhouette": 91,
+  "identity": 90,
+  "construction": 92,
+  "charm": 90,
+  "colour": 91,
+  "technical": 99
+ },
+ "changed_pair_peak": {
+  "race": "saurian",
+  "family": "Shrine",
+  "variant": 0,
+  "a": "bld_saurian_shrine_future_v0",
+  "b": "bld_saurian_shrine_classical_v0",
+  "matched": 276,
+  "total": 1440
+ }
+}

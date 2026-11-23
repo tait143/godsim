@@ -10,6 +10,7 @@ from forge import MeshBuilder, publish
 from forge.atlas import palette
 from forge.render import contact_sheet
 from generators.buildings.orc_guild_eras import DESIGNERS, FIRST_ERA
+from generators.buildings import orc_civic_trades
 
 PACKAGE = "orc_learninghealth"
 ERAS = ("ancient", "classical", "industrial", "future")
@@ -388,7 +389,9 @@ def design(m,t):
     elif t=="MedicalCenter":
         field_surgery(m)
     elif t=="Hospital":
-        ward(m)
+        (orc_civic_trades.hospital if m.e >= 2 else ward)(m)
+    elif t=="Library" and m.e >= 2:
+        orc_civic_trades.library(m)
     elif t in ("Library","University"):
         archive(m,t=="University")
     elif t=="Observatory":

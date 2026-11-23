@@ -25,6 +25,12 @@ def mushroom(m,x,y,z,r,cap):
 
 def fisher(m):
     e=m.era
+    if e==1:
+        return tidal_weir(m)
+    if e==2:
+        return net_hoist(m)
+    if e==3:
+        return fish_pens(m)
     m.slab("fieldstone",-.27,0,.04,1.16,.16,1.36,.14)
     m.hearth(-.28,.156,.26,1.04,roof_material="roof" if e==0 else None)
     # A blackwater dory on its slip. The interior is modeled down to the bilge.
@@ -55,7 +61,130 @@ def fisher(m):
     if m.lod==0: cask(m,.085,.235,-.59,.116,.19)
 
 
+def catch(m,x,y,z,scale):
+    # Split tail, broad shoulders and a pointed snout read in silhouette on the drying beam.
+    with m.transform(translate=(x,y,z),scale=scale):
+        m.relief("ivory",[(-.12,0),(.07,-.10),(.21,-.06),(.28,.006),
+                          (.15,.105),(.012,.112)],-.031,.062)
+        m.relief("metal",[(-.23,-.109),(-.09,.002),(-.23,.114)],-.021,.042)
+
+
+def tidal_weir(m):
+    m.slab("water",0,0,.017,1.87,.086,1.73,.15)
+    m.slab("fieldstone",-.47,.078,.023,.773,.177,1.51,.135)
+    m.drum("wall",-.475,.249,.348,.354,.487,.327)
+    m.drum("roof_tile",-.475,.728,.348,.401,.241,.145)
+    m.entry(-.475,.253,.018,.282,.365)
+    # Stakes funnel the tide and catch into a woven basket at the narrow mouth.
+    for side in (-1,1):
+        a=(.338+side*.379,.305,-.631)
+        b=(.338+side*.089,.303,.39)
+        m.beam("timber",a,b,.069)
+        for j in range((6,3,2)[m.lod]):
+            f=j/((6,3,2)[m.lod]-1)
+            x=a[0]+f*(b[0]-a[0]); z=a[2]+f*(b[2]-a[2])
+            m.block("timber",x,.082,z,.054,.303,.059)
+    m.drum("timber",.339,.081,.498,.151,.29,.102)
+    m.drum("door",.339,.365,.498,.083,.015)
+    if m.lod<2:
+        for x in (-.715,-.209):
+            m.block("timber",x,.252,-.54,.054,.478,.057)
+        m.block("trim",-.461,.72,-.54,.584,.054,.062)
+        catch(m,-.471,.628,-.575,.716)
+    if m.lod==0:
+        cask(m,-.682,.252,-.266,.089,.16)
+
+
+def net_hoist(m):
+    m.slab("water",0,0,.006,1.89,.078,1.73,.15)
+    m.slab("fieldstone",-.418,.074,.143,.922,.181,1.322,.09)
+    m.slab("brick",-.441,.249,.39,.753,.392,.648,.08)
+    m.vault("metal",-.441,.634,.39,.836,.144,.712)
+    m.entry(-.441,.254,.064,.323,.323)
+    m.drum("trim",-.143,.251,-.227,.202,.122,.181)
+    # A derrick lifts the net by its four bridle lines at the seaward end of the dock.
+    mast=(-.148,.989,-.222); tip=(.513,1.083,-.181)
+    m.beam("metal",(-.147,.359,-.226),mast,.112)
+    m.beam("accent",(-.151,.416,-.225),tip,.094)
+    m.beam("trim",mast,tip,.041)
+    m.beam("trim",tip,(.513,.543,-.18),.029)
+    for s in (-1,1):
+        for t in (-1,1):
+            m.beam("trim",(.512,.55,-.18),(.512+s*.269,.322,-.18+t*.265),.027)
+    m.slab("metal",.512,.125,-.18,.351,.211,.344,.12,-.55)
+    m.slab("water",.512,.331,-.18,.476,.015,.465,.145)
+    if m.lod<2:
+        cask(m,-.67,.254,-.257,.135,.198)
+    if m.lod==0:
+        catch(m,-.677,.508,-.267,.77)
+        m.rune(-.445,.694,.03,.139)
+        with m.transform(translate=(-.144,.904,-.143),rotate_x=-90):
+            m.drum("trim",0,0,0,.115,.172)
+            m.drum("accent",0,.165,0,.076,.045)
+        for x in (-.731,-.367):
+            m.drum("metal",x,.252,-.429,.053,.094)
+            m.drum("trim",x,.341,-.429,.068,.035)
+
+
+def fish_pens(m):
+    m.slab("water",0,0,.015,1.88,.079,1.76,.195)
+    for x,z,r in ((-.411,-.277,.394),(.427,-.244,.354)):
+        m.drum("ivory",x,.072,z,r,.16,r*.973)
+        m.drum("trim",x,.226,z,r*.91,.033)
+        m.drum("water",x,.254,z,r*.82,.018)
+        if m.lod==0:
+            for dx in (-.24,.24):
+                with m.transform(translate=(x+dx*r,0,z+dx*r*1.23),rotate_y=dx*120):
+                    catch(m,0,.28,0,.419)
+    m.slab("metal",0,.073,.365,1.595,.202,.382,.17)
+    m.slab("wall",.053,.269,.48,.681,.373,.429,.14)
+    m.slab("glass",.053,.637,.48,.656,.138,.414,.14)
+    m.vault("ivory",.053,.769,.48,.729,.125,.494)
+    m.entry(.055,.276,.263,.286,.299)
+    if m.lod<2:
+        for x in (-.658,.669):
+            m.beam("ivory",(x,.262,.322),(x*.85,.667,.259),.064)
+            m.beam("metal",(x*.85,.663,.259),(x*.67,.589,-.071),.043)
+            m.drum("accent",x*.67,.507,-.071,.064,.088)
+    if m.lod==0:
+        m.rune(.051,.821,.231,.131)
+
+
+def wardens_lodge(m):
+    m.slab("fieldstone",0,0,.025,1.813,.109,1.65,.14)
+    m.slab("fieldstone",-.383,.105,.187,.681,.883,.783,.13,.09)
+    m.slab("timber",-.383,.979,.187,.772,.091,.856,.095)
+    for x in (-.66,-.105):
+        for z in ((-.124,.484) if m.lod<2 else (.187,)):
+            m.block("timber",x,1.063,z,.085,.322,.087)
+    m.vault("slate",-.383,1.375,.187,.873,.219,.923)
+    m.entry(-.383,.112,-.206,.358,.507)
+    m.slab("wall",.332,.101,.325,.774,.388,.715,.10)
+    m.vault("roof_tile",.332,.484,.325,.854,.184,.794)
+    # Antlers spread above the dressing yard where the pegged hide hangs.
+    for side in (-1,1):
+        x=.39+side*.248
+        m.block("timber",x,.107,-.437,.073,.607,.092)
+        m.beam("ivory",(x,.625,-.44),(x+side*.143,.795,-.412),.06)
+        if m.lod<2:
+            m.beam("ivory",(x+side*.069,.714,-.426),(x+side*.061,.849,-.405),.04)
+    m.block("timber",.39,.681,-.437,.556,.065,.108)
+    m.relief("hide",[(.183,.633),(.231,.34),(.359,.23),(.528,.351),(.588,.633)],-.481,.045)
+    if m.lod==0:
+        cask(m,-.721,.109,-.465,.125,.228)
+        m.rune(-.384,.775,-.204,.188)
+        for x in (-.662,-.104):
+            m.block("timber",x,1.119,.181,.042,.047,.629)
+        m.block("timber",-.38,1.117,.492,.611,.051,.042)
+        for x in (-.589,-.384,-.175):
+            m.block("slate",x,.819,-.188,.114,.088,.058)
+        for x in (.162,.62):
+            m.drum("trim",x,.61,-.432,.047,.043)
+
+
 def woodland(m,hunt):
+    if hunt and m.era==1:
+        return wardens_lodge(m)
     m.hearth(.04,0,.19,(1.46,1.32,1.43),roof_material="roof" if m.era==0 else None)
     if hunt:
         # A pegged frame with a scalloped curing hide left of the lodge door.
@@ -84,6 +213,12 @@ def woodland(m,hunt):
 
 def terrace(m):
     e=m.era
+    if e==1:
+        return aqueduct_farm(m)
+    if e==2:
+        return elevator_farm(m)
+    if e==3:
+        return gantry_farm(m)
     m.slab("fieldstone",0,0,0,1.88,.095,1.84,.07)
     m.hearth(-.43,.09,.48,(.88,.86,.86),roof_material="roof" if e==0 else None)
     for row in range(3):
@@ -116,7 +251,93 @@ def terrace(m):
             m.vault("glass",-.43,.805,.48,.48,.11,.50)
 
 
+def crop_bed(m,x,y,z,w,d,role):
+    m.block("soil",x,y,z,w,.047,d,taper=.04)
+    count=(4,2,1)[m.lod]
+    for i in range(count):
+        cx=x+w*((i+.5)/count-.5)
+        m.vault(role,cx,y+.043,z,.85*w/count,.087,d*.81)
+
+
+def aqueduct_farm(m):
+    # Gravity distributes water across three masonry terraces cut into a hillside.
+    m.slab("fieldstone",0,0,.015,1.86,.086,1.76,.16)
+    for i in range(3):
+        z=-.626+.479*i
+        top=.183+.163*i
+        m.slab("wall",.04,.081+i*.011,z,1.59,top-.081-i*.011,.483,.068,.045)
+        for x in ((-.395,.462) if m.lod<2 else (.04,)):
+            crop_bed(m,x,top-.003,z,.689 if m.lod<2 else 1.48,.333,"leaf" if i!=1 else "thatch")
+        if m.lod==0:
+            m.block("water",.034,top-.002,z,.075,.018,.429)
+    # Three piers support the header conduit. The covered right pier houses the sluice.
+    for x in (-.645,-.054,.596):
+        m.slab("fieldstone",x,.079,.649,.246,.631,.286,.12,.12)
+    m.slab("trim",-.015,.704,.648,1.59,.117,.295,.10)
+    m.block("water",-.012,.816,.646,1.39,.019,.15)
+    m.vault("roof_tile",.59,.817,.646,.452,.173,.441)
+    if m.lod<2:
+        for x in (-.64,.595):
+            m.rune(x,.554,.494,.16)
+    if m.lod==0:
+        for i in range(3):
+            m.block("slate",-.831,.082+.081*i,-.378+i*.192,.109,.081,.193)
+
+
+def elevator_farm(m):
+    # The threshing house feeds a high grain elevator by an inclined covered conveyor.
+    m.slab("fieldstone",0,0,.01,1.91,.098,1.76,.087)
+    m.slab("brick",-.402,.094,.471,.834,.425,.637,.10)
+    m.vault("metal",-.402,.510,.471,.91,.147,.703)
+    m.entry(-.40,.097,.151,.313,.362)
+    for x,z,r in ((.457,.455,.261),(.704,.038,.188)):
+        m.drum("metal",x,.093,z,r,.681,r*.95)
+        m.drum("trim",x,.767,z,r*1.03,.17,r*.29)
+        if m.lod==0:
+            for y in (.304,.609):
+                m.drum("accent",x,y,z,r*(1-(y-.093)*.072)+.009,.031)
+    m.slab("brick",.081,.089,.567,.247,.955,.312,.075)
+    m.vault("roof",.081,1.037,.567,.304,.104,.351)
+    m.beam("timber",(-.48,.482,.46),(.075,.99,.53),.154)
+    m.beam("metal",(.08,.983,.54),(.454,.871,.43),.094)
+    for i in range(3):
+        z=-.683+.201*i
+        crop_bed(m,.019,.094,z,1.64,.177,"thatch" if i==1 else "leaf")
+    if m.lod==0:
+        for x in (-.72,-.13):
+            m.block("glass",x,.295,.144,.126,.126,.025)
+        cask(m,-.734,.10,.034,.093,.14,"hide")
+
+
+def gantry_farm(m):
+    # A travelling irrigation bridge spans the field blocks on two longitudinal rails.
+    m.slab("ivory",0,0,.013,1.88,.119,1.73,.21)
+    for x in (-.774,.774):
+        m.block("metal",x,.117,-.118,.077,.078,1.317)
+        m.slab("trim",x,.189,-.243,.145,.14,.366,.16)
+        m.beam("ivory",(x,.311,-.243),(x*.88,.668,-.185),.093)
+    m.vault("accent",0,.644,-.185,1.49,.097,.171)
+    for x in ((-.466,0,.466) if m.lod<2 else (-.346,.346)):
+        for j in range(3):
+            z=-.61+j*.356
+            crop_bed(m,x,.114,z,.365 if m.lod<2 else .579,.303,
+                     "thatch" if j==1 else "leaf")
+    m.slab("wall",-.357,.116,.583,.96,.32,.397,.15)
+    m.vault("glass",-.357,.429,.583,1.02,.151,.46)
+    m.entry(-.56,.125,.385,.288,.253)
+    m.drum("trim",.467,.114,.545,.227,.141,.206)
+    m.drum("water",.467,.249,.545,.183,.033)
+    if m.lod<2:
+        for x in (-.458,0,.458):
+            m.drum("trim",x,.502,-.181,.037,.155,.041,n=6)
+    if m.lod==0:
+        m.rune(-.323,.498,.347,.145)
+        m.beam("metal",(.443,.244,.544),(.751,.187,.431),.046)
+
+
 def growing_house(m):
+    if m.era==3:
+        return biodomes(m)
     # The clan grows mushrooms in the heated stone basement and vegetables under stepped glass.
     future = m.era==3
     m.slab("fieldstone",0,0,0,1.89,.115,1.80,.11)
@@ -151,6 +372,28 @@ def growing_house(m):
     if m.lod==0:
         for x in (-.566,.566):
             m.rune(x,.400,-.579,.094,"gold")
+
+
+def biodomes(m):
+    # Enclosed growing domes share an airlock and plant-handling gallery.
+    m.slab("fieldstone",0,0,.017,1.89,.103,1.77,.21)
+    for x,z,r in ((-.377,.238,.475),(.493,.403,.328)):
+        m.drum("ivory",x,.097,z,r,.267,r*.963)
+        m.dome((x,.359,z),r*.991,m.color("glass"),rings=(4,3,2)[m.lod],
+               segments=(14,9,6)[m.lod],squash=1.03,material="glass")
+        if m.lod<2:
+            m.drum("trim",x,.354,z,r*1.002,.041,r*.997)
+            m.drum("accent",x,.348+.978*r,z,r*.219,.056,r*.17)
+    m.slab("glass",.076,.234,.339,.573,.214,.28,.12)
+    m.slab("wall",-.332,.103,-.268,.558,.303,.412,.125)
+    m.vault("metal",-.332,.402,-.268,.619,.128,.462)
+    m.entry(-.332,.112,-.475,.299,.263)
+    for x in (-.684,.324,.647):
+        m.slab("wall",x,.099,-.568,.278,.123,.384,.10)
+        m.slab("soil",x,.217,-.568,.233,.035,.335,.12)
+        mushroom(m,x,.248,-.551,.104,"leaf" if x>.4 else "roof_tile")
+    if m.lod==0:
+        m.rune(-.331,.465,-.502,.125)
 
 
 def ram(m,x,z,turn):
@@ -302,6 +545,8 @@ def canopy_pasture(m):
 
 
 def mill(m):
+    if m.era==2:
+        return roller_mill(m)
     # Water-driven undershot wheel against the front bearing wall; a stone race below it.
     m.slab("fieldstone",0,0,0,1.80,.12,1.61,.13)
     m.hearth(.17,.118,.21,(1.38,1.51,1.22))
@@ -323,6 +568,35 @@ def mill(m):
                 m.block("timber",0,-.026,0,.103,.056,.217)
         if m.era==2: m.stack(.54,.62,.48,.123,.62,"brick")
     if m.lod==0: cask(m,.68,.116,.71,.094,.18,"hide")
+
+
+def roller_mill(m):
+    # The elevator head and paired grinding rolls replace the exposed water wheel.
+    m.slab("fieldstone",0,0,.01,1.87,.126,1.68,.14)
+    m.slab("brick",-.38,.118,.281,.793,.821,.892,.12)
+    m.vault("metal",-.38,.932,.281,.895,.169,.984)
+    m.entry(-.38,.127,-.166,.385,.492)
+    m.slab("brick",.272,.122,.485,.37,1.15,.427,.08)
+    m.vault("roof",.272,1.265,.485,.434,.163,.496)
+    m.stack(.68,.122,.554,.137,1.045,"brick")
+    # Horizontal roll cases sit in a cast frame; the grain hopper narrows directly onto them.
+    for x in (.115,.527):
+        with m.transform(translate=(x,.424,.139),rotate_x=-90):
+            m.drum("metal",0,0,0,.199,.608)
+            if m.lod<2:
+                m.drum("accent",0,.600,0,.128,.055)
+        m.slab("trim",x,.12,-.141,.316,.186,.693,.07)
+    m.slab("timber",.318,.555,-.117,.366,.312,.338,.07,-.87)
+    m.slab("trim",.317,.86,-.118,.721,.062,.656,.075)
+    m.slab("thatch",.316,.918,-.117,.593,.039,.523,.11)
+    m.beam("metal",(.265,1.158,.417),(.31,.88,.04),.112)
+    if m.lod<2:
+        cask(m,-.68,.121,-.491,.138,.241,"hide")
+    if m.lod==0:
+        cask(m,-.403,.122,-.562,.111,.19,"hide")
+        for x in (-.625,-.373,-.123):
+            m.block("glass",x,.695,-.173,.133,.126,.029)
+        m.rune(.269,1.074,.266,.135)
 
 
 def hydro(m):

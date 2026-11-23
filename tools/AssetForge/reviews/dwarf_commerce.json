@@ -407,6 +407,37 @@
           ]
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_dwarf_market_future_v0",
+          "evidence_sha256": "25b75235ec0ba5d657ed5d4c8e265d8ef37771942ba011f69417bb9fdf21016f",
+          "observations": "Two separate umbrella stalls cover shallow goods counters in front of the service building. Colour marks the goods at close range and the uneven canopy heights still convey the market at a distance. The posts reach the counters in the reverse view.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 92,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            944,
+            530,
+            254
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_market_ancient_v0",
+            "b": "bld_dwarf_market_future_v0",
+            "matched": 0,
+            "total": 2574
+          }
+        }
+      ]
     }
   ]
 }

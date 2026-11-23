@@ -970,6 +970,40 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_elf_coal_mine_future_v0",
+          "evidence_sha256": "ff3c15efc50b479f46d1b1ffbe7276e15935cb4c7b4b81a2ad34f9d58c695de1",
+          "observations": "The pale curved chute reaches from the stacked dark mine face to a separate round bunker full of coal. The visible opening and dark load identify the work; a blue crystal and leaf-shaped roof peak break the top profile. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 567/323/158 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 92,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_gold_mine_future_v0",
+          "evidence_sha256": "4f4527f26ef71ca35bdfe912adc8675bb6d5f07ab47483d105a60c9c493f5477",
+          "observations": "Three staggered blue wash bowls on stems descend in front of the adit, with a bucket hoist at the other end. Gold rims separate the bowls from the pale rock, and their stepped widths read even without colour. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 794/451/233 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

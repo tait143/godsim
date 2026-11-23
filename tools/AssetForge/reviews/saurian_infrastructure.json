@@ -382,6 +382,82 @@
           ]
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_granary_ancient_v0",
+          "evidence_sha256": "d7a892d36d3639f6388fbfec5f399a76790d043bee0295d34f8fd8ccf0e4f19a",
+          "observations": "The thatched grain store is elevated on short piles. A projecting loading step and grain jars stay visible from the approach, and the rear shows air space and individual feet under the floor. Its low hip roof differs from the paired later bins. Painted previews cover bronze, iron. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 865/487/221 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_power_plant_future_v0",
+          "evidence_sha256": "ef0a4d9e714b14a6700a0d6a9a215e26c6539a8c46fa705c201d79a8abe03ed2",
+          "observations": "Four blue collectors tilt toward a single upright power mast on a broad plinth. The middle views preserve the panel supports, tower base and pale luminous cap. The low collector wings replace the early group of chimneys. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 685/389/183 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC4 critic, checkpoint catalog comparison",
+      "models": [
+        {
+          "id": "bld_saurian_granary_future_v0",
+          "evidence_sha256": "18bdba78169dfe4fc09bbf93d8daadb8832874c87d84e32ac81d52b821d28a6f",
+          "observations": "The two rows of images show paired vertical hoppers on the same type of feet, a tall shared delivery pipe and a low front loading bench. The Future bins swell slightly around their blue middle bands, leaving the Industrial side and rear outline essentially intact. Checkpoint directed corner shares were 56.904% to the comparison model and 59.429% in reverse. I inspected both 64 px unpainted angles, every assigned age preview, and painted LOD1 at 215°, 125° and 35°. Serialized LODs 1318/652/330 passed the geometry, budget, overlap and winding checks.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 82,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Reorganize the storage and loading volumes so the Future grain facility is distinct from the Industrial paired silos at both grayscale angles."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC4 critic, catalog repair reinspection",
+      "models": [
+        {
+          "id": "bld_saurian_granary_future_v0",
+          "evidence_sha256": "816743a7c5063111a39d4501b48c1059edca7595ee7972d593ebef9d176d9792",
+          "observations": "Three rectangular grain bins climb in height on separate feet. Open chutes lead down to three grain piles on a common loading bench. The stepped upper line and low sloping outlets separate both grey views from the Industrial paired round silos and elbow pipe; the chutes remain visible from the middle flank. Inspected all 2 assigned age previews, two 64 px unpainted angles, and 215°, 125° and 35° painted cameras on all three LODs. Serialized LODs 1118/637/345 passed geometry and budget checks. Direct checks found zero exposed coplanar overlaps or inward closed shells. The maximum directed shared-corner fraction with any era sibling was 0.000%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

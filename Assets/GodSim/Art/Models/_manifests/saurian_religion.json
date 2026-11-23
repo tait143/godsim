@@ -60,25 +60,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1105,
+  "triangles": 776,
   "lod_triangles": [
-   1105,
-   653,
-   281
+   776,
+   441,
+   247
   ],
   "bounds": [
    [
-    -1.4474999904632568,
+    -1.4249999523162842,
     0.0,
-    -1.398900032043457
+    -1.402500033378601
    ],
    [
-    1.4474999904632568,
-    2.7945001125335693,
-    1.4249999523162842
+    1.4249999523162842,
+    3.0,
+    1.2975000143051147
    ]
   ],
-  "bytes": 157688,
+  "bytes": 114648,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_cathedral_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_cathedral_future_v0.png",
@@ -104,25 +104,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1105,
+  "triangles": 725,
   "lod_triangles": [
-   1105,
-   653,
-   281
+   725,
+   397,
+   201
   ],
   "bounds": [
    [
-    -1.4474999904632568,
+    -1.4249999523162842,
     0.0,
-    -1.398900032043457
+    -1.402500033378601
    ],
    [
-    1.4474999904632568,
-    2.943000078201294,
-    1.4249999523162842
+    1.4249999523162842,
+    2.5947000980377197,
+    1.2975000143051147
    ]
   ],
-  "bytes": 157368,
+  "bytes": 98280,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_cathedral_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_cathedral_industrial_v0.png",
@@ -327,25 +327,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1020,
+  "triangles": 620,
   "lod_triangles": [
-   1020,
-   488,
-   208
+   620,
+   353,
+   144
   ],
   "bounds": [
    [
-    -0.38749998807907104,
+    -0.4449999928474426,
     0.0,
-    -0.4699999988079071
+    -0.4675000011920929
    ],
    [
-    0.38749998807907104,
-    0.9128149747848511,
-    0.38999998569488525
+    0.4449999928474426,
+    0.6499999761581421,
+    0.4325000047683716
    ]
   ],
-  "bytes": 132884,
+  "bytes": 87192,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_shrine_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_classical_v0.png",
@@ -372,25 +372,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1008,
+  "triangles": 480,
   "lod_triangles": [
-   1008,
-   496,
-   226
+   480,
+   273,
+   140
   ],
   "bounds": [
    [
-    -0.38749998807907104,
+    -0.4449999928474426,
     0.0,
-    -0.4699999988079071
+    -0.4675000011920929
    ],
    [
-    0.38749998807907104,
-    0.8358150124549866,
-    0.38999998569488525
+    0.4449999928474426,
+    0.5950000286102295,
+    0.4325000047683716
    ]
   ],
-  "bytes": 133844,
+  "bytes": 70720,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_shrine_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_future_v0.png",
@@ -416,25 +416,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 960,
+  "triangles": 738,
   "lod_triangles": [
-   960,
-   464,
-   202
+   738,
+   420,
+   234
   ],
   "bounds": [
    [
-    -0.38749998807907104,
+    -0.4449999928474426,
     0.0,
-    -0.4699999988079071
+    -0.4675000011920929
    ],
    [
-    0.38749998807907104,
-    0.8138149976730347,
-    0.38999998569488525
+    0.4449999928474426,
+    0.7674999833106995,
+    0.4325000047683716
    ]
   ],
-  "bytes": 123688,
+  "bytes": 116996,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_shrine_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_industrial_v0.png",
@@ -505,25 +505,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 971,
+  "triangles": 974,
   "lod_triangles": [
-   971,
-   452,
-   163
+   974,
+   554,
+   283
   ],
   "bounds": [
    [
-    -0.925000011920929,
+    -0.8899999856948853,
     0.0,
-    -0.953000009059906
+    -0.9570000171661377
    ],
    [
-    0.925000011920929,
-    1.8487900495529175,
-    0.8799999952316284
+    0.8899999856948853,
+    1.4299999475479126,
+    0.9350000023841858
    ]
   ],
-  "bytes": 119892,
+  "bytes": 153828,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_temple_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_ancient_v0.png",
@@ -549,25 +549,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1015,
+  "triangles": 1312,
   "lod_triangles": [
-   1015,
-   448,
-   163
+   1312,
+   747,
+   384
   ],
   "bounds": [
    [
-    -0.925000011920929,
+    -0.949999988079071,
     0.0,
-    -0.953000009059906
+    -0.9350000023841858
    ],
    [
-    0.925000011920929,
-    1.783210039138794,
-    0.8799999952316284
+    0.949999988079071,
+    1.1549999713897705,
+    0.8650000095367432
    ]
   ],
-  "bytes": 125156,
+  "bytes": 197332,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_temple_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_classical_v0.png",
@@ -594,25 +594,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 969,
+  "triangles": 844,
   "lod_triangles": [
-   969,
-   477,
-   191
+   844,
+   480,
+   260
   ],
   "bounds": [
    [
-    -0.925000011920929,
+    -0.949999988079071,
     0.0,
-    -0.953000009059906
+    -0.9449999928474426
    ],
    [
-    0.925000011920929,
-    1.8480000495910645,
-    0.8799999952316284
+    0.949999988079071,
+    1.690000057220459,
+    0.875
    ]
   ],
-  "bytes": 124604,
+  "bytes": 140724,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_temple_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_future_v0.png",
@@ -638,25 +638,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 977,
+  "triangles": 1007,
   "lod_triangles": [
-   977,
-   446,
-   167
+   1007,
+   485,
+   195
   ],
   "bounds": [
    [
-    -0.925000011920929,
+    -0.949999988079071,
     0.0,
-    -0.953000009059906
+    -0.9350000023841858
    ],
    [
-    0.925000011920929,
-    1.8706599473953247,
-    0.8799999952316284
+    0.949999988079071,
+    1.611899971961975,
+    0.8650000095367432
    ]
   ],
-  "bytes": 120512,
+  "bytes": 120360,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_temple_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_industrial_v0.png",

@@ -104,25 +104,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 760,
+  "triangles": 996,
   "lod_triangles": [
-   760,
-   428,
+   996,
+   515,
    198
   ],
   "bounds": [
    [
-    -0.8235483765602112,
+    -0.8374464511871338,
     0.0,
-    -0.8967000246047974
+    -0.5179874897003174
    ],
    [
-    0.8235483765602112,
-    1.5778000354766846,
-    0.8109451532363892
+    0.7948755025863647,
+    1.3464000225067139,
+    0.722000002861023
    ]
   ],
-  "bytes": 129000,
+  "bytes": 128596,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_bank_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_bank_future_v0.png",

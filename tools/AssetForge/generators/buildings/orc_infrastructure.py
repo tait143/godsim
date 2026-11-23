@@ -6,6 +6,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from generators.buildings.orc_learninghealth import build_lodge, run_package
 from generators.buildings.orc_era_forms import clean_power, well_pump
+from generators.buildings import orc_civic_trades
 
 PACKAGE = "orc_infrastructure"
 
@@ -295,7 +296,7 @@ def design(m,t):
     elif t=="Storehouse":
         warehouse(m)
     elif t=="Granary":
-        granary(m)
+        (orc_civic_trades.granary if m.e in (1,3) else granary)(m)
     else:
         works(m,t)
 

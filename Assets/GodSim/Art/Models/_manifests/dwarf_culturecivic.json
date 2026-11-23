@@ -326,25 +326,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1016,
+  "triangles": 958,
   "lod_triangles": [
-   1016,
-   580,
-   226
+   958,
+   546,
+   254
   ],
   "bounds": [
    [
-    -1.402500033378601,
+    -1.4249999523162842,
     0.0,
-    -0.8899999856948853
+    -0.8799999952316284
    ],
    [
-    1.402500033378601,
-    1.1009999513626099,
-    0.8899999856948853
+    1.4249999523162842,
+    1.1109999418258667,
+    0.9350000023841858
    ]
   ],
-  "bytes": 125800,
+  "bytes": 140176,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_future_v0.png",
@@ -370,25 +370,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 988,
+  "triangles": 968,
   "lod_triangles": [
-   988,
-   552,
-   214
+   968,
+   544,
+   255
   ],
   "bounds": [
    [
-    -1.402500033378601,
+    -1.4325000047683716,
     0.0,
-    -0.8899999856948853
+    -0.8529999852180481
    ],
    [
-    1.402500033378601,
-    0.9990000128746033,
-    0.8899999856948853
+    1.4325000047683716,
+    1.434999942779541,
+    0.8769999742507935
    ]
   ],
-  "bytes": 121556,
+  "bytes": 121284,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_forum_industrial_v0.png",
@@ -678,25 +678,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1002,
+  "triangles": 760,
   "lod_triangles": [
-   1002,
-   482,
-   178
+   760,
+   356,
+   208
   ],
   "bounds": [
    [
-    -0.9150000214576721,
+    -0.9549999833106995,
     0.0,
     -0.8799999952316284
    ],
    [
-    0.9150000214576721,
-    1.3009999990463257,
-    0.8799999952316284
+    0.9549999833106995,
+    1.1482090950012207,
+    0.8999999761581421
    ]
   ],
-  "bytes": 126320,
+  "bytes": 107904,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_future_v0.png",
@@ -722,25 +722,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1122,
+  "triangles": 874,
   "lod_triangles": [
-   1122,
-   510,
-   202
+   874,
+   498,
+   218
   ],
   "bounds": [
    [
-    -0.9150000214576721,
+    -0.9449999928474426,
     0.0,
     -0.8799999952316284
    ],
    [
-    0.9150000214576721,
-    1.1690000295639038,
+    0.9449999928474426,
+    1.3200000524520874,
     0.8799999952316284
    ]
   ],
-  "bytes": 137984,
+  "bytes": 116516,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_theater_industrial_v0.png",

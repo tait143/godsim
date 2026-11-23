@@ -241,25 +241,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1116,
+  "triangles": 656,
   "lod_triangles": [
-   1116,
-   542,
-   189
+   656,
+   372,
+   140
   ],
   "bounds": [
    [
-    -0.7979999780654907,
+    -0.8343926072120667,
     0.0,
-    -0.6813399791717529
+    -0.7652249932289124
    ],
    [
-    0.7442915439605713,
-    1.2869999408721924,
-    0.6206496357917786
+    0.8949854969978333,
+    1.4155019521713257,
+    0.6260499954223633
    ]
   ],
-  "bytes": 178424,
+  "bytes": 102112,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Infrastructure/bld_orc_granary_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_granary_classical_v0.png",
@@ -286,25 +286,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1464,
+  "triangles": 760,
   "lod_triangles": [
-   1464,
-   742,
-   283
+   760,
+   428,
+   241
   ],
   "bounds": [
    [
-    -0.7809000015258789,
+    -0.8730997443199158,
     0.0,
-    -0.6813399791717529
+    -0.7253934144973755
    ],
    [
-    0.8075936436653137,
-    1.4355000257492065,
-    0.7354459762573242
+    0.825388491153717,
+    1.54202401638031,
+    0.6744999885559082
    ]
   ],
-  "bytes": 240504,
+  "bytes": 137360,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Infrastructure/bld_orc_granary_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_granary_future_v0.png",

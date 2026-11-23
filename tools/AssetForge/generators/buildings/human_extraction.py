@@ -126,6 +126,71 @@ def logs(m,x,z,w=.80,scale=1):
 
 
 def camp(m,era):
+    if era==1:
+        # Split logs cross a lined sawpit; the second sawyer works below grade.
+        # The shingle-roofed tool cupboard forms the far end of the yard.
+        cabin(m,-.43,.495,.74,.48,.545,1)
+        for x in (-.49,.21):
+            m.course('fieldstone',x,-.276,.18,.97,.066,.272,.048)
+        m.block('door',(-.143,.084,-.276),(.52,.036,.90))
+        for z in (-.58,.012):
+            m.beam('timber',(-.63,.282,z),(.37,.282,z),.108)
+        axle(m,'timber',-.174,.442,-.73,.122,.985)
+        axle(m,'hide',-.174,.442,-.737,.108,.006)
+        # A frame saw spans the log at a slight rake.
+        with m.transform(translate=(-.16,.494,-.30),rotate_z=-15):
+            for x in (-.153,.153):
+                m.beam('timber',(x,-.023,0),(x,.54,0),.036)
+            for y in (.043,.479):
+                m.beam('timber',(-.18,y,0),(.18,y,0),.040)
+            m.beam('metal',(0,-.14,.009),(0,.48,.009),.021,.053)
+        if m.lod<2:
+            logs(m,.59,.19,.97,.62)
+        if m.lod==0:
+            m.basket(-.69,-.374,.094,.174)
+        return
+    if era==2:
+        # A steam donkey on timber skids winds the haul cable off a front drum.
+        x,z=-.265,.08
+        for dx in (-.29,.29):
+            m.beam('timber',(x+dx,.138,-.692),(x+dx,.138,.72),.147)
+        m.block('metal',(x,.238,z),(.77,.13,1.16))
+        axle(m,'metal',x,.498,-.203,.27,.833)
+        axle(m,'gold',x,.498,-.212,.209,.014)
+        drum(m,'metal',x,.608,.397,.122,.774,.079)
+        drum(m,'trim',x,1.38,.397,.111,.092)
+        for dx in (-.278,.278):
+            m.block('metal',(x+dx,.405,-.471),(.105,.24,.22),taper=.12)
+        with m.transform(translate=(x-.354,.459,-.484),rotate_z=-90):
+            drum(m,'trim',0,0,0,.139,.71,n=(14,8,5)[m.lod],bottom=True)
+            if m.lod<2:
+                for k in range(5 if m.lod==0 else 2):
+                    drum(m,'hide',0,.184+.051*k,0,.149,.041)
+        logs(m,.51,.028,1.12,.74)
+        if m.lod==0:
+            m.beam('hide',(x,.552,-.60),(.43,.127,-.76),.027)
+            badge(m,x,.5,-.228,.15,.18)
+        return
+    if era==3:
+        # Highline yarder: the overhead trolley runs between an enclosed
+        # control tower and the outboard A-frame, above the landing.
+        cabin(m,-.52,.42,.48,.58,.92,3)
+        for z in (-.61,.49):
+            m.beam('metal',(.705,.066,z),(.56,1.08,-.10),.098 if z<0 else .087)
+        m.beam('ivory',(-.52,1.03,.42),(.56,1.08,-.10),.125)
+        m.block('accent',(.194,1.077,.074),(.207,.108,.18),taper=.15)
+        m.beam('trim',(.194,1.03,.074),(.194,.555,.074),.029)
+        for s in (-1,1):
+            m.beam('metal',(.194,.556,.074+s*.016),(.194+s*.176,.418,.074+s*.016),.055)
+            m.beam('metal',(.194+s*.176,.418,.074+s*.016),(.194+s*.126,.292,.074+s*.016),.044)
+        with m.transform(translate=(.144,0,-.13),rotate_y=13):
+            logs(m,0,0,1.16,.83)
+        if m.lod==0:
+            m.beam('gold',(-.49,1.016,.41),(-.344,1.30,.32),.037)
+            m.beam('trim',(-.344,1.30,.32),(.52,1.108,-.083),.023)
+            for z in (-.53,.40):
+                drum(m,'metal',.70,.065,z,.111,.085,.084)
+        return
     cabin(m,-.41,.23,.76,.88,(.58,.71,.64,.70)[era],era)
     logs(m,.405,.04,.96)
     # The raised chopping block and an axe split its top in the direction of the grain.
@@ -305,6 +370,32 @@ def mine(m,era,gold):
 
 
 def coal(m,era):
+    if era==3:
+        # An inclined drift hugs the seam; loaded cars climb to a chain
+        # conveyor and a cantilevered discharge, in place of a vertical shaft.
+        rock(m,-.20,.36,1.23,.94,.86,'slate',skew=.105)
+        m.block('door',(-.21,.395,-.125),(.60,.64,.141))
+        for x in (-.544,.123):
+            m.beam('ivory',(x,.066,-.23),(x*.86-.034,.725,-.205),.114)
+        m.beam('metal',(-.535,.739,-.205),(.143,.739,-.205),.119)
+        for x in (-.388,-.041):
+            m.beam('metal',(x,.114,-.77),(x,.344,.001),.048)
+        wagon(m,-.21,-.46,'slate')
+        m.block('metal',(.445,.361,.18),(.249,.59,.364),taper=.14)
+        m.beam('ivory',(.11,.281,-.34),(.734,.87,.55),.212,.133)
+        if m.lod<2:
+            for i in range(6 if m.lod==0 else 3):
+                u=(i+.5)/(6 if m.lod==0 else 3)
+                m.block('slate',(.11+.624*u,.38+.585*u,-.34+.89*u),(.149,.1,.164),taper=.24)
+        if m.lod==0:
+            m.flue(-.586,.503,.54,.93,.108)
+            for s in (-1,1):
+                for j in range(4):
+                    z=-.59+.154*j
+                    m.block('timber',(-.212+s*.284,.110+j*.039,z),(.111,.073,.087))
+            m.light(.443,.425,-.006,.161,.112,False)
+            badge(m,-.20,.740,-.273,.165,.104)
+        return
     # A cool, subdued multiplier makes the dark stable swatch read as anthracite even
     # on the bright white/gold age row. Its modest tint also unifies the dusty yard.
     m.tint=(.55,.84,1.0)
@@ -351,6 +442,35 @@ def coal(m,era):
 
 
 def quarry(m,era):
+    if era==2:
+        # Steam jib quarry. A triangular lattice jib raises a dressed ashlar
+        # from a low cut; the boiler house balances the heel behind its bearing.
+        for i in range(3):
+            m.course('fieldstone',-.29+i*.044,.40+i*.105,1.17-i*.12,.75-i*.16,
+                     .066+i*.18,.246+i*.18,.047)
+        x,z=.26,-.08
+        drum(m,'brick',x,.066,z,.29,.22,.254)
+        drum(m,'metal',x,.286,z,.255,.089)
+        m.block('metal',(x,.565,z+.176),(.415,.38,.457),taper=.061)
+        drum(m,'trim',x,.752,z+.249,.061,.282,.048)
+        for dx in (-.118,.118):
+            m.beam('metal',(x+dx,.382,z),(x+dx-.369,1.205,-.585),.052)
+            m.beam('metal',(x+dx,.705,z+.12),(x+dx-.369,1.205,-.585),.046)
+            if m.lod==0:
+                for u in (.25,.5,.75):
+                    m.beam('gold',(x+dx-.369*u,.382+.823*u,z+(-.585-z)*u),
+                           (x+dx-.369*u,.705+.50*u,z+.12+(-.705-z)*u),.022)
+        m.beam('metal',(-.23,1.2,-.585),(.02,1.2,-.585),.064)
+        m.beam('trim',(-.109,1.18,-.585),(-.109,.452,-.585),.023)
+        m.block('wall',(-.109,.296,-.585),(.42,.29,.27))
+        if m.lod<2:
+            for dx in (-.16,.16):
+                m.beam('hide',(-.109,.46,-.585+dx*.06),(-.109+dx,.39,-.585+dx*.06),.025)
+        if m.lod==0:
+            for pz in (-.19,.10,.37):
+                rock(m,-.70,pz,.22,.16,.14,'wall',.067,.026)
+            wheel(m,.25,.565,-.141,.16,'metal',.05)
+        return
     # Stepped bedding planes, squared lift stock, a crane, and a front-facing tool lodge.
     cabin(m,-.555,.377,.55,.56,.47 if era<2 else .57,era)
     for x,z,w,d,top in ((.265,.403,1.12,.87,.274),(.313,.488,.986,.67,.491),
@@ -493,6 +613,27 @@ def saw(m,era):
 
 
 def oil(m,era):
+    if era==3:
+        # A compact valve tree controls a pressurised bore. Curved pipework
+        # crosses the pad to a horizontal separator on two concrete saddles.
+        x,z=-.385,-.012
+        for y,r,h,mat in ((.066,.239,.13,'wall'),(.196,.134,.58,'metal'),
+                          (.754,.161,.086,'ivory'),(.84,.089,.23,'metal'),(1.069,.134,.092,'accent')):
+            drum(m,mat,x,y,z,r,h)
+        for i,y in enumerate((.422,.67,.976)):
+            side=(-1,1,-1)[i]
+            m.beam('metal',(x,y,z),(x+side*.309,y,z),.115)
+            axle(m,'metal',x+side*.262,y,z-.123,.047,.159)
+            wheel(m,x+side*.262,y,z-.16,.125,'gold',.043)
+        for pz in (-.30,.33):
+            m.block('wall',(.396,.213,pz),(.38,.29,.137),taper=.11)
+        axle(m,'ivory',.396,.488,-.525,.237,1.15)
+        axle(m,'accent',.396,.488,-.549,.155,.033)
+        m.beam('metal',(x,.30,z),(.396,.30,-.009),.078)
+        if m.lod<2:
+            drum(m,'metal',.396,.687,.37,.069,.286,.047)
+            badge(m,.396,.487,-.554,.134,.135)
+        return
     cabin(m,-.609,.341,.443,.622,.517 if era==2 else .645,era)
     px,pz=.02,-.239
     end=.763

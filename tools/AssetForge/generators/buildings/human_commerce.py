@@ -115,6 +115,26 @@ def counter(m, x, z, w, base=.084):
 
 
 def market(m, era):
+    if era==3:
+        # A market street opens between two fan-shaped vendor pavilions.
+        # Each glazed roof cantilevers from a flared, planted service core.
+        m.course('fieldstone',0,.01,1.87,1.75,0,.067,.19)
+        for j,(x,z,r) in enumerate(((-.392,.326,.465),(.405,-.147,.385))):
+            drum(m,'wall',x,.067,z,r*.55,.43,r*.41)
+            drum(m,'metal',x,.497,z,r*.41,.12,r*.50)
+            drum(m,'glass',x,.617,z,r*.50,.212,r)
+            drum(m,'ivory',x,.829,z,r,.047,r*.97)
+            m.dome((x,.876,z),r*.67,m.color('roof'),rings=(3,2,1)[m.lod],
+                   segments=(12,8,5)[m.lod],squash=.35,material='roof')
+            counter(m,x,z-r*.88,r*1.18,.067)
+            if m.lod<2:
+                for sx in (-1,1):
+                    m.beam('metal',(x+sx*r*.42,.503,z),(x+sx*r*.85,.812,z),.041)
+        if m.lod==0:
+            flag(m,-.747,.067,-.388,.70,.194)
+            for sx in (-.47,-.19):
+                stock(m,sx,-.632,.068,.121,'leaf' if sx<-.4 else 'roof_tile')
+        return
     m.course("fieldstone",0,0,1.83,1.65,0,.083,.16)
     if era==0:
         canvas(m,-.06,.29,1.39,.74,.64,.32,("banner","ivory"))
@@ -318,6 +338,37 @@ def shield(m, x,y,z,w,h):
 
 
 def guild(m, era):
+    if era==2:
+        # The craftsmen's union meets in a brick drum with a tall square
+        # banner tower fronting the square, and a gallery for meeting notices.
+        m.course('fieldstone',0,.015,1.82,1.71,0,.080,.13)
+        x,z=-.11,.20
+        drum(m,'brick',x,.08,z,.575,.727,sides=8)
+        drum(m,'ivory',x,.807,z,.607,.073,sides=8)
+        drum(m,'roof',x,.88,z,.646,.403,.203,sides=8)
+        drum(m,'metal',x,1.283,z,.189,.071,.113,sides=8)
+        m.course('brick',.369,-.289,.45,.54,.08,1.18,.036)
+        m.entry(.369,-.559,.224,.089,.369)
+        m.block('ivory',(.369,1.206,-.289),(.49,.065,.581))
+        m.hip_roof((.369,1.238,-.289),.525,.61,.241,m.color('slate'),overhang=0,material='slate')
+        shield(m,.369,.863,-.569,.227,.28)
+        if m.lod<2:
+            with m.transform(translate=(.596,0,-.283),rotate_y=-90):
+                glazed(m,0,.709,0,.284,.23,2)
+            for sx in (-.51,-.24):
+                pier(m,'metal',sx,-.531,.08,.507,.042)
+            m.block('trim',(-.37,.501,-.54),(.48,.051,.086))
+            panel(m,'ivory',-.37,.351,-.541,.365,.219)
+        if m.lod==0:
+            flag(m,.368,1.453,-.29,.302,.18)
+            for sx in (-.45,-.29):
+                panel(m,'banner',sx,.388,-.545,.101,.026)
+            for i in range(5):
+                a=2*math.pi*(i+.5)/8
+                with m.transform(translate=(x+.539*math.sin(a),0,z+.539*math.cos(a)),rotate_y=180+a*180/math.pi):
+                    m.light(0,.46,0,.192,.261,True)
+            m.herbs(.547,.417,-.56,.102)
+        return
     m.course("fieldstone",0,.046,1.65,1.50,0,.088,.10)
     height=(.95,1.03,1.13)[era-1]
     hall(m,-.23,.01,.91,1.22,height,era)
@@ -380,6 +431,32 @@ def guild(m, era):
 
 
 def bank(m, era):
+    if era==2:
+        # A city savings bank in two narrow bays, with a clock gable and
+        # projecting teller windows under a raised, copper-clad strongroom.
+        m.course('fieldstone',0,0,1.67,1.51,0,.088,.09)
+        m.course('brick',.25,.145,.81,1.03,.088,1.04,.041)
+        m.course('brick',-.41,.07,.49,.97,.088,1.36,.039)
+        m.hip_roof((.25,1.04,.145),.92,1.15,.255,m.color('slate'),overhang=0,material='slate')
+        with m.transform(translate=(-.41,0,.07)):
+            m.roof(.575,1.05,1.36,.314,'roof','brick',ridge_mat='trim')
+        badge(m,-.41,1.166,-.421,.151,True)
+        m.entry(-.41,-.415,.23,.091,.441)
+        for x in (.056,.417):
+            m.course('wall',x,-.411,.297,.217,.088,.354,.043)
+            m.course('glass',x,-.411,.282,.201,.354,.703,.043)
+            m.course('ivory',x,-.411,.321,.243,.703,.756,.052)
+        if m.lod<2:
+            for x in (-.558,-.261):
+                pier(m,'ivory',x,-.417,.10,.99,.053)
+            for x in (.049,.423):
+                glazed(m,x,.883,-.374,.204,.154,2)
+        if m.lod==0:
+            m.herbs(.058,.327,-.521,.19)
+            m.herbs(.416,.327,-.521,.19)
+            for sx in (-.54,-.28):
+                m.light(sx,.822,-.419,.082,.164,False)
+        return
     m.course("fieldstone",0,.0,1.65,1.40,0,.13,.13)
     m.course("wall",0,.15,1.40,.97,.128,.85,.092)
     front=-.335

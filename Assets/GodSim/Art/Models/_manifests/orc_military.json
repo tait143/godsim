@@ -236,25 +236,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1452,
+  "triangles": 704,
   "lod_triangles": [
-   1452,
-   737,
-   330
+   704,
+   401,
+   207
   ],
   "bounds": [
    [
-    -1.2699999809265137,
+    -1.1996945142745972,
     0.0,
-    -1.1649999618530273
+    -1.125749945640564
    ],
    [
-    1.2699999809265137,
-    2.16812801361084,
-    1.184999942779541
+    1.1996945142745972,
+    1.471601963043213,
+    1.1741788387298584
    ]
   ],
-  "bytes": 231216,
+  "bytes": 125060,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_military_base_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_military_base_future_v0.png",

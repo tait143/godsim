@@ -308,6 +308,10 @@ def cup_stadium(m):
 
 def theater(m):
     era=m.era
+    if era==2:
+        return fly_tower_theater(m)
+    if era==3:
+        return shell_theater(m)
     m.slab("fieldstone",0,0,0,1.83,.103,1.76,.15)
     # Stage and fly gallery face the sunken audience, with a full-height back wall.
     m.slab("wall",0,.099,.42,1.50,.20,.72,.09)
@@ -363,6 +367,70 @@ def theater(m):
     if m.lod==0:
         for s in (-1,1):
             m.lamp(s*.527,.341,.075,.080)
+
+
+def fly_tower_theater(m):
+    # A tall brick fly house hoists scenery over a wide thrust stage.
+    m.slab("fieldstone",0,0,0,1.89,.111,1.76,.14)
+    m.slab("brick",-.157,.105,.518,1.182,1.025,.497,.09)
+    m.vault("metal",-.157,1.123,.518,1.283,.197,.59)
+    m.slab("timber",-.145,.106,.142,1.161,.213,.642,.09)
+    m.block("door",-.157,.313,.259,.927,.674,.044)
+    for side in (-1,1):
+        x=-.157+side*.48
+        m.block("banner",x,.315,.227,.174,.658,.071,taper=-.10)
+        if m.lod==0:
+            m.block("gold",x,.553,.199,.171,.045,.029)
+    m.block("trim",-.157,.947,.215,1.129,.095,.112)
+    # The third bay is the loading wing; patrons enter along the centre aisle.
+    m.slab("brick",.647,.108,.335,.431,.521,.676,.09)
+    m.vault("roof",.647,.623,.335,.49,.118,.727)
+    m.port(.647,.114,-.008,.258,.369)
+    for side in (-1,1):
+        for i in range((3,2,1)[m.lod]):
+            z=-.266-i*.191
+            h=.147+i*.088
+            m.slab("wall",side*.403,.103+i*.009,z,.57,h,.159,.095)
+            m.block("banner",side*.403,.099+i*.009+h,z,.55,.043,.126)
+    if m.lod<2:
+        m.chevron(-.157,1.165,.219,.279,.122)
+        for x in (-.593,.274):
+            m.lamp(x,.318,-.058,.084)
+    if m.lod==0:
+        for x in (-.59,-.303,-.017,.267):
+            m.block("glass",x,1.055,.264,.139,.052,.034)
+        m.standard(.772,.111,-.417,.67,-1)
+
+
+def shell_theater(m):
+    # Open acoustic shell: three cantilevered panels lean forward over a circular thrust stage.
+    m.slab("fieldstone",0,0,.01,1.91,.113,1.78,.24)
+    m.drum("wall",0,.107,.232,.496,.18,.541)
+    m.drum("timber",0,.282,.232,.547,.069,.526)
+    for x,z,angle,h in ((-.521,.346,-35,.688),(0,.625,0,.963),(.521,.346,35,.688)):
+        with m.transform(translate=(x,.112,z),rotate_y=angle):
+            m.slab("trim",0,0,.035,.303,.281,.312,.16)
+            m.beam("metal",(0,.249,.058),(0,.93*h,.112),.133)
+            with m.transform(translate=(0,.62*h,-.008),rotate_x=-17):
+                m.relief("ivory",[(-.164,-h*.34),(.164,-h*.34),(.319,h*.251),
+                                  (.239,h*.454),(-.239,h*.454),(-.319,h*.251)],-.061,.133)
+                if m.lod<2:
+                    m.chevron(0,h*.243,-.065,.313,.137,"accent")
+    # Every tier has a clear south entrance and faces the projecting stage apron.
+    for side in (-1,1):
+        sector=15 if side==1 else -84
+        steps=(3,2,1)[m.lod]
+        profile=[(.52,.107,"trim")]
+        for i in range(steps):
+            r=.52+i*.338/steps
+            y=.143+(i+1)*.212/steps
+            profile.extend(((r,y,"wall"),(r+.338/steps,y,"banner" if i%2==0 else "roof")))
+        profile.append((.867,.101,"metal"))
+        m.ring(0,.033,sector,69,(6,4,2)[m.lod],profile,width=1.025,depth=.932)
+    if m.lod==0:
+        for x in (-.741,.741):
+            m.lamp(x,.113,.09,.126)
+        m.block("gold",0,.315,-.311,.225,.023,.028)
 
 
 def tavern(m):
@@ -446,6 +514,10 @@ def tap_court(m):
 
 def forum(m):
     era=m.era
+    if era==2:
+        return assembly_exchange(m)
+    if era==3:
+        return council_rotunda(m)
     m.slab("fieldstone",0,0,0,1.87,.108,1.78,.17)
     m.slab("wall",0,.101,.255,1.54,.60,.98,.125)
     if era==1:
@@ -488,6 +560,69 @@ def forum(m):
             m.lamp(s*.75,.111,-.542,.09)
             for z in (.14,.406):
                 m.block("glass" if era>=2 else "trim",s*.771,.32,z,.025,.161,.12)
+
+
+def assembly_exchange(m):
+    # Union assembly hall. Long brick wings frame a covered iron-and-glass exchange.
+    m.slab("fieldstone",0,0,.012,1.91,.12,1.73,.11)
+    for side in (-1,1):
+        x=side*.582
+        m.slab("brick",x,.114,.138,.501,.678,1.145,.10)
+        m.vault("roof",x,.787,.138,.551,.199,1.218)
+        if m.lod<2:
+            m.port(x,.125,-.431,.288,.366)
+        if m.lod==0:
+            for z in (-.144,.156,.456):
+                m.block("glass",side*.837,.429,z,.024,.231,.152)
+    m.slab("wall",0,.113,.556,.783,.487,.371,.12)
+    m.port(0,.122,.368,.462,.377)
+    m.slab("slate",0,.109,-.184,.765,.064,1.088,.09)
+    m.vault("glass",0,.706,.224,.819,.391,.95)
+    for z in (-.224,.659):
+        m.vault("metal",0,.709,z,.844,.414,.07)
+        if m.lod<2:
+            for s in (-1,1):
+                m.beam("metal",(s*.35,.715,z),(s*.212,1.083,z),.044)
+    # The public clock belongs to the street-facing corner tower.
+    m.slab("brick",-.593,.706,-.288,.367,.565,.381,.107)
+    m.vault("metal",-.593,1.265,-.288,.431,.17,.451)
+    with m.transform(translate=(-.593,1.092,-.471),rotate_x=-90):
+        m.drum("gold",0,0,0,.126,.056)
+        m.drum("ivory",0,.05,0,.103,.024)
+    if m.lod<2:
+        m.beam("trim",(-.593,1.095,-.548),(-.593,1.162,-.548),.017)
+        m.beam("trim",(-.593,1.095,-.553),(-.546,1.079,-.553),.016)
+        m.standard(.70,.117,-.621,.66,-1)
+    if m.lod==0:
+        for side in (-1,1):
+            m.lamp(side*.32,.174,-.626,.094)
+        m.chevron(0,.922,-.269,.178,.073)
+
+
+def council_rotunda(m):
+    # Radial assembly chamber with a daylight oculus and wing ramps enclosing the forum plaza.
+    m.slab("ivory",0,0,0,1.90,.137,1.76,.235)
+    for role,y,r,h,top in (("wall",.131,.661,.384,.623),("glass",.511,.627,.23,.65),
+                            ("ivory",.736,.719,.108,.658),("glass",.839,.476,.161,.389)):
+        m.drum(role,0,y,.216,r,h,top,n=(16,10,7)[m.lod])
+    m.drum("gold",0,.994,.216,.42,.077,.375)
+    m.drum("ascension",0,1.067,.216,.32,.044,.258)
+    m.slab("wall",0,.129,-.345,.607,.380,.433,.137,.065)
+    m.vault("metal",0,.506,-.345,.676,.125,.498)
+    m.port(0,.14,-.565,.373,.327)
+    for side in (-1,1):
+        x=side*.711
+        m.slab("wall",x,.13,-.231,.216,.153,.71,.17)
+        m.beam("ivory",(x,.225,-.478),(side*.617,.772,.10),.142)
+        if m.lod<2:
+            m.slab("trim",side*.48,.132,-.552,.195,.231,.167,.15,.11)
+            m.lamp(side*.48,.359,-.552,.084)
+    if m.lod==0:
+        for i in range(9):
+            a=.18+i*math.tau/9
+            m.beam("gold",(.625*math.sin(a),.51,.216+.625*math.cos(a)),
+                   (.65*math.sin(a),.741,.216+.65*math.cos(a)),.039)
+        m.chevron(0,.556,-.597,.149,.068)
 
 
 def arcology(m):

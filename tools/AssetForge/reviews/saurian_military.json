@@ -435,6 +435,54 @@
           ]
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_barracks_ancient_v0",
+          "evidence_sha256": "040e0321aba9dc0c430c9cff7ee6d499db810691b263f256d1f1c0a2c7286cea",
+          "observations": "Three round troop lodges and a separate standard surround an open muster area. The front rack carries two turquoise shields. The circular huts remain distinct at mid-distance and contrast with the older family sheet’s later masonry ranges. Painted previews cover iron. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1029/541/185 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 2.5%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_barracks_industrial_v0",
+          "evidence_sha256": "6bc81e23980aecdf3737ed091c41638528c47291f815a264ef5b2c8c40dc0d4e",
+          "observations": "The muster flag stands beside an industrial drill hall with a sawtooth roof, a transverse dormitory and a narrow stack. The long dormitory and the flag distinguish its courtyard from the Guildhall’s clock tower. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 880/388/176 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 2.5%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_watchtower_industrial_v0",
+          "evidence_sha256": "773e10d61618c4fbdba21c14617fc4b7ea5b92f6a27a968d0420fd391dd7eef5",
+          "observations": "A prominent searchlight crowns the high lookout platform. Four splayed legs and a long access ladder link down to brick foundations. The searchlight and open lower framework read from behind against the earlier enclosed tower. Painted previews cover industrial. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 546/311/172 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

@@ -84,6 +84,12 @@ def shield(m,x,y,z,w,h,mat):
 
 def armory(m):
     e=m.era
+    if e==1:
+        return arsenal_court(m)
+    if e==2:
+        return issue_depot(m)
+    if e==3:
+        return secure_magazine(m)
     m.slab("fieldstone",0,0,.04,1.87,.134,1.60,.13)
     m.hearth(0,.13,.12,(1.54,1.24,1.29),roof_material="roof" if e==0 else None)
     # Standards sit on two gate piers; broad, pointed shields identify the clan armory.
@@ -98,6 +104,98 @@ def armory(m):
         for s in (-1,1):
             m.lamp(s*.60,.787,-.529,.092)
     if e>=2: m.block("glass",0,crest_base+.225,.15,.40,.098,.55)
+
+
+def arsenal_court(m):
+    # A shield court between two fortified magazines replaces the single gatehouse.
+    m.slab("fieldstone",0,0,.012,1.89,.119,1.69,.13)
+    for x in (-.582,.582):
+        m.drum("wall",x,.113,.216,.321,.644,.293,n=(8,6,5)[m.lod])
+        m.drum("trim",x,.75,.216,.339,.099,.343,n=(8,6,5)[m.lod])
+        m.drum("roof_tile",x,.843,.216,.355,.247,.136,n=(8,6,5)[m.lod])
+    m.slab("wall",0,.111,.489,.813,.389,.401,.1)
+    m.entry(0,.119,.288,.383,.337)
+    m.vault("slate",0,.492,.489,.902,.166,.457)
+    for x in (-.58,.58):
+        m.slab("slate",x,.113,-.405,.512,.167,.469,.11)
+        m.block("timber",x,.275,-.361,.44,.449,.087)
+        if m.lod<2:
+            shield(m,x,.268,-.429,.388,.385,"banner")
+        else:
+            m.relief("banner",[(x,.288),(x+.17,.428),(x+.17,.627),(x-.17,.627),(x-.17,.428)],-.428,.055)
+    if m.lod==0:
+        for x in (-.62,.62):
+            m.rune(x,.561,-.09,.148)
+            m.lamp(x,.121,-.676,.101)
+
+
+def issue_depot(m):
+    # Sawtooth lighting serves the long inspection floor; issue counters face the forecourt.
+    m.slab("fieldstone",0,0,.02,1.88,.132,1.69,.10)
+    m.slab("brick",-.081,.126,.217,1.493,.544,1.021,.087)
+    for i in range(3):
+        z=-.127+i*.34
+        m.wedge((-.081,.665,z),1.557,.329,.213,m.color("metal"),material="metal")
+        if m.lod<2:
+            m.block("glass",-.081,.722,z+.168,1.328,.122,.025)
+    m.entry(-.48,.139,-.297,.366,.437)
+    m.block("door",.218,.303,-.306,.572,.253,.039)
+    m.slab("metal",.218,.282,-.368,.627,.064,.192,.075)
+    m.slab("trim",.149,.132,-.609,.789,.174,.347,.10)
+    for x in ((-.037,.333) if m.lod<2 else (.149,)):
+        m.block("metal",x,.298,-.604,.221,.288,.211)
+        shield(m,x,.338,-.722,.173,.178,"accent")
+    m.stack(.716,.13,.534,.118,.867,"brick")
+    if m.lod==0:
+        m.lamp(-.757,.134,-.46,.102)
+        for x in (-.179,.056,.293,.527):
+            m.block("gold",x,.544,-.322,.112,.039,.031)
+
+
+def secure_magazine(m):
+    # A low armored vault occupies the left side. The loading track crosses the open court.
+    m.slab("fieldstone",0,0,.014,1.92,.135,1.71,.15)
+    m.slab("wall",-.313,.127,.185,1.124,.481,1.268,.13,.09)
+    m.slab("glass",-.313,.601,.185,1.031,.139,1.164,.145)
+    m.vault("ivory",-.313,.733,.18,1.183,.242,1.33)
+    m.entry(-.473,.139,-.447,.358,.407)
+    m.slab("trim",-.478,.128,-.533,.475,.075,.267,.12)
+    # A counterbalanced roof crane raises a shield pallet above its receiving cradle.
+    m.drum("trim",-.311,.964,.176,.223,.13,.196)
+    m.drum("accent",-.311,1.086,.176,.181,.139,.153)
+    m.beam("metal",(-.685,1.167,.329),(.741,1.406,-.257),.147,.177)
+    m.slab("wall",-.665,1.127,.319,.328,.268,.349,.16,.12)
+    apex=(-.286,1.575,.168)
+    m.beam("ivory",(-.372,1.195,.202),apex,.105)
+    m.beam("gold",apex,(.702,1.405,-.241),.056)
+    m.beam("trim",(-.637,1.308,.312),apex,.062)
+    m.slab("trim",.611,1.303,-.207,.201,.132,.181,.14)
+    m.beam("metal",(.611,1.312,-.207),(.611,.955,-.207),.052)
+    m.block("accent",.611,.905,-.207,.448,.077,.153)
+    m.relief("metal",[(.611,.438),(.838,.629),(.819,.919),(.404,.919),(.384,.629)],
+             -.252,.144)
+    if m.lod<2:
+        shield(m,.611,.484,-.271,.341,.381,"banner")
+    m.slab("trim",.566,.131,-.211,.621,.083,.563,.11)
+    for x in (.366,.758):
+        if m.lod==2:
+            m.block("metal",x,.209,-.211,.083,.098,.296)
+        else:
+            m.beam("wall",(x,.202,-.364),(x,.332,-.211),.086)
+            m.beam("metal",(x,.324,-.211),(x,.211,-.07),.072)
+    if m.lod<2:
+        for z in (-.062,.429):
+            m.beam("trim",(-.804,.133,z),(-.819,.60,z+.041),.091)
+        m.rune(-.311,.848,-.491,.187)
+    if m.lod==0:
+        for x in (-.57,-.32,-.07):
+            m.block("metal",x,.609,-.397,.033,.124,.036)
+        with m.transform(translate=(.614,1.351,-.134),rotate_x=-90):
+            m.drum("metal",0,0,0,.084,.132)
+            m.drum("gold",0,.121,0,.093,.037)
+        for z in (-.542,.099):
+            m.slab("accent",.565,.133,z,.457,.032,.067,.11)
+        m.lamp(-.766,.134,-.484,.104)
 
 
 def loom(m):
@@ -267,6 +365,8 @@ def arc_foundry(m):
 
 
 def workshop(m):
+    if m.era==2:
+        return steam_hammer_shop(m)
     m.slab("fieldstone",0,0,0,1.81,.116,1.69,.14)
     m.hearth(-.27,.113,.25,(1.12,1.36,1.15))
     # The drill press has a worktable, a belt flywheel, bearings and a visible quill.
@@ -281,7 +381,36 @@ def workshop(m):
     if m.lod==0:
         ingots(m,-.61,.114,-.54)
         m.lamp(.13,.117,.59,.099)
-    if m.era==2: m.stack(-.53,.599,.41,.114,.56,"brick")
+
+
+def steam_hammer_shop(m):
+    # Boiler and steam main supply the arch-framed hammer on the open forging floor.
+    m.slab("fieldstone",0,0,0,1.88,.127,1.71,.14)
+    m.slab("brick",-.365,.12,.428,.946,.538,.681,.09)
+    m.vault("metal",-.365,.653,.428,1.026,.17,.756)
+    m.entry(-.437,.124,.086,.374,.418)
+    m.stack(-.626,.526,.521,.157,.792,"brick")
+    with m.transform(translate=(.428,.517,.759),rotate_x=-90):
+        m.drum("metal",0,0,0,.242,.588)
+        if m.lod==0:
+            for t in (.09,.453):
+                m.drum("trim",0,t,0,.251,.041)
+    m.slab("brick",.428,.124,.458,.483,.25,.664,.075)
+    m.slab("wall",.207,.12,-.36,.974,.188,.634,.15)
+    for s in (-1,1):
+        m.beam("trim",(.207+s*.388,.282,-.343),(.207+s*.257,1.032,-.343),.162,.209)
+    m.vault("metal",.207,.975,-.343,.704,.183,.297)
+    m.drum("metal",.207,1.144,-.343,.185,.267,.171)
+    m.drum("accent",.207,.687,-.343,.075,.336)
+    m.block("metal",.207,.591,-.343,.319,.102,.187)
+    m.slab("trim",.207,.30,-.343,.338,.205,.238,.13,-.08)
+    m.beam("metal",(.425,.717,.464),(.425,1.264,.455),.082)
+    m.beam("metal",(.425,1.254,.461),(.206,1.252,-.342),.088)
+    if m.lod<2:
+        m.rune(.207,1.049,-.50,.15)
+    if m.lod==0:
+        ingots(m,-.761,.127,-.437)
+        m.lamp(-.684,.129,.007,.113)
 
 
 def sheds(m):

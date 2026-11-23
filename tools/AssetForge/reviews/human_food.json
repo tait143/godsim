@@ -908,6 +908,170 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 7,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_human_farm_future_v0",
+          "evidence_sha256": "f537ae7f13f76ed5cee97058c169a4d591f8aa2180f2f946b82052039daeab04",
+          "observations": "Tilted collectors rise over rows of small orchard trees and a utility kiosk. The open ground and upright tree trunks clearly separate this farm from the silo-and-field predecessor in grayscale. Both collector posts and a simplified orchard survive at the far level.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1192,
+            576,
+            332
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_farm_ancient_v0",
+            "b": "bld_human_farm_future_v0",
+            "matched": 0,
+            "total": 2316
+          }
+        },
+        {
+          "id": "bld_human_fishing_hut_classical_v0",
+          "evidence_sha256": "ed48b6cc902af502036abb9079c5ec054d7aa79f0297b77751360d40367f0a3e",
+          "observations": "A gabled white hut sits on an elevated landing beside an open timber boat. The landing stays separate from the hull in the side view and its front posts reach the deck. The simple tiled roof and long exposed veranda give the Classical building a quieter outline than the older timber hut.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            589,
+            350,
+            148
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_fishing_hut_ancient_v0",
+            "b": "bld_human_fishing_hut_classical_v0",
+            "matched": 0,
+            "total": 2199
+          }
+        },
+        {
+          "id": "bld_human_fishing_hut_future_v0",
+          "evidence_sha256": "ae46c8715c7a0d1889bbe30923485d2d54afd7989b3a0728addee8303f76c280",
+          "observations": "A blue-banded service cabin sits on a broad twin-sided pontoon, with outreach davits along the work deck. The visible hull edges, working lines and projecting booms distinguish it from a land workshop. The cabin and booms remain legible at LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            693,
+            403,
+            220
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_fishing_hut_ancient_v0",
+            "b": "bld_human_fishing_hut_future_v0",
+            "matched": 0,
+            "total": 2199
+          }
+        },
+        {
+          "id": "bld_human_fishing_hut_industrial_v0",
+          "evidence_sha256": "e2e80f83ffc31a078a312920e5f0d70e8a828c3014e28dd6337ca3eb5a0ae8d4",
+          "observations": "The sawtooth vents and brick gable are clear through all three levels. At 64 pixels the shed and two pots dominate the approach. The fine hoist line ends over an empty dry slab. Even the side view offers little evidence of a fishing landing.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 85,
+            "construction": 91,
+            "charm": 87,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Build a visible quay or landing with a boat cradle, catch net or comparable fishing gear at the hoist. Carry its working outline through LOD1 and LOD2."
+          ],
+          "lod_triangles": [
+            529,
+            238,
+            160
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_fishing_hut_ancient_v0",
+            "b": "bld_human_fishing_hut_industrial_v0",
+            "matched": 0,
+            "total": 2199
+          }
+        },
+        {
+          "id": "bld_human_mill_industrial_v0",
+          "evidence_sha256": "b2bb15c0759a5e478d4b7226fe8103531208c53f6efb178a067cdc799efb7bfb",
+          "observations": "The brick mill replaces the earlier wind sails with a side-mounted wheel housing, diagonal feed and a tall flue. Its side view exposes the path from opening to wheel. LOD2 drops the wheel spokes but keeps the equipment, feed and stack.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            697,
+            286,
+            108
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_mill_classical_v0",
+            "b": "bld_human_mill_industrial_v0",
+            "matched": 0,
+            "total": 1671
+          }
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "RC4 independent Human and Dwarf art critic, replacement mesh re-review",
+      "models": [
+        {
+          "id": "bld_human_fishing_hut_industrial_v0",
+          "evidence_sha256": "538d6c56da6a6be8b013d018b2568dd8b74e058228d75a5befa7f4e9970f4fa0",
+          "observations": "The brick curing shed stands on a piled quay above blue water. A fishing boat lies alongside and the quay crane raises a round net over its hull. The tall gantry and working waterfront distinguish the Industrial shed in both grayscale family views. At LOD2 the mesh of the net becomes solid, while its suspension, the open boat and the pier supports remain clear from the sides.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1241,
+            742,
+            296
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_fishing_hut_ancient_v0",
+            "b": "bld_human_fishing_hut_industrial_v0",
+            "matched": 0,
+            "total": 2199
+          }
+        }
+      ]
     }
   ]
 }

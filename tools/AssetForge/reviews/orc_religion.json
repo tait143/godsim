@@ -601,6 +601,26 @@
           ]
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_orc_cathedral_industrial_v0",
+          "evidence_sha256": "6eb36b73f6776275ad94d548a946921dfec1e5b9edec5bc094335bde98b98430",
+          "observations": "A broad dome sits over a cruciform red-brick hall. Two lower side aisles, end-wall sun medallion and projecting tusks read through the middle LOD; the silhouette changes from the clustered classical towers to a single large crossing. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1116/579/231 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

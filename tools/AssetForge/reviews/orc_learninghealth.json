@@ -1197,6 +1197,68 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_orc_hospital_future_v0",
+          "evidence_sha256": "a8ef57446adc77a4103f3ee5da55786efd448e7f3405f29ec0db3bbe03399663",
+          "observations": "The diagnostic ring and blue patient table project well ahead of a raised ward marked by a cross. The full ring, table legs, ward opening and pale cap remain distinct from the sides. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 648/369/207 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_hospital_industrial_v0",
+          "evidence_sha256": "6267093211405c491c283ad8c497be395923b38f2de2072b114981c21d415d9c",
+          "observations": "Low gabled ward ranges flank the gap at the front of a brick hospital with a cross on its raised central pavilion. The joined wings and roof vents stay readable in the middle mesh from the back. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1134/566/235 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_library_future_v0",
+          "evidence_sha256": "cedb163c89f795b6eebb765275b70d06bd9ec79fdf9b7e93a767ff9a4cd7fb86",
+          "observations": "Three progressively smaller blue reading floors rise behind a large open book. The book keeps its central fold from the side while the stair-step tower and two projecting tusks retain the Orc outline. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 802/398/257 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 92,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_library_industrial_v0",
+          "evidence_sha256": "2b3b0bcb04dc031185bf8a55b80d71617e3540bc488c3715466f4ad9625cbcc5",
+          "observations": "A brick stack tower and ribbed blue barrel roof flank an open book on a lectern. The lower annex keeps its arched entrance and separate roof at LOD1; the book remains readable at the forecourt. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 992/435/180 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

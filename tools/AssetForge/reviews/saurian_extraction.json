@@ -844,6 +844,210 @@
           ]
         }
       ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_gold_mine_future_v0",
+          "evidence_sha256": "10186492e65c886b159f5dd80d4f034faf7f56c3648c75cc788d0ba321f4a191",
+          "observations": "Three clean storage tanks, pipes and a front office communicate a processing site. The pale walls and blue caps dominate from both angles, leaving no visible gold feed or product. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 929/435/206 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 13.256%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 84,
+            "construction": 93,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Add an exposed ore feed or sorting/wash outlet with identifiable gold or concentrate, large enough to read at 64 px."
+          ]
+        },
+        {
+          "id": "bld_saurian_mine_classical_v0",
+          "evidence_sha256": "8016990615f45e94d690bae7d3a92312b9ecdc825bc5126315b3578e3206a757",
+          "observations": "The pale stair, gold plaque and centred doorway make the stepped frontage look like a shrine. The tiers and door remain visible across LODs, but nothing on the terraces identifies active excavation. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 587/301/127 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 15.673%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 83,
+            "construction": 93,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the adit exposed ore, a spoil pile and/or a distinct haul system readable in the 64 px silhouette."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_coal_mine_future_v0",
+          "evidence_sha256": "2b67da5e72fe11706bcdc0f397814ece39b641f601116cad973698df760cc87e",
+          "observations": "The exposed bucket wheel and braced arm work above a dark coal seam, with an inclined output belt opposite. The coal face emerges in the rear view while the cutting wheel keeps an open toothed profile. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 910/518/289 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_gold_mine_classical_v0",
+          "evidence_sha256": "a527b2f17d1e72ae0f172388a35088f6e0c880a0fb3a0b5aa0644f68533fd180",
+          "observations": "A large timber waterwheel works the turquoise washing basin. The gold collection block remains visible at its lip while the small reed-roofed hut gives scale. The open wheel and basin differ from the industrial drum. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 809/461/247 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 13.256%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_gold_mine_industrial_v0",
+          "evidence_sha256": "a14c0b83e1438ea3f7b3a62d50665b6237f0a51d97a135bcfd2c01491b48a498",
+          "observations": "A broad horizontal rotary separator on two brick bases sits beside the inclined wash bed and tall furnace stack. Its turquoise bands, round end and gold cap carry through the side views. The early waterwheel and hut have a different outline. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 694/389/180 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 13.256%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_mine_future_v0",
+          "evidence_sha256": "45fe58f967c470fd5e65ce36ca74eee248cb34343017d93925ac4fcc8979c89f",
+          "observations": "Three widely spread legs support a bore over a dark ore patch. The tapered lance, rear vessel and individual footings remain distinct from two middle mesh angles. Its open triangle replaces the earlier enclosed tipple. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 642/344/191 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 15.673%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_mine_industrial_v0",
+          "evidence_sha256": "41db03ecce3edc88e7658a03a8a4a29234b4614b6a1c5ad7dc59f3609d745f5d",
+          "observations": "The high four-legged ore tipple feeds a broad inclined belt beside a low brick service room. The rear view shows the legs below the hopper. The belt and hopper remain linked on the side view. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 711/409/227 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 15.673%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_stone_quarry_classical_v0",
+          "evidence_sha256": "018a39ad79c8693e5b8a1b70aa5d302db5fcb1221b4f54ba47f16a94faf2c7d5",
+          "observations": "A wheel-driven lifting boom reaches over a cut block with the uncut wall behind it. Both supports and the hanging line remain evident from the side of the middle mesh. Repeated dressed blocks identify a stone yard. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 934/480/280 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_gold_mine_future_v0",
+          "evidence_sha256": "f497c0a7add33c052fcadd90364a08ece3a2a454c92249e47d55f73e1e0773cd",
+          "observations": "Visible gold lies in the hopper and collection tray and emerges from the ore-bearing outcrop beside the machine. The sloping sorting ramp gives the material a clear path between them. At 64 px the elevated throat and open equipment profile differ from the horizontal industrial drum. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 888/506/232 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 13.256%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_mine_classical_v0",
+          "evidence_sha256": "3f0778c9c77e93f05b2e01299ebf32487b0a65311db97830365b66468f64474d",
+          "observations": "A timber-framed adit penetrates a cluster of irregular rock shoulders. The loaded cart, projecting rails, ore pockets and separate spoil heap identify the work at the entrance and flank. Its lumpy rock profile and low track sit apart from the earlier hoist and the later tipple. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 869/494/275 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 14.33%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 11,
+      "critic": "Independent RC4 critic, archived catalog comparison",
+      "models": [
+        {
+          "id": "bld_saurian_mine_future_v0",
+          "evidence_sha256": "45fe58f967c470fd5e65ce36ca74eee248cb34343017d93925ac4fcc8979c89f",
+          "observations": "Both unpainted angles show the same tall, open three-legged rig, apex and central shaft as the Future OilWell. The rear vessel and small patch of dark ground survive in the painted images, but they do little to distinguish mineral extraction from the oil rig. This neighboring-function comparison lowers the identity score from my earlier within-family review. Inspected the archived GLB, all 2 painted age previews, both 64 px unpainted angles, the package assembly image and middle LOD from 215°, 125° and 35°. Serialized LODs 642/344/191 passed the geometry, budget, exposed overlap and winding checks. The largest directed corner share with a current era sibling was 14.330%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 81,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the tripod-dominated outline with a visible mineral face, working excavation or ore haulage."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 12,
+      "critic": "Independent RC4 critic, catalog repair reinspection",
+      "models": [
+        {
+          "id": "bld_saurian_mine_future_v0",
+          "evidence_sha256": "7f73b82b3726be0daf0e103640bf62b04426b028780be46ca58c432c1322e5c8",
+          "observations": "Two stepped cuts expose a striped mineral face, feeding rock down a short chute to a loaded tracked hauler. From the middle flank the track, load, cab and chute endpoints remain visible. At both gray angles the long low cut stands apart from the OilWell tripod, StoneQuarry bridge, GoldMine sorter and the three earlier Mine forms. Inspected all 2 age previews, both 64 px gray family views and painted middle LOD at 215°, 125° and 35°. Serialized LODs 947/538/289 passed geometry, budget, exposed overlap and winding checks. Maximum directed LOD0 corner overlap with an era sibling was 12.940%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
     }
   ]
 }

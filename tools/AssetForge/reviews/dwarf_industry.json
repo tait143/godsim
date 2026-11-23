@@ -808,6 +808,145 @@
           ]
         }
       ]
+    },
+    {
+      "round": 4,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_dwarf_armory_classical_v0",
+          "evidence_sha256": "fe8ec917bb1422951b10eff9ec61e04568e462f6621db45af53bc0465925b3a1",
+          "observations": "The gap between the two stone bastions is visible from both approaches. The warm hipped caps and deep shield recesses give the frontage a recognizable armory entrance. At distance the shields simplify to framed panels while the gateway remains open.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            826,
+            426,
+            258
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_armory_ancient_v0",
+            "b": "bld_dwarf_armory_classical_v0",
+            "matched": 0,
+            "total": 2796
+          }
+        },
+        {
+          "id": "bld_dwarf_armory_future_v0",
+          "evidence_sha256": "184e2718ea59e954eec307dbe1370e5d3d86fb5fba2de778d2b64070d27a3153",
+          "observations": "The white battered end blocks carry their cyan caps cleanly at all three levels. Viewed without paint from either side, the two equal-height shield towers and low linking passage reproduce the Classical gate. The change to the roof caps barely affects the outline.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 84,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Future arsenal a different major volume or supported loading apparatus visible in both 64-pixel views. Retain that structural change at LOD2."
+          ],
+          "lod_triangles": [
+            842,
+            478,
+            270
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_armory_ancient_v0",
+            "b": "bld_dwarf_armory_future_v0",
+            "matched": 0,
+            "total": 2796
+          }
+        },
+        {
+          "id": "bld_dwarf_armory_industrial_v0",
+          "evidence_sha256": "09e84366fa9701a587ed9b343204088c0efec560fab72881966ac5e7e1fc469c",
+          "observations": "The long brick works, end flue and continuous raised roof ridge replace the flanking gate towers. The shield racks and arched issue door read together from the front. The roof profile and chimney survive the rear and distant views.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            762,
+            442,
+            214
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_armory_ancient_v0",
+            "b": "bld_dwarf_armory_industrial_v0",
+            "matched": 0,
+            "total": 2796
+          }
+        },
+        {
+          "id": "bld_dwarf_workshop_industrial_v0",
+          "evidence_sha256": "5ddbc1ad20a94d404de48d5828bb3587c4a93e896982aa797b94a6b0739f073e",
+          "observations": "The freestanding press frame and descending ram occupy the front of the boiler shed. A pipe bridges back toward the roof and the chimney rises behind it. The arch of the press and its plinth remain identifiable from front, flank and rear through LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            908,
+            468,
+            291
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_workshop_classical_v0",
+            "b": "bld_dwarf_workshop_industrial_v0",
+            "matched": 0,
+            "total": 2730
+          }
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "RC4 independent Human and Dwarf art critic, replacement mesh re-review",
+      "models": [
+        {
+          "id": "bld_dwarf_armory_future_v0",
+          "evidence_sha256": "a3e4295f51028f085abe0e29c007f9b6c14bf19cb0ac7e2d944a930778abfb1e",
+          "observations": "A single low magazine carries a roof turntable, counterweight and projecting jib. The suspended shield aligns with its loading cradle and the front steps lead to a separate door. Both grayscale views distinguish this from the Classical split gate. LOD2 loses the shield chevron but retains the pivot, bracing, hook, load and cradle in front, side and rear views.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            932,
+            550,
+            286
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_armory_ancient_v0",
+            "b": "bld_dwarf_armory_future_v0",
+            "matched": 0,
+            "total": 2796
+          }
+        }
+      ]
     }
   ]
 }

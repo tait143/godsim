@@ -371,7 +371,70 @@ def university(m):
             m.leafpot(side*.331,.064,-.664,.084)
 
 
+def dome_shutter(m):
+    """One half of the rotating meridian dome, with a solid cheek along the slot."""
+    rings=(5,3,2)[m.lod]
+    segments=(12,8,5)[m.lod]
+    def point(i,j):
+        alt=math.pi*.5*i/rings
+        az=math.pi*(j/segments-.5)
+        return (.53*math.cos(alt)*math.cos(az),.52*math.sin(alt),
+                .53*math.cos(alt)*math.sin(az))
+    for i in range(rings):
+        for j in range(segments):
+            face=[point(i,j+1),point(i,j),point(i+1,j)]
+            if i+1<rings:
+                face.append(point(i+1,j+1))
+            m.face("roof",face)
+    cheek=[point(i,0) for i in range(rings+1)]
+    cheek.extend(point(i,segments) for i in reversed(range(rings)))
+    m.face("trim",cheek[::-1])
+
+
+def radio_dish(m,x,z,r,y,angle):
+    # A flared receiving bowl is open at the front, with a rear casing of
+    # finite thickness. A tripod carries the receiver over the focus.
+    m.slab("ivory",x,.08,z,r*.84,y-.08,r*.90,.63)
+    n=(16,10,6)[m.lod]
+    def pt(t,rad,h):
+        return (rad*math.cos(t),h,rad*math.sin(t))
+    with m.transform(translate=(x,y,z),rotate_x=angle):
+        for k in range(n):
+            a,b=math.tau*k/n,math.tau*(k+1)/n
+            A,B=pt(a,r,.36*r),pt(b,r,.36*r)
+            C,D=pt(a,r,.435*r),pt(b,r,.435*r)
+            m.face("ivory",[(0,-r*.085,0),A,B])
+            m.face("turquoise",[B,A,C,D])
+            m.face("glass",[(0,0,0),D,C])
+        if m.lod==2:
+            m.drum("gold",0,0,0,.04*r,.78*r,n=4)
+        else:
+            for k in range(3):
+                a=k*math.tau/3+.2
+                m.rod("gold",pt(a,r*.87,.37*r),(0,.78*r,0),.035*r,n=4)
+        m.drum("ivory",0,.75*r,0,.095*r,.115*r)
+
+
 def observatory(m):
+    if m.era>=2:
+        works.court(m,-.18)
+        if m.era==2:
+            # The equatorial telescope sits inside a rotating, split-shell dome.
+            m.drum("brick",-.10,.08,.14,.61,.56)
+            m.block("brick",-.10,.08,-.418,.46,.42,.22)
+            m.entry(-.10,.08,-.528,.29,.37)
+            m.drum("turquoise",-.10,.64,.14,.617,.093)
+            for side in (-1,1):
+                with m.transform(translate=(-.10+side*.052,.733,.14),scale=(side,1,1)):
+                    dome_shutter(m)
+            m.rod("metal",(-.10,.74,.14),(-.10,1.11,-.10),.044)
+            works.cartouche(m,-.10,.55,-.429,.066)
+        else:
+            radio_dish(m,-.29,.24,.54,.85,-32)
+            radio_dish(m,.54,-.24,.26,.47,23)
+            works.shell(m,-.38,-.42,.57,.39,.27)
+            m.slab("glass",-.38,.35,-.42,.62,.095,.44,.79,underside=True)
+        return
     m.footing(1.66,1.65)
     m.slab(m.masonry,0,.064,.10,1.31,.273,1.19,.96)
     # The telescope is carried at its balance point by two trunnions on a real azimuth drum.

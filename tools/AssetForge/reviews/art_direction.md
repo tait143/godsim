@@ -1,6 +1,6 @@
 # GodSim building art direction review
 
-**The 1,034-model coordinator RC1 catalog passed independent art direction.** The final Farm correction closes the only finding from the two-angle era review. [Signed RC1 disposition](#signed-rc1-disposition)
+**The coordinator’s 101 RC4 lineages passed independent art direction after nine corrections.** All 53 final sheets and the current 1,034-model evidence set are signed. The inherited Elf FishingHut observation remains outside this scope. [Signed RC4 disposition](#signed-rc4-disposition)
 
 ## First full assembly, 23 November 2026
 
@@ -193,5 +193,71 @@ Updated painted page 05 has SHA-256 `de7247208cd7b0df52aa5668ea0c469c4f64ae90764
 I checked the latest individual review against current evidence for each of the 1,034 models in 71 package fragments. All passed. I signed the aggregate evidence digest `a019521f7faeff6fe8478107e730c5284b967c7ded349000903e89a5b1f4b0f1` and the SHA-256 values for all 19 painted and all 17 unpainted pages. This signature covers the inspected assets, appearances and scoped era repairs. Runtime and device verification are separate. [Signed evidence and sheet hashes](art_direction_approval.json)
 
 Signed by `catalog_art_director`, 23 November 2026.
+
+## RC4 catalog review at checkpoint 7e905bb
+
+**Held `bld_saurian_mine_future_v0` for its Information and Ascension appearances.** On family page 11 the ordinary Mine has a tall splayed tripod with a turquoise cap over a flat square plot. The contemporary OilWell on page 12 has the same dominant outline. The original painted previews show a drill suspended over bare earth on the Mine and larger tankage on the OilWell. From town scale the Mine reads as a second bore rig. Give the Mine an exposed mineral face or entrance and a legible haulage element. The OilWell remains the comparison reference.
+
+The held Mine page 11 had SHA-256 `a906a57466b22b9f84a24ac608eb1619a6ba222d89506423043b494857492b82`. OilWell reference page 12 had SHA-256 `e7aeb63d7c52a4db9ab3a272645b2afa1a0087d98df5cd1d67d9f1ef4c61d377`.
+
+The held Mine GLB had SHA-256 `0ee43805b37d11203e4b32714d5732cb13d3f0bbd8601c9d42f34b4c61e4ca45`. Its RC4 geometry page, `rc4-saurian-02.png`, had SHA-256 `1df35268190b54306d3528b951b5a53d5f03bbe47451f58164a8f87ce93b4945`.
+
+**Held `bld_orc_fishing_hut_classical_v0` for Classical, Medieval and Renaissance.** The earlier dock and its Classical successor both place the same conical round hut, near-side skiff and triangular net on a square pier. The change to pale masonry contributes most of the perceived difference in the painted versions. At both gray angles, the outlines of the dock, its fishing gear and its hut nearly coincide. Give the Classical station a different working section and roofline that still communicate a fishing station, for example a raised net-drying gallery with a skiff below. The later tall working quay and reinforced Future dock provide adjacent references.
+
+The held FishingHut GLB had SHA-256 `86c1e87ed9308566cd9c2e675b4c2162c37ac156dc9878d70699140689cbe385`. Family page 06 had SHA-256 `822d8cfcc84823ba09f64bb0d269e70b241cfd7d2fd69ac08f17a93b9cd4f690`, and geometry page `rc4-orc-01.png` had SHA-256 `ef254e89866f68d14044706f9e34708011bdbb40f920bb49f0d9f0090084e01e`.
+
+### Further findings in the coordinator’s 101 families
+
+| Held GLB | Observed geometry and required change | Held GLB SHA-256 |
+| --- | --- | --- |
+| `bld_human_barracks_classical_v0` | The Classical and Iron stations have the same long cross-gabled block, projecting gabled entry, shield and pennant. Changing the cladding and pitch leaves the troop quarters practically identical in gray. Give Classical a courtyard or transverse block that changes the arrangement of the quarters. | `8f68e77f86aa94d35440f31fc6a75d11eb19413d5e8d34ce1b8c6ef7f16b90a2` |
+| `bld_human_blacksmith_classical_v0` | Both early shops place a low awning beside a gabled shop and a flared furnace at the same end. The Classical roof tiles provide most of the new read. Give its forge a recognizably different working section, such as a deep hood with an open masonry bay and bellows. | `335e9e95fa37d5f452b059da953459137e4981da899c7e9b37e3430a4934a09b` |
+| `bld_orc_woodcutter_camp_classical_v0` | Both early camps have the same conical hut, stack of three logs, axe and stump in the same positions. Give the Classical production yard an open frame for splitting or storing timber. | `1e85e8656e157851565603cc44f5b225eec5b3d83621c85f8be995ec36aeec8d` |
+| `bld_saurian_granary_future_v0` | The Industrial and Future granaries present paired silos, an overhead feed elbow, identical discharge chutes, two base slabs and a front bin line. Rounding the silo bodies leaves the same storage plant at phone size. Reconfigure the grain bins and their loading floor or conveyor. | `bb33f60ce74500e36377cf69980e43f86e6a1bdf6d1e0548c6549ddc98f06a16` |
+| `bld_saurian_temple_ancient_v0` | The Iron Temple and Iron TownCenter both have a broad stepped square platform, front staircase, hipped upper room and small sun crest. Give the Temple an open offering court or distinctly framed sanctuary. | `e55cfc00ce5eaf8a32f3ab536636f7c6cf07cca1207b64117a620171fa44a54a` |
+| `bld_saurian_temple_classical_v0` | The Classical Temple and Classical TownCenter put matching round domes over the same stepped pavilion and central stair. Use a recognizably religious plan, such as a processional colonnade around an altar. | `ca69a51c0753ad16dd451027e6ac99ea083f4d7212504acfafd1621a27dfc81c` |
+| `bld_saurian_temple_future_v0` | At Ascension, the Temple and TownCenter put the same large upright solar ring over the stepped civic base. Give the late Temple its own congregation space and change the support and profile of its focal object. The Industrial Temple already separates from its civic counterpart. | `5e5847a801c416f42ab23a238e86a2c4248c336d2d10870e2e84cc75ace080cd` |
+
+The candidate geometry SHA-256 values were `a45afbc9239fbf84393d78ad39dde7bf5d7a59b66811b3daaf367ca3e4b8e39c` for `rc4-human-01.png`, `022cb1742584cf8ddbba01642357eca25bbce3df260ce4e19c6a8650db4ad415` for `rc4-orc-03.png`, `1df35268190b54306d3528b951b5a53d5f03bbe47451f58164a8f87ce93b4945` for `rc4-saurian-02.png`, and `fc6c567577797b04b8e74c1a24cf38567988bd2a6b420a9d41a8a4513a9f032a` for `rc4-saurian-03.png`.
+
+| Painted comparison | Candidate page SHA-256 |
+| --- | --- |
+| 02, Barracks | `6d4663867ce3acc4eb09079a2a8efff44f8cf04d3effc17a5f2229937dd346fb` |
+| 03, Blacksmith | `3f0c3ad31e9c3b06cadf8b0b1a62571ffb6af56281b3dadeb38e1580caa5cb2a` |
+| 07, Granary | `b2c65666444a7972be18dd83473e4a775704799904dfdd0f8c7120a7167f5577` |
+| 17, Temple and TownCenter | `b9702d468544848776a0e5fc9fab8c8ec59a779f52b4eda06baaa74cc311e859` |
+| 19, WoodcutterCamp | `457d54d86faafc0f9c1c2ccb0db9a44d3520a0170f610be03f5eab879585de91` |
+
+I opened all 19 painted family pages, the 17 existing unpainted gallery pages and the 17 RC4 unpainted pages. The RC4 set covers 336 models in all 101 listed lineages and shows 672 views. The existing gallery contains 361 models in 119 lineages and shows 722 views. The two collections overlap. I compared every retained checkpoint pair using its four original 64 px images, two per model. The 60 distinct pairs account for 95 ordered exceptions. The blunt roof monitor, dome and twin stacks of the Dwarf Bathhouse, for example, are visible on the same hall and pools. The paired granary, workshops and docks reported above illustrate other sibling relationships in listed families. The Saurian Mine and three Temples concern confusion between simultaneous functions. Some Temple pairs also occur in the exception table, where their different crowns remain visible when comparing within that single family.
+
+**Nine models in seven listed lineages require reinspection.** I examined each individual Dwarf and Saurian TownCenter age. The Dwarf sequence changes its roof from split thatch to hood, boxed upper room, taller hall, chimneys, clerestory and finally a ring. Saurian early civic halls share their plinth and stair but gain a side turret at Bronze, raised corner ribs at Iron and a round crown at Classical. Later ages add the towered Renaissance wing, industrial stacks and civic upper decks. This review uses rendered asset images and geometric silhouettes.
+
+### Inherited family outside the RC4 list
+
+**Open visual observation on `bld_elf_fishing_hut_future_v0` for Information and Ascension.** The existing Elf gallery revealed this inherited issue during the cross-race FishingHut comparison. Although this lineage falls outside the 101 targeted for RC4, its two late stations on family page 06 have practically the same outline. Both put a leaf-roofed hut beneath a bent lifting frame on a round timber dock, with the same hanging bucket and skiff. The original previews confirm that changing the wall and lamp colors supplies most of the visual distinction. A future revision could give the landing a more advanced means of handling the catch, visibly different from the Industrial bucket arm. The coordinator's RC4 repair scope covers the Human, Orc and Saurian findings above. The Elf pair remains a documented limitation of any broader catalog claim.
+
+The observed Elf FishingHut GLB had SHA-256 `cf7a948b908a8ad5a68ed2977568753e65999880931ecc4885d7695697146de3`. Geometry page `elf-01.png` had SHA-256 `7183d874c2a8840acf851fb7e5bad99f03c610e97efbb1c302594050104ef7f6`. The painted page 06 is the same file identified for the Orc finding above.
+
+### Signed RC4 disposition
+
+**Approved for the coordinator’s 101 listed lineages. All nine director holds are closed.** I reopened all 53 final canonical sheets. The 19 painted pages contain 2,096 age appearances across 75 building functions. The final 17 RC4 geometry pages contain both 64 px views for 336 models, including each of the ten Dwarf and Saurian TownCenter ages. Their age captions now read chronologically, with a visible separator. The 17 older geometry pages show both views for 361 models across 119 lineages. These galleries overlap.
+
+| Approved replacement | What now reads at 64 px | Approved GLB SHA-256 |
+| --- | --- | --- |
+| `bld_human_barracks_classical_v0` | A long two-story range and short return wing enclose an open muster court. The shield stands in the yard. Both views separate this from the compact Iron quarters. | `9e4f9c7585ca35b36d1fa9624b0a4274a33a0dca3549d1aaa98cd83ad242e247` |
+| `bld_human_blacksmith_classical_v0` | A tall flared hood and chimney stand over a bright open hearth. The bellows and work surfaces spread to either side. The shed and low canopy of the Bronze and Iron shop have a different outline. | `1e91d7073935d50c54881f74906d012ab01cb655c2c3c23b0b5d8090060a4f14` |
+| `bld_orc_fishing_hut_classical_v0` | Two net panels hang from a horn-tipped frame above a stone landing and skiff. Open space between the nets reads in both angles. The earlier dock has an enclosed cone hut and the Industrial dock has a tall work shed. | `632f708968ea256baa4edbca4491548a124c2219d7c77aa1f48156f467bb2f86` |
+| `bld_orc_woodcutter_camp_classical_v0` | A large log spans a braced splitting frame with smaller stock and a handcart underneath. The open yard, visible cut ends and cart distinguish it from the earlier hut and from the Orc sawmill. | `88eee5ec4a92087d2dd1d68be4d80c46db3fcfc2797381851480f9a38b812ff4` |
+| `bld_saurian_granary_future_v0` | Three rectangular grain bins step upward above separate delivery chutes and a common loading line. The wheat mark, visible grain and staggered profile preserve the function and distinguish it from the paired Industrial silos. | `b381086131b7f454430a21b6dcfd3b95955ff4910289ca818bdc696bdd146fac` |
+| `bld_saurian_mine_future_v0` | A low exposed rock face with two mineral seams feeds a loaded tracked hauler. The open cut holds its shape from both sides. The OilWell keeps its tripod, the GoldMine its sluice, and the StoneQuarry its gantry and cut blocks. | `f05e2cb46f6f8ea5a32813173ff49fd39652349681144a72b1bccafd8a5cf2c8` |
+| `bld_saurian_temple_ancient_v0` | Standing stones enclose a sun altar with offering lights around a round court. The view through the stones separates this place of worship from the Iron TownCenter’s roofed hall and stair. | `db7dec6f264ef3d7681fe29411ccff02c5113aeb8cb62b5a483fad5519a7ed0f` |
+| `bld_saurian_temple_classical_v0` | Twin colonnades lead into a roofed sanctuary around a sun medallion. The aisle reads from both sides and the corresponding Classical TownCenter retains its dome above a stepped base. | `23f1b4aa8c70097529ff3cb6a6c5f6815a1a45720a10e020da7ba28bef9e07a6` |
+| `bld_saurian_temple_future_v0` | Two leaning pierced panels frame an open altar. They produce a tall triangular silhouette at both late ages, distinct from the upright crown and broad Ascension TownCenter. | `66c30e0d21487c718c31caabf5e3e88351ebc613fc890d8965235e677b99a688` |
+
+Compared with `7e905bb`, 154 GLBs changed in 87 listed lineages. The strict package loader accepted all 1,034 models in all 71 packages. The geometry check returned 3,230 ordered comparisons. Of the 60 checkpoint pairs visually examined in the candidate round, 56 pairs in 23 lineages retain their exact approved bytes and account for 88 ordered exceptions. The geometry check binds each surviving exception to the two reviewed GLBs and their original corner counts.
+
+The inherited Elf FishingHut observation remains open outside the RC4 list. Both of its original exports retain the same dock, leaf hut, skiff and bucket frame in the final sheets. The comparison gives 1,141 of 2,691 matching corners in each direction (42.40%). Its Industrial GLB has SHA-256 `aed534d3ddddf6415dee66142fa284148bf34bea06ad8e7b17568093698e982b`. Its Future GLB has SHA-256 `cf7a948b908a8ad5a68ed2977568753e65999880931ecc4885d7695697146de3`. This visual similarity limits any broader claim about the full catalog. The review covered the rendered assets and exported model evidence. Runtime and device verification are separate.
+
+Signed by `catalog_art_director`, 23 November 2026. Catalog evidence SHA-256 `755e649839bc18281984253149f5b4dfeda06f658d5db3f118b0c9f23914ce48`. The approval record binds this disposition to all 19 painted and 34 geometry pages. [Signed evidence and sheet hashes](art_direction_approval.json)
 
 

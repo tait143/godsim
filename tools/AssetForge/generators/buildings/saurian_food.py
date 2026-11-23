@@ -118,6 +118,33 @@ def fisher(m):
 
 
 def hut(m,hunting):
+    if hunting and m.era==1:
+        # The tracker can survey the reeds from an elevated, roofed blind.
+        # Its skin-curing court sits at ground level beside the ladder.
+        works.court(m,-.34,role="soil")
+        for x in (-.61,-.07):
+            for z in (-.03,.46):
+                m.rod("timber",(x,.08,z),(x,.76,z),.062)
+        m.slab("timber",-.34,.76,.215,.76,.09,.71,underside=True)
+        works.shell(m,-.34,.22,.56,.49,.30,.85)
+        m.rooflet(-.34,1.15,.22,.76,.70,.33,"roof")
+        for x in (-.427,-.253):
+            m.rod("trim",(x,.08,-.43),(x,.85,-.094),.024,n=4)
+        for i in range((6,4,2)[m.lod]):
+            u=(i+1)/((6,4,2)[m.lod]+1)
+            m.block("timber",-.34,.08+.77*u,-.43+.336*u,.19,.028,.040)
+        for z in (-.37,.37):
+            m.rod("timber",(.23,.08,z),(.47,.77,z),.040)
+            m.rod("timber",(.73,.08,z),(.47,.77,z),.040)
+        m.rod("trim",(.47,.76,-.43),(.47,.76,.43),.045)
+        if m.lod<2:
+            for x in (.31,.63):
+                m.rod("hide",(x,.35,-.33),(.47,.75,-.33),.035)
+        with m.transform(translate=(.47,.73,0),rotate_z=22):
+            m.box((0,-.205,0),(.046,.42,.45),m.color("hide"),material="hide",bottom=True)
+        if m.lod<2:
+            m.jar(.26,.08,-.54,.11,"turquoise")
+        return
     m.slab("soil",0,0,.02,1.75,.07,1.63,.965)
     m.house(-.12,.07,.19,1.38,1.04,1.05,role="metal" if m.era==0 else None)
     solar_badge(m,-.12,1.23 if not m.era else 1.31,.19,.114)

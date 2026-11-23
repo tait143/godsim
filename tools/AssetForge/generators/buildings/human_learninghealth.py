@@ -129,6 +129,69 @@ def planting(m,x,z,w,d):
 
 def herbalist(m):
     e=m.era
+    if e==1:
+        # The herb merchant tends four beds in a walled physic garden.
+        # A raised tiled portico shades the open counters on its northern side.
+        m.solid('plaster',-.02,.47,1.45,.40,.065,.65)
+        for x in (-.66,.63):
+            m.drum('ivory',x,.029,.066,.065,.619,.049)
+        m.hip(-.02,.33,1.64,.81,.619,.35)
+        m.entry(-.16,.27,.34,.072,.40)
+        for sx in (-.48,.40):
+            for z in (-.30,-.65):
+                m.solid('timber',sx,z,.53,.263,.065,.145)
+                m.solid('soil',sx,z,.485,.223,.145,.158)
+                for j in range((3,2,1)[m.lod]):
+                    px=sx+(j-((3,2,1)[m.lod]-1)/2)*.145
+                    m.dome((px,.158,z),.088,m.color('leaf'),rings=(2,2,1)[m.lod],
+                           segments=(8,6,5)[m.lod],squash=1.2,material='leaf')
+                    if m.lod==0: m.drum('flower',px,z,.024,.253,.28,.032,n=5)
+        if m.lod<2:
+            m.jar(.42,.13,.065,.134,.255)
+            m.windows(.41,.265,.307,.28,.196,1)
+        if m.lod==0:
+            m.pennon(-.65,.057,.66,.23)
+        return
+    if e==2:
+        # A rooftop drying kiln vents the long apothecary range. Copper
+        # alembic and receiver are joined by the condenser's sloping neck.
+        f=m.hall(-.30,.26,.86,.94,.73,rise=.38)
+        m.entry(-.38,f,.255,.074,.43)
+        m.drum('brick',-.30,.41,.238,.76,1.13,.193)
+        m.drum('slate',-.30,.41,.234,1.13,1.39,.058)
+        m.drum('metal',-.30,.41,.065,1.39,1.52,.052)
+        x,z=.42,-.18
+        m.drum('brick',x,z,.223,.065,.31)
+        m.drum('gold',x,z,.13,.31,.49,.227)
+        m.drum('gold',x,z,.227,.49,.69,.11)
+        m.drum('metal',x,z,.092,.69,.88,.063)
+        m.beam('gold',(x,.85,z),(.643,.625,-.456),.066)
+        m.jar(.644,-.46,.065,.11,.52)
+        if m.lod<2: planting(m,-.432,-.63,.661,.29)
+        if m.lod==0:
+            m.windows(-.085,f-.008,.31,.201,.198,1)
+            m.herbs(-.085,.246,f,.24)
+        return
+    if e==3:
+        # A medicinal plant carousel grows specimens on staggered trays.
+        # The dispensary sits against the lower shaft, beneath the collector.
+        x,z=.14,.13
+        m.drum('glass',x,z,.241,.065,1.31,.169)
+        for j in range(3):
+            a=.4+2.24*j
+            px,pz=x+.249*cos(a),z+.249*sin(a); y=.37+.327*j
+            m.drum('metal',px,pz,.266,y,y+.069,.33)
+            m.drum('soil',px,pz,.312,y+.069,y+.085)
+            for k in range((5,3,2)[m.lod]):
+                t=2*pi*k/(5,3,2)[m.lod]
+                m.dome((px+.182*cos(t),y+.085,pz+.182*sin(t)),.098,m.color('leaf'),
+                       rings=(2,2,1)[m.lod],segments=(9,6,4)[m.lod],squash=1.48,material='leaf')
+        m.drum('ivory',x,z,.162,1.31,1.39,.397)
+        m.cupola('glass',x,z,.397,1.39,.119)
+        m.course('ivory',-.246,-.321,.66,.53,.065,.441,.105)
+        m.entry(-.315,-.586,.209,.070,.276,lintel='metal')
+        if m.lod<2: m.cross(-.11,.346,-.592,.14)
+        return
     z=.27 if e!=3 else .24
     x=-.13 if e!=2 else -.19
     w=(1.16,1.30,1.12,1.24)[e]
@@ -157,6 +220,50 @@ def herbalist(m):
 
 def bathhouse(m):
     e=m.era
+    if e==2:
+        # A barrel-vaulted municipal swimming hall with a recessed glazed
+        # entrance and a separate boiler stack. Roof ribs span the entire pool.
+        x,z=-.199,.052
+        m.course('brick',x,z,1.10,1.30,.065,.567,.043)
+        for i in range((12,7,4)[m.lod]):
+            n=(12,7,4)[m.lod]; a=pi*i/n; b=pi*(i+1)/n
+            def point(t,d): return (x+.593*cos(t),.565+.484*sin(t),z+d)
+            m.face('glass',(point(a,-.68),point(b,-.68),point(b,.68),point(a,.68)))
+            for d in (-.68,.68):
+                tri=[(x,.565,z+d),point(a,d),point(b,d)]
+                m.face('glass',tri if d>0 else tri[::-1])
+            if m.lod==0:
+                for d in (-.46,-.10,.26,.59):
+                    def rib(t,v): return (x+.605*cos(t),.566+.496*sin(t),z+v)
+                    m.face('ivory',[rib(a,d-.011),rib(b,d-.011),rib(b,d+.011),rib(a,d+.011)])
+        m.drum('brick',.551,.417,.146,.065,1.35,.087)
+        m.drum('trim',.551,.417,.11,1.35,1.43)
+        m.entry(x,-.598,.332,.071,.39)
+        if m.lod<2:
+            for sx in (-.57,.16):
+                m.windows(sx,-.603,.265,.182,.196,1)
+            m.solid('metal',.49,-.18,.29,.69,.065,.279)
+        return
+    if e==3:
+        # The bathing terraces step down an occupied core. Alternating basins
+        # overlook the entry court and a narrow falling sheet connects them.
+        m.course('ivory',-.08,.19,1.36,.99,.064,.35,.19)
+        m.course('glass',-.22,.32,.83,.66,.35,.64,.14)
+        m.course('ivory',-.22,.32,.93,.76,.64,.705,.15)
+        for x,z,r,base in ((-.29,.36,.318,.705),(.294,.07,.32,.35),(.37,-.522,.29,.065)):
+            m.drum('ivory',x,z,r,base,base+.104,r*1.10)
+            m.drum('water',x,z,r*.94,base+.104,base+.112)
+            if m.lod==0:
+                for s in (-1,1):
+                    m.drum('gold',x+s*r*.28,z-r*.94,.015,base+.101,base+.178)
+        m.course('ivory',-.44,-.388,.54,.45,.065,.333,.069)
+        m.entry(-.44,-.613,.233,.072,.211,lintel='metal')
+        if m.lod<2:
+            m.solid('water',.36,-.304,.15,.068,.166,.45)
+            m.windows(-.23,-.017,.429,.41,.14,2)
+        if m.lod<2:
+            planting(m,-.347,-.762,.46,.145)
+        return
     x,z=-.31,.25
     f=m.hall(x,z,.90,.92,.65,roof=False)
     m.drum('trim',x,z,.514,.62,.71)
@@ -218,6 +325,65 @@ def library(m):
 
 def scriptorium(m):
     e=m.era
+    if e==1:
+        # The chapterhouse has high reading lights. A sheltered open desk
+        # occupies the apse beside the door, facing out into the garden.
+        x,z=-.16,.20
+        m.drum('wall',x,z,.614,.065,.789,n=8)
+        m.drum('timber',x,z,.637,.789,.844,n=8)
+        m.drum('roof',x,z,.70,.844,1.27,.134,n=8)
+        m.cupola('gold',x,z,.133,1.27,.099)
+        m.course('wall',-.26,-.343,.49,.43,.065,.485,.035)
+        m.entry(-.26,-.558,.241,.068,.347)
+        m.hip(-.26,-.345,.58,.52,.485,.195)
+        m.solid('timber',.414,-.399,.39,.272,.065,.336)
+        m.folio(.413,.34,-.398,.39)
+        if m.lod<2:
+            for j in (0,1,2,5,6):
+                a=2*pi*(j+.5)/8
+                with m.transform(translate=(x+.574*sin(a),0,z+.574*cos(a)),rotate_y=180+a*180/pi):
+                    m.windows(0,0,.397,.218,.28,1)
+        if m.lod==0:
+            planting(m,-.633,-.497,.296,.34)
+        return
+    if e==2:
+        # Daylight falls through three tall roof monitors onto copying benches.
+        # A separate binding tower stores finished volumes above the loading bay.
+        m.solid('brick',-.27,.19,.91,1.10,.065,.66)
+        for z in (-.17,.194,.558):
+            m.wedge((-.27,.66,z),1.01,.355,.243,m.color('slate'),material='slate')
+            if m.lod<2:
+                with m.transform(translate=(0,0,z+.182),rotate_y=180):
+                    m.windows(.27,0,.698,.78,.14,3)
+        m.course('brick',.38,-.134,.45,.66,.065,1.082,.04)
+        m.hip(.38,-.134,.51,.72,1.082,.21,'roof')
+        m.entry(.38,-.464,.228,.067,.406)
+        m.solid('timber',-.26,-.53,.64,.21,.065,.262)
+        m.folio(-.29,.269,-.529,.43)
+        if m.lod<2:
+            m.windows(.38,-.469,.679,.269,.207,2)
+        if m.lod==0:
+            m.pennon(.38,-.121,1.27,.262)
+            m.herbs(.38,.609,-.47,.264)
+        return
+    if e==3:
+        # A vertical archive wraps reading pods around the lift shaft. Each
+        # stacked floor has a broad projecting visor like the leaf of a book.
+        x,z=.01,.21
+        m.course('ivory',x,z,.65,.62,.065,1.30,.134)
+        for j,(dx,dz) in enumerate(((-.22,-.20),(.22,.02),(-.10,.16))):
+            y=.314+j*.334
+            m.course('glass',x+dx,z+dz,.86,.64,y,y+.205,.11)
+            m.course('ivory',x+dx,z+dz,1.02,.77,y+.205,y+.271,.14)
+            if m.lod==0:
+                for k in (-.22,0,.22):
+                    m.solid('metal',x+dx+k,z+dz-.322,.026,.041,y+.014,y+.186)
+        m.course('wall',-.10,-.36,.59,.49,.065,.379,.06)
+        m.entry(-.10,-.606,.235,.071,.251,lintel='metal')
+        m.solid('metal',.403,-.532,.155,.175,.065,.273)
+        m.folio(.402,.277,-.53,.382)
+        if m.lod<2: planting(m,-.54,-.57,.321,.24)
+        return
     f=m.hall(-.05,.13,1.51,1.00,(.73,.86,.89,1.02)[e],rise=(.39,.46,.29,.19)[e])
     m.porch(-.46,f,.074,.44,.39)
     m.windows(.23,f-.009,.31,.58,.24,(3,2,1)[m.lod])
@@ -275,6 +441,57 @@ def university(m):
 
 def observatory(m):
     e=m.era
+    if e==2:
+        # An open equatorial refractor on a brick observing pier. The glass
+        # objective, brass lens cell and eyepiece share the tilted optical axis.
+        x,z=.18,.055
+        m.drum('brick',x,z,.334,.065,.265,.285)
+        m.drum('wall',x,z,.223,.265,.69,.183)
+        m.beam('metal',(x,.663,z),(x-.133,.933,z),.118)
+        with m.transform(translate=(x-.09,.942,z),rotate_z=-54):
+            m.drum('gold',0,0,.090,-.475,.102,.129)
+            m.drum('metal',0,0,.132,.102,.54,.159)
+            m.drum('gold',0,0,.183,.54,.65,.179)
+            m.drum('glass',0,0,.147,.65,.662)
+            m.drum('trim',0,0,.055,-.577,-.475)
+            if m.lod==0:
+                for y in (-.31,-.08,.30):
+                    m.drum('gold',0,0,.146 if y>.2 else .119,y,y+.036)
+        f=m.hall(-.48,.38,.56,.59,.518,rise=.19)
+        m.entry(-.48,f,.236,.070,.312)
+        if m.lod<2:
+            m.solid('timber',.12,-.515,.53,.28,.065,.282)
+            m.folio(.12,.286,-.515,.35)
+        if m.lod==0: m.pennon(-.65,.375,.579,.237)
+        return
+    if e==3:
+        # An offset-focus radio dish on a fork mount; its feed is suspended
+        # above the concave reflector. A low service cabin sits to the left.
+        x,z=.10,.13
+        m.drum('metal',x,z,.311,.065,.256,.242)
+        for s in (-1,1):
+            m.beam('ivory',(x+s*.183,.232,z),(x+s*.233,.728,z),.096)
+        with m.transform(translate=(x,.751,z),rotate_x=-25):
+            n=(22,12,7)[m.lod]
+            def rim(i,r,y):
+                t=2*pi*i/n
+                return (r*cos(t),y,r*sin(t))
+            for i in range(n):
+                j=(i+1)%n
+                m.face('ivory',[(0,.003,0),rim(j,.618,.292),rim(i,.618,.292)])
+                m.face('metal',[(0,-.104,0),rim(i,.618,.269),rim(j,.618,.269)])
+                m.face('gold',[rim(j,.618,.269),rim(i,.618,.269),rim(i,.618,.292),rim(j,.618,.292)])
+            for a in (0,2*pi/3,4*pi/3):
+                m.beam('metal',(.535*cos(a),.257,.535*sin(a)),(0,.562,0),.026)
+            m.drum('accent',0,0,.064,.535,.635,.037)
+        f=m.hall(-.526,-.365,.52,.47,.353,rise=.10)
+        m.entry(-.526,f,.214,.069,.237,lintel='metal')
+        if m.lod==0:
+            m.pennon(-.70,-.29,.419,.246)
+            m.herbs(-.69,.169,f,.12)
+            m.solid('metal',.10,.13,.26,.32,.23,.392)
+            m.folio(-.344,.234,-.612,.165)
+        return
     x,z=-.14,.17
     m.drum('fieldstone',x,z,.64,.055,.20,.605)
     m.drum('wall' if e!=2 else 'brick',x,z,.59,.20,.90,.54)
@@ -314,6 +531,24 @@ def observatory(m):
 
 def printworks(m):
     e=m.era
+    if e==2:
+        # The rotary press carries a broad roll of paper between cheek frames.
+        # The two-storey typesetting room's high windows light the compositors.
+        f=m.hall(-.28,.313,1.02,.72,1.19,rise=.26)
+        m.entry(-.49,f,.237,.071,.411)
+        m.windows(-.24,f-.011,.815,.66,.205,3 if m.lod==0 else 2)
+        m.solid('metal',.219,-.459,.83,.53,.065,.199)
+        for x in (-.114,.556):
+            m.solid('trim',x,-.459,.071,.412,.199,.714)
+        for z,y,r,role in ((-.38,.50,.158,'metal'),(-.546,.684,.113,'ivory')):
+            with m.transform(translate=(-.16,y,z),rotate_z=-90):
+                m.drum(role,0,0,r,0,.765 if role=='metal' else .739)
+        with m.transform(translate=(.219,.403,-.652),rotate_x=-29):
+            m.box((0,0,0),(.55,.033,.278),m.color('ivory'),material='ivory',bottom=True)
+        if m.lod==0:
+            m.flue(-.65,.443,1.226,1.57,.108)
+            m.herbs(.079,.471,f,.165)
+        return
     f=m.hall(-.21,.27,1.17,.89,.78+.08*(e-1),rise=.32)
     m.porch(-.48,f,.073,.42,.35)
     if m.lod<2: m.windows(.095,f-.009,.37,.38,.21,2)
@@ -374,6 +609,31 @@ def clinical_tower(m):
 
 def lab(m):
     e=m.era
+    if e==3:
+        # A three-point materials testing frame encircles the sample stage.
+        # The low control room gives operators a direct view into the chamber.
+        x,z=.17,.20
+        m.drum('metal',x,z,.472,.065,.188,.423)
+        m.drum('glass',x,z,.282,.188,.601,.267)
+        m.drum('accent',x,z,.288,.601,.663,.241)
+        for j in range(3):
+            a=2*pi*j/3+.16
+            outside=(x+.484*cos(a),.188,z+.484*sin(a))
+            top=(x+.178*cos(a),1.101,z+.178*sin(a))
+            m.beam('ivory',outside,top,.135)
+            if m.lod==0:
+                m.drum('metal',outside[0],outside[2],.084,.065,.266,.073)
+        m.drum('metal',x,z,.245,1.06,1.187,.184)
+        m.drum('gold',x,z,.065,.78,1.063)
+        f=m.hall(-.375,-.408,.79,.46,.448,rise=.12,windows=False)
+        m.entry(-.477,f,.23,.07,.302,lintel='metal')
+        if m.lod<2:
+            m.windows(-.131,f-.006,.207,.137,.16,1)
+            m.windows(-.36,-.169,.215,.52,.124,2)
+        if m.lod==0:
+            m.pennon(-.596,-.39,.562,.22)
+            m.herbs(-.131,.178,f,.195)
+        return
     f=m.hall(-.28,.17,.97,1.22,.85 if e==2 else 1.01,rise=.24)
     m.porch(-.32,f,.073,.42,.42)
     x=.47
