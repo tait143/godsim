@@ -594,25 +594,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 766,
+  "triangles": 638,
   "lod_triangles": [
-   766,
-   397,
-   218
+   638,
+   362,
+   188
   ],
   "bounds": [
    [
-    -0.8349999785423279,
+    -0.8880000114440918,
     0.0,
-    -0.8960000276565552
+    -0.7559999823570251
    ],
    [
-    0.8466399908065796,
-    1.8623168468475342,
-    0.8450000286102295
+    0.7459999918937683,
+    1.3639999628067017,
+    0.8389999866485596
    ]
   ],
-  "bytes": 106832,
+  "bytes": 95272,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_temple_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_future_v0.png",

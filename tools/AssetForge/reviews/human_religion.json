@@ -482,6 +482,46 @@
           }
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_human_temple_future_v0",
+          "evidence_sha256": "caea07c4268862d40a2e6da898a630364c7e3d305f4480fdc056329959e647b7",
+          "observations": "Three steep triangular sanctuary ribs form a procession over the stairs and portico. Blue roof panels, a luminous gable emblem and corner lights read in both future palettes. At LOD2 the ribs, doorway, grounded steps and corner lanterns remain clear, unlike the earlier dome.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            638,
+            362,
+            188
+          ],
+          "serialized_sha256": "a1708b2201389addbfc4a8b20246f710cbdd7b3f36a788584acf561996a38494",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_religion-01.png",
+            "rc6/families/human-Temple-v0.png"
+          ]
+        }
+      ]
     }
   ]
 }

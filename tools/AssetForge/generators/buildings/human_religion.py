@@ -264,6 +264,40 @@ def shrine(m,era):
 
 
 def temple(m,era):
+    if era==3:
+        # A folded-glass nave rises behind a sheltered processional forecourt.
+        # Stone ribs at its entrance and apse carry the triangular roof.
+        m.course('fieldstone',-.071,.154,1.44,1.37,0,.138,.117)
+        m.steps(-.071,-.524,.71,.139,n=3,tread=.08)
+        with m.transform(translate=(-.071,.135,.246),rotate_y=90):
+            m.prism_x((0,0,0),.955,1.23,1.16,m.color('glass'),material='glass')
+        for z in ((-.276,.268,.766) if m.lod<2 else (-.276,.766)):
+            for s in (-1,1):
+                # Each rafter terminates against the ridge cap on its own side.
+                m.beam('ivory',(-.071+s*.622,.158,z),(-.071+s*.050,1.294,z),.087)
+            m.block('ivory',(-.071,1.303,z),(.117,.122,.098),taper=.26)
+        m.pointed_light(-.071,.136,-.236,.440,.65,'door','ivory')
+        if m.lod<2: m.rose(-.071,.825,-.237,.169,future=True)
+        for s in (-1,1):
+            m.drum('ivory',-.071+s*.302,.136,-.486,.051,.389,.041)
+        m.block('metal',(-.071,.528,-.409),(.758,.071,.39))
+        for s in (-1,1):
+            x=-.071+s*.693
+            m.drum('wall',x,.039,-.401,.124,.239,.10)
+            if m.lod<2:
+                m.flame(x,.273,-.401,.225,late=True)
+            else:
+                m.pyramid((x,.274,-.401),.087,.077,.119,m.color('ascension'),material='ascension')
+        if m.lod<2:
+            for x in (-.764,.622):
+                m.standard(x,.242,-.506,.096,.122)
+        if m.lod==0:
+            with m.transform(translate=(-.071,0,.725),rotate_y=180):
+                m.rose(0,.587,-.002,.120,future=True)
+            for z in (-.105,.47):
+                for s in (-1,1):
+                    m.beam('metal',(-.071+s*.416,.525,z),(-.071+s*.194,.951,z),.033)
+        return
     if era==1:
         # A circular sanctuary, ringed by a peristyle beneath a tiled cone.
         # A broad stone approach and a projecting door bay interrupt the ring.

@@ -148,25 +148,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 622,
+  "triangles": 650,
   "lod_triangles": [
-   622,
-   354,
-   190
+   650,
+   370,
+   176
   ],
   "bounds": [
    [
-    -0.7900000214576721,
+    -0.8744999766349792,
     0.0,
-    -0.8784999847412109
+    -0.8565000295639038
    ],
    [
-    0.7900000214576721,
-    1.3575999736785889,
-    0.699999988079071
+    0.8389999866485596,
+    1.4739999771118164,
+    0.8345000147819519
    ]
   ],
-  "bytes": 98828,
+  "bytes": 92160,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_barracks_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_industrial_v0.png",
@@ -366,25 +366,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 674,
+  "triangles": 618,
   "lod_triangles": [
-   674,
-   384,
-   194
+   618,
+   352,
+   168
   ],
   "bounds": [
    [
-    -1.4420000314712524,
+    -1.3938735723495483,
     0.0,
-    -0.1940000057220459
+    -0.5
    ],
    [
-    1.4420000314712524,
-    1.1269999742507935,
-    0.19349999725818634
+    1.2630000114440918,
+    1.757580041885376,
+    0.40299999713897705
    ]
   ],
-  "bytes": 112860,
+  "bytes": 102008,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_palisade_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_palisade_classical_v0.png",
@@ -585,25 +585,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 502,
+  "triangles": 628,
   "lod_triangles": [
-   502,
-   286,
-   132
+   628,
+   373,
+   187
   ],
   "bounds": [
    [
-    -0.4000000059604645,
+    -0.4059999883174896,
     0.0,
-    -0.40799999237060547
+    -0.38600000739097595
    ],
    [
-    0.4000000059604645,
-    1.7311475276947021,
-    0.37700000405311584
+    0.4059999883174896,
+    1.7467836141586304,
+    0.38600000739097595
    ]
   ],
-  "bytes": 78852,
+  "bytes": 102840,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_watchtower_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_watchtower_industrial_v0.png",

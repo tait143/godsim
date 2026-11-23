@@ -470,6 +470,80 @@
           }
         }
       ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_human_palisade_ancient_v0",
+          "evidence_sha256": "bcd39e2ec4b93fc10384dc13465ff1eeff35f88660484a5b324c8d047f060089",
+          "observations": "Two angled runs of spiked timber enclose the approach to a tall lookout. The corner and raised guard platform distinguish this from the later central-gate fence. At the far level the timbers merge into broader panels but both defensive runs, the lookout and the pointed top line persist.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            754,
+            451,
+            235
+          ],
+          "serialized_sha256": "052376db2fe4d95b6a08fb707aefcbf925c78a7a08f58d89fbe3651ffb79612b",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_military-01.png",
+            "rc6/families/human-Palisade-v0.png"
+          ]
+        },
+        {
+          "id": "bld_human_watchtower_industrial_v0",
+          "evidence_sha256": "5c937e735d143b298e40191d2ac901697b4a345364b010d95cf73deb1fcebd6e",
+          "observations": "A masonry shaft flares to solid foundations below a dark glazed lookout and a bright searchlight. The side entrance hut is grounded and the rear angle shows the lens mounting. At LOD2 the lens stays visible against its bracket, distinct from the Dwarf open-frame tower.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            689,
+            387,
+            186
+          ],
+          "serialized_sha256": "5b02eba2250eb6e6e46461a4c976acf8781750ebdceed8755b39da02904d181a",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_military-01.png",
+            "rc6/families/human-Watchtower-v0.png"
+          ]
+        }
+      ]
     }
   ]
 }

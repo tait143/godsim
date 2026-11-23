@@ -113,6 +113,54 @@ def picket(m, x, h, r, n, wood):
 
 
 def palisade(m, era):
+    if era==0:
+        # Ramped, earth-backed log fence. The bent entrance and staggered
+        # defensive stakes protect the narrow approach to the fold.
+        for x,w,turn in ((-.684,.945,-23),(.735,1.30,13)):
+            with m.transform(translate=(x,0,.031),rotate_y=turn):
+                m.block('soil',(0,.132,.045),(w,.264,.39),taper=.26)
+                m.block('timber',(0,.339,.075),(w*.93,.274,.123))
+                count=(9,6,4)[m.lod]
+                for j in range(count):
+                    px=w*.90*((j+.5)/count-.5)
+                    h=.658+.065*(j%3)
+                    if m.lod==2:
+                        m.pyramid((px,.473,.073),w*.91/count,.12,h-.311,m.color('timber'),
+                                  material='timber',apex_offset=(0,0,-.155))
+                        continue
+                    m.beam('timber',(px,.202,.044),(px,h,-.121),.084)
+                    m.pyramid((px,h-.019,-.121),.100,.104,.173,m.color('hide'),material='hide',
+                              apex_offset=(0,0,-.045))
+                if m.lod<2:
+                    m.beam('trim',(-w*.465,.44,-.027),(w*.465,.44,-.027),.071)
+        for px in (-.22,.125):
+            if m.lod<2: post(m,'fieldstone',px,-.073,0,.28,.151)
+            post(m,'timber',px,-.073,.27 if m.lod<2 else 0,.78,.101)
+        m.block('timber',(-.051,.402,-.079),(.310,.438,.090))
+        # The earthwork ends at a raised fighting platform. Its inboard
+        # ladder runs down behind the stakes, leaving the bend unobstructed.
+        x,z=-1.10,.075
+        drum(m,'soil',x,z,0,.194,.354,.274)
+        for dx in (-.170,.170):
+            for dz in (-.114,.114):
+                post(m,'timber',x+dx,z+dz,.155,.98,.081)
+        drum(m,'timber',x,z,.846,.964,.278,.296)
+        drum(m,'hide',x,z,.956,1.117,.291,.28)
+        for px in (-.191,.180):
+            post(m,'timber',x+px,z+.112,1.079,1.434,.051)
+        m.beam('timber',(x-.201,1.423,z+.118),(x+.199,1.423,z+.118),.055)
+        hanging(m,x,1.417,z+.081,.255,.224)
+        if m.lod<2:
+            m.beam('trim',(-.19,.233,-.142),(.091,.571,-.142),.042)
+            for dx in (-.065,.065):
+                m.beam('trim',(x+dx,.037,.393),(x+dx,.96,z+.218),.028)
+            for i in range((6,4)[m.lod]):
+                u=(i+1)/((6,4)[m.lod]+1)
+                m.beam('timber',(x-.065,.037+.923*u,.393-.1*u),
+                       (x+.065,.037+.923*u,.393-.1*u),.024)
+        if m.lod==0:
+            hanging(m,.431,.585,-.172,.145,.196)
+        return
     h = .68 if era == 0 else .85
     wood = "roof" if era==0 else "timber"
     for side in (-1,1):
@@ -205,6 +253,44 @@ def stonewall(m, era):
 
 def lookout(m, era):
     """Iron timber trestle, stone belfry and a brick signal tower."""
+    if era==2:
+        # A coastal searchlight and enclosed watch room stand on a flared concrete pier.
+        x,z=-.138,.071
+        drum(m,'fieldstone',x,z,0,.106,.306,.280)
+        drum(m,'wall',x,z,.104,.67,.256,.171)
+        drum(m,'ivory',x,z,.667,.788,.171,.322)
+        drum(m,'brick',x,z,.783,.892,.328,.308)
+        drum(m,'glass',x,z,.889,1.075,.297,.287)
+        drum(m,'metal',x,z,1.071,1.125,.334,.326)
+        if m.lod<2:
+            drum(m,'trim',x,z,1.123,1.207,.111,.092)
+        for side in (-1,1):
+            post(m,'metal',x+side*.135,z,1.174,1.378,.062)
+        with m.transform(translate=(x,1.391,z),rotate_x=-80):
+            drum(m,'metal',0,0,-.098,.091,.128,.157)
+            drum(m,'ivory',0,0,.091,.112,.153,.137)
+            drum(m,'emissive',0,0,.112,.120,.126,.119)
+        m.course('brick',.208,-.113,.438,.513,0,.316,.044)
+        m.block('slate',(.208,.343,-.113),(.462,.061,.536))
+        if m.lod<2:
+            m.entry(.220,-.371,.153,.012,.227)
+        else:
+            wall_plate(m,.220,.124,-.372,.152,.223,'door')
+        if m.lod<2:
+            for i in range((10,6)[m.lod]):
+                a=math.tau*i/(10,6)[m.lod]
+                post(m,'ivory',x+.29*math.cos(a),z+.29*math.sin(a),.883,1.079,.026)
+            hanging(m,x-.038,.866,z-.315,.118,.142)
+        if m.lod==0:
+            for s in (-1,1):
+                m.beam('metal',(x+s*.144,.111,z-.184),(x+s*.109,.674,z-.133),.032)
+            for i in range(6):
+                u=i/6
+                m.beam('metal',(x-.14+.035*u,.150+.52*u,z-.178+.048*u),
+                       (x+.14-.035*u,.150+.52*u,z-.178+.048*u),.023)
+            m.beam('metal',(.334,.345,.030),(.334,.601,.030),.025)
+            wall_plate(m,.352,.175,-.376,.068,.094)
+        return
     h=(.83,1.06,1.14)[era]
     m.course("fieldstone",0,.015,.67,.63,0,.076,.064)
     if era==0:

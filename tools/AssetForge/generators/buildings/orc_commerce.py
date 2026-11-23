@@ -341,6 +341,44 @@ def transfer_dock(m):
 def harbor(m):
     if m.era==3:
         return transfer_dock(m)
+    if m.era==2:
+        # A marine railway hauls the cargo boat stern-first into its ribbed
+        # shed. The working quay stands on piles beside the wet end of the slip.
+        m.block('water',.024,0,-.533,1.83,.044,.84)
+        m.block('fieldstone',.02,0,.396,1.83,.123,1.01,.055)
+        x=.112
+        for s in (-1,1):
+            m.block('metal',x+s*.195,.104,.091,.046,.041,1.54)
+            if m.lod<2:
+                for z in (-.31,.39):
+                    m.block('timber',x+s*.177,.129,z,.112,.081,.158)
+            else:
+                m.block('timber',x+s*.177,.129,.04,.112,.081,.82)
+        with m.transform(translate=(x,.167,-.126)):
+            boat(m,0,0,.78,.777)
+        for s in (-1,1):
+            for z in (.071,.719):
+                m.block('brick',x+s*.44,.119,z,.165,.265,.154,.09)
+                m.post('metal',(x+s*.44,.379,z),(x+s*.417,.884,z),.061,.056)
+                if m.lod<2:
+                    m.post('trim',(x+s*.417,.637,z),(x+s*.286,.908,z),.041)
+            m.block('metal',x+s*.411,.865,.392,.125,.108,.87)
+        with m.transform(translate=(x,0,.391),rotate_y=90):
+            m.gable_roof((0,.954,0),.97,1.19,.324,m.col('slate'),overhang=0,material='slate')
+        m.shell(-.644,.574,[(.119,.117,'brick'),(.732,.089,'metal'),(.799,.112,'trim')])
+        for z in (-.68,-.13):
+            m.block('timber',-.625,0,z,.096,.19,.106)
+        deck(m,-.629,.187,-.39,.33,.81)
+        crate(m,-.63,.222,-.36,.207)
+        if m.lod<2:
+            for s in (-1,1):
+                m.tusk(x+s*.394,.963,.078,s,.312)
+            crate(m,-.641,.123,.235,.211)
+        if m.lod==0:
+            for z in (-.63,-.14):
+                m.post('metal',(-.753,.222,z),(-.753,.419,z),.022)
+            m.post('trim',(-.753,.416,-.642),(-.753,.416,-.121),.021)
+        return
     m.block("water",.49,0,0,.93,.042,1.88)
     for x in (-.82,.035):
         for z in (-.77,.67):

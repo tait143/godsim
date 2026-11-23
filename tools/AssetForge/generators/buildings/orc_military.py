@@ -286,6 +286,43 @@ def tower(m,small=False):
 
 def palisade(m):
     e=m.era
+    if e==1:
+        # A gate tower commands the angle between two returned fences.
+        # The hoarding overhangs the doors on brackets braced into the jambs.
+        x=-.435
+        for s in (-1,1):
+            for z in (-.128,.219):
+                m.shell(x+s*.259,z,[(0,.118,'fieldstone'),(.206,.125,'timber'),
+                                     (.933,.094,'trim')],(9,6,4)[m.lod])
+        gate(m,x,-.103,.515,.802,horns=False,lintel_z=-.036)
+        slab(m,'timber',x,.884,.036,.792,.232,.672,.08)
+        for s in (-1,1):
+            for z in (-.159,.218):
+                rail(m,'timber',(x+s*.290,.625,z*.75),(x+s*.357,.907,z),.050)
+            m.tusk(x+s*.315,1.116,-.177,s,.52)
+        sawroof(m,x,.036,1.113,.864,.745,.407)
+        for s,start,end in ((-1,-.81,-1.369),(1,-.06,1.328)):
+            count=(8 if s==1 else 4) if m.lod==0 else (5 if s==1 else 3)
+            if m.lod==2:
+                count=4 if s==1 else 2
+            dx=(end-start)/count
+            for i in range(count):
+                u=(i+.5)/count
+                px=start+u*(end-start)
+                z=.079+.199*u
+                h=.718-.137*u+.070*(i%2)
+                r=abs(dx)*.58
+                m.shell(px,z,[(0,r,'timber'),(h-.125,r*.87,'ivory'),(h,0,'trim')],
+                        (8,5,4)[m.lod],flatten=.8)
+            for y in (.287,.472):
+                rail(m,'trim',(start,y,-.006),(end,y-.073,.192),.042,faces=(7,5,4)[m.lod])
+        if m.lod<2:
+            shield(m,x,1.012,-.303,.214)
+            m.flag(x+.152,1.329,.052,.442,.232)
+        if m.lod==0:
+            for px in (.235,.789,1.168,-1.125):
+                rail(m,'timber',(px,.027,.418),(px,.458,.173),.047)
+        return
     # Two courses of hand-hewn upright stakes stop at the broad clan gate.
     for side in (-1,1):
         x=side*.858

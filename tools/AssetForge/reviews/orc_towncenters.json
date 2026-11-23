@@ -214,6 +214,139 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_orc_town_center_ancient_iron_v0",
+          "evidence_sha256": "88b7662e648d26070abf11925c0240af45824e16040f6fab7b4c6a1039fd2111",
+          "observations": "Round timber gate towers flank an iron-roofed central span. The large gap between their upper silhouettes, the connecting roof, and the front approach remain legible at distance. Red drums and the standard fix its Orc identity up close.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            998,
+            458,
+            259
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.637,
+            "primary_picture_pair": [
+              "bld_orc_town_center_ancient_iron_v0",
+              "bld_orc_town_center_classical_medieval_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2298
+            ],
+            "max_shared_direction": [
+              "bld_orc_town_center_ancient_v0",
+              "bld_orc_town_center_ancient_iron_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/orc_towncenters-01.png": "3299dbbe038408d7142007c16a2017e1a4042468c041fe116584f8b393df553d",
+            "tools/AssetForge/reviews/rc6/families/orc-TownCenter-v0.png": "ed9ed8cfbeb10efacf3197a940455f4f5b8073e08c58f63be1e68efafd39a03e"
+          },
+          "glb_sha256": "cb651ad24f99e474fe7a3de14a917c3da9962394f3c9fc5986f794c24fefc1d7",
+          "age_preview_sha256": {
+            "iron": "f2a30acb9d55e04e2de169c168e0abc601f7cbf391a6292b5d5990ccabbd3ec8"
+          }
+        },
+        {
+          "id": "bld_orc_town_center_ancient_v0",
+          "evidence_sha256": "de10d5e5354dbcf7b0660a666d2b85b0f1d0ef7b7affd24234e1672bdf922164",
+          "observations": "The roof poles reach the ground on both sides of a posted canvas assembly tent. Its open triangular end, central drum, and projecting entrance platform persist at all LODs. The Bronze hall beyond it has enclosed walls and cap turrets.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            766,
+            327,
+            221
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.693,
+            "primary_picture_pair": [
+              "bld_orc_town_center_ancient_v0",
+              "bld_orc_town_center_classical_medieval_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2298
+            ],
+            "max_shared_direction": [
+              "bld_orc_town_center_ancient_v0",
+              "bld_orc_town_center_ancient_bronze_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/orc_towncenters-01.png": "3299dbbe038408d7142007c16a2017e1a4042468c041fe116584f8b393df553d",
+            "tools/AssetForge/reviews/rc6/families/orc-TownCenter-v0.png": "ed9ed8cfbeb10efacf3197a940455f4f5b8073e08c58f63be1e68efafd39a03e"
+          },
+          "glb_sha256": "e46cf3d51b26f5d05f1c61c5442eba2d6f5060f20bf8792101862a85aeff29eb",
+          "age_preview_sha256": {
+            "dawn": "c329a8e036d7ad58542b0de67d88f7296f843addb25640ad336ccf0df2c9ef51"
+          }
+        },
+        {
+          "id": "bld_orc_town_center_classical_renaissance_v0",
+          "evidence_sha256": "6f0ba9c317e45d3a667ce8e5a15b86f9de311e51e13304c62c28d4f45bb2de41",
+          "observations": "A long clay-roofed arcade meets a round, flag-topped watch turret on one corner. The stepped plinth, corner tower and line of columns survive the last reduction. This horizontal hall breaks the round central plan used by its two nearest civic ages.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1138,
+            452,
+            259
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.621,
+            "primary_picture_pair": [
+              "bld_orc_town_center_ancient_iron_v0",
+              "bld_orc_town_center_classical_renaissance_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2298
+            ],
+            "max_shared_direction": [
+              "bld_orc_town_center_ancient_v0",
+              "bld_orc_town_center_classical_renaissance_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/orc_towncenters-01.png": "3299dbbe038408d7142007c16a2017e1a4042468c041fe116584f8b393df553d",
+            "tools/AssetForge/reviews/rc6/families/orc-TownCenter-v0.png": "ed9ed8cfbeb10efacf3197a940455f4f5b8073e08c58f63be1e68efafd39a03e"
+          },
+          "glb_sha256": "fd4390ae2b8c1d1a89c3785126b70196da09bccf5af881dc3b28a239cccefa38",
+          "age_preview_sha256": {
+            "renaissance": "9ce0f583fb9945f64bee08ffb4cbd3c97e052572a00c97e408f3e0975d8ad06f"
+          }
+        }
+      ]
     }
   ]
 }

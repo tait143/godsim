@@ -8,6 +8,7 @@ from building_scope import AGES, ROOT, package_models
 from forge import MeshBuilder, publish
 from forge.atlas import palette
 from generators.buildings import saurian_delta_works as works
+from generators.buildings.saurian_council_halls import COUNCILS
 from PIL import Image, ImageDraw
 
 PACKAGE = "saurian_towncenters"
@@ -233,6 +234,9 @@ def renaissance_council(m):
 def build(spec,lod):
     m=Delta(spec,lod)
     age=AGES.index(spec.ages[0])
+    if age in COUNCILS:
+        COUNCILS[age](m)
+        return m
     if age==5:
         renaissance_council(m)
         return m

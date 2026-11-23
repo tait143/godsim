@@ -131,6 +131,67 @@ def shield(m,x,y,z,r):
 
 
 def armory(m,era):
+    if era==0:
+        # An open issue court. Long shields hang on the masonry rear wall,
+        # helmets sit on the quartermaster's counter, and javelins lie in a
+        # horizontal trestle along the return. The entry between them stays open.
+        if m.lod==2:
+            m.block('fieldstone',(0,.041,.02),(1.81,.082,.84))
+        else:
+            band(m,'fieldstone',0,.02,1.81,.84,0,.082,.075)
+        m.block('wall',(-.234,.344,.305),(1.10,.526,.146),taper=.083)
+        m.block('timber',(-.237,.619,.304),(1.16,.064,.168))
+        # The linen awning covers the quartermaster while the counter projects
+        # forward into daylight. Its highest edge rests on the back of the booth.
+        m.block('timber',(.581,.50,.304),(.502,.841,.086))
+        for px in (.368,.784):
+            m.block('timber',(px,.406,-.092),(.053,.65,.057))
+        with m.transform(translate=(.583,.817,.094),rotate_x=-23):
+            m.block('hide',(0,0,0),(.564,.049,.493))
+        if m.lod<2:
+            for px in (.366,.784):
+                m.beam('trim',(px,.685,-.092),(px,.91,.304),.043)
+            for i in range(4):
+                m.block('hide',(.371+i*.14,.704,-.134),(.136,.065,.035),taper=.14)
+        for side in (-1,1):
+            m.block('fieldstone',(side*.745,.266,.073),(.141,.37,.463),taper=.10)
+        for x in (-.513,-.190,.135):
+            if m.lod==2:
+                rim=[(x+u,.408+v,.211) for u,v in
+                     ((-.155,.10),(-.108,.151),(.108,.151),(.155,.10),(.105,-.071),(0,-.169),(-.105,-.071))]
+                for a,b in zip(rim,rim[1:]+rim[:1]):
+                    m.face('banner',(a,b,(x,.427,.173)))
+            else:
+                shield(m,x,.408,.213,.197)
+            if m.lod<2:
+                with m.transform(translate=(x,.435,.174),rotate_x=-90):
+                    m.dome((0,0,0),.041,m.color('gold'),rings=(3,2)[m.lod],
+                           segments=(9,6)[m.lod],squash=.54,material='gold')
+        for x in (.221,.621):
+            m.block('timber',(x,.218,-.201),(.100,.274,.209))
+        m.block('timber',(.425,.385,-.205),(.64,.07,.297))
+        for x in (.278,.561):
+            m.dome((x,.421,-.206),.108,m.color('metal'),rings=(4,3,2)[m.lod],
+                   segments=(10,7,5)[m.lod],squash=.95,material='metal')
+            m.block('trim',(x,.445,-.284),(.151,.029,.065))
+            if m.lod<2:
+                m.block('gold',(x,.507,-.21),(.023,.039,.145))
+                for s in (-1,1):
+                    m.block('metal',(x+s*.088,.427,-.217),(.029,.071,.076),taper=.14)
+        for x in (-.633,-.196):
+            m.block('timber',(x,.209,-.173),(.074,.252,.162))
+        for i in range(2):
+            y=.277+i*.075
+            m.beam('timber',(-.726,y,-.189),(-.111,y,-.151),.034)
+            if m.lod<2:
+                m.beam('metal',(-.14,y,-.152),(-.045,y,-.145),.041)
+        if m.lod==0:
+            for x in (-.641,-.028):
+                m.block('timber',(x,.355,.219),(.039,.486,.033))
+            for x in (-.633,-.202):
+                m.block('hide',(x,.326,-.184),(.035,.089,.057))
+            flag(m,.682,.305,.909,.297)
+        return
     # Secure vaulted stockroom behind a shielded gate and paired masonry piers.
     band(m,"fieldstone",0,.015,1.81,.83,0,.065,.10)
     h=(.47,.59,.48,.55)[era]
@@ -230,6 +291,44 @@ def ingots(m,x,z,era,scale=1):
 
 
 def smith(m,era):
+    if era==2:
+        # Steam forging hammer. The guides straddle a die, with the boiler feeding
+        # the top cylinder from a brick firebox at the opposite end of the shop.
+        band(m,'fieldstone',.03,.042,1.79,.74,0,.096,.065)
+        x=.42
+        for s in (-1,1):
+            m.block('metal',(x+s*.206,.401,.035),(.129,.615,.255),taper=.18)
+            m.beam('metal',(x+s*.234,.31,.035),(x+s*.112,.826,.035),.113)
+        m.block('trim',(x,.804,.034),(.404,.119,.265))
+        turned(m,x,.035,[(.838,.125,None),(.911,.161,'metal'),(1.174,.136,'banner'),
+                           (1.227,.155,'metal'),(1.26,.095,'trim')],(14,8,5))
+        turned(m,x,.036,[(.446,.052,None),(.763,.052,'ivory')],(10,6,4))
+        m.block('metal',(x,.437,.034),(.22,.117,.174))
+        m.block('trim',(x,.155,.026),(.279,.116,.208))
+        m.block('metal',(x,.232,.027),(.212,.042,.140))
+        m.block('brick',(-.458,.242,.091),(.688,.298,.469))
+        with m.transform(translate=(-.755,.549,.104),rotate_z=-90):
+            turned(m,0,0,[(0,.15,None),(.076,.214,'metal'),(.54,.214,'metal'),
+                            (.60,.164,'trim')],(16,10,6))
+        if m.lod<2:
+            m.flue(-.653,.139,.604,.908,.116)
+        else:
+            m.block('brick',(-.653,.746,.139),(.114,.32,.117))
+        m.beam('metal',(-.272,.661,.104),(-.262,.971,.105),.059)
+        m.beam('gold',(-.262,.969,.105),(x,.969,.105),.057)
+        pane(m,'forge',-.474,.224,-.149,.21,.104)
+        if m.lod<2:
+            anvil(m,-.067,-.238,.84,era)
+            for px in (-.631,-.324):
+                with m.transform(translate=(px,.549,.104),rotate_z=-90):
+                    turned(m,0,0,[(0,.220,None),(.033,.220,'trim')],(12,8,5))
+        if m.lod==0:
+            ingots(m,.72,-.134,era,.67)
+            wheel(m,-.543,.488,-.149,.149,era)
+            for s in (-1,1):
+                m.beam('metal',(x+s*.173,.27,-.100),(x+s*.166,.736,-.100),.025)
+            m.beam('trim',(-.20,.163,-.176),(-.17,.376,-.175),.030)
+        return
     if era==1:
         # Open masonry hearth: the smoke hood springs from two piers, with
         # bellows blowing into the fire from opposite sides of the hearth.

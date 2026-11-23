@@ -9,6 +9,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from building_scope import AGES, ROOT, package_models
 from forge import MeshBuilder, publish
 from forge.atlas import palette, ROLES
+from generators.buildings.orc_clan_assemblies import COUNCILS
 
 PACKAGE = "orc_towncenters"
 ERAS = ("ancient", "classical", "industrial", "future")
@@ -28,6 +29,9 @@ class Lodge(MeshBuilder):
 
     def panel(self, mat, points):
         self.poly(points, self.col(mat), material=mat)
+
+    color = col
+    face = panel
 
     def block(self, mat, x, y, z, w, h, d, taper=0):
         self.box((x,y+h/2,z),(w,h,d),self.col(mat),material=mat,taper=taper)
@@ -133,6 +137,9 @@ class Lodge(MeshBuilder):
 def council(spec,lod):
     m=Lodge(spec,lod)
     a=m.age
+    if a in COUNCILS:
+        COUNCILS[a](m)
+        return m
     rise=(.36,.44,.54,.56,.70,.61,.65,.62,.66,.64)[a]
     peak=(.68,.55,.65,.48,.73,.65,.36,.31,.41,.57)[a]
     wall=("hide","wall","fieldstone","plaster","fieldstone","plaster","brick","wall","glass","ivory")[a]

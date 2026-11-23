@@ -716,6 +716,169 @@
           ]
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_dwarf_barracks_industrial_v0",
+          "evidence_sha256": "1462892d6aeaa5a357e7fc45017811d48894c704a3a1fff5297a50bd31c274c3",
+          "observations": "Twin low barrack wings form a drill court against a high, gate-like rear block. Both oblique silhouettes expose that U-shaped plan. The gate, two rows of entrances and raised lookout survive the far mesh.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            650,
+            370,
+            176
+          ],
+          "serialized_sha256": "0d9afb6b9843b7652d41bdf99b8323ba5c97abc84de5565500275ba1fa7fc07c",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_military-01.png",
+            "rc6/families/dwarf-Barracks-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_palisade_classical_v0",
+          "evidence_sha256": "fbf3892d4cbddcf926f517370bdad752c229d2058f7c701451ea1a54f3a1a6ec",
+          "observations": "A roofed masonry watch drum anchors the bent line of timber stakes. The earlier fence has a central portal and two low runs. At LOD2 the continuous line still meets the drum and the picket tops remain pointed.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 92,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            618,
+            352,
+            168
+          ],
+          "serialized_sha256": "603ccf68618aaa6fccb25ee5d1fdb0de805d12e0f9549ef39317988340272891",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_military-01.png",
+            "rc6/families/dwarf-Palisade-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_watchtower_industrial_v0",
+          "evidence_sha256": "07be98d953f2a50d032e2c80a1c34e1ddc18b98e7a425027bf9c97ba5347e099",
+          "observations": "The lattice legs, diagonal bracing and footings carry the searchlight convincingly. At both front angles LOD1 shows a luminous yellow lens. At the same angles LOD2 shows a solid charcoal mass at the platform, virtually erasing the signal that identifies the Industrial apparatus.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 87,
+            "construction": 94,
+            "charm": 90,
+            "colour": 86,
+            "technical": 99
+          },
+          "defects": [
+            "Keep a broad light-coloured lens on the business end of the searchlight at LOD2, facing the same direction as LOD1. Retain the existing yoke and check both front angles at 64 px."
+          ],
+          "lod_triangles": [
+            628,
+            373,
+            171
+          ],
+          "serialized_sha256": "d09fc50286525fa72c1850bb5d0ad65d68c75a509ce358193f96d3cca4065ebc",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_military-01.png",
+            "rc6/families/dwarf-Watchtower-v0.png"
+          ],
+          "frozen_png_sha256": {
+            "rc6/held-trade/bld_dwarf_watchtower_industrial_v0-07be98d953f2/dwarf-Watchtower-v0.png": "1699408db364f8773d65e1dc5db6ee3e868bc1782f367e11f861df123a1347b4",
+            "rc6/held-trade/bld_dwarf_watchtower_industrial_v0-07be98d953f2/industrial.png": "985d057925edc15fd887c31a84276ea646f2dd46b2483d77bbb0f54bb0428918",
+            "rc6/held-trade/bld_dwarf_watchtower_industrial_v0-07be98d953f2/model-and-lods.png": "05004c7c115b180d795c2f232a6a533c63064a1c751419608cffab09f2a21379"
+          }
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC6 building art critic, rebuilt exports re-review",
+      "models": [
+        {
+          "id": "bld_dwarf_watchtower_industrial_v0",
+          "evidence_sha256": "5237adfb0981a2230faa5aab325741d0c7a2877eea51688f7d0e238fd8b2c335",
+          "observations": "The revised far mesh retains the warm lens from both front-side angles. From the rear the dark housing remains on its yoke. The cap platform, cross-braced open legs, grounded footings and base hut stay distinct in all levels, beside the older solid masonry towers.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            628,
+            373,
+            187
+          ],
+          "serialized_sha256": "39748162b99745c53f104ad554e90b3aec8299e9ff3ee9ed9febeca1e8788d60",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_military-01.png",
+            "rc6/families/dwarf-Watchtower-v0.png"
+          ],
+          "visual_evidence_sha256": {
+            "rc6/models/dwarf_military-01.png": "ddf1a8048103203f50325051bcfafbbbb65abc3cf24be12fbfc34a6e888e7f28",
+            "rc6/families/dwarf-Watchtower-v0.png": "1699408db364f8773d65e1dc5db6ee3e868bc1782f367e11f861df123a1347b4"
+          },
+          "age_preview_sha256": {
+            "industrial": "985d057925edc15fd887c31a84276ea646f2dd46b2483d77bbb0f54bb0428918"
+          },
+          "supersedes_evidence_sha256": "07be98d953f2a50d032e2c80a1c34e1ddc18b98e7a425027bf9c97ba5347e099"
+        }
+      ]
     }
   ]
 }

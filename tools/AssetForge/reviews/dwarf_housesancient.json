@@ -265,6 +265,244 @@
           ]
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_ancient_bronze_v0",
+          "evidence_sha256": "cf7e74537f001ddf1c35b6c950c5cfcd72e827ad7c1a0b63fa34931d0f84692c",
+          "observations": "The broad ochre slab, box lookout and square side workshop leave a stepped outline above the open doorstep. The stone patio and workshop block stay present at the last LOD. The double-domed Bronze alternative occupies a markedly different volume.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            499,
+            222,
+            124
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.626,
+            "primary_picture_pair": [
+              "bld_dwarf_house_ancient_bronze_v0",
+              "bld_dwarf_house_classical_renaissance_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1161
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_house_ancient_v0",
+              "bld_dwarf_house_ancient_bronze_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_housesancient-01.png": "20a9d82c6992c08156b4884ba2f9a47590bc1619d1eebea78a8b9c3323514960",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v1.png": "291b39f87fa77ec4e615158b38e627cf89417bc35ff7a664d87d4102a00a346f"
+          },
+          "glb_sha256": "c862a40447187de68ab18f03843557eafd6d78b82e6052f011715589accb5bc1",
+          "age_preview_sha256": {
+            "bronze": "c744742b6b7e104edd4eaafa6602de6625bf1db70cf4400c5f4ed8311922ad81"
+          }
+        },
+        {
+          "id": "bld_dwarf_house_ancient_bronze_v1",
+          "evidence_sha256": "fa68a3d008aef34b1ef4dc1c21767214ef85286c7cac5dfcb2150e6fd61026a0",
+          "observations": "Two bronze half-domes of different diameters sit beside a straight porched entry. That roof grouping reads from either native grayscale corner and survives the coarser facets of LOD2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            659,
+            332,
+            180
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.67,
+            "primary_picture_pair": [
+              "bld_dwarf_house_ancient_bronze_v1",
+              "bld_dwarf_house_ancient_iron_v1"
+            ],
+            "max_shared_corners": [
+              0,
+              1149
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_house_ancient_v1",
+              "bld_dwarf_house_ancient_bronze_v1"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_housesancient-01.png": "20a9d82c6992c08156b4884ba2f9a47590bc1619d1eebea78a8b9c3323514960",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v1.png": "291b39f87fa77ec4e615158b38e627cf89417bc35ff7a664d87d4102a00a346f",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d"
+          },
+          "glb_sha256": "2a6af4dc102cfdf83a66e0ab9761834be5f64a8eef7a3a9869b17a0c6edcea1d",
+          "age_preview_sha256": {
+            "bronze": "3140a40a331f5014aa7c13735a183023d4aab3e922982dcf0d685a9d61cd8274"
+          }
+        },
+        {
+          "id": "bld_dwarf_house_ancient_iron_v0",
+          "evidence_sha256": "3ba2e9f004e498957c0687ddfdd059baea3ae7ed30a4b3d0002a79a7a957328c",
+          "observations": "The striped, tapering stone beehive and low rectangular door hood have a continuous outline through all LODs. The blunt summit, slit window and heavy foot distinguish it from the Bronze twin domes and from the steep Iron gable.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            642,
+            364,
+            198
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.656,
+            "primary_picture_pair": [
+              "bld_dwarf_house_ancient_iron_v0",
+              "bld_dwarf_house_classical_renaissance_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1161
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_house_ancient_v0",
+              "bld_dwarf_house_ancient_iron_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_housesancient-01.png": "20a9d82c6992c08156b4884ba2f9a47590bc1619d1eebea78a8b9c3323514960",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v1.png": "291b39f87fa77ec4e615158b38e627cf89417bc35ff7a664d87d4102a00a346f"
+          },
+          "glb_sha256": "070160c0295b4b0be1bce6c8a09331bc34bd5e8643dde09667f660fea001bbe7",
+          "age_preview_sha256": {
+            "iron": "5d5c5ad1d64767ae248c838c8c729286c2948c49ac92f03f9bf2bf351774766c"
+          }
+        },
+        {
+          "id": "bld_dwarf_house_ancient_iron_v1",
+          "evidence_sha256": "5b5412b0a39ee723c9d74a656b6e1e93c51eae78152b7204b15b510e6a58d9d3",
+          "observations": "The tall slate pitch and low side hood make the longer Iron dwelling legible. A capped masonry flue rises above the far roof pitch at LOD0. Both simplified views leave the entire pitch bare.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 92,
+            "construction": 87,
+            "charm": 91,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Retain the capped flue as a low-sided chimney at LOD1 and LOD2. Its silhouette and attachment to the rear roof plane are visible from both viewing directions."
+          ],
+          "lod_triangles": [
+            421,
+            220,
+            102
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.695,
+            "primary_picture_pair": [
+              "bld_dwarf_house_ancient_iron_v1",
+              "bld_dwarf_house_industrial_v1"
+            ],
+            "max_shared_corners": [
+              0,
+              1149
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_house_ancient_v1",
+              "bld_dwarf_house_ancient_iron_v1"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_housesancient-01.png": "20a9d82c6992c08156b4884ba2f9a47590bc1619d1eebea78a8b9c3323514960",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v1.png": "291b39f87fa77ec4e615158b38e627cf89417bc35ff7a664d87d4102a00a346f",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d"
+          },
+          "glb_sha256": "b577053e590dddedc07679e05bcaddf97a56af8d03b6c71cf5700285284b1d91",
+          "age_preview_sha256": {
+            "iron": "47b995f6eb4494590c816698df0df71479439dae87fc69a99bfd374bd878c935"
+          }
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "RC6 independent housing and Saurian civic critic, corrected candidate review",
+      "inspection": "Compared the published painted age previews and family sheets against the original holds and named lookalikes. Rendered both unpainted 64 px views independently from each of the three actual LOD meshes. Inspected the native family cameras and the larger multi-camera LOD sheet. Recomputed same-family picture likeness and directional corner overlap, checked the fragment against the GLB and verified all three serialized levels for exposed coplanar faces and inverted shells.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_ancient_iron_v1",
+          "evidence_sha256": "e574b8b298ce023a6a3c777d0960506ff241a168e2b29f31102c8117ad68c843",
+          "previous_evidence_sha256": "5b5412b0a39ee723c9d74a656b6e1e93c51eae78152b7204b15b510e6a58d9d3",
+          "observations": "The square flue and projecting cap now rise above the same rear roof plane in all three meshes. The shaft is visible end-on as well as from behind. Its sharp slate gable and low side hood remain distinct from the newly parapeted Medieval v1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            421,
+            250,
+            122
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.695,
+            "primary_picture_pair": [
+              "bld_dwarf_house_ancient_iron_v1",
+              "bld_dwarf_house_industrial_v1"
+            ],
+            "max_shared_corners": [
+              0,
+              1149
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_house_ancient_v1",
+              "bld_dwarf_house_ancient_iron_v1"
+            ],
+            "specific_comparisons": {
+              "bld_dwarf_house_classical_medieval_v1": {
+                "primary_picture_likeness": 0.614,
+                "evidence_sha256": "adcdd7a7a9d0d1da0391924ac92ae05f7881b756e573ce3e3303c3c86c19e55f"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_housesancient-01.png": "b9fbc85a5e81b6473b6f68f5304ac4f77ad6c9db57c94af6079b7e29f14e577c",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v1.png": "4af9e201b007bb4c522fb11a618ba1f3fe680bf4155b6aa3e683fe8ea0618ffc",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d"
+          },
+          "glb_sha256": "eccb286e83001c808c25b373c82db8b0495950fefd0c115c779cbff4f3928c47",
+          "age_preview_sha256": {
+            "iron": "47b995f6eb4494590c816698df0df71479439dae87fc69a99bfd374bd878c935"
+          }
+        }
+      ]
     }
   ]
 }

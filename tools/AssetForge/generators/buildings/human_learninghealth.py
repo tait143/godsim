@@ -417,6 +417,53 @@ def scriptorium(m):
 
 def university(m):
     e=m.era
+    if e==2:
+        # A cutaway lecture theatre faces the street. Stone treads alternate
+        # with rising wood benches; the central aisle divides the seating.
+        x,z=.095,-.275
+        rows=(4,3,3)[m.lod]
+        count=(14,10,6)[m.lod]
+        def point(angle,radius,y):
+            return x+radius*cos(angle),y,z+radius*sin(angle)
+        for row in range(rows):
+            r0=.176+.617*row/rows
+            r1=.176+.617*(row+1)/rows
+            rm=r0+(r1-r0)*.47
+            base=.064+.489*row/rows
+            step=base+.489/rows*.48
+            top=.064+.489*(row+1)/rows
+            path=[(r0,base),(r0,step),(rm,step),(rm,top),(r1,top)]
+            if row==rows-1: path.append((r1,.064))
+            for i in range(count):
+                a,b=pi*i/count,pi*(i+1)/count
+                for j,((ra,ya),(rb,yb)) in enumerate(zip(path,path[1:])):
+                    mat=('brick','fieldstone','trim','timber','brick')[j]
+                    if j<4 and i in (count//2-1,count//2): mat='fieldstone'
+                    m.face(mat,[point(a,ra,ya),point(b,ra,ya),point(b,rb,yb),point(a,rb,yb)])
+            for a in (0,pi):
+                for ra,rb,ht in ((r0,rm,step),(rm,r1,top)):
+                    cap=[point(a,rb,.064),point(a,ra,.064),point(a,ra,ht),point(a,rb,ht)]
+                    m.face('brick',cap if a==0 else cap[::-1])
+        m.course('fieldstone',x,z-.131,.706,.481,.064,.127,.072)
+        m.solid('trim',x,z-.125,.117,.104,.126,.329)
+        with m.transform(translate=(x,.338,z-.124),rotate_x=-16):
+            m.block('timber',(0,0,0),(.266,.048,.187))
+        m.folio(x,.378,z-.125,.165)
+        # The adjacent brick classroom has a real doorway, a pitched slate
+        # roof and tall industrial sash windows looking down on the theatre.
+        f=m.hall(-.594,.209,.395,.94,.827,rise=.173,windows=False)
+        m.entry(-.594,f-.004,.223,.074,.387)
+        m.windows(-.594,f-.012,.574,.224,.128,2)
+        m.pennon(-.615,.455,.870,.249)
+        if m.lod<2:
+            with m.transform(translate=(-.393,0,.207),rotate_y=-90):
+                m.windows(0,-.006,.442,.697,.251,4 if m.lod==0 else 3)
+            for a in (.28,.95,1.70,2.42):
+                px,_,pz=point(a,.783,.205)
+                m.solid('ivory',px,pz,.072,.076,.064,.501)
+        if m.lod==0:
+            planting(m,-.622,-.523,.301,.185)
+        return
     for s in (-1,1):
         x=s*.56
         f=m.hall(x,.06,.49,1.24,.66+.08*(e-1),rise=.39)
@@ -574,6 +621,31 @@ def printworks(m):
 
 def hospital(m):
     e=m.era
+    if e==3:
+        # The circular inpatient tower stands behind a single-storey emergency
+        # wing with a sheltered forecourt for ambulances.
+        x,z=-.34,.284
+        m.drum('wall',x,z,.374,.064,1.131,.35)
+        for i in range(3):
+            y=.291+i*.282
+            m.drum('glass',x,z,.383,y,y+.147,.379)
+            m.drum('ivory',x,z,.407,y+.143,y+.187,.401)
+        m.drum('metal',x,z,.415,1.116,1.181,.388)
+        m.cupola('glass',x,z,.242,1.179,.105)
+        f=m.hall(.286,-.068,.931,.703,.477,rise=.141)
+        m.porch(.359,f,.068,.357,.383)
+        for sx in (.043,.648):
+            m.solid('ivory',sx,-.650,.065,.065,.063,.426)
+        m.solid('metal',.346,-.555,.729,.315,.414,.472)
+        m.solid('ivory',-.342,-.071,.361,.105,.533,.907)
+        m.cross(-.342,.715,-.126,.312)
+        if m.lod<2:
+            m.windows(.051,f-.007,.194,.23,.15,2)
+            m.solid('banner',.347,-.712,.722,.024,.425,.461)
+        if m.lod==0:
+            planting(m,-.63,-.432,.32,.21)
+            m.herbs(.627,.136,f-.012,.164)
+        return
     h=(.89,1.11,1.32)[e-1]
     for s in (-1,1):
         f=m.hall(s*.49,.21,.65,1.09,.67+.09*(e-1),rise=.31)

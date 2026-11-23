@@ -647,6 +647,138 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_dwarf_aqueduct_future_v0",
+          "evidence_sha256": "24ed315990766632b027a282b674f91b7d83a18dd2c5398a8077eac172ae0986",
+          "observations": "Within the Dwarf ages the inverted span is a clear change. Beside the Orc Industrial aqueduct, both oblique views put twin raised open tanks at opposite ends, a steep drop on each side and an exposed low central crossing. Oval versus square tank rims and surface finishes change the ends, while the defining three-part silhouette repeats.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 87,
+            "construction": 93,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Change the Dwarf waterworks to an asymmetric plan or section, for example a single tall spiral drop chamber feeding a low horizontal trough. Retain visible channel continuity, Dwarf stone supports and a readable water surface across the three LODs."
+          ],
+          "lod_triangles": [
+            738,
+            420,
+            194
+          ],
+          "serialized_sha256": "e8ab1718c84d97e1c76da54bfb2da4f162a08cdbf76d08713d758e8546713de2",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_infrastructure-01.png",
+            "rc6/families/dwarf-Aqueduct-v0.png"
+          ],
+          "frozen_png_sha256": {
+            "rc6/held-trade/bld_dwarf_aqueduct_future_v0-24ed31599076/ascension.png": "bf216029545d6515870a765d75b774c08bbe6c4aa46c583226a52a9af3d9d134",
+            "rc6/held-trade/bld_dwarf_aqueduct_future_v0-24ed31599076/dwarf-Aqueduct-v0.png": "6f2347d2169fffb8011a87c9098647835cf28b00bfda1aded36bcd5c20dbf83e",
+            "rc6/held-trade/bld_dwarf_aqueduct_future_v0-24ed31599076/information.png": "90d81304b9405bbb6fd9556d9a103061550e5a05cc9ab7afa98d770dba953be4",
+            "rc6/held-trade/bld_dwarf_aqueduct_future_v0-24ed31599076/model-and-lods.png": "ab0fb71e762e8d10d13570a2fde034088fca2845ed5751489b933c6f21fcc39a",
+            "rc6/held-trade/bld_dwarf_aqueduct_future_v0-24ed31599076/orc-Aqueduct-v0.png": "9066cc29cef46fb767b86f0415c2cae4fcd8f86c9e23dab3f0f94a87cbec3a30"
+          }
+        },
+        {
+          "id": "bld_dwarf_storehouse_classical_v0",
+          "evidence_sha256": "e2cab492341a5201c8c38d119fe683f8620e237bf95b6e1c8e05546134ce710d",
+          "observations": "An exposed, braced loading beam extends from a compact hipped store tower above sealed crates. Daylight through the yard distinguishes it from the covered Human loading bay and from the Dwarf single-shed siblings. The far mesh retains the tower, beam, loads and yard.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 92,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            450,
+            256,
+            102
+          ],
+          "serialized_sha256": "4c36ac7b9bf0cd00ecef5926bb885365a0bb23fa5fef702a17c200f3c18b22ee",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_infrastructure-01.png",
+            "rc6/families/dwarf-Storehouse-v0.png"
+          ]
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC6 building art critic, rebuilt exports re-review",
+      "models": [
+        {
+          "id": "bld_dwarf_aqueduct_future_v0",
+          "evidence_sha256": "e0fa589bcd40faaf77443834dbfee7c2785b3c07d76f24d96c639b8a990ab414",
+          "observations": "The upper channel now descends in a spiral around a single masonry chamber and discharges along a low straight trough. The water course, supporting column and lower piers remain connected from the rear and both front-side angles, including LOD2. Its silhouette differs from the twin-tank Orc siphon.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1220,
+            664,
+            384
+          ],
+          "serialized_sha256": "6c7c0f79d4dadf781ce9a9de9ad9ec6b96a1b4165e422f13f28d69909b15917c",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_infrastructure-01.png",
+            "rc6/families/dwarf-Aqueduct-v0.png"
+          ],
+          "visual_evidence_sha256": {
+            "rc6/models/dwarf_infrastructure-01.png": "562125bd9772a5505f1c91e750210c50c1ed0e9803c67642e16827c24af920f7",
+            "rc6/families/dwarf-Aqueduct-v0.png": "2eac6a6a4d9aac558c30c53cbcdc83e18d19164c6c8669e5da1aa44b7e087d75"
+          },
+          "age_preview_sha256": {
+            "information": "264bbe1c66ac51d1ba6979189471deb20791ceb70cf87a0f6bf0a60fe2f3628c",
+            "ascension": "bfa235d3878a04029d7fbf31f5ccde8250f87abaa18fe8178eb0843e76c926c6"
+          },
+          "supersedes_evidence_sha256": "24ed315990766632b027a282b674f91b7d83a18dd2c5398a8077eac172ae0986"
+        }
+      ]
     }
   ]
 }

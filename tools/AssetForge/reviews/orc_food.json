@@ -682,6 +682,46 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_orc_farm_industrial_v0",
+          "evidence_sha256": "97780c256f52044760f98442dea32ce335c17b95d50a6490b9e5852e9b8b8d99",
+          "observations": "A wind-driven pump stands beside a trough and a fan of long planted beds. Its tall mechanical silhouette contrasts with the Classical trellis and future raised field. LOD2 preserves the rotor, tripod and crop rows with their earth banks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 92,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1035,
+            535,
+            329
+          ],
+          "serialized_sha256": "a5c4a821a4f40943a629eadfc76f4d740bfd2cf6a35efadcbf8b90479868c16d",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/orc_food-01.png",
+            "rc6/families/orc-Farm-v0.png"
+          ]
+        }
+      ]
     }
   ]
 }

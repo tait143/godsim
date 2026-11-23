@@ -1,5 +1,5 @@
 """Clan garrisons: battered ashlar, brass clan marks and coal-lit watch galleries."""
-from math import cos, sin, pi
+from math import atan2, cos, degrees, dist, hypot, pi, sin
 from pathlib import Path
 import sys
 
@@ -120,8 +120,41 @@ def muster_standard(m, x, z, h):
         m.badge(x,h-.235,z-.052,.126,.164,"trim")
 
 
+def parade_barracks(m):
+    # Narrow bunk ranges frame the open parade ground. The duty block closes
+    # the far end, with the taller battalion bell loft at its left corner.
+    for x in (-.607,.582):
+        m.course(x,-.228,.514,1.231,0,.106,"fieldstone",.13)
+        m.course(x,-.228,.455,1.149,.106,.345,"brick",.08)
+        with m.transform(translate=(x,.451,-.228),rotate_y=90):
+            m.gable_roof((0,0,0),1.16,.462,.246,WHITE,overhang=.024,material="roof")
+        m.entry(x,-.805,.103,.214,.248)
+        if m.lod<2:
+            with m.transform(translate=(x+(.230 if x<0 else -.230),0,-.230),
+                             rotate_y=(-90 if x<0 else 90)):
+                for u in (-.353,0,.353):
+                    m.slit(u,.217,-.005,.170,.136)
+    m.course(-.032,.571,1.633,.475,0,.776,"brick",.11)
+    m.course(-.032,.571,1.685,.527,.776,.097,"trim",.12)
+    m.entry(.107,.327,.048,.382,.531)
+    m.course(-.543,.589,.438,.405,.873,.394,"wall",.15)
+    m.hip_roof((-.543,1.267,.589),.455,.424,.207,WHITE,overhang=.026,material="roof")
+    m.course(.014,-.220,.591,1.162,0,.042,"slate",.11)
+    if m.lod<2:
+        m.slit(-.543,1.003,.385,.221,.173)
+        m.badge(.502,.551,.322,.152,.197)
+    if m.lod==0:
+        for s in (-1,1):
+            m.lantern(.107+s*.269,.377,.298,.118)
+            for u in (-.539,-.172,.162):
+                m.block(s*.287,.043,u,.049,.014,.137,"plaster")
+        m.flag(.524,.871,.595,.351)
+
+
 def barracks(m):
     e,l = m.era,m.lod
+    if e==2:
+        return parade_barracks(m)
     z=.065
     w=(1.39,1.50,1.47,1.57)[e]
     d=(1.04,1.08,1.16,1.13)[e]
@@ -222,8 +255,50 @@ def castle(m):
             m.block(0,.015*i,-1.19+.078*i,.58,.035,.076,"fieldstone")
 
 
+def flanking_stockade(m):
+    # The stockade turns into a projecting octagonal blockhouse. The walk
+    # behind the pointed logs enters the fighting gallery through its flank.
+    for x,z,length,angle in ((-.822,.052,1.128,-16),(.067,.118,.753,14)):
+        with m.transform(translate=(x,0,z),rotate_y=angle):
+            curb=.122 if x<0 else .148
+            m.course(0,0,length,.263,0,curb,"fieldstone",.09)
+            count=(6,4,3)[m.lod] if x<0 else (4,3,2)[m.lod]
+            span=length/count
+            for j in range(count):
+                u=-length/2+(j+.5)*span
+                top=.573+.053*(j%2)
+                m.drum(u,curb,0,span*.48,top-curb,"timber",span*.43,(7,5,4)[m.lod])
+                m.drum(u,top,0,span*.43,.168,"trim",0,(7,5,4)[m.lod])
+            if m.lod<2:
+                m.block(0,curb+.211,-.119,length*.98,.065,.048,"trim")
+            if m.lod==0:
+                m.block(0,curb+.349,.109,length*.97,.056,.066,"timber")
+    x,z=.815,-.045
+    segments=(8,8,5)[m.lod]
+    m.drum(x,0,z,.389,.177,"fieldstone",.371,segments)
+    m.drum(x,.177,z,.315,.555,"timber",.329,segments)
+    m.drum(x,.732,z,.340,.146,"wall",.431,segments)
+    m.drum(x,.878,z,.431,.223,"wall",.425,segments)
+    if m.lod==2:
+        m.drum(x,1.101,z,.257,.256,"timber",.263,5)
+    else:
+        for s in (-1,1):
+            for t in (-1,1):
+                m.block(x+s*.235,1.101,z+t*.220,.072,.256,.071,"timber")
+    m.drum(x,1.357,z,.448,.292,"roof",.095,segments)
+    if m.lod<2:
+        m.badge(x,.991,z-.429,.175,.178)
+        m.entry(x,z-.300,.149,.247,.372)
+    if m.lod==0:
+        m.lantern(x,1.647,z,.114)
+        for s in (-1,1):
+            m.block(x+s*.402,.962,z,.035,.061,.174,"door")
+
+
 def palisade(m):
     e,l=m.era,m.lod
+    if e==1:
+        return flanking_stockade(m)
     # Unbroken rows of split-heart stakes frame a walk-through gate with a raised crossbar.
     gate=.26 if e==0 else .31
     n=(6,5,3)[l]
@@ -289,8 +364,53 @@ def wall(m):
             m.course(s*.354,.153,.12,.20,.073,.27,"fieldstone",.12,.16)
 
 
+def steel_watch(m):
+    # Four splayed columns carry an exposed searchlight basket above a small
+    # signal hut. The open steelwork leaves daylight all the way to its feet.
+    def girder(a,b,w):
+        dx,dy,dz=(v-u for u,v in zip(a,b))
+        with m.transform(translate=tuple((u+v)/2 for u,v in zip(a,b)),
+                         rotate_y=degrees(atan2(dx,dz)),rotate_x=degrees(atan2(hypot(dx,dz),dy))):
+            m.box((0,0,0),(w,dist(a,b),w),WHITE,material="metal",bottom=True)
+    for s in (-1,1):
+        for t in (-1,1):
+            m.course(s*.309,t*.291,.194,.190,0,.094,"fieldstone",.20)
+            girder((s*.309,.094,t*.291),(s*.179,1.233,t*.157),.069)
+    for s in (-1,1):
+        girder((s*.281,.312,-.266),(-s*.224,.830,-.207),.043)
+        if m.lod==0:
+            girder((s*.280,.324,.269),(s*.215,.911,-.189),.041)
+            girder((s*.277,.351,.259),(-s*.222,.841,.209),.038)
+    m.course(0,0,.612,.552,1.219,.096,"trim",.22)
+    m.drum(.007,1.315,.005,.186,.149,"wall",.146,(10,8,5)[m.lod])
+    with m.transform(translate=(.007,1.516,-.041),rotate_x=-64):
+        if m.lod==2:
+            m.drum(0,-.102,0,.096,.240,"metal",.185,6)
+            m.drum(0,.138,0,.159,.030,"emissive",.146,6)
+        else:
+            m.drum(0,-.102,0,.096,.185,"metal",.184,(12,7)[m.lod])
+            m.drum(0,.083,0,.184,.058,"gold",.188,(12,7)[m.lod])
+            m.drum(0,.141,0,.156,.027,"emissive",.142,(12,7)[m.lod])
+    m.course(-.055,.102,.365,.338,0,.274,"brick",.13)
+    m.course(-.055,.105,.401,.397,.274,.076,"roof",.12,.15)
+    if m.lod<2:
+        m.entry(-.055,-.068,.026,.161,.194)
+        for x in (-.075,.075):
+            girder((x,.125,.303),(x,1.217,.176),.024)
+    if m.lod==0:
+        for j in range(7):
+            y=.215+j*.14
+            m.block(0,y,.303-(y-.125)*.116,.170,.022,.025,"trim")
+        for s in (-1,1):
+            m.block(s*.254,1.315,.013,.032,.151,.322,"metal")
+            girder((s*.121,1.393,.021),(s*.160,1.534,-.067),.037)
+        m.lantern(.141,.043,-.111,.089)
+
+
 def watchtower(m):
     l,e=m.lod,m.era
+    if e==2:
+        return steel_watch(m)
     h=(.75,.90,1.0)[e]
     d=(.54,.59,.55)[e]
     m.course(0,.015,.76,.71,0,.105,"fieldstone",.17)

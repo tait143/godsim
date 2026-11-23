@@ -432,6 +432,46 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_orc_palisade_classical_v0",
+          "evidence_sha256": "8b229d75c87ba0e5bcbba1ad5db5e93f28d6dd643fb8cb25f9803fd5f9f7e6dc",
+          "observations": "The broad roofed gatehouse interrupts an asymmetric wall of lashed pale-tipped stakes. Red roof cloth and the heavy gate surround are visible in both palettes. In the far mesh the posts simplify in groups but still make a continuous, tall defensive barrier on each side.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1182,
+            582,
+            332
+          ],
+          "serialized_sha256": "85a60574337491258a54fac9a586b5ac144dcb4217e5b84b87c1bd45316c790c",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/orc_military-01.png",
+            "rc6/families/orc-Palisade-v0.png"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -37,6 +37,34 @@ def battlements(m, x, y, z, w, d, count):
 
 def palisade(m):
     late=m.era==1
+    if late:
+        # A dogleg in the timber curtain forces visitors past the guards' raised
+        # lodge. The covered entry pier and low wattle return have different spans.
+        m.slab("fieldstone",-.82,0,.065,.75,.19,.71,.87)
+        m.slab("wall",-.82,.19,.065,.555,.58,.49,.87)
+        m.slab("accent",-.82,.77,.065,.71,.065,.62,underside=True)
+        m.slab("turquoise",-.82,.835,.065,.461,.228,.41)
+        m.rooflet(-.82,1.063,.065,.79,.68,.257,"roof")
+        m.entry(-.821,.19,-.182,.245,.342)
+        m.stairs(-.82,0,-.448,.307,.181,.188)
+        for side,x0,length,ang in ((-1,-1.337,.248,0),(1,.748,1.28,12)):
+            with m.transform(translate=(x0,0,.076),rotate_y=ang):
+                count=(max(2,int(length*8)),max(2,int(length*6)),max(2,int(length*4)))[m.lod]
+                for i in range(count):
+                    x=length*((i+.5)/count-.5)
+                    r=length/count*.50
+                    height=.47+.077*math.cos(i*2.)
+                    m.drum("timber",x,0,0,r,height,n=(7,5,4)[m.lod])
+                    m.drum("trim",x,height,0,r,.13,0,n=(7,5,4)[m.lod])
+                m.block("timber",0,.281,.067,length,.082,.094)
+        for x in (-.42,.095):
+            m.slab("wall",x,0,-.039,.136,.588,.19,.85)
+        m.block("trim",-.161,.588,-.039,.659,.103,.197)
+        if m.lod<2:
+            m.disc(-.16,.696,-.121,.071,"gold",False)
+            slit(m,-.82,.885,-.149,.228,.102)
+            flag(m,-.83,1.333,.074,.27)
+        return
     for side in (-1,1):
         # A change in the spacing of the uprights marks the hinge and the end post.
         if m.lod==2:

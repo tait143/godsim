@@ -6,7 +6,8 @@ import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
 from building_scope import package_models
 from forge import publish
-from generators.buildings.dwarf_housesancient import ClanHouse, frame
+from generators.buildings.dwarf_housesancient import ClanHouse
+from generators.buildings.dwarf_clan_dwellings import medieval
 
 PACKAGE="dwarf_housesclassical"
 
@@ -72,66 +73,6 @@ def classical(m,v):
         m.pot(x-w*.37,deck_z-.005,.049,.086)
         window_reveal(m,x,.177,z+d*.5,.163,.080,-.075)
         m.rear_vent(x,z+d*.5,.177,.163,.080)
-
-
-def medieval(m,v):
-    x=-.083 if v else -.007
-    z=.055
-    w,d=(.578,.563) if v else (.748,.568)
-    h=.398 if v else .287
-    m.course("fieldstone",x,z,w+.03,d+.032,0,.098,corner=.083)
-    m.course("wall",x,z,w,d,.098,h,corner=.045)
-    m.course("trim",x,z,w+.015,d+.017,h,h+.034,corner=.053)
-    m.vault(x,z,w+.041,d+.030,h+.034,.192 if v else .224,"slate","wall",(8,6,3 if v else 4)[m.lod])
-    # A stepped stone firebreak follows each gable, its benches dropping to either side of the ridge.
-    for iz in (-1,1):
-        bz=z+iz*(d*.5+.026)
-        if m.lod==2:
-            # The distance mesh keeps a continuous three-step firebreak on both ends.
-            # Its lower inside faces are already enclosed by the stone vault.
-            bottom=h+.031
-            span=w/3
-            heights=[bottom+(.158 if v else .18),bottom+(.239 if v else .272),bottom+(.158 if v else .18)]
-            outer=bz+iz*.023
-            inner=bz-iz*.023
-            for j,top in enumerate(heights):
-                a=x-w*.5+span*j
-                b=a+span
-                quads=[[(a,bottom,outer),(b,bottom,outer),(b,top,outer),(a,top,outer)],
-                       [(a,top,outer),(b,top,outer),(b,top,inner),(a,top,inner)],
-                       [(b,top,inner),(a,top,inner),(a,bottom,inner),(b,bottom,inner)][::-1]]
-                for face in quads:
-                    m.face("fieldstone",face if iz>0 else face[::-1])
-            for j,(low,high,facing) in enumerate(((bottom,heights[0],-1),(heights[0],heights[1],-1),
-                                                  (heights[2],heights[1],1),(bottom,heights[2],1))):
-                px=x-w*.5+span*j
-                face=[(px,low,bz-.023),(px,high,bz-.023),(px,high,bz+.023),(px,low,bz+.023)]
-                m.face("fieldstone",face if facing>0 else face[::-1])
-            continue
-        profile=((-2,.121),(-1,.218),(0,.272),(1,.218),(2,.121))
-        step=.20
-        if m.lod==1 and iz==1:
-            profile=((-1,.155),(0,.272),(1,.155))
-            step=.333
-        for i,peak in profile:
-            if v:
-                peak*=.88
-            m.block("fieldstone",(x+i*w*step,h+.031+peak*.5,bz),(w*(step-.003),peak,.047))
-    if v:
-        m.course("fieldstone",.244,.139,.263,.317,0,.188,corner=.040)
-        m.vault(.244,.139,.285,.329,.188,.141,"roof","wall",(7,5,3)[m.lod])
-    f=z-d*.5-.018
-    m.recessed_gate(x-.045,f,.095,.183,.226,"fieldstone")
-    m.stair(x-.045,f,.218,.095)
-    frame(m,x,z,w,d,h,f,window_side=-1 if v else 1)
-    m.flue_pot(x+w*.275,z+.112,h+.091,.322,.096,"slate")
-    if m.lod<2:
-        cut_mark(m,x-.045,h+.115,z-d*.5-.051,.035)
-    if m.lod==0:
-        # Rain-shedding capstones follow the three tallest steps of the front parapet.
-        for step,peak in ((-1,.218),(0,.272),(1,.218)):
-            y=h+.031+peak*(.88 if v else 1)
-            m.block("slate",(x+step*w*.2,y+.014,z-d*.5-.026),(w*.195,.028,.068),taper=.07)
 
 
 def renaissance(m,v):

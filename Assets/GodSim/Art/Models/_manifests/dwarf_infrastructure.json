@@ -64,25 +64,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 698,
+  "triangles": 1220,
   "lod_triangles": [
-   698,
-   378,
-   210
+   1220,
+   664,
+   384
   ],
   "bounds": [
    [
-    -0.13050000369548798,
+    -0.4682575762271881,
     0.0,
-    -1.4212499856948853
+    -1.3869999647140503
    ],
    [
-    0.13050000369548798,
-    1.159999966621399,
-    1.4212499856948853
+    0.4465000033378601,
+    1.6640000343322754,
+    1.152999997138977
    ]
   ],
-  "bytes": 107940,
+  "bytes": 197620,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Infrastructure/bld_dwarf_aqueduct_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_aqueduct_future_v0.png",
@@ -509,25 +509,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 572,
+  "triangles": 450,
   "lod_triangles": [
-   572,
-   326,
-   78
+   450,
+   256,
+   102
   ],
   "bounds": [
    [
-    -0.9175000190734863,
+    -0.8759999871253967,
     0.0,
-    -0.4259999990463257
+    -0.44850000739097595
    ],
    [
-    0.843999981880188,
-    0.746999979019165,
-    0.40450000762939453
+    0.8420000076293945,
+    1.0844999551773071,
+    0.4189999997615814
    ]
   ],
-  "bytes": 74956,
+  "bytes": 63996,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Infrastructure/bld_dwarf_storehouse_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_storehouse_classical_v0.png",

@@ -638,6 +638,80 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_orc_aqueduct_industrial_v0",
+          "evidence_sha256": "f99a2a7d9dd07adf27a6fec9837000146d7e6948a5633824fd3942e842c7ee6a",
+          "observations": "A low closed pipe with heavy coupling rings slings between square brick header tanks. The end pools and pipe elbows remain readable from both sides. At LOD2 the larger straight sections merge but the supported descent and rise still connect the tanks. The corresponding Dwarf inverted-span design has a separate hold.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            930,
+            530,
+            204
+          ],
+          "serialized_sha256": "83847e10f26093e85be8ad59d525b14acb5c6d202c1bf66dbebb0d20695c2740",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/orc_infrastructure-01.png",
+            "rc6/families/orc-Aqueduct-v0.png"
+          ]
+        },
+        {
+          "id": "bld_orc_storehouse_industrial_v0",
+          "evidence_sha256": "31651492b8c80738f6674a511f2435a1f05df600aac7a44b30c8bd1ec0872fe5",
+          "observations": "A flat hoist rail projects from the tall red service block over an open cargo dock. Two sloping legs support its outer end and suspended crates fill the gap. The open loading space and the supports survive LOD2, unlike the earlier enclosed gabled warehouses.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            523,
+            297,
+            160
+          ],
+          "serialized_sha256": "834610da79188999471565fb1af81fa0d3e6190c4b547d5f675fe3e46d079ab5",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/orc_infrastructure-01.png",
+            "rc6/families/orc-Storehouse-v0.png"
+          ]
+        }
+      ]
     }
   ]
 }

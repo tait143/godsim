@@ -140,8 +140,77 @@ def service_well(m):
             m.block("metal",(x,.129,-.558),(.092,.018,.211))
 
 
+def spiral_aqueduct(m):
+    # One open flume spirals around a quarried core. Both ends join their
+    # straight reaches tangentially, so the water and parapets run uninterrupted.
+    cx,cz,radius=-.033,.705,.302
+    sweep=2.5*math.pi
+    start,drop=1.445,1.175
+    segments=(36,20,10)[m.lod]
+    # Across-channel offsets and elevations, traced across the water and
+    # back along the underside. End faces are split at the two parapets.
+    profile=[(-.133,-.090),(-.133,.066),(-.101,.066),(-.101,0),
+             (.101,0),(.101,.066),(.133,.066),(.133,-.090)]
+    surfaces=("ivory","gold","slate","water","slate","gold","ivory","metal")
+    def section(x,y,z,nx,nz):
+        return [(x+a*nx,y+b,z+a*nz) for a,b in profile]
+
+    stations=[section(-.412,start+.018,cz+radius,0,1)]
+    for i in range(segments+1):
+        t=i/segments
+        angle=sweep*(1-t)
+        nx,nz=math.cos(angle),math.sin(angle)
+        stations.append(section(cx+radius*nx,start-drop*t,cz+radius*nz,nx,nz))
+    stations.append(section(cx+radius,.158,-1.387,1,0))
+    for first,last in zip(stations,stations[1:]):
+        for i,mat in enumerate(surfaces):
+            j=(i+1)%len(profile)
+            m.face(mat,(first[i],first[j],last[j],last[i]))
+    for row,reverse in ((stations[0],True),(stations[-1],False)):
+        # Frame ends meet the bed along edges only.
+        for indices in ((0,1,2,3),(0,3,4,7),(4,5,6,7)):
+            points=[row[i] for i in indices]
+            m.face("trim",points[::-1] if reverse else points)
+
+    m.drum("fieldstone",cx,0,cz,.336,.120,.286)
+    m.drum("wall",cx,.120,cz,.174,1.240,.138,n=(10,8,6)[m.lod])
+    m.drum("trim",cx,1.360,cz,.176,.106,.155,n=(10,8,6)[m.lod])
+    for quarter in range(6):
+        angle=quarter*math.pi/2
+        height=start-drop*(1-angle/sweep)-.119
+        with m.transform(translate=(cx,height,cz),rotate_y=-math.degrees(angle)):
+            m.block("metal",(.209,0,0),(.271,.088,.103),taper=.14)
+            if m.lod==0 and quarter>0:
+                m.beam("trim",(.118,-.190,0),(.309,-.034,0),.051,.060)
+    # A triangular bracket transfers the inlet apron back into the core.
+    m.beam("trim",(cx,.935,cz),(-.353,1.362,cz+radius),.102)
+    for z in (-1.202,-.553,.075):
+        top=.158+.112*(z+1.387)/(cz+1.387)-.083
+        m.slab("fieldstone",cx+radius,z,.355,.198,0,top,.034,.018)
+    for side in (-1,1):
+        m.block("trim",(-.361,1.528,cz+radius+side*.115),(.076,.182,.031))
+    m.block("metal",(-.361,1.640,cz+radius),(.102,.048,.292))
+    if m.lod<2:
+        for height in (.339,.685,1.039):
+            m.drum("metal",cx,height,cz,.175-height*.021,.046,n=(12,8)[m.lod])
+    if m.lod==0:
+        # Expansion plates bind the outside fascia of each cast flume section.
+        for i in range(12):
+            t=(i+.5)/12
+            angle=sweep*(1-t)
+            with m.transform(translate=(cx,start-drop*t,cz),rotate_y=-math.degrees(angle)):
+                m.block("metal",(radius+.131,-.012,0),(.016,.153,.028))
+        for z in (-1.202,-.553,.075):
+            for side in (-1,1):
+                m.block("gold",(cx+radius+side*.150,.056,z),(.031,.038,.125))
+
+
 def aqueduct(m):
     e=m.era
+    if e==3:
+        # The flume section is authored in tile units to keep its circular plan.
+        with m.transform(scale=(2,1,2/3)):
+            return spiral_aqueduct(m)
     # Spandrels carry a continuous channel. Each bay is a true clear arch in the YZ plane.
     count=3 if e!=2 else 2
     height=(0,.78,.94,.86)[e]
@@ -247,8 +316,37 @@ def bins(m):
         m.rune(.10,.27,-.714,.108)
 
 
+def hoist_store(m):
+    # The tall left-hand loft hoists sealed goods from a lower open counting yard.
+    x,z=-.432,.086
+    m.slab("fieldstone",x,z,.815,1.47,0,.176,.101)
+    m.slab("wall",x,z,.728,1.30,.176,.969,.082,.018)
+    m.slab("timber",x,z,.803,1.36,.969,1.056,.070)
+    m.hip_roof((x,1.056,z),.824,1.44,.39,m.color("roof"),overhang=.032,material="roof")
+    m.portal(x,.166,-.565,.446,.545)
+    m.slab("fieldstone",.394,.11,.896,1.29,0,.119,.063)
+    # Beam projects over the yard, with a diagonal corbel at the warehouse wall.
+    m.block("timber",(.244,.903,.157),(.766,.10,.145))
+    m.beam("trim",(-.087,.492,.157),(.435,.876,.157),.076)
+    m.block("metal",(.549,.627,.157),(.034,.483,.037))
+    m.block("timber",(.549,.333,.157),(.30,.201,.317),taper=.09)
+    if m.lod<2:
+        for u,v,h in ((.218,-.354,.243),(.549,.481,.248)):
+            m.drum("timber",u,.119,v,.174,h,.169)
+            m.drum("trim",u,.119+h*.70,v,.18,.033)
+        m.plaque("door",x,.842,-.568,.284,.153)
+        m.rune(x,.855,-.572,.113)
+    if m.lod==0:
+        m.block("gold",(.549,.384,.157),(.061,.067,.325))
+        for v in (-.365,.525):
+            m.block("trim",(x-.362,.565,v),(.069,.78,.093),taper=.12)
+        m.stairway(x,-.65,.366,.176,.247)
+
+
 def stores(m):
     e=m.era
+    if e==1:
+        return hoist_store(m)
     h=.48+.086*e
     m.hall(-.11,.14,1.55,1.07,h,door=False,windows=1)
     m.portal(-.11,.12,-.405,.65,h*.84)

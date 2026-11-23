@@ -933,6 +933,342 @@
           ]
         }
       ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_dwarf_hospital_future_v0",
+          "evidence_sha256": "c53d01d57ceeca7bd03fae5e03cbef129b00b7d813f942cca44743b5e10def69",
+          "observations": "The broad, round glazed ward and small flat-roofed entrance retain their supports, medical cross and split in height through LOD2. The Human future hospital uses the same composition in both grayscale views, with a slimmer striped cylinder next to a larger square lobby. The Dwarf plan has no equally strong structural distinction.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 86,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Dwarf hospital a different primary ward plan, for example opposing low stone ward wings around a sunken triage court with a glazed central ridge. Retain the medical cross on an integrated entrance and verify the two unpainted angles beside the Human future hospital."
+          ],
+          "lod_triangles": [
+            714,
+            314,
+            154
+          ],
+          "serialized_sha256": "163e442570b8e6375dd4a6054bece4f0f747ec953947df77616a23f91b1c24dc",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-01.png",
+            "rc6/families/dwarf-Hospital-v0.png"
+          ],
+          "frozen_png_sha256": {
+            "rc6/held-trade/bld_dwarf_hospital_future_v0-c53d01d57cee/ascension.png": "8e6fee6ddb8670db73d2fe6d29d4327b440b2fd6ffe10e2e894a612015d29c2c",
+            "rc6/held-trade/bld_dwarf_hospital_future_v0-c53d01d57cee/dwarf-Hospital-v0.png": "d267803bbcb253ff36a29c136d0fc02958bfb1e255cf01ecd77ef111ebbac9ef",
+            "rc6/held-trade/bld_dwarf_hospital_future_v0-c53d01d57cee/human-Hospital-v0.png": "ccbcd622316fff5c111d7f7abfdaec5f23d0f1d371c9aa09067df95bd725cb75",
+            "rc6/held-trade/bld_dwarf_hospital_future_v0-c53d01d57cee/information.png": "f7e505c3596077d9eb238088a87ca27647b9bc7c8e649aa31e99eaaa1d236711",
+            "rc6/held-trade/bld_dwarf_hospital_future_v0-c53d01d57cee/model-and-lods.png": "ee8e94e6ee0b537d9dec2c90c1fb32838f489bc91897fca09b9968e1b7cb9b1e"
+          }
+        },
+        {
+          "id": "bld_dwarf_hospital_industrial_v0",
+          "evidence_sha256": "1947f682a8042f42be5e0fb9985863bfd5adbd5b4793b9ddcdde096ed2a91336",
+          "observations": "Two parallel brick wards run behind a signed central entrance. The steps, chimney and plants make the approach inhabited. LOD2 preserves the two roof ridges and the medical cross over the door. The adjoining future round ward and earlier square stacked hospital produce different skylines.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            806,
+            340,
+            124
+          ],
+          "serialized_sha256": "151eb801e8102af3834347cbfed41d5f60508a1e34bce061fb6ec8258b89983c",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-01.png",
+            "rc6/families/dwarf-Hospital-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_observatory_future_v0",
+          "evidence_sha256": "b5d4cf8a2a9262ac28a43fb99bbf27fa8dfabdc39c8e661048954ac949b34a2e",
+          "observations": "A faceted dish and three converging stays frame the blue receiver. The reverse view exposes the flared bearing on a round pedestal, with a separate, low control room. At LOD2 the receiver is still attached, and the aperture and pedestal remain distinct from the brass ring instrument.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            810,
+            454,
+            236
+          ],
+          "serialized_sha256": "dfb034d00d34e8a90f6ef424df34f9017c3e0bf9b91420418566bdb52d6c7fa8",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-01.png",
+            "rc6/families/dwarf-Observatory-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_observatory_industrial_v0",
+          "evidence_sha256": "69e03d332d054d6ce7e0bb346b65b87576ff5f8a5953b4669c3cff5cb7981eec",
+          "observations": "An inclined observing tube threads a tall calibration ring beside the pitched instrument shed. The angle from the instrument end exposes the brick support legs. Both ring and tube survive the far mesh, distinguishing the outline from the domed early observatory and the future solid dish.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            780,
+            380,
+            184
+          ],
+          "serialized_sha256": "069d3e7c610e4350e8fd9deea9857d88344dc956073ad2ec510b2045e80b5a05",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-01.png",
+            "rc6/families/dwarf-Observatory-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_printworks_future_v0",
+          "evidence_sha256": "64e71a6180afa0435b72ae9e29e4ede893db19d021ca7f963a63f6b77cdda9f4",
+          "observations": "A broad web of pale paper runs between two large transverse rollers, with a bridging colour bar above. The open frame and side bearings explain the load path in both grayscale views. The far mesh retains the rollers, paper and frame, with none of the enclosed roof of its older siblings.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            658,
+            268,
+            186
+          ],
+          "serialized_sha256": "234ca577a8816047d746f0d1d4feb6102ac9a49349fab49010656d4fae4a51e8",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-02.png",
+            "rc6/families/dwarf-Printworks-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_research_lab_future_v0",
+          "evidence_sha256": "c01f54c5a151e56fda5a07dd24f5771fc758a48856a53464965a2cc7880806a5",
+          "observations": "A stepped plinth carries two offset experimental hoops in front of a tall, barrel-roofed instrument room. The clear openings and unequal height distinguish it from the earlier single apparatus on a flat roof. At LOD2 both rims still attach to grounded mounts.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1116,
+            608,
+            221
+          ],
+          "serialized_sha256": "53c64ecb7ad6f29b5910c51c3788a6c6fff809b085c20b49ad29973cc51569bd",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-02.png",
+            "rc6/families/dwarf-ResearchLab-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_university_future_v0",
+          "evidence_sha256": "24589e228600c16fa7dd00c0bce99af4de79dfb4a5f13c68c264645afb4c2826",
+          "observations": "A stepped stack of reading rooms faces a low, tiered outdoor teaching space. Both unpainted sides expose the unequal wings and parallel seating, distinct from the earlier clock tower and roof ridges. At LOD2 the tiers, seating and low front lectern retain their profiles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            744,
+            372,
+            188
+          ],
+          "serialized_sha256": "dfbc04193d3460b498c99baae87b4a5cf81746ea1228168b898c1f25ead6357d",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-02.png",
+            "rc6/families/dwarf-University-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_university_industrial_v0",
+          "evidence_sha256": "7f49a32033d879d7b9ff520f078d0c8a43c2a9b157b242d0f1df95fb8cd8ded4",
+          "observations": "A square-faced clock tower stands at the end of a long sawtooth-roofed academic hall. The entrance is reached through the tower and the projecting desk provides a second activity point. Clock, front access, roof ridges and desk survive the far mesh.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            604,
+            336,
+            160
+          ],
+          "serialized_sha256": "c81948384c1677b78c1f7530916269c77faa17f4bb72efa7609f3b742802c733",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-02.png",
+            "rc6/families/dwarf-University-v0.png"
+          ]
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC6 building art critic, rebuilt exports re-review",
+      "models": [
+        {
+          "id": "bld_dwarf_hospital_future_v0",
+          "evidence_sha256": "7bce0562ca8208313fa1e5a120462e058ecf6f8da2116321a850ac9b01c2102b",
+          "observations": "Two barrel-glazed ward wings flank a signed, recessed treatment court. Both unpainted views expose the gap and the two independent roofs at 64 px. LOD2 keeps the cross, entrance ramp and roof supports. The plan now differs clearly from the Human cylindrical hospital and the earlier Dwarf hospitals.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1070,
+            492,
+            236
+          ],
+          "serialized_sha256": "730803e1c5a21b0c702a23dadedd66e5f3ad8e0d15aca560e353af3ade5ee4fa",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-01.png",
+            "rc6/families/dwarf-Hospital-v0.png"
+          ],
+          "visual_evidence_sha256": {
+            "rc6/models/dwarf_learninghealth-01.png": "c179b72f89e7ca9e1292cddb7996e1bce94afffe89d1b8cd862b89a3a49bf749",
+            "rc6/families/dwarf-Hospital-v0.png": "a39dfa16140106d997ba8689ef29547c0893c8509fbf6fcc3dd68c915c9ede41"
+          },
+          "age_preview_sha256": {
+            "information": "19a2f4a2ee8d52776feb5a8117e6282539ab8e0e3cd1f762b463865ec81efc57",
+            "ascension": "d52e7e574fdee35441874bbd60a6f96cb9f8f11000ed86ec4c9fad27e3e05cef"
+          },
+          "supersedes_evidence_sha256": "c53d01d57ceeca7bd03fae5e03cbef129b00b7d813f942cca44743b5e10def69"
+        }
+      ]
     }
   ]
 }

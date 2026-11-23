@@ -108,25 +108,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 744,
+  "triangles": 930,
   "lod_triangles": [
-   744,
-   424,
-   195
+   930,
+   530,
+   204
   ],
   "bounds": [
    [
-    -0.31511566042900085,
+    -0.17572163045406342,
     0.0,
-    -1.415024995803833
+    -1.3516124486923218
    ],
    [
-    0.3185825049877167,
-    1.4571900367736816,
-    1.415024995803833
+    0.1958467811346054,
+    0.9902088046073914,
+    1.3516124486923218
    ]
   ],
-  "bytes": 116816,
+  "bytes": 142244,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Infrastructure/bld_orc_aqueduct_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_aqueduct_industrial_v0.png",
@@ -598,25 +598,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 464,
+  "triangles": 523,
   "lod_triangles": [
-   464,
-   276,
-   130
+   523,
+   297,
+   160
   ],
   "bounds": [
    [
-    -0.7975249886512756,
+    -0.8644999861717224,
     0.0,
-    -0.3189387619495392
+    -0.3743000030517578
    ],
    [
-    0.859749972820282,
-    1.014930009841919,
-    0.3595750033855438
+    0.8644999861717224,
+    1.196694016456604,
+    0.40470001101493835
    ]
   ],
-  "bytes": 75672,
+  "bytes": 78388,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Infrastructure/bld_orc_storehouse_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_storehouse_industrial_v0.png",

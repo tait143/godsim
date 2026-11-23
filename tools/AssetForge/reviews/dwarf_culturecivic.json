@@ -760,6 +760,46 @@
           }
         }
       ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_dwarf_arena_future_v0",
+          "evidence_sha256": "d9fb05ef3dfc9e14a8ed8e680fa8f0c2622db6002009c253d8420faace061006",
+          "observations": "Opposing stepped banks face a square contest floor. A large suspended bell spans the open end on a braced stone portal, visibly attached from behind. The far mesh preserves floor, seating blocks, portal and bell. Both monochrome views distinguish it from the two earlier circular bowls.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1142,
+            666,
+            290
+          ],
+          "serialized_sha256": "45bc7d2bc30c61b016a9c82792f070ce4da735331cade89c414b3198f29d9c96",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_culturecivic-01.png",
+            "rc6/families/dwarf-Arena-v0.png"
+          ]
+        }
+      ]
     }
   ]
 }

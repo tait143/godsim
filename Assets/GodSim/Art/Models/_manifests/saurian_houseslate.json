@@ -99,25 +99,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 496,
+  "triangles": 500,
   "lod_triangles": [
-   496,
-   282,
-   132
+   500,
+   208,
+   110
   ],
   "bounds": [
    [
-    -0.4350000023841858,
+    -0.3331199884414673,
     0.0,
-    -0.492000013589859
+    -0.24300000071525574
    ],
    [
-    0.4350000023841858,
-    0.7689999938011169,
-    0.3880000114440918
+    0.42712000012397766,
+    0.628000020980835,
+    0.3096800148487091
    ]
   ],
-  "bytes": 71668,
+  "bytes": 67408,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/HousesLate/bld_saurian_house_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/HousesLate/bld_saurian_house_future_v0.png",

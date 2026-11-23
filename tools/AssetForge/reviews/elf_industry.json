@@ -963,6 +963,309 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_elf_armory_classical_v0",
+          "evidence_sha256": "db073d67ddc1f65d02fd272d3c237569cd2e40f1d822188a6803140faabf1309",
+          "observations": "A tall tapered arsenal with a leaf-panelled cap faces a detached rack of leaf-shaped shields and spears. LOD2 simplifies the poles but keeps the shield points, stone entry and leaf cap. The Human Iron armory has a recorded redesign hold for duplicating the tower-and-rack plan.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1038,
+            552,
+            221
+          ],
+          "serialized_sha256": "1c05a0f44a8407a62962cceec4b6ff55f4065364efdffa78f6177d6917d7c5d8",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_industry-01.png",
+            "rc6/families/elf-Armory-v0.png"
+          ]
+        },
+        {
+          "id": "bld_elf_armory_industrial_v0",
+          "evidence_sha256": "ed0e23e507d909bece011cd4a94507c17ab7cd55e532c29b4ffc00af5677fd5a",
+          "observations": "A low barrel-vaulted magazine extends behind three mounted shields and a cylindrical end pier. The long armoured roof contrasts with the Classical thin tower from either unpainted side. At LOD2 the vault, pier and shield faces still meet their mounts.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            850,
+            510,
+            198
+          ],
+          "serialized_sha256": "2e15439801e75fb5c0684aacd29ce06892fe102be5e859244ca5992fa88aac0e",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_industry-01.png",
+            "rc6/families/elf-Armory-v0.png"
+          ]
+        },
+        {
+          "id": "bld_elf_blacksmith_classical_v0",
+          "evidence_sha256": "0dad6580fb2363620da4c2f2f0462b5daef091c136d7ac4f6040d97b0c4751b6",
+          "observations": "Four narrow posts carry a swept pavilion roof over the central furnace. The freestanding anvil and quench tub flank the open bay. At LOD2 the upturned roof, posts, furnace opening and horned anvil remain readable. The earlier and Industrial siblings put a tall chimney outside a closed shelter.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            760,
+            438,
+            241
+          ],
+          "serialized_sha256": "92586f1efb55fcb0a0a722b4e981cd0ee87384f4e47f3da7325084046f4bb449",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_industry-01.png",
+            "rc6/families/elf-Blacksmith-v0.png"
+          ]
+        },
+        {
+          "id": "bld_elf_blacksmith_future_v0",
+          "evidence_sha256": "e0ba98d6119ef9e2cee4b8d57749cc8e55725709bce222020123e2464b2c7833",
+          "observations": "A pointed open arch supports an overhead blue ram above a solitary die. Its low, domed power chamber sits to one side of the open work bay. At LOD2 the ram still lines up over the die and remains attached to the arch, a different support silhouette from the Dwarf cantilever press.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            678,
+            386,
+            201
+          ],
+          "serialized_sha256": "15129d7da524ddeaeb9b4b8fb738710e625a384e31d08b3d90c0251fd8cf1684",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_industry-01.png",
+            "rc6/families/elf-Blacksmith-v0.png"
+          ]
+        },
+        {
+          "id": "bld_elf_smelter_ancient_v0",
+          "evidence_sha256": "240450b1b1c0263df33badbefa58a4d581005b8e0188c40551e31456ea53ff9f",
+          "observations": "Unequal low, open-topped furnaces sit together beneath a partial working canopy. The hot mouths and open glow distinguish them from the later tall stacked furnace. LOD2 keeps both vessels with visible openings, separate grounded bases and the canopy uprights.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1038,
+            544,
+            230
+          ],
+          "serialized_sha256": "89ce74c7dc460aacf77d87251ba13c9ce6979973e55dcc0af40e04449863ca7e",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_industry-02.png",
+            "rc6/families/elf-Smelter-v0.png"
+          ]
+        },
+        {
+          "id": "bld_elf_smelter_future_v0",
+          "evidence_sha256": "e8b3a0f1fb3eb00d83080e2b86e9f70e19c54dea8f84e82d01cbcfb4397db67f",
+          "observations": "A tilted ladle hangs between twin swept yoke legs and pours toward an independent collecting pan. The open triangular space below it remains clear from both angles. LOD2 loses the thin metal stream but keeps the attached lip aimed into the receiving vessel.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            630,
+            358,
+            196
+          ],
+          "serialized_sha256": "82d64dc103ad3ee1b90a983b6b2c91fddce79ada1438566dd71b3f432079bef1",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_industry-02.png",
+            "rc6/families/elf-Smelter-v0.png"
+          ]
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC6 building art critic, rebuilt exports re-review",
+      "models": [
+        {
+          "id": "bld_elf_armory_classical_v0",
+          "evidence_sha256": "e299c47ca6aa160b36693427fe17f7872226e19d7e17c03002eba09e5d69c6b5",
+          "observations": "A spreading leaf canopy on a central trunk now shelters three separate arched issue bays. The shield faces, individual raised landing pads and canopy supports remain legible on the far mesh. The two 64 px unpainted views distinguish it from both the old conical tower and the Human walled issue yard.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1302,
+            742,
+            397
+          ],
+          "serialized_sha256": "04c258acd134442f2a9df7f4d66793e833e2414edf6edb534095f653e3d29ce3",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_industry-01.png",
+            "rc6/families/elf-Armory-v0.png"
+          ],
+          "visual_evidence_sha256": {
+            "rc6/models/elf_industry-01.png": "59f69757e0ac11319bc731fb163a3aadddb0a60fe27f188e69cb9234458720d7",
+            "rc6/families/elf-Armory-v0.png": "ac716c97118ed56f449f6828d8dc0096df8851e8def4cfc8ce535671b5abe709"
+          },
+          "age_preview_sha256": {
+            "classical": "144ab3a0c581b84a07180fab81c6f0ef6f63a8e01a5a17d54c12ef862976d36a",
+            "medieval": "bfd0534fa838acbda632a9a4cc00f7e9528a034cff29fde9372cfb0ed88d9167",
+            "renaissance": "355b54cf1caa613dca8f32d60b5fc7d42b58188c7acfc548e9d49c153b4ef495"
+          },
+          "supersedes_evidence_sha256": "db073d67ddc1f65d02fd272d3c237569cd2e40f1d822188a6803140faabf1309"
+        },
+        {
+          "id": "bld_elf_smelter_future_v0",
+          "evidence_sha256": "50454fe3955b4e3778d0accb1275d79f8422dd14fb2ba4b7b4b8e6982cc7933a",
+          "observations": "Three upright furnace shafts at staggered heights share a plinth, with an orange tap feeding a long supported channel. This gives a clear static furnace silhouette next to the Elf Foundry’s suspended pouring crucible. The far mesh retains all three shafts, the tap mouth, receiving run and underlying supports.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1178,
+            608,
+            361
+          ],
+          "serialized_sha256": "e1d4bdab85497f7f2a480257bfcfb7cce3e0fa44a3d25d2ee20b17704491e699",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_industry-02.png",
+            "rc6/families/elf-Smelter-v0.png"
+          ],
+          "visual_evidence_sha256": {
+            "rc6/models/elf_industry-02.png": "88cf71afa7d94bcc102c3bdf02a87d3708cadebccd52b791a331e275832e06e3",
+            "rc6/families/elf-Smelter-v0.png": "f52319cf8d27bd005b05543697eea81fe23dcfa7f0552dc4da1e6c2d23c32f0f"
+          },
+          "age_preview_sha256": {
+            "information": "2723f78103da6b4baae1d75b86a8601493bdbce328939e61d884f6c7f50f837b",
+            "ascension": "ce06466578aa798de34653ac4efcc413a6af61c0246828386e1cbbd0df3fd784"
+          },
+          "supersedes_evidence_sha256": "e8b3a0f1fb3eb00d83080e2b86e9f70e19c54dea8f84e82d01cbcfb4397db67f"
+        }
+      ]
     }
   ]
 }

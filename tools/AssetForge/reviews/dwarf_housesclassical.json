@@ -313,6 +313,215 @@
           ]
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_classical_medieval_v0",
+          "evidence_sha256": "e0e34d0ae243b7f594c6f4bdb08a26bceb2850ee0fbbd675c7221a7e550f396d",
+          "observations": "The square stone lookout with a dark hipped cap takes a different silhouette from the gabled Medieval alternative. The portico roof has a freestanding chimney at LOD0. Its shaft and cap both vanish when the first reduced mesh appears.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 93,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Carry the capped chimney through LOD1 and LOD2 at its location on the low wing. In side and rear views it should clear the portico ridge."
+          ],
+          "lod_triangles": [
+            447,
+            206,
+            94
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.612,
+            "primary_picture_pair": [
+              "bld_dwarf_house_ancient_bronze_v0",
+              "bld_dwarf_house_classical_medieval_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1161
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_house_ancient_v0",
+              "bld_dwarf_house_classical_medieval_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_housesclassical-01.png": "c4a516b7e5e3099314dbbc83e9113634539464da1697fbad239ab4c036983a3e",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v1.png": "291b39f87fa77ec4e615158b38e627cf89417bc35ff7a664d87d4102a00a346f"
+          },
+          "glb_sha256": "09a476641b54d959c5b4268a89e9e69b319cf0168d4ad96df908a1703b5eeaeb",
+          "age_preview_sha256": {
+            "medieval": "9eb5ae544a8ea514ade6f7c2492d168fd39497bd0a1b5c4467983d1ab2a143ea"
+          }
+        },
+        {
+          "id": "bld_dwarf_house_classical_medieval_v1",
+          "evidence_sha256": "c1721968120dd9a2cc7dd43b63a9d3bd664e2a84e1c350b9676d4edd0b1d754c",
+          "observations": "The plastered overhanging upper storey adds domestic scale. At phone size the slate gable and low side room still repeat the Iron v1 layout. Its masonry chimney disappears from the rear pitch at both reduced LODs.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 90,
+            "construction": 86,
+            "charm": 91,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "Give the Medieval variant a distinct roof arrangement or wing plan so its age can be read against Iron v1 without relying on taller plaster walls and timber trim.",
+            "Retain the chimney in both reduced meshes, including its cap or a clear simplified lip."
+          ],
+          "lod_triangles": [
+            415,
+            214,
+            92
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.652,
+            "primary_picture_pair": [
+              "bld_dwarf_house_ancient_iron_v1",
+              "bld_dwarf_house_classical_medieval_v1"
+            ],
+            "max_shared_corners": [
+              0,
+              1149
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_house_ancient_v1",
+              "bld_dwarf_house_classical_medieval_v1"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_housesclassical-01.png": "c4a516b7e5e3099314dbbc83e9113634539464da1697fbad239ab4c036983a3e",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v1.png": "291b39f87fa77ec4e615158b38e627cf89417bc35ff7a664d87d4102a00a346f",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d"
+          },
+          "glb_sha256": "745cff565ec4b54e8dcf2567f3d60d58864cee93e761047702e1daf7437f0f2c",
+          "age_preview_sha256": {
+            "medieval": "527ad015699b977cdb41e0a6d2e7e11396b6bc5d1226dbe02001d6093dbe4b00"
+          }
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "RC6 independent housing and Saurian civic critic, corrected candidate review",
+      "inspection": "Compared the published painted age previews and family sheets against the original holds and named lookalikes. Rendered both unpainted 64 px views independently from each of the three actual LOD meshes. Inspected the native family cameras and the larger multi-camera LOD sheet. Recomputed same-family picture likeness and directional corner overlap, checked the fragment against the GLB and verified all three serialized levels for exposed coplanar faces and inverted shells.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_classical_medieval_v0",
+          "evidence_sha256": "0468e58aaf35c52f1cae76b73cb52579ec3f99b00fcf8f4eae1ec83efceb7fc1",
+          "previous_evidence_sha256": "e0e34d0ae243b7f594c6f4bdb08a26bceb2850ee0fbbd675c7221a7e550f396d",
+          "observations": "The little porch chimney now clears the eaves at LOD1 and LOD2. Viewed from the opposite corner, its shaft meets the brown roof and its small cap projects to either side. The detached height of the larger square lookout remains the dominant outline.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            447,
+            236,
+            114
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.612,
+            "primary_picture_pair": [
+              "bld_dwarf_house_ancient_bronze_v0",
+              "bld_dwarf_house_classical_medieval_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1161
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_house_ancient_v0",
+              "bld_dwarf_house_classical_medieval_v0"
+            ],
+            "specific_comparisons": {
+              "bld_dwarf_house_classical_medieval_v1": {
+                "primary_picture_likeness": 0.591,
+                "evidence_sha256": "adcdd7a7a9d0d1da0391924ac92ae05f7881b756e573ce3e3303c3c86c19e55f"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_housesclassical-01.png": "012e434e92ae063ee0d200fb6b6b7e8327d8e217c50ad9ef26aa527ee93eed61",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v1.png": "4af9e201b007bb4c522fb11a618ba1f3fe680bf4155b6aa3e683fe8ea0618ffc"
+          },
+          "glb_sha256": "25d609c1f85ade64c4527929dace0988e86605be2d5bdbba1bbba14a0279de57",
+          "age_preview_sha256": {
+            "medieval": "9eb5ae544a8ea514ade6f7c2492d168fd39497bd0a1b5c4467983d1ab2a143ea"
+          }
+        },
+        {
+          "id": "bld_dwarf_house_classical_medieval_v1",
+          "evidence_sha256": "adcdd7a7a9d0d1da0391924ac92ae05f7881b756e573ce3e3303c3c86c19e55f",
+          "previous_evidence_sha256": "c1721968120dd9a2cc7dd43b63a9d3bd664e2a84e1c350b9676d4edd0b1d754c",
+          "observations": "Stepped masonry gables bracket a low shared roof over two front doors and exterior stairs. A single capped chimney rises between the gables and persists at all three LODs. Both unpainted corners distinguish this paired house from the steep triangular Iron v1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            675,
+            384,
+            206
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.614,
+            "primary_picture_pair": [
+              "bld_dwarf_house_ancient_iron_v1",
+              "bld_dwarf_house_classical_medieval_v1"
+            ],
+            "max_shared_corners": [
+              0,
+              1149
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_house_ancient_v1",
+              "bld_dwarf_house_classical_medieval_v1"
+            ],
+            "specific_comparisons": {
+              "bld_dwarf_house_ancient_iron_v1": {
+                "primary_picture_likeness": 0.614,
+                "evidence_sha256": "e574b8b298ce023a6a3c777d0960506ff241a168e2b29f31102c8117ad68c843"
+              },
+              "bld_dwarf_house_classical_medieval_v0": {
+                "primary_picture_likeness": 0.591,
+                "evidence_sha256": "0468e58aaf35c52f1cae76b73cb52579ec3f99b00fcf8f4eae1ec83efceb7fc1"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_housesclassical-01.png": "012e434e92ae063ee0d200fb6b6b7e8327d8e217c50ad9ef26aa527ee93eed61",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v1.png": "4af9e201b007bb4c522fb11a618ba1f3fe680bf4155b6aa3e683fe8ea0618ffc",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d"
+          },
+          "glb_sha256": "bc567a5ba3afca408c9d51fb0e10bd5386c1e26a91010d1069efa573a02d448e",
+          "age_preview_sha256": {
+            "medieval": "c39d2bcea264370d7d474bbab4d8d34f5ccc66c8e001206dbaf65c846c6760eb"
+          }
+        }
+      ]
     }
   ]
 }

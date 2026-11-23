@@ -112,6 +112,142 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_saurian_house_classical_medieval_v0",
+          "evidence_sha256": "c4ebbf70a0f8a55653b72c94a2d96dca74b16130aa70236d5091dc8c937ace14",
+          "observations": "The narrow stone-footed tower and separate green-capped entrance produce two distinct roof heights. Window boxes, a small fabric marker and a single domestic stair set its scale. The finial-free pitched roof separates this dwelling from the broad Classical villa.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            428,
+            162,
+            86
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.581,
+            "primary_picture_pair": [
+              "bld_saurian_house_classical_medieval_v0",
+              "bld_saurian_house_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1548
+            ],
+            "max_shared_direction": [
+              "bld_saurian_house_ancient_v0",
+              "bld_saurian_house_classical_medieval_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_housesclassical-01.png": "41fb73bfb56f6e6602575abb2350d41b22ae6e1f51a6f588f189dbbf4fa4cf35",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "5aa8c846d39351eecb118f877a96c03df5776db0c7ce1ad91b705dca844cc0d7",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v1.png": "c8a3b72459ae117bfb125d98acda098fff828f4ede02d19fc70eccd6fd553aac"
+          },
+          "glb_sha256": "14d7dcff7e6cc7f30a2266c069c02cd95e6111c358c8d88948e3454871e33f63",
+          "age_preview_sha256": {
+            "medieval": "b83b17315b34de7df3cb5415ccd37381bab81f0cb8683d01253b17c9045c3a2c"
+          }
+        },
+        {
+          "id": "bld_saurian_house_classical_renaissance_v0",
+          "evidence_sha256": "d58a5a7358f78712bbd945a4f5e82c42c1ca1a1f981069367ac43c6644f94b87",
+          "observations": "A terracotta gallery runs along the front of a squared, taller residence. Its band of turquoise eave trim and open, supported loggia distinguish the plan from the round Renaissance variant. The loggia columns still carry the roof at LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            562,
+            191,
+            118
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.645,
+            "primary_picture_pair": [
+              "bld_saurian_house_ancient_bronze_v0",
+              "bld_saurian_house_classical_renaissance_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1548
+            ],
+            "max_shared_direction": [
+              "bld_saurian_house_ancient_v0",
+              "bld_saurian_house_classical_renaissance_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_housesclassical-01.png": "41fb73bfb56f6e6602575abb2350d41b22ae6e1f51a6f588f189dbbf4fa4cf35",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "5aa8c846d39351eecb118f877a96c03df5776db0c7ce1ad91b705dca844cc0d7",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v1.png": "c8a3b72459ae117bfb125d98acda098fff828f4ede02d19fc70eccd6fd553aac"
+          },
+          "glb_sha256": "19942029f780c236ae3a4dfe7e77c0063540d9d17db5a9000e0c851f6fbcb22d",
+          "age_preview_sha256": {
+            "renaissance": "07802bb3e8d1b2add83a25e6612afa19269656955f23994970257af64387e32b"
+          }
+        },
+        {
+          "id": "bld_saurian_house_classical_renaissance_v1",
+          "evidence_sha256": "73ea7e3561cc7926cda57c3bef1543160bec7a64db8a758c59c6a0515ab5b9d6",
+          "observations": "The rounded turbine-like upper window band supports a shallow clay cap, with a much smaller square entrance wing on the ground. The main drum and its offset vestibule remain identifiable without paint and at the coarse LOD.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            546,
+            253,
+            116
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.537,
+            "primary_picture_pair": [
+              "bld_saurian_house_classical_renaissance_v1",
+              "bld_saurian_house_industrial_v1"
+            ],
+            "max_shared_corners": [
+              0,
+              1698
+            ],
+            "max_shared_direction": [
+              "bld_saurian_house_ancient_v1",
+              "bld_saurian_house_classical_renaissance_v1"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_housesclassical-01.png": "41fb73bfb56f6e6602575abb2350d41b22ae6e1f51a6f588f189dbbf4fa4cf35",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v1.png": "c8a3b72459ae117bfb125d98acda098fff828f4ede02d19fc70eccd6fd553aac",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "5aa8c846d39351eecb118f877a96c03df5776db0c7ce1ad91b705dca844cc0d7"
+          },
+          "glb_sha256": "3d8fce7d5fe5721628f99daa498c7ed4089d39352fb8392d6b1edc4c9d482651",
+          "age_preview_sha256": {
+            "renaissance": "cb37dd7e6cec487c7a8b84fab2abf90ccaf848c550d1ed90bf822f3726298f19"
+          }
+        }
+      ]
     }
   ]
 }

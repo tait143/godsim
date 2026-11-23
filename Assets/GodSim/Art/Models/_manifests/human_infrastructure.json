@@ -18,25 +18,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 794,
+  "triangles": 604,
   "lod_triangles": [
-   794,
-   452,
-   252
+   604,
+   352,
+   182
   ],
   "bounds": [
    [
-    -0.3075000047683716,
+    -0.40400001406669617,
     0.0,
-    -1.4915000200271606
+    -1.4170000553131104
    ],
    [
-    0.3075000047683716,
-    1.63100004196167,
-    1.4105000495910645
+    0.4415000081062317,
+    1.593999981880188,
+    1.4249999523162842
    ]
   ],
-  "bytes": 111024,
+  "bytes": 82624,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_aqueduct_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_aqueduct_classical_v0.png",
@@ -509,25 +509,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 517,
+  "triangles": 550,
   "lod_triangles": [
-   517,
-   226,
-   132
+   550,
+   252,
+   154
   ],
   "bounds": [
    [
-    -0.9449999928474426,
+    -0.8050000071525574,
     0.0,
-    -0.4449999928474426
+    -0.4892500042915344
    ],
    [
-    0.9449999928474426,
-    1.1799999475479126,
-    0.4449999928474426
+    0.925000011920929,
+    1.6200000047683716,
+    0.42500001192092896
    ]
   ],
-  "bytes": 66992,
+  "bytes": 70952,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_storehouse_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_classical_v0.png",

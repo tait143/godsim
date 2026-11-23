@@ -575,6 +575,46 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_orc_harbor_industrial_v0",
+          "evidence_sha256": "0e265901cebf262ff86e9f7ba40bbcc18a38887899af3680f42eb15a01b33060",
+          "observations": "The broad slip roof shelters a boat supported between the wharf and the water edge. The other angle shows the exposed loading quay and the stern below the roof. LOD2 strips the boat interior but retains the hull, water, slip roof and its grounded pilings.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1006,
+            573,
+            318
+          ],
+          "serialized_sha256": "26f49bd7c1038c3069887861eb6a13714c69bd4684e57daede9e89967291dfae",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/orc_commerce-01.png",
+            "rc6/families/orc-Harbor-v0.png"
+          ]
+        }
+      ]
     }
   ]
 }

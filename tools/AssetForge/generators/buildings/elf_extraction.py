@@ -83,6 +83,46 @@ def timber_stack(m):
 
 
 def camp(m):
+    if m.era==1:
+        # Cleft logs season on an open raised rack, with no building enclosing
+        # the air passages. A sheltered chopping bench stands out in front.
+        for px in (-.307,.281):
+            for pz in (.066,.297):
+                shaft(m,'timber',(px,.004,pz),(px,.438,pz),.040,.032)
+        for y in (.119,.262):
+            block(m,'trim',(-.013,y,.176),(.662,.045,.318))
+            for pz in ((.082,.183,.286) if m.lod<2 else (.124,.253)):
+                log(m,-.011,y+.062,pz,.044,.577,90)
+        with m.transform(translate=(0,0,.180),rotate_y=90):
+            gable(m,0,.422,0,.38,.754,.167,'roof')
+        m.disk('timber',.181,0,-.191,.113,.094,.147,.88)
+        m.disk('thatch',.181,.145,-.191,.095,.081,.009)
+        if m.lod<2:
+            shaft(m,'trim',(.178,.149,-.191),(.254,.309,-.148),.014)
+            m.lump('metal',(.184,.173,-.188),(.045,.031,.018),5)
+            log(m,-.213,.049,-.168,.047,.314,71)
+        return
+    if m.era==2:
+        # A skidder yarder pulls whole trunks up the gravel landing. Its
+        # forked mast and drum take the cable load instead of a roofed cabin.
+        x,z=-.163,.176
+        m.disk('fieldstone',x,0,z,.169,.143,.057,.95)
+        for s in (-1,1):
+            m.limb('metal',[(x+s*.11,.052,z),(x+s*.066,.397,z+.025),
+                            (x+.045+s*.019,.733,z-.073)],[.052,.035,.022])
+        wheel(m,x+.04,.703,z-.083,.079,'z')
+        m.limb('trim',[(x+.04,.748,z-.087),(.221,.154,-.184)],[.011,.010],4)
+        block(m,'metal',(x,.157,-.021),(.234,.309,.115),.18)
+        wheel(m,x,.188,-.105,.133)
+        for px in (.137,.274):
+            log(m,px,.071,-.111,.067,.366,19)
+        if m.lod<2:
+            m.limb('trim',[(x+.031,.677,z-.065),(-.311,.039,.355)],[.015,.016],4)
+            m.disk('timber',-.313,0,.352,.045,.041,.053)
+            m.leaf('trim',(x-.085,.225,z+.019),(x-.017,.464,z+.081),.030,.017)
+        if m.lod==0:
+            m.pot(.279,0,.239,.042,'trim')
+        return
     # A retained pollard at the back carries the workers' split-leaf shelter.
     m.hall(-.135,0,.184,.22,.184,.247+.017*m.era,.21+.029*m.era)
     m.limb("timber",[(.187,0,.178),(.187,.045,.178),(.174,.28,.162),(.198,.48,.159),
@@ -149,6 +189,55 @@ def jib(m,x,y,z,reach,h):
 
 
 def quarry(m):
+    if m.era==0:
+        # Daylight quarry with parallel bedding exposed in long low ledges.
+        # A splitting gang prises blocks loose with its timber lever and wedges.
+        for i,(x,z,w,d,h) in enumerate(((-.285,.42,1.05,.47,.42),
+                                       (-.15,.086,1.16,.25,.268),(-.041,-.19,.95,.237,.142))):
+            block(m,'fieldstone',(x,h*.5,z),(w,h,d),.08)
+            if m.lod<2:
+                for j in range(3):
+                    px=x+w*(j-1)*.27
+                    block(m,'timber',(px,h+.014,z-.036),(.041,.069,.079),.17)
+        m.disk('fieldstone',.483,0,-.091,.142,.123,.122,.83,7)
+        shaft(m,'timber',(.247,.112,-.107),(.755,.432,-.068),.048,.032)
+        for i,(px,pz) in enumerate(((.245,-.495),(-.291,-.517))):
+            for dz in (-.078,.098):
+                log(m,px,.057,pz+dz,.052,.394,90)
+            block(m,'wall',(px,.173,pz),(.338,.148,.225),.054)
+        if m.lod<2:
+            m.lump('fieldstone',(-.449,.463,.461),(.196,.103,.142),6)
+            m.lump('fieldstone',(-.675,.367,.468),(.174,.127,.193),5)
+            cliff(m,-.69,.546,.205,.214,.485,2,'fieldstone')
+            cliff(m,.137,.573,.17,.151,.442,2,'fieldstone')
+        if m.lod==0:
+            m.pot(.598,0,.306,.067,'trim')
+        return
+    if m.era==2:
+        # A rail-mounted wire saw straddles a long stone bench. The cutting
+        # loop passes over raised guide wheels into the kerf in the block.
+        for sx in (-.47,.47):
+            block(m,'fieldstone',(sx,.076,.012),(.223,.152,1.47),.08)
+            block(m,'metal',(sx,.166,.012),(.075,.049,1.44))
+            block(m,'brick',(sx,.334,.036),(.191,.327,.275),.13)
+            m.limb('metal',[(sx,.466,.040),(sx*.96,.813,.040),(sx*.73,1.016,.04)],[.087,.059,.045])
+        shaft(m,'trim',(-.366,1.013,.039),(.367,1.013,.039),.063)
+        block(m,'fieldstone',(0,.151,.028),(.629,.302,1.03),.057)
+        block(m,'wall',(0,.342,.158),(.498,.084,.766))
+        for sx in (-.302,.302):
+            if m.lod<2:
+                wheel(m,sx,.848,-.038,.115)
+            else:
+                m.lump('metal',(sx,.848,-.038),(.115,.115,.043),4)
+            shaft(m,'metal',(sx,.834,.054),(sx,.848,-.07),.035)
+            m.limb('trim',[(sx,.884,-.065),(sx*.63,.387,-.079)],[.013,.010],4)
+        if m.lod<2:
+            block(m,'metal',(-.692,.211,.221),(.234,.42,.312),.12)
+            m.leaf('glass',(-.794,.38,.185),(-.603,.531,.253),.071,.034)
+            block(m,'wall',(.544,.118,-.65),(.296,.232,.288),.045)
+        if m.lod==0:
+            m.lump('fieldstone',(.690,.09,.50),(.190,.090,.141),6)
+        return
     cliff(m,-.20,.245,.59,.48,.60+.08*m.era,2+(m.era%2),"fieldstone")
     m.hall(-.53,0,-.321,.22,.21,.231+.044*m.era,.22)
     jib(m,.64,0,-.18,-.36,.89+.087*m.era)
@@ -546,6 +635,46 @@ def oilwell(m):
 
 
 def sawmill(m):
+    if m.era==3:
+        # A vertical band head crosses the roller bed. Two guarded wheels
+        # drive the narrow blade through the timber below the branched crown.
+        x,z=-.117,.014
+        m.disk('ivory',x,0,z,.308,.213,.11,.92)
+        m.limb('ivory',[(x-.122,.096,z+.044),(x-.214,.43,z+.042),
+                        (x-.193,.88,z+.041),(x-.006,1.097,z+.036)],[.104,.091,.071,.072])
+        for y,r in ((.261,.173),(.982,.185)):
+            # An open pulley and the exposed strip of blade must read even on
+            # the far bank of the mill. The bearings attach from the rear.
+            wheel(m,x,y,z-.098,r)
+            shaft(m,'trim',(x,y,z-.082),(x,y,z+.054),.046)
+            block(m,'ivory',(x-.074,y,z+.047),(.196,.066,.083))
+        block(m,'metal',(x+.170,.622,z-.098),(.039,.725,.057))
+        block(m,'trim',(x-.170,.621,z-.098),(.039,.726,.047))
+        for px in (-.43,.489):
+            for pz in (-.475,.504):
+                if m.lod==2:
+                    block(m,'trim',(px,.157,pz),(.114,.314,.113))
+                else:
+                    m.disk('trim',px,0,pz,.078,.078,.312,.82)
+            block(m,'ivory',(px,.349,.025),(.112,.085,1.13))
+        for pz in ((-.429,-.204,.092,.33,.512) if m.lod<2 else (-.429,.473)):
+            shaft(m,'metal',(-.431,.387,pz),(.489,.387,pz),.046)
+        log(m,.102,.492,-.104,.096,.909)
+        if m.lod<2:
+            # Adjustable guide blocks keep the cutting run straight above
+            # and below the timber. Each is cantilevered from the return mast.
+            for y in (.34,.722):
+                shaft(m,'ivory',(x-.137,y,z+.039),(x+.158,y,z+.045),.032)
+                block(m,'metal',(x+.163,y,z-.012),(.071,.057,.167))
+            for i in range(3):
+                block(m,'thatch',(.714,.04+i*.066,.169),(.228,.063,.756),.022)
+            m.leaf('ivory',(x-.191,.76,z+.067),(x+.057,1.238,z+.141),.083,.077)
+        if m.lod==0:
+            for pz in (-.382,.394):
+                for px in (-.319,.389):
+                    m.disk('trim',px,.390,pz,.048,.048,.066,.84)
+                    m.disk('glass',px,.454,pz,.043,.043,.027,.97)
+        return
     m.hall(-.30,0,.31,.446,.372,.55+.14*(m.era==3),.4)
     # Logs feed directly into the toothed blade along the front of the cutting gallery.
     for s in (-1,1):

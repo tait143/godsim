@@ -947,6 +947,216 @@
           }
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_dwarf_blacksmith_classical_v0",
+          "evidence_sha256": "8658516ce6f73b7a4763ae8b98c4356efb8e834e8ee6ef101dbdce79e2c3b6bc",
+          "observations": "A flared four-sided smoke canopy rises to a capped vent above the open work frontage. The big anvil sits inside the masonry supports. All three palettes leave the opening and anvil visible, and the hood remains the building silhouette after LOD reduction.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            664,
+            396,
+            199
+          ],
+          "serialized_sha256": "381518e37f9e1e27068dbde0efc61d6f9613671b69b24618025ad77b43ff38fa",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_industry-01.png",
+            "rc6/families/dwarf-Blacksmith-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_blacksmith_future_v0",
+          "evidence_sha256": "fe4c17f03c086638ac52bff3d983e73f722263687d725d1c7194bd423691facb",
+          "observations": "A tall single-backed power press faces its orange die. A separate low control box joins the press at the foot, leaving the striking gap visible. The far mesh keeps ram, die and spine aligned. The Industrial shed and the Elf enclosed arch press have different support layouts.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            736,
+            372,
+            194
+          ],
+          "serialized_sha256": "c1e369ef3e3a06cdc98106a191da46b98900ae84488a69f1d6c3eeafbf2dfef9",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_industry-01.png",
+            "rc6/families/dwarf-Blacksmith-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_blacksmith_industrial_v0",
+          "evidence_sha256": "983d235c1954e440691d15aff77e4b48171817bd3723c6bdb2157e81d0e1d556",
+          "observations": "The gabled brick works stands alongside a tall open-front machine with a striking beam and orange working mouth. Rear and side views expose the beam support and separate chimney. The far mesh retains the forge upright, shed and chimney.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            910,
+            498,
+            289
+          ],
+          "serialized_sha256": "db6ef90e1078f6338ab3eafe042cca1ea2c46f82e9893836ed979579bd4c60a6",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_industry-01.png",
+            "rc6/families/dwarf-Blacksmith-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_smelter_classical_v0",
+          "evidence_sha256": "3673b402e42247e542bc704653f713a13f372bae7a9116dbe53f16724cd6d3b6",
+          "observations": "Two flared masonry stacks rise directly from separate ground-level furnace mouths. Their shared landing and unequal door treatments explain the paired works. Both full stacks and the hot opening persist on the far mesh, clearly distinct from the raked Industrial furnace.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            970,
+            518,
+            302
+          ],
+          "serialized_sha256": "af656026dfa7fecee5cd7b9cb30edf89600f803a56e070d2e335acca33596371",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_industry-01.png",
+            "rc6/families/dwarf-Smelter-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_smelter_future_v0",
+          "evidence_sha256": "22bea2056e3452b2dc210f409b170c83596b7824d649e3cdb7b2c6dc52fdbd31",
+          "observations": "A deep, ribbed rotary drum sits in a sloping cradle above a receiving pan, beside its low control box. Both side views expose the cradle and barrel depth. LOD2 retains drum, working face, pan and footing. The separate Orc smelter hold addresses its similar frontal arrangement.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            948,
+            426,
+            223
+          ],
+          "serialized_sha256": "ac1223a77de07adf511ea7715b9805f7e6ed4a32ad60405edafc3e93e91169cb",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_industry-02.png",
+            "rc6/families/dwarf-Smelter-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_smelter_industrial_v0",
+          "evidence_sha256": "ef612457eed27ce70c317953edda47db0c4ec859a719dce96370f863d926e2d1",
+          "observations": "A charging incline climbs from a low loading block to the banded tapered furnace. Seen behind, the incline meets the top and the stack has a grounded base. At LOD2 a single strong incline and broad hot tap preserve the process despite fewer bands.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            762,
+            430,
+            222
+          ],
+          "serialized_sha256": "e9f800469135fec00fccf24b96c79f35f868b6e8881ae9da4261d351903d7dc8",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_industry-02.png",
+            "rc6/families/dwarf-Smelter-v0.png"
+          ]
+        }
+      ]
     }
   ]
 }

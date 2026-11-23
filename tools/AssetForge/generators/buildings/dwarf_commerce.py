@@ -195,8 +195,38 @@ def vault_bank(m):
             m.block("slate",0,.004+j*.039,-.846+j*.066,.70-j*.079,.046,.12)
 
 
+def charter_bridge(m):
+    # Delegates pass below a glazed assembly bridge linking the two guild lodges.
+    for s in (-1,1):
+        x=s*.605
+        m.slab("fieldstone",x,0,.133,.520,.123,1.24,.165)
+        m.slab("wall",x,.123,.124,.425,.370,1.10,.16,.18)
+        for z in (-.176,.465):
+            m.beam("ivory",(x,.452,z),(s*.403,1.053,z),.217,.202)
+        portal(m,x,.122,-.424,.239,.283)
+    m.slab("trim",0,1.010,.155,1.69,.142,.893,.22)
+    m.slab("glass",0,1.152,.160,1.58,.286,.792,.24,.10)
+    m.vault("ivory",0,1.438,.162,1.57,.211,.823)
+    m.slab("slate",0,0,-.510,.693,.077,.681,.18)
+    disc(m,"gold",0,1.255,-.257,.177,.047)
+    disc(m,"banner",0,1.255,-.295,.134,.026)
+    if m.lod<2:
+        m.rune(0,1.259,-.328,.169,"gold")
+        for s in (-1,1):
+            m.block("trim",s*.432,1.158,-.242,.041,.251,.051)
+            m.lamp(s*.246,.077,-.63,.109)
+    if m.lod==0:
+        for s in (-1,1):
+            m.block("gold",s*.605,.188,-.492,.240,.041,.037)
+            for z in (.051,.271):
+                m.block("glass",s*.804,.275,z,.024,.104,.141)
+            m.slab("gold",s*.690,1.127,.155,.119,.034,.631,.18)
+
+
 def guildhall(m):
     e=m.era
+    if e==3:
+        return charter_bridge(m)
     m.slab("fieldstone",0,0,.07,1.84,.146,1.60,.11)
     h=(0,.65,.74,.69)[e]
     m.slab("wall",-.053,.138,.135,1.57,h-.138,1.24,.09)
@@ -361,8 +391,43 @@ def harbor(m):
     ship(m,.483,.072,e)
 
 
+def aerial_station(m):
+    # A through-running monorail crosses above street level. One lift and
+    # a covered side platform serve the articulated cars at beam height.
+    for x in (-.997,1.001):
+        m.slab("fieldstone",x,0,-.218,.457,.134,.559,.21)
+        m.slab("ivory",x,.134,-.218,.301,.681,.344,.17,.16)
+        m.slab("trim",x,.815,-.218,.421,.172,.469,.14,-.17)
+    m.slab("metal",0,.987,-.218,2.78,.157,.299,.13)
+    for x,w in ((-.590,1.17),(.561,1.018)):
+        m.slab("trim",x,1.144,-.218,w*.80,.108,.248,.17)
+        m.slab("ivory",x,1.252,-.218,w,.245,.511,.23,-.035)
+        m.slab("glass",x,1.497,-.218,w*1.02,.171,.527,.23,.15)
+        m.slab("roof",x,1.668,-.215,w*.874,.053,.451,.21,.10)
+        if m.lod==0:
+            for k in (-1,0,1):
+                m.block("metal",x+k*w*.238,1.507,-.473,.041,.130,.029)
+    m.slab("fieldstone",-.196,0,.468,.719,.121,.779,.19)
+    m.slab("wall",-.196,.121,.468,.556,1.035,.621,.18)
+    m.slab("slate",-.007,1.150,.296,1.73,.102,.465,.145)
+    portal(m,-.196,.125,.151,.374,.518)
+    if m.lod<2:
+        for x in (-.587,.587):
+            m.block("trim",x,1.252,.451,.063,.515,.078)
+        m.slab("metal",0,1.767,.374,1.51,.074,.429,.15,.13)
+        for side in (-1,1):
+            m.block("glass",-.196+side*.278,.393,.459,.030,.564,.246)
+    if m.lod==0:
+        for x in (-.39,0,.39):
+            m.block("gold",x,1.256,.180,.180,.017,.056)
+        m.slab("slate",-.195,0,.030,.475,.063,.217,.12)
+        disc(m,"emissive",-.196,.866,.151,.118,.027)
+
+
 def rail(m):
     e=m.era
+    if e==3:
+        return aerial_station(m)
     # The double track and adjoining stepped platform read as rail at all distances.
     m.slab("fieldstone",-.444,0,.04,1.55,.157,2.68,.09)
     m.slab("slate",.811,0,0,.966,.069,2.78,.05)

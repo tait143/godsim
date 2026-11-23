@@ -238,25 +238,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1230,
+  "triangles": 1011,
   "lod_triangles": [
-   1230,
-   701,
-   352
+   1011,
+   576,
+   311
   ],
   "bounds": [
    [
-    -0.953000009059906,
+    -0.9200000166893005,
     0.0,
     -0.9049999713897705
    ],
    [
     0.9200000166893005,
-    2.0769999027252197,
+    1.4240000247955322,
     0.9049999713897705
    ]
   ],
-  "bytes": 181320,
+  "bytes": 152232,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_gold_mine_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_industrial_v0.png",

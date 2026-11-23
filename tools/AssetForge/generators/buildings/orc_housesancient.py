@@ -10,6 +10,7 @@ from building_scope import AGES, ROOT, package_models
 from forge import MeshBuilder, publish
 from forge.render import contact_sheet
 from forge.atlas import palette
+from generators.buildings.orc_clan_assemblies import bronze_house, iron_house
 
 PACKAGE = "orc_housesancient"
 
@@ -24,6 +25,8 @@ class Lodge(MeshBuilder):
 
     def colour(self, role):
         return self.palette[role if role in self.palette else 'orc/' + role]
+
+    color = colour
 
     def face(self, role, points):
         self.poly(points, self.colour(role), material=role)
@@ -146,6 +149,9 @@ def early_details(m,x,front,v):
 
 def build(spec,lod):
     m=Lodge(spec,lod)
+    if m.age in ("bronze","iron"):
+        {"bronze":bronze_house,"iron":iron_house}[m.age](m)
+        return m
     age,v=m.age,m.v
     x=.055 if v else -.025
     z=.06 if v else .041

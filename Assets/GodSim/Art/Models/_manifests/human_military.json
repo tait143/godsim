@@ -322,25 +322,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 821,
+  "triangles": 754,
   "lod_triangles": [
-   821,
-   433,
-   216
+   754,
+   451,
+   235
   ],
   "bounds": [
    [
-    -1.4700000286102295,
+    -1.4539999961853027,
     0.0,
-    -0.13099999725818634
+    -0.29548025131225586
    ],
    [
-    1.4700000286102295,
-    1.2197999954223633,
-    0.34702178835868835
+    1.4223288297653198,
+    1.4505000114440918,
+    0.4365416169166565
    ]
   ],
-  "bytes": 124084,
+  "bytes": 125692,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_palisade_ancient_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_palisade_ancient_v0.png",
@@ -585,25 +585,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 442,
+  "triangles": 689,
   "lod_triangles": [
-   442,
-   232,
-   125
+   689,
+   387,
+   186
   ],
   "bounds": [
    [
-    -0.3400000035762787,
+    -0.47200000286102295,
     0.0,
-    -0.3100000023841858
+    -0.45750001072883606
    ],
    [
-    0.3400000035762787,
-    2.1335999965667725,
-    0.33000001311302185
+    0.4390000104904175,
+    1.561416745185852,
+    0.4050000011920929
    ]
   ],
-  "bytes": 61452,
+  "bytes": 107220,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_watchtower_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_watchtower_industrial_v0.png",

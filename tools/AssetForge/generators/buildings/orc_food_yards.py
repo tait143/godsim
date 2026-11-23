@@ -65,6 +65,38 @@ def farm(m):
                 m.beam("metal",(.03,.43,.60),(s*.53,.46,.41),.048)
 
 
+def windpump_farm(m):
+    # A crank-driven pump fills the head ditch from a steel wind wheel. The
+    # several crop strips grow along the race instead of surrounding a house.
+    x,z=-.43,.34
+    for dx in (-.200,.200):
+        for dz in (-.16,.16):
+            m.block('fieldstone',x+dx,0,z+dz,.136,.112,.137,.085)
+            m.beam('metal',(x+dx,.081,z+dz),(x+dx*.29,1.16,z+dz*.36),.067)
+    m.block('metal',x,1.12,z,.205,.146,.19)
+    shaft(m,'trim',(x,1.204,z-.224),(x,1.204,z+.191),.073)
+    for i in range((10,8,5)[m.lod]):
+        with m.transform(translate=(x,1.204,z-.193),rotate_z=360*i/(10,8,5)[m.lod]):
+            m.beam('trim',(0,.055,0),(.041,.373,0),.026)
+            with m.transform(translate=(.03,.313,0),rotate_z=-12,rotate_y=15):
+                m.block('metal',0,-.085,0,.131,.172,.031,.13)
+    m.disk('cloth',x,1.204,z-.209,.086,.055)
+    m.beam('metal',(x,1.20,z+.06),(x+.084,1.24,z+.391),.032)
+    m.block('cloth',x+.088,1.154,z+.38,.186,.159,.043,.14)
+    m.block('fieldstone',x,0,-.146,.47,.205,.36,.07)
+    m.block('water',x,.203,-.147,.386,.024,.276)
+    for dz in ((-.625,-.16,.322,.723) if m.lod<2 else (-.61,-.015,.628)):
+        crop_bed(m,.374,dz,.94,.265)
+    if m.lod<2:
+        m.beam('metal',(x,.252,z-.145),(x,.96,z-.071),.039)
+        m.beam('metal',(x,.272,z-.14),(x,.259,-.087),.053)
+        m.horn(x-.197,.147,-.085,.36,-1)
+        for dx in (-.17,.17):
+            m.beam('metal',(x+dx,.21,z-.14),(x-dx*.58,.76,z-.091),.034)
+    if m.lod==0:
+        m.jar(.836,0,-.681,.095,.187,'timber')
+
+
 def hunting_lodge(m):
     # A lookout raised above the lodge gives the hunters a clear view over
     # the forest. A lashed ladder and a covered kit porch face the approach.
@@ -291,7 +323,8 @@ def barrel_gambrel(m,x,z):
 
 DESIGNS={
     ("FishingHut","classical"):fishing_stage,
-    ("Farm","classical"):farm, ("Farm","future"):farm, ("FishingHut","industrial"):fishing_quay,
+    ("Farm","classical"):farm, ("Farm","industrial"):windpump_farm, ("Farm","future"):farm,
+    ("FishingHut","industrial"):fishing_quay,
     ("HuntingLodge","classical"):hunting_lodge, ("Mill","industrial"):mill,
     **{("Pasture",era):pasture for era in ("classical","industrial","future")},
 }

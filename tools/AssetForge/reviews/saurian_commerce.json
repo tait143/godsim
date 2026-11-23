@@ -671,6 +671,56 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 10,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_saurian_bank_industrial_v0",
+          "evidence_sha256": "40b91b3cc0c2adaf5e6a49f3d9ed46521d0dfcb33db19025d50c6fc1ddea3daa",
+          "observations": "A faceted drum vault dominates a low cash hall and a deep-set entrance. The blue-grey dome remains high against its low dark side block at every LOD. The earlier hipped ceremonial bank and later wall-mounted safe have different plans.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            795,
+            391,
+            173
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.598,
+            "primary_picture_pair": [
+              "bld_saurian_bank_classical_v0",
+              "bld_saurian_bank_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2250
+            ],
+            "max_shared_direction": [
+              "bld_saurian_bank_classical_v0",
+              "bld_saurian_bank_industrial_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_commerce-01.png": "44494eceaa3499c44a4e75d9693bc114b6243f7282e0936fb3cdc2795e61513a",
+            "tools/AssetForge/reviews/rc6/families/saurian-Bank-v0.png": "3a9d8a3ad5bfce576df3c2146f06316e9b5fd8de0bf4a0e3e6c70204ed07d339"
+          },
+          "glb_sha256": "8e15c65b7eb1956606e7841b42a6f72bab9905f6fd8ecda2cce3e6bafa2d4722",
+          "age_preview_sha256": {
+            "industrial": "1666c600c0426a83485a397372697a372fa6f6ca59dbd861cc6a3ad9b0f349eb",
+            "modern": "c6202bf5f660137cfaac49050e0ff96d932fefd77fe909b8e102e6c0e8f51304"
+          }
+        }
+      ]
     }
   ]
 }

@@ -789,6 +789,324 @@
           }
         }
       ]
+    },
+    {
+      "round": 8,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_dwarf_town_center_ancient_bronze_v0",
+          "evidence_sha256": "788f8b87e3dba34b3299e08e1f3346980c6637c77a168cbac85fe0f446cc7b08",
+          "observations": "The low pair of bronze-topped wings enclose a broad civic apron. The central gable and corner posts frame the speaking entrance from both cameras. The scooped forecourt shape persists after removal of small trim.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1056,
+            492,
+            256
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.666,
+            "primary_picture_pair": [
+              "bld_dwarf_town_center_ancient_bronze_v0",
+              "bld_dwarf_town_center_ancient_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2832
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_ancient_bronze_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_towncenters-01.png": "9cc0a2602a0d25652fa3a17bc50e188903449da2c9ea1b84d5518cbbb50cca56",
+            "tools/AssetForge/reviews/rc6/families/dwarf-TownCenter-v0.png": "bac925be76f47db0e2ab90a3a9272562721c1c6b47d546afe781f0e1d39a6cc8"
+          },
+          "glb_sha256": "76fb7d87cce6336e31d0656e0309a1f199a1ce00782b0ad8db71502adf12d19f",
+          "age_preview_sha256": {
+            "bronze": "0452ef04e9c26b8d600d0343b68de8c5ff1604278cc8bd56c3165e0849776a4d"
+          }
+        },
+        {
+          "id": "bld_dwarf_town_center_ancient_iron_v0",
+          "evidence_sha256": "c4056a3dbec3fd0528a2d0eeeafe23e26e577269529e3e31bd017cec054a5b2d",
+          "observations": "The tower and little front gable build cleanly through all three LODs. From either unpainted angle the silhouette reads as a house, repeating the rear tower and small entrance wing of the Dwarf Medieval v0 residence. Two posts and a tiny crest provide its civic clues.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 84,
+            "construction": 92,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Change the principal civic mass or public plan. A broad gathering court, substantial assembly nave or open columned entrance must distinguish this Iron Town Center from the race's tower-and-annex homes at 64 px."
+          ],
+          "lod_triangles": [
+            892,
+            430,
+            242
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.6,
+            "primary_picture_pair": [
+              "bld_dwarf_town_center_ancient_iron_v0",
+              "bld_dwarf_town_center_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2832
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_ancient_iron_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_towncenters-01.png": "9cc0a2602a0d25652fa3a17bc50e188903449da2c9ea1b84d5518cbbb50cca56",
+            "tools/AssetForge/reviews/rc6/families/dwarf-TownCenter-v0.png": "bac925be76f47db0e2ab90a3a9272562721c1c6b47d546afe781f0e1d39a6cc8"
+          },
+          "glb_sha256": "bd455f56905019537b28892d02f254c468768a82e2abfade3ccc989606f6b9c7",
+          "age_preview_sha256": {
+            "iron": "c603aecba195e7b973ba44bf13043ad2331a3bb82f836e68bcb2628822edbb67"
+          }
+        },
+        {
+          "id": "bld_dwarf_town_center_classical_v0",
+          "evidence_sha256": "3a991bd1f02a7ded284777c2829b2535a8e421decca122e0260d2c376625c583",
+          "observations": "Twin clay ridges cover a full-length stone colonnade on a stepped plinth. The long public approach replaces the compact Iron volumes. Both lowered meshes keep the supporting bay rhythm and the broad front stair.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1166,
+            400,
+            206
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.621,
+            "primary_picture_pair": [
+              "bld_dwarf_town_center_ancient_bronze_v0",
+              "bld_dwarf_town_center_classical_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2832
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_classical_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_towncenters-01.png": "9cc0a2602a0d25652fa3a17bc50e188903449da2c9ea1b84d5518cbbb50cca56",
+            "tools/AssetForge/reviews/rc6/families/dwarf-TownCenter-v0.png": "bac925be76f47db0e2ab90a3a9272562721c1c6b47d546afe781f0e1d39a6cc8"
+          },
+          "glb_sha256": "cbd86405c51f4dede0f3eaf55d7efd77a3d8829fa2f94e03419ae2ff2c3ca895",
+          "age_preview_sha256": {
+            "classical": "b3bdf258b3581eb71ee3a98f702e5b9abc2dcf347b0de41bc2b797c5a4695156"
+          }
+        },
+        {
+          "id": "bld_dwarf_town_center_future_ascension_v0",
+          "evidence_sha256": "e7a5a30916077cf56961f3639795bfb23f78296eca0f70949d8254b67865567f",
+          "observations": "Two raking masonry piers hold an elevated gold wheel around the central entry. The large opening survives reduction and remains legible in grayscale against the stacked Information-age offices.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 95,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            926,
+            386,
+            263
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.575,
+            "primary_picture_pair": [
+              "bld_dwarf_town_center_ancient_iron_v0",
+              "bld_dwarf_town_center_future_ascension_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2832
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_future_ascension_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_towncenters-01.png": "9cc0a2602a0d25652fa3a17bc50e188903449da2c9ea1b84d5518cbbb50cca56",
+            "tools/AssetForge/reviews/rc6/families/dwarf-TownCenter-v0.png": "bac925be76f47db0e2ab90a3a9272562721c1c6b47d546afe781f0e1d39a6cc8"
+          },
+          "glb_sha256": "035b06bb24b5c318e910c1ff71d7e772ddfd8be2f4096f6351aa42aa82aa40a5",
+          "age_preview_sha256": {
+            "ascension": "ddd34586457828b761f0a90f926edfcdd2ef86e28788f17c5252f3036705b233"
+          }
+        },
+        {
+          "id": "bld_dwarf_town_center_industrial_modern_v0",
+          "evidence_sha256": "39e679041a76bd4ae03537089e91ef38af201afdde7aad1f3e165f596fb863b0",
+          "observations": "An elevated glazed bar crosses the smaller grounded entrance on piers. The upper side block steps above its pale roof. The open space under the cantilever remains visible even at the coarse LOD.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            580,
+            296,
+            168
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.54,
+            "primary_picture_pair": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_industrial_modern_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2832
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_industrial_modern_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_towncenters-02.png": "0153b7675a43a599e41577f05fca0695063d4b92960df2fe4a77f63e1d6d4c31",
+            "tools/AssetForge/reviews/rc6/families/dwarf-TownCenter-v0.png": "bac925be76f47db0e2ab90a3a9272562721c1c6b47d546afe781f0e1d39a6cc8"
+          },
+          "glb_sha256": "8ff4aca73bc3e9d3c9c9ea31595a97cb63c13abf583fb1db990989cdb194f014",
+          "age_preview_sha256": {
+            "modern": "5283f3cc647abea43bd48aa6c509836f0d31ac4014adb9e112aec5e7dd456ea6"
+          }
+        },
+        {
+          "id": "bld_dwarf_town_center_industrial_v0",
+          "evidence_sha256": "fef68321b72ffa90f9dc54722ecfa14ee5c82c40f1fcb1c03adeb4431a969964",
+          "observations": "The red-brick civic clock tower stands clear of three dark sawtooth ridges. Their repeated notches, front arch and clock belfry keep their positions through both reductions and distinguish the later glazed civic office.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            776,
+            400,
+            230
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.6,
+            "primary_picture_pair": [
+              "bld_dwarf_town_center_ancient_iron_v0",
+              "bld_dwarf_town_center_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2832
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_industrial_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_towncenters-02.png": "0153b7675a43a599e41577f05fca0695063d4b92960df2fe4a77f63e1d6d4c31",
+            "tools/AssetForge/reviews/rc6/families/dwarf-TownCenter-v0.png": "bac925be76f47db0e2ab90a3a9272562721c1c6b47d546afe781f0e1d39a6cc8"
+          },
+          "glb_sha256": "a8b3731280572803eec9a82007cf136c28a70aebd40c5474c6ed9ffa254ed24b",
+          "age_preview_sha256": {
+            "industrial": "9b2a80c51a6d1d21b607f5cceb5d60059b281f79845d83127161028e0f04dea7"
+          }
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "RC6 independent housing and Saurian civic critic, corrected candidate review",
+      "inspection": "Compared the published painted age previews and family sheets against the original holds and named lookalikes. Rendered both unpainted 64 px views independently from each of the three actual LOD meshes. Inspected the native family cameras and the larger multi-camera LOD sheet. Recomputed same-family picture likeness and directional corner overlap, checked the fragment against the GLB and verified all three serialized levels for exposed coplanar faces and inverted shells.",
+      "models": [
+        {
+          "id": "bld_dwarf_town_center_ancient_iron_v0",
+          "evidence_sha256": "d7086022782c22cc61f46ec2000185ce36298733e6515e3a1ab109169c526112",
+          "previous_evidence_sha256": "c4056a3dbec3fd0528a2d0eeeafe23e26e577269529e3e31bd017cec054a5b2d",
+          "observations": "A broad barrel vault shelters the public stone platform and its low side seats. The open end, generous approach and thick supporting walls survive both reductions. Its half-round section separates this assembly hall from the Dwarf tower houses and the surrounding Bronze and Classical civic halls.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1220,
+            688,
+            386
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.66,
+            "primary_picture_pair": [
+              "bld_dwarf_town_center_ancient_iron_v0",
+              "bld_dwarf_town_center_classical_medieval_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2832
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_ancient_iron_v0"
+            ],
+            "specific_comparisons": {
+              "bld_dwarf_house_classical_medieval_v0": {
+                "primary_picture_likeness": 0.535,
+                "evidence_sha256": "0468e58aaf35c52f1cae76b73cb52579ec3f99b00fcf8f4eae1ec83efceb7fc1"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_towncenters-01.png": "ac10078650650f40182efeb8a0bbd820201c8d5513ef764289dbad0c00009e60",
+            "tools/AssetForge/reviews/rc6/families/dwarf-TownCenter-v0.png": "68d01ef52b2ef30ea5e677a1d7cbee01563f631f5afe5559f88003843b4bd147",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d"
+          },
+          "glb_sha256": "d48ba5f86b7aa3708f62b20b755ee59a3409dd4c903d0e6dd78da806d264cf92",
+          "age_preview_sha256": {
+            "iron": "7924068fa469f7fa6ec1258b4739dca35e4b91fd39575b3ad9148e34c872a023"
+          }
+        }
+      ]
     }
   ]
 }

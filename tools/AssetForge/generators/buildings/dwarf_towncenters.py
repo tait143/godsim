@@ -7,6 +7,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from building_scope import AGES, package_models
 from forge import MeshBuilder, publish, style
 from forge.render import contact_sheet
+from generators.buildings.dwarf_council_halls import COUNCILS
 
 
 class Stonework(MeshBuilder):
@@ -313,6 +314,9 @@ def network_moot(m):
 def build(spec,lod):
     m=Stonework(spec,lod)
     age=AGES.index(spec.ages[0])
+    if age in COUNCILS:
+        COUNCILS[age](m)
+        return m
     if age in (5,8):
         if age==5:
             domed_moot(m)

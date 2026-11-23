@@ -351,6 +351,56 @@
           ]
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_saurian_house_future_v0",
+          "evidence_sha256": "f993c79c3905c4a7886650f478b04d62d128e3b56e7ea10cd65e83eadbc780f5",
+          "observations": "V-shaped braces lift the long blue-glass living room over an open side bay. The small ground-floor doorway anchors the end of the building. Its long horizontal outline and open triangular supports distinguish it from the nearby stepped future houses.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            500,
+            208,
+            110
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.605,
+            "primary_picture_pair": [
+              "bld_saurian_house_ancient_bronze_v0",
+              "bld_saurian_house_future_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1548
+            ],
+            "max_shared_direction": [
+              "bld_saurian_house_ancient_v0",
+              "bld_saurian_house_future_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_houseslate-01.png": "d93cd552877e888274c9104807a6bb76b5264031c5d82fc15d8d39051e4c6c92",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "5aa8c846d39351eecb118f877a96c03df5776db0c7ce1ad91b705dca844cc0d7",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v1.png": "c8a3b72459ae117bfb125d98acda098fff828f4ede02d19fc70eccd6fd553aac"
+          },
+          "glb_sha256": "1f3fc5f2b024eb44f818305fb2737799153cd0658506d93b76a1ae84ebefe78a",
+          "age_preview_sha256": {
+            "information": "db0f4804de54d957fc3516f64236932faaf8abf92ed5acb18083320b190ee407"
+          }
+        }
+      ]
     }
   ]
 }

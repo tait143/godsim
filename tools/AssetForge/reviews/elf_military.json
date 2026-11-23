@@ -856,6 +856,104 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 10,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_elf_palisade_classical_v0",
+          "evidence_sha256": "d29a9288d88b335e5632ef131a50c1c01ba45828c830bafaf2d3dd9ae0a42c13",
+          "observations": "The leaf-roofed portal is distinctive, but its fence wings deteriorate markedly between LOD0 and LOD2. From either side, most of the sharpened boards vanish and only short, irregular clumps joined by thin rails remain. Against the Human, Dwarf and Orc palisades the far result reads as a freestanding garden gate.",
+          "scores": {
+            "silhouette": 90,
+            "identity": 85,
+            "construction": 84,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Keep continuous low-poly panels with a serrated stake line on BOTH fence wings at LOD2. Carry their full length into the two gate piers and check front and reverse 64 px views for a continuous defensive barrier."
+          ],
+          "lod_triangles": [
+            1030,
+            586,
+            328
+          ],
+          "serialized_sha256": "79bafb09b4f26c749ed5a39acad7e5edd3f28c7cff2f813eaacb2618b596cff3",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_military-01.png",
+            "rc6/families/elf-Palisade-v0.png"
+          ],
+          "frozen_png_sha256": {
+            "rc6/held-trade/bld_elf_palisade_classical_v0-d29a9288d88b/classical.png": "e59a8b1f4c465730761474063a5a72e90429c642d0d236cf00a70112e8894fa5",
+            "rc6/held-trade/bld_elf_palisade_classical_v0-d29a9288d88b/elf-Palisade-v0.png": "e165d751b6f52681a9cdc155d0b7e2e51b18f63f6e9998427e9a5879ca2d8069",
+            "rc6/held-trade/bld_elf_palisade_classical_v0-d29a9288d88b/medieval.png": "07940258c16b7824bbfa601a5beb6ac4abdde3d3c4fef76beb146f38ddcbe277",
+            "rc6/held-trade/bld_elf_palisade_classical_v0-d29a9288d88b/model-and-lods.png": "4a7f8b5379dbc4f3ddcdecb8fe0c61bb9d98ea8d87415600ab47c2c05055f31e",
+            "rc6/held-trade/bld_elf_palisade_classical_v0-d29a9288d88b/orc-Palisade-v0.png": "39ba4483bca02b08c41d89aaabe905352299c1e79a79ad1b33d201b47f491ddd"
+          }
+        }
+      ]
+    },
+    {
+      "round": 11,
+      "critic": "Independent RC6 building art critic, rebuilt exports re-review",
+      "models": [
+        {
+          "id": "bld_elf_palisade_classical_v0",
+          "evidence_sha256": "ecc3a03b6f689e0aeb7207f35e07836d2ab3fcc3310a4b2cb279a868368e2603",
+          "observations": "The far mesh now has continuous serrated wings with a visible run into each pier of the central leaf-roofed gate. Front and rear angles maintain the defensive line. The change from individually spaced posts to joined panels is visible at LOD2, but the length, height and pointed skyline survive.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 92,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1030,
+            586,
+            328
+          ],
+          "serialized_sha256": "66a2de62efc41e9bd12123ad5d14a99afb193fa7d07adc67085bf1fdde9438af",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_military-01.png",
+            "rc6/families/elf-Palisade-v0.png"
+          ],
+          "visual_evidence_sha256": {
+            "rc6/models/elf_military-01.png": "d904f87aa8127b2aaf99eda5343f810864b2c014488835d71a7cfd56bfbcd440",
+            "rc6/families/elf-Palisade-v0.png": "e165d751b6f52681a9cdc155d0b7e2e51b18f63f6e9998427e9a5879ca2d8069"
+          },
+          "age_preview_sha256": {
+            "classical": "e59a8b1f4c465730761474063a5a72e90429c642d0d236cf00a70112e8894fa5",
+            "medieval": "07940258c16b7824bbfa601a5beb6ac4abdde3d3c4fef76beb146f38ddcbe277"
+          },
+          "supersedes_evidence_sha256": "d29a9288d88b335e5632ef131a50c1c01ba45828c830bafaf2d3dd9ae0a42c13"
+        }
+      ]
     }
   ]
 }

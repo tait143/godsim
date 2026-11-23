@@ -30,6 +30,8 @@ def ingots(m,x,y,z):
 
 
 def furnace(m):
+    if m.era:
+        return (pot_furnaces, blast_furnace, rotary_smelter)[m.era-1](m)
     m.slab("fieldstone",0,0,.01,1.86,.119,1.66,.12)
     m.hearth(-.41,.114,.21,(.91,1.14,1.05),roof_material="roof" if m.era==0 else None)
     kiln(m,.41,.17,.377,(.83,.93,1.04,.91)[m.era])
@@ -57,6 +59,8 @@ def anvil(m,x,y,z,scale):
 
 def blacksmith(m):
     e=m.era
+    if e:
+        return (guild_smithy, powered_smithy, induction_smithy)[e-1](m)
     m.slab("fieldstone",0,0,.03,1.88,.112,1.63,.12)
     m.hearth(-.35,.109,.33,(1.05,1.13,.95),roof_material="roof" if e==0 else None)
     kiln(m,.48,.43,.268,(.69,.79,.87,.77)[e])
@@ -67,6 +71,170 @@ def blacksmith(m):
     if m.lod==0:
         m.beam("timber",(.29,.697,-.39),(.44,.693,-.54),.040)
         m.block("metal",.28,.673,-.38,.121,.064,.068)
+
+
+def guild_smithy(m):
+    # A ribbed smoke hood straddles an open-sided guild hearth. The two front
+    # columns frame the smith's anvil and form a walk-in porch under the hood.
+    m.slab("fieldstone",0,0,.055,1.61,.16,1.40,.20)
+    m.slab("wall",0,.151,.366,1.16,.49,.56,.11)
+    m.entry(.31,.159,.081,.35,.414)
+    for x in (-.548,.548):
+        m.drum("wall",x,.151,-.325,.149,.54,.116,n=(8,6,4)[m.lod])
+        if m.lod<2:
+            m.drum("trim",x,.622,-.325,.154,.087,.156,n=(8,6)[m.lod])
+    m.slab("trim",0,.676,.023,1.43,.116,1.043,.13)
+    m.slab("roof_tile",0,.786,.023,1.45,.438,1.062,.15,.58)
+    m.slab("brick",0,1.218,.023,.61,.302,.47,.11,.16)
+    m.vault("trim",0,1.506,.023,.601,.096,.485)
+    anvil(m,-.053,.157,-.469,.75)
+    if m.lod<2:
+        m.relief("forge",[(-.48,.269),(-.11,.269),(-.11,.429),(-.18,.508),(-.397,.508),(-.48,.415)],.069,.033)
+        for x in (-.43,.43):
+            m.beam("accent",(x,.792,-.499),(x*.42,1.222,-.197),.052)
+    if m.lod==0:
+        m.rune(0,.73,-.507,.211)
+        m.drum("timber",-.65,.157,.075,.119,.205)
+        m.drum("water",-.65,.36,.075,.099,.013)
+        m.beam("timber",(.194,.164,-.494),(.280,.468,-.431),.047)
+        m.block("metal",.281,.453,-.426,.13,.075,.079)
+
+
+def powered_smithy(m):
+    # Brick belt house with an external flywheel and walking-beam trip hammer.
+    m.slab("brick",-.36,0,.23,.84,.63,1.18,.09)
+    m.wedge((-.36,.624,.23),.96,1.29,.287,m.color("slate"),material="slate")
+    m.entry(-.388,.016,-.364,.406,.476)
+    m.stack(-.49,.799,.568,.146,.446,"brick")
+    m.slab("fieldstone",.407,0,-.05,.81,.144,1.39,.13)
+    m.slab("metal",.377,.137,.186,.32,.71,.333,.10,.17)
+    m.beam("timber",(.375,.712,.588),(.375,.962,-.477),.134,.156)
+    m.block("metal",.375,.635,-.493,.28,.355,.275)
+    m.slab("trim",.373,.141,-.496,.403,.248,.349,.133,.20)
+    m.slab("metal",.373,.382,-.496,.321,.122,.287,.11)
+    with m.transform(translate=(.38,.525,.46),rotate_y=90):
+        m.wheel(0,0,0,.326,"accent",spokes=(6,4,3)[m.lod])
+    if m.lod<2:
+        m.beam("metal",(.465,.513,.692),(.442,.726,.557),.061)
+        m.block("forge",.372,.496,-.505,.204,.047,.129)
+        for z in ((-.062,.246,.525) if m.lod==0 else (.183,)):
+            m.block("glass",-.785,.328,z,.028,.179,.174)
+    if m.lod==0:
+        m.lamp(-.645,.025,-.371,.10)
+        ingots(m,.721,.147,-.421)
+        m.block("accent",.375,.948,-.493,.30,.074,.284)
+
+
+def induction_smithy(m):
+    # An open forging throat with a suspended die and concentric heating coils.
+    # The insulated control room nestles into the outer cheek of the press.
+    m.drum("metal",-.211,0,-.041,.671,.156,.696,n=(12,8,6)[m.lod])
+    m.slab("ivory",-.411,.147,.282,.552,1.10,.557,.15,.20)
+    m.vault("accent",-.411,1.239,-.002,.638,.241,1.107)
+    m.drum("trim",-.410,.94,-.348,.221,.338,.259)
+    m.drum("ivory",-.410,.748,-.348,.168,.203,.201)
+    m.drum("metal",-.41,.151,-.347,.306,.242,.24)
+    m.drum("forge",-.41,.385,-.347,.211,.112,.184)
+    m.slab("wall",.471,0,.221,.693,.352,.926,.145)
+    m.slab("glass",.471,.344,.221,.683,.238,.913,.138,.12)
+    m.vault("ivory",.47,.577,.221,.72,.126,.977)
+    m.entry(.464,.015,-.248,.387,.384)
+    if m.lod<2:
+        for i in range(4 if m.lod==0 else 2):
+            m.drum("gold",-.41,.984+.067*i,-.348,.235+.006*i,.032,n=(12,7)[m.lod])
+        m.rune(-.409,1.344,-.566,.241)
+    if m.lod==0:
+        for x in (.261,.677):
+            m.block("metal",x,.354,-.238,.043,.207,.039)
+        m.drum("trim",-.167,.153,-.565,.084,.226,.067)
+        m.drum("turquoise",-.167,.375,-.565,.073,.044)
+
+
+def pot_furnaces(m):
+    # Two bottle kilns share a stone tapping gallery. The molten metal is
+    # carried from the forward mouth to moulds along the channel at ground level.
+    m.slab("fieldstone",-.026,0,.017,1.69,.116,1.46,.23)
+    for x,z,r,h in ((-.383,-.028,.342,.998),(.309,.355,.303,1.261)):
+        m.drum("brick",x,.109,z,r,.361,r*1.11)
+        m.drum("roof_tile",x,.46,z,r*1.11,h*.507,r*.46)
+        m.drum("wall",x,.453+h*.507,z,r*.47,h*.30,r*.49)
+        top=.446+h*.807
+        m.drum("trim",x,top,z,r*.57,.087,r*.56)
+        if m.lod<2:
+            m.drum("door",x,top+.083,z,r*.379,.012)
+        m.vault("wall",x,.112,z-r*.92,r*1.49,.367,.181)
+        m.vault("forge",x,.128,z-r*.92-.09,r*.91,.222,.038)
+        if m.lod==0:
+            m.drum("accent",x,.405,z,r*1.119,.051)
+    if m.lod<2:
+        m.block("trim",-.378,.115,-.542,.223,.100,.409)
+        m.block("forge",-.378,.21,-.54,.122,.018,.409)
+    else:
+        m.block("forge",-.378,.115,-.542,.167,.104,.409)
+    m.slab("wall",.433,.107,-.209,.58,.411,.486,.11)
+    m.vault("slate",.433,.51,-.209,.637,.118,.548)
+    m.entry(.436,.119,-.455,.318,.32)
+    if m.lod<2:
+        ingots(m,.12,.118,-.524)
+    if m.lod==0:
+        m.lamp(.674,.118,-.462,.08)
+
+
+def blast_furnace(m):
+    # The charge climbs a braced skip incline to the steel top of the furnace.
+    x,z=-.39,.36
+    m.slab("brick",x,0,z,.875,.417,.777,.126)
+    m.vault("forge",x,.104,-.042,.419,.195,.052)
+    m.drum("brick",x,.409,z,.402,.322,.459)
+    m.drum("metal",x,.725,z,.453,.768,.259)
+    m.drum("trim",x,1.486,z,.291,.171,.235)
+    if m.lod==2:
+        m.drum("brick",x,1.652,z,.16,.278,.115)
+    else:
+        m.stack(x,1.652,z,.16,.249,"brick")
+    m.slab("wall",.448,0,-.237,.753,.339,1.026,.12)
+    m.vault("roof",.448,.329,-.237,.787,.125,1.075)
+    m.entry(.458,.014,-.755,.333,.301)
+    for dx in (-.112,.112):
+        m.beam("metal",(.49+dx,.41,-.335),(x+dx,1.568,z),.072)
+    m.beam("trim",(.489,.433,-.335),(x,1.544,z),.175,.093)
+    m.slab("brick",.019,0,.077,.239,.637,.254,.10)
+    m.beam("metal",(.019,.628,.077),(-.056,1.03,.11),.111)
+    if m.lod<2:
+        m.slab("accent",-.125,1.112,.169,.31,.169,.298,.16,.14)
+        for i in range(3 if m.lod==0 else 1):
+            at=.813+.207*i
+            m.drum("accent",x,at,z,.44-.051*i,.044)
+    if m.lod==0:
+        m.slab("trim",-.394,.005,-.243,.311,.093,.375,.12)
+        m.block("forge",-.394,.091,-.239,.126,.018,.344)
+
+
+def rotary_smelter(m):
+    # Two saddles support the long tilting crucible. Its charging mouth is at
+    # the rear; the southern lip pours into a removable receiving vessel.
+    for z,h in ((-.231,.47),(.401,.606)):
+        m.slab("metal",-.185,0,z,1.097,h,.249,.135,.38)
+    with m.transform(translate=(-.185,.65,-.525),rotate_x=77):
+        n=(16,9,6)[m.lod]
+        m.drum("accent",0,0,0,.34,.167,.411,n=n)
+        m.drum("ivory",0,.161,0,.412,.926,.407,n=n)
+        m.drum("metal",0,1.083,0,.416,.203,.28,n=n)
+        with m.transform(rotate_x=180):
+            m.drum("door",0,-.012,0,.279,.025,n=n)
+            m.drum("forge",0,.011,0,.198,.027,n=n)
+        if m.lod<2:
+            for y in ((.267,.548,.813,1.026) if m.lod==0 else (.293,.871)):
+                m.drum("trim",0,y,0,.426,.059,n=n)
+    m.drum("metal",-.189,0,-.701,.201,.188,.249)
+    m.drum("forge",-.189,.185,-.701,.196,.023)
+    m.slab("wall",.577,0,.142,.536,.419,.94,.088)
+    m.slab("glass",.577,.414,.142,.526,.164,.924,.10)
+    m.vault("metal",.577,.572,.142,.577,.158,.987)
+    m.entry(.579,.014,-.334,.305,.354)
+    if m.lod==0:
+        m.beam("gold",(.233,.324,.395),(.511,.399,.411),.076)
+        m.lamp(.779,.014,-.435,.095)
 
 
 def shield(m,x,y,z,w,h,mat):

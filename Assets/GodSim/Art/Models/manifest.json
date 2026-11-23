@@ -121,25 +121,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 698,
+   "triangles": 1220,
    "lod_triangles": [
-    698,
-    378,
-    210
+    1220,
+    664,
+    384
    ],
    "bounds": [
     [
-     -0.13050000369548798,
+     -0.4682575762271881,
      0.0,
-     -1.4212499856948853
+     -1.3869999647140503
     ],
     [
-     0.13050000369548798,
-     1.159999966621399,
-     1.4212499856948853
+     0.4465000033378601,
+     1.6640000343322754,
+     1.152999997138977
     ]
    ],
-   "bytes": 107940,
+   "bytes": 197620,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Infrastructure/bld_dwarf_aqueduct_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_aqueduct_future_v0.png",
@@ -147,7 +147,7 @@
     "information": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_aqueduct_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_aqueduct_future_v0__ascension.png"
    },
-   "sha256": "232530bbe2850ffcfd241aa2ad37ee3a7625e9df70642011414dc9e388a14e1a",
+   "sha256": "6c7c0f79d4dadf781ce9a9de9ad9ec6b96a1b4165e422f13f28d69909b15917c",
    "sourceIds": [
     "bld_dwarf_aqueduct_future_v0"
    ],
@@ -317,25 +317,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1340,
+   "triangles": 1142,
    "lod_triangles": [
-    1340,
-    694,
-    278
+    1142,
+    666,
+    290
    ],
    "bounds": [
     [
-     -1.440000057220459,
+     -1.3949999809265137,
      0.0,
-     -1.3875000476837158
+     -1.253999948501587
     ],
     [
-     1.440000057220459,
-     1.405500054359436,
-     1.3875000476837158
+     1.3949999809265137,
+     2.189793825149536,
+     1.3109999895095825
     ]
    ],
-   "bytes": 189092,
+   "bytes": 157600,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_future_v0.png",
@@ -343,7 +343,7 @@
     "information": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_future_v0__ascension.png"
    },
-   "sha256": "e61a732e24d5d9164117a06e8eb967be37cd68e0e6041eaf52fd4be86f21540c",
+   "sha256": "45bc7d2bc30c61b016a9c82792f070ce4da735331cade89c414b3198f29d9c96",
    "sourceIds": [
     "bld_dwarf_arena_future_v0"
    ],
@@ -905,25 +905,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 622,
+   "triangles": 650,
    "lod_triangles": [
-    622,
-    354,
-    190
+    650,
+    370,
+    176
    ],
    "bounds": [
     [
-     -0.7900000214576721,
+     -0.8744999766349792,
      0.0,
-     -0.8784999847412109
+     -0.8565000295639038
     ],
     [
-     0.7900000214576721,
-     1.3575999736785889,
-     0.699999988079071
+     0.8389999866485596,
+     1.4739999771118164,
+     0.8345000147819519
     ]
    ],
-   "bytes": 98828,
+   "bytes": 92160,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_barracks_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_industrial_v0.png",
@@ -931,7 +931,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_industrial_v0__modern.png"
    },
-   "sha256": "30744b22a71222625e3ba75608a2b498b981ce46296aa8ee4dcdc229ea3954da",
+   "sha256": "0d9afb6b9843b7652d41bdf99b8323ba5c97abc84de5565500275ba1fa7fc07c",
    "sourceIds": [
     "bld_dwarf_barracks_industrial_v0"
    ],
@@ -1153,25 +1153,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1114,
+   "triangles": 664,
    "lod_triangles": [
-    1114,
-    542,
-    285
+    664,
+    396,
+    199
    ],
    "bounds": [
     [
-     -0.9399999976158142,
+     -0.8050000071525574,
      0.0,
-     -0.39250001311302185
+     -0.3395000100135803
     ],
     [
-     0.9399999976158142,
-     0.891198992729187,
-     0.42250001430511475
+     0.8050000071525574,
+     1.2655800580978394,
+     0.3774999976158142
     ]
    ],
-   "bytes": 135224,
+   "bytes": 94448,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_classical_v0.png",
@@ -1180,7 +1180,7 @@
     "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_classical_v0__medieval.png",
     "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_classical_v0__renaissance.png"
    },
-   "sha256": "9fb9f87423c42006365eba1d1c8a3a9e6c4121c068bf1599b5f6a38d624383fb",
+   "sha256": "381518e37f9e1e27068dbde0efc61d6f9613671b69b24618025ad77b43ff38fa",
    "sourceIds": [
     "bld_dwarf_blacksmith_classical_v0"
    ],
@@ -1203,25 +1203,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1126,
+   "triangles": 736,
    "lod_triangles": [
-    1126,
-    554,
-    285
+    736,
+    372,
+    194
    ],
    "bounds": [
     [
-     -0.9399999976158142,
+     -0.9070000052452087,
      0.0,
-     -0.39250001311302185
+     -0.3684999942779541
     ],
     [
-     0.9399999976158142,
-     0.87397700548172,
-     0.42250001430511475
+     0.8299999833106995,
+     1.1691999435424805,
+     0.35475000739097595
     ]
    ],
-   "bytes": 137140,
+   "bytes": 95424,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_future_v0.png",
@@ -1229,7 +1229,7 @@
     "information": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_future_v0__ascension.png"
    },
-   "sha256": "6d97c1f3f65846637419ee4c74e93410fa14bf0f8e421a4bb2e8fa63a47ed0c4",
+   "sha256": "c1e369ef3e3a06cdc98106a191da46b98900ae84488a69f1d6c3eeafbf2dfef9",
    "sourceIds": [
     "bld_dwarf_blacksmith_future_v0"
    ],
@@ -1252,25 +1252,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1126,
+   "triangles": 910,
    "lod_triangles": [
-    1126,
-    554,
-    285
+    910,
+    498,
+    289
    ],
    "bounds": [
     [
-     -0.9399999976158142,
+     -0.8399999737739563,
      0.0,
-     -0.39250001311302185
+     -0.3725000023841858
     ],
     [
-     0.9399999976158142,
-     0.9600870013237,
-     0.42250001430511475
+     0.9415000081062317,
+     1.0190999507904053,
+     0.4375
     ]
    ],
-   "bytes": 137528,
+   "bytes": 122184,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_industrial_v0.png",
@@ -1278,7 +1278,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_blacksmith_industrial_v0__modern.png"
    },
-   "sha256": "664a6ab3c45f34c0d81f4e3c55e3e5faebdd4b205ec4be66dfe1300b0d3cff20",
+   "sha256": "db6ef90e1078f6338ab3eafe042cca1ea2c46f82e9893836ed979579bd4c60a6",
    "sourceIds": [
     "bld_dwarf_blacksmith_industrial_v0"
    ],
@@ -3149,25 +3149,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1030,
+   "triangles": 926,
    "lod_triangles": [
-    1030,
-    554,
-    214
+    926,
+    526,
+    270
    ],
    "bounds": [
     [
-     -0.9200000166893005,
+     -0.8650000095367432,
      0.0,
-     -0.7300000190734863
+     -0.8504999876022339
     ],
     [
-     0.9200000166893005,
-     1.6299999952316284,
-     0.8700000047683716
+     0.8650000095367432,
+     1.6490000486373901,
+     0.753000020980835
     ]
    ],
-   "bytes": 129828,
+   "bytes": 126876,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_future_v0.png",
@@ -3175,7 +3175,7 @@
     "information": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_guildhall_future_v0__ascension.png"
    },
-   "sha256": "8f33a2ae7e4635715c74f5c1f620b186adbe9b2c7773930f4e2ec8f67cce73c1",
+   "sha256": "6708b8ccd3c97eafb2164726a49b86375a30b005dcb43216ed260f2cbee9bba0",
    "sourceIds": [
     "bld_dwarf_guildhall_future_v0"
    ],
@@ -3643,25 +3643,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 838,
+   "triangles": 1070,
    "lod_triangles": [
-    838,
-    420,
-    146
+    1070,
+    492,
+    236
    ],
    "bounds": [
     [
-     -0.8075000047683716,
+     -0.9539310932159424,
      0.0,
-     -0.800000011920929
+     -0.8255000114440918
     ],
     [
-     0.762499988079071,
-     1.3487999439239502,
-     0.8930000066757202
+     0.9468953013420105,
+     0.8824992179870605,
+     0.8815000057220459
     ]
    ],
-   "bytes": 106208,
+   "bytes": 153644,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_future_v0.png",
@@ -3669,7 +3669,7 @@
     "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_future_v0__ascension.png"
    },
-   "sha256": "6a2aa7ca686c46b2303d87315c705361107e270068106d066f999978c0bc3f2a",
+   "sha256": "730803e1c5a21b0c702a23dadedd66e5f3ad8e0d15aca560e353af3ade5ee4fa",
    "sourceIds": [
     "bld_dwarf_hospital_future_v0"
    ],
@@ -3692,25 +3692,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 938,
+   "triangles": 806,
    "lod_triangles": [
-    938,
-    462,
-    162
+    806,
+    340,
+    124
    ],
    "bounds": [
     [
-     -0.8075000047683716,
+     -0.8730000257492065,
      0.0,
-     -0.800000011920929
+     -0.8629999756813049
     ],
     [
-     0.762499988079071,
-     1.2527999877929688,
-     0.8930000066757202
+     0.8730000257492065,
+     0.9993600249290466,
+     0.7149999737739563
     ]
    ],
-   "bytes": 118944,
+   "bytes": 93056,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_industrial_v0.png",
@@ -3718,7 +3718,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_industrial_v0__modern.png"
    },
-   "sha256": "ba80bd0ac2feeea6e14b4148327dcf602babaf4bfbdd3045906633f0dd918b91",
+   "sha256": "151eb801e8102af3834347cbfed41d5f60508a1e34bce061fb6ec8258b89983c",
    "sourceIds": [
     "bld_dwarf_hospital_industrial_v0"
    ],
@@ -3740,32 +3740,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 439,
+   "triangles": 499,
    "lod_triangles": [
-    439,
-    250,
-    134
+    499,
+    222,
+    124
    ],
    "bounds": [
     [
-     -0.46000000834465027,
+     -0.4194999933242798,
      0.0,
-     -0.3930000066757202
+     -0.4449999928474426
     ],
     [
-     0.4099999964237213,
-     0.6072231531143188,
-     0.34700000286102295
+     0.31949999928474426,
+     0.6470000147819519,
+     0.3799999952316284
     ]
    ],
-   "bytes": 68824,
+   "bytes": 67036,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesAncient/bld_dwarf_house_ancient_bronze_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesAncient/bld_dwarf_house_ancient_bronze_v0.png",
    "age_previews": {
     "bronze": "tools/AssetForge/previews/Buildings/Dwarf/HousesAncient/bld_dwarf_house_ancient_bronze_v0.png"
    },
-   "sha256": "2680fa199deb3ebdd9d80584e0ad449b11eccd0d0e04551deeee90927c4d7b6c",
+   "sha256": "c862a40447187de68ab18f03843557eafd6d78b82e6052f011715589accb5bc1",
    "sourceIds": [
     "bld_dwarf_house_ancient_v0"
    ],
@@ -3787,32 +3787,32 @@
    "variant": 1,
    "tags": [],
    "notes": "",
-   "triangles": 485,
+   "triangles": 659,
    "lod_triangles": [
-    485,
-    276,
-    152
+    659,
+    332,
+    180
    ],
    "bounds": [
     [
-     -0.44600000977516174,
+     -0.4496000111103058,
      0.0,
-     -0.3720000088214874
+     -0.3610000014305115
     ],
     [
-     0.39250001311302185,
-     0.6692231297492981,
-     0.3395000100135803
+     0.3947199881076813,
+     0.6124778389930725,
+     0.40459999442100525
     ]
    ],
-   "bytes": 74904,
+   "bytes": 97536,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesAncient/bld_dwarf_house_ancient_bronze_v1.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesAncient/bld_dwarf_house_ancient_bronze_v1.png",
    "age_previews": {
     "bronze": "tools/AssetForge/previews/Buildings/Dwarf/HousesAncient/bld_dwarf_house_ancient_bronze_v1.png"
    },
-   "sha256": "31a959759c521c1008d9a2002a50d671c09a329b305aee562fe5ab650b926f12",
+   "sha256": "2a6af4dc102cfdf83a66e0ab9761834be5f64a8eef7a3a9869b17a0c6edcea1d",
    "sourceIds": [
     "bld_dwarf_house_ancient_v1"
    ],
@@ -3834,32 +3834,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 419,
+   "triangles": 642,
    "lod_triangles": [
-    419,
-    246,
-    112
+    642,
+    364,
+    198
    ],
    "bounds": [
     [
-     -0.45399999618530273,
+     -0.39362001419067383,
      0.0,
-     -0.36550000309944153
+     -0.4519999921321869
     ],
     [
-     0.42800000309944153,
-     0.6711103916168213,
-     0.3804999887943268
+     0.2980000078678131,
+     0.6959999799728394,
+     0.42862001061439514
     ]
    ],
-   "bytes": 64640,
+   "bytes": 96228,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesAncient/bld_dwarf_house_ancient_iron_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesAncient/bld_dwarf_house_ancient_iron_v0.png",
    "age_previews": {
     "iron": "tools/AssetForge/previews/Buildings/Dwarf/HousesAncient/bld_dwarf_house_ancient_iron_v0.png"
    },
-   "sha256": "a3f57a0680caf1ff24ed89bd1089799707b60a95bbb21b1b87ef1b720308e6a9",
+   "sha256": "070160c0295b4b0be1bce6c8a09331bc34bd5e8643dde09667f660fea001bbe7",
    "sourceIds": [
     "bld_dwarf_house_ancient_v0"
    ],
@@ -3881,32 +3881,32 @@
    "variant": 1,
    "tags": [],
    "notes": "",
-   "triangles": 469,
+   "triangles": 421,
    "lod_triangles": [
-    469,
-    266,
-    138
+    421,
+    250,
+    122
    ],
    "bounds": [
     [
-     -0.44850000739097595,
+     -0.41580408811569214,
      0.0,
-     -0.3734999895095825
+     -0.41999998688697815
     ],
     [
-     0.39750000834465027,
-     0.7808247804641724,
-     0.38850000500679016
+     0.34200000762939453,
+     0.7158807516098022,
+     0.40299999713897705
     ]
    ],
-   "bytes": 70148,
+   "bytes": 62304,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesAncient/bld_dwarf_house_ancient_iron_v1.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesAncient/bld_dwarf_house_ancient_iron_v1.png",
    "age_previews": {
     "iron": "tools/AssetForge/previews/Buildings/Dwarf/HousesAncient/bld_dwarf_house_ancient_iron_v1.png"
    },
-   "sha256": "4da3a8e63202bb31d6df0760adc85b8cbe0979cc857b562bf927b516968e7c8e",
+   "sha256": "eccb286e83001c808c25b373c82db8b0495950fefd0c115c779cbff4f3928c47",
    "sourceIds": [
     "bld_dwarf_house_ancient_v1"
    ],
@@ -4022,32 +4022,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 549,
+   "triangles": 447,
    "lod_triangles": [
-    549,
-    322,
-    174
+    447,
+    236,
+    114
    ],
    "bounds": [
     [
-     -0.453000009059906,
+     -0.4359999895095825,
      0.0,
-     -0.3765000104904175
+     -0.39800000190734863
     ],
     [
-     0.4390000104904175,
-     0.6824657917022705,
-     0.38850000500679016
+     0.375,
+     0.9580000042915344,
+     0.3434999883174896
     ]
    ],
-   "bytes": 83540,
+   "bytes": 63928,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v0.png",
    "age_previews": {
     "medieval": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v0.png"
    },
-   "sha256": "0d82463227d8844e2d7840b003240357b6a3f969d875f0f6c0bf4ff073953deb",
+   "sha256": "25d609c1f85ade64c4527929dace0988e86605be2d5bdbba1bbba14a0279de57",
    "sourceIds": [
     "bld_dwarf_house_classical_v0"
    ],
@@ -4069,32 +4069,32 @@
    "variant": 1,
    "tags": [],
    "notes": "",
-   "triangles": 599,
+   "triangles": 675,
    "lod_triangles": [
-    599,
-    340,
-    192
+    675,
+    384,
+    206
    ],
    "bounds": [
     [
-     -0.4440000057220459,
+     -0.3569999933242798,
      0.0,
-     -0.37400001287460327
+     -0.3019999861717224
     ],
     [
-     0.3865000009536743,
-     0.793465793132782,
-     0.38600000739097595
+     0.3610000014305115,
+     0.8752326369285583,
+     0.33250001072883606
     ]
    ],
-   "bytes": 89664,
+   "bytes": 98372,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v1.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v1.png",
    "age_previews": {
     "medieval": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v1.png"
    },
-   "sha256": "500508bcbe50066aae3392730ed835f7c94ce959498398d5a39d524bf56ec432",
+   "sha256": "bc567a5ba3afca408c9d51fb0e10bd5386c1e26a91010d1069efa573a02d448e",
    "sourceIds": [
     "bld_dwarf_house_classical_v1"
    ],
@@ -5910,25 +5910,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 762,
+   "triangles": 810,
    "lod_triangles": [
-    762,
-    414,
-    148
+    810,
+    454,
+    236
    ],
    "bounds": [
     [
-     -0.699999988079071,
+     -0.9368376135826111,
      0.0,
-     -0.7599999904632568
+     -0.8420000076293945
     ],
     [
-     0.6924999952316284,
-     1.7645893096923828,
-     0.6524999737739563
+     0.8615000247955322,
+     1.476995825767517,
+     0.5410000085830688
     ]
    ],
-   "bytes": 110636,
+   "bytes": 138868,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_future_v0.png",
@@ -5936,7 +5936,7 @@
     "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_future_v0__ascension.png"
    },
-   "sha256": "4963e915e8da148275000677eb6c4f376b99004a0f965b98a3c9a9dba1877df2",
+   "sha256": "dfb034d00d34e8a90f6ef424df34f9017c3e0bf9b91420418566bdb52d6c7fa8",
    "sourceIds": [
     "bld_dwarf_observatory_future_v0"
    ],
@@ -5959,25 +5959,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 736,
+   "triangles": 780,
    "lod_triangles": [
-    736,
-    412,
-    158
+    780,
+    380,
+    184
    ],
    "bounds": [
     [
-     -0.699999988079071,
+     -0.8740000128746033,
      0.0,
-     -0.7599999904632568
+     -0.6990000009536743
     ],
     [
-     0.6924999952316284,
-     1.7050693035125732,
-     0.6524999737739563
+     0.8059999942779541,
+     1.4790862798690796,
+     0.8029999732971191
     ]
    ],
-   "bytes": 107460,
+   "bytes": 121676,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_industrial_v0.png",
@@ -5985,7 +5985,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_industrial_v0__modern.png"
    },
-   "sha256": "9ed39aefc0cf082bb97c364b807f606b1ebb16a78287caff479bb1c250c83bc9",
+   "sha256": "069d3e7c610e4350e8fd9deea9857d88344dc956073ad2ec510b2045e80b5a05",
    "sourceIds": [
     "bld_dwarf_observatory_industrial_v0"
    ],
@@ -6153,25 +6153,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 674,
+   "triangles": 618,
    "lod_triangles": [
-    674,
-    384,
-    194
+    618,
+    352,
+    168
    ],
    "bounds": [
     [
-     -1.4420000314712524,
+     -1.3938735723495483,
      0.0,
-     -0.1940000057220459
+     -0.5
     ],
     [
-     1.4420000314712524,
-     1.1269999742507935,
-     0.19349999725818634
+     1.2630000114440918,
+     1.757580041885376,
+     0.40299999713897705
     ]
    ],
-   "bytes": 112860,
+   "bytes": 102008,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_palisade_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_palisade_classical_v0.png",
@@ -6179,7 +6179,7 @@
     "classical": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_palisade_classical_v0.png",
     "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_palisade_classical_v0__medieval.png"
    },
-   "sha256": "8a011f5f5aa9746d37d2df8d9f33d6811546f3d1cc3ebf124e3bc29779ea9b3c",
+   "sha256": "603ccf68618aaa6fccb25ee5d1fdb0de805d12e0f9549ef39317988340272891",
    "sourceIds": [
     "bld_dwarf_palisade_classical_v0"
    ],
@@ -6545,25 +6545,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 802,
+   "triangles": 658,
    "lod_triangles": [
-    802,
-    442,
-    160
+    658,
+    268,
+    186
    ],
    "bounds": [
     [
-     -0.8274999856948853,
+     -0.7649999856948853,
      0.0,
-     -0.7300000190734863
+     -0.8700000047683716
     ],
     [
-     0.7300000190734863,
-     1.343999981880188,
-     0.7425000071525574
+     0.7649999856948853,
+     1.129285454750061,
+     0.8999999761581421
     ]
    ],
-   "bytes": 103140,
+   "bytes": 80204,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_future_v0.png",
@@ -6571,7 +6571,7 @@
     "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_future_v0__ascension.png"
    },
-   "sha256": "ab0013ca2ccab62e93cc8c23a1ac8933aa8a8d4ab79f13a95f526015618117d6",
+   "sha256": "234ca577a8816047d746f0d1d4feb6102ac9a49349fab49010656d4fae4a51e8",
    "sourceIds": [
     "bld_dwarf_printworks_future_v0"
    ],
@@ -6643,25 +6643,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 676,
+   "triangles": 814,
    "lod_triangles": [
-    676,
-    384,
-    188
+    814,
+    462,
+    250
    ],
    "bounds": [
     [
-     -1.218999981880188,
+     -1.3899999856948853,
      0.0,
-     -1.3899999856948853
+     -0.4975000023841858
     ],
     [
-     1.2940000295639038,
-     1.2580000162124634,
-     1.3899999856948853
+     1.3899999856948853,
+     1.840999960899353,
+     0.8575000166893005
     ]
    ],
-   "bytes": 92380,
+   "bytes": 116776,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Commerce/bld_dwarf_rail_station_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_rail_station_future_v0.png",
@@ -6669,7 +6669,7 @@
     "information": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_rail_station_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Commerce/bld_dwarf_rail_station_future_v0__ascension.png"
    },
-   "sha256": "213d822f3c7f3645c6c125babada81eba5e31688d56e94949b7785b92ef8094b",
+   "sha256": "27c39fd85d8f7dffacf303e0bbbe01c8be2755fa9f07ba801437e708f9de94e1",
    "sourceIds": [
     "bld_dwarf_rail_station_future_v0"
    ],
@@ -6741,25 +6741,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1162,
+   "triangles": 1116,
    "lod_triangles": [
-    1162,
-    610,
-    319
+    1116,
+    608,
+    221
    ],
    "bounds": [
     [
-     -0.8125,
+     -0.8389999866485596,
      0.0,
-     -0.7390000224113464
+     -0.7835000157356262
     ],
     [
-     0.8125,
-     1.6228805780410767,
-     0.6424999833106995
+     0.7110000252723694,
+     1.0358400344848633,
+     0.8339999914169312
     ]
    ],
-   "bytes": 170800,
+   "bytes": 144328,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_research_lab_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_research_lab_future_v0.png",
@@ -6767,7 +6767,7 @@
     "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_research_lab_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_research_lab_future_v0__ascension.png"
    },
-   "sha256": "74e21638c8d4cbf5f9248d85fd8f2fc0e9703f8db9054997c1f1b92009051028",
+   "sha256": "53c64ecb7ad6f29b5910c51c3788a6c6fff809b085c20b49ad29973cc51569bd",
    "sourceIds": [
     "bld_dwarf_research_lab_future_v0"
    ],
@@ -7379,25 +7379,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1100,
+   "triangles": 970,
    "lod_triangles": [
-    1100,
-    484,
-    252
+    970,
+    518,
+    302
    ],
    "bounds": [
     [
-     -0.9300000071525574,
+     -0.8709999918937683,
      0.0,
-     -0.4099999964237213
+     -0.37325000762939453
     ],
     [
-     0.9300000071525574,
-     1.011752963066101,
-     0.41999998688697815
+     0.8190000057220459,
+     1.2313153743743896,
+     0.3734999895095825
     ]
    ],
-   "bytes": 129936,
+   "bytes": 130116,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_smelter_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_classical_v0.png",
@@ -7406,7 +7406,7 @@
     "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_classical_v0__medieval.png",
     "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_classical_v0__renaissance.png"
    },
-   "sha256": "20672b97207045e3aaaf0e3bf6abac48a457863f3941b7a97d78b8da625ead6a",
+   "sha256": "af656026dfa7fecee5cd7b9cb30edf89600f803a56e070d2e335acca33596371",
    "sourceIds": [
     "bld_dwarf_smelter_classical_v0"
    ],
@@ -7429,25 +7429,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1124,
+   "triangles": 948,
    "lod_triangles": [
-    1124,
-    508,
-    264
+    948,
+    426,
+    223
    ],
    "bounds": [
     [
-     -0.9300000071525574,
+     -0.7335000038146973,
      0.0,
-     -0.4099999964237213
+     -0.4749999940395355
     ],
     [
-     0.9300000071525574,
-     0.994530975818634,
-     0.41999998688697815
+     0.8654999732971191,
+     1.0342313051223755,
+     0.3955130875110626
     ]
    ],
-   "bytes": 134892,
+   "bytes": 140524,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_smelter_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_future_v0.png",
@@ -7455,7 +7455,7 @@
     "information": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_future_v0__ascension.png"
    },
-   "sha256": "a3c554d949acf507f8872ad6c860d2caff0f89f7f69313f558501c05a103739e",
+   "sha256": "ac1223a77de07adf511ea7715b9805f7e6ed4a32ad60405edafc3e93e91169cb",
    "sourceIds": [
     "bld_dwarf_smelter_future_v0"
    ],
@@ -7478,25 +7478,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1124,
+   "triangles": 762,
    "lod_triangles": [
-    1124,
-    508,
-    264
+    762,
+    430,
+    222
    ],
    "bounds": [
     [
-     -0.9300000071525574,
+     -0.8489999771118164,
      0.0,
-     -0.4099999964237213
+     -0.4180000126361847
     ],
     [
-     0.9300000071525574,
-     1.1064740419387817,
-     0.41999998688697815
+     0.8414999842643738,
+     1.5373400449752808,
+     0.40950000286102295
     ]
    ],
-   "bytes": 135348,
+   "bytes": 103772,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Industry/bld_dwarf_smelter_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_industrial_v0.png",
@@ -7504,7 +7504,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Dwarf/Industry/bld_dwarf_smelter_industrial_v0__modern.png"
    },
-   "sha256": "038548fb81c20e2479d1c1ffbc1e9c9ce7637381f8335c1314dba26987b8589d",
+   "sha256": "e9f800469135fec00fccf24b96c79f35f868b6e8881ae9da4261d351903d7dc8",
    "sourceIds": [
     "bld_dwarf_smelter_industrial_v0"
    ],
@@ -8024,25 +8024,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 572,
+   "triangles": 450,
    "lod_triangles": [
-    572,
-    326,
-    78
+    450,
+    256,
+    102
    ],
    "bounds": [
     [
-     -0.9175000190734863,
+     -0.8759999871253967,
      0.0,
-     -0.4259999990463257
+     -0.44850000739097595
     ],
     [
-     0.843999981880188,
-     0.746999979019165,
-     0.40450000762939453
+     0.8420000076293945,
+     1.0844999551773071,
+     0.4189999997615814
     ]
    ],
-   "bytes": 74956,
+   "bytes": 63996,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Infrastructure/bld_dwarf_storehouse_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_storehouse_classical_v0.png",
@@ -8051,7 +8051,7 @@
     "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_storehouse_classical_v0__medieval.png",
     "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Infrastructure/bld_dwarf_storehouse_classical_v0__renaissance.png"
    },
-   "sha256": "d5fe4857b789e1b21d214726180ed15936673385c8854a41882e7eff343ea54a",
+   "sha256": "4c36ac7b9bf0cd00ecef5926bb885365a0bb23fa5fef702a17c200f3c18b22ee",
    "sourceIds": [
     "bld_dwarf_storehouse_classical_v0"
    ],
@@ -8663,32 +8663,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1058,
+   "triangles": 1056,
    "lod_triangles": [
-    1058,
-    602,
-    218
+    1056,
+    492,
+    256
    ],
    "bounds": [
     [
-     -0.9300000071525574,
+     -0.7680000066757202,
      0.0,
-     -0.9700000286102295
+     -0.8889999985694885
     ],
     [
-     0.9300000071525574,
-     1.312999963760376,
-     0.7749999761581421
+     0.7279999852180481,
+     0.9070000052452087,
+     0.7549999952316284
     ]
    ],
-   "bytes": 142860,
+   "bytes": 139024,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_ancient_bronze_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_ancient_bronze_v0.png",
    "age_previews": {
     "bronze": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_ancient_bronze_v0.png"
    },
-   "sha256": "7a6a56074dc451b19f2b08baebf6dc302474555cdb9936e1a5d84c3615dca062",
+   "sha256": "76fb7d87cce6336e31d0656e0309a1f199a1ce00782b0ad8db71502adf12d19f",
    "sourceIds": [
     "bld_dwarf_town_center_ancient_v0"
    ],
@@ -8710,32 +8710,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 968,
+   "triangles": 1220,
    "lod_triangles": [
-    968,
-    550,
-    160
+    1220,
+    688,
+    386
    ],
    "bounds": [
     [
-     -0.9300000071525574,
+     -0.8815000057220459,
      0.0,
-     -0.9700000286102295
+     -0.9850000143051147
     ],
     [
-     0.9300000071525574,
-     1.1460000276565552,
-     0.7749999761581421
+     0.8815000057220459,
+     1.343817114830017,
+     0.718999981880188
     ]
    ],
-   "bytes": 125204,
+   "bytes": 164936,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_ancient_iron_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_ancient_iron_v0.png",
    "age_previews": {
     "iron": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_ancient_iron_v0.png"
    },
-   "sha256": "652922f744c2c79b1e6b3324c74f618c43ee912755fe1ecaa204b071a4a0fcfd",
+   "sha256": "d48ba5f86b7aa3708f62b20b755ee59a3409dd4c903d0e6dd78da806d264cf92",
    "sourceIds": [
     "bld_dwarf_town_center_ancient_v0"
    ],
@@ -8898,32 +8898,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1056,
+   "triangles": 1166,
    "lod_triangles": [
-    1056,
-    632,
-    200
+    1166,
+    400,
+    206
    ],
    "bounds": [
     [
-     -0.9300000071525574,
+     -0.8970000147819519,
      0.0,
-     -0.9700000286102295
+     -0.9434999823570251
     ],
     [
-     0.9300000071525574,
-     1.2410000562667847,
-     0.7749999761581421
+     0.8610000014305115,
+     0.9179999828338623,
+     0.6850000023841858
     ]
    ],
-   "bytes": 142660,
+   "bytes": 136264,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_classical_v0.png",
    "age_previews": {
     "classical": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_classical_v0.png"
    },
-   "sha256": "3e52e0886b1d75baae65e8e4226c12728fe8dc34e27c05131586909ed0b270e5",
+   "sha256": "cbd86405c51f4dede0f3eaf55d7efd77a3d8829fa2f94e03419ae2ff2c3ca895",
    "sourceIds": [
     "bld_dwarf_town_center_classical_v0"
    ],
@@ -8945,32 +8945,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1156,
+   "triangles": 926,
    "lod_triangles": [
-    1156,
-    664,
-    287
+    926,
+    386,
+    263
    ],
    "bounds": [
     [
-     -0.9300000071525574,
+     -0.8140000104904175,
      0.0,
-     -0.9700000286102295
+     -0.7860000133514404
     ],
     [
-     0.9300000071525574,
-     1.5010000467300415,
-     0.7749999761581421
+     0.8140000104904175,
+     1.555999994277954,
+     0.46549999713897705
     ]
    ],
-   "bytes": 154260,
+   "bytes": 119316,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_future_ascension_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_future_ascension_v0.png",
    "age_previews": {
     "ascension": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_future_ascension_v0.png"
    },
-   "sha256": "d5fbf362ce7ef318d40c1309d99777a8efff7a5d3ad12f2bcbc87ba5438f564f",
+   "sha256": "035b06bb24b5c318e910c1ff71d7e772ddfd8be2f4096f6351aa42aa82aa40a5",
    "sourceIds": [
     "bld_dwarf_town_center_future_v0"
    ],
@@ -9039,32 +9039,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1094,
+   "triangles": 580,
    "lod_triangles": [
-    1094,
-    618,
-    237
+    580,
+    296,
+    168
    ],
    "bounds": [
     [
-     -0.9300000071525574,
+     -0.8662750124931335,
      0.0,
-     -0.9700000286102295
+     -0.6890000104904175
     ],
     [
-     0.9300000071525574,
-     1.2990000247955322,
-     0.7749999761581421
+     0.7202749848365784,
+     1.2769999504089355,
+     0.6830000281333923
     ]
    ],
-   "bytes": 140960,
+   "bytes": 78840,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_industrial_modern_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_industrial_modern_v0.png",
    "age_previews": {
     "modern": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_industrial_modern_v0.png"
    },
-   "sha256": "57808acb7dd01cc65cf83bcc011c84d16dfdb1041ddfd5ffa83a04b9b8c6b3e2",
+   "sha256": "8ff4aca73bc3e9d3c9c9ea31595a97cb63c13abf583fb1db990989cdb194f014",
    "sourceIds": [
     "bld_dwarf_town_center_industrial_v0"
    ],
@@ -9086,32 +9086,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1252,
+   "triangles": 776,
    "lod_triangles": [
-    1252,
-    700,
-    238
+    776,
+    400,
+    230
    ],
    "bounds": [
     [
-     -0.9300000071525574,
+     -0.7854999899864197,
      0.0,
-     -0.9700000286102295
+     -0.9259999990463257
     ],
     [
-     0.9300000071525574,
-     1.315999984741211,
-     0.7749999761581421
+     0.7570000290870667,
+     1.6430000066757202,
+     0.6060000061988831
     ]
    ],
-   "bytes": 158488,
+   "bytes": 101676,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_industrial_v0.png",
    "age_previews": {
     "industrial": "tools/AssetForge/previews/Buildings/Dwarf/TownCenters/bld_dwarf_town_center_industrial_v0.png"
    },
-   "sha256": "e58b406fb08c472d114ffef71a90c1d4d64deed2d79a8615e4f88b565e0a882d",
+   "sha256": "a8b3731280572803eec9a82007cf136c28a70aebd40c5474c6ed9ffa254ed24b",
    "sourceIds": [
     "bld_dwarf_town_center_industrial_v0"
    ],
@@ -9183,25 +9183,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1132,
+   "triangles": 744,
    "lod_triangles": [
-    1132,
-    632,
-    174
+    744,
+    372,
+    188
    ],
    "bounds": [
     [
-     -1.2637499570846558,
+     -1.277250051498413,
      0.0,
-     -0.7994499802589417
+     -0.7929999828338623
     ],
     [
-     1.2637499570846558,
-     1.6019327640533447,
-     0.6775000095367432
+     1.253999948501587,
+     1.2076799869537354,
+     0.8270000219345093
     ]
    ],
-   "bytes": 148344,
+   "bytes": 93000,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_university_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_future_v0.png",
@@ -9209,7 +9209,7 @@
     "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_future_v0__ascension.png"
    },
-   "sha256": "d3b5891a43489ebe861090b0b5e8e52e617cb07318cd8be0a872a55456151438",
+   "sha256": "dfbc04193d3460b498c99baae87b4a5cf81746ea1228168b898c1f25ead6357d",
    "sourceIds": [
     "bld_dwarf_university_future_v0"
    ],
@@ -9232,25 +9232,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1384,
+   "triangles": 604,
    "lod_triangles": [
-    1384,
-    744,
-    234
+    604,
+    336,
+    160
    ],
    "bounds": [
     [
-     -1.2637499570846558,
+     -1.3049999475479126,
      0.0,
-     -0.7994499802589417
+     -0.7400000095367432
     ],
     [
-     1.2637499570846558,
-     1.5251327753067017,
-     0.6775000095367432
+     1.281000018119812,
+     1.5705599784851074,
+     0.7994999885559082
     ]
    ],
-   "bytes": 182640,
+   "bytes": 79624,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_university_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_industrial_v0.png",
@@ -9258,7 +9258,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_industrial_v0__modern.png"
    },
-   "sha256": "0ff000b553ff261714b9c03aa36787578f7427482b44ae9fef9946eb1d8a7c5d",
+   "sha256": "c81948384c1677b78c1f7530916269c77faa17f4bb72efa7609f3b742802c733",
    "sourceIds": [
     "bld_dwarf_university_industrial_v0"
    ],
@@ -9378,32 +9378,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 502,
+   "triangles": 628,
    "lod_triangles": [
-    502,
-    286,
-    132
+    628,
+    373,
+    187
    ],
    "bounds": [
     [
-     -0.4000000059604645,
+     -0.4059999883174896,
      0.0,
-     -0.40799999237060547
+     -0.38600000739097595
     ],
     [
-     0.4000000059604645,
-     1.7311475276947021,
-     0.37700000405311584
+     0.4059999883174896,
+     1.7467836141586304,
+     0.38600000739097595
     ]
    ],
-   "bytes": 78852,
+   "bytes": 102840,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_watchtower_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_watchtower_industrial_v0.png",
    "age_previews": {
     "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_watchtower_industrial_v0.png"
    },
-   "sha256": "4c36fd2ee4d1c9bdf18f39528eac748c21563d8cc1cfbec30cbe82dc0bcecb5a",
+   "sha256": "39748162b99745c53f104ad554e90b3aec8299e9ff3ee9ed9febeca1e8788d60",
    "sourceIds": [
     "bld_dwarf_watchtower_industrial_v0"
    ],
@@ -10568,25 +10568,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1276,
+   "triangles": 1302,
    "lod_triangles": [
-    1276,
-    714,
-    302
+    1302,
+    742,
+    397
    ],
    "bounds": [
     [
-     -0.7024403214454651,
+     -0.7954199910163879,
      0.0,
-     -0.26971060037612915
+     -0.33399999141693115
     ],
     [
-     0.5034637451171875,
-     0.8447660207748413,
-     0.4410099983215332
+     0.8051400184631348,
+     0.9533854722976685,
+     0.4127293825149536
     ]
    ],
-   "bytes": 215648,
+   "bytes": 218596,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_armory_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_classical_v0.png",
@@ -10595,7 +10595,7 @@
     "medieval": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_classical_v0__medieval.png",
     "renaissance": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_classical_v0__renaissance.png"
    },
-   "sha256": "ade766b98a5138bd757b3642443c7491cc474529daf79ca2b65b932c14c7b9a8",
+   "sha256": "04c258acd134442f2a9df7f4d66793e833e2414edf6edb534095f653e3d29ce3",
    "sourceIds": [
     "bld_elf_armory_classical_v0"
    ],
@@ -10667,25 +10667,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1438,
+   "triangles": 850,
    "lod_triangles": [
-    1438,
-    784,
-    331
+    850,
+    510,
+    198
    ],
    "bounds": [
     [
-     -0.7024403214454651,
+     -0.7615000009536743,
      0.0,
-     -0.26971060037612915
+     -0.2498501092195511
     ],
     [
-     0.6899999976158142,
-     0.9077660441398621,
-     0.4410099983215332
+     0.804263710975647,
+     0.6830000281333923,
+     0.3886498808860779
     ]
    ],
-   "bytes": 241392,
+   "bytes": 141116,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_armory_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_industrial_v0.png",
@@ -10693,7 +10693,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_armory_industrial_v0__modern.png"
    },
-   "sha256": "fbfd5f13993cd3e4787c24e7b313da6393ecf4717e0a6d521628761be246dac2",
+   "sha256": "2e15439801e75fb5c0684aacd29ce06892fe102be5e859244ca5992fa88aac0e",
    "sourceIds": [
     "bld_elf_armory_industrial_v0"
    ],
@@ -11258,25 +11258,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1034,
+   "triangles": 760,
    "lod_triangles": [
-    1034,
-    582,
-    250
+    760,
+    438,
+    241
    ],
    "bounds": [
     [
-     -0.680579662322998,
+     -0.8309999704360962,
      0.0,
-     -0.36684295535087585
+     -0.29751259088516235
     ],
     [
-     0.7064999938011169,
-     0.8458799719810486,
-     0.4362500011920929
+     0.8146560192108154,
+     1.03126060962677,
+     0.4519999921321869
     ]
    ],
-   "bytes": 176172,
+   "bytes": 124324,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_blacksmith_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_classical_v0.png",
@@ -11285,7 +11285,7 @@
     "medieval": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_classical_v0__medieval.png",
     "renaissance": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_classical_v0__renaissance.png"
    },
-   "sha256": "3bdf08ff51d22dee140667429cf0a0a571a2cc11267c07a87a6dcb49b8daec86",
+   "sha256": "92586f1efb55fcb0a0a722b4e981cd0ee87384f4e47f3da7325084046f4bb449",
    "sourceIds": [
     "bld_elf_blacksmith_classical_v0"
    ],
@@ -11308,25 +11308,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1246,
+   "triangles": 678,
    "lod_triangles": [
-    1246,
-    734,
-    342
+    678,
+    386,
+    201
    ],
    "bounds": [
     [
-     -0.680579662322998,
+     -0.7701748013496399,
      0.0,
-     -0.36684295535087585
+     -0.29350000619888306
     ],
     [
-     0.7064999938011169,
-     1.1384400129318237,
-     0.4362500011920929
+     0.684499979019165,
+     1.0922199487686157,
+     0.35278961062431335
     ]
    ],
-   "bytes": 209484,
+   "bytes": 120836,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_blacksmith_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_future_v0.png",
@@ -11334,7 +11334,7 @@
     "information": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_blacksmith_future_v0__ascension.png"
    },
-   "sha256": "0ef0c6f658ed87e0d2e4bb477f849cd569fea9d0880c39fd3c531b377702d5d5",
+   "sha256": "15129d7da524ddeaeb9b4b8fb738710e625a384e31d08b3d90c0251fd8cf1684",
    "sourceIds": [
     "bld_elf_blacksmith_future_v0"
    ],
@@ -16190,25 +16190,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 970,
+   "triangles": 1030,
    "lod_triangles": [
-    970,
-    394,
-    300
+    1030,
+    586,
+    328
    ],
    "bounds": [
     [
-     -1.33750581741333,
+     -1.3887872695922852,
      0.0,
-     -0.2150944620370865
+     -0.1577800065279007
     ],
     [
-     1.33750581741333,
-     0.6783000230789185,
-     0.20529446005821228
+     1.3887872695922852,
+     1.1451300382614136,
+     0.29129186272621155
     ]
    ],
-   "bytes": 168824,
+   "bytes": 184528,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Elf/Military/bld_elf_palisade_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_palisade_classical_v0.png",
@@ -16216,7 +16216,7 @@
     "classical": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_palisade_classical_v0.png",
     "medieval": "tools/AssetForge/previews/Buildings/Elf/Military/bld_elf_palisade_classical_v0__medieval.png"
    },
-   "sha256": "b044bd368a0a976f450041ea3c36843ca5c7a379a44d7de7b00243bf65a34f69",
+   "sha256": "66a2de62efc41e9bd12123ad5d14a99afb193fa7d07adc67085bf1fdde9438af",
    "sourceIds": [
     "bld_elf_palisade_classical_v0"
    ],
@@ -16874,25 +16874,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1048,
+   "triangles": 1396,
    "lod_triangles": [
-    1048,
-    590,
-    307
+    1396,
+    798,
+    375
    ],
    "bounds": [
     [
-     -0.7899952530860901,
+     -0.5053421854972839,
      0.0,
-     -0.6934796571731567
+     -0.5605000257492065
     ],
     [
-     0.4959999918937683,
-     1.1951477527618408,
-     0.7675600051879883
+     0.828000009059906,
+     1.2380000352859497,
+     0.5899999737739563
     ]
    ],
-   "bytes": 169424,
+   "bytes": 198864,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_sawmill_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_sawmill_future_v0.png",
@@ -16900,7 +16900,7 @@
     "information": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_sawmill_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_sawmill_future_v0__ascension.png"
    },
-   "sha256": "db42191eb27c1169e0f2da7776df22a3d56a620e7192ed88a6ffe3b09f53b25d",
+   "sha256": "a2b2ab8a0e23b9b017ae9864cafc40c2b266d8da959900e049058454ace266b3",
    "sourceIds": [
     "bld_elf_sawmill_future_v0"
    ],
@@ -17366,25 +17366,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1112,
+   "triangles": 1038,
    "lod_triangles": [
-    1112,
-    658,
-    251
+    1038,
+    544,
+    230
    ],
    "bounds": [
     [
-     -0.8452220559120178,
+     -0.6989742517471313,
      0.0,
-     -0.3167147934436798
+     -0.37784796953201294
     ],
     [
-     0.6955000162124634,
-     0.9327999949455261,
-     0.379446417093277
+     0.7404999732971191,
+     0.8045070767402649,
+     0.48251307010650635
     ]
    ],
-   "bytes": 186544,
+   "bytes": 159784,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_smelter_ancient_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_ancient_v0.png",
@@ -17392,7 +17392,7 @@
     "bronze": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_ancient_v0.png",
     "iron": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_ancient_v0__iron.png"
    },
-   "sha256": "03873f713ce0d4a6c98caba5d1ae99b9bd1de4dcb5b97da36913cdf4bf6dbf9c",
+   "sha256": "89ce74c7dc460aacf77d87251ba13c9ce6979973e55dcc0af40e04449863ca7e",
    "sourceIds": [
     "bld_elf_smelter_ancient_v0"
    ],
@@ -17466,25 +17466,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1202,
+   "triangles": 1178,
    "lod_triangles": [
-    1202,
-    714,
-    286
+    1178,
+    608,
+    361
    ],
    "bounds": [
     [
-     -0.8452220559120178,
+     -0.7649999856948853,
      0.0,
-     -0.3167147934436798
+     -0.38100001215934753
     ],
     [
-     0.6955000162124634,
-     1.2932000160217285,
-     0.379446417093277
+     0.8289999961853027,
+     1.3955880403518677,
+     0.35850000381469727
     ]
    ],
-   "bytes": 204020,
+   "bytes": 201652,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Elf/Industry/bld_elf_smelter_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_future_v0.png",
@@ -17492,7 +17492,7 @@
     "information": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Elf/Industry/bld_elf_smelter_future_v0__ascension.png"
    },
-   "sha256": "46cb6ae31d32be92d546b1d7b3efed1af69037abd1da16e1229446a0d1933493",
+   "sha256": "e1d4bdab85497f7f2a480257bfcfb7cce3e0fa44a3d25d2ee20b17704491e699",
    "sourceIds": [
     "bld_elf_smelter_future_v0"
    ],
@@ -17712,25 +17712,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1018,
+   "triangles": 807,
    "lod_triangles": [
-    1018,
-    521,
-    198
+    807,
+    471,
+    141
    ],
    "bounds": [
     [
-     -0.8782399892807007,
+     -0.8868710398674011,
      0.0,
-     -0.8019238710403442
+     -0.6462100148200989
     ],
     [
-     0.7608147263526917,
-     1.051272988319397,
-     0.8421690464019775
+     0.7720556855201721,
+     0.5659999847412109,
+     0.7649407982826233
     ]
    ],
-   "bytes": 164344,
+   "bytes": 129484,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_stone_quarry_ancient_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_ancient_v0.png",
@@ -17739,7 +17739,7 @@
     "bronze": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_ancient_v0__bronze.png",
     "iron": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_ancient_v0__iron.png"
    },
-   "sha256": "86402b1e05589c40adfe9b066132d15d6650dd0ffe6d282fb958c3e02f7c2b0d",
+   "sha256": "76883e4ad2e67c18299fc6b5db71292b4795cdff0e532383597b3a4f8b6d966f",
    "sourceIds": [
     "bld_elf_stone_quarry_ancient_v0"
    ],
@@ -17862,25 +17862,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1242,
+   "triangles": 754,
    "lod_triangles": [
-    1242,
-    683,
-    296
+    754,
+    428,
+    194
    ],
    "bounds": [
     [
-     -0.8782399892807007,
+     -0.8090000152587891,
      0.0,
-     -0.8019238710403442
+     -0.7940000295639038
     ],
     [
-     0.7608147263526917,
-     1.2488319873809814,
-     0.8421690464019775
+     0.8799999952316284,
+     1.0729165077209473,
+     0.746999979019165
     ]
    ],
-   "bytes": 201532,
+   "bytes": 119680,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_stone_quarry_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_industrial_v0.png",
@@ -17888,7 +17888,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_stone_quarry_industrial_v0__modern.png"
    },
-   "sha256": "7e429987ba1312c03516fa981a575b78c2505442a8938022b31b604e87bd3878",
+   "sha256": "b26af34dc6d6c70d340d105ca9c392c77da0d4e2fbffd1c66bcb5af12cc923fa",
    "sourceIds": [
     "bld_elf_stone_quarry_industrial_v0"
    ],
@@ -19913,25 +19913,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 914,
+   "triangles": 694,
    "lod_triangles": [
-    914,
-    508,
-    232
+    694,
+    394,
+    196
    ],
    "bounds": [
     [
-     -0.376701682806015,
+     -0.37700000405311584,
      0.0,
-     -0.3969123959541321
+     -0.28179702162742615
     ],
     [
-     0.38199999928474426,
-     0.6685006022453308,
-     0.4103200137615204
+     0.37700000405311584,
+     0.6190599799156189,
+     0.3700000047683716
     ]
    ],
-   "bytes": 159528,
+   "bytes": 108600,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_classical_v0.png",
@@ -19940,7 +19940,7 @@
     "medieval": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_classical_v0__medieval.png",
     "renaissance": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_classical_v0__renaissance.png"
    },
-   "sha256": "9e0b403cd951284a6e1c03ac4f1764b32239884e1538566b80052253f4e7f8ae",
+   "sha256": "23366bd0ba207915e02a2a62124fdabf9ac9889b3d283ade550233d212acfc55",
    "sourceIds": [
     "bld_elf_woodcutter_camp_classical_v0"
    ],
@@ -20012,25 +20012,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1094,
+   "triangles": 826,
    "lod_triangles": [
-    1094,
-    634,
-    310
+    826,
+    460,
+    261
    ],
    "bounds": [
     [
-     -0.376701682806015,
+     -0.3564666509628296,
      0.0,
-     -0.3969123959541321
+     -0.30551156401634216
     ],
     [
-     0.38199999928474426,
-     0.6685006022453308,
-     0.4103200137615204
+     0.38972756266593933,
+     0.7820000052452087,
+     0.3916029632091522
     ]
    ],
-   "bytes": 186364,
+   "bytes": 130580,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_industrial_v0.png",
@@ -20038,7 +20038,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Elf/Extraction/bld_elf_woodcutter_camp_industrial_v0__modern.png"
    },
-   "sha256": "aef0976f2bd96e466a47b5f3b4df0f64495cb32676bacaefa9334991272837af",
+   "sha256": "b325a3caadd318189ef9c72f03ee8d6e663d58387cf754e1a30e31785951f0c5",
    "sourceIds": [
     "bld_elf_woodcutter_camp_industrial_v0"
    ],
@@ -20278,25 +20278,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 794,
+   "triangles": 604,
    "lod_triangles": [
-    794,
-    452,
-    252
+    604,
+    352,
+    182
    ],
    "bounds": [
     [
-     -0.3075000047683716,
+     -0.40400001406669617,
      0.0,
-     -1.4915000200271606
+     -1.4170000553131104
     ],
     [
-     0.3075000047683716,
-     1.63100004196167,
-     1.4105000495910645
+     0.4415000081062317,
+     1.593999981880188,
+     1.4249999523162842
     ]
    ],
-   "bytes": 111024,
+   "bytes": 82624,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_aqueduct_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_aqueduct_classical_v0.png",
@@ -20306,7 +20306,7 @@
     "renaissance": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_aqueduct_classical_v0__renaissance.png",
     "iron": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_aqueduct_classical_v0__iron.png"
    },
-   "sha256": "510704be87ee5730bc9020febc273ad14c6a51c8272e482e08b64fd3be8a4410",
+   "sha256": "d32a353e303116892fcab291dd09e8567faddd12e0a30d289caa185fdad4620f",
    "sourceIds": [
     "bld_human_aqueduct_classical_v0"
    ],
@@ -20622,32 +20622,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 601,
+   "triangles": 740,
    "lod_triangles": [
-    601,
-    273,
-    121
+    740,
+    421,
+    235
    ],
    "bounds": [
     [
      -0.9049999713897705,
      0.0,
-     -0.42089787125587463
+     -0.4000000059604645
     ],
     [
      0.9049999713897705,
-     0.9850000143051147,
-     0.4300000071525574
+     1.2059999704360962,
+     0.4399999976158142
     ]
    ],
-   "bytes": 78804,
+   "bytes": 122212,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_armory_ancient_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_armory_ancient_v0.png",
    "age_previews": {
     "iron": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_armory_ancient_v0.png"
    },
-   "sha256": "aea88b6358a1328de7f234c204bce098edd0b17d3d10bf05ef48ccd91645dd22",
+   "sha256": "1ca5600c23bb787e678bc975dc8d4c4460ec7172b5ef4ebb0c27b3d0c8619ac7",
    "sourceIds": [
     "bld_human_armory_ancient_v0"
    ],
@@ -21460,25 +21460,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 901,
+   "triangles": 832,
    "lod_triangles": [
-    901,
-    528,
-    227
+    832,
+    421,
+    233
    ],
    "bounds": [
     [
-     -0.925000011920929,
+     -0.8650000095367432,
      0.0,
-     -0.4350000023841858
+     -0.32879889011383057
     ],
     [
      0.925000011920929,
-     0.8999999761581421,
-     0.4662773013114929
+     1.2599999904632568,
+     0.41200000047683716
     ]
    ],
-   "bytes": 138584,
+   "bytes": 121308,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Human/Industry/bld_human_blacksmith_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_industrial_v0.png",
@@ -21486,7 +21486,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Human/Industry/bld_human_blacksmith_industrial_v0__modern.png"
    },
-   "sha256": "3bbfe9c42b1ffb5fc58e7c421b6be2a0e75d6e9ce3858d425bf87371b79ebcab",
+   "sha256": "741e95e36db778801a92f8b936d59e6051aeb8a99ff9c0cdf244dc6c712b10ff",
    "sourceIds": [
     "bld_human_blacksmith_industrial_v0"
    ],
@@ -22995,25 +22995,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1230,
+   "triangles": 1011,
    "lod_triangles": [
-    1230,
-    701,
-    352
+    1011,
+    576,
+    311
    ],
    "bounds": [
     [
-     -0.953000009059906,
+     -0.9200000166893005,
      0.0,
      -0.9049999713897705
     ],
     [
      0.9200000166893005,
-     2.0769999027252197,
+     1.4240000247955322,
      0.9049999713897705
     ]
    ],
-   "bytes": 181320,
+   "bytes": 152232,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_gold_mine_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_industrial_v0.png",
@@ -23021,7 +23021,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_industrial_v0__modern.png"
    },
-   "sha256": "e3943921c7c5dd1bc2549f3d85e9bf6872dc715e6376a2295f67d18e2be25b3a",
+   "sha256": "ae38c36f2100717efd7d6df95b2b876f57ee780116148b4feacf821b32d2bec1",
    "sourceIds": [
     "bld_human_gold_mine_industrial_v0"
    ],
@@ -23846,25 +23846,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 946,
+   "triangles": 1347,
    "lod_triangles": [
-    946,
-    480,
-    224
+    1347,
+    564,
+    296
    ],
    "bounds": [
     [
      -0.925000011920929,
      0.0,
-     -0.9229999780654907
+     -0.8999999761581421
     ],
     [
      0.925000011920929,
-     1.684000015258789,
+     1.284000039100647,
      0.8999999761581421
     ]
    ],
-   "bytes": 129320,
+   "bytes": 189468,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_hospital_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_hospital_future_v0.png",
@@ -23872,7 +23872,7 @@
     "information": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_hospital_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_hospital_future_v0__ascension.png"
    },
-   "sha256": "48f694cbf99d09474e8c9271879afb8d65d2c00ab289d2fb286040d79423df91",
+   "sha256": "558369b52de38aa284a7d62fda0ed00abd4a9209484818fe010cace305a6b0a1",
    "sourceIds": [
     "bld_human_hospital_future_v0"
    ],
@@ -26305,25 +26305,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 821,
+   "triangles": 754,
    "lod_triangles": [
-    821,
-    433,
-    216
+    754,
+    451,
+    235
    ],
    "bounds": [
     [
-     -1.4700000286102295,
+     -1.4539999961853027,
      0.0,
-     -0.13099999725818634
+     -0.29548025131225586
     ],
     [
-     1.4700000286102295,
-     1.2197999954223633,
-     0.34702178835868835
+     1.4223288297653198,
+     1.4505000114440918,
+     0.4365416169166565
     ]
    ],
-   "bytes": 124084,
+   "bytes": 125692,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_palisade_ancient_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_palisade_ancient_v0.png",
@@ -26331,7 +26331,7 @@
     "bronze": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_palisade_ancient_v0.png",
     "iron": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_palisade_ancient_v0__iron.png"
    },
-   "sha256": "505779f385eb4cddc8eb55f8b5344f82a5265e10f56e3808fa48ec4164a4b935",
+   "sha256": "052376db2fe4d95b6a08fb707aefcbf925c78a7a08f58d89fbe3651ffb79612b",
    "sourceIds": [
     "bld_human_palisade_ancient_v0"
    ],
@@ -28225,25 +28225,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 517,
+   "triangles": 550,
    "lod_triangles": [
-    517,
-    226,
-    132
+    550,
+    252,
+    154
    ],
    "bounds": [
     [
-     -0.9449999928474426,
+     -0.8050000071525574,
      0.0,
-     -0.4449999928474426
+     -0.4892500042915344
     ],
     [
-     0.9449999928474426,
-     1.1799999475479126,
-     0.4449999928474426
+     0.925000011920929,
+     1.6200000047683716,
+     0.42500001192092896
     ]
    ],
-   "bytes": 66992,
+   "bytes": 70952,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Human/Infrastructure/bld_human_storehouse_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_classical_v0.png",
@@ -28252,7 +28252,7 @@
     "medieval": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_classical_v0__medieval.png",
     "renaissance": "tools/AssetForge/previews/Buildings/Human/Infrastructure/bld_human_storehouse_classical_v0__renaissance.png"
    },
-   "sha256": "ff57616bbc6de072539129ad05b00754693fbda38c78226ef7058b2e958aed13",
+   "sha256": "1fe31c18270659e6d010f5b63bc2d0a8b552f56ce169f0c2ed81bb2d94dc1d39",
    "sourceIds": [
     "bld_human_storehouse_classical_v0"
    ],
@@ -28618,25 +28618,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 766,
+   "triangles": 638,
    "lod_triangles": [
-    766,
-    397,
-    218
+    638,
+    362,
+    188
    ],
    "bounds": [
     [
-     -0.8349999785423279,
+     -0.8880000114440918,
      0.0,
-     -0.8960000276565552
+     -0.7559999823570251
     ],
     [
-     0.8466399908065796,
-     1.8623168468475342,
-     0.8450000286102295
+     0.7459999918937683,
+     1.3639999628067017,
+     0.8389999866485596
     ]
    ],
-   "bytes": 106832,
+   "bytes": 95272,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_temple_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_future_v0.png",
@@ -28644,7 +28644,7 @@
     "information": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_future_v0__ascension.png"
    },
-   "sha256": "6e147302bf996dbff9bd895f7b7776475738c288c4b0c8f3a1ff6cc5c81e3715",
+   "sha256": "a1708b2201389addbfc4a8b20246f710cbdd7b3f36a788584acf561996a38494",
    "sourceIds": [
     "bld_human_temple_future_v0"
    ],
@@ -29433,11 +29433,11 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 996,
+   "triangles": 1422,
    "lod_triangles": [
-    996,
-    500,
-    226
+    1422,
+    576,
+    324
    ],
    "bounds": [
     [
@@ -29447,11 +29447,11 @@
     ],
     [
      1.3875000476837158,
-     2.130000114440918,
+     1.1890000104904175,
      0.8999999761581421
     ]
    ],
-   "bytes": 130280,
+   "bytes": 186688,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_university_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_university_industrial_v0.png",
@@ -29459,7 +29459,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_university_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_university_industrial_v0__modern.png"
    },
-   "sha256": "479a7dec729481d0b2351e0bdc6d9c14451fcd52f0fda27e141d18c3560eaa02",
+   "sha256": "18e48a3d55eb9485800e974105bdcab189ef72052afc96e67d385dedc7cc2fcf",
    "sourceIds": [
     "bld_human_university_industrial_v0"
    ],
@@ -29579,32 +29579,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 442,
+   "triangles": 689,
    "lod_triangles": [
-    442,
-    232,
-    125
+    689,
+    387,
+    186
    ],
    "bounds": [
     [
-     -0.3400000035762787,
+     -0.47200000286102295,
      0.0,
-     -0.3100000023841858
+     -0.45750001072883606
     ],
     [
-     0.3400000035762787,
-     2.1335999965667725,
-     0.33000001311302185
+     0.4390000104904175,
+     1.561416745185852,
+     0.4050000011920929
     ]
    ],
-   "bytes": 61452,
+   "bytes": 107220,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Human/Military/bld_human_watchtower_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_watchtower_industrial_v0.png",
    "age_previews": {
     "industrial": "tools/AssetForge/previews/Buildings/Human/Military/bld_human_watchtower_industrial_v0.png"
    },
-   "sha256": "ad37e6fb01fea95d43cb3644845709c0ca6d784fbc546c26603278152adf8e14",
+   "sha256": "5b02eba2250eb6e6e46461a4c976acf8781750ebdceed8755b39da02904d181a",
    "sourceIds": [
     "bld_human_watchtower_industrial_v0"
    ],
@@ -30698,25 +30698,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 744,
+   "triangles": 930,
    "lod_triangles": [
-    744,
-    424,
-    195
+    930,
+    530,
+    204
    ],
    "bounds": [
     [
-     -0.31511566042900085,
+     -0.17572163045406342,
      0.0,
-     -1.415024995803833
+     -1.3516124486923218
     ],
     [
-     0.3185825049877167,
-     1.4571900367736816,
-     1.415024995803833
+     0.1958467811346054,
+     0.9902088046073914,
+     1.3516124486923218
     ]
    ],
-   "bytes": 116816,
+   "bytes": 142244,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/Infrastructure/bld_orc_aqueduct_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_aqueduct_industrial_v0.png",
@@ -30724,7 +30724,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_aqueduct_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_aqueduct_industrial_v0__modern.png"
    },
-   "sha256": "9f10a1dff9bab70356946187530047d878519b3d28f3c3569a11e024d9bee59e",
+   "sha256": "83847e10f26093e85be8ad59d525b14acb5c6d202c1bf66dbebb0d20695c2740",
    "sourceIds": [
     "bld_orc_aqueduct_industrial_v0"
    ],
@@ -31681,25 +31681,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 837,
+   "triangles": 974,
    "lod_triangles": [
-    837,
-    495,
-    259
+    974,
+    529,
+    279
    ],
    "bounds": [
     [
-     -0.8949999809265137,
+     -0.9129999876022339,
      0.0,
-     -0.4430133104324341
+     -0.4112260639667511
     ],
     [
-     0.7768719792366028,
-     0.9278500080108643,
-     0.36500000953674316
+     0.7302919626235962,
+     1.0618300437927246,
+     0.33799999952316284
     ]
    ],
-   "bytes": 145540,
+   "bytes": 169724,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_blacksmith_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_classical_v0.png",
@@ -31708,7 +31708,7 @@
     "medieval": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_classical_v0__medieval.png",
     "renaissance": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_classical_v0__renaissance.png"
    },
-   "sha256": "a82f8277348bc6a771dfc16f5bcfebaff86eb4ace5ac13b43cd263a753d1ea2e",
+   "sha256": "4edd4ffc57595d6d6ac38132783153e848fe175f059be9e5b06e65532ae1f55c",
    "sourceIds": [
     "bld_orc_blacksmith_classical_v0"
    ],
@@ -31780,25 +31780,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 837,
+   "triangles": 802,
    "lod_triangles": [
-    837,
-    495,
-    259
+    802,
+    457,
+    239
    ],
    "bounds": [
     [
-     -0.8949999809265137,
+     -0.9100000262260437,
      0.0,
-     -0.4430133104324341
+     -0.3450782597064972
     ],
     [
-     0.7768719792366028,
-     0.9355499744415283,
-     0.36500000953674316
+     0.8751320242881775,
+     0.7184100151062012,
+     0.3619648218154907
     ]
    ],
-   "bytes": 145268,
+   "bytes": 133476,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_blacksmith_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_industrial_v0.png",
@@ -31806,7 +31806,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_blacksmith_industrial_v0__modern.png"
    },
-   "sha256": "e663cf9de82513fc63bfa8392b422865660cf2eae98056adda714919c9d34d64",
+   "sha256": "56ea2e1e723a63dd642793da71d529cdc4ea4e6f88add9a00a9d433d28496853",
    "sourceIds": [
     "bld_orc_blacksmith_industrial_v0"
    ],
@@ -32572,25 +32572,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 994,
+   "triangles": 1035,
    "lod_triangles": [
-    994,
-    572,
-    286
+    1035,
+    535,
+    329
    ],
    "bounds": [
     [
-     -1.402500033378601,
+     -1.182368516921997,
      0.0,
-     -1.3799999952316284
+     -1.1152703762054443
     ],
     [
-     1.402500033378601,
-     1.231885552406311,
-     1.3799999952316284
+     1.3163702487945557,
+     1.888317584991455,
+     1.2549203634262085
     ]
    ],
-   "bytes": 173292,
+   "bytes": 174480,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_farm_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_industrial_v0.png",
@@ -32598,7 +32598,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_industrial_v0__modern.png"
    },
-   "sha256": "da586f8c6d9ca7771bbfb807e1cdd7f2ad0ce573ce604a02d12ff9aefa1d152b",
+   "sha256": "a5c4a821a4f40943a629eadfc76f4d740bfd2cf6a35efadcbf8b90479868c16d",
    "sourceIds": [
     "bld_orc_farm_industrial_v0"
    ],
@@ -33809,25 +33809,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 980,
+   "triangles": 1006,
    "lod_triangles": [
-    980,
-    557,
-    272
+    1006,
+    573,
+    318
    ],
    "bounds": [
     [
-     -0.886900007724762,
+     -0.8770999908447266,
      0.0,
-     -0.9211999773979187
+     -0.9339399933815002
     ],
     [
-     0.9358999729156494,
-     1.4288400411605835,
-     0.9211999773979187
+     0.9202200174331665,
+     1.2524399757385254,
+     0.8829799890518188
     ]
    ],
-   "bytes": 163132,
+   "bytes": 169936,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/Commerce/bld_orc_harbor_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_industrial_v0.png",
@@ -33835,7 +33835,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Orc/Commerce/bld_orc_harbor_industrial_v0__modern.png"
    },
-   "sha256": "da49b73b0b8758880e2a676ebb228ed2805a2ea838721b2b9af382613bfd8441",
+   "sha256": "26f49bd7c1038c3069887861eb6a13714c69bd4684e57daede9e89967291dfae",
    "sourceIds": [
     "bld_orc_harbor_industrial_v0"
    ],
@@ -34202,32 +34202,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 560,
+   "triangles": 506,
    "lod_triangles": [
-    560,
-    322,
-    144
+    506,
+    243,
+    129
    ],
    "bounds": [
     [
-     -0.4635629653930664,
+     -0.39500001072883606,
      0.0,
-     -0.4595806300640106
+     -0.3709999918937683
     ],
     [
-     0.3957241177558899,
-     0.7674167156219482,
-     0.4923703074455261
+     0.3580000102519989,
+     0.6190000176429749,
+     0.3613937199115753
     ]
    ],
-   "bytes": 95540,
+   "bytes": 76096,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesAncient/bld_orc_house_ancient_bronze_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/HousesAncient/bld_orc_house_ancient_bronze_v0.png",
    "age_previews": {
     "bronze": "tools/AssetForge/previews/Buildings/Orc/HousesAncient/bld_orc_house_ancient_bronze_v0.png"
    },
-   "sha256": "9291491ea1ba5e7933ea1de4381f772be1fc7f0c33fdac3a0e03d73fb1b2c56a",
+   "sha256": "f02143f703c9afc60ea6100303affe50f6adf47c89e08a6a8e546b82a5f66e0c",
    "sourceIds": [
     "bld_orc_house_ancient_v0"
    ],
@@ -34249,32 +34249,32 @@
    "variant": 1,
    "tags": [],
    "notes": "",
-   "triangles": 582,
+   "triangles": 498,
    "lod_triangles": [
-    582,
-    344,
-    144
+    498,
+    207,
+    136
    ],
    "bounds": [
     [
-     -0.4635629653930664,
+     -0.3334999978542328,
      0.0,
-     -0.4025806486606598
+     -0.32600000500679016
     ],
     [
-     0.47456851601600647,
-     0.7061662077903748,
-     0.4923703074455261
+     0.3880000114440918,
+     0.640999972820282,
+     0.36899998784065247
     ]
    ],
-   "bytes": 100732,
+   "bytes": 68860,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesAncient/bld_orc_house_ancient_bronze_v1.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/HousesAncient/bld_orc_house_ancient_bronze_v1.png",
    "age_previews": {
     "bronze": "tools/AssetForge/previews/Buildings/Orc/HousesAncient/bld_orc_house_ancient_bronze_v1.png"
    },
-   "sha256": "e03dd4fb617a8eeff3c035c315cc6375227c8bec70a537cff72c67a1ae293cec",
+   "sha256": "759fbefa91668978518dbd5b034752ad910a281ea1d15fbf68e1062d4cc0b291",
    "sourceIds": [
     "bld_orc_house_ancient_v1"
    ],
@@ -34296,32 +34296,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 566,
+   "triangles": 492,
    "lod_triangles": [
-    566,
-    328,
-    144
+    492,
+    239,
+    98
    ],
    "bounds": [
     [
-     -0.4635629653930664,
+     -0.48364171385765076,
      0.0,
-     -0.4595806300640106
+     -0.40299999713897705
     ],
     [
-     0.3957241177558899,
-     0.8474167585372925,
-     0.4923703074455261
+     0.4669017195701599,
+     0.8032600283622742,
+     0.31700000166893005
     ]
    ],
-   "bytes": 96312,
+   "bytes": 73844,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesAncient/bld_orc_house_ancient_iron_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/HousesAncient/bld_orc_house_ancient_iron_v0.png",
    "age_previews": {
     "iron": "tools/AssetForge/previews/Buildings/Orc/HousesAncient/bld_orc_house_ancient_iron_v0.png"
    },
-   "sha256": "8af0755731b66a2b8442501b6b28d8505113b425c8d03692b8c69aa265af7be8",
+   "sha256": "aaf6b46129a46e8708096c7e532e984c9f652bfa62837f18023f03892db7edbe",
    "sourceIds": [
     "bld_orc_house_ancient_v0"
    ],
@@ -34343,32 +34343,32 @@
    "variant": 1,
    "tags": [],
    "notes": "",
-   "triangles": 566,
+   "triangles": 492,
    "lod_triangles": [
-    566,
-    328,
-    144
+    492,
+    222,
+    116
    ],
    "bounds": [
     [
-     -0.4635629653930664,
+     -0.4115000069141388,
      0.0,
-     -0.4025806486606598
+     -0.39100000262260437
     ],
     [
-     0.47456851601600647,
-     0.7861661911010742,
-     0.4923703074455261
+     0.3095000088214874,
+     0.9046199917793274,
+     0.3125
     ]
    ],
-   "bytes": 97076,
+   "bytes": 69420,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesAncient/bld_orc_house_ancient_iron_v1.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/HousesAncient/bld_orc_house_ancient_iron_v1.png",
    "age_previews": {
     "iron": "tools/AssetForge/previews/Buildings/Orc/HousesAncient/bld_orc_house_ancient_iron_v1.png"
    },
-   "sha256": "9f5610d25c5fb3cde505f130e1a28ff53360a87ff875ac87eeb96d95adf5ea72",
+   "sha256": "9e89b0b984269292ff8d1cafd09e70046af13165c7c34c671757a737aa807334",
    "sourceIds": [
     "bld_orc_house_ancient_v1"
    ],
@@ -36613,25 +36613,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1126,
+   "triangles": 1182,
    "lod_triangles": [
-    1126,
-    484,
-    158
+    1182,
+    582,
+    332
    ],
    "bounds": [
     [
-     -1.407212495803833,
-     -0.00016603338008280843,
-     -0.21965999901294708
+     -1.383732795715332,
+     0.0,
+     -0.3521449863910675
     ],
     [
-     1.407212495803833,
-     1.2200000286102295,
-     0.352012574672699
+     1.334220051765442,
+     1.7960000038146973,
+     0.4568600058555603
     ]
    ],
-   "bytes": 164276,
+   "bytes": 202268,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_palisade_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_palisade_classical_v0.png",
@@ -36639,7 +36639,7 @@
     "classical": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_palisade_classical_v0.png",
     "medieval": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_palisade_classical_v0__medieval.png"
    },
-   "sha256": "22b602f232cd4e5f0803bbbe168b58ce1a67d03ff112f19b6a209a123c51eebb",
+   "sha256": "85a60574337491258a54fac9a586b5ac144dcb4217e5b84b87c1bd45316c790c",
    "sourceIds": [
     "bld_orc_palisade_classical_v0"
    ],
@@ -37889,25 +37889,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 818,
+   "triangles": 897,
    "lod_triangles": [
-    818,
-    490,
-    253
+    897,
+    494,
+    266
    ],
    "bounds": [
     [
-     -0.8949999809265137,
+     -0.859749972820282,
      0.0,
-     -0.34639406204223633
+     -0.3695499897003174
     ],
     [
-     0.8981439471244812,
-     1.2116719484329224,
-     0.36500000953674316
+     0.859749972820282,
+     0.6633899807929993,
+     0.40802499651908875
     ]
    ],
-   "bytes": 144372,
+   "bytes": 130344,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/Industry/bld_orc_smelter_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_future_v0.png",
@@ -37915,7 +37915,7 @@
     "information": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Orc/Industry/bld_orc_smelter_future_v0__ascension.png"
    },
-   "sha256": "3d0cf7abe6593b82a1f5910304eb1193b55ba5e3dd6257a4240ff8ca54e110d0",
+   "sha256": "f5b532ded987918d8e4921dca7154754bb0ea2812b73f7b7b13ae804cd9f0124",
    "sourceIds": [
     "bld_orc_smelter_future_v0"
    ],
@@ -38583,25 +38583,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 464,
+   "triangles": 523,
    "lod_triangles": [
-    464,
-    276,
-    130
+    523,
+    297,
+    160
    ],
    "bounds": [
     [
-     -0.7975249886512756,
+     -0.8644999861717224,
      0.0,
-     -0.3189387619495392
+     -0.3743000030517578
     ],
     [
-     0.859749972820282,
-     1.014930009841919,
-     0.3595750033855438
+     0.8644999861717224,
+     1.196694016456604,
+     0.40470001101493835
     ]
    ],
-   "bytes": 75672,
+   "bytes": 78388,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/Infrastructure/bld_orc_storehouse_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_storehouse_industrial_v0.png",
@@ -38609,7 +38609,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_storehouse_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Orc/Infrastructure/bld_orc_storehouse_industrial_v0__modern.png"
    },
-   "sha256": "01c64643ea6be27b010d4e81de1531ffebd4a9cdba7428088f6ff80938754f07",
+   "sha256": "834610da79188999471565fb1af81fa0d3e6190c4b547d5f675fe3e46d079ab5",
    "sourceIds": [
     "bld_orc_storehouse_industrial_v0"
    ],
@@ -39170,32 +39170,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1095,
+   "triangles": 998,
    "lod_triangles": [
-    1095,
-    519,
-    268
+    998,
+    458,
+    259
    ],
    "bounds": [
     [
-     -0.7714394330978394,
+     -0.8035200238227844,
      0.0,
-     -0.7630000114440918
+     -0.6129999756813049
     ],
     [
-     0.836657702922821,
-     1.645050048828125,
-     0.8490102291107178
+     0.7649999856948853,
+     1.523229956626892,
+     0.47122007608413696
     ]
    ],
-   "bytes": 181788,
+   "bytes": 155664,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/TownCenters/bld_orc_town_center_ancient_iron_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_ancient_iron_v0.png",
    "age_previews": {
     "iron": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_ancient_iron_v0.png"
    },
-   "sha256": "981214205899f4b37f6bd2a3ba5856ada2c034bb6b6def7370d882d1f9f793e7",
+   "sha256": "cb651ad24f99e474fe7a3de14a917c3da9962394f3c9fc5986f794c24fefc1d7",
    "sourceIds": [
     "bld_orc_town_center_ancient_v0"
    ],
@@ -39217,32 +39217,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 906,
+   "triangles": 766,
    "lod_triangles": [
-    906,
-    414,
-    227
+    766,
+    327,
+    221
    ],
    "bounds": [
     [
-     -0.7714394330978394,
+     -0.7770000100135803,
      0.0,
-     -0.7630000114440918
+     -0.8149999976158142
     ],
     [
-     0.7714394330978394,
-     1.534999966621399,
-     0.8490102291107178
+     0.7730000019073486,
+     1.3919999599456787,
+     0.6480000019073486
     ]
    ],
-   "bytes": 148180,
+   "bytes": 121404,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/TownCenters/bld_orc_town_center_ancient_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_ancient_v0.png",
    "age_previews": {
     "dawn": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_ancient_v0.png"
    },
-   "sha256": "e20f4de8cb896765491e03fe034846f5f7ca39137702e88e6745ae3cc0023e2b",
+   "sha256": "e46cf3d51b26f5d05f1c61c5442eba2d6f5060f20bf8792101862a85aeff29eb",
    "sourceIds": [
     "bld_orc_town_center_ancient_v0"
    ],
@@ -39311,32 +39311,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1356,
+   "triangles": 1138,
    "lod_triangles": [
-    1356,
-    684,
-    335
+    1138,
+    452,
+    259
    ],
    "bounds": [
     [
-     -0.9355706572532654,
+     -0.8485000133514404,
      0.0,
-     -0.7630000114440918
+     -0.8939999938011169
     ],
     [
-     0.8065480589866638,
-     1.715000033378601,
-     0.8821879029273987
+     0.8184999823570251,
+     1.5169999599456787,
+     0.6735000014305115
     ]
    ],
-   "bytes": 222180,
+   "bytes": 158156,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Orc/TownCenters/bld_orc_town_center_classical_renaissance_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_classical_renaissance_v0.png",
    "age_previews": {
     "renaissance": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_classical_renaissance_v0.png"
    },
-   "sha256": "9f9cd01e3c4af227e2e0bf8ffd7a9ab3b709227c8383b64594f69ef3dd01127e",
+   "sha256": "fd4390ae2b8c1d1a89c3785126b70196da09bccf5af881dc3b28a239cccefa38",
    "sourceIds": [
     "bld_orc_town_center_classical_v0"
    ],
@@ -40754,25 +40754,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 812,
+   "triangles": 904,
    "lod_triangles": [
-    812,
-    462,
-    218
+    904,
+    514,
+    236
    ],
    "bounds": [
     [
-     -0.24699999392032623,
+     -0.4257878065109253,
      0.0,
-     -1.4319720268249512
+     -1.4634499549865723
     ],
     [
-     0.24699999392032623,
-     1.2050000429153442,
-     1.3925000429153442
+     0.4241091012954712,
+     1.1283999681472778,
+     1.4634499549865723
     ]
    ],
-   "bytes": 125352,
+   "bytes": 142392,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_future_v0.png",
@@ -40780,7 +40780,7 @@
     "information": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_future_v0__ascension.png"
    },
-   "sha256": "b62743ed8871b30cdc9c10faaf801ec64cb94ec9e1b219182acf272dca62ad56",
+   "sha256": "9615e04c5670a1545d18f9c9034156f2dfb767bec82b208d7e2c466010ae0627",
    "sourceIds": [
     "bld_saurian_aqueduct_future_v0"
    ],
@@ -40803,25 +40803,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1020,
+   "triangles": 1360,
    "lod_triangles": [
-    1020,
-    488,
-    278
+    1360,
+    691,
+    392
    ],
    "bounds": [
     [
-     -0.2290000021457672,
+     -0.42500001192092896,
      0.0,
-     -1.4319720268249512
+     -1.4049999713897705
     ],
     [
-     0.2290000021457672,
-     1.2050000429153442,
-     1.3951400518417358
+     0.39500001072883606,
+     1.101338267326355,
+     1.18149995803833
     ]
    ],
-   "bytes": 143532,
+   "bytes": 190200,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_industrial_v0.png",
@@ -40829,7 +40829,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_industrial_v0__modern.png"
    },
-   "sha256": "8e53199e70788da6d94e0808d0acb61ad4234177dee9341da1f1a3172fcf290a",
+   "sha256": "f39f9e303690f57c25f43fc0e49e8dfc9c59a3116d23ea15c655ebccd1692ef7",
    "sourceIds": [
     "bld_saurian_aqueduct_industrial_v0"
    ],
@@ -41342,25 +41342,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 742,
+   "triangles": 795,
    "lod_triangles": [
-    742,
-    422,
-    171
+    795,
+    391,
+    173
    ],
    "bounds": [
     [
-     -0.8700000047683716,
+     -0.9100000262260437,
      0.0,
-     -0.9359999895095825
+     -0.8349999785423279
     ],
     [
-     0.8700000047683716,
-     1.6269999742507935,
-     0.800000011920929
+     0.9100000262260437,
+     1.3480000495910645,
+     0.824999988079071
     ]
    ],
-   "bytes": 102368,
+   "bytes": 103092,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Commerce/bld_saurian_bank_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_industrial_v0.png",
@@ -41368,7 +41368,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Saurian/Commerce/bld_saurian_bank_industrial_v0__modern.png"
    },
-   "sha256": "0d91423de3c5802b66c7549272079057be12e659bf63569c7ac79490a5654874",
+   "sha256": "8e15c65b7eb1956606e7841b42a6f72bab9905f6fd8ecda2cce3e6bafa2d4722",
    "sourceIds": [
     "bld_saurian_bank_industrial_v0"
    ],
@@ -42977,25 +42977,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1235,
+   "triangles": 1004,
    "lod_triangles": [
-    1235,
-    703,
-    345
+    1004,
+    572,
+    315
    ],
    "bounds": [
     [
-     -1.4550000429153442,
+     -1.3109999895095825,
      0.0,
-     -0.9760000109672546
+     -0.8799999952316284
     ],
     [
-     1.4550000429153442,
-     1.5549999475479126,
-     0.871999979019165
+     1.3109999895095825,
+     1.4699935913085938,
+     0.8134499788284302
     ]
    ],
-   "bytes": 181292,
+   "bytes": 160244,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_forum_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_future_v0.png",
@@ -43003,7 +43003,7 @@
     "information": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_future_v0__ascension.png"
    },
-   "sha256": "1f82482bb36f8cd04083c0892ebf174362f07cce8d4fd2aa9dac27eefae5ec85",
+   "sha256": "3ed85ee3d56408e83deaddf22fab3fca02971abc9043ef056c53630e68646edf",
    "sourceIds": [
     "bld_saurian_forum_future_v0"
    ],
@@ -43026,25 +43026,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1185,
+   "triangles": 900,
    "lod_triangles": [
-    1185,
-    674,
-    281
+    900,
+    514,
+    244
    ],
    "bounds": [
     [
-     -1.4550000429153442,
+     -1.3949999809265137,
      0.0,
-     -0.9760000109672546
+     -0.9100000262260437
     ],
     [
-     1.4550000429153442,
-     1.1820000410079956,
-     0.871999979019165
+     1.3949999809265137,
+     1.0199999809265137,
+     0.8399999737739563
     ]
    ],
-   "bytes": 170192,
+   "bytes": 121056,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/CultureCivic/bld_saurian_forum_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_industrial_v0.png",
@@ -43052,7 +43052,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_forum_industrial_v0__modern.png"
    },
-   "sha256": "aa09a21dc7dc608f8edf3cdae4c3c1ac09e10c4c9e4d9ee8bd0e675a6fd076b2",
+   "sha256": "e54c618a855198a43887ec30f862253c68fa783a08c037d9f0483bbd74226ee9",
    "sourceIds": [
     "bld_saurian_forum_industrial_v0"
    ],
@@ -44307,32 +44307,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 506,
+   "triangles": 694,
    "lod_triangles": [
-    506,
-    284,
-    122
+    694,
+    360,
+    204
    ],
    "bounds": [
     [
-     -0.4350000023841858,
+     -0.39849603176116943,
      0.0,
-     -0.492000013589859
+     -0.4359999895095825
     ],
     [
-     0.4350000023841858,
-     0.7990000247955322,
-     0.390500009059906
+     0.39828941226005554,
+     0.49300000071525574,
+     0.3739955723285675
     ]
    ],
-   "bytes": 71756,
+   "bytes": 115868,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/HousesAncient/bld_saurian_house_ancient_bronze_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/HousesAncient/bld_saurian_house_ancient_bronze_v0.png",
    "age_previews": {
     "bronze": "tools/AssetForge/previews/Buildings/Saurian/HousesAncient/bld_saurian_house_ancient_bronze_v0.png"
    },
-   "sha256": "fb4a0983452cca271b79100982ec79db36589b493af67ce62fc26dd81c7dff9b",
+   "sha256": "03ac0de81e5209d24301d3bde89d5526ee1acdfab79fb79bf4d712f37e718354",
    "sourceIds": [
     "bld_saurian_house_ancient_v0"
    ],
@@ -44354,32 +44354,32 @@
    "variant": 1,
    "tags": [],
    "notes": "",
-   "triangles": 568,
+   "triangles": 538,
    "lod_triangles": [
-    568,
-    322,
-    166
+    538,
+    235,
+    142
    ],
    "bounds": [
     [
-     -0.445499986410141,
+     -0.39800000190734863,
      0.0,
-     -0.492000013589859
+     -0.3799999952316284
     ],
     [
-     0.4350000023841858,
-     0.7789999842643738,
-     0.390500009059906
+     0.3880000114440918,
+     0.640999972820282,
+     0.38100001215934753
     ]
    ],
-   "bytes": 82440,
+   "bytes": 75272,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/HousesAncient/bld_saurian_house_ancient_bronze_v1.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/HousesAncient/bld_saurian_house_ancient_bronze_v1.png",
    "age_previews": {
     "bronze": "tools/AssetForge/previews/Buildings/Saurian/HousesAncient/bld_saurian_house_ancient_bronze_v1.png"
    },
-   "sha256": "5397988e45521f34edf48c84882f2889ec0464692f7e5a957bc5138ef59cb990",
+   "sha256": "fc5ecb8b1f159e63aade8696816b9b5e9716edb7becc28eea07e2f75d3ec6048",
    "sourceIds": [
     "bld_saurian_house_ancient_v1"
    ],
@@ -44401,32 +44401,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 508,
+   "triangles": 428,
    "lod_triangles": [
-    508,
-    266,
-    112
+    428,
+    206,
+    122
    ],
    "bounds": [
     [
-     -0.4350000023841858,
+     -0.37450000643730164,
      0.0,
-     -0.492000013589859
+     -0.4659999907016754
     ],
     [
-     0.4350000023841858,
-     0.7979999780654907,
-     0.390500009059906
+     0.40299999713897705,
+     0.7549999952316284,
+     0.2720000147819519
     ]
    ],
-   "bytes": 69096,
+   "bytes": 59620,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/HousesAncient/bld_saurian_house_ancient_iron_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/HousesAncient/bld_saurian_house_ancient_iron_v0.png",
    "age_previews": {
     "iron": "tools/AssetForge/previews/Buildings/Saurian/HousesAncient/bld_saurian_house_ancient_iron_v0.png"
    },
-   "sha256": "6d0507b1f41ffdb3bc650f113782602fd5496d38978a8299da06b95de87c0f51",
+   "sha256": "b0888bcca494d3a08135c78a0cd7ba46352e2d05b40da3c0822156adacb9ff1b",
    "sourceIds": [
     "bld_saurian_house_ancient_v0"
    ],
@@ -44448,32 +44448,32 @@
    "variant": 1,
    "tags": [],
    "notes": "",
-   "triangles": 570,
+   "triangles": 574,
    "lod_triangles": [
-    570,
-    330,
-    156
+    574,
+    238,
+    136
    ],
    "bounds": [
     [
-     -0.445499986410141,
+     -0.4590480327606201,
      0.0,
-     -0.492000013589859
+     -0.4429999887943268
     ],
     [
-     0.4350000023841858,
-     0.777999997138977,
-     0.390500009059906
+     0.4590480327606201,
+     0.515999972820282,
+     0.38972410559654236
     ]
    ],
-   "bytes": 81952,
+   "bytes": 78436,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/HousesAncient/bld_saurian_house_ancient_iron_v1.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/HousesAncient/bld_saurian_house_ancient_iron_v1.png",
    "age_previews": {
     "iron": "tools/AssetForge/previews/Buildings/Saurian/HousesAncient/bld_saurian_house_ancient_iron_v1.png"
    },
-   "sha256": "d96b40e939c56e9318c4f3907308a3a608fea5bf82457b088257eb6d49ea5771",
+   "sha256": "3c533821be0c2bea9ca85302abfda0ec6d821ab6e48b64b002782598d1aa6726",
    "sourceIds": [
     "bld_saurian_house_ancient_v1"
    ],
@@ -44589,32 +44589,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 492,
+   "triangles": 428,
    "lod_triangles": [
-    492,
-    274,
-    134
+    428,
+    162,
+    86
    ],
    "bounds": [
     [
-     -0.4350000023841858,
+     -0.3570387661457062,
      0.0,
-     -0.492000013589859
+     -0.35600000619888306
     ],
     [
-     0.4350000023841858,
-     1.0173605680465698,
-     0.4020000100135803
+     0.3140000104904175,
+     1.0460000038146973,
+     0.34950000047683716
     ]
    ],
-   "bytes": 69328,
+   "bytes": 52056,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_medieval_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_medieval_v0.png",
    "age_previews": {
     "medieval": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_medieval_v0.png"
    },
-   "sha256": "e257ab4baa11ee2eb77e1fd82e9e452b60b3b44fd2656d33c592d6dffeca37b0",
+   "sha256": "14d7dcff7e6cc7f30a2266c069c02cd95e6111c358c8d88948e3454871e33f63",
    "sourceIds": [
     "bld_saurian_house_classical_v0"
    ],
@@ -44683,32 +44683,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 534,
+   "triangles": 562,
    "lod_triangles": [
-    534,
-    272,
-    130
+    562,
+    191,
+    118
    ],
    "bounds": [
     [
-     -0.4350000023841858,
+     -0.4269999861717224,
      0.0,
-     -0.492000013589859
+     -0.3504999876022339
     ],
     [
-     0.4350000023841858,
-     0.8159999847412109,
-     0.3880000114440918
+     0.32100000977516174,
+     0.6899999976158142,
+     0.37400001287460327
     ]
    ],
-   "bytes": 77172,
+   "bytes": 67160,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_renaissance_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_renaissance_v0.png",
    "age_previews": {
     "renaissance": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_renaissance_v0.png"
    },
-   "sha256": "69ef619a973bcf71a8d43e372f6582f96408b13f30dc36421992a86f4bce49ce",
+   "sha256": "19942029f780c236ae3a4dfe7e77c0063540d9d17db5a9000e0c851f6fbcb22d",
    "sourceIds": [
     "bld_saurian_house_classical_v0"
    ],
@@ -44730,32 +44730,32 @@
    "variant": 1,
    "tags": [],
    "notes": "",
-   "triangles": 660,
+   "triangles": 546,
    "lod_triangles": [
-    660,
-    334,
-    182
+    546,
+    253,
+    116
    ],
    "bounds": [
     [
-     -0.4350000023841858,
+     -0.3479999899864197,
      0.0,
-     -0.492000013589859
+     -0.39899998903274536
     ],
     [
-     0.4350000023841858,
-     0.8690000176429749,
-     0.3880000114440918
+     0.3869999945163727,
+     0.7950000166893005,
+     0.40700000524520874
     ]
    ],
-   "bytes": 99732,
+   "bytes": 76384,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_renaissance_v1.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_renaissance_v1.png",
    "age_previews": {
     "renaissance": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_renaissance_v1.png"
    },
-   "sha256": "581c4c518e0664032c88d94a73220c9d4934b74af7ef70c9f4c758bcc9e947a3",
+   "sha256": "3d8fce7d5fe5721628f99daa498c7ed4089d39352fb8392d6b1edc4c9d482651",
    "sourceIds": [
     "bld_saurian_house_classical_v1"
    ],
@@ -44965,32 +44965,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 496,
+   "triangles": 500,
    "lod_triangles": [
-    496,
-    282,
-    132
+    500,
+    208,
+    110
    ],
    "bounds": [
     [
-     -0.4350000023841858,
+     -0.3331199884414673,
      0.0,
-     -0.492000013589859
+     -0.24300000071525574
     ],
     [
-     0.4350000023841858,
-     0.7689999938011169,
-     0.3880000114440918
+     0.42712000012397766,
+     0.628000020980835,
+     0.3096800148487091
     ]
    ],
-   "bytes": 71668,
+   "bytes": 67408,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/HousesLate/bld_saurian_house_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/HousesLate/bld_saurian_house_future_v0.png",
    "age_previews": {
     "information": "tools/AssetForge/previews/Buildings/Saurian/HousesLate/bld_saurian_house_future_v0.png"
    },
-   "sha256": "9ea10a9094c8dfc510eeaa02f4e6c5dda3421393180641c998a6182b8d085508",
+   "sha256": "1f3fc5f2b024eb44f818305fb2737799153cd0658506d93b76a1ae84ebefe78a",
    "sourceIds": [
     "bld_saurian_house_future_v0"
    ],
@@ -46718,25 +46718,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 992,
+   "triangles": 835,
    "lod_triangles": [
-    992,
-    539,
-    232
+    835,
+    475,
+    235
    ],
    "bounds": [
     [
-     -1.475000023841858,
+     -1.4609999656677246,
      0.0,
-     -0.2070000022649765
+     -0.4480000138282776
     ],
     [
-     1.475000023841858,
-     1.3760000467300415,
-     0.35700470209121704
+     1.3977164030075073,
+     1.6030000448226929,
+     0.41999998688697815
     ]
    ],
-   "bytes": 133372,
+   "bytes": 118984,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_palisade_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_palisade_classical_v0.png",
@@ -46744,7 +46744,7 @@
     "classical": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_palisade_classical_v0.png",
     "medieval": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_palisade_classical_v0__medieval.png"
    },
-   "sha256": "963dafbb9e1f5fd1c15f4dcaada91d9c9b2343e53b8893e2e0acf71dbe36d802",
+   "sha256": "ffd2da8ae22884375ddf04fba81bb2aba74aefe9227e400faa11d3f9fc9cf44f",
    "sourceIds": [
     "bld_saurian_palisade_classical_v0"
    ],
@@ -48589,25 +48589,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 648,
+   "triangles": 796,
    "lod_triangles": [
-    648,
-    369,
-    178
+    796,
+    422,
+    142
    ],
    "bounds": [
     [
-     -0.9144999980926514,
+     -0.9399999976158142,
      0.0,
-     -0.49300000071525574
+     -0.44999998807907104
     ],
     [
-     0.9144999980926514,
-     1.125309944152832,
-     0.43799999356269836
+     0.9399999976158142,
+     0.7749999761581421,
+     0.46399998664855957
     ]
    ],
-   "bytes": 90432,
+   "bytes": 106560,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_classical_v0.png",
@@ -48616,7 +48616,7 @@
     "medieval": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_classical_v0__medieval.png",
     "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_classical_v0__renaissance.png"
    },
-   "sha256": "073d362c0342e0ba9365a61af150cc4715dfd7486c84d15d9e44f5ce00f7afa5",
+   "sha256": "c11666af7ed98005debf8e3e26e6825849a37a34db1b8d52dce09c822fa62ef2",
    "sourceIds": [
     "bld_saurian_storehouse_classical_v0"
    ],
@@ -48639,25 +48639,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 736,
+   "triangles": 601,
    "lod_triangles": [
-    736,
-    441,
-    216
+    601,
+    341,
+    149
    ],
    "bounds": [
     [
-     -0.9144999980926514,
+     -0.9399999976158142,
      0.0,
-     -0.49300000071525574
+     -0.4259999990463257
     ],
     [
-     0.9144999980926514,
-     1.1039999723434448,
-     0.43799999356269836
+     0.9399999976158142,
+     1.0540000200271606,
+     0.46399998664855957
     ]
    ],
-   "bytes": 104088,
+   "bytes": 87712,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_future_v0.png",
@@ -48665,7 +48665,7 @@
     "information": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_future_v0__ascension.png"
    },
-   "sha256": "25cb252d23b471f11af2b96025650dbe57c9f4e47dddc30e582547891e4933f7",
+   "sha256": "036fce0d08e0b18032298ba96c7526c2f50b693cdc23a7a26574f2e64386fd81",
    "sourceIds": [
     "bld_saurian_storehouse_future_v0"
    ],
@@ -48688,25 +48688,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 642,
+   "triangles": 886,
    "lod_triangles": [
-    642,
-    383,
-    176
+    886,
+    504,
+    242
    ],
    "bounds": [
     [
-     -0.9144999980926514,
+     -0.9399999976158142,
      0.0,
-     -0.49300000071525574
+     -0.4259999990463257
     ],
     [
-     0.9144999980926514,
-     0.921999990940094,
-     0.43799999356269836
+     0.9399999976158142,
+     0.9200000166893005,
+     0.46399998664855957
     ]
    ],
-   "bytes": 90776,
+   "bytes": 131224,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_industrial_v0.png",
@@ -48714,7 +48714,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_industrial_v0__modern.png"
    },
-   "sha256": "fecf80f202c00133d6a64229d486981022d8955bf7410c64710a1533c2713532",
+   "sha256": "35bed0fdf96e0dbfe70cc268a89da6e0adbd5d72e451f9d9e565d609e930b8b1",
    "sourceIds": [
     "bld_saurian_storehouse_industrial_v0"
    ],
@@ -49294,32 +49294,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1303,
+   "triangles": 1043,
    "lod_triangles": [
-    1303,
-    668,
-    163
+    1043,
+    386,
+    185
    ],
    "bounds": [
     [
-     -0.8949999809265137,
+     -0.7950000166893005,
      0.0,
-     -0.9700000286102295
+     -0.9020000100135803
     ],
     [
-     0.8949999809265137,
-     1.6790000200271606,
-     0.8650000095367432
+     0.7649999856948853,
+     0.7239999771118164,
+     0.640999972820282
     ]
    ],
-   "bytes": 157276,
+   "bytes": 116384,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_ancient_bronze_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_ancient_bronze_v0.png",
    "age_previews": {
     "bronze": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_ancient_bronze_v0.png"
    },
-   "sha256": "6b130130b144894a44873cae0168572256be849235def0c511357470718ee79a",
+   "sha256": "a5bbc52944124cde5d3b9194b4818c2473ed363f81c7861301c1ba959be97ceb",
    "sourceIds": [
     "bld_saurian_town_center_ancient_v0"
    ],
@@ -49341,32 +49341,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1207,
+   "triangles": 1908,
    "lod_triangles": [
-    1207,
-    556,
-    187
+    1908,
+    884,
+    590
    ],
    "bounds": [
     [
-     -0.8999999761581421,
+     -0.9229999780654907,
      0.0,
-     -0.9700000286102295
+     -0.9810000061988831
     ],
     [
-     0.8999999761581421,
-     1.6729999780654907,
-     0.8650000095367432
+     0.9229999780654907,
+     1.1519999504089355,
+     0.7919999957084656
     ]
    ],
-   "bytes": 144452,
+   "bytes": 250012,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_ancient_iron_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_ancient_iron_v0.png",
    "age_previews": {
     "iron": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_ancient_iron_v0.png"
    },
-   "sha256": "13f58474507dfcb0d1ba2a8363d1a8d0a17f3ab830eb851753b2be6bb45adba1",
+   "sha256": "748880bbc477b187df9809de525711836a4eb96e418c7dcea4b2a750f326bffe",
    "sourceIds": [
     "bld_saurian_town_center_ancient_v0"
    ],
@@ -49435,32 +49435,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1303,
+   "triangles": 1048,
    "lod_triangles": [
-    1303,
-    668,
-    163
+    1048,
+    380,
+    238
    ],
    "bounds": [
     [
-     -0.8450000286102295,
+     -0.7994999885559082,
      0.0,
-     -0.9700000286102295
+     -0.8799999952316284
     ],
     [
-     0.8450000286102295,
-     1.8930000066757202,
-     0.8650000095367432
+     0.715499997138977,
+     1.5099999904632568,
+     0.7519999742507935
     ]
    ],
-   "bytes": 157220,
+   "bytes": 124128,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_classical_medieval_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_classical_medieval_v0.png",
    "age_previews": {
     "medieval": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_classical_medieval_v0.png"
    },
-   "sha256": "18e347e041319475d7bdfbbb864e37f41b51779d0461217d7f770c389a38bab2",
+   "sha256": "bb124e4da027f4868d2b19bd50b7e2b4f9aa6397d5f45165a2f68ec720feae7f",
    "sourceIds": [
     "bld_saurian_town_center_classical_v0"
    ],
@@ -49623,32 +49623,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1221,
+   "triangles": 779,
    "lod_triangles": [
-    1221,
-    562,
-    189
+    779,
+    398,
+    143
    ],
    "bounds": [
     [
-     -0.8999999761581421,
+     -0.6489999890327454,
      0.0,
-     -0.9700000286102295
+     -0.6830000281333923
     ],
     [
-     0.8999999761581421,
-     1.812000036239624,
-     0.8650000095367432
+     0.5745000243186951,
+     1.6059999465942383,
+     0.5490000247955322
     ]
    ],
-   "bytes": 146372,
+   "bytes": 94572,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_future_v0.png",
    "age_previews": {
     "information": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_future_v0.png"
    },
-   "sha256": "b21052b30bec75b84fb6ac7af6d015805f473e1ce7751b6f678abc087d665cc9",
+   "sha256": "b74a636d722442c6666d97b4b5653d3016076e95ec4c6f82b30a2de542ff2bf1",
    "sourceIds": [
     "bld_saurian_town_center_future_v0"
    ],
@@ -49670,32 +49670,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1341,
+   "triangles": 1115,
    "lod_triangles": [
-    1341,
-    690,
-    177
+    1115,
+    399,
+    203
    ],
    "bounds": [
     [
-     -0.9150000214576721,
+     -0.7602484226226807,
      0.0,
-     -0.9700000286102295
+     -0.5659999847412109
     ],
     [
-     0.9150000214576721,
-     1.621999979019165,
-     0.8650000095367432
+     0.7602484226226807,
+     0.7820000052452087,
+     0.8190000057220459
     ]
    ],
-   "bytes": 166300,
+   "bytes": 123956,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_industrial_modern_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_industrial_modern_v0.png",
    "age_previews": {
     "modern": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_industrial_modern_v0.png"
    },
-   "sha256": "c920597a9360b9b4c26c70ef4feff1149e89bc28bcd0f6cfac6339febf9b5905",
+   "sha256": "ccc49c1dabda0fc99616151114a368fbcf6c3b51e4cf60d409107807d63c465f",
    "sourceIds": [
     "bld_saurian_town_center_industrial_v0"
    ],
@@ -49717,32 +49717,32 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 1295,
+   "triangles": 861,
    "lod_triangles": [
-    1295,
-    612,
-    227
+    861,
+    311,
+    199
    ],
    "bounds": [
     [
-     -0.9100000262260437,
+     -0.8264999985694885,
      0.0,
-     -0.9700000286102295
+     -0.781000018119812
     ],
     [
-     0.9100000262260437,
-     1.5820000171661377,
-     0.8650000095367432
+     0.7390000224113464,
+     1.5870000123977661,
+     0.5910000205039978
     ]
    ],
-   "bytes": 156248,
+   "bytes": 100420,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/TownCenters/bld_saurian_town_center_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_industrial_v0.png",
    "age_previews": {
     "industrial": "tools/AssetForge/previews/Buildings/Saurian/TownCenters/bld_saurian_town_center_industrial_v0.png"
    },
-   "sha256": "e50da0ab00db927f24c523944570b9b271574f0183b519e91eab09ab3a656428",
+   "sha256": "b5ea20ee05074535572772c1dc95ba58ddf1366b391a54c579c6e702a927492b",
    "sourceIds": [
     "bld_saurian_town_center_industrial_v0"
    ],
@@ -50307,25 +50307,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 754,
+   "triangles": 666,
    "lod_triangles": [
-    754,
-    411,
-    184
+    666,
+    378,
+    180
    ],
    "bounds": [
     [
      -0.4449999928474426,
      0.0,
-     -0.4580000042915344
+     -0.4440000057220459
     ],
     [
      0.4449999928474426,
-     0.7932100296020508,
-     0.4359999895095825
+     0.8790000081062317,
+     0.44999998807907104
     ]
    ],
-   "bytes": 106700,
+   "bytes": 92892,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_well_classical_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_classical_v0.png",
@@ -50334,7 +50334,7 @@
     "medieval": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_classical_v0__medieval.png",
     "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_classical_v0__renaissance.png"
    },
-   "sha256": "d359b0db12b5c49ba61179e453ae13d88571db210800115a3bd55ab4ed218f5e",
+   "sha256": "6979687484418aef3779b2e47e0e82753ae4650ad050adb49d4310d37a6f3056",
    "sourceIds": [
     "bld_saurian_well_classical_v0"
    ],
@@ -50357,25 +50357,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 738,
+   "triangles": 542,
    "lod_triangles": [
-    738,
-    390,
-    222
+    542,
+    286,
+    138
    ],
    "bounds": [
     [
      -0.4449999928474426,
      0.0,
-     -0.4580000042915344
+     -0.41499999165534973
     ],
     [
      0.4449999928474426,
-     0.781000018119812,
-     0.4359999895095825
+     0.7773404121398926,
+     0.4671086370944977
     ]
    ],
-   "bytes": 111132,
+   "bytes": 86492,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_well_future_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_future_v0.png",
@@ -50383,7 +50383,7 @@
     "information": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_future_v0.png",
     "ascension": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_future_v0__ascension.png"
    },
-   "sha256": "b80f631c77b7639b4f1b98b79b6ea771a2c1b2a98367d933d409184fcf2923e5",
+   "sha256": "e194d8b056ce7c3590d4e3d716e982400485860436881629ddc1cd13899a032d",
    "sourceIds": [
     "bld_saurian_well_future_v0"
    ],
@@ -50406,25 +50406,25 @@
    "variant": 0,
    "tags": [],
    "notes": "",
-   "triangles": 722,
+   "triangles": 594,
    "lod_triangles": [
-    722,
-    351,
-    180
+    594,
+    332,
+    152
    ],
    "bounds": [
     [
-     -0.4449999928474426,
+     -0.41999998688697815,
      0.0,
-     -0.4580000042915344
+     -0.3109999895095825
     ],
     [
-     0.4449999928474426,
-     0.6079999804496765,
-     0.4359999895095825
+     0.4034999907016754,
+     0.8289999961853027,
+     0.36500000953674316
     ]
    ],
-   "bytes": 104124,
+   "bytes": 89988,
    "texture_bytes_astc": 666384,
    "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_well_industrial_v0.glb",
    "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_industrial_v0.png",
@@ -50432,7 +50432,7 @@
     "industrial": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_industrial_v0.png",
     "modern": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_industrial_v0__modern.png"
    },
-   "sha256": "2dc8caa1c517e5e3fbe900add3c43f6814fa39c3da4732efb020c8f64748dd3c",
+   "sha256": "10f649f2579bd6ca600874fba46fbf1a770638f519f4e318b47e9756f801f175",
    "sourceIds": [
     "bld_saurian_well_industrial_v0"
    ],

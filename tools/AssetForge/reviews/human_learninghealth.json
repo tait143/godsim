@@ -1035,6 +1035,137 @@
           }
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_human_hospital_future_v0",
+          "evidence_sha256": "4f878c26f3a8ed31986069436a87497594f54e88f02bc775bac5788d29bde96e",
+          "observations": "A slender striped hospital tower carries a cross above a broader glazed intake pavilion with a supported canopy. The Industrial and Renaissance facilities instead have solid gabled wings. The large cross and the pavilion-to-tower height difference survive at LOD2. The similar Dwarf future ward has a separate redesign hold.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1347,
+            564,
+            296
+          ],
+          "serialized_sha256": "558369b52de38aa284a7d62fda0ed00abd4a9209484818fe010cace305a6b0a1",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_learninghealth-01.png",
+            "rc6/families/human-Hospital-v0.png"
+          ]
+        },
+        {
+          "id": "bld_human_university_industrial_v0",
+          "evidence_sha256": "f9b843d66480bbcaaed5eaed06ef4e17916cf4cb28eb274247f5ecf258b610fe",
+          "observations": "A low polygonal brick rotunda sits against a long narrow block with a blue awning. Their footprint differs from the adjacent ages. The rotunda is closed, the rectangular block has a single narrow band of openings, and the small object under the awning disappears at game scale. In LOD2 the building could as easily serve as a depot or workshop.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 85,
+            "construction": 91,
+            "charm": 88,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Make the lecture or teaching function architectural. For example, open the rotunda toward the viewer into stepped auditorium seats and a lectern, joined through an identifiable entry to the classroom wing. Preserve the seating rake and a clear entry at all LODs."
+          ],
+          "lod_triangles": [
+            1238,
+            524,
+            204
+          ],
+          "serialized_sha256": "65dc52440af0895bce193d0ded86baea2fc2d26bcf39bdcbd158d7a0407b84b8",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_learninghealth-01.png",
+            "rc6/families/human-University-v0.png"
+          ],
+          "frozen_png_sha256": {
+            "rc6/held-trade/bld_human_university_industrial_v0-f9b843d66480/human-University-v0.png": "82100e22d52e40ccfd2b53a09570d3f25e00156cd756c935f433e11a6ebd9fd7",
+            "rc6/held-trade/bld_human_university_industrial_v0-f9b843d66480/industrial.png": "1f2630611fb7d91ae535c214af5a26f2cd7b0d18b4d5568cf80efe9a0c552e48",
+            "rc6/held-trade/bld_human_university_industrial_v0-f9b843d66480/model-and-lods.png": "3b3456f473f7618b5fbf40d3107553bc491885797ac9fb3615905aa7451c3ccc",
+            "rc6/held-trade/bld_human_university_industrial_v0-f9b843d66480/modern.png": "b21a409cd61e4c0d95afeb5eb793409f8826e880e7f1cdbd45e110325dfe9158"
+          }
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC6 building art critic, rebuilt exports re-review",
+      "models": [
+        {
+          "id": "bld_human_university_industrial_v0",
+          "evidence_sha256": "e7505d2e101e12437e3258279f6d6f9697a938ae1bf9208deb48185adb8bb213",
+          "observations": "A bank of semicircular auditorium seats turns toward a lectern and stair, with an enclosed brick classroom at one end. The open classroom is visible from both front sides. LOD2 retains the ascending tiers, central teaching position and connected wing, replacing the earlier closed rotunda.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1422,
+            576,
+            324
+          ],
+          "serialized_sha256": "18e48a3d55eb9485800e974105bdcab189ef72052afc96e67d385dedc7cc2fcf",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_learninghealth-01.png",
+            "rc6/families/human-University-v0.png"
+          ],
+          "visual_evidence_sha256": {
+            "rc6/models/human_learninghealth-01.png": "ce0ec2b5243058e5c863c7251c7d9734ed2274d5a52dce7dbcb71516ac9a7442",
+            "rc6/families/human-University-v0.png": "1594fb5853233d3898a58e7975ff0662444b434ff3a5f7d343db37b8c7143055"
+          },
+          "age_preview_sha256": {
+            "industrial": "522be256deca4801261d55917f5e3b7253aabc1249e0a3240b2a7ce84322c955",
+            "modern": "b5adc0ba0048dce887da6a41d5ea4862b0f96791d9d55e2b063c50d67e34a762"
+          },
+          "supersedes_evidence_sha256": "f9b843d66480bbcaaed5eaed06ef4e17916cf4cb28eb274247f5ecf258b610fe"
+        }
+      ]
     }
   ]
 }

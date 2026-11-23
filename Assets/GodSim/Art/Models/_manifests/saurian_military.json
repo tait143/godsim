@@ -366,25 +366,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 992,
+  "triangles": 835,
   "lod_triangles": [
-   992,
-   539,
-   232
+   835,
+   475,
+   235
   ],
   "bounds": [
    [
-    -1.475000023841858,
+    -1.4609999656677246,
     0.0,
-    -0.2070000022649765
+    -0.4480000138282776
    ],
    [
-    1.475000023841858,
-    1.3760000467300415,
-    0.35700470209121704
+    1.3977164030075073,
+    1.6030000448226929,
+    0.41999998688697815
    ]
   ],
-  "bytes": 133372,
+  "bytes": 118984,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Military/bld_saurian_palisade_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Saurian/Military/bld_saurian_palisade_classical_v0.png",

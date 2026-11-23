@@ -416,25 +416,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 838,
+  "triangles": 1070,
   "lod_triangles": [
-   838,
-   420,
-   146
+   1070,
+   492,
+   236
   ],
   "bounds": [
    [
-    -0.8075000047683716,
+    -0.9539310932159424,
     0.0,
-    -0.800000011920929
+    -0.8255000114440918
    ],
    [
-    0.762499988079071,
-    1.3487999439239502,
-    0.8930000066757202
+    0.9468953013420105,
+    0.8824992179870605,
+    0.8815000057220459
    ]
   ],
-  "bytes": 106208,
+  "bytes": 153644,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_future_v0.png",
@@ -460,25 +460,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 938,
+  "triangles": 806,
   "lod_triangles": [
-   938,
-   462,
-   162
+   806,
+   340,
+   124
   ],
   "bounds": [
    [
-    -0.8075000047683716,
+    -0.8730000257492065,
     0.0,
-    -0.800000011920929
+    -0.8629999756813049
    ],
    [
-    0.762499988079071,
-    1.2527999877929688,
-    0.8930000066757202
+    0.8730000257492065,
+    0.9993600249290466,
+    0.7149999737739563
    ]
   ],
-  "bytes": 118944,
+  "bytes": 93056,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_industrial_v0.png",
@@ -726,25 +726,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 762,
+  "triangles": 810,
   "lod_triangles": [
-   762,
-   414,
-   148
+   810,
+   454,
+   236
   ],
   "bounds": [
    [
-    -0.699999988079071,
+    -0.9368376135826111,
     0.0,
-    -0.7599999904632568
+    -0.8420000076293945
    ],
    [
-    0.6924999952316284,
-    1.7645893096923828,
-    0.6524999737739563
+    0.8615000247955322,
+    1.476995825767517,
+    0.5410000085830688
    ]
   ],
-  "bytes": 110636,
+  "bytes": 138868,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_future_v0.png",
@@ -770,25 +770,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 736,
+  "triangles": 780,
   "lod_triangles": [
-   736,
-   412,
-   158
+   780,
+   380,
+   184
   ],
   "bounds": [
    [
-    -0.699999988079071,
+    -0.8740000128746033,
     0.0,
-    -0.7599999904632568
+    -0.6990000009536743
    ],
    [
-    0.6924999952316284,
-    1.7050693035125732,
-    0.6524999737739563
+    0.8059999942779541,
+    1.4790862798690796,
+    0.8029999732971191
    ]
   ],
-  "bytes": 107460,
+  "bytes": 121676,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_industrial_v0.png",
@@ -856,25 +856,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 802,
+  "triangles": 658,
   "lod_triangles": [
-   802,
-   442,
-   160
+   658,
+   268,
+   186
   ],
   "bounds": [
    [
-    -0.8274999856948853,
+    -0.7649999856948853,
     0.0,
-    -0.7300000190734863
+    -0.8700000047683716
    ],
    [
-    0.7300000190734863,
-    1.343999981880188,
-    0.7425000071525574
+    0.7649999856948853,
+    1.129285454750061,
+    0.8999999761581421
    ]
   ],
-  "bytes": 103140,
+  "bytes": 80204,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_future_v0.png",
@@ -944,25 +944,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1162,
+  "triangles": 1116,
   "lod_triangles": [
-   1162,
-   610,
-   319
+   1116,
+   608,
+   221
   ],
   "bounds": [
    [
-    -0.8125,
+    -0.8389999866485596,
     0.0,
-    -0.7390000224113464
+    -0.7835000157356262
    ],
    [
-    0.8125,
-    1.6228805780410767,
-    0.6424999833106995
+    0.7110000252723694,
+    1.0358400344848633,
+    0.8339999914169312
    ]
   ],
-  "bytes": 170800,
+  "bytes": 144328,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_research_lab_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_research_lab_future_v0.png",
@@ -1250,25 +1250,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1132,
+  "triangles": 744,
   "lod_triangles": [
-   1132,
-   632,
-   174
+   744,
+   372,
+   188
   ],
   "bounds": [
    [
-    -1.2637499570846558,
+    -1.277250051498413,
     0.0,
-    -0.7994499802589417
+    -0.7929999828338623
    ],
    [
-    1.2637499570846558,
-    1.6019327640533447,
-    0.6775000095367432
+    1.253999948501587,
+    1.2076799869537354,
+    0.8270000219345093
    ]
   ],
-  "bytes": 148344,
+  "bytes": 93000,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_university_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_future_v0.png",
@@ -1294,25 +1294,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1384,
+  "triangles": 604,
   "lod_triangles": [
-   1384,
-   744,
-   234
+   604,
+   336,
+   160
   ],
   "bounds": [
    [
-    -1.2637499570846558,
+    -1.3049999475479126,
     0.0,
-    -0.7994499802589417
+    -0.7400000095367432
    ],
    [
-    1.2637499570846558,
-    1.5251327753067017,
-    0.6775000095367432
+    1.281000018119812,
+    1.5705599784851074,
+    0.7994999885559082
    ]
   ],
-  "bytes": 182640,
+  "bytes": 79624,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_university_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_industrial_v0.png",

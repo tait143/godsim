@@ -907,6 +907,136 @@
           }
         }
       ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_human_armory_ancient_v0",
+          "evidence_sha256": "5adbb4d145507329166e65fdb80217c68b68aa68366a8465132aa29b01c0d73d",
+          "observations": "Both unpainted angles show a round conical hut alongside a detached three-spear and shield rack. The Classical Elf armory repeats that plan and placement with a taller body and leaf cap. On the Human far mesh all spear tips are gone and the shields become rectangular blue panels.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 83,
+            "construction": 91,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Human Iron armory a different occupied footprint and roof from the Elf tower-and-rack arrangement, for example an open timber issue court with a long thatched weapons bay. Keep recognisable spear or shield silhouettes on the far mesh."
+          ],
+          "lod_triangles": [
+            495,
+            281,
+            126
+          ],
+          "serialized_sha256": "65e67b29acd4d478477d56c88c7e44cae43389faca42a2d1d25f61b09cd3263e",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_industry-01.png",
+            "rc6/families/human-Armory-v0.png"
+          ],
+          "frozen_png_sha256": {
+            "rc6/held-trade/bld_human_armory_ancient_v0-5adbb4d14550/elf-Armory-v0.png": "0cf788a7ecdb996c6520b7b2c8f5bfa098fa1367c85f1c873ad2d21fa683e813",
+            "rc6/held-trade/bld_human_armory_ancient_v0-5adbb4d14550/human-Armory-v0.png": "48b1ddc3ea4a8f264710c051bb35f815cdf3f1baa419dbf374d77ff685e93aa5",
+            "rc6/held-trade/bld_human_armory_ancient_v0-5adbb4d14550/iron.png": "c849c333eef732fb7800d6cceb3d7aa8712412d21eeb9c1a1bca7c42f7c03e35",
+            "rc6/held-trade/bld_human_armory_ancient_v0-5adbb4d14550/model-and-lods.png": "68840f14c2c1c55881e61dccc40f29fea2f1d24d05aaad405d19fdf07e6a0e74"
+          }
+        },
+        {
+          "id": "bld_human_blacksmith_industrial_v0",
+          "evidence_sha256": "267e7944f938c2bbe1f51b5e9073145d825aa3d37aac540c762fbd3b79e71e4f",
+          "observations": "A freestanding water reservoir feeds the heated drum by an overhead line. From the other side the furnace mouth, rectangular firebox and intervening work space remain legible. The elevated reservoir, line and heated drum survive the far reduction.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            832,
+            421,
+            233
+          ],
+          "serialized_sha256": "741e95e36db778801a92f8b936d59e6051aeb8a99ff9c0cdf244dc6c712b10ff",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_industry-01.png",
+            "rc6/families/human-Blacksmith-v0.png"
+          ]
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent RC6 building art critic, rebuilt exports re-review",
+      "models": [
+        {
+          "id": "bld_human_armory_ancient_v0",
+          "evidence_sha256": "d12a437aafe2ff91d2f102aedd850bde27ad8e39c8b8abf41c5d405ae1fe43c5",
+          "observations": "A short thatched issue shed meets a long shield wall around an open yard. The front benches remain supported, and the three shield points stay visible when the tiny blazons disappear at LOD2. Both unpainted views separate the angular Human court from the Elf armory’s three vaulted bays and central tree.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            740,
+            421,
+            235
+          ],
+          "serialized_sha256": "1ca5600c23bb787e678bc975dc8d4c4460ec7172b5ef4ebb0c27b3d0c8619ac7",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_industry-01.png",
+            "rc6/families/human-Armory-v0.png"
+          ],
+          "visual_evidence_sha256": {
+            "rc6/models/human_industry-01.png": "2a1a5638262e7aefaf5e1b361e474f3a7f397e6cdf151a20c9b0ea45d0d80f34",
+            "rc6/families/human-Armory-v0.png": "e074dc0e835a74ead829527acc65b9d82eadaf12b3ff5010ff549211fa8a921b"
+          },
+          "age_preview_sha256": {
+            "iron": "b47fbb4752c181b701cff45c2e67cd350e74212fb16a8360c2b986306e30d509"
+          },
+          "supersedes_evidence_sha256": "5adbb4d145507329166e65fdb80217c68b68aa68366a8465132aa29b01c0d73d"
+        }
+      ]
     }
   ]
 }

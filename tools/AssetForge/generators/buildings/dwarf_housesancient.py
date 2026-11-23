@@ -7,6 +7,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
 from building_scope import package_models
 from forge import publish
 from generators.buildings.human_housesancient import House
+from generators.buildings.dwarf_clan_dwellings import bronze, iron
 
 PACKAGE="dwarf_housesancient"
 
@@ -128,60 +129,6 @@ def dawn(m,v):
         m.block("timber",(x+.163,.066,f-.045),(.139,.045,.080))
         for s in (-1,1):
             m.block("fieldstone",(x+.163+s*.045,.027,f-.045),(.032,.055,.050))
-
-
-def bronze(m,v):
-    x=-.025 if v==0 else -.072
-    z=.042
-    w,d=(.726,.585) if not v else (.604,.543)
-    h=.295 if not v else .357
-    m.course("fieldstone",x,z,w,d,0,.091,corner=.077)
-    m.course("wall",x,z,w-.025,d-.026,.091,h,corner=.044,inset=.023)
-    m.course("trim",x,z,w+.027,d+.025,h,h+.042,corner=.083)
-    top=h+.042
-    if not v:
-        m.course("roof",x,z,w-.018,d-.035,top,top+.136,corner=.077,inset=.052)
-        m.course("accent",x-.054,z+.041,.355,.294,top+.131,top+.177,corner=.053)
-        m.hip_roof((x-.054,top+.177,z+.041),.335,.277,.076,m.color("roof"),overhang=0,material="roof")
-    else:
-        m.vault(x,z,w+.055,d+.052,top,.169,"roof","wall",(8,6,4)[m.lod])
-        m.course("wall",.251,.146,.266,.318,0,.208,corner=.045)
-        m.course("accent",.251,.146,.283,.343,.208,.245,corner=.039)
-        m.course("roof",.251,.146,.26,.303,.245,.301,corner=.055,inset=.041)
-    f=z-d*.5-.013
-    m.recessed_gate(x-.055,f,.088,.179,.216)
-    m.stair(x-.055,f,.205,.088)
-    frame(m,x,z,w,d,h,f,window_side=-1 if v else 1)
-    m.flue_pot(x+.173,z+.075,top+.040,.243,.091,"accent")
-    if m.lod<2:
-        for i in range(3):
-            cx=x+w*(i-1)*.153
-            with m.transform(translate=(cx,h+.022,z-d*.5-.020),rotate_z=45):
-                m.block("gold",(0,0,0),(.021,.021,.012))
-
-
-def iron(m,v):
-    x=-.013 if v==0 else -.092
-    z=.063
-    w,d=(.738,.57) if not v else (.569,.586)
-    h=.328 if not v else .403
-    m.course("fieldstone",x,z,w+.035,d+.030,0,.094,corner=.091)
-    m.course("wall",x,z,w,d,.094,h,corner=.041,inset=.020)
-    m.vault(x,z,w+.065,d+.065,h,.247 if not v else .266,"roof","wall",(8,6,4)[m.lod])
-    if m.lod<2:
-        m.vault(x,z-.208,w+.080,.046,h+.008,.255 if not v else .275,"metal","trim",(8,6)[m.lod])
-    if v:
-        m.course("wall",.234,.098,.285,.324,0,.197,corner=.05)
-        m.vault(.234,.098,.327,.358,.197,.124,"slate","wall",(7,5,4)[m.lod])
-    f=z-d*.5-.014
-    m.recessed_gate(x-.050,f,.091,.195,.259,"fieldstone")
-    m.stair(x-.050,f,.221,.091)
-    frame(m,x,z,w,d,h,f,window_side=-1 if v else 1)
-    m.flue_pot(x+.135,z+.11,h+.094,.263 if not v else .30,.096,"metal")
-    if m.lod==0:
-        for side in (-1,1):
-            with m.transform(translate=(x-.05+side*.104,.305,f-.039),rotate_z=45):
-                m.block("accent",(0,0,0),(.020,.020,.009))
 
 
 def build(spec,lod):

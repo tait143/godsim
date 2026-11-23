@@ -127,6 +127,8 @@ def camp(m):
 
 
 def arena(m):
+    if m.era==3:
+        return champions_court(m)
     future=m.era==3
     n=(22,13,10)[m.lod]
     rx=rz=.93
@@ -195,6 +197,48 @@ def arena(m):
             x,z=math.sin(a)*.943*rx,-math.cos(a)*.943*rz
             with m.transform(translate=(x,.048,z),rotate_y=-angle):
                 m.block("fieldstone",0,0,0,.105,height*.88,.116,taper=.36)
+
+
+def champions_court(m):
+    # The wrestling platform is visible between two separate spectator banks.
+    # At the far end a suspension gantry carries the great bell that starts each bout.
+    m.slab("fieldstone",0,0,.019,1.86,.101,1.71,.252)
+    m.slab("trim",-.044,.095,-.127,.885,.109,.824,.234)
+    m.slab("soil",-.044,.199,-.127,.808,.045,.755,.225)
+    m.drum("accent",-.044,.242,-.127,.139,.012,.133,n=(10,7,5)[m.lod])
+    for side in (-1,1):
+        tiers=(4,2,1)[m.lod]
+        for j in range(tiers):
+            frac=(j+1)/tiers
+            x=side*(.485+.309*(j+.5)/tiers)
+            y=.115+.383*frac
+            width=.309/tiers+.008
+            m.block("wall",x,.099+j*.001,.038,width,y-.099-j*.001,1.039-.07*frac)
+            m.block("banner",x,y-.004,.038,width+.006,.046,1.043-.07*frac)
+        toe=(side*.713,.098,.42)
+        knee=(side*.566,1.112,.498)
+        m.slab("metal",toe[0],.095,toe[2],.31,.232,.384,.13)
+        m.beam("ivory",toe,knee,.192,.225)
+        m.beam("accent",knee,(side*.265,1.388,.498),.174,.195)
+        if m.lod<2:
+            m.beam("trim",(side*.81,.287,.488),(side*.654,.933,.488),.079)
+    m.slab("metal",0,1.307,.499,.637,.148,.267,.166)
+    m.drum("gold",0,1.155,.499,.066,.171,.058)
+    m.drum("accent",0,.885,.499,.202,.285,.112)
+    m.drum("gold",0,.846,.499,.25,.074,.198)
+    m.drum("trim",0,.782,.498,.069,.087,.043)
+    # Opposed chamfered gate stones frame the clear aisle to the mat.
+    for x in (-.272,.272):
+        m.slab("wall",x,.098,-.637,.18,.298,.231,.16,.13)
+    m.vault("ivory",0,.39,-.637,.731,.123,.265)
+    if m.lod<2:
+        m.chevron(0,.448,-.774,.177,.082)
+        for x in (-.769,.769):
+            m.lamp(x,.533,-.346,.09,segments=(12,6)[m.lod])
+    if m.lod==0:
+        for s in (-1,1):
+            m.slab("gold",s*.575,1.053,.498,.24,.087,.253,.15)
+            m.standard(s*.705,.103,-.583,.589,-s)
 
 
 def stadium(m):

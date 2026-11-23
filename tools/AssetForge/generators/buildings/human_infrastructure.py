@@ -194,12 +194,49 @@ def distant_bearing(m,era,z,h):
 def aqueduct(m):
     e=m.era
     if e==1:
-        for z in (-.88,0,.88): arch(m,z)
-        zs=(-1.286,-.44,.44,1.286)
-        for z in zs:
-            m.course('fieldstone',0,z,.58,.205,0,.109,.048)
-            m.solid('fieldstone',0,z,.51,.170,.109,.246)
-        h=1.106
+        # The castellum receives a high feeder and sends water into a lower
+        # distribution channel. Side doors give access to the settling chamber.
+        z=.534
+        if m.lod<2:
+            m.course('fieldstone',0,z,.808,.751,0,.153,.099)
+        else:
+            m.solid('fieldstone',0,z,.76,.707,0,.153)
+        m.course('wall',0,z,.703,.637,.148,1.153,.101,.043)
+        if m.lod<2:
+            m.course('trim',0,z,.789,.711,1.147,1.215,.104)
+        else:
+            m.solid('trim',0,z,.729,.653,1.147,1.215)
+        m.course('fieldstone',0,z,.764,.687,1.207,1.308,.105)
+        m.course('water',0,z,.607,.535,1.307,1.322,.077)
+        for lo,hi,ht in ((-1.415,.255,.480),(.807,1.415,1.258)):
+            cz=(lo+hi)/2
+            for pz in ((lo+.115,cz,hi-.087) if hi<1 else (hi-.087,)):
+                if m.lod==2:
+                    m.solid('wall',0,pz,.370,.146,0,ht)
+                else:
+                    m.course('fieldstone',0,pz,.474,.194,0,.088,.032)
+                    m.course('wall',0,pz,.370,.146,.084,ht,.026)
+            m.solid('wall',0,cz,.477,hi-lo,ht,ht+.089)
+            m.solid('water',0,cz,.308,hi-lo-.012,ht+.087,ht+.116)
+            for sx in (-.197,.197):
+                m.solid('wall',sx,cz,.077,hi-lo+.004,ht+.087,ht+.159)
+        with m.transform(translate=(.339,0,z),rotate_y=-90):
+            m.entry(0,-.016,.218,.118,.367)
+            if m.lod<2: m.windows(0,-.023,.811,.38,.151,2)
+        if m.lod<2:
+            for side in (-1,1):
+                m.solid('trim',side*.347,z,.046,.440,.583,.649)
+            m.front_panel('door',0,.621,z-.304,.237,.137)
+        if m.lod==0:
+            for y in (.733,.849,.965,1.081):
+                m.solid('metal',-.338,z,.052,.149,y,y+.023)
+            for pz in (.303,.748):
+                for side in (-1,1):
+                    m.block('fieldstone',(side*.336,.344,pz),(.109,.443,.117),taper=.18)
+            m.pennon(-.25,.68,1.297,.227)
+            for pz in (-1.215,-.69,-.17):
+                m.solid('trim',.203,pz,.042,.119,.320,.485)
+        return
     else:
         h=1.02 if e==2 else 1.15
         for z in (-1.28,-.426,.426,1.28):
@@ -257,6 +294,40 @@ def freight(m,x,z,base,w,h):
 
 def storehouse(m):
     e=m.era
+    if e==1:
+        # A merchant's hoist loft and an open wagon court share a loading floor.
+        m.course('fieldstone',.06,.025,1.73,.80,0,.115,.075)
+        x,z=.50,.045
+        m.hall(x,z,.62,.59,1.12,base=.12,rise=.47,windows=False)
+        front=z-.295
+        for y in (.116,.675):
+            m.front_panel('door',x,y,front-.006,.34,.319)
+            m.solid('trim',x,front-.023,.396,.083,y+.309,y+.348)
+        for s in (-1,1):
+            m.beam('timber',(x+s*.255,.13,front-.017),(x+s*.251,1.11,front-.017),.047)
+        if m.lod<2:
+            m.beam('trim',(x,1.13,front+.024),(x,1.14,-.424),.063)
+            m.beam('metal',(x,1.13,-.413),(x,.60,-.413),.021)
+            freight(m,x,-.378,.43,.23,.17)
+        m.hip(-.305,.133,.99,.54,.565,.244)
+        for px in (-.712,.087):
+            for pz in (-.074,.344):
+                m.solid('timber',px,pz,.071,.071,.113,.569)
+        freight(m,-.49,.13,.115,.32,.245)
+        if m.lod<2:
+            freight(m,-.209,.158,.115,.207,.171)
+            m.windows(x,.346,.45,.38,.23,2)
+            for px in (-.712,.087):
+                m.beam('trim',(px,.397,-.076),(px+(.122 if px<0 else -.122),.569,-.076),.039)
+        if m.lod==0:
+            for side in (-1,1):
+                with m.transform(translate=(x+side*.315,0,z),rotate_y=-90*side):
+                    m.windows(0,-.006,.69,.33,.194,2)
+                    m.beam('timber',(-.24,.226,-.013),(.24,.516,-.013),.038)
+            for y in (.304,.895):
+                m.beam('timber',(x-.148,y-.075,front-.016),(x+.144,y+.077,front-.016),.034)
+            m.pennon(x+.168,z,1.36,.19)
+        return
     m.course('fieldstone',0,0,1.89,.89,0,.035,.064)
     # The covered loading gallery has a paired sliding door facing the hand-cart apron.
     z=.106; width=(1.21,1.31,1.36,1.24)[e]; h=(.56,.70,.78,.86)[e]

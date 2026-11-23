@@ -104,25 +104,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1340,
+  "triangles": 1142,
   "lod_triangles": [
-   1340,
-   694,
-   278
+   1142,
+   666,
+   290
   ],
   "bounds": [
    [
-    -1.440000057220459,
+    -1.3949999809265137,
     0.0,
-    -1.3875000476837158
+    -1.253999948501587
    ],
    [
-    1.440000057220459,
-    1.405500054359436,
-    1.3875000476837158
+    1.3949999809265137,
+    2.189793825149536,
+    1.3109999895095825
    ]
   ],
-  "bytes": 189092,
+  "bytes": 157600,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/CultureCivic/bld_dwarf_arena_future_v0.png",

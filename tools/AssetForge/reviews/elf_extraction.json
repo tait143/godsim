@@ -1024,6 +1024,239 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_elf_sawmill_future_v0",
+          "evidence_sha256": "c3344e6ce16d3f87ca03c3c95a83a084b22fbc6c2d10a330db7c432359ec46e4",
+          "observations": "The open feed bed and tall looped saw assembly distinguish it from the earlier roofed mill. At LOD1 the upper pulley and blade line cross the log. At LOD2 the head has become a pitched, empty frame and the simplified table resembles a timber bench.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 84,
+            "construction": 88,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Keep a low-sided upper pulley or unmistakable band-saw blade and a supported cutting throat meeting the log in LOD2. Check the far mesh from both sides."
+          ],
+          "lod_triangles": [
+            1040,
+            592,
+            211
+          ],
+          "serialized_sha256": "95bc2efecd0770499ce7b2a5fe0309570c396638eb69db9e9e2653029da5145a",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_extraction-01.png",
+            "rc6/families/elf-Sawmill-v0.png"
+          ],
+          "frozen_png_sha256": {
+            "rc6/held-trade/bld_elf_sawmill_future_v0-c3344e6ce16d/ascension.png": "d8158a88393acc926face5b5baba8b3dc3736e29b08180f131ad8f3304c45a66",
+            "rc6/held-trade/bld_elf_sawmill_future_v0-c3344e6ce16d/elf-Sawmill-v0.png": "d68adf1bb55753f0cef6a6af19288ab92a641db70784ed1e8b7fc166d56f64e7",
+            "rc6/held-trade/bld_elf_sawmill_future_v0-c3344e6ce16d/information.png": "146297ff86f976a1bafb45963eaabe7e896ac1f94641475b59603c63a34b6abb",
+            "rc6/held-trade/bld_elf_sawmill_future_v0-c3344e6ce16d/model-and-lods.png": "b951a505ce7d754aaa14022619384d06646abe74bc41e926887d916cc5160af5"
+          }
+        },
+        {
+          "id": "bld_elf_stone_quarry_ancient_v0",
+          "evidence_sha256": "21734d33bd3487611e947db2a5dc2b758435b74b9366e9ded0fdefd26145de62",
+          "observations": "Three cut benches step across the exposed quarry face with split blocks at their foot. The rock and levering timber give a credible first working face. Even after the wedges and loose boulders simplify, the steps remain legible from both sides.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            807,
+            471,
+            141
+          ],
+          "serialized_sha256": "76883e4ad2e67c18299fc6b5db71292b4795cdff0e532383597b3a4f8b6d966f",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_extraction-01.png",
+            "rc6/families/elf-StoneQuarry-v0.png"
+          ]
+        },
+        {
+          "id": "bld_elf_stone_quarry_industrial_v0",
+          "evidence_sha256": "6f9a57068403f78b23543266b25ee90a4efa96810c55b815105596a27b0c494b",
+          "observations": "A rail-mounted gantry straddles a cut slab. The sling and stone form a readable triangular profile below the beam, distinct from the stepped prehistoric face and the tall rock outcrop in later views. Rails, twin supports and suspended cut persist at LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            754,
+            428,
+            194
+          ],
+          "serialized_sha256": "b26af34dc6d6c70d340d105ca9c392c77da0d4e2fbffd1c66bcb5af12cc923fa",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_extraction-01.png",
+            "rc6/families/elf-StoneQuarry-v0.png"
+          ]
+        },
+        {
+          "id": "bld_elf_woodcutter_camp_classical_v0",
+          "evidence_sha256": "7413cae05bdc42fae3c9c6c823b7d0a0c5af8c67a951e166fb6f87e15f47d6a8",
+          "observations": "The open log rack has a swept, pitched canopy with air visible between the stacked lengths. The cutting stump and axe explain the timber pile, and the far mesh retains the rack, long timbers and stump. The two unpainted sides differ clearly from the older tree and shelter.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            694,
+            394,
+            196
+          ],
+          "serialized_sha256": "23366bd0ba207915e02a2a62124fdabf9ac9889b3d283ade550233d212acfc55",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_extraction-01.png",
+            "rc6/families/elf-WoodcutterCamp-v0.png"
+          ]
+        },
+        {
+          "id": "bld_elf_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "b7c99427a66feb1385df02872de122ec63fdda0982357c76fcb77cfdd2f349de",
+          "observations": "Tall converging spars and a side winch lift the bundle of long logs. The rear angle exposes the rigging and tether. At LOD2 the working triangle and bundle still read without a building shell, an unmistakable departure from the Classical covered stack.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            826,
+            460,
+            261
+          ],
+          "serialized_sha256": "b325a3caadd318189ef9c72f03ee8d6e663d58387cf754e1a30e31785951f0c5",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_extraction-02.png",
+            "rc6/families/elf-WoodcutterCamp-v0.png"
+          ]
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "critic": "Independent RC6 building art critic, rebuilt exports re-review",
+      "models": [
+        {
+          "id": "bld_elf_sawmill_future_v0",
+          "evidence_sha256": "7d3a75d1db539348893ebf09f14c8868cc374c4f6ac612662228dad9eb69b8eb",
+          "observations": "Both future palettes show a vertical band saw straddling a log on the feed bed. Compared with the frozen far mesh, the pulley, cutting line and working throat now remain at LOD2 from each side; the rear angle exposes the supporting frame. The older mill has a building around its cutting equipment.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1396,
+            798,
+            375
+          ],
+          "serialized_sha256": "a2b2ab8a0e23b9b017ae9864cafc40c2b266d8da959900e049058454ace266b3",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_extraction-01.png",
+            "rc6/families/elf-Sawmill-v0.png"
+          ],
+          "visual_evidence_sha256": {
+            "rc6/models/elf_extraction-01.png": "6938b8e701c918b8810bc945e53f1ffc4921941fa054f4a276c7515e924b5d59",
+            "rc6/families/elf-Sawmill-v0.png": "06afa5d732a6422dc4cb165760e9ba2197c144c9fa992ec57a0019f69ca155ec"
+          },
+          "age_preview_sha256": {
+            "information": "9f05dd97d0c0c8ca33b964529e63ff7667c501031bfbae951663ada056dab612",
+            "ascension": "bbb00b282700ebc079ea5ca84e0d7a4a0e2182a1cbe59b0b3f01d0405f8f360c"
+          },
+          "supersedes_evidence_sha256": "c3344e6ce16d3f87ca03c3c95a83a084b22fbc6c2d10a330db7c432359ec46e4"
+        }
+      ]
     }
   ]
 }

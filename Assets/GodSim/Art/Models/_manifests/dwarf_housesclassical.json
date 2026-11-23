@@ -15,25 +15,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 549,
+  "triangles": 447,
   "lod_triangles": [
-   549,
-   322,
-   174
+   447,
+   236,
+   114
   ],
   "bounds": [
    [
-    -0.453000009059906,
+    -0.4359999895095825,
     0.0,
-    -0.3765000104904175
+    -0.39800000190734863
    ],
    [
-    0.4390000104904175,
-    0.6824657917022705,
-    0.38850000500679016
+    0.375,
+    0.9580000042915344,
+    0.3434999883174896
    ]
   ],
-  "bytes": 83540,
+  "bytes": 63928,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v0.png",
@@ -57,25 +57,25 @@
   "variant": 1,
   "tags": [],
   "notes": "",
-  "triangles": 599,
+  "triangles": 675,
   "lod_triangles": [
-   599,
-   340,
-   192
+   675,
+   384,
+   206
   ],
   "bounds": [
    [
-    -0.4440000057220459,
+    -0.3569999933242798,
     0.0,
-    -0.37400001287460327
+    -0.3019999861717224
    ],
    [
-    0.3865000009536743,
-    0.793465793132782,
-    0.38600000739097595
+    0.3610000014305115,
+    0.8752326369285583,
+    0.33250001072883606
    ]
   ],
-  "bytes": 89664,
+  "bytes": 98372,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v1.glb",
   "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v1.png",

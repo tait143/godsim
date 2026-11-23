@@ -24,45 +24,21 @@ def vessel(m,x,y,z,profile,n):
 
 def well(m):
     era=m.era
+    if era != 0:
+        return springworks(m)
     m.slab("wall",0,0,.026,.89,.075,.82,.93)
     n=(16,10,6)[m.lod]
     vessel(m,0,.075,-.033,[(.27,0,"wall"),(.283,.164,"trim"),(.304,.174,"wall"),
           (.30,.237,"turquoise"),(.228,.237,"trim"),(.219,.139,"water")],n)
-    if era==0:
-        # The water jar hangs over the well mouth from one end of the balanced sweep.
-        m.rod("timber",(-.267,.075,.223),(-.25,.55,.175),.046)
-        m.rod("timber",(-.242,.529,.181),(.095,.737,-.061),.027)
-        m.rod("thatch",(.093,.736,-.061),(.093,.351,-.061),.009,n=4)
-        vessel(m,.093,.30,-.061,[(.040,0,"hide"),(.061,.085,"accent"),(.044,.099,"door"),
-                                 (.034,.091,"door")],(8,6,4)[m.lod])
-        m.rod("timber",(-.25,.529,.184),(-.379,.457,.305),.029)
-        m.drum("wall",-.370,.393,.301,.057,.085,.051,n=6)
-        m.disc(-.256,.525,.157,.042,"gold",False)
-    elif era==1:
-        for s in (-1,1):
-            m.drum("wall",s*.294,.075,.052,.052,.43,.039,n=(8,6,4)[m.lod])
-            if m.lod<2:
-                m.drum("turquoise",s*.294,.399,.052,.046,.045,n=6)
-        m.slab("trim",0,.505,.052,.711,.055,.218,underside=True)
-        m.rooflet(0,.560,.052,.765,.473,.211,"roof")
-        m.rod("timber",(-.302,.36,.052),(.311,.36,.052),.024)
-        m.rod("thatch",(0,.36,.05),(0,.215,.05),.013,n=5)
-        m.disc(0,.604,-.177,.060)
-    elif era==2:
-        m.slab("wall",-.234,.075,.20,.201,.104,.206,.97)
-        m.drum("roof",-.234,.179,.20,.082,.36,.064)
-        m.drum("metal",-.234,.539,.20,.076,.069,.057)
-        m.rod("metal",(-.234,.466,.197),(-.115,.466,.011),.031)
-        m.rod("metal",(-.115,.467,.011),(-.115,.401,.011),.030)
-        m.rod("trim",(-.233,.554,.19),(-.370,.435,.345),.024)
-        m.disc(-.236,.313,.13,.044)
-    else:
-        for s in (-1,1):
-            m.slab("ivory",s*.257,.075,.090,.147,.291,.201,.72)
-            m.rod("roof",(s*.255,.35,.09),(s*.167,.515,.092),.041)
-        m.ring("gold",0,.571,.059,.21,.151,.067)
-        m.rod("trim",(0,.39,.091),(0,.518,.091),.028,n=6)
-        m.drum("ascension",0,.24,.091,.019,.15,n=6)
+    # The water jar hangs over the well mouth from one end of the balanced sweep.
+    m.rod("timber",(-.267,.075,.223),(-.25,.55,.175),.046)
+    m.rod("timber",(-.242,.529,.181),(.095,.737,-.061),.027)
+    m.rod("thatch",(.093,.736,-.061),(.093,.351,-.061),.009,n=4)
+    vessel(m,.093,.30,-.061,[(.040,0,"hide"),(.061,.085,"accent"),(.044,.099,"door"),
+                             (.034,.091,"door")],(8,6,4)[m.lod])
+    m.rod("timber",(-.25,.529,.184),(-.379,.457,.305),.029)
+    m.drum("wall",-.370,.393,.301,.057,.085,.051,n=6)
+    m.disc(-.256,.525,.157,.042,"gold",False)
     if m.lod<2:
         # Smaller water jug within reach of the lip; a few shallow-marked pavers on the approach.
         m.jar(.301,.075,-.167,.055,"roof")
@@ -70,6 +46,53 @@ def well(m):
             for s in (-1,1):
                 m.slab("accent",s*.149,0,-.386,.186,.030,.144,.97,cut=.15)
             m.disc(0,.226,-.319,.042,"gold",False)
+
+
+def springworks(m):
+    # The water stays visible at the point where a villager fills a jug.
+    if m.era == 1:
+        m.slab("fieldstone",0,0,.02,.89,.08,.86,.94)
+        for x in (-.29,.29):
+            m.slab("wall",x,.08,.12,.17,.29,.49,.88)
+            m.slab("accent",x,.37,.12,.19,.039,.51)
+        works.arch(m,0,-.036,.76,.77,.11,.17,"wall",y=.08)
+        works.arch(m,0,.298,.76,.77,.11,.13,"wall",y=.08)
+        m.slab("roof",0,.826,.137,.33,.053,.48)
+        works.basin(m,0,.085,.45,.43,y=.08)
+        m.stairs(0,0,-.444,.42,.24,.082)
+        if m.lod < 2:
+            m.jar(.329,.08,-.219,.049,"turquoise")
+            m.disc(0,.808,-.128,.053,"gold",False)
+    elif m.era == 2:
+        m.slab("brick",-.18,0,.10,.48,.094,.53)
+        m.drum("metal",-.18,.094,.10,.164,.48,.139)
+        m.drum("turquoise",-.18,.574,.10,.156,.155,.156)
+        m.mound("metal",-.18,.729,.10,.151,.10)
+        m.rod("metal",(-.175,.498,.10),(.193,.498,.098),.040)
+        m.rod("trim",(.190,.500,.098),(.191,.32,.098),.039)
+        vessel(m,.188,.014,.067,[(.185,0,"brick"),(.206,.219,"trim"),
+               (.198,.247,"wall"),(.157,.247,"turquoise"),(.14,.165,"water")],(16,9,5)[m.lod])
+        m.slab("wall",.179,0,.067,.449,.022,.447)
+        m.disc(-.18,.394,-.064,.087,"gold",False)
+        if m.lod<2:
+            m.rod("trim",(-.179,.393,-.084),(-.209,.430,-.084),.010,n=4)
+            m.jar(.105,0,-.256,.055,"hide")
+            m.block("trim",-.17,.211,-.055,.086,.067,.041)
+    else:
+        # Three collector leaves drain dew into a shared well and low public spout.
+        m.slab("ivory",0,0,.015,.89,.056,.86,.93)
+        vessel(m,0,.056,-.135,[(.19,0,"wall"),(.211,.121,"turquoise"),
+               (.201,.151,"ivory"),(.16,.151,"gold"),(.143,.097,"water")],(16,10,6)[m.lod])
+        for rotation,height in ((0,.77),(106,.62),(-108,.66)):
+            with m.transform(translate=(0,0,.106),rotate_y=rotation):
+                m.rod("ivory",(0,.056,0),(0,height*.64,.058),.039)
+                m.blade("glass",(0,.25,.014),(0,height,.354),.157)
+                if m.lod==0:
+                    m.rod("gold",(0,.26,.013),(0,height,.350),.014,n=5)
+        m.rod("ivory",(0,.302,.115),(0,.238,-.114),.025)
+        if m.lod<2:
+            m.jar(.291,.056,-.164,.051,"turquoise")
+            m.disc(0,.139,-.322,.033,"gold",False)
 
 
 def stone_arch(m,c):
@@ -100,34 +123,14 @@ def stone_arch(m,c):
 
 def aqueduct(m):
     # Local X follows the channel; the outlet and its service ladder face map south.
+    if m.era >= 2:
+        return pressure_crossing(m)
     with m.transform(rotate_y=-90):
-        if m.era==1:
-            for c in (-.88,0,.88):
-                stone_arch(m,c)
-            for x in (-1.32,-.44,.44,1.32):
-                m.block("wall",x,0,0,.150,.791,.328)
-                m.slab("fieldstone",x,0,0,.218,.147,.491,.85)
-        elif m.era==2:
-            for x in (-1.28,-.433,.433,1.28):
-                m.slab("wall",x,0,0,.227,.15,.458,.92)
-                m.slab("brick",x,.15,0,.146,.525,.32,.82)
-                m.slab("trim",x,.675,0,.202,.116,.385,1.14)
-            for c in (-.855,0,.855):
-                for s in ((-1,1) if m.lod==0 else (0,)):
-                    m.rod("metal",(c-.38,.47,s*.105),(c,.777,s*.139),.038,n=4)
-                    m.rod("metal",(c,.777,s*.139),(c+.38,.47,s*.105),.038,n=4)
-            if m.lod==0:
-                for x in (-1.28,-.433,.433,1.28):
-                    m.disc(x,.648,-.145,.061,"gold",False)
-                    m.block("turquoise",x,.291,-.150,.075,.051,.044)
-        else:
-            for c in (-.928,0,.928):
-                m.slab("wall",c,0,0,.383,.133,.494,.87)
-                m.slab("glass",c,.133,0,.193,.387,.280,.82)
-                for s in (-1,1):
-                    m.rod("ivory",(c+s*.044,.448,0),(c+s*.291,.803,0),.083,n=(8,6,4)[m.lod])
-                if m.lod<2:
-                    m.disc(c,.309,-.14,.071,"gold",False)
+        for c in (-.88,0,.88):
+            stone_arch(m,c)
+        for x in (-1.32,-.44,.44,1.32):
+            m.block("wall",x,0,0,.150,.791,.328)
+            m.slab("fieldstone",x,0,0,.218,.147,.491,.85)
         m.slab("trim",-0.005,.791,0,2.79,.092,.417,cut=.033,underside=True)
         for side in (-1,1):
             m.block("roof",-.005,.883,side*.179,2.795,.086,.069)
@@ -149,6 +152,80 @@ def aqueduct(m):
         for i in range((7,4,2)[m.lod]):
             u=(i+1)/((7,4,2)[m.lod]+1)
             m.block("accent",-1.417+.053*u,.875*u,.0,.029,.026,.156)
+
+
+def pressure_crossing(m):
+    if m.era==2:
+        # A bucket wheel lifts water from the millstream into a stepped tailrace.
+        with m.transform(rotate_y=-90):
+            m.slab("fieldstone",-.77,0,.015,1.27,.084,.82,.90)
+            works.basin(m,-.80,.12,1.08,.40,y=.084)
+            for z,h in ((-.162,.571),(.323,.568)):
+                m.slab("brick",-.79,.084,z,.25,h-.084,.124,.78)
+            m.ring("metal",-.79,.598,-.075,.475,.401,.235,n=(20,12,8)[m.lod])
+            m.rod("trim",(-.79,.598,-.24),(-.79,.598,.385),.083)
+            for i in range((10,7,5)[m.lod]):
+                angle=2*math.pi*i/(10,7,5)[m.lod]
+                x,y=-.79+.448*math.cos(angle),.598+.448*math.sin(angle)
+                m.rod("trim",(-.79,.598,.043),(x,y,.045),.018,n=(6,4,3)[m.lod])
+                with m.transform(translate=(x,y,.045),rotate_z=math.degrees(angle)):
+                    m.block("turquoise",0,0,0,.100,.050,.300)
+                    if m.lod==0:
+                        # Open-sided scoops hold the lift water to the top of the wheel.
+                        for side in (-1,1):
+                            m.block("metal",0,.050,side*.134,.091,.060,.031)
+            if m.lod<2:
+                m.disc(-.79,.599,-.268,.111,"gold")
+            for i in range(3):
+                x=-.26+i*.573
+                h=.878-i*.205
+                m.slab("brick",x+.070,0,-.196,.199,h,.254,.84)
+                m.slab("trim",x,h,-.187,.591,.063,.325,.99,underside=True)
+                m.block("water",x,h+.063,-.187,.565,.027,.222)
+                for z in (-.319,-.055):
+                    m.block("wall",x,h+.064,z,.580,.110,.047)
+                if i<2:
+                    m.block("water",x+.280,h-.133,-.187,.036,.220,.189)
+            if m.lod==0:
+                m.jar(.987,0,-.323,.064,"hide")
+                m.disc(.958,.276,-.33,.040,"gold",False)
+        return
+    # An undulating raised race follows the delta contour. Integral curbs and
+    # water run through each turn. Stepped stone corbels bear at the outside bends.
+    count=(16,10,6)[m.lod]
+    def section(t,lateral,vertical):
+        phase=math.tau*t-.71
+        x=.252*math.sin(phase)
+        dx=.252*math.tau*math.cos(phase)
+        length=math.hypot(dx,2.65)
+        return (x+lateral*2.65/length,.42+.61*t+vertical,-1.325+2.65*t-lateral*dx/length)
+    profile=[(-.173,-.077,"ivory"),(-.173,.095,"turquoise"),(-.122,.095,"gold"),
+             (-.122,.028,"ivory"),(.122,.028,"water"),(.122,.095,"ivory"),
+             (.173,.095,"gold"),(.173,-.077,"turquoise")]
+    for i in range(count):
+        start,end=i/count,(i+1)/count
+        for j,(_,_,role) in enumerate(profile):
+            prev=profile[j-1][:2];cur=profile[j][:2]
+            m.face(role,(section(start,*prev),section(end,*prev),
+                         section(end,*cur),section(start,*cur)))
+    for t in (0,1):
+        for left,right,top,role in ((-.173,-.122,.095,"turquoise"),(-.122,.122,.028,"ivory"),
+                                    (.122,.173,.095,"turquoise")):
+            face=[section(t,left,-.077),section(t,right,-.077),section(t,right,top),section(t,left,top)]
+            m.face(role,face if t else face[::-1])
+    for t in (0,.34,.68,1):
+        x,_,z=section(t,0,0)
+        h=.42+.61*t-.077
+        offset=.045 if t in (0,.68) else -.045
+        m.slab("wall",x+offset,0,z,.258,h*.32,.273,.86)
+        m.slab("ivory",x+offset,h*.32,z,.196,h*.46,.202,.89)
+        m.slab("turquoise",x+offset,h*.78,z,.184,h*.22,.195,1.42,underside=True)
+        if m.lod<2:
+            m.disc(x+offset,h*.64,z-.10,.048,"gold",False)
+    if m.lod==0:
+        for t in (.17,.5,.84):
+            m.rod("gold",section(t,-.159,.094),section(t,-.159,.196),.018,n=6)
+            m.rod("gold",section(t,-.156,.180),section(t,-.048,.180),.012,n=5)
 
 
 def sack(m,x,y,z,r):
@@ -269,13 +346,12 @@ def cargo(m,x,y,z,w,d):
 
 def store(m):
     era=m.era
+    if era:
+        return freight_store(m)
     z=.119
-    if era==0:
-        for x in (-.683,0,.683):
-            for dz in (-.163,.265):
-                m.drum("timber",x,0,dz,.055,.156,n=(7,5,4)[m.lod])
-    else:
-        m.slab("wall",0,0,.035,1.79,.145,.73,.92)
+    for x in (-.683,0,.683):
+        for dz in (-.163,.265):
+            m.drum("timber",x,0,dz,.055,.156,n=(7,5,4)[m.lod])
     m.slab("trim",0,.145,.014,1.829,.066,.815,cut=.047,underside=True)
     y=.211
     h=(.357,.449,.398,.438)[era]
@@ -286,9 +362,6 @@ def store(m):
         m.block("door",-.205+s*.121,y,front-.006,.233,h*.81,.022)
     m.block("accent",-.205,y+h*.807,front,.572,.050,.089)
     m.rooflet(-.195,y+h,z,1.37,.638,(.249,.329,.151,.186)[era],m.skin)
-    if era>=2:
-        m.slab("glass",-.193,y+h+.101,z,.69,.16,.25,.84)
-        m.slab("roof",-.193,y+h+.261,z,.635,.052,.25,.86)
     for dx in (.442,.81):
         m.block("trim",dx,y,-.151,.055,.31,.061)
     m.block("wall",.626,y,.218,.393,.352,.203)
@@ -306,11 +379,103 @@ def store(m):
             m.rod("trim",(-.398,y+h*.88,front),(-.398,y+h*.92,front-.137),.024,n=5)
             m.rod("thatch",(-.398,y+h*.92,front-.137),(-.398,y+h*.53,front-.137),.012,n=4)
             m.ring("gold",-.398,y+h*.48,front-.149,.033,.020,.024,n=8)
-    if era==1:
-        m.rooflet(-.551,y+h+.221,z,.47,.335,.221,"roof")
-    if era==3:
-        m.drum("metal",-.622,y+h+.123,z,.051,.259,.034)
-        m.disc(-.622,y+h+.389,z,.066,"ascension",False)
+
+
+def freight_store(m):
+    m.slab("fieldstone",0,0,.019,1.88,.062,.89,.98)
+    if m.era==1:
+        # An earth-backed magazine is built into the full width of a stepped
+        # quay. Three deep open bays sit beneath one continuous stone lintel.
+        m.slab("wall",0,.062,.105,1.78,.159,.641,.94)
+        for x in (-.738,-.269,.258,.736):
+            m.slab("fieldstone",x,.221,.098,.135,.292,.397,.84)
+        m.slab("wall",0,.221,.293,1.49,.294,.123)
+        m.slab("turquoise",0,.513,.123,1.65,.061,.508,.96,underside=True)
+        m.slab("wall",0,.574,.171,1.51,.129,.397,.89)
+        m.slab("wall",0,.703,.206,1.22,.072,.264,.92)
+        m.stairs(0,.062,-.45,.522,.25373,.159)
+        for x in (-.505,.505):
+            cargo(m,x,.221,.018,.284,.212)
+            if m.lod<2:
+                cargo(m,x,.448,.042,.143,.138)
+        if m.lod<2:
+            m.disc(0,.632,-.015,.060,"gold",False)
+        if m.lod==0:
+            for x in (-.681,.682):
+                m.jar(x,.062,-.27,.082)
+    elif m.era==2:
+        # A high bonded vault and an uncovered crane wharf flank the wagon lane.
+        # Its corrugated shell bears on masonry knees and leaves its cargo visible.
+        def vault(x,zc,depth):
+            w=.710
+            spring=.545
+            y=.062
+            radius=w*.5
+            steps=(12,7,5)[m.lod]
+            for side in (-1,1):
+                m.slab("brick",x+side*(radius-.026),y,zc,.111,spring-y,depth,.96)
+            m.slab("brick",x,y,zc+depth*.49,w-.112,spring-y,.047)
+            for k in range(steps):
+                a,b=math.pi*k/steps,math.pi*(k+1)/steps
+                def rind(t,r,z):
+                    return (x+r*math.cos(t),spring+r*math.sin(t),z)
+                front,back=zc-depth*.5,zc+depth*.5
+                outer,inner=radius+.020,radius-.042
+                m.face("metal",(rind(a,outer,front),rind(b,outer,front),
+                                rind(b,outer,back),rind(a,outer,back)))
+                m.face("trim",(rind(a,inner,back),rind(b,inner,back),
+                               rind(b,inner,front),rind(a,inner,front)))
+                for z,reverse in ((front,True),(back,False)):
+                    rim=[rind(a,outer,z),rind(b,outer,z),rind(b,inner,z),rind(a,inner,z)]
+                    m.face("turquoise",rim[::-1] if reverse else rim)
+            if m.lod<2:
+                m.slab("wall",x,y,zc-depth*.52,.519,.040,.173)
+            cargo(m,x-.078,y+.041,zc-depth*.332,.232,.208)
+            cargo(m,x+.091,y+.041,zc+.079,.199,.182)
+            if m.lod==0:
+                sack(m,x+.093,y+.199,zc+.080,.076)
+        vault(-.510,.056,.708)
+        m.slab("brick",.484,.062,.039,.733,.102,.634,.96)
+        m.slab("fieldstone",.737,.164,.231,.227,.138,.242,.80)
+        m.drum("metal",.737,.302,.231,.080,.476,.071)
+        m.rod("metal",(.733,.751,.234),(.267,.845,-.133),.038)
+        m.rod("trim",(.741,.473,.235),(.309,.834,-.100),.026)
+        m.rod("metal",(.267,.842,-.133),(.267,.483,-.133),.014)
+        if m.lod<2:
+            m.ring("gold",.268,.453,-.142,.045,.022,.024,n=(10,7)[m.lod])
+        else:
+            m.block("gold",.269,.439,-.134,.043,.045,.031)
+        cargo(m,.466,.164,.100,.286,.199)
+        cargo(m,.651,.164,-.122,.215,.170)
+        if m.lod<2:
+            cargo(m,.460,.393,.104,.182,.159)
+        for x in (-.065,.119):
+            m.block("metal",x,.062,-.088,.035,.049,.635)
+        m.slab("timber",0,.112,-.118,.312,.041,.309,.99)
+        cargo(m,0,.153,-.114,.224,.206)
+        if m.lod==0:
+            # Wheels on transverse axles carry the trolley to the vault.
+            for x in (-.111,.156):
+                for z in (-.214,-.034):
+                    with m.transform(translate=(x,.119,z),rotate_z=90):
+                        m.drum("metal",0,0,0,.048,.024,n=7,bottom=True)
+    else:
+        # The open high-bay pallet rack is served by a side elevator. The public
+        # loading door remains at ground level below the drive housing.
+        m.slab("wall",.556,.062,.102,.46,.895,.57,.91)
+        m.slab("turquoise",.556,.957,.103,.497,.097,.61,.87)
+        m.entry(.556,.067,-.189,.248,.323)
+        for x in (-.785,.206):
+            for z in (-.145,.305):
+                m.slab("ivory",x,.062,z,.094,.80,.101,.86)
+        for i,h in enumerate((.125,.481,.865)):
+            m.slab("metal" if i<2 else "turquoise",-.289,h,.078,1.102,.061,.566,.97,underside=True)
+            if i<2:
+                for x in (-.587,-.151):
+                    cargo(m,x,h+.061,.070,.239,.252)
+        if m.lod<2:
+            m.disc(.559,.689,-.170,.090,"gold",False)
+            cargo(m,.04,.062,-.302,.137,.13)
 
 
 def turbine_hall(m,x,z,y,w,d):

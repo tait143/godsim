@@ -244,6 +244,310 @@
           ]
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_saurian_house_ancient_bronze_v0",
+          "evidence_sha256": "237e1bc0c1d8a1edcafed7f775b89bbbbab551b24e7643c13b47800a8ac10086",
+          "observations": "The turquoise slab and purple hanging cloth identify the palette. Removing paint exposes the same square lookout, flat slab, low annex, left-hand patio and front stair as the Dwarf Bronze v0 house. A short courtyard wall and a different roof cap provide too little separation.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 82,
+            "construction": 92,
+            "charm": 90,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Change the main dwelling footprint and roof mass. The Saurian Bronze residence must be distinguishable from Dwarf Bronze v0 at 64 px in both unpainted views without using its trim, cloth or patio furniture."
+          ],
+          "lod_triangles": [
+            466,
+            198,
+            114
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.672,
+            "primary_picture_pair": [
+              "bld_saurian_house_ancient_bronze_v0",
+              "bld_saurian_house_ancient_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1548
+            ],
+            "max_shared_direction": [
+              "bld_saurian_house_ancient_v0",
+              "bld_saurian_house_ancient_bronze_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_housesancient-01.png": "3b999fe8f96ff8b38ae39f297c1f1405440dfd8ae1fd25499093989613a25392",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "5aa8c846d39351eecb118f877a96c03df5776db0c7ce1ad91b705dca844cc0d7",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v1.png": "c8a3b72459ae117bfb125d98acda098fff828f4ede02d19fc70eccd6fd553aac"
+          },
+          "glb_sha256": "5309294c3fc3e1c5de9d2a6ff4d016bb83590381d0e1f2ea28aa38e40eb1627b",
+          "age_preview_sha256": {
+            "bronze": "06787610af5c2e2b35466c5119c4b69b8a56fd54ba41bc7650b8d1966700e355"
+          }
+        },
+        {
+          "id": "bld_saurian_house_ancient_bronze_v1",
+          "evidence_sha256": "78ec4d6721bc498db76bb19ce13b7b728838c8b79c7b6eff74a3a4555bc61c11",
+          "observations": "A broad clay dome caps a round house, with an olive porch on one face and an open shaded room on the side. Both lower meshes keep the dome, verandah void and entry stair. That plan is legible apart from the lookout variant.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            538,
+            235,
+            142
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.678,
+            "primary_picture_pair": [
+              "bld_saurian_house_ancient_bronze_v1",
+              "bld_saurian_house_ancient_v1"
+            ],
+            "max_shared_corners": [
+              0,
+              1698
+            ],
+            "max_shared_direction": [
+              "bld_saurian_house_ancient_v1",
+              "bld_saurian_house_ancient_bronze_v1"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_housesancient-01.png": "3b999fe8f96ff8b38ae39f297c1f1405440dfd8ae1fd25499093989613a25392",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v1.png": "c8a3b72459ae117bfb125d98acda098fff828f4ede02d19fc70eccd6fd553aac",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "5aa8c846d39351eecb118f877a96c03df5776db0c7ce1ad91b705dca844cc0d7"
+          },
+          "glb_sha256": "fc5ecb8b1f159e63aade8696816b9b5e9716edb7becc28eea07e2f75d3ec6048",
+          "age_preview_sha256": {
+            "bronze": "aee76b171cda806a7718f05cd1ebc94ac3cccc1ed287d5622c4679fbd8e4acbf"
+          }
+        },
+        {
+          "id": "bld_saurian_house_ancient_iron_v0",
+          "evidence_sha256": "707571ac51c8f8c7c29d233a21212c4994ed802690101f0f5ec71439fde8161c",
+          "observations": "A narrow dwelling rides high on timber piles, with an exposed side landing and steep stair. Both the void below the home and the end stair survive the simplified geometry. The low dark green roof reads above the small domestic window.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            428,
+            206,
+            122
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.613,
+            "primary_picture_pair": [
+              "bld_saurian_house_ancient_iron_v0",
+              "bld_saurian_house_classical_renaissance_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1548
+            ],
+            "max_shared_direction": [
+              "bld_saurian_house_ancient_v0",
+              "bld_saurian_house_ancient_iron_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_housesancient-01.png": "3b999fe8f96ff8b38ae39f297c1f1405440dfd8ae1fd25499093989613a25392",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "5aa8c846d39351eecb118f877a96c03df5776db0c7ce1ad91b705dca844cc0d7",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v1.png": "c8a3b72459ae117bfb125d98acda098fff828f4ede02d19fc70eccd6fd553aac"
+          },
+          "glb_sha256": "b0888bcca494d3a08135c78a0cd7ba46352e2d05b40da3c0822156adacb9ff1b",
+          "age_preview_sha256": {
+            "iron": "e759e01f11c68a90c3f10f7f2985fffecf92802b611d66321befbe0832e9b010"
+          }
+        },
+        {
+          "id": "bld_saurian_house_ancient_iron_v1",
+          "evidence_sha256": "025800235b48b2ed16c809cc726b913d91e63cdd69e592c4c986f97138fa38f7",
+          "observations": "This two-storey gabled box, low attached porch, paired upper windows, stone lower wall and pot repeat the Orc Iron v1 composition. In grayscale the shared house is immediate. Its tower arrangement also approaches the later Saurian Medieval v0.",
+          "scores": {
+            "silhouette": 82,
+            "identity": 81,
+            "construction": 92,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Develop an independent Saurian Iron house plan and roofline. Check it unpainted beside Orc Iron v1, the Saurian stilt-house variant, and the Saurian Medieval tower-house."
+          ],
+          "lod_triangles": [
+            432,
+            166,
+            90
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.638,
+            "primary_picture_pair": [
+              "bld_saurian_house_ancient_iron_v1",
+              "bld_saurian_house_classical_medieval_v1"
+            ],
+            "max_shared_corners": [
+              0,
+              1698
+            ],
+            "max_shared_direction": [
+              "bld_saurian_house_ancient_v1",
+              "bld_saurian_house_ancient_iron_v1"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_housesancient-01.png": "3b999fe8f96ff8b38ae39f297c1f1405440dfd8ae1fd25499093989613a25392",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v1.png": "c8a3b72459ae117bfb125d98acda098fff828f4ede02d19fc70eccd6fd553aac",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "5aa8c846d39351eecb118f877a96c03df5776db0c7ce1ad91b705dca844cc0d7"
+          },
+          "glb_sha256": "427f24a3d19ece9836082230776973e03626faffc472811e8c1e3467d9d09e2b",
+          "age_preview_sha256": {
+            "iron": "680c18ff4170794920b232ff5385fe74f8e8407884389aa23eceb11cc03a00e3"
+          }
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "RC6 independent housing and Saurian civic critic, corrected candidate review",
+      "inspection": "Compared the published painted age previews and family sheets against the original holds and named lookalikes. Rendered both unpainted 64 px views independently from each of the three actual LOD meshes. Inspected the native family cameras and the larger multi-camera LOD sheet. Recomputed same-family picture likeness and directional corner overlap, checked the fragment against the GLB and verified all three serialized levels for exposed coplanar faces and inverted shells.",
+      "models": [
+        {
+          "id": "bld_saurian_house_ancient_bronze_v0",
+          "evidence_sha256": "2bee9b5e929bf19678abd6072304d75c3ce09c0424734fc2b91f38017dd12b1f",
+          "previous_evidence_sha256": "237e1bc0c1d8a1edcafed7f775b89bbbbab551b24e7643c13b47800a8ac10086",
+          "observations": "A curved dwelling wraps around an open pocket court, with a stair entering through the missing wedge. Both unpainted corners show the continuous curved back and the open mouth right through LOD2. The Dwarf lookout house and the other Saurian Bronze dome have clearly different plans.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            694,
+            360,
+            204
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.619,
+            "primary_picture_pair": [
+              "bld_saurian_house_ancient_bronze_v0",
+              "bld_saurian_house_ancient_iron_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1548
+            ],
+            "max_shared_direction": [
+              "bld_saurian_house_ancient_v0",
+              "bld_saurian_house_ancient_bronze_v0"
+            ],
+            "specific_comparisons": {
+              "bld_dwarf_house_ancient_bronze_v0": {
+                "primary_picture_likeness": 0.603,
+                "evidence_sha256": "cf7e74537f001ddf1c35b6c950c5cfcd72e827ad7c1a0b63fa34931d0f84692c"
+              },
+              "bld_saurian_house_ancient_bronze_v1": {
+                "primary_picture_likeness": 0.641,
+                "evidence_sha256": "78ec4d6721bc498db76bb19ce13b7b728838c8b79c7b6eff74a3a4555bc61c11"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_housesancient-01.png": "761f95f89071b04e7896f17022d3d8c9f83a8abd18bf167cfd26ac2f1cb03cb1",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "c840ed6f1c67a5dff8eb3937d98527581cf08eae38470f11cde72c3910eace6d",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v1.png": "5e12d34a1fe4c3b046c0febb10c56e2bb15bdf049e41cb873a28d9fba8de9886",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d"
+          },
+          "glb_sha256": "03ac0de81e5209d24301d3bde89d5526ee1acdfab79fb79bf4d712f37e718354",
+          "age_preview_sha256": {
+            "bronze": "20969e655d05921b0c2292be4e99cdc8683153a4cf1e0723ac4b56faf15af59f"
+          }
+        },
+        {
+          "id": "bld_saurian_house_ancient_iron_v1",
+          "evidence_sha256": "ac3b489450a99aa07afad9879f45298839b8c31fb126c62d95533568a99794da",
+          "previous_evidence_sha256": "025800235b48b2ed16c809cc726b913d91e63cdd69e592c4c986f97138fa38f7",
+          "observations": "The paired green shed roofs fold toward a central valley above the doorway awning. From either corner the mass reads as two linked wings set on a low plinth. Those roof breaks and the porch survive LOD2, separating it from the Orc Iron tower and the tall Saurian Medieval residence.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            574,
+            238,
+            136
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.602,
+            "primary_picture_pair": [
+              "bld_saurian_house_ancient_bronze_v1",
+              "bld_saurian_house_ancient_iron_v1"
+            ],
+            "max_shared_corners": [
+              0,
+              1698
+            ],
+            "max_shared_direction": [
+              "bld_saurian_house_ancient_v1",
+              "bld_saurian_house_ancient_iron_v1"
+            ],
+            "specific_comparisons": {
+              "bld_orc_house_ancient_iron_v1": {
+                "primary_picture_likeness": 0.509,
+                "evidence_sha256": "ac5048d228300cd5f27889a881aadc61aedbfeac883324ea2ade28946c09940b"
+              },
+              "bld_saurian_house_ancient_iron_v0": {
+                "primary_picture_likeness": 0.589,
+                "evidence_sha256": "707571ac51c8f8c7c29d233a21212c4994ed802690101f0f5ec71439fde8161c"
+              },
+              "bld_saurian_house_classical_medieval_v0": {
+                "primary_picture_likeness": 0.424,
+                "evidence_sha256": "c4ebbf70a0f8a55653b72c94a2d96dca74b16130aa70236d5091dc8c937ace14"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_housesancient-01.png": "761f95f89071b04e7896f17022d3d8c9f83a8abd18bf167cfd26ac2f1cb03cb1",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v1.png": "5e12d34a1fe4c3b046c0febb10c56e2bb15bdf049e41cb873a28d9fba8de9886",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "c840ed6f1c67a5dff8eb3937d98527581cf08eae38470f11cde72c3910eace6d",
+            "tools/AssetForge/reviews/rc6/families/orc-House-v1.png": "fb9be60552dd61a55e3bbab95176d9c7aecddd0797e9ab8cb992c6bea11367a0"
+          },
+          "glb_sha256": "3c533821be0c2bea9ca85302abfda0ec6d821ab6e48b64b002782598d1aa6726",
+          "age_preview_sha256": {
+            "iron": "5198fec21ba47fe056639e13c45b337b6f9dee8e243e7e4f2803ccd9df691990"
+          }
+        }
+      ]
     }
   ]
 }

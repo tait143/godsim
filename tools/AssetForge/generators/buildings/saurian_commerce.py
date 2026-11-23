@@ -222,6 +222,30 @@ def bank(m):
     e=m.era
     if e==3:
         return solar_treasury(m)
+    if e==2:
+        # A two-storey brick counting rotunda overlooks the lower street counter.
+        m.slab("wall",0,0,.01,1.82,.113,1.63,.95)
+        m.drum("brick",-.276,.113,.13,.54,.72,.511,n=(16,10,6)[m.lod])
+        m.drum("trim",-.276,.833,.13,.548,.079,.51)
+        m.drum("glass",-.276,.912,.13,.432,.195,.409)
+        m.drum("metal",-.276,1.107,.13,.470,.241,.197)
+        m.slab("brick",.486,.113,-.05,.57,.38,.79)
+        m.slab("roof",.486,.493,-.05,.605,.104,.83,.90,underside=True)
+        m.slab("wall",-.276,.113,-.419,.53,.54,.31)
+        m.entry(-.276,.113,-.577,.275,.425)
+        m.stairs(-.276,0,-.835,.410,.223,.116)
+        m.block("door",.486,.248,-.454,.361,.177,.038)
+        m.block("gold",.486,.231,-.475,.403,.044,.104)
+        m.disc(-.276,.701,-.407,.118,"gold",False)
+        if m.lod<2:
+            for x in (.371,.486,.601):
+                m.block("metal",x,.276,-.479,.018,.147,.018)
+            m.jar(.749,.113,-.521,.066,"turquoise")
+        if m.lod==0:
+            for i in range(9):
+                a=i*2*math.pi/9
+                m.drum("metal",-.276+.426*math.cos(a),.917,.13+.426*math.sin(a),.021,.18,n=6)
+        return
     m.slab("fieldstone",0,0,.03,1.74,.13,1.54,.95,cut=.14)
     m.slab("wall",0,.13,.12,1.55,.54,1.16,.96)
     # Broad barred treasury wing on either side of a south-facing public entrance.

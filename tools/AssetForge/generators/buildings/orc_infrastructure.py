@@ -6,6 +6,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from generators.buildings.orc_learninghealth import build_lodge, run_package
 from generators.buildings.orc_era_forms import clean_power, well_pump
+from generators.buildings.orc_resource_yards import shaft, wheel
 from generators.buildings import orc_civic_trades
 
 PACKAGE = "orc_infrastructure"
@@ -99,6 +100,33 @@ def suspended_flume(m):
 def aqueduct(m):
     if m.e==3:
         return suspended_flume(m)
+    if m.e==2:
+        # Water crosses the hollow by pressure. Twin masonry header tanks feed
+        # a flanged iron inverted siphon on saddles at the bottom of the valley.
+        for sign in (-1,1):
+            z=sign*.759
+            m.block('fieldstone',.02,0,z,.69,.145,.338,.10)
+            m.block('brick',.02,.140,z,.572,.703,.271,.14)
+            m.block('metal',.02,.826,z,.732,.099,.379,.055)
+            m.block('metal',.02,.912,z,.693,.156,.344)
+            m.block('water',.02,1.068,z,.551,.017,.282)
+            if m.lod<2:
+                for s in (-1,1):
+                    m.horn(.02+s*.272,.994,z,.357,s)
+            shaft(m,'metal',(.02,.724,sign*.711),(.02,.237,sign*.351),.186)
+            shaft(m,'trim',(.02,.419,sign*.484),(.02,.372,sign*.451),.205)
+            m.block('fieldstone',.02,0,sign*.305,.469,.132,.151,.08)
+        shaft(m,'metal',(.02,.237,-.37),(.02,.237,.37),.189)
+        for z in ((-.35,-.136,.137,.35) if m.lod<2 else (-.32,.32)):
+            shaft(m,'trim',(.02,.237,z-.019),(.02,.237,z+.019),.203)
+        if m.lod<2:
+            shaft(m,'metal',(.119,.265,.028),(.41,.266,.026),.053)
+            with m.transform(translate=(.393,.27,.025),rotate_y=90):
+                wheel(m,0,0,0,.149)
+        if m.lod==0:
+            for sign in (-1,1):
+                m.block('cloth',.313,.536,sign*.762,.044,.155,.102)
+        return
     # The arch has a continuous soffit and a level top carrying the actual trough.
     # Coordinates across each face are longitudinal Z / elevation Y.
     mat=("wall","fieldstone","brick","plaster")[m.e]
@@ -284,6 +312,36 @@ def works(m,t):
         m.block("gold",-.67,.08,-.49,.17,.05,.13)
 
 
+def freight_depot(m):
+    # Riveted gantry over an open loading square. The tall enclosed left pier
+    # houses the lift motor; the opposite legs straddle the cart track.
+    m.block("fieldstone",0,0,.032,1.82,.084,1.64,.046)
+    m.block("brick",-.576,.084,.16,.435,.85,.66,.038)
+    m.block("trim",-.576,.934,.16,.488,.075,.724)
+    m.entry(-.57,-.177,.256,.414,base=.086)
+    for z in (-.137,.443):
+        m.beam("metal",(.67,.084,z),(.551,1.00,z),.10)
+        if m.lod<2:
+            m.beam("trim",(.378,.084,z),(.55,.649,z),.069)
+    m.block("metal",-.028,1.009,.154,1.622,.122,.706)
+    m.block("cloth",-.51,1.131,.158,.59,.152,.65,.03)
+    m.horn(-.72,1.279,.156,.31,-1)
+    m.disk("gold",-.571,.708,-.175,.102,.034)
+    m.block("metal",.187,.832,.103,.228,.177,.237)
+    m.beam("trim",(.188,.442,.104),(.188,.837,.104),.027)
+    loads=[(.188,.104,.298,.204),(-.285,-.384,.326,.085)]
+    if m.lod<2:
+        loads.extend(((.436,-.332,.264,.084),(-.36,.457,.28,.085)))
+    for x,z,w,y in loads:
+        m.block("timber",x,y,z,w,.83*w,w*.91)
+        if m.lod<2:
+            for side in (-1,1):
+                m.block("trim",x+side*w*.276,y+.004,z,.027,.835*w,w*.945)
+    if m.lod==0:
+        for x in (-.411,.004,.412):
+            m.disk("gold",x,1.060,-.205,.033,.017)
+
+
 def design(m,t):
     if t=="Well" and m.e>0:
         well_pump(m)
@@ -293,6 +351,8 @@ def design(m,t):
         well(m)
     elif t=="Aqueduct":
         aqueduct(m)
+    elif t=="Storehouse" and m.e==2:
+        freight_depot(m)
     elif t=="Storehouse":
         warehouse(m)
     elif t=="Granary":

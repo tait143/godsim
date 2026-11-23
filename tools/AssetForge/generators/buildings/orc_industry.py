@@ -68,6 +68,76 @@ def anvil(m,x,z,s):
 
 def works(m,kind):
     smelt=kind=="Smelter"
+    if not smelt and m.era==1:
+        # A roofed clan smithy under a single long ridge. Its two open bays
+        # share a thick rear hearth wall, leaving the anvils in clear view.
+        m.block('fieldstone',-.114,0,.061,1.44,.154,1.23,.061)
+        m.block('wall',-.097,.15,.502,1.21,.61,.236,.06)
+        for side in (-1,1):
+            x=-.11+side*.579
+            for z in (-.385,.462):
+                m.shell(x,z,[(.145,.105,'fieldstone'),(.246,.098,'timber'),
+                             (.76,.074,'trim'),(.85,.104,'trim')],(10,7,4)[m.lod])
+            m.tusk(x,.789,-.386,side,.46)
+        m.hip_roof((-.103,.840,.039),1.62,1.24,.39,m.col('roof_tile'),overhang=0,
+                   ridge=.91,material='roof_tile')
+        firex=-.428
+        m.shell(firex,.226,[(.154,.235,'fieldstone'),(.378,.24,'brick'),
+                             (.467,.211,'trim'),(.467,.174,'door'),(.438,.14,'forge')],
+                (12,8,5)[m.lod])
+        m.shell(firex,.365,[(.465,.137,'brick'),(.94,.119,'fieldstone'),
+                             (1.33,.093,'wall'),(1.379,.119,'trim')],(9,6,4)[m.lod])
+        anvil(m,.468,-.615,.94)
+        if m.lod<2:
+            m.shell(-.665,-.681,[(0,.137,'timber'),(.20,.157,'trim'),(.219,.14,'water')],7)
+            for x in (-.615,.37):
+                m.post('trim',(x,.61,-.384),(x+(.157 if x<0 else -.157),.838,-.384),.053)
+        if m.lod==0:
+            for x in (-.31,-.04,.242):
+                m.post('metal',(x,.28,.376),(x+.071,.632,.372),.017,sides=5)
+            m.drum(.592,0,.341,.136,.215)
+        return
+    if not smelt and m.era==2:
+        # A floor-mounted tilt hammer is lifted by the cam on the visible
+        # flywheel shaft. Scrap returns to the open reheating hearth at its right.
+        m.block('fieldstone',-.225,0,-.022,1.37,.108,.896,.067)
+        x,z=-.38,.006
+        for pz in (-.21,.20):
+            m.block('brick',x,.104,pz,.396,.475,.188,.18)
+        m.post('metal',(x,.558,-.402),(x,.558,.308),.092)
+        n=(16,10,5)[m.lod]
+        for i in range(n):
+            rim=[]
+            for j in (i,i+1):
+                a=math.tau*j/n
+                rim.append([(x+r*math.cos(a),.557+r*math.sin(a),pz)
+                            for r,pz in ((.376,-.351),(.376,-.28),(.292,-.28),(.292,-.351))])
+            for j in range(4):
+                k=(j+1)%4
+                m.panel('metal',(rim[0][j],rim[1][j],rim[1][k],rim[0][k]))
+        for i in range((8,6,2)[m.lod]):
+            a=math.tau*i/(8,6,4)[m.lod]
+            inner=-.31 if m.lod==2 else .061
+            m.post('trim',(x+inner*math.cos(a),.557+inner*math.sin(a),-.314),
+                   (x+.316*math.cos(a),.557+.316*math.sin(a),-.314),.028,sides=5 if m.lod<2 else 3)
+        m.post('cloth',(x,.558,-.374),(x,.558,-.326),.102)
+        m.block('metal',-.147,.104,.011,.156,.462,.221,.15)
+        if m.lod<2:
+            m.post('trim',(-.461,.609,-.047),(-.461,.609,.042),.097)
+        m.post('timber',(-.781,.701,.006),(.362,.477,.013),.088,.07)
+        m.block('metal',.324,.393,.012,.252,.151,.222)
+        m.block('trim',.324,.103,.010,.244,.163,.23,.13)
+        m.block('metal',.326,.26,.014,.226,.067,.188)
+        m.shell(.556,.449,[(0,.282,'fieldstone'),(.144,.274,'brick'),(.50,.236,'metal'),
+                            (.58,.205,'trim'),(.578,.157,'door'),(.535,.137,'forge')],(14,9,5)[m.lod])
+        for s in (-1,1):
+            m.tusk(.557+s*.19,.359,.447,s,.412)
+        if m.lod<2:
+            m.block('forge',.557,.163,.205,.210,.117,.041)
+            m.shell(.643,-.510,[(0,.177,'timber'),(.222,.195,'metal'),(.247,.18,'water')],8)
+        if m.lod==0:
+            m.post('trim',(x,.560,-.375),(x,.560,-.446),.082)
+        return
     furnace(m,.46,.16,1.12 if smelt else .81)
     shelter(m,-.39,.24,1.0)
     if smelt:
@@ -307,7 +377,66 @@ def foundry(m):
         m.drum(-.66,0,-.72,.139,.19)
 
 
+def induction_smelter(m):
+    # Refractory cheeks expose the full bath between two banks of induction
+    # coils. Metal taps through a break in the south wall into the mould bed.
+    m.block("fieldstone",0,0,.044,1.81,.099,1.63,.048)
+    m.block("metal",0,.099,.139,.79,.117,1.17)
+    m.block("forge",0,.215,.151,.613,.038,1.03)
+    for side in (-1,1):
+        x=side*.413
+        m.block("brick",x,.099,.14,.206,.370,1.15,.069)
+        m.block("trim",x,.469,.14,.219,.063,1.16)
+        # The slotted induction housings rise in pairs outside the bath.
+        for z in ((-.132,.396) if m.lod<2 else (.158,)):
+            m.block("wall",side*.662,.099,z,.32,.238,.367,.07)
+            m.beam("metal",(side*.727,.333,z),(side*.445,.674,z),.154,.189)
+            m.beam("trim",(side*.445,.674,z),(side*.348,.519,z),.106,.145)
+            if m.lod<2:
+                m.disk("gold",side*.642,.214,z-.186,.065,.021)
+            if m.lod==0:
+                for dz in (-.048,.051):
+                    m.beam("cloth",(side*.641,.446,z+dz),(side*.594,.507,z+dz),.160,.030)
+        m.horn(x,.531,.672,.45,side,-.24)
+    m.block("brick",0,.099,.680,.589,.40,.122)
+    for side in (-1,1):
+        m.block("brick",side*.233,.099,-.406,.169,.302,.133)
+    m.block("metal",0,.099,-.557,.23,.085,.362)
+    m.block("forge",0,.183,-.557,.150,.018,.362)
+    for x in (-.368,0,.368):
+        m.block("metal",x,.099,-.703,.310,.066,.150,.04)
+        m.block("forge" if x==0 else "gold",x,.165,-.703,.240,.022,.092,.08)
+    if m.lod<2:
+        for x in (-.19,.107):
+            m.block("door",x,.253,.466,.133,.037,.106,.14)
+        for x in (-.247,.24):
+            m.block("ivory",x,.499,.678,.113,.078,.128)
+    if m.lod==0:
+        for side in (-1,1):
+            for z in (-.28,.073,.535):
+                m.block("metal",side*.406,.527,z,.221,.032,.041)
+        m.disk("turquoise",.750,.231,-.319,.040,.016)
+        # A handwheel isolates the rear induction circuit for relining the bath.
+        x,y,z=-.66,.582,.503
+        m.beam("metal",(x,.315,z+.021),(x,y,z+.021),.055)
+        m.disk("trim",x,y,z+.025,.045,.040,n=9)
+        for i in range(9):
+            a,b=i*math.tau/9,(i+1)*math.tau/9
+            def point(t,radius,offset):
+                return (x+radius*math.cos(t),y+radius*math.sin(t),z+offset)
+            front=[point(a,.125,-.012),point(b,.125,-.012),point(b,.101,-.012),point(a,.101,-.012)]
+            back=[(px,py,pz+.024) for px,py,pz in front]
+            m.face("gold",front[::-1])
+            m.face("gold",back)
+            for j,k in ((0,1),(2,3)):
+                m.face("gold",(front[j],front[k],back[k],back[j]))
+            if i%3==0:
+                m.beam("metal",point(a,.037,.005),point(a,.114,.005),.020)
+
+
 def build(spec,lod):
+    if spec.building_type=="Smelter" and spec.band=="future":
+        return build_lodge(spec,lod,lambda m,t: induction_smelter(m))
     designer=orc_machine_halls.DESIGNS.get((spec.building_type,spec.band))
     if designer:
         return build_lodge(spec,lod,lambda m,t: designer(m))

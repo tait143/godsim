@@ -366,25 +366,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 1126,
+  "triangles": 1182,
   "lod_triangles": [
-   1126,
-   484,
-   158
+   1182,
+   582,
+   332
   ],
   "bounds": [
    [
-    -1.407212495803833,
-    -0.00016603338008280843,
-    -0.21965999901294708
+    -1.383732795715332,
+    0.0,
+    -0.3521449863910675
    ],
    [
-    1.407212495803833,
-    1.2200000286102295,
-    0.352012574672699
+    1.334220051765442,
+    1.7960000038146973,
+    0.4568600058555603
    ]
   ],
-  "bytes": 164276,
+  "bytes": 202268,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_palisade_classical_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_palisade_classical_v0.png",

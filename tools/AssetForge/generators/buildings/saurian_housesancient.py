@@ -9,6 +9,7 @@ from building_scope import AGES, ROOT, package_models
 from forge import MeshBuilder, publish
 from forge.atlas import palette
 from forge.render import contact_sheet
+from generators.buildings import saurian_delta_dwellings as homes
 
 PACKAGE = 'saurian_housesancient'
 
@@ -151,65 +152,44 @@ class Dwelling(MeshBuilder):
             self.face(role,[at(w/2,a),at(-w/2,a),at(-w/2,b),at(w/2,b)])
 
 
-def roof(m, x,z, y,w,d,age, wing=False):
-    # A little wing has a lower head and its own complete hip. The main roof evolves
-    # from layered marsh reeds, to a sun-dried masonry terrace, to a boarded smoke loft.
-    if age=='dawn':
-        rise=.17 if wing else (.24 if m.variant else .255)
-        m.course('roof',x,z,y,y+rise,w,d,w*.46,d*.43,rim='roof',underside=True)
-        m.roof_lozenge(x,z,y,d,d*.43,rise,w*.26)
-        m.course('thatch',x,z,y+rise,y+rise+.10,w*.52,d*.48,w*.26,d*.17,
-                 rim='roof')
-        m.block('timber',x,z,y+rise+.10,y+rise+.123,w*.28,d*.18)
-        if not wing:
-            # The two splayed ridge poles clamp the reed bundle against the wind.
-            for sign in (-1,1):
-                m.rail('timber',(x+sign*w*.094,y+rise+.115,z),
-                       (x+sign*w*.209,y+rise+.161,z+.010),.032,.041)
-                if m.lod==0:
-                    m.block('thatch',x+sign*w*.070,z,y+rise+.102,y+rise+.132,.022,d*.19)
-        return
-    if age=='bronze':
-        rise=.120 if wing else .17
-        m.course('wall',x,z,y,y+rise,w,d,w*.72,d*.68,rim='brick',underside=True)
-        m.roof_lozenge(x,z,y,d,d*.68,rise,w*.27)
-        m.course('turquoise',x,z,y+rise,y+rise+.025,w*.75,d*.71,w*.75,d*.71)
-        upper=rise+.025
-        m.course('hide',x,z,y+upper,y+upper+.098,w*.65,d*.60,w*.47,d*.40)
-        if not wing:
-            m.course('thatch',x,z,y+upper+.098,y+upper+.188,w*.55,d*.52,w*.25,d*.17,
-                     rim='roof')
-        return
-    rise=.145 if wing else .19
-    m.course('roof',x,z,y,y+rise,w,d,w*.65,d*.50,rim='timber',underside=True)
-    m.roof_lozenge(x,z,y,d,d*.50,rise,w*.26)
-    m.course('fieldstone',x,z,y+rise,y+rise+.064,w*.55,d*.45,w*.55,d*.45)
-    m.course('timber',x,z,y+rise+.064,y+rise+.18,w*.66,d*.59,w*.30,d*.18)
-    if not wing and m.lod<2:
-        m.opening(x,y+rise+.032,z-d*.225,w*.21,.035,light='door')
+def reed_roof(m,x,z,y,w,d,wing=False):
+    rise=.17 if wing else (.24 if m.variant else .255)
+    m.course('roof',x,z,y,y+rise,w,d,w*.46,d*.43,rim='roof',underside=True)
+    m.roof_lozenge(x,z,y,d,d*.43,rise,w*.26)
+    m.course('thatch',x,z,y+rise,y+rise+.10,w*.52,d*.48,w*.26,d*.17,
+             rim='roof')
+    m.block('timber',x,z,y+rise+.10,y+rise+.123,w*.28,d*.18)
+    if not wing:
+        # The two splayed ridge poles clamp the reed bundle against the wind.
+        for sign in (-1,1):
+            m.rail('timber',(x+sign*w*.094,y+rise+.115,z),
+                   (x+sign*w*.209,y+rise+.161,z+.010),.032,.041)
+            if m.lod==0:
+                m.block('thatch',x+sign*w*.070,z,y+rise+.102,y+rise+.132,.022,d*.19)
 
 
 def build(spec,lod):
     m=Dwelling(spec,lod)
-    age=m.age
+    if m.age in ("bronze","iron"):
+        {"bronze":homes.bronze,"iron":homes.iron}[m.age](m)
+        return m
     variant=m.variant
     x, w = (-.138,.50) if variant else (0,.68)
     z,d=.063,.54
-    base={'dawn':.164,'bronze':.13,'iron':.142}[age]
+    base=.164
     head=base+(.266 if variant else .286)
     dx=x+(.025 if variant else -.07)
     front=z-d/2
-    deck='timber' if age=='dawn' else 'fieldstone'
-    m.floor(dx,base,deck,'timber' if age!='iron' else 'fieldstone')
-    wall={'dawn':'hide','bronze':'wall','iron':'fieldstone'}[age]
+    m.floor(dx,base,'timber','timber')
+    wall='hide'
     m.block(wall,x,z,base,head,w,d)
-    roof(m,x,z,head,w+.115,d+.115,age)
+    reed_roof(m,x,z,head,w+.115,d+.115)
     m.door_panel(dx,front,base,.128,.193)
     if variant:
         wingx,wingz=.226,.105
         wy=base+.183
         m.block(wall,wingx,wingz,base,wy,.26,.398)
-        roof(m,wingx,wingz,wy,.345,.495,age,wing=True)
+        reed_roof(m,wingx,wingz,wy,.345,.495,wing=True)
         if lod<2:
             m.opening(wingx,base+.096,wingz-.199,.131,.087)
             m.opening(wingx+.13,base+.094,wingz,.155,.086,side=True)
@@ -219,7 +199,7 @@ def build(spec,lod):
     if lod<2:
         m.eye(dx,base+.238,front-.008,.037)
         for u in (x-w/2+.030,x+w/2-.030):
-            m.block('timber' if age!='bronze' else 'brick',u,front-.008,
+            m.block('timber',u,front-.008,
                     base,head,.042,.044)
         if not variant:
             m.woven_mat(x-.242,base+.071,front,.080,.133)

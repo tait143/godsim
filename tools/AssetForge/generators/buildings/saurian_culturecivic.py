@@ -332,28 +332,89 @@ def loggia(m, x):
     m.rooflet(x,.577,.279,.535,.546,(.154,.098,.121)[m.era-1],m.skin)
 
 
+def assembly_court(m):
+    if m.era==2:
+        works.court(m,-.11,w=1.86,d=1.59)
+        # The delegates face each other across a paved speaking floor. The
+        # minute-taker's brick clock tower marks the public end of the hall.
+        for x in (-.49,.42):
+            for i in range(3):
+                edge=x+(i-.7)*(-.098 if x<0 else .098)
+                m.slab("brick",edge,.08,.018,.094,.077+i*.069,.85)
+                m.block("timber",edge,.157+i*.069,.014,.097,.028,.859)
+        m.slab("brick",.502,.08,.551,.46,.72,.37,.88)
+        m.slab("accent",.502,.80,.551,.469,.068,.389)
+        m.slab("metal",.502,.868,.551,.44,.152,.36,.41)
+        m.disc(.502,.63,.373,.094,"ivory",False)
+        m.slab("wall",-.096,.08,.486,.55,.197,.37,.9)
+        m.block("trim",-.096,.277,.493,.32,.156,.13)
+        m.stairs(-.096,.080,.162,.27,.135,.197)
+        if m.lod<2:
+            m.rod("trim",(.502,.63,.344),(.466,.66,.344),.008,n=4)
+            flag(m,-.673,.08,.569,.56)
+            m.disc(-.094,.35,.42,.051)
+        if m.lod==0:
+            m.jar(-.785,.080,-.463,.058)
+            lamp(m,.72,.08,-.535,.064)
+    else:
+        # The delegate gallery follows a crescent. Its high outer edge shades
+        # the stepped writing benches and leaves the open speaker's circle visible.
+        with m.transform(scale=(.95,1,.87)):
+            m.drum("wall",0,0,.015,.92,.08,.88,n=(24,15,9)[m.lod])
+        m.stairs(0,0,-.88,.38,.185,.073)
+        sectors=(18,11,7)[m.lod]
+        def edge(a,r,y):
+            return (.79*r*math.sin(a),y,.07+.70*r*math.cos(a))
+        def height(a):
+            return .71+.38*(1+math.sin(a))
+        angles=[math.radians(-112+242*i/sectors) for i in range(sectors+1)]
+        for a,b in zip(angles,angles[1:]):
+            ai,ao=edge(a,.60,height(a)-.15),edge(a,1,height(a))
+            bi,bo=edge(b,.60,height(b)-.15),edge(b,1,height(b))
+            def lower(pt):
+                return (pt[0],pt[1]-.056,pt[2])
+            m.face("glass",(ai,ao,bo,bi))
+            m.face("ivory",(lower(bi),lower(bo),lower(ao),lower(ai)))
+            m.face("turquoise",(ao,lower(ao),lower(bo),bo))
+            m.face("gold",(bi,lower(bi),lower(ai),ai))
+            if a==angles[0]:
+                m.face("ivory",(ai,lower(ai),lower(ao),ao))
+            if b==angles[-1]:
+                m.face("ivory",(bo,lower(bo),lower(bi),bi))
+        for deg in (-108,-54,6,67,126):
+            a=math.radians(deg)
+            x,_,z=edge(a,.92,0)
+            m.slab("ivory",x,.08,z,.112,height(a)-.159,.112,.78)
+            m.rod("gold",(x,height(a)-.29,z),edge(a,.65,height(a)-.18),.024)
+            cx,_,cz=edge(a,.67,0)
+            with m.transform(translate=(cx,0,cz),rotate_y=deg):
+                if m.lod<2:
+                    m.slab("wall",0,.08,0,.24,.104,.136)
+                    m.slab("turquoise",0,.184,0,.254,.038,.15)
+                else:
+                    m.block("turquoise",0,.08,0,.25,.14,.157)
+        m.slab("wall",0,.08,-.251,.521,.137,.426,.91)
+        m.stairs(0,.08,-.646,.265,.181,.137)
+        m.slab("turquoise",0,.217,-.232,.168,.224,.121,.71)
+        with m.transform(translate=(0,.442,-.226),rotate_x=-14):
+            m.block("gold",0,0,0,.212,.023,.141)
+        if m.lod<2:
+            works.cartouche(m,0,.175,-.456,.029)
+            flag(m,.235,.08,.53,.58)
+
+
 def forum(m):
+    if m.era>=2:
+        return assembly_court(m)
     m.slab("wall",0,0,.027,1.94,.13,1.69,.96,cut=.102)
     for s in (-1,1):
         loggia(m,s*.671)
     m.slab("glass" if m.era==3 else "wall",0,.13,.384,.868,.502,.685)
     m.entry(0,.13,.0415,.227,.331)
     m.slab("trim",0,.632,.346,1.014,.094,.855,.97,underside=True)
-    if m.era==1:
-        m.rooflet(0,.726,.36,1.039,.876,.359,"roof")
-        m.block("gold",0,1.117,.359,.105,.144,.099)
-        m.disc(0,1.258,.355,.142)
-    elif m.era==2:
-        m.slab("brick",0,.726,.353,.802,.268,.637,.9)
-        m.slab("glass",0,.994,.359,.69,.105,.51,.91)
-        m.slab("metal",0,1.099,.348,.735,.083,.595,.74,underside=True)
-        if m.lod<2:
-            m.disc(0,.862,.054,.122)
-    else:
-        m.slab("glass",0,.726,.354,.76,.256,.626,.68)
-        m.slab("ivory",0,.982,.354,.558,.075,.494,.88,underside=True)
-        m.slab("gold",0,1.05,.354,.196,.152,.159,.78)
-        m.ring("gold",0,1.364,.317,.191,.12,.079)
+    m.rooflet(0,.726,.36,1.039,.876,.359,"roof")
+    m.block("gold",0,1.117,.359,.105,.144,.099)
+    m.disc(0,1.258,.355,.142)
     for s in (-1,1):
         m.drum("ivory" if m.era!=2 else "metal",s*.331,.13,-.010,.059,.505,.045)
         if m.lod<2:

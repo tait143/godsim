@@ -438,6 +438,80 @@
           }
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_dwarf_guildhall_future_v0",
+          "evidence_sha256": "366c1e0c3a5ee596083388dbf88c124e2b552ff5088f219430f5759932bb27fd",
+          "observations": "The guild chamber spans a public passage on outward-splayed stone supports. Its central seal and side entries orient the hall from both fronts, and the open space beneath the chamber persists at LOD2. The older guildhalls sit directly on their closed bases.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            926,
+            526,
+            270
+          ],
+          "serialized_sha256": "6708b8ccd3c97eafb2164726a49b86375a30b005dcb43216ed260f2cbee9bba0",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_commerce-01.png",
+            "rc6/families/dwarf-Guildhall-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_rail_station_future_v0",
+          "evidence_sha256": "57f4d6e721f300c9e991a4186c05dfa45b2037e0145b94d2098f054ad123243c",
+          "observations": "Twin glazed cars occupy an elevated guideway with massive piers and a lower station entrance. The canopy shades the platform at LOD0/1. At LOD2 the canopy drops out but the paired cars, track, foundations and entrance stay readable from either side.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            814,
+            462,
+            250
+          ],
+          "serialized_sha256": "27c39fd85d8f7dffacf303e0bbbe01c8be2755fa9f07ba801437e708f9de94e1",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_commerce-01.png",
+            "rc6/families/dwarf-RailStation-v0.png"
+          ]
+        }
+      ]
     }
   ]
 }

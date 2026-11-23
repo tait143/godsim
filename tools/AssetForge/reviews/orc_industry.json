@@ -946,6 +946,172 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 11,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_orc_blacksmith_classical_v0",
+          "evidence_sha256": "0c8723110102890b48850cc203632eca53539609b19dc89cc0f9b195f182d84e",
+          "observations": "The long, low tiled forge roof shelters a wide open working front against a solid rear wall. A front anvil and glowing hearth provide the working scale. The Classical silhouette keeps the furnace under the roof, distinct from the ancient outboard stack and the Industrial flywheel line.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 92,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            974,
+            529,
+            279
+          ],
+          "serialized_sha256": "4edd4ffc57595d6d6ac38132783153e848fe175f059be9e5b06e65532ae1f55c",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/orc_industry-01.png",
+            "rc6/families/orc-Blacksmith-v0.png"
+          ]
+        },
+        {
+          "id": "bld_orc_blacksmith_industrial_v0",
+          "evidence_sha256": "bca7a7a565812dafeff6b3134a0eae5c5317e8a29782c9470a99dc0231418f3a",
+          "observations": "A great flywheel drives the exposed mechanism along a low bed to the open hot furnace. The wheel and sloped transmission dominate both monochrome sides. At LOD2 the spokes simplify, but the wheel rim, shaft, mounts and orange hearth opening remain.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            802,
+            457,
+            239
+          ],
+          "serialized_sha256": "56ea2e1e723a63dd642793da71d529cdc4ea4e6f88add9a00a9d433d28496853",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/orc_industry-01.png",
+            "rc6/families/orc-Blacksmith-v0.png"
+          ]
+        },
+        {
+          "id": "bld_orc_smelter_future_v0",
+          "evidence_sha256": "618e8a755387fca70c9b4dbb66a774c78e3b6790b6293d5c213e4c9ed1046836",
+          "observations": "The luminous drum stands on two mounts, with a small receiving load directly in front and a separate control block at one side. Against the Dwarf future smelter the three principal masses occupy the same positions and present the same bright circular working face. Changing the drum depth and the control tower height gives little Orc identity at 64 px.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 85,
+            "construction": 92,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the drum-with-side-control-block arrangement with a distinct Orc smelting line. A square trench furnace with flanking tuyères and a downhill ingot run would give different roof, plan and working silhouette. Carry its defining shape through all three LODs."
+          ],
+          "lod_triangles": [
+            715,
+            406,
+            223
+          ],
+          "serialized_sha256": "e73526fdbd1bff741e406db46b986eaef8a6f39425de934c852ebf298c9b4973",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/orc_industry-01.png",
+            "rc6/families/orc-Smelter-v0.png"
+          ],
+          "frozen_png_sha256": {
+            "rc6/held-trade/bld_orc_smelter_future_v0-618e8a755387/ascension.png": "9aeb6afc9cd95d42b36f0a12860665fd6e5639b41844b4bd55cee2a77826a074",
+            "rc6/held-trade/bld_orc_smelter_future_v0-618e8a755387/dwarf-Smelter-v0.png": "0a64f35d84663f1536deab40ea19ffa621f4dc694ac2bd1ec4c971d6486de508",
+            "rc6/held-trade/bld_orc_smelter_future_v0-618e8a755387/information.png": "de3dbcf24fd818199574b62574a236bc71b9b3b989188523dbf2473d727c643f",
+            "rc6/held-trade/bld_orc_smelter_future_v0-618e8a755387/model-and-lods.png": "b107b6ba103daec966616f6f626b15a5beda613bcc6f58b16e9911f09a095c94",
+            "rc6/held-trade/bld_orc_smelter_future_v0-618e8a755387/orc-Smelter-v0.png": "7b1361d67088fabbe686b360766e1e5a5b5c864f50f5bab4cad4c201fb962adf"
+          }
+        }
+      ]
+    },
+    {
+      "round": 12,
+      "critic": "Independent RC6 building art critic, rebuilt exports re-review",
+      "models": [
+        {
+          "id": "bld_orc_smelter_future_v0",
+          "evidence_sha256": "3548bd01ba1d9ebe60379e80c65c892c750b0c6fba77ad54f9af1842fe753ceb",
+          "observations": "A broad rectangular melt trench sits between inclined furnace banks, with an orange tap emerging through the broken front wall. Both monochrome angles show the open square working space and the low flanking masses. The far mesh keeps the furnace cavity, sloped sides and outlet, a different plan from the Dwarf rotary drum and the Elf ladle.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            897,
+            494,
+            266
+          ],
+          "serialized_sha256": "f5b532ded987918d8e4921dca7154754bb0ea2812b73f7b7b13ae804cd9f0124",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/orc_industry-01.png",
+            "rc6/families/orc-Smelter-v0.png"
+          ],
+          "visual_evidence_sha256": {
+            "rc6/models/orc_industry-01.png": "b4d7b958e0bf9c38abfbb456596dad73d613197f9e1e6426f058a1ffcc29801d",
+            "rc6/families/orc-Smelter-v0.png": "1c19e02ff8b870e69794a968d1587e62461748496b60a09c48222533e4b71631"
+          },
+          "age_preview_sha256": {
+            "information": "90a0567080a7553c3158ef6049cff44d0f025d68271e820f085d73f12b8f2f21",
+            "ascension": "f0ad13526c715d986e61aaee077031eb9123a61ee76c148ac18b922c491f05b2"
+          },
+          "supersedes_evidence_sha256": "618e8a755387fca70c9b4dbb66a774c78e3b6790b6293d5c213e4c9ed1046836"
+        }
+      ]
     }
   ]
 }

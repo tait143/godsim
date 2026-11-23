@@ -7,6 +7,8 @@ import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
 from generators.buildings.saurian_housesancient import Dwelling, publish_houses
 
+from generators.buildings.saurian_delta_dwellings import medieval_stairhouse, renaissance
+
 PACKAGE='saurian_housesclassical'
 
 
@@ -135,67 +137,9 @@ def medieval(m):
             m.opening(0,0,0,.138,.085,light='door')
 
 
-def cupola(m,x,z,y,rx,rz,height):
-    # A scalloped melon vault on a polygonal curb. Face pairs form continuous
-    # baked-clay leaves from springing to crown, with narrow patinated ribs.
-    n=(12,8,6)[m.lod]
-    angles=[2*math.pi*i/n for i in range(n)]
-    def ring(r,h):
-        return [(x+rx*r*math.cos(a),y+h*height,z+rz*r*math.sin(a)) for a in angles]
-    lo=ring(1,0)
-    profile=((.91,.35),(.64,.68),(.24,.93)) if m.lod==0 else ((.72,.56),(.26,.92))
-    for r,h in profile:
-        hi=ring(r,h)
-        for i in range(n):
-            j=(i+1)%n
-            role='roof' if m.lod==0 and i in (2,5,8,11) else 'roof_tile'
-            m.face(role,[lo[j],lo[i],hi[i],hi[j]])
-        lo=hi
-    tip=(x,y+height,z)
-    for i in range(n):
-        m.face('gold',[lo[(i+1)%n],lo[i],tip])
-
-
-def renaissance(m):
-    v=m.variant
-    x,w=(-.120,.494) if v else (0,.662)
-    z,d=.068,.518
-    front=z-d/2
-    base=.135
-    head=base+(.312 if v else .291)
-    dx=x-.045
-    m.floor(dx,base,'plaster','fieldstone')
-    m.course('plaster',x,z,base,head,w,d,w,d,bevel=.085)
-    m.course('roof_tile',x,z,head,head+.100,w+.106,d+.122,w*.88,d*.91,
-             rim='roof',underside=True)
-    cy=head+.100
-    m.course('turquoise',x,z,cy,cy+.028,w*.89,d*.92,w*.88,d*.91)
-    cupola(m,x,z,cy+.028,w*.439,d*.45,.294 if v else .262)
-    m.door_panel(dx,front,base,.147,.202,surround='trim')
-    if v:
-        wx,wz=.239,.093
-        m.block('wall',wx,wz,base,base+.222,.29,.365)
-        m.course('roof_tile',wx,wz,base+.222,base+.285,.355,.414,.29,.34,underside=True)
-        cupola(m,wx,wz,base+.285,.144,.165,.114)
-        if m.lod<2:
-            m.opening(wx,base+.116,wz-.1825,.140,.095)
-            m.opening(wx+.145,base+.122,wz,.146,.094,side=True)
-    elif m.lod<2:
-        m.opening(x+w*.5,base+.154,z,.209,.114,side=True)
-    if m.lod<2:
-        sun_tile(m,dx,base+.232,front-.010,.16,.066)
-        if not v:
-            m.woven_mat(x+.176,base+.081,front,.086,.133)
-    if m.lod==0:
-        porch_lamp(m,.332,-.245,base,.114)
-        m.pot(-.313,-.268,base,.042)
-        with m.transform(translate=(x-w*.5,base+.148,z),rotate_y=90):
-            m.opening(0,0,0,.135,.098,light='glass')
-
-
 def build(spec,lod):
     m=Dwelling(spec,lod)
-    {'classical':classical,'medieval':medieval,'renaissance':renaissance}[m.age](m)
+    {'classical':classical,'medieval':medieval if m.variant else medieval_stairhouse,'renaissance':renaissance}[m.age](m)
     return m
 
 

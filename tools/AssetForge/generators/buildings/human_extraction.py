@@ -247,6 +247,55 @@ def wagon(m,x,z,ore):
 
 
 def mine(m,era,gold):
+    if gold and era==2:
+        # The incline runs from a low adit to a stamp mill. A line of iron
+        # shoes crushes ore above the battery box before it reaches the wash pan.
+        rock(m,-.426,.326,.84,.72,.527)
+        m.block('brick',(-.43,.253,.089),(.535,.38,.295),taper=.08)
+        m.entry(-.43,-.066,.275,.069,.302)
+        tracks(m,-.43,-.837,-.073,.237)
+        if m.lod<2:
+            wagon(m,-.431,-.48,'gold')
+        else:
+            m.block('timber',(-.431,.295,-.48),(.401,.267,.38))
+            rock(m,-.431,-.48,.36,.302,.124,'gold',.429)
+        for px in (.075,.702):
+            m.block('brick',(px,.376,.185),(.173,.623,.413),taper=.09)
+            m.beam('metal',(px,.641,.185),(px,.952,.185),.104)
+        m.block('metal',(.388,.937,.186),(.802,.096,.232))
+        # A gravity hopper at the rear empties down a sloping chute into the
+        # battery. Its legs straddle the maintenance bay beneath the cone.
+        hx,hz=.548,.464
+        for px in (-.122,.122):
+            if m.lod==2:
+                m.block('metal',(hx+px,.562,hz),(.079,.993,.209),taper=.10)
+                continue
+            for pz in (-.103,.103):
+                m.beam('metal',(hx+px*1.28,.071,hz+pz*1.25),(hx+px,1.075,hz+pz),.065)
+        drum(m,'metal',hx,.944,hz,.102,.233,top=.246,n=(14,9,5)[m.lod])
+        drum(m,'trim',hx,1.172,hz,.246,.173,top=.251,n=(14,9,5)[m.lod])
+        drum(m,'door',hx,1.344,hz,.215,.009,n=(14,9,5)[m.lod])
+        m.beam('metal',(hx,.957,hz),(.412,.431,.082),.111)
+        if m.lod<2:
+            rock(m,hx, hz,.248,.209,.074,'fieldstone',1.35)
+            rock(m,hx+.080,hz-.057,.094,.075,.052,'gold',1.36)
+        m.block('fieldstone',(.389,.187,.066),(.53,.242,.386))
+        for i in range(3 if m.lod<2 else 2):
+            px=.232+.151*i
+            m.beam('metal',(px,.912,.072),(px,.465+(i%2)*.095,.072),.067)
+            m.block('metal',(px,.44+(i%2)*.095,.072),(.119,.11,.134))
+        wheel(m,.387,.768,-.027,.266,'metal')
+        if m.lod<2: axle(m,'trim',.387,.768,-.082,.052,.332)
+        drum(m,'timber',.449,.066,-.413,.253,.163,top=.284)
+        drum(m,'water',.449,.227,-.413,.241,.019)
+        if m.lod<2:
+            with m.transform(translate=(.433,.25,-.193),rotate_x=-14):
+                m.block('timber',(0,0,0),(.206,.046,.382))
+            rock(m,.45,-.431,.131,.099,.050,'gold',.246)
+        if m.lod==0:
+            for px in (.075,.701):
+                m.block('gold',(px,.665,-.030),(.12,.05,.025))
+        return
     if era==3:
         if gold:
             # A rotating ore-washing drum feeds a cascade of settling basins.

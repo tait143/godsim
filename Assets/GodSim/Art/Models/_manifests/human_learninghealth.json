@@ -416,25 +416,25 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 946,
+  "triangles": 1347,
   "lod_triangles": [
-   946,
-   480,
-   224
+   1347,
+   564,
+   296
   ],
   "bounds": [
    [
     -0.925000011920929,
     0.0,
-    -0.9229999780654907
+    -0.8999999761581421
    ],
    [
     0.925000011920929,
-    1.684000015258789,
+    1.284000039100647,
     0.8999999761581421
    ]
   ],
-  "bytes": 129320,
+  "bytes": 189468,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_hospital_future_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_hospital_future_v0.png",
@@ -1294,11 +1294,11 @@
   "variant": 0,
   "tags": [],
   "notes": "",
-  "triangles": 996,
+  "triangles": 1422,
   "lod_triangles": [
-   996,
-   500,
-   226
+   1422,
+   576,
+   324
   ],
   "bounds": [
    [
@@ -1308,11 +1308,11 @@
    ],
    [
     1.3875000476837158,
-    2.130000114440918,
+    1.1890000104904175,
     0.8999999761581421
    ]
   ],
-  "bytes": 130280,
+  "bytes": 186688,
   "texture_bytes_astc": 666384,
   "path": "Assets/GodSim/Art/Models/Buildings/Human/LearningHealth/bld_human_university_industrial_v0.glb",
   "preview": "tools/AssetForge/previews/Buildings/Human/LearningHealth/bld_human_university_industrial_v0.png",

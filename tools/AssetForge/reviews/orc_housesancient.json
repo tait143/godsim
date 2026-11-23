@@ -196,6 +196,185 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 3,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_orc_house_ancient_bronze_v0",
+          "evidence_sha256": "17f3807825af762ab63d88ab5e9d626e2fdfa07ef46b79518e65edcd51caae71",
+          "observations": "A stout round house and broad smoke vent rise behind a low rectangular porch. The ground-facing annex and main round wall survive both reductions. The next variant switches to a walled yard and square upper box.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            506,
+            243,
+            129
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.68,
+            "primary_picture_pair": [
+              "bld_orc_house_ancient_bronze_v0",
+              "bld_orc_house_classical_renaissance_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1530
+            ],
+            "max_shared_direction": [
+              "bld_orc_house_ancient_v0",
+              "bld_orc_house_ancient_bronze_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/orc_housesancient-01.png": "a6eb8e30ee44da00c30ee11b2203a94847cd1c8abeaccc0ff397b255ef0c43b5",
+            "tools/AssetForge/reviews/rc6/families/orc-House-v0.png": "b4fdcd504a62d12ea24d0352b698eb6b0ef78dd3b4ca4425d19a9012ab35cc30",
+            "tools/AssetForge/reviews/rc6/families/orc-House-v1.png": "fb9be60552dd61a55e3bbab95176d9c7aecddd0797e9ab8cb992c6bea11367a0"
+          },
+          "glb_sha256": "f02143f703c9afc60ea6100303affe50f6adf47c89e08a6a8e546b82a5f66e0c",
+          "age_preview_sha256": {
+            "bronze": "2ce7545a17db7f2e4d8e12b5958fc4a052ecae50c71b8608745b8a0133993b12"
+          }
+        },
+        {
+          "id": "bld_orc_house_ancient_bronze_v1",
+          "evidence_sha256": "930a845f17dc62c4f6689e21e0645fc672c9f5d728735b6c42d72b9af6c8754f",
+          "observations": "An enclosed courtyard sits beside a square, flat-roofed dwelling with a raised timber box. The yard parapet and its covered end stay visible from the reverse view and at LOD2. The round Bronze v0 features a closed projecting vestibule.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            498,
+            207,
+            136
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.633,
+            "primary_picture_pair": [
+              "bld_orc_house_ancient_bronze_v1",
+              "bld_orc_house_ancient_v1"
+            ],
+            "max_shared_corners": [
+              0,
+              1530
+            ],
+            "max_shared_direction": [
+              "bld_orc_house_ancient_v1",
+              "bld_orc_house_ancient_bronze_v1"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/orc_housesancient-01.png": "a6eb8e30ee44da00c30ee11b2203a94847cd1c8abeaccc0ff397b255ef0c43b5",
+            "tools/AssetForge/reviews/rc6/families/orc-House-v1.png": "fb9be60552dd61a55e3bbab95176d9c7aecddd0797e9ab8cb992c6bea11367a0",
+            "tools/AssetForge/reviews/rc6/families/orc-House-v0.png": "b4fdcd504a62d12ea24d0352b698eb6b0ef78dd3b4ca4425d19a9012ab35cc30"
+          },
+          "glb_sha256": "759fbefa91668978518dbd5b034752ad910a281ea1d15fbf68e1062d4cc0b291",
+          "age_preview_sha256": {
+            "bronze": "444e579ae44e31fc5d40cbd8fbb5df791d5b5c2b05ccaf934023092d55389a7e"
+          }
+        },
+        {
+          "id": "bld_orc_house_ancient_iron_v0",
+          "evidence_sha256": "981f27b5efab524906ae8f8cbbe643c515664d7418f04e154cf9974fa5c77fd2",
+          "observations": "The red end of the saddle roof rises above a long dark pitched timber hall. The lifted prow and dipped ridge hold through all LODs even after the little horn finials go. Its roofline immediately separates the two Iron variants.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            492,
+            239,
+            98
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.609,
+            "primary_picture_pair": [
+              "bld_orc_house_ancient_iron_v0",
+              "bld_orc_house_classical_renaissance_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1530
+            ],
+            "max_shared_direction": [
+              "bld_orc_house_ancient_v0",
+              "bld_orc_house_ancient_iron_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/orc_housesancient-01.png": "a6eb8e30ee44da00c30ee11b2203a94847cd1c8abeaccc0ff397b255ef0c43b5",
+            "tools/AssetForge/reviews/rc6/families/orc-House-v0.png": "b4fdcd504a62d12ea24d0352b698eb6b0ef78dd3b4ca4425d19a9012ab35cc30",
+            "tools/AssetForge/reviews/rc6/families/orc-House-v1.png": "fb9be60552dd61a55e3bbab95176d9c7aecddd0797e9ab8cb992c6bea11367a0"
+          },
+          "glb_sha256": "aaf6b46129a46e8708096c7e532e984c9f652bfa62837f18023f03892db7edbe",
+          "age_preview_sha256": {
+            "iron": "46e5d31bb96e5583e4f6988e99cee280719760e83ca56e1a91e75a71d7c91603"
+          }
+        },
+        {
+          "id": "bld_orc_house_ancient_iron_v1",
+          "evidence_sha256": "ac5048d228300cd5f27889a881aadc61aedbfeac883324ea2ade28946c09940b",
+          "observations": "The low front room joins a compact two-storey tower with a protruding window band. The iron-roofed sentinel form remains visible beside the long saddle-roofed Iron v0 at 64 px. The cross-race duplicate was identified on the Saurian variant for revision.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            492,
+            222,
+            116
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.628,
+            "primary_picture_pair": [
+              "bld_orc_house_ancient_iron_v1",
+              "bld_orc_house_industrial_v1"
+            ],
+            "max_shared_corners": [
+              0,
+              1530
+            ],
+            "max_shared_direction": [
+              "bld_orc_house_ancient_v1",
+              "bld_orc_house_ancient_iron_v1"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/orc_housesancient-01.png": "a6eb8e30ee44da00c30ee11b2203a94847cd1c8abeaccc0ff397b255ef0c43b5",
+            "tools/AssetForge/reviews/rc6/families/orc-House-v1.png": "fb9be60552dd61a55e3bbab95176d9c7aecddd0797e9ab8cb992c6bea11367a0",
+            "tools/AssetForge/reviews/rc6/families/orc-House-v0.png": "b4fdcd504a62d12ea24d0352b698eb6b0ef78dd3b4ca4425d19a9012ab35cc30"
+          },
+          "glb_sha256": "9e89b0b984269292ff8d1cafd09e70046af13165c7c34c671757a737aa807334",
+          "age_preview_sha256": {
+            "iron": "f0609397e582eb44974d1888a0efdaf7fcfc6efc5113bc67d96b3022bb1c64db"
+          }
+        }
+      ]
     }
   ]
 }

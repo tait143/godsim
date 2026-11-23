@@ -483,6 +483,56 @@
           "defects": []
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_saurian_palisade_classical_v0",
+          "evidence_sha256": "6fc953b3dab86ef5274a0408eb6ba8194896cbbb9914eba560d5318d4fc60e6f",
+          "observations": "A line of pointed stakes approaches an open lintel and a roofed masonry gatehouse. The blocky wall posts, entry gap and roofed end tower remain visible at all LODs in both ages, where the older timber barrier had a central gateway.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            835,
+            475,
+            235
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.522,
+            "primary_picture_pair": [
+              "bld_saurian_palisade_ancient_v0",
+              "bld_saurian_palisade_classical_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              3882
+            ],
+            "max_shared_direction": [
+              "bld_saurian_palisade_ancient_v0",
+              "bld_saurian_palisade_classical_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_military-01.png": "c0105b9d06e9f977f5e32c5356fd3870fffe34ff5aed1a9390bbba4a90383df1",
+            "tools/AssetForge/reviews/rc6/families/saurian-Palisade-v0.png": "13df76ac20229eea54955ffc771e92efa60d02f503a16bf535fba52d99a1a1fd"
+          },
+          "glb_sha256": "ffd2da8ae22884375ddf04fba81bb2aba74aefe9227e400faa11d3f9fc9cf44f",
+          "age_preview_sha256": {
+            "classical": "1f9b846095f2b59fc57a10ccc5dc7af0c0cb0d2e0026c9c146a29e6ba5a37917",
+            "medieval": "c9dfed81f8d366362dacc590beb179efb46689fec75e36655cc08013aa59cfee"
+          }
+        }
+      ]
     }
   ]
 }

@@ -37,7 +37,11 @@ SUPPLEMENT = {
 
 
 def serialized_level(entry, level=0):
-    doc, binary = gltf.unpack((ROOT / entry["path"]).read_bytes())
+    return decode_level((ROOT / entry["path"]).read_bytes(), level)
+
+
+def decode_level(payload, level):
+    doc, binary = gltf.unpack(payload)
     primitive = doc["meshes"][level]["primitives"][0]
     faces = _access(doc, binary, primitive["indices"], 5123, "SCALAR").reshape(-1,3)
     attrs = primitive["attributes"]
@@ -143,6 +147,10 @@ def check_families(entries):
 
 def level_image(entry, level=0, size=64, *, unpainted=False, yaw=215):
     points, uv = serialized_level(entry, level)
+    return render_level(points, uv, size, unpainted=unpainted, yaw=yaw)
+
+
+def render_level(points, uv, size, *, unpainted, yaw):
     buffer = BytesIO()
     render([SimpleNamespace(p=p) for p in points], buffer, size=size, uv=uv,
            unpainted=unpainted, yaw=yaw)
@@ -173,7 +181,7 @@ def comparison_sheets(entries, directory):
             path=directory/f"{race}-{offset//8+1:02}.png"
             sheet.save(path)
             paths.append(path)
-    return paths + rc4_sheets(entries, directory)
+    return paths + rc4_sheets(entries, directory) + rc6_sheets(entries, directory)
 
 
 def age_span(ages):
@@ -191,6 +199,20 @@ def age_span(ages):
 def rc4_sheets(entries, directory):
     """Give all ten individual Town Center ages their own labelled pair of cameras."""
     scope = {(row[1], row[2], row[3]) for row in json.loads((RC4 / "coordinator_families.json").read_text())}
+    return scoped_sheets(entries,directory,scope,"rc4",2)
+
+
+def rc6_sheets(entries, directory):
+    """Show every affected family, including both house designs, with the two inspection cameras."""
+    from building_pictures import REVIEW, family
+    ids = {i for _,a,b in json.loads((REVIEW/"coordinator-pairs.json").read_text()) for i in (a,b)}
+    screening = json.loads((REVIEW/"screening-input.json").read_text())
+    ids.update(row[k] for row in screening["pairs"] for k in ("a","b"))
+    scope = {family(e) for e in entries if e["id"] in ids}
+    return scoped_sheets(entries,directory,scope,"rc6",4)
+
+
+def scoped_sheets(entries,directory,scope,prefix,round_number):
     families = catalog_families(entries)
     paths = []
     for race in RACES:
@@ -198,12 +220,13 @@ def rc4_sheets(entries, directory):
         for key, family in families.items():
             if key[0] == race and key in scope:
                 for start in range(0, len(family), 5):
-                    rows.append((key[1], family[start:start+5]))
+                    label = f"House v{key[2]}" if prefix=="rc6" and key[1]=="House" else key[1]
+                    rows.append((label, family[start:start+5]))
         for offset in range(0, len(rows), 7):
             page = rows[offset:offset+7]
             sheet = Image.new("L", (823, 38+len(page)*86), 244)
             pen = ImageDraw.Draw(sheet)
-            pen.text((8, 8), f"{race.title()}  |  coordinator round 2  |  unpainted LOD0, two 64 px views", fill=22)
+            pen.text((8, 8), f"{race.title()}  |  coordinator round {round_number}  |  unpainted LOD0, two 64 px views", fill=22)
             for i, (kind, family) in enumerate(page):
                 y = 36+i*86
                 pen.text((8, y+32), kind, fill=22)
@@ -213,7 +236,7 @@ def rc4_sheets(entries, directory):
                     pen.text((x, y), label, fill=45)
                     for camera, yaw in enumerate((215,145)):
                         sheet.paste(level_image(entry, unpainted=True, yaw=yaw), (x+65*camera, y+15))
-            path = directory / f"rc4-{race}-{offset//7+1:02}.png"
+            path = directory / f"{prefix}-{race}-{offset//7+1:02}.png"
             sheet.save(path)
             paths.append(path)
     return paths

@@ -13,6 +13,7 @@ from PIL import Image, ImageDraw, ImageFont
 from building_review import approved_family_sheets, check_entry, director_holds, passing, read_fragment, read_reviews
 from building_scope import AGES, RACES, ROOT, specifications
 from building_eras import check_families, comparison_sheets
+from building_pictures import check_catalog
 from building_surfaces import current as surface_check, refresh as inspect_surfaces, repeated_shapes
 
 
@@ -186,7 +187,7 @@ def retire_obsolete_pages(sheets, packages):
             if path.stem.isdecimal() and path not in current_pages:
                 path.unlink()
     for path in (SHEETS / "era_geometry").glob("*.png"):
-        race, _, page = path.stem.removeprefix("rc4-").rpartition("-")
+        race, _, page = path.stem.removeprefix("rc4-").removeprefix("rc6-").rpartition("-")
         if race in RACES and page.isdecimal() and path not in current_pages:
             path.unlink()
 
@@ -271,7 +272,9 @@ def build(args, models):
             require_regenerated(before)
     inspect_surfaces(models)
     entries = sorted(load_approved(models, args.partial), key=lambda e: e["id"])
-    check_families(entries)
+    corners,_ = check_families(entries)
+    if len(entries)==len(models):
+        check_catalog(entries,corners)
     approved_sheets = approved_family_sheets(entries) if len(entries) == len(models) else None
     lookup = bindings(entries)
     family = family_sheets(entries)

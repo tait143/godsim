@@ -35,6 +35,52 @@ def watch(m,x,z,r,h,entrance=True,small=False,paired_ribs=False):
 
 
 def screen(m,kind):
+    if kind=="Palisade" and m.era==1:
+        # A roofed gate walk surmounts a real passage. The two thorn fences
+        # fold back from its abutments to make a shallow defensive forecourt.
+        for s in (-1,1):
+            x=s*.26
+            m.lathe(x,.035,.11,.27,[(0,1,'fieldstone'),(.23,1.04,'wall'),(1.02,.79,'trim')])
+            if m.lod==2:
+                # A continuous pointed screen survives reduction better than
+                # separated stakes. The repeated peaks follow the bend in plan.
+                with m.transform(scale=(s,1,1)):
+                    rings=[]
+                    for i in range(11):
+                        u=i/10
+                        px=.283+.631*u
+                        pz=.100+.417*u
+                        h=.64-.239*u+(.207 if i%2 else 0)
+                        rings.append([(px,0,pz-.059),(px,0,pz+.073),
+                                      (px+.021,h,pz+.018),(px+.021,h,pz-.06)])
+                    for a,b in zip(rings,rings[1:]):
+                        for j in range(4):
+                            k=(j+1)%4
+                            m.quad(a[j],b[j],b[k],a[k],WHITE,'trim' if j==2 else m.bark)
+                    m.poly(rings[0],WHITE,m.bark)
+                    m.poly(rings[-1][::-1],WHITE,m.bark)
+                continue
+            for i in range((5,4,3)[m.lod]):
+                u=i/((5,4,3)[m.lod]-1)
+                px=s*(.367+.495*u)
+                z=.138+.381*u
+                h=.83-.41*u
+                m.stem([(px,.026,z),(px+s*.014,h*.68,z-.052),(px+s*.072,h,z-.13)],
+                       [.085,.061,.008],m.bark,sides=(7,5,4)[m.lod])
+            for y in (.14,.363):
+                m.bar((s*.293,y,.09),(s*.889,y-.072,.491),.047,'trim')
+        m.box((0,1.011,.035),(.68,.12,.52),WHITE,material='trim',bottom=True)
+        for x in (-.249,.249):
+            for z in (-.13,.21):
+                m.bar((x,1.057,z),(x,1.403,z),.036,'wall')
+        m.hood(0,1.379,.033,.386,.355,.50)
+        for z in ((-.16,.235) if m.lod<2 else (-.16,)):
+            m.bar((-.278,1.166,z),(.278,1.166,z),.038,'accent')
+        if m.lod<2:
+            for x in (-.25,.25):
+                m.lamp(x,.78,-.214,.069)
+            m.leaf((0,1.811,.039),(-.094,2.009,.09),.054)
+        return
     if kind=="StoneWall" and m.era==2:
         # Buttressed double bastion with an inset guard passage between the rounded salients.
         for side in (-1,1):

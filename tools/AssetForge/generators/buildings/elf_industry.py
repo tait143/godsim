@@ -54,6 +54,57 @@ def ingots(m,x,z,role):
 
 
 def smith(m):
+    if m.era==1:
+        # The smith works in an open arcade. Two arched frames hold the curved
+        # smoke roof while the anvil stands in sunlight beyond the bellows.
+        for x in (-.38,.12):
+            with m.transform(translate=(x,0,.092),rotate_y=90):
+                arch(m,0,0,0,.61,.70,.10,'wall')
+        with m.transform(translate=(-.13,0,.092),rotate_y=90):
+            gable(m,0,.58,0,.72,.92,.36)
+        m.disk('fieldstone',-.12,0,.105,.265,.177,.215,.86)
+        m.disk('forge',-.12,.215,.105,.185,.121,.027)
+        block(m,'brick',(-.12,.288,.218),(.44,.355,.10))
+        for dx in (-.09,.09):
+            m.lump('hide',(-.674,.229+dx*.28,.11+dx),(.157,.091,.097))
+        shaft(m,'timber',(-.68,.112,.11),(-.68,.228,.11),.073)
+        shaft(m,'trim',(-.65,.235,.11),(-.315,.217,.11),.041,.019)
+        m.disk('timber',.53,0,-.112,.164,.14,.244,.84)
+        block(m,'metal',(.53,.285,-.112),(.182,.091,.139),.17)
+        block(m,'metal',(.51,.355,-.112),(.308,.059,.154))
+        shaft(m,'metal',(.656,.35,-.112),(.814,.363,-.112),.051,.008)
+        if m.lod<2:
+            m.leaf('trim',(-.13,.912,.093),(-.32,1.006,.126),.054,.049)
+            ingots(m,.51,.204,'metal')
+        if m.lod==0:
+            m.pot(-.477,0,-.227,.073,'flower')
+        return
+    if m.era==3:
+        # The magnetic drop forge carries the upper die in a fork of silverwood.
+        x=.21
+        m.disk('ivory',x,0,.035,.426,.329,.112,.94)
+        for s in (-1,1):
+            m.limb('ivory',[(x+s*.31,.088,.078),(x+s*.38,.442,.093),
+                            (x+s*.28,.843,.092),(x+s*.075,1.05,.093)],
+                   [.094,.087,.067,.060],(10,7,4)[m.lod])
+        m.disk('accent',x,.936,.093,.139,.134,.146,.82)
+        m.disk('glass',x,.614,.093,.067,.063,.325,.78)
+        block(m,'metal',(x,.610,.093),(.235,.114,.173),.20)
+        m.disk('metal',x,.111,.074,.158,.129,.229,.79)
+        block(m,'ivory',(x,.354,.074),(.251,.048,.191))
+        for i in range(3 if m.lod<2 else 2):
+            m.disk('accent',x,.70+i*.072,.093,.086,.081,.026,.98)
+        m.disk('metal',-.52,0,.005,.259,.192,.09,.94)
+        m.lump('glass',(-.52,.181,.005),(.229,.153,.162))
+        m.leaf('ivory',(-.713,.076,.042),(-.31,.232,.094),.095,.14)
+        m.limb('trim',[(-.329,.13,.07),(-.207,.177,.08),(-.094,.177,.08)],[.053,.047,.047])
+        if m.lod<2:
+            for s in (-1,1):
+                m.leaf('glass',(x+s*.353,.378,.098),(x+s*.375,.69,.166),.056,.035)
+            ingots(m,.564,-.219,'metal')
+        if m.lod==0:
+            m.lump('forge',(x,.406,.063),(.077,.032,.058))
+        return
     m.hall(-.34,0,.098,.31,.275,.40+.044*m.era,.306)
     kiln(m,.358,.117,.194,.66+.138*m.era)
     # The asymmetric beak, squared table and waist are distinct from a smelting pot.
@@ -72,6 +123,69 @@ def smith(m):
 
 
 def smelter(m):
+    if m.era==0:
+        # Paired clay bowl furnaces. The bellows shelter has a half-open leaf
+        # canopy, exposing its leather lungs and the two fired-clay nozzles.
+        for x,z,r in ((-.28,-.134,.255),(.39,.051,.217)):
+            m.disk('fieldstone',x,0,z,r*1.12,r*.93,.089,.95)
+            m.disk('wall',x,.085,z,r,r*.87,r*.86,1.13)
+            m.disk('brick',x,.083+r*.86,z,r*1.14,r*.99,.067,.93)
+            m.disk('door',x,.148+r*.86,z,r*.91,r*.79,.009)
+            m.disk('forge',x,.156+r*.86,z,r*.69,r*.59,.009)
+            m.portal(x,.039,z-r*.86,r*.88,.147,'forge')
+            if m.lod<2:
+                m.limb('wall',[(x,.149,z+r*.68),(x-.05,.205,.164),(x-.066,.204,.274)],[.046,.042,.032])
+                for i in range(4 if m.lod==0 else 2):
+                    a=TAU*i/4+.29
+                    m.lump('door',(x+r*.79*math.cos(a),.158+r*.86,z+r*.67*math.sin(a)),
+                           (r*.16,r*.078,r*.141),5)
+        for x in (-.644,-.108):
+            shaft(m,'timber',(x,.003,.278),(x+.019,.624,.275),.055,.035)
+        shaft(m,'trim',(-.648,.615,.275),(-.055,.615,.275),.039)
+        m.leaf('hide',(-.686,.59,.287),(.033,.658,.281),.199,.115)
+        m.lump('hide',(-.381,.212,.265),(.208,.108,.093))
+        block(m,'timber',(-.382,.085,.26),(.232,.170,.12))
+        m.lump('hide',(.333,.199,.308),(.147,.082,.083))
+        block(m,'timber',(.334,.081,.31),(.157,.162,.106))
+        if m.lod<2:
+            shaft(m,'trim',(.342,.255,.309),(.507,.314,.384),.022,.015)
+        if m.lod==0:
+            ingots(m,.62,-.22,'trim')
+        return
+    if m.era==3:
+        # Three closed reduction chambers share a hot hearth. Staggered crowns
+        # carry recuperators, and the tap drops into an inclined refractory
+        # launder terminating at a flat ingot mould.
+        block(m,'metal',(-.20,.162,.102),(1.13,.324,.513),.09)
+        for x,z,r,h in ((-.48,.086,.208,.91),(-.087,.169,.201,1.18),(.265,.101,.158,.763)):
+            m.disk('ivory',x,.27,z,r,r*.88,h*.51,.84)
+            m.disk('glass',x,.265+h*.51,z,r*.88,r*.77,h*.16,.91)
+            m.disk('metal',x,.261+h*.67,z,r*.84,r*.74,h*.095,.98)
+            m.crown(x,.255+h*.765,z,r*.86,r*.76,h*.18,'ivory',4)
+            if m.lod<2:
+                for side in (-1,1):
+                    m.leaf('accent',(x+side*r*.70,.337,z-.043),
+                           (x+side*r*.82,.26+h*.71,z+.024),r*.143,.05)
+        for x,y,px,py in ((-.47,.75,-.09,.878),(-.094,.802,.267,.673)):
+            m.limb('trim',[(x,y,.141),(x+.045,y+.126,.154),
+                            (px-.046,py+.102,.164),(px,py,.160)],[.047,.042,.037,.046],
+                   (8,5,4)[m.lod])
+        block(m,'metal',(-.465,.276,-.151),(.247,.214,.119),.16)
+        m.portal(-.465,.204,-.213,.203,.158,'forge')
+        m.limb('forge',[(-.462,.302,-.217),(-.462,.284,-.246),(-.426,.251,-.261)],
+               [.046,.042,.034],(8,5,4)[m.lod])
+        with m.transform(translate=(.047,.130,-.26),rotate_z=-8):
+            block(m,'metal',(0,0,0),(1.015,.097,.170))
+            block(m,'forge',(0,.053,0),(1.004,.018,.105))
+            for s in (-1,1):
+                block(m,'ivory',(0,.066,s*.077),(1.014,.052,.028))
+        for px,h in ((-.33,.126),(.313,.037)):
+            block(m,'trim',(px,h*.5,-.260),(.14,h,.185))
+        block(m,'metal',(.687,.041,-.258),(.284,.082,.246),.08)
+        block(m,'forge',(.689,.084,-.258),(.211,.015,.169))
+        if m.lod==0:
+            ingots(m,.682,.084,'metal')
+        return
     h=(.88,1.04,1.16,1.22)[m.era]
     kiln(m,-.17,.061,.317,h,True)
     # Pouring spout runs down into a broad casting basin.
@@ -220,6 +334,54 @@ def shield(m,x,y,z,w,h,role):
 
 
 def armory(m):
+    if m.era==1:
+        # Fan-vaulted armament bays. Three roof leaves spring from one crown
+        # into separate arches, with the bucklers and bows kept below their eaves.
+        for i,(x,z) in enumerate(((-.491,.098),(0,-.073),(.497,.105))):
+            m.disk('fieldstone',x,0,z,.281,.230,.086,.95)
+            arch(m,x,.081,z+.061,.468,.504,.125,'wall')
+            shaft(m,'trim',(x,.47,z+.06),(x*.89,.852,z+.025),.055,.042)
+            m.leaf('leaf' if i==1 else 'roof',(.004,.862,.324),
+                   (x*1.62,.587,z-.261),.265 if i==1 else .226,.147)
+            shaft(m,'trim',(x-.125,.083,z+.008),(x-.125,.396,z+.008),.033)
+            shaft(m,'trim',(x-.173,.374,z+.006),(x+.149,.374,z+.005),.036)
+            shield(m,x-.048,.287,z-.052,.201,.279,'banner' if i!=1 else 'metal')
+            if m.lod<2:
+                m.limb('timber',[(x+.113,.10,z-.012),(x+.170,.255,z+.012),
+                                (x+.123,.437,z-.008)],[.013,.019,.013],5)
+                shaft(m,'trim',(x+.113,.10,z-.012),(x+.123,.437,z-.008),.006)
+        m.limb('trim',[(0,.012,.278),(.003,.217,.291),(.006,.587,.309),(.004,.866,.324)],
+               [.135,.111,.079,.057],(10,7,4)[m.lod])
+        if m.lod==0:
+            m.pot(-.727,0,-.083,.065,'flower')
+        return
+    if m.era==2:
+        # An iron vault carries its armour-issue gallery in the open long wall.
+        # The transverse shell ribs frame three fitted shields on separate stands.
+        block(m,'fieldstone',(-.069,.050,.063),(1.385,.10,.608),.05)
+        block(m,'brick',(-.07,.231,.111),(1.30,.263,.474))
+        with m.transform(translate=(-.071,.356,.109),scale=(.681,.303,.279)):
+            m.dome((0,0,0),1,m.color('metal'),rings=(5,3,2)[m.lod],
+                   segments=(20,12,8)[m.lod],material='metal')
+        for px in (-.527,-.074,.391):
+            block(m,'trim',(px,.309,-.124),(.092,.42,.117))
+            shield(m,px,.278,-.195,.275,.298,'metal' if px<0 else 'banner')
+            if m.lod<2:
+                block(m,'ivory',(px,.131,-.168),(.305,.053,.101))
+        m.disk('brick',.67,0,.089,.130,.134,.625,.88)
+        m.disk('trim',.67,.617,.089,.139,.146,.066)
+        if m.lod<2:
+            for px in (-.366,.205):
+                factor=math.sqrt(1-((px+.071)/.681)**2)
+                path=[(px,.356+.303*factor*math.sin(a),.109+.279*factor*math.cos(a))
+                      for a in [math.pi*j/8 for j in range(9)]]
+                m.limb('trim',path,[.025]*len(path),(6,4)[m.lod])
+            for s in (-1,1):
+                m.leaf('trim',(-.09,.605,.102),(-.09+s*.45,.52,.105),.045,.055)
+            m.portal(-.588,.123,-.131,.108,.173)
+        if m.lod==0:
+            m.limb('trim',[(.562,.457,.115),(.596,.525,.111),(.673,.523,.108)],[.04,.035,.035])
+        return
     # Paired armour vaults share a low spine; a rack of leaf-shaped bucklers marks the entrance.
     m.hall(-.33,0,.088,.339,.287,.352+.063*m.era,.341)
     m.hall(.231,0,.135,.248,.212,.319+.033*m.era,.205)

@@ -836,6 +836,46 @@
           }
         }
       ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_human_gold_mine_industrial_v0",
+          "evidence_sha256": "280c46c7294024cd26d6f343455a2a42b9770d13dfdaee65d1bd4f72e3423844",
+          "observations": "A tall steel headframe and wheel rise over a processing yard with a loaded cart on parallel tracks. Both sides expose its paired frame legs and raised bucket, unlike the older timber hoists. The far mesh keeps the metal headframe, cart on rails and ore-working mound.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1011,
+            576,
+            311
+          ],
+          "serialized_sha256": "ae38c36f2100717efd7d6df95b2b876f57ee780116148b4feacf821b32d2bec1",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_extraction-01.png",
+            "rc6/families/human-GoldMine-v0.png"
+          ]
+        }
+      ]
     }
   ]
 }

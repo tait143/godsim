@@ -672,6 +672,80 @@
           }
         }
       ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_human_aqueduct_classical_v0",
+          "evidence_sha256": "a2a31f611dfc4bba52f6ae108ac3a367cb11ec0d53398f9b3872d4ea0590e51d",
+          "observations": "An elevated inlet drops through a stone transfer tower to a lower outgoing trough. Water is visible at both heights in every palette. From either side the change of level and its tower differ from the sibling straight trestles. LOD2 keeps the landing, piers and trough.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            604,
+            352,
+            182
+          ],
+          "serialized_sha256": "d32a353e303116892fcab291dd09e8567faddd12e0a30d289caa185fdad4620f",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_infrastructure-01.png",
+            "rc6/families/human-Aqueduct-v0.png"
+          ]
+        },
+        {
+          "id": "bld_human_storehouse_classical_v0",
+          "evidence_sha256": "cdb8044bfeda0f4729f6d7d5fef7d4b65397a71dc200128fe9cdcc97c2f7a023",
+          "observations": "A tall hipped hoist tower and a low, separately roofed loading shed form an uneven two-wing yard. Front and reverse views show the cargo in the tower opening and under the supported canopy. Both roofs, the opening and the low cargo bay remain visible at LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            550,
+            252,
+            154
+          ],
+          "serialized_sha256": "1fe31c18270659e6d010f5b63bc2d0a8b552f56ce169f0c2ed81bb2d94dc1d39",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_infrastructure-01.png",
+            "rc6/families/human-Storehouse-v0.png"
+          ]
+        }
+      ]
     }
   ]
 }

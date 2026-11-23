@@ -6,6 +6,7 @@ import sys
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
 from generators.buildings.saurian_housesancient import Dwelling, publish_houses
+from generators.buildings.saurian_delta_dwellings import information_loft
 
 PACKAGE='saurian_houseslate'
 
@@ -270,7 +271,7 @@ def ascension(m):
 
 def build(spec,lod):
     m=Dwelling(spec,lod)
-    {'industrial':industrial,'modern':modern,'information':information,
+    {'industrial':industrial,'modern':modern,'information':information if m.variant else information_loft,
      'ascension':ascension}[m.age](m)
     return m
 

@@ -551,6 +551,153 @@
           ]
         }
       ]
+    },
+    {
+      "round": 5,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_saurian_forum_future_v0",
+          "evidence_sha256": "1583f75bfe40951cac352a08cca59c13a964e37b5a8a27e378dbaf16d7087b70",
+          "observations": "The crescent canopy on tall piers encloses a lectern and an arc of turquoise seats at both detailed levels. LOD2 retains the lectern under an otherwise empty canopy. From behind, all the audience seating vanishes at once.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 83,
+            "construction": 86,
+            "charm": 91,
+            "colour": 95,
+            "technical": 95
+          },
+          "defects": [
+            "Retain the arc of public seating at LOD2 with simple solid bench blocks under the crescent canopy. Check through the open side and from the opposite side."
+          ],
+          "lod_triangles": [
+            1004,
+            572,
+            265
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.468,
+            "primary_picture_pair": [
+              "bld_saurian_forum_future_v0",
+              "bld_saurian_forum_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              3519
+            ],
+            "max_shared_direction": [
+              "bld_saurian_forum_classical_v0",
+              "bld_saurian_forum_future_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_culturecivic-01.png": "1c39cf6106dc1d64a8d5126d5c0c348b0a3a3f859ce82ea8e6e66be8a588c198",
+            "tools/AssetForge/reviews/rc6/families/saurian-Forum-v0.png": "cf0299d86dc3f89b2c9202399b480ff4208b7fee2e608546e35510a3231c4799"
+          },
+          "glb_sha256": "28c43f612054072b79a652d22d20e5986a46237e57ab2bc64c8890b24f93a32b",
+          "age_preview_sha256": {
+            "information": "44fa1e6b94e1dfb4af7e71430e32efa55547e6cb4a8539a4b6affe6c6e025232",
+            "ascension": "962638e9c7086f7c063941573c12fe8f7a10d82a53584b489cd0955af9d9c21c"
+          }
+        },
+        {
+          "id": "bld_saurian_forum_industrial_v0",
+          "evidence_sha256": "d74aa5905bf9cfee8034f0ee4658196f4a50d07a25becceeb09db0ed0f550915",
+          "observations": "Facing banks of ochre benches frame a small civic platform, with a roofed podium tower at its end. The long opposing rows and public circulation space remain at the last LOD in both age treatments.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            900,
+            514,
+            244
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.61,
+            "primary_picture_pair": [
+              "bld_saurian_forum_classical_v0",
+              "bld_saurian_forum_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              3519
+            ],
+            "max_shared_direction": [
+              "bld_saurian_forum_classical_v0",
+              "bld_saurian_forum_industrial_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_culturecivic-01.png": "1c39cf6106dc1d64a8d5126d5c0c348b0a3a3f859ce82ea8e6e66be8a588c198",
+            "tools/AssetForge/reviews/rc6/families/saurian-Forum-v0.png": "cf0299d86dc3f89b2c9202399b480ff4208b7fee2e608546e35510a3231c4799"
+          },
+          "glb_sha256": "e54c618a855198a43887ec30f862253c68fa783a08c037d9f0483bbd74226ee9",
+          "age_preview_sha256": {
+            "industrial": "7d5631b710106fa927792a48ac64553ad7c991dd710798cfcef5a8ca50425874",
+            "modern": "631f90d422049c151e03421e502aa1ee961a1017c5b246b437dd6994ed204d7e"
+          }
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "RC6 independent housing and Saurian civic critic, corrected candidate review",
+      "inspection": "Compared the published painted age previews and family sheets against the original holds and named lookalikes. Rendered both unpainted 64 px views independently from each of the three actual LOD meshes. Inspected the native family cameras and the larger multi-camera LOD sheet. Recomputed same-family picture likeness and directional corner overlap, checked the fragment against the GLB and verified all three serialized levels for exposed coplanar faces and inverted shells.",
+      "models": [
+        {
+          "id": "bld_saurian_forum_future_v0",
+          "evidence_sha256": "ec55f17c2e0e887ce2e4ffa089c9afec0d50b1b9130dacdb8bde4a287179ca1c",
+          "previous_evidence_sha256": "1583f75bfe40951cac352a08cca59c13a964e37b5a8a27e378dbaf16d7087b70",
+          "observations": "Low cyan bench blocks still circle the central lectern at the final reduction, visible between the two main posts and from the reverse corner. The large crescent canopy remains open over the seating in both Information and Ascension finishes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1004,
+            572,
+            315
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.468,
+            "primary_picture_pair": [
+              "bld_saurian_forum_future_v0",
+              "bld_saurian_forum_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              3519
+            ],
+            "max_shared_direction": [
+              "bld_saurian_forum_classical_v0",
+              "bld_saurian_forum_future_v0"
+            ],
+            "specific_comparisons": {}
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_culturecivic-01.png": "40f028328faf175292afedd9a9995a2a25abe87be6a44347254d4821a5d2e37c",
+            "tools/AssetForge/reviews/rc6/families/saurian-Forum-v0.png": "cf0299d86dc3f89b2c9202399b480ff4208b7fee2e608546e35510a3231c4799"
+          },
+          "glb_sha256": "3ed85ee3d56408e83deaddf22fab3fca02971abc9043ef056c53630e68646edf",
+          "age_preview_sha256": {
+            "information": "44fa1e6b94e1dfb4af7e71430e32efa55547e6cb4a8539a4b6affe6c6e025232",
+            "ascension": "962638e9c7086f7c063941573c12fe8f7a10d82a53584b489cd0955af9d9c21c"
+          }
+        }
+      ]
     }
   ]
 }
