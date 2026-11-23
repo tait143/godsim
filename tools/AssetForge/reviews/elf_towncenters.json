@@ -1,0 +1,349 @@
+{
+  "package": "elf_towncenters",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Independent Elf town-center critic",
+      "models": [
+        {
+          "id": "bld_elf_town_center_ancient_v0",
+          "evidence_sha256": "27b015319ca796779c845aebe8273266e3ae8e4e54a3e74b625cf1bbd9da80a9",
+          "observations": "At 48 px the low straw and green roof reads as a woodland shelter. The broad approach competes with the plinth at the same brown value. Both lanterns, forked supports and the council pennon read in the 240 px image. The near green blade breaks up into isolated triangles across the straw in both inspected front renderings. Serialized LOD0/1/2: 1836/1022/374 triangles. The GLB passed the ground, footprint, shared-material, atlas-UV and normal checks. Welded-edge orientation and closed-component volume checks found no reversed shells.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 89,
+            "construction": 93,
+            "charm": 91,
+            "colour": 86,
+            "technical": 98
+          },
+          "defects": [
+            "Give the Dawn council a public landmark that reads above the broad hut roof at 48 px, such as a paired living-bough entry frame with a broad leaf-green council standard. Separate the landing edge from the wall in value.",
+            "The pale substrate punches through the near green roofing blade. Reprofile or locally recess the underlying thatch so that the graft has one continuous margin under the normal camera. Check the opposite side and all three LODs.",
+            "The backs of the three stair solids share z = -0.35. Their 0.064-tile height against a 0.062-tile rise creates two same-facing coplanar strips, confirmed on the serialized geometry in all three LODs. These sit inside the footing. Set each height equal to its rise or remove the buried back quads."
+          ]
+        },
+        {
+          "id": "bld_elf_town_center_ancient_bronze_v0",
+          "evidence_sha256": "bcc85007c2663e62cb3037020454536b65ff0b6ba486ae9eec6960207f7a8cfe",
+          "observations": "The raised ochre council chamber and small metal bud rise cleanly above the broad green canopy. The clay drum, copper-coloured foot and lanterns separate at phone size. Rear and lower-detail views retain the second chamber. The arched front opening and three steps face -Z. Serialized LOD0/1/2: 2011/1107/404 triangles. The GLB passed the ground, footprint, shared-material, atlas-UV and normal checks. Welded-edge orientation and closed-component volume checks found no reversed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 98
+          },
+          "defects": [
+            "The backs of the three stair solids share z = -0.35. Their 0.064-tile height against a 0.062-tile rise creates two same-facing coplanar strips, confirmed on the serialized geometry in all three LODs. These sit inside the footing. Set each height equal to its rise or remove the buried back quads."
+          ]
+        },
+        {
+          "id": "bld_elf_town_center_ancient_iron_v0",
+          "evidence_sha256": "70726bbfb39be1d4af7e5ee392fab1d1dfed6698d85e6760599cb491fccd6659",
+          "observations": "The tall green canopy, compact slate side tower and glowing lancets distinguish the Iron hall. The side-tower mass survives LOD2. At the larger size the outboard stone foundations end above terrain on both annexes, although the central hall and stair meet ground. Serialized LOD0/1/2: 2474/1414/514 triangles. The GLB passed the ground, footprint, shared-material, atlas-UV and normal checks. Welded-edge orientation and closed-component volume checks found no reversed shells.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 94,
+            "construction": 85,
+            "charm": 91,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "The round side chambers' first masonry rings start 0.04 tile above the ground. Their outboard edges extend past the main footing, leaving an unsupported strip underneath. Extend both footings to y = 0, preserving the top elevation and existing doorway approach.",
+            "The backs of the three stair solids share z = -0.35. Their 0.064-tile height against a 0.062-tile rise creates two same-facing coplanar strips, confirmed on the serialized geometry in all three LODs. These sit inside the footing. Set each height equal to its rise or remove the buried back quads."
+          ]
+        },
+        {
+          "id": "bld_elf_town_center_classical_v0",
+          "evidence_sha256": "2c92789c32ec9e0d995ee335259377fbc41b107c0e1b0264fc340882d1b03d12",
+          "observations": "The pale columned rotunda and shallow green canopy separate clearly at 48 px. A golden roof boss, two sprouting boughs and hanging pods break the symmetry. Both the tall shafts and their supported entablature survive the silhouette LOD. Serialized LOD0/1/2: 1991/1203/442 triangles. The GLB passed the ground, footprint, shared-material, atlas-UV and normal checks. Welded-edge orientation and closed-component volume checks found no reversed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 98
+          },
+          "defects": [
+            "The backs of the three stair solids share z = -0.35. Their 0.064-tile height against a 0.062-tile rise creates two same-facing coplanar strips, confirmed on the serialized geometry in all three LODs. These sit inside the footing. Set each height equal to its rise or remove the buried back quads."
+          ]
+        },
+        {
+          "id": "bld_elf_town_center_classical_medieval_v0",
+          "evidence_sha256": "67824655b576c9765154c0ba716b71606079c1b4d827a3c2f35c8393e79cd330",
+          "observations": "The tall green belfry cap, dark slate middle roof and lower slate annex read as three masses at 48 px. The warm lancets mark the side chapel and the forked trunk frames the main stair. The outboard side of the chapel stands clear of the main footing on a base that stops above terrain. Serialized LOD0/1/2: 2355/1327/466 triangles. The GLB passed the ground, footprint, shared-material, atlas-UV and normal checks. Welded-edge orientation and closed-component volume checks found no reversed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 95,
+            "construction": 85,
+            "charm": 92,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "The round side chamber's first masonry ring starts 0.04 tile above the ground. Its outboard edge extends past the main footing, leaving an unsupported strip underneath. Extend its footing to y = 0, preserving the top elevation and existing doorway approach.",
+            "The backs of the three stair solids share z = -0.35. Their 0.064-tile height against a 0.062-tile rise creates two same-facing coplanar strips, confirmed on the serialized geometry in all three LODs. These sit inside the footing. Set each height equal to its rise or remove the buried back quads."
+          ]
+        },
+        {
+          "id": "bld_elf_town_center_classical_renaissance_v0",
+          "evidence_sha256": "f6af484bfe7dbc151ac3b40a64b6888e259f5f34c47e9df853a6bf8419ab5c8d",
+          "observations": "The warm terracotta dome, pale arcaded annex and green roof bud read readily in the age sequence. At 240 px the gilt longitudinal dome ribs emerge and disappear along the near slopes. The side chamber has a raised outboard footing. Serialized LOD0/1/2: 2384/1426/474 triangles. The GLB passed the ground, footprint, shared-material, atlas-UV and normal checks. Welded-edge orientation and closed-component volume checks found no reversed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 85,
+            "charm": 92,
+            "colour": 89,
+            "technical": 96
+          },
+          "defects": [
+            "Several longitudinal gilt ribs disappear into the terracotta dome halfway down. Follow the tessellated dome's surface with one consistently projecting bead, or omit the broken strips and use a continuous cornice accent.",
+            "The round side chamber's first masonry ring starts 0.04 tile above the ground. Its outboard edge extends past the main footing, leaving an unsupported strip underneath. Extend its footing to y = 0, preserving the top elevation and existing doorway approach.",
+            "The backs of the three stair solids share z = -0.35. Their 0.064-tile height against a 0.062-tile rise creates two same-facing coplanar strips, confirmed on the serialized geometry in all three LODs. These sit inside the footing. Set each height equal to its rise or remove the buried back quads."
+          ]
+        },
+        {
+          "id": "bld_elf_town_center_industrial_v0",
+          "evidence_sha256": "8eb83c5be2f5b5f1af8e139359bc977dd97914129a7195f31b41806439f2e94b",
+          "observations": "Two cuffed stacks rise from an attached brick boiler wing. The charcoal canopy and bark-framed entry preserve the Elf silhouette at 48 px. The near green graft is perforated by triangular charcoal islands, particularly beside the taller chimney. The outer boiler drum starts above the ground. Serialized LOD0/1/2: 1968/1062/462 triangles. The GLB passed the ground, footprint, shared-material, atlas-UV and normal checks. Welded-edge orientation and closed-component volume checks found no reversed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 85,
+            "charm": 92,
+            "colour": 87,
+            "technical": 96
+          },
+          "defects": [
+            "Lower the boiler wing's outer brick base from 0.04 tile to ground, extending its existing barrel while preserving its top and stack seats.",
+            "Reprofile the green graft or recess the steel surface beneath it until its leaf-shaped perimeter and midrib read continuously beside the chimney. Check the front and rear views.",
+            "The backs of the three stair solids share z = -0.35. Their 0.064-tile height against a 0.062-tile rise creates two same-facing coplanar strips, confirmed on the serialized geometry in all three LODs. These sit inside the footing. Set each height equal to its rise or remove the buried back quads."
+          ]
+        },
+        {
+          "id": "bld_elf_town_center_industrial_modern_v0",
+          "evidence_sha256": "2fd8407bbc4641b939ce1da2ca3c45812a54d6b49b5e3f451d8beff7c3fcc4fb",
+          "observations": "The horizontal blue glazing under a pale shell clearly introduces Modern materials. The separate green blade above it makes a strong profile. Its support is nearly hidden behind the shell from the front at 48 px, so the blade reads detached. The glass terrace's concrete foot also starts above terrain. Serialized LOD0/1/2: 1658/920/386 triangles. The GLB passed the ground, footprint, shared-material, atlas-UV and normal checks. Welded-edge orientation and closed-component volume checks found no reversed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 83,
+            "charm": 91,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Expose a clear structural junction under the green upper blade at the normal camera: widen or fork its short supporting rib, or bring a short length of the blade down to meet the lower shell. Preserve the lifted outer tip.",
+            "Extend the outboard terrace's concrete foot from y = 0.04 down to ground while retaining the top elevation beneath the glazing.",
+            "The backs of the three stair solids share z = -0.35. Their 0.064-tile height against a 0.062-tile rise creates two same-facing coplanar strips, confirmed on the serialized geometry in all three LODs. These sit inside the footing. Set each height equal to its rise or remove the buried back quads."
+          ]
+        },
+        {
+          "id": "bld_elf_town_center_future_v0",
+          "evidence_sha256": "aeba52c37dca0bfc4cb22e458bfbefe6f7b1fa5e0f0c35cfe6ef27b4848a4bae",
+          "observations": "The stepped glass crown, cyan belt and antenna establish the Information age at phone size. The lower ring of green leaves, bark-framed doorway, pennon and cyan entrance pods retain the Elf identity. The roof-to-glass joint and tier heights remain legible in the lower LODs. Serialized LOD0/1/2: 1941/1129/552 triangles. The GLB passed the ground, footprint, shared-material, atlas-UV and normal checks. Welded-edge orientation and closed-component volume checks found no reversed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 98
+          },
+          "defects": [
+            "The backs of the three stair solids share z = -0.35. Their 0.064-tile height against a 0.062-tile rise creates two same-facing coplanar strips, confirmed on the serialized geometry in all three LODs. These sit inside the footing. Set each height equal to its rise or remove the buried back quads."
+          ]
+        },
+        {
+          "id": "bld_elf_town_center_future_ascension_v0",
+          "evidence_sha256": "bca74e6d77cfb0dd2ad228340f021a78f9ecbfe5d2fd457072ef13b5d060d6b8",
+          "observations": "The gold halo has a clean opening above the luminous cyan seed at 48 px. Gold arms rise continuously from the chamber to the ring in front and reverse views. The pearl faceted roof and green graft balance the saturated crown. Ring, seed and approach survive in LOD2. Serialized LOD0/1/2: 2077/1203/530 triangles. The GLB passed the ground, footprint, shared-material, atlas-UV and normal checks. Welded-edge orientation and closed-component volume checks found no reversed shells.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 98
+          },
+          "defects": [
+            "The backs of the three stair solids share z = -0.35. Their 0.064-tile height against a 0.062-tile rise creates two same-facing coplanar strips, confirmed on the serialized geometry in all three LODs. These sit inside the footing. Set each height equal to its rise or remove the buried back quads."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Lead agent, independent of the Elf Town Centers builder",
+      "inspection": "Opened all ten individual PNGs, the 48 px contact sheet and the 40-view sheet rendered directly from exported LODs. Revalidated each GLB. All 30 LODs have zero co-oriented coplanar overlaps. Inspected the revised stair rise, Y=0 annex foundations and metal wishbone.",
+      "lod_sheet": "tools/AssetForge/previews/_sheets/package/elf_towncenters/round-2-lods.png",
+      "models": [
+        {
+          "id": "bld_elf_town_center_ancient_bronze_v0",
+          "evidence_sha256": "4e05597291bcf57a004e2883898eef0745d35d486cd9b69c546262e6ee27dfac",
+          "observations": "The offset copper-tipped chamber reads above the first canopy even at 48 px. The terracotta drum, green canopy and paired honey-coloured pods separate into three clear values. The stairs abut the landing cleanly on the revised mesh.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_town_center_ancient_iron_v0",
+          "evidence_sha256": "5e4440f3c9f6e7e934408f83e8ef7af91af2fdb8306e351ab7c4185ed87490f1",
+          "observations": "The slate-capped outboard chamber creates a dark upright accent beside the broad living canopy. The orange lancets identify the entrance side. The annex masonry reaches the ground on both sides, including the reverse view and silhouette LOD.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_town_center_ancient_v0",
+          "evidence_sha256": "0659d9859ebb3828119690755864d23577dea677ac9b7e61d1027aaa143beaac",
+          "observations": "The broad seed standard and the two gate trunks now make a public entrance visible at 48 px. The cool stair separates from the brown wall. At front and back the green roof panels present complete blades beside the straw wedges. The gate frame persists through the silhouette LOD.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_town_center_classical_medieval_v0",
+          "evidence_sha256": "31bcb7eadae340cdb2d9fff5d24b02980bd75f99cc4a855e4599e3ae2031a348",
+          "observations": "The little belfry, slate canopy and annex form three distinct roof heights. The external corner of the lit chapel now bears on a continuous stone ring. The crown and main doorway stay legible at the smallest size.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_town_center_classical_renaissance_v0",
+          "evidence_sha256": "3fd255d596bd8aab7a7cfd4f94eb8e4001c3104c29419a60d8b61b462ab163a2",
+          "observations": "The uninterrupted terracotta dome terminates in a continuous gold cornice. The pale side chamber rests on its widened stone plinth. The leaf roofs on the cupola and annex connect this silhouette to earlier Elf buildings.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_town_center_classical_v0",
+          "evidence_sha256": "7e36091704c9079f035904f7d2920f5400f40b179931b11e2c76bdf86113df77",
+          "observations": "The pale colonnade supports a shallow leaf parasol, with two boughs rising beyond its edge. The open rhythm between the posts and the front stairs remains readable at 48 px. The three exported levels preserve the rotunda.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_town_center_future_ascension_v0",
+          "evidence_sha256": "4d576ba4ae93d2fb51eaf5bd5285e8809c0513417c2a718fcfc7b88bc6dd213a",
+          "observations": "An open gold ring surrounds a pale-blue seed above the pearl canopy. The forked ring supports remain evident from the front and back. At 48 px the seed, opening and the shaded entry retain their separate shapes.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 95,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_town_center_future_v0",
+          "evidence_sha256": "54da866ab48b414a6963a470e9e4de361375887518bdd09d136a06664d53de58",
+          "observations": "Three narrowing glazed tiers and a cyan crown rise from a compact leaf skirt. Pendant lights and the small standard distinguish the public entry. The tower profile and material bands hold in the lower levels.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_town_center_industrial_modern_v0",
+          "evidence_sha256": "e5733e0285a924d8bc0e721756d4d480cbc140423e81b0fdbf031e69b80029ab",
+          "observations": "The strong V-shaped steel fork now carries the green sail above the white canopy at phone size. A low concrete foot supports the blue terrace. Reverse and lower-detail views preserve the lifted tip and the horizontal glazing.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_town_center_industrial_v0",
+          "evidence_sha256": "23837185490da407e357e1a3c427162d9dbb4212434c5d9d522c994a2970e861",
+          "observations": "The pair of unequal stacks grow out of a grounded brick boiler wing. A continuous green sector crosses the steel roof without holes, visible from both approaches. Tiny lanterns mark the public door below the roof.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_elf_town_center_classical_v0",
+          "evidence_sha256": "732bab62a67b7030f9a29034b4b79f291f3388c06d72c003739543abb314dda9",
+          "observations": "A ring of columns supports a faceted leaf canopy over the civic rotunda. The wide stairs and central dark doorway distinguish the public entrance from the side bays. Highest outgoing family corner share was 198/5973 (3.3%) with bld_elf_town_center_ancient_v0. Checked classical previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1991/1133/442. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

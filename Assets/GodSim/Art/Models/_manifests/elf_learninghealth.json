@@ -1,0 +1,1324 @@
+[
+ {
+  "id": "bld_elf_bathhouse_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Bathhouse",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 808,
+  "lod_triangles": [
+   808,
+   459,
+   207
+  ],
+  "bounds": [
+   [
+    -0.8443679809570312,
+    0.0,
+    -0.764863133430481
+   ],
+   [
+    0.7937999963760376,
+    1.097823977470398,
+    0.6707119941711426
+   ]
+  ],
+  "bytes": 143392,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_bathhouse_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_bathhouse_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_bathhouse_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_bathhouse_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_bathhouse_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_bathhouse_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Bathhouse",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1092,
+  "lod_triangles": [
+   1092,
+   654,
+   281
+  ],
+  "bounds": [
+   [
+    -0.8737679719924927,
+    0.0,
+    -0.8416253924369812
+   ],
+   [
+    0.8191819787025452,
+    1.2791999578475952,
+    0.8358263373374939
+   ]
+  ],
+  "bytes": 189160,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_bathhouse_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_bathhouse_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_bathhouse_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_bathhouse_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_bathhouse_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Bathhouse",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 974,
+  "lod_triangles": [
+   974,
+   442,
+   193
+  ],
+  "bounds": [
+   [
+    -0.7391486167907715,
+    0.0,
+    -0.7663373947143555
+   ],
+   [
+    0.7644000053405762,
+    1.4975999593734741,
+    0.803600013256073
+   ]
+  ],
+  "bytes": 151480,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_bathhouse_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_bathhouse_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_bathhouse_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_bathhouse_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_data_center_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "DataCenter",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1189,
+  "lod_triangles": [
+   1189,
+   677,
+   231
+  ],
+  "bounds": [
+   [
+    -0.76146000623703,
+    0.0,
+    -0.7302960157394409
+   ],
+   [
+    0.6928600072860718,
+    1.518399953842163,
+    0.6601279973983765
+   ]
+  ],
+  "bytes": 206956,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_data_center_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_data_center_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_data_center_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_data_center_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_herbalist_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "elf",
+  "ages": [
+   "bronze",
+   "iron",
+   "dawn"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 930,
+  "lod_triangles": [
+   930,
+   529,
+   279
+  ],
+  "bounds": [
+   [
+    -0.36377599835395813,
+    0.0,
+    -0.3394277095794678
+   ],
+   [
+    0.4214000105857849,
+    0.6118379831314087,
+    0.3590719997882843
+   ]
+  ],
+  "bytes": 169796,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_herbalist_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_herbalist_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_herbalist_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_herbalist_ancient_v0__iron.png",
+   "dawn": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_herbalist_ancient_v0__dawn.png"
+  }
+ },
+ {
+  "id": "bld_elf_herbalist_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 781,
+  "lod_triangles": [
+   781,
+   444,
+   209
+  ],
+  "bounds": [
+   [
+    -0.353192001581192,
+    0.0,
+    -0.31272590160369873
+   ],
+   [
+    0.3675000071525574,
+    0.524399995803833,
+    0.3481940031051636
+   ]
+  ],
+  "bytes": 139696,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_herbalist_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_herbalist_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_herbalist_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_herbalist_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_herbalist_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_herbalist_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1100,
+  "lod_triangles": [
+   1100,
+   627,
+   325
+  ],
+  "bounds": [
+   [
+    -0.3696559965610504,
+    0.0,
+    -0.29635199904441833
+   ],
+   [
+    0.3822000026702881,
+    0.88919997215271,
+    0.324846476316452
+   ]
+  ],
+  "bytes": 195904,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_herbalist_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_herbalist_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_herbalist_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_herbalist_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_herbalist_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 815,
+  "lod_triangles": [
+   815,
+   464,
+   199
+  ],
+  "bounds": [
+   [
+    -0.371616005897522,
+    0.0,
+    -0.28186577558517456
+   ],
+   [
+    0.4066999852657318,
+    0.5988905429840088,
+    0.3508400022983551
+   ]
+  ],
+  "bytes": 143824,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_herbalist_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_herbalist_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_herbalist_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_herbalist_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_hospital_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Hospital",
+  "race": "elf",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1317,
+  "lod_triangles": [
+   1317,
+   750,
+   310
+  ],
+  "bounds": [
+   [
+    -0.8365280032157898,
+    0.0,
+    -0.7447999715805054
+   ],
+   [
+    0.8169280290603638,
+    1.429479956626892,
+    0.7644000053405762
+   ]
+  ],
+  "bytes": 234064,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_hospital_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_hospital_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_hospital_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_hospital_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Hospital",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1364,
+  "lod_triangles": [
+   1364,
+   666,
+   300
+  ],
+  "bounds": [
+   [
+    -0.8157520294189453,
+    0.0,
+    -0.9670057892799377
+   ],
+   [
+    0.8117572069168091,
+    1.4456000328063965,
+    0.7877388596534729
+   ]
+  ],
+  "bytes": 219548,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_hospital_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_hospital_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_hospital_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_hospital_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_hospital_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Hospital",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1416,
+  "lod_triangles": [
+   1416,
+   634,
+   269
+  ],
+  "bounds": [
+   [
+    -0.765802264213562,
+    0.0,
+    -0.6879373788833618
+   ],
+   [
+    0.765802264213562,
+    1.1232000589370728,
+    0.7839999794960022
+   ]
+  ],
+  "bytes": 216640,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_hospital_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_hospital_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_hospital_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_hospital_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_library_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Library",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 636,
+  "lod_triangles": [
+   636,
+   361,
+   163
+  ],
+  "bounds": [
+   [
+    -0.7918400168418884,
+    0.0,
+    -0.6705487370491028
+   ],
+   [
+    0.7251999974250793,
+    1.4200160503387451,
+    0.7363719940185547
+   ]
+  ],
+  "bytes": 109792,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_library_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_library_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_library_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_library_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_library_classical_v0__renaissance.png",
+   "iron": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_library_classical_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_elf_library_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Library",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1164,
+  "lod_triangles": [
+   1164,
+   604,
+   199
+  ],
+  "bounds": [
+   [
+    -0.7877240180969238,
+    0.0,
+    -0.9077144265174866
+   ],
+   [
+    0.7065799832344055,
+    1.4559999704360962,
+    0.6590288281440735
+   ]
+  ],
+  "bytes": 190844,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_library_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_library_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_library_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_library_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_library_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Library",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1181,
+  "lod_triangles": [
+   1181,
+   485,
+   158
+  ],
+  "bounds": [
+   [
+    -0.7078244090080261,
+    0.0,
+    -0.6575800180435181
+   ],
+   [
+    0.8075107336044312,
+    1.1543999910354614,
+    0.7056000232696533
+   ]
+  ],
+  "bytes": 174948,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_library_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_library_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_library_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_library_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_medical_center_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "MedicalCenter",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1275,
+  "lod_triangles": [
+   1275,
+   759,
+   387
+  ],
+  "bounds": [
+   [
+    -0.7545999884605408,
+    0.0,
+    -0.7437623739242554
+   ],
+   [
+    0.7545999884605408,
+    1.5620800256729126,
+    0.7812689542770386
+   ]
+  ],
+  "bytes": 231740,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_medical_center_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_medical_center_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_medical_center_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_medical_center_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_observatory_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Observatory",
+  "race": "elf",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1089,
+  "lod_triangles": [
+   1089,
+   619,
+   347
+  ],
+  "bounds": [
+   [
+    -0.715399980545044,
+    0.0,
+    -0.6025040149688721
+   ],
+   [
+    0.7937999963760376,
+    1.6672899723052979,
+    0.6521490216255188
+   ]
+  ],
+  "bytes": 203760,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_observatory_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_observatory_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_observatory_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_observatory_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Observatory",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1060,
+  "lod_triangles": [
+   1060,
+   592,
+   324
+  ],
+  "bounds": [
+   [
+    -0.7839999794960022,
+    0.0,
+    -0.6293893456459045
+   ],
+   [
+    0.7447999715805054,
+    1.2203158140182495,
+    0.6009246706962585
+   ]
+  ],
+  "bytes": 196760,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_observatory_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_observatory_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_observatory_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_observatory_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_observatory_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Observatory",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 855,
+  "lod_triangles": [
+   855,
+   394,
+   181
+  ],
+  "bounds": [
+   [
+    -0.7722399830818176,
+    0.0,
+    -0.549780011177063
+   ],
+   [
+    0.7364022731781006,
+    1.3770420551300049,
+    0.6881688833236694
+   ]
+  ],
+  "bytes": 138124,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_observatory_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_observatory_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_observatory_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_observatory_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_printworks_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Printworks",
+  "race": "elf",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 746,
+  "lod_triangles": [
+   746,
+   425,
+   179
+  ],
+  "bounds": [
+   [
+    -0.823199987411499,
+    0.0,
+    -0.6284002661705017
+   ],
+   [
+    0.7251999974250793,
+    1.136898398399353,
+    0.7518560290336609
+   ]
+  ],
+  "bytes": 124256,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_printworks_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_printworks_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_printworks_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_printworks_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Printworks",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 696,
+  "lod_triangles": [
+   696,
+   366,
+   135
+  ],
+  "bounds": [
+   [
+    -0.7689943313598633,
+    0.0,
+    -0.9044919610023499
+   ],
+   [
+    0.7223368883132935,
+    1.3929362297058105,
+    0.7544040083885193
+   ]
+  ],
+  "bytes": 116656,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_printworks_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_printworks_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_printworks_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_printworks_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_printworks_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Printworks",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 628,
+  "lod_triangles": [
+   628,
+   349,
+   166
+  ],
+  "bounds": [
+   [
+    -0.7742000222206116,
+    0.0,
+    -0.7919086217880249
+   ],
+   [
+    0.7742000222206116,
+    0.9775999784469604,
+    0.5586000084877014
+   ]
+  ],
+  "bytes": 106728,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_printworks_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_printworks_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_printworks_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_printworks_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_research_lab_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "ResearchLab",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1156,
+  "lod_triangles": [
+   1156,
+   677,
+   279
+  ],
+  "bounds": [
+   [
+    -0.831824004650116,
+    0.0,
+    -0.576632022857666
+   ],
+   [
+    0.6565999984741211,
+    1.2862720489501953,
+    0.6746320128440857
+   ]
+  ],
+  "bytes": 204236,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_research_lab_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_research_lab_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_research_lab_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_research_lab_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_research_lab_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "ResearchLab",
+  "race": "elf",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1156,
+  "lod_triangles": [
+   1156,
+   677,
+   279
+  ],
+  "bounds": [
+   [
+    -0.831824004650116,
+    0.0,
+    -0.576632022857666
+   ],
+   [
+    0.6565999984741211,
+    1.2480000257492065,
+    0.6746320128440857
+   ]
+  ],
+  "bytes": 204416,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_research_lab_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_research_lab_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_research_lab_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_scriptorium_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "elf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 664,
+  "lod_triangles": [
+   664,
+   377,
+   147
+  ],
+  "bounds": [
+   [
+    -0.7530320286750793,
+    0.0,
+    -0.29619723558425903
+   ],
+   [
+    0.861825168132782,
+    0.7142747044563293,
+    0.3758299946784973
+   ]
+  ],
+  "bytes": 119180,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_scriptorium_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_scriptorium_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_scriptorium_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_scriptorium_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 990,
+  "lod_triangles": [
+   990,
+   550,
+   272
+  ],
+  "bounds": [
+   [
+    -0.7757965922355652,
+    0.0,
+    -0.274399995803833
+   ],
+   [
+    0.7350000143051147,
+    0.5130000114440918,
+    0.32829999923706055
+   ]
+  ],
+  "bytes": 172400,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_scriptorium_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_scriptorium_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_scriptorium_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_scriptorium_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_scriptorium_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_scriptorium_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1259,
+  "lod_triangles": [
+   1259,
+   535,
+   216
+  ],
+  "bounds": [
+   [
+    -0.7542080283164978,
+    0.0,
+    -0.34764015674591064
+   ],
+   [
+    0.7839999794960022,
+    0.7010999917984009,
+    0.35059186816215515
+   ]
+  ],
+  "bytes": 199916,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_scriptorium_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_scriptorium_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_scriptorium_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_scriptorium_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_scriptorium_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 977,
+  "lod_triangles": [
+   977,
+   513,
+   225
+  ],
+  "bounds": [
+   [
+    -0.707938015460968,
+    0.0,
+    -0.2858965992927551
+   ],
+   [
+    0.6964327096939087,
+    0.7005141377449036,
+    0.3601664900779724
+   ]
+  ],
+  "bytes": 158628,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_scriptorium_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_scriptorium_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_scriptorium_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_scriptorium_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_university_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "University",
+  "race": "elf",
+  "ages": [
+   "renaissance",
+   "medieval"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1168,
+  "lod_triangles": [
+   1168,
+   673,
+   259
+  ],
+  "bounds": [
+   [
+    -1.1807039976119995,
+    0.0,
+    -0.5730401873588562
+   ],
+   [
+    1.2192631959915161,
+    1.6784559488296509,
+    0.7436239719390869
+   ]
+  ],
+  "bytes": 188488,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_university_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_university_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_university_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_university_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_elf_university_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "University",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 737,
+  "lod_triangles": [
+   737,
+   425,
+   210
+  ],
+  "bounds": [
+   [
+    -0.8696519732475281,
+    0.0,
+    -0.6896573305130005
+   ],
+   [
+    1.1190742254257202,
+    1.8095999956130981,
+    0.4544845521450043
+   ]
+  ],
+  "bytes": 129264,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_university_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_university_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_university_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_university_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_university_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/LearningHealth",
+  "building_type": "University",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 860,
+  "lod_triangles": [
+   860,
+   438,
+   214
+  ],
+  "bounds": [
+   [
+    -1.0943872928619385,
+    0.0,
+    -0.6869800090789795
+   ],
+   [
+    1.05840003490448,
+    0.9630399942398071,
+    0.6761999726295471
+   ]
+  ],
+  "bytes": 134288,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/LearningHealth/bld_elf_university_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_university_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_university_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/LearningHealth/bld_elf_university_industrial_v0__modern.png"
+  }
+ }
+]

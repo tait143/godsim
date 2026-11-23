@@ -1,0 +1,614 @@
+[
+ {
+  "id": "bld_dwarf_barracks_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Military",
+  "building_type": "Barracks",
+  "race": "dwarf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 532,
+  "lod_triangles": [
+   532,
+   302,
+   148
+  ],
+  "bounds": [
+   [
+    -0.75,
+    0.0,
+    -0.8184999823570251
+   ],
+   [
+    0.75,
+    0.949999988079071,
+    0.6399999856948853
+   ]
+  ],
+  "bytes": 79948,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_barracks_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_barracks_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Military",
+  "building_type": "Barracks",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 570,
+  "lod_triangles": [
+   570,
+   324,
+   158
+  ],
+  "bounds": [
+   [
+    -0.8050000071525574,
+    0.0,
+    -0.8385000228881836
+   ],
+   [
+    0.8050000071525574,
+    1.63100004196167,
+    0.6600000262260437
+   ]
+  ],
+  "bytes": 89092,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_barracks_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_barracks_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Military",
+  "building_type": "Barracks",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 622,
+  "lod_triangles": [
+   622,
+   354,
+   158
+  ],
+  "bounds": [
+   [
+    -0.8450000286102295,
+    0.0,
+    -0.8634999990463257
+   ],
+   [
+    0.8450000286102295,
+    1.117400050163269,
+    0.6850000023841858
+   ]
+  ],
+  "bytes": 93572,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_barracks_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_barracks_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Military",
+  "building_type": "Barracks",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 650,
+  "lod_triangles": [
+   650,
+   370,
+   176
+  ],
+  "bounds": [
+   [
+    -0.8744999766349792,
+    0.0,
+    -0.8565000295639038
+   ],
+   [
+    0.8389999866485596,
+    1.4739999771118164,
+    0.8345000147819519
+   ]
+  ],
+  "bytes": 92160,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_barracks_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_barracks_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_castle_classical_v0",
+  "kind": "townhall",
+  "category": "Buildings/Dwarf/Military",
+  "building_type": "Castle",
+  "race": "dwarf",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1310,
+  "lod_triangles": [
+   1310,
+   746,
+   320
+  ],
+  "bounds": [
+   [
+    -1.375,
+    0.0,
+    -1.2649999856948853
+   ],
+   [
+    1.375,
+    2.3550000190734863,
+    1.2649999856948853
+   ]
+  ],
+  "bytes": 194468,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_castle_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_castle_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_castle_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_castle_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_military_base_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Military",
+  "building_type": "MilitaryBase",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 846,
+  "lod_triangles": [
+   846,
+   482,
+   227
+  ],
+  "bounds": [
+   [
+    -1.3650000095367432,
+    0.0,
+    -1.2699999809265137
+   ],
+   [
+    1.3650000095367432,
+    1.9925999641418457,
+    1.2699999809265137
+   ]
+  ],
+  "bytes": 126464,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_military_base_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_military_base_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_military_base_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_military_base_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_military_base_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Military",
+  "building_type": "MilitaryBase",
+  "race": "dwarf",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1012,
+  "lod_triangles": [
+   1012,
+   576,
+   306
+  ],
+  "bounds": [
+   [
+    -1.3450000286102295,
+    0.0,
+    -1.2400000095367432
+   ],
+   [
+    1.3450000286102295,
+    1.7004387378692627,
+    1.2400000095367432
+   ]
+  ],
+  "bytes": 162888,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_military_base_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_military_base_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_military_base_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_palisade_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Military",
+  "building_type": "Palisade",
+  "race": "dwarf",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   3,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 740,
+  "lod_triangles": [
+   740,
+   420,
+   224
+  ],
+  "bounds": [
+   [
+    -1.4299999475479126,
+    0.0,
+    -0.21899999678134918
+   ],
+   [
+    1.4299999475479126,
+    1.1729999780654907,
+    0.2409999966621399
+   ]
+  ],
+  "bytes": 125096,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_palisade_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_palisade_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_palisade_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_palisade_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_palisade_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Military",
+  "building_type": "Palisade",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval"
+  ],
+  "footprint": [
+   3,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 618,
+  "lod_triangles": [
+   618,
+   352,
+   168
+  ],
+  "bounds": [
+   [
+    -1.3938735723495483,
+    0.0,
+    -0.5
+   ],
+   [
+    1.2630000114440918,
+    1.757580041885376,
+    0.40299999713897705
+   ]
+  ],
+  "bytes": 102008,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_palisade_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_palisade_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_palisade_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_palisade_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_stone_wall_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Military",
+  "building_type": "StoneWall",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 340,
+  "lod_triangles": [
+   340,
+   192,
+   70
+  ],
+  "bounds": [
+   [
+    -0.4975000023841858,
+    0.0,
+    -0.28600001335144043
+   ],
+   [
+    0.4975000023841858,
+    0.937749981880188,
+    0.25600001215934753
+   ]
+  ],
+  "bytes": 52928,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_stone_wall_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_stone_wall_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_stone_wall_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_stone_wall_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_stone_wall_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_stone_wall_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Military",
+  "building_type": "StoneWall",
+  "race": "dwarf",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 320,
+  "lod_triangles": [
+   320,
+   190,
+   70
+  ],
+  "bounds": [
+   [
+    -0.4975000023841858,
+    0.0,
+    -0.28600001335144043
+   ],
+   [
+    0.4975000023841858,
+    0.9957500100135803,
+    0.25600001215934753
+   ]
+  ],
+  "bytes": 51208,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_stone_wall_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_stone_wall_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_stone_wall_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_watchtower_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Military",
+  "building_type": "Watchtower",
+  "race": "dwarf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 486,
+  "lod_triangles": [
+   486,
+   276,
+   146
+  ],
+  "bounds": [
+   [
+    -0.4000000059604645,
+    0.0,
+    -0.40799999237060547
+   ],
+   [
+    0.4000000059604645,
+    1.3270000219345093,
+    0.37700000405311584
+   ]
+  ],
+  "bytes": 77712,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_watchtower_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_watchtower_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_watchtower_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_watchtower_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Military",
+  "building_type": "Watchtower",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 504,
+  "lod_triangles": [
+   504,
+   286,
+   136
+  ],
+  "bounds": [
+   [
+    -0.4000000059604645,
+    0.0,
+    -0.40799999237060547
+   ],
+   [
+    0.4000000059604645,
+    1.6369999647140503,
+    0.37700000405311584
+   ]
+  ],
+  "bytes": 77568,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_watchtower_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_watchtower_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_watchtower_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_watchtower_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_watchtower_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_watchtower_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Military",
+  "building_type": "Watchtower",
+  "race": "dwarf",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 628,
+  "lod_triangles": [
+   628,
+   373,
+   187
+  ],
+  "bounds": [
+   [
+    -0.4059999883174896,
+    0.0,
+    -0.38600000739097595
+   ],
+   [
+    0.4059999883174896,
+    1.7467836141586304,
+    0.38600000739097595
+   ]
+  ],
+  "bytes": 102840,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Military/bld_dwarf_watchtower_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_watchtower_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Military/bld_dwarf_watchtower_industrial_v0.png"
+  }
+ }
+]

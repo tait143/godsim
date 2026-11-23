@@ -13,6 +13,7 @@
   <ItemGroup>
     <Compile Include="../../../Assets/GodSim/Core/Contracts/**/*.cs" />
     <Compile Include="../../../Assets/GodSim/Editor/**/*.cs" />
+    <Compile Include="../../../Assets/GodSim/Unity/Runtime/Buildings/BuildingArtModel.cs" />
     <Compile Include="stubs/**/*.cs" />
   </ItemGroup>
 </Project>

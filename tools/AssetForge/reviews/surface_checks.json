@@ -1,0 +1,5175 @@
+{
+ "models": {
+  "bld_dwarf_airport_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e4b8b90ecceb5dda55918c1e2dc628a290d01dcfe3e4397dadc9f3174ce65406"
+  },
+  "bld_dwarf_aqueduct_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7072d0589980672715b52163a34b6aad797dcef9fb5ad86f90f7f4df5336909b"
+  },
+  "bld_dwarf_aqueduct_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6c7c0f79d4dadf781ce9a9de9ad9ec6b96a1b4165e422f13f28d69909b15917c"
+  },
+  "bld_dwarf_aqueduct_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4c846acc5abc4eada189f693d2acd5871c9f157da70989c3314eee6bd00ac305"
+  },
+  "bld_dwarf_arcology_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d479dec63cbe1d4fc40db91d88d11032f7f62e3b41b1f3a3428d82ff2ea3e499"
+  },
+  "bld_dwarf_arena_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f081613a4c466da7a126393fdae742009641286500a8b4050d2a8be3194fee6e"
+  },
+  "bld_dwarf_arena_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "45bc7d2bc30c61b016a9c82792f070ce4da735331cade89c414b3198f29d9c96"
+  },
+  "bld_dwarf_arena_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "cb2edf72253e94e0826176292b57bd32975ab4da9cff3f90937d810b60ebde3b"
+  },
+  "bld_dwarf_armory_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "eb64a58272b5dcd88a3b62887c649b1a6fde165b2f33513937ca48f3311ae158"
+  },
+  "bld_dwarf_armory_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "83ca9df9b5160fa67c913e6ce80079ca562990b950443c2f49dbb2bc70795463"
+  },
+  "bld_dwarf_armory_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d560e3cff0790de82a23c3d1867d7159f0cbb1586b9454606d6c4b5d598f2cfb"
+  },
+  "bld_dwarf_armory_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d1cfea39253b2594be25a04b7bb492673b49527d18769619352ffa334219c6ff"
+  },
+  "bld_dwarf_bank_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c5e360a529b77dcc8c6b55f08ead6fe74fc0ca916bd3d507d77ea7058a5f81d4"
+  },
+  "bld_dwarf_bank_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0cea77b9cf1ab893ac6df6bcb32b4226d38f40425de0c2ed4b4f43baa505f87c"
+  },
+  "bld_dwarf_bank_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9a87d469a04dc27fd12d9240cffd2d6eddb46813f1bd064dc8d010c552cf9cdf"
+  },
+  "bld_dwarf_barracks_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ba9aa0f376c88b0ac26e7a88a334ef493df6275ebdde8f81c9dd025c1b61666c"
+  },
+  "bld_dwarf_barracks_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "efb69b0fa62a30a1f428b6d3f341be5565ef0784d60608fa076d1a02f2192312"
+  },
+  "bld_dwarf_barracks_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ece18ab2ebf27f0f3553cb672ff0e7c2304eeee1f051c79f181dace5edc91ff1"
+  },
+  "bld_dwarf_barracks_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0d9afb6b9843b7652d41bdf99b8323ba5c97abc84de5565500275ba1fa7fc07c"
+  },
+  "bld_dwarf_bathhouse_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "aa9d16b7f8c40e5d3f8c74bae6d942b208ffe3a814f41c9145fac78083ea50db"
+  },
+  "bld_dwarf_bathhouse_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f8c27c1d0273add497cda8d683681097017204c148cc01dd652aa31d130709f0"
+  },
+  "bld_dwarf_bathhouse_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f30b2ed53fe4d311c8dbba1a82cccb49bb729aff3071f686439cb257efd5bc19"
+  },
+  "bld_dwarf_blacksmith_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4ac6c36d303a3d8fde89a5226d644666740cd3525185e6440f40b632c5a15353"
+  },
+  "bld_dwarf_blacksmith_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "381518e37f9e1e27068dbde0efc61d6f9613671b69b24618025ad77b43ff38fa"
+  },
+  "bld_dwarf_blacksmith_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c1e369ef3e3a06cdc98106a191da46b98900ae84488a69f1d6c3eeafbf2dfef9"
+  },
+  "bld_dwarf_blacksmith_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "db6ef90e1078f6338ab3eafe042cca1ea2c46f82e9893836ed979579bd4c60a6"
+  },
+  "bld_dwarf_campfire_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e37ce8aa049475085f3adbc259e533fd058051da20968f46611456e53b56b80f"
+  },
+  "bld_dwarf_campfire_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f63d74516e87356836df63ba7cefc932eb17a34faff4007922b661b1d4ab0f05"
+  },
+  "bld_dwarf_castle_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3606f1042d16df1cb5660b6f6e809122f7f43924116748ca2a888d67104a5920"
+  },
+  "bld_dwarf_cathedral_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "663f5f5f5c7b648ddf0fcab53a60e0c04e592cce5c9059671d2dc1174476a778"
+  },
+  "bld_dwarf_cathedral_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "30010c8fa039d262115e7288893a20a3a320856054a98656d9add8fd8c427547"
+  },
+  "bld_dwarf_cathedral_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "04b78e2ac0e32788bd11a1273f719a4c01116e365110f6cf9f16cb0e6089692d"
+  },
+  "bld_dwarf_coal_mine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9b2d860dae3ad7b7de6bd9e294e505dc541d66efeed6e0980509f7f61d589b99"
+  },
+  "bld_dwarf_coal_mine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "597401e4d19262b8ac83aae2e5428becb8115fd0013ddef001e232dddb977ae3"
+  },
+  "bld_dwarf_data_center_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c3e82ba227b483dffc3f2c9d80096279c98948f5eb6562e539f6ee14c2459543"
+  },
+  "bld_dwarf_deep_forge_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "aab3314bd77445cd76e056b5f3c07ac8e6827e12416fc491f5e5e768250c63e5"
+  },
+  "bld_dwarf_electronics_plant_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c8dd19a2db8ea76186795c124ef255364acc1e2e0d40e4a62a9d1c7843cbab20"
+  },
+  "bld_dwarf_factory_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4b838679ca167ee3b0741a9796ef65d3de6f34ed00e701c217114c85c15c41ef"
+  },
+  "bld_dwarf_factory_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "17f4927d68254905918618f1ecc1132d162aed2bf92f9e31ba022bc265ff4cd6"
+  },
+  "bld_dwarf_farm_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "89c8d628d96d42bb3391cd7f9ec5bfddf28de1e2a2e7def623a75ae8608f3313"
+  },
+  "bld_dwarf_farm_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6da55e2989325bebe1f7df86679b102ad5d8c60a28a055e26e2a9c305a085476"
+  },
+  "bld_dwarf_farm_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8d8c92033b2d3442d9f9e53e83cfcb4758f56a3779f6ee625ce2a68ec28cc8ac"
+  },
+  "bld_dwarf_farm_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "eb30da6a699fcc299414175bf8b5d767f1a6cb111d88dd41e4bb684c00c877c4"
+  },
+  "bld_dwarf_fishing_hut_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b14f71b304a72dc7b280d6ec841146439f03ad9dcf762943ab121363accff359"
+  },
+  "bld_dwarf_fishing_hut_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1fb984a8a1a8876f607006ef1af732f75f05b0745e43a6c8885752964b6ce1ee"
+  },
+  "bld_dwarf_fishing_hut_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "59b504c23e2e699f5da3d34936e4a863c61dc0862ce9a0c3e9fdec6261386dca"
+  },
+  "bld_dwarf_fishing_hut_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b5c50f971d31ffe7392c03e9d64ff97717761fd5d44c60c1341b4abfe533424b"
+  },
+  "bld_dwarf_forum_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "28154c7851cafcc834c9d595c3d5e5a67891efb30e5a0a9a14623a79fa6eb2a3"
+  },
+  "bld_dwarf_forum_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f13fa0a65c1fb11c69a6b64abbf5081a75effcb20c562f4173e66ee841f48142"
+  },
+  "bld_dwarf_forum_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "74cd2b9d0ac18a77263af8641a77887ed5b3d5bc38cb9ada943005578ff9c337"
+  },
+  "bld_dwarf_foundry_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c283fea786bb85d264019c384833a54cf6745c1c62aac096713fbe6b6ef081d4"
+  },
+  "bld_dwarf_foundry_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "94e18b85d8ffff394462497503e1b5288f581307923ac4733b71945f42435703"
+  },
+  "bld_dwarf_fusion_reactor_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "91bf2f4b7ce1c757edce1ccc2386939f1ea9c49e68b4adeda669e8b0304cec42"
+  },
+  "bld_dwarf_gatherer_hut_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e8427ffdfe8717dab6a759daa32294dedcef30b5fcd4c82a47a6c83dd5a74102"
+  },
+  "bld_dwarf_gold_mine_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "766bd8a3445e7368e1f20e456f444ddaf2a288fee2b16bc7a822ef800bf1db45"
+  },
+  "bld_dwarf_gold_mine_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "833f28bdf4b12dac16f6d013f7655985a2f7f9e723405f1382229208c0d4e25e"
+  },
+  "bld_dwarf_gold_mine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ca198d392b20568d15cea99da612c5a2fd2ed13de81832198da9fe3469e7ca7e"
+  },
+  "bld_dwarf_gold_mine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "116f10a0e3c7a8c49861672f03e6d1e4a07802aa3aa6ce3e4f075a8f1fcce7ee"
+  },
+  "bld_dwarf_granary_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5d205b2837abb801b6c6bd715f9af931b5750b4921e42c080cb4cdaf328229f0"
+  },
+  "bld_dwarf_granary_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4ba1ec0b1e82cd51ab6803f0c13607db0a78e3764b86a9966f4b5310070d2903"
+  },
+  "bld_dwarf_granary_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6c44a29d4ac9520853bd5a9672dc7314b234fcc6646bf66dd7a7a4c398698a83"
+  },
+  "bld_dwarf_granary_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c5ccb4115ae97164388ed1c79fe80aeca9c046b558f4c44f4699a6b9c23487f0"
+  },
+  "bld_dwarf_guildhall_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "12ec59a71ca45fb0e7d491a659c065ee068bce3e28e1af25102bb7c1b35a106f"
+  },
+  "bld_dwarf_guildhall_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6708b8ccd3c97eafb2164726a49b86375a30b005dcb43216ed260f2cbee9bba0"
+  },
+  "bld_dwarf_guildhall_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d2a89002812eaaa103c941106da0e6e29baacc8172818ab716edae3c3b0a16e3"
+  },
+  "bld_dwarf_harbor_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d3f599ca058ef0d55e66c53f602116a697631c2ce98afb374d2a7fbed6b85dc3"
+  },
+  "bld_dwarf_harbor_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "17eccad3c1eb40bd06a025c2c5ad648e64c9f5d0431d7d336ad663d1ce6c756e"
+  },
+  "bld_dwarf_harbor_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d6c5b0533eb8427ba6dcea73b8b666dc1bff7b663d1b6972725b13d242fcb64a"
+  },
+  "bld_dwarf_herbalist_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "02104cdebba5fb94d127ff428b7a22d33682affa4e1331cf17b62c686f9da94e"
+  },
+  "bld_dwarf_herbalist_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "29b86ffaeedc25324591e63463d001545be598fb22e56c5921db7c2b162cbfd3"
+  },
+  "bld_dwarf_herbalist_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "eece04ef671bdbd2a73fecb5ded4e5076128957c695d0a207155093bbfb65997"
+  },
+  "bld_dwarf_herbalist_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dcbadd5f856362de79d818dfe47729a5e155bc05ea54ff716c92df70bef5ee16"
+  },
+  "bld_dwarf_hospital_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "577649cb9ec6d669bcbce4eaaae3bbedc5030790ab94aa8fed63e1ab3bea0896"
+  },
+  "bld_dwarf_hospital_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "730803e1c5a21b0c702a23dadedd66e5f3ad8e0d15aca560e353af3ade5ee4fa"
+  },
+  "bld_dwarf_hospital_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "151eb801e8102af3834347cbfed41d5f60508a1e34bce061fb6ec8258b89983c"
+  },
+  "bld_dwarf_house_ancient_bronze_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c862a40447187de68ab18f03843557eafd6d78b82e6052f011715589accb5bc1"
+  },
+  "bld_dwarf_house_ancient_bronze_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2a6af4dc102cfdf83a66e0ab9761834be5f64a8eef7a3a9869b17a0c6edcea1d"
+  },
+  "bld_dwarf_house_ancient_iron_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "070160c0295b4b0be1bce6c8a09331bc34bd5e8643dde09667f660fea001bbe7"
+  },
+  "bld_dwarf_house_ancient_iron_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "eccb286e83001c808c25b373c82db8b0495950fefd0c115c779cbff4f3928c47"
+  },
+  "bld_dwarf_house_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3e6ef05396820cfe0a077365fb585d24db2a8add5886928c6e7e863be622f4b2"
+  },
+  "bld_dwarf_house_ancient_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0a5de03a4602500288b828c9ec45c2ca1677c0121fdca512f30e26ac18111aeb"
+  },
+  "bld_dwarf_house_classical_medieval_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "25d609c1f85ade64c4527929dace0988e86605be2d5bdbba1bbba14a0279de57"
+  },
+  "bld_dwarf_house_classical_medieval_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "bc567a5ba3afca408c9d51fb0e10bd5386c1e26a91010d1069efa573a02d448e"
+  },
+  "bld_dwarf_house_classical_renaissance_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "66138012aaa55ecd30e68da26546138241c8d2e717f54bfe36402b1cc1adaf81"
+  },
+  "bld_dwarf_house_classical_renaissance_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "67ee756074195d826b94ff07c3e90e4fb4158f1f24576f5e039a0d8061a0bb47"
+  },
+  "bld_dwarf_house_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0b55d484cd08928e613daf196fb89adc792bd6b734db3981e6e1823c5d30f267"
+  },
+  "bld_dwarf_house_classical_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b35011008e55e7385efbc9618b569c050068bc73371f78f358922853fa82ee9f"
+  },
+  "bld_dwarf_house_future_ascension_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "46542d03d4b9f6f019b45de4d6464a326453167ccb7a9b4a63304e82201c8c7c"
+  },
+  "bld_dwarf_house_future_ascension_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d6bad8c0e9e7ee79f1bf12d2a480eb07e834622d432f05d6a8cbb1d6f349cbb7"
+  },
+  "bld_dwarf_house_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0cb571c7d252a055cd8943f7d0413ea33b8b9687a491064c5d393842f40e9a4e"
+  },
+  "bld_dwarf_house_future_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5befee4c4049b3762abd4136a22f01996d56a5da5617bdd3395ccf94e75d4ec4"
+  },
+  "bld_dwarf_house_industrial_modern_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "031d0c2fb1734bf319344ca602a1f80320e8713636942188c923e32f0bb7c2cc"
+  },
+  "bld_dwarf_house_industrial_modern_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "585dbf3dc2ce3c17e93a181498f7f12af78f7b8f014ce48e7b1555b4b33a6cbf"
+  },
+  "bld_dwarf_house_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6a224dd309bd62c303e26f6fad93d593cc1ea5552d88467c72ef409282cf0789"
+  },
+  "bld_dwarf_house_industrial_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "49aa0b17089a18f4fa6cf696cca1c76eeb23278e9755d6c897803a891ec44d53"
+  },
+  "bld_dwarf_hunting_lodge_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9d6b835cbc53daebd630778ce450207a8f1fad0b0084c1619b41231549113c42"
+  },
+  "bld_dwarf_hunting_lodge_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b897c5bacafa59f547b25cf23b1303b5d31d6e07e23f7077b5bde13f85f076e2"
+  },
+  "bld_dwarf_hydroponics_tower_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "94688cc4803a069675ffc1d6cababa746bc750466b1a419e391604f1ef56233e"
+  },
+  "bld_dwarf_industrial_farm_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a7aa96ac4a6ba031958f662c2e6559872dd4ee5343178b971d011b724594f999"
+  },
+  "bld_dwarf_industrial_farm_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0f445e8c9669009e3db70bbc35dac3d37a32bdc255570454d3575dfafb095f90"
+  },
+  "bld_dwarf_library_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ae2ae8cc32963fd442b549cb856e1c20e363a1d1f542860e8ab62286e318b34e"
+  },
+  "bld_dwarf_library_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "100e8470f6c31e394a669fdd7fd21384390aea35939a379e0d5779394cc9b54e"
+  },
+  "bld_dwarf_library_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ea93e4c11ba301a7ca84d712f4719edaf2bc7d45937fc1e352676cf6cfaa8be4"
+  },
+  "bld_dwarf_market_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "42bd41985d8bdb9c45302a647d75de19109912106235007f1939556851b89b66"
+  },
+  "bld_dwarf_market_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f6c1efcf91de7a28d93f694ad241375966078da8eade79678e2e98a60aed01c3"
+  },
+  "bld_dwarf_market_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "89ebd7f3282683974d11cbb219dc68b9cb7416052f055c17583b4c01c3586fd5"
+  },
+  "bld_dwarf_market_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4a53ecd21f699e63355819dd920f6076b2851fcdfcdaed17e1ec1da4f8152479"
+  },
+  "bld_dwarf_medical_center_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "70647d15368e481464be7e434757c99d8271972cf91185eb28ccbf600f45c0d6"
+  },
+  "bld_dwarf_military_base_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "58b13dd63b7e5017331b4596084fe6e358d38f63db60bd60a0afc2d9ab9c307c"
+  },
+  "bld_dwarf_military_base_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "46a6ec4a3d911fb27b6b92d76af589b91c81fdb26ca838ce7ed222cf5ee8a4e6"
+  },
+  "bld_dwarf_mill_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "adfa1241315a64d37f9eb17d7ddfd72fd47032f1040f3fc6a135fd864d2afeb2"
+  },
+  "bld_dwarf_mill_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "94100a672790490cf297011754cdb7244a9057718a961b0e1323742763025ab1"
+  },
+  "bld_dwarf_mine_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c2a5dfe41b7c1c927ea81866ca038b70d42260d07d6fdfdbdc1645aef9417d69"
+  },
+  "bld_dwarf_mine_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "910e19b0d5be7d4528af675e2719e82fd084debfb3efb24597b05c3be5ecea64"
+  },
+  "bld_dwarf_mine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6252c85a45790deed8f9df1d087e2e9ce31d6c4d19c9d12a94d73ef060301a92"
+  },
+  "bld_dwarf_mine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "36402fb86d98d216dc63f1924f33260de6e466e181076f3daa6200336ecd62fb"
+  },
+  "bld_dwarf_monastery_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "da18cc0925d04b4e046c080b831c27505457186ab92a62ee2c00694182bce315"
+  },
+  "bld_dwarf_monastery_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d323fbc1a3c5ecd454e0bfa8223f1dd499ac4268940be5dea742fbaec3015ddd"
+  },
+  "bld_dwarf_monastery_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a16ed5892b7e15c06e844528722c2153b6bdbd47d6e4a42bace6d162844bc0c3"
+  },
+  "bld_dwarf_observatory_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "21d2bfd55c8b4df656fc126d05c8d2e0f1f23659bbe79e474d957cf3a69393d0"
+  },
+  "bld_dwarf_observatory_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dfb034d00d34e8a90f6ef424df34f9017c3e0bf9b91420418566bdb52d6c7fa8"
+  },
+  "bld_dwarf_observatory_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "069d3e7c610e4350e8fd9deea9857d88344dc956073ad2ec510b2045e80b5a05"
+  },
+  "bld_dwarf_oil_well_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3b22ce045c1471856cac504fabd0c69473fcae8d4abf393dbb5a3a055d4b94cc"
+  },
+  "bld_dwarf_oil_well_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "238604c347f52b188ace67d2cc0fef5367afaffe7201fabe459468bbc3bd622e"
+  },
+  "bld_dwarf_palisade_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e230504165191f1d02026e5fb9ed36a46c81f7f4e1cf879bf7bc00e3d836c0eb"
+  },
+  "bld_dwarf_palisade_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "603ccf68618aaa6fccb25ee5d1fdb0de805d12e0f9549ef39317988340272891"
+  },
+  "bld_dwarf_pasture_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2a28e208f12547bc5e54d3c9e892e4f8be460163c4c2549ceade38d3ffc1eea1"
+  },
+  "bld_dwarf_pasture_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d0779612b14b57db92da91ce7bc5403831b3f9b14cd46cdb3d031668455705e2"
+  },
+  "bld_dwarf_pasture_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0660a1bb37a6becd9c3c44d2afc81d705321f54e24a74ee97637fdaea0d79f19"
+  },
+  "bld_dwarf_pasture_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "67aee1317a3834ab51d42200aeb32e2c2951d6e63defba728ac8a95435128f86"
+  },
+  "bld_dwarf_power_plant_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "36874ea84d0e500bfb07d0a048d8584f12f16f798f03a404a61524b383be84e9"
+  },
+  "bld_dwarf_power_plant_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "08a65a694525a38c0966985e4ca7e902be8caaa4e413c564fdf2c244bca7caea"
+  },
+  "bld_dwarf_printworks_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3f0c436ac878d3623071cf1f6e461034a37816f89703c966cf0448a560d955b0"
+  },
+  "bld_dwarf_printworks_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "234ca577a8816047d746f0d1d4feb6102ac9a49349fab49010656d4fae4a51e8"
+  },
+  "bld_dwarf_printworks_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6c7943826720e31dc41067f129a96a547fa841ac47209963e7282b7ffb163011"
+  },
+  "bld_dwarf_rail_station_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "27c39fd85d8f7dffacf303e0bbbe01c8be2755fa9f07ba801437e708f9de94e1"
+  },
+  "bld_dwarf_rail_station_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6d048c011cff099d2ac61eb3a019973990a6cc58fba3617083d0d9b984727c56"
+  },
+  "bld_dwarf_research_lab_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "53c64ecb7ad6f29b5910c51c3788a6c6fff809b085c20b49ad29973cc51569bd"
+  },
+  "bld_dwarf_research_lab_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b34155f1034782bf9f18aa778b31c628cd941107702e34b20a6a08059f0cbc7c"
+  },
+  "bld_dwarf_sawmill_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "63f928b03fbb3140b503046597162ed53e7d78dd8fbe5ae664573c6b8565c74e"
+  },
+  "bld_dwarf_sawmill_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1ea06db2882551a8bcfa9a40cb7569c8c39a0050c3c6da907ccc5b8fd42f9954"
+  },
+  "bld_dwarf_scriptorium_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ef3a6670b0646c55d5b6e9ea4fa5686ea2383d1001589431e362de3a10fa28b1"
+  },
+  "bld_dwarf_scriptorium_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "09bc42c70c29979f0898093a1c70f791b75cd2291d2161eb8dc76942106295ed"
+  },
+  "bld_dwarf_scriptorium_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4c7d255ee14a26497fa0dfc4aa74dad64b861f0250d909b5816d3a1696590440"
+  },
+  "bld_dwarf_scriptorium_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "084e8156521683d781df665c234267aeac4b2cc4ff5c8f0a889ff5c41fd348ef"
+  },
+  "bld_dwarf_shrine_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7616063f2d6d1418fcbd9c389a4c2269ed0288062d3bb09b5dccf7bb9e4c5c14"
+  },
+  "bld_dwarf_shrine_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "cdd7d7edcefc7623444275f97c50033668b68eadee571aa316369ec205e1037a"
+  },
+  "bld_dwarf_shrine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d6bdec6cb0d213ef01f623ffaa8173efc9b94a48cfffaaf1968cd138d3b4d725"
+  },
+  "bld_dwarf_shrine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "607cedee6dd3dcbe7baa4463caa9876aab0b4f67635904ce0e48891d49b89565"
+  },
+  "bld_dwarf_smelter_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a7b8b0f299f24a5c09ab8e0c04aaa3882c92e77044bfa72f29fcc3ef5d2127a6"
+  },
+  "bld_dwarf_smelter_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "af656026dfa7fecee5cd7b9cb30edf89600f803a56e070d2e335acca33596371"
+  },
+  "bld_dwarf_smelter_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ac1223a77de07adf511ea7715b9805f7e6ed4a32ad60405edafc3e93e91169cb"
+  },
+  "bld_dwarf_smelter_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e9f800469135fec00fccf24b96c79f35f868b6e8881ae9da4261d351903d7dc8"
+  },
+  "bld_dwarf_spirit_totem_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ab5aa98711cbd13774736d2268151a678f33c8271fea4796e8b216f8f9bea536"
+  },
+  "bld_dwarf_stadium_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4263a0f702c107609fb66836efb975e7c6bb5e0b825a55f75625b55ae810ec4d"
+  },
+  "bld_dwarf_stadium_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9b9ed26523fdd74a75040f44f50b3791a30b493dc56b055ed316dc7f317e7903"
+  },
+  "bld_dwarf_stone_quarry_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "81afdebe832cb5efaa522813fe7967b65a7e7985983bf8511aa12efc6a19c109"
+  },
+  "bld_dwarf_stone_quarry_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "83a0188abeb80676cd2b1ce9916ee40a768f04701c5a5f941bd763761f66fc70"
+  },
+  "bld_dwarf_stone_quarry_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "48bad4097f763a58948fc6afb1b76761d433c3a9318421073f52530d509e5f05"
+  },
+  "bld_dwarf_stone_quarry_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f8fbcf2db86facf40b62fcfb7a619ddb84a6767977877258cf75eff1e70f7c3f"
+  },
+  "bld_dwarf_stone_wall_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8665a3cd4077a18073c257d53a84826f861d5c329dd8874f82aa55f9229cf679"
+  },
+  "bld_dwarf_stone_wall_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a0b9e258374d060f207cea2bcdf672541455a37e5fbcf79f0170d585656f7d83"
+  },
+  "bld_dwarf_storehouse_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f7815741d0842191e6b41e4ddf9012c328affc9e9ec55c46e87e48044e8271fc"
+  },
+  "bld_dwarf_storehouse_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4c36ac7b9bf0cd00ecef5926bb885365a0bb23fa5fef702a17c200f3c18b22ee"
+  },
+  "bld_dwarf_storehouse_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "46b602b25209ce0354fec45e48467a5ea621070b5e7203b7efce34ee66746198"
+  },
+  "bld_dwarf_storehouse_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c7e1dba7d1917c0198c5280adf405493f779cddc01227a5ce1fd6d8cff4e0fec"
+  },
+  "bld_dwarf_tavern_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "54c450cc0338c6fca7a7e3831c11757c2d16e9abf595dcb90f8902e0c86ba9d4"
+  },
+  "bld_dwarf_tavern_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f594a0fe75b871eaa4979ae2c42b1d998ef1a98ae4f6706c5e04e62e81817ee3"
+  },
+  "bld_dwarf_tavern_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ff5637a627f4292729390085d2dbfaf0658fd8aeb2746b2bb1d8654fd81e1e27"
+  },
+  "bld_dwarf_temple_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d72b6810ea6f796793f8f4435296a6ea342a1d56d0557a9aba50defc6d681219"
+  },
+  "bld_dwarf_temple_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "61535a118cbb46468d93948010a48b7b117de8e826b49dbd752048cfbcab460d"
+  },
+  "bld_dwarf_temple_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6fee467030c3641b94df456d577efbf226b6d925b4064e7b9587d1aedf74facb"
+  },
+  "bld_dwarf_temple_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "15148c0f037eef5ddf127fdaad55f5c3128c25edbe2a42b2afeeacb86abc841d"
+  },
+  "bld_dwarf_theater_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "545f39630c9e4219c61ebddfef820f1e87064f6be68ebc5fadd2a01eb1f307ec"
+  },
+  "bld_dwarf_theater_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6e866f263958f9ba90af29780f2376715483306e1e19b0edd57708754d3987c0"
+  },
+  "bld_dwarf_theater_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1ed6a0c334fbd63dd5cfb22437e09c3ef643598cb7b7858660a7766cb1c24433"
+  },
+  "bld_dwarf_town_center_ancient_bronze_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "76fb7d87cce6336e31d0656e0309a1f199a1ce00782b0ad8db71502adf12d19f"
+  },
+  "bld_dwarf_town_center_ancient_iron_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d48ba5f86b7aa3708f62b20b755ee59a3409dd4c903d0e6dd78da806d264cf92"
+  },
+  "bld_dwarf_town_center_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "80f2ba56be0b011d5053e80b8248ecb2625eae6f7788d1824fcbfd2e4f0dea1e"
+  },
+  "bld_dwarf_town_center_classical_medieval_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a1d1d02991736a68beecc45898d367c899f7bd073e03a09421f9b3cb540dd4b0"
+  },
+  "bld_dwarf_town_center_classical_renaissance_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6e1145fc1c682a2619528b56a01ab1e44800a4ac1d6f4c66aa600b46c3f248cc"
+  },
+  "bld_dwarf_town_center_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "cbd86405c51f4dede0f3eaf55d7efd77a3d8829fa2f94e03419ae2ff2c3ca895"
+  },
+  "bld_dwarf_town_center_future_ascension_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "035b06bb24b5c318e910c1ff71d7e772ddfd8be2f4096f6351aa42aa82aa40a5"
+  },
+  "bld_dwarf_town_center_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c9e1ff1de9684acd2f10a7520d85f2bd36c2a91cf8b7ea24133fc6b8b52ab62c"
+  },
+  "bld_dwarf_town_center_industrial_modern_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8ff4aca73bc3e9d3c9c9ea31595a97cb63c13abf583fb1db990989cdb194f014"
+  },
+  "bld_dwarf_town_center_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a8b3731280572803eec9a82007cf136c28a70aebd40c5474c6ed9ffa254ed24b"
+  },
+  "bld_dwarf_university_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1391ab39c327dd911181934c209685596c20ebeb6bf0a87b8fb54f5f2115855a"
+  },
+  "bld_dwarf_university_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dfbc04193d3460b498c99baae87b4a5cf81746ea1228168b898c1f25ead6357d"
+  },
+  "bld_dwarf_university_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c81948384c1677b78c1f7530916269c77faa17f4bb72efa7609f3b742802c733"
+  },
+  "bld_dwarf_watchtower_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f74fb600dc9ef5ea798b013973851e500c98f0df7e8d458f0c4d1bd88b53b0f6"
+  },
+  "bld_dwarf_watchtower_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "88eea682a3d1f1181dcefb49e8e3684b8d616b5254f95efb8353d53b7d755621"
+  },
+  "bld_dwarf_watchtower_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "39748162b99745c53f104ad554e90b3aec8299e9ff3ee9ed9febeca1e8788d60"
+  },
+  "bld_dwarf_weaver_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "12b07f17b76d11016a79df208dde1e1c2c8db79de49f2a030c842236186dcf20"
+  },
+  "bld_dwarf_weaver_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5eb9d8d7906323c0794636ccaa4fcd3527f13f3d545c369e4ad50d00804e2094"
+  },
+  "bld_dwarf_weaver_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f29460ce000905be8083b285e72d702f739815e6e5ad4dec8e54d1e3363dd852"
+  },
+  "bld_dwarf_weaver_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "61a143ee63e3b9a6210d68ae870172487409c10d14ccab5d9d9f11414ff22e9d"
+  },
+  "bld_dwarf_well_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "48f8c4aa1a8d7b6e34b238792f64050a06c741f6dd5525bad98ff7aaf53e47c2"
+  },
+  "bld_dwarf_well_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1a0f9528561e875b650a36649b03c7cfe87fb7a415fb3ad7c873670ded19c33a"
+  },
+  "bld_dwarf_well_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e5e1fd54cb2578eebca2d4d2d71aa07eeea5212acdaa13ea56f509e196184b3c"
+  },
+  "bld_dwarf_well_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "19684148a57e9855839f0d1e728d52d54ca25bb0958834e19cf6c68b61a3b3ec"
+  },
+  "bld_dwarf_woodcutter_camp_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b66eddfb41a4949299bd220a561d97dfcf763dd57b5407b937cebb28c700be58"
+  },
+  "bld_dwarf_woodcutter_camp_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "69ae8d8a5868f6860796c83eaf045cd35dd9f576237ac6b15718d8528a4448f4"
+  },
+  "bld_dwarf_woodcutter_camp_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4654bfd6193eb5a837876c65b6cd09064a49883fb5bfa96a6fcef2e116fc3eb0"
+  },
+  "bld_dwarf_woodcutter_camp_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "378e95e8b11984922f5cd9931b3ba3370ae99945e86707b7eedf318fbe43e379"
+  },
+  "bld_dwarf_workshop_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5696edf08a30337c59307e1f261e3201fd79a4cbcdf3c56294964e19273dbc51"
+  },
+  "bld_dwarf_workshop_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "613af4bcbd20d629f7ed6242416d2e32b490a193a86f8e9c53190e7b8e099d91"
+  },
+  "bld_elf_airport_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "09f43562f006b0ba7c4966a69ea7a33fc888d6929bf4b70f67453ee84c1152ac"
+  },
+  "bld_elf_aqueduct_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "012486d5d03917f0df8b344e4300969f1988a9fb08b17abd59f357b49a9f3996"
+  },
+  "bld_elf_aqueduct_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f0d9c2e1ed8d394497fc5257109abd1d11a242f7692d5db4f03272c48da29d80"
+  },
+  "bld_elf_aqueduct_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "23c3e1178fb49cd0002c872dee0d2578b69819adc0a3602bee894fcb10da5360"
+  },
+  "bld_elf_arcology_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "31e7a16d9ffe915ee6661e412794dd4c32790de57545ec5983184a44ac9d47d1"
+  },
+  "bld_elf_arena_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0e180c4f77b1a44c7b3a17d8ad4963f59469c95f9675d8d3ff2c115e413c16d1"
+  },
+  "bld_elf_arena_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "15732e96aaa2c365f27dda3ac38a13c6bb5357def4672e4c49ddedc3ffe21899"
+  },
+  "bld_elf_arena_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "258d102bc9786f735a1895d41d866342fa3703294449836fea10e94045e0be63"
+  },
+  "bld_elf_armory_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3ed64acb10783f28062d9e36b3b38b74972a5e962e14b619d81ef86ea1410865"
+  },
+  "bld_elf_armory_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "04c258acd134442f2a9df7f4d66793e833e2414edf6edb534095f653e3d29ce3"
+  },
+  "bld_elf_armory_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2d93e1f0e35812b40a68e476e33f288945947ddc3a2e438eb95c5d0d8f20b136"
+  },
+  "bld_elf_armory_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2e15439801e75fb5c0684aacd29ce06892fe102be5e859244ca5992fa88aac0e"
+  },
+  "bld_elf_bank_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ba9d8dbedeed0baf4029cac1565343cb6d6514dc11b450d3bd8166d61e1ffe5b"
+  },
+  "bld_elf_bank_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "107e559a92c3ab8d8922a7b971aeaa12735584c78c9814df0eb69576cde9904c"
+  },
+  "bld_elf_bank_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "82f496b8561954f9bf064a801bfed36769c1f4709e809be79c42918ead1ac335"
+  },
+  "bld_elf_barracks_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e51069ecd74c472719a391e8efafb76fdacde0c36db17d77b85dad87829c6983"
+  },
+  "bld_elf_barracks_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1554b2e0de06aae5d5f6dd41bf9c80a79fe926fa911fc872c3cac30367109b20"
+  },
+  "bld_elf_barracks_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4671c16d4a96786929f2126d7d1c182b6de80d7f0cc657c200099a52c587a972"
+  },
+  "bld_elf_barracks_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8f49898f63ab3e42a837e1d6211629b163ccd6c7451e3472263c426fb30dc708"
+  },
+  "bld_elf_bathhouse_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2cc5dd703c232df1ee22f6ac3bfea4f165556b41cfb744ee9cc35bd2973c904b"
+  },
+  "bld_elf_bathhouse_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7f56e0921787b946be60a08f87f7afe87a0888f9248cb99ef100dbab60762503"
+  },
+  "bld_elf_bathhouse_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "980ca6a8d5ec2ed9e04af903bed3befaedb9e979069196590e1bae3d3fda21d0"
+  },
+  "bld_elf_blacksmith_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fc309dce940f63c1e9cfa5578ad623c6a6ab2b13d9c4b05d3ec4ae9c3ba4ba7c"
+  },
+  "bld_elf_blacksmith_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "92586f1efb55fcb0a0a722b4e981cd0ee87384f4e47f3da7325084046f4bb449"
+  },
+  "bld_elf_blacksmith_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "15129d7da524ddeaeb9b4b8fb738710e625a384e31d08b3d90c0251fd8cf1684"
+  },
+  "bld_elf_blacksmith_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2b1aa7636066b5ebf701460df4791e9a3392e3dc4c91c40c150d114413b14d27"
+  },
+  "bld_elf_campfire_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "bfb93f2cd4a156ae465c83c871d6503ea19e2350dc270009431ee9f451ed0bab"
+  },
+  "bld_elf_campfire_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "46ecb0443de00efc5a6d1db4a6098060b2dd8a99cca32f5a950eba9c843d6a58"
+  },
+  "bld_elf_castle_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dff4757941662e1e98e18389e91b5dd0c3c634b88bf9c95a15f58fe941a947f2"
+  },
+  "bld_elf_cathedral_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a16a9b983d4e4c66b702c9bbbfdb980d41a94c7e5f1496dd57db791f88d091fa"
+  },
+  "bld_elf_cathedral_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "57f993ae511fce359a4ce33eb494afcfd25a06eef2f4720b9fa0f9eb25cf71da"
+  },
+  "bld_elf_cathedral_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d5c550241f60b97eb293f52716fd55b8cee90da65abdefddb60d50812c999220"
+  },
+  "bld_elf_coal_mine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "01e292e27f22343afea4d8156fb4e23d89cb5a7290d0db5ab99e6808df34f51d"
+  },
+  "bld_elf_coal_mine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2ee80ee62963a323acc85f72308f1fe6bc17f5e76661c3f81ba3459dc7fb8dec"
+  },
+  "bld_elf_data_center_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7b1e82cbfea37eb52a6dcf60390108b1acff1d7a1043c7503a19de246de40881"
+  },
+  "bld_elf_electronics_plant_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d9e7a11cf8f3b4581fee252eb78fd21a80630db76f0a9318548f473f1fb54322"
+  },
+  "bld_elf_factory_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "29e7cdf9bff28cd00c83901b0d5baceb71d2f8f47be03cc388cf66439c2b2779"
+  },
+  "bld_elf_factory_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5e0e1876adbb57b6cc10a44efd30de5f9d0febd3b6d7361e133fa7b958082f9c"
+  },
+  "bld_elf_farm_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2f2f1168d7ceb351ad3e50174f01ca66242b91e445bbcd4e8a2225aec2c5d1fc"
+  },
+  "bld_elf_farm_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8a0870932f1f7aba55ac72b7407da023bbb901841a72c176d6b19a06896b7646"
+  },
+  "bld_elf_farm_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ea13b4567c7555dac928cedf07ebe6a7e47555a5a7c73e6b5dd67102c2bb5998"
+  },
+  "bld_elf_farm_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "882e3bd604e9398cf28f930889984aaa1c9ae82e04cca4546cff3c1c2d319321"
+  },
+  "bld_elf_fishing_hut_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4c214f4d3cc130bd2c9aa64e6c8e8a1cca4a401cce49cacca43d77ed8710aaaa"
+  },
+  "bld_elf_fishing_hut_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7a3805ee40bee641b0f47d70ab8ff9961c0bd79806aac6cfb3237d9396fe319c"
+  },
+  "bld_elf_fishing_hut_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3ea9e9a4f847f0652f2c54974fb18b066b87f920c386b40b7b9d054eda6c907b"
+  },
+  "bld_elf_fishing_hut_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "aed534d3ddddf6415dee66142fa284148bf34bea06ad8e7b17568093698e982b"
+  },
+  "bld_elf_forum_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "32d2d16a2cb90a12c69bacef9431808eff2789e515d0dd8c48d130660900b48c"
+  },
+  "bld_elf_forum_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e38b6ba650d88d46e0d276f53844a875c739d034cbba8bf837094d43025d6589"
+  },
+  "bld_elf_forum_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "eb80e9d70d9b8f805f68ab5a71863052abaac9c4b7cbf5cfc2264c73416b3315"
+  },
+  "bld_elf_foundry_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a345cfbefb8e7978d34416ee8d9678e9233d61047a2d8a24c38538a9cc19f0f1"
+  },
+  "bld_elf_foundry_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ae91fe0b3952b97a02f424db97426e8dc24c7e97aabbc49c87a118382dce3a4c"
+  },
+  "bld_elf_fusion_reactor_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "799fc58bcc83b16d6adbe27e0ac2a5a79de05ba03101300dfed838a77c0345bc"
+  },
+  "bld_elf_gatherer_hut_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a8cd88e4ebf007d5dad74287c84e65832af576f00dda3a57617e5eee80f010d9"
+  },
+  "bld_elf_gold_mine_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a900515c479491fbf86cda1905f06c8a74a51d430e3477d8795215b54cd5aaf6"
+  },
+  "bld_elf_gold_mine_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8cbd6d4a9301b3efe73ced9587c9dbbb304223078406b012884ff257b80947e4"
+  },
+  "bld_elf_gold_mine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "817b2667ede0a68afa97066fad5d1f347954d8a3c836e9a7aa2da7cadea6085a"
+  },
+  "bld_elf_gold_mine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a4eeffc33219d438921152642b1c158978cdafb45dea2c66f43d865d3fc719e1"
+  },
+  "bld_elf_granary_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0fb22978c8ab25428a75eda00ccbb601cad14168acd2bf5190aa04bcd7d0595d"
+  },
+  "bld_elf_granary_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ca976200be9434025ea7caf24a0ef60c4586fb9edff963ec5ad0012623930bf2"
+  },
+  "bld_elf_granary_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "01a9c2f052b9176e1ec17b4adc708b2999eec920dba744d9414827f7f9e4ca9e"
+  },
+  "bld_elf_granary_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f39444c4e98484ca7aba81c7b7f9eb231384da70dbef2eb57144400e48c3b329"
+  },
+  "bld_elf_guildhall_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "da03f624958036fc8e6ff1f3aa7b46c145cf613ab42571ac74a254e305a7c13d"
+  },
+  "bld_elf_guildhall_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "38d90eece8317db41de026d16116b79b7f7659a62c171f6f1f6f7076705b40b6"
+  },
+  "bld_elf_guildhall_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ba534f649cdfd38beb65f80c822f2a53e742a0ac6e3824cb7e81edaa03c76b24"
+  },
+  "bld_elf_harbor_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "46d62f0c72162fc5cbb98864aecae1c3368732b3414418dfa8fe80bd86f9d31e"
+  },
+  "bld_elf_harbor_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6538b9d0087c6842f5066fd5a827b12ad4205c3e9b67b97d39db02bfaf1e0ae4"
+  },
+  "bld_elf_harbor_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3e3fb2a9eeb36dd0496dc09efb6c65c874ae7b276f4fbc7bd81b4e51931e9dc7"
+  },
+  "bld_elf_herbalist_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0e271f309d458bec6b3c0c57f75314699ec1249e875752189db19e18962596fa"
+  },
+  "bld_elf_herbalist_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a6c3f1aa7cf0ebc02b2122c100a001da78f9a894c9d740dc68a647b126542328"
+  },
+  "bld_elf_herbalist_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8f8d105b9ed4cf1629e237019eb75b02c9345149aeb4edaa5950cef60a084962"
+  },
+  "bld_elf_herbalist_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7b8d80b1c9f076e5b7dd1244366b47f75d8ad0bc30239c3893f1459451417055"
+  },
+  "bld_elf_hospital_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7df1e0f2ac6cbd82d056c9d42435c8fe098322e27e52c22c2bc0b046c0f04d6e"
+  },
+  "bld_elf_hospital_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "cb7731ef0f5e530c4c26aba68533f0c2ef8d06f60d9df97d27a558972e9961c6"
+  },
+  "bld_elf_hospital_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "608a7554cea2d9051ce9030532918098799ff8ac230cf2a3d1be4db957885208"
+  },
+  "bld_elf_house_ancient_bronze_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "427480a4cf0109464a31a31728907a2b483180ceba1f02bfd49e482e240c3a5f"
+  },
+  "bld_elf_house_ancient_bronze_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "759d42486db7a7753e1faf9e1175f6ad4ae0658221e9c8881b40e43cebb5607c"
+  },
+  "bld_elf_house_ancient_iron_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f5154c68424ef3c3334b5671d4d8a2a6136a3ccdabea82757c777df0674d883d"
+  },
+  "bld_elf_house_ancient_iron_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c99987c25e520219792f87c147b769f4bca78bda4fb0e480fa58f5ebf79ab225"
+  },
+  "bld_elf_house_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5135299f0d5b8a4b82af7d6d4ac4dde7ee6bf894b0a71fc6d3d9aa6045a56448"
+  },
+  "bld_elf_house_ancient_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "946f495431383595d841ca187c63ae04e1276fbbc944da5a482b6031ad2a16cb"
+  },
+  "bld_elf_house_classical_medieval_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c5c7e5d45afb0eeae4490ec41c30f1a6f8121b469661f47a3288bcaa202dffea"
+  },
+  "bld_elf_house_classical_medieval_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f052eff46b180ead78a55599709b6b9874d76f69c31ade09af6d40020dd559b2"
+  },
+  "bld_elf_house_classical_renaissance_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8140a2cfb58e089f17c44a29442f90439b0c0e51c088227bfd90072647234d2c"
+  },
+  "bld_elf_house_classical_renaissance_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "010c8116d4e621c26e3ec81c7523e5e7a2dd67b34f65af0b68f85e04c07ec59d"
+  },
+  "bld_elf_house_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d8b2490a6def9c47c18628f0320ed5abc35a94c5c26c04fed5d22ee268a75b73"
+  },
+  "bld_elf_house_classical_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7ff3e7bb44e6f8ee4f99cd38d89d12a6c18a47fdcc006b447a376961c5953faf"
+  },
+  "bld_elf_house_future_ascension_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "49ee86ecf6bb99e81e85d63af86c8686e2408d9fa99c8d08dee9eafe4f52156e"
+  },
+  "bld_elf_house_future_ascension_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "53e134be43c6237ef3110e24def8f7e9b0322e553b6ca027fce247ba64dde6e8"
+  },
+  "bld_elf_house_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7b58028b09517c024272e61e45bbb8579b0c7c8af83a2f36386792e7e8841cf3"
+  },
+  "bld_elf_house_future_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f42f31386f3c7e6434bf5aa04d22997c04877913863fd71c61c19f1ca459ec3d"
+  },
+  "bld_elf_house_industrial_modern_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "68ffe291a9948adbae03e9a59cf53ec99081e4da18c91199cb8cf30f1428359a"
+  },
+  "bld_elf_house_industrial_modern_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "31743589a1052b60fa553042a881dcc705523afa454fa797ea036ae9712b00a5"
+  },
+  "bld_elf_house_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7e4d969e13817fbbd4589aa8223330fd776a2b8e2af48a9805ad1e5ea41fb328"
+  },
+  "bld_elf_house_industrial_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2947b623d5a2adfb8e964df69f422608d6d3c6a39e5aa1605353d741e52510e3"
+  },
+  "bld_elf_hunting_lodge_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6579ba57af72fb070e13a9085f42e9c3382cc4b7e4984ce5516bb54cbd34c99e"
+  },
+  "bld_elf_hunting_lodge_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "40d15e767d2bd79b9850a9b386533822d2514ac6c13e1c77e5b9df1771654300"
+  },
+  "bld_elf_hydroponics_tower_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9f07cd7dd6978a6ba6009fa20cfec7ab223634adafc72dfc571bac20226f5d99"
+  },
+  "bld_elf_industrial_farm_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "311cc9b5414e8fe11bd3ed00287a9aef46f43b89e6871ccf6bb5a600631714bc"
+  },
+  "bld_elf_industrial_farm_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ee8e531c8d749d29d1dca5a51b3e65a4c5b4f0d5e08e0efaeae573316b6bf9b5"
+  },
+  "bld_elf_library_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2ebbbe8adeb093cb026ba56eedcb0098ad0ddfcdd905b673a1e138d11a9bfcaa"
+  },
+  "bld_elf_library_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "15b7ce854c924ebdeb3e2246aede8ccb2c68e57c425db660a9c8b10de8622942"
+  },
+  "bld_elf_library_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1aa598d39b55175743966885a6004d76624137ef6cf23d0d7529b25c8053a570"
+  },
+  "bld_elf_market_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d79396f0dbf0a29224b8c7c823b31bfd9f4d8aa6730754e9e4d65c876892f504"
+  },
+  "bld_elf_market_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e43556856cdacb1f25e39d7bf75a748eed5ebabcbfd9d57580a571f758518901"
+  },
+  "bld_elf_market_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dd6cbbe2139dd33b4a9ddd7e338cd24ca2b4d3f85243c4d67da68153897aef18"
+  },
+  "bld_elf_market_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "378e156baea6e77812a6d70fc7021db0c57c05044233736c9cc324fc21a442d8"
+  },
+  "bld_elf_medical_center_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "83f7f60e2fc4a84c2b9994457b2e4adf0a8999de807fa4ed946c073b476fe57f"
+  },
+  "bld_elf_military_base_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8b6bf232f594ebfe307c26002bc7490e474663a555dcb7bda2f22b819d9be85c"
+  },
+  "bld_elf_military_base_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "903fb476db032d1d814356946edfbbbe5689974c09ec5c3b85e9a7c5f6c83343"
+  },
+  "bld_elf_mill_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "698361ce7431638b388c285a23c7f322478c06d9a47b4f588a0fa2778addaec6"
+  },
+  "bld_elf_mill_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d0b847343ed520f7122aaf2d31f84d30eb89f6ae7b8b9034a1339b40c45ecc73"
+  },
+  "bld_elf_mine_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f88377985319c535a9557dd8648683bc3baf7f6f8912a8bcb7c0ebc64fbe76db"
+  },
+  "bld_elf_mine_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3e34037910e26bec2b57956e97f3088d3ed8d23314b01f3d7f5b6b8ce9f65413"
+  },
+  "bld_elf_mine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7bb299f03bbf3f6755391f9d2ec0c58f495c587b6ed8551c267bf230366577cd"
+  },
+  "bld_elf_mine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "33773eb058e53bbcde2586880724067ee2471b951286122cba9b4ac76a8e8a4e"
+  },
+  "bld_elf_monastery_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1788676d6b0bb322edcfb006b677627b36644b2bb9004913f45967172d3e5b99"
+  },
+  "bld_elf_monastery_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "72eca99a58382060383d37e59fa849261137ebfdec855dcda659dba4acaecf2c"
+  },
+  "bld_elf_monastery_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9535f5019fa84c0d3317f8005fc402fe48447db69ce295866771a03fc0a0b61a"
+  },
+  "bld_elf_observatory_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fc92831e965c839f08e33a49da200750d01f2ac06678d461c59083c56605c5b6"
+  },
+  "bld_elf_observatory_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f17408b823eafee76e6b16aea99ebb11d117b3bf80c817b63e15d77b10663e94"
+  },
+  "bld_elf_observatory_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a38f7c14ba6a4caa0f19e511b6aa403bcce984df9a52b5b136585990c84a5f0a"
+  },
+  "bld_elf_oil_well_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f77fdc7544f35f3765c2d7b9fb13b51e995d1a03b979847bb0720d959f29c5de"
+  },
+  "bld_elf_oil_well_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fec7cc4f4e26f3429b1091b6e398eaff2ac8013b2cc555edf760c317d169cf6d"
+  },
+  "bld_elf_palisade_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7b84fd7c601dda5a60ec6fc6a7e232611f4bfdbc51786151d066025afbe77ff9"
+  },
+  "bld_elf_palisade_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "66a2de62efc41e9bd12123ad5d14a99afb193fa7d07adc67085bf1fdde9438af"
+  },
+  "bld_elf_pasture_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1e268f77d34f3282237bf1e8c252da26da407d96810cff772ef3b0f99a9b3782"
+  },
+  "bld_elf_pasture_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "232c3966e7fd5eeaed2aed6217c2cbe61febd4ef56fa43f75efc9db06bc44039"
+  },
+  "bld_elf_pasture_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5ba64d5b11e4673662897456ac86c36a0c260aa643e10324463a234c4d169263"
+  },
+  "bld_elf_pasture_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1d8f99fffb88bb409729ac4f9a1b85fe2ef12ad74d797c9bd2666a150b70767a"
+  },
+  "bld_elf_power_plant_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dee1a36894dbe04e26e26ba196e51726bdc3dbc690101e1ff623a82540c2c4d6"
+  },
+  "bld_elf_power_plant_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8120f02d05b5a04508865a5298a85861f3bd9809bca5d96da26a0b720030a943"
+  },
+  "bld_elf_printworks_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "18a58dac1fedf97e1497dfd22b59f594be36ed99f1412d2b70374dacf83236a1"
+  },
+  "bld_elf_printworks_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4af6ae7618576eea853955b09be14dab4667dd979d5e6c7ba625453be312eaa2"
+  },
+  "bld_elf_printworks_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0854ad5726291f087aecc6ed76390753e37ad51ac818b0a51bcfd3355e7fad9a"
+  },
+  "bld_elf_rail_station_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e16ca47bbe799221f32c30adfd7fa9bbb268a81e345aed6823b431ed496c80d4"
+  },
+  "bld_elf_rail_station_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "46f52d98592fb60452877b917c5840268e36e3f8bcf445aba5f684779454981d"
+  },
+  "bld_elf_research_lab_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "77889331217aef2ab1404b7f1402ec0038792906d57b4c1f327520691453ba0b"
+  },
+  "bld_elf_research_lab_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e13344d35471ace6a38dacaddfd4526662409ec213132cc7744d1aaea4b1f57f"
+  },
+  "bld_elf_sawmill_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a2b2ab8a0e23b9b017ae9864cafc40c2b266d8da959900e049058454ace266b3"
+  },
+  "bld_elf_sawmill_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6d0571f1911e4a839eb7907c351e0b98e9416bc1abf0378c3657418bdca1f2a7"
+  },
+  "bld_elf_scriptorium_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "eda22b5ef8dbf6b2f802cc069c2b7373672dfd7bbce8b265ef8f68716e2af516"
+  },
+  "bld_elf_scriptorium_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "77be21064d9530608a3fde0efc87de8d9f25e5e16db2c75786c6f5a37899ca22"
+  },
+  "bld_elf_scriptorium_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a13c6b2a09e02ff2276d3f1a3d896a69db9b153c89f162478f22ef4578daa0ec"
+  },
+  "bld_elf_scriptorium_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "12e334215a8720dd52144782d4da7b204c2597945bfa961cac70e5d6714cd9d7"
+  },
+  "bld_elf_shrine_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "859b58a998aeb17d562dceda587ba90e9cbff596a0615bf96976c9e794ef5a85"
+  },
+  "bld_elf_shrine_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ab7b2d778fa0557156bb34498c5c37f821d95faad457e9f92379ac887b752f37"
+  },
+  "bld_elf_shrine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6e7efff36ca92aee617ab491e94cc82d0ecc7b55491c56a83a84778ec7764e0a"
+  },
+  "bld_elf_shrine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ad26da9348520ae514471a5b66ac3a9b890d2157f64cc7075a30a28afad13a4f"
+  },
+  "bld_elf_smelter_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "89ce74c7dc460aacf77d87251ba13c9ce6979973e55dcc0af40e04449863ca7e"
+  },
+  "bld_elf_smelter_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b1c0eb4c20e1dc60497645f96c5ed00812e38c8a768c892fb42e2b4d22a5925b"
+  },
+  "bld_elf_smelter_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e1d4bdab85497f7f2a480257bfcfb7cce3e0fa44a3d25d2ee20b17704491e699"
+  },
+  "bld_elf_smelter_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6d6958dbe8116e79f413aa35ba294cbb75b23333d67613745110798e930dceec"
+  },
+  "bld_elf_spirit_totem_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "397b6738a7a69009401cc88302000f5640e3717f0d592c54daa31f705c0bd990"
+  },
+  "bld_elf_stadium_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d24096162f54d7bc7ff2a284f73b935c23c82225ce906228e2a0ef7798169969"
+  },
+  "bld_elf_stadium_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6199eec290c0efabe6a2bfe633a220c42eb04bd44753206e383564f783a326f5"
+  },
+  "bld_elf_stone_quarry_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "76883e4ad2e67c18299fc6b5db71292b4795cdff0e532383597b3a4f8b6d966f"
+  },
+  "bld_elf_stone_quarry_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c9591873d3a8fa884e63c4778004aa0a1978140f2c7d0158648f30be0be8abf4"
+  },
+  "bld_elf_stone_quarry_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5c088debaeac2a79fd6be60cadc4f8321998862e90400ff52d895f942fdbabc1"
+  },
+  "bld_elf_stone_quarry_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b26af34dc6d6c70d340d105ca9c392c77da0d4e2fbffd1c66bcb5af12cc923fa"
+  },
+  "bld_elf_stone_wall_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "87cafdca9641d000ecc5d41369c3dec985ffca46529ef05b5e79678711e686df"
+  },
+  "bld_elf_stone_wall_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "853015a1b662868a4d4cefba5a071b154606cf14b3dc884f06b0bfdf8900be39"
+  },
+  "bld_elf_storehouse_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e7a370917a517819356371603111374578b748a0b84588c71f3bf0dc1caa0150"
+  },
+  "bld_elf_storehouse_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e52bf07a208623620d66f205fd5a48919281c53094fcfa4242e137ca006f211c"
+  },
+  "bld_elf_storehouse_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "58a535dddfacf3f61aa8a20d5bbc85cf2fd2cd60cb00c763d4e28d5aeaeeadee"
+  },
+  "bld_elf_storehouse_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "06654f00628006a293d2b74f1d20751aeec66e567cd5473d1511a1b2351ad6b4"
+  },
+  "bld_elf_tavern_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7791eaabd05630c6e5642efd601f8bfb0ef7c46986d3ce22c36e667472d195cb"
+  },
+  "bld_elf_tavern_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8b718d8013d6391b2669b4f3eb808ec440c8cab8d9160fd474cb2543a39e716b"
+  },
+  "bld_elf_tavern_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5eaedf85cca98aefedd2ac2b34bb381d5964904be84c6688429f54cac391ca4f"
+  },
+  "bld_elf_temple_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8ed9f5a81fa8cf1411c01f4063df052ce64b335ee0810d012be5ceab8d1007f8"
+  },
+  "bld_elf_temple_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8fab9c371f700daf3cf3d4aa268c638c8363579716d82ff108b831039f7169e4"
+  },
+  "bld_elf_temple_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1771069485ceb40039d0c6a480867c47f302a9cd1c97aed3824a7876aec1b257"
+  },
+  "bld_elf_temple_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5cd8899a2877368f4e8214056f1a40a1907010e9458d32e367802e5892b121d5"
+  },
+  "bld_elf_theater_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "527f593c212dd0d47bfdeb00d9a33b75d0427e8f3681539da8e84aa576c951e3"
+  },
+  "bld_elf_theater_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "41aaa64c4c4769a7fa33b512540951034f8c47c5c77be5f056c4256277142ef9"
+  },
+  "bld_elf_theater_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a0f6d2bd3843ad321793d1197f74598656d76e9a5bbd24b976b0010240724d4b"
+  },
+  "bld_elf_town_center_ancient_bronze_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c992403d5b2057c9c6c468c42a09fc613ac11ab8eabbc985dbf57d65fcc6ed72"
+  },
+  "bld_elf_town_center_ancient_iron_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "123337e5da38a7961e4bb9435a03fa620c249b94968052ac09dc15270662fbf5"
+  },
+  "bld_elf_town_center_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "641cc509a25e5560ac2838eeb1e0903217418859d534fd743c6adafa2d923bdf"
+  },
+  "bld_elf_town_center_classical_medieval_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c3add78657393417c5c70168cde5c7dcc40f0b234889df7f37e897ac7aab7b5b"
+  },
+  "bld_elf_town_center_classical_renaissance_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0a5b0688e032677c38970a05bb5e4d0e24169e094d2833ee7e265f3411d58ef5"
+  },
+  "bld_elf_town_center_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f2672f5e207b92e7b7f3d3e5a4fdcc1a39a7a0eb456d7c755f671d9b7bca5588"
+  },
+  "bld_elf_town_center_future_ascension_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0f89acab4bccddab4d5dc5e5e0cf0974b8f37e451ec04e599f0eb75559a5c304"
+  },
+  "bld_elf_town_center_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b575ee0bda51b751419e18ebe2503d4eac23a22f8a3e48c97497654c3d9f418d"
+  },
+  "bld_elf_town_center_industrial_modern_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3330e9451822f1b15e313607ce5339489d3f8551e89ee356eb84d57d6bb7033d"
+  },
+  "bld_elf_town_center_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "45b8ca5515791e2f0a0ff03acb823a19d333168d31c3ac21b5e2d8e38fe3f170"
+  },
+  "bld_elf_university_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "254b537ab4ce7a8f995fde4bff0bfd5a290360534a22dea8eb4a5c9b14f11be8"
+  },
+  "bld_elf_university_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1b84b7055adf7d2dc9479fbec696e93a70d7f8850510f44c8a66fea803a9bc8a"
+  },
+  "bld_elf_university_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4b10832c883c210f3278a901c4b5e88c47dafd57d0549830e1badaaa71a95883"
+  },
+  "bld_elf_watchtower_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4e80bc57e47677231120892bf9fb6032dfb534fd32ccb1dde8477a8aca34f401"
+  },
+  "bld_elf_watchtower_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ed041b4b2ad2ec7521108996e22cf986a3ec88c552d5bb40b1e47a4fcfd83a4c"
+  },
+  "bld_elf_watchtower_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8d1fc701f5a9790b31f6053670f02b9e92ec3f57c718d73ce9f4b99de9803067"
+  },
+  "bld_elf_weaver_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "689669498af6618e9ffcfa5d30b1984182fdf897be274d1e117471540f60a61a"
+  },
+  "bld_elf_weaver_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "44026c90392eceececce35fbe68116f08bf09c8445a0c036326f6ac93febdd34"
+  },
+  "bld_elf_weaver_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "45ebffc4e65d73b02aa6748a91f40c2c3f42ae3e6c07e3ce9bb8d01079231fe9"
+  },
+  "bld_elf_weaver_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "650f8d594156d651f3d550ab2da383e0cc66401ae7f7c4e7b75ac4ba1f5daa72"
+  },
+  "bld_elf_well_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3f56a1b8f02b4a2ff88bc147c4689740ed4fd25ce4980b109109f44f8ad01fee"
+  },
+  "bld_elf_well_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fa0bd81b470bac2d4bbf7efc5692ba6c770400bc8641779a2293572bde9e3ff4"
+  },
+  "bld_elf_well_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "26aecfa327df31e9d817368b9306b3aef66b02c49840c5c4158d4ce19ef64069"
+  },
+  "bld_elf_well_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0b9435bb2a1536ec6ed765807d3d5ab38c169da70b72c31b5b202f869bd5dd48"
+  },
+  "bld_elf_woodcutter_camp_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "96d598369df1ebfe7f1ec35e85c527a2f1ce07d5fcf3ff792367590b0b034bc6"
+  },
+  "bld_elf_woodcutter_camp_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "23366bd0ba207915e02a2a62124fdabf9ac9889b3d283ade550233d212acfc55"
+  },
+  "bld_elf_woodcutter_camp_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a042e20863105ec97fab6c13e273eeeabdf7897f25d69a6bf47b6781ac50811c"
+  },
+  "bld_elf_woodcutter_camp_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b325a3caadd318189ef9c72f03ee8d6e663d58387cf754e1a30e31785951f0c5"
+  },
+  "bld_elf_workshop_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "057842be52e191df634e41ca0a1693bf21d2dd9b2a53e1c7a075e3b28e46e771"
+  },
+  "bld_elf_workshop_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b5d2106e15a23fdf8876cec87027e5a567afd3f9eb03342fa1fcc70a939336b6"
+  },
+  "bld_elf_world_tree_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5b0ead39dd0ea403d9230c9a4e9574d426b0efe125c87bd3296682a0d60758d0"
+  },
+  "bld_human_airport_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "090a30ee9c841ddf02d3d1acd7a1a7c336e61cd50bf5c391779a7db8e3dc655b"
+  },
+  "bld_human_aqueduct_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d32a353e303116892fcab291dd09e8567faddd12e0a30d289caa185fdad4620f"
+  },
+  "bld_human_aqueduct_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a5b84d3ff1e1269bed752e5725cb8ee449166d33bdebbf4db069f03177431003"
+  },
+  "bld_human_aqueduct_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "698ea6b2517c1180068f6c8a59f4de8bcfb22e398678eafd32982e7344809a83"
+  },
+  "bld_human_arcology_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e45eea484251b37efa4da09dc5003c5182c013801ae39858f038b6a8943a0b0b"
+  },
+  "bld_human_arena_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "99c523757046b693133eca6a5321ba67f9864c0e199e657dba2492290cbcf413"
+  },
+  "bld_human_arena_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8ea9c1b24f591eb5a48456e6137252b862d9991c760808f06e2dea799e11d215"
+  },
+  "bld_human_arena_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "590dd9320163ff033a90563b141c90bdb4342ab734429f2b40bef3aa5eec88a5"
+  },
+  "bld_human_armory_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1ca5600c23bb787e678bc975dc8d4c4460ec7172b5ef4ebb0c27b3d0c8619ac7"
+  },
+  "bld_human_armory_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dfa471c095c1567c392548b2da60a61646d3326bf81fd8e9a6d432ef32308acb"
+  },
+  "bld_human_armory_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8b0e57f3320b872f3d6c8f040be50e36aae129c46c26a0d6be487d1573bfde5c"
+  },
+  "bld_human_armory_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "455b36082ac4d0ba15bb90f2bea0f9aa8b8c3ce3bc7fe1883fd2cd97fe81aae4"
+  },
+  "bld_human_bank_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "06d4852b762e7fbec328d901fe38d5ea9eb611772c2730d91ff74e630e5ebe6f"
+  },
+  "bld_human_bank_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fc1f852c69518eb214081c576568240476ec73aba8f828f1b68f40128b9409b0"
+  },
+  "bld_human_bank_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dd03691a608e2f4867db86a7ad5c5e98307f9f52c99c8b6d3fd07891aa90c91a"
+  },
+  "bld_human_barracks_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "174626c76ca72f1c0a693693a3671f672e56c6e282378e24b653cf318dc57341"
+  },
+  "bld_human_barracks_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9e4f9c7585ca35b36d1fa9624b0a4274a33a0dca3549d1aaa98cd83ad242e247"
+  },
+  "bld_human_barracks_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "73896c5d71438d02dba42213ee0c6e276556a0a2c3a955d9e25d0afa73e17564"
+  },
+  "bld_human_barracks_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b895763198512c1de6ff9ff65ac6b4f58b84e1240e94a4155ee2b94409b5c96d"
+  },
+  "bld_human_bathhouse_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f9e6281e003d565dd98a459a38da11010f2800bf4c1dd0945295f3341e339ae0"
+  },
+  "bld_human_bathhouse_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "880738b27f44af9dc3d1ca8185e21f9862b8acb2681afd897928aaf46ae770e7"
+  },
+  "bld_human_bathhouse_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b929eb4f84dd9ee230ba25cfcbec2917c25cde1a3a11298d66597897baaedff5"
+  },
+  "bld_human_blacksmith_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "98dfa47f7541b97f7bae92513fcc1b9ed875a67a34079f5e20d57f18b60c9e62"
+  },
+  "bld_human_blacksmith_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1e91d7073935d50c54881f74906d012ab01cb655c2c3c23b0b5d8090060a4f14"
+  },
+  "bld_human_blacksmith_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a7b017d8ec74b35fe88e3353b9d9514708266891d8da17ddd60227a770c87d23"
+  },
+  "bld_human_blacksmith_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "741e95e36db778801a92f8b936d59e6051aeb8a99ff9c0cdf244dc6c712b10ff"
+  },
+  "bld_human_campfire_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "26cb202062a6c06b4a3d1a960b408988536526aaa03c017fbb1866df7d470a0c"
+  },
+  "bld_human_campfire_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1f8696c7e321c96a7f446207a8fe7cb994008a511587f4fc4f5020784783c1dd"
+  },
+  "bld_human_castle_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "71ae48e23a41a56541b73ea4bf8d235f32f08019f938a0de9a82be88b7bf34bf"
+  },
+  "bld_human_cathedral_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "adb1cc95585823993dd80d91d7f2e6e7eec5db068a693da970991b80cb767459"
+  },
+  "bld_human_cathedral_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2b7c5d01470711415d46d10725f51ae37d624cfb07bfc4af7ff6e90a54f58158"
+  },
+  "bld_human_cathedral_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c2732800b28228558623f6ef788527c943e7c809efb8edb91528913cb76293c7"
+  },
+  "bld_human_coal_mine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9a414570a4d02f03a4861d86b2e4902f9bf4aadd12212e25080761959b2f0f10"
+  },
+  "bld_human_coal_mine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8a2e588d567e7e57871fc72b77472fbec1abf7ab1842f724ac7d0f0f49ad2038"
+  },
+  "bld_human_data_center_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3980160262f8264640c65f0b6af170203c8bf1d6666c90bb4d0cbecb189e88c7"
+  },
+  "bld_human_electronics_plant_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "08ca84aabcd7d6dd0e371053265d8386851d5aa139f40bcf0ddb4a5b23700121"
+  },
+  "bld_human_factory_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7ed079464be586a7a7965996b246c0d2c8c6753107f25486a3fdf218d8ff3d7d"
+  },
+  "bld_human_factory_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9a58cbf16f68159ea5e987d616ad4cc0baa923176c6a0803be707a4530cc5a88"
+  },
+  "bld_human_farm_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5e330101c1925b30878af01602b5f13035493744da3f040995710f337705cefa"
+  },
+  "bld_human_farm_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3cf9c0afb109b57e4cd054fa8e5e00c585285dae21515dc547d2d8a056b6115d"
+  },
+  "bld_human_farm_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a0911f245ee2ebeefd563db3f2d5a6992a5c4417dc7ee75ae209daef266c7b83"
+  },
+  "bld_human_farm_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5db36544d52f97ef02c193800f697943ca52d8b4e8a4abacb6b5aebcaf18f43c"
+  },
+  "bld_human_fishing_hut_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f512bd68cb1444d8d5ca98c276911c3356379f3a733ba95e8b10018d316af66c"
+  },
+  "bld_human_fishing_hut_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0891707d2d256ad6a6b3f9869039c155dded77d160c9f6d18d9c539df27c532a"
+  },
+  "bld_human_fishing_hut_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2a360babec9ddacbcda471c2d428f609a9425c72d3501aea40cd1e31d73d4b38"
+  },
+  "bld_human_fishing_hut_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4f2c71f42d9030ac01a5ecc2ee843d0b956affb8cbc1d5ee5faed80dbd97868c"
+  },
+  "bld_human_forum_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f92b053408353d29785c53aee46835805f77c994a8b9e7ef66db0c46955d042d"
+  },
+  "bld_human_forum_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c310444de0816eeea27638cd5b5c54de9711d75715c220729da59e167c8ed39d"
+  },
+  "bld_human_forum_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f4179e8a84933dc38b92674022cff4b0b756371018ac7b40416ce0055e46d055"
+  },
+  "bld_human_foundry_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "64ce703299a4e8796aca255eab33952b778ea2d5830dd2c102bf4c4d9225e66c"
+  },
+  "bld_human_foundry_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "42ed9aae68cc998ced37c8629880bc0572049ba6d1752e8abae8695c0661c404"
+  },
+  "bld_human_fusion_reactor_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "cbf172cc0327663dd11189e9025ddcae3de50d7946bbed87ee915b5915c04e4f"
+  },
+  "bld_human_gatherer_hut_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "91bce3c1f1764208a946e1a758d77fd1df33c14d51d76b8ad151817668e49649"
+  },
+  "bld_human_gold_mine_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c97761ca2cc3159c866f6f1ac7aa080b4f8505293b6f1c2fdb0aa5bef6273ad2"
+  },
+  "bld_human_gold_mine_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f13d75cb3d360ba2e66437593aa27f3ecaebb0576a29e908ec3817c5fd904e38"
+  },
+  "bld_human_gold_mine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "15eb133d0127cde0cdac5b589207ba00cc909b2048ac968c44111429e00e8a62"
+  },
+  "bld_human_gold_mine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ae38c36f2100717efd7d6df95b2b876f57ee780116148b4feacf821b32d2bec1"
+  },
+  "bld_human_granary_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "af2c295b4deeb613ab9ce0e55cfb753a1705b3e166ffd031fcd74c72ab580ee4"
+  },
+  "bld_human_granary_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7862ba796045618b840f14b61d3bf810f35fa6eec1f2049080abacb1fde2360a"
+  },
+  "bld_human_granary_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "90d8db81bdc8aee01786774a0de49ee9fac2afe498ec75b963aa5ebaade43ede"
+  },
+  "bld_human_granary_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f7b5f1ad546f0de73ec0729b5a0d2164623a56e77e1d241ab7b286a0bf2ff8ab"
+  },
+  "bld_human_grand_cathedral_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a27a587b3e3c850c3176ee6362077b824da799ac6ec684c49b1b2b3c2bf7fb83"
+  },
+  "bld_human_guildhall_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "73f17611f5db4509239b0b0e51e5aa3aa05abc8fade2db34e2aa74c90236bcd6"
+  },
+  "bld_human_guildhall_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "21cadfef72ce78ec2ec05e3209a3c938c9fb61ebf227b9248e86d0fbca53d59c"
+  },
+  "bld_human_guildhall_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6864875b3f0aa8a4db863e03ec0a720e8227d03387b3ddfe3e68fd6b0949e249"
+  },
+  "bld_human_harbor_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "05c3414e4cb2b5e94c2583da1d6a7a29200a557632bc7bb36dc4648c6489e691"
+  },
+  "bld_human_harbor_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "62331078cb9a52dc22a8e1d740799723d63b0be76b3f8b135b46a05862b29354"
+  },
+  "bld_human_harbor_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3a08f32337f3008ec7d2a0257eee72575107463fee2828bc0797f41c5db8b9af"
+  },
+  "bld_human_herbalist_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2b95094fda7d3a3bb3f1ca3904e08baa168978d15539448c996af50b90a7b771"
+  },
+  "bld_human_herbalist_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "bfb9ffd6e8a1b54688db81c5d879e7dd1d5180f7f774c42ac15bf0d3e46b26c4"
+  },
+  "bld_human_herbalist_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "806c6ffca65885021db9464c55019f7ae5eddd3d039b1302b461099ab1e2d9c0"
+  },
+  "bld_human_herbalist_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c0bec569bb8f9b8c358ef2bf744f46a812fda48a7a992ff928e03dae23c140a5"
+  },
+  "bld_human_hospital_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5b46499759630706c23f1808287df3dbc1d1c1698deab3eb15a207d60eb20354"
+  },
+  "bld_human_hospital_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "558369b52de38aa284a7d62fda0ed00abd4a9209484818fe010cace305a6b0a1"
+  },
+  "bld_human_hospital_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ab1a869ad2787856bbf842ad8dfaf8963261bc0c3af40c948fbe763c22dd0ffa"
+  },
+  "bld_human_house_ancient_bronze_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1bf72911249d92bba94e526b4bc70351400382e87ae30e10edb90640ec536297"
+  },
+  "bld_human_house_ancient_bronze_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8054e8e9287461ed0f73c98ed3d796e0d3f1655bfef3d239b997c58400536094"
+  },
+  "bld_human_house_ancient_iron_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4461641d3daa03963dcffa465af52ac460a017f309febe1ee58f93a8c4344b15"
+  },
+  "bld_human_house_ancient_iron_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f1233be940d038204b92f6cb03f9f7ff3c3a0b5d2c0c1512fbe933d8b07471a7"
+  },
+  "bld_human_house_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "54866acb443820594669c34fe5648ebcda6c9e664ceba9c950797ae4bc19e4c6"
+  },
+  "bld_human_house_ancient_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c065160941970a614546a23e70cd9a9663f65e92bc7ce8055731264c1f331f2b"
+  },
+  "bld_human_house_classical_medieval_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "066cb605a0c724dac63bbb446eb7aeaac789470d404936a997a6e4df7db6fad1"
+  },
+  "bld_human_house_classical_medieval_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7a27aced4a301ef5240cbfc92cd96d370e7ddf6f8184342031d36f683357d0c2"
+  },
+  "bld_human_house_classical_renaissance_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ae9a04bd9c89c61a6154ff4db8ece784b4a914cdedaecbfe64a85b6a23c656d7"
+  },
+  "bld_human_house_classical_renaissance_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "222a8095900c9b7d64b9cb45b23e4b97f5842f34eb4e818389411415a2ccf62d"
+  },
+  "bld_human_house_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0e7a15539e48dc2a51b3621769d6067542286f2f9117612eb9324afe9cd1ee25"
+  },
+  "bld_human_house_classical_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "835fa2fdf5418fdeb03fac17bb50a782a3d6af493a337a83e4fa0cd00a7aeec3"
+  },
+  "bld_human_house_future_ascension_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "27c0b491570ccfbffbebcb1e16ccde3036d1faa94fbd523ad95ef75f73838e91"
+  },
+  "bld_human_house_future_ascension_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "75bd5ee2767472e83982e247998b8ff02050282519bf86534c5a2741fd1c4a99"
+  },
+  "bld_human_house_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "39a66bbd2ab079b84548a85566fd898e79f67179379683b9fcf0a029dfd6eb5e"
+  },
+  "bld_human_house_future_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a4b586ca1e688110239cd6915f47a69429f3d2ddfa5c488c982ecf59480c2c88"
+  },
+  "bld_human_house_industrial_modern_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b858044fd5890985740dcae241c15bdf991aadc3849cd55cafb1824bde6dd399"
+  },
+  "bld_human_house_industrial_modern_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7df34c1a3dc5dc5df0b49f122fb42d40798aeac4f5d7062a9ea073011d005f14"
+  },
+  "bld_human_house_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0c8aa9747a27b8d9f0fd94b70c75a999daa4e9265ec0bac03ca071eb8e6baff5"
+  },
+  "bld_human_house_industrial_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f271650e4a18563f685b8a9d0dbfadbc2fc320ca488b135256fbeae005faa195"
+  },
+  "bld_human_hunting_lodge_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c7b0febc4f5f8a9489855c32529ab07b02b06b2c2c897be76a27195c96a7ffa5"
+  },
+  "bld_human_hunting_lodge_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "90940ac9b46eb124baac2674602f81fffeb20ced1aaf81b06fc64169c4bfc4ce"
+  },
+  "bld_human_hydroponics_tower_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d263fe1b9da4fc4dfad04a2c2bf3afd5d62ff69e78b65e3d7cba3dc366ba24c0"
+  },
+  "bld_human_industrial_farm_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d683701c24741f1dc1ff8895a980716958b7f7e3fa029525f0cf21e102485731"
+  },
+  "bld_human_industrial_farm_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f847d5ea3b6d4fd60c85fd0ea905b1ef114712a0623516aee8670551b72e5ffc"
+  },
+  "bld_human_library_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "344d705f4e905c6e094f54ed0bdd9b772932604cd649660f04bb4ccf49f02cc0"
+  },
+  "bld_human_library_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ebd853cf75f959775bfc1f2d1640795a4a3f20621fbf713e1ae0b034a6dcc6c7"
+  },
+  "bld_human_library_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "536b6611d58f012eb50af3c3687261df5aedfb788290fdce98e712b6f17fd2c3"
+  },
+  "bld_human_market_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7d185adadbdcbb37e15e4e612162e6c0beaab6133a8c5719fe5c8c35e45c670f"
+  },
+  "bld_human_market_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d8b4c7f8ef84185214d36b1e958e405f4737dcbecd639f2c5c09343154ff256f"
+  },
+  "bld_human_market_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6a387047f63fed4a866596e2f91689dccdd5581599565f8cbd4a179a23bf6bc6"
+  },
+  "bld_human_market_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "93d50d88f30ad3ae854011cfee13e3bf2342fd1bb306b3c5ef973543be0276eb"
+  },
+  "bld_human_medical_center_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c582063a446e5ee844cb439d3cad09bfeb8c6bdf264c484388ce9d2397d18b00"
+  },
+  "bld_human_military_base_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c6d0a112ce548a956cbca1e5e1990deb3e4aa06cc3050675923541357d38cf73"
+  },
+  "bld_human_military_base_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6aaa2bb5f8e38d05d1a97c738712ffa77550009d73b52e8bf478bc9bb909d729"
+  },
+  "bld_human_mill_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f5c57511f54280d58f127f179d159def1c23465d6a40e8319c46468d5dc48bf9"
+  },
+  "bld_human_mill_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "396696750fe5d753f2cd59004758ab6b8536865e6c71be5cad394aef97c6e0e3"
+  },
+  "bld_human_mine_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "08f950396d24225f498c8265878111d3578f70fc6cb2488f64af6a85404645d1"
+  },
+  "bld_human_mine_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "00c87fc1b109be5ed52443e7bfbe9aeb6ddc20cdf2284d97ca9ac05a1ea33766"
+  },
+  "bld_human_mine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b25833990afd581b868ee2eb177570c75d200150868f8d1b3dbf9f9c1df87094"
+  },
+  "bld_human_mine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f99f7a523a39e5ea337dc5dace1c089bfd79bf81bae86046838c1c613334230f"
+  },
+  "bld_human_monastery_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a8ba4ae057eb21ae64fe6a6d16b59b130131f2dfa24ffe074e7aeac4c06dd221"
+  },
+  "bld_human_monastery_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f328bd7f89a5fa5b5f7ed9dc8b36e6d8b06dc269d7a07d359dbc1a1747160d78"
+  },
+  "bld_human_monastery_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "42b58d048afb1709d30d69e849988573ed903f95102a9bf30b1e595ebff97c7d"
+  },
+  "bld_human_observatory_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0e4781aaadc1e529d7489673aa12a35c0bc7eed652a8ba489c39f899c79e887b"
+  },
+  "bld_human_observatory_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5004b839f821676fe5f6906dcf12b5347188eea8553c0836ce055365324ecaeb"
+  },
+  "bld_human_observatory_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "49c727646b3723fa5e3baa06eaa12b9b28ea5bf2f48b610d824288c823b8e8ba"
+  },
+  "bld_human_oil_well_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7c1ce6cf9a728cc26ef82206b9b0d031d4c73c32da44917d3904280d92ea649b"
+  },
+  "bld_human_oil_well_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f15e985701fbcd6afb8e7e088133fd551dcf6169a54256069b173f28f439cc38"
+  },
+  "bld_human_palisade_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "052376db2fe4d95b6a08fb707aefcbf925c78a7a08f58d89fbe3651ffb79612b"
+  },
+  "bld_human_palisade_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "df0eeaed73c5eb3570876765dbc1ad99c0280fb365c8d3035a163f1f56ba0716"
+  },
+  "bld_human_pasture_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "509815a1b97c5159d9e1ad214e038e8eef1e21f3d83a5800671f595b3c6c6331"
+  },
+  "bld_human_pasture_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f8427ec1b8faaba7b2780ad6f1e6485d37e0e72980342973de37d0f012d9a422"
+  },
+  "bld_human_pasture_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "75235cea6cc22870224301d29b971149c138e6d9ae3d810d2cb36c3d5b67378f"
+  },
+  "bld_human_pasture_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1d227a8a0ff47ad4fbdf88f428396f30cc48f1d715fb5f2b57920e460021eb71"
+  },
+  "bld_human_power_plant_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "85c4cfea75653614af117cba3ab8359bb30f5e866ce52eeeda82697aa2045121"
+  },
+  "bld_human_power_plant_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6ad206e5a177ed3fcdb60ea47dffd3011759e2b0a5d3cd8c0feeb162968154ac"
+  },
+  "bld_human_printworks_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ed8f8772680d66e1b2cb080afb30b68c1ada4de066f7c9bae5caa5786ac064a4"
+  },
+  "bld_human_printworks_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f5827a4758835600862f02c8b60924a4835d9d439ff75e4a649c051f362fa140"
+  },
+  "bld_human_printworks_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4682c83e1297895300fc8b7f591c602926bcbabad31d7d530767edb7921c7e32"
+  },
+  "bld_human_rail_station_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6e3f7bc06c763774c0eed6c46020406558f73c9e371243a60a4f6b94044e26ce"
+  },
+  "bld_human_rail_station_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "694047a96263110eeaf6036f8a6aabe0f0c19d3a32906ab4594647b2bafed34d"
+  },
+  "bld_human_research_lab_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6c828f2adc0f019d74a1f89fabb60fb7860e691f9abf702be78822dbf97283c7"
+  },
+  "bld_human_research_lab_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8b07f6f745d216e67176dffefa1fbf6d4692b79e6c6e1e6a8e0936ae3d447af3"
+  },
+  "bld_human_sawmill_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a652ff85b29b29ffc3959c2f2fc1c776fbd9be700c8bbb1e3ac77487560c2d1f"
+  },
+  "bld_human_sawmill_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ba65589e54943a97881e311cfdb4740e7efd91d4d059c237df7ebf6db074f94a"
+  },
+  "bld_human_scriptorium_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ba0447d7372483379b888259643f31ff78b159f87fb879e5ec38c3d7e5f4d793"
+  },
+  "bld_human_scriptorium_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c83bf54792f86003273d830d7c912c05bbd9649dc53b98be86b2db25ea3fd71a"
+  },
+  "bld_human_scriptorium_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "acc40e952918493ad931216a2c28c98c060fc927f1bf1b6324bba3a445a9d737"
+  },
+  "bld_human_scriptorium_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "67a42a08eea0ed472e81a4f946d8f94408aba7e510211737bda9a9ba2ade12c8"
+  },
+  "bld_human_shrine_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b1cbfe709c21ea059a2440c86ee31e4f1b56013e819103f9107be1d6bdd5aa8d"
+  },
+  "bld_human_shrine_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "70ecb3cc6a1e51bb34cc77799aaf59ce5c79d71bb23b98c2450630dc8753f5ef"
+  },
+  "bld_human_shrine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "17d258378455365459f98fc8bc166a9e975959e9d404f7863af8a86147be710e"
+  },
+  "bld_human_shrine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e35c2246796610c8e3d420a95d8e4082beafc3e8ea7e7927753cd0c844203912"
+  },
+  "bld_human_smelter_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9a20d75442db56031c820eb595f781458351b8839c0f291f2ed014c8ed5bc89e"
+  },
+  "bld_human_smelter_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "40c613fb0b4ba7b95d85aefa40fa936967e0bbffd3d1e6729003f9b26ea54727"
+  },
+  "bld_human_smelter_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "31a8c9c60b201a48d444a93e35a49ffd37c0a914edad62f1865a22a98a041370"
+  },
+  "bld_human_smelter_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5f9ac531a46b615802a4bf41d95281f3489b40050b564b012e23cad9fdb5883d"
+  },
+  "bld_human_spirit_totem_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3251e01796a3191b2a72b62d17e9f85f531061d5a3d1abba006203742f278bce"
+  },
+  "bld_human_stadium_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8dd9eebac511942314323a61faa17e40ce841a5b750f4f8828ab0b6ea6b57620"
+  },
+  "bld_human_stadium_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8615ce4acc90f9b15bff0be655848d069327951408bc986c20e8c80cf854f955"
+  },
+  "bld_human_stone_quarry_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2c47ac30168db75b13a2bce30bf08a28003186460db16c096b3b3ebd29256c6e"
+  },
+  "bld_human_stone_quarry_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e7dca8c3961c770de7993228d80dc59a9704746628211f3980b9a8b9cf889248"
+  },
+  "bld_human_stone_quarry_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "55697763baf70e740be62ff12f4e162e990f8b2829ccbdfa63844b670feb3311"
+  },
+  "bld_human_stone_quarry_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fb35939b39003ee1b53553740d5c1b487ebb339fc49cea2cacce1456df2fae1f"
+  },
+  "bld_human_stone_wall_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3228346f05e37cdb8f0fa6b87d0fc2b580d2fc546d1d2515ff5b22e536fa6067"
+  },
+  "bld_human_stone_wall_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "35425af697e7fcf9ac750ca0e3592c0962eefd92953935e4df67f2159a49b3ad"
+  },
+  "bld_human_storehouse_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fde684aec00bc53e9c2235e65806c55b318fbecb7059f55211cf85478b9739da"
+  },
+  "bld_human_storehouse_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1fe31c18270659e6d010f5b63bc2d0a8b552f56ce169f0c2ed81bb2d94dc1d39"
+  },
+  "bld_human_storehouse_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1e8c395c0b809a297df460b40b245f1a489d7910db07805c5d8d4bed1aa41d28"
+  },
+  "bld_human_storehouse_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "07c67818d0ed3db6375deb9850c07492f643d1b50dec26fd4ce9bfe9cd175e9f"
+  },
+  "bld_human_tavern_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "79f9cb6e9f68db26740948ef4b4a07a991d217c1c2f03befa1cb9ba5e728d483"
+  },
+  "bld_human_tavern_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d9940a45cc8f7651a1febd879a1be5155eb15be7b4ad5632a0f324e032222985"
+  },
+  "bld_human_tavern_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "daae3d0bf48c7dd74eff698ec72b3cb9bcb60215dcb625c2d431833b7cfbb898"
+  },
+  "bld_human_temple_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "aeac74a7c8fce4279f5350a00d48a09df86f618bb412f0cda9dd8bd906863f9b"
+  },
+  "bld_human_temple_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "25c2f94e1424198ce5fdc68f84f1a062e18391dee7b8fc1dba14b842c9f273ad"
+  },
+  "bld_human_temple_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a1708b2201389addbfc4a8b20246f710cbdd7b3f36a788584acf561996a38494"
+  },
+  "bld_human_temple_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8adb4f3d4eaea37b3b687931ccd3059335a4a3847214132ef380392768b5cab4"
+  },
+  "bld_human_theater_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "33f1db12db5518eca5de11ec9f3757e06e9fcf2009da77ff35bbfd08872f781a"
+  },
+  "bld_human_theater_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "86c9857c2a8da3ef8c5a2f16a8b140d61111a87f4b6f5b22f99f6966f29fe9c3"
+  },
+  "bld_human_theater_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f0612590949759567bc987350617f7a122af922e640a584940a34adc39099f7f"
+  },
+  "bld_human_town_center_ancient_bronze_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8fef81ff7a0dd77844a956f113561a831a06fa60bf90b9e76e5609ebe4966cf6"
+  },
+  "bld_human_town_center_ancient_iron_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8e24f8d67b64fc93b804b95b1d53e429a15e4e7a513dcccc7a1cc2dc9d93e707"
+  },
+  "bld_human_town_center_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "49faf78e2288cae7798e055f78626aa2e36106d13660b74fd79a7d3d9331a9aa"
+  },
+  "bld_human_town_center_classical_medieval_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3a0616da17ef28fba27eae12118fdae5835861e863ff6c31b01df30839015663"
+  },
+  "bld_human_town_center_classical_renaissance_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "47f29cb08dddad34319d3aa6399c723f895a107270d73ffbe1a4fd13f10f9bbe"
+  },
+  "bld_human_town_center_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "68e74014e5b2bdf664612147fdd1c3b819ef6f400e8bbbd6c2720305d38591fe"
+  },
+  "bld_human_town_center_future_ascension_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4f7521923d82ed4fb315829f0ff1b29c0ecfdd54098b8c1c4ce3e8d459dd8440"
+  },
+  "bld_human_town_center_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5ef8a9aea20d38ae4d9ad3437eed3ff10b6408ceabd52f70d85dbe46040e9270"
+  },
+  "bld_human_town_center_industrial_modern_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dd06f4b9c77cbd4c044b90243902b43e5750df7d397629fd732fd51b858cbcd3"
+  },
+  "bld_human_town_center_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ffefc0d76b6af08985a6179d8ad5b0dc4e73ee237cb37a0ecada174ca761f044"
+  },
+  "bld_human_university_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c62ff09469a8b0b5ee64037019f4fc447cea2804b6d2c820108aaf1110b8b71e"
+  },
+  "bld_human_university_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0010122cf2c378ad325231a82518ecbc2a6595b9eecbbdd55792e30ade5b8d04"
+  },
+  "bld_human_university_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "18e48a3d55eb9485800e974105bdcab189ef72052afc96e67d385dedc7cc2fcf"
+  },
+  "bld_human_watchtower_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "804f46b093efe42f43ca20cb2f62df80df7086686ee2eb04e005e48bd6e8489a"
+  },
+  "bld_human_watchtower_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "606a560a462560b072cb74a67ec9c19bc598676b74da4c1b051b83d4f7c7fe20"
+  },
+  "bld_human_watchtower_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5b02eba2250eb6e6e46461a4c976acf8781750ebdceed8755b39da02904d181a"
+  },
+  "bld_human_weaver_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7f54ba96cc99b659e3ce992f3f2ce6e8d09a3cb086eda1bd078cb4776d4fbeb1"
+  },
+  "bld_human_weaver_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "284115ebe2dfbd908b4320940d56ebe59d3c2cc60577ac1ce9623ab67f98885e"
+  },
+  "bld_human_weaver_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "57389f980bffa271e9e57c9dc080a5b3fdc4e10ccf198a2346496bc337ba376b"
+  },
+  "bld_human_weaver_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d87201bca256806437651d6ecd737468cc46f848199f2d507a362b61344a831c"
+  },
+  "bld_human_well_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ec94277e205300bbf95d5e4b52299361d0f3933df794aae4088ad04e97070bcc"
+  },
+  "bld_human_well_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "02be3798d5f69948c764f035ddee383643c9c0a036d7012cee65b2a9ff6a093f"
+  },
+  "bld_human_well_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "75095b0b2a14c6ef7a59bacb59c6f26c5127791749419e047af308d4afb65b30"
+  },
+  "bld_human_well_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "76c23ec12c059c2d326018d325ba63c42c27b07d160c8ccaa01b8d66d5a967d8"
+  },
+  "bld_human_woodcutter_camp_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a8e20d3ecc25a262504474a00c7f2fe59c3b78d9ea47f34483639544c13d4c24"
+  },
+  "bld_human_woodcutter_camp_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e26006ebe57fbdf689ce4f1ded4f72d61f181481637da1efe492bf638b2201c9"
+  },
+  "bld_human_woodcutter_camp_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "46150a134f35c2c5282b31796549118ddfc72a610456549f597c26d42ff08d8c"
+  },
+  "bld_human_woodcutter_camp_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2368657e8406620446300d5485637d25c2f3d79e89a7f67117d63c80ee1fb616"
+  },
+  "bld_human_workshop_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5f5270f6b174cee41121a611afb8ce887553c88682a7f4eb9af04b32c64c49fa"
+  },
+  "bld_human_workshop_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1e4fd659b28ffcd17f7831487a54bc6cc8519546582a80cb3861dc59cbba565e"
+  },
+  "bld_neutral_ascension_gate_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b16eec447791bcb483973ffea502ecd905a81afb3aefdf0876abfe12193223a0"
+  },
+  "bld_neutral_colossus_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2371df906116c864d2969382b63c28b8700b6f7dacb0ec07f8ef48ee683a420e"
+  },
+  "bld_neutral_grand_bazaar_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "26713292a69f1f85bd0fa149e0bf768082a72760366673519f25e3fef7547279"
+  },
+  "bld_neutral_great_library_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e48b841b0ef6b1da63215a643689ad31291dd32af6cb136ef6dd652675b96525"
+  },
+  "bld_orc_airport_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2ebd7372c43e764a221378e028d07ac7b0c4c01f15ccb03dd3d8b80301afed99"
+  },
+  "bld_orc_aqueduct_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8dda3f1666d8c29e558039f960339cd77df712c635678694cd1ca65e1fe4c5dc"
+  },
+  "bld_orc_aqueduct_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "bd77d80489acba3ce37a3a43892dfaa08b52e992ab899639bf897d6512ce8455"
+  },
+  "bld_orc_aqueduct_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "83847e10f26093e85be8ad59d525b14acb5c6d202c1bf66dbebb0d20695c2740"
+  },
+  "bld_orc_arcology_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2b99fcc7bc6a0348063b82f865f18f900ab3b03e798b157def463d14bedcef66"
+  },
+  "bld_orc_arena_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3f9fe8ca8599da764cbd64f4b399ef6c1682d3ad6511030c99768396701ab781"
+  },
+  "bld_orc_arena_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b26229d19809e481ce22e62467c35e3e0049f00acb58eab66c1be96347d0ae6b"
+  },
+  "bld_orc_arena_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8ce8e47ac20b16619fe75753fd4b81454d905611b93d4e703ced865464b7c266"
+  },
+  "bld_orc_armory_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dd0d73e6efd7b9e6c268277b69adeb0ea968edcc68fe122c37029132f127a51f"
+  },
+  "bld_orc_armory_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ffa6d0a33c6bc79efd14f734903861904efcef385aac9f886ff7d5939769da27"
+  },
+  "bld_orc_armory_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5d4fea7d4d508e4066f1e1cde8250c419dd445133c0b513e74a238d238ff9955"
+  },
+  "bld_orc_armory_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5d3cd4e33f9f66c8393bf1d8ca7ae2ba5de88ec28bf8c477dd174b771ddb32a2"
+  },
+  "bld_orc_bank_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8c52155bcba1f4fbde160888e6e7008656abc6d8a4b33b8dc4a97fda97a8a68f"
+  },
+  "bld_orc_bank_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a8289d4360130c6bf2626690be380cff434c3e28761ce90ef0ef8b752e63457c"
+  },
+  "bld_orc_bank_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "163f005b62de3561aa182fc09f96cf49f942fca5446539868a1c70ade0a1241e"
+  },
+  "bld_orc_barracks_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0ab29cbe93c1202805d6ce9840a3a584b300b66a8d37c42326ba8e2e32e2c85a"
+  },
+  "bld_orc_barracks_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "811d3ea77bd7dbe22923998009784208edb6f00a7d875f04068d94490e8b37a7"
+  },
+  "bld_orc_barracks_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e04118d556967d7e58505b99863233e21fe4c75b6ecf488cef29d5bcb9ad2585"
+  },
+  "bld_orc_barracks_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "99f7733c95d1c55d44746c9905bd749baa1298e9d2e73f73762b3c12d8923f8a"
+  },
+  "bld_orc_bathhouse_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6734b244a5caed9d59f779bf5f7c6471632b63c6d1bd8a53c6a3ca86de0c57e5"
+  },
+  "bld_orc_bathhouse_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "109f1312d39dec7453bfc6156b8d569b071de8979cbee7edd899927469b6560d"
+  },
+  "bld_orc_bathhouse_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "cb36ed4f92f65edf08332de68b8f794db4230aade0ca96400dd9e884d5c871be"
+  },
+  "bld_orc_blacksmith_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "161e8db8d2bdd661ef316c5777a51d7c4b749aec8f34ea192bad6db0f9011a66"
+  },
+  "bld_orc_blacksmith_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4edd4ffc57595d6d6ac38132783153e848fe175f059be9e5b06e65532ae1f55c"
+  },
+  "bld_orc_blacksmith_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b11a1a8194675c5a11d5560c3cd1ea81408bc8df35bbe76ad9bbb69060e154c9"
+  },
+  "bld_orc_blacksmith_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "56ea2e1e723a63dd642793da71d529cdc4ea4e6f88add9a00a9d433d28496853"
+  },
+  "bld_orc_campfire_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "592ecea0006d75d06d52677e560b3f468ff16b06eaadceadea765e385449f82c"
+  },
+  "bld_orc_campfire_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "03a3ff6f11a60b8466aa32db0b7ff1573379d24369703c7892be6277f9674d7d"
+  },
+  "bld_orc_castle_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f36e00e561013b0842d604b91e45281cfec91c385bbbb176a38f5e187c007c51"
+  },
+  "bld_orc_cathedral_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5290a732bcee78240d7e82ddc46a656bce4ca05437656debb0a022d8bc5edd27"
+  },
+  "bld_orc_cathedral_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ec9552d0c81fead7878d883bf84872aa612eaec0df44921de965b7f7b676a9a6"
+  },
+  "bld_orc_cathedral_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f7304e736a44e16d84a9472d27dfe2cb29f838aa919e7bf2b6eb5386ef7862c9"
+  },
+  "bld_orc_coal_mine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b373525a1334ff824b5907fc934950aecbaf2e2b5891785fc9775c689524ef77"
+  },
+  "bld_orc_coal_mine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "39e7602c5d7fc8a4c411c31d90c074d5470f8f8f7e25410edef326ba1dc51205"
+  },
+  "bld_orc_data_center_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d105045965b8f2a5c2dad30824d5f6142e34a6a30f67248d285b14669b1af4fc"
+  },
+  "bld_orc_electronics_plant_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dd12c3bca08e7aae79a28dbbb401fe8cae3d321bb32d560c5408154b9abee73a"
+  },
+  "bld_orc_factory_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e23daf7a322220c70b85408bfc23c322edd582bf79e8f743fed55036eeb8ae44"
+  },
+  "bld_orc_factory_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "eaaf11eed34c9f2df5724cfdc3100604cd59944931725ebc2d19fc3992d996eb"
+  },
+  "bld_orc_farm_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "010db7608a4df0527e1b09d1d79507df0e0c119ab403edf9555cf6de1389d4d3"
+  },
+  "bld_orc_farm_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f1eb7625e7bba92d28e8aa70e34854730cdc9a230d453c25a27f060a1d2b7079"
+  },
+  "bld_orc_farm_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7af34e29c223838d0c81e56b1babbb7e59fb010a1854025a6748b54c46094dba"
+  },
+  "bld_orc_farm_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a5c4a821a4f40943a629eadfc76f4d740bfd2cf6a35efadcbf8b90479868c16d"
+  },
+  "bld_orc_fishing_hut_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "db9e76db2c3751042d166cddc491a49d994b7d7feeabedb3b478c964017bc287"
+  },
+  "bld_orc_fishing_hut_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "632f708968ea256baa4edbca4491548a124c2219d7c77aa1f48156f467bb2f86"
+  },
+  "bld_orc_fishing_hut_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8f32df26d2b460cfbaca3fd552b70b4e2bfa2494418becd6ff50229f1e5baaa7"
+  },
+  "bld_orc_fishing_hut_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "42b32251fa70df3f5876805f2f198176156c397a6653449d7eb65d317b9c6764"
+  },
+  "bld_orc_forum_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f6f888f00e643ef482995373558588e9f715280fda461f6715c44f56e2845304"
+  },
+  "bld_orc_forum_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7dbc034fd388fd160f94af7714ab75087b46cb505faf9144a0533ae445c17ce9"
+  },
+  "bld_orc_forum_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c3b686616f74a007ee953f8a062e70637e4378059667e033592f4b60e2f64c0d"
+  },
+  "bld_orc_foundry_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9e99f299fa1e011f01344ef869dc5960b6eac81a777c91a891daed00aecb62a4"
+  },
+  "bld_orc_foundry_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "53568a1275ba31bcc91f54aaed50ffb2a16b1bc9a72cd8296b682704f7cea7ab"
+  },
+  "bld_orc_fusion_reactor_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6683a508d4bb20bfaa2ea1266857f41e068b4c930bdcb9f676be422602255521"
+  },
+  "bld_orc_gatherer_hut_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f027f743fc3471cac731912e0ea44d1f6fce6fb4b1111efa29058675aa22c7d1"
+  },
+  "bld_orc_gold_mine_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "eaa2074d9bb6ab09706bbc3330f3c777a16436dac6c267cdc2312242963f24fa"
+  },
+  "bld_orc_gold_mine_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "775549b243a8b749b647495dfd3ae2340f22ad04bbf1ce2051f6cb5178834f06"
+  },
+  "bld_orc_gold_mine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b3a51095a62824e14f119bf6730e5a911dc9d3cd01d3f0edbe68708ab57ab220"
+  },
+  "bld_orc_gold_mine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9077fe225119b071b39485eb1bb965698dcccf3b613911bb95faecd73173da27"
+  },
+  "bld_orc_granary_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e6165346331a51ff106827942b799312dad4816ee6c8b65cd99edf850fdc5fc0"
+  },
+  "bld_orc_granary_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6a613841e467339e4656d7e660b9d3653197eb2bb7e600d9f6cc84bebc02ddaf"
+  },
+  "bld_orc_granary_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3e2e72463c38089726d1de70fcb1893281138274240c2d9381ff964f4a383188"
+  },
+  "bld_orc_granary_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "66746c976dfd0c54af206a1a5c716be4b190c310c9bee21c65f4caf897669dfb"
+  },
+  "bld_orc_guildhall_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d9ca04d9ba2cbc79ffb4b092520e2eb10f32143a7f3a92bc066d389606e8d289"
+  },
+  "bld_orc_guildhall_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8689f677bdfc86b03c5ac3c6f4c5156aabb26d311638388bbdc699cebd966a26"
+  },
+  "bld_orc_guildhall_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d0bc981994cb555e3bb788cd9a96ea08a770a562e45dc9a72cef1c050d28f529"
+  },
+  "bld_orc_harbor_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "67aa148ff493eb061d161e95c02a0913578b1f7463ed94f7458318904bd1c972"
+  },
+  "bld_orc_harbor_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5c81af6f4d0f69a149d6b8accba3517b7319193e8633e2218b0d00e08bc991bf"
+  },
+  "bld_orc_harbor_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "26f49bd7c1038c3069887861eb6a13714c69bd4684e57daede9e89967291dfae"
+  },
+  "bld_orc_herbalist_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e122c7c255b6649f6765786cf39f37d46ea68b6d3fdd0dbfe7abd2ec4b59dfe9"
+  },
+  "bld_orc_herbalist_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "18722a8a64034657ea811ab9a732db73f3c3c74c0891d3919ae4b3d94ef2f3fc"
+  },
+  "bld_orc_herbalist_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e6f420d45fe0893a9d2773b560c3afd2a98f0b8b6eff4beb74156593bc957ada"
+  },
+  "bld_orc_herbalist_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "aa7f5aa4acc8421ab649d8b6d4ed96dc69c6d2cdaea474a7e5e90718eece1409"
+  },
+  "bld_orc_hospital_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e0f68a86b224c56c43fce8691b67d68debb8e556b09d6dc8fec6c66c5bea3c41"
+  },
+  "bld_orc_hospital_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c47f0d762a457ceda119500088886e24cec44301f8ef39becb27daafed26a788"
+  },
+  "bld_orc_hospital_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "79de4d8f44d59906fe0aab4adc0fa25b1d6e198f010c2ab3b51f765e4ddcea06"
+  },
+  "bld_orc_house_ancient_bronze_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f02143f703c9afc60ea6100303affe50f6adf47c89e08a6a8e546b82a5f66e0c"
+  },
+  "bld_orc_house_ancient_bronze_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "759fbefa91668978518dbd5b034752ad910a281ea1d15fbf68e1062d4cc0b291"
+  },
+  "bld_orc_house_ancient_iron_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "aaf6b46129a46e8708096c7e532e984c9f652bfa62837f18023f03892db7edbe"
+  },
+  "bld_orc_house_ancient_iron_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9e89b0b984269292ff8d1cafd09e70046af13165c7c34c671757a737aa807334"
+  },
+  "bld_orc_house_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8c9875c2744f31a55caeb8ea4c57969580ab35c03bfb7055b5209e0b837b0913"
+  },
+  "bld_orc_house_ancient_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "54d4a422dc2ecb2320240f4aa9d4d9e872586bcc37a14d2cd17493b180a2e474"
+  },
+  "bld_orc_house_classical_medieval_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "689a3f5ff0d1af19cf5dae5788195dc990f90267e2f48ab89ce5df9d6a631a9c"
+  },
+  "bld_orc_house_classical_medieval_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "55db8164241a8b0e949f4669f32c9481057887f8f4606617f2a3c10fbf38f24e"
+  },
+  "bld_orc_house_classical_renaissance_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e564c0d2db0b7c1656403061763efde7c449a6b0521b7c649638785793ad358d"
+  },
+  "bld_orc_house_classical_renaissance_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "173a1293095cc1e4189f14fe26366b3618fdbe028d3b8a5a5fa3be874f31f4ae"
+  },
+  "bld_orc_house_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2aad5809040569d0253127ae3429584b621355fcab0d577affcc254ac4f99d2b"
+  },
+  "bld_orc_house_classical_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1fffca476195af3ac82667be19359d765f856a73d5b99d51e776b0e44756f8d9"
+  },
+  "bld_orc_house_future_ascension_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2f9e96295f9bd2c37bda1fe7056e838d90d7cfa7678b3a0e5641de7720237ce1"
+  },
+  "bld_orc_house_future_ascension_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ad01849d8f72a7ebbcd39c3c1243dde14b3b9319c4d0e83403155046bc4d1dd3"
+  },
+  "bld_orc_house_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dfd0f9712c41a3060cc2451d1415211e500df8e54914f702d6943285318caeaf"
+  },
+  "bld_orc_house_future_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "18218f3f355d49d47b3f5e4865845625cfb4bcc04ef67b2eda8867244733104a"
+  },
+  "bld_orc_house_industrial_modern_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fbf92a2093188f46669e1b482bc20453af1009dbea41f6c77adcbc9800a2a565"
+  },
+  "bld_orc_house_industrial_modern_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f2f4a0a4b8a5eab276576e3349663490ec3d7745689d97778d683f7eaee35f23"
+  },
+  "bld_orc_house_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d10fa7eebc1dd9fee13e33e0b3635c3802e9e98e1f5559feaa679ea3e088e2b6"
+  },
+  "bld_orc_house_industrial_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d155607d149f0ff3be8c8b8535a5dce796505118f3060d0db232d6720f25ed5f"
+  },
+  "bld_orc_hunting_lodge_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "019453f10469e4e6c9a37d5b1ed32978035f5bbfd901e06d687f256d7f1596fd"
+  },
+  "bld_orc_hunting_lodge_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "132427ba56dd8c00d7ab3b4b8eb434b2ab2f1ae225b8ecf465bc456da191dff4"
+  },
+  "bld_orc_hydroponics_tower_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f927a4b6bbfcff7b3ad0b1bf6d4baebf248cb6fdfb9fe9b6a1a6601b38771f23"
+  },
+  "bld_orc_industrial_farm_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6fc0ad84a509b52eaff1b22fcae380a3077f7a1641780eaa3722f36e28d75edf"
+  },
+  "bld_orc_industrial_farm_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b839efe445eabdf14afe707d8bb62390b15b98e75ee1ef3930ea31e7b198d7a8"
+  },
+  "bld_orc_library_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fd7ff9f50bd0123fae54c6bb532775174bc66af9b787ff55ebde4e1435343e14"
+  },
+  "bld_orc_library_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0c63356d85db0fbf7e00c19311c752b825aef4b2228badbd08ce2dcb5d25f684"
+  },
+  "bld_orc_library_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8cb92d09b69a627a24b40663c8e5f32fdb4d69370322e9737b393b3599e67553"
+  },
+  "bld_orc_market_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e34fd371894cec40dd689e31b0f471912a0166d6bc885edd3353ac4aba958a55"
+  },
+  "bld_orc_market_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3bbe6bf2527677495ba03eab4f2d68ff142ffd9e2b3518971406976b587d2065"
+  },
+  "bld_orc_market_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e110d66ea0052cac0f8d901345f6b8a1e4cd184cc992ab5e2d631b9662f5bca0"
+  },
+  "bld_orc_market_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "15d510ac8d8eb8ed74440f9e46ca8d63e287e03d17d161c355e6807afc8e910b"
+  },
+  "bld_orc_medical_center_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7ccce8310d564f63619f136122687546ce316207cecadb6b68fda4f3d756aac7"
+  },
+  "bld_orc_military_base_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "09fde3562f6b3f316ed857ed918d5113edd4f976f98e306e7bfc0ebc2754a3f7"
+  },
+  "bld_orc_military_base_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "550b8a9f84787f05b25bfa923aa4994e6a7b3f39c475972cd1a175b966c28da3"
+  },
+  "bld_orc_mill_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b928836af870b332e6c7e84531a03ad3961d27fde762e1629a3c394e4270e239"
+  },
+  "bld_orc_mill_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8afc5cee70452aefde53ba477ff69e1e8afeb207c0bdbc43133d4fdb9eb3de80"
+  },
+  "bld_orc_mine_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "82b8129f3b578966e6127c95af165fe32c749dc35a65245aadea3aa234bbb64f"
+  },
+  "bld_orc_mine_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7550a61aa958850f997db67d7d4fc771105538ef33cf8e7131ddceff06d59094"
+  },
+  "bld_orc_mine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f01458f407a41fc48e7d76fddeeaac2411a8a7f9a2bf0c49a471d4a21944a1d3"
+  },
+  "bld_orc_mine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3b0433b602f5928fda876860cca0e91c4b9687eb559835ffc765121be590c6f1"
+  },
+  "bld_orc_monastery_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1923d7045aa09ce0a3596f692bc948f32b25d467f64a017a31efe8ccbc5f2f8c"
+  },
+  "bld_orc_monastery_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e2f5d1db29b76a91e173e9cdb0892d23870a04595dc741cf30a6dad0112731c2"
+  },
+  "bld_orc_monastery_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4eb7a0f6399c54fa2de5cd585fe8b14d6da20167d3ec961aabb031e912ac5545"
+  },
+  "bld_orc_observatory_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d40a31b7c2b706c325a08ccc18d1cb63405223ca6d8655431b38605fd648f72a"
+  },
+  "bld_orc_observatory_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "420c86e6245d59931107c48c42b32e084c84890a49ea0921901f470270099b9b"
+  },
+  "bld_orc_observatory_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e26722903d0a51d47f31e1c114f5cd2eb159968ba53c544814bf942e8de41d8c"
+  },
+  "bld_orc_oil_well_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "869b60a0bc433f86d5892a857a27f3f18a461c63cc0c73ff87ce789105d637b8"
+  },
+  "bld_orc_oil_well_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c83b826a2f2407b84381d08a0b3807c565a47e796d3a6dd91163455a4f566bbf"
+  },
+  "bld_orc_palisade_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "cb921efbbea37992d235ceebce77a882ee0ad48fdd73c52521bbc23eac505aed"
+  },
+  "bld_orc_palisade_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "85a60574337491258a54fac9a586b5ac144dcb4217e5b84b87c1bd45316c790c"
+  },
+  "bld_orc_pasture_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4519ce52c7abb351520a8f77a9b211ef62abadd46c3999b04062e68637341a08"
+  },
+  "bld_orc_pasture_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ed970d3754f01e888a5fccb88fb8579a764fa124b3dc1cca32978f2b155fbeb7"
+  },
+  "bld_orc_pasture_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4ad12ac6152314194d07a13d96272fc5e20d9f866ba3c10a648459f42d5b3ad2"
+  },
+  "bld_orc_pasture_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c7f1a7e65b8035a01376b0e5fe9b99a094dfdb7153ebd77fc81508e53ead56ef"
+  },
+  "bld_orc_power_plant_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "efa62615c61bee08fc34dd39c1a0de33c434edc519ae96caa86228f0e8102d07"
+  },
+  "bld_orc_power_plant_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d093ca7ae7282740b0534465d81ea70ead011a4e28af9826b70419a7c184e59b"
+  },
+  "bld_orc_printworks_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "efead52fa6bdfc3aba0e69e28a31c1ed0ef94caaa9e9ef5c9f130bbd75b35345"
+  },
+  "bld_orc_printworks_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2265a1218d2d07e6be81f464b217fcc9dfd44f87355c196a9ef1cc089722cada"
+  },
+  "bld_orc_printworks_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e2aa887e354feddf8884835a0472cc15a1f8f708bcc756b792c38f0fd0ddb5f1"
+  },
+  "bld_orc_rail_station_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "275666b9b6d84c1eb79dbe1a2e239e35a03686ff3024c8e5eec5ad1717762d2e"
+  },
+  "bld_orc_rail_station_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4f43dd1e7807da1d4383f5ade0ce1355a7b6ee131770d5aaabd0ff29218f23c9"
+  },
+  "bld_orc_research_lab_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4430c737199f7d5e64862aa1a6e4043880e8653d3314a8a22b8aeede25d37427"
+  },
+  "bld_orc_research_lab_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "75a160c71656e96f3edb4a5d2d7cf1d3ee46a120b71f3370f1452a295d8d9567"
+  },
+  "bld_orc_sawmill_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a06fa7ceb9d4d32db881952e9a80352c368f52dd64940c38c8ee3a415f94a602"
+  },
+  "bld_orc_sawmill_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "09c24e74a1ebca0424bd19b3d6333bb7978912fcd67f78edbb2c72320532b7ba"
+  },
+  "bld_orc_scriptorium_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "11fa9181508850144c9117134482c712f09a45140106a9643fc2cb3d63351e8a"
+  },
+  "bld_orc_scriptorium_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "76c353e6d093b6d5c59fa00efe42e44ae85093d217bd0de94d79e3481248352e"
+  },
+  "bld_orc_scriptorium_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fc037382c5cc70bdc3e5b073fcaccb612823380a720fe909ecce3fdf59c796f1"
+  },
+  "bld_orc_scriptorium_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ab6baf867c5cb5cf29ddf0ff825150b190ed548e0059d19d514e92f80ca3a826"
+  },
+  "bld_orc_shrine_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0745e599a735238d812671605163c46a1e76a406ea1a439ad6f6969f6b6583f7"
+  },
+  "bld_orc_shrine_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d85a86f8649dff45abb6be507d6de22e45c769eace074e752a8d7027acb08b83"
+  },
+  "bld_orc_shrine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2e6a67c928d3ad660841720bbc2955a42e972d991f2e76496d3601ec3400895a"
+  },
+  "bld_orc_shrine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "afd39e71ff25d785b002735a7405a81aa7957b626acdb112c00c8c758e10cccc"
+  },
+  "bld_orc_smelter_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3688db174a1ad79da54ca9010d889ca7d6b2d0ad42ac4183ac352b2912f91d1f"
+  },
+  "bld_orc_smelter_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "59216a1f0e3732b1b3b8954deb31eab362b3f461cc8d82f3c7c6de507fca33e7"
+  },
+  "bld_orc_smelter_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f5b532ded987918d8e4921dca7154754bb0ea2812b73f7b7b13ae804cd9f0124"
+  },
+  "bld_orc_smelter_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3551f0a4be061795bb82ff7f817bb9d2f7b1a5454c33fff91e78c7b49d721067"
+  },
+  "bld_orc_spirit_totem_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6e76a513a7acf24c78ea12bf0d86e918ff6be38a8b7881b7deadc93c88d0b2bc"
+  },
+  "bld_orc_stadium_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6efd38ae5864e6a0a049d2312054f78b4272662d70454691f95dc24c79490218"
+  },
+  "bld_orc_stadium_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "93e44546efc0dbb4b77a5c3411912dc1a005cdb5aefec5aae190706470416fa3"
+  },
+  "bld_orc_stone_quarry_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d7a012fc03f87f115179f4edc7106f75ebeba3baeadaa1a3b45ca72d5fee9fac"
+  },
+  "bld_orc_stone_quarry_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "35b25003b03b9e481d0cf7862f8d1eefc37fc6ecd34d37f311b349ff53e971a8"
+  },
+  "bld_orc_stone_quarry_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dde5b915a4461524a8a346bc7fab056fff1d1884c3f1a92ea087cfbef48b30b9"
+  },
+  "bld_orc_stone_quarry_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4a0626147d576410bf5ac478df574bfc34478194e985aa137be8606488e20ecf"
+  },
+  "bld_orc_stone_wall_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7ffc885205a93969b92ba4d6c4ab78c38127b2beba61c373420fb2b02272c2bc"
+  },
+  "bld_orc_stone_wall_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2905b03b6145d116928ce71d2ff6923c9474bcbca66cf01b630d3aa25373f1cd"
+  },
+  "bld_orc_storehouse_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "efe2d614431db907e662b57c578390dc258bdcbe5eda18a3e2a322bc0ecc829a"
+  },
+  "bld_orc_storehouse_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8c7dc4a26013243129595ea6cf37402b46fa1429dfc3ff6774257bfde61d378a"
+  },
+  "bld_orc_storehouse_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9243b54c907a2bf65eb62a60605ec3619667f8a512e1e12c98ad085d468d9680"
+  },
+  "bld_orc_storehouse_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "834610da79188999471565fb1af81fa0d3e6190c4b547d5f675fe3e46d079ab5"
+  },
+  "bld_orc_tavern_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c1bab1408601c335a2439812cfdfc253f84dd4aff7314a1b17917cf8a6621a56"
+  },
+  "bld_orc_tavern_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d894ccfdc488b50f3a4df340e9a8da2d2a917a6102ac8b7f38c31031434f33ed"
+  },
+  "bld_orc_tavern_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7e20b614e9b497b2ea5d115339f21632220f8829401f8cbbeb121a22462c7f61"
+  },
+  "bld_orc_temple_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0d89e5f7abd182784f0e6698f8cf261cb593412296ddd30d4105b6bddbf15975"
+  },
+  "bld_orc_temple_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a8803f9a339c8a7f54776516273481c9a13ac78b9526d1ff24e16432d71cf3ef"
+  },
+  "bld_orc_temple_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3abd1a2c4b05480a0d9cf5a3cab8d5e4197652d6a59e69b015a82cbcf33aed6f"
+  },
+  "bld_orc_temple_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4beb235d12d6e666d62185c97fdace84b40b095f3c4caadee687303b50f3682e"
+  },
+  "bld_orc_theater_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "639035bf8a6d10b6b650e6ca41ea5e9cf5ce7865e9eae0179cc5d13ae712b4e9"
+  },
+  "bld_orc_theater_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "be3aae51790c315ea9c266f0c16c63920482ca8a34c6c5ccf51f462f453bbaff"
+  },
+  "bld_orc_theater_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a400a2efc14c982386d6892f4fff99e575f913541e3a537a32f389f93167d265"
+  },
+  "bld_orc_town_center_ancient_bronze_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "051d884ea97ba31e3c619f747f68abd2fe756ba636a0e22bd701fcdbc9b85d1f"
+  },
+  "bld_orc_town_center_ancient_iron_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "cb651ad24f99e474fe7a3de14a917c3da9962394f3c9fc5986f794c24fefc1d7"
+  },
+  "bld_orc_town_center_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e46cf3d51b26f5d05f1c61c5442eba2d6f5060f20bf8792101862a85aeff29eb"
+  },
+  "bld_orc_town_center_classical_medieval_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b1f7eb7c883f909765bb6e4e32b566c8de1140eaa71fda6c1f4d667604a431eb"
+  },
+  "bld_orc_town_center_classical_renaissance_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fd4390ae2b8c1d1a89c3785126b70196da09bccf5af881dc3b28a239cccefa38"
+  },
+  "bld_orc_town_center_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f647084e0ecd8e48780a102169ae121898a416329704962bd7f3bab3e50a9d99"
+  },
+  "bld_orc_town_center_future_ascension_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "640cc4b942bbefb766a27a3f3ecb9f446ee5cf8c8326eedf15ba6413f395d5e6"
+  },
+  "bld_orc_town_center_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "eb34ecad0c4d16c68d24262702b71ecbe2241d68861c5c9c1eafacc37e110b87"
+  },
+  "bld_orc_town_center_industrial_modern_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "49d8c2fef6d6eb76fb3b46e4d75b448b5d8fa20595cdbe3798e5d4016f865df3"
+  },
+  "bld_orc_town_center_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6de92763ffa86fdd78afa9548193c9e2832a0ae717cdb598280236d8330917ae"
+  },
+  "bld_orc_university_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "06b1da2a7ec5263427d258faeb2df62567acdef72926f7aa289f4e8e7624f9b2"
+  },
+  "bld_orc_university_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fb00b8a9dbff4f047cfa81d413a3b8ffa1d3ba9cd7152373b2a9d4cc86c4dec9"
+  },
+  "bld_orc_university_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "190e7038c2822ddb2629aa4035545b9bc5183a36ab0b6a3edcca5506192e6070"
+  },
+  "bld_orc_war_idol_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "94a325f9ee54d617251d0ef8d766147f759348a9713ab7a5fd5db61916fe0d29"
+  },
+  "bld_orc_watchtower_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "05ba0b402cc94c464a1507a67c1f61721b51a7c333c518a2f3a01888f902e0fc"
+  },
+  "bld_orc_watchtower_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6b0fdcb05bcaee4a4a61849cc4c83541ad64223f92dc0952f4a9b8f9d7879af7"
+  },
+  "bld_orc_watchtower_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "613c44317f9feb3705ec3522788a1b023c83aff09bb4d07789bc7795a102898e"
+  },
+  "bld_orc_weaver_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fc60f5e3f107253a030612986d3f63f90dac80fb421372b69c5b55c3f2587e28"
+  },
+  "bld_orc_weaver_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7550ad6b85bebc1b2dd8775a09a73c579c4efca4ed31843941b6ef5aabdfbd0f"
+  },
+  "bld_orc_weaver_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b395aba95cd31c666e13acdf33f5c36598314086bb523eab63c3876999e3a163"
+  },
+  "bld_orc_weaver_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6c9fa3326b0fd7274facf2898c705c3880a505ee6bec12e431fb2bb2dc2d9759"
+  },
+  "bld_orc_well_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ce334b1bc8fe791801b017ab09a73602862dbafb74b5765f8f2bfe85307a105d"
+  },
+  "bld_orc_well_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "eed7edf0ce01e8425d0640b463550d6c21459ba23f6f266766f4f5a1810e7a66"
+  },
+  "bld_orc_well_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7488ed3ba4e70b5fdf380cdeae9ec40ab36c2e494475c50ab3cb84c993cddf3b"
+  },
+  "bld_orc_well_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1f79c30648df7b2f14c2cc00a57aa4e47c98cca35730bc6383d52363ebaa2088"
+  },
+  "bld_orc_woodcutter_camp_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "88e41c8334f67dc26be8d1102c820e9c6e260b8c513121ddb7a87293c19661c1"
+  },
+  "bld_orc_woodcutter_camp_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "88eee5ec4a92087d2dd1d68be4d80c46db3fcfc2797381851480f9a38b812ff4"
+  },
+  "bld_orc_woodcutter_camp_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "94c543a044029d21060742b809c1326eb3f5db64f9f06e540f7f13b74373a086"
+  },
+  "bld_orc_woodcutter_camp_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1a47092fb559b9bfc7b320efe1440d9c320d7df4fc45399a99c0534ce7eb1c96"
+  },
+  "bld_orc_workshop_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "facf9a7b2a5908bbf2074067b75ccfcc7ed9a8c2d05a9e55808d5ec434bf020e"
+  },
+  "bld_orc_workshop_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "bd393cc0ed2bf2c1649c0a2ed54f9e86f73d57811477bb56e470374da73f23b2"
+  },
+  "bld_saurian_airport_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c7df2b8daf9f0e8137768b2397d9c639ccbbd7f3f9ea464b6dc76715fe088a5c"
+  },
+  "bld_saurian_aqueduct_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e7dad92c8329a1969df56ff3cea0c6e739298e318c7b16190c79dfcd96601a2e"
+  },
+  "bld_saurian_aqueduct_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9615e04c5670a1545d18f9c9034156f2dfb767bec82b208d7e2c466010ae0627"
+  },
+  "bld_saurian_aqueduct_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f39f9e303690f57c25f43fc0e49e8dfc9c59a3116d23ea15c655ebccd1692ef7"
+  },
+  "bld_saurian_arcology_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "10a0d5dd9e0c205c7cd8b3136421eabf3508a7c0901b62fad06d419de3900451"
+  },
+  "bld_saurian_arena_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e23376672eab729abd6d53c01b3610598f4c4c6ebdaa3c20fc395e40a69cf685"
+  },
+  "bld_saurian_arena_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4bd78e55f024eec99f7e3e7bfbcae0d0260abf8284188ef3a278df1ecf9ace32"
+  },
+  "bld_saurian_arena_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7febcc27ae0a2cd2aa6095cb0ef99c05f9620a64666cea87f20ccafa85430818"
+  },
+  "bld_saurian_armory_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c694590ed750b9f9fe46cf7a71bb2c0cd3a33feb520d28117d23a2e2ca336f7a"
+  },
+  "bld_saurian_armory_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6221dee554e9c37a293ce4345b09f67bcabf5e35ec578c399eb26cadcc2f213e"
+  },
+  "bld_saurian_armory_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5e94abe50ed267575a6b25064ea0c0ecae1ff6d4df8c7971526f6b7cdfe94e08"
+  },
+  "bld_saurian_armory_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1a695f3b5c74ccc513a7e1cbbe3afd6b9a40b629c07f8d789b1ccd2818090d97"
+  },
+  "bld_saurian_bank_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "84d5d5dc6d1a771f158ff6b7f46d8c89e9c1e64b0cbac97569419a9dd2bccc29"
+  },
+  "bld_saurian_bank_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a3fe3b6506914f63f491fb13e74e7139e8fba507022a22650d3de9f0ed988cc1"
+  },
+  "bld_saurian_bank_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8e15c65b7eb1956606e7841b42a6f72bab9905f6fd8ecda2cce3e6bafa2d4722"
+  },
+  "bld_saurian_barracks_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "44e57e00097f336af042ec2583b3c6b900c5da33f98e12b3ea11a9470ca93e07"
+  },
+  "bld_saurian_barracks_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "07422242c1aa55ea44aaf7ab6d24d62aa15bac16f7a29aec8af8e5979e8f668d"
+  },
+  "bld_saurian_barracks_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5b5ece22ae5e9177801b9322cb30c77a573be3b3c5a4e6a1a8d2ca9e335e5254"
+  },
+  "bld_saurian_barracks_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e545a4ee151eaa65372f785c7612f1a8462e8f50d438d1c3863815c2ffb03d52"
+  },
+  "bld_saurian_bathhouse_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0157ae01cae89e01f92add5ca9f8d6b2216f13af2a6badbec5e0577d62e5277b"
+  },
+  "bld_saurian_bathhouse_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fd3101fd78e1132738e2a094924cf9295b16cb77ce60371af252722dfb270c5a"
+  },
+  "bld_saurian_bathhouse_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "597551942d2090ef5e01d4c94de87a82b9086d241a8b240863028b5fa8578a70"
+  },
+  "bld_saurian_blacksmith_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8b10b9e5cf4bcd55c23fc5b141bab75b2ff5b780d725a1450a9a3d853ef853ab"
+  },
+  "bld_saurian_blacksmith_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5e7712252c0972e7cc0acdb2292de24ac2af1e3e721a8875fa8f5149f74f0801"
+  },
+  "bld_saurian_blacksmith_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6281f5e88e369524fd6ddea82e9c7d2bf6f513c412e148f35102440c7272cacc"
+  },
+  "bld_saurian_blacksmith_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c2c34fd4cf94ff6729c4a5358bf13b8bcdd773ab2cf258a50ca0abfbd5bf474f"
+  },
+  "bld_saurian_campfire_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "26221a29b55e6846166fc170f906b721b0a9d74e44b3ddd40b28291ba405abfb"
+  },
+  "bld_saurian_campfire_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "30a94e05f9e10d78a5a56ccb1255a8bcba7d0e887c95715b979d4823e49426eb"
+  },
+  "bld_saurian_castle_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "bf0df6c9e23f401b49545ebcefa66c12b5b1e85b8459d41dd8054597d30e7ec1"
+  },
+  "bld_saurian_cathedral_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c050f05f2b04165feb0301abb49b5de72840cd42e5e0e13d9ae2ff96aee275d8"
+  },
+  "bld_saurian_cathedral_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b5bf6f9046afb2d4040e3322284904859eb4b5b7794165f782090440e335115e"
+  },
+  "bld_saurian_cathedral_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dd91c0ac6cc33a572ff8a90369f6bc32bd4363cd5e446972a92bcbbaa7a438d5"
+  },
+  "bld_saurian_coal_mine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7aa4ed59f2106502b0c8cc816f2bbac275c110f32fc3e270a6749dafc6f37e8f"
+  },
+  "bld_saurian_coal_mine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2469cfcbebec68879a51a2354d16ac58d4c8d5ef681fbd73f6a7bb7805e26156"
+  },
+  "bld_saurian_data_center_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8eb3fa83c28f8508f07d61f17a9f217067b155b382291083859723c0c557f10a"
+  },
+  "bld_saurian_electronics_plant_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "598e7696033cbe41db94e3b89fdb2724b5943b275e1dda164fbea9c28c764d3f"
+  },
+  "bld_saurian_factory_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "bfa694874769c5b7a52416598d9340ff9735875e489827221a676e632972e6e3"
+  },
+  "bld_saurian_factory_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c18d2c8e53052d22da3eecf9fc5a12e8ec191b98d53fbc97ecad2b77400a0eaa"
+  },
+  "bld_saurian_farm_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2f6b4f4b0b8f7387d896a425d82eea2e8c4c6578f94c0334ea38e3398582e81f"
+  },
+  "bld_saurian_farm_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "32341fb5b06cd204f3ce71aa14e0e79adc6ee2252080925acc54c1858235479b"
+  },
+  "bld_saurian_farm_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0b80a224fcdebc552d245af199168653e7c0b1ff263e75bc0d2b4dd7c8668fb9"
+  },
+  "bld_saurian_farm_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6e661aa23f0f3d4344cd2f989a4fa23090fd776358cd21e3082ecf9bb102becc"
+  },
+  "bld_saurian_fishing_hut_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "24e0da664904cac788c4cae23c48e7d07d430ac0d2da95cf5c629a88894d2ab4"
+  },
+  "bld_saurian_fishing_hut_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f3fa385075abbac53d5e1ec07c64a1754197d34ef01cbf77efc98f4aba0680cb"
+  },
+  "bld_saurian_fishing_hut_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "20a4024490f35847a190723b802653a40c2ae250001270ab9d9c7b615d56578e"
+  },
+  "bld_saurian_fishing_hut_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "71e06b2a6da8d4e2a598eed0c90de6874abbbea4433dcc1e0620a26361e07ca3"
+  },
+  "bld_saurian_forum_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ee17ec4756e040047c5e7805cc53b67037c797e8eb04061bfa6048263e66206a"
+  },
+  "bld_saurian_forum_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3ed85ee3d56408e83deaddf22fab3fca02971abc9043ef056c53630e68646edf"
+  },
+  "bld_saurian_forum_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e54c618a855198a43887ec30f862253c68fa783a08c037d9f0483bbd74226ee9"
+  },
+  "bld_saurian_foundry_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ea688218a526e2388c1e0d7f99490ceb25846ae00c808e1c66a4208aa6c87a0b"
+  },
+  "bld_saurian_foundry_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "177ac37b24cbed44bc695ed138e51e14a827d6bf144485d5e75e43e94a11065c"
+  },
+  "bld_saurian_fusion_reactor_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7e8adf61c91b0b0ecfd4518d9ad7106f3104dcedeb62df4cb58d5b20a694dd55"
+  },
+  "bld_saurian_gatherer_hut_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "aa9aae7192f547809ada142577710abd3925daa60b3b016527d08f32fd7c0b95"
+  },
+  "bld_saurian_gold_mine_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4cf929fc733c30b496007f31629dc3459ff6f59a8480c5c944086f151c8c69c8"
+  },
+  "bld_saurian_gold_mine_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dbd295d1a828395b38559f814488ab87f846c7170eccde261627f6d372434c8d"
+  },
+  "bld_saurian_gold_mine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3b330ead8d59bfb3763bba8d498d1f3dbae01d236c91d6c43f0cc16029ae2271"
+  },
+  "bld_saurian_gold_mine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a6e1e838a03994e93b25ea369d7cfb90ce904feead7f88fefe7330b3a85786c9"
+  },
+  "bld_saurian_granary_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3b3e6ab8851d475102bd820507b932ffccd6de06c0c0eb7bd838573ee611a4f9"
+  },
+  "bld_saurian_granary_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "00bf06fd78627745deac6efa0c8c674813cb86a15519dfcae6e830762be29cd2"
+  },
+  "bld_saurian_granary_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b381086131b7f454430a21b6dcfd3b95955ff4910289ca818bdc696bdd146fac"
+  },
+  "bld_saurian_granary_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4e4b4d70f9e50593f99aebba988c73a2642034932e63b3b42f436b484fb193e4"
+  },
+  "bld_saurian_guildhall_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c3f8086fd29b7f838cc7da536db14bcc22b6e2cd656e654097597543bfc43ad6"
+  },
+  "bld_saurian_guildhall_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "428394ff8e2bc3acfb20db0bd0c35c14a1abb38931d8a99e937b2b42cf682f39"
+  },
+  "bld_saurian_guildhall_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8228807380c349b2a9c9c536d68cb4c817718860d1fa8a8a2f00b3fefdadf5de"
+  },
+  "bld_saurian_harbor_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f9eaaa4970a35d3fd0ca70c75fe3efa211724a92435ed1803ea0501cd82aad2e"
+  },
+  "bld_saurian_harbor_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4ce45b279b8f17decb91ef059b400e29e970930ac808f7a7903053d0438e830d"
+  },
+  "bld_saurian_harbor_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a5fef6da0a40620a4184da8ced518de6445b045f48ccb0438d0dd0e3085f8683"
+  },
+  "bld_saurian_herbalist_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3214cec446605e35d6dbecb0b2d065d92ffaf067e5789f92066bdd63421dadd5"
+  },
+  "bld_saurian_herbalist_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c31a9ff43c75213f93e2c5e649cc5c8e0529d34b291d4544ef8dd005e6b55ef6"
+  },
+  "bld_saurian_herbalist_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ce851d7167794f2e8069567cee4c34e5d16e9b2a7a5a89311ebf0c4dcd47d7f9"
+  },
+  "bld_saurian_herbalist_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "bb885c327f7fedd78ff5caac7f7aedd93cc8de470206d7b9faa76f31cfb7bacb"
+  },
+  "bld_saurian_hospital_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3f2a036ae8a588996462dceefdffbf0199172d6e6036f6ae345db61f7c3f429c"
+  },
+  "bld_saurian_hospital_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5fc459d7cf641a3d719086d36a963a7b210ab488629fc75305efea1a9e323765"
+  },
+  "bld_saurian_hospital_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "02b7f180d019a54295568db6d7c31e5861d401f4333efbe3116d07927dcbf054"
+  },
+  "bld_saurian_house_ancient_bronze_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "03ac0de81e5209d24301d3bde89d5526ee1acdfab79fb79bf4d712f37e718354"
+  },
+  "bld_saurian_house_ancient_bronze_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fc5ecb8b1f159e63aade8696816b9b5e9716edb7becc28eea07e2f75d3ec6048"
+  },
+  "bld_saurian_house_ancient_iron_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b0888bcca494d3a08135c78a0cd7ba46352e2d05b40da3c0822156adacb9ff1b"
+  },
+  "bld_saurian_house_ancient_iron_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3c533821be0c2bea9ca85302abfda0ec6d821ab6e48b64b002782598d1aa6726"
+  },
+  "bld_saurian_house_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "07ca26a25f2351595a6bd03bec509265d43453f7b269a3c05892e9528e682743"
+  },
+  "bld_saurian_house_ancient_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "24c4ad05b2afc41160988d326bc078b4eb3fb86d3fdd95f03c02edfbf06d8c6f"
+  },
+  "bld_saurian_house_classical_medieval_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "14d7dcff7e6cc7f30a2266c069c02cd95e6111c358c8d88948e3454871e33f63"
+  },
+  "bld_saurian_house_classical_medieval_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7859aa2f33a1ef0a8b52596385b31b2fc9386ec26cbd143bd99b976548df1264"
+  },
+  "bld_saurian_house_classical_renaissance_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "19942029f780c236ae3a4dfe7e77c0063540d9d17db5a9000e0c851f6fbcb22d"
+  },
+  "bld_saurian_house_classical_renaissance_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3d8fce7d5fe5721628f99daa498c7ed4089d39352fb8392d6b1edc4c9d482651"
+  },
+  "bld_saurian_house_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9edd92584ef92d038fbc8b5538f0082ec54073c35a993ba1d7e074e6ea760306"
+  },
+  "bld_saurian_house_classical_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "00c4605197e52fd0f32f8ccd5c53d2e1e96b503b0f5130f1f4b2df747534d3e5"
+  },
+  "bld_saurian_house_future_ascension_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "646bf316c9420622574660240ad03ca51ba561aab26b917ef632813c1aa38396"
+  },
+  "bld_saurian_house_future_ascension_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e818b57d23dd8d49775a38cbbe0732cdef52984b418ea859136c18dd71167dc9"
+  },
+  "bld_saurian_house_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1f3fc5f2b024eb44f818305fb2737799153cd0658506d93b76a1ae84ebefe78a"
+  },
+  "bld_saurian_house_future_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4f00d1d5c5cec7567e2665fbb0ba81e1855a44b522024efa9e415091988fb74a"
+  },
+  "bld_saurian_house_industrial_modern_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8f4fe62a6a7a98c9d3af244dc131db1f235d1110c3d614eac5c5a2de7e60aa4d"
+  },
+  "bld_saurian_house_industrial_modern_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ed0e8ee61d2eb84ea9f135fd4f66b324216bee404c7d27c1f6bfc9b970233738"
+  },
+  "bld_saurian_house_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "bbbae3990ecdab423e9847a282decc8b0ee58f97dd240b29e5076d2eaec52695"
+  },
+  "bld_saurian_house_industrial_v1": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "68d867defd1f6fec2aec66bb8bc995c6a6f7e167f39cf66d904e8a67239dc764"
+  },
+  "bld_saurian_hunting_lodge_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b0c587aaf9ffb7d7ce893b2a6fab3cb12ec75e6da15fe9cbb289e66613167748"
+  },
+  "bld_saurian_hunting_lodge_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d811f2aafc9c4106e866f1a35b3ee1ca5a52bc385012f52cafa6505e76f0eb7d"
+  },
+  "bld_saurian_hydroponics_tower_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2169adea53aa97e1dc1ef6a056f6e88f2519e89dbad20d8cef7969a8c7cda125"
+  },
+  "bld_saurian_industrial_farm_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ceed9950a4a0c2a93666df428fd5a25ff2da87b07adad4c35b9a49bcc8700790"
+  },
+  "bld_saurian_industrial_farm_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "eb886b8446e466e30ef3352249100dd9502344f07513417b3d9de57298f09009"
+  },
+  "bld_saurian_library_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "fe21421cc455e973027ad2c59446d5d25798c9474c232a35978e1209fc0a6a33"
+  },
+  "bld_saurian_library_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "46142ee2d9db946aead7a0a8cf76ff58c1653ed9dc955d9809d372f2a3a46266"
+  },
+  "bld_saurian_library_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9fb6923ecb34a799695f02b65ee15c6119d330b252d14e53f934a8587fc97fbb"
+  },
+  "bld_saurian_market_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f3c8165f80896e15fb4ae8932674e4468054552c730090b3332532d730c06b14"
+  },
+  "bld_saurian_market_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "652b6d32ee662c53e9e00a9d55d43f7ed1ca6d6171ef47025b95ff1165fcd280"
+  },
+  "bld_saurian_market_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6baaf7a720cd37eecade3e7526cd708d637cfcbe6b65d7b200cba6f6fc3d3475"
+  },
+  "bld_saurian_market_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "eebeaaabb9eec6f02f50785875e4771e835f736bdd2d115fb7c84bb779701136"
+  },
+  "bld_saurian_medical_center_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b8d106bf98643807784ceb686d68cbf5eff8fc80b88e46b53351df53720e0a06"
+  },
+  "bld_saurian_military_base_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a18ba91bf9382785df197d7d351625379f89bee154942b024db04ca3d2383743"
+  },
+  "bld_saurian_military_base_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c58f4f17e9ce8cf5c8ac27ba14d11d6c87afdc5004e7192fb3404889d3c748f8"
+  },
+  "bld_saurian_mill_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "08617a8e02b15e142eca59c4f1a8765b57968ee3d18038f56a9a41c7c111fb7e"
+  },
+  "bld_saurian_mill_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9274a6ea7431c3f37521d4c66ddd05059da0234596d116dda17a4efaa3cd50ab"
+  },
+  "bld_saurian_mine_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e9138181ca0b2f0a3d0c0d61f78ee8fec14ef0d8cfc24d9ff88e2167ddfe2b8b"
+  },
+  "bld_saurian_mine_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c3eb89d4c92281105592e03c738a6873fb85b3e4f6b2a4ab3537a9f9be9ce820"
+  },
+  "bld_saurian_mine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f05e2cb46f6f8ea5a32813173ff49fd39652349681144a72b1bccafd8a5cf2c8"
+  },
+  "bld_saurian_mine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "33c19b757e3b296dd4ea381f88b6c30cd22a0c5e0546299d869e6fda55d8cb75"
+  },
+  "bld_saurian_monastery_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f1b821b64b91eddb9ae742343487f4cc2a025ac2ca2422d2a9f5fbb8f8d49a19"
+  },
+  "bld_saurian_monastery_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1056949b5d5398a7453269a131273e6d6acd09b36a159ef060beab7a7f8f7f77"
+  },
+  "bld_saurian_monastery_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7e7094878ee92d14e7abf0fce47af3c6a950d87e160d706072daf542c019f1bc"
+  },
+  "bld_saurian_observatory_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "9c1ed39a9f017b3aa2c55c8b2d601b3b98dbaaad0f3c4567052da2e3b8ce92a9"
+  },
+  "bld_saurian_observatory_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2938ab9154db237ed7b214c93256a0bbc7431f58764ad8ae8b6abeec18e0b46a"
+  },
+  "bld_saurian_observatory_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b9c20e895f58ae1c551be0a5b16398572accd69d2cac834334352182e28a19bd"
+  },
+  "bld_saurian_oil_well_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "873c974f7a74904cadd62cdf06b9fb5b80332dc6d2ca56c6592d2ff5239cd5e1"
+  },
+  "bld_saurian_oil_well_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1e8594bc318c440bd0bcfeff04685b2ec39ab9987dfa5d372ef49cea6947469a"
+  },
+  "bld_saurian_palisade_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5d93a0adb48e152eece5846e3706430f4d6af3e35c6d4bb192ef3a0abf102926"
+  },
+  "bld_saurian_palisade_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ffd2da8ae22884375ddf04fba81bb2aba74aefe9227e400faa11d3f9fc9cf44f"
+  },
+  "bld_saurian_pasture_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "28df1d0e4e0a88dad9b2f3080d991ae7ab1934b680212390acd116aadeff1611"
+  },
+  "bld_saurian_pasture_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "92081d5d509a59a661e1aed8f4764ba2464cd055e19b5d45ab87fb175972c080"
+  },
+  "bld_saurian_pasture_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "8a3aa88c4d7d1c8136669f6fcfa7032abbcabd55a1cbcc58dc152dbd20130afa"
+  },
+  "bld_saurian_pasture_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e26b9830c39e78251efd2e8e7328c330254a7c2664da19abfb17a56d7428957f"
+  },
+  "bld_saurian_power_plant_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6ec3034963c49802443982faea5932aea57ebc9cebadb41daed294e207ef0778"
+  },
+  "bld_saurian_power_plant_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "faf47512ce2e8055335f1f95b049932f60131c5592ce67d47e9595a5d0d26b24"
+  },
+  "bld_saurian_printworks_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "80c727a534ebcb8915f01f7eb201932e9abb7efaa2333dd4c94bd41e3756f4d7"
+  },
+  "bld_saurian_printworks_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "7779a41d39c643bf0a4f59cfa81691b76843ba8cfa81d70ae78559841174ba65"
+  },
+  "bld_saurian_printworks_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "af94d8c315e3d9118cb8221b4963eaa2d9cba17180ca6c5d0f9c116e034c8b81"
+  },
+  "bld_saurian_rail_station_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c857aa11254397a02d88f3359d64813ad2f9d8224484770a5a3c79ceaf1a37cd"
+  },
+  "bld_saurian_rail_station_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "677cee7f7a92ab0c783eb87992175264f5642db34e50a825018a706b295005c4"
+  },
+  "bld_saurian_research_lab_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f3fd7595a7a287dee389b4a13b9bb7775fc6cae979a350651fb895f2521b6652"
+  },
+  "bld_saurian_research_lab_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "27b4947b8f44908f183874904e3fa1eb3b54c4d457453e7e8576e0a5f6b1a0db"
+  },
+  "bld_saurian_sawmill_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f9ef08b07355c57b0fb9c74ff12dea6d5dd8a567a6b109336261228062b57a57"
+  },
+  "bld_saurian_sawmill_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2558ae1cbfff5df5ebfed08679238336ca9bb0dfabe926220c00759a38dd4f58"
+  },
+  "bld_saurian_scriptorium_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "37c262a9f62e140b3d2fad3d0c8bd2ec611780d30d556c78ded3764f9eddd9d5"
+  },
+  "bld_saurian_scriptorium_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a74accc18aa75ece5f818f14fb279c99b1ce2b6b6a0496e154d5a8fa79132311"
+  },
+  "bld_saurian_scriptorium_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0ee658f1efe5bef9d0c1d5e2df6b4a074fc7e92dbfd4ffe21be18859dc1acc3b"
+  },
+  "bld_saurian_scriptorium_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "58eba08204f9318f784827b28a3d7ad4cafc1af9e2dd7799f73c4bf7e041120c"
+  },
+  "bld_saurian_shrine_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "65e9138be22aef8d4263008f73ebf17498967c323c55921d117fbcb1375f02f7"
+  },
+  "bld_saurian_shrine_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d6fcd3c9ca0eec4237933504f431f211ba0dc6f3a6ced9ed9fceebaa36d21c2c"
+  },
+  "bld_saurian_shrine_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "dfff9d56a30370b1ace2362c12da500c5900107dd9d1f57d7d187595fd81bb47"
+  },
+  "bld_saurian_shrine_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f1bec112da69a886c912014268d4969fd264ab5052275a78a5c981020cbc1a0a"
+  },
+  "bld_saurian_smelter_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2ecd37240c1dd5283bb5205f1ac4573705949b608b6b14ffcd6edaf351547282"
+  },
+  "bld_saurian_smelter_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5b77af414310f038a702d7f05bde4c792523af83c444d0a2d7909808aee754a3"
+  },
+  "bld_saurian_smelter_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "797aca59f992b85f4b3ec03650250057080aa3811c9432dd367d2b79d0a1c57e"
+  },
+  "bld_saurian_smelter_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a70a9e4b4240030ea758c53e5fe2b2b8f0896d8b1266bd380c37138e4992c50b"
+  },
+  "bld_saurian_spirit_totem_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d44b6f3c6471a9c9e0ae407e3665633a7933f32bfab84f45057e4ecf000524c1"
+  },
+  "bld_saurian_stadium_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "320f2bf9be50a28404bb27bfb25dbb723e7733eda590974e0fae7facb38700c7"
+  },
+  "bld_saurian_stadium_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "103d8354e6cc4a6a9ce16932895cc6b8fbd92f546c410e2a6c3c8d1a7c11804f"
+  },
+  "bld_saurian_stone_quarry_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1ac0d418670cb1a5b3fcd10a879e0633f068411aae2d7c580cdb862bb732a444"
+  },
+  "bld_saurian_stone_quarry_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a1d6b46fa7a10b63c94487d2cbbe0bfbbd9d82405eac29b3f4dc3ff800ce88c4"
+  },
+  "bld_saurian_stone_quarry_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "91f27b0e6a587d826544697ac4bdaea3f1458213568ff4076d8cf0e70941e710"
+  },
+  "bld_saurian_stone_quarry_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "572afaba0fc92f21d91a9c3f1fa790ed78076925566447337a0a3df38c662336"
+  },
+  "bld_saurian_stone_wall_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "79b04448089b8fc8ed59cf455690a2abed40de39b657a3a7a36bd5456e8b9a3b"
+  },
+  "bld_saurian_stone_wall_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "5e8348d45e0554d03f4e5f2d36a22085405f82fbd66085f2aa2ea11a9ab45004"
+  },
+  "bld_saurian_storehouse_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4c019e5514a5fd5d1732314d788575743c71de7df6ebb60103cfdbe601871a1a"
+  },
+  "bld_saurian_storehouse_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c11666af7ed98005debf8e3e26e6825849a37a34db1b8d52dce09c822fa62ef2"
+  },
+  "bld_saurian_storehouse_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "036fce0d08e0b18032298ba96c7526c2f50b693cdc23a7a26574f2e64386fd81"
+  },
+  "bld_saurian_storehouse_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "35bed0fdf96e0dbfe70cc268a89da6e0adbd5d72e451f9d9e565d609e930b8b1"
+  },
+  "bld_saurian_sun_pyramid_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "bcea3ee85c744a8fde4e80da33d92451920455ef66fce9a24bebaa249724d5f1"
+  },
+  "bld_saurian_tavern_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e0f0fc3562e68bf669b935cc5f27f939ce95be0f3d7dcd45f33279b72d0115cb"
+  },
+  "bld_saurian_tavern_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "d61213f13c048c45c1055d4e89f75b8447368500e78dafc8e1a0cba516f8034f"
+  },
+  "bld_saurian_tavern_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f7453818b09513b5a616ec7ddd47146f42af0fcf555842fa87f4542a3b4db676"
+  },
+  "bld_saurian_temple_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "db7dec6f264ef3d7681fe29411ccff02c5113aeb8cb62b5a483fad5519a7ed0f"
+  },
+  "bld_saurian_temple_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "23f1b4aa8c70097529ff3cb6a6c5f6815a1a45720a10e020da7ba28bef9e07a6"
+  },
+  "bld_saurian_temple_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "66c30e0d21487c718c31caabf5e3e88351ebc613fc890d8965235e677b99a688"
+  },
+  "bld_saurian_temple_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "74be55487cc51f0cef22bc2ef9973d35c22be66f832d75a3c8971c1499b226a1"
+  },
+  "bld_saurian_theater_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "80ac8261c8b3efcc5cb549cff1c14397c5f1cd73d7379fe600f39df7e4bb77ef"
+  },
+  "bld_saurian_theater_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "61dedf58c9760e4e94cf2751fa18475ccb2ddbe65d47b7600ae6277610e6a63e"
+  },
+  "bld_saurian_theater_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3af2407a19732a0c8d6b7374197cbc7dc3c09dad816fe299b10cb0b6ad7422c2"
+  },
+  "bld_saurian_town_center_ancient_bronze_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "a5bbc52944124cde5d3b9194b4818c2473ed363f81c7861301c1ba959be97ceb"
+  },
+  "bld_saurian_town_center_ancient_iron_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "748880bbc477b187df9809de525711836a4eb96e418c7dcea4b2a750f326bffe"
+  },
+  "bld_saurian_town_center_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "3d913de8a5050ee58a5daccec821460751b326fd9725333b3c4527200d4ed259"
+  },
+  "bld_saurian_town_center_classical_medieval_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "bb124e4da027f4868d2b19bd50b7e2b4f9aa6397d5f45165a2f68ec720feae7f"
+  },
+  "bld_saurian_town_center_classical_renaissance_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0e3b76d8423903dbe4d5e5268ef76da523e14fab335df7aa01d277da01ed4e1f"
+  },
+  "bld_saurian_town_center_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "c2604dacaf9668095a10590eec4b581ad606a5406ce4bb3486004dbff286216f"
+  },
+  "bld_saurian_town_center_future_ascension_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "876028c97e358dbae977b536b14e411e70d930d71e22ce9880fd130c4687f0c1"
+  },
+  "bld_saurian_town_center_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b74a636d722442c6666d97b4b5653d3016076e95ec4c6f82b30a2de542ff2bf1"
+  },
+  "bld_saurian_town_center_industrial_modern_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "ccc49c1dabda0fc99616151114a368fbcf6c3b51e4cf60d409107807d63c465f"
+  },
+  "bld_saurian_town_center_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b5ea20ee05074535572772c1dc95ba58ddf1366b391a54c579c6e702a927492b"
+  },
+  "bld_saurian_university_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e17648c33d0a28100ed04c0347c5add45e251eb09a7307b17a5630b7d2c0017e"
+  },
+  "bld_saurian_university_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "76712e37f0dbf2fcf04ede634f0b002f2eb4b892645bea79409d264a4ce4769f"
+  },
+  "bld_saurian_university_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "cc0ead7641c1adb6a3bb63835fecd3bdea78e49a746ac8b55987f3a50f2428aa"
+  },
+  "bld_saurian_watchtower_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "2ab368d4809c4fad7324c9de4f7f8bd788c306bdd1b8bf212d8b4efa2555718d"
+  },
+  "bld_saurian_watchtower_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "78717997fcd90055d93de75a2c0f2292eae15dd0f07a4d1014829c36d9d2ccb6"
+  },
+  "bld_saurian_watchtower_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1eca4781bea276b78277ec4ac3f90cbe6f2437b5b18152afc19dc0576ac84a63"
+  },
+  "bld_saurian_weaver_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0508bca5dd6d7afa0f02dad4d27b309dd736209ab382daa5488fa087b09750cb"
+  },
+  "bld_saurian_weaver_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "21366bba08b43113414c0e7a3fcc0cd291805d5054641426da6b76cb095a2575"
+  },
+  "bld_saurian_weaver_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "24c5c69027ba04a2f149a42caa62e8c8c1bd935f018471a23d01078c810c40f3"
+  },
+  "bld_saurian_weaver_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "33c13eb6abfa0fd9974fcefc844f26865a14541c73ec70dce016cd14ef3eac3f"
+  },
+  "bld_saurian_well_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "b899b14cee2f08d9933196a2ad14c58f9a69fc736c39aae58e9f0556439852d4"
+  },
+  "bld_saurian_well_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "6979687484418aef3779b2e47e0e82753ae4650ad050adb49d4310d37a6f3056"
+  },
+  "bld_saurian_well_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e194d8b056ce7c3590d4e3d716e982400485860436881629ddc1cd13899a032d"
+  },
+  "bld_saurian_well_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "10f649f2579bd6ca600874fba46fbf1a770638f519f4e318b47e9756f801f175"
+  },
+  "bld_saurian_woodcutter_camp_ancient_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1b313397fff29f383127b0a473ed87ed290f182f48f6a3794e3f8562dfea5656"
+  },
+  "bld_saurian_woodcutter_camp_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "f20c3380f3cb12d07f42fe56945ccfbeae7eb88a12d714618a65ffe4292064e0"
+  },
+  "bld_saurian_woodcutter_camp_future_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "e896fb0031a8e2f3a136caa84a70d8d8ec4471f90e4715e3c44ca81545785d20"
+  },
+  "bld_saurian_woodcutter_camp_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "4650718e6eb968c0798ab8352f6a712f886a919ca5b442fa2eccf25a4201528d"
+  },
+  "bld_saurian_workshop_classical_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "0b0fd17774ddaf51d05cd41b4eef8f55a7027ab74605f764624572f6fb12cccb"
+  },
+  "bld_saurian_workshop_industrial_v0": {
+   "findings": [],
+   "inverted": [],
+   "sha256": "1ba875bdcf7f537b8090fca9b611385615e29247b763215601ad30f979d60a09"
+  }
+ },
+ "version": 1
+}

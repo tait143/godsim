@@ -1,0 +1,352 @@
+{
+  "package": "elf_houseslate",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "critic_elf_late_houses",
+      "models": [
+        {
+          "id": "bld_elf_house_future_ascension_v0",
+          "evidence_sha256": "5a31430853d70bbd1f4046ee0453bf6920abd350a5cc21838eb0685ff0f3d56b",
+          "observations": "The wide ivory dome, gold panel and cyan-edged ring stay distinct at 64 px. Short stems carry the ring in all three exports. The pointed timber door and planter give the round building domestic scale. The rear shutter floats off the wall in side elevation, and the far door panel lacks a frame connection. The 548, 329 and 149 triangle meshes clear package validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 87,
+            "charm": 93,
+            "colour": 95,
+            "technical": 95
+          },
+          "defects": [
+            "Give the LOD0 rear diamond shutter a solid backing that reaches the curved facade, including its two coloured leaves. The centre of the backing plane stands 0.025 tile clear of the wall and the perimeter has no contact.",
+            "Attach the three-triangle LOD2 door panel to the inner jamb. It sits 0.018 tile behind the frame, and the curved wall is another 0.043 tile behind the panel at y=0.16. The simplified jamb has no return faces to bridge the gap. Use shared inner-outline vertices or add the returns."
+          ]
+        },
+        {
+          "id": "bld_elf_house_future_ascension_v1",
+          "evidence_sha256": "83f7f8b5a628e2384e13cb0f024c8f64582192fb6822ae78af1a4f168c739336",
+          "observations": "At 64 px the smaller cyan-lit bay and its own pearl roof sit visibly below the tall ringed dome. The stair faces the dark door, the flower pot is grounded and the crown keeps its supporting stems in the distance. Side elevation shows a detached rear shutter. The LOD2 door leaf is also detached. The 650, 389 and 191 triangle exports clear package validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 87,
+            "charm": 94,
+            "colour": 95,
+            "technical": 95
+          },
+          "defects": [
+            "Give the LOD0 rear diamond shutter a solid backing that reaches the curved facade, including its two coloured leaves. The centre of the backing plane stands 0.023 tile clear of the wall and the perimeter has no contact.",
+            "Attach the three-triangle LOD2 door panel to the inner jamb. It sits 0.018 tile behind the frame, and the curved wall is another 0.038 tile behind the panel at y=0.16. The simplified jamb has no return faces to bridge the gap. Use shared inner-outline vertices or add the returns."
+          ]
+        },
+        {
+          "id": "bld_elf_house_future_v0",
+          "evidence_sha256": "41a38875f3e0ae5e2e29ae76b3df4f4e9047b48c2162823bb35881cb1cb1157d",
+          "observations": "The tall blue-glass band and swept leaf cap read above the off-white lower story. The clipped bough-like eave, blue roof beacon, two plants and pointed entrance distinguish this small house from a plain glass tower. The beacon clears the canopy at 64 px but vanishes in the far mesh, and the LOD2 door leaf hangs clear of its jamb. The exports validate at 462, 255 and 108 triangles.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 93,
+            "construction": 89,
+            "charm": 91,
+            "colour": 93,
+            "technical": 95
+          },
+          "defects": [
+            "Retain the short roof beacon in LOD2. The luminous tip gives the slender Information house a second high point in LOD0 and LOD1. Its omission drops the crest from y=0.884 to 0.837 tile.",
+            "Attach the three-triangle LOD2 door panel to the inner jamb. It sits 0.018 tile behind the frame, and the curved wall is another 0.037 tile behind the panel at y=0.16. The simplified jamb has no return faces to bridge the gap. Use shared inner-outline vertices or add the returns."
+          ]
+        },
+        {
+          "id": "bld_elf_house_future_v1",
+          "evidence_sha256": "9a393223b9db90bc24dfd478f2eb0fe641bd9ecbad152a8a85d05b041cb27249",
+          "observations": "The low glass bay and two horizontal white decks distinguish the broad plan at 64 px. A lower band crosses the brown door, visibly splitting its top from the usable opening. A front ray through the LOD0 door at y=0.280 finds the band at z=-0.215 and the door behind it at -0.203. The small beacon drops out in the far mesh, where the door leaf also lacks a jamb connection. The exports validate at 543, 316 and 149 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 82,
+            "charm": 89,
+            "colour": 93,
+            "technical": 93
+          },
+          "defects": [
+            "Interrupt or raise the lower terrace across the front entrance. Keep the brown door and inner pointed opening clear of the deck at every LOD, particularly around y=0.27–0.29 in LOD0.",
+            "Retain a simplified luminous beacon in LOD2. Both nearer exports include the light above the canopy at y=0.722. The far mesh ends at y=0.707 with the emitter absent.",
+            "Attach the three-triangle LOD2 door panel to the inner jamb. It sits 0.018 tile behind the frame, and the curved wall is another 0.039 tile behind the panel at y=0.16. The simplified jamb has no return faces to bridge the gap. Use shared inner-outline vertices or add the returns."
+          ]
+        },
+        {
+          "id": "bld_elf_house_industrial_modern_v0",
+          "evidence_sha256": "51a9daa4ec4fbdfe64b77c8167c5203faa6dcb95e760c46415007a40d467d706",
+          "observations": "The cupped rain roof, blue glazing, pendant and small cisterns distinguish the Modern home from its brick predecessor at 64 px. Front and rear elevations show daylight between the raised roof and the open wall rim. At both ends pale rib tips pierce the green roofing. The unattached LOD2 door panel is visible in the side check. The exports validate at 450, 273 and 113 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 83,
+            "charm": 92,
+            "colour": 92,
+            "technical": 93
+          },
+          "defects": [
+            "Close the dwelling beneath the raised rain roof in all three LODs. The main wall has an open top, with gaps of about 0.10–0.16 tile from the side rim to the soffit. A glazed clerestory or a fitted ceiling would preserve the high wings.",
+            "Trim both structural rib caps into the soffit across all LODs. Their corners break through the outer roofing by up to 0.008 tile and leave pale flecks across the green wings.",
+            "Attach the three-triangle LOD2 door panel to the inner jamb. It sits 0.018 tile behind the frame, and the curved wall is another 0.048 tile behind the panel at y=0.16. The simplified jamb has no return faces to bridge the gap. Use shared inner-outline vertices or add the returns."
+          ]
+        },
+        {
+          "id": "bld_elf_house_industrial_modern_v1",
+          "evidence_sha256": "b1b9c9fe97ebca2a5fe79626f30f509c71f95bf7a575064f63027863533f9582",
+          "observations": "The two rain roofs rise at different heights, and the lower blue-glass room makes the plan legible at 64 px. The upper room is open to the sky beneath its raised canopy, with an unobstructed view through from behind. The right rib leaves a pale sliver on the roof surface. The LOD2 door also lacks a jamb connection. The exports validate at 528, 329 and 147 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 83,
+            "charm": 93,
+            "colour": 92,
+            "technical": 93
+          },
+          "defects": [
+            "Close the top of the main dwelling where the roof wings rise over its wall. The side rim sits about 0.13–0.18 tile below the soffit across the LODs. Preserve the second, lower roof and its already capped bay.",
+            "Fit the positive-X rib cap under the upper roof skin at all three LODs. Its corners protrude by up to 0.004 tile through the green surface.",
+            "Attach the three-triangle LOD2 door panel to the inner jamb. It sits 0.018 tile behind the frame, and the curved wall is another 0.041 tile behind the panel at y=0.16. The simplified jamb has no return faces to bridge the gap. Use shared inner-outline vertices or add the returns."
+          ]
+        },
+        {
+          "id": "bld_elf_house_industrial_v0",
+          "evidence_sha256": "58cadcee3978e21671d02fdc64660df41d7e93208c09f6a078c89633314e58f6",
+          "observations": "The squat red-brick drum, folded green dome and offset flue read as a glassworker’s home at 64 px. The front stair and round amber window give the broad shell a domestic scale. The main flue survives distance reduction. The rear shutter and the middle-distance casement need backing, and the far door panel is detached. The exports validate at 678, 415 and 159 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 86,
+            "charm": 93,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Give the LOD0 rear diamond shutter a solid backing that reaches the curved facade, including its two coloured leaves. The centre of the backing plane stands 0.016 tile clear of the wall and the perimeter has no contact.",
+            "Seat the LOD1 round flank casement against the brick. Its connected 32-triangle rim and light float clear of the house near x=-0.21, y=0.19, z=-0.14. Recess the frame or deepen its backing to reach the coarser wall.",
+            "Attach the three-triangle LOD2 door panel to the inner jamb. It sits 0.018 tile behind the frame, and the curved wall is another 0.046 tile behind the panel at y=0.16. The simplified jamb has no return faces to bridge the gap. Use shared inner-outline vertices or add the returns."
+          ]
+        },
+        {
+          "id": "bld_elf_house_industrial_v1",
+          "evidence_sha256": "ca35d043378c0e9c90324724e6389ae180037341a8b8b9e4fa4833a787bfad08",
+          "observations": "The taller brick house balances its chimney against a lower green-roofed annex. Both silhouettes survive at 64 px and the warm casement lights the stair side of the main room. In LOD1 the casement touches the edge of the portal trim but stands off the brick. The rear shutter and far door panel also lack a proper mount. The exports validate at 675, 387 and 196 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 86,
+            "charm": 93,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Give the LOD0 rear diamond shutter a solid backing that reaches the curved facade, including its two coloured leaves. The centre of the backing plane stands 0.018 tile clear of the wall and the perimeter has no contact.",
+            "Extend the LOD1 round casement backing into the main curved wall. The edge of the casing meets the adjacent door trim, but the window sits in front of the brick across its mounting face. The sampled front-to-back clearance is at least 0.006 tile.",
+            "Attach the three-triangle LOD2 door panel to the inner jamb. It sits 0.018 tile behind the frame, and the curved wall is another 0.043 tile behind the panel at y=0.16. The simplified jamb has no return faces to bridge the gap. Use shared inner-outline vertices or add the returns."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "critic_elf_late_houses",
+      "models": [
+        {
+          "id": "bld_elf_house_future_ascension_v0",
+          "evidence_sha256": "bc9a019b0408d0cb81721eb1baf8e5c8d54a896788b9599fd2039a834f41bfcd",
+          "observations": "At 64 px the gold stripe leads from the doorway to the cyan-edged crown. The pearl dome, supporting stems and ring keep their relationship through all three meshes. The six new faces behind the garden shutter intersect the curved wall, and the far door shares all five outline vertices with its frame. The 554, 329 and 149 triangle exports pass validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_future_ascension_v1",
+          "evidence_sha256": "7774d39c60f719eee51554d8e212a14ad95d4089d75e69d4b8d4677006f93ae4",
+          "observations": "The small luminous bay gives the tall house an asymmetric outline at 64 px. Its separate roof and light band remain readable in the far view. The rear shutter now has a seat through the wall, the stem-supported crown keeps its height, and the five vertices on the far door outline coincide with the jamb. The 656, 389 and 191 triangle exports pass validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_future_v0",
+          "evidence_sha256": "09d516a9e36ebee494544c9b870b8bb2ac218b8cf9a267d9b0c1139510ed742e",
+          "observations": "The slender blue-glass tower reads as a dwelling through its dark pointed door, pale steps and small planters. At 64 px the beacon makes a second, lit point above the swept roof. Its tip reaches y=0.884 in each LOD. Front rays reach the door first, and the five outline vertices join the far jamb. The exports pass at 462, 255 and 121 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_future_v1",
+          "evidence_sha256": "a406c4e825a249dece5f3f9b36711b630b7be9a02477831b31489b4bd4a1a857",
+          "observations": "The shorter glass wing and paired side terraces distinguish this house at 64 px. The terrace ends meet the side wall, leaving the full pointed entrance visible from both the front and the standard camera. Nine rays through the former crossing reached the door first in each LOD. All three beacons reach y=0.722, and the far door joins its frame. The exports pass at 543, 316 and 162 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_industrial_modern_v0",
+          "evidence_sha256": "a4507ddbbf5cf5a8444dacb8a64507aced24e185466aabcbf8751ba07a41aefc",
+          "observations": "The two sweeping roof wings remain visible at 64 px above the blue clerestory. Front, side and rear views show the glazed band closing the room. Its faces meet the wall and soffit in each LOD. The rib caps stay at least 0.065 tile beneath the outer roof at their sampled vertices. The far panel shares its jamb outline. All 478, 293 and 125 triangle exports pass validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_industrial_modern_v1",
+          "evidence_sha256": "88cee6852821097b032461f6c6a1d4513338b4acf4033aeefad520643937fc67",
+          "observations": "The high and low rain roofs step down to the annex at 64 px. The clerestories meet their respective supports and soffits in all three meshes, closing the view through the main room. The upper rib caps are at least 0.065 tile below the outer roofing at their vertices. The lantern and pointed door give scale to the tall glazed facade, and the far door shares its jamb outline. The exports pass at 584, 369 and 171 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_industrial_v0",
+          "evidence_sha256": "15668de45bce088b5419790cbb8a85ab10839ca78e0edf548f77a048b4bca9af",
+          "observations": "The squat brick and broad leaf dome hold their shape at 64 px. The off-centre flue marks the workshop and the smaller casement lights the entrance side. The LOD1 wall crosses the casement backing at −0.019 tile along its mounting axis, inside the backing’s −0.078 to +0.006 span. The rear shutter has a seat within the shell and the far door shares the jamb outline. The exports pass at 700, 431 and 159 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_industrial_v1",
+          "evidence_sha256": "8245c5f69f59ef5fed625415052c8088df656665cacd462755a7dcefe4482cd0",
+          "observations": "The lower brick annex, twin green roofs and tall flue remain visible through the distance meshes. At 64 px the front stair and pale arch identify the entry on the taller volume. The LOD1 backing extends 0.064 tile into the wall along the casement axis and overlaps the rim. The rear shutter backs into the facade and the far door joins all five jamb vertices. The exports pass at 697, 403 and 196 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_elf_house_industrial_modern_v0",
+          "evidence_sha256": "12527aa75c32476cc0b2ff62da2fac6bd6330671de411712d2eae241729b301d",
+          "observations": "A folded asymmetric leaf sweeps up over a low dwelling. The white entry steps and hanging light make the front easy to find and the LOD1 sheet remains intact. Highest outgoing family corner share was 0/1434 (0.0%) with bld_elf_house_ancient_v0. Checked modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 478/271/125. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_industrial_modern_v1",
+          "evidence_sha256": "0d99018375825df09c34268d3896c778be7db9d240a965dae31a89dbad7b22de",
+          "observations": "A low blue side room counterbalances the tall folded roof of the main house, differentiating this variant from the single-room modern dwelling. The front stairs stay visible. Highest outgoing family corner share was 0/1752 (0.0%) with bld_elf_house_ancient_v1. Checked modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 584/331/171. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_industrial_v0",
+          "evidence_sha256": "c8965a8cb2f718ceb43d5e0950368dee6762b8d63b71a8b28146c8c4450455d7",
+          "observations": "The solid brick base, chimney, domed leaf roof and front stoop give this dwelling a compact industrial silhouette distinct from the modern folded roof. Highest outgoing family corner share was 0/2100 (0.0%) with bld_elf_house_ancient_v0. Checked industrial previews, 215° and 145° LOD0/1 views, and serialized LOD counts 700/399/159. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Elf critic — frozen LOD export inspection",
+      "models": [
+        {
+          "id": "bld_elf_house_industrial_modern_v0",
+          "evidence_sha256": "8213ba9b525730bc34f7e76c14dae05ad7e1eb4819091f9d9be9c245e43f4de1",
+          "observations": "The folded green leaf roof remains closed on all sides above the low dwelling, with a hanging lamp, arched door and intact entry steps. Opened modern previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 478/271/125 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_industrial_modern_v1",
+          "evidence_sha256": "8d1d4744b651e17047974b4fbf7a65080a767163b87643be02c447ee882807ab",
+          "observations": "The swept roof covers the narrow upper house. A lower side extension, clear entry steps and hanging lantern preserve the variant’s asymmetry in the medium view. Opened modern previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 584/331/171 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

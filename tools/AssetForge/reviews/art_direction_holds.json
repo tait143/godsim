@@ -1,0 +1,215 @@
+[
+  {
+    "finding": "At 64 pixels the Dwarf coal and gold operations use the generic Mine silhouette. Coal needs bulk storage and gold needs ore-sorting or washing terraces.",
+    "models": [
+      "bld_dwarf_coal_mine_industrial_v0",
+      "bld_dwarf_coal_mine_future_v0",
+      "bld_dwarf_gold_mine_ancient_v0",
+      "bld_dwarf_gold_mine_classical_v0",
+      "bld_dwarf_gold_mine_industrial_v0",
+      "bld_dwarf_gold_mine_future_v0"
+    ],
+    "status": "closed"
+  },
+  {
+    "finding": "The Elf, Dwarf and Orc MedicalCenter read like their Hospital at phone scale. Add a dominant clinical wing, emergency entrance or ward tower.",
+    "models": ["bld_elf_medical_center_future_v0","bld_dwarf_medical_center_future_v0","bld_orc_medical_center_future_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "Dwarf and Orc IndustrialFarm read like conventional Farms in each matching age. Give the mechanised farm its own dominant growing or harvesting structure.",
+    "models": ["bld_dwarf_industrial_farm_industrial_v0","bld_dwarf_industrial_farm_future_v0","bld_orc_industrial_farm_industrial_v0","bld_orc_industrial_farm_future_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "The early Orc Storehouse needs a visibly different dominant surface across Dawn, Bronze and Iron.",
+    "models": ["bld_orc_storehouse_ancient_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "The Human, Elf, Dwarf and Saurian HydroponicsTower need visibly different large surfaces between Information and Ascension.",
+    "models": ["bld_human_hydroponics_tower_future_v0","bld_elf_hydroponics_tower_future_v0","bld_dwarf_hydroponics_tower_future_v0","bld_saurian_hydroponics_tower_future_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "The dominant structures or yards on these models remain too alike in adjacent early or late ages at phone size. Preserve the activity and change a broad architectural or paved surface in each age row.",
+    "models": [
+      "bld_orc_pasture_ancient_v0","bld_saurian_farm_ancient_v0","bld_human_farm_ancient_v0",
+      "bld_saurian_woodcutter_camp_ancient_v0","bld_elf_farm_ancient_v0","bld_saurian_fishing_hut_ancient_v0",
+      "bld_saurian_pasture_ancient_v0","bld_elf_pasture_ancient_v0","bld_elf_palisade_ancient_v0",
+      "bld_orc_palisade_ancient_v0","bld_saurian_stone_quarry_ancient_v0","bld_elf_spirit_totem_ancient_v0",
+      "bld_saurian_hunting_lodge_ancient_v0","bld_saurian_gatherer_hut_ancient_v0",
+      "bld_elf_aqueduct_future_v0","bld_orc_fishing_hut_future_v0"
+    ],
+    "status": "closed"
+  },
+  {
+    "finding": "RC1 catalog review at 64 px found that the Future Saurian Farm repeated the stacked circular crop decks and leaf crown of the HydroponicsTower. Replace the main tower with low, visible cultivated or irrigated beds in both Information and Ascension.",
+    "models": ["bld_saurian_farm_future_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "RC4 catalog review found the Future Saurian Mine and OilWell share a tall tripod bore rig and turquoise cap at both Information and Ascension. Give the Mine a visible mineral face or adit and a haulage or sorting structure large enough to identify at 64 px.",
+    "models": ["bld_saurian_mine_future_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "RC4 review found that both unpainted angles of the Classical Orc FishingHut repeat its ancient round hut, conical roof, skiff, net hanger and square dock. Give the Classical fishing station its own profile and work arrangement visible at 64 px.",
+    "models": ["bld_orc_fishing_hut_classical_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "Classical Human Barracks repeats the Iron cross-gabled block, projecting front gable, pennant and entry shield from both camera angles. Reorganize the Classical barracks around a court, arcade or transverse hall.",
+    "models": ["bld_human_barracks_classical_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "Classical Human Blacksmith repeats the earlier end-gabled shop, shallow side awning and open furnace at the same height and position. Give the Classical forge a different working section, such as an open masonry forge bay with a deep hood and bellows.",
+    "models": ["bld_human_blacksmith_classical_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "Classical Orc WoodcutterCamp repeats the earlier conical hut, stack of three logs, stump and axe in the same positions. Give the Classical camp a different log-splitting or piling arrangement under an open frame.",
+    "models": ["bld_orc_woodcutter_camp_classical_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "Future Saurian Granary repeats the industrial paired upright silos, overhead feeding pipe, matching slab supports and same chutes. The sides swell slightly but the industrial handling plant dominates both 64 px views. Reconfigure the storage and loading equipment.",
+    "models": ["bld_saurian_granary_future_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "The Iron, Classical and Future Saurian Temples repeat the massing, stair and solar crowns of the coexisting Iron, Classical and Ascension TownCenters respectively. Give each temple a legible worship space distinct from the civic hall at both 64 px angles.",
+    "models": ["bld_saurian_temple_ancient_v0", "bld_saurian_temple_classical_v0", "bld_saurian_temple_future_v0"],
+    "status": "closed"
+  },
+  {
+    "finding": "Round 3 candidate a9942168f1cd934b85028f22d8d049cb9697c1b1154f521bef44d7dedef30585 gives the Future Saurian Bank a dominant open turquoise-and-gold hoop on stepped ivory masonry, duplicating the neutral AscensionGate at 64 px on painted page 02. Make the bank read as a secured treasury with a dominant vault door or enclosed mass in both views.",
+    "models": ["bld_saurian_bank_future_v0"],
+    "status": "closed",
+    "resolution": "Reinspected a3fe3b6506914f63f491fb13e74e7139e8fba507022a22650d3de9f0ed988cc1. The solid stepped strongroom and lower teller hall read as an enclosed treasury. Its large hinged vault door remains visible at 64 px, and the neutral AscensionGate retains a distinct open center."
+  },
+  {
+    "finding": "The Industrial Orc and Saurian profiles both have two square capped towers joined by the same sharply dipping channel. Both views show the same support and trough arrangement. Build an asymmetric lift and a stepped outflow with a visible wheel or another structurally distinct watercourse.",
+    "models": [
+      "bld_saurian_aqueduct_industrial_v0"
+    ],
+    "status": "closed",
+    "review": "RC6 director round 1",
+    "model_sha256": "9cdb95aed8a7689e00dcb354154dd339bd4ea3ecb8cf3e17bf840b8ac2937c7d",
+    "held_images": {
+      "rc6/holds/director-round-1/saurian-Aqueduct-v0.png": "3b38be4f824963c758aaae0238ef230af9327d55d420f6928b24b88c6e4d6ada",
+      "rc6/holds/director-round-1/orc-Aqueduct-v0.png": "9066cc29cef46fb767b86f0415c2cae4fcd8f86c9e23dab3f0f94a87cbec3a30"
+    },
+    "approved_model_sha256": "f39f9e303690f57c25f43fc0e49e8dfc9c59a3116d23ea15c655ebccd1692ef7",
+    "approved_evidence_sha256": "474f26646feae7a1e12251bfb4cfda4a6757389c601cbab78b09a7186c7ee84a",
+    "approved_package_round": 9,
+    "resolution": "A prominent bucket wheel lifts water into the high trough. The stepped brick supports extend down one side, producing an asymmetric wheel-and-channel profile at both angles and all three LODs. The Orc dip still runs between two opposing towers."
+  },
+  {
+    "finding": "The late Orc and Saurian aqueducts both put a straight channel beneath a triangular mast with matching end and central piers. Change the route and support system. A curving elevated spillway on offset stepped masonry would retain the water function and Saurian identity.",
+    "models": [
+      "bld_saurian_aqueduct_future_v0"
+    ],
+    "status": "closed",
+    "review": "RC6 director round 1",
+    "model_sha256": "f15bda486555adff3bf36a3aa2cc03c256d677dde39eb83cb3ce249160921df2",
+    "held_images": {
+      "rc6/holds/director-round-1/saurian-Aqueduct-v0.png": "3b38be4f824963c758aaae0238ef230af9327d55d420f6928b24b88c6e4d6ada",
+      "rc6/holds/director-round-1/orc-Aqueduct-v0.png": "9066cc29cef46fb767b86f0415c2cae4fcd8f86c9e23dab3f0f94a87cbec3a30"
+    },
+    "approved_model_sha256": "9615e04c5670a1545d18f9c9034156f2dfb767bec82b208d7e2c466010ae0627",
+    "approved_evidence_sha256": "fc6cd5b2b47c720fd3b99eb8118e8d766eecd96037edfdea10905157f6f5e633",
+    "approved_package_round": 9,
+    "resolution": "The open turquoise race bends in plan and elevation across staggered masonry piers. Both side views and the far mesh retain the change in route. The Orc version retains its triangular cable support and the Dwarf works have a vertical spiral around a single drop chamber."
+  },
+  {
+    "finding": "The Classical Dwarf and Saurian yards both have a square tower at one end of a narrow slab and two low crates at the other. The contrasting tower caps leave the same construction and footprint in both gray views. Give the Saurian warehouse an integral storage and loading plan with substantial bays.",
+    "models": [
+      "bld_saurian_storehouse_classical_v0"
+    ],
+    "status": "closed",
+    "review": "RC6 director round 1",
+    "model_sha256": "bc20dcf93db2c67c993ce5aa70abbc77c63f511eb0e403ad97804a50480849a4",
+    "held_images": {
+      "rc6/holds/director-round-1/saurian-Storehouse-v0.png": "6d9946e5e74cdc01674d64e2dd3fc75ad0071021990a062c3661a8e334d4ddf5",
+      "rc6/holds/director-round-1/dwarf-Storehouse-v0.png": "de8b3953162a741224553e36f6f9d191686d06676764972323e093fba077c18b"
+    },
+    "approved_model_sha256": "c11666af7ed98005debf8e3e26e6825849a37a34db1b8d52dce09c822fa62ef2",
+    "approved_evidence_sha256": "70ee0803c1f4e63249ef76122b70190acafcf9bda5b2e578f59480b9d8ca2d35",
+    "approved_package_round": 9,
+    "resolution": "The long, stepped magazine faces a broad terrace and loading stairs, with recessed crate bays beneath one continuous roof. The low elevation and connected stock frontage are distinct from the Dwarf tower-and-yard plan in both views and all LODs."
+  },
+  {
+    "finding": "The Classical Elf and Iron Human armories pair one conical-roofed round tower with a separate rack of three upright spears. The taller tower repeats the entire Human floor plan. Build a different hierarchy such as several open weapon bays under a wide sweeping Elf roof.",
+    "models": [
+      "bld_elf_armory_classical_v0"
+    ],
+    "status": "closed",
+    "review": "RC6 director round 1",
+    "model_sha256": "1c05a0f44a8407a62962cceec4b6ff55f4065364efdffa78f6177d6917d7c5d8",
+    "held_images": {
+      "rc6/holds/director-round-1/elf-Armory-v0.png": "0cf788a7ecdb996c6520b7b2c8f5bfa098fa1367c85f1c873ad2d21fa683e813",
+      "rc6/holds/director-round-1/human-Armory-v0.png": "48b1ddc3ea4a8f264710c051bb35f815cdf3f1baa419dbf374d77ff685e93aa5"
+    },
+    "approved_model_sha256": "04c258acd134442f2a9df7f4d66793e833e2414edf6edb534095f653e3d29ce3",
+    "approved_evidence_sha256": "e299c47ca6aa160b36693427fe17f7872226e19d7e17c03002eba09e5d69c6b5",
+    "approved_package_round": 7,
+    "resolution": "Three open pointed bays occupy the ground beneath broad overlapping leaf canopies. Shields remain visible in the low mesh. Both neutral angles distinguish the Elf armory from the held tower-and-rack plan and the final Human linear issue yard."
+  },
+  {
+    "finding": "The same-race late Foundry and Smelter each have a pale, high, tilted open crucible suspended over a molten stream. At 64 pixels the lower receiving shapes are too small to distinguish those two functions. Give the Smelter a recognizable ore-fed furnace and tapping channel.",
+    "models": [
+      "bld_elf_smelter_future_v0"
+    ],
+    "status": "closed",
+    "review": "RC6 director round 1",
+    "model_sha256": "82d64dc103ad3ee1b90a983b6b2c91fddce79ada1438566dd71b3f432079bef1",
+    "held_images": {
+      "rc6/holds/director-round-1/elf-Smelter-v0.png": "7d6d1a8622486cbd8cdd48353762f95986a2ce9cb90e4f127227ddfcb74cf6cb",
+      "rc6/holds/director-round-1/bld_elf_foundry_future_v0.png": "1ffa953437818e0531992fbf002a9f67bcb6eee4f4a3091f605edf4eb21f01b2"
+    },
+    "approved_model_sha256": "e1d4bdab85497f7f2a480257bfcfb7cce3e0fa44a3d25d2ee20b17704491e699",
+    "approved_evidence_sha256": "50454fe3955b4e3778d0accb1275d79f8422dd14fb2ba4b7b4b8e6982cc7933a",
+    "approved_package_round": 7,
+    "resolution": "Three enclosed vertical reduction stacks of different heights rise behind a long, ground-level tapping channel. The clustered furnace and outlet retain their profile at distance. The Elf foundry still has a single tilted ladle and a stream of metal falling into molds."
+  },
+  {
+    "finding": "The three repeated sawtooth bays and long brick envelope duplicate the contemporary Saurian Scriptorium and Weaver. Small crates on the loading side leave the same front and reverse building profiles. Introduce an independent warehouse plan with a substantial loading court or exposed storage bays.",
+    "models": [
+      "bld_saurian_storehouse_industrial_v0"
+    ],
+    "status": "closed",
+    "review": "RC6 director round 1",
+    "model_sha256": "af2a0617916eeb71fbe005e985ae8f41e221d0ac7146c8b13f8225bd991fe8c7",
+    "held_images": {
+      "rc6/holds/director-round-1/saurian-Storehouse-v0.png": "6d9946e5e74cdc01674d64e2dd3fc75ad0071021990a062c3661a8e334d4ddf5",
+      "rc6/holds/director-round-1/bld_saurian_storehouse_industrial_v0.png": "940bcda6ad1946e372fe80f88b114808ee601b9732893c52eb460d93b2b30cb2",
+      "rc6/holds/director-round-1/bld_saurian_scriptorium_industrial_v0.png": "4401523a91bf913676681fb3d8ec86b177c7d1a1e1874cad55651997a85929e4",
+      "rc6/holds/director-round-1/bld_saurian_weaver_industrial_v0.png": "4a6e08f0f30ab56dfc9f5c946171f845fff3e60dbeb8dce08c01d2aae1985250"
+    },
+    "approved_model_sha256": "35bed0fdf96e0dbfe70cc268a89da6e0adbd5d72e451f9d9e565d609e930b8b1",
+    "approved_evidence_sha256": "32788012239ae7cf552434e854830678c4763098fa9e08af5d6a4043d0048bfe",
+    "approved_package_round": 9,
+    "resolution": "A single high vaulted freight shed faces an outdoor crane and loaded trolley. The yard stays open to the sky. The arch, exposed cargo and crane remain in the far mesh and separate this warehouse from the three sawtooth bays of the Weaver and Scriptorium."
+  },
+  {
+    "finding": "The Iron Town Center uses the Saurian Arena plan. Both models present a high circular boundary and three concentric tiers around an open floor, interrupted at the front and marked at the back. The small seat and eye at the gateway do not distinguish the civic function at 64 px. Replace the arena shell with a broad roofed civic plan and a processional court that reads independently of the theater and arena.",
+    "models": [
+      "bld_saurian_town_center_ancient_iron_v0"
+    ],
+    "status": "closed",
+    "review": "RC6 director round 2",
+    "model_sha256": "da4b9c77e5e1e68ab198556df641245f932a49f2677dd749ce0a281ba9eaa4f1",
+    "held_images": {
+      "rc6/holds/director-round-2/bld_saurian_arena_classical_v0.png": "7dc81c55f834485e80e9c0b9b4801ea79b4b15178ae17ee6b005833b63cb8691",
+      "rc6/holds/director-round-2/bld_saurian_town_center_ancient_iron_v0.png": "0773ccb925e37f49ce2cc32ff50070eaf67c097c01b38b476f43d3270952e917",
+      "rc6/holds/director-round-2/saurian-TownCenter-v0.png": "67c7055b9ac08628995d5cb65f5e81a80863fa0284a9a25752ea9cce548775b7",
+      "rc6/holds/director-round-2/saurian_towncenters-01.png": "fa0ad7fa36e179cad9310098cc3f90ac52a8959bbf0b0aabf795719ebd2b3213"
+    },
+    "approved_model_sha256": "748880bbc477b187df9809de525711836a4eb96e418c7dcea4b2a750f326bffe",
+    "approved_evidence_sha256": "6d442f7be038b5f0cadec3c2ec566e98f1b3a863ea7d164b6a4322e4cf1e1752",
+    "approved_package_round": 6,
+    "resolution": "A long roof and clerestory cover an open council nave. A gateway and stair divide the two raised public platforms. Both neutral views retain the prominent axial entrance, clerestory and stepped sides. All three LODs preserve the roof and broad occupied court. The Saurian Arena remains circular, the Iron House remains raised on stilts, and the Bronze Town Center keeps a transverse porch around an open yard."
+  }
+]

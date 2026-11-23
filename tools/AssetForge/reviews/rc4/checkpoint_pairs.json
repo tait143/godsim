@@ -1,0 +1,4110 @@
+[
+ {
+  "race": "dwarf",
+  "family": "Armory",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_dwarf_armory_ancient_v0",
+    "b": "bld_dwarf_armory_classical_v0",
+    "matched": 2186,
+    "total": 2796
+   },
+   {
+    "a": "bld_dwarf_armory_ancient_v0",
+    "b": "bld_dwarf_armory_future_v0",
+    "matched": 2186,
+    "total": 2796
+   },
+   {
+    "a": "bld_dwarf_armory_ancient_v0",
+    "b": "bld_dwarf_armory_industrial_v0",
+    "matched": 2186,
+    "total": 2796
+   },
+   {
+    "a": "bld_dwarf_armory_classical_v0",
+    "b": "bld_dwarf_armory_ancient_v0",
+    "matched": 2186,
+    "total": 2796
+   },
+   {
+    "a": "bld_dwarf_armory_classical_v0",
+    "b": "bld_dwarf_armory_future_v0",
+    "matched": 2206,
+    "total": 2796
+   },
+   {
+    "a": "bld_dwarf_armory_classical_v0",
+    "b": "bld_dwarf_armory_industrial_v0",
+    "matched": 2206,
+    "total": 2796
+   },
+   {
+    "a": "bld_dwarf_armory_future_v0",
+    "b": "bld_dwarf_armory_ancient_v0",
+    "matched": 2186,
+    "total": 2868
+   },
+   {
+    "a": "bld_dwarf_armory_future_v0",
+    "b": "bld_dwarf_armory_classical_v0",
+    "matched": 2206,
+    "total": 2868
+   },
+   {
+    "a": "bld_dwarf_armory_future_v0",
+    "b": "bld_dwarf_armory_industrial_v0",
+    "matched": 2227,
+    "total": 2868
+   },
+   {
+    "a": "bld_dwarf_armory_industrial_v0",
+    "b": "bld_dwarf_armory_ancient_v0",
+    "matched": 2186,
+    "total": 2868
+   },
+   {
+    "a": "bld_dwarf_armory_industrial_v0",
+    "b": "bld_dwarf_armory_classical_v0",
+    "matched": 2206,
+    "total": 2868
+   },
+   {
+    "a": "bld_dwarf_armory_industrial_v0",
+    "b": "bld_dwarf_armory_future_v0",
+    "matched": 2227,
+    "total": 2868
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "Bathhouse",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_dwarf_bathhouse_classical_v0",
+    "b": "bld_dwarf_bathhouse_future_v0",
+    "matched": 1950,
+    "total": 2820
+   },
+   {
+    "a": "bld_dwarf_bathhouse_classical_v0",
+    "b": "bld_dwarf_bathhouse_industrial_v0",
+    "matched": 1950,
+    "total": 2820
+   },
+   {
+    "a": "bld_dwarf_bathhouse_future_v0",
+    "b": "bld_dwarf_bathhouse_classical_v0",
+    "matched": 1950,
+    "total": 2670
+   },
+   {
+    "a": "bld_dwarf_bathhouse_future_v0",
+    "b": "bld_dwarf_bathhouse_industrial_v0",
+    "matched": 1950,
+    "total": 2670
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "Farm",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_dwarf_farm_ancient_v0",
+    "b": "bld_dwarf_farm_classical_v0",
+    "matched": 3050,
+    "total": 3564
+   },
+   {
+    "a": "bld_dwarf_farm_ancient_v0",
+    "b": "bld_dwarf_farm_future_v0",
+    "matched": 2150,
+    "total": 3564
+   },
+   {
+    "a": "bld_dwarf_farm_ancient_v0",
+    "b": "bld_dwarf_farm_industrial_v0",
+    "matched": 2150,
+    "total": 3564
+   },
+   {
+    "a": "bld_dwarf_farm_classical_v0",
+    "b": "bld_dwarf_farm_ancient_v0",
+    "matched": 3050,
+    "total": 3564
+   },
+   {
+    "a": "bld_dwarf_farm_classical_v0",
+    "b": "bld_dwarf_farm_future_v0",
+    "matched": 2170,
+    "total": 3564
+   },
+   {
+    "a": "bld_dwarf_farm_classical_v0",
+    "b": "bld_dwarf_farm_industrial_v0",
+    "matched": 2150,
+    "total": 3564
+   },
+   {
+    "a": "bld_dwarf_farm_future_v0",
+    "b": "bld_dwarf_farm_ancient_v0",
+    "matched": 2150,
+    "total": 3192
+   },
+   {
+    "a": "bld_dwarf_farm_future_v0",
+    "b": "bld_dwarf_farm_classical_v0",
+    "matched": 2170,
+    "total": 3192
+   },
+   {
+    "a": "bld_dwarf_farm_future_v0",
+    "b": "bld_dwarf_farm_industrial_v0",
+    "matched": 2576,
+    "total": 3192
+   },
+   {
+    "a": "bld_dwarf_farm_industrial_v0",
+    "b": "bld_dwarf_farm_ancient_v0",
+    "matched": 2150,
+    "total": 3096
+   },
+   {
+    "a": "bld_dwarf_farm_industrial_v0",
+    "b": "bld_dwarf_farm_classical_v0",
+    "matched": 2150,
+    "total": 3096
+   },
+   {
+    "a": "bld_dwarf_farm_industrial_v0",
+    "b": "bld_dwarf_farm_future_v0",
+    "matched": 2576,
+    "total": 3096
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "FishingHut",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_dwarf_fishing_hut_ancient_v0",
+    "b": "bld_dwarf_fishing_hut_classical_v0",
+    "matched": 1928,
+    "total": 2442
+   },
+   {
+    "a": "bld_dwarf_fishing_hut_ancient_v0",
+    "b": "bld_dwarf_fishing_hut_future_v0",
+    "matched": 1928,
+    "total": 2442
+   },
+   {
+    "a": "bld_dwarf_fishing_hut_ancient_v0",
+    "b": "bld_dwarf_fishing_hut_industrial_v0",
+    "matched": 1928,
+    "total": 2442
+   },
+   {
+    "a": "bld_dwarf_fishing_hut_classical_v0",
+    "b": "bld_dwarf_fishing_hut_ancient_v0",
+    "matched": 1928,
+    "total": 2442
+   },
+   {
+    "a": "bld_dwarf_fishing_hut_classical_v0",
+    "b": "bld_dwarf_fishing_hut_future_v0",
+    "matched": 1948,
+    "total": 2442
+   },
+   {
+    "a": "bld_dwarf_fishing_hut_classical_v0",
+    "b": "bld_dwarf_fishing_hut_industrial_v0",
+    "matched": 1948,
+    "total": 2442
+   },
+   {
+    "a": "bld_dwarf_fishing_hut_future_v0",
+    "b": "bld_dwarf_fishing_hut_ancient_v0",
+    "matched": 1928,
+    "total": 2478
+   },
+   {
+    "a": "bld_dwarf_fishing_hut_future_v0",
+    "b": "bld_dwarf_fishing_hut_classical_v0",
+    "matched": 1948,
+    "total": 2478
+   },
+   {
+    "a": "bld_dwarf_fishing_hut_future_v0",
+    "b": "bld_dwarf_fishing_hut_industrial_v0",
+    "matched": 1966,
+    "total": 2478
+   },
+   {
+    "a": "bld_dwarf_fishing_hut_industrial_v0",
+    "b": "bld_dwarf_fishing_hut_ancient_v0",
+    "matched": 1928,
+    "total": 2478
+   },
+   {
+    "a": "bld_dwarf_fishing_hut_industrial_v0",
+    "b": "bld_dwarf_fishing_hut_classical_v0",
+    "matched": 1948,
+    "total": 2478
+   },
+   {
+    "a": "bld_dwarf_fishing_hut_industrial_v0",
+    "b": "bld_dwarf_fishing_hut_future_v0",
+    "matched": 1966,
+    "total": 2478
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "Forum",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_dwarf_forum_classical_v0",
+    "b": "bld_dwarf_forum_future_v0",
+    "matched": 2199,
+    "total": 2880
+   },
+   {
+    "a": "bld_dwarf_forum_classical_v0",
+    "b": "bld_dwarf_forum_industrial_v0",
+    "matched": 2820,
+    "total": 2880
+   },
+   {
+    "a": "bld_dwarf_forum_future_v0",
+    "b": "bld_dwarf_forum_classical_v0",
+    "matched": 2199,
+    "total": 3048
+   },
+   {
+    "a": "bld_dwarf_forum_future_v0",
+    "b": "bld_dwarf_forum_industrial_v0",
+    "matched": 2199,
+    "total": 3048
+   },
+   {
+    "a": "bld_dwarf_forum_industrial_v0",
+    "b": "bld_dwarf_forum_classical_v0",
+    "matched": 2820,
+    "total": 2964
+   },
+   {
+    "a": "bld_dwarf_forum_industrial_v0",
+    "b": "bld_dwarf_forum_future_v0",
+    "matched": 2199,
+    "total": 2964
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "GoldMine",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_dwarf_gold_mine_ancient_v0",
+    "b": "bld_dwarf_gold_mine_classical_v0",
+    "matched": 1941,
+    "total": 3093
+   },
+   {
+    "a": "bld_dwarf_gold_mine_ancient_v0",
+    "b": "bld_dwarf_gold_mine_future_v0",
+    "matched": 1941,
+    "total": 3093
+   },
+   {
+    "a": "bld_dwarf_gold_mine_ancient_v0",
+    "b": "bld_dwarf_gold_mine_industrial_v0",
+    "matched": 1941,
+    "total": 3093
+   },
+   {
+    "a": "bld_dwarf_gold_mine_future_v0",
+    "b": "bld_dwarf_gold_mine_ancient_v0",
+    "matched": 1941,
+    "total": 3057
+   },
+   {
+    "a": "bld_dwarf_gold_mine_future_v0",
+    "b": "bld_dwarf_gold_mine_classical_v0",
+    "matched": 1941,
+    "total": 3057
+   },
+   {
+    "a": "bld_dwarf_gold_mine_future_v0",
+    "b": "bld_dwarf_gold_mine_industrial_v0",
+    "matched": 1941,
+    "total": 3057
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "Guildhall",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_dwarf_guildhall_classical_v0",
+    "b": "bld_dwarf_guildhall_future_v0",
+    "matched": 1764,
+    "total": 2814
+   },
+   {
+    "a": "bld_dwarf_guildhall_classical_v0",
+    "b": "bld_dwarf_guildhall_industrial_v0",
+    "matched": 1764,
+    "total": 2814
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "Harbor",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_dwarf_harbor_classical_v0",
+    "b": "bld_dwarf_harbor_future_v0",
+    "matched": 1755,
+    "total": 2499
+   },
+   {
+    "a": "bld_dwarf_harbor_classical_v0",
+    "b": "bld_dwarf_harbor_industrial_v0",
+    "matched": 1815,
+    "total": 2499
+   },
+   {
+    "a": "bld_dwarf_harbor_future_v0",
+    "b": "bld_dwarf_harbor_industrial_v0",
+    "matched": 2103,
+    "total": 3183
+   },
+   {
+    "a": "bld_dwarf_harbor_industrial_v0",
+    "b": "bld_dwarf_harbor_future_v0",
+    "matched": 2103,
+    "total": 3135
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "HuntingLodge",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_dwarf_hunting_lodge_ancient_v0",
+    "b": "bld_dwarf_hunting_lodge_classical_v0",
+    "matched": 1586,
+    "total": 2100
+   },
+   {
+    "a": "bld_dwarf_hunting_lodge_classical_v0",
+    "b": "bld_dwarf_hunting_lodge_ancient_v0",
+    "matched": 1586,
+    "total": 2100
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "IndustrialFarm",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_dwarf_industrial_farm_future_v0",
+    "b": "bld_dwarf_industrial_farm_industrial_v0",
+    "matched": 2650,
+    "total": 3774
+   },
+   {
+    "a": "bld_dwarf_industrial_farm_industrial_v0",
+    "b": "bld_dwarf_industrial_farm_future_v0",
+    "matched": 2650,
+    "total": 3882
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "Market",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_dwarf_market_ancient_v0",
+    "b": "bld_dwarf_market_classical_v0",
+    "matched": 1656,
+    "total": 2574
+   },
+   {
+    "a": "bld_dwarf_market_ancient_v0",
+    "b": "bld_dwarf_market_future_v0",
+    "matched": 1656,
+    "total": 2574
+   },
+   {
+    "a": "bld_dwarf_market_ancient_v0",
+    "b": "bld_dwarf_market_industrial_v0",
+    "matched": 1656,
+    "total": 2574
+   },
+   {
+    "a": "bld_dwarf_market_classical_v0",
+    "b": "bld_dwarf_market_ancient_v0",
+    "matched": 1656,
+    "total": 2706
+   },
+   {
+    "a": "bld_dwarf_market_classical_v0",
+    "b": "bld_dwarf_market_future_v0",
+    "matched": 1656,
+    "total": 2706
+   },
+   {
+    "a": "bld_dwarf_market_classical_v0",
+    "b": "bld_dwarf_market_industrial_v0",
+    "matched": 1656,
+    "total": 2706
+   },
+   {
+    "a": "bld_dwarf_market_future_v0",
+    "b": "bld_dwarf_market_ancient_v0",
+    "matched": 1656,
+    "total": 2622
+   },
+   {
+    "a": "bld_dwarf_market_future_v0",
+    "b": "bld_dwarf_market_classical_v0",
+    "matched": 1656,
+    "total": 2622
+   },
+   {
+    "a": "bld_dwarf_market_future_v0",
+    "b": "bld_dwarf_market_industrial_v0",
+    "matched": 1656,
+    "total": 2622
+   },
+   {
+    "a": "bld_dwarf_market_industrial_v0",
+    "b": "bld_dwarf_market_ancient_v0",
+    "matched": 1656,
+    "total": 2526
+   },
+   {
+    "a": "bld_dwarf_market_industrial_v0",
+    "b": "bld_dwarf_market_classical_v0",
+    "matched": 1656,
+    "total": 2526
+   },
+   {
+    "a": "bld_dwarf_market_industrial_v0",
+    "b": "bld_dwarf_market_future_v0",
+    "matched": 1656,
+    "total": 2526
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "Mill",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_dwarf_mill_classical_v0",
+    "b": "bld_dwarf_mill_industrial_v0",
+    "matched": 2626,
+    "total": 3120
+   },
+   {
+    "a": "bld_dwarf_mill_industrial_v0",
+    "b": "bld_dwarf_mill_classical_v0",
+    "matched": 2626,
+    "total": 3684
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "Mine",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_dwarf_mine_ancient_v0",
+    "b": "bld_dwarf_mine_classical_v0",
+    "matched": 1818,
+    "total": 2874
+   },
+   {
+    "a": "bld_dwarf_mine_ancient_v0",
+    "b": "bld_dwarf_mine_future_v0",
+    "matched": 1818,
+    "total": 2874
+   },
+   {
+    "a": "bld_dwarf_mine_ancient_v0",
+    "b": "bld_dwarf_mine_industrial_v0",
+    "matched": 1818,
+    "total": 2874
+   },
+   {
+    "a": "bld_dwarf_mine_classical_v0",
+    "b": "bld_dwarf_mine_ancient_v0",
+    "matched": 1818,
+    "total": 2874
+   },
+   {
+    "a": "bld_dwarf_mine_classical_v0",
+    "b": "bld_dwarf_mine_future_v0",
+    "matched": 1872,
+    "total": 2874
+   },
+   {
+    "a": "bld_dwarf_mine_classical_v0",
+    "b": "bld_dwarf_mine_industrial_v0",
+    "matched": 1818,
+    "total": 2874
+   },
+   {
+    "a": "bld_dwarf_mine_future_v0",
+    "b": "bld_dwarf_mine_ancient_v0",
+    "matched": 1818,
+    "total": 2970
+   },
+   {
+    "a": "bld_dwarf_mine_future_v0",
+    "b": "bld_dwarf_mine_classical_v0",
+    "matched": 1872,
+    "total": 2970
+   },
+   {
+    "a": "bld_dwarf_mine_future_v0",
+    "b": "bld_dwarf_mine_industrial_v0",
+    "matched": 1818,
+    "total": 2970
+   },
+   {
+    "a": "bld_dwarf_mine_industrial_v0",
+    "b": "bld_dwarf_mine_ancient_v0",
+    "matched": 1818,
+    "total": 2934
+   },
+   {
+    "a": "bld_dwarf_mine_industrial_v0",
+    "b": "bld_dwarf_mine_classical_v0",
+    "matched": 1818,
+    "total": 2934
+   },
+   {
+    "a": "bld_dwarf_mine_industrial_v0",
+    "b": "bld_dwarf_mine_future_v0",
+    "matched": 1818,
+    "total": 2934
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "RailStation",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_dwarf_rail_station_future_v0",
+    "b": "bld_dwarf_rail_station_industrial_v0",
+    "matched": 1568,
+    "total": 2028
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "Temple",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_dwarf_temple_ancient_v0",
+    "b": "bld_dwarf_temple_classical_v0",
+    "matched": 1946,
+    "total": 2856
+   },
+   {
+    "a": "bld_dwarf_temple_ancient_v0",
+    "b": "bld_dwarf_temple_future_v0",
+    "matched": 1946,
+    "total": 2856
+   },
+   {
+    "a": "bld_dwarf_temple_ancient_v0",
+    "b": "bld_dwarf_temple_industrial_v0",
+    "matched": 1946,
+    "total": 2856
+   },
+   {
+    "a": "bld_dwarf_temple_classical_v0",
+    "b": "bld_dwarf_temple_ancient_v0",
+    "matched": 1946,
+    "total": 2856
+   },
+   {
+    "a": "bld_dwarf_temple_classical_v0",
+    "b": "bld_dwarf_temple_future_v0",
+    "matched": 1946,
+    "total": 2856
+   },
+   {
+    "a": "bld_dwarf_temple_classical_v0",
+    "b": "bld_dwarf_temple_industrial_v0",
+    "matched": 1946,
+    "total": 2856
+   },
+   {
+    "a": "bld_dwarf_temple_future_v0",
+    "b": "bld_dwarf_temple_ancient_v0",
+    "matched": 1946,
+    "total": 2940
+   },
+   {
+    "a": "bld_dwarf_temple_future_v0",
+    "b": "bld_dwarf_temple_classical_v0",
+    "matched": 1946,
+    "total": 2940
+   },
+   {
+    "a": "bld_dwarf_temple_future_v0",
+    "b": "bld_dwarf_temple_industrial_v0",
+    "matched": 1946,
+    "total": 2940
+   },
+   {
+    "a": "bld_dwarf_temple_industrial_v0",
+    "b": "bld_dwarf_temple_ancient_v0",
+    "matched": 1946,
+    "total": 2940
+   },
+   {
+    "a": "bld_dwarf_temple_industrial_v0",
+    "b": "bld_dwarf_temple_classical_v0",
+    "matched": 1946,
+    "total": 2940
+   },
+   {
+    "a": "bld_dwarf_temple_industrial_v0",
+    "b": "bld_dwarf_temple_future_v0",
+    "matched": 1946,
+    "total": 2940
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "Theater",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_dwarf_theater_classical_v0",
+    "b": "bld_dwarf_theater_future_v0",
+    "matched": 2322,
+    "total": 2838
+   },
+   {
+    "a": "bld_dwarf_theater_classical_v0",
+    "b": "bld_dwarf_theater_industrial_v0",
+    "matched": 2322,
+    "total": 2838
+   },
+   {
+    "a": "bld_dwarf_theater_future_v0",
+    "b": "bld_dwarf_theater_classical_v0",
+    "matched": 2322,
+    "total": 3006
+   },
+   {
+    "a": "bld_dwarf_theater_future_v0",
+    "b": "bld_dwarf_theater_industrial_v0",
+    "matched": 2322,
+    "total": 3006
+   },
+   {
+    "a": "bld_dwarf_theater_industrial_v0",
+    "b": "bld_dwarf_theater_classical_v0",
+    "matched": 2322,
+    "total": 3366
+   },
+   {
+    "a": "bld_dwarf_theater_industrial_v0",
+    "b": "bld_dwarf_theater_future_v0",
+    "matched": 2322,
+    "total": 3366
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "TownCenter",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_dwarf_town_center_classical_renaissance_v0",
+    "b": "bld_dwarf_town_center_classical_v0",
+    "matched": 2616,
+    "total": 3186
+   },
+   {
+    "a": "bld_dwarf_town_center_classical_v0",
+    "b": "bld_dwarf_town_center_classical_renaissance_v0",
+    "matched": 2616,
+    "total": 3168
+   },
+   {
+    "a": "bld_dwarf_town_center_future_v0",
+    "b": "bld_dwarf_town_center_industrial_modern_v0",
+    "matched": 2616,
+    "total": 3138
+   },
+   {
+    "a": "bld_dwarf_town_center_industrial_modern_v0",
+    "b": "bld_dwarf_town_center_future_v0",
+    "matched": 2616,
+    "total": 3282
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "Well",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_dwarf_well_ancient_v0",
+    "b": "bld_dwarf_well_classical_v0",
+    "matched": 1848,
+    "total": 2706
+   },
+   {
+    "a": "bld_dwarf_well_ancient_v0",
+    "b": "bld_dwarf_well_industrial_v0",
+    "matched": 1854,
+    "total": 2706
+   },
+   {
+    "a": "bld_dwarf_well_classical_v0",
+    "b": "bld_dwarf_well_ancient_v0",
+    "matched": 1848,
+    "total": 2802
+   },
+   {
+    "a": "bld_dwarf_well_classical_v0",
+    "b": "bld_dwarf_well_industrial_v0",
+    "matched": 1848,
+    "total": 2802
+   }
+  ]
+ },
+ {
+  "race": "dwarf",
+  "family": "Workshop",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_dwarf_workshop_classical_v0",
+    "b": "bld_dwarf_workshop_industrial_v0",
+    "matched": 2236,
+    "total": 2730
+   },
+   {
+    "a": "bld_dwarf_workshop_industrial_v0",
+    "b": "bld_dwarf_workshop_classical_v0",
+    "matched": 2236,
+    "total": 3294
+   }
+  ]
+ },
+ {
+  "race": "elf",
+  "family": "Arena",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_elf_arena_classical_v0",
+    "b": "bld_elf_arena_future_v0",
+    "matched": 2526,
+    "total": 3258
+   },
+   {
+    "a": "bld_elf_arena_classical_v0",
+    "b": "bld_elf_arena_industrial_v0",
+    "matched": 2526,
+    "total": 3258
+   },
+   {
+    "a": "bld_elf_arena_future_v0",
+    "b": "bld_elf_arena_classical_v0",
+    "matched": 2526,
+    "total": 3258
+   },
+   {
+    "a": "bld_elf_arena_future_v0",
+    "b": "bld_elf_arena_industrial_v0",
+    "matched": 2526,
+    "total": 3258
+   },
+   {
+    "a": "bld_elf_arena_industrial_v0",
+    "b": "bld_elf_arena_classical_v0",
+    "matched": 2526,
+    "total": 3258
+   },
+   {
+    "a": "bld_elf_arena_industrial_v0",
+    "b": "bld_elf_arena_future_v0",
+    "matched": 2526,
+    "total": 3258
+   }
+  ]
+ },
+ {
+  "race": "elf",
+  "family": "Campfire",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_elf_campfire_ancient_v0",
+    "b": "bld_elf_campfire_classical_v0",
+    "matched": 1746,
+    "total": 2001
+   },
+   {
+    "a": "bld_elf_campfire_classical_v0",
+    "b": "bld_elf_campfire_ancient_v0",
+    "matched": 1746,
+    "total": 2211
+   }
+  ]
+ },
+ {
+  "race": "elf",
+  "family": "CoalMine",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_elf_coal_mine_future_v0",
+    "b": "bld_elf_coal_mine_industrial_v0",
+    "matched": 2781,
+    "total": 4197
+   },
+   {
+    "a": "bld_elf_coal_mine_industrial_v0",
+    "b": "bld_elf_coal_mine_future_v0",
+    "matched": 2781,
+    "total": 4197
+   }
+  ]
+ },
+ {
+  "race": "elf",
+  "family": "Farm",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_elf_farm_ancient_v0",
+    "b": "bld_elf_farm_classical_v0",
+    "matched": 2812,
+    "total": 4260
+   },
+   {
+    "a": "bld_elf_farm_classical_v0",
+    "b": "bld_elf_farm_ancient_v0",
+    "matched": 2812,
+    "total": 4260
+   },
+   {
+    "a": "bld_elf_farm_industrial_v0",
+    "b": "bld_elf_farm_future_v0",
+    "matched": 2338,
+    "total": 3786
+   }
+  ]
+ },
+ {
+  "race": "elf",
+  "family": "GoldMine",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_elf_gold_mine_ancient_v0",
+    "b": "bld_elf_gold_mine_future_v0",
+    "matched": 2643,
+    "total": 3825
+   },
+   {
+    "a": "bld_elf_gold_mine_ancient_v0",
+    "b": "bld_elf_gold_mine_industrial_v0",
+    "matched": 2643,
+    "total": 3825
+   },
+   {
+    "a": "bld_elf_gold_mine_future_v0",
+    "b": "bld_elf_gold_mine_ancient_v0",
+    "matched": 2643,
+    "total": 4341
+   },
+   {
+    "a": "bld_elf_gold_mine_future_v0",
+    "b": "bld_elf_gold_mine_industrial_v0",
+    "matched": 2925,
+    "total": 4341
+   },
+   {
+    "a": "bld_elf_gold_mine_industrial_v0",
+    "b": "bld_elf_gold_mine_ancient_v0",
+    "matched": 2643,
+    "total": 4341
+   },
+   {
+    "a": "bld_elf_gold_mine_industrial_v0",
+    "b": "bld_elf_gold_mine_future_v0",
+    "matched": 2925,
+    "total": 4341
+   }
+  ]
+ },
+ {
+  "race": "elf",
+  "family": "Granary",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_elf_granary_ancient_v0",
+    "b": "bld_elf_granary_classical_v0",
+    "matched": 1946,
+    "total": 2826
+   },
+   {
+    "a": "bld_elf_granary_ancient_v0",
+    "b": "bld_elf_granary_future_v0",
+    "matched": 1946,
+    "total": 2826
+   },
+   {
+    "a": "bld_elf_granary_ancient_v0",
+    "b": "bld_elf_granary_industrial_v0",
+    "matched": 1946,
+    "total": 2826
+   },
+   {
+    "a": "bld_elf_granary_classical_v0",
+    "b": "bld_elf_granary_ancient_v0",
+    "matched": 1946,
+    "total": 2826
+   },
+   {
+    "a": "bld_elf_granary_classical_v0",
+    "b": "bld_elf_granary_future_v0",
+    "matched": 1946,
+    "total": 2826
+   },
+   {
+    "a": "bld_elf_granary_classical_v0",
+    "b": "bld_elf_granary_industrial_v0",
+    "matched": 1946,
+    "total": 2826
+   },
+   {
+    "a": "bld_elf_granary_future_v0",
+    "b": "bld_elf_granary_ancient_v0",
+    "matched": 1946,
+    "total": 2826
+   },
+   {
+    "a": "bld_elf_granary_future_v0",
+    "b": "bld_elf_granary_classical_v0",
+    "matched": 1946,
+    "total": 2826
+   },
+   {
+    "a": "bld_elf_granary_future_v0",
+    "b": "bld_elf_granary_industrial_v0",
+    "matched": 1946,
+    "total": 2826
+   },
+   {
+    "a": "bld_elf_granary_industrial_v0",
+    "b": "bld_elf_granary_ancient_v0",
+    "matched": 1946,
+    "total": 2826
+   },
+   {
+    "a": "bld_elf_granary_industrial_v0",
+    "b": "bld_elf_granary_classical_v0",
+    "matched": 1946,
+    "total": 2826
+   },
+   {
+    "a": "bld_elf_granary_industrial_v0",
+    "b": "bld_elf_granary_future_v0",
+    "matched": 1946,
+    "total": 2826
+   }
+  ]
+ },
+ {
+  "race": "elf",
+  "family": "Pasture",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_elf_pasture_ancient_v0",
+    "b": "bld_elf_pasture_classical_v0",
+    "matched": 2634,
+    "total": 4230
+   },
+   {
+    "a": "bld_elf_pasture_ancient_v0",
+    "b": "bld_elf_pasture_future_v0",
+    "matched": 2610,
+    "total": 4230
+   },
+   {
+    "a": "bld_elf_pasture_ancient_v0",
+    "b": "bld_elf_pasture_industrial_v0",
+    "matched": 2634,
+    "total": 4230
+   },
+   {
+    "a": "bld_elf_pasture_classical_v0",
+    "b": "bld_elf_pasture_ancient_v0",
+    "matched": 2634,
+    "total": 4092
+   },
+   {
+    "a": "bld_elf_pasture_classical_v0",
+    "b": "bld_elf_pasture_future_v0",
+    "matched": 2610,
+    "total": 4092
+   },
+   {
+    "a": "bld_elf_pasture_classical_v0",
+    "b": "bld_elf_pasture_industrial_v0",
+    "matched": 2644,
+    "total": 4092
+   },
+   {
+    "a": "bld_elf_pasture_future_v0",
+    "b": "bld_elf_pasture_ancient_v0",
+    "matched": 2610,
+    "total": 4302
+   },
+   {
+    "a": "bld_elf_pasture_future_v0",
+    "b": "bld_elf_pasture_classical_v0",
+    "matched": 2610,
+    "total": 4302
+   },
+   {
+    "a": "bld_elf_pasture_future_v0",
+    "b": "bld_elf_pasture_industrial_v0",
+    "matched": 2820,
+    "total": 4302
+   },
+   {
+    "a": "bld_elf_pasture_industrial_v0",
+    "b": "bld_elf_pasture_ancient_v0",
+    "matched": 2634,
+    "total": 4302
+   },
+   {
+    "a": "bld_elf_pasture_industrial_v0",
+    "b": "bld_elf_pasture_classical_v0",
+    "matched": 2644,
+    "total": 4302
+   },
+   {
+    "a": "bld_elf_pasture_industrial_v0",
+    "b": "bld_elf_pasture_future_v0",
+    "matched": 2820,
+    "total": 4302
+   }
+  ]
+ },
+ {
+  "race": "elf",
+  "family": "Stadium",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_elf_stadium_future_v0",
+    "b": "bld_elf_stadium_industrial_v0",
+    "matched": 2956,
+    "total": 3786
+   },
+   {
+    "a": "bld_elf_stadium_industrial_v0",
+    "b": "bld_elf_stadium_future_v0",
+    "matched": 2956,
+    "total": 3786
+   }
+  ]
+ },
+ {
+  "race": "elf",
+  "family": "University",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_elf_university_classical_v0",
+    "b": "bld_elf_university_future_v0",
+    "matched": 2499,
+    "total": 3504
+   },
+   {
+    "a": "bld_elf_university_classical_v0",
+    "b": "bld_elf_university_industrial_v0",
+    "matched": 2501,
+    "total": 3504
+   },
+   {
+    "a": "bld_elf_university_future_v0",
+    "b": "bld_elf_university_classical_v0",
+    "matched": 2499,
+    "total": 3504
+   },
+   {
+    "a": "bld_elf_university_future_v0",
+    "b": "bld_elf_university_industrial_v0",
+    "matched": 2486,
+    "total": 3504
+   },
+   {
+    "a": "bld_elf_university_industrial_v0",
+    "b": "bld_elf_university_classical_v0",
+    "matched": 2501,
+    "total": 3504
+   },
+   {
+    "a": "bld_elf_university_industrial_v0",
+    "b": "bld_elf_university_future_v0",
+    "matched": 2486,
+    "total": 3504
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Arena",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_human_arena_classical_v0",
+    "b": "bld_human_arena_industrial_v0",
+    "matched": 3576,
+    "total": 3624
+   },
+   {
+    "a": "bld_human_arena_industrial_v0",
+    "b": "bld_human_arena_classical_v0",
+    "matched": 3576,
+    "total": 3768
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Bank",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_human_bank_future_v0",
+    "b": "bld_human_bank_industrial_v0",
+    "matched": 1488,
+    "total": 2076
+   },
+   {
+    "a": "bld_human_bank_industrial_v0",
+    "b": "bld_human_bank_classical_v0",
+    "matched": 1224,
+    "total": 1800
+   },
+   {
+    "a": "bld_human_bank_industrial_v0",
+    "b": "bld_human_bank_future_v0",
+    "matched": 1488,
+    "total": 1800
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Barracks",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_barracks_future_v0",
+    "b": "bld_human_barracks_ancient_v0",
+    "matched": 1245,
+    "total": 2031
+   },
+   {
+    "a": "bld_human_barracks_future_v0",
+    "b": "bld_human_barracks_industrial_v0",
+    "matched": 1458,
+    "total": 2031
+   },
+   {
+    "a": "bld_human_barracks_industrial_v0",
+    "b": "bld_human_barracks_ancient_v0",
+    "matched": 1344,
+    "total": 2079
+   },
+   {
+    "a": "bld_human_barracks_industrial_v0",
+    "b": "bld_human_barracks_future_v0",
+    "matched": 1458,
+    "total": 2079
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Bathhouse",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_bathhouse_classical_v0",
+    "b": "bld_human_bathhouse_future_v0",
+    "matched": 1857,
+    "total": 2523
+   },
+   {
+    "a": "bld_human_bathhouse_classical_v0",
+    "b": "bld_human_bathhouse_industrial_v0",
+    "matched": 1857,
+    "total": 2523
+   },
+   {
+    "a": "bld_human_bathhouse_future_v0",
+    "b": "bld_human_bathhouse_classical_v0",
+    "matched": 1857,
+    "total": 3033
+   },
+   {
+    "a": "bld_human_bathhouse_future_v0",
+    "b": "bld_human_bathhouse_industrial_v0",
+    "matched": 1857,
+    "total": 3033
+   },
+   {
+    "a": "bld_human_bathhouse_industrial_v0",
+    "b": "bld_human_bathhouse_classical_v0",
+    "matched": 1857,
+    "total": 2805
+   },
+   {
+    "a": "bld_human_bathhouse_industrial_v0",
+    "b": "bld_human_bathhouse_future_v0",
+    "matched": 1857,
+    "total": 2805
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Blacksmith",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_blacksmith_classical_v0",
+    "b": "bld_human_blacksmith_industrial_v0",
+    "matched": 1455,
+    "total": 2367
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Cathedral",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_cathedral_classical_v0",
+    "b": "bld_human_cathedral_future_v0",
+    "matched": 3012,
+    "total": 4434
+   },
+   {
+    "a": "bld_human_cathedral_classical_v0",
+    "b": "bld_human_cathedral_industrial_v0",
+    "matched": 3114,
+    "total": 4434
+   },
+   {
+    "a": "bld_human_cathedral_future_v0",
+    "b": "bld_human_cathedral_classical_v0",
+    "matched": 3012,
+    "total": 3924
+   },
+   {
+    "a": "bld_human_cathedral_future_v0",
+    "b": "bld_human_cathedral_industrial_v0",
+    "matched": 3012,
+    "total": 3924
+   },
+   {
+    "a": "bld_human_cathedral_industrial_v0",
+    "b": "bld_human_cathedral_classical_v0",
+    "matched": 3114,
+    "total": 4176
+   },
+   {
+    "a": "bld_human_cathedral_industrial_v0",
+    "b": "bld_human_cathedral_future_v0",
+    "matched": 3012,
+    "total": 4176
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "CoalMine",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_coal_mine_future_v0",
+    "b": "bld_human_coal_mine_industrial_v0",
+    "matched": 1890,
+    "total": 2463
+   },
+   {
+    "a": "bld_human_coal_mine_industrial_v0",
+    "b": "bld_human_coal_mine_future_v0",
+    "matched": 1890,
+    "total": 2595
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Farm",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_farm_future_v0",
+    "b": "bld_human_farm_industrial_v0",
+    "matched": 1611,
+    "total": 2160
+   },
+   {
+    "a": "bld_human_farm_industrial_v0",
+    "b": "bld_human_farm_future_v0",
+    "matched": 1611,
+    "total": 2190
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "FishingHut",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_human_fishing_hut_ancient_v0",
+    "b": "bld_human_fishing_hut_classical_v0",
+    "matched": 1788,
+    "total": 2199
+   },
+   {
+    "a": "bld_human_fishing_hut_classical_v0",
+    "b": "bld_human_fishing_hut_ancient_v0",
+    "matched": 1788,
+    "total": 2349
+   },
+   {
+    "a": "bld_human_fishing_hut_future_v0",
+    "b": "bld_human_fishing_hut_ancient_v0",
+    "matched": 936,
+    "total": 1359
+   },
+   {
+    "a": "bld_human_fishing_hut_future_v0",
+    "b": "bld_human_fishing_hut_classical_v0",
+    "matched": 936,
+    "total": 1359
+   },
+   {
+    "a": "bld_human_fishing_hut_future_v0",
+    "b": "bld_human_fishing_hut_industrial_v0",
+    "matched": 1038,
+    "total": 1359
+   },
+   {
+    "a": "bld_human_fishing_hut_industrial_v0",
+    "b": "bld_human_fishing_hut_ancient_v0",
+    "matched": 936,
+    "total": 1425
+   },
+   {
+    "a": "bld_human_fishing_hut_industrial_v0",
+    "b": "bld_human_fishing_hut_classical_v0",
+    "matched": 936,
+    "total": 1425
+   },
+   {
+    "a": "bld_human_fishing_hut_industrial_v0",
+    "b": "bld_human_fishing_hut_future_v0",
+    "matched": 1038,
+    "total": 1425
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Forum",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_human_forum_classical_v0",
+    "b": "bld_human_forum_industrial_v0",
+    "matched": 1518,
+    "total": 1530
+   },
+   {
+    "a": "bld_human_forum_industrial_v0",
+    "b": "bld_human_forum_classical_v0",
+    "matched": 1518,
+    "total": 1812
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Granary",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_human_granary_ancient_v0",
+    "b": "bld_human_granary_classical_v0",
+    "matched": 1914,
+    "total": 1986
+   },
+   {
+    "a": "bld_human_granary_classical_v0",
+    "b": "bld_human_granary_ancient_v0",
+    "matched": 1914,
+    "total": 2142
+   },
+   {
+    "a": "bld_human_granary_future_v0",
+    "b": "bld_human_granary_industrial_v0",
+    "matched": 3468,
+    "total": 3594
+   },
+   {
+    "a": "bld_human_granary_industrial_v0",
+    "b": "bld_human_granary_future_v0",
+    "matched": 3468,
+    "total": 3492
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Guildhall",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_guildhall_industrial_v0",
+    "b": "bld_human_guildhall_classical_v0",
+    "matched": 1059,
+    "total": 1707
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Herbalist",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_human_herbalist_ancient_v0",
+    "b": "bld_human_herbalist_classical_v0",
+    "matched": 2748,
+    "total": 3228
+   },
+   {
+    "a": "bld_human_herbalist_ancient_v0",
+    "b": "bld_human_herbalist_future_v0",
+    "matched": 2241,
+    "total": 3228
+   },
+   {
+    "a": "bld_human_herbalist_ancient_v0",
+    "b": "bld_human_herbalist_industrial_v0",
+    "matched": 2241,
+    "total": 3228
+   },
+   {
+    "a": "bld_human_herbalist_classical_v0",
+    "b": "bld_human_herbalist_ancient_v0",
+    "matched": 2748,
+    "total": 3324
+   },
+   {
+    "a": "bld_human_herbalist_classical_v0",
+    "b": "bld_human_herbalist_future_v0",
+    "matched": 2241,
+    "total": 3324
+   },
+   {
+    "a": "bld_human_herbalist_classical_v0",
+    "b": "bld_human_herbalist_industrial_v0",
+    "matched": 2241,
+    "total": 3324
+   },
+   {
+    "a": "bld_human_herbalist_future_v0",
+    "b": "bld_human_herbalist_ancient_v0",
+    "matched": 2241,
+    "total": 3552
+   },
+   {
+    "a": "bld_human_herbalist_future_v0",
+    "b": "bld_human_herbalist_classical_v0",
+    "matched": 2241,
+    "total": 3552
+   },
+   {
+    "a": "bld_human_herbalist_future_v0",
+    "b": "bld_human_herbalist_industrial_v0",
+    "matched": 2241,
+    "total": 3552
+   },
+   {
+    "a": "bld_human_herbalist_industrial_v0",
+    "b": "bld_human_herbalist_ancient_v0",
+    "matched": 2241,
+    "total": 3708
+   },
+   {
+    "a": "bld_human_herbalist_industrial_v0",
+    "b": "bld_human_herbalist_classical_v0",
+    "matched": 2241,
+    "total": 3708
+   },
+   {
+    "a": "bld_human_herbalist_industrial_v0",
+    "b": "bld_human_herbalist_future_v0",
+    "matched": 2241,
+    "total": 3708
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Library",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_library_classical_v0",
+    "b": "bld_human_library_future_v0",
+    "matched": 1359,
+    "total": 2199
+   },
+   {
+    "a": "bld_human_library_classical_v0",
+    "b": "bld_human_library_industrial_v0",
+    "matched": 1359,
+    "total": 2199
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Market",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_human_market_future_v0",
+    "b": "bld_human_market_industrial_v0",
+    "matched": 2037,
+    "total": 2139
+   },
+   {
+    "a": "bld_human_market_industrial_v0",
+    "b": "bld_human_market_future_v0",
+    "matched": 2037,
+    "total": 2115
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Mill",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_human_mill_classical_v0",
+    "b": "bld_human_mill_industrial_v0",
+    "matched": 1575,
+    "total": 1671
+   },
+   {
+    "a": "bld_human_mill_industrial_v0",
+    "b": "bld_human_mill_classical_v0",
+    "matched": 1575,
+    "total": 2097
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Monastery",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_monastery_classical_v0",
+    "b": "bld_human_monastery_future_v0",
+    "matched": 2145,
+    "total": 3465
+   },
+   {
+    "a": "bld_human_monastery_classical_v0",
+    "b": "bld_human_monastery_industrial_v0",
+    "matched": 2511,
+    "total": 3465
+   },
+   {
+    "a": "bld_human_monastery_future_v0",
+    "b": "bld_human_monastery_classical_v0",
+    "matched": 2145,
+    "total": 2835
+   },
+   {
+    "a": "bld_human_monastery_future_v0",
+    "b": "bld_human_monastery_industrial_v0",
+    "matched": 2145,
+    "total": 2835
+   },
+   {
+    "a": "bld_human_monastery_industrial_v0",
+    "b": "bld_human_monastery_classical_v0",
+    "matched": 2511,
+    "total": 3771
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Observatory",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_observatory_classical_v0",
+    "b": "bld_human_observatory_future_v0",
+    "matched": 1533,
+    "total": 2403
+   },
+   {
+    "a": "bld_human_observatory_classical_v0",
+    "b": "bld_human_observatory_industrial_v0",
+    "matched": 1533,
+    "total": 2403
+   },
+   {
+    "a": "bld_human_observatory_future_v0",
+    "b": "bld_human_observatory_classical_v0",
+    "matched": 1533,
+    "total": 2433
+   },
+   {
+    "a": "bld_human_observatory_future_v0",
+    "b": "bld_human_observatory_industrial_v0",
+    "matched": 1533,
+    "total": 2433
+   },
+   {
+    "a": "bld_human_observatory_industrial_v0",
+    "b": "bld_human_observatory_classical_v0",
+    "matched": 1533,
+    "total": 2403
+   },
+   {
+    "a": "bld_human_observatory_industrial_v0",
+    "b": "bld_human_observatory_future_v0",
+    "matched": 1533,
+    "total": 2403
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "OilWell",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_oil_well_future_v0",
+    "b": "bld_human_oil_well_industrial_v0",
+    "matched": 1863,
+    "total": 2586
+   },
+   {
+    "a": "bld_human_oil_well_industrial_v0",
+    "b": "bld_human_oil_well_future_v0",
+    "matched": 1863,
+    "total": 2382
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Printworks",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_printworks_classical_v0",
+    "b": "bld_human_printworks_future_v0",
+    "matched": 1194,
+    "total": 1608
+   },
+   {
+    "a": "bld_human_printworks_classical_v0",
+    "b": "bld_human_printworks_industrial_v0",
+    "matched": 1194,
+    "total": 1608
+   },
+   {
+    "a": "bld_human_printworks_industrial_v0",
+    "b": "bld_human_printworks_classical_v0",
+    "matched": 1194,
+    "total": 1770
+   },
+   {
+    "a": "bld_human_printworks_industrial_v0",
+    "b": "bld_human_printworks_future_v0",
+    "matched": 1296,
+    "total": 1770
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "RailStation",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_rail_station_future_v0",
+    "b": "bld_human_rail_station_industrial_v0",
+    "matched": 1797,
+    "total": 2385
+   },
+   {
+    "a": "bld_human_rail_station_industrial_v0",
+    "b": "bld_human_rail_station_future_v0",
+    "matched": 1797,
+    "total": 2649
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "ResearchLab",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_research_lab_industrial_v0",
+    "b": "bld_human_research_lab_future_v0",
+    "matched": 1809,
+    "total": 2763
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Scriptorium",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_scriptorium_ancient_v0",
+    "b": "bld_human_scriptorium_classical_v0",
+    "matched": 1467,
+    "total": 1845
+   },
+   {
+    "a": "bld_human_scriptorium_ancient_v0",
+    "b": "bld_human_scriptorium_future_v0",
+    "matched": 1467,
+    "total": 1845
+   },
+   {
+    "a": "bld_human_scriptorium_ancient_v0",
+    "b": "bld_human_scriptorium_industrial_v0",
+    "matched": 1467,
+    "total": 1845
+   },
+   {
+    "a": "bld_human_scriptorium_classical_v0",
+    "b": "bld_human_scriptorium_ancient_v0",
+    "matched": 1467,
+    "total": 1941
+   },
+   {
+    "a": "bld_human_scriptorium_classical_v0",
+    "b": "bld_human_scriptorium_future_v0",
+    "matched": 1467,
+    "total": 1941
+   },
+   {
+    "a": "bld_human_scriptorium_classical_v0",
+    "b": "bld_human_scriptorium_industrial_v0",
+    "matched": 1467,
+    "total": 1941
+   },
+   {
+    "a": "bld_human_scriptorium_future_v0",
+    "b": "bld_human_scriptorium_ancient_v0",
+    "matched": 1467,
+    "total": 2169
+   },
+   {
+    "a": "bld_human_scriptorium_future_v0",
+    "b": "bld_human_scriptorium_classical_v0",
+    "matched": 1467,
+    "total": 2169
+   },
+   {
+    "a": "bld_human_scriptorium_future_v0",
+    "b": "bld_human_scriptorium_industrial_v0",
+    "matched": 1467,
+    "total": 2169
+   },
+   {
+    "a": "bld_human_scriptorium_industrial_v0",
+    "b": "bld_human_scriptorium_ancient_v0",
+    "matched": 1467,
+    "total": 2325
+   },
+   {
+    "a": "bld_human_scriptorium_industrial_v0",
+    "b": "bld_human_scriptorium_classical_v0",
+    "matched": 1467,
+    "total": 2325
+   },
+   {
+    "a": "bld_human_scriptorium_industrial_v0",
+    "b": "bld_human_scriptorium_future_v0",
+    "matched": 1467,
+    "total": 2325
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Shrine",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_shrine_ancient_v0",
+    "b": "bld_human_shrine_classical_v0",
+    "matched": 1275,
+    "total": 1626
+   },
+   {
+    "a": "bld_human_shrine_ancient_v0",
+    "b": "bld_human_shrine_future_v0",
+    "matched": 1275,
+    "total": 1626
+   },
+   {
+    "a": "bld_human_shrine_ancient_v0",
+    "b": "bld_human_shrine_industrial_v0",
+    "matched": 1275,
+    "total": 1626
+   },
+   {
+    "a": "bld_human_shrine_future_v0",
+    "b": "bld_human_shrine_ancient_v0",
+    "matched": 1275,
+    "total": 1596
+   },
+   {
+    "a": "bld_human_shrine_future_v0",
+    "b": "bld_human_shrine_classical_v0",
+    "matched": 1275,
+    "total": 1596
+   },
+   {
+    "a": "bld_human_shrine_future_v0",
+    "b": "bld_human_shrine_industrial_v0",
+    "matched": 1275,
+    "total": 1596
+   },
+   {
+    "a": "bld_human_shrine_industrial_v0",
+    "b": "bld_human_shrine_ancient_v0",
+    "matched": 1275,
+    "total": 1809
+   },
+   {
+    "a": "bld_human_shrine_industrial_v0",
+    "b": "bld_human_shrine_classical_v0",
+    "matched": 1275,
+    "total": 1809
+   },
+   {
+    "a": "bld_human_shrine_industrial_v0",
+    "b": "bld_human_shrine_future_v0",
+    "matched": 1275,
+    "total": 1809
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "StoneQuarry",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_stone_quarry_ancient_v0",
+    "b": "bld_human_stone_quarry_classical_v0",
+    "matched": 1881,
+    "total": 2913
+   },
+   {
+    "a": "bld_human_stone_quarry_classical_v0",
+    "b": "bld_human_stone_quarry_ancient_v0",
+    "matched": 1875,
+    "total": 2799
+   },
+   {
+    "a": "bld_human_stone_quarry_future_v0",
+    "b": "bld_human_stone_quarry_industrial_v0",
+    "matched": 1476,
+    "total": 2286
+   },
+   {
+    "a": "bld_human_stone_quarry_industrial_v0",
+    "b": "bld_human_stone_quarry_ancient_v0",
+    "matched": 1227,
+    "total": 2010
+   },
+   {
+    "a": "bld_human_stone_quarry_industrial_v0",
+    "b": "bld_human_stone_quarry_classical_v0",
+    "matched": 1227,
+    "total": 2010
+   },
+   {
+    "a": "bld_human_stone_quarry_industrial_v0",
+    "b": "bld_human_stone_quarry_future_v0",
+    "matched": 1476,
+    "total": 2010
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Tavern",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_human_tavern_classical_v0",
+    "b": "bld_human_tavern_future_v0",
+    "matched": 1530,
+    "total": 2226
+   },
+   {
+    "a": "bld_human_tavern_classical_v0",
+    "b": "bld_human_tavern_industrial_v0",
+    "matched": 1752,
+    "total": 2226
+   },
+   {
+    "a": "bld_human_tavern_future_v0",
+    "b": "bld_human_tavern_classical_v0",
+    "matched": 1530,
+    "total": 2064
+   },
+   {
+    "a": "bld_human_tavern_future_v0",
+    "b": "bld_human_tavern_industrial_v0",
+    "matched": 1530,
+    "total": 2064
+   },
+   {
+    "a": "bld_human_tavern_industrial_v0",
+    "b": "bld_human_tavern_classical_v0",
+    "matched": 1752,
+    "total": 2082
+   },
+   {
+    "a": "bld_human_tavern_industrial_v0",
+    "b": "bld_human_tavern_future_v0",
+    "matched": 1530,
+    "total": 2082
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Temple",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_human_temple_classical_v0",
+    "b": "bld_human_temple_ancient_v0",
+    "matched": 1299,
+    "total": 1881
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Weaver",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_human_weaver_ancient_v0",
+    "b": "bld_human_weaver_future_v0",
+    "matched": 1209,
+    "total": 1935
+   },
+   {
+    "a": "bld_human_weaver_ancient_v0",
+    "b": "bld_human_weaver_industrial_v0",
+    "matched": 1299,
+    "total": 1935
+   },
+   {
+    "a": "bld_human_weaver_future_v0",
+    "b": "bld_human_weaver_industrial_v0",
+    "matched": 1872,
+    "total": 2136
+   },
+   {
+    "a": "bld_human_weaver_industrial_v0",
+    "b": "bld_human_weaver_ancient_v0",
+    "matched": 1291,
+    "total": 2022
+   },
+   {
+    "a": "bld_human_weaver_industrial_v0",
+    "b": "bld_human_weaver_future_v0",
+    "matched": 1872,
+    "total": 2022
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "Well",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_human_well_ancient_v0",
+    "b": "bld_human_well_classical_v0",
+    "matched": 1455,
+    "total": 1665
+   },
+   {
+    "a": "bld_human_well_ancient_v0",
+    "b": "bld_human_well_future_v0",
+    "matched": 1431,
+    "total": 1665
+   },
+   {
+    "a": "bld_human_well_ancient_v0",
+    "b": "bld_human_well_industrial_v0",
+    "matched": 1431,
+    "total": 1665
+   },
+   {
+    "a": "bld_human_well_classical_v0",
+    "b": "bld_human_well_ancient_v0",
+    "matched": 1455,
+    "total": 1785
+   },
+   {
+    "a": "bld_human_well_classical_v0",
+    "b": "bld_human_well_future_v0",
+    "matched": 1431,
+    "total": 1785
+   },
+   {
+    "a": "bld_human_well_classical_v0",
+    "b": "bld_human_well_industrial_v0",
+    "matched": 1431,
+    "total": 1785
+   },
+   {
+    "a": "bld_human_well_future_v0",
+    "b": "bld_human_well_ancient_v0",
+    "matched": 1431,
+    "total": 2055
+   },
+   {
+    "a": "bld_human_well_future_v0",
+    "b": "bld_human_well_classical_v0",
+    "matched": 1431,
+    "total": 2055
+   },
+   {
+    "a": "bld_human_well_future_v0",
+    "b": "bld_human_well_industrial_v0",
+    "matched": 1455,
+    "total": 2055
+   },
+   {
+    "a": "bld_human_well_industrial_v0",
+    "b": "bld_human_well_ancient_v0",
+    "matched": 1431,
+    "total": 1785
+   },
+   {
+    "a": "bld_human_well_industrial_v0",
+    "b": "bld_human_well_classical_v0",
+    "matched": 1431,
+    "total": 1785
+   },
+   {
+    "a": "bld_human_well_industrial_v0",
+    "b": "bld_human_well_future_v0",
+    "matched": 1455,
+    "total": 1785
+   }
+  ]
+ },
+ {
+  "race": "human",
+  "family": "WoodcutterCamp",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_human_woodcutter_camp_ancient_v0",
+    "b": "bld_human_woodcutter_camp_classical_v0",
+    "matched": 1956,
+    "total": 2826
+   },
+   {
+    "a": "bld_human_woodcutter_camp_ancient_v0",
+    "b": "bld_human_woodcutter_camp_future_v0",
+    "matched": 1932,
+    "total": 2826
+   },
+   {
+    "a": "bld_human_woodcutter_camp_ancient_v0",
+    "b": "bld_human_woodcutter_camp_industrial_v0",
+    "matched": 1932,
+    "total": 2826
+   },
+   {
+    "a": "bld_human_woodcutter_camp_classical_v0",
+    "b": "bld_human_woodcutter_camp_ancient_v0",
+    "matched": 1956,
+    "total": 2856
+   },
+   {
+    "a": "bld_human_woodcutter_camp_classical_v0",
+    "b": "bld_human_woodcutter_camp_future_v0",
+    "matched": 1932,
+    "total": 2856
+   },
+   {
+    "a": "bld_human_woodcutter_camp_classical_v0",
+    "b": "bld_human_woodcutter_camp_industrial_v0",
+    "matched": 1944,
+    "total": 2856
+   },
+   {
+    "a": "bld_human_woodcutter_camp_future_v0",
+    "b": "bld_human_woodcutter_camp_ancient_v0",
+    "matched": 1932,
+    "total": 2475
+   },
+   {
+    "a": "bld_human_woodcutter_camp_future_v0",
+    "b": "bld_human_woodcutter_camp_classical_v0",
+    "matched": 1932,
+    "total": 2475
+   },
+   {
+    "a": "bld_human_woodcutter_camp_future_v0",
+    "b": "bld_human_woodcutter_camp_industrial_v0",
+    "matched": 2142,
+    "total": 2475
+   },
+   {
+    "a": "bld_human_woodcutter_camp_industrial_v0",
+    "b": "bld_human_woodcutter_camp_ancient_v0",
+    "matched": 1932,
+    "total": 2661
+   },
+   {
+    "a": "bld_human_woodcutter_camp_industrial_v0",
+    "b": "bld_human_woodcutter_camp_classical_v0",
+    "matched": 1950,
+    "total": 2661
+   },
+   {
+    "a": "bld_human_woodcutter_camp_industrial_v0",
+    "b": "bld_human_woodcutter_camp_future_v0",
+    "matched": 2142,
+    "total": 2661
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "Bank",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_bank_classical_v0",
+    "b": "bld_orc_bank_future_v0",
+    "matched": 1488,
+    "total": 2082
+   },
+   {
+    "a": "bld_orc_bank_classical_v0",
+    "b": "bld_orc_bank_industrial_v0",
+    "matched": 1488,
+    "total": 2082
+   },
+   {
+    "a": "bld_orc_bank_future_v0",
+    "b": "bld_orc_bank_classical_v0",
+    "matched": 1488,
+    "total": 2280
+   },
+   {
+    "a": "bld_orc_bank_future_v0",
+    "b": "bld_orc_bank_industrial_v0",
+    "matched": 1560,
+    "total": 2280
+   },
+   {
+    "a": "bld_orc_bank_industrial_v0",
+    "b": "bld_orc_bank_classical_v0",
+    "matched": 1488,
+    "total": 2280
+   },
+   {
+    "a": "bld_orc_bank_industrial_v0",
+    "b": "bld_orc_bank_future_v0",
+    "matched": 1560,
+    "total": 2280
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "Cathedral",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_cathedral_classical_v0",
+    "b": "bld_orc_cathedral_industrial_v0",
+    "matched": 2358,
+    "total": 3786
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "CoalMine",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_coal_mine_future_v0",
+    "b": "bld_orc_coal_mine_industrial_v0",
+    "matched": 2321,
+    "total": 3276
+   },
+   {
+    "a": "bld_orc_coal_mine_industrial_v0",
+    "b": "bld_orc_coal_mine_future_v0",
+    "matched": 2321,
+    "total": 3192
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "Farm",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_farm_ancient_v0",
+    "b": "bld_orc_farm_classical_v0",
+    "matched": 1450,
+    "total": 2388
+   },
+   {
+    "a": "bld_orc_farm_classical_v0",
+    "b": "bld_orc_farm_ancient_v0",
+    "matched": 1450,
+    "total": 2388
+   },
+   {
+    "a": "bld_orc_farm_future_v0",
+    "b": "bld_orc_farm_industrial_v0",
+    "matched": 2036,
+    "total": 3030
+   },
+   {
+    "a": "bld_orc_farm_industrial_v0",
+    "b": "bld_orc_farm_future_v0",
+    "matched": 2036,
+    "total": 2982
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "FishingHut",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_fishing_hut_ancient_v0",
+    "b": "bld_orc_fishing_hut_industrial_v0",
+    "matched": 1371,
+    "total": 2259
+   },
+   {
+    "a": "bld_orc_fishing_hut_classical_v0",
+    "b": "bld_orc_fishing_hut_industrial_v0",
+    "matched": 1365,
+    "total": 2259
+   },
+   {
+    "a": "bld_orc_fishing_hut_industrial_v0",
+    "b": "bld_orc_fishing_hut_classical_v0",
+    "matched": 1383,
+    "total": 2289
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "Foundry",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_foundry_future_v0",
+    "b": "bld_orc_foundry_industrial_v0",
+    "matched": 3012,
+    "total": 4350
+   },
+   {
+    "a": "bld_orc_foundry_industrial_v0",
+    "b": "bld_orc_foundry_future_v0",
+    "matched": 3012,
+    "total": 4350
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "GoldMine",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_gold_mine_ancient_v0",
+    "b": "bld_orc_gold_mine_classical_v0",
+    "matched": 2235,
+    "total": 3117
+   },
+   {
+    "a": "bld_orc_gold_mine_ancient_v0",
+    "b": "bld_orc_gold_mine_future_v0",
+    "matched": 2235,
+    "total": 3117
+   },
+   {
+    "a": "bld_orc_gold_mine_ancient_v0",
+    "b": "bld_orc_gold_mine_industrial_v0",
+    "matched": 2235,
+    "total": 3117
+   },
+   {
+    "a": "bld_orc_gold_mine_classical_v0",
+    "b": "bld_orc_gold_mine_ancient_v0",
+    "matched": 2235,
+    "total": 3201
+   },
+   {
+    "a": "bld_orc_gold_mine_classical_v0",
+    "b": "bld_orc_gold_mine_future_v0",
+    "matched": 2243,
+    "total": 3201
+   },
+   {
+    "a": "bld_orc_gold_mine_classical_v0",
+    "b": "bld_orc_gold_mine_industrial_v0",
+    "matched": 2243,
+    "total": 3201
+   },
+   {
+    "a": "bld_orc_gold_mine_future_v0",
+    "b": "bld_orc_gold_mine_ancient_v0",
+    "matched": 2235,
+    "total": 3360
+   },
+   {
+    "a": "bld_orc_gold_mine_future_v0",
+    "b": "bld_orc_gold_mine_classical_v0",
+    "matched": 2243,
+    "total": 3360
+   },
+   {
+    "a": "bld_orc_gold_mine_future_v0",
+    "b": "bld_orc_gold_mine_industrial_v0",
+    "matched": 2477,
+    "total": 3360
+   },
+   {
+    "a": "bld_orc_gold_mine_industrial_v0",
+    "b": "bld_orc_gold_mine_ancient_v0",
+    "matched": 2235,
+    "total": 3276
+   },
+   {
+    "a": "bld_orc_gold_mine_industrial_v0",
+    "b": "bld_orc_gold_mine_classical_v0",
+    "matched": 2243,
+    "total": 3276
+   },
+   {
+    "a": "bld_orc_gold_mine_industrial_v0",
+    "b": "bld_orc_gold_mine_future_v0",
+    "matched": 2477,
+    "total": 3276
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "Granary",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_orc_granary_ancient_v0",
+    "b": "bld_orc_granary_classical_v0",
+    "matched": 3210,
+    "total": 3348
+   },
+   {
+    "a": "bld_orc_granary_classical_v0",
+    "b": "bld_orc_granary_ancient_v0",
+    "matched": 3210,
+    "total": 3348
+   },
+   {
+    "a": "bld_orc_granary_future_v0",
+    "b": "bld_orc_granary_industrial_v0",
+    "matched": 4110,
+    "total": 4392
+   },
+   {
+    "a": "bld_orc_granary_industrial_v0",
+    "b": "bld_orc_granary_future_v0",
+    "matched": 4110,
+    "total": 4392
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "Hospital",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_orc_hospital_classical_v0",
+    "b": "bld_orc_hospital_future_v0",
+    "matched": 3078,
+    "total": 3492
+   },
+   {
+    "a": "bld_orc_hospital_classical_v0",
+    "b": "bld_orc_hospital_industrial_v0",
+    "matched": 3078,
+    "total": 3492
+   },
+   {
+    "a": "bld_orc_hospital_future_v0",
+    "b": "bld_orc_hospital_classical_v0",
+    "matched": 3078,
+    "total": 3924
+   },
+   {
+    "a": "bld_orc_hospital_future_v0",
+    "b": "bld_orc_hospital_industrial_v0",
+    "matched": 3078,
+    "total": 3924
+   },
+   {
+    "a": "bld_orc_hospital_industrial_v0",
+    "b": "bld_orc_hospital_classical_v0",
+    "matched": 3078,
+    "total": 3924
+   },
+   {
+    "a": "bld_orc_hospital_industrial_v0",
+    "b": "bld_orc_hospital_future_v0",
+    "matched": 3078,
+    "total": 3924
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "HuntingLodge",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_hunting_lodge_ancient_v0",
+    "b": "bld_orc_hunting_lodge_classical_v0",
+    "matched": 1408,
+    "total": 2346
+   },
+   {
+    "a": "bld_orc_hunting_lodge_classical_v0",
+    "b": "bld_orc_hunting_lodge_ancient_v0",
+    "matched": 1408,
+    "total": 2346
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "Library",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_orc_library_classical_v0",
+    "b": "bld_orc_library_future_v0",
+    "matched": 3114,
+    "total": 3528
+   },
+   {
+    "a": "bld_orc_library_classical_v0",
+    "b": "bld_orc_library_industrial_v0",
+    "matched": 3114,
+    "total": 3528
+   },
+   {
+    "a": "bld_orc_library_future_v0",
+    "b": "bld_orc_library_classical_v0",
+    "matched": 3114,
+    "total": 3960
+   },
+   {
+    "a": "bld_orc_library_future_v0",
+    "b": "bld_orc_library_industrial_v0",
+    "matched": 3114,
+    "total": 3960
+   },
+   {
+    "a": "bld_orc_library_industrial_v0",
+    "b": "bld_orc_library_classical_v0",
+    "matched": 3114,
+    "total": 3960
+   },
+   {
+    "a": "bld_orc_library_industrial_v0",
+    "b": "bld_orc_library_future_v0",
+    "matched": 3114,
+    "total": 3960
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "MilitaryBase",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_military_base_future_v0",
+    "b": "bld_orc_military_base_industrial_v0",
+    "matched": 2870,
+    "total": 4356
+   },
+   {
+    "a": "bld_orc_military_base_industrial_v0",
+    "b": "bld_orc_military_base_future_v0",
+    "matched": 2870,
+    "total": 4104
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "Mill",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_mill_classical_v0",
+    "b": "bld_orc_mill_industrial_v0",
+    "matched": 1713,
+    "total": 2631
+   },
+   {
+    "a": "bld_orc_mill_industrial_v0",
+    "b": "bld_orc_mill_classical_v0",
+    "matched": 1713,
+    "total": 2661
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "Mine",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_mine_ancient_v0",
+    "b": "bld_orc_mine_classical_v0",
+    "matched": 1820,
+    "total": 2802
+   },
+   {
+    "a": "bld_orc_mine_ancient_v0",
+    "b": "bld_orc_mine_future_v0",
+    "matched": 1812,
+    "total": 2802
+   },
+   {
+    "a": "bld_orc_mine_ancient_v0",
+    "b": "bld_orc_mine_industrial_v0",
+    "matched": 1812,
+    "total": 2802
+   },
+   {
+    "a": "bld_orc_mine_classical_v0",
+    "b": "bld_orc_mine_ancient_v0",
+    "matched": 1820,
+    "total": 2778
+   },
+   {
+    "a": "bld_orc_mine_classical_v0",
+    "b": "bld_orc_mine_future_v0",
+    "matched": 1812,
+    "total": 2778
+   },
+   {
+    "a": "bld_orc_mine_classical_v0",
+    "b": "bld_orc_mine_industrial_v0",
+    "matched": 1812,
+    "total": 2778
+   },
+   {
+    "a": "bld_orc_mine_future_v0",
+    "b": "bld_orc_mine_ancient_v0",
+    "matched": 1812,
+    "total": 2937
+   },
+   {
+    "a": "bld_orc_mine_future_v0",
+    "b": "bld_orc_mine_classical_v0",
+    "matched": 1812,
+    "total": 2937
+   },
+   {
+    "a": "bld_orc_mine_future_v0",
+    "b": "bld_orc_mine_industrial_v0",
+    "matched": 1982,
+    "total": 2937
+   },
+   {
+    "a": "bld_orc_mine_industrial_v0",
+    "b": "bld_orc_mine_ancient_v0",
+    "matched": 1812,
+    "total": 2853
+   },
+   {
+    "a": "bld_orc_mine_industrial_v0",
+    "b": "bld_orc_mine_classical_v0",
+    "matched": 1812,
+    "total": 2853
+   },
+   {
+    "a": "bld_orc_mine_industrial_v0",
+    "b": "bld_orc_mine_future_v0",
+    "matched": 1982,
+    "total": 2853
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "Pasture",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_pasture_ancient_v0",
+    "b": "bld_orc_pasture_classical_v0",
+    "matched": 3213,
+    "total": 4392
+   },
+   {
+    "a": "bld_orc_pasture_ancient_v0",
+    "b": "bld_orc_pasture_future_v0",
+    "matched": 3213,
+    "total": 4392
+   },
+   {
+    "a": "bld_orc_pasture_ancient_v0",
+    "b": "bld_orc_pasture_industrial_v0",
+    "matched": 3213,
+    "total": 4392
+   },
+   {
+    "a": "bld_orc_pasture_classical_v0",
+    "b": "bld_orc_pasture_ancient_v0",
+    "matched": 3213,
+    "total": 4377
+   },
+   {
+    "a": "bld_orc_pasture_classical_v0",
+    "b": "bld_orc_pasture_future_v0",
+    "matched": 3441,
+    "total": 4377
+   },
+   {
+    "a": "bld_orc_pasture_classical_v0",
+    "b": "bld_orc_pasture_industrial_v0",
+    "matched": 3459,
+    "total": 4377
+   },
+   {
+    "a": "bld_orc_pasture_future_v0",
+    "b": "bld_orc_pasture_ancient_v0",
+    "matched": 3213,
+    "total": 4455
+   },
+   {
+    "a": "bld_orc_pasture_future_v0",
+    "b": "bld_orc_pasture_classical_v0",
+    "matched": 3441,
+    "total": 4455
+   },
+   {
+    "a": "bld_orc_pasture_future_v0",
+    "b": "bld_orc_pasture_industrial_v0",
+    "matched": 3471,
+    "total": 4455
+   },
+   {
+    "a": "bld_orc_pasture_industrial_v0",
+    "b": "bld_orc_pasture_ancient_v0",
+    "matched": 3213,
+    "total": 4407
+   },
+   {
+    "a": "bld_orc_pasture_industrial_v0",
+    "b": "bld_orc_pasture_classical_v0",
+    "matched": 3459,
+    "total": 4407
+   },
+   {
+    "a": "bld_orc_pasture_industrial_v0",
+    "b": "bld_orc_pasture_future_v0",
+    "matched": 3471,
+    "total": 4407
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "Sawmill",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_sawmill_future_v0",
+    "b": "bld_orc_sawmill_industrial_v0",
+    "matched": 1874,
+    "total": 2988
+   },
+   {
+    "a": "bld_orc_sawmill_industrial_v0",
+    "b": "bld_orc_sawmill_future_v0",
+    "matched": 1874,
+    "total": 2940
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "StoneQuarry",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_stone_quarry_ancient_v0",
+    "b": "bld_orc_stone_quarry_classical_v0",
+    "matched": 1814,
+    "total": 2760
+   },
+   {
+    "a": "bld_orc_stone_quarry_ancient_v0",
+    "b": "bld_orc_stone_quarry_future_v0",
+    "matched": 1814,
+    "total": 2760
+   },
+   {
+    "a": "bld_orc_stone_quarry_ancient_v0",
+    "b": "bld_orc_stone_quarry_industrial_v0",
+    "matched": 1880,
+    "total": 2760
+   },
+   {
+    "a": "bld_orc_stone_quarry_classical_v0",
+    "b": "bld_orc_stone_quarry_ancient_v0",
+    "matched": 1814,
+    "total": 2760
+   },
+   {
+    "a": "bld_orc_stone_quarry_classical_v0",
+    "b": "bld_orc_stone_quarry_future_v0",
+    "matched": 1842,
+    "total": 2760
+   },
+   {
+    "a": "bld_orc_stone_quarry_classical_v0",
+    "b": "bld_orc_stone_quarry_industrial_v0",
+    "matched": 1842,
+    "total": 2760
+   },
+   {
+    "a": "bld_orc_stone_quarry_future_v0",
+    "b": "bld_orc_stone_quarry_ancient_v0",
+    "matched": 1814,
+    "total": 2868
+   },
+   {
+    "a": "bld_orc_stone_quarry_future_v0",
+    "b": "bld_orc_stone_quarry_classical_v0",
+    "matched": 1842,
+    "total": 2868
+   },
+   {
+    "a": "bld_orc_stone_quarry_future_v0",
+    "b": "bld_orc_stone_quarry_industrial_v0",
+    "matched": 1902,
+    "total": 2868
+   },
+   {
+    "a": "bld_orc_stone_quarry_industrial_v0",
+    "b": "bld_orc_stone_quarry_ancient_v0",
+    "matched": 1880,
+    "total": 2820
+   },
+   {
+    "a": "bld_orc_stone_quarry_industrial_v0",
+    "b": "bld_orc_stone_quarry_classical_v0",
+    "matched": 1842,
+    "total": 2820
+   },
+   {
+    "a": "bld_orc_stone_quarry_industrial_v0",
+    "b": "bld_orc_stone_quarry_future_v0",
+    "matched": 1902,
+    "total": 2820
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "Weaver",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_weaver_ancient_v0",
+    "b": "bld_orc_weaver_industrial_v0",
+    "matched": 1370,
+    "total": 2250
+   },
+   {
+    "a": "bld_orc_weaver_industrial_v0",
+    "b": "bld_orc_weaver_ancient_v0",
+    "matched": 1370,
+    "total": 2280
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "WoodcutterCamp",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_woodcutter_camp_ancient_v0",
+    "b": "bld_orc_woodcutter_camp_industrial_v0",
+    "matched": 1458,
+    "total": 2328
+   },
+   {
+    "a": "bld_orc_woodcutter_camp_classical_v0",
+    "b": "bld_orc_woodcutter_camp_future_v0",
+    "matched": 1400,
+    "total": 2328
+   }
+  ]
+ },
+ {
+  "race": "orc",
+  "family": "Workshop",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_orc_workshop_classical_v0",
+    "b": "bld_orc_workshop_industrial_v0",
+    "matched": 1260,
+    "total": 2046
+   },
+   {
+    "a": "bld_orc_workshop_industrial_v0",
+    "b": "bld_orc_workshop_classical_v0",
+    "matched": 1260,
+    "total": 2046
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Bank",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_bank_classical_v0",
+    "b": "bld_saurian_bank_future_v0",
+    "matched": 1638,
+    "total": 2250
+   },
+   {
+    "a": "bld_saurian_bank_classical_v0",
+    "b": "bld_saurian_bank_industrial_v0",
+    "matched": 1638,
+    "total": 2250
+   },
+   {
+    "a": "bld_saurian_bank_future_v0",
+    "b": "bld_saurian_bank_classical_v0",
+    "matched": 1638,
+    "total": 2166
+   },
+   {
+    "a": "bld_saurian_bank_future_v0",
+    "b": "bld_saurian_bank_industrial_v0",
+    "matched": 1660,
+    "total": 2166
+   },
+   {
+    "a": "bld_saurian_bank_industrial_v0",
+    "b": "bld_saurian_bank_classical_v0",
+    "matched": 1638,
+    "total": 2226
+   },
+   {
+    "a": "bld_saurian_bank_industrial_v0",
+    "b": "bld_saurian_bank_future_v0",
+    "matched": 1654,
+    "total": 2226
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Barracks",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_barracks_ancient_v0",
+    "b": "bld_saurian_barracks_classical_v0",
+    "matched": 2069,
+    "total": 3015
+   },
+   {
+    "a": "bld_saurian_barracks_ancient_v0",
+    "b": "bld_saurian_barracks_future_v0",
+    "matched": 1973,
+    "total": 3015
+   },
+   {
+    "a": "bld_saurian_barracks_ancient_v0",
+    "b": "bld_saurian_barracks_industrial_v0",
+    "matched": 2069,
+    "total": 3015
+   },
+   {
+    "a": "bld_saurian_barracks_classical_v0",
+    "b": "bld_saurian_barracks_ancient_v0",
+    "matched": 2069,
+    "total": 3231
+   },
+   {
+    "a": "bld_saurian_barracks_classical_v0",
+    "b": "bld_saurian_barracks_industrial_v0",
+    "matched": 2069,
+    "total": 3231
+   },
+   {
+    "a": "bld_saurian_barracks_industrial_v0",
+    "b": "bld_saurian_barracks_ancient_v0",
+    "matched": 2069,
+    "total": 3219
+   },
+   {
+    "a": "bld_saurian_barracks_industrial_v0",
+    "b": "bld_saurian_barracks_classical_v0",
+    "matched": 2069,
+    "total": 3219
+   },
+   {
+    "a": "bld_saurian_barracks_industrial_v0",
+    "b": "bld_saurian_barracks_future_v0",
+    "matched": 2045,
+    "total": 3219
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Bathhouse",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_bathhouse_classical_v0",
+    "b": "bld_saurian_bathhouse_industrial_v0",
+    "matched": 1932,
+    "total": 2778
+   },
+   {
+    "a": "bld_saurian_bathhouse_industrial_v0",
+    "b": "bld_saurian_bathhouse_classical_v0",
+    "matched": 1932,
+    "total": 3018
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Cathedral",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_saurian_cathedral_classical_v0",
+    "b": "bld_saurian_cathedral_future_v0",
+    "matched": 2481,
+    "total": 3315
+   },
+   {
+    "a": "bld_saurian_cathedral_classical_v0",
+    "b": "bld_saurian_cathedral_industrial_v0",
+    "matched": 3099,
+    "total": 3315
+   },
+   {
+    "a": "bld_saurian_cathedral_future_v0",
+    "b": "bld_saurian_cathedral_classical_v0",
+    "matched": 2481,
+    "total": 3315
+   },
+   {
+    "a": "bld_saurian_cathedral_future_v0",
+    "b": "bld_saurian_cathedral_industrial_v0",
+    "matched": 2481,
+    "total": 3315
+   },
+   {
+    "a": "bld_saurian_cathedral_industrial_v0",
+    "b": "bld_saurian_cathedral_classical_v0",
+    "matched": 3099,
+    "total": 3315
+   },
+   {
+    "a": "bld_saurian_cathedral_industrial_v0",
+    "b": "bld_saurian_cathedral_future_v0",
+    "matched": 2481,
+    "total": 3315
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "CoalMine",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_coal_mine_future_v0",
+    "b": "bld_saurian_coal_mine_industrial_v0",
+    "matched": 2631,
+    "total": 4065
+   },
+   {
+    "a": "bld_saurian_coal_mine_industrial_v0",
+    "b": "bld_saurian_coal_mine_future_v0",
+    "matched": 2631,
+    "total": 3855
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Forum",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_forum_classical_v0",
+    "b": "bld_saurian_forum_future_v0",
+    "matched": 2793,
+    "total": 3519
+   },
+   {
+    "a": "bld_saurian_forum_classical_v0",
+    "b": "bld_saurian_forum_industrial_v0",
+    "matched": 2793,
+    "total": 3519
+   },
+   {
+    "a": "bld_saurian_forum_future_v0",
+    "b": "bld_saurian_forum_classical_v0",
+    "matched": 2793,
+    "total": 3705
+   },
+   {
+    "a": "bld_saurian_forum_future_v0",
+    "b": "bld_saurian_forum_industrial_v0",
+    "matched": 2793,
+    "total": 3705
+   },
+   {
+    "a": "bld_saurian_forum_industrial_v0",
+    "b": "bld_saurian_forum_classical_v0",
+    "matched": 2793,
+    "total": 3555
+   },
+   {
+    "a": "bld_saurian_forum_industrial_v0",
+    "b": "bld_saurian_forum_future_v0",
+    "matched": 2793,
+    "total": 3555
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "GoldMine",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_gold_mine_ancient_v0",
+    "b": "bld_saurian_gold_mine_classical_v0",
+    "matched": 2514,
+    "total": 3738
+   },
+   {
+    "a": "bld_saurian_gold_mine_ancient_v0",
+    "b": "bld_saurian_gold_mine_future_v0",
+    "matched": 2514,
+    "total": 3738
+   },
+   {
+    "a": "bld_saurian_gold_mine_ancient_v0",
+    "b": "bld_saurian_gold_mine_industrial_v0",
+    "matched": 2514,
+    "total": 3738
+   },
+   {
+    "a": "bld_saurian_gold_mine_classical_v0",
+    "b": "bld_saurian_gold_mine_ancient_v0",
+    "matched": 2514,
+    "total": 3948
+   },
+   {
+    "a": "bld_saurian_gold_mine_classical_v0",
+    "b": "bld_saurian_gold_mine_future_v0",
+    "matched": 2514,
+    "total": 3948
+   },
+   {
+    "a": "bld_saurian_gold_mine_classical_v0",
+    "b": "bld_saurian_gold_mine_industrial_v0",
+    "matched": 2514,
+    "total": 3948
+   },
+   {
+    "a": "bld_saurian_gold_mine_future_v0",
+    "b": "bld_saurian_gold_mine_ancient_v0",
+    "matched": 2514,
+    "total": 3948
+   },
+   {
+    "a": "bld_saurian_gold_mine_future_v0",
+    "b": "bld_saurian_gold_mine_classical_v0",
+    "matched": 2514,
+    "total": 3948
+   },
+   {
+    "a": "bld_saurian_gold_mine_future_v0",
+    "b": "bld_saurian_gold_mine_industrial_v0",
+    "matched": 2514,
+    "total": 3948
+   },
+   {
+    "a": "bld_saurian_gold_mine_industrial_v0",
+    "b": "bld_saurian_gold_mine_ancient_v0",
+    "matched": 2514,
+    "total": 3738
+   },
+   {
+    "a": "bld_saurian_gold_mine_industrial_v0",
+    "b": "bld_saurian_gold_mine_classical_v0",
+    "matched": 2514,
+    "total": 3738
+   },
+   {
+    "a": "bld_saurian_gold_mine_industrial_v0",
+    "b": "bld_saurian_gold_mine_future_v0",
+    "matched": 2514,
+    "total": 3738
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Granary",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_granary_ancient_v0",
+    "b": "bld_saurian_granary_classical_v0",
+    "matched": 1974,
+    "total": 3126
+   },
+   {
+    "a": "bld_saurian_granary_ancient_v0",
+    "b": "bld_saurian_granary_future_v0",
+    "matched": 1974,
+    "total": 3126
+   },
+   {
+    "a": "bld_saurian_granary_ancient_v0",
+    "b": "bld_saurian_granary_industrial_v0",
+    "matched": 1974,
+    "total": 3126
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Guildhall",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_saurian_guildhall_classical_v0",
+    "b": "bld_saurian_guildhall_future_v0",
+    "matched": 1638,
+    "total": 2250
+   },
+   {
+    "a": "bld_saurian_guildhall_classical_v0",
+    "b": "bld_saurian_guildhall_industrial_v0",
+    "matched": 1638,
+    "total": 2250
+   },
+   {
+    "a": "bld_saurian_guildhall_future_v0",
+    "b": "bld_saurian_guildhall_classical_v0",
+    "matched": 1638,
+    "total": 2274
+   },
+   {
+    "a": "bld_saurian_guildhall_future_v0",
+    "b": "bld_saurian_guildhall_industrial_v0",
+    "matched": 2052,
+    "total": 2274
+   },
+   {
+    "a": "bld_saurian_guildhall_industrial_v0",
+    "b": "bld_saurian_guildhall_classical_v0",
+    "matched": 1638,
+    "total": 2604
+   },
+   {
+    "a": "bld_saurian_guildhall_industrial_v0",
+    "b": "bld_saurian_guildhall_future_v0",
+    "matched": 2052,
+    "total": 2604
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Harbor",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_saurian_harbor_classical_v0",
+    "b": "bld_saurian_harbor_future_v0",
+    "matched": 2343,
+    "total": 2919
+   },
+   {
+    "a": "bld_saurian_harbor_classical_v0",
+    "b": "bld_saurian_harbor_industrial_v0",
+    "matched": 2374,
+    "total": 2919
+   },
+   {
+    "a": "bld_saurian_harbor_future_v0",
+    "b": "bld_saurian_harbor_classical_v0",
+    "matched": 2343,
+    "total": 3153
+   },
+   {
+    "a": "bld_saurian_harbor_future_v0",
+    "b": "bld_saurian_harbor_industrial_v0",
+    "matched": 2619,
+    "total": 3153
+   },
+   {
+    "a": "bld_saurian_harbor_industrial_v0",
+    "b": "bld_saurian_harbor_classical_v0",
+    "matched": 2381,
+    "total": 3087
+   },
+   {
+    "a": "bld_saurian_harbor_industrial_v0",
+    "b": "bld_saurian_harbor_future_v0",
+    "matched": 2619,
+    "total": 3087
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "HuntingLodge",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_hunting_lodge_ancient_v0",
+    "b": "bld_saurian_hunting_lodge_classical_v0",
+    "matched": 1509,
+    "total": 1977
+   },
+   {
+    "a": "bld_saurian_hunting_lodge_classical_v0",
+    "b": "bld_saurian_hunting_lodge_ancient_v0",
+    "matched": 1509,
+    "total": 2193
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Market",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_market_ancient_v0",
+    "b": "bld_saurian_market_classical_v0",
+    "matched": 2334,
+    "total": 2976
+   },
+   {
+    "a": "bld_saurian_market_ancient_v0",
+    "b": "bld_saurian_market_future_v0",
+    "matched": 1824,
+    "total": 2976
+   },
+   {
+    "a": "bld_saurian_market_ancient_v0",
+    "b": "bld_saurian_market_industrial_v0",
+    "matched": 1824,
+    "total": 2976
+   },
+   {
+    "a": "bld_saurian_market_classical_v0",
+    "b": "bld_saurian_market_ancient_v0",
+    "matched": 2334,
+    "total": 3024
+   },
+   {
+    "a": "bld_saurian_market_classical_v0",
+    "b": "bld_saurian_market_future_v0",
+    "matched": 1890,
+    "total": 3024
+   },
+   {
+    "a": "bld_saurian_market_classical_v0",
+    "b": "bld_saurian_market_industrial_v0",
+    "matched": 1824,
+    "total": 3024
+   },
+   {
+    "a": "bld_saurian_market_future_v0",
+    "b": "bld_saurian_market_classical_v0",
+    "matched": 1890,
+    "total": 3054
+   },
+   {
+    "a": "bld_saurian_market_future_v0",
+    "b": "bld_saurian_market_industrial_v0",
+    "matched": 2400,
+    "total": 3054
+   },
+   {
+    "a": "bld_saurian_market_industrial_v0",
+    "b": "bld_saurian_market_future_v0",
+    "matched": 2400,
+    "total": 3174
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Mine",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_mine_ancient_v0",
+    "b": "bld_saurian_mine_classical_v0",
+    "matched": 2427,
+    "total": 3651
+   },
+   {
+    "a": "bld_saurian_mine_ancient_v0",
+    "b": "bld_saurian_mine_future_v0",
+    "matched": 2427,
+    "total": 3651
+   },
+   {
+    "a": "bld_saurian_mine_ancient_v0",
+    "b": "bld_saurian_mine_industrial_v0",
+    "matched": 2427,
+    "total": 3651
+   },
+   {
+    "a": "bld_saurian_mine_classical_v0",
+    "b": "bld_saurian_mine_ancient_v0",
+    "matched": 2427,
+    "total": 3861
+   },
+   {
+    "a": "bld_saurian_mine_classical_v0",
+    "b": "bld_saurian_mine_future_v0",
+    "matched": 2427,
+    "total": 3861
+   },
+   {
+    "a": "bld_saurian_mine_classical_v0",
+    "b": "bld_saurian_mine_industrial_v0",
+    "matched": 2427,
+    "total": 3861
+   },
+   {
+    "a": "bld_saurian_mine_future_v0",
+    "b": "bld_saurian_mine_ancient_v0",
+    "matched": 2427,
+    "total": 3861
+   },
+   {
+    "a": "bld_saurian_mine_future_v0",
+    "b": "bld_saurian_mine_classical_v0",
+    "matched": 2427,
+    "total": 3861
+   },
+   {
+    "a": "bld_saurian_mine_future_v0",
+    "b": "bld_saurian_mine_industrial_v0",
+    "matched": 2427,
+    "total": 3861
+   },
+   {
+    "a": "bld_saurian_mine_industrial_v0",
+    "b": "bld_saurian_mine_ancient_v0",
+    "matched": 2427,
+    "total": 3651
+   },
+   {
+    "a": "bld_saurian_mine_industrial_v0",
+    "b": "bld_saurian_mine_classical_v0",
+    "matched": 2427,
+    "total": 3651
+   },
+   {
+    "a": "bld_saurian_mine_industrial_v0",
+    "b": "bld_saurian_mine_future_v0",
+    "matched": 2427,
+    "total": 3651
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Observatory",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_observatory_classical_v0",
+    "b": "bld_saurian_observatory_future_v0",
+    "matched": 1737,
+    "total": 2379
+   },
+   {
+    "a": "bld_saurian_observatory_classical_v0",
+    "b": "bld_saurian_observatory_industrial_v0",
+    "matched": 1737,
+    "total": 2379
+   },
+   {
+    "a": "bld_saurian_observatory_future_v0",
+    "b": "bld_saurian_observatory_classical_v0",
+    "matched": 1737,
+    "total": 2379
+   },
+   {
+    "a": "bld_saurian_observatory_future_v0",
+    "b": "bld_saurian_observatory_industrial_v0",
+    "matched": 1737,
+    "total": 2379
+   },
+   {
+    "a": "bld_saurian_observatory_industrial_v0",
+    "b": "bld_saurian_observatory_classical_v0",
+    "matched": 1737,
+    "total": 2379
+   },
+   {
+    "a": "bld_saurian_observatory_industrial_v0",
+    "b": "bld_saurian_observatory_future_v0",
+    "matched": 1737,
+    "total": 2379
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Palisade",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_palisade_classical_v0",
+    "b": "bld_saurian_palisade_ancient_v0",
+    "matched": 2118,
+    "total": 2976
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "PowerPlant",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_saurian_power_plant_future_v0",
+    "b": "bld_saurian_power_plant_industrial_v0",
+    "matched": 2865,
+    "total": 3513
+   },
+   {
+    "a": "bld_saurian_power_plant_industrial_v0",
+    "b": "bld_saurian_power_plant_future_v0",
+    "matched": 2865,
+    "total": 4131
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "RailStation",
+  "variant": 0,
+  "severity": "required",
+  "pairs": [
+   {
+    "a": "bld_saurian_rail_station_future_v0",
+    "b": "bld_saurian_rail_station_industrial_v0",
+    "matched": 2235,
+    "total": 2763
+   },
+   {
+    "a": "bld_saurian_rail_station_industrial_v0",
+    "b": "bld_saurian_rail_station_future_v0",
+    "matched": 2235,
+    "total": 3087
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Shrine",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_shrine_ancient_v0",
+    "b": "bld_saurian_shrine_classical_v0",
+    "matched": 2304,
+    "total": 2880
+   },
+   {
+    "a": "bld_saurian_shrine_ancient_v0",
+    "b": "bld_saurian_shrine_future_v0",
+    "matched": 2304,
+    "total": 2880
+   },
+   {
+    "a": "bld_saurian_shrine_ancient_v0",
+    "b": "bld_saurian_shrine_industrial_v0",
+    "matched": 2304,
+    "total": 2880
+   },
+   {
+    "a": "bld_saurian_shrine_classical_v0",
+    "b": "bld_saurian_shrine_ancient_v0",
+    "matched": 2304,
+    "total": 3060
+   },
+   {
+    "a": "bld_saurian_shrine_classical_v0",
+    "b": "bld_saurian_shrine_future_v0",
+    "matched": 2304,
+    "total": 3060
+   },
+   {
+    "a": "bld_saurian_shrine_classical_v0",
+    "b": "bld_saurian_shrine_industrial_v0",
+    "matched": 2304,
+    "total": 3060
+   },
+   {
+    "a": "bld_saurian_shrine_future_v0",
+    "b": "bld_saurian_shrine_ancient_v0",
+    "matched": 2304,
+    "total": 3024
+   },
+   {
+    "a": "bld_saurian_shrine_future_v0",
+    "b": "bld_saurian_shrine_classical_v0",
+    "matched": 2304,
+    "total": 3024
+   },
+   {
+    "a": "bld_saurian_shrine_future_v0",
+    "b": "bld_saurian_shrine_industrial_v0",
+    "matched": 2304,
+    "total": 3024
+   },
+   {
+    "a": "bld_saurian_shrine_industrial_v0",
+    "b": "bld_saurian_shrine_ancient_v0",
+    "matched": 2304,
+    "total": 2880
+   },
+   {
+    "a": "bld_saurian_shrine_industrial_v0",
+    "b": "bld_saurian_shrine_classical_v0",
+    "matched": 2304,
+    "total": 2880
+   },
+   {
+    "a": "bld_saurian_shrine_industrial_v0",
+    "b": "bld_saurian_shrine_future_v0",
+    "matched": 2304,
+    "total": 2880
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "StoneQuarry",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_stone_quarry_ancient_v0",
+    "b": "bld_saurian_stone_quarry_classical_v0",
+    "matched": 1488,
+    "total": 2070
+   },
+   {
+    "a": "bld_saurian_stone_quarry_classical_v0",
+    "b": "bld_saurian_stone_quarry_ancient_v0",
+    "matched": 1488,
+    "total": 2070
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Temple",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_temple_ancient_v0",
+    "b": "bld_saurian_temple_classical_v0",
+    "matched": 2295,
+    "total": 2913
+   },
+   {
+    "a": "bld_saurian_temple_ancient_v0",
+    "b": "bld_saurian_temple_future_v0",
+    "matched": 2295,
+    "total": 2913
+   },
+   {
+    "a": "bld_saurian_temple_ancient_v0",
+    "b": "bld_saurian_temple_industrial_v0",
+    "matched": 2295,
+    "total": 2913
+   },
+   {
+    "a": "bld_saurian_temple_classical_v0",
+    "b": "bld_saurian_temple_ancient_v0",
+    "matched": 2295,
+    "total": 3045
+   },
+   {
+    "a": "bld_saurian_temple_classical_v0",
+    "b": "bld_saurian_temple_future_v0",
+    "matched": 2295,
+    "total": 3045
+   },
+   {
+    "a": "bld_saurian_temple_classical_v0",
+    "b": "bld_saurian_temple_industrial_v0",
+    "matched": 2295,
+    "total": 3045
+   },
+   {
+    "a": "bld_saurian_temple_future_v0",
+    "b": "bld_saurian_temple_ancient_v0",
+    "matched": 2295,
+    "total": 2907
+   },
+   {
+    "a": "bld_saurian_temple_future_v0",
+    "b": "bld_saurian_temple_classical_v0",
+    "matched": 2295,
+    "total": 2907
+   },
+   {
+    "a": "bld_saurian_temple_future_v0",
+    "b": "bld_saurian_temple_industrial_v0",
+    "matched": 2295,
+    "total": 2907
+   },
+   {
+    "a": "bld_saurian_temple_industrial_v0",
+    "b": "bld_saurian_temple_ancient_v0",
+    "matched": 2295,
+    "total": 2931
+   },
+   {
+    "a": "bld_saurian_temple_industrial_v0",
+    "b": "bld_saurian_temple_classical_v0",
+    "matched": 2295,
+    "total": 2931
+   },
+   {
+    "a": "bld_saurian_temple_industrial_v0",
+    "b": "bld_saurian_temple_future_v0",
+    "matched": 2295,
+    "total": 2931
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "TownCenter",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_town_center_ancient_bronze_v0",
+    "b": "bld_saurian_town_center_classical_renaissance_v0",
+    "matched": 2685,
+    "total": 3909
+   },
+   {
+    "a": "bld_saurian_town_center_ancient_bronze_v0",
+    "b": "bld_saurian_town_center_classical_v0",
+    "matched": 2685,
+    "total": 3909
+   },
+   {
+    "a": "bld_saurian_town_center_ancient_bronze_v0",
+    "b": "bld_saurian_town_center_industrial_v0",
+    "matched": 2685,
+    "total": 3909
+   },
+   {
+    "a": "bld_saurian_town_center_ancient_iron_v0",
+    "b": "bld_saurian_town_center_classical_medieval_v0",
+    "matched": 2685,
+    "total": 3621
+   },
+   {
+    "a": "bld_saurian_town_center_classical_medieval_v0",
+    "b": "bld_saurian_town_center_ancient_iron_v0",
+    "matched": 2685,
+    "total": 3909
+   },
+   {
+    "a": "bld_saurian_town_center_classical_renaissance_v0",
+    "b": "bld_saurian_town_center_ancient_bronze_v0",
+    "matched": 2685,
+    "total": 3945
+   },
+   {
+    "a": "bld_saurian_town_center_classical_renaissance_v0",
+    "b": "bld_saurian_town_center_classical_v0",
+    "matched": 2889,
+    "total": 3945
+   },
+   {
+    "a": "bld_saurian_town_center_classical_renaissance_v0",
+    "b": "bld_saurian_town_center_industrial_v0",
+    "matched": 2685,
+    "total": 3945
+   },
+   {
+    "a": "bld_saurian_town_center_classical_v0",
+    "b": "bld_saurian_town_center_ancient_bronze_v0",
+    "matched": 2685,
+    "total": 3747
+   },
+   {
+    "a": "bld_saurian_town_center_classical_v0",
+    "b": "bld_saurian_town_center_classical_renaissance_v0",
+    "matched": 2889,
+    "total": 3747
+   },
+   {
+    "a": "bld_saurian_town_center_classical_v0",
+    "b": "bld_saurian_town_center_industrial_v0",
+    "matched": 2685,
+    "total": 3747
+   },
+   {
+    "a": "bld_saurian_town_center_future_ascension_v0",
+    "b": "bld_saurian_town_center_industrial_modern_v0",
+    "matched": 2685,
+    "total": 3975
+   },
+   {
+    "a": "bld_saurian_town_center_industrial_modern_v0",
+    "b": "bld_saurian_town_center_future_ascension_v0",
+    "matched": 2685,
+    "total": 4023
+   },
+   {
+    "a": "bld_saurian_town_center_industrial_v0",
+    "b": "bld_saurian_town_center_ancient_bronze_v0",
+    "matched": 2685,
+    "total": 3885
+   },
+   {
+    "a": "bld_saurian_town_center_industrial_v0",
+    "b": "bld_saurian_town_center_classical_renaissance_v0",
+    "matched": 2685,
+    "total": 3885
+   },
+   {
+    "a": "bld_saurian_town_center_industrial_v0",
+    "b": "bld_saurian_town_center_classical_v0",
+    "matched": 2685,
+    "total": 3885
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Watchtower",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_watchtower_classical_v0",
+    "b": "bld_saurian_watchtower_industrial_v0",
+    "matched": 1251,
+    "total": 1719
+   },
+   {
+    "a": "bld_saurian_watchtower_industrial_v0",
+    "b": "bld_saurian_watchtower_classical_v0",
+    "matched": 1251,
+    "total": 1791
+   }
+  ]
+ },
+ {
+  "race": "saurian",
+  "family": "Well",
+  "variant": 0,
+  "severity": "triage",
+  "pairs": [
+   {
+    "a": "bld_saurian_well_ancient_v0",
+    "b": "bld_saurian_well_classical_v0",
+    "matched": 1350,
+    "total": 2010
+   },
+   {
+    "a": "bld_saurian_well_ancient_v0",
+    "b": "bld_saurian_well_future_v0",
+    "matched": 1350,
+    "total": 2010
+   },
+   {
+    "a": "bld_saurian_well_ancient_v0",
+    "b": "bld_saurian_well_industrial_v0",
+    "matched": 1350,
+    "total": 2010
+   },
+   {
+    "a": "bld_saurian_well_future_v0",
+    "b": "bld_saurian_well_ancient_v0",
+    "matched": 1350,
+    "total": 2214
+   },
+   {
+    "a": "bld_saurian_well_future_v0",
+    "b": "bld_saurian_well_classical_v0",
+    "matched": 1350,
+    "total": 2214
+   },
+   {
+    "a": "bld_saurian_well_future_v0",
+    "b": "bld_saurian_well_industrial_v0",
+    "matched": 1350,
+    "total": 2214
+   },
+   {
+    "a": "bld_saurian_well_industrial_v0",
+    "b": "bld_saurian_well_ancient_v0",
+    "matched": 1350,
+    "total": 2166
+   },
+   {
+    "a": "bld_saurian_well_industrial_v0",
+    "b": "bld_saurian_well_classical_v0",
+    "matched": 1350,
+    "total": 2166
+   },
+   {
+    "a": "bld_saurian_well_industrial_v0",
+    "b": "bld_saurian_well_future_v0",
+    "matched": 1350,
+    "total": 2166
+   }
+  ]
+ }
+]

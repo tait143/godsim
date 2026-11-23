@@ -1,0 +1,752 @@
+[
+ {
+  "id": "bld_orc_arcology_future_v0",
+  "kind": "townhall",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Arcology",
+  "race": "orc",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1462,
+  "lod_triangles": [
+   1462,
+   854,
+   462
+  ],
+  "bounds": [
+   [
+    -1.1566758155822754,
+    0.0,
+    -0.8069999814033508
+   ],
+   [
+    1.1566758155822754,
+    2.180000066757202,
+    0.9563724398612976
+   ]
+  ],
+  "bytes": 261008,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_arcology_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_arcology_future_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_arcology_future_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_arena_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Arena",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1355,
+  "lod_triangles": [
+   1355,
+   764,
+   325
+  ],
+  "bounds": [
+   [
+    -1.2953325510025024,
+    0.0,
+    -1.1660200357437134
+   ],
+   [
+    1.2953325510025024,
+    1.0713800191879272,
+    1.2977999448776245
+   ]
+  ],
+  "bytes": 214292,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_arena_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_arena_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_arena_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_arena_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_arena_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_arena_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Arena",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1391,
+  "lod_triangles": [
+   1391,
+   784,
+   329
+  ],
+  "bounds": [
+   [
+    -1.2953325510025024,
+    0.0,
+    -1.1660200357437134
+   ],
+   [
+    1.2953325510025024,
+    1.1169999837875366,
+    1.2799999713897705
+   ]
+  ],
+  "bytes": 220392,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_arena_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_arena_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_arena_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_arena_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_arena_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Arena",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1471,
+  "lod_triangles": [
+   1471,
+   840,
+   269
+  ],
+  "bounds": [
+   [
+    -1.2953325510025024,
+    0.0,
+    -1.1660200357437134
+   ],
+   [
+    1.2953325510025024,
+    1.1950000524520874,
+    1.2799999713897705
+   ]
+  ],
+  "bytes": 224500,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_arena_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_arena_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_arena_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_arena_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_campfire_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Campfire",
+  "race": "orc",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 771,
+  "lod_triangles": [
+   771,
+   460,
+   230
+  ],
+  "bounds": [
+   [
+    -0.4643384516239166,
+    0.0,
+    -0.3407931625843048
+   ],
+   [
+    0.4643384516239166,
+    0.4589479863643646,
+    0.37679314613342285
+   ]
+  ],
+  "bytes": 142940,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_campfire_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_campfire_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_campfire_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_campfire_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_campfire_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_orc_campfire_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Campfire",
+  "race": "orc",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 683,
+  "lod_triangles": [
+   683,
+   388,
+   181
+  ],
+  "bounds": [
+   [
+    -0.4598447382450104,
+    0.0,
+    -0.2566378116607666
+   ],
+   [
+    0.4598447382450104,
+    0.4410000145435333,
+    0.39544162154197693
+   ]
+  ],
+  "bytes": 120656,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_campfire_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_campfire_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_campfire_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_forum_classical_v0",
+  "kind": "townhall",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Forum",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1114,
+  "lod_triangles": [
+   1114,
+   634,
+   345
+  ],
+  "bounds": [
+   [
+    -1.2699999809265137,
+    0.0,
+    -0.9240000247955322
+   ],
+   [
+    1.2699999809265137,
+    1.1977299451828003,
+    0.8550000190734863
+   ]
+  ],
+  "bytes": 194296,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_forum_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_forum_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_forum_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_forum_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_forum_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_forum_future_v0",
+  "kind": "townhall",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Forum",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 758,
+  "lod_triangles": [
+   758,
+   417,
+   186
+  ],
+  "bounds": [
+   [
+    -1.1766268014907837,
+    0.0,
+    -0.7021638751029968
+   ],
+   [
+    1.1758997440338135,
+    1.506363034248352,
+    0.8079628944396973
+   ]
+  ],
+  "bytes": 125748,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_forum_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_forum_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_forum_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_forum_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_forum_industrial_v0",
+  "kind": "townhall",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Forum",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 693,
+  "lod_triangles": [
+   693,
+   326,
+   211
+  ],
+  "bounds": [
+   [
+    -1.2000000476837158,
+    0.0,
+    -0.7429369688034058
+   ],
+   [
+    1.073413610458374,
+    1.9049999713897705,
+    0.7850000262260437
+   ]
+  ],
+  "bytes": 112228,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_forum_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_forum_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_forum_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_forum_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_stadium_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Stadium",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 820,
+  "lod_triangles": [
+   820,
+   446,
+   262
+  ],
+  "bounds": [
+   [
+    -1.368348479270935,
+    0.0,
+    -1.1799999475479126
+   ],
+   [
+    1.309999942779541,
+    1.2288731336593628,
+    1.2400000095367432
+   ]
+  ],
+  "bytes": 140548,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_stadium_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_stadium_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_stadium_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_stadium_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_stadium_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Stadium",
+  "race": "orc",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1397,
+  "lod_triangles": [
+   1397,
+   796,
+   413
+  ],
+  "bounds": [
+   [
+    -1.4273102283477783,
+    0.0,
+    -1.0786199569702148
+   ],
+   [
+    1.4273102283477783,
+    1.0324907302856445,
+    1.184999942779541
+   ]
+  ],
+  "bytes": 232272,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_stadium_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_stadium_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_stadium_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_tavern_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Tavern",
+  "race": "orc",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 895,
+  "lod_triangles": [
+   895,
+   485,
+   245
+  ],
+  "bounds": [
+   [
+    -0.8765767812728882,
+    0.0,
+    -0.6890000104904175
+   ],
+   [
+    0.7745767831802368,
+    1.3364249467849731,
+    0.7914243340492249
+   ]
+  ],
+  "bytes": 150584,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_tavern_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_tavern_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_tavern_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_tavern_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_tavern_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Tavern",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 928,
+  "lod_triangles": [
+   928,
+   501,
+   261
+  ],
+  "bounds": [
+   [
+    -0.8765767812728882,
+    0.0,
+    -0.6890000104904175
+   ],
+   [
+    0.7745767831802368,
+    1.1564249992370605,
+    0.7914243340492249
+   ]
+  ],
+  "bytes": 157016,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_tavern_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_tavern_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_tavern_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_tavern_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_tavern_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Tavern",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 919,
+  "lod_triangles": [
+   919,
+   492,
+   245
+  ],
+  "bounds": [
+   [
+    -0.8765767812728882,
+    0.0,
+    -0.6890000104904175
+   ],
+   [
+    0.7745767831802368,
+    1.2699999809265137,
+    0.7914243340492249
+   ]
+  ],
+  "bytes": 153868,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_tavern_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_tavern_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_tavern_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_tavern_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_theater_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Theater",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1010,
+  "lod_triangles": [
+   1010,
+   575,
+   314
+  ],
+  "bounds": [
+   [
+    -0.9019361734390259,
+    0.0,
+    -0.9008968472480774
+   ],
+   [
+    0.9019361734390259,
+    1.0567594766616821,
+    0.8365969061851501
+   ]
+  ],
+  "bytes": 173424,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_theater_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_theater_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_theater_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_theater_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_theater_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_theater_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Theater",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 840,
+  "lod_triangles": [
+   840,
+   294,
+   145
+  ],
+  "bounds": [
+   [
+    -0.8595003485679626,
+    0.0,
+    -0.7468918561935425
+   ],
+   [
+    0.8635975122451782,
+    0.9928194880485535,
+    0.6829302906990051
+   ]
+  ],
+  "bytes": 120012,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_theater_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_theater_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_theater_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_theater_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_theater_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/CultureCivic",
+  "building_type": "Theater",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 496,
+  "lod_triangles": [
+   496,
+   270,
+   149
+  ],
+  "bounds": [
+   [
+    -0.8647772669792175,
+    0.0,
+    -0.7077500224113464
+   ],
+   [
+    0.6934999823570251,
+    1.4778720140457153,
+    0.7457500100135803
+   ]
+  ],
+  "bytes": 83588,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/CultureCivic/bld_orc_theater_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_theater_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_theater_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/CultureCivic/bld_orc_theater_industrial_v0__modern.png"
+  }
+ }
+]

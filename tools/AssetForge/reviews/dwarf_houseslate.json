@@ -1,0 +1,279 @@
+{
+  "package": "dwarf_houseslate",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "critic_dwarf_houseslate",
+      "models": [
+        {
+          "id": "bld_dwarf_house_industrial_v0",
+          "evidence_sha256": "a9a916a32522f7654a16605bf944d1928a7d7ad18c328374f257accd9440ad0b",
+          "observations": "The round open chimney and raised strip of rooflight form two readable steps at 48 px. Brick courses, amber side lights and the bench give the hearth a domestic scale. The stack penetrates the roof and the stair meets the clipped stone portal. The straight metal ribs sit on the pitches. The 544, 244 and 103 triangle exports keep the roof and stack from front and rear. All three LODs cleared the exposed-pair check.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 96,
+            "charm": 95,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_industrial_v1",
+          "evidence_sha256": "1fd63a2db7d759d3b5b4326d3a83b7690d1536bfb54031ae761251fad32deb5f",
+          "observations": "The twin northlights, square chimney and lit corner reading nook are legible at 48 px. The wood scuttle and low carved entrance keep the sawtooth cottage residential. The roof slopes and chimney survive both distance meshes. The 570, 246 and 92 triangle chain clears basic serialized validation. Exposed-surface inspection identified five overlapping timber face pairs at the front ends of the LOD0 stove billets.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 95,
+            "technical": 94
+          },
+          "defects": [
+            "LOD0 firewood ends overlap at z = -0.374, including faces 335 and 350. Give the billets disjoint cross-sections by reducing their radii below half their centre spacing or spreading the centres apart. Recheck both end caps and all three LODs."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_industrial_modern_v0",
+          "evidence_sha256": "c7a09f4be709025902ce9732c4d3f9fb1dd351308230c50dfc1b4450e357797e",
+          "observations": "The two unequal pitches and deep blue clerestory make a clear butterfly at 48 and 80 px. Through the reverse view, the downpipe meets the collection hopper under the valley. Thick flanking masonry, a brass-marked door and the cushion on its little bench tie the concrete house to the clan family. All three silhouettes keep the valley and doorway. The 444, 206 and 86 triangle exports passed validation and exposed-surface checks.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_industrial_modern_v1",
+          "evidence_sha256": "4fe7df7b561cd60a60429f79ee9a7f7734167835c825ea58b8e1ccc9bc46ccc9",
+          "observations": "The high, off-centre glass sleeping room steps down to an ivory terrace with a green planter. The thick stone window bay and clipped doorway hold the same squat profile at 48 px. At 256 px the sill, sill brackets and small plants beside the threshold are distinct. Both lower LODs retain the upper room and entrance. All three validated at 511, 284 and 90 triangles with no flagged exposed coplanars.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_future_v0",
+          "evidence_sha256": "80884e11460b81c25b03f693315da5ce673095a9dc484c4b85fab6c40cd351a7",
+          "observations": "The faceted blue roof lantern stays broad and comparatively low in the thumbnail. White coping and cyan seams lift its edge from the grey stone course. At full size the two mullions follow the front windscreen, and the small antenna sits on its foot. The bench and lamp give the glazed house a lived-in frontage. The 468, 288 and 110 triangle LODs cleared serialized and exposed-surface checks. The lantern and receiver survive both reductions.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_future_v1",
+          "evidence_sha256": "ea66c4db8cd196399cf047ea11bac4773dfb595291ee231455ec8232f0a00a10",
+          "observations": "The cyan cap of the low sunroom and the tapering high room read as two roofs even at 48 px. The corbel beneath the side bay, little delivery box and brass-marked door help identify it as a house. The two glass volumes meet on a continuous stone roof deck. Their unequal elevations and the receiver remain visible from front and back. The 588, 356 and 128 triangle meshes cleared serialized and exposed-surface validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_future_ascension_v0",
+          "evidence_sha256": "2d7dc620f8822b18fa1f9268f4aefbdd5a89029fe6d928fe89d865573d08c19a",
+          "observations": "The upright octagon and branching lancet read against the roof at 48 px. Pearl shoulders seat the wheel, and the brass lintel and pale cyan windows make the front face easy to find. The reverse view confirms the saddle and wheel silhouette. The 542, 326 and 166 triangle LODs meet their budgets. The three spoke ends overlap in the central gold junction at every distance.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 96,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 94
+          },
+          "defects": [
+            "The wheel has twelve exposed gold/gold pairs in each LOD around (-0.035, 0.610, 0.093), including LOD0 faces 474 and 482. Miter the spoke ends around a common junction, or end each in a deeper, solid central hub so the coincident faces are removed or completely enclosed. Verify the wheel at all three levels."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_future_ascension_v1",
+          "evidence_sha256": "161adb12b03041cbd14a22244b4c52357ef6e6239c834cc5814530a7b8a337d0",
+          "observations": "The horizontal gilded sunshade has a clear aperture at 48 and 80 px. Three pale bearing stones are visible from complementary views, with each foot reaching the raised court. The gold oriel hood, paired porch plants and luminous panes distinguish the house even on its shaded side. The 569, 316 and 158 triangle LODs retain the ring and its supports. No exposed overlapping pairs appeared in the three validated meshes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 96,
+            "construction": 95,
+            "charm": 94,
+            "colour": 96,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "critic_dwarf_houseslate",
+      "models": [
+        {
+          "id": "bld_dwarf_house_future_ascension_v0",
+          "evidence_sha256": "0c10452f0f35e7f2ce1d619671216dce49478a5f4cafc933621c37e08be8ec40",
+          "observations": "The three branches now meet in one continuous, mitered gold joint. The octagonal rim and its three open lights remain distinct at 48 and 80 pixels and in the reduced front views. The reverse view shows the wheel seated on the pearl saddle. The brass doorway and illuminated panes retain their contrast. All three serialized meshes passed at 538, 322 and 162 triangles, and the exposed-surface scan cleared the spoke joint on every LOD.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 96,
+            "construction": 96,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_industrial_v1",
+          "evidence_sha256": "268d78d82becc47c66b36ab13eddf40b371261e56998d0cd3edd2af2ff8e9418",
+          "observations": "The three stove billets now have individual ends and rest in the scuttle beside the front steps. At 48 and 80 pixels the square chimney and twin northlights identify this cottage. The amber oriel, brick walls and carved doorway remain legible at the larger size. The reverse view and both reduced meshes preserve the roof profile. The serialized 570, 246 and 92 triangle LODs cleared validation and exposed-surface inspection.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 96,
+            "charm": 95,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_future_v0",
+          "evidence_sha256": "3f9f0dbb0981a235f1b495c5e763b3bca6836ecc679d3f82a0f4cea4125eed8c",
+          "observations": "A raised blue-glass lantern with a light cap sits above the entrance, with a little workbench beside the stairs. The chunky stone plinth, lintel and glass roof stay continuous at LOD1.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            468,
+            266,
+            110
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_future_v1",
+          "evidence_sha256": "a5bd79068994c07513653b4b8874dd6c39419fbcc06d382bb64e43c6626a6a1b",
+          "observations": "The taller offset lantern and second low blue roof break the symmetry of this future house. Glazed side bays and a recessed front door still provide a human scale. Both roof volumes meet the walls cleanly at the middle LOD.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            588,
+            334,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_future_v0",
+          "evidence_sha256": "7802f29fdd225ffc6285db7a4b186cca82844352fdc63596e7e36690ef3ffd84",
+          "observations": "The large roof lantern and its base remain sound. At the front the reduction pulls a grey triangle diagonally across the door, removing roughly half the dark opening in both front views.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 82,
+            "charm": 91,
+            "colour": 94,
+            "technical": 86
+          },
+          "defects": [
+            "Keep the complete dark door leaf and preserve the opening inside its grey surround at LOD1."
+          ],
+          "lod_triangles": [
+            468,
+            266,
+            110
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_future_v1",
+          "evidence_sha256": "6def72e0d0613740fcf34172ca70733e9107450078974f8f57defd7bf30bd4c5",
+          "observations": "The offset blue lantern and lower roof cap keep their asymmetric relationship. The walls and stair remain complete around a full dark main door, even after the workbench drops out.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            588,
+            334,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent visual critic, final door, canopy and grille repair review",
+      "inspection": "Reopened the authored age previews and all three serialized LODs at 64 px. Compared LOD0 and LOD1 at two 190 px front angles and at 195 px from the side and rear. Revalidated serialized metadata, triangle ratios, exposed surfaces and shell orientation at the recorded hashes.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_future_v0",
+          "evidence_sha256": "d4940000928bf1c8cf8eab9101d6192284ed93d0b5a2837de5d5ea340243f577",
+          "observations": "The door leaf now fills the entrance frame and meets the top step without a diagonal grey wedge. The blue roof lantern, masonry sides and projecting cap remain complete at LOD1.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            468,
+            278,
+            110
+          ]
+        }
+      ]
+    }
+  ]
+}

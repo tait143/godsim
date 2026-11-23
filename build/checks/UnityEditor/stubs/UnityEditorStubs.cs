@@ -5,6 +5,27 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Object = UnityEngine.Object;
 
+namespace UnityEditor.AssetImporters
+{
+    public class ScriptedImporterAttribute : Attribute
+    {
+        public ScriptedImporterAttribute(int version, string extension, int importQueueOffset) { }
+    }
+    public abstract class ScriptedImporter : ScriptableObject
+    {
+        public abstract void OnImportAsset(AssetImportContext context);
+    }
+    public class AssetImportContext
+    {
+        public string assetPath => null;
+        public void DependsOnArtifact(string path) { }
+        public void AddObjectToAsset(string identifier, Object obj) { }
+        public void SetMainObject(Object obj) { }
+        public void LogImportWarning(string message, Object obj = null) { }
+        public void LogImportError(string message, Object obj = null) { }
+    }
+}
+
 namespace UnityEditor
 {
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]

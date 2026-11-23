@@ -1,0 +1,717 @@
+{
+  "package": "orc_infrastructure",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Builder session 2 / trade, independent of infrastructure builder",
+      "models": [
+        {
+          "id": "bld_orc_aqueduct_classical_v0",
+          "evidence_sha256": "39ccb5167b43aea94ef07f0d13e8cb14f9a0a50bbdbfa4bff5f84b2d735a7f22",
+          "observations": "The doubled arcade, running water and ladder establish a credible public utility in all four ages. At 64 px the four little ends and few red keystones have very little presence. The Roman-style span dominates the faction markers.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 85,
+            "construction": 95,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Enlarge a pair of opposed tusk corbels on a principal pier or end supports. Add clearly delineated sockets and keep the flowing channel clear. The pair should read at 64 px."
+          ]
+        },
+        {
+          "id": "bld_orc_aqueduct_future_v0",
+          "evidence_sha256": "aa1a5349f5000cf092fd4b58e63e4da631d0a18412bc73b67371e343c58af1f7",
+          "observations": "The lifted trough and teal pipe stand apart against the light concrete. Ascension collars are distinct. Outside the large view the terminal teeth get lost against the narrow coping and the span reads as generic civil engineering.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 86,
+            "construction": 94,
+            "charm": 90,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Enlarge a pair of opposed tusk corbels on a principal pier or end supports. Add clearly delineated sockets and keep the flowing channel clear. The pair should read at 64 px."
+          ]
+        },
+        {
+          "id": "bld_orc_aqueduct_industrial_v0",
+          "evidence_sha256": "202aaef15c272876fd52d550ac613d856be769fd299548f2f4d8e9edbe9060f4",
+          "observations": "Iron supply pipes and dark watercourse sit on red brick piers. The central ladder gives scale. In modern and industrial thumbnails the tiny teeth disappear into the parapet and nothing else carries a clear Orc profile.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 85,
+            "construction": 95,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Enlarge a pair of opposed tusk corbels on a principal pier or end supports. Add clearly delineated sockets and keep the flowing channel clear. The pair should read at 64 px."
+          ]
+        },
+        {
+          "id": "bld_orc_fusion_reactor_future_v0",
+          "evidence_sha256": "ebfaa15b580cb84b086d662231a44959b8ca262e78371630c0739d133dee61dc",
+          "observations": "The clamped teal core and a small horned service hall read as a reactor. The mounted fins hold the core visually. In the large image sections of the lower metal coil vanish where its facets dive into the core.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 88,
+            "charm": 92,
+            "colour": 95,
+            "technical": 95
+          },
+          "defects": [
+            "Trace both metal coils on the reactor profile phase and scale the two axes to stand clear of the core over the whole band. The lower coil must remain continuous between fins."
+          ]
+        },
+        {
+          "id": "bld_orc_granary_ancient_v0",
+          "evidence_sha256": "94980d0419444a2a2d2d5edb282c28f323bedbfd99be56bd1780ab21d1d257fe",
+          "observations": "The two elevated wooden bins and sacks at the horned counting hut are readable in bronze and iron. Two levels of wooden binding break into alternating short dashes around both bins.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 85,
+            "charm": 95,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Sweep both bin hoops using the same vertex phase and side count as the silo profile. Keep their inner clearance and outer face continuous round the slope at both edges of each hoop."
+          ]
+        },
+        {
+          "id": "bld_orc_granary_classical_v0",
+          "evidence_sha256": "655a76194ea059df889a2c00c60b2711575f9af453c2d4b3ea053a8847078557",
+          "observations": "Twin stone bins with hipped caps stand over a scale doorway and jars. In medieval the dashes on the dark bins look especially ragged where the binding intersects the wall.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 85,
+            "charm": 94,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Sweep both bin hoops using the same vertex phase and side count as the silo profile. Keep their inner clearance and outer face continuous round the slope at both edges of each hoop."
+          ]
+        },
+        {
+          "id": "bld_orc_granary_future_v0",
+          "evidence_sha256": "2f75f7ca9afc3a4ccc18e079ea41f7ad09daf3159f2fc093cd4ce82d26dfecca",
+          "observations": "A top conveyor and three blue caps give the future grain stores their vertical rhythm. The bins have two lines of marks with fragments left on separated panels, stark on the bright information and ascension cladding.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 85,
+            "charm": 93,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Sweep both bin hoops using the same vertex phase and side count as the silo profile. Keep their inner clearance and outer face continuous round the slope at both edges of each hoop."
+          ]
+        },
+        {
+          "id": "bld_orc_granary_industrial_v0",
+          "evidence_sha256": "c6191d0a7c822773026ccf9d045f666a508cd4197f5c45e5f323f254ba96f227",
+          "observations": "Three brick silos and their dark conveyor leave a clear packing yard for the sacks. The metal binding visibly breaks and reappears along both horizontal bands on the bins.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 85,
+            "charm": 93,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Sweep both bin hoops using the same vertex phase and side count as the silo profile. Keep their inner clearance and outer face continuous round the slope at both edges of each hoop."
+          ]
+        },
+        {
+          "id": "bld_orc_power_plant_future_v0",
+          "evidence_sha256": "2539c47adeb86b961fa1a415626fafb75cefbcb75e784d8b0ac802bc839b9e79",
+          "observations": "The offset open cooling stacks and low roofed turbine hall form a distinct utility profile. Rim tusk and small horned cabinet echo the door horns. Pale concrete and blue roofs move to gold hardware in Ascension.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_power_plant_industrial_v0",
+          "evidence_sha256": "46ef5ae60c870970e94eb4df7c0366711753bb53e7724d32d0f3f222f96fa1bb",
+          "observations": "Stepped brick cooling stacks have dark open throats above their red collars. Domed hall with panel stripes and an entrance porch keeps the Orc industrial works distinct at 64 px.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_storehouse_ancient_v0",
+          "evidence_sha256": "7c475137bbb199a13239541945cddb29b2ec8e0c47bf86ae665aff0bdacb929f",
+          "observations": "Large freight door, beam scale, strapped bundle and broad hip roof identify a warehouse. The paired roof points and split door tusks frame the horizontal building through its three early rows.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 95,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_storehouse_classical_v0",
+          "evidence_sha256": "f2a711f7054fef1bd0f77bbad58ab0a9c1c04507e70ff5fca46982d524c74d6d",
+          "observations": "The higher loading shed has a stone frame around its broad timber door, with a scale and strapped load at the side. Dark medieval materials preserve the silhouette of the ivory roof tips.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_storehouse_future_v0",
+          "evidence_sha256": "6db66bcd38b74cbf897a33a6ce59682d79a8b5a3098d01d2e85d50ba5a4e682b",
+          "observations": "A crown skylight sits above the blue roof, a deep loading jamb and a covered scale. The broad door stays readable at the small size and the light crest tips remain distinguishable along the edges.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_storehouse_industrial_v0",
+          "evidence_sha256": "e7afb58777ede7c6edb982e160443e9258a1c1b616ac3cbd40cf80736cbc5d8d",
+          "observations": "A projecting roof monitor lights a brick cargo shed. Dark steel bracing frames the side sling and strapped box. The small red wall banner and pale horns mark the front and roof.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_well_ancient_v0",
+          "evidence_sha256": "35500ada99bac9efb375295bf339fc0792eb8e8f390f213756b29def9923e247",
+          "observations": "Roofed lifting frame, visible water, wrapped rope drum and suspended bucket tell the function clearly. The light pitched hood and long horns crown the timber posts, and the second pail sits by the curb.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 95,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_well_classical_v0",
+          "evidence_sha256": "62e1611829d800a3edb57eaaf4bb3afd61e15281f2dc81c3eaa0794e0c6771bf",
+          "observations": "A masonry curb and narrow red band contrast with the water and suspended rope bucket. The taller roof leaves space to see the windlass and crank. The two horns and side bucket are visible in all three age skins.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_well_future_v0",
+          "evidence_sha256": "36b5c02e33a96bc6f958a90c18509bb80648b7278bda2c5caa7550a2583f8f42",
+          "observations": "The shallow glass hood, warm drum, metal crank and stepped stone ring distinguish this later well. The dark water and small hanging bucket remain visible under the arch. Gold metal reads on the Ascension variant.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_well_industrial_v0",
+          "evidence_sha256": "6c9e1d4b83ffeb6fa7bf8d7af998d5a33003c8c5f0f59e25dbdbe383a6fc0b54",
+          "observations": "An exposed flywheel and overhung beam replace the roof, keeping the hoist open to view. Brick curb, riveted drum and single horn contrast with the bright water and the little pail resting beside it.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Builder session 2 / trade, independent of infrastructure builder",
+      "models": [
+        {
+          "id": "bld_orc_aqueduct_classical_v0",
+          "evidence_sha256": "cf33fa4ebdf9b1784b37025ccfe5135fd601d7a841d59acccf847584493f591d",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "observations": "Strong, paired tusk braces now rise above the central channel in all four ages. Their red sockets sit against the stone and the central access ladder remains clear.",
+          "defects": []
+        },
+        {
+          "id": "bld_orc_aqueduct_future_v0",
+          "evidence_sha256": "f3f948a852d4bb94064d9aa7dfce6b1c78c99a33178bf321c96ae951717f01cc",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "observations": "An ivory crest now brackets the centre pier above the bright blue pipe and water line. Its tip remains visible at 64 px against both information and ascension masonry.",
+          "defects": []
+        },
+        {
+          "id": "bld_orc_aqueduct_industrial_v0",
+          "evidence_sha256": "74b46bb9567ae5e47492976fdd14f030c7380696eb5b033f6f14d517b3022c35",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "observations": "Bone corbels and seated red fittings mark the dark industrial channel from either side. The silhouette rises between the large spans, with clear water above the support.",
+          "defects": []
+        },
+        {
+          "id": "bld_orc_fusion_reactor_future_v0",
+          "evidence_sha256": "dd0cfa54d6238c9bebacc48882b1a6a9e45a564fc3c45eb74f03e9b301fff504",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "observations": "The two clamping coils make continuous, well-defined bands between the reactor fins. They trace the cylinder across both the gold and blue variants. The small service hall anchors the scale.",
+          "defects": []
+        },
+        {
+          "id": "bld_orc_granary_ancient_v0",
+          "evidence_sha256": "98be7cdedaeb2a99d504c1de9c0ad824011a60992bd70f7c8a05c64d6cd798a3",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "observations": "Two clear courses follow the faceted sides of each early grain bin. The amber lids, horned packing hut and sacks frame the large and small vessels without visual interference.",
+          "defects": []
+        },
+        {
+          "id": "bld_orc_granary_classical_v0",
+          "evidence_sha256": "020650066b43261d2fb3626324fa5e61277fb58d9612c20a8d40db7c820727e3",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "observations": "Continuous bands wrap the paired masonry vessels through all three ages. They especially improve the dark medieval bindings against the pale silo walls.",
+          "defects": []
+        },
+        {
+          "id": "bld_orc_granary_future_v0",
+          "evidence_sha256": "818f36499135c92c4a777b1d033b576032a3a325d2c36e1d01b3f37ce42aa570",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "observations": "Each pale silo now carries clearly formed circumferential metal bands. The gold version stays distinct in Ascension. Blue caps and the bridging conveyor remain readable above the hut.",
+          "defects": []
+        },
+        {
+          "id": "bld_orc_granary_industrial_v0",
+          "evidence_sha256": "a1b87efb566964019edecd13ace67bfa5545eaeef029a2ebd5766f89e8a0f3cf",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "observations": "Steel hoops sit continuously against the brick on each of the three bins, with clear separation between the two levels. The topped conveyor and low grain hut retain their contrasting scale.",
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Orc Storehouse art-direction critic",
+      "models": [
+        {
+          "id": "bld_orc_storehouse_ancient_v0",
+          "evidence_sha256": "6e5ca9184794be7eb36b6c02082b991ff3707b97aa586ca804ec624e1167c689",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "observations": "At 64 px the broad hip roof reads as muted brown in Dawn, ochre bronze in Bronze and slate grey in Iron. The roof carries the age change across all three exported LODs. The wide cargo door and projecting hoist frame with its box stay legible at 120 triangles. The door tusks and red wall hanging are small at thumbnail size, while the roof tips retain their silhouette. The dominant-surface revision passes.",
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Orc model critic, RC2 round 1",
+      "method": "Inspected saved age previews, rendered serialized LOD0, LOD1 and LOD2, and compared neutral 64px geometry at 215 and 145 degrees. Independently checked package metadata, GLB streams, exposed coplanar faces, inverted shells and repeated meshes. Compared all ordered era pairs in the 14 directed families.",
+      "models": [
+        {
+          "id": "bld_orc_aqueduct_classical_v0",
+          "evidence_sha256": "4b731e7e9bc9423898b88e03377118f23bce1fc6e5d29d1c1aa763af1b2dcc56",
+          "observations": "The arch cutouts read through to the far side beneath a thin blue channel. The paired pier feet and the forward tusk stay aligned at LOD1. The medieval stone darkens while the water line remains visible.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 95,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_aqueduct_future_v0",
+          "evidence_sha256": "1bb7d7da4a4bf85da9c15adf61bfa90643247397c4dbdcb15a76a2ae43f47896",
+          "observations": "The pale piers and aqua rail are pleasant in Information. At both unpainted angles the three feet, intervening arches, rail line and central tusk reproduce the industrial profile. LOD1 retains the flume and supports.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 83,
+            "construction": 94,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Information water conduit a distinct span or support system that reads without aqua trim. Preserve a visible water channel."
+          ]
+        },
+        {
+          "id": "bld_orc_aqueduct_industrial_v0",
+          "evidence_sha256": "f331119e2ddd80c507adff1d9cdbe7fabc1a0aa5de5e9468fba1ef6effd638c2",
+          "observations": "The raised dark side girder adds a clear horizontal layer above the three masonry supports. Red brick and its more muted modern variant separate from the blue channel. The girder continues across both intervening spans at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 95,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_power_plant_future_v0",
+          "evidence_sha256": "6768bb2a79e7693208f374be93470b9bd6ea2f9b806398cfeeb72887121f1915",
+          "observations": "Two separate three-bladed turbines rise above the low blue control house. They replace the industrial furnace and stacks convincingly in gray. The slender towers meet their bases and the blades remain attached in both lower meshes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_well_ancient_v0",
+          "evidence_sha256": "d12911ce8263e169446a48cae70a216870ebc78bd11125b1cd3725450443cf22",
+          "observations": "A timber drum and hanging bucket span the open well beneath a little horned roof. Its round curb and stout base remain apparent in the three early skins. LOD1 keeps the crank, curb and vertical posts aligned.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_well_classical_v0",
+          "evidence_sha256": "31821ef8c1e8128f91a43fd530adf5545ed8834a38865d0a57b29bef53991cb9",
+          "observations": "A light stone basin with a standing spout sits below a high rectangular tile beam. The air around the spout gives a different gray opening from the ancient roof and windlass. The basin rim and both uprights survive at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_well_future_v0",
+          "evidence_sha256": "0373ac31b8c228014797be844cffe5fe93d640e6a5af6bd4dd5656d73640e25d",
+          "observations": "A tall horned header tank distributes water through unequal descending pipes to two open basins. The isolated tank, legs and branch between bowls distinguish it clearly from the older pump. All contact points remain at LOD1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_well_industrial_v0",
+          "evidence_sha256": "2944c7799a6dde7f1034ae68984cfba518134164f5d624c0bff645c0209ed5c8",
+          "observations": "An exposed brass flywheel turns beside the slim chimney and feeds a separate brick catch basin. The beam projects clearly from the machine in neutral gray. Its spout still reaches the open basin at both lower levels.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_orc_aqueduct_future_v0",
+          "evidence_sha256": "a00d252fc13c9d2c3cd7473306818891bf1cdbfa810ecef8fb335dd5178bf4e5",
+          "observations": "A tall tusked pylon carries diagonal stays down to the twin water channels, forming two open triangular spans. The bridge ends sit on independent piers. Both channels, pylon feet and principal stays remain continuous at LOD1, distinct from the older supported trough.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            600,
+            300,
+            180
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_orc_aqueduct_classical_v0",
+          "evidence_sha256": "09b8c54d7d15cf5fb7444c53e0a3f5efe02cf5761dfe10800c0e3e2ff1da87f9",
+          "observations": "The doubled stone spans form complete arches between the piers. The water trough and protective side rims run continuously over the support at the centre.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 95,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            616,
+            350,
+            182
+          ]
+        },
+        {
+          "id": "bld_orc_aqueduct_industrial_v0",
+          "evidence_sha256": "dd95373b508e041bbe0eaa316ecb48b6d2159f51efe69e9c1eff73b08542bafb",
+          "observations": "The industrial conduit keeps full lengths of paired dark rails and a visible water channel. Both spans still rest on the brick piers.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 95,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            744,
+            424,
+            195
+          ]
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_orc_granary_classical_v0",
+          "evidence_sha256": "6789a7803cfff969a9c363ad46a13e11a5c0eb1aa0289e72334b85a393f7b69c",
+          "observations": "A raised gabled grain hall stands on discrete footings with a broad loading stair and a sack at the landing. The undercroft remains open in the rear LOD1. Its pitched roof is clearly distinct from the later vertical hopper. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 656/372/140 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_granary_future_v0",
+          "evidence_sha256": "5a61bd62e2fd03a5cdb44da4776ea721e3359e977fe43ca8d0f5e59d31538a62",
+          "observations": "A blue-and-ivory hopper on four tall feet feeds a low adjacent shed. From the rear its sloping transfer chute remains attached at both ends. Grain sacks sit below the cone and small tusks break the rim. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 760/428/241 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_orc_aqueduct_industrial_v0",
+          "evidence_sha256": "f99a2a7d9dd07adf27a6fec9837000146d7e6948a5633824fd3942e842c7ee6a",
+          "observations": "A low closed pipe with heavy coupling rings slings between square brick header tanks. The end pools and pipe elbows remain readable from both sides. At LOD2 the larger straight sections merge but the supported descent and rise still connect the tanks. The corresponding Dwarf inverted-span design has a separate hold.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            930,
+            530,
+            204
+          ],
+          "serialized_sha256": "83847e10f26093e85be8ad59d525b14acb5c6d202c1bf66dbebb0d20695c2740",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/orc_infrastructure-01.png",
+            "rc6/families/orc-Aqueduct-v0.png"
+          ]
+        },
+        {
+          "id": "bld_orc_storehouse_industrial_v0",
+          "evidence_sha256": "31651492b8c80738f6674a511f2435a1f05df600aac7a44b30c8bd1ec0872fe5",
+          "observations": "A flat hoist rail projects from the tall red service block over an open cargo dock. Two sloping legs support its outer end and suspended crates fill the gap. The open loading space and the supports survive LOD2, unlike the earlier enclosed gabled warehouses.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            523,
+            297,
+            160
+          ],
+          "serialized_sha256": "834610da79188999471565fb1af81fa0d3e6190c4b547d5f675fe3e46d079ab5",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/orc_infrastructure-01.png",
+            "rc6/families/orc-Storehouse-v0.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

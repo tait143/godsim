@@ -1,0 +1,47 @@
+{
+  "package": "orc_wonders",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "wonder_critic",
+      "models": [
+        {
+          "id": "bld_orc_war_idol_ancient_v0",
+          "evidence_sha256": "9e66c1f26232b89522871c4ae69e3cb9ee992c26ba34d4bd865de6c819477298",
+          "observations": "All ten age PNGs show the ivory horn tips clearing the crown, canted red brows over lit eye slits, a carved jaw with upturned tusks, and a stepped dais. These establish the idol even in the 40 px view. The early wood and fired earth darken through Iron, later greys frame the eyes, and the gold crown and pale podium distinguish Ascension. The lashed council drums, their resting beaters and the little carved pendants invite a closer look. Front and rear renders of the exported GLB show the central load-bearing trunk, diagonal bracing, and the entrance at the top of the south stair. The crest changes conspicuously from the red-banded breastpiece at LOD1 to a blank panel at LOD2. Serialized validation passed at 2507/1390/769 triangles, including atlas and mask references, face and UV checks, footprint, ground contact and all three LODs. The surface checks returned no exposed coplanar pairs or inverted closed shells.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 95,
+            "construction": 97,
+            "charm": 89,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "At LOD2 the entire crimson breastplate chevron disappears. Preserve its broad V with a few inset or offset triangles following the carved ridge, then check the three LODs side by side at phone size."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "wonder_critic",
+      "models": [
+        {
+          "id": "bld_orc_war_idol_ancient_v0",
+          "evidence_sha256": "943411168804fb3a988ee07ba95f78c0bb5edf17ee86cc89e444243b5f957eaf",
+          "observations": "The crimson V follows the raised breastplate ridge in the revised LOD2. It remains readable in the exported front and 78 px three-quarter renders alongside LOD1. The horns, tusks, standard, south stair, doorway, and rear support mass hold their positions across the three levels. All ten full-size and 40/72 px age views retain the ritual drum pair, relief carving and face profile. Timber, iron-darkened wood, fired clay, industrial brick and the paler gold Ascension finish are visible across the rows. Serialized validation passed with 2507/1390/793 triangles and no reported winding or exposed coplanar defects.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 95,
+            "construction": 97,
+            "charm": 96,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

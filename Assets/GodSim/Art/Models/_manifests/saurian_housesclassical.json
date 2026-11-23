@@ -1,0 +1,254 @@
+[
+ {
+  "id": "bld_saurian_house_classical_medieval_v0",
+  "kind": "house",
+  "category": "Buildings/Saurian/HousesClassical",
+  "building_type": "House",
+  "race": "saurian",
+  "ages": [
+   "medieval"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 428,
+  "lod_triangles": [
+   428,
+   162,
+   86
+  ],
+  "bounds": [
+   [
+    -0.3570387661457062,
+    0.0,
+    -0.35600000619888306
+   ],
+   [
+    0.3140000104904175,
+    1.0460000038146973,
+    0.34950000047683716
+   ]
+  ],
+  "bytes": 52056,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_medieval_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_medieval_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_medieval_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_house_classical_medieval_v1",
+  "kind": "house",
+  "category": "Buildings/Saurian/HousesClassical",
+  "building_type": "House",
+  "race": "saurian",
+  "ages": [
+   "medieval"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 530,
+  "lod_triangles": [
+   530,
+   312,
+   156
+  ],
+  "bounds": [
+   [
+    -0.4440000057220459,
+    0.0,
+    -0.492000013589859
+   ],
+   [
+    0.4350000023841858,
+    1.0782825946807861,
+    0.4020000100135803
+   ]
+  ],
+  "bytes": 77084,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_medieval_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_medieval_v1.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_medieval_v1.png"
+  }
+ },
+ {
+  "id": "bld_saurian_house_classical_renaissance_v0",
+  "kind": "house",
+  "category": "Buildings/Saurian/HousesClassical",
+  "building_type": "House",
+  "race": "saurian",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 562,
+  "lod_triangles": [
+   562,
+   191,
+   118
+  ],
+  "bounds": [
+   [
+    -0.4269999861717224,
+    0.0,
+    -0.3504999876022339
+   ],
+   [
+    0.32100000977516174,
+    0.6899999976158142,
+    0.37400001287460327
+   ]
+  ],
+  "bytes": 67160,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_renaissance_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_renaissance_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_renaissance_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_house_classical_renaissance_v1",
+  "kind": "house",
+  "category": "Buildings/Saurian/HousesClassical",
+  "building_type": "House",
+  "race": "saurian",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 546,
+  "lod_triangles": [
+   546,
+   253,
+   116
+  ],
+  "bounds": [
+   [
+    -0.3479999899864197,
+    0.0,
+    -0.39899998903274536
+   ],
+   [
+    0.3869999945163727,
+    0.7950000166893005,
+    0.40700000524520874
+   ]
+  ],
+  "bytes": 76384,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_renaissance_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_renaissance_v1.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_renaissance_v1.png"
+  }
+ },
+ {
+  "id": "bld_saurian_house_classical_v0",
+  "kind": "house",
+  "category": "Buildings/Saurian/HousesClassical",
+  "building_type": "House",
+  "race": "saurian",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 586,
+  "lod_triangles": [
+   586,
+   314,
+   142
+  ],
+  "bounds": [
+   [
+    -0.4350000023841858,
+    0.0,
+    -0.492000013589859
+   ],
+   [
+    0.4350000023841858,
+    0.8389999866485596,
+    0.37700000405311584
+   ]
+  ],
+  "bytes": 82584,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_house_classical_v1",
+  "kind": "house",
+  "category": "Buildings/Saurian/HousesClassical",
+  "building_type": "House",
+  "race": "saurian",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 624,
+  "lod_triangles": [
+   624,
+   352,
+   168
+  ],
+  "bounds": [
+   [
+    -0.4350000023841858,
+    0.0,
+    -0.492000013589859
+   ],
+   [
+    0.4350000023841858,
+    0.8569999933242798,
+    0.37700000405311584
+   ]
+  ],
+  "bytes": 91072,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_v1.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/HousesClassical/bld_saurian_house_classical_v1.png"
+  }
+ }
+]

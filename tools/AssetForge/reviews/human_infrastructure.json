@@ -1,0 +1,751 @@
+{
+  "package": "human_infrastructure",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Session 10 independent critic \u2014 military builder",
+      "models": [
+        {
+          "id": "bld_human_aqueduct_classical_v0",
+          "evidence_sha256": "239914e7f46ebb933639d4556c138e6ce0e6fbaf99ba58491df6cba0d5ee7dd5",
+          "observations": "The water trough and three genuine masonry arches read together at 64 px. Dark Iron voussoirs, pale Classical stone and warm Renaissance dressings all hold their openings. The front ladder, access hatch and flag give the scale.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_aqueduct_future_v0",
+          "evidence_sha256": "79de0607bfa0e7cd21cef228867bac8a410ac75bbbb4b25188bc031dfcb3c8b1",
+          "observations": "The cyan channel and repeated fork piers have a good silhouette in LOD0/1. LOD2 converts every fork into a square post. Both future rows stay white and blue at phone size, with gold limited to the deck edge.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 85,
+            "construction": 91,
+            "charm": 91,
+            "colour": 88,
+            "technical": 98
+          },
+          "defects": [
+            "Carry the V-shaped head of each pier into LOD2.",
+            "Give the two prominent side fascias or pier heads a more age-responsive role so Information and Ascension separate at 64 px."
+          ]
+        },
+        {
+          "id": "bld_human_aqueduct_industrial_v0",
+          "evidence_sha256": "2e7c28774301e01d75541ca924ad8f649d67f0324db8b95a5421eb01eb9b4f76",
+          "observations": "The dark bents, longitudinal trusses and inserted red-brick blocks make an early ironworks water crossing. Modern colours move to concrete and steel. LOD2 replaces each open bent with a single vertical post.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 90,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Retain the open transverse two-leg trestle section at LOD2 with simple low-polygon legs."
+          ]
+        },
+        {
+          "id": "bld_human_fusion_reactor_future_v0",
+          "evidence_sha256": "4746ef9679aeae6f16c71e10750535653f0fe94913bedc84116804f48bf50e69",
+          "observations": "Two differently oriented hoops rise from shoes at the glazed reactor drum. The operating house, blue entrance awning and clustered service cylinders supply scale. The gold and cyan remain clear without obscuring the front entrance.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_granary_ancient_v0",
+          "evidence_sha256": "164d49b892ea2c75aebaa4ec4c7fdbcd7110ad408da964546f1a8aa61732702e",
+          "observations": "A loft supported by staddle stones and a roofed round bin make the food-storage function clear. Both little harvest baskets look cut off at their bases where they intersect the podium. Drying shutters and steps remain legible.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 86,
+            "charm": 89,
+            "colour": 92,
+            "technical": 98
+          },
+          "defects": [
+            "Move the two baskets from ground zero to the .065-high platform so their foot rings and woven bodies sit on its surface."
+          ]
+        },
+        {
+          "id": "bld_human_granary_classical_v0",
+          "evidence_sha256": "dc1af6fc8372fd4daa1e3ec5014c144dfe117f3758adcdf762bae6ab826c213e",
+          "observations": "The clerestory, secondary cone silo and supported timber stairs carry across all LODs. Definite red or brown tile reads at 64 px. Both basket bodies are partly submerged in the lower-front podium.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 86,
+            "charm": 89,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Seat both front baskets on the top of the .065-high plinth; verify their lower bodies at the three age rows."
+          ]
+        },
+        {
+          "id": "bld_human_granary_future_v0",
+          "evidence_sha256": "a48bb543d3345bfa376ee12bf0f9d904b7f3a7c04906d74b125244cbe38aca80",
+          "observations": "A staggered trio of banded silos rises over the front receiving house. Glazed conical crowns and the high conveyor identify the late age. The base office changes from silver to gold, and the luminous blue caps remain easy to separate.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_granary_industrial_v0",
+          "evidence_sha256": "4cdb8f46e48ddc8e62b5a6d59107c0fbb8276b286767bd9596e9863e80965a5b",
+          "observations": "The clustered dark grain silos and smaller gabled weigh house form a readable industrial silhouette. Hoops and brass cap buttons catch the light. LOD2 keeps all three vessels and the intake wing.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_power_plant_future_v0",
+          "evidence_sha256": "6701962087f62a79d544c1f9290a1ed7c7e9827e443575992871d3d29b4c06e8",
+          "observations": "The open cooling tower and slanted collector stand beside a glazed switch house. The exposed pipe elbows and blue service awning add scale. Colour shifts from cool steel to warm gold across the light hall.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_power_plant_industrial_v0",
+          "evidence_sha256": "35062a13048bb8dd0d3ccca89882204ab60c2c10818fd6e32786002b0d4c38b2",
+          "observations": "A slender brick chimney complements the broad waist of the cooling tower. The open top, stepped chimney collar, pipes and square service porch all anchor to the works. The charcoal and red plant becomes distinctly lighter in the Modern row.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 96,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_storehouse_ancient_v0",
+          "evidence_sha256": "f9bfd9ef9ef547b0f88755989fb0e7ec9e4f7244293df3d89c3a4014492e6b2a",
+          "observations": "Three crates outside the covered loading gallery mark a depot. The low eaves and double planked door stay in view throughout the LOD chain. Thatch, ochre roof and Iron brown separate the three early ages.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_storehouse_classical_v0",
+          "evidence_sha256": "8e9a41d043e644ce088e56817265a2be01fa619b9ebe21cbd77bf80e7a255ce1",
+          "observations": "A tall tiled hip, wall chimney and paired freight doors establish an orderly Human store. Gallery posts stand on the raised apron; the broad roof makes each age change visible from above.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_storehouse_future_v0",
+          "evidence_sha256": "bb94c1609915bb90c972ca97c56744075bd5b7b8dd05c0ea86d076833d37076c",
+          "observations": "Stacked roof monitor, glass side extension and metallic loading canopy update the long depot. The crates, flag and braced door retain the visual connection to earlier stores. The roof changes clearly to gold at Ascension.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_storehouse_industrial_v0",
+          "evidence_sha256": "b86a40ba18f0c472a6a336fc8681b8c5ce287c83114304ea031afd3258ff6a41",
+          "observations": "An iron monitor vent crowns the loading shed. The cargo stack with its pale mark, roller doors and gallery identify freight access from the front. Both the red and pale pink brick rows stay readable.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_well_ancient_v0",
+          "evidence_sha256": "ff81faba2442b79d6748b241cdf1e846eb2dfd861a3229cb0f62d9a7f5577a72",
+          "observations": "A thatched cap spans a timber windlass above an open stone-lined basin. Bucket, rope, crank and low planter reward a close look. The broad well wall becomes ochre then fieldstone while water stays blue.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 94,
+            "charm": 94,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_well_classical_v0",
+          "evidence_sha256": "feced76f71c3f16aec0c1cd2d662892e0d1ff5e2ed0480d81f9c9f852cac0673",
+          "observations": "A top-heavy gable frames a working windlass, spare bucket and clearly visible water. A thick pale coping anchors the roof posts. Red, dark slate and warm plaster rows keep the same recognisable well silhouette.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_well_future_v0",
+          "evidence_sha256": "f5ef474f58a547d8470181d52a168737d3bc50ed4b64f1f28180f6abdc10666d",
+          "observations": "Glass cupola and central finial give the public well a distinct future roof. The long winding shaft, raised pail and open water retain its town-service function and the bright metal support faces turn gold.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_well_industrial_v0",
+          "evidence_sha256": "976cc32e345c0668773fe84544cee505075b4e16313cb8a73e645bfc7302d35e",
+          "observations": "The shallow sheet-metal hood, end cowl and long spindle give the well a pump-house profile. The large basin changes from brick to concrete. A blue flag, hand crank and pail retain a civic scale.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Session 10 independent critic \u2014 military builder",
+      "models": [
+        {
+          "id": "bld_human_aqueduct_future_v0",
+          "evidence_sha256": "deede69f75fbf61a8eeaeb645aae4246dae1876b6ca04860fa66ba3b5368799c",
+          "observations": "The four fork heads now survive the coarse silhouette and the broad dark channel fascias turn gold on the Ascension row. The ladder, flag and blue pier collars remain clear against the channel.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_aqueduct_industrial_v0",
+          "evidence_sha256": "2273564eae4f4bbc121807b9d451704daa558083604cd005ac3680cbee53b379",
+          "observations": "The LOD2 re-render retains the two splayed iron legs at each footing and clear gaps under the channel. The brick/steel period shift, hatch and water trough remain intact.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_granary_ancient_v0",
+          "evidence_sha256": "9a0d5d22c22ce578e412aa447ab4def794bcaec19d09fd23fcbc1bb8bfd375e2",
+          "observations": "Both handled baskets now sit fully above the paved apron. Their rounded bodies and smaller feet are visible beside the reserve bin. Both Bronze and Iron views preserve the clean staircase and elevated loft.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_granary_classical_v0",
+          "evidence_sha256": "6708ef2576a38e02b5d61d0837ac89c9ab59938256b50a479648b7c30886bf77",
+          "observations": "The two vessels now stand visibly on the plinth across the three age previews. The projected bin, ventilated loft, covered cap and service steps retain their earlier silhouette at all LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_aqueduct_classical_v0",
+          "evidence_sha256": "420b06dabc6ccf6fe2f39f5bfffc0aa1322d8c9c2e7f87f154d7eb2448bfef9b",
+          "observations": "Three tall masonry arches carry the open blue water channel. The arch openings remain clear from either side at medium and far distance. The blue pennant and end hatch give scale to the long span. Serialized triangle counts are 794, 452, 252 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 96,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_aqueduct_future_v0",
+          "evidence_sha256": "9f644560bf5c55b72712dbacf4c50ee227b35e93dd12fb66f8292cffde28036c",
+          "observations": "The broad stream rides on slender forked white piers with blue foot bands. Daylight extends around the uprights where the industrial piers had brick infill. The end housing and waterline remain identifiable. Serialized triangle counts are 590, 336, 176 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 90,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_aqueduct_industrial_v0",
+          "evidence_sha256": "a9bc0b5fd3a9d4e55e6561864c951672fedfb300726816128ffed42eb758d247",
+          "observations": "Triangular frames over brick piers replace the earlier stone arches. Each frame meets the water trough and a flared footing at medium distance. The little end door picks out the service end. Serialized triangle counts are 814, 462, 224 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_power_plant_future_v0",
+          "evidence_sha256": "908c426c9297d68181b19ae3ee6c37425c74bccc92cdf90c614a48e9f4f106bf",
+          "observations": "The smokestack disappears and a slab-roofed generator hall sits beside the cooling tower, with a raised blue panel at the back. Front transformers and the entry awning survive the middle mesh. Serialized triangle counts are 785, 446, 178 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_power_plant_industrial_v0",
+          "evidence_sha256": "0b10b93166ffd0a8e54324e3b82162535f8c326539106ece4521df7404e4d5c9",
+          "observations": "The stack beside the gabled boiler hall and flared cooling tower make an uneven, readable skyline. A low transformer block and the sheltered blue door identify the working front. Serialized triangle counts are 893, 508, 216 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_well_ancient_v0",
+          "evidence_sha256": "1580658adf067d35abb1f2075a647cbb565d4a966fe6d28d49b7c26f7f61cf20",
+          "observations": "A wide thatched hip shades the open shaft, timber winding drum and bucket. The small planter and pennant mark the public side. The posts and curb retain a clear gap below the roof. Serialized triangle counts are 555, 316, 125 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_well_classical_v0",
+          "evidence_sha256": "5bfa0228d9ae55929d98e9d0ef800d97f40ca6535c02ae18a0f5da068e8aa860",
+          "observations": "A steep tiled gable and taller beam lift the cover above the stone curb. Pail, crank and flowers give scale, and the gable can be told apart from the earlier low hipped thatch in the grey view. Serialized triangle counts are 595, 338, 149 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_well_future_v0",
+          "evidence_sha256": "48c4bbee03533aba42c372638b380fb690dc7dcf1f268793102c07875cfba23f",
+          "observations": "A blue glazed dome caps the opposed uprights above a pale stone shaft. The hanging line, bucket and spare pail keep the well recognizable beneath its new roof shape. Serialized triangle counts are 685, 390, 151 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_well_industrial_v0",
+          "evidence_sha256": "dabdf99343b185136f6b0a2bd9da4a232eb5e7832ede3c397d9d5e3d0d46b345",
+          "observations": "Steel uprights, an exposed winder and low slate hood modernize the well. One half of the LOD1 hood pinches back into a long wedge. A triangular gap exposes the crossbeam and removes much of the weather cover. Serialized triangle counts are 595, 338, 141 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 91,
+            "construction": 79,
+            "charm": 93,
+            "colour": 93,
+            "technical": 88
+          },
+          "defects": [
+            "Keep a contiguous low roof between the steel posts at LOD1. Reduce curb or pail subdivisions to meet the budget and check both front oblique views."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_aqueduct_classical_v0",
+          "evidence_sha256": "96004731557a90737a9ac34d21b40fa9f7168dcc8e9c825f6d5c7e0e6f2dea43",
+          "observations": "The curved openings remain clear in the 190-pixel middle views. Their square footings meet the continuous water channel, and the small access hatch still points out the service end. Serialized triangle counts are 794, 452, 252 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 96,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_well_ancient_v0",
+          "evidence_sha256": "001fa0feaedbc3e57488950b5d74f0f7d43dee30c98971e9f1c375c5f2df587c",
+          "observations": "The broad thatched hip, winding drum and two uprights frame a clearly open water shaft. At LOD1 the hanging line and curb still read below the intact roof from both approaches. Serialized triangle counts are 555, 316, 125 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_well_classical_v0",
+          "evidence_sha256": "5fa910572429bc8d94d8408a27a10c44e4e2602f2f05d4ccbf72131a3a17f05f",
+          "observations": "The steep tiled gable and timber beam retain the covered opening above the pale stone curb. The shaft stays visibly open below the winch at middle and far distance. Serialized triangle counts are 595, 338, 149 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_well_future_v0",
+          "evidence_sha256": "b60bae581fa4352e644acd65612b5e547359980c2fe28f4704114975c14e4ece",
+          "observations": "The faceted blue dome meets both upright supports, leaving a visible gap over the pale shaft. Mid-distance views retain the winding drum, water and hanging line under the dome. Serialized triangle counts are 685, 390, 151 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_well_industrial_v0",
+          "evidence_sha256": "e9e963956feeaa6d2965db1f93e43df188e528e4afd5d048f530fb4031b36cb8",
+          "observations": "The full slate hood now spans the two posts without the previous missing triangular section. The medium side view shows water, hoist drum and crank beneath a continuous low roof. The brick curb retains the well shape. Serialized triangle counts are 595, 345, 141 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_human_granary_classical_v0",
+          "evidence_sha256": "3bb28d08f73bfd9270cb02558ab4e7d2d58ff6b5be4eea65e15b6ea434a7ba44",
+          "observations": "A buttressed masonry store has a tiled loading porch and a line of grain jars beside the approach. The buttresses remain visible from the flank at distance. The covered loading side separates this store from the ancient low timber building and the industrial silo group.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            699,
+            355,
+            186
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_granary_ancient_v0",
+            "b": "bld_human_granary_classical_v0",
+            "matched": 66,
+            "total": 1986
+          }
+        },
+        {
+          "id": "bld_human_granary_future_v0",
+          "evidence_sha256": "f9f785dffa6db892676d3da6f0e34403db1ac8a905b265d97d41d7da9a0872c3",
+          "observations": "Paired raised hoppers and an overhead transfer bridge give the silos a legible route to the tall elevator. The reverse view exposes their legs and tapered undersides. These lift clear of the ground at the far level, unlike the solid lower cylinders of the earlier granary.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            792,
+            454,
+            244
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_granary_ancient_v0",
+            "b": "bld_human_granary_future_v0",
+            "matched": 66,
+            "total": 1986
+          }
+        },
+        {
+          "id": "bld_human_well_classical_v0",
+          "evidence_sha256": "3b07906b6a1eb086da915ec1a82962101e1577eca1697153a91467191780dcf6",
+          "observations": "A stone basin stands under the forward edge of a tiled wall pavilion. The projecting spout and dark vertical stream meet the water, with a pot at the near corner. The basin, upright supports and water remain distinct from the older pitched wellhead at the far level.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 92,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            505,
+            210,
+            136
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_well_ancient_v0",
+            "b": "bld_human_well_classical_v0",
+            "matched": 0,
+            "total": 1665
+          }
+        },
+        {
+          "id": "bld_human_well_future_v0",
+          "evidence_sha256": "bfe7311b54cddefd95b383785e5f3332a882f01825984f8b0bdd71ddec074b2c",
+          "observations": "The bulbous elevated reservoir feeds a separate dispenser through a level pipe. Its side view shows the tank on its own pier and the dispenser resting on a separate base. The far mesh preserves their connection even as the tank loses facets.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            505,
+            258,
+            136
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_well_ancient_v0",
+            "b": "bld_human_well_future_v0",
+            "matched": 0,
+            "total": 1665
+          }
+        },
+        {
+          "id": "bld_human_well_industrial_v0",
+          "evidence_sha256": "8901c014379934735c89c6b42f107113c3f55e359c824e4be1a1e4caf9683c66",
+          "observations": "A cast-iron hand pump stands above a low open trough on a brick plinth. The handle reaches to one side while the spout points over the water. The handle, column and receiving basin remain readable from the flank at the far level.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            470,
+            266,
+            146
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_well_ancient_v0",
+            "b": "bld_human_well_industrial_v0",
+            "matched": 0,
+            "total": 1665
+          }
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_human_aqueduct_classical_v0",
+          "evidence_sha256": "a2a31f611dfc4bba52f6ae108ac3a367cb11ec0d53398f9b3872d4ea0590e51d",
+          "observations": "An elevated inlet drops through a stone transfer tower to a lower outgoing trough. Water is visible at both heights in every palette. From either side the change of level and its tower differ from the sibling straight trestles. LOD2 keeps the landing, piers and trough.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            604,
+            352,
+            182
+          ],
+          "serialized_sha256": "d32a353e303116892fcab291dd09e8567faddd12e0a30d289caa185fdad4620f",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_infrastructure-01.png",
+            "rc6/families/human-Aqueduct-v0.png"
+          ]
+        },
+        {
+          "id": "bld_human_storehouse_classical_v0",
+          "evidence_sha256": "cdb8044bfeda0f4729f6d7d5fef7d4b65397a71dc200128fe9cdcc97c2f7a023",
+          "observations": "A tall hipped hoist tower and a low, separately roofed loading shed form an uneven two-wing yard. Front and reverse views show the cargo in the tower opening and under the supported canopy. Both roofs, the opening and the low cargo bay remain visible at LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            550,
+            252,
+            154
+          ],
+          "serialized_sha256": "1fe31c18270659e6d010f5b63bc2d0a8b552f56ce169f0c2ed81bb2d94dc1d39",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_infrastructure-01.png",
+            "rc6/families/human-Storehouse-v0.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

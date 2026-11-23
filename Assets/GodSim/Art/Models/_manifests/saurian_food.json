@@ -1,0 +1,892 @@
+[
+ {
+  "id": "bld_saurian_farm_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "Farm",
+  "race": "saurian",
+  "ages": [
+   "bronze",
+   "iron",
+   "dawn"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1249,
+  "lod_triangles": [
+   1249,
+   709,
+   238
+  ],
+  "bounds": [
+   [
+    -1.4550000429153442,
+    0.0,
+    -1.402500033378601
+   ],
+   [
+    1.4550000429153442,
+    1.3877999782562256,
+    1.402500033378601
+   ]
+  ],
+  "bytes": 174572,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_farm_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_farm_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_farm_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_farm_ancient_v0__iron.png",
+   "dawn": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_farm_ancient_v0__dawn.png"
+  }
+ },
+ {
+  "id": "bld_saurian_farm_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "Farm",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 783,
+  "lod_triangles": [
+   783,
+   445,
+   177
+  ],
+  "bounds": [
+   [
+    -1.4550000429153442,
+    0.0,
+    -1.409999966621399
+   ],
+   [
+    1.4550000429153442,
+    1.846500039100647,
+    1.409999966621399
+   ]
+  ],
+  "bytes": 117904,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_farm_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_farm_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_farm_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_farm_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_farm_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_farm_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "Farm",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1257,
+  "lod_triangles": [
+   1257,
+   735,
+   353
+  ],
+  "bounds": [
+   [
+    -1.4550000429153442,
+    0.0,
+    -1.409999966621399
+   ],
+   [
+    1.4550000429153442,
+    0.753000020980835,
+    1.409999966621399
+   ]
+  ],
+  "bytes": 220948,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_farm_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_farm_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_farm_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_farm_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_farm_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "Farm",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1173,
+  "lod_triangles": [
+   1173,
+   607,
+   253
+  ],
+  "bounds": [
+   [
+    -1.4550000429153442,
+    0.0,
+    -1.409999966621399
+   ],
+   [
+    1.4550000429153442,
+    1.703160047531128,
+    1.409999966621399
+   ]
+  ],
+  "bytes": 155072,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_farm_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_farm_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_farm_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_farm_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_fishing_hut_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "FishingHut",
+  "race": "saurian",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 749,
+  "lod_triangles": [
+   749,
+   444,
+   175
+  ],
+  "bounds": [
+   [
+    -0.4350000023841858,
+    0.0,
+    -0.42500001192092896
+   ],
+   [
+    0.45249998569488525,
+    0.6399869918823242,
+    0.4000000059604645
+   ]
+  ],
+  "bytes": 101916,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_fishing_hut_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_fishing_hut_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_fishing_hut_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_fishing_hut_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_fishing_hut_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_fishing_hut_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "FishingHut",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 523,
+  "lod_triangles": [
+   523,
+   311,
+   157
+  ],
+  "bounds": [
+   [
+    -0.4749999940395355,
+    0.0,
+    -0.4399999976158142
+   ],
+   [
+    0.4749999940395355,
+    0.5715000033378601,
+    0.4399999976158142
+   ]
+  ],
+  "bytes": 80556,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_fishing_hut_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_fishing_hut_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_fishing_hut_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_fishing_hut_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_fishing_hut_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_fishing_hut_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "FishingHut",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 792,
+  "lod_triangles": [
+   792,
+   451,
+   243
+  ],
+  "bounds": [
+   [
+    -0.4749999940395355,
+    0.0,
+    -0.4399999976158142
+   ],
+   [
+    0.4749999940395355,
+    0.5942999720573425,
+    0.4399999976158142
+   ]
+  ],
+  "bytes": 119840,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_fishing_hut_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_fishing_hut_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_fishing_hut_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_fishing_hut_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_fishing_hut_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "FishingHut",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 607,
+  "lod_triangles": [
+   607,
+   335,
+   117
+  ],
+  "bounds": [
+   [
+    -0.4749999940395355,
+    0.0,
+    -0.4399999976158142
+   ],
+   [
+    0.4749999940395355,
+    0.5740000009536743,
+    0.4399999976158142
+   ]
+  ],
+  "bytes": 86268,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_fishing_hut_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_fishing_hut_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_fishing_hut_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_fishing_hut_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_gatherer_hut_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "GathererHut",
+  "race": "saurian",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 746,
+  "lod_triangles": [
+   746,
+   354,
+   137
+  ],
+  "bounds": [
+   [
+    -0.4375,
+    0.0,
+    -0.39750000834465027
+   ],
+   [
+    0.4375,
+    0.7449600100517273,
+    0.41749998927116394
+   ]
+  ],
+  "bytes": 103072,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_gatherer_hut_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_gatherer_hut_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_gatherer_hut_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_gatherer_hut_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_gatherer_hut_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_hunting_lodge_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "HuntingLodge",
+  "race": "saurian",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 659,
+  "lod_triangles": [
+   659,
+   350,
+   133
+  ],
+  "bounds": [
+   [
+    -0.4375,
+    0.0,
+    -0.39750000834465027
+   ],
+   [
+    0.4375,
+    0.7449600100517273,
+    0.41749998927116394
+   ]
+  ],
+  "bytes": 90760,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_hunting_lodge_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_hunting_lodge_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_hunting_lodge_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_hunting_lodge_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_hunting_lodge_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_hunting_lodge_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "HuntingLodge",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 821,
+  "lod_triangles": [
+   821,
+   467,
+   241
+  ],
+  "bounds": [
+   [
+    -0.4749999940395355,
+    0.0,
+    -0.4675000011920929
+   ],
+   [
+    0.4749999940395355,
+    0.7576500177383423,
+    0.4325000047683716
+   ]
+  ],
+  "bytes": 122028,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_hunting_lodge_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_hunting_lodge_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_hunting_lodge_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_hunting_lodge_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_saurian_hydroponics_tower_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "HydroponicsTower",
+  "race": "saurian",
+  "ages": [
+   "ascension",
+   "information"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1041,
+  "lod_triangles": [
+   1041,
+   506,
+   247
+  ],
+  "bounds": [
+   [
+    -0.7699999809265137,
+    0.0,
+    -0.7099999785423279
+   ],
+   [
+    0.7699999809265137,
+    2.068160057067871,
+    0.8299999833106995
+   ]
+  ],
+  "bytes": 150188,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_hydroponics_tower_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_hydroponics_tower_future_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_hydroponics_tower_future_v0.png",
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_hydroponics_tower_future_v0__information.png"
+  }
+ },
+ {
+  "id": "bld_saurian_industrial_farm_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "IndustrialFarm",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 961,
+  "lod_triangles": [
+   961,
+   519,
+   248
+  ],
+  "bounds": [
+   [
+    -1.4550000429153442,
+    0.0,
+    -1.409999966621399
+   ],
+   [
+    1.4550000429153442,
+    1.388690710067749,
+    1.409999966621399
+   ]
+  ],
+  "bytes": 149844,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_industrial_farm_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_industrial_farm_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_industrial_farm_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_industrial_farm_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_industrial_farm_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "IndustrialFarm",
+  "race": "saurian",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1383,
+  "lod_triangles": [
+   1383,
+   771,
+   269
+  ],
+  "bounds": [
+   [
+    -1.4550000429153442,
+    0.0,
+    -1.402500033378601
+   ],
+   [
+    1.4741699695587158,
+    1.5780600309371948,
+    1.402500033378601
+   ]
+  ],
+  "bytes": 192700,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_industrial_farm_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_industrial_farm_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_industrial_farm_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_mill_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "Mill",
+  "race": "saurian",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 899,
+  "lod_triangles": [
+   899,
+   512,
+   259
+  ],
+  "bounds": [
+   [
+    -0.8151999711990356,
+    0.0,
+    -0.7099999785423279
+   ],
+   [
+    0.8665000200271606,
+    1.2164000272750854,
+    0.6990000009536743
+   ]
+  ],
+  "bytes": 126532,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_mill_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_mill_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_mill_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_mill_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_mill_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "Mill",
+  "race": "saurian",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 855,
+  "lod_triangles": [
+   855,
+   453,
+   113
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    0.949999988079071,
+    1.399999976158142,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 106324,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_mill_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_mill_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_mill_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_pasture_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "Pasture",
+  "race": "saurian",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1041,
+  "lod_triangles": [
+   1041,
+   592,
+   263
+  ],
+  "bounds": [
+   [
+    -1.440000057220459,
+    0.0,
+    -1.3799999952316284
+   ],
+   [
+    1.440000057220459,
+    1.1645729541778564,
+    1.3799999952316284
+   ]
+  ],
+  "bytes": 145768,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_pasture_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_pasture_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_pasture_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_pasture_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_pasture_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "Pasture",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 788,
+  "lod_triangles": [
+   788,
+   449,
+   223
+  ],
+  "bounds": [
+   [
+    -1.4474999904632568,
+    0.0,
+    -1.3949999809265137
+   ],
+   [
+    1.4474999904632568,
+    1.1820000410079956,
+    1.3949999809265137
+   ]
+  ],
+  "bytes": 129420,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_pasture_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_pasture_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_pasture_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_pasture_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_pasture_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_pasture_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "Pasture",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 624,
+  "lod_triangles": [
+   624,
+   354,
+   184
+  ],
+  "bounds": [
+   [
+    -1.4474999904632568,
+    0.0,
+    -1.3949999809265137
+   ],
+   [
+    1.4474999904632568,
+    1.7194010019302368,
+    1.3949999809265137
+   ]
+  ],
+  "bytes": 101748,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_pasture_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_pasture_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_pasture_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_pasture_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_pasture_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Food",
+  "building_type": "Pasture",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 745,
+  "lod_triangles": [
+   745,
+   361,
+   210
+  ],
+  "bounds": [
+   [
+    -1.4474999904632568,
+    0.0,
+    -1.3949999809265137
+   ],
+   [
+    1.4474999904632568,
+    1.2899999618530273,
+    1.3949999809265137
+   ]
+  ],
+  "bytes": 102228,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Food/bld_saurian_pasture_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_pasture_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_pasture_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Food/bld_saurian_pasture_industrial_v0__modern.png"
+  }
+ }
+]

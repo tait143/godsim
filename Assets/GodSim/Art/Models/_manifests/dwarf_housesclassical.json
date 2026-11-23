@@ -1,0 +1,254 @@
+[
+ {
+  "id": "bld_dwarf_house_classical_medieval_v0",
+  "kind": "house",
+  "category": "Buildings/Dwarf/HousesClassical",
+  "building_type": "House",
+  "race": "dwarf",
+  "ages": [
+   "medieval"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 447,
+  "lod_triangles": [
+   447,
+   236,
+   114
+  ],
+  "bounds": [
+   [
+    -0.4359999895095825,
+    0.0,
+    -0.39800000190734863
+   ],
+   [
+    0.375,
+    0.9580000042915344,
+    0.3434999883174896
+   ]
+  ],
+  "bytes": 63928,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_house_classical_medieval_v1",
+  "kind": "house",
+  "category": "Buildings/Dwarf/HousesClassical",
+  "building_type": "House",
+  "race": "dwarf",
+  "ages": [
+   "medieval"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 675,
+  "lod_triangles": [
+   675,
+   384,
+   206
+  ],
+  "bounds": [
+   [
+    -0.3569999933242798,
+    0.0,
+    -0.3019999861717224
+   ],
+   [
+    0.3610000014305115,
+    0.8752326369285583,
+    0.33250001072883606
+   ]
+  ],
+  "bytes": 98372,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v1.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_medieval_v1.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_house_classical_renaissance_v0",
+  "kind": "house",
+  "category": "Buildings/Dwarf/HousesClassical",
+  "building_type": "House",
+  "race": "dwarf",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 544,
+  "lod_triangles": [
+   544,
+   209,
+   120
+  ],
+  "bounds": [
+   [
+    -0.39100000262260437,
+    0.0,
+    -0.33399999141693115
+   ],
+   [
+    0.3790000081062317,
+    0.7010441422462463,
+    0.3734999895095825
+   ]
+  ],
+  "bytes": 77276,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_renaissance_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_renaissance_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_renaissance_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_house_classical_renaissance_v1",
+  "kind": "house",
+  "category": "Buildings/Dwarf/HousesClassical",
+  "building_type": "House",
+  "race": "dwarf",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 598,
+  "lod_triangles": [
+   598,
+   239,
+   139
+  ],
+  "bounds": [
+   [
+    -0.3970000147819519,
+    0.0,
+    -0.3305000066757202
+   ],
+   [
+    0.37447383999824524,
+    0.6153490543365479,
+    0.3700000047683716
+   ]
+  ],
+  "bytes": 82980,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_renaissance_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_renaissance_v1.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_renaissance_v1.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_house_classical_v0",
+  "kind": "house",
+  "category": "Buildings/Dwarf/HousesClassical",
+  "building_type": "House",
+  "race": "dwarf",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 403,
+  "lod_triangles": [
+   403,
+   228,
+   122
+  ],
+  "bounds": [
+   [
+    -0.40450000762939453,
+    0.0,
+    -0.4715000092983246
+   ],
+   [
+    0.40450000762939453,
+    0.5189999938011169,
+    0.3880000114440918
+   ]
+  ],
+  "bytes": 63152,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_house_classical_v1",
+  "kind": "house",
+  "category": "Buildings/Dwarf/HousesClassical",
+  "building_type": "House",
+  "race": "dwarf",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 457,
+  "lod_triangles": [
+   457,
+   260,
+   144
+  ],
+  "bounds": [
+   [
+    -0.38350000977516174,
+    0.0,
+    -0.4415000081062317
+   ],
+   [
+    0.38999998569488525,
+    0.5690000057220459,
+    0.34700000286102295
+   ]
+  ],
+  "bytes": 71228,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_v1.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/HousesClassical/bld_dwarf_house_classical_v1.png"
+  }
+ }
+]

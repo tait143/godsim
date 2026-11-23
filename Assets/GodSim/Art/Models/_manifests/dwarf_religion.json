@@ -1,0 +1,668 @@
+[
+ {
+  "id": "bld_dwarf_cathedral_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Religion",
+  "building_type": "Cathedral",
+  "race": "dwarf",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1344,
+  "lod_triangles": [
+   1344,
+   794,
+   369
+  ],
+  "bounds": [
+   [
+    -1.3650000095367432,
+    0.0,
+    -1.3650000095367432
+   ],
+   [
+    1.3650000095367432,
+    2.0339999198913574,
+    1.3650000095367432
+   ]
+  ],
+  "bytes": 180592,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Religion/bld_dwarf_cathedral_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_cathedral_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_cathedral_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_cathedral_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_cathedral_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Religion",
+  "building_type": "Cathedral",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 672,
+  "lod_triangles": [
+   672,
+   374,
+   206
+  ],
+  "bounds": [
+   [
+    -1.3125,
+    0.0,
+    -1.3634999990463257
+   ],
+   [
+    1.3125,
+    2.739000082015991,
+    1.3274999856948853
+   ]
+  ],
+  "bytes": 100676,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Religion/bld_dwarf_cathedral_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_cathedral_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_cathedral_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_cathedral_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_cathedral_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Religion",
+  "building_type": "Cathedral",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 814,
+  "lod_triangles": [
+   814,
+   390,
+   180
+  ],
+  "bounds": [
+   [
+    -1.350000023841858,
+    0.0,
+    -1.2105000019073486
+   ],
+   [
+    1.350000023841858,
+    2.565000057220459,
+    1.3244999647140503
+   ]
+  ],
+  "bytes": 106724,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Religion/bld_dwarf_cathedral_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_cathedral_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_cathedral_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_cathedral_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_monastery_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Religion",
+  "building_type": "Monastery",
+  "race": "dwarf",
+  "ages": [
+   "medieval",
+   "renaissance",
+   "classical"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1408,
+  "lod_triangles": [
+   1408,
+   770,
+   320
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.875
+   ],
+   [
+    0.925000011920929,
+    1.1080000400543213,
+    0.875
+   ]
+  ],
+  "bytes": 178320,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Religion/bld_dwarf_monastery_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_monastery_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_monastery_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_monastery_classical_v0__renaissance.png",
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_monastery_classical_v0__classical.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_monastery_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Religion",
+  "building_type": "Monastery",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1208,
+  "lod_triangles": [
+   1208,
+   620,
+   266
+  ],
+  "bounds": [
+   [
+    -0.9100000262260437,
+    0.0,
+    -0.8799999952316284
+   ],
+   [
+    0.9100000262260437,
+    1.1469999551773071,
+    0.8799999952316284
+   ]
+  ],
+  "bytes": 155992,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Religion/bld_dwarf_monastery_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_monastery_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_monastery_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_monastery_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_monastery_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Religion",
+  "building_type": "Monastery",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 953,
+  "lod_triangles": [
+   953,
+   508,
+   202
+  ],
+  "bounds": [
+   [
+    -0.9399999976158142,
+    0.0,
+    -0.8199999928474426
+   ],
+   [
+    0.9399999976158142,
+    1.559999942779541,
+    0.8600000143051147
+   ]
+  ],
+  "bytes": 127392,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Religion/bld_dwarf_monastery_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_monastery_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_monastery_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_monastery_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_shrine_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Religion",
+  "building_type": "Shrine",
+  "race": "dwarf",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 832,
+  "lod_triangles": [
+   832,
+   474,
+   204
+  ],
+  "bounds": [
+   [
+    -0.41499999165534973,
+    0.0,
+    -0.45500001311302185
+   ],
+   [
+    0.41499999165534973,
+    0.5789999961853027,
+    0.375
+   ]
+  ],
+  "bytes": 115956,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Religion/bld_dwarf_shrine_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_shrine_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_shrine_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_shrine_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_shrine_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Religion",
+  "building_type": "Shrine",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 662,
+  "lod_triangles": [
+   662,
+   340,
+   141
+  ],
+  "bounds": [
+   [
+    -0.4325000047683716,
+    0.0,
+    -0.4334999918937683
+   ],
+   [
+    0.4325000047683716,
+    0.4979729950428009,
+    0.4169999957084656
+   ]
+  ],
+  "bytes": 89324,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Religion/bld_dwarf_shrine_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_shrine_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_shrine_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_shrine_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_shrine_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_shrine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Religion",
+  "building_type": "Shrine",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 482,
+  "lod_triangles": [
+   482,
+   276,
+   144
+  ],
+  "bounds": [
+   [
+    -0.42750000953674316,
+    0.0,
+    -0.39750000834465027
+   ],
+   [
+    0.42750000953674316,
+    0.7699999809265137,
+    0.4124999940395355
+   ]
+  ],
+  "bytes": 73944,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Religion/bld_dwarf_shrine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_shrine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_shrine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_shrine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_shrine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Religion",
+  "building_type": "Shrine",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 679,
+  "lod_triangles": [
+   679,
+   406,
+   170
+  ],
+  "bounds": [
+   [
+    -0.45500001311302185,
+    0.0,
+    -0.39750000834465027
+   ],
+   [
+    0.45500001311302185,
+    0.6800000071525574,
+    0.3824999928474426
+   ]
+  ],
+  "bytes": 95560,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Religion/bld_dwarf_shrine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_shrine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_shrine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_shrine_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_spirit_totem_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Religion",
+  "building_type": "SpiritTotem",
+  "race": "dwarf",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 468,
+  "lod_triangles": [
+   468,
+   266,
+   150
+  ],
+  "bounds": [
+   [
+    -0.33250001072883606,
+    0.0,
+    -0.3375000059604645
+   ],
+   [
+    0.33250001072883606,
+    0.7235000133514404,
+    0.29249998927116394
+   ]
+  ],
+  "bytes": 71548,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Religion/bld_dwarf_spirit_totem_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_spirit_totem_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_spirit_totem_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_spirit_totem_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_spirit_totem_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_temple_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Religion",
+  "building_type": "Temple",
+  "race": "dwarf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 952,
+  "lod_triangles": [
+   952,
+   546,
+   228
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.9279999732971191
+   ],
+   [
+    0.9200000166893005,
+    1.2869999408721924,
+    0.8550000190734863
+   ]
+  ],
+  "bytes": 131164,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Religion/bld_dwarf_temple_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_temple_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_temple_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_temple_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Religion",
+  "building_type": "Temple",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 998,
+  "lod_triangles": [
+   998,
+   488,
+   180
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8450000286102295
+   ],
+   [
+    0.925000011920929,
+    1.1277040243148804,
+    0.8870000243186951
+   ]
+  ],
+  "bytes": 132240,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Religion/bld_dwarf_temple_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_temple_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_temple_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_temple_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_temple_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_temple_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Religion",
+  "building_type": "Temple",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1056,
+  "lod_triangles": [
+   1056,
+   600,
+   307
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.8389999866485596
+   ],
+   [
+    0.9300000071525574,
+    1.6330000162124634,
+    0.890999972820282
+   ]
+  ],
+  "bytes": 149084,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Religion/bld_dwarf_temple_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_temple_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_temple_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_temple_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_temple_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/Religion",
+  "building_type": "Temple",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1144,
+  "lod_triangles": [
+   1144,
+   686,
+   242
+  ],
+  "bounds": [
+   [
+    -0.9350000023841858,
+    0.0,
+    -0.8579999804496765
+   ],
+   [
+    0.9350000023841858,
+    1.6200000047683716,
+    0.8820000290870667
+   ]
+  ],
+  "bytes": 152464,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Religion/bld_dwarf_temple_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_temple_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_temple_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Religion/bld_dwarf_temple_industrial_v0__modern.png"
+  }
+ }
+]

@@ -1,0 +1,422 @@
+[
+ {
+  "id": "bld_orc_town_center_ancient_bronze_v0",
+  "kind": "townhall",
+  "category": "Buildings/Orc/TownCenters",
+  "building_type": "TownCenter",
+  "race": "orc",
+  "ages": [
+   "bronze"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1018,
+  "lod_triangles": [
+   1018,
+   516,
+   275
+  ],
+  "bounds": [
+   [
+    -0.8349999785423279,
+    0.0,
+    -0.7630000114440918
+   ],
+   [
+    0.9350000023841858,
+    1.5149999856948853,
+    0.8704549074172974
+   ]
+  ],
+  "bytes": 171532,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/TownCenters/bld_orc_town_center_ancient_bronze_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_ancient_bronze_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_ancient_bronze_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_town_center_ancient_iron_v0",
+  "kind": "townhall",
+  "category": "Buildings/Orc/TownCenters",
+  "building_type": "TownCenter",
+  "race": "orc",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 998,
+  "lod_triangles": [
+   998,
+   458,
+   259
+  ],
+  "bounds": [
+   [
+    -0.8035200238227844,
+    0.0,
+    -0.6129999756813049
+   ],
+   [
+    0.7649999856948853,
+    1.523229956626892,
+    0.47122007608413696
+   ]
+  ],
+  "bytes": 155664,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/TownCenters/bld_orc_town_center_ancient_iron_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_ancient_iron_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_ancient_iron_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_town_center_ancient_v0",
+  "kind": "townhall",
+  "category": "Buildings/Orc/TownCenters",
+  "building_type": "TownCenter",
+  "race": "orc",
+  "ages": [
+   "dawn"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 766,
+  "lod_triangles": [
+   766,
+   327,
+   221
+  ],
+  "bounds": [
+   [
+    -0.7770000100135803,
+    0.0,
+    -0.8149999976158142
+   ],
+   [
+    0.7730000019073486,
+    1.3919999599456787,
+    0.6480000019073486
+   ]
+  ],
+  "bytes": 121404,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/TownCenters/bld_orc_town_center_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_town_center_classical_medieval_v0",
+  "kind": "townhall",
+  "category": "Buildings/Orc/TownCenters",
+  "building_type": "TownCenter",
+  "race": "orc",
+  "ages": [
+   "medieval"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1288,
+  "lod_triangles": [
+   1288,
+   616,
+   335
+  ],
+  "bounds": [
+   [
+    -0.9355706572532654,
+    0.0,
+    -0.7630000114440918
+   ],
+   [
+    0.7714394330978394,
+    1.975000023841858,
+    0.8490102291107178
+   ]
+  ],
+  "bytes": 210796,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/TownCenters/bld_orc_town_center_classical_medieval_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_classical_medieval_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_classical_medieval_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_town_center_classical_renaissance_v0",
+  "kind": "townhall",
+  "category": "Buildings/Orc/TownCenters",
+  "building_type": "TownCenter",
+  "race": "orc",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1138,
+  "lod_triangles": [
+   1138,
+   452,
+   259
+  ],
+  "bounds": [
+   [
+    -0.8485000133514404,
+    0.0,
+    -0.8939999938011169
+   ],
+   [
+    0.8184999823570251,
+    1.5169999599456787,
+    0.6735000014305115
+   ]
+  ],
+  "bytes": 158156,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/TownCenters/bld_orc_town_center_classical_renaissance_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_classical_renaissance_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_classical_renaissance_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_town_center_classical_v0",
+  "kind": "townhall",
+  "category": "Buildings/Orc/TownCenters",
+  "building_type": "TownCenter",
+  "race": "orc",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1340,
+  "lod_triangles": [
+   1340,
+   730,
+   351
+  ],
+  "bounds": [
+   [
+    -0.9369999766349792,
+    0.0,
+    -0.7630000114440918
+   ],
+   [
+    0.9369999766349792,
+    1.3535000085830688,
+    0.8821879029273987
+   ]
+  ],
+  "bytes": 232928,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/TownCenters/bld_orc_town_center_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_town_center_future_ascension_v0",
+  "kind": "townhall",
+  "category": "Buildings/Orc/TownCenters",
+  "building_type": "TownCenter",
+  "race": "orc",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1470,
+  "lod_triangles": [
+   1470,
+   804,
+   419
+  ],
+  "bounds": [
+   [
+    -0.9116576910018921,
+    0.0,
+    -0.7630000114440918
+   ],
+   [
+    0.9116576910018921,
+    1.6650500297546387,
+    0.8821879029273987
+   ]
+  ],
+  "bytes": 260116,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/TownCenters/bld_orc_town_center_future_ascension_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_future_ascension_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_future_ascension_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_town_center_future_v0",
+  "kind": "townhall",
+  "category": "Buildings/Orc/TownCenters",
+  "building_type": "TownCenter",
+  "race": "orc",
+  "ages": [
+   "information"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1033,
+  "lod_triangles": [
+   1033,
+   519,
+   276
+  ],
+  "bounds": [
+   [
+    -0.8349999785423279,
+    0.0,
+    -0.7630000114440918
+   ],
+   [
+    0.836657702922821,
+    1.7699999809265137,
+    0.8704549074172974
+   ]
+  ],
+  "bytes": 174868,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/TownCenters/bld_orc_town_center_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_future_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_town_center_industrial_modern_v0",
+  "kind": "townhall",
+  "category": "Buildings/Orc/TownCenters",
+  "building_type": "TownCenter",
+  "race": "orc",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1328,
+  "lod_triangles": [
+   1328,
+   726,
+   331
+  ],
+  "bounds": [
+   [
+    -0.9210000038146973,
+    0.0,
+    -0.7630000114440918
+   ],
+   [
+    0.9210000038146973,
+    1.243499994277954,
+    0.8490102291107178
+   ]
+  ],
+  "bytes": 230608,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/TownCenters/bld_orc_town_center_industrial_modern_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_industrial_modern_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_industrial_modern_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_town_center_industrial_v0",
+  "kind": "townhall",
+  "category": "Buildings/Orc/TownCenters",
+  "building_type": "TownCenter",
+  "race": "orc",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1151,
+  "lod_triangles": [
+   1151,
+   569,
+   281
+  ],
+  "bounds": [
+   [
+    -0.8349999785423279,
+    0.0,
+    -0.7630000114440918
+   ],
+   [
+    0.836657702922821,
+    1.5099999904632568,
+    0.8704549074172974
+   ]
+  ],
+  "bytes": 192524,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/TownCenters/bld_orc_town_center_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/TownCenters/bld_orc_town_center_industrial_v0.png"
+  }
+ }
+]

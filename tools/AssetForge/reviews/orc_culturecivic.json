@@ -1,0 +1,631 @@
+{
+  "package": "orc_culturecivic",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Independent Orc civic critic, builder session 2 / fort",
+      "models": [
+        {
+          "id": "bld_orc_arcology_future_v0",
+          "evidence_sha256": "5130dea51e0cdb14d1cbf5246ff5d14538112cb2bb0b4f7b772eae18325a89a6",
+          "observations": "Pale cantilever terraces step inward to blue glazing and a gold halo. Curved outer braces support the crown, but at 64 px the bands of blue and green dominate the clan motifs. Serialized LOD counts 1352, 764, 388.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 83,
+            "construction": 95,
+            "charm": 88,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Integrate a large painted clan brow or crest framed by curved ivory tusks into the front silhouette so the Orc identity survives 64 px."
+          ]
+        },
+        {
+          "id": "bld_orc_arena_classical_v0",
+          "evidence_sha256": "12151ef1dee8e2b9de99c6700828ec98e9f420e9f829e03a59d10f20388efdfb",
+          "observations": "The shaded box and four hooked rim horns outline an open ring. Gray, brown and warm masonry separate the three ages; the entry break remains legible against the unpaved fighting floor. Serialized LOD counts 1355, 764, 325.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_arena_future_v0",
+          "evidence_sha256": "49bfd0a8d9f398c2ac5e52cbca72de52a81f03bc3ec5f75b388efb80dec1a8c8",
+          "observations": "A raked glass champion\u2019s box rises over the rim, with paired ivory supports distinct from the four crowd-side horns. The blue-gray floor changes to warm metallic paving in Ascension. Serialized LOD counts 1391, 784, 329.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_arena_industrial_v0",
+          "evidence_sha256": "ee435586f5a54175a510a8e26a343291ef7006834897a1c2107213725b6f7915",
+          "observations": "Twin flagstaffs embedded in the upper wall mark the ring\u2019s rear while the public gate cuts through the front. Rust-red masonry gives way to muted gray courses in Modern. Serialized LOD counts 1471, 840, 269.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_campfire_ancient_v0",
+          "evidence_sha256": "9853cf41b45a8da30fbb6d92e32cdb986d2f840e273e5eefd30a5a12b1265973",
+          "observations": "The log benches, stone fire ring, slanting carved horn and yoke drum hold together at 64 px. Dawn, Bronze and Iron retain almost identical reddish-brown wood and bright flames; the Dawn\u2013Iron mean maximum-channel difference is just 3.8/255 over the foreground sample. Serialized LOD counts 697, 395, 171.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 82,
+            "construction": 94,
+            "charm": 94,
+            "colour": 86,
+            "technical": 99
+          },
+          "defects": [
+            "Put a strongly age-varying shared Orc wall or roof patch on a substantial bench surround or broaden the carved totem body to carry an age-sensitive surface; compare all three ages side by side at 64 px."
+          ]
+        },
+        {
+          "id": "bld_orc_campfire_classical_v0",
+          "evidence_sha256": "b253fc6ee8811090a6d381595d1e044f34f1669f8e42dfb4abbf5ae7f95221a8",
+          "observations": "Opposed carved stone benches and a tusk-ended lintel frame the orange hearth. The red votive cloth under the lintel carries a crisp pale glyph. Serialized LOD counts 683, 464, 181.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_forum_classical_v0",
+          "evidence_sha256": "953b973c0421019a280329327cf5615f85fc0f291f2d404b50dad66b6b6aaf3c",
+          "observations": "A speaking dais sits between the drum and brazier inside a red-roofed gallery. The front approach reaches the plinth in LOD0, but the isolated lowest tread is stranded ahead of it at distance. Serialized LOD counts 1114, 682, 345.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 86,
+            "charm": 94,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Keep the rearmost front stair against the plinth in LOD1 and LOD2; replace the three-tread run with one or two deeper connected steps."
+          ]
+        },
+        {
+          "id": "bld_orc_forum_future_v0",
+          "evidence_sha256": "5941f6b35c0da9abbd3012b756e4d160a9aba76971f0ea5dd80f0e74ed04ba8f",
+          "observations": "Glazed gallery roofs and ivory braces shade the pale speaker circle and red diamond standard. Gold uprights read distinctly in Ascension. The simplified front steps end before the plinth. Serialized LOD counts 1170, 722, 369.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 86,
+            "charm": 94,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Keep the rearmost front stair against the plinth in LOD1 and LOD2; replace the three-tread run with one or two deeper connected steps."
+          ]
+        },
+        {
+          "id": "bld_orc_forum_industrial_v0",
+          "evidence_sha256": "afc0ba7509c4417d92da9eb3b87d07f3a87a5aa5c53b3404b0f9b6c237fefc16",
+          "observations": "The pennant, slate canopy and brick gable differentiate the industrial court. The lectern and brazier remain distinct at phone size. The LOD2 preview from a lower angle confirms a detached stair in front of the court. Serialized LOD counts 1140, 708, 345.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 86,
+            "charm": 94,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Keep the rearmost front stair against the plinth in LOD1 and LOD2; replace the three-tread run with one or two deeper connected steps."
+          ]
+        },
+        {
+          "id": "bld_orc_stadium_future_v0",
+          "evidence_sha256": "4a48d79754028f28e268fb816b4ae59e3602e1a5de904ef1abec394e21e0efd5",
+          "observations": "Twin blue grandstand roofs flank the green sports field, with the front gate, field stripe and short goals remaining distinct. Gold gate members and warmer translucent shoulders pick out Ascension. Serialized LOD counts 1397, 932, 413.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_stadium_industrial_v0",
+          "evidence_sha256": "09ed156446422786bc4ae9c86f1168d18d96210c0eee4446a15f754619782848",
+          "observations": "The long gray sideline shelters and green striped field separate this stadium from the circular arena. A painted gate crest and crimson outer aprons retain its civic affiliation. Serialized LOD counts 1397, 932, 413.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_tavern_classical_v0",
+          "evidence_sha256": "366adfe105f4ecbafb873ccda79518f30b0c4a64ae1f0967ce493011f18869e6",
+          "observations": "Conical striped roof, paired tusks and a slightly offset flue define the tavern. The hanging keg sign and pair of barrels mark the covered serving door; tile and masonry lighten noticeably in Renaissance. Serialized LOD counts 895, 485, 245.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 96,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_tavern_future_v0",
+          "evidence_sha256": "787d339881f37a3a8e2de2fffe15f84db0abc48414d9f2e07484fbc55ba40948",
+          "observations": "The low white plated roof keeps the red hide-strip rhythm. Blue vents, a glazed porch, twin drinking casks and a round hanging sign preserve the use and the age. Serialized LOD counts 928, 501, 261.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_tavern_industrial_v0",
+          "evidence_sha256": "ca24ccc0ad4ca3c6f312025b4a9548cbcc71d6f06e1c9e4e86991fd1addda8ba",
+          "observations": "A red-brick chimney lifts above the dark plate roof, with a pale muzzle of paired tusks and barrel sign above the street-facing kegs. Brick courses soften to gray in Modern. Serialized LOD counts 919, 492, 245.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_theater_classical_v0",
+          "evidence_sha256": "abf8b89a89bad822044a8fa454a999398bb4b41eeb0f0c07745c233d95f62878",
+          "observations": "Age-shifted seating frames a raised timber stage with parted curtains and a painted chorus drum. When seen from its rear the drum becomes an empty ring with seating visible through it. Serialized LOD counts 998, 653, 310.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 82,
+            "charm": 93,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Close the rear face of the tilted chorus drum with a correctly wound hide or timber end panel in all three LODs."
+          ]
+        },
+        {
+          "id": "bld_orc_theater_future_v0",
+          "evidence_sha256": "1706d4df3801a7b77e1348d67cd82cb120868579177c1cf45379f68beefc6db0",
+          "observations": "Blue reflecting canopy and soundboard frame the red finials and ceremonial drum. The large soundboard shell lacks a back plate on the +Z side; its rear interior is visible through the rim. Serialized LOD counts 998, 653, 310.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 82,
+            "charm": 93,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "Close the rear face of the tilted chorus drum with a correctly wound plate in all three LODs."
+          ]
+        },
+        {
+          "id": "bld_orc_theater_industrial_v0",
+          "evidence_sha256": "75a170ed98d2d099829ad69de4b14936875b37dbf71e94ab76e217b40bc66b17",
+          "observations": "Two raked lamps light the freestanding chorus drum and open stage above the red-brick auditorium. The rear drum opening exposes the narrow mounting post in the otherwise empty disk. Serialized LOD counts 934, 573, 234.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 82,
+            "charm": 93,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Close the rear face of the tilted chorus drum with a correctly wound hide or timber end panel in all three LODs."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Independent Orc civic critic, builder session 2 / fort",
+      "models": [
+        {
+          "id": "bld_orc_arcology_future_v0",
+          "evidence_sha256": "2947e6e75149668f18dc44987d3661d71ea8e6adf1e7f42b9313164bd98de73a",
+          "observations": "The red diamond standard is now large enough to pick out the entry at 64 px. Curved ivory cheek pieces and a gold suspension beam tie the clan emblem into the ascending garden balconies. Serialized LOD counts 1462/854/462.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_campfire_ancient_v0",
+          "evidence_sha256": "0a1b65af418c3d1769512b2ce57e1c0606a2e78b1d9defd009e6a5ea455094a2",
+          "observations": "The hearth sits on a warm raised court between backed log benches. Straw-toned Dawn timber, amber Bronze courses and dark gray Iron stone now occupy enough of the phone silhouette to distinguish the rows. The votive horn and red drum survive. Serialized LOD counts 771/460/230.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_forum_classical_v0",
+          "evidence_sha256": "c50c3ccbd954dada0d6455dd3d851d47eca210f4f995a62529e3906c23e1c55b",
+          "observations": "Both low-detail stairs meet the gallery plinth in the shallow front view. The landing, speaking drum and covered court remain legible under warm tile or gray stone. Serialized LOD counts 1114/682/345.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_forum_future_v0",
+          "evidence_sha256": "6b4455e4f9b09bf876eab9762a6521a3a2f1e597717984beb1bf6cca7aa58da9",
+          "observations": "Both simplified approaches now terminate against the glazed court at its speaker axis. Gold uprights, blue canopy and the horn-ended side galleries retain the future clan treatment. Serialized LOD counts 1170/722/369.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_forum_industrial_v0",
+          "evidence_sha256": "20bb3a398a835cb58bace1022b93f52c1ff805b8b20e4b23f804cafecee9b489",
+          "observations": "The extended steps make a continuous approach to the brick and steel gallery across all LODs. The front view confirms the reduced single landing touches the podium. Serialized LOD counts 1140/708/345.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_theater_classical_v0",
+          "evidence_sha256": "378f071205198c7cf62471a1d10a954838d3865831da52ad2e380adcc93ee983",
+          "observations": "The circular soundboard has a continuous timber rear surface around its mounting post at all three LODs. The hide face, painted marks and parted curtains still read from the audience. Serialized LOD counts 1010/661/314.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_theater_future_v0",
+          "evidence_sha256": "c96f6787e0a8adc5635f420431a84ee17bab1f5c5ba2612f64e100ca0a376894",
+          "observations": "The new rear plate closes the glazed chorus disk behind the post across all three meshes. The gold rim and cool blue soundboard retain a clear silhouette against the warm seating. Serialized LOD counts 1010/661/314.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_theater_industrial_v0",
+          "evidence_sha256": "04babab2313adddd066604f25f878b0398a3588107cb2510260d9f1241d642b2",
+          "observations": "Rear views of all three meshes now show a solid plate and the stage-mounted support. The horned lighting masts, earthen tiers and painted face remain readable from the audience. Serialized LOD counts 946/581/238.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Orc model critic, RC2 round 1",
+      "method": "Inspected saved age previews, rendered serialized LOD0, LOD1 and LOD2, and compared neutral 64px geometry at 215 and 145 degrees. Independently checked package metadata, GLB streams, exposed coplanar faces, inverted shells and repeated meshes. Compared all ordered era pairs in the 14 directed families.",
+      "models": [
+        {
+          "id": "bld_orc_campfire_classical_v0",
+          "evidence_sha256": "acff05520ae73f8d5cca3f6a9c85b2fc32f0650611402d1f8f51731d4ef5ef27",
+          "observations": "The horizontal horn-tipped cooking beam brings a different top line to the fire and two benches. At LOD1 a dark hanging pennant still shows against the bright flame. LOD2 keeps the wood pile between the stone seats.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_forum_classical_v0",
+          "evidence_sha256": "7d068de9aabaf4f9c301a760f638d38137fb949baf300ec544caa44902246b5c",
+          "observations": "Two tile-covered returns frame an open paved gathering floor. The central round platform and stair stay clear of the column line and carry across LOD1. The medieval tile shade still separates from the stone.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_forum_future_v0",
+          "evidence_sha256": "8a1f0a054882c2b47a0f5000f09b67ce1a7f3b27947641face64ad33f5426250",
+          "observations": "Blue roof strips and white paving brighten the court in Information. Without paint the same returning colonnade, low circular dais, forecourt stair and horn occupy the industrial positions. The reduced columns still carry the roof.",
+          "scores": {
+            "silhouette": 90,
+            "identity": 82,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Change the future assembly layout, canopy or dais so it has a distinct Orc civic silhouette from both earlier eras at 64px."
+          ]
+        },
+        {
+          "id": "bld_orc_forum_industrial_v0",
+          "evidence_sha256": "f33ef833f5595374bce0432ce18ccbd8a06fc112768f12035978c28076932eb5",
+          "observations": "The brick and slate court gains a small back flag. Its long returning roof, paired end bays, round dais and central stairs give the same gray plan and skyline as classical. LOD1 has a complete colonnade.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 83,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the industrial public hall an independent gallery, roof span or civic monument with meaningful height or negative space."
+          ]
+        },
+        {
+          "id": "bld_orc_stadium_future_v0",
+          "evidence_sha256": "24ec1c25441c084782704f86e2d3327f95ab399efdf26fdfcc6055dfd5bb2032",
+          "observations": "Information turns the side canopies cyan, but in gray the entrance gap, curved bowl, tier count and opposing canopies match the industrial stadium from both angles. LOD1 has a continuous bowl and unobstructed gate.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 80,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Change the future stadium's seating section, roof span or stadium entrance enough to distinguish it in gray at 64px."
+          ]
+        },
+        {
+          "id": "bld_orc_stadium_industrial_v0",
+          "evidence_sha256": "0522667e5f5aa24031607263d678d5a361d548b015ea0789a9454605e978f2a2",
+          "observations": "An open entrance cuts the circular brick bowl and reveals the green field. The two shelters oppose one another over the curved tiers. Both shelters and the opening stay readable at intermediate detail.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_theater_classical_v0",
+          "evidence_sha256": "ea9896b89d24cb5a6002f8cfcf8be97c17e685c0df90dfc245af7e90d5b248a7",
+          "observations": "Two little roofed posts frame a circular stage backdrop, with separate arcs of benches leaving a front passage. The paired posts remain attached at LOD1. The curved seating and stage separation hold after the small ornaments disappear.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_theater_future_v0",
+          "evidence_sha256": "1d7144a484764d05210f2e9f91707e00c2314c216b39f9b91a9e08c040c06b2a",
+          "observations": "A double arch above the broad open stage replaces the industrial fly tower. The two low audience platforms stay separate and the little front approach stays open. The simplified mesh keeps the spanning arches with both ends seated.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_theater_industrial_v0",
+          "evidence_sha256": "1676a59e7fee571f2aff8587116e444e374dd00476b5379e9d990799294ef4af",
+          "observations": "A high roofed stage wall and shorter side house overlook straight bench rows. The gold stage disc breaks up the tall brick front. The central stage, connected roof and open foreground aisle stay readable at LOD1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_orc_forum_future_v0",
+          "evidence_sha256": "743cf77fe7f493d49a6fc38015ed3b0f49bbe6182b93ebf14544f0bbd5d6e670",
+          "observations": "A broad circular dais and separated curved rows face a tall faceted canopy, with tusks set into the outer wall. The neutral profile distinguishes this assembly space from the straight Industrial hall. The canopy foot, dais and striking seating curve all remain in the middle mesh.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            758,
+            417,
+            186
+          ]
+        },
+        {
+          "id": "bld_orc_forum_industrial_v0",
+          "evidence_sha256": "388adb351798295f53986cd688d93d0650cccb8f3f52ba3bc85a56bf4b5b97b0",
+          "observations": "The civic clock tower rises at one end of a long brick hall and two banks of seating face its small speaking platform. The tower and open gathering side remain visible without paint, unlike the low Classical gallery. The LOD1 wall, roof, platform and tower all meet cleanly.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            693,
+            326,
+            211
+          ]
+        },
+        {
+          "id": "bld_orc_stadium_future_v0",
+          "evidence_sha256": "36f1ed84ff4e2fbb13fdb0349bc844302c7085cbbf4558e861f90698d9982025",
+          "observations": "A rectangular pitch has a single swept canopy and a separate scoreboard on two posts. The open short end, angular stand and flat field depart from the Industrial enclosed ring in grey. Both roof bearings and scoreboard posts stay attached at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            820,
+            446,
+            262
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_orc_campfire_classical_v0",
+          "evidence_sha256": "992cfb3cea67277832388a24154cef2bfd188b643d1689ac653fe4eec3d86bed",
+          "observations": "The horned crossbeam retains both uprights behind the flame and stone ring. The paired benches still have continuous seats and legs on either side.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            683,
+            388,
+            181
+          ]
+        },
+        {
+          "id": "bld_orc_theater_classical_v0",
+          "evidence_sha256": "ea039065323fb5cef895ee073016686fc35a21ddb345fb03917848164ed66e0b",
+          "observations": "The central stage disc loses its emblem at distance but stays securely framed by the two side canopies. The curved seating, stage platform and support behind the disc remain intact.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1010,
+            575,
+            314
+          ]
+        }
+      ]
+    }
+  ]
+}

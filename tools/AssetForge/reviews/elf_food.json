@@ -1,0 +1,773 @@
+{
+  "package": "elf_food",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Independent Elf Food critic",
+      "models": [
+        {
+          "id": "bld_elf_farm_ancient_v0",
+          "evidence_sha256": "94ce38232602f08d899ef8b6c13d3c95e099134c31d59c1ebb111adb4cccd477",
+          "observations": "The thatch grain store, curved green and straw rows, and two pod lamps remain legible in the Dawn, Bronze and Iron views. On the broad brown plot, the lone blades read as a chain of loose triangular pieces. GLB and manifest validated at 1420/460/191 triangles.",
+          "scores": {
+            "silhouette": 90,
+            "identity": 92,
+            "construction": 87,
+            "charm": 90,
+            "colour": 91,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the root of each crop blade in the bed, or run a continuous raised ridge of soil beneath it. The leaf ends currently start above the flat soil."
+          ]
+        },
+        {
+          "id": "bld_elf_farm_classical_v0",
+          "evidence_sha256": "ecbeda2796e58b5c381646eb868ab937b71c0414e86da3c63078f3341d78204a",
+          "observations": "The leaf-roof hall and straw granary stay prominent as the house goes from pale stone through timber to warm plaster. The two-colour field is readable at 64 pixels, although its high individual leaves do not meet the soil. GLB and manifest validated at 1420/460/191 triangles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 93,
+            "construction": 87,
+            "charm": 90,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the root of each crop blade in the bed, or run a continuous raised ridge of soil beneath it. The leaf ends currently start above the flat soil."
+          ]
+        },
+        {
+          "id": "bld_elf_farm_future_v0",
+          "evidence_sha256": "0276361eb1917f1792b68c7bcd2e011a6a64c6204d5bed939629be92a1c038cf",
+          "observations": "Twin blue-capped silos beside the silver hall carry the Information silhouette into Ascension, where the silo bodies turn gold. The plantings form three disconnected rows above the bed. GLB and manifest validated at 1424/544/216 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 87,
+            "charm": 90,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the root of each crop blade in the bed, or run a continuous raised ridge of soil beneath it. The leaf ends currently start above the flat soil."
+          ]
+        },
+        {
+          "id": "bld_elf_farm_industrial_v0",
+          "evidence_sha256": "069839adcae39dd581dc36413f9c6cd2c72b55f1fbe568c25ef6bda2664d1f64",
+          "observations": "The dark silo, brick-to-pale transition and two-tone field can be distinguished in both views. The crop row nearest the entrance exposes unsupported leaf tips. GLB and manifest validated at 1262/474/187 triangles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 91,
+            "construction": 87,
+            "charm": 90,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the root of each crop blade in the bed, or run a continuous raised ridge of soil beneath it. The leaf ends currently start above the flat soil."
+          ]
+        },
+        {
+          "id": "bld_elf_fishing_hut_ancient_v0",
+          "evidence_sha256": "669bce670949e222ba8754fc556920447e9e4d22c383c6ec9ac3945caec98c9d",
+          "observations": "The pointed canoe and two visible thwarts read separately from the pile-supported wharf. A bent shore derrick suspends its basket over the boat; the lit post and glinting gunwale survive the 64 px reduction. GLB and manifest validated at 815/506/221 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_fishing_hut_classical_v0",
+          "evidence_sha256": "1ca642e00d89b6e57f8646eb5cddbb89043bcde9a8919b252641281dffe8fdcf",
+          "observations": "The tall bent crane frames the deck and leaves the door visible on its right. The Medieval timber and muted hull edge give way to a pale crane and turquoise gunwale in Renaissance. GLB and manifest validated at 815/506/221 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_fishing_hut_future_v0",
+          "evidence_sha256": "f413a150633ad4488f2c911e19ce8de710411a5c54d03a070dac7f5cf2365268",
+          "observations": "The silver pod lamps, blue-topped winch and bow line identify the fishing station even when the hut reduces to its green roof. Gold winch housing and a lighter roof distinguish Ascension. GLB and manifest validated at 897/528/234 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 92,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_fishing_hut_industrial_v0",
+          "evidence_sha256": "f8d9f1d5ea00b80eb03c91eefb7aeeb98a6c98d1211e8132bac13ce3636b5859",
+          "observations": "The canoe and landing piles remain distinct at 64 px. The dark drum winch is seated at the crane foot; warm industrial walls and cooler modern panels give the hull and walls contrasting values. GLB and manifest validated at 897/528/234 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_gatherer_hut_ancient_v0",
+          "evidence_sha256": "56ee90c0cedf2a29b84085bd23401ae92367669cb62a666e0a181b8a6d7bd0b3",
+          "observations": "The sorting counter sits below a separate, crooked leaf awning. The pink ground basket and yellow tabletop basket stay distinct in all three ages; open space between the supports reads at small size. GLB and manifest validated at 980/556/175 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 95,
+            "construction": 92,
+            "charm": 96,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_hunting_lodge_ancient_v0",
+          "evidence_sha256": "3b311f449a3d1864c23931f3d8562489a571e515445a0723e57ad5cea57751da",
+          "observations": "The hide rack reads in front of the door and the supply basket sits next to it. The two pale branches disappear into opposite sides of the roof and read as disconnected marks on the leaf surface. GLB and manifest validated at 812/484/222 triangles.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 91,
+            "construction": 86,
+            "charm": 86,
+            "colour": 91,
+            "technical": 94
+          },
+          "defects": [
+            "Place the crest on an exposed, joined mounting face ahead of the eaves. Keep both tines and their joined base visible against the wall or sky."
+          ]
+        },
+        {
+          "id": "bld_elf_hunting_lodge_classical_v0",
+          "evidence_sha256": "3ce3c865a00629f56b6f76884f54f1f1234a207d99df694420874caac5cdc2ca",
+          "observations": "The taller Classical canopy conceals almost the entire crest. Tiny white slashes on the terracotta and Medieval eaves do not identify the stag, although the drying frame is visible. GLB and manifest validated at 812/484/222 triangles.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 90,
+            "construction": 86,
+            "charm": 86,
+            "colour": 90,
+            "technical": 94
+          },
+          "defects": [
+            "Place the crest on an exposed, joined mounting face ahead of the eaves. Keep both tines and their joined base visible against the wall or sky."
+          ]
+        },
+        {
+          "id": "bld_elf_hydroponics_tower_future_v0",
+          "evidence_sha256": "9b5805f0744dde3633640aac954245b6366d1627273f30dd687b74520f106b8a",
+          "observations": "Four diminishing green growing galleries and the blue bud cap form a distinct tower at 64 px. Crops sit on the rims around a glazed core; both age renders retain an exposed ground entrance. GLB and manifest validated at 1446/622/273 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 92,
+            "charm": 90,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_industrial_farm_future_v0",
+          "evidence_sha256": "3a7f5d52822aade49ac2a33328fe814b17fb1b431a9085a73f0b3aedc218ea5f",
+          "observations": "Two unequal glass leaves, the collector above the head house and pale plinth differentiate this from a field. Long glazing ribs break into scattered grey marks near the apex of the blue domes. GLB and manifest validated at 1496/922/240 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 87,
+            "charm": 90,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Raise and shape the glazing bars to follow the exterior dome facets throughout. Their centres currently disappear below the blue shell, leaving isolated fragments."
+          ]
+        },
+        {
+          "id": "bld_elf_industrial_farm_industrial_v0",
+          "evidence_sha256": "fc82273b8b00c729bb9e68ed68430ab55052b8dad476dbce0b8825512ce09371",
+          "observations": "The paired glass bays, small leaf-roof service hall and basket distinguish the modern range. Exterior ribs show clear ends and broken central runs across the nearest glazed roof. GLB and manifest validated at 1440/888/218 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 87,
+            "charm": 90,
+            "colour": 91,
+            "technical": 96
+          },
+          "defects": [
+            "Raise and shape the glazing bars to follow the exterior dome facets throughout. Their centres currently disappear below the blue shell, leaving isolated fragments."
+          ]
+        },
+        {
+          "id": "bld_elf_mill_classical_v0",
+          "evidence_sha256": "160c1a3d1ef67c9987e76c7fc7b3d2e182c4e1ea5176b7e848cd4a5c2767b879",
+          "observations": "Five folded flax sails are crisp at phone size and the grain pots flank an arched mill door. The apparent contact between rotor and front eave is a real triangle intersection on the serialized model. GLB and manifest validated at 922/552/176 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 84,
+            "charm": 92,
+            "colour": 92,
+            "technical": 95
+          },
+          "defects": [
+            "Lengthen the horizontal axle and move the complete rotor clear of the front eaves. The serialized rotor-arm triangles intersect the roof shell."
+          ]
+        },
+        {
+          "id": "bld_elf_mill_industrial_v0",
+          "evidence_sha256": "ae216737516c3e6b885371e6793022ca40e1b2afb5e00eb2b0ade6beea933cce",
+          "observations": "The taller brick mill and rear workroom support a clear windmill silhouette. Its front rotor has the same structural interference; serialized arm faces intersect the central forward lip of the roof. GLB and manifest validated at 1428/800/264 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 84,
+            "charm": 92,
+            "colour": 91,
+            "technical": 95
+          },
+          "defects": [
+            "Lengthen the horizontal axle and move the complete rotor clear of the front eaves. The serialized rotor-arm triangles intersect the roof shell."
+          ]
+        },
+        {
+          "id": "bld_elf_pasture_ancient_v0",
+          "evidence_sha256": "d14f6bfd5029d5a7986ac9c2e0facf888577554fc89009693c7d0d44d17e4ece",
+          "observations": "The open grazing ring encloses two distinctly posed deer and a blue trough. The shelter remains subordinate, switching from a warm canopy to a darker Iron one while the ground-level entry remains visible. GLB and manifest validated at 1364/796/381 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 92,
+            "charm": 94,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_pasture_classical_v0",
+          "evidence_sha256": "495d38bee5366af29f9c4da7025840d8b32295d17a05ed062cd514361612a872",
+          "observations": "The two deer stay distinguishable beside the water trough. The open south gate and bent ribs frame the pale hall through the Classical, Medieval and Renaissance roof changes. GLB and manifest validated at 1364/796/381 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 95,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_pasture_future_v0",
+          "evidence_sha256": "56ed50d4d1fa1240578566866938a3b6fb50636c6d8e6fcf05f1bfee527a5039",
+          "observations": "The tank, watering trough, open gate and deer each have separation at native and phone size. Cyan glass and pale fittings frame the shelter; the tank and leaf roof warm to gold in Ascension. GLB and manifest validated at 1434/842/406 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_pasture_industrial_v0",
+          "evidence_sha256": "df7d046e05f13391da9473a7a2660845c6527f66bcab7ab593a6667fa2e5368e",
+          "observations": "A glazed-cap feeder and metal rails replace the earlier pen fittings. Two differently oriented animals and a water trough occupy the clear foreground in both the brick and concrete ages. GLB and manifest validated at 1434/842/406 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 92,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Independent Elf Food critic",
+      "models": [
+        {
+          "id": "bld_elf_farm_ancient_v0",
+          "evidence_sha256": "5d34aaf7596a8b73077eef2b25c92332dfebd1538fe00510e3f6a04dda7c54df",
+          "observations": "All three materials show the planted green and straw blades meeting the earth along the three curved beds; the fruit pot and grain store stay visible. GLB and manifest validated at 1420/460/191 triangles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 92,
+            "construction": 92,
+            "charm": 90,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_farm_classical_v0",
+          "evidence_sha256": "a7e99bdd0c50b75769948e89cc7366b27b45f1b0d2a64665876c2bd9980fb6c2",
+          "observations": "The blades now root inside the shared bed and the curved harvest rows remain distinct through the pale, timber and warm-plaster hall changes. GLB and manifest validated at 1420/460/191 triangles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 93,
+            "construction": 92,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_farm_future_v0",
+          "evidence_sha256": "90e491c8f25dedcdec5ebb16f8b039aa61ee3fd17aecfa26d3f71537aba1712d",
+          "observations": "The field now connects to the ground in front of the blue-capped twin silos; the gold storage drums and canopy retain separation in Ascension. GLB and manifest validated at 1424/544/216 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_farm_industrial_v0",
+          "evidence_sha256": "19de635ac6f344863bae3d80257cf16562bec853adde71ee2fc400b5305d1c23",
+          "observations": "Seated roots pick up the arc of the soil platform and the alternating bands define the rows in both industrial brick and modern pale-panel views. GLB and manifest validated at 1262/474/187 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 92,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_hunting_lodge_ancient_v0",
+          "evidence_sha256": "73ddab7571dc094766c490ee5e9b5f941aeff90c2c24ba6cb686aafb7eb5dc46",
+          "observations": "The joined pale antlers now read ahead of the leaf eave through all three age views. A further GLB check measured both rack post bottoms at y=0.01052 on every LOD. GLB and manifest validated at 844/510/236 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 87,
+            "charm": 92,
+            "colour": 91,
+            "technical": 96
+          },
+          "defects": [
+            "Ground both free-standing hide-rack posts with level lower end caps on y=0."
+          ]
+        },
+        {
+          "id": "bld_elf_hunting_lodge_classical_v0",
+          "evidence_sha256": "589780a52c66a91c1ff8a5f70f05b09ffe8fbf63a443593b80027004d42b6071",
+          "observations": "The forward wooden bracket and connected ivory antlers are readable in both older canopies. Both foot caps on the hide rack remain at least 0.01052 tiles above the ground plane across all three levels. GLB and manifest validated at 844/510/236 triangles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 92,
+            "construction": 87,
+            "charm": 91,
+            "colour": 91,
+            "technical": 96
+          },
+          "defects": [
+            "Ground both free-standing hide-rack posts with level lower end caps on y=0."
+          ]
+        },
+        {
+          "id": "bld_elf_industrial_farm_future_v0",
+          "evidence_sha256": "4dd0a4fe089eee8335ea38640532b5621c66ed80980863ff65248fdbb47ee48e",
+          "observations": "Continuous glazing bars trace the two blue leaves from the low front to the crown. The collector remains distinct above the service roof in both age renders. GLB and manifest validated at 1496/858/240 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_industrial_farm_industrial_v0",
+          "evidence_sha256": "d44f0e98c1b45d432168e391c69ad4723a0bd1bf037a0cbcc1985a17a987ed8e",
+          "observations": "The silver structural runs now stay visible across the glass, including the near bay above the paired produce baskets. GLB and manifest validated at 1440/824/218 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 91,
+            "construction": 93,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mill_classical_v0",
+          "evidence_sha256": "85750ac2a142a3747d9dcd626fcac283d03708dc2ab1de0fecbbddd987089424",
+          "observations": "The longer axle carries all five sails clear of the leafy front eave. The active rotor is separated from the roof by at least 0.083 tiles in the checked forward extents on all LODs. GLB and manifest validated at 922/552/176 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mill_industrial_v0",
+          "evidence_sha256": "5653e57ebf6460b42da6c3ae860749f24b7371b16f47b07c4ef488ef5c1aaace",
+          "observations": "The five pale industrial sails turn on an extended shaft ahead of the brick drum. The nearest rotor and eave depth extents are separated on each LOD. GLB and manifest validated at 1428/800/264 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Elf Food critic",
+      "models": [
+        {
+          "id": "bld_elf_hunting_lodge_ancient_v0",
+          "evidence_sha256": "92361bda3da57efcf66a5fd7b3f6b43e7e34db1236cd3e4f87aa937f6b968b48",
+          "observations": "Dawn, Bronze and Iron previews preserve the joined antler crest, stretched hide and basket. Five distinct vertices on each rack foot now lie at y=0 across all three serialized LODs. GLB and manifest validated at 864/530/256 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_hunting_lodge_classical_v0",
+          "evidence_sha256": "e70f9f06b00bbcc3e5c69435e4b7404f554a76ccaa62912957dee86dd8c4a0e2",
+          "observations": "Both Classical and Medieval renders show the full two-post rack below the exposed antler crest. Each post now has five level ground-contact vertices on every LOD. GLB and manifest validated at 864/530/256 triangles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Elf Food art direction critic",
+      "models": [
+        {
+          "id": "bld_elf_farm_ancient_v0",
+          "evidence_sha256": "3de5909941f6a0f53e330cd134c82c105ebf9b8dc4e00c2fe35a42c277fc09bb",
+          "observations": "The exposed field around the plantings changes from umber in Dawn to sandy tan in Bronze and grey-brown in Iron. All three ground colours remain distinguishable side by side at 64 px. The granary and three rows identify the farm even in LOD2, where the leaf clusters simplify to long strips. Serialized LODs validated at 1420/460/191 triangles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 93,
+            "construction": 92,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_pasture_ancient_v0",
+          "evidence_sha256": "898231fe5a152d73cd737780087ea71cca6ce800321a6f508eab48a42523cf94",
+          "observations": "The broad perimeter around the green grazing patch reads as sand in Bronze and grey stone in Iron. The change remains visible around the gate and behind the deer at 64 px on all three LODs. Two deer and a trough occupy the near pen at LOD0 and LOD1. A single deer, trough and fenced green patch carry the pasture into LOD2. Serialized LODs validated at 1410/824/397 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 92,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_hydroponics_tower_future_v0",
+          "evidence_sha256": "f333031d52f8667cb7a206a7cc80466ffe89fd2c5e54c7ba9d248ecf3498b0ce",
+          "observations": "The folded crown changes from dark teal in Information to yellow-green in Ascension. Its broad front face holds that difference at 64 px through LOD2. Four green growing galleries retain their stepped outline around the blue core, with an entrance visible in the pale base. Serialized LODs validated at 1446/622/273 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 92,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_elf_fishing_hut_ancient_v0",
+          "evidence_sha256": "453ee4e8843816cbe7aab44d5208035417486927e73fb67d75e20ae1a4e69a18",
+          "observations": "The hollow skiff is tied alongside the round timber landing. A lamp and the posts identify the sheltered hut entrance above the waterline. Highest outgoing family corner share was 886/2445 (36.2%) with bld_elf_fishing_hut_classical_v0. Checked dawn, bronze, iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 815/464/221. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_fishing_hut_classical_v0",
+          "evidence_sha256": "2d35a4ae8f57c25058a08bcbd44d35494bfef6a21d37fb2953879323912d24af",
+          "observations": "The hollow skiff is tied alongside the round timber landing. A lamp and the posts identify the sheltered hut entrance above the waterline. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 886/2445 (36.2%) with bld_elf_fishing_hut_ancient_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 815/464/221. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the single round landing with a raised net house, two jetties and a hanging net frame."
+          ]
+        },
+        {
+          "id": "bld_elf_hunting_lodge_ancient_v0",
+          "evidence_sha256": "1805c95a4ed13bf6cd5563a0a6312ac16d9aac0cf1089de7a451020648d26e9e",
+          "observations": "A forked antler hangs over the doorway below the leaf roof. A hide rack stands on the forecourt beside a supply basket. Highest outgoing family corner share was 1110/2592 (42.8%) with bld_elf_hunting_lodge_classical_v0. Checked dawn, bronze, iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 864/492/256. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_hunting_lodge_classical_v0",
+          "evidence_sha256": "bb30a9e51d556c4756301b27c56f074773f0bd9e51b726e0bfb1dc3788f6cae3",
+          "observations": "A forked antler hangs over the doorway below the leaf roof. A hide rack stands on the forecourt beside a supply basket. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 1110/2592 (42.8%) with bld_elf_hunting_lodge_ancient_v0. Checked classical, medieval previews, 215° and 145° LOD0/1 views, and serialized LOD counts 864/492/256. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 84,
+            "construction": 92,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Extend a long game-processing porch under a lean-to and shift the antlered entrance to its gabled end."
+          ]
+        },
+        {
+          "id": "bld_elf_industrial_farm_future_v0",
+          "evidence_sha256": "9c97212335e1be443c7306d67f321b008a5851516890f1a00ee422f1fc7ee33d",
+          "observations": "Two unequal growing towers carry rings of planted beds around blue reservoirs. The repeated crop clusters and access hut read in both information and ascension colours. Highest outgoing family corner share was 0/4302 (0.0%) with bld_elf_industrial_farm_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1434/752/284. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent Elf critic — Coordinator repair round 2, first submitted meshes",
+      "models": [
+        {
+          "id": "bld_elf_fishing_hut_classical_v0",
+          "evidence_sha256": "d83067ff7f45c847f8705b93e69051998828ada5ac44d113add1cb3bef1749c2",
+          "observations": "A rigged net hangs visibly between two timber landings. The small skiff occupies the central channel and the raised fishing house retains a clear door off the pier. Compared all 3 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1358/810/354 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_hunting_lodge_classical_v0",
+          "evidence_sha256": "f780377684908810b0a089152fa2f2ff186d7b05ebd866250a2627d72256aeb8",
+          "observations": "The antlered gable marks the stepped entrance to a long roofed lodge. A separate lean-to on posts shelters the game-processing side of the building. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1030/586/294 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent Elf critic — frozen LOD export inspection",
+      "models": [
+        {
+          "id": "bld_elf_fishing_hut_ancient_v0",
+          "evidence_sha256": "9cfd8e75e72962ea7076ce51a5058e202cfe7e5ec9c3fa19955d6cde326f0604",
+          "observations": "The moored skiff lies alongside a raised round landing. The middle mesh retains the front hut opening, dock piles and the boat’s continuous hull from each angle. Opened dawn, bronze, iron previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 815/464/221 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_elf_farm_classical_v0",
+          "evidence_sha256": "2eaee1062f1fc29c79d28aea5bb8484d2b451b368cd352448f49643ce7f177ef",
+          "observations": "Three planted beds climb the stepped field. Repeated hanging purple crops and a tall leaf-shaped arch distinguish this orchard from the low round plots of the adjacent eras. The terraces stay intact from behind. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1214/458/258 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_farm_future_v0",
+          "evidence_sha256": "6ab7b892c1cbe07d1ea004d2c6d961b4457cd2a172fa6fa8514ee75d4a78777f",
+          "observations": "The crop channels run beneath two blue collector panels at the back of an oval plot. The slender frame, crop rows and two pale storage vessels survive the middle LOD; the roofed farmhouse of the earlier ages has gone. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1038/416/296 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 92,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_pasture_classical_v0",
+          "evidence_sha256": "1476913a4e2786664e53584b1f0ac2fad20e3a684554e49d05f3321e13eceffa",
+          "observations": "The paddock uses curved low fences, an arched gateway and a separate raised-roof stock shelter. The animals remain visible from the front and side of the middle model, and the dark door breaks the pale wall. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 820/466/169 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 6.616%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_pasture_future_v0",
+          "evidence_sha256": "2f990c25dbaddd2f6f2f16f550b918fe3576a3e32d4bae84c1576366876cbcd2",
+          "observations": "An umbrella-shaped blue roof on spreading white ribs shades the animal and trough. Small posts mark the open paddock. At the rear the upright cluster and separate trough still explain the layout. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1010/606/220 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 6.616%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_pasture_industrial_v0",
+          "evidence_sha256": "98007ee21a3d6fdfa4c41648eb43f8de7a27e5d6610ae4c92c409117ad24dcf3",
+          "observations": "An open-front, dark-roofed feeding shed places the animals in front of a long manger. The flank view reveals the stall posts and feeding area; the roof and back wall carry through the rear middle view. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 786/448/219 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 6.616%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent RC5 model critic",
+      "models": [
+        {
+          "id": "bld_elf_fishing_hut_future_v0",
+          "evidence_sha256": "7ad4dc69401cc806c546a162cd46d9cd7913dc1865a7ae43526d2c4fb9a5d473",
+          "observations": "The sharply rising folded leaf shelter and the low, open-sided circular fish pen separate from the Industrial cottage and boat in both unpainted 64 px views. The connected platform, separate stair and legs at the pen rim make the height change believable. At authored size the fish are visible against blue water and the diamond lattice recurs around the rim and underneath the pen. At phone size the pen opening and steps carry the fishery read. The green and blue Information shelter takes a gold-green highlight in Ascension. LOD2 keeps both the basin opening and the stepped entrance. Serialized LODs 1094/623/322 passed check_entry. Direct checks found zero exposed coplanar overlaps and zero inverted closed shells.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

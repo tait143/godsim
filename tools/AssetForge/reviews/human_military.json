@@ -1,0 +1,549 @@
+{
+  "package": "human_military",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Session 10 independent CultureCivic builder, military critic",
+      "models": [
+        {
+          "id": "bld_human_barracks_ancient_v0",
+          "evidence_sha256": "7f307f97aafd7db547c42962751e2e25c61af7b9a864d65f79ec20facce1bf07",
+          "observations": "The timber hall, cheek walls and gabled porch read as a Human barracks with the blue muster drum and commission flag. At distance the entire drum disappears and the pitched hall reads as a dwelling. Serialized LOD triangles 1009/473/112. The package check found no exposed coplanar faces.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 90,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Retain a simple blue muster drum on the parade ground at LOD2. A low-sided cylinder with a light top preserves the military marker that disappears in the submitted distant mesh."
+          ]
+        },
+        {
+          "id": "bld_human_barracks_classical_v0",
+          "evidence_sha256": "bbe59d697ad9653abe67aac298bbc7e757dd682d514b8f244df4fafd33a87445",
+          "observations": "The archway, blue shutters and flag frame the large parade drum. The window-lit hall retains its Classical, Medieval and Renaissance surfaces, but loses the recognizable drum at LOD2. Serialized LOD triangles 943/470/105. The package check found no exposed coplanar faces.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 91,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Retain a simple blue muster drum on the parade ground at LOD2. A low-sided cylinder with a light top preserves the military marker that disappears in the submitted distant mesh."
+          ]
+        },
+        {
+          "id": "bld_human_barracks_future_v0",
+          "evidence_sha256": "85d1ad65c5bdf65a6da4d617ad4980133b3c9543e762cfb7aac5a9d02ad56a96",
+          "observations": "The entrance canopy, two blue roof monitors and ribbon glazing identify a later municipal hall. The parade drum signals its military function in LOD0/1; only the narrow flag remains in LOD2. Serialized LOD triangles 677/289/126. The package check found no exposed coplanar faces.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 91,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Retain a simple blue muster drum on the parade ground at LOD2. A low-sided cylinder with a light top preserves the military marker that disappears in the submitted distant mesh."
+          ]
+        },
+        {
+          "id": "bld_human_barracks_industrial_v0",
+          "evidence_sha256": "8dd6643d45668e91a987d07e9239184d543f9d334e8107d946c559945d7e662d",
+          "observations": "A long clerestory and flat entrance hood carry the garrison into the brick/concrete ages. The full-scale drum and fabric flags resolve well against those walls but the drum vanishes in the distant version. Serialized LOD triangles 693/329/126. The package check found no exposed coplanar faces.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 91,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "Retain a simple blue muster drum on the parade ground at LOD2. A low-sided cylinder with a light top preserves the military marker that disappears in the submitted distant mesh."
+          ]
+        },
+        {
+          "id": "bld_human_castle_classical_v0",
+          "evidence_sha256": "24911d175a49799830ff56a2154579fa86d8d062244b3499cd53dcacbd4fd29f",
+          "observations": "The upper keep, alternating conical and open wall towers and low gate court read clearly in all three LODs. Blue gate hangings, roof pennant and lit keep windows give the two warm roof colors a civic identity. Serialized LOD triangles 1648/983/421. The package check found no exposed coplanar faces.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_military_base_future_v0",
+          "evidence_sha256": "bfef88182393f10a19cbd8b37bdd9db5ba93418233279c14f530b350ab153362",
+          "observations": "A directional dish stands on a glazed command post above the detached guard booth. Bollards, a barrier arm and blue signals preserve the front approach. The silver-to-gold cladding reads in both age images. Serialized LOD triangles 847/479/256. The package check found no exposed coplanar faces.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_military_base_industrial_v0",
+          "evidence_sha256": "79f906bb224a07cb829d692c80266fe73d712a572bfd0d0cb765d207e25fb521",
+          "observations": "A command annex with a large receiver, checkpoint and separate gatehouse reads at 64 px. The compact dark roof and lighter Modern wall define its main mass. The gray barrier and blue security drum bracket the entry. Serialized LOD triangles 723/451/204. The package check found no exposed coplanar faces.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_palisade_ancient_v0",
+          "evidence_sha256": "d4af1fa50121a76cd040dc46e0c36b30d3077784d0eef553b5cf8cf1e883ea83",
+          "observations": "Saw cut tips, a framed opening and the single blue standard identify a timber guard barrier. At phone size both Bronze and Iron resolve as virtually the same dark brown wall; their foreground channel difference averaged only 3.7 on a 255-point scale. Serialized LOD triangles 691/403/186. The package check found no exposed coplanar faces.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 84,
+            "construction": 94,
+            "charm": 92,
+            "colour": 87,
+            "technical": 99
+          },
+          "defects": [
+            "Change the broad material selection of the pickets or crosshead to make the Bronze and Iron versions visibly distinct at 64 px while retaining credible timber construction."
+          ]
+        },
+        {
+          "id": "bld_human_palisade_classical_v0",
+          "evidence_sha256": "362cf9223f8a8bbfab6153dc2395588b4381e462fc893ca5acfc9fdeb9c54ed9",
+          "observations": "The taller hipped entry roof, bound wooden poles and hanging royal-blue badge read clearly. Roof and timber take a distinct darker Medieval row. The LOD2 block retains the sawtooth top and actual gateway. Serialized LOD triangles 693/421/160. The package check found no exposed coplanar faces.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_stone_wall_classical_v0",
+          "evidence_sha256": "55b99e3e0559105a7909fa94923af4079b61c003010453dbe429d239cd12006d",
+          "observations": "The crenellated wall has battered supports, raised stone patches, and a blue heraldic hanging beside its arched postern. The warm Renaissance surface and darker Medieval plinth are distinct. Distant merlons and gate preserve the profile. Serialized LOD triangles 361/192/115. The package check found no exposed coplanar faces.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_stone_wall_industrial_v0",
+          "evidence_sha256": "95dd711a3a84c1d236d906465e17b4923dbb38bb73158a710abe822391d1e939",
+          "observations": "The parapet has become a metal coping on brick, with an amber sentinel light and Human pennant at the gate. A projecting doorway and pier buttresses survive at distance. Serialized LOD triangles 299/157/92. The package check found no exposed coplanar faces.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_watchtower_ancient_v0",
+          "evidence_sha256": "49ddc9f2a9be1cf4bd7ed7c566768d7270420057112c26be755d601e700c845e",
+          "observations": "A timber trestle, visible ladder and upper gallery give this tower a strong vertical read. The four LOD2 roof posts start slightly above the reduced gallery wall after its rail disappears. Serialized LOD triangles 533/313/160. The package check found no exposed coplanar faces.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 89,
+            "charm": 93,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "Seat each LOD2 gallery pillar on the guard wall. The current post starts at guard + 0.012 while the wall terminates at guard; LOD2 omits the intermediate rail. Verify continuous bearing of the roof assembly."
+          ]
+        },
+        {
+          "id": "bld_human_watchtower_classical_v0",
+          "evidence_sha256": "d0489705c6b13637301f192b4b4ed34efc80817bad6e97c498f9122263c4b42c",
+          "observations": "The narrow masonry shaft with its shuttered door and flower box carries a hipped lookout. The Classical, Medieval and Renaissance roofs shade distinctly against the tower wall. The distant gallery omits a needed bearing below the four posts. Serialized LOD triangles 452/242/115. The package check found no exposed coplanar faces.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 89,
+            "charm": 94,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat each LOD2 gallery pillar on the guard wall. The current post starts at guard + 0.012 while the wall terminates at guard; LOD2 omits the intermediate rail. Verify continuous bearing of the roof assembly."
+          ]
+        },
+        {
+          "id": "bld_human_watchtower_industrial_v0",
+          "evidence_sha256": "a4072a4b5ae989fcc969d9d7c1ade34af315536836877d2d1013242bc44d44d3",
+          "observations": "An enclosed blue-glass watch room and a pyramidal metal-edged cap differentiate the brick signal tower. The banner, flag and planter enliven its shaft. The LOD2 roof posts retain the missing lower rail clearance. Serialized LOD triangles 442/232/125. The package check found no exposed coplanar faces.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 89,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat each LOD2 gallery pillar on the guard wall. The current post starts at guard + 0.012 while the wall terminates at guard; LOD2 omits the intermediate rail. Verify continuous bearing of the roof assembly."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Session 10 independent CultureCivic builder, military critic",
+      "models": [
+        {
+          "id": "bld_human_barracks_ancient_v0",
+          "evidence_sha256": "ca8520ab7f36e678da74c8deae0bbe98897e5fa002c6fe29076273b9e90ef11c",
+          "observations": "The blue muster drum persists between the entry and parade flag at LOD2, with a polygonal shell and pale head. Its low round profile breaks up the previously empty yard. Current serialized LOD triangles 1009/473/144. The package validator found no exposed coplanars.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_barracks_classical_v0",
+          "evidence_sha256": "7b87707e9c4a5b830d135aba5fdb84e29ea7e0ee4037eb4dd2ab0c67e0bd65a0",
+          "observations": "The simplified drum remains legible beside the arched porch throughout the serialized LODs. The multi-age previews retain distinct roof and main-wall value relationships. Current serialized LOD triangles 943/470/137. The package validator found no exposed coplanars.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_barracks_future_v0",
+          "evidence_sha256": "6e05419d4c6d5808c343ac0363f2e925cb73e86adc50e18334a46ec203a9f493",
+          "observations": "The reduced drum sits in the same marked space below the projecting entry roof as the detailed drum. The blue roof monitors and cladding identify the period and the drum restores the military association at distance. Current serialized LOD triangles 677/289/158. The package validator found no exposed coplanars.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_barracks_industrial_v0",
+          "evidence_sha256": "b6f73ae5b697c1afb848615a45c59ea2d40fe81d44653342e980d44022b0399f",
+          "observations": "The little blue cylinder alongside the clerestory hall reads clearly in the LOD2 yard. The Modern skin maintains the same approach and a paler masonry wall. Current serialized LOD triangles 693/329/158. The package validator found no exposed coplanars.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_palisade_ancient_v0",
+          "evidence_sha256": "41416a4964a84c8a8d8e67db0504e1f68a560702da1206d343a12ecb60e3b711",
+          "observations": "A continuous riveted binding across the pole faces changes from a warm bronze band to iron gray. The broad strip across both wings is visible at 64 px. It meets the poles and flanks the open gateway. Current serialized LOD triangles 821/433/216. The package validator found no exposed coplanars.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_watchtower_ancient_v0",
+          "evidence_sha256": "fcfe0bcc9cc19ecf260a3ad5c17967df8ae98dac30ac937029df31c19c57b0e8",
+          "observations": "The reduced gallery posts now enter the guard wall, and the upper bearing plate sits immediately under the pavilion. The silhouette retains the open trestles, the ladder and roof. Current serialized LOD triangles 545/325/172. The package validator found no exposed coplanars.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_watchtower_classical_v0",
+          "evidence_sha256": "e37d8c634c345862b52319eb66a1df2e5fcb4bfb64db6fcac0b2efd7be90d787",
+          "observations": "The four reduced posts begin inside the gallery rim and sit beneath a continuous soffit. The exaggerated crown and slim masonry shaft retain their proportions through the three skins and LODs. Current serialized LOD triangles 464/254/127. The package validator found no exposed coplanars.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_watchtower_industrial_v0",
+          "evidence_sha256": "ec14fc2885895f6d6cfb7034da070afbfa7cc0cbd4a59428b214e26229bac11f",
+          "observations": "The post bases enter the guard rim with the glazed enclosure and cap still aligned above them. Brick shaft, roof profile and gallery read in the serialized distant model. Current serialized LOD triangles 442/232/125. The package validator found no exposed coplanars.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_military_base_industrial_v0",
+          "evidence_sha256": "d22a77aee3598f588f4da570ff8c68fb3e450a783219df170d0eb506b9760165",
+          "observations": "An oversized radio dish on a square tower marks the low barracks compound. The front checkpoint, stacked supplies and flag set its scale. The later stepped communications block has a different profile. Serialized triangle counts are 723, 411, 204 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_palisade_classical_v0",
+          "evidence_sha256": "b593d31bff9775d61edadcf634fbce82ed564558dea0ef9586482132b9ea27f8",
+          "observations": "A tiled gate roof spans stone-based posts between two rows of pointed timber. The pennant marks the entry side, and the wide through-opening distinguishes it from the ancient crossbeam gate even in the far mesh. Serialized triangle counts are 693, 395, 160 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_military_base_industrial_v0",
+          "evidence_sha256": "0cb71c2f291c6cb5c0f627c10fa475825e3e42486563de385f05214a0d7c6af2",
+          "observations": "The radar dish and pedestal remain distinct from the low barracks wing at LOD1. The larger roof plane, front checkpoint and shaded entrance all survive from both approaches. Serialized triangle counts are 723, 411, 204 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_palisade_classical_v0",
+          "evidence_sha256": "5f576aa81e769af9d7d42db411bd7f3d9caa33ef155b88c4a83eea0fa4d159b8",
+          "observations": "The central tiled gate spans two square footed posts, with an open passage between them. From the rear, the two rails and diagonal braces still link the timber segments at medium distance. Serialized triangle counts are 693, 395, 160 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "RC4 independent Human art critic, checkpoint comparison",
+      "models": [
+        {
+          "id": "bld_human_barracks_classical_v0",
+          "evidence_sha256": "7b87707e9c4a5b830d135aba5fdb84e29ea7e0ee4037eb4dd2ab0c67e0bd65a0",
+          "observations": "Both 64-pixel views show the Iron barracks and the Classical barracks with the same long hipped hall, projecting entrance gable, small rear chimney, drum and flag. The tile and masonry change in the painted previews. The single hall and porch still dominate all three levels, with no new space for assembly or drill.",
+          "scores": {
+            "silhouette": 82,
+            "identity": 79,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Classical barracks a different plan and roofline. An open muster court and an arcade with visible bearing columns would distinguish it from the Iron hall in both unpainted views."
+          ],
+          "lod_triangles": [
+            943,
+            470,
+            137
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_barracks_future_v0",
+            "b": "bld_human_barracks_classical_v0",
+            "matched": 1188,
+            "total": 2031
+          }
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "RC4 independent Human art critic, replacement mesh re-review",
+      "models": [
+        {
+          "id": "bld_human_barracks_classical_v0",
+          "evidence_sha256": "174a80cee4fbb3d712361a729da9c6f572caaa3fc58260ac24c3e6ccb4baf83f",
+          "observations": "The gallery and its perpendicular equipment shed enclose two sides of a drill court. A round practice target occupies that open ground and the striped shutters mark the upper quarters. At LOD2 the gallery columns still meet the ground, the side shed retains its posts and both grayscale family views show a different plan from the Iron hall.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            984,
+            460,
+            284
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_barracks_ancient_v0",
+            "b": "bld_human_barracks_classical_v0",
+            "matched": 0,
+            "total": 3027
+          }
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_human_palisade_ancient_v0",
+          "evidence_sha256": "bcd39e2ec4b93fc10384dc13465ff1eeff35f88660484a5b324c8d047f060089",
+          "observations": "Two angled runs of spiked timber enclose the approach to a tall lookout. The corner and raised guard platform distinguish this from the later central-gate fence. At the far level the timbers merge into broader panels but both defensive runs, the lookout and the pointed top line persist.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            754,
+            451,
+            235
+          ],
+          "serialized_sha256": "052376db2fe4d95b6a08fb707aefcbf925c78a7a08f58d89fbe3651ffb79612b",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_military-01.png",
+            "rc6/families/human-Palisade-v0.png"
+          ]
+        },
+        {
+          "id": "bld_human_watchtower_industrial_v0",
+          "evidence_sha256": "5c937e735d143b298e40191d2ac901697b4a345364b010d95cf73deb1fcebd6e",
+          "observations": "A masonry shaft flares to solid foundations below a dark glazed lookout and a bright searchlight. The side entrance hut is grounded and the rear angle shows the lens mounting. At LOD2 the lens stays visible against its bracket, distinct from the Dwarf open-frame tower.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            689,
+            387,
+            186
+          ],
+          "serialized_sha256": "5b02eba2250eb6e6e46461a4c976acf8781750ebdceed8755b39da02904d181a",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_military-01.png",
+            "rc6/families/human-Watchtower-v0.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

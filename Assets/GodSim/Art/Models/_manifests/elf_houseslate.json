@@ -1,0 +1,338 @@
+[
+ {
+  "id": "bld_elf_house_future_ascension_v0",
+  "kind": "house",
+  "category": "Buildings/Elf/HousesLate",
+  "building_type": "House",
+  "race": "elf",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 554,
+  "lod_triangles": [
+   554,
+   329,
+   149
+  ],
+  "bounds": [
+   [
+    -0.30862560868263245,
+    0.0,
+    -0.31949999928474426
+   ],
+   [
+    0.36862561106681824,
+    0.6620000004768372,
+    0.36614999175071716
+   ]
+  ],
+  "bytes": 101768,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/HousesLate/bld_elf_house_future_ascension_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_future_ascension_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_future_ascension_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_house_future_ascension_v1",
+  "kind": "house",
+  "category": "Buildings/Elf/HousesLate",
+  "building_type": "House",
+  "race": "elf",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 656,
+  "lod_triangles": [
+   656,
+   389,
+   191
+  ],
+  "bounds": [
+   [
+    -0.34360000491142273,
+    0.0,
+    -0.3075000047683716
+   ],
+   [
+    0.3720000088214874,
+    0.7609999775886536,
+    0.35234999656677246
+   ]
+  ],
+  "bytes": 121616,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/HousesLate/bld_elf_house_future_ascension_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_future_ascension_v1.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_future_ascension_v1.png"
+  }
+ },
+ {
+  "id": "bld_elf_house_future_v0",
+  "kind": "house",
+  "category": "Buildings/Elf/HousesLate",
+  "building_type": "House",
+  "race": "elf",
+  "ages": [
+   "information"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 462,
+  "lod_triangles": [
+   462,
+   255,
+   121
+  ],
+  "bounds": [
+   [
+    -0.3765000104904175,
+    0.0,
+    -0.3264999985694885
+   ],
+   [
+    0.2784999907016754,
+    0.8840000033378601,
+    0.3580000102519989
+   ]
+  ],
+  "bytes": 82364,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/HousesLate/bld_elf_house_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_future_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_house_future_v1",
+  "kind": "house",
+  "category": "Buildings/Elf/HousesLate",
+  "building_type": "House",
+  "race": "elf",
+  "ages": [
+   "information"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 543,
+  "lod_triangles": [
+   543,
+   316,
+   162
+  ],
+  "bounds": [
+   [
+    -0.4951399862766266,
+    0.0,
+    -0.3294999897480011
+   ],
+   [
+    0.3384397625923157,
+    0.722000002861023,
+    0.3617199957370758
+   ]
+  ],
+  "bytes": 98340,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/HousesLate/bld_elf_house_future_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_future_v1.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_future_v1.png"
+  }
+ },
+ {
+  "id": "bld_elf_house_industrial_modern_v0",
+  "kind": "house",
+  "category": "Buildings/Elf/HousesLate",
+  "building_type": "House",
+  "race": "elf",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 478,
+  "lod_triangles": [
+   478,
+   271,
+   125
+  ],
+  "bounds": [
+   [
+    -0.4180000126361847,
+    0.0,
+    -0.3605000078678131
+   ],
+   [
+    0.414000004529953,
+    0.5649999976158142,
+    0.38125962018966675
+   ]
+  ],
+  "bytes": 85988,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/HousesLate/bld_elf_house_industrial_modern_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_industrial_modern_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_industrial_modern_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_house_industrial_modern_v1",
+  "kind": "house",
+  "category": "Buildings/Elf/HousesLate",
+  "building_type": "House",
+  "race": "elf",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 584,
+  "lod_triangles": [
+   584,
+   331,
+   171
+  ],
+  "bounds": [
+   [
+    -0.4106000065803528,
+    0.0,
+    -0.3334999978542328
+   ],
+   [
+    0.4169999957084656,
+    0.7049999833106995,
+    0.35098811984062195
+   ]
+  ],
+  "bytes": 106500,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/HousesLate/bld_elf_house_industrial_modern_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_industrial_modern_v1.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_industrial_modern_v1.png"
+  }
+ },
+ {
+  "id": "bld_elf_house_industrial_v0",
+  "kind": "house",
+  "category": "Buildings/Elf/HousesLate",
+  "building_type": "House",
+  "race": "elf",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 700,
+  "lod_triangles": [
+   700,
+   399,
+   159
+  ],
+  "bounds": [
+   [
+    -0.34785526990890503,
+    0.0,
+    -0.3474999964237213
+   ],
+   [
+    0.36055639386177063,
+    0.6859999895095825,
+    0.37748000025749207
+   ]
+  ],
+  "bytes": 123468,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/HousesLate/bld_elf_house_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_house_industrial_v1",
+  "kind": "house",
+  "category": "Buildings/Elf/HousesLate",
+  "building_type": "House",
+  "race": "elf",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 697,
+  "lod_triangles": [
+   697,
+   403,
+   196
+  ],
+  "bounds": [
+   [
+    -0.3470425009727478,
+    0.0,
+    -0.34950000047683716
+   ],
+   [
+    0.3779999911785126,
+    0.8450000286102295,
+    0.3797999918460846
+   ]
+  ],
+  "bytes": 126480,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/HousesLate/bld_elf_house_industrial_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_industrial_v1.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/HousesLate/bld_elf_house_industrial_v1.png"
+  }
+ }
+]

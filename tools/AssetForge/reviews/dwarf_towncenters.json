@@ -1,0 +1,1112 @@
+{
+  "package": "dwarf_towncenters",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Builder session 5 independent critic",
+      "models": [
+        {
+          "id": "bld_dwarf_town_center_ancient_bronze_v0",
+          "evidence_sha256": "afeff3b581508bca27b628ad1c7caeba8d0628d23a72bd8a66cc493cb3f8f44d",
+          "observations": "The battered ochre-brick upper chamber and copper lamps read clearly over the stairs. The little circular cap collapses into a knob at 64 pixels. The GLB validates at 1058/634/186 triangles.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 92,
+            "construction": 93,
+            "charm": 88,
+            "colour": 90,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the button-like cap with a raised copper hood and an open clerestory with clearly spaced supports and a dark recess visible at phone size."
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_ancient_iron_v0",
+          "evidence_sha256": "869e70f8e559ec3f9bf34c07b30f30520dfc4c277724c374b88e8edaeb3a458a",
+          "observations": "The long dark vault shoulders frame the clipped gray stone cap, which resolves as a second tier at 64 pixels. A gold chisel mark and the paired orange entrance lamps break the charcoal mass. All three levels validated at 976/600/160 triangles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 94,
+            "construction": 94,
+            "charm": 90,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_ancient_v0",
+          "evidence_sha256": "a2ea3c0b278a76d2ac4bf3d7eeb4dc7b6829241396adb25338058498a4c66235",
+          "observations": "The honey-colored, shoulder-cut thatch and two curved end bindings identify the early assembly shelter. A short transverse-looking strip sits by itself in the middle of the roof. The portal and front stair retain their silhouette at 64 pixels. Validated at 948/572/188 triangles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 94,
+            "construction": 86,
+            "charm": 89,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Run a ridge timber along the length of the thatch crown so it seats into both end collars, with discernible end joints."
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_classical_medieval_v0",
+          "evidence_sha256": "2bdb01a33ade2e30f438056c211fd955bee551b9539cb229cbbd21ec04f5bf15",
+          "observations": "The corner merlons flank a broad slate barrel. The prominent front wall below the vault reads as an unworked slab in both views, drawing the eye away from the carefully framed ground entry. The GLB validates at 1066/690/238 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 94,
+            "charm": 86,
+            "colour": 89,
+            "technical": 99
+          },
+          "defects": [
+            "Give the front of the upper hall a substantial clan-carved inset or recessed gallery with its own sill and shadow line."
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_classical_renaissance_v0",
+          "evidence_sha256": "eae2c2d4079a53698b3d686829955acc8cade66d6cc582a9323d92e1f044343c",
+          "observations": "The faceted terracotta drum dome sits directly on a light cylindrical seat. Its copper finial, squat lanterns and gold gate fittings carry the clan details across the round Renaissance crown. The dome remains distinctive at 64 pixels. All levels validate at 1066/610/169 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_classical_v0",
+          "evidence_sha256": "97aa337c99cf6d4da3d00b5972d44bec4b73a888dbe3c64eb4aa6187aa73cade",
+          "observations": "Open air between the stout ivory columns and the broad terracotta roof reads as a public council pavilion at 64 pixels. The low octagonal base, twin lamps and cut-shoulder gate maintain the dwarven masonry language. The column capitals meet the lintel. Validated at 1060/636/200 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 90,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_future_ascension_v0",
+          "evidence_sha256": "f2702d867361605a7a3b21446bfd6a10b22e3ffb82906533a5c71fdf99a5286b",
+          "observations": "The open gold wheel reads against the background at 64 pixels. Two angled braces at its feet carry the rim over a blue-white luminous seat. The orange gate strips and side lamps tie the gold crown to the masonry. All three levels validate at 1136/716/263 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_future_v0",
+          "evidence_sha256": "ad60e287825aa683461f386a739f10cb13f686b0b42e98d563caec952d452845",
+          "observations": "Three diminishing glazed courses step off-center under pale projecting caps. The dark lower roof separates the blue glazing from the front clan lamps and stout gate. The top aerial is seated on the highest course. These steps read independently at 64 pixels. Validated at 1050/674/198 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_industrial_modern_v0",
+          "evidence_sha256": "3881369cd77dc6162032d36b4d7b65ebdd71bb8d752169a99457994839471e0c",
+          "observations": "The strong white eave contrasts with a plain dark blue belt; the broad uninterrupted belt and blind metal vault above it read as a rooftop plant housing at 64 pixels. The entrance keeps the older clan language. The GLB validates at 946/570/158 triangles.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 89,
+            "construction": 94,
+            "charm": 87,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Articulate the glazed council chamber with a bank of visible upright mullions and a civic marker or supported entry canopy that gives the upper mass a recognizable public face."
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_industrial_v0",
+          "evidence_sha256": "f8b9e544453b5c63b514fd26bf294dffe9cac1ae81553270e01dd72d9fa6668a",
+          "observations": "The unequal-height brick flues and blue rooflight sit within the dark boiler roof, giving a clear Industrial silhouette even in the small view. Front lamps, gate lintel and ash-colored stairs retain the raised council entrance. The vents show dark throats. The GLB validates at 1256/704/238 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Builder session 5 independent critic",
+      "models": [
+        {
+          "id": "bld_dwarf_town_center_ancient_bronze_v0",
+          "evidence_sha256": "944180fb56d41fe40576d8f64148b74ba786b343988d47a460233fddf14fc8b2",
+          "observations": "The raised copper hood now casts a dark gap above its seat. Spaced copper supports and the wider cap stay distinct at 64 pixels, with the two gate lamps continuing its warm metal color. The serialized LOD chain validates at 1062/654/218 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_ancient_v0",
+          "evidence_sha256": "7247ecdfd860ba6402bb56f7b5ff4663ccb1f9287302c2b942bd238fb46b441b",
+          "observations": "A continuous timber follows the flat roof ridge from collar to collar, with a visible projecting joint at both ends. The bindings, thatch and shelter now read together even in the 64-pixel thumbnail. The serialized LOD chain validates at 948/572/188 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 95,
+            "construction": 94,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_classical_medieval_v0",
+          "evidence_sha256": "10b9585a97a78531ebf2cebd052beef1aa8511556817a22b0b360df3ce2c54bb",
+          "observations": "Two framed cut-shoulder openings fill the upper front below the slate eave. Their dark interiors and carved surrounds form a gallery above the entrance. It reads as a repeated pair in the thumbnail. The serialized LOD chain validates at 1290/818/342 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_industrial_modern_v0",
+          "evidence_sha256": "f1c0db6d67c30490997ed1f257dae50d207b3b029002292441471b7a089bf649",
+          "observations": "Vertical mullions divide the broad blue glazing beneath the pale overhang. The raised roof housing carries a clock within its front face; the clock and glazed council room remain visible at 64 pixels. The serialized LOD chain validates at 1098/694/237 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Builder session 5 independent critic",
+      "models": [
+        {
+          "id": "bld_dwarf_town_center_ancient_bronze_v0",
+          "evidence_sha256": "661d7c05e192ca16290ab4a1d558744aefa4bac7442f0363db0b0a42bf7ec150",
+          "observations": "The faceted copper hood stands on its short supports above the brick chamber. Its dark clerestory gap and the warm lamps at the front remain legible at 64 pixels. The full-size view shows a continuous sill and clear entrance. Serialized LODs passed at 1058/650/218 triangles. The updated checker reported zero exposed coplanar pairs, inverted shells or repeated LOD0 shapes.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_ancient_iron_v0",
+          "evidence_sha256": "d84ec795f5318adc0fc0f684160d82a9c634d0bda11ac78397fc8c755abee97a",
+          "observations": "The rust-brown cap sits on a separate stone tier above slate shoulders. A small joined gold chisel mark sits on its face and the paired lamps frame the dark door. Both roof tiers remain distinct at 64 pixels. Serialized LODs passed at 968/592/160 triangles. The updated checker reported zero exposed coplanar pairs, inverted shells or repeated LOD0 shapes.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 94,
+            "construction": 94,
+            "charm": 90,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_ancient_v0",
+          "evidence_sha256": "e7800e0bf66d7088191e3264b021a5c52e8c4b56092dcb28a9f2dd79359149ba",
+          "observations": "Two curved collars terminate at the eaves, with the ridge timber crossing their tops. The golden roof separates from the deep doorway at 64 pixels; the two stairs meet the returned front portal. Serialized LODs passed at 944/568/188 triangles. The updated checker reported zero exposed coplanar pairs, inverted shells or repeated LOD0 shapes.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 95,
+            "construction": 94,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_classical_medieval_v0",
+          "evidence_sha256": "40eec738cf811358a87dec3f7915bb9f1b09fa202c3e810d68007355b6af4553",
+          "observations": "Four corner merlons frame the slate vault and a pair of recessed upper openings. The central gate and upper gallery both have clear bases, and the twin openings still read at phone size. Serialized LODs passed at 1286/814/342 triangles. The updated checker reported zero exposed coplanar pairs, inverted shells or repeated LOD0 shapes.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_classical_renaissance_v0",
+          "evidence_sha256": "82c95b236508acc02f3f8cefa48b7549e7ff364ed40c1a833cf6dd91ad1d7c6c",
+          "observations": "The round terracotta dome rises from its pale drum and ends at a small brass finial. The angled portal surround, orange hanging strips and entry stairs read cleanly in the full image, while the dome holds the silhouette at 64 pixels. Serialized LODs passed at 1062/606/169 triangles. The updated checker reported zero exposed coplanar pairs, inverted shells or repeated LOD0 shapes.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_classical_v0",
+          "evidence_sha256": "21399d1a4e0fd63a4683997bdc4a496d79f4e73e582d6fc5f6ab6e8b8f0be086",
+          "observations": "The upper pavilion has visible daylight between its columns. Its warm barrel roof and pale cap stay distinct from the darker gate and corner lamps in the 64-pixel view. The front approach is continuous. Serialized LODs passed at 1056/632/200 triangles. The updated checker reported zero exposed coplanar pairs, inverted shells or repeated LOD0 shapes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 90,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_future_ascension_v0",
+          "evidence_sha256": "b1c7da17249280d491bd1c0ed1ca89b2eec079f223784c22a0c1d5a79c4f7c02",
+          "observations": "The gold spokes meet a central hub inside the supported rim, with cyan light across the stepped crown. Open sky remains visible inside the wheel at 64 pixels, and the clan hall retains its dark front door. Serialized LODs passed at 1156/736/287 triangles. The updated checker reported zero exposed coplanar pairs, inverted shells or repeated LOD0 shapes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_future_v0",
+          "evidence_sha256": "c88ae80db3a8f347c61c43edc7872aaecbd61a054065903610b0e993819113f9",
+          "observations": "Three bands of blue glazing set off the pale offset eaves and the planted aerial. The front stone arch meets the stair. The staggered glass courses are individually readable at 64 pixels. Serialized LODs passed at 1046/670/198 triangles. The updated checker reported zero exposed coplanar pairs, inverted shells or repeated LOD0 shapes.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_industrial_modern_v0",
+          "evidence_sha256": "b45c5a313acbcd39274016aa961cdf2b28343e38da41fc60896968b64475fcd3",
+          "observations": "The clock has a visible dark hand and mounting against the pale face. Mullions break the blue council glazing under the projecting roof. The clock housing and glazed floor read as separate forms at 64 pixels. Serialized LODs passed at 1094/690/237 triangles. The updated checker reported zero exposed coplanar pairs, inverted shells or repeated LOD0 shapes.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_town_center_industrial_v0",
+          "evidence_sha256": "39200a91138f54d6c3dd78f20e4d91b527116f85c3d276cdb08117cad8b18fa7",
+          "observations": "The two unequally tall brick flues have dark mouths and metal rims. A blue monitor sits beside them over the black barrel roof. The gold gate marker, steps and lamp pair keep the civic entry clear at 64 pixels. Serialized LODs passed at 1252/700/238 triangles. The updated checker reported zero exposed coplanar pairs, inverted shells or repeated LOD0 shapes.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_town_center_ancient_bronze_v0",
+          "evidence_sha256": "bfc722a00011b533f4bcdb88dcd2911b58775d86ca71ccf05d96c2ad89841dee",
+          "observations": "A small round bronze lantern crowns the stepped hip roof and the broad door sits below paired corner lamps. The change in shape between lantern and lower hall is readable at 64 px. The roof stages, door surround and plinth survive LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1058,
+            602,
+            218
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_ancient_iron_v0",
+          "evidence_sha256": "b0a82ca8a5b18df0bafac223d9f64debb4e9592cc7c0207b6c8b13276b43bff5",
+          "observations": "A tall squared roof cap replaces the Bronze round lantern, with the darker upper stages offset against warm lamps. At LOD1 the stacked roof bases, thick walls and deep entrance remain connected.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            968,
+            550,
+            160
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_ancient_v0",
+          "evidence_sha256": "c139c074e7be3a5ded669ac8cdc9a78905b166d6ace3f54a265252bb0c2db3c3",
+          "observations": "Cross-ribbing breaks up the broad straw-coloured vault above the heavy entrance arch. The corners and lamps anchor the hall at phone scale. LOD1 keeps the full vault, walls and broad doorway.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            944,
+            538,
+            188
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_classical_medieval_v0",
+          "evidence_sha256": "ae4b320a688e42affdff1a3e5dacea0aa03b463d8316c06497decf083917fed2",
+          "observations": "Four corner battlements enclose the central vault over a second-storey hall. The sturdy arch and lit upper gallery establish the entrance hierarchy. The roof projections and large doorway remain distinct in LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1286,
+            732,
+            342
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_future_ascension_v0",
+          "evidence_sha256": "50051a2f58df6f50d7fadef1c464c7270bd1166b827077d08604ddb7043c8df1",
+          "observations": "A freestanding gold wheel surmounts the bright pyramidal glass roof, making a recognizable Ascension monument at 64 px. LOD1 keeps its legs seated on the roof, with a thick wall and broad door below.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1156,
+            658,
+            287
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_future_v0",
+          "evidence_sha256": "f3a08c41d107790dccf16a547e6033e709402d8e57041b09f8dd4efde06c9763",
+          "observations": "A tiered blue and white lantern is recessed above the dark perimeter roof. Its stacked profile differs from the clock of the earlier hall and the wheel of Ascension. LOD1 retains the roof stages, corner lamps and arched entrance.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1046,
+            596,
+            198
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_industrial_modern_v0",
+          "evidence_sha256": "9fc920d3ed6df2ca158033a0910984e3d6c7571b7b380027d62a2b2fc05ee04c",
+          "observations": "A raised band of office glazing supports a clock dormer behind the roof edge. The clock cuts the skyline above the established broad entry arch, and the glazing, clock base and doorway remain intact at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1094,
+            622,
+            237
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_town_center_ancient_bronze_v0",
+          "evidence_sha256": "d344c6cc7a70de45cf380a1b9f06410a14102453d9c28f9e7d3625e94ca44bc5",
+          "observations": "The round roof lantern and stepped hips keep their vertical separation. The doorway simplifies to a continuous dark opening above the visible entry steps.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1058,
+            602,
+            218
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_ancient_iron_v0",
+          "evidence_sha256": "68e12f1dc76b67b3453503d2a7bebe000ce7e96a3603176bd9f5a7be87b7ba9f",
+          "observations": "The square iron cap still rests on a complete raised crown. The simplification keeps the door open and dark beneath the heavy arch and paired lamps.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            968,
+            550,
+            160
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_ancient_v0",
+          "evidence_sha256": "20d5b817f6d9b4871030f115c1b9c7bbc206d3d134e19d114954204044bfbbce",
+          "observations": "The straw-coloured ribbed roof remains solid, but pale masonry fills the right side of the central entrance at LOD1. The plug is visible from both front angles inside the otherwise intact arch.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 82,
+            "charm": 92,
+            "colour": 93,
+            "technical": 86
+          },
+          "defects": [
+            "Keep both dark leaves of the Dawn entrance clear of the inner stone surround in the middle mesh."
+          ],
+          "lod_triangles": [
+            944,
+            538,
+            188
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_classical_medieval_v0",
+          "evidence_sha256": "71269d59819ac27a39a8abb3679bb51bf97232164f8552d4a4fca2ded8ffbb68",
+          "observations": "The crenellated upper roof, gallery and corners retain full wall surfaces from the rear. The central opening remains dark and complete under its arch.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1286,
+            732,
+            342
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_future_ascension_v0",
+          "evidence_sha256": "597366dcc9c99c8829aa4b4b0f74322dde0268be664f7317eb6a85905c777e65",
+          "observations": "The gold roof wheel and bright pyramid keep their supports. A large pale block occludes the right-hand door leaf at LOD1, leaving a stepped patch inside the front arch.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 82,
+            "charm": 94,
+            "colour": 94,
+            "technical": 86
+          },
+          "defects": [
+            "Keep the Ascension hall's full two-leaf entrance visible below its gold roof at LOD1."
+          ],
+          "lod_triangles": [
+            1156,
+            658,
+            287
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_future_v0",
+          "evidence_sha256": "f11ac02c05a58bf1f276fc84810d536dfd0b5e3d255827ec24fa90c4bf0f0160",
+          "observations": "The tiered blue lantern, square roof and rear wall are complete. The right half of the main arched doorway becomes a pale rectangular intrusion at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 82,
+            "charm": 92,
+            "colour": 94,
+            "technical": 86
+          },
+          "defects": [
+            "Separate the inner arch faces from the door skin and preserve both door leaves in the middle mesh."
+          ],
+          "lod_triangles": [
+            1046,
+            596,
+            198
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_industrial_modern_v0",
+          "evidence_sha256": "cebe087a0a561ab84a2e2f8338711cd0eff4eec545039d9ee7f17dd1cfd1f4cb",
+          "observations": "The clock dormer, glass storey and broad roof keep their shapes. A large stone-coloured patch interrupts the right door leaf at LOD1 despite the intact outer arch and stairs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 82,
+            "charm": 93,
+            "colour": 93,
+            "technical": 86
+          },
+          "defects": [
+            "Protect the clock hall's full door surface and keep the right-hand leaf clear at the middle distance."
+          ],
+          "lod_triangles": [
+            1094,
+            622,
+            237
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent visual critic, final door, canopy and grille repair review",
+      "inspection": "Reopened the authored age previews and all three serialized LODs at 64 px. Compared LOD0 and LOD1 at two 190 px front angles and at 195 px from the side and rear. Revalidated serialized metadata, triangle ratios, exposed surfaces and shell orientation at the recorded hashes.",
+      "models": [
+        {
+          "id": "bld_dwarf_town_center_ancient_v0",
+          "evidence_sha256": "113846395d6541729b2c097fef5ba4cb05e3a346d2d31abf59b5efc97b40ed42",
+          "observations": "The middle mesh preserves the full entrance within the masonry arch, visible at both 215 and 145 degrees. The low stair and ribbed timber vault retain the Dawn hall's broad profile from the side and rear.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            944,
+            496,
+            188
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_future_ascension_v0",
+          "evidence_sha256": "b25ccfb558cc85c7d33b0e318855d64dc5ccfa67ed478946f187146b82003f83",
+          "observations": "The Ascension wheel remains seated above the glass roof. The large dark portal now spans the whole opening beneath the stone arch, with no pale rectangle over the right side at LOD1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1156,
+            664,
+            287
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_future_v0",
+          "evidence_sha256": "9360e766718b8ff5c2a996684fc73897bbaed4285eceda0a4b3f537cb34ccd47",
+          "observations": "The right-hand side of the entrance remains dark in the simplified hall, completing the doorway below the blue roof stages. The entrance steps, sides and roof support all stay intact.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1046,
+            598,
+            198
+          ]
+        },
+        {
+          "id": "bld_dwarf_town_center_industrial_modern_v0",
+          "evidence_sha256": "08f8f0a25c682cc118971b5b05e1b289c0fa5e30f2c83d796a59295789fce1b1",
+          "observations": "The clock and glazed storey remain readable above the broad roof. LOD1 now retains a continuous dark doorway between the jambs and above the front stair when viewed from either side.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1094,
+            618,
+            237
+          ]
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_dwarf_town_center_classical_renaissance_v0",
+          "evidence_sha256": "1de5a7e474e2c2950e5e729fc72bbd5f32464b4b16511cb7f6539e27114b5c98",
+          "observations": "The broad terracotta dome stands above an axial columned loggia and long lower roof. The dome reads differently from the Medieval raised hall and the Industrial stacks in the ten-age comparison. The stair, covered porch and rounded drum remain legible at the far level.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1030,
+            516,
+            275
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_town_center_ancient_v0",
+            "b": "bld_dwarf_town_center_classical_renaissance_v0",
+            "matched": 0,
+            "total": 2832
+          }
+        },
+        {
+          "id": "bld_dwarf_town_center_future_v0",
+          "evidence_sha256": "cce483de30a6db3859a8781c5ef2c23232d1a582a1c24c3a0f2019212118b12a",
+          "observations": "An offset beacon tower and low administrative wing share a stepped entry court. Its two unequal silhouettes separate Information from the Modern rooftop drum and Ascension ring in both grayscale views. The reduced tower keeps its horizontal bands, beacon and stepped base.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1218,
+            694,
+            302
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_town_center_ancient_v0",
+            "b": "bld_dwarf_town_center_future_v0",
+            "matched": 0,
+            "total": 2832
+          }
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_dwarf_town_center_ancient_bronze_v0",
+          "evidence_sha256": "788f8b87e3dba34b3299e08e1f3346980c6637c77a168cbac85fe0f446cc7b08",
+          "observations": "The low pair of bronze-topped wings enclose a broad civic apron. The central gable and corner posts frame the speaking entrance from both cameras. The scooped forecourt shape persists after removal of small trim.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1056,
+            492,
+            256
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.666,
+            "primary_picture_pair": [
+              "bld_dwarf_town_center_ancient_bronze_v0",
+              "bld_dwarf_town_center_ancient_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2832
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_ancient_bronze_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_towncenters-01.png": "9cc0a2602a0d25652fa3a17bc50e188903449da2c9ea1b84d5518cbbb50cca56",
+            "tools/AssetForge/reviews/rc6/families/dwarf-TownCenter-v0.png": "bac925be76f47db0e2ab90a3a9272562721c1c6b47d546afe781f0e1d39a6cc8"
+          },
+          "glb_sha256": "76fb7d87cce6336e31d0656e0309a1f199a1ce00782b0ad8db71502adf12d19f",
+          "age_preview_sha256": {
+            "bronze": "0452ef04e9c26b8d600d0343b68de8c5ff1604278cc8bd56c3165e0849776a4d"
+          }
+        },
+        {
+          "id": "bld_dwarf_town_center_ancient_iron_v0",
+          "evidence_sha256": "c4056a3dbec3fd0528a2d0eeeafe23e26e577269529e3e31bd017cec054a5b2d",
+          "observations": "The tower and little front gable build cleanly through all three LODs. From either unpainted angle the silhouette reads as a house, repeating the rear tower and small entrance wing of the Dwarf Medieval v0 residence. Two posts and a tiny crest provide its civic clues.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 84,
+            "construction": 92,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Change the principal civic mass or public plan. A broad gathering court, substantial assembly nave or open columned entrance must distinguish this Iron Town Center from the race's tower-and-annex homes at 64 px."
+          ],
+          "lod_triangles": [
+            892,
+            430,
+            242
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.6,
+            "primary_picture_pair": [
+              "bld_dwarf_town_center_ancient_iron_v0",
+              "bld_dwarf_town_center_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2832
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_ancient_iron_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_towncenters-01.png": "9cc0a2602a0d25652fa3a17bc50e188903449da2c9ea1b84d5518cbbb50cca56",
+            "tools/AssetForge/reviews/rc6/families/dwarf-TownCenter-v0.png": "bac925be76f47db0e2ab90a3a9272562721c1c6b47d546afe781f0e1d39a6cc8"
+          },
+          "glb_sha256": "bd455f56905019537b28892d02f254c468768a82e2abfade3ccc989606f6b9c7",
+          "age_preview_sha256": {
+            "iron": "c603aecba195e7b973ba44bf13043ad2331a3bb82f836e68bcb2628822edbb67"
+          }
+        },
+        {
+          "id": "bld_dwarf_town_center_classical_v0",
+          "evidence_sha256": "3a991bd1f02a7ded284777c2829b2535a8e421decca122e0260d2c376625c583",
+          "observations": "Twin clay ridges cover a full-length stone colonnade on a stepped plinth. The long public approach replaces the compact Iron volumes. Both lowered meshes keep the supporting bay rhythm and the broad front stair.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1166,
+            400,
+            206
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.621,
+            "primary_picture_pair": [
+              "bld_dwarf_town_center_ancient_bronze_v0",
+              "bld_dwarf_town_center_classical_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2832
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_classical_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_towncenters-01.png": "9cc0a2602a0d25652fa3a17bc50e188903449da2c9ea1b84d5518cbbb50cca56",
+            "tools/AssetForge/reviews/rc6/families/dwarf-TownCenter-v0.png": "bac925be76f47db0e2ab90a3a9272562721c1c6b47d546afe781f0e1d39a6cc8"
+          },
+          "glb_sha256": "cbd86405c51f4dede0f3eaf55d7efd77a3d8829fa2f94e03419ae2ff2c3ca895",
+          "age_preview_sha256": {
+            "classical": "b3bdf258b3581eb71ee3a98f702e5b9abc2dcf347b0de41bc2b797c5a4695156"
+          }
+        },
+        {
+          "id": "bld_dwarf_town_center_future_ascension_v0",
+          "evidence_sha256": "e7a5a30916077cf56961f3639795bfb23f78296eca0f70949d8254b67865567f",
+          "observations": "Two raking masonry piers hold an elevated gold wheel around the central entry. The large opening survives reduction and remains legible in grayscale against the stacked Information-age offices.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 95,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            926,
+            386,
+            263
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.575,
+            "primary_picture_pair": [
+              "bld_dwarf_town_center_ancient_iron_v0",
+              "bld_dwarf_town_center_future_ascension_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2832
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_future_ascension_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_towncenters-01.png": "9cc0a2602a0d25652fa3a17bc50e188903449da2c9ea1b84d5518cbbb50cca56",
+            "tools/AssetForge/reviews/rc6/families/dwarf-TownCenter-v0.png": "bac925be76f47db0e2ab90a3a9272562721c1c6b47d546afe781f0e1d39a6cc8"
+          },
+          "glb_sha256": "035b06bb24b5c318e910c1ff71d7e772ddfd8be2f4096f6351aa42aa82aa40a5",
+          "age_preview_sha256": {
+            "ascension": "ddd34586457828b761f0a90f926edfcdd2ef86e28788f17c5252f3036705b233"
+          }
+        },
+        {
+          "id": "bld_dwarf_town_center_industrial_modern_v0",
+          "evidence_sha256": "39e679041a76bd4ae03537089e91ef38af201afdde7aad1f3e165f596fb863b0",
+          "observations": "An elevated glazed bar crosses the smaller grounded entrance on piers. The upper side block steps above its pale roof. The open space under the cantilever remains visible even at the coarse LOD.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            580,
+            296,
+            168
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.54,
+            "primary_picture_pair": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_industrial_modern_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2832
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_industrial_modern_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_towncenters-02.png": "0153b7675a43a599e41577f05fca0695063d4b92960df2fe4a77f63e1d6d4c31",
+            "tools/AssetForge/reviews/rc6/families/dwarf-TownCenter-v0.png": "bac925be76f47db0e2ab90a3a9272562721c1c6b47d546afe781f0e1d39a6cc8"
+          },
+          "glb_sha256": "8ff4aca73bc3e9d3c9c9ea31595a97cb63c13abf583fb1db990989cdb194f014",
+          "age_preview_sha256": {
+            "modern": "5283f3cc647abea43bd48aa6c509836f0d31ac4014adb9e112aec5e7dd456ea6"
+          }
+        },
+        {
+          "id": "bld_dwarf_town_center_industrial_v0",
+          "evidence_sha256": "fef68321b72ffa90f9dc54722ecfa14ee5c82c40f1fcb1c03adeb4431a969964",
+          "observations": "The red-brick civic clock tower stands clear of three dark sawtooth ridges. Their repeated notches, front arch and clock belfry keep their positions through both reductions and distinguish the later glazed civic office.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            776,
+            400,
+            230
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.6,
+            "primary_picture_pair": [
+              "bld_dwarf_town_center_ancient_iron_v0",
+              "bld_dwarf_town_center_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2832
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_industrial_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_towncenters-02.png": "0153b7675a43a599e41577f05fca0695063d4b92960df2fe4a77f63e1d6d4c31",
+            "tools/AssetForge/reviews/rc6/families/dwarf-TownCenter-v0.png": "bac925be76f47db0e2ab90a3a9272562721c1c6b47d546afe781f0e1d39a6cc8"
+          },
+          "glb_sha256": "a8b3731280572803eec9a82007cf136c28a70aebd40c5474c6ed9ffa254ed24b",
+          "age_preview_sha256": {
+            "industrial": "9b2a80c51a6d1d21b607f5cceb5d60059b281f79845d83127161028e0f04dea7"
+          }
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "RC6 independent housing and Saurian civic critic, corrected candidate review",
+      "inspection": "Compared the published painted age previews and family sheets against the original holds and named lookalikes. Rendered both unpainted 64 px views independently from each of the three actual LOD meshes. Inspected the native family cameras and the larger multi-camera LOD sheet. Recomputed same-family picture likeness and directional corner overlap, checked the fragment against the GLB and verified all three serialized levels for exposed coplanar faces and inverted shells.",
+      "models": [
+        {
+          "id": "bld_dwarf_town_center_ancient_iron_v0",
+          "evidence_sha256": "d7086022782c22cc61f46ec2000185ce36298733e6515e3a1ab109169c526112",
+          "previous_evidence_sha256": "c4056a3dbec3fd0528a2d0eeeafe23e26e577269529e3e31bd017cec054a5b2d",
+          "observations": "A broad barrel vault shelters the public stone platform and its low side seats. The open end, generous approach and thick supporting walls survive both reductions. Its half-round section separates this assembly hall from the Dwarf tower houses and the surrounding Bronze and Classical civic halls.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1220,
+            688,
+            386
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.66,
+            "primary_picture_pair": [
+              "bld_dwarf_town_center_ancient_iron_v0",
+              "bld_dwarf_town_center_classical_medieval_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2832
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_town_center_ancient_v0",
+              "bld_dwarf_town_center_ancient_iron_v0"
+            ],
+            "specific_comparisons": {
+              "bld_dwarf_house_classical_medieval_v0": {
+                "primary_picture_likeness": 0.535,
+                "evidence_sha256": "0468e58aaf35c52f1cae76b73cb52579ec3f99b00fcf8f4eae1ec83efceb7fc1"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_towncenters-01.png": "ac10078650650f40182efeb8a0bbd820201c8d5513ef764289dbad0c00009e60",
+            "tools/AssetForge/reviews/rc6/families/dwarf-TownCenter-v0.png": "68d01ef52b2ef30ea5e677a1d7cbee01563f631f5afe5559f88003843b4bd147",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d"
+          },
+          "glb_sha256": "d48ba5f86b7aa3708f62b20b755ee59a3409dd4c903d0e6dd78da806d264cf92",
+          "age_preview_sha256": {
+            "iron": "7924068fa469f7fa6ec1258b4739dca35e4b91fd39575b3ad9148e34c872a023"
+          }
+        }
+      ]
+    }
+  ]
+}

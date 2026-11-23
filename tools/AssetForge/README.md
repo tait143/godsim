@@ -1,43 +1,64 @@
-# AssetForge — GodSim's procedural model pipeline
+# AssetForge building pipeline
 
-Python generators build original stylized low-poly models in code and export Unity-ready `.glb` files. Each
-model gets vertex colours and flat shading, Y-up, with 1 unit = 1 tile. A preview PNG and a manifest entry
-are written alongside. Read `docs/ART_STYLE_GUIDE.md` first.
+AssetForge writes game-space buildings in metres per tile, with Y up, ground at zero and the entrance facing −Z. Every production GLB contains three authored meshes and references the two shared PNGs. NumPy and Pillow are the only third-party Python dependencies.
 
-```text
-tools/AssetForge/
-  forge/            shared toolkit (lead-owned; do not edit from generator work)
-    mesh.py         MeshBuilder: box, cylinder/cone/frustum, sphere, dome, gable/hip roofs, prism, pyramid,
-                    stepped pyramid, wedge, poly/quad/tri, transforms (with-block), details (door, window,
-                    chimney, banner, flower_box, fence, barrel, crate, lantern, tree), wobble()
-    style.py        palettes: AGE_MATERIALS, RACE_STYLE, COMMON, blended(race, age, key), shade/mix/jitter
-    gltf.py         GLB writer (+ read_glb_summary for validation)
-    render.py       numpy preview renderer (god's-eye 3/4 view, toon outline, contact sheets)
-    registry.py     publish(builder, AssetMeta, generator): validate -> .glb -> preview -> manifest
-  generators/<group>/<name>.py   one script per artist; run with: python3 tools/AssetForge/generators/<group>/<name>.py
-  generators/_samples/sample_house.py   reference example
-  previews/         rendered PNGs (check them!)
-  build_all.py      runs every generator and merges manifests -> Assets/GodSim/Art/Models/manifest.json
+## Generate a reference house
+
+From the repository root, using the project’s Python environment:
+
+```sh
+export PYTHONDONTWRITEBYTECODE=1
+(cd tools/AssetForge && python -c 'from forge.atlas import create_textures; create_textures()')
+python tools/AssetForge/generators/_samples/sample_house.py
 ```
 
-The outputs are `Assets/GodSim/Art/Models/<Category>/<id>.glb` plus `_manifests/<generator>.json`, which
-`build_all.py` merges into `manifest.json`. Unity imports the `.glb` files via glTFast
-(`com.unity.cloud.gltfast`). `GodSim.Unity.ArtLibrary` maps (BuildingType, race, age) to a model, and falls
-back to procedural meshes when nothing matches.
+The Dawn, Medieval and Industrial houses and their previews live under the respective `_Samples` directories. They demonstrate atlas use and LOD construction. The production work list and critic acceptance process are in [the building brief](../../docs/BUILDING_ART_TASK.md). The silhouettes, age materials, race motifs and scale follow [the art style guide](../../docs/ART_STYLE_GUIDE.md). Use the newer budgets from the brief.
 
-## Writing a generator
+## Author a building
+
+Construct three complete versions of the building. Preserve supporting walls, roof silhouette and important projecting parts at distance. Group details by LOD in the generator. A lower LOD may replace a continuous many-sided shell with a simpler shell, remove small fittings, or combine small parts into a single mass.
+
 ```python
-import os, sys
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
-from forge import MeshBuilder, style, publish, AssetMeta
-GEN = 'dwarf_extraction'            # unique generator name == manifest file
-m = MeshBuilder(seed='bld_dwarf_mine_bronze_v0')
-...                                  # model it (see sample_house.py)
-publish(m, AssetMeta(id='bld_dwarf_mine_bronze_v0', kind='building', category='Buildings/Dwarf/Extraction',
-                     building_type='Mine', race='dwarf', ages=['bronze', 'iron'], footprint=[2, 2]), GEN)
+from forge import AssetMeta, MeshBuilder, publish, style
+
+meta = AssetMeta(
+    id='bld_dwarf_mine_bronze_v0', kind='building',
+    category='Buildings/Dwarf/Extraction', building_type='Mine',
+    race='dwarf', ages=['bronze', 'iron'], footprint=[2, 2],
+)
+levels = [build_mine(meta, level) for level in range(3)]
+entry = publish(levels[0], meta, 'dwarf_extraction',
+                lods=(levels[1], levels[2]), preview_size=160)
 ```
-- `ages` lists the ages this model should represent. ArtLibrary picks the model whose age range is
-  closest to `Building.StyleAge`.
-- Use `with m.transform(translate=..., rotate_y=..., scale=...)` for sub-assemblies.
-- Wrap helpers in your own module-level functions. Never edit `forge/`. If you need a primitive that is
-  missing, write it locally in your generator using `m.quad`/`m.tri`/`m.poly`.
+
+`build_mine` in this example stands for the artist’s construction function. The sample house has a runnable version of this pattern. Supply an individual mesh per age when the brief requires a new silhouette. For a multi-age mesh, place the authored base age first in `ages`.
+
+MeshBuilder offers box, cylinder, cone, sphere, dome, prism, gable and hip roofs, pyramid, stepped pyramid, wedge, and custom counter-clockwise `tri`, `quad`, and convex `poly` faces. A transform accepts position, scale and degree rotations and preserves winding under reflections. Each planar face receives a continuous local UV projection before triangulation. Atlas packing reserves five pixels of gutter on every side.
+
+Choose a surface with `material='roof'` (or another key) on the primitive. This argument selects atlas pixels for the one shared GPU material. Race-aware roles are `wall`, `roof`, `trim`, `accent` and `banner`. Detail slots are defined in `forge.atlas.DETAILS`. They include thatch, timber, plaster, fieldstone, brick, roof tile (`roof_tile`), slate, metal plate (`metal`), glass, leaf, hide and the three emission slots `emissive`, `forge` and `ascension`. The default `base` surface maps the input RGB to the closest non-emitting shared swatch for that race and age. Explicit roles keep the material assignment stable across color variations. In both cases, the atlas supplies the actual color. For a separate per-vertex linear RGB multiplier, pass `tint=(r,g,b)` to MeshBuilder. Untinted models omit `COLOR_0`.
+
+## Texture layout and Unity
+
+`forge.atlas.create_textures()` deterministically paints both shared PNGs in `Assets/GodSim/Art/Textures`. The atlas is 1024 × 1024 with ten 96-pixel age rows. Each row holds 48 patches with extruded edges, arranged in three strips of 16. A 256 × 256 emission texture uses the same layout. Each source PNG has a matching Unity importer configuration with mipmaps, clamping and an explicit iPhone ASTC 6×6 override. The complete mip chains need **666,384 bytes** at that format.
+
+The glTF V coordinate increases downward. Add `(target_age_index - authored_age_index) * 96 / 1024` to glTF V. For Unity UVs converted to bottom-origin, apply the negative of that delta. Both textures use the same adjusted coordinates. The shared built-in-pipeline material is `Resources/GodSim_Buildings.mat`. Its shader accepts instanced `_AgeRowOffset` in Unity UV units, `_Color` for instance tint, and `_UseVertexTint` (default 0). A renderer can enable vertex tint for meshes with a color channel. When combining mixed geometry, fill missing vertex colors with white. The two PNG references, shader and material use checked-in Unity GUIDs.
+
+A glTF viewer opens scene 0 (LOD0). Scenes 1 and 2 expose only LOD1 and LOD2 respectively. Each scene contains one identity-transform root, one indexed mesh and one primitive. The optional `MSFT_lod` link also identifies the two lower nodes for clients that understand it. Load the appropriate mesh for display. All external image URIs are relative to the GLB directory and point back to the same two PNGs.
+
+## Verify and publish
+
+`forge.registry.validate_glb(path)` reopens the GLB and reads the actual binary accessors. It checks counts, indices, finite coordinates, accessor limits, normals against winding, duplicate and degenerate triangles, floor contact, exact footprint limits, per-face UV patch containment, base-age row, inset margins, one material, both exact texture references, the LOD structure and the iPhone texture budget. For a manifest comparison, pass the expected `AssetMeta` as the second argument.
+
+LOD0 limits are 700 triangles for House, 1,500 for a standard building, 2,500 for Town Center, Castle, Forum or Arcology, and 5,000 for wonders. Each chain decreases strictly. LOD1 targets 50% with a hard ceiling of 60% of LOD0. For an oversized authored middle mesh, the exporter collapses eligible short edges that preserve local topology and face direction. The serialized validator enforces the ceiling exactly. LOD2 targets 20%, with a ceiling of 32% or a 32-triangle simple silhouette. Critics inspect each changed model, especially entrances, supports and roofs at phone scale.
+
+Publication compares every ordered pair of models within each race, type and variant, including the ten individual Town Center and House ages. It counts the first mesh’s indexed LOD0 corners present anywhere in the second after rounding positions to three decimal places. The original round-one families and the 27 mandatory round-two families have a hard 60% ceiling. For other families, an overlap greater than 60% requires a recorded independent grayscale decision for that exact pair and both current file hashes. Overlaps above 80% always require repair. The [grayscale comparison pages](previews/_sheets/era_geometry/) use two unpainted 64-pixel views. The [round-two ledger](reviews/rc4/triage.json) records the visual reasons and both directed measurements.
+
+With the project interpreter, `python -B tools/AssetForge/building_round2.py audit` refreshes the round-two audit and report table from the current exports and checkpoint. To generate individual painted LOD and grayscale family review panels, run `python -B tools/AssetForge/building_round2.py views <race> <output-directory>`.
+
+`publish` validates the serialized bytes before replacing a model. It renders the base preview as `<id>.png` and each additional age as `<id>__<age>.png` using the exact UV-row shift. It records `lod_triangles`, `texture_bytes_astc` (the same shared allocation for every model), bounds and the `age_previews` mapping in the generator’s manifest fragment. Each generator owns its fragment. Every production output belongs in its race and group folders beneath `Assets/GodSim/Art/Models/Buildings` and `tools/AssetForge/previews/Buildings`.
+
+Unity shader compilation, glTFast import, draw-call counts and physical device measurements require separate verification.
+
+Use `building_review.py <package>` to run serialized and geometric checks and print the image paths an independent critic must inspect. It reports exposed coplanar triangles, inward-facing closed shells and identical LOD0 shapes within the package. The catalog assembly also checks shapes across race packages.
+
+Run `build_all.py --no-run --partial` to publish whole packages that pass current reviews and geometry checks and have no open art-director findings. `building_status.py` updates the art report and production checklist. After all packages pass, `build_all.py --verify-rebuild` executes every generator twice in sequence, checks each expected model and age preview was rewritten, and compares the SHA-256 inventories. The comparison covers models, age previews, shared resources, manifests, resource bindings, generator-produced contact sheets and all canonical contact sheets. Add `--hash-dir DIRECTORY` to save both full inventories. In `previews/_sheets/families/`, each row shows one race and house variant across ten ages at 64 pixels. Empty cells mark ages absent from the published catalog.

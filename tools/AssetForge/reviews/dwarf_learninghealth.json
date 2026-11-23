@@ -1,0 +1,1274 @@
+{
+  "package": "dwarf_learninghealth",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Session 6 military builder, independent learning and health critic",
+      "models": [
+        {
+          "id": "bld_dwarf_bathhouse_classical_v0",
+          "evidence_sha256": "26c5e7d851880e4dbea21d9a3b649222535c505da03bd5a0e583e2282f92acd1",
+          "observations": "The deep blue round bath, second plunge basin and changing bench read together at 64 px. The brick-red cap and dome look nearly identical over the Classical and Renaissance baths; the darker Medieval row is distinct. Serialized LODs 940/498/154.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 88,
+            "construction": 94,
+            "charm": 94,
+            "colour": 89,
+            "technical": 99
+          },
+          "defects": [
+            "Expose more Classical marble versus warm Renaissance plaster on the dominant pool surround or the hall roof curb. Keep the water visible."
+          ]
+        },
+        {
+          "id": "bld_dwarf_bathhouse_future_v0",
+          "evidence_sha256": "22244a7f86c6e11c96f3c4bf373508971f88c4d5f8429015c021f1dcb5f38ade",
+          "observations": "The two pools, plant and bench remain legible beneath a raised glazed roof lantern. The cool Information curb becomes a gold Ascension roof around the blue glazing. Serialized LODs 890/472/152.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_bathhouse_industrial_v0",
+          "evidence_sha256": "8c8ede74bc1c7a32b4502c2df7eac63ab0e5b4cb6d14c346afc7d87453fcefec",
+          "observations": "Unequal banded boiler stacks identify the heated bath wing. The double basins carry the reading across the red-brick Industrial and concrete Modern walls. Serialized LODs 1118/584/196.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_data_center_future_v0",
+          "evidence_sha256": "66a4abf4996567714f0f1827c786c97c671f2ac3f5188eb700e71be84226a39d",
+          "observations": "Three parallel server bays, separate paired fan and louver assemblies and a recessed stair give this glazed block a convincing technical purpose. Gold caps separate Ascension from the blue-black Information row. Serialized LODs 1214/648/328.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_herbalist_ancient_v0",
+          "evidence_sha256": "54f267d4392bfd00ca4b4fa3068242201f0cd5847a364d2e003f8d685952317b",
+          "observations": "The outsized pestle enters the mortar beside the low shop; a cluster of planted pots frames the stairs. The pale Dawn brow, copper Bronze bowl and cooler Iron roof change around the same workshop. Serialized LODs 962/592/236.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 90,
+            "construction": 93,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_herbalist_classical_v0",
+          "evidence_sha256": "01b3f782965bd6a112b33b88bf733ade8d40a8b590d74d4327bfa70605227b31",
+          "observations": "The green mortar and planting are easy to pick out. Both Classical and Renaissance have almost the same warm red roof and light stone cap at 64 px; the medieval brown stands apart. Serialized LODs 962/592/236.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 88,
+            "construction": 94,
+            "charm": 95,
+            "colour": 89,
+            "technical": 99
+          },
+          "defects": [
+            "Enlarge the clerestory face or make more of its top a shared age-mapped plaster surface so Classical ivory and Renaissance ochre occupy a visible area in the thumb."
+          ]
+        },
+        {
+          "id": "bld_dwarf_herbalist_future_v0",
+          "evidence_sha256": "a6515ba59dc9e8a543f514fbf86a43f9dfde64818a985fbd897e71c5000eec1a",
+          "observations": "The metal pestle and blue clerestory signal an updated shop while the three planted pots and mortar establish its trade. Ascension's gold coping catches the light against the pale front. Serialized LODs 962/592/236.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_herbalist_industrial_v0",
+          "evidence_sha256": "b0df6a58e52ff34f0ea22bc4d5118522818b40a66b80034733f4f6de537d6f95",
+          "observations": "The green mortar content, slanted pestle, planting pots and dark tiered top hold their shape at 64 px. Warm brick changes to light gray in the Modern shop. Serialized LODs 962/592/236.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_hospital_classical_v0",
+          "evidence_sha256": "6c4db32f3904689fd78e068200d163bf49de665f180235b205dcf34295db1802",
+          "observations": "A double-height hospital entrance, shared turquoise medical cross, recessed glazed door and shorter side ward form a legible Renaissance clinic with terracotta tiers. Serialized LODs 802/396/130.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_hospital_future_v0",
+          "evidence_sha256": "7f54d7c53ddbbf165bfc47e2d971d44b7e8feb3a00228beaece91810f125ed7a",
+          "observations": "The ribbed blue ward vault meets a taller glazed clinic under the projecting turquoise cross. The covered stair and planter give the entrance scale in both future ages. Serialized LODs 838/420/146.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_hospital_industrial_v0",
+          "evidence_sha256": "16f809e54f2ce4e58d6d31e941306ce359578572b3d093d4da74c6cfc396e9aa",
+          "observations": "The medical marker is readable at 64 px above the recessed porch; the boiler annex and squat rimmed chimney distinguish the Industrial hospital from its red-roofed predecessor. Modern changes its walls to concrete. Serialized LODs 938/462/162.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_library_classical_v0",
+          "evidence_sha256": "8992466bd4db7ba63d7793f71f8678594e0540420f7ad595164a16468ab0f0c4",
+          "observations": "The roof deliberately takes the form of an open book and the piers carry matching miniature readings. Across the four rows the large ivory leaves remain invariant; Classical and Renaissance both retain the same red edge and appear almost identical at 64 px. Serialized LODs 512/312/102.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 88,
+            "construction": 93,
+            "charm": 94,
+            "colour": 89,
+            "technical": 99
+          },
+          "defects": [
+            "Give the roof leaves or the raised ring supporting them a substantial age-mapped plaster component. Keep the crease and spine, and verify Classical, Renaissance, Medieval and Iron at 64 px."
+          ]
+        },
+        {
+          "id": "bld_dwarf_library_future_v0",
+          "evidence_sha256": "699872c004031939879caa00beaefbd42be0dd3c9f1a4f229dda393f49ad5f98",
+          "observations": "The huge twin stone leaves, bookmark and matching facade reading stands identify the library immediately. An underlit glazed upper stage separates the book from the heavier base; the gold Ascension roof curb reads clearly. Serialized LODs 534/322/112.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 93,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_library_industrial_v0",
+          "evidence_sha256": "2c437343dc12e0bd832fa52385083465b1389fbdd36e1f30678411b16419d541",
+          "observations": "Two pale roof leaves sit high on a tiered reading hall. Small books terminate its entrance buttresses; the compact flue is visible at the rear. Brick versus concrete preserves readable age variation. Serialized LODs 648/378/134.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_medical_center_future_v0",
+          "evidence_sha256": "fd26a82dc72ad2a13feec58e3ef7cac99271e374a9473f6a0462d1e5ad0cc58f",
+          "observations": "The diagnostic annex has a round glazed roof capsule alongside the cross-marked tower. It reads as part of the same medical family as the Hospital; the planted stair and separate porch remain clear. Serialized LODs 1008/522/200.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_observatory_classical_v0",
+          "evidence_sha256": "e407846cdea9a38c8e87a35e3a5687544c55eda8040293bae9d22bd9a183a397",
+          "observations": "An inclined brass telescope rises from the terracotta observatory dome, with its socket visibly anchored at the pivot. The instrument dominates the fortified, low square hall. Serialized LODs 762/414/148.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_observatory_future_v0",
+          "evidence_sha256": "fbea00b2c7cf9ce58c33e237dd3213aa6a6402b52eeb8a1115cc59f375322e52",
+          "observations": "The telescope and opening emerge from a faceted blue observatory dome above a broad dwarf cornice. A side planter gives the door scale; a gold roof changes the Ascension skyline. Serialized LODs 762/414/148.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_observatory_industrial_v0",
+          "evidence_sha256": "e0f8436145db5761c9f126c51bb8fe2f640e37fbd642ea901b93ad6b1593f473",
+          "observations": "A brass tube, elevating bracket and revolving drum create a clear telescope against the low rectangular roof. The darker brick drum and paler concrete Modern walls remain distinct. Serialized LODs 736/412/158.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_printworks_classical_v0",
+          "evidence_sha256": "1f78c6275347b2a63cc9727c7cd58669013e7f1c45e6b916b7b1e2ca3321bebc",
+          "observations": "The tall screw press fits between two load-bearing posts and the projecting tread bed; a stack of paper sits on its own counter. This is legible against the red-roofed Renaissance shop. Serialized LODs 780/432/150.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_printworks_future_v0",
+          "evidence_sha256": "fb85d67c94a678d82886b573111a231c8a00f094b802e6e9e80c24bad437f8f4",
+          "observations": "The stepped glass upper floor keeps the future guild press distinct from earlier shops. A large fixed screw, platen and pale stock on the front chest make the activity readable. Serialized LODs 802/442/160.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_printworks_industrial_v0",
+          "evidence_sha256": "5198a88fc1220e041b014c932a6c04fd0aefd283b3849094ca437bbf30b144dd",
+          "observations": "The front drive wheel and supported screw, with feedstock on a side chest, make the Industrial printworks easy to identify. Red masonry changes to concrete in Modern without losing contrast at the wheel. Serialized LODs 904/524/210.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_research_lab_future_v0",
+          "evidence_sha256": "9e71b1ffe8727f082d4d80402d97d4dc279b4c0736035d930075d83be869f35d",
+          "observations": "The three blue and gold-collared forms show through the thumbnail as opaque capped tanks standing independently on the roof. The plain door and scattered windows give little indication of a research activity. Serialized LODs 1032/498/214.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 93,
+            "construction": 92,
+            "charm": 86,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Convert at least one tank into a recognisable observation chamber with a visible specimen or instrument, a supporting frame and a purposefully connected instrument line or bench. Keep the squat hall."
+          ]
+        },
+        {
+          "id": "bld_dwarf_research_lab_industrial_v0",
+          "evidence_sha256": "ad24d8fa9a211e92134ffa9784e0b3ebe0832b0a935b0bce98e8a3af0f4d7105",
+          "observations": "Two capped blue cylinders on a plain flat roof resemble a storage depot. The rim bands and planted entrance are well made, but at 64 px no visible instrument connects the vessels to laboratory work. Serialized LODs 836/386/160.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 91,
+            "construction": 91,
+            "charm": 87,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Modern laboratory a visibly framed research apparatus such as a specimen chamber or magnifier integrated with one vessel. Use a purposeful connection to the bench or second chamber."
+          ]
+        },
+        {
+          "id": "bld_dwarf_scriptorium_ancient_v0",
+          "evidence_sha256": "ed73fa5e08385cf54a64cc277bac665de4a32758fa2ebea1614e59118bde5aa2",
+          "observations": "The low timber-lit hall and square chimney read well as Iron construction. The two white-topped front units look like bins when reduced, and the dark roof deck leaves no writing cue in the silhouette. Serialized LODs 606/346/170.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 91,
+            "construction": 94,
+            "charm": 87,
+            "colour": 90,
+            "technical": 99
+          },
+          "defects": [
+            "Turn one front unit into a larger sloped writing lectern with a bright scroll and supported diagonal stylus; preserve the entrance and era materials."
+          ]
+        },
+        {
+          "id": "bld_dwarf_scriptorium_classical_v0",
+          "evidence_sha256": "104d8132a746dac509c3dd685eaac6ad018b54d12a8bb5d926a0003587bdb61c",
+          "observations": "The single inclined roof window and little chimney describe a well-lit workshop, but at 64 px the small pale rectangles on its timber fronts cannot be read as writing desks. Serialized LODs 606/346/170.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 91,
+            "construction": 94,
+            "charm": 87,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Make a projecting writing desk with an unmistakable unfurled sheet or scroll and supported quill or stylus. Give the pale motif enough area to read in all three finishes."
+          ]
+        },
+        {
+          "id": "bld_dwarf_scriptorium_future_v0",
+          "evidence_sha256": "f38e8cb7af010ab43ca5355d221648ca3821e189b55a2702fa066b44c36ac7b2",
+          "observations": "The long glazed roof lantern and stone shell give a convincing futuristic workroom. Its two small matching front units are still ambiguous beside the door at 64 px. Serialized LODs 638/362/178.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 93,
+            "construction": 94,
+            "charm": 87,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Enlarge one illuminated writing station and give it a readable document surface plus a diagonal supported stylus, keeping its modern curved lantern."
+          ]
+        },
+        {
+          "id": "bld_dwarf_scriptorium_industrial_v0",
+          "evidence_sha256": "f327d43f7ea315e7d74c5f4ed67634b0e8babdca38322c227bdf6551edc1592f",
+          "observations": "Paired roof lights and a banded flue make this look like a little factory in both ages. The paper on the two small front stations reads as flat white lids in the thumbnail. Serialized LODs 614/354/178.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 92,
+            "construction": 94,
+            "charm": 87,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Expand a working paper station into a clear scroll-and-stylus motif that breaks the straight line of the front counters. Preserve the paired high lights."
+          ]
+        },
+        {
+          "id": "bld_dwarf_university_classical_v0",
+          "evidence_sha256": "cd74e3cc13ac00d9204ab091595cc463fb976a79e664aa3f358ef821476bed9c",
+          "observations": "The two wings frame a circular lecture tower, with a monumental open lectern and matched planters on the approach. The dark Medieval roofs change to red Renaissance tile. Serialized LODs 1112/612/170.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_university_future_v0",
+          "evidence_sha256": "5f7bddda2c879187dd93797ef2574d409bfc1fb3f2637282899ce4f218bf068a",
+          "observations": "The blue barrel-vaulted wings enclose a central drum and open stone lectern. Tall supporting corner piers ground the glazing, while Information black and Ascension gold differentiate the silhouettes' edges. Serialized LODs 1132/632/174.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_university_industrial_v0",
+          "evidence_sha256": "7bb1197628324abbe391e18f83ea00d2def6af4c971f97378ba5c8a33ca94aef",
+          "observations": "Two squat teaching wings and their paired flues flank a domed central hall. The entrance lectern and planters are still discernible around the red-brick Industrial or gray Modern court. Serialized LODs 1384/744/234.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Session 6 military builder, independent learning and health critic",
+      "models": [
+        {
+          "id": "bld_dwarf_bathhouse_classical_v0",
+          "evidence_sha256": "5b7b4a133f2e1187926a7aab4c0aa8e43b3d16025f731ee21d676f58eafe4443",
+          "observations": "The pool surround and broad roof now brighten to marble white in Classical and turn warm ochre in Renaissance. The dark Medieval dome and secondary basin still separate that row at 64 px. The water and bench remain clearly visible. Serialized LODs 940/498/154.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_herbalist_classical_v0",
+          "evidence_sha256": "fb27e8e81447d5a74303ab5ccf87d54096158589f313629042ad19ac35bd7d10",
+          "observations": "The raised upper course now presents a broad ivory Classical face and warm sand-coloured Renaissance face above the mortar. Medieval has a dark brown brim, making all three thumbnails legible. The pestle still clears the entrance. Serialized LODs 962/592/236.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_library_classical_v0",
+          "evidence_sha256": "d9f8b10e9df60b0a1e5c7cf7f43998f457545c144e7f8a7481c0dfef1ae09601",
+          "observations": "The twin roof leaves and their fore edges now show ivory Classical, gold-toned Renaissance and gray Iron at 64 px. Medieval has a darker lower brim below its light leaves. The bookmark and central crease continue across all four renderings. Serialized LODs 512/312/102.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_research_lab_future_v0",
+          "evidence_sha256": "6f301539a705fc7578ccc64d3674386f701072fa283b7ef8edab97829f4f0a64",
+          "observations": "A framed round lens, anchored on the same broad work surface as its glowing specimen, makes the roof read as an optical instrument. The adjacent capped vessel acts as supporting equipment. The jewel silhouette survives in both thumbnails. Serialized LODs 1162/610/319.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_research_lab_industrial_v0",
+          "evidence_sha256": "8160546b5eb08a9eb4d42452cc2db826f5e3212d006b2d2990f91f66afaf57fd",
+          "observations": "The Modern roof now carries a specimen on a circular pedestal and a large optical frame with two visible supports. The crystal and lens read as one experiment at 64 px, distinct from the remaining service cylinder. Serialized LODs 966/498/265.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_scriptorium_ancient_v0",
+          "evidence_sha256": "81190892bd5bcf26a04376d14c48353cf400025f8934cc96cd6444e892575891",
+          "observations": "A pale written scroll spans the projecting front lectern and a bronze quill rises from its socket. That two-part silhouette is visible against the dark roof of the Iron hall, and the centre stair stays clear. Serialized LODs 748/474/232.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_scriptorium_classical_v0",
+          "evidence_sha256": "603028eddb5bf1536f12354076f5340a10e02628e845c3faccfb5e2f0db15c25",
+          "observations": "The bright rolled sheet is angled toward the viewer and the tall anchored quill marks the front corner at 64 px. The projecting desk is legible beneath all three roof finishes, leaving the central door exposed. Serialized LODs 748/474/232.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_scriptorium_future_v0",
+          "evidence_sha256": "bbd1634fb061a95496d1917ec5e5eaffceb5397cdc18a458bf5d172b91f38950",
+          "observations": "The enlarged document station sits below the blue-vaulted lantern. Its raised pen and pale page remain readable against both dark Information and gold Ascension roof edges without obstructing the stair. Serialized LODs 780/490/240.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_scriptorium_industrial_v0",
+          "evidence_sha256": "d6c85e1baa4732df00c4306752a182d46b5e065b731b6d452e4f64e50cf12d82",
+          "observations": "The folded page, ink socket and raised pen give the brick and concrete shops a writing silhouette in the phone-size views. The paired roof lights and distinct flue remain visible behind the station. Serialized LODs 756/482/240.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Dwarf LearningHealth art critic",
+      "models": [
+        {
+          "id": "bld_dwarf_medical_center_future_v0",
+          "evidence_sha256": "5abfa980277c60ddcf13b92675c03a90b4a0813be3137e7c338cfc893660cd06",
+          "observations": "At 64 px in both future ages the cross sits above a wide, open ambulance bay on a pale apron. The Hospital has a narrow stair entrance, a high cross and a blue barrel-vaulted side ward. The MedicalCenter's glazed upper storey, stepped dwarf roof and column-supported canopy retain their shapes through all three serialized LODs. The charcoal Information canopy becomes gold in Ascension. Serialized LODs 744/388/172.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 90,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_herbalist_ancient_v0",
+          "evidence_sha256": "b2e662697dc09a94aaccb5e9548d38dc2fb2d09689b5636452a72dd9ad77d74a",
+          "observations": "A large mortar and slanted pestle sit outside the squat timber workshop, with three smaller planting pots marking the door. The dark opening, roof cap and stone feet remain legible at LOD1. Ochre and green separate the work surfaces from the planting.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            962,
+            548,
+            236
+          ]
+        },
+        {
+          "id": "bld_dwarf_herbalist_classical_v0",
+          "evidence_sha256": "b0e27b9c9acc3b8ca70bccd7bc4bf0ecbdba0fde91d965bf402fdfc9b9c97733",
+          "observations": "The tiled belt and white cap brighten the shop, but the same mortar, three pots, door position and squat stepped box remain from the Ancient herbalist in both unpainted views. The roof and masonry still join cleanly in LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 82,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Arrange the apothecary around a walled herb garden with a colonnade and herb-drying roof. Break the earlier single-room outline while keeping the hand tools."
+          ],
+          "lod_triangles": [
+            962,
+            548,
+            236
+          ]
+        },
+        {
+          "id": "bld_dwarf_herbalist_future_v0",
+          "evidence_sha256": "b86ff08af3280417955c03fffe95b143477757b7396883c8892bd39507ea75fd",
+          "observations": "Blue panels surround the upper storey of the same squat house, beside the same large mortar and trio of low pots. The outline in neutral light closely matches the older shops. The LOD1 entrance, overhang and support walls are intact.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 81,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the future herbalist box with a terraced growing chamber or paired culture pods linked to a dispensing entrance. Expose that production system in the outline."
+          ],
+          "lod_triangles": [
+            962,
+            548,
+            236
+          ]
+        },
+        {
+          "id": "bld_dwarf_herbalist_industrial_v0",
+          "evidence_sha256": "d8a80cc1da05d118f4770b3c0af4f8171334291feddcc6dde09d6d5238283dfb",
+          "observations": "Dark trim and brick identify the material, but the herb pots, mortar and two-stage square roof retain the Classical and Ancient plan at 64 px. Glazed openings, roof apron and doorway survive the middle LOD.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 82,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Build an industrial distillery with an external condenser or drying loft and service yard. Move the growing and processing areas to change the whole silhouette."
+          ],
+          "lod_triangles": [
+            962,
+            548,
+            236
+          ]
+        },
+        {
+          "id": "bld_dwarf_library_classical_v0",
+          "evidence_sha256": "12e8fba1046eb43c65d60e790bfbcaa6a871918f0bf6b446963afa661a8a5022",
+          "observations": "The large upturned leaves of an open book project over a masonry reading hall. The door, stair and two corner piers anchor the emblem at architectural scale. LOD1 keeps the open-book fold and access from the front.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            512,
+            290,
+            102
+          ]
+        },
+        {
+          "id": "bld_dwarf_library_future_v0",
+          "evidence_sha256": "d89b4602abaef49bfd2a806d3eff6bf94c3fecc6a94472c23fadef9d8b2de308",
+          "observations": "Both grey views show the same large open book over the same rectangular plinth and central door as the Classical library. The thin blue stripe and revised cornice disappear as age cues. The book and supporting hall remain intact at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 82,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Make the future stacks part of a distinct structure, such as a radial archive with an open central reading chamber, while retaining a smaller book emblem."
+          ],
+          "lod_triangles": [
+            534,
+            304,
+            112
+          ]
+        },
+        {
+          "id": "bld_dwarf_scriptorium_ancient_v0",
+          "evidence_sha256": "bbb00698fc9fde294dccf3dbc6afb035e8879cbea471b01b1ed9b3ee14b9b73a",
+          "observations": "The long timber room has an upright quill, projecting writing desk and a short stack of books. Together they identify a copyist's workshop at phone scale. LOD1 keeps the desk ledge, solid flank and doorway under the overhang.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 92,
+            "charm": 94,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            748,
+            426,
+            232
+          ]
+        },
+        {
+          "id": "bld_dwarf_scriptorium_classical_v0",
+          "evidence_sha256": "99a07110bac1ecf95e46995766718ea8831d76136aee45452d6a5e8846f7f1e8",
+          "observations": "The great quill and desk still work as signs of the trade, and the roof and front opening survive LOD1. The narrow shed, end quill, sloping desk roof and book stack retain the Ancient proportions in the two unpainted views.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 83,
+            "construction": 92,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Design a Classical reading cloister or a stepped pair of writing rooms lit through a high arcade. Reposition the desks to suit the changed plan."
+          ],
+          "lod_triangles": [
+            748,
+            426,
+            232
+          ]
+        },
+        {
+          "id": "bld_dwarf_scriptorium_future_v0",
+          "evidence_sha256": "069d59abfaaf49cd6836fa68d6a155ffff328f1935dc4e3856e7248f58b0ade7",
+          "observations": "A high continuous glazed barrel lights the copy room and changes its profile from the paired Industrial roof panels. The quill and slanted desk keep the function identifiable. LOD1 keeps the glazing, roof rim and front access distinct.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            780,
+            444,
+            240
+          ]
+        },
+        {
+          "id": "bld_dwarf_scriptorium_industrial_v0",
+          "evidence_sha256": "53ed7395ab03b7375cc8714300a02077d3519a9fc432829594252f8bf35fb16a",
+          "observations": "Two pitched lights divide the workroom roof and a tall vent rises behind the desk. The added roof bay remains visible at phone scale and the desk, doorway and book-end wall survive LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            756,
+            430,
+            240
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_dwarf_herbalist_classical_v0",
+          "evidence_sha256": "a5daf15c5ad78079755215d9b81292bd5a4d4badaba0ba8ced8c502dcc597334",
+          "observations": "Three exposed medicinal planters occupy a court between low stone walls and an open colonnade. The long pitched roof and planting space separate from the Ancient mortar house and the later distillery. All supports and planters survive LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            808,
+            460,
+            228
+          ]
+        },
+        {
+          "id": "bld_dwarf_herbalist_future_v0",
+          "evidence_sha256": "346dcaa7175d4a6bd2844778643bdf1f96c51065d0ec53d50c982d3003a8137d",
+          "observations": "The two domed growth pods do distinguish this era from the apothecary and distillery in grey. From the main view, however, solid blue tanks and a dispensing booth hide the only herbs between buildings. The plants disappear entirely at LOD1, including in the side view, so the installation reads as tank storage.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 80,
+            "construction": 92,
+            "charm": 84,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Move a substantial planted growing bed, leaf clusters or medicinal cultivation trays to the public-facing side of the dispensing building. Preserve recognizable growing forms in LOD1 and LOD2."
+          ],
+          "lod_triangles": [
+            844,
+            338,
+            160
+          ]
+        },
+        {
+          "id": "bld_dwarf_herbalist_industrial_v0",
+          "evidence_sha256": "7f2f243cae5e2884f995fdcf1385f7e1d246be54b8e514b032f656d87ed989ea",
+          "observations": "A tall banded condenser, spherical still and connected pipe occupy a service yard beside the herb workshop. The low wing has a visible door and a planter stays in front at LOD1. Both neutral angles distinguish it from the older garden and the later pods.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            822,
+            466,
+            184
+          ]
+        },
+        {
+          "id": "bld_dwarf_library_future_v0",
+          "evidence_sha256": "49b5a31570031455f08e366cb8b6e0efcdabba6e8d32a539244816e952291a08",
+          "observations": "Unequal archive towers embrace an open reading court, with shelves turned inward toward the book on its round platform. The counter at the court opening provides scale. The book, shelf bands and courtyard survive the middle mesh, giving a different plan from the Classical book-roof hall.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1172,
+            436,
+            232
+          ]
+        },
+        {
+          "id": "bld_dwarf_scriptorium_classical_v0",
+          "evidence_sha256": "9e86ecbe7146deafd5ea982b3bbd2bfd1f6dd78aa692693d420d67b8ae50d9b6",
+          "observations": "Two vaulted copy rooms flank a taller open arcade. Light-coloured writing surfaces face the central passage, and both rooms have a gold-trimmed door. The middle mesh keeps the desk tops and arcade piers. The passage opens up the dense profile of the Ancient copy shop.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            656,
+            328,
+            208
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_herbalist_future_v0",
+          "evidence_sha256": "bb5c2513365c4717034b4a4f29f015bcd1cfc739cc7a49704256559b80686e08",
+          "observations": "Two prominent leafy planters now sit on the dispensing booth roof and on the public side of the pods. Their plant silhouettes survive the middle mesh, remain legible in both painted age previews, and identify the cultivation function at phone size.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            844,
+            506,
+            216
+          ]
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_dwarf_hospital_future_v0",
+          "evidence_sha256": "c53d01d57ceeca7bd03fae5e03cbef129b00b7d813f942cca44743b5e10def69",
+          "observations": "The broad, round glazed ward and small flat-roofed entrance retain their supports, medical cross and split in height through LOD2. The Human future hospital uses the same composition in both grayscale views, with a slimmer striped cylinder next to a larger square lobby. The Dwarf plan has no equally strong structural distinction.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 86,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Dwarf hospital a different primary ward plan, for example opposing low stone ward wings around a sunken triage court with a glazed central ridge. Retain the medical cross on an integrated entrance and verify the two unpainted angles beside the Human future hospital."
+          ],
+          "lod_triangles": [
+            714,
+            314,
+            154
+          ],
+          "serialized_sha256": "163e442570b8e6375dd4a6054bece4f0f747ec953947df77616a23f91b1c24dc",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-01.png",
+            "rc6/families/dwarf-Hospital-v0.png"
+          ],
+          "frozen_png_sha256": {
+            "rc6/held-trade/bld_dwarf_hospital_future_v0-c53d01d57cee/ascension.png": "8e6fee6ddb8670db73d2fe6d29d4327b440b2fd6ffe10e2e894a612015d29c2c",
+            "rc6/held-trade/bld_dwarf_hospital_future_v0-c53d01d57cee/dwarf-Hospital-v0.png": "d267803bbcb253ff36a29c136d0fc02958bfb1e255cf01ecd77ef111ebbac9ef",
+            "rc6/held-trade/bld_dwarf_hospital_future_v0-c53d01d57cee/human-Hospital-v0.png": "ccbcd622316fff5c111d7f7abfdaec5f23d0f1d371c9aa09067df95bd725cb75",
+            "rc6/held-trade/bld_dwarf_hospital_future_v0-c53d01d57cee/information.png": "f7e505c3596077d9eb238088a87ca27647b9bc7c8e649aa31e99eaaa1d236711",
+            "rc6/held-trade/bld_dwarf_hospital_future_v0-c53d01d57cee/model-and-lods.png": "ee8e94e6ee0b537d9dec2c90c1fb32838f489bc91897fca09b9968e1b7cb9b1e"
+          }
+        },
+        {
+          "id": "bld_dwarf_hospital_industrial_v0",
+          "evidence_sha256": "1947f682a8042f42be5e0fb9985863bfd5adbd5b4793b9ddcdde096ed2a91336",
+          "observations": "Two parallel brick wards run behind a signed central entrance. The steps, chimney and plants make the approach inhabited. LOD2 preserves the two roof ridges and the medical cross over the door. The adjoining future round ward and earlier square stacked hospital produce different skylines.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            806,
+            340,
+            124
+          ],
+          "serialized_sha256": "151eb801e8102af3834347cbfed41d5f60508a1e34bce061fb6ec8258b89983c",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-01.png",
+            "rc6/families/dwarf-Hospital-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_observatory_future_v0",
+          "evidence_sha256": "b5d4cf8a2a9262ac28a43fb99bbf27fa8dfabdc39c8e661048954ac949b34a2e",
+          "observations": "A faceted dish and three converging stays frame the blue receiver. The reverse view exposes the flared bearing on a round pedestal, with a separate, low control room. At LOD2 the receiver is still attached, and the aperture and pedestal remain distinct from the brass ring instrument.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            810,
+            454,
+            236
+          ],
+          "serialized_sha256": "dfb034d00d34e8a90f6ef424df34f9017c3e0bf9b91420418566bdb52d6c7fa8",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-01.png",
+            "rc6/families/dwarf-Observatory-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_observatory_industrial_v0",
+          "evidence_sha256": "69e03d332d054d6ce7e0bb346b65b87576ff5f8a5953b4669c3cff5cb7981eec",
+          "observations": "An inclined observing tube threads a tall calibration ring beside the pitched instrument shed. The angle from the instrument end exposes the brick support legs. Both ring and tube survive the far mesh, distinguishing the outline from the domed early observatory and the future solid dish.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            780,
+            380,
+            184
+          ],
+          "serialized_sha256": "069d3e7c610e4350e8fd9deea9857d88344dc956073ad2ec510b2045e80b5a05",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-01.png",
+            "rc6/families/dwarf-Observatory-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_printworks_future_v0",
+          "evidence_sha256": "64e71a6180afa0435b72ae9e29e4ede893db19d021ca7f963a63f6b77cdda9f4",
+          "observations": "A broad web of pale paper runs between two large transverse rollers, with a bridging colour bar above. The open frame and side bearings explain the load path in both grayscale views. The far mesh retains the rollers, paper and frame, with none of the enclosed roof of its older siblings.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            658,
+            268,
+            186
+          ],
+          "serialized_sha256": "234ca577a8816047d746f0d1d4feb6102ac9a49349fab49010656d4fae4a51e8",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-02.png",
+            "rc6/families/dwarf-Printworks-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_research_lab_future_v0",
+          "evidence_sha256": "c01f54c5a151e56fda5a07dd24f5771fc758a48856a53464965a2cc7880806a5",
+          "observations": "A stepped plinth carries two offset experimental hoops in front of a tall, barrel-roofed instrument room. The clear openings and unequal height distinguish it from the earlier single apparatus on a flat roof. At LOD2 both rims still attach to grounded mounts.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1116,
+            608,
+            221
+          ],
+          "serialized_sha256": "53c64ecb7ad6f29b5910c51c3788a6c6fff809b085c20b49ad29973cc51569bd",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-02.png",
+            "rc6/families/dwarf-ResearchLab-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_university_future_v0",
+          "evidence_sha256": "24589e228600c16fa7dd00c0bce99af4de79dfb4a5f13c68c264645afb4c2826",
+          "observations": "A stepped stack of reading rooms faces a low, tiered outdoor teaching space. Both unpainted sides expose the unequal wings and parallel seating, distinct from the earlier clock tower and roof ridges. At LOD2 the tiers, seating and low front lectern retain their profiles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            744,
+            372,
+            188
+          ],
+          "serialized_sha256": "dfbc04193d3460b498c99baae87b4a5cf81746ea1228168b898c1f25ead6357d",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-02.png",
+            "rc6/families/dwarf-University-v0.png"
+          ]
+        },
+        {
+          "id": "bld_dwarf_university_industrial_v0",
+          "evidence_sha256": "7f49a32033d879d7b9ff520f078d0c8a43c2a9b157b242d0f1df95fb8cd8ded4",
+          "observations": "A square-faced clock tower stands at the end of a long sawtooth-roofed academic hall. The entrance is reached through the tower and the projecting desk provides a second activity point. Clock, front access, roof ridges and desk survive the far mesh.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            604,
+            336,
+            160
+          ],
+          "serialized_sha256": "c81948384c1677b78c1f7530916269c77faa17f4bb72efa7609f3b742802c733",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-02.png",
+            "rc6/families/dwarf-University-v0.png"
+          ]
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC6 building art critic, rebuilt exports re-review",
+      "models": [
+        {
+          "id": "bld_dwarf_hospital_future_v0",
+          "evidence_sha256": "7bce0562ca8208313fa1e5a120462e058ecf6f8da2116321a850ac9b01c2102b",
+          "observations": "Two barrel-glazed ward wings flank a signed, recessed treatment court. Both unpainted views expose the gap and the two independent roofs at 64 px. LOD2 keeps the cross, entrance ramp and roof supports. The plan now differs clearly from the Human cylindrical hospital and the earlier Dwarf hospitals.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1070,
+            492,
+            236
+          ],
+          "serialized_sha256": "730803e1c5a21b0c702a23dadedd66e5f3ad8e0d15aca560e353af3ade5ee4fa",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/dwarf_learninghealth-01.png",
+            "rc6/families/dwarf-Hospital-v0.png"
+          ],
+          "visual_evidence_sha256": {
+            "rc6/models/dwarf_learninghealth-01.png": "c179b72f89e7ca9e1292cddb7996e1bce94afffe89d1b8cd862b89a3a49bf749",
+            "rc6/families/dwarf-Hospital-v0.png": "a39dfa16140106d997ba8689ef29547c0893c8509fbf6fcc3dd68c915c9ede41"
+          },
+          "age_preview_sha256": {
+            "information": "19a2f4a2ee8d52776feb5a8117e6282539ab8e0e3cd1f762b463865ec81efc57",
+            "ascension": "d52e7e574fdee35441874bbd60a6f96cb9f8f11000ed86ec4c9fad27e3e05cef"
+          },
+          "supersedes_evidence_sha256": "c53d01d57ceeca7bd03fae5e03cbef129b00b7d813f942cca44743b5e10def69"
+        }
+      ]
+    }
+  ]
+}

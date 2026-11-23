@@ -1,0 +1,338 @@
+[
+ {
+  "id": "bld_dwarf_house_future_ascension_v0",
+  "kind": "house",
+  "category": "Buildings/Dwarf/HousesLate",
+  "building_type": "House",
+  "race": "dwarf",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 538,
+  "lod_triangles": [
+   538,
+   322,
+   162
+  ],
+  "bounds": [
+   [
+    -0.4514999985694885,
+    0.0,
+    -0.41600000858306885
+   ],
+   [
+    0.4514999985694885,
+    0.7584279179573059,
+    0.3765000104904175
+   ]
+  ],
+  "bytes": 89508,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesLate/bld_dwarf_house_future_ascension_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_future_ascension_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_future_ascension_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_house_future_ascension_v1",
+  "kind": "house",
+  "category": "Buildings/Dwarf/HousesLate",
+  "building_type": "House",
+  "race": "dwarf",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 569,
+  "lod_triangles": [
+   569,
+   316,
+   158
+  ],
+  "bounds": [
+   [
+    -0.4514999985694885,
+    0.0,
+    -0.41600000858306885
+   ],
+   [
+    0.4584999978542328,
+    0.5950000286102295,
+    0.3765000104904175
+   ]
+  ],
+  "bytes": 87300,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesLate/bld_dwarf_house_future_ascension_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_future_ascension_v1.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_future_ascension_v1.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_house_future_v0",
+  "kind": "house",
+  "category": "Buildings/Dwarf/HousesLate",
+  "building_type": "House",
+  "race": "dwarf",
+  "ages": [
+   "information"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 468,
+  "lod_triangles": [
+   468,
+   278,
+   110
+  ],
+  "bounds": [
+   [
+    -0.4514999985694885,
+    0.0,
+    -0.41600000858306885
+   ],
+   [
+    0.4514999985694885,
+    0.699999988079071,
+    0.3765000104904175
+   ]
+  ],
+  "bytes": 72812,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesLate/bld_dwarf_house_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_future_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_house_future_v1",
+  "kind": "house",
+  "category": "Buildings/Dwarf/HousesLate",
+  "building_type": "House",
+  "race": "dwarf",
+  "ages": [
+   "information"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 588,
+  "lod_triangles": [
+   588,
+   334,
+   128
+  ],
+  "bounds": [
+   [
+    -0.4514999985694885,
+    0.0,
+    -0.41600000858306885
+   ],
+   [
+    0.4584999978542328,
+    0.7549999952316284,
+    0.3765000104904175
+   ]
+  ],
+  "bytes": 91808,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesLate/bld_dwarf_house_future_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_future_v1.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_future_v1.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_house_industrial_modern_v0",
+  "kind": "house",
+  "category": "Buildings/Dwarf/HousesLate",
+  "building_type": "House",
+  "race": "dwarf",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 444,
+  "lod_triangles": [
+   444,
+   206,
+   86
+  ],
+  "bounds": [
+   [
+    -0.4514999985694885,
+    0.0,
+    -0.41600000858306885
+   ],
+   [
+    0.4514999985694885,
+    0.5307759046554565,
+    0.41200000047683716
+   ]
+  ],
+  "bytes": 59568,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesLate/bld_dwarf_house_industrial_modern_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_industrial_modern_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_industrial_modern_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_house_industrial_modern_v1",
+  "kind": "house",
+  "category": "Buildings/Dwarf/HousesLate",
+  "building_type": "House",
+  "race": "dwarf",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 511,
+  "lod_triangles": [
+   511,
+   284,
+   90
+  ],
+  "bounds": [
+   [
+    -0.4514999985694885,
+    0.0,
+    -0.41600000858306885
+   ],
+   [
+    0.4584999978542328,
+    0.5680000185966492,
+    0.3765000104904175
+   ]
+  ],
+  "bytes": 77364,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesLate/bld_dwarf_house_industrial_modern_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_industrial_modern_v1.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_industrial_modern_v1.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_house_industrial_v0",
+  "kind": "house",
+  "category": "Buildings/Dwarf/HousesLate",
+  "building_type": "House",
+  "race": "dwarf",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 544,
+  "lod_triangles": [
+   544,
+   244,
+   103
+  ],
+  "bounds": [
+   [
+    -0.4514999985694885,
+    0.0,
+    -0.41600000858306885
+   ],
+   [
+    0.4514999985694885,
+    0.7045074701309204,
+    0.3765000104904175
+   ]
+  ],
+  "bytes": 74216,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesLate/bld_dwarf_house_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_house_industrial_v1",
+  "kind": "house",
+  "category": "Buildings/Dwarf/HousesLate",
+  "building_type": "House",
+  "race": "dwarf",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 570,
+  "lod_triangles": [
+   570,
+   246,
+   92
+  ],
+  "bounds": [
+   [
+    -0.4514999985694885,
+    0.0,
+    -0.41600000858306885
+   ],
+   [
+    0.4584999978542328,
+    0.6925636529922485,
+    0.3765000104904175
+   ]
+  ],
+  "bytes": 75632,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/HousesLate/bld_dwarf_house_industrial_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_industrial_v1.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/HousesLate/bld_dwarf_house_industrial_v1.png"
+  }
+ }
+]

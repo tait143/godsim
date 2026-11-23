@@ -1,0 +1,421 @@
+{
+  "package": "orc_houseslate",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "late_critic",
+      "models": [
+        {
+          "id": "bld_orc_house_future_ascension_v0",
+          "evidence_sha256": "93bf77b8fdf010df00686da662b7ee8a394791f965e9224df24f0ba7f295363f",
+          "observations": "The wide gold halo rests on two visible sockets. Tusks, glass entry, enamel seal and lantern mark a home beneath the crown. The near silhouette and luminous waist read at 40 px. At LOD2 the roof turns solid cream and its broad cyan stripe vanishes. All three meshes passed the serialized checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 96,
+            "charm": 93,
+            "colour": 88,
+            "technical": 99
+          },
+          "defects": [
+            "Retain the continuous cyan waist at its original height on the far roof. Reserve a narrow emissive course between the ivory facets, or piece the band into their surfaces."
+          ]
+        },
+        {
+          "id": "bld_orc_house_future_ascension_v1",
+          "evidence_sha256": "bbb29efe88affc2205fa502d6c4e30a4b784eaa79e1e191a52a9450d75814540",
+          "observations": "The inclined gold ring and unequal sightlines through its two brackets distinguish the low residence from its round sibling. Door horns echo the ring and the front lantern is well separated. At 76 px the far roof loses the cyan transition visible on its two nearer meshes. Winding, footprint, material and LOD validation passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 96,
+            "charm": 93,
+            "colour": 88,
+            "technical": 99
+          },
+          "defects": [
+            "Retain the continuous cyan waist at its original height on the far roof. Reserve a narrow emissive course between the ivory facets, or piece the band into their surfaces."
+          ]
+        },
+        {
+          "id": "bld_orc_house_future_v0",
+          "evidence_sha256": "ab1e3b9751ea75535932fd2cd95f939da500fe41f8bd9c629c45077049e5cfb6",
+          "observations": "A broad ivory collar frames an offset signal cap above the rounded glass gallery. Pennon, household drum and tusks anchor the street front. In the far model the landing turns blue and the crossed aerial becomes a lone peg, both apparent at 76 px. Three levels pass geometry and atlas checks.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 95,
+            "charm": 92,
+            "colour": 87,
+            "technical": 99
+          },
+          "defects": [
+            "Restore the ivory top landing at LOD2 and keep a short crossarm on the aerial. Compare the colour separation and roof tip at 72 px against LOD1."
+          ]
+        },
+        {
+          "id": "bld_orc_house_future_v1",
+          "evidence_sha256": "9c3e71a633df0e50406a3bffd9cbd7f4ea1874f33ffc05ad3357cde073ee9222",
+          "observations": "The glazed collector sits above an offset glazed storey, with the entrance set below the ivory overhang. In the far model the blue cap blends into the blue landing and the antenna loses its crosspiece, weakening the reading of the receiver. The seated collector and supported entry read correctly in the reverse and front views. All levels pass validation.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 86,
+            "technical": 99
+          },
+          "defects": [
+            "Restore the ivory top landing at LOD2 and keep a short crossarm on the aerial. Compare the colour separation and roof tip at 72 px against LOD1."
+          ]
+        },
+        {
+          "id": "bld_orc_house_industrial_modern_v0",
+          "evidence_sha256": "3465bd4c5591ce98300d1bd22f0cabb2ab952ccd6bfe30210765a09c5907aa70",
+          "observations": "The butterfly slab keeps its valley and unequal rising ends at each distance. Clerestory glazing directly beneath it, a horned front portal, a centred step and a red mail drum remain distinct at phone scale in the near view. Back view shows the downpipe attached to the wall. All three serialized levels passed.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 95,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_industrial_modern_v1",
+          "evidence_sha256": "05e71ee894e5bc5f5e1fc2ab568065b1d7c28b67871aefbd3a8b7f28be53d882",
+          "observations": "The near model has a shallow low end, steep middle rise and a high plateau. The far model removes the upper vertex of the rise. In the 76 px comparison this flattens the high crest and changes the distinctive crease into a broad plain slab. The mail drum, step and tusked entry are well seated. The serialized mesh checks pass.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 92,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Keep the elevated crest vertex between the sloped section and high terrace at LOD2. The four-station side profile or a three-station simplification that retains the raised break will preserve the folded silhouette."
+          ]
+        },
+        {
+          "id": "bld_orc_house_industrial_v0",
+          "evidence_sha256": "e7dfcef3218fe0b3d98873cb69018be74194656fdb018d89e75497bbd15d21af",
+          "observations": "The arched metal roof, broad red war stripe and proud chimney read clearly down to 40 px. A worn drum and boot scraper flank the horned doorway. The pipe emerges through the curved roof and the dark brick supports its overhang. The far level keeps the stripe and single chimney. All three GLB levels and their shared material passed.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 96,
+            "construction": 95,
+            "charm": 95,
+            "colour": 96,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_industrial_v1",
+          "evidence_sha256": "875532ed10bd6f254e5798e9fafae8fc5564cc678c379ca633954ed6a8c0d799",
+          "observations": "Two chimney stacks and the two deep sawteeth distinguish the brick row house at all three distances. Glazed attic panels cut through the brick near the tusked doorway. A drum and low scraper on opposite sides give the entry a domestic scale. The rear view confirms the stack penetration and enclosed roof ends. All GLB checks passed.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "late_critic",
+      "models": [
+        {
+          "id": "bld_orc_house_future_ascension_v0",
+          "evidence_sha256": "6c293a6940c5040215ffe607f8354aff14fe70e01668033d12b436b5cce7dc0e",
+          "observations": "The broad halo stays seated on twin forks. In the serialized 76 px comparison its newly retained cyan roof waist separates the crown from the cream slope at LOD2, at the same height as LOD1. The portal tusks and golden eaves remain legible. The 179-triangle far mesh and both nearer levels passed validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 96,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_future_ascension_v1",
+          "evidence_sha256": "3f5add64dc2998d621c3c927b211e7f70f19e4c35cca0e959aacf3527de57b2c",
+          "observations": "The pitched halo holds its distinctive angle above the flatter house. The new cyan course tracks both visible shoulders of the roof at 76 px. The simplified far doorway still exposes the blue panel and prominent horn ends. The three serialized levels passed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 96,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_future_v0",
+          "evidence_sha256": "d6f0e88973a4c339e5cee80007803c0de8ace9f15bb4f79ec90a27a79c27cd19",
+          "observations": "The light roof landing again encloses the signal cap in the far render. The crossing antenna bar is visible at 76 px, above an uninterrupted blue glazed drum. The near model retains its pennon, family drum and tusked entry. All three levels passed validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_future_v1",
+          "evidence_sha256": "c86a4f487e41ae54e09f559c27cd2daf36ddb372affb9a094160eb06c9174606",
+          "observations": "A visibly ivory landing now separates the tilted blue collector from the blue storey below at LOD2. The antenna retains its short crossarm, while the low offset entry and horns remain clear at 76 px. All three meshes passed validation.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_industrial_modern_v1",
+          "evidence_sha256": "d21c29e87560624cf2feb512e38acb3e5cf6fa0cc7dbb65a126f808d8114eec6",
+          "observations": "The far silhouette retains the high crest and plateau. It now agrees with the two closer levels across the central rise and its distinctive high right section in the 76 px view. The near model keeps a centered tread, horned porch and red mail drum. The 105-triangle LOD2 passed along with LOD0 and LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Orc model critic, RC2 round 1",
+      "method": "Inspected saved age previews, rendered serialized LOD0, LOD1 and LOD2, and compared neutral 64px geometry at 215 and 145 degrees. Independently checked package metadata, GLB streams, exposed coplanar faces, inverted shells and repeated meshes. Compared all ordered era pairs in the 14 directed families.",
+      "models": [
+        {
+          "id": "bld_orc_house_future_ascension_v0",
+          "evidence_sha256": "fe0815beccd579fb1c6774a77e8a06a98782274c151a647d11e894494bd66d7b",
+          "observations": "A round tilted gold ring crowns the flaring ivory roof. The narrow cyan roof band and matching entry inset are clear beside the two small fixtures. The loop stays open against the background through LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_future_ascension_v1",
+          "evidence_sha256": "287f5ce36727f2762767d450c14db68127a52ad1b3046489adfdacb8fca6c792",
+          "observations": "The ring stands almost edge-on on two feet above the broader faceted body. A separate gold-and-cyan marker stands left of the entry. The ring feet, continuous roof and tusked door stay attached at intermediate detail.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_future_v0",
+          "evidence_sha256": "541316153504a1495270de61a33e20edbfef9322ad6934633412bdddea56ed61",
+          "observations": "A small cross aerial crowns the faceted collar and near-circular blue shell. Its red side fixture and tusked entry read separately on the ground course. Both lower meshes retain the dome, antenna and doorway.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_future_v1",
+          "evidence_sha256": "dad25d9162167b898be54ec9737b6186e312d99109d25c6bcbadbd65af4ecfa0",
+          "observations": "The broad four-sided blue shell carries a square equipment pad and a cross mast. Red side shutters lead the eye to the front tusked door. At LOD1 the angular cap and the base line keep their distinctive profile.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_industrial_modern_v0",
+          "evidence_sha256": "978ed0cacd19d57fd1c4b1f114f15ec5ddb9013bec9a689cd06af56ed6c56c3d",
+          "observations": "The two cream roof planes rise into pronounced opposing wings over a short blue fascia. The front entry and low side window remain below that overhang at intermediate detail. The red bin gives the facade scale.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_house_industrial_modern_v1",
+          "evidence_sha256": "73e4d9a7490db141fd79481da8125aabb7658a9f88424a8e46a67df398eab930",
+          "observations": "The wider home has an offset change of slope across the cream roof, with a blue overhang and a red fixture on the right. The horned doorway and small step remain grounded through LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_orc_house_future_ascension_v0",
+          "evidence_sha256": "42be3cc18eb1a36de8057998c39ae2ae6506ea1b6cf329da7ab6d76e4f9c5a69",
+          "observations": "The open gold ring and tapered bright roof retain their profile over a solid eight-sided house. The blue entry and paired horns remain distinct at LOD1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            560,
+            318,
+            179
+          ]
+        },
+        {
+          "id": "bld_orc_house_future_ascension_v1",
+          "evidence_sha256": "3268c131f373f7f1f5bfd4710a0f4abad4aecac7caf59446462e01920f8c8749",
+          "observations": "The upright ring keeps two visible legs on its roof. The pitched facets, rear walls and gold-framed blue front door retain their shapes.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            560,
+            318,
+            179
+          ]
+        },
+        {
+          "id": "bld_orc_house_future_v0",
+          "evidence_sha256": "0bd0386e767be552ab855f094618327845ec86029b38e56c42aee6cba9f9ca5b",
+          "observations": "The cap and broad blue sloping roof still meet the stone body at a continuous rim. The shaded entrance reads clearly beneath the ivory horns.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            504,
+            286,
+            158
+          ]
+        },
+        {
+          "id": "bld_orc_house_future_v1",
+          "evidence_sha256": "3d5d65c21911778ab2905bd374039713816ec82440dc96558a1c6cebf20dfee0",
+          "observations": "The offset raised roof plate and broad blue hip keep their asymmetry at LOD1. The door remains dark and complete under the projecting horn tips.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            494,
+            280,
+            148
+          ]
+        },
+        {
+          "id": "bld_orc_house_industrial_modern_v0",
+          "evidence_sha256": "4512391f1a3fae8e732140387476d6f4e3e01f2a38d5fa8304df2e5bac46bf30",
+          "observations": "The concave roof retains its upswept outer corners and wide coloured fascia. The masonry behind the door and the rear wall remain closed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            361,
+            205,
+            114
+          ]
+        },
+        {
+          "id": "bld_orc_house_industrial_modern_v1",
+          "evidence_sha256": "0921cf66201efa854c039128b469675b52f4df6aa3379ab2f421ee2112c70d20",
+          "observations": "The double curved roof sections remain distinct over the rectangular floor plan. The visible door and lintel keep their dark opening at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            361,
+            205,
+            105
+          ]
+        }
+      ]
+    }
+  ]
+}

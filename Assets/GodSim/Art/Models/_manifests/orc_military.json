@@ -1,0 +1,614 @@
+[
+ {
+  "id": "bld_orc_barracks_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Military",
+  "building_type": "Barracks",
+  "race": "orc",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 908,
+  "lod_triangles": [
+   908,
+   360,
+   116
+  ],
+  "bounds": [
+   [
+    -0.8980559706687927,
+    0.0,
+    -0.7687272429466248
+   ],
+   [
+    0.7380560040473938,
+    1.2058000564575195,
+    0.7374922633171082
+   ]
+  ],
+  "bytes": 124752,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_barracks_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_barracks_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_barracks_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_barracks_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Military",
+  "building_type": "Barracks",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1472,
+  "lod_triangles": [
+   1472,
+   740,
+   285
+  ],
+  "bounds": [
+   [
+    -0.8980559706687927,
+    0.0,
+    -0.7687272429466248
+   ],
+   [
+    0.9512400031089783,
+    1.767514944076538,
+    0.7574575543403625
+   ]
+  ],
+  "bytes": 221552,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_barracks_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_barracks_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_barracks_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_barracks_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_barracks_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_barracks_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Military",
+  "building_type": "Barracks",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1065,
+  "lod_triangles": [
+   1065,
+   493,
+   195
+  ],
+  "bounds": [
+   [
+    -0.8789240121841431,
+    0.0,
+    -0.7687272429466248
+   ],
+   [
+    0.8036246299743652,
+    1.440000057220459,
+    0.7374922633171082
+   ]
+  ],
+  "bytes": 155568,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_barracks_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_barracks_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_barracks_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_barracks_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_barracks_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Military",
+  "building_type": "Barracks",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1043,
+  "lod_triangles": [
+   1043,
+   477,
+   185
+  ],
+  "bounds": [
+   [
+    -0.8851178288459778,
+    0.0,
+    -0.7687272429466248
+   ],
+   [
+    0.8036246299743652,
+    1.1363999843597412,
+    0.7374922633171082
+   ]
+  ],
+  "bytes": 150808,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_barracks_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_barracks_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_barracks_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_barracks_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_castle_classical_v0",
+  "kind": "townhall",
+  "category": "Buildings/Orc/Military",
+  "building_type": "Castle",
+  "race": "orc",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1270,
+  "lod_triangles": [
+   1270,
+   722,
+   368
+  ],
+  "bounds": [
+   [
+    -1.2610000371932983,
+    0.0,
+    -1.0738208293914795
+   ],
+   [
+    1.2610000371932983,
+    2.503200054168701,
+    1.034999966621399
+   ]
+  ],
+  "bytes": 223048,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_castle_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_castle_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_castle_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_castle_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_military_base_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Military",
+  "building_type": "MilitaryBase",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 704,
+  "lod_triangles": [
+   704,
+   401,
+   207
+  ],
+  "bounds": [
+   [
+    -1.1996945142745972,
+    0.0,
+    -1.125749945640564
+   ],
+   [
+    1.1996945142745972,
+    1.471601963043213,
+    1.1741788387298584
+   ]
+  ],
+  "bytes": 125060,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_military_base_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_military_base_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_military_base_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_military_base_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_military_base_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Military",
+  "building_type": "MilitaryBase",
+  "race": "orc",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1368,
+  "lod_triangles": [
+   1368,
+   674,
+   297
+  ],
+  "bounds": [
+   [
+    -1.2699999809265137,
+    0.0,
+    -1.1649999618530273
+   ],
+   [
+    1.2699999809265137,
+    1.908128023147583,
+    1.184999942779541
+   ]
+  ],
+  "bytes": 213744,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_military_base_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_military_base_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_military_base_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_palisade_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Military",
+  "building_type": "Palisade",
+  "race": "orc",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   3,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 874,
+  "lod_triangles": [
+   874,
+   418,
+   136
+  ],
+  "bounds": [
+   [
+    -1.407212495803833,
+    -0.00016603338008280843,
+    -0.15199999511241913
+   ],
+   [
+    1.407212495803833,
+    1.100000023841858,
+    0.352012574672699
+   ]
+  ],
+  "bytes": 135484,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_palisade_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_palisade_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_palisade_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_palisade_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_orc_palisade_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Military",
+  "building_type": "Palisade",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval"
+  ],
+  "footprint": [
+   3,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1182,
+  "lod_triangles": [
+   1182,
+   582,
+   332
+  ],
+  "bounds": [
+   [
+    -1.383732795715332,
+    0.0,
+    -0.3521449863910675
+   ],
+   [
+    1.334220051765442,
+    1.7960000038146973,
+    0.4568600058555603
+   ]
+  ],
+  "bytes": 202268,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_palisade_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_palisade_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_palisade_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_palisade_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_orc_stone_wall_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Military",
+  "building_type": "StoneWall",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 404,
+  "lod_triangles": [
+   404,
+   210,
+   94
+  ],
+  "bounds": [
+   [
+    -0.48249998688697815,
+    0.0,
+    -0.335999995470047
+   ],
+   [
+    0.4830000102519989,
+    0.9829999804496765,
+    0.25200000405311584
+   ]
+  ],
+  "bytes": 64472,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_stone_wall_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_stone_wall_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_stone_wall_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_stone_wall_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_stone_wall_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_stone_wall_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Military",
+  "building_type": "StoneWall",
+  "race": "orc",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 424,
+  "lod_triangles": [
+   424,
+   240,
+   120
+  ],
+  "bounds": [
+   [
+    -0.48249998688697815,
+    0.0,
+    -0.335999995470047
+   ],
+   [
+    0.4830000102519989,
+    1.2599999904632568,
+    0.25200000405311584
+   ]
+  ],
+  "bytes": 69452,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_stone_wall_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_stone_wall_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_stone_wall_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_watchtower_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Military",
+  "building_type": "Watchtower",
+  "race": "orc",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 708,
+  "lod_triangles": [
+   708,
+   403,
+   188
+  ],
+  "bounds": [
+   [
+    -0.4490000009536743,
+    0.0,
+    -0.42702436447143555
+   ],
+   [
+    0.4490000009536743,
+    2.0850000381469727,
+    0.42702436447143555
+   ]
+  ],
+  "bytes": 119772,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_watchtower_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_watchtower_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_watchtower_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_watchtower_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Military",
+  "building_type": "Watchtower",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 590,
+  "lod_triangles": [
+   590,
+   336,
+   143
+  ],
+  "bounds": [
+   [
+    -0.4490000009536743,
+    0.0,
+    -0.42702436447143555
+   ],
+   [
+    0.4490000009536743,
+    2.265000104904175,
+    0.42702436447143555
+   ]
+  ],
+  "bytes": 96660,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_watchtower_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_watchtower_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_watchtower_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_watchtower_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_watchtower_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_watchtower_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Military",
+  "building_type": "Watchtower",
+  "race": "orc",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 860,
+  "lod_triangles": [
+   860,
+   435,
+   270
+  ],
+  "bounds": [
+   [
+    -0.41893404722213745,
+    0.0,
+    -0.3889999985694885
+   ],
+   [
+    0.42129001021385193,
+    1.8047103881835938,
+    0.39500001072883606
+   ]
+  ],
+  "bytes": 148176,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Military/bld_orc_watchtower_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_watchtower_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Military/bld_orc_watchtower_industrial_v0.png"
+  }
+ }
+]

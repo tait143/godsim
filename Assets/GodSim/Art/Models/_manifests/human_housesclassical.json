@@ -1,0 +1,254 @@
+[
+ {
+  "id": "bld_human_house_classical_medieval_v0",
+  "kind": "house",
+  "category": "Buildings/Human/HousesClassical",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "medieval"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 476,
+  "lod_triangles": [
+   476,
+   270,
+   114
+  ],
+  "bounds": [
+   [
+    -0.41499999165534973,
+    0.0,
+    -0.39800000190734863
+   ],
+   [
+    0.41499999165534973,
+    0.9679999351501465,
+    0.44303587079048157
+   ]
+  ],
+  "bytes": 69288,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesClassical/bld_human_house_classical_medieval_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesClassical/bld_human_house_classical_medieval_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Human/HousesClassical/bld_human_house_classical_medieval_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_house_classical_medieval_v1",
+  "kind": "house",
+  "category": "Buildings/Human/HousesClassical",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "medieval"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 488,
+  "lod_triangles": [
+   488,
+   278,
+   132
+  ],
+  "bounds": [
+   [
+    -0.4429999887943268,
+    0.0,
+    -0.3777031898498535
+   ],
+   [
+    0.40700000524520874,
+    0.8429275155067444,
+    0.42149999737739563
+   ]
+  ],
+  "bytes": 72232,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesClassical/bld_human_house_classical_medieval_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesClassical/bld_human_house_classical_medieval_v1.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Human/HousesClassical/bld_human_house_classical_medieval_v1.png"
+  }
+ },
+ {
+  "id": "bld_human_house_classical_renaissance_v0",
+  "kind": "house",
+  "category": "Buildings/Human/HousesClassical",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 673,
+  "lod_triangles": [
+   673,
+   346,
+   172
+  ],
+  "bounds": [
+   [
+    -0.41200000047683716,
+    0.0,
+    -0.39800000190734863
+   ],
+   [
+    0.40400001406669617,
+    0.8579999804496765,
+    0.41350001096725464
+   ]
+  ],
+  "bytes": 93208,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesClassical/bld_human_house_classical_renaissance_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesClassical/bld_human_house_classical_renaissance_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/HousesClassical/bld_human_house_classical_renaissance_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_house_classical_renaissance_v1",
+  "kind": "house",
+  "category": "Buildings/Human/HousesClassical",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 700,
+  "lod_triangles": [
+   700,
+   276,
+   176
+  ],
+  "bounds": [
+   [
+    -0.42899999022483826,
+    0.0,
+    -0.40799999237060547
+   ],
+   [
+    0.42899999022483826,
+    1.0609979629516602,
+    0.3970000147819519
+   ]
+  ],
+  "bytes": 89992,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesClassical/bld_human_house_classical_renaissance_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesClassical/bld_human_house_classical_renaissance_v1.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/HousesClassical/bld_human_house_classical_renaissance_v1.png"
+  }
+ },
+ {
+  "id": "bld_human_house_classical_v0",
+  "kind": "house",
+  "category": "Buildings/Human/HousesClassical",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 537,
+  "lod_triangles": [
+   537,
+   250,
+   76
+  ],
+  "bounds": [
+   [
+    -0.421999990940094,
+    0.0,
+    -0.47350001335144043
+   ],
+   [
+    0.421999990940094,
+    0.5360000133514404,
+    0.41600000858306885
+   ]
+  ],
+  "bytes": 73152,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesClassical/bld_human_house_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesClassical/bld_human_house_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/HousesClassical/bld_human_house_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_house_classical_v1",
+  "kind": "house",
+  "category": "Buildings/Human/HousesClassical",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 589,
+  "lod_triangles": [
+   589,
+   288,
+   108
+  ],
+  "bounds": [
+   [
+    -0.41350001096725464,
+    0.0,
+    -0.48899999260902405
+   ],
+   [
+    0.41350001096725464,
+    0.731999933719635,
+    0.43303462862968445
+   ]
+  ],
+  "bytes": 79396,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesClassical/bld_human_house_classical_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesClassical/bld_human_house_classical_v1.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/HousesClassical/bld_human_house_classical_v1.png"
+  }
+ }
+]

@@ -1,0 +1,808 @@
+[
+ {
+  "id": "bld_saurian_aqueduct_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "Aqueduct",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 820,
+  "lod_triangles": [
+   820,
+   424,
+   238
+  ],
+  "bounds": [
+   [
+    -0.24549999833106995,
+    0.0,
+    -1.4319720268249512
+   ],
+   [
+    0.24549999833106995,
+    1.2050000429153442,
+    1.4290000200271606
+   ]
+  ],
+  "bytes": 116000,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_classical_v0__renaissance.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_classical_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_aqueduct_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "Aqueduct",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 904,
+  "lod_triangles": [
+   904,
+   514,
+   236
+  ],
+  "bounds": [
+   [
+    -0.4257878065109253,
+    0.0,
+    -1.4634499549865723
+   ],
+   [
+    0.4241091012954712,
+    1.1283999681472778,
+    1.4634499549865723
+   ]
+  ],
+  "bytes": 142392,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_aqueduct_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "Aqueduct",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1360,
+  "lod_triangles": [
+   1360,
+   691,
+   392
+  ],
+  "bounds": [
+   [
+    -0.42500001192092896,
+    0.0,
+    -1.4049999713897705
+   ],
+   [
+    0.39500001072883606,
+    1.101338267326355,
+    1.18149995803833
+   ]
+  ],
+  "bytes": 190200,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_aqueduct_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_fusion_reactor_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "FusionReactor",
+  "race": "saurian",
+  "ages": [
+   "ascension",
+   "information"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1285,
+  "lod_triangles": [
+   1285,
+   731,
+   284
+  ],
+  "bounds": [
+   [
+    -1.409999966621399,
+    0.0,
+    -1.430999994277954
+   ],
+   [
+    1.409999966621399,
+    1.3940000534057617,
+    1.3600000143051147
+   ]
+  ],
+  "bytes": 194692,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_fusion_reactor_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_fusion_reactor_future_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_fusion_reactor_future_v0.png",
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_fusion_reactor_future_v0__information.png"
+  }
+ },
+ {
+  "id": "bld_saurian_granary_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "Granary",
+  "race": "saurian",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 865,
+  "lod_triangles": [
+   865,
+   487,
+   221
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.9350000023841858
+   ],
+   [
+    0.9300000071525574,
+    1.3600000143051147,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 122116,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_granary_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_granary_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_granary_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_granary_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_granary_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "Granary",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1124,
+  "lod_triangles": [
+   1124,
+   670,
+   340
+  ],
+  "bounds": [
+   [
+    -0.8339999914169312,
+    0.0,
+    -0.7910000085830688
+   ],
+   [
+    0.8339999914169312,
+    1.2389999628067017,
+    0.6272218823432922
+   ]
+  ],
+  "bytes": 176932,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_granary_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_granary_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_granary_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_granary_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_granary_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_granary_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "Granary",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1118,
+  "lod_triangles": [
+   1118,
+   637,
+   345
+  ],
+  "bounds": [
+   [
+    -0.9549999833106995,
+    0.0,
+    -0.9350000023841858
+   ],
+   [
+    0.9549999833106995,
+    1.5379999876022339,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 179720,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_granary_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_granary_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_granary_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_granary_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_granary_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "Granary",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1262,
+  "lod_triangles": [
+   1262,
+   616,
+   310
+  ],
+  "bounds": [
+   [
+    -0.7820000052452087,
+    0.0,
+    -0.7910000085830688
+   ],
+   [
+    0.7820000052452087,
+    1.3170000314712524,
+    0.6100000143051147
+   ]
+  ],
+  "bytes": 174296,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_granary_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_granary_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_granary_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_granary_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_power_plant_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "PowerPlant",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 685,
+  "lod_triangles": [
+   685,
+   389,
+   183
+  ],
+  "bounds": [
+   [
+    -1.377500057220459,
+    0.0,
+    -1.3557499647140503
+   ],
+   [
+    1.377500057220459,
+    2.134399890899658,
+    1.2542500495910645
+   ]
+  ],
+  "bytes": 102752,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_power_plant_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_power_plant_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_power_plant_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_power_plant_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_power_plant_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "PowerPlant",
+  "race": "saurian",
+  "ages": [
+   "modern",
+   "industrial"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1377,
+  "lod_triangles": [
+   1377,
+   784,
+   415
+  ],
+  "bounds": [
+   [
+    -1.3899999856948853,
+    0.0,
+    -1.4249999523162842
+   ],
+   [
+    1.3899999856948853,
+    2.003999948501587,
+    1.3600000143051147
+   ]
+  ],
+  "bytes": 215044,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_power_plant_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_power_plant_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_power_plant_industrial_v0.png",
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_power_plant_industrial_v0__industrial.png"
+  }
+ },
+ {
+  "id": "bld_saurian_storehouse_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "Storehouse",
+  "race": "saurian",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 690,
+  "lod_triangles": [
+   690,
+   395,
+   206
+  ],
+  "bounds": [
+   [
+    -0.9144999980926514,
+    0.0,
+    -0.49300000071525574
+   ],
+   [
+    0.9144999980926514,
+    0.8433899879455566,
+    0.43799999356269836
+   ]
+  ],
+  "bytes": 93616,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_storehouse_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "Storehouse",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 796,
+  "lod_triangles": [
+   796,
+   422,
+   142
+  ],
+  "bounds": [
+   [
+    -0.9399999976158142,
+    0.0,
+    -0.44999998807907104
+   ],
+   [
+    0.9399999976158142,
+    0.7749999761581421,
+    0.46399998664855957
+   ]
+  ],
+  "bytes": 106560,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_storehouse_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "Storehouse",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 601,
+  "lod_triangles": [
+   601,
+   341,
+   149
+  ],
+  "bounds": [
+   [
+    -0.9399999976158142,
+    0.0,
+    -0.4259999990463257
+   ],
+   [
+    0.9399999976158142,
+    1.0540000200271606,
+    0.46399998664855957
+   ]
+  ],
+  "bytes": 87712,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_storehouse_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "Storehouse",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 886,
+  "lod_triangles": [
+   886,
+   504,
+   242
+  ],
+  "bounds": [
+   [
+    -0.9399999976158142,
+    0.0,
+    -0.4259999990463257
+   ],
+   [
+    0.9399999976158142,
+    0.9200000166893005,
+    0.46399998664855957
+   ]
+  ],
+  "bytes": 131224,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_storehouse_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_well_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "Well",
+  "race": "saurian",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 670,
+  "lod_triangles": [
+   670,
+   338,
+   194
+  ],
+  "bounds": [
+   [
+    -0.4449999928474426,
+    0.0,
+    -0.4580000042915344
+   ],
+   [
+    0.4449999928474426,
+    0.7605314254760742,
+    0.4359999895095825
+   ]
+  ],
+  "bytes": 103524,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_well_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_well_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "Well",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 666,
+  "lod_triangles": [
+   666,
+   378,
+   180
+  ],
+  "bounds": [
+   [
+    -0.4449999928474426,
+    0.0,
+    -0.4440000057220459
+   ],
+   [
+    0.4449999928474426,
+    0.8790000081062317,
+    0.44999998807907104
+   ]
+  ],
+  "bytes": 92892,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_well_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_well_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "Well",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 542,
+  "lod_triangles": [
+   542,
+   286,
+   138
+  ],
+  "bounds": [
+   [
+    -0.4449999928474426,
+    0.0,
+    -0.41499999165534973
+   ],
+   [
+    0.4449999928474426,
+    0.7773404121398926,
+    0.4671086370944977
+   ]
+  ],
+  "bytes": 86492,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_well_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_well_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Infrastructure",
+  "building_type": "Well",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 594,
+  "lod_triangles": [
+   594,
+   332,
+   152
+  ],
+  "bounds": [
+   [
+    -0.41999998688697815,
+    0.0,
+    -0.3109999895095825
+   ],
+   [
+    0.4034999907016754,
+    0.8289999961853027,
+    0.36500000953674316
+   ]
+  ],
+  "bytes": 89988,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Infrastructure/bld_saurian_well_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Infrastructure/bld_saurian_well_industrial_v0__modern.png"
+  }
+ }
+]

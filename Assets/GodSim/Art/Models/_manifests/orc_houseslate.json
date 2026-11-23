@@ -1,0 +1,338 @@
+[
+ {
+  "id": "bld_orc_house_future_ascension_v0",
+  "kind": "house",
+  "category": "Buildings/Orc/HousesLate",
+  "building_type": "House",
+  "race": "orc",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 560,
+  "lod_triangles": [
+   560,
+   318,
+   179
+  ],
+  "bounds": [
+   [
+    -0.38199999928474426,
+    0.0,
+    -0.3910333216190338
+   ],
+   [
+    0.3479999899864197,
+    0.7502363920211792,
+    0.39500001072883606
+   ]
+  ],
+  "bytes": 102424,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesLate/bld_orc_house_future_ascension_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_future_ascension_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_future_ascension_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_house_future_ascension_v1",
+  "kind": "house",
+  "category": "Buildings/Orc/HousesLate",
+  "building_type": "House",
+  "race": "orc",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 560,
+  "lod_triangles": [
+   560,
+   318,
+   179
+  ],
+  "bounds": [
+   [
+    -0.375,
+    0.0,
+    -0.3470333218574524
+   ],
+   [
+    0.41100001335144043,
+    0.8456079363822937,
+    0.37299999594688416
+   ]
+  ],
+  "bytes": 101680,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesLate/bld_orc_house_future_ascension_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_future_ascension_v1.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_future_ascension_v1.png"
+  }
+ },
+ {
+  "id": "bld_orc_house_future_v0",
+  "kind": "house",
+  "category": "Buildings/Orc/HousesLate",
+  "building_type": "House",
+  "race": "orc",
+  "ages": [
+   "information"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 504,
+  "lod_triangles": [
+   504,
+   286,
+   158
+  ],
+  "bounds": [
+   [
+    -0.36399999260902405,
+    0.0,
+    -0.40728235244750977
+   ],
+   [
+    0.33399999141693115,
+    0.8560000061988831,
+    0.39100000262260437
+   ]
+  ],
+  "bytes": 89496,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesLate/bld_orc_house_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_future_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_house_future_v1",
+  "kind": "house",
+  "category": "Buildings/Orc/HousesLate",
+  "building_type": "House",
+  "race": "orc",
+  "ages": [
+   "information"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 494,
+  "lod_triangles": [
+   494,
+   280,
+   148
+  ],
+  "bounds": [
+   [
+    -0.3790000081062317,
+    0.0,
+    -0.40728235244750977
+   ],
+   [
+    0.4129999876022339,
+    0.7979999780654907,
+    0.3479999899864197
+   ]
+  ],
+  "bytes": 86832,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesLate/bld_orc_house_future_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_future_v1.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_future_v1.png"
+  }
+ },
+ {
+  "id": "bld_orc_house_industrial_modern_v0",
+  "kind": "house",
+  "category": "Buildings/Orc/HousesLate",
+  "building_type": "House",
+  "race": "orc",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 361,
+  "lod_triangles": [
+   361,
+   205,
+   114
+  ],
+  "bounds": [
+   [
+    -0.4169999957084656,
+    0.0,
+    -0.37942561507225037
+   ],
+   [
+    0.36899998784065247,
+    0.6050000190734863,
+    0.41299501061439514
+   ]
+  ],
+  "bytes": 59740,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesLate/bld_orc_house_industrial_modern_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_industrial_modern_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_industrial_modern_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_house_industrial_modern_v1",
+  "kind": "house",
+  "category": "Buildings/Orc/HousesLate",
+  "building_type": "House",
+  "race": "orc",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 361,
+  "lod_triangles": [
+   361,
+   205,
+   105
+  ],
+  "bounds": [
+   [
+    -0.3840000033378601,
+    0.0,
+    -0.35342562198638916
+   ],
+   [
+    0.41200000047683716,
+    0.5580000281333923,
+    0.38699501752853394
+   ]
+  ],
+  "bytes": 59272,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesLate/bld_orc_house_industrial_modern_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_industrial_modern_v1.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_industrial_modern_v1.png"
+  }
+ },
+ {
+  "id": "bld_orc_house_industrial_v0",
+  "kind": "house",
+  "category": "Buildings/Orc/HousesLate",
+  "building_type": "House",
+  "race": "orc",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 604,
+  "lod_triangles": [
+   604,
+   338,
+   151
+  ],
+  "bounds": [
+   [
+    -0.39800000190734863,
+    0.0,
+    -0.4321534037590027
+   ],
+   [
+    0.3479999899864197,
+    0.7799999713897705,
+    0.4129999876022339
+   ]
+  ],
+  "bytes": 94432,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesLate/bld_orc_house_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_house_industrial_v1",
+  "kind": "house",
+  "category": "Buildings/Orc/HousesLate",
+  "building_type": "House",
+  "race": "orc",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 668,
+  "lod_triangles": [
+   668,
+   366,
+   176
+  ],
+  "bounds": [
+   [
+    -0.382999986410141,
+    0.0,
+    -0.39615339040756226
+   ],
+   [
+    0.4129999876022339,
+    0.8040000200271606,
+    0.3529999852180481
+   ]
+  ],
+  "bytes": 106172,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/HousesLate/bld_orc_house_industrial_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_industrial_v1.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/HousesLate/bld_orc_house_industrial_v1.png"
+  }
+ }
+]

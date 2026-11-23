@@ -1,0 +1,980 @@
+[
+ {
+  "id": "bld_human_coal_mine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "CoalMine",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 504,
+  "lod_triangles": [
+   504,
+   296,
+   156
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    0.9799450635910034,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 79580,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_coal_mine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_coal_mine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_coal_mine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_coal_mine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_coal_mine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "CoalMine",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 865,
+  "lod_triangles": [
+   865,
+   467,
+   214
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    1.5540000200271606,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 163056,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_coal_mine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_coal_mine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_coal_mine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_coal_mine_industrial_v0__modern.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_coal_mine_industrial_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_gold_mine_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "GoldMine",
+  "race": "human",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1285,
+  "lod_triangles": [
+   1285,
+   755,
+   312
+  ],
+  "bounds": [
+   [
+    -0.9545000195503235,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    1.621999979019165,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 187352,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_gold_mine_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_gold_mine_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "GoldMine",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1319,
+  "lod_triangles": [
+   1319,
+   751,
+   346
+  ],
+  "bounds": [
+   [
+    -0.953000009059906,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    1.9739999771118164,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 192728,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_gold_mine_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_gold_mine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "GoldMine",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 464,
+  "lod_triangles": [
+   464,
+   275,
+   138
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    0.8919358253479004,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 75332,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_gold_mine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_gold_mine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "GoldMine",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1011,
+  "lod_triangles": [
+   1011,
+   576,
+   311
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    1.4240000247955322,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 152232,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_gold_mine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_gold_mine_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_mine_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "Mine",
+  "race": "human",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1232,
+  "lod_triangles": [
+   1232,
+   702,
+   284
+  ],
+  "bounds": [
+   [
+    -0.953000009059906,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    1.4520000219345093,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 179080,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_mine_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_human_mine_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "Mine",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1306,
+  "lod_triangles": [
+   1306,
+   744,
+   318
+  ],
+  "bounds": [
+   [
+    -0.953000009059906,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    1.8040000200271606,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 189476,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_mine_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_mine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "Mine",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 466,
+  "lod_triangles": [
+   466,
+   265,
+   126
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    1.440000057220459,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 68568,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_mine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_mine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "Mine",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1143,
+  "lod_triangles": [
+   1143,
+   670,
+   284
+  ],
+  "bounds": [
+   [
+    -0.953000009059906,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    1.906999945640564,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 165184,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_mine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_mine_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_oil_well_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "OilWell",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 962,
+  "lod_triangles": [
+   962,
+   548,
+   283
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    1.1610000133514404,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 131368,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_oil_well_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_oil_well_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_oil_well_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_oil_well_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_oil_well_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "OilWell",
+  "race": "human",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 794,
+  "lod_triangles": [
+   794,
+   415,
+   245
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    1.2999999523162842,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 117960,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_oil_well_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_oil_well_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_oil_well_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_sawmill_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "Sawmill",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1208,
+  "lod_triangles": [
+   1208,
+   688,
+   316
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    0.9639999866485596,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 159192,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_sawmill_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_sawmill_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_sawmill_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_sawmill_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_sawmill_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "Sawmill",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1112,
+  "lod_triangles": [
+   1112,
+   632,
+   286
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    1.2613736391067505,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 147864,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_sawmill_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_sawmill_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_sawmill_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_sawmill_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_stone_quarry_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "human",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 971,
+  "lod_triangles": [
+   971,
+   553,
+   247
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    1.2410553693771362,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 144500,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_stone_quarry_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_stone_quarry_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_stone_quarry_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_stone_quarry_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_stone_quarry_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_human_stone_quarry_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 933,
+  "lod_triangles": [
+   933,
+   519,
+   201
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    1.18281888961792,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 132860,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_stone_quarry_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_stone_quarry_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_stone_quarry_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_stone_quarry_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_stone_quarry_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_stone_quarry_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 762,
+  "lod_triangles": [
+   762,
+   327,
+   211
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    1.444000005722046,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 109308,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_stone_quarry_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_stone_quarry_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_stone_quarry_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_stone_quarry_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_stone_quarry_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 591,
+  "lod_triangles": [
+   591,
+   225,
+   171
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9200000166893005,
+    1.2319999933242798,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 81164,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_stone_quarry_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_stone_quarry_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_stone_quarry_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_stone_quarry_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_woodcutter_camp_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "human",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 942,
+  "lod_triangles": [
+   942,
+   554,
+   222
+  ],
+  "bounds": [
+   [
+    -0.46000000834465027,
+    0.0,
+    -0.45249998569488525
+   ],
+   [
+    0.46000000834465027,
+    0.47029998898506165,
+    0.45249998569488525
+   ]
+  ],
+  "bytes": 130856,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_woodcutter_camp_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_woodcutter_camp_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_woodcutter_camp_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_woodcutter_camp_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_woodcutter_camp_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_human_woodcutter_camp_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1054,
+  "lod_triangles": [
+   1054,
+   606,
+   208
+  ],
+  "bounds": [
+   [
+    -0.46000000834465027,
+    0.0,
+    -0.45249998569488525
+   ],
+   [
+    0.46000000834465027,
+    0.529928982257843,
+    0.45249998569488525
+   ]
+  ],
+  "bytes": 133432,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_woodcutter_camp_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_woodcutter_camp_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_woodcutter_camp_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_woodcutter_camp_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_woodcutter_camp_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_woodcutter_camp_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 758,
+  "lod_triangles": [
+   758,
+   450,
+   238
+  ],
+  "bounds": [
+   [
+    -0.46000000834465027,
+    0.0,
+    -0.45249998569488525
+   ],
+   [
+    0.46000000834465027,
+    0.6564608216285706,
+    0.45249998569488525
+   ]
+  ],
+  "bytes": 131652,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_woodcutter_camp_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_woodcutter_camp_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_woodcutter_camp_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_woodcutter_camp_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_woodcutter_camp_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 832,
+  "lod_triangles": [
+   832,
+   452,
+   210
+  ],
+  "bounds": [
+   [
+    -0.46000000834465027,
+    0.0,
+    -0.45249998569488525
+   ],
+   [
+    0.46000000834465027,
+    0.7360000014305115,
+    0.45249998569488525
+   ]
+  ],
+  "bytes": 105760,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Extraction/bld_human_woodcutter_camp_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_woodcutter_camp_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_woodcutter_camp_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Extraction/bld_human_woodcutter_camp_industrial_v0__modern.png"
+  }
+ }
+]

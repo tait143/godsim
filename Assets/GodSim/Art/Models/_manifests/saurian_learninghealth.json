@@ -1,0 +1,1324 @@
+[
+ {
+  "id": "bld_saurian_bathhouse_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Bathhouse",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 926,
+  "lod_triangles": [
+   926,
+   527,
+   190
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8500000238418579
+   ],
+   [
+    0.925000011920929,
+    1.184999942779541,
+    0.8500000238418579
+   ]
+  ],
+  "bytes": 129696,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_bathhouse_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_bathhouse_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_bathhouse_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_bathhouse_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_bathhouse_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_bathhouse_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Bathhouse",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 928,
+  "lod_triangles": [
+   928,
+   507,
+   197
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9116160273551941
+   ],
+   [
+    0.949999988079071,
+    0.7459999918937683,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 123660,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_bathhouse_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_bathhouse_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_bathhouse_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_bathhouse_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_bathhouse_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Bathhouse",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1006,
+  "lod_triangles": [
+   1006,
+   573,
+   238
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8500000238418579
+   ],
+   [
+    0.925000011920929,
+    1.2359999418258667,
+    0.8500000238418579
+   ]
+  ],
+  "bytes": 142184,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_bathhouse_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_bathhouse_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_bathhouse_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_bathhouse_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_data_center_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "DataCenter",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 764,
+  "lod_triangles": [
+   764,
+   434,
+   148
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8500000238418579
+   ],
+   [
+    0.925000011920929,
+    1.0800000429153442,
+    0.8500000238418579
+   ]
+  ],
+  "bytes": 100208,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_data_center_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_data_center_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_data_center_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_data_center_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_herbalist_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "saurian",
+  "ages": [
+   "bronze",
+   "iron",
+   "dawn"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 927,
+  "lod_triangles": [
+   927,
+   503,
+   169
+  ],
+  "bounds": [
+   [
+    -0.4424999952316284,
+    0.0,
+    -0.4449999928474426
+   ],
+   [
+    0.4424999952316284,
+    0.46299999952316284,
+    0.4449999928474426
+   ]
+  ],
+  "bytes": 131056,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_ancient_v0__iron.png",
+   "dawn": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_ancient_v0__dawn.png"
+  }
+ },
+ {
+  "id": "bld_saurian_herbalist_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 663,
+  "lod_triangles": [
+   663,
+   377,
+   165
+  ],
+  "bounds": [
+   [
+    -0.4699999988079071,
+    0.0,
+    -0.45249998569488525
+   ],
+   [
+    0.4699999988079071,
+    0.5559999942779541,
+    0.45249998569488525
+   ]
+  ],
+  "bytes": 107108,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_herbalist_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 668,
+  "lod_triangles": [
+   668,
+   385,
+   183
+  ],
+  "bounds": [
+   [
+    -0.4699999988079071,
+    0.0,
+    -0.45249998569488525
+   ],
+   [
+    0.4699999988079071,
+    0.6499999761581421,
+    0.45249998569488525
+   ]
+  ],
+  "bytes": 109004,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_herbalist_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 677,
+  "lod_triangles": [
+   677,
+   305,
+   127
+  ],
+  "bounds": [
+   [
+    -0.4699999988079071,
+    0.0,
+    -0.45249998569488525
+   ],
+   [
+    0.4699999988079071,
+    0.5450000166893005,
+    0.45249998569488525
+   ]
+  ],
+  "bytes": 91184,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_herbalist_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_hospital_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Hospital",
+  "race": "saurian",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1277,
+  "lod_triangles": [
+   1277,
+   727,
+   247
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8500000238418579
+   ],
+   [
+    0.925000011920929,
+    1.4821200370788574,
+    0.8500000238418579
+   ]
+  ],
+  "bytes": 174188,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_hospital_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_hospital_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_hospital_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_hospital_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Hospital",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 681,
+  "lod_triangles": [
+   681,
+   383,
+   173
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    0.949999988079071,
+    1.1480000019073486,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 98720,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_hospital_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_hospital_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_hospital_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_hospital_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_hospital_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Hospital",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 579,
+  "lod_triangles": [
+   579,
+   315,
+   121
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    0.949999988079071,
+    1.1100000143051147,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 80940,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_hospital_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_hospital_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_hospital_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_hospital_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_library_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Library",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 649,
+  "lod_triangles": [
+   649,
+   369,
+   167
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8500000238418579
+   ],
+   [
+    0.925000011920929,
+    0.9319999814033508,
+    0.8500000238418579
+   ]
+  ],
+  "bytes": 87900,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_library_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_library_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_library_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_library_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_library_classical_v0__renaissance.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_library_classical_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_library_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Library",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 687,
+  "lod_triangles": [
+   687,
+   379,
+   138
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    0.949999988079071,
+    1.1682000160217285,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 98420,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_library_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_library_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_library_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_library_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_library_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Library",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 746,
+  "lod_triangles": [
+   746,
+   408,
+   160
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    0.949999988079071,
+    1.2448416948318481,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 99336,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_library_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_library_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_library_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_library_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_medical_center_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "MedicalCenter",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1023,
+  "lod_triangles": [
+   1023,
+   583,
+   239
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8500000238418579
+   ],
+   [
+    0.925000011920929,
+    1.4988399744033813,
+    0.8500000238418579
+   ]
+  ],
+  "bytes": 152892,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_medical_center_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_medical_center_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_medical_center_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_medical_center_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_observatory_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Observatory",
+  "race": "saurian",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 793,
+  "lod_triangles": [
+   793,
+   473,
+   188
+  ],
+  "bounds": [
+   [
+    -0.8299999833106995,
+    0.0,
+    -0.824999988079071
+   ],
+   [
+    0.8299999833106995,
+    1.5738776922225952,
+    0.824999988079071
+   ]
+  ],
+  "bytes": 124256,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_observatory_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_observatory_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_observatory_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_observatory_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Observatory",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 587,
+  "lod_triangles": [
+   587,
+   333,
+   175
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9350000023841858
+   ],
+   [
+    0.949999988079071,
+    1.3353629112243652,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 98068,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_observatory_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_observatory_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_observatory_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_observatory_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_observatory_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Observatory",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 641,
+  "lod_triangles": [
+   641,
+   301,
+   157
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9350000023841858
+   ],
+   [
+    0.949999988079071,
+    1.253000020980835,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 87916,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_observatory_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_observatory_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_observatory_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_observatory_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_printworks_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Printworks",
+  "race": "saurian",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 717,
+  "lod_triangles": [
+   717,
+   407,
+   167
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8500000238418579
+   ],
+   [
+    0.925000011920929,
+    0.9985600113868713,
+    0.8500000238418579
+   ]
+  ],
+  "bytes": 97124,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_printworks_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_printworks_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_printworks_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_printworks_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Printworks",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 797,
+  "lod_triangles": [
+   797,
+   459,
+   165
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    0.949999988079071,
+    1.1100000143051147,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 99384,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_printworks_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_printworks_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_printworks_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_printworks_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_printworks_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Printworks",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 867,
+  "lod_triangles": [
+   867,
+   425,
+   107
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    0.949999988079071,
+    1.2666399478912354,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 102456,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_printworks_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_printworks_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_printworks_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_printworks_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_research_lab_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "ResearchLab",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 802,
+  "lod_triangles": [
+   802,
+   455,
+   205
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    0.949999988079071,
+    1.3592718839645386,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 127640,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_research_lab_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_research_lab_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_research_lab_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_research_lab_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_research_lab_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "ResearchLab",
+  "race": "saurian",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 913,
+  "lod_triangles": [
+   913,
+   525,
+   131
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.8500000238418579
+   ],
+   [
+    0.925000011920929,
+    1.239300012588501,
+    0.8500000238418579
+   ]
+  ],
+  "bytes": 124016,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_research_lab_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_research_lab_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_research_lab_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_scriptorium_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "saurian",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 833,
+  "lod_triangles": [
+   833,
+   473,
+   189
+  ],
+  "bounds": [
+   [
+    -0.9449999928474426,
+    0.0,
+    -0.44999998807907104
+   ],
+   [
+    0.9449999928474426,
+    1.0074000358581543,
+    0.44999998807907104
+   ]
+  ],
+  "bytes": 116312,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_scriptorium_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 603,
+  "lod_triangles": [
+   603,
+   343,
+   163
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.4449999928474426
+   ],
+   [
+    0.949999988079071,
+    0.8205199837684631,
+    0.4449999928474426
+   ]
+  ],
+  "bytes": 86936,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_scriptorium_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 475,
+  "lod_triangles": [
+   475,
+   269,
+   109
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.4449999928474426
+   ],
+   [
+    0.949999988079071,
+    0.8978999853134155,
+    0.4449999928474426
+   ]
+  ],
+  "bytes": 76900,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_scriptorium_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 471,
+  "lod_triangles": [
+   471,
+   259,
+   133
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.4449999928474426
+   ],
+   [
+    0.949999988079071,
+    0.6862000226974487,
+    0.4449999928474426
+   ]
+  ],
+  "bytes": 63012,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_scriptorium_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_university_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "University",
+  "race": "saurian",
+  "ages": [
+   "renaissance",
+   "medieval"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1289,
+  "lod_triangles": [
+   1289,
+   733,
+   256
+  ],
+  "bounds": [
+   [
+    -1.409999966621399,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    1.409999966621399,
+    1.1319199800491333,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 190780,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_university_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_university_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_university_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_university_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_saurian_university_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "University",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1142,
+  "lod_triangles": [
+   1142,
+   546,
+   284
+  ],
+  "bounds": [
+   [
+    -1.4249999523162842,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    1.4249999523162842,
+    1.4700000286102295,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 163084,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_university_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_university_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_university_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_university_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_university_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/LearningHealth",
+  "building_type": "University",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 971,
+  "lod_triangles": [
+   971,
+   468,
+   133
+  ],
+  "bounds": [
+   [
+    -1.4249999523162842,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    1.4249999523162842,
+    1.5508999824523926,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 110828,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/LearningHealth/bld_saurian_university_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_university_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_university_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/LearningHealth/bld_saurian_university_industrial_v0__modern.png"
+  }
+ }
+]

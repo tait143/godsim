@@ -1,0 +1,1077 @@
+{
+  "package": "human_food",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Codex independent Human Food critic",
+      "models": [
+        {
+          "id": "bld_human_farm_ancient_v0",
+          "evidence_sha256": "64030662a1f34da55ad42fa4144795ce962d8acbc99758c3ee7eb19e29e88e52",
+          "observations": "Four furrows alternate clipped green and ripe straw against darker soil. The round grain store, timber-framed house and blue-smocked scarecrow make the use clear at 48 px. The three ancient roof rows progress from straw to hide to darker boards. The low LOD keeps the hut, store and long rows. Serialized LOD triangle counts are 772/396/134.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_farm_classical_v0",
+          "evidence_sha256": "18537c31448f363f336ca863cf62062b28dede08d0f0add6655bc20188fadc8e",
+          "observations": "The steeper gable, grain store and straight rows retain the farm silhouette. Medieval reads clearly from its dark roof, while Classical and Renaissance show almost the same red roof over a very small area of light wall. At 48 px only about 3% of coloured pixels change by 16 levels in any RGB channel between those two ages. Serialized LOD triangle counts are 607/408/134.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 84,
+            "construction": 94,
+            "charm": 93,
+            "colour": 90,
+            "technical": 99
+          },
+          "defects": [
+            "Increase the extent of a row-responsive pale-to-ochre plaster surface facing the camera, such as a broad granary body and raised gable. Recheck Classical and Renaissance side by side at 48 px."
+          ]
+        },
+        {
+          "id": "bld_human_farm_future_v0",
+          "evidence_sha256": "2c104e52f9ccf5640c2944e0b07c51df1ed0bc8898675ffe0d8702d6630f2c27",
+          "observations": "The connected pair of silos sits beside the glazed utility shed with a clear approach from the field. A projecting pump and mast break up the regular rows. Silver equipment turns gold against the pale blue Ascension roof. Both silos and the field pattern persist at LOD2. Serialized LOD triangle counts are 720/400/166.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_farm_industrial_v0",
+          "evidence_sha256": "a5b80ba3ce9a55ff53c9d6e4768008d16a9ccccec9b217cbe96b643319d62e7b",
+          "observations": "The earlier grain store gives way to two banded silos and a compact machine. A chimney and red masonry distinguish the Industrial shed from the pale Modern shed. The dark silos, mast, front stoop and four planted rows have distinct roles, and the pair of silos remains in the low silhouette. Serialized LOD triangle counts are 730/378/144.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_ancient_v0",
+          "evidence_sha256": "f964c21d9815bec72dd70a7a182e21d46ceb8792c3ee95ce1c4f52980a03db2c",
+          "observations": "The pointed dinghy, thwarts and landing on timber piles make the shoreline function legible. Blue shutters, a lit pane and roof surfaces distinguish the Human hut across its first three ages. Corks decorate the flat drying sheet. LOD2 keeps the boat and pier. The freestanding sheet is drawn from one side only. Serialized LOD triangle counts are 531/334/134.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 87,
+            "charm": 91,
+            "colour": 92,
+            "technical": 97
+          },
+          "defects": [
+            "Give the drying net visible structure from both sides of its rack in LOD0/1. A sparse set of crossed strands under the corks, or thickness with a mesh opening, would also distinguish netting from a hide."
+          ]
+        },
+        {
+          "id": "bld_human_fishing_hut_classical_v0",
+          "evidence_sha256": "62380cf9afd8d88546373c1032954fcc8fa9cb33df623d390b7645f5ef8ea72a",
+          "observations": "The high gable and bright shutters sit behind the net rack. The full boat has a raised gunwale and two seats. The Medieval roof separates cleanly, but Classical and Renaissance have remarkably close roof, plaster and timber values at 48 px. The net is a single surface with no visible back. Serialized LOD triangle counts are 549/346/134.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 85,
+            "construction": 87,
+            "charm": 92,
+            "colour": 92,
+            "technical": 97
+          },
+          "defects": [
+            "Build a net that remains visible from behind at LOD0/1. Leave room between its supports and the entry.",
+            "Expose a larger age-responsive plaster gable or fish-market canopy so the Classical and Renaissance waterfront buildings separate at 48 px."
+          ]
+        },
+        {
+          "id": "bld_human_fishing_hut_future_v0",
+          "evidence_sha256": "379162e0ca3593a913c5c509e641f65ab49387d07ec08ab60f4922434d55461d",
+          "observations": "The glazed pitched cap sits on a compact square cabin. The deck-edge hoist, hoisting line, basket and hull remain clear against the warm timber. Silver to gold hardware and a brighter roof distinguish the two ages. The boat and cabin door survive LOD2. Serialized LOD triangle counts are 453/298/136.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_industrial_v0",
+          "evidence_sha256": "b369f619bfc1f6a573741f999f915314cadbac29a2228a8bb12b41319fc99c03",
+          "observations": "The brick and concrete stations share a gabled roof monitor, chimney, angular quay hoist and open skiff. The little basket and lit cabin punctuate the straight machinery. Both versions preserve the deck approach, supports and hull outline through the lower LODs. Serialized LOD triangle counts are 475/288/126.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_gatherer_hut_ancient_v0",
+          "evidence_sha256": "0ff99e032062d7ce3ae142a2feeb58bda41e8567ec3dee0d1580d0e3d0af34a6",
+          "observations": "The low pitched shelter reads well as timber construction, and the roof changes from thatch to warmer hide to dark boards. At working size its deep eave hides the sorting surface. The two pink pots read as flowers outside a shed. LOD2 removes every basket and the bench, leaving an empty platform under a roof. Serialized LOD triangle counts are 402/208/96.",
+          "scores": {
+            "silhouette": 82,
+            "identity": 91,
+            "construction": 93,
+            "charm": 83,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Shorten or raise the front eave and expose a sorting table with large identifiable food such as a mushroom cluster and loaded harvest basket. Retain a simplified table or loaded basket at LOD2 so the work remains understandable."
+          ]
+        },
+        {
+          "id": "bld_human_hunting_lodge_ancient_v0",
+          "evidence_sha256": "d586bdfa9c2de2371c624a30eedae909e9f57ef61c330a5b0d5b93dd8c371faf",
+          "observations": "The gable above the warm shuttered window, drying rack, clay jar and carved fork give this cottage an identifiable craft. The antler root hangs 0.033 tile ahead of the ancient roof skin. The stretched hide has no backside on the single-sided material. Serialized LOD triangle counts are 408/224/92.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 83,
+            "charm": 90,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Attach the antler base to the gable with a solid mounting plate that enters the roof in LOD0/1. At x=0, y=0.538 the rear of the antler is at z=-0.222 and the roof is at -0.1893.",
+            "Close the drying hide with a thin edge and a reverse face and hang it from the crossrail so the pelt reads from either approach."
+          ]
+        },
+        {
+          "id": "bld_human_hunting_lodge_classical_v0",
+          "evidence_sha256": "72b4af78d50301e982b2529d4c05e0225364eab7049364e5d0fc04eba82bf22b",
+          "observations": "Terracotta and dark Medieval tiles frame the ivory hunting trophy well. The rack leaves the main doorway free and the reddish pot balances it on the other side. A small physical gap separates the antler root from the Classical gable, and the free-hanging pelt disappears from the reverse view. Serialized LOD triangle counts are 371/236/92.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 88,
+            "charm": 92,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "Seat the antler root on a solid plate keyed into the eave in LOD0/1. At x=0, y=0.538 the roof is at z=-0.2191 and the rear of the antler is at -0.222.",
+            "Give the hide an edge, rear surface and a visible attachment to its crossrail."
+          ]
+        },
+        {
+          "id": "bld_human_hydroponics_tower_future_v0",
+          "evidence_sha256": "ac4ca8b462e294974e6ba3a466311c934f2383207180de84fc1941a799ecbb42",
+          "observations": "Four planted galleries, a glazed centre and a blue dome form a strong stepped tower. The planted edges stay legible in LOD1 and the tiered silhouette persists in LOD2. The tiny blue-on-blue roof pennant disappears at 48 px and is missing from both lower LODs. The front gold or silver doorway reads as a generic portal. Serialized LOD triangle counts are 691/442/206.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 84,
+            "construction": 94,
+            "charm": 90,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Give the tower a Human entrance or crest that is readable against the glass at 48 px and retained at all three LODs. A blue-shuttered, ivory-trimmed gabled gatehouse would connect it to the rest of the Human food buildings."
+          ]
+        },
+        {
+          "id": "bld_human_industrial_farm_future_v0",
+          "evidence_sha256": "fb083a0efaeb4ddbdcfa91161a8ffbd63e151265c75121ecd96fdcf56eea311b",
+          "observations": "Two glass growing ranges lead back to an attached packing house and tank. Produce crates and a supported glazed porch frame the two front doors. The broad silver-to-gold change separates the ages without overwhelming the blue glazing. The vaults and tank stand out even in LOD2. Serialized LOD triangle counts are 666/426/178.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_industrial_farm_industrial_v0",
+          "evidence_sha256": "b7a02a13e4fe4da568fe0b7e27aa3ecc6b647f9692d9e2e68d5a95038753b258",
+          "observations": "The Modern complex has two unequal barrel-vaulted glasshouses, a common head house and a service tank. Crates of greens give the shaded entrances a clear purpose. The rear workhouse roof and pennant tie the assembly to the Human farms. The spans remain clear under simplification. Serialized LOD triangle counts are 634/394/146.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_mill_classical_v0",
+          "evidence_sha256": "91e9f2e197c8bd073c974d7e09469d966cdefe79aad560c017aa835b1241ed87",
+          "observations": "Four cloth sails span the tapered tower, blue shutters and earthen pot. Medieval and Renaissance roof values separate clearly. The axle and window stand well in front of the curved shell, although the main preview hides the gaps. At shaft centre the actual LOD0 tower front is z=-0.207 and the rear shaft end is -0.298. This gap grows to 0.125 tile in LOD2. Serialized LOD triangle counts are 537/267/136.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 94,
+            "construction": 80,
+            "charm": 94,
+            "colour": 94,
+            "technical": 95
+          },
+          "defects": [
+            "Extend the rotor axle or a solid bearing rearward into the tapered tower in all three LODs, keeping clearance between the revolving blades and walls.",
+            "Give the doorway and shuttered window solid reveals that reach the curved tower in every applicable LOD. At the upper door centre in LOD2 the visible face is z=-0.341 and the wall is -0.252. At the LOD1 window the pane is at -0.262 and the wall is -0.170."
+          ]
+        },
+        {
+          "id": "bld_human_mill_industrial_v0",
+          "evidence_sha256": "35b45961534f04b112d10d5b22af3eb3d323d549f99bb019fedc1c6a99ebd594",
+          "observations": "The four sails rise above a red-brick tower and attached chimney shed. The large jar, small shutters and outbuilding give it a distinct milling yard. Its bearing ends 0.091 tile in front of the actual LOD0 wall at shaft centre and 0.125 tile in front at LOD2. The doorway and window are also separated from the curved shell. Serialized LOD triangle counts are 679/363/186.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 94,
+            "construction": 80,
+            "charm": 94,
+            "colour": 93,
+            "technical": 95
+          },
+          "defects": [
+            "Connect the metal rotor shaft to the masonry with a solid bearing that penetrates the coarsest tower wall and reaches the axle at every LOD.",
+            "Build solid reveals behind the tower door and shutters so they connect to the shell, especially in LOD1 where the window face sits 0.092 tile ahead of the wall."
+          ]
+        },
+        {
+          "id": "bld_human_pasture_ancient_v0",
+          "evidence_sha256": "7cc20769369440f12a0281fd8e87adbf2246ad365492c54c177a858e9064c063",
+          "observations": "Three light wool bodies, blue water trough, timber rails and shuttered barn immediately read as a pasture. The darker Iron roof is visible above the pen. LOD1 retains two animals, but LOD2 substitutes an empty green lot with a house and rails. Serialized LOD triangle counts are 891/548/188.",
+          "scores": {
+            "silhouette": 83,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Keep at least two separated, inexpensive light-bodied, dark-headed livestock shapes in LOD2 so a distant pasture still reads as occupied grazing land."
+          ]
+        },
+        {
+          "id": "bld_human_pasture_classical_v0",
+          "evidence_sha256": "14dae4634ac5aab2054fbca2c44ed18e2454116743a0ba01faccf34340dea119",
+          "observations": "The grazing animals and open gate frame a Human barn with a strong peaked roof. Medieval dark tiles are distinct. Classical and Renaissance share almost precisely the same red roof above the same green field at phone size. At LOD2 all the stock disappears. Serialized LOD triangle counts are 854/560/188.",
+          "scores": {
+            "silhouette": 83,
+            "identity": 84,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Retain two low-poly sheep in LOD2 to carry the grazing function into the distance.",
+            "Use a broad plaster gable or rendered barn wall to show the Classical white versus Renaissance ochre shift. Between those ages only about 4% of coloured pixels currently change by 16 levels in any RGB channel at 48 px."
+          ]
+        },
+        {
+          "id": "bld_human_pasture_future_v0",
+          "evidence_sha256": "21d84668a6fe454e0e801db52abc7cca6ea9b00fbf8d73e0ec024420d7ebb002",
+          "observations": "The blue shade canopy, glazed shed and metal rails set the new pen apart from the ancient timber yard. The enclosure turns gold in Ascension, with white sheep still distinct against the green. LOD2 loses every animal and reads as a fenced utility lawn. Serialized LOD triangle counts are 834/540/218.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Retain two inexpensive, separated sheep in LOD2. Carry a pale wool mass and a dark head on each to preserve the distant pasture icon."
+          ]
+        },
+        {
+          "id": "bld_human_pasture_industrial_v0",
+          "evidence_sha256": "ca4e763216d2621953358e20b6d990c20adec874610374c237783e9a40606148",
+          "observations": "A pitched chimney shed and freestanding shade shelter anchor the metal-railed grazing yard. The Industrial red brick and Modern pale concrete are distinct against the green. The blue trough and animals create interest in the first two LODs. The lowest detail yard is completely empty. Serialized LOD triangle counts are 856/530/208.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Retain a pair of simplified light-bodied livestock silhouettes in LOD2 to distinguish the shelter and lawn as a working pasture."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Codex independent Human Food critic",
+      "models": [
+        {
+          "id": "bld_human_farm_classical_v0",
+          "evidence_sha256": "04a45b1fca06150adb7a1cc237ccf060c9aaeb2dcdff2f3e2923b3e999fc406f",
+          "observations": "Four raised soil rows, the round store and scarecrow still give the farm a clear outline. The plaster porch and paving now shift from limestone white to ochre. The difference is visible at 48 px, where 32% of foreground pixels change by at least 16 in one RGB channel between Classical and Renaissance. LOD2 keeps the three working areas. Serialized LOD triangle counts are 639/408/166.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_ancient_v0",
+          "evidence_sha256": "a4b45f8f9d50eb0b6859ceef0d008d3af30ac451c5fca1e86056cc3e9b6b5136",
+          "observations": "The skiff and piled landing still read cleanly in all three ancient ages. The rack now has a back and edges, resolving the culling defect. Its opaque brown panel still reads as a stretched hide, the same prop seen on the hunting lodges. The small corks along its top do not establish a net at play scale. Serialized LOD triangle counts are 541/344/134.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 88,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the solid leather-shaped net in LOD0/1 with coarse crossing cords or a net with visible openings. Preserve the cork line and leave the space between its posts visibly open."
+          ]
+        },
+        {
+          "id": "bld_human_fishing_hut_classical_v0",
+          "evidence_sha256": "9770f104ecb072dcb359b7746eaf5883af032c6c7e927f839b42912047ce5c4f",
+          "observations": "The new supported porch separates white Classical plaster from warm Renaissance plaster. The prow, rail and age-changing roof are clear at 48 px. The drying panel is now enclosed properly but still presents an unbroken leather surface between the poles and reads as the hunting lodge pelt. Serialized LOD triangle counts are 591/388/166.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 94,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the drying net actual openings or sparse crossed cords beneath its corks in LOD0/1. The opaque hide currently hides the space between the rack uprights."
+          ]
+        },
+        {
+          "id": "bld_human_gatherer_hut_ancient_v0",
+          "evidence_sha256": "136ae01cf6ad212df9244a7bd0cb432ec0c6ec29547db9b749acec5e05ea2182",
+          "observations": "A shallower eave reveals three red mushroom caps and their pale stems on the sorting bench. Loaded baskets flank the work surface. They and the bench survive LOD2 without obscuring the lean-to silhouette. Thatch, hide and dark roof boards remain distinguishable across the three ages. Serialized LOD triangle counts are 495/257/152.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_hunting_lodge_ancient_v0",
+          "evidence_sha256": "36708094fa7cf0e4e6ef326a6db47d30624859218bd6149682fbe4b963f6bc9a",
+          "observations": "A substantial timber block now reaches both the gable and the base of the antler branches. The two-sided hide hangs beside the entry, framed by the rack. The jar, blossoms and pale horn stand out from the brown timber across Dawn, Bronze and Iron. The rack remains legible at low detail. Serialized LOD triangle counts are 428/244/102.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_hunting_lodge_classical_v0",
+          "evidence_sha256": "d335e100f78ac5a2015d5678e9f4bd8a9d2a5599a47e7592291ec004da97a309",
+          "observations": "The mounted antlers project above the limewashed porch and the hide sits within its upright rack. The new solid mount intersects the roof at the horn base. Both fabric faces and edges are present on the hide. The jar and unobstructed doorway read below dark Medieval tiles and Classical terracotta. Serialized LOD triangle counts are 423/288/134.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_hydroponics_tower_future_v0",
+          "evidence_sha256": "cf0248f6659ec47b15bc46e387f8586c5495321cd759d924f1060a1303b82f71",
+          "observations": "The ivory entry house now has an unmistakable blue hip-gable on the front of the planted tower. It reads against the green terraces at 48 px and retains its roof shape through both simplified LODs. The framed entry shifts from silver to gold while the stacked planting beds retain their identity. Serialized LOD triangle counts are 725/476/232.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_mill_classical_v0",
+          "evidence_sha256": "97ce095c450742dd36c972fcbf731a565fe6f8a15564df950afd6736fd683960",
+          "observations": "The longer axle seats in the taper and the stone reveals close the previous gaps behind the shuttered light and tower door. The sail arms still clear the wall. The sail cross, leaning chimney, blue shutters and pot stay clear across Medieval and Renaissance. Lower LODs retain the hub and doorway. Serialized LOD triangle counts are 557/287/146.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_mill_industrial_v0",
+          "evidence_sha256": "e2ac65a95acc91013c419a78d05b023d579924f65f14df6d576485a7b2c2fd3f",
+          "observations": "The bearing now reaches into the actual tower shell in all three LODs. Masonry supports the flat door and projecting shuttered opening. The broad sail arc remains clear of both the brick cap and side outbuilding. The proportions and warm brick still distinguish the industrial mill. Serialized LOD triangle counts are 699/383/196.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_pasture_ancient_v0",
+          "evidence_sha256": "64f53ef66d7400033ad1025afaccb695c587b1d111bad4f1350fc68f59cd6231",
+          "observations": "The occupied pen now survives LOD2 with two separated pale stock bodies and their dark heads. The warm shelter, stout timber rails, water trough and grazing group remain readable at ordinary distance in both Bronze and Iron. The low-detail animals are grounded within the fence. Serialized LOD triangle counts are 891/548/228.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_pasture_classical_v0",
+          "evidence_sha256": "258374105bc3961e36aed50efab06ad953783fdddb4dd10c09b55be6bc9d64aa",
+          "observations": "The open gate leads into a visible strip of age-responsive stone, backed by a broad pale porch. Those surfaces separate Classical white from Renaissance ochre under the red roof, while Medieval remains visibly darker. LOD2 keeps two grazing animals and the gate-to-door path. Serialized LOD triangle counts are 896/602/270.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_pasture_future_v0",
+          "evidence_sha256": "9289b754e11137cf9627a6cec19773bbfa6d60abb6adc77c4159b757caa0d3fe",
+          "observations": "The blue glass shelter and white shed stay distinct from the two pale, dark-headed animals at low detail. At full size the trough, canopy posts and third animal give the pen human scale. The rails and entry hardware turn from silver to gold in Ascension. Serialized LOD triangle counts are 834/540/258.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_pasture_industrial_v0",
+          "evidence_sha256": "f0d59c4192c6e423c6d675b1389a29d9be6f4f46bba3c6953095d4213cd1e1cd",
+          "observations": "Two inexpensive livestock forms now remain on opposite sides of the grass in LOD2. Even with one fence rail the image reads as an occupied enclosure. The blue shade shelter, chimney and red-to-concrete wall change still distinguish the Industrial and Modern stations. Serialized LOD triangle counts are 856/530/248.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Codex independent Human Food critic",
+      "models": [
+        {
+          "id": "bld_human_fishing_hut_ancient_v0",
+          "evidence_sha256": "bf51c6cfad995b424a8030e6fc29f47416861cfecbfff95b62af3be0ef6f8c87",
+          "observations": "A net with open diamond cells and a weighted lower edge now hangs beneath the pale corks beside the piled dock. The crossed cords and gaps are visible from both sides of the actual LOD0 and LOD1 rack. The full landing, skiff and timber gable retain a readable fishing silhouette at 48 px and at LOD2. The thatch, hide and dark-board roofs remain distinct through the three ages. Serialized LOD triangle counts are 733/488/134.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_classical_v0",
+          "evidence_sha256": "7c69c717760a18edb5153d3be71b118d75a6576d8bb589d2bf77547411121cec",
+          "observations": "The crossed net cords now leave visible openings on both sides of the rack in LOD0 and LOD1. The narrower net bottom and corks give it a natural drape on the front quay. At 48 px the open skiff and limewashed porch remain clear. Classical white, Medieval slate and Renaissance ochre remain legible. At LOD2 the hull, cabin entry, pier and porch preserve the waterfront silhouette. Serialized LOD triangle counts are 783/532/166.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Codex independent Human Food critic",
+      "models": [
+        {
+          "id": "bld_human_farm_ancient_v0",
+          "evidence_sha256": "d5f8e16d3a79d753f1af53e48ce6de74c4864b0faa54500a81942afd9eabdcc1",
+          "observations": "At 64 px the packed yard moves from earth brown in Dawn to warm ochre in Bronze and cool grey in Iron. The thatched granary, framed farmhouse and alternating planted ridges remain clear above it. The closest pair, Bronze and Iron, still changes 39% of foreground pixels by at least 16 levels in one RGB channel. The actual three LODs keep the yard, granary and field rows aligned, with the front door facing the working yard. Serialized LOD triangle counts are 772/396/134.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_hydroponics_tower_future_v0",
+          "evidence_sha256": "c29e4fc78b21d7ba03ce50f8571e8a09c41907f8aaa8133d2678f34dbc7ae8a0",
+          "observations": "The ribbed dome appears dark graphite-brown in Information and warm gold in Ascension, a clear cap change at 64 px in all three serialized LODs. The four green galleries sit against a glazed central shaft. The ivory entry and blue Human gable remain readable at its foot. Between Information and Ascension 31% of foreground pixels change by at least 16 levels in one RGB channel at 64 px. Serialized LOD triangle counts are 725/476/232.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_farm_classical_v0",
+          "evidence_sha256": "4e395eada0e55199d35b2385ac9f622b9510d8aca35f30501b163e09441093ff",
+          "observations": "The planted furrows and small side granary identify this as a working field. The tall gable and supported front porch change the earlier hip-roofed farmhouse profile. The rows remain readable at the far level. Serialized triangle counts are 639, 364, 166 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 90,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_ancient_v0",
+          "evidence_sha256": "a95f80efe1a4af1273935ab14592ad6009a8dc258a39d58e1ed9949a599e3c0d",
+          "observations": "The hip roof, open boat and net rack identify the timber landing. At LOD1 the side and rear of the cabin fold inward diagonally, opening the lower part of the wall above the dock. Serialized triangle counts are 733, 416, 134 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 92,
+            "construction": 80,
+            "charm": 93,
+            "colour": 92,
+            "technical": 88
+          },
+          "defects": [
+            "Keep a complete rectangular cabin wall and continuous sill under the hip roof at LOD1. Check the side and rear at 35 and 305 degrees."
+          ]
+        },
+        {
+          "id": "bld_human_fishing_hut_classical_v0",
+          "evidence_sha256": "7dc94a0845a118bb5fd31ba4542f91dd7289af1995357f79d7ea43bb8404c225",
+          "observations": "The tile gable and extended pale porch distinguish the classical landing. The LOD1 cabin loses the corner between its blank side and rear, leaving large triangular wall openings above the deck. Serialized triangle counts are 783, 446, 166 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 90,
+            "construction": 79,
+            "charm": 93,
+            "colour": 94,
+            "technical": 88
+          },
+          "defects": [
+            "Restore the two solid plane faces at the side and rear cabin corner in LOD1. Simplify the net or small dock items to recover the budget."
+          ]
+        },
+        {
+          "id": "bld_human_fishing_hut_future_v0",
+          "evidence_sha256": "d3a7fda6fb8e830e75f81fa07342fd9618f93024d9d83a7657d919697188b95b",
+          "observations": "The glazed single-slope roof and continuous eave replace the industrial gable and chimney. The small window, dock crane and moored dinghy keep the bright hut tied to fishing. Serialized triangle counts are 453, 258, 136 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_industrial_v0",
+          "evidence_sha256": "27755d58c5a5b4072ba19c4402e67a178ed7f14a1f762454895f795549e9a74f",
+          "observations": "A raised roof vent and chimney accompany the brick shed, while the open net rack gives way to a loading davit. The medium model keeps the opening beneath the roof and a clear boat alongside the dock. Serialized triangle counts are 475, 270, 126 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_hunting_lodge_classical_v0",
+          "evidence_sha256": "84db26235d87fd6c6f0dde0e9f870d2e4b8cfaa49c09db8578992326a01318e7",
+          "observations": "The antler badge, stretched hide and pale porch distinguish the lodge. At LOD1 the rear plaster wall and its adjacent side collapse toward one point, leaving the roof over a large open wedge. Serialized triangle counts are 423, 240, 134 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 90,
+            "construction": 79,
+            "charm": 92,
+            "colour": 93,
+            "technical": 88
+          },
+          "defects": [
+            "Preserve box-shaped side and rear wall planes between the sill and gable in LOD1. Verify the 35- and 305-degree views as well as the front porch."
+          ]
+        },
+        {
+          "id": "bld_human_hydroponics_tower_future_v0",
+          "evidence_sha256": "88696f4e8a622e91f3a7549576d0af72b99dbbad64af64d077659c7bebeca541",
+          "observations": "Stacked green growing decks wrap a glazed central shaft, with a domed roof above and a blue entry canopy below. The setbacks and crop bands read from both sides as the planter detail thins. Serialized triangle counts are 725, 412, 232 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_industrial_farm_future_v0",
+          "evidence_sha256": "c2422a3d37b3c4f8f06ee36ae4d5ad23260c88ffe555f1ba31866038bb8afe64",
+          "observations": "The same two parallel glass ranges, common head house and single corner silo occupy virtually the same footprint as the modern farm. A slightly longer tunnel and small entry canopy do little to separate the unpainted views. Serialized triangle counts are 666, 378, 178 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 83,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Change the future growing system or layout at building scale, such as one stepped vertical growing hall. Retain a visible produce entrance and the agricultural function."
+          ]
+        },
+        {
+          "id": "bld_human_industrial_farm_industrial_v0",
+          "evidence_sha256": "a8e20e3aa427c1fdf4095195b241b0d89e335b6bb5c406d0a1f7064d682001fd",
+          "observations": "Two low greenhouse ranges line the farm pad next to a tall cylindrical tank and a shared head house. Produce crates give scale at the front. Both growing tunnels remain identifiable at each distance. Serialized triangle counts are 634, 360, 146 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_pasture_ancient_v0",
+          "evidence_sha256": "de8234bff840f64ac5b10672f8308a84baed7dc60c5e02652a4da583b3e4fa9b",
+          "observations": "A low timber shelter sits in a roughly square rail pen with white sheep around its front. Grass, fencing and the water trough make the yard readable, and both grey views distinguish it from the upright classical byre. Serialized triangle counts are 891, 506, 228 at LOD0, LOD1 and LOD2. Its largest directed LOD0 corner match with another era is 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_pasture_classical_v0",
+          "evidence_sha256": "bafc3a8b1bb60ddec323e8bba67bf3196f78bab2289172d52ae7186dadba9ef8",
+          "observations": "An upright masonry byre faces a shortened, angled paddock. The prominent dark doorway and pitched tile roof remain legible behind the sheep. The changed orientation and building proportions show up from both sides without paint. Serialized triangle counts are 654, 372, 208 at LOD0, LOD1 and LOD2. Its largest directed LOD0 corner match with another era is 6.4%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_pasture_future_v0",
+          "evidence_sha256": "e9bdbe4dbdf6904894383730f69997769a58e49b2d7b897317f336d7d64a2ebb",
+          "observations": "A round shelter with spaced piers and a broad shallow cap replaces the earlier barn and silo. The fenced strip, sheep and trough keep its function clear. The supported circular shelter reads in both unpainted angles. Serialized triangle counts are 860, 490, 250 at LOD0, LOD1 and LOD2. Its largest directed LOD0 corner match with another era is 4.9%.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_pasture_industrial_v0",
+          "evidence_sha256": "60e39a395549c7970e2686c7cad136f878a16002a994b6dfa474e5c03c6bcb44",
+          "observations": "The broad barn and attached silo form a long, high back edge to the fenced pen. The sheep, dark entry and trough give scale, while the paired roof and silo remain recognizable at all three distances. Serialized triangle counts are 699, 397, 210 at LOD0, LOD1 and LOD2. Its largest directed LOD0 corner match with another era is 6.0%.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_farm_classical_v0",
+          "evidence_sha256": "4cd9de324e75798bd03b1115af919ee96a2db75f4b36356c919741d18b0638b2",
+          "observations": "The middle mesh simplifies individual plants into long crop rows and keeps the granary distinct from the farmhouse. The front porch and enclosed rear walls remain intact below the tiled gable. Serialized triangle counts are 639, 364, 166 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 90,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_ancient_v0",
+          "evidence_sha256": "08037571b7db25b15c6e52415cf8635fbfeb6e81cbb34af1a0476dee664235e3",
+          "observations": "The pile landing, moored boat and rack flank a low hip-roofed timber cabin. The previously collapsed side and rear corner now stand continuously on the sill at LOD1 in all three painted angles. Serialized triangle counts are 733, 382, 134 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_classical_v0",
+          "evidence_sha256": "587fc6b70063c502f52b44e71a7c015eac511a05fc5e6d88f9ac379de781a21d",
+          "observations": "The projecting cream porch still marks the gabled hut across its three age finishes. The middle mesh now closes the side and rear walls beneath the roof, retaining both porch posts, the net rack and boat. Serialized triangle counts are 783, 426, 166 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_future_v0",
+          "evidence_sha256": "db288dafe9ac3efba67bed08c9dc4e80255dd2703b3a6013d5c8aee1f84ec3b7",
+          "observations": "The blue single-slope roof remains whole, and the davit stays attached to the dock in both middle-distance approach views. The rear wall closes cleanly beneath the glazed eave. Serialized triangle counts are 453, 258, 136 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_fishing_hut_industrial_v0",
+          "evidence_sha256": "5b13ca761a6f6d5818c2e41b9e11fbb5d21b49da617c439cd89c97661a3b3008",
+          "observations": "The squared lifting crane and brick cabin frame an identifiable boat slip. LOD1 retains the sill, rear wall and continuous pitched roof, with a block roof vent replacing much of the small chimney detail. Serialized triangle counts are 475, 270, 126 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_hunting_lodge_classical_v0",
+          "evidence_sha256": "01e1d83c3cfd7e58beeae3a5010c59b88ebd96ce9359abefce2a45fcf9f7f00d",
+          "observations": "The hide hangs between the porch posts beneath the antler-marked gable. The broad plaster side and rear wall now meet at a closed vertical corner at medium distance. The front doorway and porch roof still read clearly. Serialized triangle counts are 423, 234, 134 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_hydroponics_tower_future_v0",
+          "evidence_sha256": "dbe6ea43394c33b29601a53c559566a5b0923d006fe57aeabf5c5a95e70ce03d",
+          "observations": "The glass growing core, green trays and blue entry canopy remain identifiable in the middle and far meshes. Side views show each tray joining the core, with clear gaps between planted levels. Serialized triangle counts are 725, 412, 232 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_industrial_farm_future_v0",
+          "evidence_sha256": "9762e156de43ce2d332688153877e6f67d07a22b664e4ced8f5d544de0c7437c",
+          "observations": "Three cantilevered crop shelves step up a central irrigation block above a separate blue packing entrance. Their profile is distinct from the earlier twin glass tunnels at both grey angles. Individual plants remain visible on the middle-distance trays. Serialized triangle counts are 342, 194, 102 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_industrial_farm_industrial_v0",
+          "evidence_sha256": "29c238432e315b1a8635cb10f72e6a6781ef0a60b148b411d7a4dc659839e374",
+          "observations": "The two glazed growing ranges, corner silo and low shared head house remain legible in each middle view. The wider service gap and small produce crates give the low farm a readable working front. Serialized triangle counts are 634, 360, 146 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_human_farm_future_v0",
+          "evidence_sha256": "f537ae7f13f76ed5cee97058c169a4d591f8aa2180f2f946b82052039daeab04",
+          "observations": "Tilted collectors rise over rows of small orchard trees and a utility kiosk. The open ground and upright tree trunks clearly separate this farm from the silo-and-field predecessor in grayscale. Both collector posts and a simplified orchard survive at the far level.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1192,
+            576,
+            332
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_farm_ancient_v0",
+            "b": "bld_human_farm_future_v0",
+            "matched": 0,
+            "total": 2316
+          }
+        },
+        {
+          "id": "bld_human_fishing_hut_classical_v0",
+          "evidence_sha256": "ed48b6cc902af502036abb9079c5ec054d7aa79f0297b77751360d40367f0a3e",
+          "observations": "A gabled white hut sits on an elevated landing beside an open timber boat. The landing stays separate from the hull in the side view and its front posts reach the deck. The simple tiled roof and long exposed veranda give the Classical building a quieter outline than the older timber hut.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            589,
+            350,
+            148
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_fishing_hut_ancient_v0",
+            "b": "bld_human_fishing_hut_classical_v0",
+            "matched": 0,
+            "total": 2199
+          }
+        },
+        {
+          "id": "bld_human_fishing_hut_future_v0",
+          "evidence_sha256": "ae46c8715c7a0d1889bbe30923485d2d54afd7989b3a0728addee8303f76c280",
+          "observations": "A blue-banded service cabin sits on a broad twin-sided pontoon, with outreach davits along the work deck. The visible hull edges, working lines and projecting booms distinguish it from a land workshop. The cabin and booms remain legible at LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            693,
+            403,
+            220
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_fishing_hut_ancient_v0",
+            "b": "bld_human_fishing_hut_future_v0",
+            "matched": 0,
+            "total": 2199
+          }
+        },
+        {
+          "id": "bld_human_fishing_hut_industrial_v0",
+          "evidence_sha256": "e2e80f83ffc31a078a312920e5f0d70e8a828c3014e28dd6337ca3eb5a0ae8d4",
+          "observations": "The sawtooth vents and brick gable are clear through all three levels. At 64 pixels the shed and two pots dominate the approach. The fine hoist line ends over an empty dry slab. Even the side view offers little evidence of a fishing landing.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 85,
+            "construction": 91,
+            "charm": 87,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Build a visible quay or landing with a boat cradle, catch net or comparable fishing gear at the hoist. Carry its working outline through LOD1 and LOD2."
+          ],
+          "lod_triangles": [
+            529,
+            238,
+            160
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_fishing_hut_ancient_v0",
+            "b": "bld_human_fishing_hut_industrial_v0",
+            "matched": 0,
+            "total": 2199
+          }
+        },
+        {
+          "id": "bld_human_mill_industrial_v0",
+          "evidence_sha256": "b2bb15c0759a5e478d4b7226fe8103531208c53f6efb178a067cdc799efb7bfb",
+          "observations": "The brick mill replaces the earlier wind sails with a side-mounted wheel housing, diagonal feed and a tall flue. Its side view exposes the path from opening to wheel. LOD2 drops the wheel spokes but keeps the equipment, feed and stack.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            697,
+            286,
+            108
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_mill_classical_v0",
+            "b": "bld_human_mill_industrial_v0",
+            "matched": 0,
+            "total": 1671
+          }
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "RC4 independent Human and Dwarf art critic, replacement mesh re-review",
+      "models": [
+        {
+          "id": "bld_human_fishing_hut_industrial_v0",
+          "evidence_sha256": "538d6c56da6a6be8b013d018b2568dd8b74e058228d75a5befa7f4e9970f4fa0",
+          "observations": "The brick curing shed stands on a piled quay above blue water. A fishing boat lies alongside and the quay crane raises a round net over its hull. The tall gantry and working waterfront distinguish the Industrial shed in both grayscale family views. At LOD2 the mesh of the net becomes solid, while its suspension, the open boat and the pier supports remain clear from the sides.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1241,
+            742,
+            296
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_fishing_hut_ancient_v0",
+            "b": "bld_human_fishing_hut_industrial_v0",
+            "matched": 0,
+            "total": 2199
+          }
+        }
+      ]
+    }
+  ]
+}

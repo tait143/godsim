@@ -1,0 +1,696 @@
+{
+  "package": "saurian_industry",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "sun_critic",
+      "models": [
+        {
+          "id": "bld_saurian_armory_ancient_v0",
+          "evidence_sha256": "758825c28e2aadf275001598ef9fce280589cde97579cbc9b565387845dde578",
+          "observations": "Iron's long reed-roof hall and two freestanding shield racks frame a wide central door. The turquoise ridge shield repeats the scale motif and survives reduction. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_armory_classical_v0",
+          "evidence_sha256": "cb2f7385355501c1124e49163c028385f4e2b4ad1b65b037005121668a49447c",
+          "observations": "The outboard spear tips, colored shield bosses and ridge scale remain clear with plaster, slate and terracotta roof rows. The center passage is free. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_armory_future_v0",
+          "evidence_sha256": "6be2c37f37e4291c2e88cbf265c0544ef215aa651359fe7f48a4a4dd999c05b0",
+          "observations": "The glass roof over the stockade-like shield racks keeps the armory distinct in both future rows. The brass bosses stop the dark shields merging with the door. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_armory_industrial_v0",
+          "evidence_sha256": "4128b83924bacb7ecebeea233074090f3a3a84e4c3ec970695cf79264a197fe8",
+          "observations": "The low steel roof, brick or concrete walls, and opposed shield racks create a legible mechanized armory. The small yard jar leaves the doorway open. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_blacksmith_ancient_v0",
+          "evidence_sha256": "58f6f59be0d5be935722dc364957bc011f54dd3991ba791d624dc98fc02335d0",
+          "observations": "The hearth's warm arch, horned anvil and timber stump read distinctly in the early rows, with the cooling vessel by the workshop. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_blacksmith_classical_v0",
+          "evidence_sha256": "f48846537715dd87718085a3c05d797ba09c01aefca64f9e0811a8dfaaa4fd0d",
+          "observations": "The fieldstone furnace is clearly separate from the tiled-roof smithy, and the light anvil horn contrasts with its stump through three age rows. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_blacksmith_future_v0",
+          "evidence_sha256": "f6d05781887fe583f2af9095e4eed7630fbbb6cb9d133ff4476c6670a522479c",
+          "observations": "The pale furnace, bright firemouth and glass-roof shelter remain distinct in the futuristic smithy. The cooling jar and hammer sit inside the working yard. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_blacksmith_industrial_v0",
+          "evidence_sha256": "7d4768378e44a66b064d6049886cf4c14492ff16c157b34002e34aaf0068cf04",
+          "observations": "The independent flue, lit forge and raised anvil give a clear skyline beside the brick or Modern workshop. The arc of the entrance remains visible. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_electronics_plant_future_v0",
+          "evidence_sha256": "65fc620efb8477feaea1b25fa528ca52f5cad1d0ab1ab9d62266df460a7404b3",
+          "observations": "The pale rooftop insulators, linking conductor and blue glazing establish the plant's electrical function across Modern, Information and Ascension. The entry and side sun insignia stay distinct. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_factory_future_v0",
+          "evidence_sha256": "f7b37f2c62baa147d2601976f96dce6cd66a1aaeb82cd0765bd7d3778d427250",
+          "observations": "Three northlight ridges, glazed cap and high stack identify a production hall. The landing, goods crates and door make sense together in both future ages. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_factory_industrial_v0",
+          "evidence_sha256": "ff43b6da36240b646fdf919495ca950cb90eba2a487c1ea0e6e748af495cbaf6",
+          "observations": "The dark sawtooth roof and red or pale warehouse walls retain their strong thumbnail silhouette. Three loading stairs serve the accessible central door. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_foundry_future_v0",
+          "evidence_sha256": "e6cca28478a3cda1fb02dfc138502f860ad44769416fc477ac160c2798a78c09",
+          "observations": "The twin high flues and connecting pipe distinguish the advanced foundry. Its bright ladle rim is visibly truncated beside the wall. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 85,
+            "charm": 93,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Move the ladle and its trunnions forward or create an open recess. The rim currently reaches z=-0.219 while the hall front is z=-0.345, clipping about 0.126 of the bowl and its molten contents into the wall."
+          ]
+        },
+        {
+          "id": "bld_saurian_foundry_industrial_v0",
+          "evidence_sha256": "5ffbe089bc819c513fd185cd2dd8bdcf9928875a1bb33aa8f53ea629a231c4e2",
+          "observations": "The flues and high-contrast orange ladle immediately convey casting, but part of the bowl is buried inside the warehouse facade in both rows. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 85,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Move the ladle and its trunnions forward or create an open recess. The rim currently reaches z=-0.219 while the hall front is z=-0.345, clipping about 0.126 of the bowl and its molten contents into the wall."
+          ]
+        },
+        {
+          "id": "bld_saurian_smelter_ancient_v0",
+          "evidence_sha256": "09c2412b3de3d3f43eda7435ba6d413c3b61ff2ac66d8817d34503a3d8f159b6",
+          "observations": "The squat early furnace, bright arch and pair of metallic ingots give a clear working sequence. The shelter at the side leaves the furnace front visible. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_smelter_classical_v0",
+          "evidence_sha256": "17570becae77944d5303c696c6196766580617c3817f3f8b2b74ee7c7dfc2f19",
+          "observations": "The steep kiln and its fire opening read apart from the side office and ready ingots across Classical, Medieval and Renaissance. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_smelter_future_v0",
+          "evidence_sha256": "0f98666cdf5df78ffcde7a623073a90a1b6a855f07f9350f1f38de920aa97ff6",
+          "observations": "The pale refractory shell and illuminated opening contrast with the glazed service shed. The ingots and cooling jar remain clear of the working mouth. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_smelter_industrial_v0",
+          "evidence_sha256": "dcacdb08e80045ee59bffb767ed3ca90ebc7e9bdd292cc573bfd7abc6e76dbc8",
+          "observations": "The bright fire mouth stays prominent in front of the red-brick chimney in Industrial and Modern. The two ingot molds sit separately by the small shed. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_weaver_ancient_v0",
+          "evidence_sha256": "84b03f6d278aff8a176cb0c06c2b29beddad7d5cd241646e2495e02560428953",
+          "observations": "The early timber loom and dye spools are recognizable full-size. At 64 px the striped panel covers virtually the entire doorway and its upper warp merges with the eaves. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 94,
+            "construction": 90,
+            "charm": 90,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Offset or turn the loom and give the exposed warp a visible contrasting gap. The front-on cloth obscures the doorway and reads as a striped sign at 64 px. Keep a clear sightline and access route to the south entrance."
+          ]
+        },
+        {
+          "id": "bld_saurian_weaver_classical_v0",
+          "evidence_sha256": "fc1e71c539d13f2b5e78a340ef3b478e40b27c0e52f87f808af2644241c9d4ad",
+          "observations": "The cloth remains prominent across the three middle age rows. It reads like an oversized striped sign at 64 px because its upper frame is backed by the hut's entry and roof. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 93,
+            "construction": 90,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Offset or turn the loom and give the exposed warp a visible contrasting gap. The front-on cloth obscures the doorway and reads as a striped sign at 64 px. Keep a clear sightline and access route to the south entrance."
+          ]
+        },
+        {
+          "id": "bld_saurian_weaver_future_v0",
+          "evidence_sha256": "23f28f3d4a5f1513b280b05276d9f28e5e81b2492f24f8e890a9a0b30633f6f3",
+          "observations": "The glass roof and dye tank give the weaving house modern equipment, but the straight-on loom hides the entrance and its threads merge into the dark eave. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 94,
+            "construction": 90,
+            "charm": 90,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Offset or turn the loom and give the exposed warp a visible contrasting gap. The front-on cloth obscures the doorway and reads as a striped sign at 64 px. Keep a clear sightline and access route to the south entrance."
+          ]
+        },
+        {
+          "id": "bld_saurian_weaver_industrial_v0",
+          "evidence_sha256": "350e20990040fa98102b8e1ad348c703cbe90ccfd3927556371e461f62e52058",
+          "observations": "The bobbins, dye tank and brick or concrete hut establish a workshop. At phone size the cloth panel obscures both doorway and the negative space above the warp. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 93,
+            "construction": 90,
+            "charm": 90,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Offset or turn the loom and give the exposed warp a visible contrasting gap. The front-on cloth obscures the doorway and reads as a striped sign at 64 px. Keep a clear sightline and access route to the south entrance."
+          ]
+        },
+        {
+          "id": "bld_saurian_workshop_classical_v0",
+          "evidence_sha256": "2fc25900e4d46cee9d55f71abc70e82ff1740ae96114c0726f42f7d33bdb0da2",
+          "observations": "The flywheel, glazing table and two colors of pots create an identifiable potter's yard. The roof changes among the middle ages while the door remains visible above the work bench. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_workshop_industrial_v0",
+          "evidence_sha256": "2e6eb3ef48acb2b603fa51702d2032910ee59255be23f8e56db5832411f7905d",
+          "observations": "The low steel-roof shed and chimney serve a potter's wheel and loading bench. Glazed and unglazed vessels remain distinct against the working surfaces in both ages. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "sun_critic",
+      "models": [
+        {
+          "id": "bld_saurian_foundry_future_v0",
+          "evidence_sha256": "78247a4e3d2a470e9d580f6b461c5c4ab4e7398238b24086c5bec4155f699a92",
+          "observations": "The complete ladle, its two trunnions and axle now sit in front of the future foundry. The bright molten surface has an uninterrupted rim in both ages. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_foundry_industrial_v0",
+          "evidence_sha256": "d1b96863b0c7135db1713e60ea7bac18c1ff1b538a3739c74aa71b310fb7da73",
+          "observations": "The cast-metal ladle clears the factory facade beneath both the Industrial and Modern chimneys. The working supports remain on the pad and the loading door is visible. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_weaver_ancient_v0",
+          "evidence_sha256": "e904e2c39633896819c626c8d909555378095e7b559080d091d60d3e1ba369e0",
+          "observations": "The narrowed early loom sits to one side of the doorway, with visible ivory warp above the woven stripes. The red spools leave a direct approach in Bronze and Iron. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_weaver_classical_v0",
+          "evidence_sha256": "b6f0e2a789ec528e6da5c73ee1fca533ff9600f6660af8dbeb50b1b9c20b9672",
+          "observations": "The turned loom and exposed threads read clearly against the Classical, Medieval and Renaissance shelters. The main entry remains visible beside the woven panel. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_weaver_future_v0",
+          "evidence_sha256": "097910dbaf43ddef3660696310b199ed4848b126fe7ec24797b4dbd6ce1181b9",
+          "observations": "The glazed storehouse now has a clear entrance and separated dye equipment. The upper warp and striped cloth form a readable loom in both future rows. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_weaver_industrial_v0",
+          "evidence_sha256": "09ad63aafb213b3259d7f2622add96b46b48e644688196e46a417ef32c45ac53",
+          "observations": "Dark and pale steel uprights outline the upper warp in the mechanized weaving yard. The panel no longer hides its door or the open working aisle. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "independent_saurian_round1_2026_11_23",
+      "models": [
+        {
+          "id": "bld_saurian_armory_classical_v0",
+          "evidence_sha256": "01d872b458e5b3e68141099dd450200e9165dd8e36a213eee9562cef49d88589",
+          "observations": "Two broad turquoise shields flank the low armory gate below the tiered sun-sign roof. Each stands on its own pale buttress through LOD1. The wider gate court is visibly different from the earlier single long shed. The serialized meshes have 591, 336, 105 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_armory_future_v0",
+          "evidence_sha256": "9bc0bd0e077c8af2b331199f7dcaf5b7570f49ce92432343d25d90f1391e3896",
+          "observations": "Two large upright, faceted shields above separate pylons bracket a low blue-domed vault. Each shield has a distinct rim and a visible base, preserving a stronger military frontage than the earlier rectangular building. The serialized meshes have 584, 331, 143 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_armory_industrial_v0",
+          "evidence_sha256": "10cbeb4f9675a4e3652b0d111371c21bbb818fde7a2a1d441520abe29f5d797a",
+          "observations": "The cylindrical magazine and barrel-roof main hall produce a low asymmetric armour store with a cyan shield over the door. LOD1 keeps the shield and magazine rims. Their silhouettes replace the old elongated roof. The serialized meshes have 431, 223, 99 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_blacksmith_classical_v0",
+          "evidence_sha256": "be0e319d3538b3772f48d3c485be7c4b66a23bf611740a407290a0ae5be1fd59",
+          "observations": "A freestanding horned anvil faces a kiln with an orange fire opening and a high two-tier guild shelter. At LOD1 the anvil sits apart from the kiln and front wall. Its open work court survives the smaller mesh. The serialized meshes have 441, 251, 125 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_blacksmith_future_v0",
+          "evidence_sha256": "1ab94892d2a24943b1fb04cdab8b0835a3d19ef99cb3b3b9003ed50a638ab135",
+          "observations": "An arched turquoise work frame surrounds the bright hot-metal strip, with a rounded chamber behind it. The opening stays clear and the feed bed remains level at all three LODs. The former tall-flue shop has given way to a low processing line. The serialized meshes have 576, 315, 163 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_blacksmith_industrial_v0",
+          "evidence_sha256": "fbc83dde00a2f4696289cc739013cb1e6f4a5062ef881e84422e305c8b409dbe",
+          "observations": "A heavy square power hammer stands above the pale anvil, separate from the rounded boiler house. Its open throat, base and roofline stay distinct in the reduced views, giving a new machine-led profile to the smithy. The serialized meshes have 601, 337, 145 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_factory_future_v0",
+          "evidence_sha256": "156999e4bd07c96ca0b0df9b17c507f60149d51c6e9eb04f5f7e6a2966d34028",
+          "observations": "Two separate blue vaulted bays enclose an elevated conveyor, with a support and gantry at the far end. Both roof valleys stay visibly open in reverse and a low outfeed remains between the bays across all LODs. The serialized meshes have 724, 342, 158 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_foundry_future_v0",
+          "evidence_sha256": "239e9ed4209a1baa4adb82f01a88e9757beacc0773f2f222482ddfc438f29c9f",
+          "observations": "The tilted orange crucible is hung between two tapered piers over a row of heated moulds. Its circular lip remains visible from the front and its dark vessel from the rear, replacing the older square-front forge. The serialized meshes have 494, 280, 146 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 95,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_smelter_classical_v0",
+          "evidence_sha256": "0059e83f78f224b627406b7fe7fab6ed02f2a7896bd29e08583c6c21dac4ca8b",
+          "observations": "Two masonry bloomery domes of unequal height present separate glowing mouths across an open tapping floor. Even where the smallest mesh drops the foreground vessel, both low chimneys and both furnaces remain legible. The serialized meshes have 772, 376, 160 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_smelter_future_v0",
+          "evidence_sha256": "fc0c7ad8e5fc2d79dca9fccf6a8306b6975287f9da5308230fc1141f87e580de",
+          "observations": "The broad tilted collector ring and glowing crucible form a legible upper and lower pair, replacing the former tall masonry furnace. Both supporting legs meet the floor and the dark reverse of the ring remains clear. The serialized meshes have 595, 347, 186 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_smelter_industrial_v0",
+          "evidence_sha256": "ed8ea1e55247b9f74e1d64f9ae2b7aa5b2818e953194902a664b8b3f8ada88a0",
+          "observations": "The tapering blast furnace, diagonal skip and orange mould slots make a continuous feed-to-tapping arrangement. In profile the skip clearly climbs the furnace. The glowing opening remains on the front in the reduced views. The serialized meshes have 538, 284, 142 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_weaver_classical_v0",
+          "evidence_sha256": "7daad2c72be640a0934089787df7ad340eb1e5396e9150f80dd66c735f988636",
+          "observations": "A timber-framed loom and brightly coloured vertical threads fill the front of an open colonnade. The two-tier shelter sits behind. LOD1 retains the warp opening and turquoise cloth band in all three roof palettes. The serialized meshes have 613, 343, 169 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_weaver_future_v0",
+          "evidence_sha256": "efd9d714077191b1ef9b5674990d00394cd212ee6fcc4bdb980809011978a783",
+          "observations": "A pale arch frames vertical threads and the turquoise cloth feed. Red cylinders stand to either side and stay visible from behind. The arch and roll arrangement survives LOD2 and replaces the old square textile shop. The serialized meshes have 666, 312, 122 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_weaver_industrial_v0",
+          "evidence_sha256": "727f383307ac29326472047297bdc924aac55a53c51a3d3b8486fa1a546a31e2",
+          "observations": "Three sawtooth roof lights point in one direction above two conspicuous turquoise and red cloth rolls. Their rounded ends and common machine bed remain visible into LOD2. The earlier single-gabled loom shed has gone. The serialized meshes have 647, 365, 95 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_workshop_industrial_v0",
+          "evidence_sha256": "65b4f4d87d187ae178d6dda2765b3ac36598e361b33b2b491677d7e9d9f38836",
+          "observations": "A flared furnace with visible fire mouth is paired with a barrel-roof tool hall and a teal bench machine. The fire opening and bench remain separate at phone scale despite the shared ground slab. The serialized meshes have 769, 351, 191 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_saurian_blacksmith_classical_v0",
+          "evidence_sha256": "741f60821af58ac80c0ea8100dcdca56d1cf705612247beebb437e7b3ac633ea",
+          "observations": "The glowing side furnace, freestanding forge bench and roofed smithy remain distinct at phone size. The hall and furnace walls retain their upper and lower connections.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            441,
+            251,
+            125
+          ]
+        },
+        {
+          "id": "bld_saurian_foundry_future_v0",
+          "evidence_sha256": "d1124caeec063405b34cdff09b046eb73b19662236f67992a3cc1e058cb716a7",
+          "observations": "The tilted crucible retains its pouring lip, molten face and two massive supports. The casting table and ingots remain under the spout in the reduced front and side views.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 95,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            494,
+            280,
+            146
+          ]
+        }
+      ]
+    }
+  ]
+}

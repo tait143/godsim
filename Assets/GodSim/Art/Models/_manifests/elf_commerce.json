@@ -1,0 +1,708 @@
+[
+ {
+  "id": "bld_elf_airport_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "Airport",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1020,
+  "lod_triangles": [
+   1020,
+   581,
+   261
+  ],
+  "bounds": [
+   [
+    -1.244299292564392,
+    0.0,
+    -1.1185895204544067
+   ],
+   [
+    1.1318999528884888,
+    1.7516000270843506,
+    1.1968740224838257
+   ]
+  ],
+  "bytes": 185180,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_airport_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_airport_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_airport_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_airport_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_bank_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "Bank",
+  "race": "elf",
+  "ages": [
+   "renaissance",
+   "medieval"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1030,
+  "lod_triangles": [
+   1030,
+   587,
+   301
+  ],
+  "bounds": [
+   [
+    -0.8200640082359314,
+    0.0,
+    -0.7052305936813354
+   ],
+   [
+    0.7839999794960022,
+    1.4201200008392334,
+    0.8412320017814636
+   ]
+  ],
+  "bytes": 188876,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_bank_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_bank_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_bank_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_bank_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_elf_bank_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "Bank",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 827,
+  "lod_triangles": [
+   827,
+   471,
+   223
+  ],
+  "bounds": [
+   [
+    -0.7749840021133423,
+    0.0,
+    -0.6458200216293335
+   ],
+   [
+    0.7726320028305054,
+    1.3832000494003296,
+    0.6434138417243958
+   ]
+  ],
+  "bytes": 141400,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_bank_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_bank_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_bank_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_bank_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_bank_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "Bank",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 666,
+  "lod_triangles": [
+   666,
+   399,
+   209
+  ],
+  "bounds": [
+   [
+    -0.803600013256073,
+    0.0,
+    -0.5914994478225708
+   ],
+   [
+    0.7644000053405762,
+    1.0597599744796753,
+    0.6724861264228821
+   ]
+  ],
+  "bytes": 112168,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_bank_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_bank_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_bank_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_bank_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_guildhall_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "Guildhall",
+  "race": "elf",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1028,
+  "lod_triangles": [
+   1028,
+   585,
+   247
+  ],
+  "bounds": [
+   [
+    -0.7534239888191223,
+    0.0,
+    -0.6044639945030212
+   ],
+   [
+    0.7545999884605408,
+    1.5445040464401245,
+    0.7808640003204346
+   ]
+  ],
+  "bytes": 176316,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_guildhall_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_guildhall_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_guildhall_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_guildhall_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_guildhall_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "Guildhall",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 974,
+  "lod_triangles": [
+   974,
+   555,
+   248
+  ],
+  "bounds": [
+   [
+    -0.7655760049819946,
+    0.0,
+    -0.5914994478225708
+   ],
+   [
+    0.7616045475006104,
+    1.3742560148239136,
+    0.6303359866142273
+   ]
+  ],
+  "bytes": 164708,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_guildhall_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_guildhall_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_guildhall_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_guildhall_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_guildhall_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "Guildhall",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 863,
+  "lod_triangles": [
+   863,
+   493,
+   191
+  ],
+  "bounds": [
+   [
+    -0.8424080014228821,
+    0.0,
+    -0.5914994478225708
+   ],
+   [
+    0.7644000053405762,
+    1.3832000494003296,
+    0.700111985206604
+   ]
+  ],
+  "bytes": 143908,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_guildhall_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_guildhall_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_guildhall_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_guildhall_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_harbor_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "Harbor",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 857,
+  "lod_triangles": [
+   857,
+   488,
+   231
+  ],
+  "bounds": [
+   [
+    -0.7792959809303284,
+    0.0,
+    -0.8569661974906921
+   ],
+   [
+    0.7742000222206116,
+    1.0148320198059082,
+    0.7616559863090515
+   ]
+  ],
+  "bytes": 152376,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_harbor_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_harbor_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_harbor_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_harbor_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_harbor_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_harbor_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "Harbor",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 576,
+  "lod_triangles": [
+   576,
+   328,
+   184
+  ],
+  "bounds": [
+   [
+    -0.823199987411499,
+    0.0,
+    -0.7082744836807251
+   ],
+   [
+    0.7742000222206116,
+    0.8736000061035156,
+    0.6370000243186951
+   ]
+  ],
+  "bytes": 104388,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_harbor_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_harbor_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_harbor_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_harbor_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_harbor_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "Harbor",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 350,
+  "lod_triangles": [
+   350,
+   198,
+   109
+  ],
+  "bounds": [
+   [
+    -0.7644000053405762,
+    0.0,
+    -0.7056000232696533
+   ],
+   [
+    0.6075999736785889,
+    1.158216118812561,
+    0.6511662006378174
+   ]
+  ],
+  "bytes": 62792,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_harbor_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_harbor_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_harbor_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_harbor_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_market_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "Market",
+  "race": "elf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1072,
+  "lod_triangles": [
+   1072,
+   611,
+   295
+  ],
+  "bounds": [
+   [
+    -0.7665437459945679,
+    0.0,
+    -0.6979560256004333
+   ],
+   [
+    0.7640118598937988,
+    0.8836256265640259,
+    0.4918685853481293
+   ]
+  ],
+  "bytes": 196424,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_market_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_market_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_market_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_elf_market_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "Market",
+  "race": "elf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 992,
+  "lod_triangles": [
+   992,
+   565,
+   226
+  ],
+  "bounds": [
+   [
+    -0.7875279784202576,
+    0.0,
+    -0.5914994478225708
+   ],
+   [
+    0.7616045475006104,
+    0.775715172290802,
+    0.6212220191955566
+   ]
+  ],
+  "bytes": 163984,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_market_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_market_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_market_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_market_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_market_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_elf_market_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "Market",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 834,
+  "lod_triangles": [
+   834,
+   474,
+   211
+  ],
+  "bounds": [
+   [
+    -0.7742000222206116,
+    0.0,
+    -0.6617668271064758
+   ],
+   [
+    0.7616045475006104,
+    1.5573999881744385,
+    0.7353919744491577
+   ]
+  ],
+  "bytes": 143568,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_market_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_market_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_market_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_market_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_market_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "Market",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 517,
+  "lod_triangles": [
+   517,
+   286,
+   128
+  ],
+  "bounds": [
+   [
+    -0.8428000211715698,
+    0.0,
+    -0.5914994478225708
+   ],
+   [
+    0.7616045475006104,
+    1.1856000423431396,
+    0.7056000232696533
+   ]
+  ],
+  "bytes": 91288,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_market_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_market_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_market_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_market_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_elf_rail_station_future_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "RailStation",
+  "race": "elf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 632,
+  "lod_triangles": [
+   632,
+   359,
+   203
+  ],
+  "bounds": [
+   [
+    -1.1648279428482056,
+    0.0,
+    -1.1818121671676636
+   ],
+   [
+    0.7350000143051147,
+    1.517799973487854,
+    1.1466000080108643
+   ]
+  ],
+  "bytes": 114076,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_rail_station_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_rail_station_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_rail_station_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_rail_station_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_elf_rail_station_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Elf/Commerce",
+  "building_type": "RailStation",
+  "race": "elf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 878,
+  "lod_triangles": [
+   878,
+   499,
+   231
+  ],
+  "bounds": [
+   [
+    -1.2242159843444824,
+    0.0,
+    -1.205399990081787
+   ],
+   [
+    1.2347999811172485,
+    1.478592038154602,
+    1.1321940422058105
+   ]
+  ],
+  "bytes": 151860,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Elf/Commerce/bld_elf_rail_station_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_rail_station_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_rail_station_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Elf/Commerce/bld_elf_rail_station_industrial_v0__modern.png"
+  }
+ }
+]

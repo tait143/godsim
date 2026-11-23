@@ -1,0 +1,254 @@
+[
+ {
+  "id": "bld_human_house_ancient_bronze_v0",
+  "kind": "house",
+  "category": "Buildings/Human/HousesAncient",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "bronze"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 528,
+  "lod_triangles": [
+   528,
+   311,
+   119
+  ],
+  "bounds": [
+   [
+    -0.4399999976158142,
+    0.0,
+    -0.3815000057220459
+   ],
+   [
+    0.44699999690055847,
+    0.7449999451637268,
+    0.4215383231639862
+   ]
+  ],
+  "bytes": 82596,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesAncient/bld_human_house_ancient_bronze_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesAncient/bld_human_house_ancient_bronze_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Human/HousesAncient/bld_human_house_ancient_bronze_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_house_ancient_bronze_v1",
+  "kind": "house",
+  "category": "Buildings/Human/HousesAncient",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "bronze"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 645,
+  "lod_triangles": [
+   645,
+   347,
+   144
+  ],
+  "bounds": [
+   [
+    -0.42500001192092896,
+    0.0,
+    -0.43052247166633606
+   ],
+   [
+    0.4255000054836273,
+    0.7489998936653137,
+    0.41350001096725464
+   ]
+  ],
+  "bytes": 92820,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesAncient/bld_human_house_ancient_bronze_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesAncient/bld_human_house_ancient_bronze_v1.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Human/HousesAncient/bld_human_house_ancient_bronze_v1.png"
+  }
+ },
+ {
+  "id": "bld_human_house_ancient_iron_v0",
+  "kind": "house",
+  "category": "Buildings/Human/HousesAncient",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 515,
+  "lod_triangles": [
+   515,
+   252,
+   100
+  ],
+  "bounds": [
+   [
+    -0.4560000002384186,
+    0.0,
+    -0.390500009059906
+   ],
+   [
+    0.4554016590118408,
+    0.8881494998931885,
+    0.39103978872299194
+   ]
+  ],
+  "bytes": 72536,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesAncient/bld_human_house_ancient_iron_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesAncient/bld_human_house_ancient_iron_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Human/HousesAncient/bld_human_house_ancient_iron_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_house_ancient_iron_v1",
+  "kind": "house",
+  "category": "Buildings/Human/HousesAncient",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 681,
+  "lod_triangles": [
+   681,
+   318,
+   132
+  ],
+  "bounds": [
+   [
+    -0.4515332281589508,
+    0.0,
+    -0.4625000059604645
+   ],
+   [
+    0.4515332281589508,
+    0.803128182888031,
+    0.41999998688697815
+   ]
+  ],
+  "bytes": 89416,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesAncient/bld_human_house_ancient_iron_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesAncient/bld_human_house_ancient_iron_v1.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Human/HousesAncient/bld_human_house_ancient_iron_v1.png"
+  }
+ },
+ {
+  "id": "bld_human_house_ancient_v0",
+  "kind": "house",
+  "category": "Buildings/Human/HousesAncient",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "dawn"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 558,
+  "lod_triangles": [
+   558,
+   244,
+   90
+  ],
+  "bounds": [
+   [
+    -0.42250001430511475,
+    0.0,
+    -0.42193856835365295
+   ],
+   [
+    0.42250001430511475,
+    0.7819108963012695,
+    0.3835495412349701
+   ]
+  ],
+  "bytes": 73352,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesAncient/bld_human_house_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesAncient/bld_human_house_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Human/HousesAncient/bld_human_house_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_house_ancient_v1",
+  "kind": "house",
+  "category": "Buildings/Human/HousesAncient",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "dawn"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 499,
+  "lod_triangles": [
+   499,
+   226,
+   90
+  ],
+  "bounds": [
+   [
+    -0.4490000009536743,
+    0.0,
+    -0.45100000500679016
+   ],
+   [
+    0.4849947988986969,
+    0.726999819278717,
+    0.421999990940094
+   ]
+  ],
+  "bytes": 73620,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesAncient/bld_human_house_ancient_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesAncient/bld_human_house_ancient_v1.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Human/HousesAncient/bld_human_house_ancient_v1.png"
+  }
+ }
+]

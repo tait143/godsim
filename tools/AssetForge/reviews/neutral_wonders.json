@@ -1,0 +1,164 @@
+{
+  "package": "neutral_wonders",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Independent neutral wonders critic",
+      "models": [
+        {
+          "id": "bld_neutral_ascension_gate_v0",
+          "evidence_sha256": "934d6525193f9624635a8bfcb43ada737358ee5524ac5b7e5e18c9797362ed10",
+          "observations": "The near-circular opening, broad stepped approach and paired buttresses read immediately at phone size. The two lamps establish scale. Ivory and gold frame a continuous cyan inner rim and the ring bears on its pylons. The front faces −Z. A low frontal view shows a solid sill across the route from the landing. The package validator passed at 2,800, 1,696 and 788 triangles, with no exposed coplanar pairs or inward closed shells reported. The ring survives all three LODs.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 95,
+            "construction": 84,
+            "charm": 91,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": [
+            "All LODs: the ceremonial landing is at y=0.24 and the usable aperture starts around y=0.70. The gold tracks lead directly into the lower ring. Raise a central causeway through the opening with a matching rear landing or set the lower ring into the platform. Show a continuous front-to-back walking surface in the exported front and side elevations, with the cyan rim and braces still readable."
+          ]
+        },
+        {
+          "id": "bld_neutral_colossus_v0",
+          "evidence_sha256": "c1e3c1b853f0ead45e2dd4fc8f9d2a7d884ec130e98e5b55d2da0e85290553ee",
+          "observations": "In all seven age previews the raised torch, crown, asymmetrically bent arms and widely planted feet make a clear harbour guardian even in the small inset. The elbow and torch are separated from the head. The second hand rests at the mantle. Front, side and rear views of the exported figure show a continuous shoulder-to-hand gesture and a foot on each pier, with an open −Z channel between them. The bollards give the statue scale and the folded blue-green sash breaks up the bronze torso. The central figure stays consistent while the Industrial brick, dark Medieval metal and cooler Information piers mark the ages. Classical and Renaissance have the closest values. LOD2 simplifies the face and pleats but preserves the stance, torch, sash and channel. The serialized check passed at 2,506, 1,252 and 611 triangles without exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_neutral_grand_bazaar_v0",
+          "evidence_sha256": "31e1794475aaddbac2a9ef9a1a0faafb95c3118537c80410440aa741e0f27e98",
+          "observations": "The turquoise dome, twin barrel vaults and striped stalls identify a market across all six age previews. The carpet, lamps, counters and brass bowls reward a closer look. Roof bands and sandstone separate most clearly in Renaissance. Industrial brick and brown vaults are closest in value. The main court opens to the −Z stair. In the front elevation the counters sit across the two flanking doorways, leaving the centre as the only clearly accessible arcade. Both canopy stripes disappear at LOD2. The validator passed at 2,230, 1,294 and 553 triangles without exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 89,
+            "construction": 87,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "The counters and posts stand in front of the two wing entrances. Give each vaulted wing a clear customer route, for example by turning the arcade doors into the court or setting back the stalls beside the doors. Check the exported front view so that people can plausibly reach all three halls.",
+            "LOD2 reduces each awning to a single dark red panel and drops the wares. Preserve a broad ivory stripe on each red canopy at the far LOD so that retail activity remains legible when the smaller props disappear."
+          ]
+        },
+        {
+          "id": "bld_neutral_great_library_v0",
+          "evidence_sha256": "7fdf0c5fc1d48230adaff71dcffaa5cb63b170518a0292a41eeeba6f0d487f19",
+          "observations": "All seven age previews show a domed public hall with a clerestory, balanced wings, a columned −Z entrance and broad steps. The benches, lamps and scroll chest establish a human scale and the symmetry remains culturally neutral. Industrial brick, Information glazing and the Ascension gold dome are legible material changes. In the phone-size sheet the only explicit reference to books is a narrow gold mark over the door. Even in the large front view it resembles pediment trim. Side and rear exports retain the massing through LOD2, when the entrance motif carries even more of the identification. The validator passed at 2,286, 1,254 and 378 triangles without exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 84,
+            "construction": 92,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "The shallow codex is edge-on from the playing camera, so the library reads as a general civic hall. Enlarge and tilt the two contrasting page faces toward the camera, give them a visible spine against a plain darker backing, or provide equally legible public book stacks. Keep the knowledge cue in all LODs and check it on the small age sheet, especially against the Ascension roof."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Independent neutral wonders critic",
+      "models": [
+        {
+          "id": "bld_neutral_ascension_gate_v0",
+          "evidence_sha256": "7da583d59d1ee99d2ad93d030882293afb2763ffbac10057176dc885b5044abd",
+          "observations": "The −Z steps now rise to a level bridge at y=0.81. The side and rear views confirm a descent on the far side, including at LOD2. The route clears the inner sill and leaves the ring, paired pylons, lamps and crown legible in the 40-, 64- and 80-pixel reductions. The three exported levels contain 2,970, 1,806 and 858 triangles. The surface check flagged the top tread of the outer rear stair at every LOD.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 93,
+            "charm": 91,
+            "colour": 95,
+            "technical": 96
+          },
+          "defects": [
+            "The outer rear stair's top tread overlaps the ivory plinth at y=0.24 around z=1.099. Exposed face pairs are 39/2968 and 39/2969 at LOD0, 30/1804 and 30/1805 at LOD1, and 18/856 and 18/857 at LOD2. Trim or move the tread to meet the plinth edge at z=1.10. Recheck all three serialized surfaces while retaining level walking contact."
+          ]
+        },
+        {
+          "id": "bld_neutral_grand_bazaar_v0",
+          "evidence_sha256": "f745e445bdc6d01fd975e62c2b1fec71a3b8a0a05052d0c2d2f0c74156458fa2",
+          "observations": "The two smaller stalls sit between three distinct arch mouths. The −Z stair leads between the counters into the central court and the two wing doors are clear in the straight-on elevation. Each far-LOD canopy keeps a broad ivory stripe. In all six age previews and their 40-, 64- and 80-pixel reductions the awnings establish the market function, the turquoise dome marks its centre and the barrel vaults flank it. The lamps, counter bowls and runner offer a second level of detail. Industrial has the closest roof-to-wall values, with the pale canopy stripes and brass vault bands retaining their contrast. Exported front, side, rear and far-LOD views preserve the principal supports. All 2,230, 1,294 and 593 triangles passed the model checks without exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_neutral_great_library_v0",
+          "evidence_sha256": "e3e1ffb92105f4d6a261e4f6d3504aa929969caa9cc519dc343c58d4c7565ea0",
+          "observations": "The two splayed ivory pages, dark covers and central spine form an open book above the −Z colonnade. The side elevation shows the lectern seated in the roof, and the front view separates the book from the clerestory. The book is clear at 64 and 80 pixels and retains its paired light and dark shapes at 40 pixels. At the smallest size the dome leads the silhouette, particularly in Ascension. The side galleries and broad stairs still frame the entrance. All seven new age previews preserve that composition as warm Renaissance tiles give way to Industrial brick, cooler glazing and the gold roof. LOD2 retains the open pages and binding on their support. The serialized checks passed at 2,366, 1,334 and 418 triangles without exposed coplanar pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 92,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent neutral wonders critic",
+      "models": [
+        {
+          "id": "bld_neutral_ascension_gate_v0",
+          "evidence_sha256": "38c148b1e69ae1ff110b65be165ad639ebe99ca4834a053bf76127e4cfa370b6",
+          "observations": "The outer rear flight now meets the ivory landing at its z=1.10 edge. The serialized surface check reports no exposed coplanar pairs or inward closed shells at any LOD. Front and rear renders of all three exported meshes show a continuous stair and bridge through the opening, with clear access from both sides. The cyan rim and gold ribs keep the portal distinct at 40, 64 and 80 pixels. Paired lamps mark the main −Z entrance and the two pylons carry the ring. The package validator passed at 2,970, 1,806 and 858 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 93,
+            "charm": 91,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_neutral_ascension_gate_v0",
+          "evidence_sha256": "e05ee7845de6870cac1741fe9485836744f1951148c06d6ca9b03971b5396bd2",
+          "observations": "The cyan-and-gold ring is carried by two broad pylons. The middle mesh keeps the opening, axial staircase, landing and side lamps legible. Checked ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 2970/1692/858. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,794 @@
+{
+  "package": "saurian_towncenters",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "sun_critic",
+      "models": [
+        {
+          "id": "bld_saurian_town_center_ancient_bronze_v0",
+          "evidence_sha256": "ded27700d3fdc72cfe12d504bf6a8752b4c78af11cbb6dfc3025b1a926a1f17e",
+          "observations": "The ochre plaster terraces, broad hide roof and sun pin distinguish Bronze. The little side tower breaks the shoulder line. Jars and paired gold seals flank the axis. The serialized GLB passed the package validator. The threshold and gold inlay contact findings come from the authored dimensions.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "End the upper stair tread at the front edge of the plaza. Its top face currently overlaps the plaza at the same height between z=-0.41955 and -0.370, risking a flickering threshold.",
+            "Extend the six small gold wall notches back into the battered facade. Their backs at z=-0.441 leave a gap to the receding wall throughout their height."
+          ]
+        },
+        {
+          "id": "bld_saurian_town_center_ancient_iron_v0",
+          "evidence_sha256": "1ddac5c93365ad34893e7830f1ffd1fb7c6d1a3801833ba881b092d06cbbd2a0",
+          "observations": "The dark forked ridge frames the gold crest against the sky. The blocky stone skirt stays wide at 64 px, with a bright stair cut and a shaded entry. The serialized GLB passed the package validator. The threshold and gold inlay contact findings come from the authored dimensions.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 92,
+            "charm": 92,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "End the upper stair tread at the front edge of the plaza. Its top face currently overlaps the plaza at the same height between z=-0.41955 and -0.370, risking a flickering threshold.",
+            "Extend the six small gold wall notches back into the battered facade. Their backs at z=-0.441 leave a gap to the receding wall throughout their height."
+          ]
+        },
+        {
+          "id": "bld_saurian_town_center_ancient_v0",
+          "evidence_sha256": "b617588eb5e086aae239aad5bd75f5c160c141cb8c8c3181a9ab4bc2ec456201",
+          "observations": "The reed skirt and timber piles make Dawn legible. Two feet are visible below the deck, the porch posts meet the fascia and the gold ridge marker survives reduction. The serialized GLB passed the package validator. The threshold and gold inlay contact findings come from the authored dimensions.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 92,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "End the upper stair tread at the front edge of the plaza. Its top face currently overlaps the plaza at the same height between z=-0.41955 and -0.370, risking a flickering threshold.",
+            "Extend the six small gold wall notches back into the battered facade. Their backs at z=-0.441 leave a gap to the receding wall throughout their height."
+          ]
+        },
+        {
+          "id": "bld_saurian_town_center_classical_medieval_v0",
+          "evidence_sha256": "f9f7f904824bdb929132e30deeaa69d4f586e065d85876c07b2c4dec02a2728e",
+          "observations": "The tall pointed slate cap, pale terrace and outboard turret give Medieval a distinct skyline. The turquoise jar lips give the warm dark timber small cooler accents. The serialized GLB passed the package validator. The threshold and gold inlay contact findings come from the authored dimensions.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 92,
+            "charm": 92,
+            "colour": 95,
+            "technical": 96
+          },
+          "defects": [
+            "End the upper stair tread at the front edge of the plaza. Its top face currently overlaps the plaza at the same height between z=-0.41955 and -0.370, risking a flickering threshold.",
+            "Extend the six small gold wall notches back into the battered facade. Their backs at z=-0.441 leave a gap to the receding wall throughout their height."
+          ]
+        },
+        {
+          "id": "bld_saurian_town_center_classical_renaissance_v0",
+          "evidence_sha256": "090ef1a9634a2705c61b63a4e05d2f155d12d2e1b803dea1af4f0a55a28663e0",
+          "observations": "The warm red dome and pale plaster porch have good contrast. The red dome, tiny single finial and square cap are shared with Classical, so the 64 px silhouette chiefly differs in dome height. The serialized GLB passed the package validator. The threshold and gold inlay contact findings come from the authored dimensions.",
+          "scores": {
+            "silhouette": 90,
+            "identity": 86,
+            "construction": 92,
+            "charm": 91,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "End the upper stair tread at the front edge of the plaza. Its top face currently overlaps the plaza at the same height between z=-0.41955 and -0.370, risking a flickering threshold.",
+            "Extend the six small gold wall notches back into the battered facade. Their backs at z=-0.441 leave a gap to the receding wall throughout their height.",
+            "Give Renaissance a distinct dome profile at 64 px. A substantial lantern or tall faceted drum would separate its roof from the Classical cupola."
+          ]
+        },
+        {
+          "id": "bld_saurian_town_center_classical_v0",
+          "evidence_sha256": "2bb5e26b017505cd4cdc23d3d323ca915294ad36d75f0e1fbf7f4e6575af9d52",
+          "observations": "The squat terracotta cupola and white colonnade read as a marble Classical pavilion. Its sun finial remains visible at thumbnail size, and the straight approach has a sheltered destination. The serialized GLB passed the package validator. The threshold and gold inlay contact findings come from the authored dimensions.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 92,
+            "charm": 92,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "End the upper stair tread at the front edge of the plaza. Its top face currently overlaps the plaza at the same height between z=-0.41955 and -0.370, risking a flickering threshold.",
+            "Extend the six small gold wall notches back into the battered facade. Their backs at z=-0.441 leave a gap to the receding wall throughout their height."
+          ]
+        },
+        {
+          "id": "bld_saurian_town_center_future_ascension_v0",
+          "evidence_sha256": "4ccefe74437220928d0d4045508f3f08d6d3e26de33b330249c5d01aa86667f1",
+          "observations": "The supported pierced halo reads through the entire contact sheet. A bright central bead, twin tapered feet and turquoise terrace make a coherent luminous crown. The serialized GLB passed the package validator. The threshold and gold inlay contact findings come from the authored dimensions.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 97,
+            "construction": 92,
+            "charm": 94,
+            "colour": 96,
+            "technical": 96
+          },
+          "defects": [
+            "End the upper stair tread at the front edge of the plaza. Its top face currently overlaps the plaza at the same height between z=-0.41955 and -0.370, risking a flickering threshold.",
+            "Extend the six small gold wall notches back into the battered facade. Their backs at z=-0.441 leave a gap to the receding wall throughout their height."
+          ]
+        },
+        {
+          "id": "bld_saurian_town_center_future_v0",
+          "evidence_sha256": "7354abf580991d02b3ee65c499197950bd56d6169a4f2abfca11b3f401e09ddd",
+          "observations": "The steep glazed clerestory, white crown panel and slim mast separate Information from Modern. Its green-blue base band and central sun seal reflect each other. The serialized GLB passed the package validator. The threshold and gold inlay contact findings come from the authored dimensions.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 92,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "End the upper stair tread at the front edge of the plaza. Its top face currently overlaps the plaza at the same height between z=-0.41955 and -0.370, risking a flickering threshold.",
+            "Extend the six small gold wall notches back into the battered facade. Their backs at z=-0.441 leave a gap to the receding wall throughout their height."
+          ]
+        },
+        {
+          "id": "bld_saurian_town_center_industrial_modern_v0",
+          "evidence_sha256": "797418698088c9a5848fdda970b548ed250f74740d4c8201ff17e1ce6247ea07",
+          "observations": "The low blue window band, broad steel canopy and corner pavilion contrast with the taller glass Information tower. The seal remains prominent over the edge of the roof. The serialized GLB passed the package validator. The threshold and gold inlay contact findings come from the authored dimensions.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 92,
+            "charm": 92,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "End the upper stair tread at the front edge of the plaza. Its top face currently overlaps the plaza at the same height between z=-0.41955 and -0.370, risking a flickering threshold.",
+            "Extend the six small gold wall notches back into the battered facade. Their backs at z=-0.441 leave a gap to the receding wall throughout their height."
+          ]
+        },
+        {
+          "id": "bld_saurian_town_center_industrial_v0",
+          "evidence_sha256": "99afeb83257d0ae08aa84ce6b193efde5ee781ef5bdeea48544bb6044552aa6a",
+          "observations": "Two brick flues rise through a metal canopy with the council sun between them. The broad blue-black roof breaks up the brick podium, and steps and jars remain readable. The serialized GLB passed the package validator. The threshold and gold inlay contact findings come from the authored dimensions.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 92,
+            "charm": 92,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "End the upper stair tread at the front edge of the plaza. Its top face currently overlaps the plaza at the same height between z=-0.41955 and -0.370, risking a flickering threshold.",
+            "Extend the six small gold wall notches back into the battered facade. Their backs at z=-0.441 leave a gap to the receding wall throughout their height."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "sun_critic",
+      "models": [
+        {
+          "id": "bld_saurian_town_center_ancient_bronze_v0",
+          "evidence_sha256": "c52349f237a0bc9ea88f89cd239bb76836285920f6ac8cd5a518b012c0be60f2",
+          "observations": "Bronze retains a broad hide cap against the sun platform. The paired jar seals and stepped approach read at 64 px. The serialized model passes validation. The upper tread ends at z=-0.41955 and the gold notches now extend into the masonry.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_town_center_ancient_iron_v0",
+          "evidence_sha256": "a95840c38c86fc4450396c9e302e52b700c023948aec4e38c4a7212b39244d10",
+          "observations": "Iron's forked ridge, charcoal timbers and stone body frame the central sun crest. The stair stays distinct against the podium. The serialized model passes validation. The upper tread ends at z=-0.41955 and the gold notches now extend into the masonry.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_town_center_ancient_v0",
+          "evidence_sha256": "a97eb3ac542a9b4f35316699654a309d315d4ced86a65379b6851bef11ee26e2",
+          "observations": "Dawn's reed roof and stilt deck remain clear. The realigned facade studs sit beside a continuous timber approach. The serialized model passes validation. The upper tread ends at z=-0.41955 and the gold notches now extend into the masonry.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_town_center_classical_medieval_v0",
+          "evidence_sha256": "7c005e9bb72af0721b487dad04cda3e07e513ea6a6cd08efa9ca4045e8701c95",
+          "observations": "Medieval's pointed slate lid and shoulder turret remain legible above the white landing. The finished stair has a clean top edge. The serialized model passes validation. The upper tread ends at z=-0.41955 and the gold notches now extend into the masonry.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_town_center_classical_renaissance_v0",
+          "evidence_sha256": "2267121afc911d301b93f3ad5f3c19019b1bc1ac93045ac4fca9bc0839e8fc10",
+          "observations": "The new gold lantern over a turquoise octagonal drum gives the Renaissance dome a second tier. Its skyline now separates clearly from Classical at 64 px. The serialized model passes validation. The upper tread ends at z=-0.41955 and the gold notches now extend into the masonry.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_town_center_classical_v0",
+          "evidence_sha256": "c1b6c915aa314673deb5417351e8f067eaa2b1ef824ad8e57ebb018510d3bd75",
+          "observations": "Classical keeps its low, single terracotta cupola, marble shoulders and colonnade. The short profile distinguishes it from the revised Renaissance crown. The serialized model passes validation. The upper tread ends at z=-0.41955 and the gold notches now extend into the masonry.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_town_center_future_ascension_v0",
+          "evidence_sha256": "a0f10f0456936f9dcd2ec06575756cd665b074267810a8cc13e37f08b7ac1e5c",
+          "observations": "The gold halo, twin piers and interior light are distinct at 64 px. The inlaid terrace and axial stair frame the entrance beneath the ring. The serialized model passes validation. The upper tread ends at z=-0.41955 and the gold notches now extend into the masonry.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 97,
+            "construction": 94,
+            "charm": 94,
+            "colour": 96,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_town_center_future_v0",
+          "evidence_sha256": "b966c4c78741e0a6fe5af5c0a7f49140536048f829568c27d0dfbf4c95217b3b",
+          "observations": "Information's high glass drum, mast and sun pin remain distinct against the stepped podium. The stair terminates immediately before the porch. The serialized model passes validation. The upper tread ends at z=-0.41955 and the gold notches now extend into the masonry.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_town_center_industrial_modern_v0",
+          "evidence_sha256": "99a12621f4a7ea2fcac4c3efab693aee016b53067e4ae31a7e16e745f83920d8",
+          "observations": "Modern's low blue clerestory and side pavilion leave the council seal clear in profile. The bright stair and blue base band separate the pedestal levels. The serialized model passes validation. The upper tread ends at z=-0.41955 and the gold notches now extend into the masonry.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_town_center_industrial_v0",
+          "evidence_sha256": "009e1b714d5055844936adf99a2bde06aa25712f3511f7b35b7d66076641fe38",
+          "observations": "Industrial's unevenly tall brick stacks bracket a gold crest and dark roof. The gold face marks and stair remain attached to the red masonry. The serialized model passes validation. The upper tread ends at z=-0.41955 and the gold notches now extend into the masonry.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_town_center_classical_renaissance_v0",
+          "evidence_sha256": "18bb28854ce992398840ccc3e058f4a59e7d8fc1bb9c487ed22cc30777fa76d5",
+          "observations": "A separate tall tower adjoins a hipped civic hall and deep pillared portico. The sharp span between portico columns and asymmetrical height remain visible in both grey views among all ten Town Center ages, including the neighboring Medieval and Industrial versions. Painted previews cover renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 1247/653/305 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_saurian_town_center_ancient_bronze_v0",
+          "evidence_sha256": "1250091b0c7c227ca5434e6c507e6d66bb4466bc6bdd72872bcb2d980546139e",
+          "observations": "The long covered back gallery and side terraces frame a sunken public forecourt. A freestanding disk marks its center. The shape and circulation of the court persist in all LODs and from the reverse view.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1043,
+            386,
+            185
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.614,
+            "primary_picture_pair": [
+              "bld_saurian_town_center_ancient_bronze_v0",
+              "bld_saurian_town_center_classical_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              3729
+            ],
+            "max_shared_direction": [
+              "bld_saurian_town_center_ancient_v0",
+              "bld_saurian_town_center_ancient_bronze_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_towncenters-01.png": "971efd72105095c2770bbd5cf99891fe8d18640c6147b633bd3b47746822b128",
+            "tools/AssetForge/reviews/rc6/families/saurian-TownCenter-v0.png": "bbe93dac726a8d8e16cecdb66444b7e79abcb4e5cdd7f9a5fad4af94d0551db9"
+          },
+          "glb_sha256": "a5bbc52944124cde5d3b9194b4818c2473ed363f81c7861301c1ba959be97ceb",
+          "age_preview_sha256": {
+            "bronze": "1111bdee3fde0eec4aacd8c5bdaa81156525de2168443b64bb69493ada1b3f68"
+          }
+        },
+        {
+          "id": "bld_saurian_town_center_ancient_iron_v0",
+          "evidence_sha256": "e06a5e56d3c0abad3a422504346548ee439b5e7c0797b76a7b944d8f18e82e48",
+          "observations": "At the native scale the single green gable, raised timber deck and straight stair repeat the Saurian Iron v0 house. The wider steps, raised disks, roof pegs and rail differentiate details while the outline still signals a residence.",
+          "scores": {
+            "silhouette": 84,
+            "identity": 82,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Rework the primary civic volumes and gathering space. The Town Center needs a plan recognizably different from the Iron stilt house in both grey corners and all three LODs."
+          ],
+          "lod_triangles": [
+            1089,
+            494,
+            233
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.609,
+            "primary_picture_pair": [
+              "bld_saurian_town_center_ancient_bronze_v0",
+              "bld_saurian_town_center_ancient_iron_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              3729
+            ],
+            "max_shared_direction": [
+              "bld_saurian_town_center_ancient_v0",
+              "bld_saurian_town_center_ancient_iron_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_towncenters-01.png": "971efd72105095c2770bbd5cf99891fe8d18640c6147b633bd3b47746822b128",
+            "tools/AssetForge/reviews/rc6/families/saurian-TownCenter-v0.png": "bbe93dac726a8d8e16cecdb66444b7e79abcb4e5cdd7f9a5fad4af94d0551db9"
+          },
+          "glb_sha256": "e489de3a34a6183045d7cc819b46f7cb2d7fcf3c61972165b5ea7202eca6e8dd",
+          "age_preview_sha256": {
+            "iron": "971df12451581e3c5e740307d30d4465d10b6ef6c6ce9148d3ff6944693806fd"
+          }
+        },
+        {
+          "id": "bld_saurian_town_center_classical_medieval_v0",
+          "evidence_sha256": "4709cc4b87fc2e44b3850a18da761e9c8e741bfb54022e76813bc598d9900727",
+          "observations": "The stone-footed tower joins one green-gabled entry shed. Beside the Saurian Medieval v0 house the same tall block and short vestibule dominate both corners. A different cap and wider door give the civic building too little independent identity.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 84,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Medieval Town Center a distinct public plan and roof break. A larger domestic porch on the side of the same tower does not distinguish its function at 64 px."
+          ],
+          "lod_triangles": [
+            929,
+            333,
+            95
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.613,
+            "primary_picture_pair": [
+              "bld_saurian_town_center_classical_medieval_v0",
+              "bld_saurian_town_center_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              3729
+            ],
+            "max_shared_direction": [
+              "bld_saurian_town_center_ancient_v0",
+              "bld_saurian_town_center_classical_medieval_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_towncenters-01.png": "971efd72105095c2770bbd5cf99891fe8d18640c6147b633bd3b47746822b128",
+            "tools/AssetForge/reviews/rc6/families/saurian-TownCenter-v0.png": "bbe93dac726a8d8e16cecdb66444b7e79abcb4e5cdd7f9a5fad4af94d0551db9"
+          },
+          "glb_sha256": "5478417a0a884d76c93c34a4a24bd9c36cc0d9c2e6410533772f3948fe36c32d",
+          "age_preview_sha256": {
+            "medieval": "2a2d2ee36f93c9c360d339d54dfda1f1141f418906b5c1242dd1c0036901538d"
+          }
+        },
+        {
+          "id": "bld_saurian_town_center_future_v0",
+          "evidence_sha256": "984d73294c16ab640f25377c7e783d510a5c4b2be792c637b4d08f0fd82783ce",
+          "observations": "A tall blue crystal blade stands behind a stepped cylindrical civic chamber. The sloping blade rises clear of the pale disks at every LOD and reads from behind. The Modern cross-winged offices are substantially lower and broader.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            779,
+            398,
+            143
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.536,
+            "primary_picture_pair": [
+              "bld_saurian_town_center_ancient_v0",
+              "bld_saurian_town_center_future_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              3729
+            ],
+            "max_shared_direction": [
+              "bld_saurian_town_center_ancient_v0",
+              "bld_saurian_town_center_future_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_towncenters-01.png": "971efd72105095c2770bbd5cf99891fe8d18640c6147b633bd3b47746822b128",
+            "tools/AssetForge/reviews/rc6/families/saurian-TownCenter-v0.png": "bbe93dac726a8d8e16cecdb66444b7e79abcb4e5cdd7f9a5fad4af94d0551db9"
+          },
+          "glb_sha256": "b74a636d722442c6666d97b4b5653d3016076e95ec4c6f82b30a2de542ff2bf1",
+          "age_preview_sha256": {
+            "information": "1bb72d03921e36106390773247ce6d4d8145765626459a7589c0348b9f8cdeaa"
+          }
+        },
+        {
+          "id": "bld_saurian_town_center_industrial_modern_v0",
+          "evidence_sha256": "04e647fafb52e274b2d92bc94c9e6d8c072ea66a0f04282ee63d784529ea9a67",
+          "observations": "A circular blue-banded hub spans three pale radial wings around the entrance stair. The open spaces between wings mark the plan from above and remain at the final LOD. The bronze-and-blue civic crest gives the front a focal point up close.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1115,
+            399,
+            203
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.558,
+            "primary_picture_pair": [
+              "bld_saurian_town_center_ancient_bronze_v0",
+              "bld_saurian_town_center_industrial_modern_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              3729
+            ],
+            "max_shared_direction": [
+              "bld_saurian_town_center_ancient_v0",
+              "bld_saurian_town_center_industrial_modern_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_towncenters-02.png": "37039276c97d492671b7b35e26b0ea025fd1b1323420124bae2e882aa1ae518c",
+            "tools/AssetForge/reviews/rc6/families/saurian-TownCenter-v0.png": "bbe93dac726a8d8e16cecdb66444b7e79abcb4e5cdd7f9a5fad4af94d0551db9"
+          },
+          "glb_sha256": "ccc49c1dabda0fc99616151114a368fbcf6c3b51e4cf60d409107807d63c465f",
+          "age_preview_sha256": {
+            "modern": "c047bc7f3599962ff348f688524f9f1b9c49947ef5b2d5f399e44c7057194879"
+          }
+        },
+        {
+          "id": "bld_saurian_town_center_industrial_v0",
+          "evidence_sha256": "62d1cc9465669b60e2c87146e5a5d89ad3babf1785570172e31bceeb9ccf88fa",
+          "observations": "A brick clock tower stands beside the curved hall roof. The long dark green porch rests on a row of supports facing its civic steps. The tower, vaulted roof and columned approach survive both reductions.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            861,
+            311,
+            199
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.613,
+            "primary_picture_pair": [
+              "bld_saurian_town_center_classical_medieval_v0",
+              "bld_saurian_town_center_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              3729
+            ],
+            "max_shared_direction": [
+              "bld_saurian_town_center_ancient_v0",
+              "bld_saurian_town_center_industrial_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_towncenters-02.png": "37039276c97d492671b7b35e26b0ea025fd1b1323420124bae2e882aa1ae518c",
+            "tools/AssetForge/reviews/rc6/families/saurian-TownCenter-v0.png": "bbe93dac726a8d8e16cecdb66444b7e79abcb4e5cdd7f9a5fad4af94d0551db9"
+          },
+          "glb_sha256": "b5ea20ee05074535572772c1dc95ba58ddf1366b391a54c579c6e702a927492b",
+          "age_preview_sha256": {
+            "industrial": "1752c6f6531ab1701acbfa3362e9af416b5ce2be8478c3633c477b0b292ca6ae"
+          }
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "RC6 independent housing and Saurian civic critic, corrected candidate review",
+      "inspection": "Compared the published painted age previews and family sheets against the original holds and named lookalikes. Rendered both unpainted 64 px views independently from each of the three actual LOD meshes. Inspected the native family cameras and the larger multi-camera LOD sheet. Recomputed same-family picture likeness and directional corner overlap, checked the fragment against the GLB and verified all three serialized levels for exposed coplanar faces and inverted shells.",
+      "models": [
+        {
+          "id": "bld_saurian_town_center_ancient_iron_v0",
+          "evidence_sha256": "93cc01a006fecd43a4f8fa326777b232bee8548c0e9ce19b3922c1c7ff2db6b7",
+          "previous_evidence_sha256": "e06a5e56d3c0abad3a422504346548ee439b5e7c0797b76a7b944d8f18e82e48",
+          "observations": "Concentric seating tiers gather around a dais inside a circular wall with a broad public entrance. At the rear, a two-post standard rises above the rim. The complete seating bowl survives all LODs and has an immediately different footprint from the Iron stilt house.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1082,
+            649,
+            326
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.597,
+            "primary_picture_pair": [
+              "bld_saurian_town_center_ancient_iron_v0",
+              "bld_saurian_town_center_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              3729
+            ],
+            "max_shared_direction": [
+              "bld_saurian_town_center_ancient_v0",
+              "bld_saurian_town_center_ancient_iron_v0"
+            ],
+            "specific_comparisons": {
+              "bld_saurian_house_ancient_iron_v0": {
+                "primary_picture_likeness": 0.525,
+                "evidence_sha256": "707571ac51c8f8c7c29d233a21212c4994ed802690101f0f5ec71439fde8161c"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_towncenters-01.png": "fa0ad7fa36e179cad9310098cc3f90ac52a8959bbf0b0aabf795719ebd2b3213",
+            "tools/AssetForge/reviews/rc6/families/saurian-TownCenter-v0.png": "67c7055b9ac08628995d5cb65f5e81a80863fa0284a9a25752ea9cce548775b7",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "c840ed6f1c67a5dff8eb3937d98527581cf08eae38470f11cde72c3910eace6d"
+          },
+          "glb_sha256": "da4b9c77e5e1e68ab198556df641245f932a49f2677dd749ce0a281ba9eaa4f1",
+          "age_preview_sha256": {
+            "iron": "0773ccb925e37f49ce2cc32ff50070eaf67c097c01b38b476f43d3270952e917"
+          }
+        },
+        {
+          "id": "bld_saurian_town_center_classical_medieval_v0",
+          "evidence_sha256": "c4a7fe367282eb88699dc6027f69646684798c3af8822fd9e2e9587d80a7fbf9",
+          "previous_evidence_sha256": "4709cc4b87fc2e44b3850a18da761e9c8e741bfb54022e76813bc598d9900727",
+          "observations": "A broad open-sided civic pavilion sits on a raised stone terrace reached by a lateral stair. The stair, columned upper pavilion and paired rooftop caps retain the same proportions through reduction. The Medieval house instead places a small side entrance beside its tall, closed residential tower.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1048,
+            380,
+            238
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.611,
+            "primary_picture_pair": [
+              "bld_saurian_town_center_ancient_v0",
+              "bld_saurian_town_center_classical_medieval_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              3729
+            ],
+            "max_shared_direction": [
+              "bld_saurian_town_center_ancient_v0",
+              "bld_saurian_town_center_classical_medieval_v0"
+            ],
+            "specific_comparisons": {
+              "bld_saurian_house_classical_medieval_v0": {
+                "primary_picture_likeness": 0.559,
+                "evidence_sha256": "c4ebbf70a0f8a55653b72c94a2d96dca74b16130aa70236d5091dc8c937ace14"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_towncenters-01.png": "fa0ad7fa36e179cad9310098cc3f90ac52a8959bbf0b0aabf795719ebd2b3213",
+            "tools/AssetForge/reviews/rc6/families/saurian-TownCenter-v0.png": "67c7055b9ac08628995d5cb65f5e81a80863fa0284a9a25752ea9cce548775b7",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "c840ed6f1c67a5dff8eb3937d98527581cf08eae38470f11cde72c3910eace6d"
+          },
+          "glb_sha256": "bb124e4da027f4868d2b19bd50b7e2b4f9aa6397d5f45165a2f68ec720feae7f",
+          "age_preview_sha256": {
+            "medieval": "cfa5498aad9b0bf892c4293dd37aa40bd18ea4d14821fd74796270d128038e33"
+          }
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "RC6 independent housing and Saurian civic critic, final gallery review",
+      "inspection": "Inspected final painted family and package PNGs and each published age preview. Independently rendered both unpainted 64 px camera angles at all three LODs. Verified the live GLB, recomputed the two comparison metrics and checked the three serialized meshes for exposed coplanar faces and inverted shells. Compared the third Iron candidate with the Classical Arena, Iron residence, Bronze and Medieval Town Centers and Classical Forum. Reopened the archived second submission for comparison.",
+      "models": [
+        {
+          "id": "bld_saurian_town_center_ancient_iron_v0",
+          "evidence_sha256": "6d442f7be038b5f0cadec3c2ec566e98f1b3a863ea7d164b6a4322e4cf1e1752",
+          "previous_evidence_sha256": "93cc01a006fecd43a4f8fa326777b232bee8548c0e9ce19b3922c1c7ff2db6b7",
+          "observations": "A raised longitudinal council hall stands behind an independent gateway, paired terraces and a broad approach stair. Its open-sided nave has a raised ridge cap and a rectilinear floor plan at all three LODs. Both grey corners distinguish it from the Classical Arena\u2019s concentric stands and the Iron residence\u2019s exposed piles. The side terraces and gated public apron also separate it from the later single-pavilion Medieval center.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1908,
+            884,
+            590
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.642,
+            "primary_picture_pair": [
+              "bld_saurian_town_center_ancient_iron_v0",
+              "bld_saurian_town_center_classical_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              3729
+            ],
+            "max_shared_direction": [
+              "bld_saurian_town_center_ancient_v0",
+              "bld_saurian_town_center_ancient_iron_v0"
+            ],
+            "specific_comparisons": {
+              "bld_saurian_arena_classical_v0": {
+                "primary_picture_likeness": 0.56,
+                "evidence_sha256": "d475f2e73aee6d9beaa70e4b7b171751fbd4ed2de2bb1f60ffa06eda213bdcc7"
+              },
+              "bld_saurian_house_ancient_iron_v0": {
+                "primary_picture_likeness": 0.587,
+                "evidence_sha256": "707571ac51c8f8c7c29d233a21212c4994ed802690101f0f5ec71439fde8161c"
+              },
+              "bld_saurian_town_center_ancient_bronze_v0": {
+                "primary_picture_likeness": 0.64,
+                "evidence_sha256": "1250091b0c7c227ca5434e6c507e6d66bb4466bc6bdd72872bcb2d980546139e"
+              },
+              "bld_saurian_town_center_classical_medieval_v0": {
+                "primary_picture_likeness": 0.609,
+                "evidence_sha256": "c4a7fe367282eb88699dc6027f69646684798c3af8822fd9e2e9587d80a7fbf9"
+              },
+              "bld_saurian_forum_classical_v0": {
+                "primary_picture_likeness": 0.616,
+                "evidence_sha256": "c2ef4406d66440be626a03771b00fa99377e3f92fa13caa5c6b26e6eaec10e1c"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_towncenters-01.png": "9fc133bd56b5f2946cda3f61fd19dca7aff14fdcbb638c60d4f3bab144f4bead",
+            "tools/AssetForge/reviews/rc6/families/saurian-TownCenter-v0.png": "26df29a377a079b05a82d77560c80e74cdc9f08a6c9c8895c58cf23d5d0cd045",
+            "tools/AssetForge/reviews/rc6/families/saurian-Forum-v0.png": "cf0299d86dc3f89b2c9202399b480ff4208b7fee2e608546e35510a3231c4799",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "c840ed6f1c67a5dff8eb3937d98527581cf08eae38470f11cde72c3910eace6d",
+            "tools/AssetForge/reviews/rc6/holds/director-round-2/bld_saurian_town_center_ancient_iron_v0.png": "0773ccb925e37f49ce2cc32ff50070eaf67c097c01b38b476f43d3270952e917",
+            "tools/AssetForge/previews/Buildings/Saurian/CultureCivic/bld_saurian_arena_classical_v0.png": "7dc81c55f834485e80e9c0b9b4801ea79b4b15178ae17ee6b005833b63cb8691"
+          },
+          "glb_sha256": "748880bbc477b187df9809de525711836a4eb96e418c7dcea4b2a750f326bffe",
+          "age_preview_sha256": {
+            "iron": "537179b349768308469f079981f6043d2a2faee0eb816a2055a9afa1f9cc7557"
+          }
+        }
+      ]
+    }
+  ]
+}

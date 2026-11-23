@@ -1,0 +1,253 @@
+{
+  "package": "saurian_housesclassical",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "classical_critic",
+      "models": [
+        {
+          "id": "bld_saurian_house_classical_medieval_v0",
+          "evidence_sha256": "9ee093ebadbb846e40607a39c97aceb373099c71b199ce3ad4d2509e1a3bfeec",
+          "observations": "The slate hip, raised dark cap and stone chimney remain legible at 40 px. The porch mat, jar and solar roof inlay stand out against the stone and timber. From the low front view the diagonal on the upper panel intersects the lit window. The GLB validates at 492/274/134 triangles and retains the flue and stepped roof across the LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 88,
+            "charm": 92,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "The diagonal brace cuts across the upper-right corner of the lit front window and through its frame. Move or narrow the window, or shift the brace so its entire width clears the frame."
+          ]
+        },
+        {
+          "id": "bld_saurian_house_classical_medieval_v1",
+          "evidence_sha256": "ac0dc0fd1d3c481b3294743eec365960aab87e7fa15a9f9b35553da07c9d7033",
+          "observations": "The lower side wing shows two warm openings beneath its own slate hip. The clear diagonal bay on the main facade, roof diamond, doorway seal, doormat hanging and porch crock give the stilt house both age and character. The chimney and two roof masses remain distinct at 40 px and in the two lower LODs. The serialized chain validates at 530/312/156 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_house_classical_renaissance_v0",
+          "evidence_sha256": "74c9d9890da8e58e4694f9d1ddcdf9f643440124957985f89fe055ac22bedbcd",
+          "observations": "A single melon vault with a gold crown changes the stepped roofline. A turquoise curb separates it from the clay apron above warm plaster. The household lamp, wall textile and crock frame the entry without crowding the stair. The low front and rear views show floor-to-pier contacts. The three LODs validate at 534/272/130 triangles and preserve the vault outline.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_house_classical_renaissance_v1",
+          "evidence_sha256": "df7239253690e4d8525990b660e28796ebd7f90d7e40c35fb403137ddd792b1d",
+          "observations": "Two separately capped, unequal domes give the side room a clear profile even at 40 px. The larger gold tip and turquoise curb echo the smaller entry tile. Warm bay windows, the stair-side crock and the outer lamp keep the raised terrace domestic. The 660/334/182 triangle chain validates and retains the two distinct roof volumes.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_house_classical_v0",
+          "evidence_sha256": "15f0340aa48b896c67eb04b09a1a8212e348b86ff54f65f76efd7330e6f6dfc3",
+          "observations": "Two legible clay hips sit over an ivory clerestory and a colonnaded porch. The stepped pediment, solar roof diamond, earthen jar and lamp carry the sun motif down to the doorway. At grazing angle both columns meet the projecting roof and the stair reaches the landing. The three meshes validate at 586/314/142 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_house_classical_v1",
+          "evidence_sha256": "5e0a715796c63c297f9cb7ab66b5ed79bd66e44fc64ecca1ef707d61d9e9641a",
+          "observations": "A lower windowed reading room extends beside the two-tier, visibly column-supported house. Turquoise and gold punctuate the terracotta planes. The small-footprint lamp and jar leave the stair clear. The secondary hip remains legible at 40 px and at the lowest LOD. The 624/352/168 triangle chain validates.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 95,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "classical_critic",
+      "models": [
+        {
+          "id": "bld_saurian_house_classical_medieval_v0",
+          "evidence_sha256": "b6893d7ddd379c3ca84207db0ca22a7edcd3643c6f51eeee90431becdd9d9b78",
+          "observations": "The narrower upper front window has clear plaster between its frame and the diagonal timber throughout the low front view. The mullion, amber pane and sill are intact. The 40 px and 80 px previews retain the slate silhouette, sun inlay, jar and porch textile. The replacement GLB validates at 492/274/134 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_saurian_house_classical_medieval_v0",
+          "evidence_sha256": "c4ebbf70a0f8a55653b72c94a2d96dca74b16130aa70236d5091dc8c937ace14",
+          "observations": "The narrow stone-footed tower and separate green-capped entrance produce two distinct roof heights. Window boxes, a small fabric marker and a single domestic stair set its scale. The finial-free pitched roof separates this dwelling from the broad Classical villa.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            428,
+            162,
+            86
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.581,
+            "primary_picture_pair": [
+              "bld_saurian_house_classical_medieval_v0",
+              "bld_saurian_house_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1548
+            ],
+            "max_shared_direction": [
+              "bld_saurian_house_ancient_v0",
+              "bld_saurian_house_classical_medieval_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_housesclassical-01.png": "41fb73bfb56f6e6602575abb2350d41b22ae6e1f51a6f588f189dbbf4fa4cf35",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "5aa8c846d39351eecb118f877a96c03df5776db0c7ce1ad91b705dca844cc0d7",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v1.png": "c8a3b72459ae117bfb125d98acda098fff828f4ede02d19fc70eccd6fd553aac"
+          },
+          "glb_sha256": "14d7dcff7e6cc7f30a2266c069c02cd95e6111c358c8d88948e3454871e33f63",
+          "age_preview_sha256": {
+            "medieval": "b83b17315b34de7df3cb5415ccd37381bab81f0cb8683d01253b17c9045c3a2c"
+          }
+        },
+        {
+          "id": "bld_saurian_house_classical_renaissance_v0",
+          "evidence_sha256": "d58a5a7358f78712bbd945a4f5e82c42c1ca1a1f981069367ac43c6644f94b87",
+          "observations": "A terracotta gallery runs along the front of a squared, taller residence. Its band of turquoise eave trim and open, supported loggia distinguish the plan from the round Renaissance variant. The loggia columns still carry the roof at LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            562,
+            191,
+            118
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.645,
+            "primary_picture_pair": [
+              "bld_saurian_house_ancient_bronze_v0",
+              "bld_saurian_house_classical_renaissance_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1548
+            ],
+            "max_shared_direction": [
+              "bld_saurian_house_ancient_v0",
+              "bld_saurian_house_classical_renaissance_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_housesclassical-01.png": "41fb73bfb56f6e6602575abb2350d41b22ae6e1f51a6f588f189dbbf4fa4cf35",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "5aa8c846d39351eecb118f877a96c03df5776db0c7ce1ad91b705dca844cc0d7",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v1.png": "c8a3b72459ae117bfb125d98acda098fff828f4ede02d19fc70eccd6fd553aac"
+          },
+          "glb_sha256": "19942029f780c236ae3a4dfe7e77c0063540d9d17db5a9000e0c851f6fbcb22d",
+          "age_preview_sha256": {
+            "renaissance": "07802bb3e8d1b2add83a25e6612afa19269656955f23994970257af64387e32b"
+          }
+        },
+        {
+          "id": "bld_saurian_house_classical_renaissance_v1",
+          "evidence_sha256": "73ea7e3561cc7926cda57c3bef1543160bec7a64db8a758c59c6a0515ab5b9d6",
+          "observations": "The rounded turbine-like upper window band supports a shallow clay cap, with a much smaller square entrance wing on the ground. The main drum and its offset vestibule remain identifiable without paint and at the coarse LOD.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            546,
+            253,
+            116
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.537,
+            "primary_picture_pair": [
+              "bld_saurian_house_classical_renaissance_v1",
+              "bld_saurian_house_industrial_v1"
+            ],
+            "max_shared_corners": [
+              0,
+              1698
+            ],
+            "max_shared_direction": [
+              "bld_saurian_house_ancient_v1",
+              "bld_saurian_house_classical_renaissance_v1"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_housesclassical-01.png": "41fb73bfb56f6e6602575abb2350d41b22ae6e1f51a6f588f189dbbf4fa4cf35",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v1.png": "c8a3b72459ae117bfb125d98acda098fff828f4ede02d19fc70eccd6fd553aac",
+            "tools/AssetForge/reviews/rc6/families/saurian-House-v0.png": "5aa8c846d39351eecb118f877a96c03df5776db0c7ce1ad91b705dca844cc0d7"
+          },
+          "glb_sha256": "3d8fce7d5fe5721628f99daa498c7ed4089d39352fb8392d6b1edc4c9d482651",
+          "age_preview_sha256": {
+            "renaissance": "cb37dd7e6cec487c7a8b84fab2abf90ccaf848c550d1ed90bf822f3726298f19"
+          }
+        }
+      ]
+    }
+  ]
+}

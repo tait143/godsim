@@ -1,0 +1,338 @@
+[
+ {
+  "id": "bld_human_house_future_ascension_v0",
+  "kind": "house",
+  "category": "Buildings/Human/HousesLate",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 425,
+  "lod_triangles": [
+   425,
+   186,
+   114
+  ],
+  "bounds": [
+   [
+    -0.41600000858306885,
+    0.0,
+    -0.4354706108570099
+   ],
+   [
+    0.41999998688697815,
+    0.7994999885559082,
+    0.38199999928474426
+   ]
+  ],
+  "bytes": 53908,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesLate/bld_human_house_future_ascension_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_future_ascension_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_future_ascension_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_house_future_ascension_v1",
+  "kind": "house",
+  "category": "Buildings/Human/HousesLate",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 572,
+  "lod_triangles": [
+   572,
+   326,
+   179
+  ],
+  "bounds": [
+   [
+    -0.4009999930858612,
+    0.0,
+    -0.4194999933242798
+   ],
+   [
+    0.4104999899864197,
+    0.8700000047683716,
+    0.36800000071525574
+   ]
+  ],
+  "bytes": 87696,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesLate/bld_human_house_future_ascension_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_future_ascension_v1.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_future_ascension_v1.png"
+  }
+ },
+ {
+  "id": "bld_human_house_future_v0",
+  "kind": "house",
+  "category": "Buildings/Human/HousesLate",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "information"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 266,
+  "lod_triangles": [
+   266,
+   150,
+   70
+  ],
+  "bounds": [
+   [
+    -0.41600000858306885,
+    0.0,
+    -0.3544999957084656
+   ],
+   [
+    0.4169999957084656,
+    0.8930000066757202,
+    0.38999998569488525
+   ]
+  ],
+  "bytes": 39804,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesLate/bld_human_house_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_future_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_house_future_v1",
+  "kind": "house",
+  "category": "Buildings/Human/HousesLate",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "information"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 405,
+  "lod_triangles": [
+   405,
+   235,
+   103
+  ],
+  "bounds": [
+   [
+    -0.4020000100135803,
+    0.0,
+    -0.41850000619888306
+   ],
+   [
+    0.39750000834465027,
+    0.8939999938011169,
+    0.36899998784065247
+   ]
+  ],
+  "bytes": 57392,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesLate/bld_human_house_future_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_future_v1.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_future_v1.png"
+  }
+ },
+ {
+  "id": "bld_human_house_industrial_modern_v0",
+  "kind": "house",
+  "category": "Buildings/Human/HousesLate",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 304,
+  "lod_triangles": [
+   304,
+   142,
+   66
+  ],
+  "bounds": [
+   [
+    -0.4259999990463257,
+    0.0,
+    -0.3569999933242798
+   ],
+   [
+    0.4269999861717224,
+    0.6200000047683716,
+    0.39399999380111694
+   ]
+  ],
+  "bytes": 41636,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesLate/bld_human_house_industrial_modern_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_industrial_modern_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_industrial_modern_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_house_industrial_modern_v1",
+  "kind": "house",
+  "category": "Buildings/Human/HousesLate",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 366,
+  "lod_triangles": [
+   366,
+   184,
+   74
+  ],
+  "bounds": [
+   [
+    -0.4194999933242798,
+    0.0,
+    -0.390500009059906
+   ],
+   [
+    0.42149999737739563,
+    0.6340000033378601,
+    0.390500009059906
+   ]
+  ],
+  "bytes": 48832,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesLate/bld_human_house_industrial_modern_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_industrial_modern_v1.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_industrial_modern_v1.png"
+  }
+ },
+ {
+  "id": "bld_human_house_industrial_v0",
+  "kind": "house",
+  "category": "Buildings/Human/HousesLate",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 508,
+  "lod_triangles": [
+   508,
+   288,
+   126
+  ],
+  "bounds": [
+   [
+    -0.4000374972820282,
+    0.0,
+    -0.38749998807907104
+   ],
+   [
+    0.4000374972820282,
+    0.9229999780654907,
+    0.3840000033378601
+   ]
+  ],
+  "bytes": 73312,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesLate/bld_human_house_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_house_industrial_v1",
+  "kind": "house",
+  "category": "Buildings/Human/HousesLate",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 1,
+  "tags": [],
+  "notes": "",
+  "triangles": 546,
+  "lod_triangles": [
+   546,
+   310,
+   164
+  ],
+  "bounds": [
+   [
+    -0.3955000042915344,
+    0.0,
+    -0.41600000858306885
+   ],
+   [
+    0.44954830408096313,
+    0.7910000085830688,
+    0.37549999356269836
+   ]
+  ],
+  "bytes": 80816,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/HousesLate/bld_human_house_industrial_v1.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_industrial_v1.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/HousesLate/bld_human_house_industrial_v1.png"
+  }
+ }
+]

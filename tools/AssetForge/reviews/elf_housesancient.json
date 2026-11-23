@@ -1,0 +1,287 @@
+{
+  "package": "elf_housesancient",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "critic_elf_ancient_houses",
+      "models": [
+        {
+          "id": "bld_elf_house_ancient_v0",
+          "evidence_sha256": "b3d3811c10cca4c3de6812219684f076c242be92a4da1884e9b9c5607fcf3ec2",
+          "observations": "The low, broad leaf canopy and bark-coloured arched door make a legible cottage at 64 px. The amber flank window and hanging lantern stand out against the shaded woven wall. The front stair meets the threshold. The flat-topped planter beside it starts 0.018 tile above ground, with no surface beneath its centre. All three exported meshes passed package validation at 543, 297 and 97 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 86,
+            "charm": 93,
+            "colour": 91,
+            "technical": 96
+          },
+          "defects": [
+            "Ground the flat-topped LOD0 planter centred at x=0.137, z=-0.289. Move its pot and foliage down together by 0.018 tile so the bottom rim rests on the ground."
+          ]
+        },
+        {
+          "id": "bld_elf_house_ancient_v1",
+          "evidence_sha256": "bb9202d8e48025250adcdac40a35bd36766ff56346f6f170abf245781e309451",
+          "observations": "At 64 px the low side pod steps out from the taller swept roof and distinguishes this plan from Dawn v0. The hanging lamp falls against the dark front upright and marks the route to the recessed door. The companion planter near the steps has its lower rim at y=0.018 with open air below its centre. The 602, 313 and 126 triangle meshes cleared package validation.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 86,
+            "charm": 92,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "Lower the LOD0 planter centred at x=0.035, z=-0.272 by 0.018 tile, including its green crown. The adjacent top step does not extend beneath its centre."
+          ]
+        },
+        {
+          "id": "bld_elf_house_ancient_bronze_v0",
+          "evidence_sha256": "cd26ccc3d4e3497e12fbb62a22d1e7348b0f29171dfd04380ebf239143f967f8",
+          "observations": "At 64 px the kink in the canopy edge, pale door frame and raised warmth of the masonry base separate the Bronze cottage from its Dawn counterpart. Its window and pendant sit under a generous eave. The flowering sprout is grounded. The larger round planter beside the stair has a bottom rim 0.018 tile off the ground and no bearing under its centre. The 623, 309 and 105 triangle meshes passed package validation.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 86,
+            "charm": 94,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Lower the whole flat-topped LOD0 planter at x=0.144, z=-0.275 by 0.018 tile until the lower rim meets y=0."
+          ]
+        },
+        {
+          "id": "bld_elf_house_ancient_bronze_v1",
+          "evidence_sha256": "897f5aa93f1b73753eb239d33fa61551fd78965311f3306eaf41360b0dee4952",
+          "observations": "The side chamber's roof and taller main roof give two discernible masses at 64 px. Pale walls frame the dark leaf-point entrance, and the red flower by the ochre stair gives the front a domestic accent. The other planter has a measurable air gap under its base. The 698, 325 and 134 triangle meshes fit the tile and cleared package validation.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 86,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the secondary LOD0 planter at x=0.047, z=-0.254 on the ground by translating the pot and leaves 0.018 tile down."
+          ]
+        },
+        {
+          "id": "bld_elf_house_ancient_iron_v0",
+          "evidence_sha256": "df1204a2aee272216a4b2e773700cb001dcabfd58066d81e6b4e90f229aa1d50",
+          "observations": "The capped flue beside the folded green peak is legible at 64 px and identifies a domestic hearth. The fieldstone stair, dark belt and pale pointed door surround establish a later dwelling. The 508, 285 and 89 triangle meshes passed package validation. The serialized LOD1 and LOD2 contain no stack, losing the second high point and dropping maximum height from 0.893 to 0.858 tile.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Retain the offset stone chimney and cap in both distance meshes. A low-sided shaft can extend through the roof and preserve the gap beside the canopy peak at phone size."
+          ]
+        },
+        {
+          "id": "bld_elf_house_ancient_iron_v1",
+          "evidence_sha256": "d8a376915e14bee75629586630900c3bc80ad3dfd0b5d753c6069d15c490eb08",
+          "observations": "At 64 px the side pantry makes a grounded third mass below the tall roof and chimney. The amber pod, recessed door and grey step read against the green eave. The 663, 337 and 142 triangle meshes passed package validation. The prominent 0.953-tile chimney crest disappears in both lower LODs, leaving the 0.912-tile roof as the only high point.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Extend the capped chimney into LOD1 and LOD2 using a budgeted simplified shaft. Preserve its offset behind the side bay and its visible height relative to the main canopy."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "critic_elf_ancient_houses",
+      "models": [
+        {
+          "id": "bld_elf_house_ancient_v0",
+          "evidence_sha256": "5d684080fc89893908cee769815b14520b092b92d7b5a2902f18b9080b18d409",
+          "observations": "Both planter rims now touch y=0 in the exported mesh. The stair lands between the pots and leads to the recessed pointed door. At 64 px the wide, low canopy shades the amber lantern and window. Its scalloped eave, dark entrance and stair remain identifiable across the 543, 297 and 97 triangle LODs. Package validation passed.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_ancient_v1",
+          "evidence_sha256": "6f527434fd0940581ce5307c2598be9dec2d246e6321107c4aa4eba3cf3b48aa",
+          "observations": "The secondary planter and smaller sprout both reach the ground plane. The larger leaf canopy, lower side pod and deep brown entrance make a distinct profile in the 64 px renders of all three LODs. The lamp picks out the front upright, and the stair rises from the planter grouping to the doorway. Package validation passed at 602, 313 and 126 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_ancient_bronze_v0",
+          "evidence_sha256": "9f15eb1f8240df756f850cfb225dcad5c3e5da85fd7b4356429e6816a574cbea",
+          "observations": "The larger planter now stands at y=0 beside the ochre steps, level with the flower pot on the opposite side. The pale arched frame remains distinct from the door in every 64 px LOD render. The high masonry footing and sharply folded front eave distinguish this bronze-age house from its lower Dawn counterpart. Package validation passed at 623, 309 and 105 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_ancient_bronze_v1",
+          "evidence_sha256": "9fa8e58dc9827f968e94394fbe94ff25dc5d2bdc47664f1f0d9e999cd250652d",
+          "observations": "Both exported planter bases now reach y=0. The green-crowned pot and red sprout frame the short stair in the full preview. At 64 px the side chamber and its low leaf roof remain readable beside the taller main canopy at all three LODs. The warm stair and pale trim keep the dark arched entrance legible. Package validation passed at 698, 325 and 134 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_ancient_iron_v0",
+          "evidence_sha256": "5772943d2baf6631273caef7adf7e20b234b5a5eabcd53847b7afd78d1d44daa",
+          "observations": "The flue retains its offset and capped outline beside the pointed canopy in each 64 px LOD render. The exported cap apex is y=0.89257 for all three. The window and pod warm the fieldstone frontage, while the step and pointed door survive the final reduction. The three meshes passed package validation at 508, 303 and 103 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_ancient_iron_v1",
+          "evidence_sha256": "6ca1ad6bd886c0426a30470a6d0aaa464cb1083dab1d7061ba180bf672e78f3f",
+          "observations": "The green-tipped stack, pointed canopy and low pantry roof all remain identifiable in the 64 px LOD renders. The cap apex stays at y=0.95255 in all three meshes. The full preview shows the lamp beneath the eave and the fieldstone stair against the dark doorway. Package validation passed at 663, 355 and 156 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "critic_elf_ancient_houses",
+      "models": [
+        {
+          "id": "bld_elf_house_ancient_v0",
+          "evidence_sha256": "7c99ac43f76bf9ba0b21cafef4a630295dd1da2eb4afc79c833be5b329c3c72a",
+          "observations": "The broad leaf canopy, timber doorway and stair hold together from both front obliques in the 64 px LOD2 renders. All four jamb and arch edges coincide with the panel boundary at z=-0.28898. The full preview retains the pair of grounded planters beside the steps and the amber lights below the overhang.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_ancient_v1",
+          "evidence_sha256": "781fe04955c6a1108f328780795f3e5b7f5018a835dec7b7ba9f1f6660778680",
+          "observations": "The low side chamber and tall swept roof remain distinct across the 64 px front views. The simplified timber arch meets all four upright and sloped panel edges exactly at z=-0.27228. In the full preview the pod light, short stair and two pots give the entrance a domestic scale.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_ancient_bronze_v0",
+          "evidence_sha256": "b9fb3e765b02b77a41988e16b9a68cea34003927f1b01a1ffec2e7b023838f1d",
+          "observations": "The pale frame encloses a continuous dark doorway in both 64 px LOD2 views. Its four inner frame edges match the panel at z=-0.27516. The primary image keeps the red-brown stair and flower sprout legible against the raised masonry base, with the kinked leaf eave above.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 93,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_ancient_bronze_v1",
+          "evidence_sha256": "e3dbfa32b488ef4907584201db41f5932abdd353848c75a1603a8744e8880e60",
+          "observations": "The lower side bay, folded canopy and ochre front steps survive at 64 px. All four arch and jamb edges share the exported LOD2 panel boundary at z=-0.25364. The pale trim separates the dark entrance from the warm wall, and the green planter and red flower pick out the ends of the approach.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_ancient_iron_v0",
+          "evidence_sha256": "f0307c7f8863ea19462f35320732950be15b0e90f1ef47d644db35e6df0a0799",
+          "observations": "The stack and green peak stay legible from either side of the front in the 64 px LOD2 renders. The stone stair ends at a dark door enclosed by four coincident frame edges at z=-0.27788. At full size the amber window breaks up the darker fieldstone and timber flank.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_house_ancient_iron_v1",
+          "evidence_sha256": "8b57003da8c3df23445ba155817ad1d358ea7a9b022a3e69a3f46af43e034264",
+          "observations": "The flue, main canopy and pantry roof make a recognizable stepped profile at 64 px. The simplified panel and all four inner frame edges meet at z=-0.26144 in the serialized LOD2. Its pointed entry stays readable above the stone approach from both front obliques. The lantern lights the recess under the eave in the full preview.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

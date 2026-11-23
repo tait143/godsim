@@ -1,0 +1,1094 @@
+{
+  "package": "dwarf_extraction",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Builder session 5 independent critic",
+      "models": [
+        {
+          "id": "bld_dwarf_coal_mine_future_v0",
+          "evidence_sha256": "268d37580efe9a9ec553e356baa3ec6e257dd906c3df5f62440687760c045c0f",
+          "observations": "The chimney and dark coal load distinguish the fuel mine from a bare ore hoist. The covered headframe and cyan monitor span the rock at 64 pixels; the loaded cart sits off the rails and the wheel hub has no bearing at the breastwork. The serialized meshes validate at 1084/612/301 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 85,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the ore wagon a pair of rails or grounded trolley cradle aligned beneath its wheels, with visible wheel contact at full preview size.",
+            "Fix the head-sheave axle into a bearing yoke attached to the overhead cap. Its hub currently sits between the legs without a visible mounting."
+          ]
+        },
+        {
+          "id": "bld_dwarf_coal_mine_industrial_v0",
+          "evidence_sha256": "d3c48b899573d24794f9f32695d0fa5ef4890741bcb763ac21bba4ffbef1e131",
+          "observations": "The vent bends the skyline beside a red or black hoist house, reading particularly clearly on the Renaissance and Industrial rows. At full size the wagon has no track, and the cross-brace crosses the open space below the unsupported sheave. The serialized meshes validate at 1072/600/289 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 85,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Give the ore wagon a pair of rails or grounded trolley cradle aligned beneath its wheels, with visible wheel contact at full preview size.",
+            "Fix the head-sheave axle into a bearing yoke attached to the overhead cap. Its hub currently sits between the legs without a visible mounting."
+          ]
+        },
+        {
+          "id": "bld_dwarf_gold_mine_ancient_v0",
+          "evidence_sha256": "41f77be0675bc74b8f059a381bd1b79edc49bd993c689d97ec86adb4c9e04c49",
+          "observations": "The ochre cap marker, gold seam and blue wash steps make the Iron workings readable. The small loaded wagon sits directly on earth beside the main rails. The sheave sits between separate diagonal braces without a hub bearing. The serialized meshes validate at 1016/596/285 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 85,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the ore wagon a pair of rails or grounded trolley cradle aligned beneath its wheels, with visible wheel contact at full preview size.",
+            "Fix the head-sheave axle into a bearing yoke attached to the overhead cap. Its hub currently sits between the legs without a visible mounting."
+          ]
+        },
+        {
+          "id": "bld_dwarf_gold_mine_classical_v0",
+          "evidence_sha256": "07cf510ae4e822e2378566f9e00363e133b45317b2e48c7eb3df032f7cff9411",
+          "observations": "The gray and warm vaults retain a strong edge against the gold ore across the three classical ages. The retaining gantry and wash steps reveal the process, but there is no siding to carry the wagon and no visible mount inside the head sheave. The serialized meshes validate at 1016/596/285 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 85,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the ore wagon a pair of rails or grounded trolley cradle aligned beneath its wheels, with visible wheel contact at full preview size.",
+            "Fix the head-sheave axle into a bearing yoke attached to the overhead cap. Its hub currently sits between the legs without a visible mounting."
+          ]
+        },
+        {
+          "id": "bld_dwarf_gold_mine_future_v0",
+          "evidence_sha256": "e9f0c0766844d6e7bab5493f68c285d68fa8303806dcbb5f14d8c1f945f8839f",
+          "observations": "The blue-topped visor covers the gold-monitored tower. The gold stock and turquoise sluice remain clear in both late-age views, but the cart's wheels face bare ground and the wheel hub lacks a bearing to the frame. The serialized meshes validate at 1048/628/317 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 85,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the ore wagon a pair of rails or grounded trolley cradle aligned beneath its wheels, with visible wheel contact at full preview size.",
+            "Fix the head-sheave axle into a bearing yoke attached to the overhead cap. Its hub currently sits between the legs without a visible mounting."
+          ]
+        },
+        {
+          "id": "bld_dwarf_gold_mine_industrial_v0",
+          "evidence_sha256": "63e70d22c55521f4287a8d116f3f5681da0bc690273cbbfabd38b02f7917f5a1",
+          "observations": "Dark metal and bright gold separate at phone size even against the Industrial brick approach. A wheel hanging beneath the hoist cap lacks its hub bracket, and there are no rails beneath the laden cart. The serialized meshes validate at 1036/616/305 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 85,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the ore wagon a pair of rails or grounded trolley cradle aligned beneath its wheels, with visible wheel contact at full preview size.",
+            "Fix the head-sheave axle into a bearing yoke attached to the overhead cap. Its hub currently sits between the legs without a visible mounting."
+          ]
+        },
+        {
+          "id": "bld_dwarf_mine_ancient_v0",
+          "evidence_sha256": "297c97378d7b28447c1258d4a896481d9b2831b27d996aaccfa3407d3617b458",
+          "observations": "The dark gantry frames a rock portal and ore vein. On the Dawn and Bronze rows the warm cart load is subtle but visible. Its short rails lead to the door while the cart sits to one side on soil. The wheel lacks bearings at its hub. The serialized meshes validate at 876/496/221 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 85,
+            "charm": 90,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Give the ore wagon a pair of rails or grounded trolley cradle aligned beneath its wheels, with visible wheel contact at full preview size.",
+            "Fix the head-sheave axle into a bearing yoke attached to the overhead cap. Its hub currently sits between the legs without a visible mounting."
+          ]
+        },
+        {
+          "id": "bld_dwarf_mine_classical_v0",
+          "evidence_sha256": "81d251a814df879a6d12c3a422f65da4c1be328f21206ec034dcb1b3766f2746",
+          "observations": "The capped stone entrance and diagonal hoist braces establish the extractive yard under three palettes. At full resolution the sheave hub lacks a frame-mounted bearing, and the cart to the right has no siding. The serialized meshes validate at 876/496/221 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 85,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the ore wagon a pair of rails or grounded trolley cradle aligned beneath its wheels, with visible wheel contact at full preview size.",
+            "Fix the head-sheave axle into a bearing yoke attached to the overhead cap. Its hub currently sits between the legs without a visible mounting."
+          ]
+        },
+        {
+          "id": "bld_dwarf_mine_future_v0",
+          "evidence_sha256": "6abe9b1b911d59f58b712a357ed7f778086a7f54b1b82ad86c6ed7d7edb363d0",
+          "observations": "The visor and glazed headhouse create a separate future silhouette from the dark outcrop. Both the pale and gold age rows still show the parked cart off-track and the sheave centered without a hanger. The serialized meshes validate at 908/528/253 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 85,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the ore wagon a pair of rails or grounded trolley cradle aligned beneath its wheels, with visible wheel contact at full preview size.",
+            "Fix the head-sheave axle into a bearing yoke attached to the overhead cap. Its hub currently sits between the legs without a visible mounting."
+          ]
+        },
+        {
+          "id": "bld_dwarf_mine_industrial_v0",
+          "evidence_sha256": "783dbaa870296dc2aa08051a17f2297beb33430e69f6b9a0e71aebcc26e72d80",
+          "observations": "The metal legs and dark canopy frame brick and later gray portals. The small cart sits clear of the main gate, but the rails stop under the gate and never support the cart. The head pulley lacks hub contact. The serialized meshes validate at 896/516/241 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 85,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the ore wagon a pair of rails or grounded trolley cradle aligned beneath its wheels, with visible wheel contact at full preview size.",
+            "Fix the head-sheave axle into a bearing yoke attached to the overhead cap. Its hub currently sits between the legs without a visible mounting."
+          ]
+        },
+        {
+          "id": "bld_dwarf_oil_well_future_v0",
+          "evidence_sha256": "2ed37861f90267e0d41b4b5047ac9339209ace81ae9441532cdea677bf7a68be",
+          "observations": "The high walking beam and slanted legs form an immediately recognizable pump at 64 pixels. The black curved horsehead meets a vertical rod over the piston collar. Blue glazing and the gold Ascension treatment separate the working beam, pump house and small tank. The serialized meshes validate at 1082/614/302 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_oil_well_industrial_v0",
+          "evidence_sha256": "50da048807ebe5788f1eec2e29a0d04e82640d199c675db9ed9dcf1d4ee25e94",
+          "observations": "The orange counterbalanced beam, four solid supports and dark crank wheel read in the Modern preview. The dropped rod aligns with its ground sleeve; the compact rear building and tank keep the rig planted at 64 pixels. The serialized meshes validate at 1050/582/270 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_sawmill_future_v0",
+          "evidence_sha256": "a6f01b22e1cb07a8a36873cb43d627c2cea61779ff8ba124580f94f39ce987fc",
+          "observations": "The serrated circular saw rises from the front edge of the bench. The billet on the table and the larger barked logs stacked at the side expose cut end grain. The competing blue roof and gold blade remain distinguishable in the two future thumbnails. The serialized meshes validate at 1064/498/281 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_sawmill_industrial_v0",
+          "evidence_sha256": "bfbd5a0837878da687a53be0662a50e143024853e2e611b0d9fa75a58e6937a7",
+          "observations": "A dark gear-toothed blade and clamp sit above a low masonry bench. The brick shed and silver Modern finish both contrast with the clearly stacked, banded log ends. At 64 pixels the mill remains distinct from the chopping camp. The serialized meshes validate at 1032/466/249 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_stone_quarry_ancient_v0",
+          "evidence_sha256": "0acfb4a3846d0c058600d808fb950b3181ee820255e8e9c3e09fc13c947acb1c",
+          "observations": "The timber crane and suspended stone show the purpose of the stepped ledge across Dawn, Bronze and Iron. Three tightly spaced stock blocks sit across the small forward doorway, preventing access. The serialized meshes validate at 852/420/182 triangles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 92,
+            "construction": 85,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [
+            "Shift the stacked cut blocks away from the front entry and leave a clear continuous approach to its threshold."
+          ]
+        },
+        {
+          "id": "bld_dwarf_stone_quarry_classical_v0",
+          "evidence_sha256": "bfc16eb0bda89be30da4dbb4459d8d9902531a6ed4fc75db7301278b21d1ab26",
+          "observations": "Winch, hoist cord and suspended masonry read against each of the three stone-face palettes. The dark cut doorway is easy to locate at full size, where its approach is occupied by the line of squared blocks. The serialized meshes validate at 852/420/182 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 85,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Shift the stacked cut blocks away from the front entry and leave a clear continuous approach to its threshold."
+          ]
+        },
+        {
+          "id": "bld_dwarf_stone_quarry_future_v0",
+          "evidence_sha256": "c74342d8df2d49cb120c4d83f4182fa53a896d89a6c701b1e6882d14e5b209ef",
+          "observations": "The metallic and gold derricks pivot above a pale quarry ledge, with the blue operator enclosure projecting behind the mast. The clear limits of the stock blocks show that they crowd the door across its full width. The serialized meshes validate at 872/440/202 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 85,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Shift the stacked cut blocks away from the front entry and leave a clear continuous approach to its threshold."
+          ]
+        },
+        {
+          "id": "bld_dwarf_stone_quarry_industrial_v0",
+          "evidence_sha256": "624be73c65706cdd20503e602e4de2705ff9f556f4248dd67148d5e33d116e8c",
+          "observations": "The layered quarry and loaded derrick work in the light Modern row. Industrial colors turn the working face and stacked rock red architectural masonry, weakening the impression of native stone. The stock also blocks the entrance. The serialized meshes validate at 872/440/202 triangles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 85,
+            "construction": 85,
+            "charm": 91,
+            "colour": 86,
+            "technical": 99
+          },
+          "defects": [
+            "Shift the stacked cut blocks away from the front entry and leave a clear continuous approach to its threshold.",
+            "Keep a broad bedrock face and its cut stock in a natural stone atlas slot in the Industrial age; the red brick color and masonry joints currently cover the excavated rock."
+          ]
+        },
+        {
+          "id": "bld_dwarf_woodcutter_camp_ancient_v0",
+          "evidence_sha256": "72efa8cf9177174236ca85ffd310de7c9085b1f8381189764703ca3cd6b6fec1",
+          "observations": "The embedded wedge and angled handle terminate in the chopping stump. Paired cut ends, bark and golden chips clearly distinguish the wood yard at 64 pixels. The roof shifts through yellow thatch, ochre and dark timber. The serialized meshes validate at 890/374/196 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_woodcutter_camp_classical_v0",
+          "evidence_sha256": "633d151ae76276f60c03353aa1000d57b1b784d7df56756270d546c65d5029f5",
+          "observations": "A stout rune-fronted shed, neatly stacked logs and a broad chopping stump keep a readable diagonal of work across the plot. The red and slate roof rows frame the pale cut ends and small chips. The serialized meshes validate at 890/374/196 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_woodcutter_camp_future_v0",
+          "evidence_sha256": "72d93f8cca5e8b3b4aa48331c55bd472ba00d86558c41aadfa06b0baade376fe",
+          "observations": "Blue glazing contrasts with the timber pile; the pale-cyan and gold Ascension treatment carries through the piers and low equipment box. The exposed log rings and axe seated in the chopping block remain legible at 64 pixels. The serialized meshes validate at 914/398/208 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "2e525f7d1a5f64806f7e487d048b84a9b299d790233dfcef5475f8d912c06cef",
+          "observations": "A dark Industrial cap and brighter Modern cap distinguish the two brick and steel yards. Three merchantable logs, a working stump and small splinters describe the job at both preview sizes. The serialized meshes validate at 914/398/208 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Builder session 5 independent critic",
+      "models": [
+        {
+          "id": "bld_dwarf_coal_mine_future_v0",
+          "evidence_sha256": "762ea15e3ca26e6f6f1d44056bbdd9da646f2b615c0a250e653263c06d055b20",
+          "observations": "A bright blue headhouse and ribbed chimney frame the coal pile. The head sheave has a central bearing, and the enlarged dark cart rides the separate track visible at the front edge. The two future finishes keep the hoist outline readable at 64 pixels. The serialized model passed at 1166/674/325 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_coal_mine_industrial_v0",
+          "evidence_sha256": "6e9cb027d6dcffd9bb9e649fb7679d0b61ab2697d75ae4f0d2ff918d198b03bf",
+          "observations": "The paired rail leads into a clear dark portal. The brick stack, dark coal and framed axle explain fuel extraction across Industrial, Modern and Renaissance rows. The short siding reads under the wagon wheels on the full-size views. The serialized model passed at 1154/662/313 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_gold_mine_ancient_v0",
+          "evidence_sha256": "2a8c624c0022f648a5d7d20b57464af4163df522cc7b03c9103fff6a9fb56c2c",
+          "observations": "The Iron timber gantry has a bronze hub anchored to the header. The gold cart stands on visible wheels and rails beside the blue stepped wash table; both gold cues read in the thumbnail. The serialized model passed at 1094/658/309 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_gold_mine_classical_v0",
+          "evidence_sha256": "d33f77329e8214e71897515f220d487632de5d022c5d9fef4a5cb1be9e956231",
+          "observations": "The Classical, Medieval and Renaissance hoists retain the sheltered sheave. Its fixed bearing and the stone-framed adit provide clear load paths, and the wagon wheels meet the adjacent track. The gold wash area survives the thumbnail reduction. The serialized model passed at 1094/658/309 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_gold_mine_future_v0",
+          "evidence_sha256": "924661354d906f48d929babd20c67eae96e06197be9a1cc03d73568c4d7869ee",
+          "observations": "The gold crown and blue window distinguish the two-tier future headframe. Its offset siding carries the ore wagon beside the sluice; the blue pools and warm ore remain separate in the Information and Ascension previews. The serialized model passed at 1126/690/341 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_gold_mine_industrial_v0",
+          "evidence_sha256": "07b10e43afe3eed607afdddd38e1423005757a070a3219d256f8668e8441c153",
+          "observations": "The gold stock contrasts strongly with the dark iron roof. A mounted sheave and visible wheel contact at the wagon flank the open portal. Brick and pale steel frames change the value around the central working area at 64 pixels. The serialized model passed at 1114/678/329 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_mine_ancient_v0",
+          "evidence_sha256": "b4d171a11aca9f2956cecf6dd5a49a1adba3305ee381815977b02e284d737d51",
+          "observations": "The timber header carries the sheave via a central hanging block. The rail portal and wagon siding now read together in Bronze, Iron and Dawn. The rough ore in the wagon stays distinct from the darker hoist approach. The serialized model passed at 958/558/245 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 90,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_mine_classical_v0",
+          "evidence_sha256": "20ff4c396d6fce4ff876b62f44b34f43902847ddc5c7d766d0bf25eafd8acfce",
+          "observations": "The open doorway lines up with the main rails. Alongside it the loaded wagon rides a second pair of short tracks. The hub is seated against the header, and the classical-era color changes distinguish the three roof and outcrop treatments at 64 pixels. The serialized model passed at 958/558/245 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_mine_future_v0",
+          "evidence_sha256": "5061807457ebda5e18cfac4bf2a4f20153854cdf87ff6d3173ce1183786dfe5e",
+          "observations": "The raised blue monitor and sloped hoist shelter remain distinct at phone size. The green or gold supported sheave sits above the new dark rail entrance; the ore cart has visible flanged sides, wheels and its own track. The serialized model passed at 990/590/277 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_mine_industrial_v0",
+          "evidence_sha256": "9462436f8b4c2edd814ad7f80f6cade4d87572867fe9c867e36d3094c90efb56",
+          "observations": "The taller dark headframe and roof stand above the brick or concrete adit. Raking beams, supported hub and track-supported cart all remain visible at 224 pixels; the three-part portal, cart and tower silhouette reads at 64 pixels. The serialized model passed at 978/578/265 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_oil_well_future_v0",
+          "evidence_sha256": "fb9492cebd5545f5b34e6a108377d5e1947dd7109e8c86e5ec8febeaaec9cddc",
+          "observations": "The broad walking beam tips into a black curved horsehead above the vertical polished rod. The cabin's blue cap, full feet under the splayed legs and squat receiving tank place the late-age pump convincingly in its yard at both sizes. The serialized model passed at 1114/646/302 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_oil_well_industrial_v0",
+          "evidence_sha256": "9f8bd2700044c6451477d522b37416b7c9967aa77bf64d34e30427e842571efe",
+          "observations": "The orange rocker and dark flywheel separate from the pale Modern slab in the thumbnail. In the larger view the crank rod reaches the wheel, the horsehead follows the well rod and the central frame anchors to the base. The serialized model passed at 1082/614/270 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_sawmill_future_v0",
+          "evidence_sha256": "06419f2bb3facc5fc08f5f017304841d44be7b6e26807e6a22edc7bbfb403cc6",
+          "observations": "The saw teeth, feed log, stack of three timber ends and little offcuts identify the yard immediately. The framed blue rooflight cleanly meets the shed in both future ages; the blade stands out against the light front wall at 64 pixels. The serialized model passed at 1060/494/281 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_sawmill_industrial_v0",
+          "evidence_sha256": "719329d853142268bab086baf04779b677a17ac52c2d269c4e83ef83dd1e13fb",
+          "observations": "Three logs sit beside the machine table and short billet, with exposed rings and a few chips below the saw. The dark blade and yellow roof edge remain visible against the Industrial brick and Modern steel sheds at both preview sizes. The serialized model passed at 1028/462/249 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_stone_quarry_ancient_v0",
+          "evidence_sha256": "bbc34d831c275cb05b5f69591977c11b3fde398876ee86f8e543dc6ce74888c0",
+          "observations": "The stepped cliff and timber derrick lift a stone off the face. Finished blocks have moved to the side, clearing the gate approach. Across all three ancient colors the crane stands apart from the steps at 64 pixels. The serialized model passed at 876/444/182 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_stone_quarry_classical_v0",
+          "evidence_sha256": "f7f4f2315e7f9afe8c9611cbeb4c78afd8ad27611f23dbadc8fd04667437f179",
+          "observations": "The amber handwheel and suspended stone still stand out against the pale or dark cut benches. The shifted stock line opens the doorway in each of the Classical, Medieval and Renaissance views. The serialized model passed at 876/444/182 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_stone_quarry_future_v0",
+          "evidence_sha256": "6b1b9143e6884a7ef61bfc6dfb81fb8325dfb50857e72c5a694472eebbbb99cc",
+          "observations": "The blue machinery enclosure steps back behind the raised beam. Gray cut blocks line the front edge to one side of the portal, leaving a walkable approach. The quarry silhouette remains legible when the metal finish changes to gold. The serialized model passed at 896/464/202 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_stone_quarry_industrial_v0",
+          "evidence_sha256": "944ae15e184f51c606748c6c406ce14ca852d10a457857541927754698c42c40",
+          "observations": "The Industrial working face now has a broad gray stratum with blue-gray stone visible below it. Brick remains around the crane base and door. The relocated gray stock clears the threshold in both Industrial and Modern views. The serialized model passed at 896/464/202 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_woodcutter_camp_ancient_v0",
+          "evidence_sha256": "5c3b8f5ccf2c25582c6df04fa6de281e4582a80bf1e942b4f56786cd0fea3f39",
+          "observations": "Three logs expose their ringed ends alongside the dwarf shed. The large stump supports the visible wedge and handle. Yellow, brown and dark roofs separate the Dawn, Bronze and Iron thumbnails while the work area holds its identity. The serialized model passed at 886/370/196 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_woodcutter_camp_classical_v0",
+          "evidence_sha256": "9739ea67dc45fbdf5e5669ef8cbf70e6fa820729563f6eb651f1950ffab86ab1",
+          "observations": "The pale, warm and gray gate surround remains visible behind the chopping stump. The wood pile, chips and planted tool read in all three classical palette rows, with good roof-to-wall value contrast at 64 pixels. The serialized model passed at 886/370/196 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_woodcutter_camp_future_v0",
+          "evidence_sha256": "d77574d8a900035eb6c8b047f119cd444e612b9eb91ef473f0cff3834333ce63",
+          "observations": "The cyan roof and small equipment chest progress to a pale glass vault and gold fittings over a sturdy dwarf workshop. The brown log ends and the wedge embedded in the round block survive the small view. The serialized model passed at 910/394/208 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "ea13dfd7bc0647ff6a25721ed8f407fdfe04c7715b6b14c2ca320520c0597e5b",
+          "observations": "The orange roof edge and dark boiler finish switch to light steel on the Modern shed. Log ends, a sawdust-colored line of chips and the working block describe the job compactly in the 64-pixel yard. The serialized model passed at 910/394/208 triangles. The updated validator reported zero exposed coplanar pairs, inverted shells or duplicate LOD0 shapes.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent extraction critic, art director correction review",
+      "models": [
+        {
+          "id": "bld_dwarf_coal_mine_industrial_v0",
+          "evidence_sha256": "fba9985b8c94e71860cb8bf347fc91e0ffa746c157ca01ece5b708e143711019",
+          "observations": "The square overhead bunker, dark heap and long diagonal feed belt separate coal from the open-legged Mine and stepped GoldMine at 64 pixels. The stack clears the bunker rim, the belt lands on a masonry foot, and the shed door faces the open apron. Rust brick with a dark rim, pale masonry with an orange belt, and a bronze rim on reddish paving distinguish Industrial, Modern and Renaissance. At LOD2 the pile is simpler, but its raised storage bay and incline keep the same profile. Validated LOD triangle counts were 902/528/238.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_coal_mine_future_v0",
+          "evidence_sha256": "bc18505fa32f19f14066f729001c253140bf2665723c882e45aa695a509a75c1",
+          "observations": "A bright enclosed incline runs from the ground-level footing to the rim of the elevated coal bin. The dark heap remains visible against the pale bin wall, with the rear blue feed housing and stepped doorway giving separate upper and lower work areas. The capped housing and bin lip shift from silver to gold between Information and Ascension. At 64 pixels all three meshes retain the strong diagonal and squared bunker that distinguish this operation from the hoist and wash beds. Validated LOD triangle counts were 956/628/294.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_gold_mine_ancient_v0",
+          "evidence_sha256": "fcc9da694790af2deab339c7e589372348023f5f9bdc64b2329cf02ba124e73b",
+          "observations": "Three timber-rimmed blue wash beds descend from the short stone header past a low brown work shed. Gold flecks track the riffles in the front bed and an ochre fitting sits under the header. The squat Iron silhouette is easy to pick out beside the generic Mine's tall, narrow timber frame. At 64 pixels the broad steps carry the identity at every LOD, including the simplified top basin and plainer bottom bed on LOD2. Validated LOD triangle counts were 1031/586/242.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_gold_mine_classical_v0",
+          "evidence_sha256": "2205dd2eeba4c7a5952bdd3d8baa5fa35728cba6d785f8c179d15eb0fae8ab62",
+          "observations": "Two square pillars carry a red-edged header over three descending blue troughs. A small fitting hangs in the upper gap and a pitched shed marks the near corner. The white stone and red shed of Classical give way to dark Medieval paving and roofing, then warm tan Renaissance stone. Across the three LODs the open upper span and terraces stay clear at 64 pixels, distinct from the peaked generic hoist and the Renaissance coal bunker. Validated LOD triangle counts were 1079/686/302.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_gold_mine_industrial_v0",
+          "evidence_sha256": "a398ccaaae4292da233e33a16d2d10736c10809bb040ffa33a37340c028dd7d3",
+          "observations": "A horizontal, banded sorting drum on two piers crowns the three blue wash beds. Its end hub projects clearly at full size. Rust masonry and dark iron in Industrial shift to pale supports and orange drum bands in Modern. The bands simplify to the ends at LOD2, while the cylinder, stair-step profile and lower shed still distinguish the gold works from the generic hoist and coal bin at 64 pixels. Validated LOD triangle counts were 1299/770/266.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_gold_mine_future_v0",
+          "evidence_sha256": "39c9ae495fb9fdbf4f720b38012fc64430d4efd0f8fc8712d03e5330ac37392e",
+          "observations": "Paired inward-curving stone arms frame a cyan crystal above the washing terraces. Three bright water surfaces and a low side shed stay visible even as the tiny gold riffle details simplify. The cap remains blue in Information, while the ledges, crystal seat and right-hand trim turn gold in Ascension. The forked crown and stepped front read at 64 pixels on all three meshes beside the open Mine and the inclined coal feeder. Validated LOD triangle counts were 1019/602/306.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_coal_mine_future_v0",
+          "evidence_sha256": "83643cecb9a9a80cd95aa4c3d92b6ae35aa93d362a40522f948af972c6051127",
+          "observations": "The top bunker, coal load and angled conveyor form a coherent mine even at LOD1. The Industrial comparison has the same tower, descending belt and low receiving building. The cyan belt largely accounts for the sense of a later era.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 82,
+            "construction": 92,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the future mine a different extraction and loading system. Break the present stacked bunker and diagonal-conveyor profile using a recessed lift and a horizontal loading bay."
+          ],
+          "lod_triangles": [
+            956,
+            544,
+            294
+          ]
+        },
+        {
+          "id": "bld_dwarf_gold_mine_classical_v0",
+          "evidence_sha256": "d9f4f8c436aaed00081c646a2eaa690a0ccd648dd110654d2a16bf8520b6f4bf",
+          "observations": "The blue sluices step down from a high lintelled header to a low work shed. Each basin is visible from above, and the open frame distinguishes the Classical head from the solid Industrial cover and the split Future head. LOD1 keeps both bearing posts and the shed entrance.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 92,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1079,
+            614,
+            302
+          ]
+        },
+        {
+          "id": "bld_dwarf_oil_well_future_v0",
+          "evidence_sha256": "41cf72605f490e9864cc5747509a2660e0962068d81d366497d1d29c2a188b8a",
+          "observations": "The two cylindrical storage tanks sit separately from a high vertical extraction head on a stepped platform. Both unpainted views distinguish the compact unit from the Industrial walking beam. LOD1 keeps a continuous post, head cover and tank rims.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 92,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            678,
+            374,
+            184
+          ]
+        },
+        {
+          "id": "bld_dwarf_sawmill_future_v0",
+          "evidence_sha256": "58d0760c6d50206fdfc283cd2898c5f673ff80a86dfb92d6a98ad84ab32baba4",
+          "observations": "A single log feeds through the tall enclosed portal alongside a square stack of cut timber. The white arch drops onto two thick cheeks, unlike the earlier low shed and wheel. LOD1 loses the blue roof insert, but keeps the roof, throat and log route.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            514,
+            276,
+            142
+          ]
+        },
+        {
+          "id": "bld_dwarf_stone_quarry_classical_v0",
+          "evidence_sha256": "430adadfabb52d60caaacf83179d367fb6869469993263f6023513e6deac1cfc",
+          "observations": "A spoked winding wheel stands proud of the masonry ledges above the sled and hoisted block. It changes the quarry outline from the Ancient low stepped machinery. Wheel bearings, braced boom and lift line still read in the middle mesh.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            668,
+            370,
+            161
+          ]
+        },
+        {
+          "id": "bld_dwarf_stone_quarry_future_v0",
+          "evidence_sha256": "36dd9200999c8bd769a84bff90867e2dee555b0c3b2751cacc7026330efa6f0e",
+          "observations": "Twin thick foundations carry the drill bridge above a visible open cutting slot. The suspended vertical head distinguishes it from both the exposed timber hoist and the belt-driven Industrial plant without colour. Both abutments and the upper bridge survive LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            654,
+            382,
+            162
+          ]
+        },
+        {
+          "id": "bld_dwarf_stone_quarry_industrial_v0",
+          "evidence_sha256": "ed0c10c08158057b3ef899b8a529ccfdef940ffd98ad220c4fcc8ee0b40ab9a5",
+          "observations": "The horizontal drive belt, two wheels and chimney form a low linear quarry machine. They read clearly beside the earlier high hoist and later twin-abutment bridge. The LOD1 machinery stays attached to the support wall and stone bed.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 92,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            850,
+            502,
+            180
+          ]
+        },
+        {
+          "id": "bld_dwarf_woodcutter_camp_classical_v0",
+          "evidence_sha256": "e731063282180f0782c9532500e2794e3955f27370c9baa8636c78b6e7b068e3",
+          "observations": "The open four-post cutting shelter leaves air beneath a broad pitched roof, with split ends and rounds at the front. In the unpainted family it reads distinctly from the Ancient enclosed hut. The roof and posts remain at LOD1 even as the smallest loose billets disappear.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            610,
+            280,
+            186
+          ]
+        },
+        {
+          "id": "bld_dwarf_woodcutter_camp_future_v0",
+          "evidence_sha256": "54a5f106333465d8190ec40c889a8f184f3d09217825e809148eb3e89ad19c33",
+          "observations": "Three large logs lead to a powered arm working across them beside a compact control cabin. In grey the arm and log cradle distinguish the model from the earlier tall derrick. LOD1 retains the arm pivot, log stops and cabin roof.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            716,
+            372,
+            222
+          ]
+        },
+        {
+          "id": "bld_dwarf_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "e1641238b190215b58a04492d0e1726bd31a8bc1d882dcacd7b19122f6d491b2",
+          "observations": "A triangulated timber derrick leans over the timber bed alongside a compact boiler. The triangular opening makes the Industrial mechanism distinct from both adjacent eras at phone scale. The mast feet, stay, boiler seat and log roll remain visible at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            818,
+            450,
+            147
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_dwarf_coal_mine_future_v0",
+          "evidence_sha256": "217bdd4d0402820c3e4c344bf6ff0590b05f51d793890099581d73dc198e6b00",
+          "observations": "A roofed lift stands over a recessed shaft alongside a bank of loaded coal bins and a low loading shelter. That horizontal work yard separates it from the Industrial conveyor-and-tower outline at 64 px. The middle mesh keeps the shaft frame, open centre and bin walls.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            802,
+            468,
+            245
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_gold_mine_classical_v0",
+          "evidence_sha256": "833977f7ef307951d5de565f343093c006a44ddd16045f49b0976a5e912ea981",
+          "observations": "The sluice tiers, open header, two heavy supports and low shed roof stay intact. Fine gold pieces drop out of the water trays at LOD1 without breaking the channel.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 92,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1079,
+            614,
+            302
+          ]
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_dwarf_mine_classical_v0",
+          "evidence_sha256": "c0fd0f381ff05fae9ef3d105046202cfb3ecb3453f0f1c11fc09e50bcbeda369",
+          "observations": "The separate spoked winding wheel and faceted mine portal make two distinct forms, with a spoil bin between their approaches. The side view exposes the wheel's stone support. Its openings simplify at the far level but the wheel and portal remain legible.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            968,
+            504,
+            283
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_mine_ancient_v0",
+            "b": "bld_dwarf_mine_classical_v0",
+            "matched": 0,
+            "total": 2874
+          }
+        },
+        {
+          "id": "bld_dwarf_mine_future_v0",
+          "evidence_sha256": "6644205c3541dea2b260107a6726766875845ee517fdf3c3f94527a548ca92ec",
+          "observations": "The hoist yoke straddles a circular shaft and suspends a bucket beside a flat-roofed service block. The small ore tray sits clear of the shaft. Its rear opening, supported lintel and bucket remain visible at every distance.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            819,
+            465,
+            236
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_mine_ancient_v0",
+            "b": "bld_dwarf_mine_future_v0",
+            "matched": 0,
+            "total": 2874
+          }
+        },
+        {
+          "id": "bld_dwarf_mine_industrial_v0",
+          "evidence_sha256": "95af42d8e2fed428446516c020a74e7fcc6c83cf3197f69f834de522129b0ca9",
+          "observations": "The tall braced headhouse drops into a receiving bin while the separate sloping conveyor reaches the low shed. Side and reverse views show the four supporting legs and a clear space under the conveyor. The far silhouette keeps those load paths.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            727,
+            394,
+            225
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_dwarf_mine_ancient_v0",
+            "b": "bld_dwarf_mine_industrial_v0",
+            "matched": 0,
+            "total": 2874
+          }
+        }
+      ]
+    }
+  ]
+}

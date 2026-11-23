@@ -1,0 +1,752 @@
+[
+ {
+  "id": "bld_human_arcology_future_v0",
+  "kind": "townhall",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Arcology",
+  "race": "human",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 2338,
+  "lod_triangles": [
+   2338,
+   1332,
+   490
+  ],
+  "bounds": [
+   [
+    -1.1950000524520874,
+    0.0,
+    -1.2235000133514404
+   ],
+   [
+    1.1950000524520874,
+    2.8094820976257324,
+    1.0750000476837158
+   ]
+  ],
+  "bytes": 359296,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_arcology_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_arcology_future_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_arcology_future_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_arena_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Arena",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1208,
+  "lod_triangles": [
+   1208,
+   450,
+   220
+  ],
+  "bounds": [
+   [
+    -1.3459618091583252,
+    0.0,
+    -1.322899341583252
+   ],
+   [
+    1.3459618091583252,
+    1.0199999809265137,
+    1.1529476642608643
+   ]
+  ],
+  "bytes": 152268,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_arena_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_arena_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_arena_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_arena_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_arena_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_arena_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Arena",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 984,
+  "lod_triangles": [
+   984,
+   560,
+   288
+  ],
+  "bounds": [
+   [
+    -1.3300000429153442,
+    0.0,
+    -1.322899341583252
+   ],
+   [
+    1.3300000429153442,
+    1.0800000429153442,
+    1.1222573518753052
+   ]
+  ],
+  "bytes": 145368,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_arena_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_arena_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_arena_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_arena_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_arena_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Arena",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1079,
+  "lod_triangles": [
+   1079,
+   520,
+   336
+  ],
+  "bounds": [
+   [
+    -1.3650000095367432,
+    0.0,
+    -1.159999966621399
+   ],
+   [
+    1.3650000095367432,
+    1.3300000429153442,
+    1.159999966621399
+   ]
+  ],
+  "bytes": 139444,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_arena_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_arena_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_arena_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_arena_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_campfire_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Campfire",
+  "race": "human",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 466,
+  "lod_triangles": [
+   466,
+   251,
+   125
+  ],
+  "bounds": [
+   [
+    -0.4748045802116394,
+    0.0,
+    -0.3149999976158142
+   ],
+   [
+    0.4748045802116394,
+    0.3930000066757202,
+    0.4290291666984558
+   ]
+  ],
+  "bytes": 78388,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_campfire_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_campfire_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_campfire_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_campfire_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_campfire_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_human_campfire_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Campfire",
+  "race": "human",
+  "ages": [
+   "classical"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 550,
+  "lod_triangles": [
+   550,
+   313,
+   173
+  ],
+  "bounds": [
+   [
+    -0.44224587082862854,
+    0.0,
+    -0.3199999928474426
+   ],
+   [
+    0.44224587082862854,
+    0.5740000009536743,
+    0.41954582929611206
+   ]
+  ],
+  "bytes": 96320,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_campfire_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_campfire_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_campfire_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_forum_classical_v0",
+  "kind": "townhall",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Forum",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 510,
+  "lod_triangles": [
+   510,
+   290,
+   144
+  ],
+  "bounds": [
+   [
+    -1.350000023841858,
+    0.0,
+    -0.9415000081062317
+   ],
+   [
+    1.350000023841858,
+    1.4570000171661377,
+    0.8399999737739563
+   ]
+  ],
+  "bytes": 79192,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_forum_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_forum_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_forum_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_forum_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_forum_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_forum_future_v0",
+  "kind": "townhall",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Forum",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 567,
+  "lod_triangles": [
+   567,
+   322,
+   174
+  ],
+  "bounds": [
+   [
+    -1.350000023841858,
+    0.0,
+    -0.9415000081062317
+   ],
+   [
+    1.350000023841858,
+    1.4110000133514404,
+    0.8399999737739563
+   ]
+  ],
+  "bytes": 88628,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_forum_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_forum_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_forum_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_forum_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_forum_industrial_v0",
+  "kind": "townhall",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Forum",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 782,
+  "lod_triangles": [
+   782,
+   352,
+   248
+  ],
+  "bounds": [
+   [
+    -1.3450000286102295,
+    0.0,
+    -0.8604999780654907
+   ],
+   [
+    1.3450000286102295,
+    2.052000045776367,
+    0.8849999904632568
+   ]
+  ],
+  "bytes": 103764,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_forum_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_forum_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_forum_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_forum_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_stadium_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Stadium",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1176,
+  "lod_triangles": [
+   1176,
+   688,
+   308
+  ],
+  "bounds": [
+   [
+    -1.3600000143051147,
+    0.0,
+    -1.3650000095367432
+   ],
+   [
+    1.3600000143051147,
+    1.1390000581741333,
+    1.3650000095367432
+   ]
+  ],
+  "bytes": 160300,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_stadium_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_stadium_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_stadium_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_stadium_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_stadium_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Stadium",
+  "race": "human",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 924,
+  "lod_triangles": [
+   924,
+   526,
+   264
+  ],
+  "bounds": [
+   [
+    -1.4036569595336914,
+    0.0,
+    -1.3650000095367432
+   ],
+   [
+    1.4036569595336914,
+    1.1178624629974365,
+    1.3650000095367432
+   ]
+  ],
+  "bytes": 138656,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_stadium_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_stadium_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_stadium_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_tavern_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Tavern",
+  "race": "human",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 742,
+  "lod_triangles": [
+   742,
+   422,
+   216
+  ],
+  "bounds": [
+   [
+    -0.8149999976158142,
+    0.0,
+    -0.7558119893074036
+   ],
+   [
+    0.8872330784797668,
+    1.335832118988037,
+    0.6600000262260437
+   ]
+  ],
+  "bytes": 111252,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_tavern_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_tavern_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_tavern_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_tavern_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_tavern_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Tavern",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 963,
+  "lod_triangles": [
+   963,
+   434,
+   272
+  ],
+  "bounds": [
+   [
+    -0.8650000095367432,
+    0.0,
+    -0.8199999928474426
+   ],
+   [
+    0.8650000095367432,
+    1.2589999437332153,
+    0.8199999928474426
+   ]
+  ],
+  "bytes": 127864,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_tavern_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_tavern_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_tavern_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_tavern_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_tavern_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Tavern",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 627,
+  "lod_triangles": [
+   627,
+   342,
+   152
+  ],
+  "bounds": [
+   [
+    -0.875,
+    0.0,
+    -0.7549999952316284
+   ],
+   [
+    0.875,
+    1.8289999961853027,
+    0.8450000286102295
+   ]
+  ],
+  "bytes": 85136,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_tavern_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_tavern_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_tavern_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_tavern_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_theater_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Theater",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 614,
+  "lod_triangles": [
+   614,
+   352,
+   148
+  ],
+  "bounds": [
+   [
+    -0.8899999856948853,
+    0.0,
+    -0.8108400702476501
+   ],
+   [
+    0.8899999856948853,
+    1.440999984741211,
+    0.9150000214576721
+   ]
+  ],
+  "bytes": 85788,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_theater_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_theater_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_theater_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_theater_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_theater_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_theater_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Theater",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 638,
+  "lod_triangles": [
+   638,
+   324,
+   189
+  ],
+  "bounds": [
+   [
+    -0.8700000047683716,
+    0.0,
+    -0.8600000143051147
+   ],
+   [
+    0.8700000047683716,
+    1.1469999551773071,
+    0.8799999952316284
+   ]
+  ],
+  "bytes": 85328,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_theater_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_theater_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_theater_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_theater_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_theater_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/CultureCivic",
+  "building_type": "Theater",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 316,
+  "lod_triangles": [
+   316,
+   156,
+   88
+  ],
+  "bounds": [
+   [
+    -0.8299999833106995,
+    0.0,
+    -0.906499981880188
+   ],
+   [
+    0.75,
+    1.5225000381469727,
+    0.9150000214576721
+   ]
+  ],
+  "bytes": 44832,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/CultureCivic/bld_human_theater_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_theater_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_theater_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/CultureCivic/bld_human_theater_industrial_v0__modern.png"
+  }
+ }
+]

@@ -1,0 +1,1053 @@
+{
+  "package": "saurian_extraction",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "sun_critic",
+      "models": [
+        {
+          "id": "bld_saurian_coal_mine_future_v0",
+          "evidence_sha256": "a4902a43841954a3d2fccaad12350b5477b014397e5a5d7d4d17ba1330633fcb",
+          "observations": "The capped glass vent stack and dark coal load stand apart from the pale hill. The roofed tall headframe preserves the mine outline at 64 px. The lower arc of the turning wheel intersects the solid platform. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 85,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Clear the rotating sheave from the solid headframe deck. The wheel bottom is h-0.077, the top of the solid deck is h+0.052 and the deck spans the wheel plane. Split the deck into front and rear bearing beams or raise the wheel and refit its bearings."
+          ]
+        },
+        {
+          "id": "bld_saurian_coal_mine_industrial_v0",
+          "evidence_sha256": "9b9d7ed1789b9f1945a161481fd579c4268ccc396af2d9192aeebbf4ade01ecc",
+          "observations": "Brick, modern aggregate and Renaissance ochre shift the unroofed heavy frame by age. The dark spoil bin reads separately from the vent stack. The lower arc of the turning wheel intersects the solid platform. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 85,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Clear the rotating sheave from the solid headframe deck. The wheel bottom is h-0.077, the top of the solid deck is h+0.052 and the deck spans the wheel plane. Split the deck into front and rear bearing beams or raise the wheel and refit its bearings."
+          ]
+        },
+        {
+          "id": "bld_saurian_gold_mine_ancient_v0",
+          "evidence_sha256": "6897078b93bf445db93fcd9807268add75665a6529c5b6d182907261466abcd0",
+          "observations": "Iron's short timber hoist, dark door framing and turquoise riffle tray establish a hand-worked wash site. The lower arc of the turning wheel intersects the solid platform. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 85,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Clear the rotating sheave from the solid headframe deck. The wheel bottom is h-0.077, the top of the solid deck is h+0.052 and the deck spans the wheel plane. Split the deck into front and rear bearing beams or raise the wheel and refit its bearings."
+          ]
+        },
+        {
+          "id": "bld_saurian_gold_mine_classical_v0",
+          "evidence_sha256": "80fca33261ee712e50c86c0306a264041b0d1377c13f54ca33a7767b779a2de7",
+          "observations": "A roofed timber winding tower overlooks the bright sluice. The three ages give the canopy contrasting finishes and leave the rails clear. The lower arc of the turning wheel intersects the solid platform. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 85,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Clear the rotating sheave from the solid headframe deck. The wheel bottom is h-0.077, the top of the solid deck is h+0.052 and the deck spans the wheel plane. Split the deck into front and rear bearing beams or raise the wheel and refit its bearings."
+          ]
+        },
+        {
+          "id": "bld_saurian_gold_mine_future_v0",
+          "evidence_sha256": "5bdb002c6b03158fa99a8e4fa9ff5baf96d68e45d6d0f00c64f26c8c3572a5b0",
+          "observations": "The tall metal hoist and glazed roof place the colorful washing tray against a pale hill in Information and Ascension. The lower arc of the turning wheel intersects the solid platform. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 85,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Clear the rotating sheave from the solid headframe deck. The wheel bottom is h-0.077, the top of the solid deck is h+0.052 and the deck spans the wheel plane. Split the deck into front and rear bearing beams or raise the wheel and refit its bearings."
+          ]
+        },
+        {
+          "id": "bld_saurian_gold_mine_industrial_v0",
+          "evidence_sha256": "6813f1abdd3ca66e2bdce57e5433f36d648f24c4941df25361868f3a592d7d0f",
+          "observations": "Industrial steel and Modern concrete contrast against the gold-riffled tray. The open metal headframe remains legible with the shed compressed to phone scale. The lower arc of the turning wheel intersects the solid platform. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 85,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Clear the rotating sheave from the solid headframe deck. The wheel bottom is h-0.077, the top of the solid deck is h+0.052 and the deck spans the wheel plane. Split the deck into front and rear bearing beams or raise the wheel and refit its bearings."
+          ]
+        },
+        {
+          "id": "bld_saurian_mine_ancient_v0",
+          "evidence_sha256": "80f6060b8356573ecd292ab9e7197783d6007fa0ac6bfc367388ad87235032cb",
+          "observations": "A broad open timber sheave frame and ore tub flank the short rail pair in Bronze and Iron. The lower arc of the turning wheel intersects the solid platform. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 85,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Clear the rotating sheave from the solid headframe deck. The wheel bottom is h-0.077, the top of the solid deck is h+0.052 and the deck spans the wheel plane. Split the deck into front and rear bearing beams or raise the wheel and refit its bearings."
+          ]
+        },
+        {
+          "id": "bld_saurian_mine_classical_v0",
+          "evidence_sha256": "6435e43eea5fa9c8ab926ec882f8054c0bd31bd95633addd3225364400a988aa",
+          "observations": "The angular canopy and front ore bin balance the dark adit in all three ages. The sun plaque and turquoise jar remain distinct details. The lower arc of the turning wheel intersects the solid platform. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 85,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Clear the rotating sheave from the solid headframe deck. The wheel bottom is h-0.077, the top of the solid deck is h+0.052 and the deck spans the wheel plane. Split the deck into front and rear bearing beams or raise the wheel and refit its bearings."
+          ]
+        },
+        {
+          "id": "bld_saurian_mine_future_v0",
+          "evidence_sha256": "f76007765f59deadd911bbd961241f7812105347a682b4126c4b4df7ad0569e8",
+          "observations": "A metal hoist with a pale cap and glazed roof dominates the ore bin. The sun-set lintel distinguishes the adit amid the pale rock. The lower arc of the turning wheel intersects the solid platform. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 85,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Clear the rotating sheave from the solid headframe deck. The wheel bottom is h-0.077, the top of the solid deck is h+0.052 and the deck spans the wheel plane. Split the deck into front and rear bearing beams or raise the wheel and refit its bearings."
+          ]
+        },
+        {
+          "id": "bld_saurian_mine_industrial_v0",
+          "evidence_sha256": "e4c2d8d1417192f5eb43301870196c2e11ba138eac5a8c148c4cf30b08e2d0aa",
+          "observations": "The tall iron legs and uncovered sheave give this mine an industrial profile in both rows. The rails lead unmistakably to the door. The lower arc of the turning wheel intersects the solid platform. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 85,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Clear the rotating sheave from the solid headframe deck. The wheel bottom is h-0.077, the top of the solid deck is h+0.052 and the deck spans the wheel plane. Split the deck into front and rear bearing beams or raise the wheel and refit its bearings."
+          ]
+        },
+        {
+          "id": "bld_saurian_oil_well_future_v0",
+          "evidence_sha256": "6ef64f6ccf4b735c420da6af204f76603911d755ea9f200d8b26b2d349bec7ec",
+          "observations": "Two enamel-capped tanks mark the advanced pumpworks. The gold pivot and small blue gauge contrast against the bright beams. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 89,
+            "charm": 91,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the pump-house jambs and lintel in its front wall. The tapered slab recedes about 0.034 while the jamb backs reach only z=-0.108, leaving the upper fittings detached. Use a vertical front or follow the wall slope."
+          ]
+        },
+        {
+          "id": "bld_saurian_oil_well_industrial_v0",
+          "evidence_sha256": "1ba4cfda5761224d96c60b59ed44bbee0bd8c8c47fee69c372b4d5aa2ce554f7",
+          "observations": "The single steel tank and long walking beam read as a pumpjack at thumbnail size. The polished pivot breaks up the dark frame. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 89,
+            "charm": 91,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the pump-house jambs and lintel in its front wall. The tapered slab recedes about 0.034 while the jamb backs reach only z=-0.108, leaving the upper fittings detached. Use a vertical front or follow the wall slope."
+          ]
+        },
+        {
+          "id": "bld_saurian_sawmill_future_v0",
+          "evidence_sha256": "258c9d0c759bdb7b8f5dcabd32f36fa886201a42221c143823a5c3c9cd3ef004",
+          "observations": "Logs, blue roof and a separate saw station define the yard. The ivory blade and pale tabletop lose their edge separation at 64 px. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 87,
+            "technical": 99
+          },
+          "defects": [
+            "Give the cutting edge a distinct metal tone against the bench and larger directional saw teeth. The ivory blade reads as a pale semicircular plaque at 64 px."
+          ]
+        },
+        {
+          "id": "bld_saurian_sawmill_industrial_v0",
+          "evidence_sha256": "831b113e181262771af3dbb1c7228ae5f2e7636256cfb00ce1e2a2cf90e462bb",
+          "observations": "The flue and red-brick or concrete cutting shed distinguish the industrial sawmill. In both rows the shallow light blade looks like a half-disc plaque on a matching bench. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 87,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 87,
+            "technical": 99
+          },
+          "defects": [
+            "Give the cutting edge a distinct metal tone against the bench and larger directional saw teeth. The ivory blade reads as a pale semicircular plaque at 64 px."
+          ]
+        },
+        {
+          "id": "bld_saurian_stone_quarry_ancient_v0",
+          "evidence_sha256": "2d91f85b7b10ee9516817aa07c6030856647584b9d8872ce9f502188ae62dcc9",
+          "observations": "The young quarry has square fresh-cut blocks, layered benches and a simple timber jib in all three ages. The lifted stone visually meets the lower ledge. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 86,
+            "charm": 91,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Lift the hoisted block clear of the lowest terrace. Its bottom at y=0.260 overlaps the bench top at 0.275. Refit the rope and run the sling outside the stone to a visible under-strap or lifting clamp."
+          ]
+        },
+        {
+          "id": "bld_saurian_stone_quarry_classical_v0",
+          "evidence_sha256": "cb72603192991ce71e51b37cba53e904bc8940d14ae13bdbc28c9e90940e3cbb",
+          "observations": "The longer jib and pale cut benches sit clearly behind three staged blocks. The suspended stone merges with the face of the first terrace. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 86,
+            "charm": 91,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Lift the hoisted block clear of the lowest terrace. Its bottom at y=0.260 overlaps the bench top at 0.275. Refit the rope and run the sling outside the stone to a visible under-strap or lifting clamp."
+          ]
+        },
+        {
+          "id": "bld_saurian_stone_quarry_future_v0",
+          "evidence_sha256": "525a6ebee133aca279c39ff3f43c5d269f93c14cbe4937a5c02a7bcece2c26d6",
+          "observations": "The blue winch housing and metal derrick mark a technologically advanced quarry. The lifted stone is difficult to separate from the first step. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 86,
+            "charm": 91,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Lift the hoisted block clear of the lowest terrace. Its bottom at y=0.260 overlaps the bench top at 0.275. Refit the rope and run the sling outside the stone to a visible under-strap or lifting clamp."
+          ]
+        },
+        {
+          "id": "bld_saurian_stone_quarry_industrial_v0",
+          "evidence_sha256": "c1f25b3fe645a66e29da9c3f9a5609a98a9190bc1f30db8adb97f6b170e9533f",
+          "observations": "The overhead boom is distinct from the bench steps, but the supposed lifted block intersects the lowest one. Industrial's red-brick middle terrace and dressed blocks read as constructed masonry. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 86,
+            "construction": 86,
+            "charm": 91,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Lift the hoisted block clear of the lowest terrace. Its bottom at y=0.260 overlaps the bench top at 0.275. Refit the rope and run the sling outside the stone to a visible under-strap or lifting clamp.",
+            "Use natural cut stone on the quarried stratum and staged blocks. Industrial currently skins both in red masonry, making the exposed rock face read as manufactured brick courses."
+          ]
+        },
+        {
+          "id": "bld_saurian_woodcutter_camp_ancient_v0",
+          "evidence_sha256": "2714ccff4f04344da408afc0d014d0d4c200b1b497bb30c7cd1b13a8b4bf80d1",
+          "observations": "Long tapered logs, ringed end cuts and a stump with new shoots identify a small cutting yard at all three ages. The walking approach remains open between the stump and stack. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_woodcutter_camp_classical_v0",
+          "evidence_sha256": "a74668d7c263e3efdd23423466ccf4e508dfdf67052ce6ce05023738fbff436e",
+          "observations": "The roof cap, stump sprouts and marked timber ends remain distinct against the soil platform. The darker Medieval roof is legible beside the tan Classical and Renaissance roofs. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_woodcutter_camp_future_v0",
+          "evidence_sha256": "9504b367b1a817b20d5d6fff24f962e23b3951d45e034450598fa854548f20a7",
+          "observations": "Glazed roofs and a vent stack set the high-tech grading hut apart from the marked logs. The bright cut surfaces and sprouting stump explain the yard at 64 px. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "a424225a38afda6cfc64bb6f9b78667f0e270219d8e979ed994beee7e9f23c47",
+          "observations": "The red-brick or concrete hut and smoking-stack silhouette remain clearly behind the cut logs. Round end grain and the sprouting stump give the working yard a readable asymmetry. Serialized validation passed for all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "sun_critic",
+      "models": [
+        {
+          "id": "bld_saurian_coal_mine_future_v0",
+          "evidence_sha256": "cbc78753b52866ab9f23670bfea7146af49f82b26cdd0b7cb00abdc29b9aff2c",
+          "observations": "The roofed sheave fits in the open cradle above the ore hopper. The vent stack stays distinct beside the cold gray or gold frame. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_coal_mine_industrial_v0",
+          "evidence_sha256": "76e09b7aa39e7d0e5c4be09150638f3456d3171ea45e5a30227a45a545bb9ddb",
+          "observations": "The separate bearing rails leave the exposed wheel legible above the Industrial, Modern and Renaissance shaft. The dark coal load and side stack remain clear. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_gold_mine_ancient_v0",
+          "evidence_sha256": "731b2dd443dff7b0d3e867283b8cc025535c3c5aa4ce284cf7c0192597a63f5b",
+          "observations": "The hand-powered wheel has room in its new timber bearings, with the gold-wash tray and short tram rail in front. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_gold_mine_classical_v0",
+          "evidence_sha256": "901b3797f8b2f1549d51ba2a0a3938f9ffd4c45dc64ea0fb331f4dc61aeb91c0",
+          "observations": "The roofed winch now has visible bearing support and an unobstructed wheel plane in all three ages. The colored riffle trough still defines the working floor. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_gold_mine_future_v0",
+          "evidence_sha256": "84cb2140a50c2c46a6f382f4ca611f3dea0eb3e4fa85df466363a1eb1fafb2a9",
+          "observations": "The supported wheel turns between bearing beams below its glass hood. The gold grid on turquoise remains readable beside the pale rock. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_gold_mine_industrial_v0",
+          "evidence_sha256": "8b190df5c7c7d3d336b4ee9926200eae8d623df1a142ff7e7af6f2d5bf5da683",
+          "observations": "The outside bearing pad now projects from the open metal headframe. Both age treatments preserve the separate sluice, shaft entry and track. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_mine_ancient_v0",
+          "evidence_sha256": "2e84c85e9dc46e7c92d18fec2788c5fd4b20dc8f67a7f3889b8b220f88cc58b8",
+          "observations": "The low timber sheave has an open slot and bearing support. The lighter Bronze ore and darker Iron ore still read in the bin ahead of the adit. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_mine_classical_v0",
+          "evidence_sha256": "5f69b41335e8c889975d6a77bdbffe0722fea3c1f5bafa764f6be8184e0e296a",
+          "observations": "The separate bearings and roof posts support the sheave and canopy independently. The timber bunker remains a clear signature of this model. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_mine_future_v0",
+          "evidence_sha256": "12f53e09c2283037360975c962cdb18d428377db699b79ba3347dcb58329ca12",
+          "observations": "The capped metal hoist now exposes its bearing slot above the mound. The pale trim and ore loading bin still separate visibly in the two future rows. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_mine_industrial_v0",
+          "evidence_sha256": "fbf7716510bfd2bc9fc488b59f45e8c1d9242dcbe5ebb76db2344019bd392a3e",
+          "observations": "The high uncovered wheel retains its round silhouette between the new bearing beams. The low metal bunker and short track distinguish the working area. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_oil_well_future_v0",
+          "evidence_sha256": "2f712101d17f6b73f5c66ff8c8dd3c03963a41569949b6a8cb313fd3d0e1f01f",
+          "observations": "The pump house now has a vertical entry wall, so its jambs and lintel meet the facade below the walking beam and paired tanks. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_oil_well_industrial_v0",
+          "evidence_sha256": "cb988a59ab4c6e48166c2e49455e57da48a284f433311cec8d3ce7728de9cca3",
+          "observations": "The Modern pump-house doorway now seats correctly under its triangular supports. The large single tank leaves the doorway visible from the main approach. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_sawmill_future_v0",
+          "evidence_sha256": "88291f14df4cae20151c0497c2e0da84cce054b64d0e8668e24202a7dcc4f269",
+          "observations": "The new dark, toothed cutting disc contrasts with the timber bench below the blue roof. Its irregular saw edge survives thumbnail reduction in both age rows. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_sawmill_industrial_v0",
+          "evidence_sha256": "c235dc9d37b8c0ad0e199ccc0e92051d387fa7e905979acb4efc97ab53abc169",
+          "observations": "The saw teeth and timber table are distinguishable beneath both brick and concrete sheds. The bright log ends and hub lead the eye toward the cut. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_stone_quarry_ancient_v0",
+          "evidence_sha256": "7f73de4b08fbbb08788597fd920ae33ff7327a6d1ae1ba6eab89a6a767430ccd",
+          "observations": "A visible under-strap lifts the block clear of the first rock bench. Timber derrick and marked dressed blocks remain distinct across all three early rows. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_stone_quarry_classical_v0",
+          "evidence_sha256": "46170f4b38626da978e3e754fbfd44556adaf431d219d28873087b7ee5ea3142",
+          "observations": "The slung block clears the lowest ledge and its gold lifting legs run outside the load. The pale and slate quarry treatments retain their stepped cut faces. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_stone_quarry_future_v0",
+          "evidence_sha256": "feb2ab63ae59cdc3b2811dd0db98eeb6f0196d4c03f0066c11b7a33e4ee48f76",
+          "observations": "The metal winch frames a suspended stone with a readable dark under-strap. The clean pale benches and staged blocks still identify the quarry at 64 px. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_stone_quarry_industrial_v0",
+          "evidence_sha256": "0be039f99d02d31e054647e118f5a5cd70ff90c32784f7fd76f05f84c9d9201a",
+          "observations": "Cut blocks and benches now share natural gray rock in Industrial and Modern. The freed load and exterior sling read clearly beside the taller steel derrick. The serialized GLB passes all three LOD checks.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "critic_saur_extraction_director",
+      "models": [
+        {
+          "id": "bld_saurian_stone_quarry_ancient_v0",
+          "evidence_sha256": "13109208e53fa87ae833fb3a0d3e793214a608c94fc35f91e1d058603159ac9b",
+          "observations": "At 64 px the three broad stepped benches move from warm brown in Dawn to light ochre in Bronze to grey stone in Iron. The dark derrick, suspended block and front staging area keep their silhouettes across all three rendered GLB levels. The 690, 405 and 212 triangle meshes pass serialized validation.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_woodcutter_camp_ancient_v0",
+          "evidence_sha256": "8110eb815246eaac9514832065fcb837393dc510225d415ea4b77a5004b7eb69",
+          "observations": "The logs, hut and stump mark a woodcutting yard at 64 px. Iron's dark green roof clearly separates from Bronze. Dawn's thatch pattern is visible at 224 px, but at 64 px its yellow-olive mass matches Bronze closely in the saved previews and all three rendered GLB levels. The 1017, 508 and 155 triangle meshes pass serialized validation.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 86,
+            "technical": 99
+          },
+          "defects": [
+            "Give the broad Dawn and Bronze roof planes distinct colours or values that survive reduction to 64 px on each LOD. Preserve the log and stump silhouettes."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "critic_saur_extraction_director",
+      "models": [
+        {
+          "id": "bld_saurian_woodcutter_camp_ancient_v0",
+          "evidence_sha256": "6b35c6edaf7aac5301f2f7a43772e6dbd2d925e9ee70209856562160dad1fc07",
+          "observations": "At 64 px the roof changes from deep bark brown in Dawn to bright copper ochre in Bronze, then to cool slate grey in Iron. Both transitions read on the broad roof planes in the saved previews and on each exported LOD. The stacked logs and separate stump still identify the work yard at the lowest detail. Serialized validation passed at 1017, 508 and 155 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "independent_saurian_round1_2026_11_23",
+      "models": [
+        {
+          "id": "bld_saurian_oil_well_future_v0",
+          "evidence_sha256": "3366cb0e15d345ed948a250cd309000ebf85876b7c7737b52a817d96ea807fb2",
+          "observations": "A tall braced drilling tripod replaces the old horizontal walking beam. The pale struts stay separate at the center, with two tanks at their feet. Both front and rear remain readable in the smallest mesh. The serialized meshes have 759, 398, 180 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_sawmill_future_v0",
+          "evidence_sha256": "87c1fc0499da6e5093b8c012ba88c51c8a04aace7bb9895f37bd0ebc5328491d",
+          "observations": "An arch spans an exposed log feed with timber ends on a brown yard and a teal service cylinder to one side. At 64 px the curved frame dominates in every LOD. It replaces the former enclosed square saw shed. The serialized meshes have 762, 381, 176 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 95,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_stone_quarry_future_v0",
+          "evidence_sha256": "254a0a7ab7b337e03db91d6da314ae3e892a969153fc80d95bbef3a74045cb58",
+          "observations": "The stepped rock bank, lifting jib, suspended block and stacks at the near edge are intact at the new LOD1. The same geometry reads almost identically to Industrial from both sides in unpainted 64 px views. The serialized meshes have 746, 425, 238 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.98% of front-view pixels and 0.78% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 93,
+            "identity": 84,
+            "construction": 95,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [
+            "Replace the industrial crane-and-terrace outline with a visibly different future extraction system, for example a spanning cutter gantry over an open cut."
+          ]
+        },
+        {
+          "id": "bld_saurian_stone_quarry_industrial_v0",
+          "evidence_sha256": "979c7e801d6b522cdd4a4d2e6e3ccd8c83403632e4c855116e56a9d37c9673bc",
+          "observations": "At both middle-LOD angles the upright hoist and projecting steps remain clear. Against its future and preindustrial siblings the same hoist and stockpiles occupy the same positions. The dark iron colour provides most of the age signal. The serialized meshes have 746, 425, 238 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.61% of front-view pixels and 0.73% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 93,
+            "identity": 86,
+            "construction": 95,
+            "charm": 92,
+            "colour": 92,
+            "technical": 100
+          },
+          "defects": [
+            "Give this quarry a dominant industrial mechanism or a bench arrangement that separates it from the other eras in an unpainted view."
+          ]
+        },
+        {
+          "id": "bld_saurian_woodcutter_camp_classical_v0",
+          "evidence_sha256": "3e197c19cd0bbc64dc8ba7b1aca833b46a78423c3188b470f7c6749c0bd51283",
+          "observations": "A projecting log boom and forked support rise in front of the small stepped shelter. The loose cut trunk and hoist anchor remain visible into the far LOD. This changes the old enclosed camp into an open working yard. The serialized meshes have 649, 305, 133 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_woodcutter_camp_future_v0",
+          "evidence_sha256": "6e31c756dc227f1649be0a665426df76180ee5bc66c34ef710e496d6222aedc8",
+          "observations": "The angled teal lift reaches from the round shelter toward long cut trunks. The ends read as separate cylinders even on the small mesh. The old square store and roof-top mast have been removed from the silhouette. The serialized meshes have 756, 397, 171 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "9edae5607e72d58df4b2ac509bcee6fa96d7f35d420f97deaf697db8bfa879b5",
+          "observations": "The bent timber-handling line crosses the barrel roof to the foreground trunk. A pair of parallel timber stacks still flank the works in LOD2. The new profile reads as a powered yard rather than the former pitched hut. The serialized meshes have 747, 347, 143 triangles in LOD0/1/2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_saurian_stone_quarry_future_v0",
+          "evidence_sha256": "91776f71eaf97c2a2bc7d3641cc8b5a54889e38f1523aaadf3f0c9dfe7f72c9f",
+          "observations": "Two supports carry a long cutter housing over block slabs between parallel guides. The cutting head is visible underneath from the back, and both guide walls and the full beam survive LOD1. The open cut and gantry separate from the earlier terraces and the Industrial saw.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            402,
+            229,
+            124
+          ]
+        },
+        {
+          "id": "bld_saurian_stone_quarry_industrial_v0",
+          "evidence_sha256": "24c7603a31f664662b27af0c9f7c0779650bd795859a2ecbaa3fb01f5353703e",
+          "observations": "A large dark cutting wheel stands between masonry abutments beside a barrel-roofed engine shed. Quarried blocks flank the machine, and an open service door remains visible under the shed roof. Both wheel and engine house survive the middle LOD, distinct from the older stepped quarry.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            657,
+            349,
+            163
+          ]
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_saurian_stone_quarry_future_v0",
+          "evidence_sha256": "cc25adaa6bbd341c65f0313f2929ca88f9153ffa75109ca956ca78191e59051f",
+          "observations": "The cutter head, long beam and guide rails hold their alignment above the slabs. Both full-height supports remain visible from the side and rear.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            402,
+            229,
+            124
+          ]
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_gold_mine_future_v0",
+          "evidence_sha256": "10186492e65c886b159f5dd80d4f034faf7f56c3648c75cc788d0ba321f4a191",
+          "observations": "Three clean storage tanks, pipes and a front office communicate a processing site. The pale walls and blue caps dominate from both angles, leaving no visible gold feed or product. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 929/435/206 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 13.256%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 84,
+            "construction": 93,
+            "charm": 89,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Add an exposed ore feed or sorting/wash outlet with identifiable gold or concentrate, large enough to read at 64 px."
+          ]
+        },
+        {
+          "id": "bld_saurian_mine_classical_v0",
+          "evidence_sha256": "8016990615f45e94d690bae7d3a92312b9ecdc825bc5126315b3578e3206a757",
+          "observations": "The pale stair, gold plaque and centred doorway make the stepped frontage look like a shrine. The tiers and door remain visible across LODs, but nothing on the terraces identifies active excavation. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 587/301/127 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 15.673%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 83,
+            "construction": 93,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the adit exposed ore, a spoil pile and/or a distinct haul system readable in the 64 px silhouette."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_coal_mine_future_v0",
+          "evidence_sha256": "2b67da5e72fe11706bcdc0f397814ece39b641f601116cad973698df760cc87e",
+          "observations": "The exposed bucket wheel and braced arm work above a dark coal seam, with an inclined output belt opposite. The coal face emerges in the rear view while the cutting wheel keeps an open toothed profile. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 910/518/289 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_gold_mine_classical_v0",
+          "evidence_sha256": "a527b2f17d1e72ae0f172388a35088f6e0c880a0fb3a0b5aa0644f68533fd180",
+          "observations": "A large timber waterwheel works the turquoise washing basin. The gold collection block remains visible at its lip while the small reed-roofed hut gives scale. The open wheel and basin differ from the industrial drum. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 809/461/247 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 13.256%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_gold_mine_industrial_v0",
+          "evidence_sha256": "a14c0b83e1438ea3f7b3a62d50665b6237f0a51d97a135bcfd2c01491b48a498",
+          "observations": "A broad horizontal rotary separator on two brick bases sits beside the inclined wash bed and tall furnace stack. Its turquoise bands, round end and gold cap carry through the side views. The early waterwheel and hut have a different outline. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 694/389/180 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 13.256%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_mine_future_v0",
+          "evidence_sha256": "45fe58f967c470fd5e65ce36ca74eee248cb34343017d93925ac4fcc8979c89f",
+          "observations": "Three widely spread legs support a bore over a dark ore patch. The tapered lance, rear vessel and individual footings remain distinct from two middle mesh angles. Its open triangle replaces the earlier enclosed tipple. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 642/344/191 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 15.673%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_mine_industrial_v0",
+          "evidence_sha256": "41db03ecce3edc88e7658a03a8a4a29234b4614b6a1c5ad7dc59f3609d745f5d",
+          "observations": "The high four-legged ore tipple feeds a broad inclined belt beside a low brick service room. The rear view shows the legs below the hopper. The belt and hopper remain linked on the side view. Painted previews cover industrial, modern. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 711/409/227 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 15.673%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_stone_quarry_classical_v0",
+          "evidence_sha256": "018a39ad79c8693e5b8a1b70aa5d302db5fcb1221b4f54ba47f16a94faf2c7d5",
+          "observations": "A wheel-driven lifting boom reaches over a cut block with the uncut wall behind it. Both supports and the hanging line remain evident from the side of the middle mesh. Repeated dressed blocks identify a stone yard. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 934/480/280 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_gold_mine_future_v0",
+          "evidence_sha256": "f497c0a7add33c052fcadd90364a08ece3a2a454c92249e47d55f73e1e0773cd",
+          "observations": "Visible gold lies in the hopper and collection tray and emerges from the ore-bearing outcrop beside the machine. The sloping sorting ramp gives the material a clear path between them. At 64 px the elevated throat and open equipment profile differ from the horizontal industrial drum. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 888/506/232 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 13.256%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_mine_classical_v0",
+          "evidence_sha256": "3f0778c9c77e93f05b2e01299ebf32487b0a65311db97830365b66468f64474d",
+          "observations": "A timber-framed adit penetrates a cluster of irregular rock shoulders. The loaded cart, projecting rails, ore pockets and separate spoil heap identify the work at the entrance and flank. Its lumpy rock profile and low track sit apart from the earlier hoist and the later tipple. Painted previews cover classical, medieval, renaissance. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 869/494/275 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 14.33%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 11,
+      "critic": "Independent RC4 critic, archived catalog comparison",
+      "models": [
+        {
+          "id": "bld_saurian_mine_future_v0",
+          "evidence_sha256": "45fe58f967c470fd5e65ce36ca74eee248cb34343017d93925ac4fcc8979c89f",
+          "observations": "Both unpainted angles show the same tall, open three-legged rig, apex and central shaft as the Future OilWell. The rear vessel and small patch of dark ground survive in the painted images, but they do little to distinguish mineral extraction from the oil rig. This neighboring-function comparison lowers the identity score from my earlier within-family review. Inspected the archived GLB, all 2 painted age previews, both 64 px unpainted angles, the package assembly image and middle LOD from 215°, 125° and 35°. Serialized LODs 642/344/191 passed the geometry, budget, exposed overlap and winding checks. The largest directed corner share with a current era sibling was 14.330%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 81,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the tripod-dominated outline with a visible mineral face, working excavation or ore haulage."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 12,
+      "critic": "Independent RC4 critic, catalog repair reinspection",
+      "models": [
+        {
+          "id": "bld_saurian_mine_future_v0",
+          "evidence_sha256": "7f73b82b3726be0daf0e103640bf62b04426b028780be46ca58c432c1322e5c8",
+          "observations": "Two stepped cuts expose a striped mineral face, feeding rock down a short chute to a loaded tracked hauler. From the middle flank the track, load, cab and chute endpoints remain visible. At both gray angles the long low cut stands apart from the OilWell tripod, StoneQuarry bridge, GoldMine sorter and the three earlier Mine forms. Inspected all 2 age previews, both 64 px gray family views and painted middle LOD at 215°, 125° and 35°. Serialized LODs 947/538/289 passed geometry, budget, exposed overlap and winding checks. Maximum directed LOD0 corner overlap with an era sibling was 12.940%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

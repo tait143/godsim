@@ -1,0 +1,1223 @@
+{
+  "package": "saurian_infrastructure",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "session4-learning_builder",
+      "models": [
+        {
+          "id": "bld_saurian_aqueduct_classical_v0",
+          "evidence_sha256": "724a0ed77baab2b43af0ee6d753b976393ef2d114e80fd0bf265b45453b9b783",
+          "observations": "Three masonry arches support an uninterrupted water ribbon. Channel weirs, end ladder and small solar gauge give the linear silhouette human scale even in the darker Iron and Medieval rows. Checked the serialized triangle chain [820, 424, 238] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 95,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_aqueduct_future_v0",
+          "evidence_sha256": "22e3c8067c03425ec3fe76ecbe328758b6d7e3844d32f265067e8b9b83ccf4ba",
+          "observations": "The forked piers and open turquoise channel are distinct at 64 px. Gold medallions sit on the glazed piers and the maintenance ladder meets the outlet. Checked the serialized triangle chain [812, 512, 218] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_aqueduct_industrial_v0",
+          "evidence_sha256": "ae4d8e51617867d1d6dad0670156035e7e949a3caf1faf19894e37fbb9ab3e42",
+          "observations": "The brick buttresses, iron diagonal brackets and continuous trough read as a supported utility. Bright channel water and the service ladder stay clear against both rows. Checked the serialized triangle chain [1020, 488, 278] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 95,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_fusion_reactor_future_v0",
+          "evidence_sha256": "6cf045e374e58cebab668be74efc24844ec8363b63cf29b39c7d541a7cbb7c98",
+          "observations": "Bright circular chamber, supported gold collar and pearl-colored outer buttresses make a compact energy station. A separate entry and stairs ground the luminous core. Checked the serialized triangle chain [1285, 777, 284] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 97,
+            "construction": 95,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_granary_ancient_v0",
+          "evidence_sha256": "6bd9808dfd16c159329b936eb3c51415169447b11770874b4162be3c8297912b",
+          "observations": "The pair of raised reed bins and two distinct chute mouths still read at 64 px. The sacks and small sun seals sit where grain would be handled. Checked the serialized triangle chain [1042, 612, 306] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_granary_classical_v0",
+          "evidence_sha256": "7e823fa3877bd19d85baf88020567530a5ca41c8867ae423f7c0f84b8a74124e",
+          "observations": "Turquoise banding, conical roof pair and front chutes establish the grain bins. Gold sacks sit on the forward loading apron in all three masonry palettes. Checked the serialized triangle chain [1124, 670, 340] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_granary_future_v0",
+          "evidence_sha256": "18bdba78169dfe4fc09bbf93d8daadb8832874c87d84e32ac81d52b821d28a6f",
+          "observations": "The flared blue upper bins, narrow hoppers and conveyor head read as a pair of sealed silos. Repeated chute castings and grain vessels remain visible. Checked the serialized triangle chain [1318, 652, 330] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_granary_industrial_v0",
+          "evidence_sha256": "781b67ac61552379f3b338a3b80cbea71b5ecdc05f9c45f28816557976d63c1a",
+          "observations": "Two banded metal bins flank the elevator. The narrow discharge chutes and sacks survive the darker Industrial palette, while Modern reads as concrete and steel. Checked the serialized triangle chain [1262, 616, 310] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_power_plant_future_v0",
+          "evidence_sha256": "989ebf4685519366ef3e0977a6996c239b8263aeb165ac7654c5100894362908",
+          "observations": "The open cooling tower and the two tilted collector arrays distinguish this utility at thumbnail size. A stepped glass-roofed turbine hall anchors the entrance. Checked the serialized triangle chain [1171, 764, 345] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_power_plant_industrial_v0",
+          "evidence_sha256": "84ac2a6b36cdb64075e05f443617dc795377eee1f21b2e4acbbe5bcb34211048",
+          "observations": "The flared cooling tower, paired brick stacks and low turbine house make a convincing station silhouette. The cooling tower has a dark hollow mouth, while both exhaust stacks visibly terminate in solid light disks. Checked the serialized triangle chain [1185, 770, 331] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 86,
+            "charm": 91,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "Both tall smokestacks end in solid cap polygons. Form dark, inset flue openings within the existing collars so each stack has an open exhaust path in the large preview."
+          ]
+        },
+        {
+          "id": "bld_saurian_storehouse_ancient_v0",
+          "evidence_sha256": "9680c05a05d3697049ca53a2f832b225cd1ea02626dd70db1c06998e719ca18a",
+          "observations": "Heavy double doors open onto a raised wooden loading dock. The side cargo shelter and stepped access are visible against the straw roof; the canopy and walls change values through Dawn, Bronze and Iron. Checked the serialized triangle chain [690, 395, 206] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_storehouse_classical_v0",
+          "evidence_sha256": "2914eed52aca5bbc1af812b3b70b5f65b4ce5785ca58a703307073178355f981",
+          "observations": "The broad stepped roof covers a double cargo door facing the stairs. Open side bay, boxed stock and gold trade seal distinguish it from a residence. Checked the serialized triangle chain [648, 389, 178] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_storehouse_future_v0",
+          "evidence_sha256": "56d2e13bcde8166e71ff6bc0ecb114797a9dec5831521b3f6b0b93ce96bab32a",
+          "observations": "Blue glass canopy and a raised roof monitor modernize the long dock. The oversized loading door, side canopy, and timber cargo define the storehouse at phone size. Checked the serialized triangle chain [736, 441, 216] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_storehouse_industrial_v0",
+          "evidence_sha256": "317ba2e5a2f21ab6191a00cc94f684b8d1b90d3b0907450de4e1ae31f5606cb6",
+          "observations": "Clerestory, brick walls, broad dock doors and open freight canopy read across the two rows. Stepped access, cargo container and hanging lifting hook establish use. Checked the serialized triangle chain [642, 383, 176] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_well_ancient_v0",
+          "evidence_sha256": "32b17cda7598a91bfa84b58c3db4fd7014938510e281507ba4289a491e1089fa",
+          "observations": "Pivoted sweep, hanging jar and a counterweight are distinct above the open well. Dark inner walls and turquoise rim give the water real depth on all three grounds. Checked the serialized triangle chain [670, 338, 194] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_well_classical_v0",
+          "evidence_sha256": "987a689ecb982a8a65890e298ff8c86c4e500fa3fafd2c4079d9553a15365748",
+          "observations": "The beam and line reach into a recessed blue basin. A stepped pavilion with sun crest and a jar beside its post distinguishes the village water source. Checked the serialized triangle chain [754, 411, 184] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_well_future_v0",
+          "evidence_sha256": "75f43bee33d8e23a7d0b9b422a1e6ae6efbd3a72085df5b6044a07fa37b2fef7",
+          "observations": "The supported circular sun arch frames the luminous outlet. The open blue basin, gold crest and small service vessel read clearly against the future surfaces. Checked the serialized triangle chain [738, 390, 222] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 96,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_well_industrial_v0",
+          "evidence_sha256": "0f13183b0b068b731ef93433f0e0943d17fe57bdb3e72e808e64819b51d9af95",
+          "observations": "The dark pump projects its spout above the basin. The turquoise lip, small bucket, and gold plaque maintain a Saurian identity through brick and pale concrete. Checked the serialized triangle chain [722, 351, 180] and all full/64 px age views.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Session 4 independent commerce builder",
+      "models": [
+        {
+          "id": "bld_saurian_power_plant_industrial_v0",
+          "evidence_sha256": "730896011dbd40d4fe50862c5455b1129fd024358d58912a50a8028440a535c0",
+          "observations": "Both stacks have legible dark openings and metal collars above the masonry shafts. The lip turns inward and down to a tapered liner, visible in both the red-brick Industrial and grey Modern views. The cooling tower and flues remain separated at 64 px. Reopened GLB and serialized surfaces passed at 1377, 890 and 415 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "independent_saurian_round1_2026_11_23",
+      "models": [
+        {
+          "id": "bld_saurian_aqueduct_future_v0",
+          "evidence_sha256": "3b2a134c1f47952e335fbcb3972859ebf504ea5714f623f049bb19cac530006b",
+          "observations": "Three separated piers carry a long channel above open ground. LOD1 keeps the water strip and the piers visibly seated on their individual feet. Blue and gold edge rails change the palette without obscuring the channel. The serialized meshes have 812, 462, 218 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.51% of front-view pixels and 0.24% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_fusion_reactor_future_v0",
+          "evidence_sha256": "20eeca3e24c2a7db3f1d785161a3901c0a979bd07c38e8882e7b301b3cb2f7d6",
+          "observations": "The glowing central cap and turquoise torus rise above a splayed octagonal plinth. The plinth, rim and recessed entrance remain at LOD1, including from the rear. The dark green and gold foundations distinguish the two supplied previews. The serialized meshes have 1285, 731, 284 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.98% of front-view pixels and 0.98% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_power_plant_future_v0",
+          "evidence_sha256": "fd41bcbb82ecaf6c46f08117637073458fd63919a02c38e075d152998ae3bace",
+          "observations": "An open-topped cooling tower and a blue panel wing flank a low power hall. Enlarged LOD1 shows the tower lip, complete roof and connection to the panel in both revisions. The industrial pair of tall exhaust pipes is absent from the future outline. The serialized meshes have 1171, 666, 345 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 1.93% of front-view pixels and 0.63% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_power_plant_industrial_v0",
+          "evidence_sha256": "171efe7038c9c8359748d60168a615afdfed0e64cd751b662b38c1ca04f190c1",
+          "observations": "Twin narrow smokestacks rise behind a flared cooling tower, defining the industrial plant even without paint. The middle LOD retains the two gaps between them and the dark roof inset. Brick and pale concrete keep their separation from the teal fittings. The serialized meshes have 1377, 784, 415 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 1.20% of front-view pixels and 0.90% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_storehouse_classical_v0",
+          "evidence_sha256": "32adcf07c26def420e191733e04b24349a0b9087182ea880668a53f6df052734",
+          "observations": "The long raised storehouse has unequal roof levels, a wide loading door and projecting side store. LOD1 keeps the central steps separated from the raised stone apron and preserves the long uninterrupted ridge across the three palettes. The serialized meshes have 648, 369, 178 triangles in LOD0/1/2. Against 91863de, the revised LOD1 changes 0.63% of front-view pixels and 0.24% of reverse-view pixels at 64 px (channel difference above 10).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 95,
+            "charm": 93,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_saurian_power_plant_future_v0",
+          "evidence_sha256": "b0863d07fd14b093213c1e0c09ebfcb37fc64f8bf49d15eb2858457445174fa1",
+          "observations": "The cooling tower, collector panels and main plant stay attached to their bases. The dark green inset roof and small control door stay distinct in the middle view.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1171,
+            666,
+            345
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_saurian_granary_ancient_v0",
+          "evidence_sha256": "d7a892d36d3639f6388fbfec5f399a76790d043bee0295d34f8fd8ccf0e4f19a",
+          "observations": "The thatched grain store is elevated on short piles. A projecting loading step and grain jars stay visible from the approach, and the rear shows air space and individual feet under the floor. Its low hip roof differs from the paired later bins. Painted previews cover bronze, iron. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 865/487/221 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_saurian_power_plant_future_v0",
+          "evidence_sha256": "ef0a4d9e714b14a6700a0d6a9a215e26c6539a8c46fa705c201d79a8abe03ed2",
+          "observations": "Four blue collectors tilt toward a single upright power mast on a broad plinth. The middle views preserve the panel supports, tower base and pale luminous cap. The low collector wings replace the early group of chimneys. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 685/389/183 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC4 critic, checkpoint catalog comparison",
+      "models": [
+        {
+          "id": "bld_saurian_granary_future_v0",
+          "evidence_sha256": "18bdba78169dfe4fc09bbf93d8daadb8832874c87d84e32ac81d52b821d28a6f",
+          "observations": "The two rows of images show paired vertical hoppers on the same type of feet, a tall shared delivery pipe and a low front loading bench. The Future bins swell slightly around their blue middle bands, leaving the Industrial side and rear outline essentially intact. Checkpoint directed corner shares were 56.904% to the comparison model and 59.429% in reverse. I inspected both 64 px unpainted angles, every assigned age preview, and painted LOD1 at 215°, 125° and 35°. Serialized LODs 1318/652/330 passed the geometry, budget, overlap and winding checks.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 82,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Reorganize the storage and loading volumes so the Future grain facility is distinct from the Industrial paired silos at both grayscale angles."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC4 critic, catalog repair reinspection",
+      "models": [
+        {
+          "id": "bld_saurian_granary_future_v0",
+          "evidence_sha256": "816743a7c5063111a39d4501b48c1059edca7595ee7972d593ebef9d176d9792",
+          "observations": "Three rectangular grain bins climb in height on separate feet. Open chutes lead down to three grain piles on a common loading bench. The stepped upper line and low sloping outlets separate both grey views from the Industrial paired round silos and elbow pipe; the chutes remain visible from the middle flank. Inspected all 2 assigned age previews, two 64 px unpainted angles, and 215°, 125° and 35° painted cameras on all three LODs. Serialized LODs 1118/637/345 passed geometry and budget checks. Direct checks found zero exposed coplanar overlaps or inward closed shells. The maximum directed shared-corner fraction with any era sibling was 0.000%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_saurian_aqueduct_future_v0",
+          "evidence_sha256": "236e0ced6e49873045ba3997cbc6511a42c4e5b7dd6028978a20ba2b2dff5383",
+          "observations": "The open cyan channel hangs from a high A-frame on its own footing. The bracing, abutments and continuous waterway survive both reductions in each age. Its central peak contrasts with the dipped industrial pipe crossing.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            672,
+            282,
+            156
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.606,
+            "primary_picture_pair": [
+              "bld_saurian_aqueduct_classical_v0",
+              "bld_saurian_aqueduct_future_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2460
+            ],
+            "max_shared_direction": [
+              "bld_saurian_aqueduct_classical_v0",
+              "bld_saurian_aqueduct_future_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-01.png": "1191d2814caece67d1b6587b2c102df12c2ebcd128b2c76840fb6f975123536a",
+            "tools/AssetForge/reviews/rc6/families/saurian-Aqueduct-v0.png": "3b38be4f824963c758aaae0238ef230af9327d55d420f6928b24b88c6e4d6ada"
+          },
+          "glb_sha256": "f15bda486555adff3bf36a3aa2cc03c256d677dde39eb83cb3ce249160921df2",
+          "age_preview_sha256": {
+            "information": "8eb0f9f50d920b74f6d02c654adaff57243cee9b06b9e9dad1e81039a1e2c9cf",
+            "ascension": "4090b0ac712fa06c2c0d659d2043be7de0a70b7d43b0207d0371ef5008907ed9"
+          }
+        },
+        {
+          "id": "bld_saurian_aqueduct_industrial_v0",
+          "evidence_sha256": "022330261b40c39309eeabdbb035f6a6ecbe1276f3b2dd2520d7d5c5a2d90c92",
+          "observations": "Twin dark conduits dip between square capped pump piers. The trough, change in elevation, intermediate supports and two end towers stay legible across the reddish Industrial and grey Modern treatments.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            797,
+            453,
+            203
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.628,
+            "primary_picture_pair": [
+              "bld_saurian_aqueduct_classical_v0",
+              "bld_saurian_aqueduct_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2460
+            ],
+            "max_shared_direction": [
+              "bld_saurian_aqueduct_classical_v0",
+              "bld_saurian_aqueduct_industrial_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-01.png": "1191d2814caece67d1b6587b2c102df12c2ebcd128b2c76840fb6f975123536a",
+            "tools/AssetForge/reviews/rc6/families/saurian-Aqueduct-v0.png": "3b38be4f824963c758aaae0238ef230af9327d55d420f6928b24b88c6e4d6ada"
+          },
+          "glb_sha256": "9cdb95aed8a7689e00dcb354154dd339bd4ea3ecb8cf3e17bf840b8ac2937c7d",
+          "age_preview_sha256": {
+            "industrial": "c0a56f5d2c76e4ad07d18d46bfce3bf68d38e2866548e82d1e64fe4433829ce8",
+            "modern": "f4d3d77d6e8288f553c18e860e272bc88fd7a6721ac241eae416afabe89f2879"
+          }
+        },
+        {
+          "id": "bld_saurian_storehouse_classical_v0",
+          "evidence_sha256": "0548a3f616dea0e724d18f762e26004cd822c668b26fb234436d37e1fe59bde4",
+          "observations": "A small loading yard and its stacked containers sit beside a high square warehouse. The pale tower, blue parapet band and lower yard retain their arrangement through Classical, Medieval and Renaissance. At LOD2 the yard still contains an identifiable crate.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            583,
+            332,
+            85
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.615,
+            "primary_picture_pair": [
+              "bld_saurian_storehouse_classical_v0",
+              "bld_saurian_storehouse_industrial_v0"
+            ],
+            "max_shared_corners": [
+              66,
+              1203
+            ],
+            "max_shared_direction": [
+              "bld_saurian_storehouse_industrial_v0",
+              "bld_saurian_storehouse_classical_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-01.png": "1191d2814caece67d1b6587b2c102df12c2ebcd128b2c76840fb6f975123536a",
+            "tools/AssetForge/reviews/rc6/families/saurian-Storehouse-v0.png": "6d9946e5e74cdc01674d64e2dd3fc75ad0071021990a062c3661a8e334d4ddf5"
+          },
+          "glb_sha256": "bc20dcf93db2c67c993ce5aa70abbc77c63f511eb0e403ad97804a50480849a4",
+          "age_preview_sha256": {
+            "classical": "6a08cd067ff4f39c81f45a61489332eae4f15796a9bad0503cc0186f86e09471",
+            "medieval": "5760eeff2c55a5e636fb558d6eb33ec3c8ce6749894f6b0d1db9241fcfff26e5",
+            "renaissance": "2468a9e6dc2745a5ca0aaa2bcbbd05c8f31943e7271c64395ebe5512500774d8"
+          }
+        },
+        {
+          "id": "bld_saurian_storehouse_future_v0",
+          "evidence_sha256": "bddc73a3b0358fc6a20ed5e6881143834125db7852d4b71398a103c0d4d7d2ec",
+          "observations": "Two open horizontal storage aisles display boxes between the frame columns. A separate solid terminal block anchors the end. The shelving remains open and stocked at all LODs in the Information and Ascension materials.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            601,
+            341,
+            149
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.635,
+            "primary_picture_pair": [
+              "bld_saurian_storehouse_future_v0",
+              "bld_saurian_storehouse_industrial_v0"
+            ],
+            "max_shared_corners": [
+              66,
+              1203
+            ],
+            "max_shared_direction": [
+              "bld_saurian_storehouse_industrial_v0",
+              "bld_saurian_storehouse_future_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-01.png": "1191d2814caece67d1b6587b2c102df12c2ebcd128b2c76840fb6f975123536a",
+            "tools/AssetForge/reviews/rc6/families/saurian-Storehouse-v0.png": "6d9946e5e74cdc01674d64e2dd3fc75ad0071021990a062c3661a8e334d4ddf5"
+          },
+          "glb_sha256": "036fce0d08e0b18032298ba96c7526c2f50b693cdc23a7a26574f2e64386fd81",
+          "age_preview_sha256": {
+            "information": "17b6884252b3d4c63b1672d3a0770f094be56c288eeac8ade9db285b1feed47a",
+            "ascension": "64eb15910af36e23cbd69469551cbaa77b784c88851352533149c8d0d0c48a90"
+          }
+        },
+        {
+          "id": "bld_saurian_storehouse_industrial_v0",
+          "evidence_sha256": "9e9ea752417c532286817659f8b1dea1082a0e71201715013cbb0e0244cd580a",
+          "observations": "Three sawtooth roof bays rise over a continuous low loading platform. Cargo stacks mark the front corners. Each shed roof remains angled over the platform at distance, distinct from the older square tower and the later open shelves.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            401,
+            227,
+            101
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.697,
+            "primary_picture_pair": [
+              "bld_saurian_storehouse_ancient_v0",
+              "bld_saurian_storehouse_industrial_v0"
+            ],
+            "max_shared_corners": [
+              66,
+              1203
+            ],
+            "max_shared_direction": [
+              "bld_saurian_storehouse_industrial_v0",
+              "bld_saurian_storehouse_classical_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-02.png": "50ace9335e20118b91a3202a4680c4d704b486b59c64d723488e08b01455337b",
+            "tools/AssetForge/reviews/rc6/families/saurian-Storehouse-v0.png": "6d9946e5e74cdc01674d64e2dd3fc75ad0071021990a062c3661a8e334d4ddf5"
+          },
+          "glb_sha256": "af2a0617916eeb71fbe005e985ae8f41e221d0ac7146c8b13f8225bd991fe8c7",
+          "age_preview_sha256": {
+            "industrial": "940bcda6ad1946e372fe80f88b114808ee601b9732893c52eb460d93b2b30cb2",
+            "modern": "25fee7da16f61cb8f7a04e52961c9122a6066167a537abafea3f8117444ed9f8"
+          }
+        },
+        {
+          "id": "bld_saurian_well_classical_v0",
+          "evidence_sha256": "c9fc83548f293e4629b88c7def8f6b9e42835f2bbb6f995ae4b71c404a6e8c76",
+          "observations": "Pairs of stone ribs arch over a cyan catch basin. The gap below the raised crown remains open at both reduced LODs across all three material ages. The vault clearly differentiates it from the ancient hand-drawn well.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            666,
+            378,
+            180
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.565,
+            "primary_picture_pair": [
+              "bld_saurian_well_ancient_v0",
+              "bld_saurian_well_classical_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2010
+            ],
+            "max_shared_direction": [
+              "bld_saurian_well_ancient_v0",
+              "bld_saurian_well_classical_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-02.png": "50ace9335e20118b91a3202a4680c4d704b486b59c64d723488e08b01455337b",
+            "tools/AssetForge/reviews/rc6/families/saurian-Well-v0.png": "78901a2b870fdf3820e934449b6ea365c41ff1dda422ed62a3f7f7f6cbb616ab"
+          },
+          "glb_sha256": "6979687484418aef3779b2e47e0e82753ae4650ad050adb49d4310d37a6f3056",
+          "age_preview_sha256": {
+            "classical": "33a91e54de66404526354e5e7bf9dbebbe6f16fafc2fac99857a18bb8f2f4a41",
+            "medieval": "69c45bdd791c6a5927fcffbd9089283348032f48cfbd45da44bb34e4e3dcf770",
+            "renaissance": "0a647b60b6fb75d8fdbc019d076bf2373205c25b3a15918f92a9c9bd0a8f30ac"
+          }
+        },
+        {
+          "id": "bld_saurian_well_future_v0",
+          "evidence_sha256": "a5905defbae43bb1ea4cbeeb320460b4d9ee7d02a246a283f6854b3decccdf66",
+          "observations": "Large blue fins flank an angled delivery arm above the small circular cistern. The branching profile and the water in the basin survive reduction and remain distinct from the upright Industrial pump.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            542,
+            286,
+            138
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.507,
+            "primary_picture_pair": [
+              "bld_saurian_well_classical_v0",
+              "bld_saurian_well_future_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2010
+            ],
+            "max_shared_direction": [
+              "bld_saurian_well_ancient_v0",
+              "bld_saurian_well_future_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-02.png": "50ace9335e20118b91a3202a4680c4d704b486b59c64d723488e08b01455337b",
+            "tools/AssetForge/reviews/rc6/families/saurian-Well-v0.png": "78901a2b870fdf3820e934449b6ea365c41ff1dda422ed62a3f7f7f6cbb616ab"
+          },
+          "glb_sha256": "e194d8b056ce7c3590d4e3d716e982400485860436881629ddc1cd13899a032d",
+          "age_preview_sha256": {
+            "information": "a4530f03621e71e94c9c34f9a93668c1888225e31a6f7e28ac6ab457263bb552",
+            "ascension": "43d13fe37b36874bc6f5d34bfa27275f65458205ef76368e9f3a463219d81329"
+          }
+        },
+        {
+          "id": "bld_saurian_well_industrial_v0",
+          "evidence_sha256": "6a9845e624d8622e8f0d2bac17ad70de68ccf1f922ab2eb6fcec4abc117cbc3b",
+          "observations": "A tall dark cylinder feeds the separate open basin through an overhead elbow. The blue water remains visible from both sides of the two connected blocks. Industrial brick and lighter Modern concrete retain the same clear pumping mechanism.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            594,
+            332,
+            152
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.638,
+            "primary_picture_pair": [
+              "bld_saurian_well_ancient_v0",
+              "bld_saurian_well_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2010
+            ],
+            "max_shared_direction": [
+              "bld_saurian_well_ancient_v0",
+              "bld_saurian_well_industrial_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-02.png": "50ace9335e20118b91a3202a4680c4d704b486b59c64d723488e08b01455337b",
+            "tools/AssetForge/reviews/rc6/families/saurian-Well-v0.png": "78901a2b870fdf3820e934449b6ea365c41ff1dda422ed62a3f7f7f6cbb616ab"
+          },
+          "glb_sha256": "10f649f2579bd6ca600874fba46fbf1a770638f519f4e318b47e9756f801f175",
+          "age_preview_sha256": {
+            "industrial": "515d40dfbb2c67eb5fb843adbd25f0075a0c48dc44de54f01b0c39e6d08a4ac7",
+            "modern": "937c7cb318b8038772b286e23ce793701e664715f7198c3ee1286a39991dc778"
+          }
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "RC6 independent housing and Saurian civic critic, corrected candidate review",
+      "inspection": "Compared the published painted age previews and family sheets against the original holds and named lookalikes. Rendered both unpainted 64 px views independently from each of the three actual LOD meshes. Inspected the native family cameras and the larger multi-camera LOD sheet. Recomputed same-family picture likeness and directional corner overlap, checked the fragment against the GLB and verified all three serialized levels for exposed coplanar faces and inverted shells.",
+      "models": [
+        {
+          "id": "bld_saurian_aqueduct_industrial_v0",
+          "evidence_sha256": "474f26646feae7a1e12251bfb4cfda4a6757389c601cbab78b09a7186c7ee84a",
+          "previous_evidence_sha256": "022330261b40c39309eeabdbb035f6a6ecbe1276f3b2dd2520d7d5c5a2d90c92",
+          "observations": "A stepped timber-and-brick race brings water to a large bucket wheel and catch basin. Both cameras show the wheel rising above its pool and the repeated channel supports keeping the water above ground. This stepped profile persists at all LODs and separates it from the Orc suspended pipes.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            1360,
+            691,
+            392
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.625,
+            "primary_picture_pair": [
+              "bld_saurian_aqueduct_classical_v0",
+              "bld_saurian_aqueduct_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2460
+            ],
+            "max_shared_direction": [
+              "bld_saurian_aqueduct_classical_v0",
+              "bld_saurian_aqueduct_industrial_v0"
+            ],
+            "specific_comparisons": {
+              "bld_orc_aqueduct_industrial_v0": {
+                "primary_picture_likeness": 0.571,
+                "evidence_sha256": "f99a2a7d9dd07adf27a6fec9837000146d7e6948a5633824fd3942e842c7ee6a"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-01.png": "b96fec0614a705d0db3be2000fb43de177e137744c07931f77345a1ff3f8dace",
+            "tools/AssetForge/reviews/rc6/families/saurian-Aqueduct-v0.png": "6176d7efd1353793430bc9e5c5b51be7c85eb33d92062c17bb8de7d638f58556",
+            "tools/AssetForge/reviews/rc6/families/orc-Aqueduct-v0.png": "9066cc29cef46fb767b86f0415c2cae4fcd8f86c9e23dab3f0f94a87cbec3a30"
+          },
+          "glb_sha256": "f39f9e303690f57c25f43fc0e49e8dfc9c59a3116d23ea15c655ebccd1692ef7",
+          "age_preview_sha256": {
+            "industrial": "f03b612ca279cc83e39b1ceda2566c0f98067fa32d32aa6874897778eefea601",
+            "modern": "a7a5078b48aa4153eea8b7f32c10cc4e98afde3d9a112bac18b17bc9df1c70e1"
+          }
+        },
+        {
+          "id": "bld_saurian_aqueduct_future_v0",
+          "evidence_sha256": "fc6cd5b2b47c720fd3b99eb8118e8d766eecd96037edfdea10905157f6f5e633",
+          "previous_evidence_sha256": "236e0ced6e49873045ba3997cbc6511a42c4e5b7dd6028978a20ba2b2dff5383",
+          "observations": "A continuous turquoise channel bends in an S on separate tapered piers. The open top, sweeping bends and changing pier heights remain visible through the low-detail mesh in both future finishes. The Orc crossing has a straight deck and central triangular cable support.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            904,
+            514,
+            236
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.62,
+            "primary_picture_pair": [
+              "bld_saurian_aqueduct_classical_v0",
+              "bld_saurian_aqueduct_future_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2460
+            ],
+            "max_shared_direction": [
+              "bld_saurian_aqueduct_classical_v0",
+              "bld_saurian_aqueduct_future_v0"
+            ],
+            "specific_comparisons": {
+              "bld_orc_aqueduct_future_v0": {
+                "primary_picture_likeness": 0.527,
+                "evidence_sha256": "a00d252fc13c9d2c3cd7473306818891bf1cdbfa810ecef8fb335dd5178bf4e5"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-01.png": "b96fec0614a705d0db3be2000fb43de177e137744c07931f77345a1ff3f8dace",
+            "tools/AssetForge/reviews/rc6/families/saurian-Aqueduct-v0.png": "6176d7efd1353793430bc9e5c5b51be7c85eb33d92062c17bb8de7d638f58556",
+            "tools/AssetForge/reviews/rc6/families/orc-Aqueduct-v0.png": "9066cc29cef46fb767b86f0415c2cae4fcd8f86c9e23dab3f0f94a87cbec3a30"
+          },
+          "glb_sha256": "9615e04c5670a1545d18f9c9034156f2dfb767bec82b208d7e2c466010ae0627",
+          "age_preview_sha256": {
+            "information": "2c74f2f7b142215b9a8bb60b0942bd1e19960d78be0ae648fa21496b05e23b4b",
+            "ascension": "7851e6f722dd5d96e98b6f0cd7913d41328738807da8270bc6264887f040b786"
+          }
+        },
+        {
+          "id": "bld_saurian_storehouse_classical_v0",
+          "evidence_sha256": "70ee0803c1f4e63249ef76122b70190acafcf9bda5b2e578f59480b9d8ca2d35",
+          "previous_evidence_sha256": "0548a3f616dea0e724d18f762e26004cd822c668b26fb234436d37e1fe59bde4",
+          "observations": "A single low terrace carries a continuous parapet above three open inventory bays. A wide central stair meets their shared apron. The bay openings and horizontal stock bays remain legible at LOD2 in the two corners. The Dwarf Classical model uses a single tall tower and a side yard.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            796,
+            422,
+            142
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.647,
+            "primary_picture_pair": [
+              "bld_saurian_storehouse_ancient_v0",
+              "bld_saurian_storehouse_classical_v0"
+            ],
+            "max_shared_corners": [
+              66,
+              1803
+            ],
+            "max_shared_direction": [
+              "bld_saurian_storehouse_future_v0",
+              "bld_saurian_storehouse_classical_v0"
+            ],
+            "specific_comparisons": {
+              "bld_dwarf_storehouse_classical_v0": {
+                "primary_picture_likeness": 0.559,
+                "evidence_sha256": "e2cab492341a5201c8c38d119fe683f8620e237bf95b6e1c8e05546134ce710d"
+              },
+              "bld_saurian_storehouse_industrial_v0": {
+                "primary_picture_likeness": 0.625,
+                "evidence_sha256": "32788012239ae7cf552434e854830678c4763098fa9e08af5d6a4043d0048bfe"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-01.png": "b96fec0614a705d0db3be2000fb43de177e137744c07931f77345a1ff3f8dace",
+            "tools/AssetForge/reviews/rc6/families/saurian-Storehouse-v0.png": "d941b7707e63e6b00f80ed0b32ffccf506d55d47c4c5b827e4d16761390e62f7",
+            "tools/AssetForge/reviews/rc6/families/dwarf-Storehouse-v0.png": "de8b3953162a741224553e36f6f9d191686d06676764972323e093fba077c18b"
+          },
+          "glb_sha256": "c11666af7ed98005debf8e3e26e6825849a37a34db1b8d52dce09c822fa62ef2",
+          "age_preview_sha256": {
+            "classical": "3d65b809ac5f10b4e1779d6dfccdd92ad86d6192a493ea9b3b403ee0b3050435",
+            "medieval": "c6016e77793d45cb0d71395190efea34adc726e2cb0499959486de9c8856bb96",
+            "renaissance": "46e79ffa72587b567636868920690d31aaf8b6225f4e7755fb4ae1a8bda8a843"
+          }
+        },
+        {
+          "id": "bld_saurian_storehouse_industrial_v0",
+          "evidence_sha256": "32788012239ae7cf552434e854830678c4763098fa9e08af5d6a4043d0048bfe",
+          "previous_evidence_sha256": "9e9ea752417c532286817659f8b1dea1082a0e71201715013cbb0e0244cd580a",
+          "observations": "A single steep barrel vault faces an open wharf with a gantry, cargo and a trolley between the two halves. The last LOD retains the vault opening, projecting crane and loaded freight apron. Its asymmetric plan separates it from the Classical terrace and from the sawtooth roofs of the Saurian industrial Scriptorium and Weaver.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            886,
+            504,
+            242
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.663,
+            "primary_picture_pair": [
+              "bld_saurian_storehouse_future_v0",
+              "bld_saurian_storehouse_industrial_v0"
+            ],
+            "max_shared_corners": [
+              66,
+              1803
+            ],
+            "max_shared_direction": [
+              "bld_saurian_storehouse_future_v0",
+              "bld_saurian_storehouse_industrial_v0"
+            ],
+            "specific_comparisons": {
+              "bld_saurian_storehouse_classical_v0": {
+                "primary_picture_likeness": 0.625,
+                "evidence_sha256": "70ee0803c1f4e63249ef76122b70190acafcf9bda5b2e578f59480b9d8ca2d35"
+              },
+              "bld_saurian_weaver_industrial_v0": {
+                "primary_picture_likeness": 0.6,
+                "evidence_sha256": "727f383307ac29326472047297bdc924aac55a53c51a3d3b8486fa1a546a31e2"
+              },
+              "bld_saurian_scriptorium_industrial_v0": {
+                "primary_picture_likeness": 0.638,
+                "evidence_sha256": "52257cfd03b581235f656292995d3311802e17f96d517a6d4147b6206a260109"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-02.png": "91398da45f7e7de72e30ac76c2d4ab491f3d3ea5375339ee05857c719004feab",
+            "tools/AssetForge/reviews/rc6/families/saurian-Storehouse-v0.png": "d941b7707e63e6b00f80ed0b32ffccf506d55d47c4c5b827e4d16761390e62f7"
+          },
+          "glb_sha256": "35bed0fdf96e0dbfe70cc268a89da6e0adbd5d72e451f9d9e565d609e930b8b1",
+          "age_preview_sha256": {
+            "industrial": "20c4573dfbd813b3cde32b6ff31c61d282e893e19de389a9e806d5f4f2b9422f",
+            "modern": "55693028432bfa58d0274b4cae37699a59dff82c272d6ae9f3187e0b52b6e043"
+          }
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "critic": "RC6 independent housing and Saurian civic critic, final gallery review",
+      "inspection": "Inspected final painted family and package PNGs and each published age preview. Independently rendered both unpainted 64 px camera angles at all three LODs. Verified the live GLB, recomputed the two comparison metrics and checked the three serialized meshes for exposed coplanar faces and inverted shells.",
+      "models": [
+        {
+          "id": "bld_saurian_storehouse_future_v0",
+          "evidence_sha256": "bddc73a3b0358fc6a20ed5e6881143834125db7852d4b71398a103c0d4d7d2ec",
+          "previous_evidence_sha256": "bddc73a3b0358fc6a20ed5e6881143834125db7852d4b71398a103c0d4d7d2ec",
+          "observations": "The Future Storehouse keeps both floors of exposed inventory shelving beside an enclosed service bay. The cyan spans and rows of visible cargo remain readable in the Information and Ascension palettes, and both grey corners keep the open rack visible at LOD2. The final Industrial design places a gantry opposite one vaulted store, giving the two ages recognizably different plans.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            601,
+            341,
+            149
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.663,
+            "primary_picture_pair": [
+              "bld_saurian_storehouse_future_v0",
+              "bld_saurian_storehouse_industrial_v0"
+            ],
+            "max_shared_corners": [
+              66,
+              1803
+            ],
+            "max_shared_direction": [
+              "bld_saurian_storehouse_future_v0",
+              "bld_saurian_storehouse_classical_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-01.png": "b96fec0614a705d0db3be2000fb43de177e137744c07931f77345a1ff3f8dace",
+            "tools/AssetForge/reviews/rc6/families/saurian-Storehouse-v0.png": "d941b7707e63e6b00f80ed0b32ffccf506d55d47c4c5b827e4d16761390e62f7"
+          },
+          "glb_sha256": "036fce0d08e0b18032298ba96c7526c2f50b693cdc23a7a26574f2e64386fd81",
+          "age_preview_sha256": {
+            "information": "17b6884252b3d4c63b1672d3a0770f094be56c288eeac8ade9db285b1feed47a",
+            "ascension": "64eb15910af36e23cbd69469551cbaa77b784c88851352533149c8d0d0c48a90"
+          }
+        },
+        {
+          "id": "bld_saurian_well_classical_v0",
+          "evidence_sha256": "c9fc83548f293e4629b88c7def8f6b9e42835f2bbb6f995ae4b71c404a6e8c76",
+          "previous_evidence_sha256": "c9fc83548f293e4629b88c7def8f6b9e42835f2bbb6f995ae4b71c404a6e8c76",
+          "observations": "Two pairs of masonry ribs enclose a low turquoise water basin. Light remains visible between the arch members from both cameras at each LOD. The Classical, Medieval and Renaissance versions change the cap and masonry finish while retaining the covered basin, distinct from the ancient winding crank and later pump.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            666,
+            378,
+            180
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.565,
+            "primary_picture_pair": [
+              "bld_saurian_well_ancient_v0",
+              "bld_saurian_well_classical_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2010
+            ],
+            "max_shared_direction": [
+              "bld_saurian_well_ancient_v0",
+              "bld_saurian_well_classical_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-02.png": "91398da45f7e7de72e30ac76c2d4ab491f3d3ea5375339ee05857c719004feab",
+            "tools/AssetForge/reviews/rc6/families/saurian-Well-v0.png": "78901a2b870fdf3820e934449b6ea365c41ff1dda422ed62a3f7f7f6cbb616ab"
+          },
+          "glb_sha256": "6979687484418aef3779b2e47e0e82753ae4650ad050adb49d4310d37a6f3056",
+          "age_preview_sha256": {
+            "classical": "33a91e54de66404526354e5e7bf9dbebbe6f16fafc2fac99857a18bb8f2f4a41",
+            "medieval": "69c45bdd791c6a5927fcffbd9089283348032f48cfbd45da44bb34e4e3dcf770",
+            "renaissance": "0a647b60b6fb75d8fdbc019d076bf2373205c25b3a15918f92a9c9bd0a8f30ac"
+          }
+        },
+        {
+          "id": "bld_saurian_well_future_v0",
+          "evidence_sha256": "a5905defbae43bb1ea4cbeeb320460b4d9ee7d02a246a283f6854b3decccdf66",
+          "previous_evidence_sha256": "a5905defbae43bb1ea4cbeeb320460b4d9ee7d02a246a283f6854b3decccdf66",
+          "observations": "The angled delivery arm reaches into a round basin below a cluster of three blue fins. Their branching outline and the gap above the water survive LOD2 in both corners. The brighter Ascension treatment keeps the basin lip and feed pipe clear against the paving.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            542,
+            286,
+            138
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.507,
+            "primary_picture_pair": [
+              "bld_saurian_well_classical_v0",
+              "bld_saurian_well_future_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2010
+            ],
+            "max_shared_direction": [
+              "bld_saurian_well_ancient_v0",
+              "bld_saurian_well_future_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-02.png": "91398da45f7e7de72e30ac76c2d4ab491f3d3ea5375339ee05857c719004feab",
+            "tools/AssetForge/reviews/rc6/families/saurian-Well-v0.png": "78901a2b870fdf3820e934449b6ea365c41ff1dda422ed62a3f7f7f6cbb616ab"
+          },
+          "glb_sha256": "e194d8b056ce7c3590d4e3d716e982400485860436881629ddc1cd13899a032d",
+          "age_preview_sha256": {
+            "information": "a4530f03621e71e94c9c34f9a93668c1888225e31a6f7e28ac6ab457263bb552",
+            "ascension": "43d13fe37b36874bc6f5d34bfa27275f65458205ef76368e9f3a463219d81329"
+          }
+        },
+        {
+          "id": "bld_saurian_well_industrial_v0",
+          "evidence_sha256": "6a9845e624d8622e8f0d2bac17ad70de68ccf1f922ab2eb6fcec4abc117cbc3b",
+          "previous_evidence_sha256": "6a9845e624d8622e8f0d2bac17ad70de68ccf1f922ab2eb6fcec4abc117cbc3b",
+          "observations": "A separate cylinder rises behind the open cistern. Its horizontal pipe and downturned spout connect the two outlines in both cameras and remain visible after the masonry and tank are simplified. The brick Industrial version and pale Modern version read as the same working pump.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            594,
+            332,
+            152
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.638,
+            "primary_picture_pair": [
+              "bld_saurian_well_ancient_v0",
+              "bld_saurian_well_industrial_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              2010
+            ],
+            "max_shared_direction": [
+              "bld_saurian_well_ancient_v0",
+              "bld_saurian_well_industrial_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/saurian_infrastructure-02.png": "91398da45f7e7de72e30ac76c2d4ab491f3d3ea5375339ee05857c719004feab",
+            "tools/AssetForge/reviews/rc6/families/saurian-Well-v0.png": "78901a2b870fdf3820e934449b6ea365c41ff1dda422ed62a3f7f7f6cbb616ab"
+          },
+          "glb_sha256": "10f649f2579bd6ca600874fba46fbf1a770638f519f4e318b47e9756f801f175",
+          "age_preview_sha256": {
+            "industrial": "515d40dfbb2c67eb5fb843adbd25f0075a0c48dc44de54f01b0c39e6d08a4ac7",
+            "modern": "937c7cb318b8038772b286e23ce793701e664715f7198c3ee1286a39991dc778"
+          }
+        }
+      ]
+    }
+  ]
+}

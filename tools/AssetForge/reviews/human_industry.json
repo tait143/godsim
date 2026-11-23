@@ -1,0 +1,1042 @@
+{
+  "package": "human_industry",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Session 9 independent critic (religion builder)",
+      "models": [
+        {
+          "id": "bld_human_armory_ancient_v0",
+          "evidence_sha256": "9b47a04855c2cc876fecb3d6712efa5f6c98a96abad2ef58d0982afd4d1c6b8b",
+          "observations": "The Iron gable, deep masonry plinth and two annexes read as a secure store. A shield rack and matching escutcheon mark the front. The reopened GLB passed the core geometry and atlas checks at 591, 263, 111 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 88,
+            "charm": 94,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the two free-standing gate bollards on or inside the y=0.065 paving. Their current y=0.070 bottoms leave them suspended.",
+            "Provide a crest mounting block in LOD1 and LOD2. Removing the gable truss leaves the crest back at z=-0.306 in front of the z=-0.281 gable.",
+            "LOD0: 2 exposed coplanar pairs. Inspect faces [207, 256] (human/trim / human/trim) at [-0.043945, 0.41095, -0.303]. Separate the exposed front hall trim and door surround planes or interrupt the overlapping trim.",
+            "LOD1: 2 exposed coplanar pairs. Inspect faces [113, 152] (human/trim / human/trim) at [-0.043945, 0.41095, -0.303]. Separate the exposed front hall trim and door surround planes or interrupt the overlapping trim."
+          ]
+        },
+        {
+          "id": "bld_human_armory_classical_v0",
+          "evidence_sha256": "2e056e48b9bbcdc4b30d0cbd49523fc111693b26920ffc7d40307a149fc1acbc",
+          "observations": "The pale Classical porch and terracotta roof darken in Medieval, then warm in Renaissance. Paired piers and blue gate hangings identify the issue desk. The reopened GLB passed the core geometry and atlas checks at 521, 263, 111 triangles.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 88,
+            "charm": 94,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the two free-standing gate bollards on or inside the y=0.065 paving. Their current y=0.070 bottoms leave them suspended.",
+            "Provide a crest mounting block in LOD1 and LOD2. Removing the gable truss leaves the crest back at z=-0.306 in front of the z=-0.281 gable."
+          ]
+        },
+        {
+          "id": "bld_human_armory_future_v0",
+          "evidence_sha256": "668282bd10b4b9bb638dd465f67be51fef4a8a7c0a2682232047d5f4732eb7df",
+          "observations": "Blue glazing caps the offset information-era stockrooms. The long roof changes to gold in Ascension and the central shield marks the entrance. The reopened GLB passed the core geometry and atlas checks at 589, 271, 163 triangles.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 94,
+            "construction": 89,
+            "charm": 93,
+            "colour": 95,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the two free-standing gate bollards on or inside the y=0.065 paving. Their current y=0.070 bottoms leave them suspended."
+          ]
+        },
+        {
+          "id": "bld_human_armory_industrial_v0",
+          "evidence_sha256": "4b50464725386273faf37b1e6156983a1c346eaa279793fd2e12947592e4db12",
+          "observations": "Metal-capped end stores frame the long hall. Brick cools to concrete in Modern, while stocked shields and escutcheon stay visible. The reopened GLB passed the core geometry and atlas checks at 551, 269, 141 triangles.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 89,
+            "charm": 93,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the two free-standing gate bollards on or inside the y=0.065 paving. Their current y=0.070 bottoms leave them suspended."
+          ]
+        },
+        {
+          "id": "bld_human_blacksmith_ancient_v0",
+          "evidence_sha256": "1bf56d4621ad11105dabc0a0424ac8b254bf84d00058625d10249c8bfc3d96f6",
+          "observations": "A flared furnace and an open shoeing bay read beside the hip-roofed hut. The anvil projects from its stump beside the tub and hammer. Bronze hides contrast with darker Iron shakes. The reopened GLB passed the core geometry and atlas checks at 829, 461, 233 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0: 4 exposed coplanar pairs. Inspect faces [162, 236] (human/trim / human/trim) at [-0.587618, 0.370816, -0.291]. Separate the exposed front hall trim and door surround planes or interrupt the overlapping trim.",
+            "LOD1: 4 exposed coplanar pairs. Inspect faces [98, 152] (human/trim / human/trim) at [-0.587618, 0.370816, -0.291]. Separate the exposed front hall trim and door surround planes or interrupt the overlapping trim."
+          ]
+        },
+        {
+          "id": "bld_human_blacksmith_classical_v0",
+          "evidence_sha256": "7d3a4e70b2e2dd3454c77bb04f614db2dfbdbbb85a48d9c5dd4e0ab2c6150edd",
+          "observations": "Across three age rows the open shoeing bay and closed house retain a clear frame. The orange throat, anvil and quenching bucket survive the phone reduction. The reopened GLB passed the core geometry and atlas checks at 789, 461, 233 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_blacksmith_future_v0",
+          "evidence_sha256": "5622688de5e5d4e7aa44d0dc24d206682791049e48917d4c25a6b286031465b0",
+          "observations": "The blue hood, anvil and flared charging throat read as a single workstation. In Ascension the metal body turns gold while the cool glazed cover separates the bay. The reopened GLB passed the core geometry and atlas checks at 939, 530, 249 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_blacksmith_industrial_v0",
+          "evidence_sha256": "0c0a3c3106628a2899214851e3e3512b883770d739f5026d101aed5691421bf3",
+          "observations": "An exposed anvil, lean metal cover and flared brick furnace flank a chimneyed hall. Modern masonry separates cleanly from the dark canopy. The reopened GLB passed the core geometry and atlas checks at 901, 528, 227 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_electronics_plant_future_v0",
+          "evidence_sha256": "1eab53cc38645d98f8d67c6260d9cfdbf991ccfcc25876f02c35c39390cf9b2b",
+          "observations": "Three service cylinders and two roof filter wells identify the cleanroom. Pale slabs enclose its blue curtain wall. The entrance reads in all three age previews. The reopened GLB passed the core geometry and atlas checks at 1002, 589, 297 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 89,
+            "charm": 92,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the lowest grille bar of each rooftop filter in its y=1.065 rim. Its bottom currently sits at y=1.0665."
+          ]
+        },
+        {
+          "id": "bld_human_factory_future_v0",
+          "evidence_sha256": "d3dba0b6df0efe951053d940b06126acb468c8712792081bddd075576a658348",
+          "observations": "Shallower glazing tops a pale production hall. A receiving annex and short twin flues give an asymmetric side profile. Gold accents appear on the Ascension loading rails. The reopened GLB passed the core geometry and atlas checks at 878, 476, 164 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_factory_industrial_v0",
+          "evidence_sha256": "136d41be015149790f2ee3cd42342ff4d095be6cac2146423367acf0d1e512b0",
+          "observations": "Three north-light roofs and paired stacks distinguish the works. The loading yard has two shutters, bollards and freight cases; Modern concrete defines the bays more sharply. The reopened GLB passed the core geometry and atlas checks at 840, 474, 142 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_foundry_future_v0",
+          "evidence_sha256": "d98af975d6863e61e3291ff61c9e563029fbd0e07490cb3111613abdd6a236c7",
+          "observations": "The metal charge vessel rises above its cast house, with a recovery stack and braced crane. The bright ladle stays distinct against Information steel and Ascension gold. The reopened GLB passed the core geometry and atlas checks at 1210, 774, 346 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_foundry_industrial_v0",
+          "evidence_sha256": "548f95771039fdb163b1f48d7d97a87bc4a49fb436e88af39465676db4559473",
+          "observations": "The flared vessel, trestle crane and glowing suspended ladle read together. The blast main meets the rear stove stack. Mold boxes and stock occupy the casting floor. The reopened GLB passed the core geometry and atlas checks at 1024, 669, 301 triangles.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 95,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_smelter_ancient_v0",
+          "evidence_sha256": "b44bd08dbe45cf03685388bb26a7ca230ddcc645d3144c974ccefa108e72d2df",
+          "observations": "The broad clay shaft and glowing tap arch stand in front of a timber office. A charging bucket and poker occupy the dry side. The Iron roof darkens visibly. The reopened GLB passed the core geometry and atlas checks at 625, 372, 128 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0: 4 exposed coplanar pairs. Inspect faces [410, 460] (human/trim / human/trim) at [-0.574437, 0.368654, -0.233]. Separate the exposed front hall trim and door surround planes or interrupt the overlapping trim.",
+            "LOD1: 4 exposed coplanar pairs. Inspect faces [262, 302] (human/trim / human/trim) at [-0.574437, 0.368654, -0.233]. Separate the exposed front hall trim and door surround planes or interrupt the overlapping trim."
+          ]
+        },
+        {
+          "id": "bld_human_smelter_classical_v0",
+          "evidence_sha256": "8d5afa829dc67482d55e10b2db52d37ed9b5b9c182fefd9c652a1ce6704be267",
+          "observations": "The side chimney and rendered shaft make a two-height silhouette. The exposed tap and stacked ingots mark the working apron across Classical, Medieval and Renaissance. The reopened GLB passed the core geometry and atlas checks at 773, 475, 151 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0: 4 exposed coplanar pairs. Inspect faces [410, 460] (human/trim / human/trim) at [-0.574437, 0.368654, -0.233]. Separate the exposed front hall trim and door surround planes or interrupt the overlapping trim.",
+            "LOD1: 4 exposed coplanar pairs. Inspect faces [262, 302] (human/trim / human/trim) at [-0.574437, 0.368654, -0.233]. Separate the exposed front hall trim and door surround planes or interrupt the overlapping trim."
+          ]
+        },
+        {
+          "id": "bld_human_smelter_future_v0",
+          "evidence_sha256": "308486f2fcacd2a49604fd5e8f6af65c723a59cd05e817c843fc0ed7c5065adc",
+          "observations": "Machined silver and gold shaft variants retain the broad taper and recessed glow. A charging bracket and small human-scale door distinguish their sides. The reopened GLB passed the core geometry and atlas checks at 817, 483, 209 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_smelter_industrial_v0",
+          "evidence_sha256": "4dca2bd9a18051c20ccf347ff9c0b455aa7ab6a25bdebd36e8b3745f44f16b14",
+          "observations": "A brick charging shaft and a taller chimney flank the works office. The orange tap, dark poker bucket and stock remain visible against modern light masonry. The reopened GLB passed the core geometry and atlas checks at 779, 481, 187 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_weaver_ancient_v0",
+          "evidence_sha256": "a77c36cf7da83623291af4a056d4381eee07588becacf5742cb7e9abc00aed43",
+          "observations": "Two long dyed bolts read instantly at the timber house. A dye vat and alternate spools sit below the inclined warp bed. Its front rails stop above the paving. The reopened GLB passed the core geometry and atlas checks at 605, 353, 100 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 87,
+            "charm": 95,
+            "colour": 95,
+            "technical": 96
+          },
+          "defects": [
+            "Ground the inclined loom foot with a transverse support or trestles at z=-0.346. At x=0.070 and x=0.213 its rails end at y=0.093 above the y=0.045 paving. Retain the support at LOD1.",
+            "LOD0: 3 exposed coplanar pairs. Inspect faces [122, 172] (human/trim / human/trim) at [-0.304383, 0.365133, -0.248]. Separate the exposed front hall trim and door surround planes or interrupt the overlapping trim.",
+            "LOD1: 3 exposed coplanar pairs. Inspect faces [98, 138] (human/trim / human/trim) at [-0.304383, 0.365133, -0.248]. Separate the exposed front hall trim and door surround planes or interrupt the overlapping trim."
+          ]
+        },
+        {
+          "id": "bld_human_weaver_classical_v0",
+          "evidence_sha256": "4a0953adb67a79df67763e110c55403470b7148deb733176850e173bdc05723d",
+          "observations": "A clerestory distinguishes the tall workshop from the early hut. Blue and madder cloth and a dye vat announce the trade in all three ages. The loom lacks a footing. The reopened GLB passed the core geometry and atlas checks at 651, 387, 124 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 87,
+            "charm": 95,
+            "colour": 95,
+            "technical": 96
+          },
+          "defects": [
+            "Ground the inclined loom foot with a transverse support or trestles at z=-0.346. At x=0.070 and x=0.213 its rails end at y=0.093 above the y=0.045 paving. Retain the support at LOD1.",
+            "LOD0: 3 exposed coplanar pairs. Inspect faces [136, 186] (human/trim / human/trim) at [-0.304383, 0.365133, -0.248]. Separate the exposed front hall trim and door surround planes or interrupt the overlapping trim.",
+            "LOD1: 3 exposed coplanar pairs. Inspect faces [112, 152] (human/trim / human/trim) at [-0.304383, 0.365133, -0.248]. Separate the exposed front hall trim and door surround planes or interrupt the overlapping trim."
+          ]
+        },
+        {
+          "id": "bld_human_weaver_future_v0",
+          "evidence_sha256": "e9a81e8c480fdd37f3bc9a37f5791930346f5f6c12446feed4143faf92a543b4",
+          "observations": "A stepped roof and enclosed machine flank the warp bed. Gold replaces the Information roof without losing the colored bolts. The lower rails need a grounded support. The reopened GLB passed the core geometry and atlas checks at 672, 357, 144 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 87,
+            "charm": 94,
+            "colour": 95,
+            "technical": 96
+          },
+          "defects": [
+            "Ground the inclined loom foot with a transverse support or trestles at z=-0.346. At x=0.070 and x=0.213 its rails end at y=0.093 above the y=0.045 paving. Retain the support at LOD1."
+          ]
+        },
+        {
+          "id": "bld_human_weaver_industrial_v0",
+          "evidence_sha256": "cd502a4d074309a2acbed657d2334b3e8df5eff902fb02104d08ba5763348363",
+          "observations": "The braced metal drying rack and machine enclosure modernize the yard. Hanging colored bolts stay clear in brick and concrete versions. The loom rails end in midair. The reopened GLB passed the core geometry and atlas checks at 634, 355, 122 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 87,
+            "charm": 94,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "Ground the inclined loom foot with a transverse support or trestles at z=-0.346. At x=0.070 and x=0.213 its rails end at y=0.093 above the y=0.045 paving. Retain the support at LOD1."
+          ]
+        },
+        {
+          "id": "bld_human_workshop_classical_v0",
+          "evidence_sha256": "0afe9993b162a4754148d1aeef6b0c8f31d9f56b748f0b6dc251890fa4ebab6d",
+          "observations": "The yard gantry and spoked workpiece identify a wheelwright. A low bench, stock and shipping crate give the gabled workroom a scale in all three ages. The reopened GLB passed the core geometry and atlas checks at 575, 378, 162 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0: 12 exposed coplanar pairs. Inspect faces [434, 446] (timber / timber) at [0.390238, 0.328865, -0.523]. Give the crossing wheel spokes a distinct depth or join them at a single modeled hub.",
+            "LOD1: 4 exposed coplanar pairs. Inspect faces [322, 334] (timber / timber) at [0.390793, 0.320231, -0.523]. Give the crossing wheel spokes a distinct depth or join them at a single modeled hub."
+          ]
+        },
+        {
+          "id": "bld_human_workshop_industrial_v0",
+          "evidence_sha256": "af84dcd71fb1ee014ca92f4b43d48c9137b53380ffb6396f6333fee13bbf4bc2",
+          "observations": "A metal hoist, spoked workpiece and exhaust stack replace the timber frame. Both brick and concrete variants retain a clear approach and squared freight crate. The reopened GLB passed the core geometry and atlas checks at 687, 445, 179 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 96
+          },
+          "defects": [
+            "LOD0: 12 exposed coplanar pairs. Inspect faces [398, 410] (metal / metal) at [0.390238, 0.328865, -0.523]. Give the crossing wheel spokes a distinct depth or join them at a single modeled hub.",
+            "LOD1: 4 exposed coplanar pairs. Inspect faces [286, 298] (metal / metal) at [0.390793, 0.320231, -0.523]. Give the crossing wheel spokes a distinct depth or join them at a single modeled hub."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Session 9 independent critic (religion builder)",
+      "models": [
+        {
+          "id": "bld_human_armory_ancient_v0",
+          "evidence_sha256": "d7059d8cb03050b5333c1ea211819a4ec8f00f85c2578df24cfb9d63756cba54",
+          "observations": "The two bollards now reach y=0.064, seating them in the y=0.065 plinth. A concealed timber block meets the shield on every LOD, and the Iron gate tie is separated from the door surround. Serialized validation and the exposed-surface audit passed at all three LODs.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_armory_classical_v0",
+          "evidence_sha256": "3ad82f04eccbc4eaa35bc58758c707e25fbddab8f2e3db3eba2a4978f061cb8a",
+          "observations": "Both gate bollards meet the stone and the lower-detail escutcheon has solid backing. The sunlight on the pediment, blue shield and gate posts remains clear in all three age images. Serialized validation and the exposed-surface audit passed at all three LODs.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_armory_future_v0",
+          "evidence_sha256": "2f3b5c7345eebd2df22d3206d156ac43be4730cd98641f8b071d3da78d10c42a",
+          "observations": "The bollards have seated bases in both roof-color variants, while the offset blue end caps, pediment shield and entry steps remain readable. Serialized validation and the exposed-surface audit passed at all three LODs.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_armory_industrial_v0",
+          "evidence_sha256": "60159560d35beacebafb8d61b150de8196128439430786335daf0a79d28d38ba",
+          "observations": "The metal entry bollards now penetrate the paving by 0.001 tile. Secure end bays, blue inventory shields and receiving-door alignment remain clear in brick and concrete. Serialized validation and the exposed-surface audit passed at all three LODs.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_blacksmith_ancient_v0",
+          "evidence_sha256": "db0579629ba1dc13a10310cc833209f889e0f508115beeb01caf5a0bd0ff0113",
+          "observations": "The front timber tie now has a distinct depth from the doorway trim at both affected LODs. Anvil, open forge and dipping bucket remain visible in the Bronze and Iron previews. Serialized validation and the exposed-surface audit passed at all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_electronics_plant_future_v0",
+          "evidence_sha256": "536e5561fdc4e113576140e093ac28ca53e23c5de33318e8429937f5ad092260",
+          "observations": "The parallel filter bars begin at y=1.0615, bearing inside the y=1.065 rim on both sides of each well. The grille reads through the roof view in Modern, Information and Ascension. Serialized validation and the exposed-surface audit passed at all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_smelter_ancient_v0",
+          "evidence_sha256": "791de3fd7e52a6427308c3509a5cbcc6e9052b70b1226419a87c3be1ac6a55cd",
+          "observations": "The tightened roof/header detail clears the shed doorway surround in both upper LODs. The warm furnace mouth, clear yard tap, bucket and rendered hut still read together. Serialized validation and the exposed-surface audit passed at all three LODs.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_smelter_classical_v0",
+          "evidence_sha256": "d2c467c6f83a867170c54ccf8361f50f8e277a4ebdfed44af4358bcfdc688da1",
+          "observations": "The lintel and header are no longer coplanar. Classical, Medieval and Renaissance previews retain the chimney alongside the charging shaft and the eye-catching tap glow. Serialized validation and the exposed-surface audit passed at all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_weaver_ancient_v0",
+          "evidence_sha256": "70ee806700dd12b21996fa0c17c0fad68a45beb77eb24ae8d00cc4eb78dd0166",
+          "observations": "Four grounded trestle feet connect the sloping loom rails to the paving at LOD0 and LOD1. The early hall tie also clears the entry trim. The two bolts and dye vat remain dominant. Serialized validation and the exposed-surface audit passed at all three LODs.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_weaver_classical_v0",
+          "evidence_sha256": "170d0d1a0a7693f07d74b3a0edd94c2705bbc60a816785b9d92fda82fd6f85e9",
+          "observations": "The frame is supported at its low and high ends. The hall header clears the door surround. The raised lantern, warp bed and contrasting textiles read in all three age rows. Serialized validation and the exposed-surface audit passed at all three LODs.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_weaver_future_v0",
+          "evidence_sha256": "15476708696fe281b48e84ed4ab7f9b8a12873e3f88c3443ce6bfbb5bc295607",
+          "observations": "The warp bed now stands on four metal feet that meet the ground plane of the yard. The short cloth, shuttle, long red bolt and service machinery remain distinguishable in Information and Ascension. Serialized validation and the exposed-surface audit passed at all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_weaver_industrial_v0",
+          "evidence_sha256": "98791f9ecdab81552e10a4d4332f6be2eaca0daac6f80b1602b353026fa393cd",
+          "observations": "Trestles rise from y=0.044 through the y=0.045 deck to both ends of the metal warp bed. These feet survive the medium LOD. The machine and fabric frame still have space around them. Serialized validation and the exposed-surface audit passed at all three LODs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_workshop_classical_v0",
+          "evidence_sha256": "541bcf326d718a092c173cc243b7eb6d7b35d562aebfa375b47b943a814f5bdb",
+          "observations": "Individual wood spokes meet a single central hub instead of intersecting at the center of the wheel. The wheel and its braced hoist read against the three age variants of the workroom. Serialized validation and the exposed-surface audit passed at all three LODs.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_workshop_industrial_v0",
+          "evidence_sha256": "e75bc17de0780f1a5b8a58e88e15eefd914a2d42fc9b373dbf30ea2c919dfdda",
+          "observations": "The metal wheel now consists of independent radial spokes meeting the central boss. It remains readable below the crane at 64 px against both the brick and pale modern hall. Serialized validation and the exposed-surface audit passed at all three LODs.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_foundry_future_v0",
+          "evidence_sha256": "20cdc86366f3f81bee4a553442b69db1a3ea081130534d5c737295c93b5c1fb1",
+          "observations": "The steel vessel, crane, glowing ladle and casting shed preserve the same arrangement and profile as the industrial works in both unpainted views. A narrow extra exhaust and lowered shed roof are secondary. Serialized triangle counts are 1210, 688, 346 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 84,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the industrial tap-floor silhouette with a visibly different future melting or casting installation. Keep the crane and ladle readable if retained."
+          ]
+        },
+        {
+          "id": "bld_human_foundry_industrial_v0",
+          "evidence_sha256": "7517caca021e49f5de5da25af2c104b573a70e456da68b73951f44f6469191e9",
+          "observations": "The brick furnace narrows at its open glowing mouth. A braced crane spans the pouring ladle, and stacked moulds and ingots occupy the work floor. The furnace and crane can still be read at the middle level. Serialized triangle counts are 1024, 583, 301 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_smelter_classical_v0",
+          "evidence_sha256": "c09ca1ade53d40fc3c69f4325587c70c3767e9d08b25cccde5864f2fdccecf57",
+          "observations": "A pale tapered furnace has a hot opening near the ground, a tiled workroom and a thin rear flue. Pots and tools line the firing mouth. The vessel and flue remain distinct from the gable at distance. Serialized triangle counts are 773, 439, 151 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_smelter_industrial_v0",
+          "evidence_sha256": "79e8949acc71f6301668abef4588fc1d2c60a6372d892f5db9c73d1644281ec5",
+          "observations": "The tall brick flue and side blast duct extend the furnace silhouette beyond the earlier detached-looking workshop. The glowing tap, fuel bucket and tiny ingots establish scale on the casting floor. Serialized triangle counts are 779, 443, 187 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_weaver_ancient_v0",
+          "evidence_sha256": "5c73332727a27eae8a09578eca84343bffc5771f8cc7ae64148910fc7527ca51",
+          "observations": "Long blue and red cloths hang from an angled drying frame beside a hip-roofed timber hut. A loom, dye vat and rolled cloth make the small workspace recognizable. Serialized triangle counts are 645, 367, 100 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_weaver_classical_v0",
+          "evidence_sha256": "c977b6fa70dce1f7749d7337ac72908cd184657351d0bcca4b8fce727639ebd0",
+          "observations": "The drying frame, canvas strips, loom, dye vat and hut occupy the same arrangement as the ancient weaver. The front gable and small ridge cap have little effect on either phone-scale profile. Serialized triangle counts are 691, 393, 124 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 86,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the classical workshop a new main work structure, such as an open attached loom hall or a drying gallery, while keeping the cloth and working equipment legible."
+          ]
+        },
+        {
+          "id": "bld_human_workshop_classical_v0",
+          "evidence_sha256": "4a68f0a7511857bfc4d4921eeff2f462351314bfff867f618e65b0fd31995253",
+          "observations": "A braced timber gantry carries a spoked wheel in front of the gabled wheelwright’s hut. A tool pile and wooden crate sit clear of the entry. The gantry and wheel stay visible at middle and far distance. Serialized triangle counts are 611, 348, 162 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_workshop_industrial_v0",
+          "evidence_sha256": "f8848c7aaf72c1baaaf879eb693e62ca8678d1e9548cd53e9a7fd9ba9c670e36",
+          "observations": "The hand-hoist, suspended wheel, low bench and gabled workshop keep the same proportions and relative positions as the classical yard. The chimney and shallower roof barely change either grey view. Serialized triangle counts are 723, 411, 179 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 85,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Replace or enlarge the industrial work equipment, such as a sheltered powered wheel or belt-driven line, so the street-facing mass changes at 64 pixels."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_foundry_future_v0",
+          "evidence_sha256": "45de584cdfcd151794027816b67b3ecfd42a187242cd8c866a86def5b8f104ad",
+          "observations": "An overhead electric melting head now hangs between two solid piers and feeds two glowing round moulds. The broad portal is distinct from the old conical furnace at both grey angles. The little rear service hut and ingots give the equipment scale. Serialized triangle counts are 734, 422, 212 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_foundry_industrial_v0",
+          "evidence_sha256": "26fa46b0cc7ad185fbc8557111592f123d1d3f92d3565512e1c102333febcb65",
+          "observations": "The tapered brick furnace and braced ladle gantry read separately at middle distance. The pouring mouth, shed and flue remain visible around the works, with a different skyline from the later overhead melting installation. Serialized triangle counts are 1024, 583, 301 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_weaver_ancient_v0",
+          "evidence_sha256": "0fab400c9febbd638f886c578f3f0befa274177ed1ffeb2821988e20faf43da1",
+          "observations": "The outdoor drying frame and cloth bolts retain clear gaps beside the hip-roofed timber house. Medium views preserve the loom and dye vat, and distinguish this open yard from the new covered classical work hall. Serialized triangle counts are 645, 367, 100 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_weaver_classical_v0",
+          "evidence_sha256": "bc148962d611c196c305d0e095910cff8f8ca7e6cbd4aebe835d9e8aea15ce29",
+          "observations": "A full-width open loom hall replaces the outdoor upright drying frame. Its timber posts flank a broad sloping loom, finished blue web and dye vessels. The canopy, work opening and front cloth read in the middle and far meshes. Serialized triangle counts are 439, 250, 118 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_workshop_classical_v0",
+          "evidence_sha256": "c00308c5207f4de366c41e5c833e6ae8ce0379ae8cb9e2522d7ce005d48ab190",
+          "observations": "The timber hoist, spoked wheel and small pitched tool hut remain distinct in all three middle views. The offset door stays clear of the workbench, with small ingots marking the working yard. Serialized triangle counts are 611, 348, 162 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_workshop_industrial_v0",
+          "evidence_sha256": "577c1853b3aea235b847c48a28efd772f95aa6b89f7b018d533bc995e058fa17",
+          "observations": "The large powered flywheel and paired sawtooth roof lights now dominate a wider brick shop. The two raised roof bays and solid support beneath the wheel are clear in grey and in three painted LOD1 views. Chimney, entry and crate give the building scale. Serialized triangle counts are 579, 329, 184 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_human_weaver_future_v0",
+          "evidence_sha256": "37e167b176f84fc5bb9f98f1c271cce15226115f2c3c916910c5ac85137f063a",
+          "observations": "A circular loom rises above a blue drum, with alternating spools on the upper deck and a red-and-blue core visible between the uprights. The supporting posts remain visible from behind at LOD2. This open vertical machine separates it clearly from the industrial loom shed.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            839,
+            379,
+            260
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_weaver_ancient_v0",
+            "b": "bld_human_weaver_future_v0",
+            "matched": 0,
+            "total": 1935
+          }
+        },
+        {
+          "id": "bld_human_weaver_industrial_v0",
+          "evidence_sha256": "603124aa30be37d82e5f8a9029089768d26699990116bcb66b546dddaef7cb77",
+          "observations": "The stepped sawtooth roof and flue rise behind a broad exposed loom. Warp bars, a blue cloth panel and small coloured supplies identify its working face. The far mesh keeps the loom and cloth under the same strong roof profile.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 93,
+            "construction": 93,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            511,
+            236,
+            150
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_weaver_ancient_v0",
+            "b": "bld_human_weaver_industrial_v0",
+            "matched": 0,
+            "total": 1935
+          }
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "RC4 independent Human art critic, checkpoint comparison",
+      "models": [
+        {
+          "id": "bld_human_blacksmith_classical_v0",
+          "evidence_sha256": "7d3a4e70b2e2dd3454c77bb04f614db2dfbdbbb85a48d9c5dd4e0ab2c6150edd",
+          "observations": "The Bronze/Iron and Classical smithies place the same hipped house, low timber lean-to, glowing round furnace and anvil along one straight frontage. The tiled workshop roof changes colour and finish without changing the massing. The distant mesh preserves that same arrangement.",
+          "scores": {
+            "silhouette": 83,
+            "identity": 80,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Classical forge a distinct furnace enclosure and work bay. Preserve the furnace opening, working anvil and their supports at the reduced levels."
+          ],
+          "lod_triangles": [
+            789,
+            461,
+            233
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_blacksmith_classical_v0",
+            "b": "bld_human_blacksmith_industrial_v0",
+            "matched": 1455,
+            "total": 2367
+          }
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "RC4 independent Human art critic, replacement mesh re-review",
+      "models": [
+        {
+          "id": "bld_human_blacksmith_classical_v0",
+          "evidence_sha256": "ea5b61ebba64c6c6868f498201f410bb8a2f2dcd31972cfb6e79cb483df30e41",
+          "observations": "An open, glowing hearth sits below a broad stone hood and tall square flue. The anvil on its block, paired timber bellows and quench tub flank the work area. The hood\u2019s masonry piers still reach the plinth in the side and rear views at LOD2. The high flue and exposed hearth distinguish it from the older house and lean-to even without colour.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            964,
+            548,
+            296
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_blacksmith_ancient_v0",
+            "b": "bld_human_blacksmith_classical_v0",
+            "matched": 0,
+            "total": 2487
+          }
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_human_armory_ancient_v0",
+          "evidence_sha256": "5adbb4d145507329166e65fdb80217c68b68aa68366a8465132aa29b01c0d73d",
+          "observations": "Both unpainted angles show a round conical hut alongside a detached three-spear and shield rack. The Classical Elf armory repeats that plan and placement with a taller body and leaf cap. On the Human far mesh all spear tips are gone and the shields become rectangular blue panels.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 83,
+            "construction": 91,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [
+            "Give the Human Iron armory a different occupied footprint and roof from the Elf tower-and-rack arrangement, for example an open timber issue court with a long thatched weapons bay. Keep recognisable spear or shield silhouettes on the far mesh."
+          ],
+          "lod_triangles": [
+            495,
+            281,
+            126
+          ],
+          "serialized_sha256": "65e67b29acd4d478477d56c88c7e44cae43389faca42a2d1d25f61b09cd3263e",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_industry-01.png",
+            "rc6/families/human-Armory-v0.png"
+          ],
+          "frozen_png_sha256": {
+            "rc6/held-trade/bld_human_armory_ancient_v0-5adbb4d14550/elf-Armory-v0.png": "0cf788a7ecdb996c6520b7b2c8f5bfa098fa1367c85f1c873ad2d21fa683e813",
+            "rc6/held-trade/bld_human_armory_ancient_v0-5adbb4d14550/human-Armory-v0.png": "48b1ddc3ea4a8f264710c051bb35f815cdf3f1baa419dbf374d77ff685e93aa5",
+            "rc6/held-trade/bld_human_armory_ancient_v0-5adbb4d14550/iron.png": "c849c333eef732fb7800d6cceb3d7aa8712412d21eeb9c1a1bca7c42f7c03e35",
+            "rc6/held-trade/bld_human_armory_ancient_v0-5adbb4d14550/model-and-lods.png": "68840f14c2c1c55881e61dccc40f29fea2f1d24d05aaad405d19fdf07e6a0e74"
+          }
+        },
+        {
+          "id": "bld_human_blacksmith_industrial_v0",
+          "evidence_sha256": "267e7944f938c2bbe1f51b5e9073145d825aa3d37aac540c762fbd3b79e71e4f",
+          "observations": "A freestanding water reservoir feeds the heated drum by an overhead line. From the other side the furnace mouth, rectangular firebox and intervening work space remain legible. The elevated reservoir, line and heated drum survive the far reduction.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            832,
+            421,
+            233
+          ],
+          "serialized_sha256": "741e95e36db778801a92f8b936d59e6051aeb8a99ff9c0cdf244dc6c712b10ff",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_industry-01.png",
+            "rc6/families/human-Blacksmith-v0.png"
+          ]
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent RC6 building art critic, rebuilt exports re-review",
+      "models": [
+        {
+          "id": "bld_human_armory_ancient_v0",
+          "evidence_sha256": "d12a437aafe2ff91d2f102aedd850bde27ad8e39c8b8abf41c5d405ae1fe43c5",
+          "observations": "A short thatched issue shed meets a long shield wall around an open yard. The front benches remain supported, and the three shield points stay visible when the tiny blazons disappear at LOD2. Both unpainted views separate the angular Human court from the Elf armory’s three vaulted bays and central tree.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            740,
+            421,
+            235
+          ],
+          "serialized_sha256": "1ca5600c23bb787e678bc975dc8d4c4460ec7172b5ef4ebb0c27b3d0c8619ac7",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_industry-01.png",
+            "rc6/families/human-Armory-v0.png"
+          ],
+          "visual_evidence_sha256": {
+            "rc6/models/human_industry-01.png": "2a1a5638262e7aefaf5e1b361e474f3a7f397e6cdf151a20c9b0ea45d0d80f34",
+            "rc6/families/human-Armory-v0.png": "e074dc0e835a74ead829527acc65b9d82eadaf12b3ff5010ff549211fa8a921b"
+          },
+          "age_preview_sha256": {
+            "iron": "b47fbb4752c181b701cff45c2e67cd350e74212fb16a8360c2b986306e30d509"
+          },
+          "supersedes_evidence_sha256": "5adbb4d145507329166e65fdb80217c68b68aa68366a8465132aa29b01c0d73d"
+        }
+      ]
+    }
+  ]
+}

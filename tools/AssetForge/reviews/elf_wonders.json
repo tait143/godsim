@@ -1,0 +1,47 @@
+{
+  "package": "elf_wonders",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "elf_wonders_critic",
+      "models": [
+        {
+          "id": "bld_elf_world_tree_ancient_v0",
+          "evidence_sha256": "f6f46a335f1738e27709bac8a3f063928dcd7a71a555582729e4ce42e4c38b3f",
+          "observations": "Inspected all nine 336 px images and their 40, 64 and 80 px reductions. The moon cup and the differently elevated chapels punctuate the tree silhouette at 64 px. Around the back the branches support both occupied decks, and the planted roots, arched south entry, stair and rising paths explain how the sanctuary is reached. The two lit seed lamps and flower beds reward the close view. Bronze uses warm stair and chapel hues, Iron and Medieval darken their eaves, Classical and Renaissance have pale masonry, Industrial shows brick, and Information and Ascension change the seed and shrine highlights. Some adjacent ages are subtle at 40 px. I also rendered the actual three GLB meshes from front and back. All retain the crest, root door, chapels and bridge. The serialized geometry/UV checks accepted the 3 by 3 footprint, Y=0 base, single shared material and 4615/2585/1051 triangles. The package review exited 1 on two exposed coplanar pairs in the bottom cap of the LOD0 bole. LOD1 and LOD2 reported no exposed pairs.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 91,
+            "technical": 95
+          },
+          "defects": [
+            "LOD0 timber faces 645/647 overlap by 0.003319564 tile\u00b2 at (0.60899, 0.13000, -0.00038), and faces 632/634 overlap by 0.001481903 tile\u00b2 at (0.56799, 0.13000, 0.26882). The fluted base outline of the trunk is concave. Remove its buried bottom cap or triangulate it radially from an interior centre point. Regenerate all levels and confirm zero exposed pairs."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "elf_wonders_critic",
+      "models": [
+        {
+          "id": "bld_elf_world_tree_ancient_v0",
+          "evidence_sha256": "ec5e1f6921165e89b711fa291a889af0c885e7a2b1c0f3172137107ecd84dc80",
+          "observations": "Reviewed all nine regenerated age PNGs individually and at 40, 64 and 80 px. The stepped canopy, moon cup, split boughs and chapels retain their outline in the three serialized LODs from both front and rear. The arch, front stairs and rising galleries clarify access, while the pod lamps and foreground herb flowers add scale. The age rows retain the green canopy while stone, brick, metallic bands and the late luminous seed distinguish eras. Close ages are most legible through the chapels and portal. Both fluted bole caps now triangulate around interior centres. The package review exited 0 with 4619, 2589 and 1055 triangles. The exposed-overlap inspection is clear across all three LODs. The single shared material, UV rows, footprint and floor contact passed serialized validation. Review covers the Python validator and previews.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

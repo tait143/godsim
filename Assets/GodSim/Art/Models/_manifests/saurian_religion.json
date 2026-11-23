@@ -1,0 +1,668 @@
+[
+ {
+  "id": "bld_saurian_cathedral_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Religion",
+  "building_type": "Cathedral",
+  "race": "saurian",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1105,
+  "lod_triangles": [
+   1105,
+   653,
+   281
+  ],
+  "bounds": [
+   [
+    -1.4474999904632568,
+    0.0,
+    -1.398900032043457
+   ],
+   [
+    1.4474999904632568,
+    2.943000078201294,
+    1.4249999523162842
+   ]
+  ],
+  "bytes": 157116,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_cathedral_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_cathedral_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_cathedral_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_cathedral_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_cathedral_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Religion",
+  "building_type": "Cathedral",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 776,
+  "lod_triangles": [
+   776,
+   441,
+   247
+  ],
+  "bounds": [
+   [
+    -1.4249999523162842,
+    0.0,
+    -1.402500033378601
+   ],
+   [
+    1.4249999523162842,
+    3.0,
+    1.2975000143051147
+   ]
+  ],
+  "bytes": 114648,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_cathedral_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_cathedral_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_cathedral_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_cathedral_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_cathedral_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Religion",
+  "building_type": "Cathedral",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 725,
+  "lod_triangles": [
+   725,
+   397,
+   201
+  ],
+  "bounds": [
+   [
+    -1.4249999523162842,
+    0.0,
+    -1.402500033378601
+   ],
+   [
+    1.4249999523162842,
+    2.5947000980377197,
+    1.2975000143051147
+   ]
+  ],
+  "bytes": 98280,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_cathedral_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_cathedral_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_cathedral_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_cathedral_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_monastery_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Religion",
+  "building_type": "Monastery",
+  "race": "saurian",
+  "ages": [
+   "medieval",
+   "renaissance",
+   "classical"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1365,
+  "lod_triangles": [
+   1365,
+   777,
+   217
+  ],
+  "bounds": [
+   [
+    -0.9549999833106995,
+    0.0,
+    -0.9049999713897705
+   ],
+   [
+    0.9549999833106995,
+    1.4076999425888062,
+    0.9049999713897705
+   ]
+  ],
+  "bytes": 176684,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_monastery_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_monastery_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_monastery_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_monastery_classical_v0__renaissance.png",
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_monastery_classical_v0__classical.png"
+  }
+ },
+ {
+  "id": "bld_saurian_monastery_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Religion",
+  "building_type": "Monastery",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1028,
+  "lod_triangles": [
+   1028,
+   582,
+   192
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9100000262260437
+   ],
+   [
+    0.949999988079071,
+    1.3200000524520874,
+    0.9684000015258789
+   ]
+  ],
+  "bytes": 145792,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_monastery_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_monastery_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_monastery_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_monastery_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_monastery_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Religion",
+  "building_type": "Monastery",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 756,
+  "lod_triangles": [
+   756,
+   449,
+   200
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9100000262260437
+   ],
+   [
+    0.949999988079071,
+    1.4609999656677246,
+    0.9100000262260437
+   ]
+  ],
+  "bytes": 101712,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_monastery_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_monastery_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_monastery_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_monastery_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_shrine_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Religion",
+  "building_type": "Shrine",
+  "race": "saurian",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 960,
+  "lod_triangles": [
+   960,
+   464,
+   202
+  ],
+  "bounds": [
+   [
+    -0.38749998807907104,
+    0.0,
+    -0.4699999988079071
+   ],
+   [
+    0.38749998807907104,
+    0.8798149824142456,
+    0.38999998569488525
+   ]
+  ],
+  "bytes": 123868,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_shrine_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_shrine_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Religion",
+  "building_type": "Shrine",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 620,
+  "lod_triangles": [
+   620,
+   353,
+   144
+  ],
+  "bounds": [
+   [
+    -0.4449999928474426,
+    0.0,
+    -0.4675000011920929
+   ],
+   [
+    0.4449999928474426,
+    0.6499999761581421,
+    0.4325000047683716
+   ]
+  ],
+  "bytes": 87192,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_shrine_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_shrine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Religion",
+  "building_type": "Shrine",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 480,
+  "lod_triangles": [
+   480,
+   273,
+   140
+  ],
+  "bounds": [
+   [
+    -0.4449999928474426,
+    0.0,
+    -0.4675000011920929
+   ],
+   [
+    0.4449999928474426,
+    0.5950000286102295,
+    0.4325000047683716
+   ]
+  ],
+  "bytes": 70720,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_shrine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_shrine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Religion",
+  "building_type": "Shrine",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 738,
+  "lod_triangles": [
+   738,
+   420,
+   234
+  ],
+  "bounds": [
+   [
+    -0.4449999928474426,
+    0.0,
+    -0.4675000011920929
+   ],
+   [
+    0.4449999928474426,
+    0.7674999833106995,
+    0.4325000047683716
+   ]
+  ],
+  "bytes": 116996,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_shrine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_shrine_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_spirit_totem_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Religion",
+  "building_type": "SpiritTotem",
+  "race": "saurian",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 880,
+  "lod_triangles": [
+   880,
+   443,
+   130
+  ],
+  "bounds": [
+   [
+    -0.35249999165534973,
+    0.0,
+    -0.42500001192092896
+   ],
+   [
+    0.35249999165534973,
+    0.9634550213813782,
+    0.38749998807907104
+   ]
+  ],
+  "bytes": 110468,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_spirit_totem_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_spirit_totem_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_spirit_totem_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_spirit_totem_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_spirit_totem_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_temple_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Religion",
+  "building_type": "Temple",
+  "race": "saurian",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 974,
+  "lod_triangles": [
+   974,
+   554,
+   283
+  ],
+  "bounds": [
+   [
+    -0.8899999856948853,
+    0.0,
+    -0.9570000171661377
+   ],
+   [
+    0.8899999856948853,
+    1.4299999475479126,
+    0.9350000023841858
+   ]
+  ],
+  "bytes": 153828,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_temple_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_temple_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Religion",
+  "building_type": "Temple",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1312,
+  "lod_triangles": [
+   1312,
+   747,
+   384
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9350000023841858
+   ],
+   [
+    0.949999988079071,
+    1.1549999713897705,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 197332,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_temple_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_temple_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Religion",
+  "building_type": "Temple",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 844,
+  "lod_triangles": [
+   844,
+   480,
+   260
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9449999928474426
+   ],
+   [
+    0.949999988079071,
+    1.690000057220459,
+    0.875
+   ]
+  ],
+  "bytes": 140724,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_temple_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_temple_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Religion",
+  "building_type": "Temple",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1007,
+  "lod_triangles": [
+   1007,
+   485,
+   195
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9350000023841858
+   ],
+   [
+    0.949999988079071,
+    1.611899971961975,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 120360,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Religion/bld_saurian_temple_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Religion/bld_saurian_temple_industrial_v0__modern.png"
+  }
+ }
+]

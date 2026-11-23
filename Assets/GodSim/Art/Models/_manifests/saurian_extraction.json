@@ -1,0 +1,980 @@
+[
+ {
+  "id": "bld_saurian_coal_mine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "CoalMine",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 910,
+  "lod_triangles": [
+   910,
+   518,
+   289
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9350000023841858
+   ],
+   [
+    0.949999988079071,
+    1.0764273405075073,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 146116,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_coal_mine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_coal_mine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_coal_mine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_coal_mine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_coal_mine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "CoalMine",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1285,
+  "lod_triangles": [
+   1285,
+   597,
+   374
+  ],
+  "bounds": [
+   [
+    -0.9399999976158142,
+    0.0,
+    -0.8600000143051147
+   ],
+   [
+    0.9399999976158142,
+    1.6169999837875366,
+    0.8799999952316284
+   ]
+  ],
+  "bytes": 181064,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_coal_mine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_coal_mine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_coal_mine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_coal_mine_industrial_v0__modern.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_coal_mine_industrial_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_gold_mine_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "GoldMine",
+  "race": "saurian",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1246,
+  "lod_triangles": [
+   1246,
+   601,
+   361
+  ],
+  "bounds": [
+   [
+    -0.9399999976158142,
+    0.0,
+    -0.8600000143051147
+   ],
+   [
+    0.9399999976158142,
+    1.246999979019165,
+    0.8799999952316284
+   ]
+  ],
+  "bytes": 174656,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_gold_mine_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_gold_mine_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_gold_mine_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_gold_mine_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "GoldMine",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 809,
+  "lod_triangles": [
+   809,
+   461,
+   247
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9350000023841858
+   ],
+   [
+    0.949999988079071,
+    1.0555888414382935,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 116616,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_gold_mine_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_gold_mine_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_gold_mine_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_gold_mine_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_gold_mine_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_gold_mine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "GoldMine",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 888,
+  "lod_triangles": [
+   888,
+   506,
+   232
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9350000023841858
+   ],
+   [
+    0.949999988079071,
+    0.9800000190734863,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 147364,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_gold_mine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_gold_mine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_gold_mine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_gold_mine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_gold_mine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "GoldMine",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 694,
+  "lod_triangles": [
+   694,
+   389,
+   180
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9350000023841858
+   ],
+   [
+    0.949999988079071,
+    1.1267999410629272,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 102204,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_gold_mine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_gold_mine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_gold_mine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_gold_mine_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_mine_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "Mine",
+  "race": "saurian",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1217,
+  "lod_triangles": [
+   1217,
+   553,
+   342
+  ],
+  "bounds": [
+   [
+    -0.9399999976158142,
+    0.0,
+    -0.8600000143051147
+   ],
+   [
+    0.9399999976158142,
+    1.246999979019165,
+    0.8799999952316284
+   ]
+  ],
+  "bytes": 169916,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_mine_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_mine_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_mine_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_mine_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_mine_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "Mine",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 869,
+  "lod_triangles": [
+   869,
+   494,
+   275
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9350000023841858
+   ],
+   [
+    0.949999988079071,
+    1.059999942779541,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 144592,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_mine_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_mine_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_mine_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_mine_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_mine_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_mine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "Mine",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 947,
+  "lod_triangles": [
+   947,
+   538,
+   289
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9350000023841858
+   ],
+   [
+    0.949999988079071,
+    1.0299999713897705,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 144304,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_mine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_mine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_mine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_mine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_mine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "Mine",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 711,
+  "lod_triangles": [
+   711,
+   409,
+   227
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9350000023841858
+   ],
+   [
+    0.949999988079071,
+    1.5831999778747559,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 97192,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_mine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_mine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_mine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_mine_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_oil_well_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "OilWell",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 759,
+  "lod_triangles": [
+   759,
+   398,
+   180
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.8399999737739563
+   ],
+   [
+    0.949999988079071,
+    1.6729999780654907,
+    0.8399999737739563
+   ]
+  ],
+  "bytes": 111924,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_oil_well_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_oil_well_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_oil_well_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_oil_well_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_oil_well_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "OilWell",
+  "race": "saurian",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 743,
+  "lod_triangles": [
+   743,
+   346,
+   169
+  ],
+  "bounds": [
+   [
+    -0.9399999976158142,
+    0.0,
+    -0.7350000143051147
+   ],
+   [
+    0.9399999976158142,
+    1.4718222618103027,
+    0.7549999952316284
+   ]
+  ],
+  "bytes": 103348,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_oil_well_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_oil_well_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_oil_well_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_saurian_sawmill_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "Sawmill",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 762,
+  "lod_triangles": [
+   762,
+   381,
+   176
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    0.949999988079071,
+    1.25,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 105640,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_sawmill_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_sawmill_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_sawmill_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_sawmill_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_sawmill_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "Sawmill",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1107,
+  "lod_triangles": [
+   1107,
+   619,
+   239
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.8949999809265137
+   ],
+   [
+    0.9300000071525574,
+    1.1670000553131104,
+    0.8949999809265137
+   ]
+  ],
+  "bytes": 157824,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_sawmill_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_sawmill_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_sawmill_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_sawmill_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_stone_quarry_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "saurian",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 690,
+  "lod_triangles": [
+   690,
+   405,
+   212
+  ],
+  "bounds": [
+   [
+    -0.9350000023841858,
+    0.0,
+    -0.8600000143051147
+   ],
+   [
+    0.9350000023841858,
+    1.2046006917953491,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 110288,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_stone_quarry_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 934,
+  "lod_triangles": [
+   934,
+   480,
+   280
+  ],
+  "bounds": [
+   [
+    -0.949999988079071,
+    0.0,
+    -0.9350000023841858
+   ],
+   [
+    0.949999988079071,
+    1.1162265539169312,
+    0.8650000095367432
+   ]
+  ],
+  "bytes": 134868,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_stone_quarry_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 402,
+  "lod_triangles": [
+   402,
+   229,
+   124
+  ],
+  "bounds": [
+   [
+    -0.9350000023841858,
+    0.0,
+    -0.8849999904632568
+   ],
+   [
+    0.9350000023841858,
+    1.274999976158142,
+    0.8849999904632568
+   ]
+  ],
+  "bytes": 65812,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_stone_quarry_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "StoneQuarry",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 657,
+  "lod_triangles": [
+   657,
+   349,
+   163
+  ],
+  "bounds": [
+   [
+    -0.9350000023841858,
+    0.0,
+    -0.8849999904632568
+   ],
+   [
+    0.9350000023841858,
+    0.9800000190734863,
+    0.8849999904632568
+   ]
+  ],
+  "bytes": 85336,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_stone_quarry_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_saurian_woodcutter_camp_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "saurian",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1017,
+  "lod_triangles": [
+   1017,
+   508,
+   155
+  ],
+  "bounds": [
+   [
+    -0.4650000035762787,
+    0.0,
+    -0.44749999046325684
+   ],
+   [
+    0.4650000035762787,
+    0.4766559898853302,
+    0.44749999046325684
+   ]
+  ],
+  "bytes": 140996,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_saurian_woodcutter_camp_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "saurian",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 649,
+  "lod_triangles": [
+   649,
+   305,
+   133
+  ],
+  "bounds": [
+   [
+    -0.4749999940395355,
+    0.0,
+    -0.4449999928474426
+   ],
+   [
+    0.4749999940395355,
+    0.6204085350036621,
+    0.4449999928474426
+   ]
+  ],
+  "bytes": 91776,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_saurian_woodcutter_camp_future_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "saurian",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 756,
+  "lod_triangles": [
+   756,
+   397,
+   171
+  ],
+  "bounds": [
+   [
+    -0.4749999940395355,
+    0.0,
+    -0.4449999928474426
+   ],
+   [
+    0.4749999940395355,
+    0.6925595998764038,
+    0.4449999928474426
+   ]
+  ],
+  "bytes": 105376,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_saurian_woodcutter_camp_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Saurian/Extraction",
+  "building_type": "WoodcutterCamp",
+  "race": "saurian",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 747,
+  "lod_triangles": [
+   747,
+   347,
+   143
+  ],
+  "bounds": [
+   [
+    -0.4749999940395355,
+    0.0,
+    -0.4449999928474426
+   ],
+   [
+    0.4749999940395355,
+    0.5580000281333923,
+    0.4449999928474426
+   ]
+  ],
+  "bytes": 94168,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Saurian/Extraction/bld_saurian_woodcutter_camp_industrial_v0__modern.png"
+  }
+ }
+]

@@ -1,0 +1,527 @@
+{
+  "package": "dwarf_housesclassical",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "critic_dwarf_classical_houses",
+      "models": [
+        {
+          "id": "bld_dwarf_house_classical_medieval_v0",
+          "evidence_sha256": "94b518d23c375d7c9ff239f99cfaa56fc74a4fde8ede67d8e3af4bb5d99c4ffd",
+          "observations": "The squat slate vault, stepped firebreaks and battered stone feet read as a Dwarf hearth at 40–64 px. The hooded side light, diamond lamp and little front pot give the broad house a domestic scale. In the side view the distant house loses the chimney and rear roof steps at the same transition. The 507/310/140 triangle exports passed serialized validation.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 94,
+            "construction": 88,
+            "charm": 93,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "At LOD2 the chimney and rear stepped firebreak disappear together. The maximum height falls from 0.682 to 0.590 tile. Retain a capped chimney and a simplified stepped rear parapet and check the side and rear silhouettes.",
+            "At LOD2 the door face stands 0.018 tile in front of the wall after both jambs are removed. Add shallow side returns or place the panel on the masonry so it closes at a grazing angle.",
+            "At LOD0/1 the central clan mark lies entirely inside the front firebreak. At its centre the mark spans z=−0.2612 to −0.2488, while the firebreak face is at −0.2785. Set the relief on the exposed masonry surface."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_medieval_v1",
+          "evidence_sha256": "bac5bc398d2deb73c500c7fc64d41f5600d06ae81bd3324c730bb6557cdbc528",
+          "observations": "The high slate vault and low side room distinguish this variant at 40–64 px. The honey-coloured light sits on the exposed wall opposite the annex, and the chimney emerges above the main roof at the first two levels. A side view of the 166-triangle mesh shows the unbroken roof where both the chimney and rear firebreak stood. The 557/352/166 triangle exports passed serialized validation.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 94,
+            "construction": 88,
+            "charm": 93,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "At LOD2 preserve the tall capped chimney and at least a short stepped rear firebreak. The current change removes both roof landmarks and drops the maximum height from 0.793 to 0.668 tile.",
+            "At LOD2 both jambs disappear while the door plane remains 0.018 tile ahead of the masonry. Seat the panel in the wall or add simple side returns.",
+            "At LOD0/1 the clan mark is enclosed in the front firebreak. Its centre spans z=−0.2587 to −0.2463 behind the front face at −0.2760. Carry the mark onto the visible face or set it into an exposed lintel."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_renaissance_v0",
+          "evidence_sha256": "c9a864cf5a016442f223ddd5f8d5f715d1b13b93267df690c7602806c3b86355",
+          "observations": "The faceted brass-coloured dome on the low red roof stands out at 40–64 px. The pale battered walls, glazed front light, doorway pot and clay jar give the house a clear front. The low side views show a pointed cap at the last transition and daylight at the entrance. The 516/189/95 triangle exports passed serialized validation.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 94,
+            "construction": 83,
+            "charm": 92,
+            "colour": 94,
+            "technical": 93
+          },
+          "defects": [
+            "At LOD2 the rounded dome becomes a straight-sided five-face pyramid. Add a shoulder ring to preserve the dome in side elevation.",
+            "The LOD0/1 front window has an unsupported backing plane, approximately 0.044/0.043 tile ahead of the wall at window height. The LOD0 rear vent also stands 0.016 tile off the wall. Fit the backing to the battered wall or give each opening solid reveals.",
+            "The door leaf stands 0.035–0.037 tile off the masonry at y=0.191. At LOD0/1 even the jamb backs clear the wall by 0.012–0.013 tile at y=0.155, and LOD2 omits those jambs. Extend the surround into the wall and close the sides at every level.",
+            "The LOD0/1 lozenge centred above the front door is buried in the door cap. At y=0.304 its front is z=−0.2237 behind the cap face at −0.2450. Place the clan relief on an exposed face."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_renaissance_v1",
+          "evidence_sha256": "d6791aee4332f93bdfa3fd2f84752a431bdc904613fa101e12d0c0fdea1c2df1",
+          "observations": "The off-centre brass-coloured dome and blue drum stand clearly apart from the red barrel roof at 40–64 px. The faceted side tower, lit windows and paired vessels distinguish the entry. At LOD2 the side tower gains a sharply pointed roof. The 562/219/114 triangle exports passed serialized validation.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 95,
+            "construction": 82,
+            "charm": 93,
+            "colour": 95,
+            "technical": 92
+          },
+          "defects": [
+            "At LOD2 give the side dome an intermediate shoulder ring. Its single five-sided cone loses the rounded outline visible at LOD0/1.",
+            "The LOD0/1 front window backing stands about 0.043 tile off the wall, and the LOD0 rear vent stands 0.015 tile off it. The LOD0 tower-window backing also clears its facet by about 0.006–0.015 tile across the opening. Align each opening to its support or provide solid side returns.",
+            "At y=0.191 the door stands about 0.035–0.036 tile forward of the wall. At y=0.155 the jamb backs still clear the wall by about 0.012 tile. Build the surround through to the wall and retain a closed return at LOD2.",
+            "The LOD0/1 clan relief hovers about 0.0038 tile ahead of the cornice at its centre. Recess the back of the relief slightly into the cornice face."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_v0",
+          "evidence_sha256": "da898fd736916a1c40385c87c9ee5e9714599048ed446d27fb00ae3f85f5c74a",
+          "observations": "The low terracotta hip and the two-column porch distinguish the Classical house from the later vaulted and domed houses at 40–64 px. Pale column bases sit on the raised deck, and the diamond lamp has a socket extending into the masonry. The portico survives all three meshes. The 383/232/110 triangle exports passed serialized validation.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 86,
+            "charm": 91,
+            "colour": 92,
+            "technical": 95
+          },
+          "defects": [
+            "The door plane stands about 0.040–0.043 tile in front of the battered wall at y=0.175. Even the LOD0/1 jamb backs clear the wall by about 0.017–0.019 tile at y=0.155. Use a supporting wall return or extend the frame through to the wall, including the simplified LOD2 entry.",
+            "The LOD0 rear vent backing at z=0.3560 clears the wall at z=0.3303 at mid-height. Seat the opening on the wall slope or add a roughly 0.026-tile-deep reveal."
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_v1",
+          "evidence_sha256": "16be2465e772c4e8a708c676ccbb4e6b38c9b5fdfe00e351c1a411b3d6d3dde8",
+          "observations": "The tall red vault, round side room and small front portico give this house a three-part silhouette at 40–64 px. The side room and porch remain legible in the reduced meshes. The pale wall, column capitals and amber diamond match its Classical partner. The 437/270/132 triangle exports passed serialized validation.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 95
+          },
+          "defects": [
+            "The door panel sits about 0.038–0.040 tile ahead of the wall at y=0.175. The LOD0/1 jamb backs still clear the masonry by about 0.016–0.017 tile at y=0.155. Return the entry into the wall and give the simplified LOD2 panel a closed edge.",
+            "The LOD0 vent backing at z=0.3260 stands clear of the rear wall at z=0.3028. Fit the vent to the battered face or build solid reveals to bridge that 0.023-tile gap."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "critic_dwarf_classical_houses",
+      "models": [
+        {
+          "id": "bld_dwarf_house_classical_medieval_v0",
+          "evidence_sha256": "f1695678efa0eeb59fe10b51a8171d0d86f1b90b3e177e9656dad98de018260c",
+          "observations": "At 40 px the shoulders of the pale firebreak bracket the slate vault, with the chimney rising above it. Both stepped ends and the chimney remain visible in front, rear and side views of LOD2. Peak height changes from 0.6825 to 0.6806 tile. The centre lozenge projects from the firebreak on LOD0/1. The door sides now reach the wall on all three levels. The 549/322/174 triangle exports passed serialized and surface checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_classical_medieval_v1",
+          "evidence_sha256": "de1331fdb3772b90242f201f3e3b05f5754fe900d49834a63ccbc09103244661",
+          "observations": "The lower vaulted annex, tall main flue and stepped stone gables distinguish this house from its broader neighbour at 40–64 px. Both parapets and the flue survive the rear and grazing LOD2 views. The flue reaches 0.7916 tile there, against 0.7935 at full detail. The clan mark is visible on the front firebreak, the hooded side light clears the annex, and the far door has continuous returns. The 599/364/192 triangle exports passed serialized and surface checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_classical_renaissance_v0",
+          "evidence_sha256": "4f2cde3efaae849a58a2600debe50281811b9ce0917884c85c9fa3d9afd697a7",
+          "observations": "At phone size the brass-coloured dome sits prominently above the low red roof. LOD1 and LOD2 both keep its shoulder at y=0.651 and its crown at y=0.701. The front window now has visible masonry sides in the low side views. The door closes into the facade at all three levels, the rear vent has four returns, and the small lozenges are visible on the front lintel. The 544/209/120 triangle exports passed serialized and surface checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_classical_renaissance_v1",
+          "evidence_sha256": "c6c66bbe86b525db106cecf07840c4ee19d32373e8fce0244e7c1743fc308835",
+          "observations": "The blue drum and rounded brass-coloured cap beside the red vault distinguish the side tower at 40 px. The distant cap keeps the shoulder at y=0.576 and the crown at y=0.615. Grazing views show solid sides to the front and tower windows. Exported return faces reach into both walls and the rear vent, and the door retains its sides through LOD2. The clan lozenges sit on the gold-edged front lintel. The 598/239/139 triangle exports passed serialized and surface checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_classical_v0",
+          "evidence_sha256": "32da22d75d4d8d18c4de59bf4f8a522b9bcd602c841d306eca16790ded1a446a",
+          "observations": "The low terracotta hip, front steps and columned porch read at 40–64 px. The small doorway lamp and pot distinguish the domestic entrance at full size. Both grazing views show a continuous door edge inside the portico. The export has a 0.110-tile doorway return at every level and four 0.075-tile return sides behind the rear grille at LOD0. The 403/244/122 triangle exports passed serialized and surface checks.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_dwarf_house_classical_v1",
+          "evidence_sha256": "f4d358ad642fe979a73edb4a7dd77f75891d7a9cf01bdde2fef74d08760d4c56",
+          "observations": "The broad vault over the pale masonry and the round red-roofed side room remain distinct from the hipped variant down to 40 px. Both side views retain the porch columns, raised deck and connected door surround in the lower meshes. The full-detail rear vent now has four sides extending 0.075 tile into the body. The 457/282/144 triangle exports passed serialized and surface checks.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Dwarf repair critic, round 1",
+      "inspection": "Inspected every listed asset’s authored age previews at phone scale, rendered all three serialized LODs at 64 px and inspected LOD1 at two angles. Compared neutral 64 px renders of all available eras in each audited family. Verified fragment metadata, shared material and atlas, triangle budgets and ratios, surface findings, orientation and local shape duplication against the reviewed files.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_classical_medieval_v1",
+          "evidence_sha256": "b7f2682585a332e697b4d67d4be4dd967f569d6a2747e17be603eaefea5b4e64",
+          "observations": "Front crenellations interrupt the barrel roof and a chimney stands behind them. The smaller side room keeps the footprint asymmetric. At LOD1 the facing, side vault and entry steps all stay attached to the main wall.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            599,
+            340,
+            192
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_v0",
+          "evidence_sha256": "42f3b55a72c758a7190d00e06c128e25691a7b737d95d53ed9f86111c08ec178",
+          "observations": "The projecting red hip roof and smaller tiled porch provide two clear tiers above the pale masonry. LOD1 retains the porch posts, door reveal and stair without thin gaps at the eaves.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 92,
+            "construction": 93,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            403,
+            228,
+            122
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_v1",
+          "evidence_sha256": "a473274667350d3b2a1998aafe1a98de0524710947d56d38b3b67e857d220b61",
+          "observations": "The main barrel roof, small round side chamber and pitched portico form three distinct masses. The warm tile remains separated from the pale walls, and both porch columns and the stairs stay visible at the middle level.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            457,
+            260,
+            144
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_classical_medieval_v1",
+          "evidence_sha256": "9be4e89f015437ef6b910cef4b084dede9f0ee23067b321ea1f8e440bba65445",
+          "observations": "The slate vault keeps its crenellated parapet, attached wing and full rear wall. The short entry stair remains underneath a complete door and lintel.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            599,
+            340,
+            192
+          ]
+        },
+        {
+          "id": "bld_dwarf_house_classical_v1",
+          "evidence_sha256": "f71eba4796e441f3ce4e220f556582ca64a74f8dde8bfa9e0e22f5c3b719e67b",
+          "observations": "The barrel roof and small pitched portico retain complete facings. The steps, two porch columns and circular side room remain recognizable at phone scale.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            457,
+            260,
+            144
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "RC6 independent housing, town center and Saurian civic critic",
+      "inspection": "Compared all sibling entries at 64 px in paint and in both unpainted cameras. Inspected every changed age preview, all three serialized LODs, and reverse views of the middle model. Compared the same-age house alternatives side by side and examined the three races together. Recomputed the picture and directional corner metrics, verified the package metadata and GLB statistics, and checked the actual serialized surfaces and shell orientations for each changed model.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_classical_medieval_v0",
+          "evidence_sha256": "e0e34d0ae243b7f594c6f4bdb08a26bceb2850ee0fbbd675c7221a7e550f396d",
+          "observations": "The square stone lookout with a dark hipped cap takes a different silhouette from the gabled Medieval alternative. The portico roof has a freestanding chimney at LOD0. Its shaft and cap both vanish when the first reduced mesh appears.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 93,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Carry the capped chimney through LOD1 and LOD2 at its location on the low wing. In side and rear views it should clear the portico ridge."
+          ],
+          "lod_triangles": [
+            447,
+            206,
+            94
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.612,
+            "primary_picture_pair": [
+              "bld_dwarf_house_ancient_bronze_v0",
+              "bld_dwarf_house_classical_medieval_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1161
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_house_ancient_v0",
+              "bld_dwarf_house_classical_medieval_v0"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_housesclassical-01.png": "c4a516b7e5e3099314dbbc83e9113634539464da1697fbad239ab4c036983a3e",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v1.png": "291b39f87fa77ec4e615158b38e627cf89417bc35ff7a664d87d4102a00a346f"
+          },
+          "glb_sha256": "09a476641b54d959c5b4268a89e9e69b319cf0168d4ad96df908a1703b5eeaeb",
+          "age_preview_sha256": {
+            "medieval": "9eb5ae544a8ea514ade6f7c2492d168fd39497bd0a1b5c4467983d1ab2a143ea"
+          }
+        },
+        {
+          "id": "bld_dwarf_house_classical_medieval_v1",
+          "evidence_sha256": "c1721968120dd9a2cc7dd43b63a9d3bd664e2a84e1c350b9676d4edd0b1d754c",
+          "observations": "The plastered overhanging upper storey adds domestic scale. At phone size the slate gable and low side room still repeat the Iron v1 layout. Its masonry chimney disappears from the rear pitch at both reduced LODs.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 90,
+            "construction": 86,
+            "charm": 91,
+            "colour": 92,
+            "technical": 96
+          },
+          "defects": [
+            "Give the Medieval variant a distinct roof arrangement or wing plan so its age can be read against Iron v1 without relying on taller plaster walls and timber trim.",
+            "Retain the chimney in both reduced meshes, including its cap or a clear simplified lip."
+          ],
+          "lod_triangles": [
+            415,
+            214,
+            92
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.652,
+            "primary_picture_pair": [
+              "bld_dwarf_house_ancient_iron_v1",
+              "bld_dwarf_house_classical_medieval_v1"
+            ],
+            "max_shared_corners": [
+              0,
+              1149
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_house_ancient_v1",
+              "bld_dwarf_house_classical_medieval_v1"
+            ]
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_housesclassical-01.png": "c4a516b7e5e3099314dbbc83e9113634539464da1697fbad239ab4c036983a3e",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v1.png": "291b39f87fa77ec4e615158b38e627cf89417bc35ff7a664d87d4102a00a346f",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d"
+          },
+          "glb_sha256": "745cff565ec4b54e8dcf2567f3d60d58864cee93e761047702e1daf7437f0f2c",
+          "age_preview_sha256": {
+            "medieval": "527ad015699b977cdb41e0a6d2e7e11396b6bc5d1226dbe02001d6093dbe4b00"
+          }
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "RC6 independent housing and Saurian civic critic, corrected candidate review",
+      "inspection": "Compared the published painted age previews and family sheets against the original holds and named lookalikes. Rendered both unpainted 64 px views independently from each of the three actual LOD meshes. Inspected the native family cameras and the larger multi-camera LOD sheet. Recomputed same-family picture likeness and directional corner overlap, checked the fragment against the GLB and verified all three serialized levels for exposed coplanar faces and inverted shells.",
+      "models": [
+        {
+          "id": "bld_dwarf_house_classical_medieval_v0",
+          "evidence_sha256": "0468e58aaf35c52f1cae76b73cb52579ec3f99b00fcf8f4eae1ec83efceb7fc1",
+          "previous_evidence_sha256": "e0e34d0ae243b7f594c6f4bdb08a26bceb2850ee0fbbd675c7221a7e550f396d",
+          "observations": "The little porch chimney now clears the eaves at LOD1 and LOD2. Viewed from the opposite corner, its shaft meets the brown roof and its small cap projects to either side. The detached height of the larger square lookout remains the dominant outline.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            447,
+            236,
+            114
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.612,
+            "primary_picture_pair": [
+              "bld_dwarf_house_ancient_bronze_v0",
+              "bld_dwarf_house_classical_medieval_v0"
+            ],
+            "max_shared_corners": [
+              0,
+              1161
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_house_ancient_v0",
+              "bld_dwarf_house_classical_medieval_v0"
+            ],
+            "specific_comparisons": {
+              "bld_dwarf_house_classical_medieval_v1": {
+                "primary_picture_likeness": 0.591,
+                "evidence_sha256": "adcdd7a7a9d0d1da0391924ac92ae05f7881b756e573ce3e3303c3c86c19e55f"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_housesclassical-01.png": "012e434e92ae063ee0d200fb6b6b7e8327d8e217c50ad9ef26aa527ee93eed61",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v1.png": "4af9e201b007bb4c522fb11a618ba1f3fe680bf4155b6aa3e683fe8ea0618ffc"
+          },
+          "glb_sha256": "25d609c1f85ade64c4527929dace0988e86605be2d5bdbba1bbba14a0279de57",
+          "age_preview_sha256": {
+            "medieval": "9eb5ae544a8ea514ade6f7c2492d168fd39497bd0a1b5c4467983d1ab2a143ea"
+          }
+        },
+        {
+          "id": "bld_dwarf_house_classical_medieval_v1",
+          "evidence_sha256": "adcdd7a7a9d0d1da0391924ac92ae05f7881b756e573ce3e3303c3c86c19e55f",
+          "previous_evidence_sha256": "c1721968120dd9a2cc7dd43b63a9d3bd664e2a84e1c350b9676d4edd0b1d754c",
+          "observations": "Stepped masonry gables bracket a low shared roof over two front doors and exterior stairs. A single capped chimney rises between the gables and persists at all three LODs. Both unpainted corners distinguish this paired house from the steep triangular Iron v1.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 100
+          },
+          "defects": [],
+          "lod_triangles": [
+            675,
+            384,
+            206
+          ],
+          "comparisons": {
+            "primary_picture_peak": 0.614,
+            "primary_picture_pair": [
+              "bld_dwarf_house_ancient_iron_v1",
+              "bld_dwarf_house_classical_medieval_v1"
+            ],
+            "max_shared_corners": [
+              0,
+              1149
+            ],
+            "max_shared_direction": [
+              "bld_dwarf_house_ancient_v1",
+              "bld_dwarf_house_classical_medieval_v1"
+            ],
+            "specific_comparisons": {
+              "bld_dwarf_house_ancient_iron_v1": {
+                "primary_picture_likeness": 0.614,
+                "evidence_sha256": "e574b8b298ce023a6a3c777d0960506ff241a168e2b29f31102c8117ad68c843"
+              },
+              "bld_dwarf_house_classical_medieval_v0": {
+                "primary_picture_likeness": 0.591,
+                "evidence_sha256": "0468e58aaf35c52f1cae76b73cb52579ec3f99b00fcf8f4eae1ec83efceb7fc1"
+              }
+            }
+          },
+          "inspected_sha256": {
+            "tools/AssetForge/reviews/rc6/models/dwarf_housesclassical-01.png": "012e434e92ae063ee0d200fb6b6b7e8327d8e217c50ad9ef26aa527ee93eed61",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v1.png": "4af9e201b007bb4c522fb11a618ba1f3fe680bf4155b6aa3e683fe8ea0618ffc",
+            "tools/AssetForge/reviews/rc6/families/dwarf-House-v0.png": "1d4bd8265c025d02c642e44abe87cf852f791ca698dddbbcf289e73a7e65b74d"
+          },
+          "glb_sha256": "bc567a5ba3afca408c9d51fb0e10bd5386c1e26a91010d1069efa573a02d448e",
+          "age_preview_sha256": {
+            "medieval": "c39d2bcea264370d7d474bbab4d8d34f5ccc66c8e001206dbaf65c846c6760eb"
+          }
+        }
+      ]
+    }
+  ]
+}

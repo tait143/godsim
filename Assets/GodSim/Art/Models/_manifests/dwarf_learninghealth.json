@@ -1,0 +1,1324 @@
+[
+ {
+  "id": "bld_dwarf_bathhouse_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Bathhouse",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 940,
+  "lod_triangles": [
+   940,
+   498,
+   154
+  ],
+  "bounds": [
+   [
+    -0.8025000095367432,
+    0.0,
+    -0.8659877777099609
+   ],
+   [
+    0.8025000095367432,
+    0.9830399751663208,
+    0.8125
+   ]
+  ],
+  "bytes": 119748,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_bathhouse_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_bathhouse_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_bathhouse_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_bathhouse_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_bathhouse_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_bathhouse_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Bathhouse",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 890,
+  "lod_triangles": [
+   890,
+   472,
+   152
+  ],
+  "bounds": [
+   [
+    -0.8025000095367432,
+    0.0,
+    -0.8659877777099609
+   ],
+   [
+    0.8025000095367432,
+    0.8736000061035156,
+    0.8125
+   ]
+  ],
+  "bytes": 112024,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_bathhouse_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_bathhouse_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_bathhouse_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_bathhouse_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_bathhouse_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Bathhouse",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1118,
+  "lod_triangles": [
+   1118,
+   584,
+   196
+  ],
+  "bounds": [
+   [
+    -0.8025000095367432,
+    0.0,
+    -0.8659877777099609
+   ],
+   [
+    0.8025000095367432,
+    1.3478399515151978,
+    0.8125
+   ]
+  ],
+  "bytes": 141988,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_bathhouse_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_bathhouse_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_bathhouse_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_bathhouse_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_data_center_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "DataCenter",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1214,
+  "lod_triangles": [
+   1214,
+   648,
+   328
+  ],
+  "bounds": [
+   [
+    -0.7875000238418579,
+    0.0,
+    -0.7250000238418579
+   ],
+   [
+    0.7875000238418579,
+    0.9830399751663208,
+    0.8075000047683716
+   ]
+  ],
+  "bytes": 161636,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_data_center_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_data_center_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_data_center_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_data_center_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_herbalist_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "dwarf",
+  "ages": [
+   "bronze",
+   "iron",
+   "dawn"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 962,
+  "lod_triangles": [
+   962,
+   548,
+   236
+  ],
+  "bounds": [
+   [
+    -0.41499999165534973,
+    0.0,
+    -0.4099999964237213
+   ],
+   [
+    0.4154999852180481,
+    0.4310497045516968,
+    0.36625000834465027
+   ]
+  ],
+  "bytes": 141372,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_ancient_v0__iron.png",
+   "dawn": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_ancient_v0__dawn.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_herbalist_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 808,
+  "lod_triangles": [
+   808,
+   460,
+   228
+  ],
+  "bounds": [
+   [
+    -0.45249998569488525,
+    0.0,
+    -0.4074999988079071
+   ],
+   [
+    0.44999998807907104,
+    0.4729999899864197,
+    0.4124999940395355
+   ]
+  ],
+  "bytes": 131120,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_herbalist_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 844,
+  "lod_triangles": [
+   844,
+   506,
+   216
+  ],
+  "bounds": [
+   [
+    -0.45750001072883606,
+    0.0,
+    -0.4099999964237213
+   ],
+   [
+    0.45750001072883606,
+    0.5654112100601196,
+    0.41999998688697815
+   ]
+  ],
+  "bytes": 129284,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_herbalist_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Herbalist",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 822,
+  "lod_triangles": [
+   822,
+   466,
+   184
+  ],
+  "bounds": [
+   [
+    -0.46000000834465027,
+    0.0,
+    -0.39750000834465027
+   ],
+   [
+    0.46000000834465027,
+    0.5644999742507935,
+    0.4074999988079071
+   ]
+  ],
+  "bytes": 116628,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_herbalist_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_hospital_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Hospital",
+  "race": "dwarf",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 802,
+  "lod_triangles": [
+   802,
+   396,
+   130
+  ],
+  "bounds": [
+   [
+    -0.8075000047683716,
+    0.0,
+    -0.800000011920929
+   ],
+   [
+    0.762499988079071,
+    1.1568000316619873,
+    0.8930000066757202
+   ]
+  ],
+  "bytes": 101648,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_hospital_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Hospital",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1070,
+  "lod_triangles": [
+   1070,
+   492,
+   236
+  ],
+  "bounds": [
+   [
+    -0.9539310932159424,
+    0.0,
+    -0.8255000114440918
+   ],
+   [
+    0.9468953013420105,
+    0.8824992179870605,
+    0.8815000057220459
+   ]
+  ],
+  "bytes": 153644,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_hospital_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Hospital",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 806,
+  "lod_triangles": [
+   806,
+   340,
+   124
+  ],
+  "bounds": [
+   [
+    -0.8730000257492065,
+    0.0,
+    -0.8629999756813049
+   ],
+   [
+    0.8730000257492065,
+    0.9993600249290466,
+    0.7149999737739563
+   ]
+  ],
+  "bytes": 93056,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_hospital_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_library_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Library",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance",
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 512,
+  "lod_triangles": [
+   512,
+   290,
+   102
+  ],
+  "bounds": [
+   [
+    -0.8025000095367432,
+    0.0,
+    -0.7764999866485596
+   ],
+   [
+    0.8025000095367432,
+    1.130181074142456,
+    0.6675000190734863
+   ]
+  ],
+  "bytes": 67636,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_library_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_library_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_library_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_library_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_library_classical_v0__renaissance.png",
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_library_classical_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_library_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Library",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1172,
+  "lod_triangles": [
+   1172,
+   436,
+   232
+  ],
+  "bounds": [
+   [
+    -0.9604072570800781,
+    0.0,
+    -0.8500000238418579
+   ],
+   [
+    0.9604072570800781,
+    1.090559959411621,
+    0.8740000128746033
+   ]
+  ],
+  "bytes": 141596,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_library_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_library_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_library_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_library_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_library_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Library",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 648,
+  "lod_triangles": [
+   648,
+   378,
+   134
+  ],
+  "bounds": [
+   [
+    -0.8025000095367432,
+    0.0,
+    -0.7764999866485596
+   ],
+   [
+    0.8025000095367432,
+    1.299839973449707,
+    0.6675000190734863
+   ]
+  ],
+  "bytes": 85096,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_library_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_library_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_library_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_library_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_medical_center_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "MedicalCenter",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 744,
+  "lod_triangles": [
+   744,
+   388,
+   172
+  ],
+  "bounds": [
+   [
+    -1.0,
+    0.0,
+    -0.8349999785423279
+   ],
+   [
+    0.925000011920929,
+    1.4380799531936646,
+    0.8989999890327454
+   ]
+  ],
+  "bytes": 99308,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_medical_center_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_medical_center_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_medical_center_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_medical_center_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_observatory_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Observatory",
+  "race": "dwarf",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 762,
+  "lod_triangles": [
+   762,
+   414,
+   148
+  ],
+  "bounds": [
+   [
+    -0.699999988079071,
+    0.0,
+    -0.7599999904632568
+   ],
+   [
+    0.6924999952316284,
+    1.6455492973327637,
+    0.6524999737739563
+   ]
+  ],
+  "bytes": 109992,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_observatory_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Observatory",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 810,
+  "lod_triangles": [
+   810,
+   454,
+   236
+  ],
+  "bounds": [
+   [
+    -0.9368376135826111,
+    0.0,
+    -0.8420000076293945
+   ],
+   [
+    0.8615000247955322,
+    1.476995825767517,
+    0.5410000085830688
+   ]
+  ],
+  "bytes": 138868,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_observatory_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Observatory",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 780,
+  "lod_triangles": [
+   780,
+   380,
+   184
+  ],
+  "bounds": [
+   [
+    -0.8740000128746033,
+    0.0,
+    -0.6990000009536743
+   ],
+   [
+    0.8059999942779541,
+    1.4790862798690796,
+    0.8029999732971191
+   ]
+  ],
+  "bytes": 121676,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_observatory_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_printworks_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Printworks",
+  "race": "dwarf",
+  "ages": [
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 780,
+  "lod_triangles": [
+   780,
+   432,
+   150
+  ],
+  "bounds": [
+   [
+    -0.8274999856948853,
+    0.0,
+    -0.7300000190734863
+   ],
+   [
+    0.7300000190734863,
+    1.0713599920272827,
+    0.7425000071525574
+   ]
+  ],
+  "bytes": 99684,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_classical_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_printworks_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Printworks",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 658,
+  "lod_triangles": [
+   658,
+   268,
+   186
+  ],
+  "bounds": [
+   [
+    -0.7649999856948853,
+    0.0,
+    -0.8700000047683716
+   ],
+   [
+    0.7649999856948853,
+    1.129285454750061,
+    0.8999999761581421
+   ]
+  ],
+  "bytes": 80204,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_printworks_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Printworks",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 904,
+  "lod_triangles": [
+   904,
+   524,
+   210
+  ],
+  "bounds": [
+   [
+    -0.8274999856948853,
+    0.0,
+    -0.7300000190734863
+   ],
+   [
+    0.8019999861717224,
+    1.2076799869537354,
+    0.7425000071525574
+   ]
+  ],
+  "bytes": 118512,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_printworks_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_research_lab_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "ResearchLab",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1116,
+  "lod_triangles": [
+   1116,
+   608,
+   221
+  ],
+  "bounds": [
+   [
+    -0.8389999866485596,
+    0.0,
+    -0.7835000157356262
+   ],
+   [
+    0.7110000252723694,
+    1.0358400344848633,
+    0.8339999914169312
+   ]
+  ],
+  "bytes": 144328,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_research_lab_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_research_lab_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_research_lab_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_research_lab_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_research_lab_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "ResearchLab",
+  "race": "dwarf",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 966,
+  "lod_triangles": [
+   966,
+   498,
+   265
+  ],
+  "bounds": [
+   [
+    -0.8125,
+    0.0,
+    -0.7390000224113464
+   ],
+   [
+    0.8125,
+    1.574880599975586,
+    0.6424999833106995
+   ]
+  ],
+  "bytes": 144036,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_research_lab_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_research_lab_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_research_lab_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_scriptorium_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "dwarf",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 748,
+  "lod_triangles": [
+   748,
+   426,
+   232
+  ],
+  "bounds": [
+   [
+    -0.8525000214576721,
+    0.0,
+    -0.46645909547805786
+   ],
+   [
+    0.9655722379684448,
+    0.9954699277877808,
+    0.3362500071525574
+   ]
+  ],
+  "bytes": 109164,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_scriptorium_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "dwarf",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 656,
+  "lod_triangles": [
+   656,
+   328,
+   208
+  ],
+  "bounds": [
+   [
+    -0.9300000071525574,
+    0.0,
+    -0.41749998927116394
+   ],
+   [
+    0.9100000262260437,
+    0.8955000042915344,
+    0.42250001430511475
+   ]
+  ],
+  "bytes": 87816,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_scriptorium_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 780,
+  "lod_triangles": [
+   780,
+   444,
+   240
+  ],
+  "bounds": [
+   [
+    -0.8525000214576721,
+    0.0,
+    -0.46645909547805786
+   ],
+   [
+    0.9655722379684448,
+    0.9954699277877808,
+    0.3362500071525574
+   ]
+  ],
+  "bytes": 112092,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_scriptorium_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "Scriptorium",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 756,
+  "lod_triangles": [
+   756,
+   430,
+   240
+  ],
+  "bounds": [
+   [
+    -0.8525000214576721,
+    0.0,
+    -0.46645909547805786
+   ],
+   [
+    0.9655722379684448,
+    0.9954699277877808,
+    0.3362500071525574
+   ]
+  ],
+  "bytes": 110524,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_scriptorium_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_university_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "University",
+  "race": "dwarf",
+  "ages": [
+   "renaissance",
+   "medieval"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1112,
+  "lod_triangles": [
+   1112,
+   612,
+   170
+  ],
+  "bounds": [
+   [
+    -1.2637499570846558,
+    0.0,
+    -0.7994499802589417
+   ],
+   [
+    1.2637499570846558,
+    1.4483327865600586,
+    0.6775000095367432
+   ]
+  ],
+  "bytes": 146164,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_university_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_classical_v0.png",
+  "age_previews": {
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_university_future_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "University",
+  "race": "dwarf",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 744,
+  "lod_triangles": [
+   744,
+   372,
+   188
+  ],
+  "bounds": [
+   [
+    -1.277250051498413,
+    0.0,
+    -0.7929999828338623
+   ],
+   [
+    1.253999948501587,
+    1.2076799869537354,
+    0.8270000219345093
+   ]
+  ],
+  "bytes": 93000,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_university_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_dwarf_university_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Dwarf/LearningHealth",
+  "building_type": "University",
+  "race": "dwarf",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 604,
+  "lod_triangles": [
+   604,
+   336,
+   160
+  ],
+  "bounds": [
+   [
+    -1.3049999475479126,
+    0.0,
+    -0.7400000095367432
+   ],
+   [
+    1.281000018119812,
+    1.5705599784851074,
+    0.7994999885559082
+   ]
+  ],
+  "bytes": 79624,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/LearningHealth/bld_dwarf_university_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/LearningHealth/bld_dwarf_university_industrial_v0__modern.png"
+  }
+ }
+]

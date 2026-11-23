@@ -1,0 +1,668 @@
+[
+ {
+  "id": "bld_human_cathedral_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Religion",
+  "building_type": "Cathedral",
+  "race": "human",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1478,
+  "lod_triangles": [
+   1478,
+   770,
+   322
+  ],
+  "bounds": [
+   [
+    -1.274999976158142,
+    0.0,
+    -1.465999960899353
+   ],
+   [
+    1.274999976158142,
+    2.656599998474121,
+    1.3550000190734863
+   ]
+  ],
+  "bytes": 194172,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_cathedral_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_cathedral_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_cathedral_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_cathedral_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_cathedral_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Religion",
+  "building_type": "Cathedral",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1308,
+  "lod_triangles": [
+   1308,
+   596,
+   268
+  ],
+  "bounds": [
+   [
+    -1.274999976158142,
+    0.0,
+    -1.465999960899353
+   ],
+   [
+    1.274999976158142,
+    3.0640299320220947,
+    1.3550000190734863
+   ]
+  ],
+  "bytes": 168868,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_cathedral_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_cathedral_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_cathedral_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_cathedral_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_cathedral_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Religion",
+  "building_type": "Cathedral",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1392,
+  "lod_triangles": [
+   1392,
+   670,
+   296
+  ],
+  "bounds": [
+   [
+    -1.274999976158142,
+    0.0,
+    -1.465999960899353
+   ],
+   [
+    1.274999976158142,
+    3.1902999877929688,
+    1.3550000190734863
+   ]
+  ],
+  "bytes": 182468,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_cathedral_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_cathedral_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_cathedral_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_cathedral_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_monastery_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Religion",
+  "building_type": "Monastery",
+  "race": "human",
+  "ages": [
+   "medieval",
+   "renaissance",
+   "classical"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1155,
+  "lod_triangles": [
+   1155,
+   657,
+   324
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.9100000262260437
+   ],
+   [
+    0.925000011920929,
+    1.350600004196167,
+    0.9100000262260437
+   ]
+  ],
+  "bytes": 166656,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_monastery_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_monastery_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_monastery_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_monastery_classical_v0__renaissance.png",
+   "classical": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_monastery_classical_v0__classical.png"
+  }
+ },
+ {
+  "id": "bld_human_monastery_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Religion",
+  "building_type": "Monastery",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 945,
+  "lod_triangles": [
+   945,
+   467,
+   230
+  ],
+  "bounds": [
+   [
+    -0.925000011920929,
+    0.0,
+    -0.9100000262260437
+   ],
+   [
+    0.925000011920929,
+    1.2230000495910645,
+    0.9392749071121216
+   ]
+  ],
+  "bytes": 131832,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_monastery_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_monastery_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_monastery_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_monastery_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_monastery_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Religion",
+  "building_type": "Monastery",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 901,
+  "lod_triangles": [
+   901,
+   498,
+   226
+  ],
+  "bounds": [
+   [
+    -0.9200000166893005,
+    0.0,
+    -0.8899999856948853
+   ],
+   [
+    0.9200000166893005,
+    1.4329999685287476,
+    0.8899999856948853
+   ]
+  ],
+  "bytes": 121404,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_monastery_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_monastery_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_monastery_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_monastery_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_shrine_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Religion",
+  "building_type": "Shrine",
+  "race": "human",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 542,
+  "lod_triangles": [
+   542,
+   284,
+   123
+  ],
+  "bounds": [
+   [
+    -0.4118399918079376,
+    0.0,
+    -0.40299999713897705
+   ],
+   [
+    0.4099999964237213,
+    1.0789998769760132,
+    0.3840508460998535
+   ]
+  ],
+  "bytes": 83208,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_shrine_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_shrine_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_shrine_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_shrine_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_human_shrine_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Religion",
+  "building_type": "Shrine",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 726,
+  "lod_triangles": [
+   726,
+   344,
+   157
+  ],
+  "bounds": [
+   [
+    -0.4118399918079376,
+    0.0,
+    -0.40299999713897705
+   ],
+   [
+    0.3996399939060211,
+    1.1019999980926514,
+    0.3540000021457672
+   ]
+  ],
+  "bytes": 112492,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_shrine_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_shrine_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_shrine_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_shrine_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_shrine_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_shrine_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Religion",
+  "building_type": "Shrine",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 532,
+  "lod_triangles": [
+   532,
+   274,
+   142
+  ],
+  "bounds": [
+   [
+    -0.4118399918079376,
+    0.0,
+    -0.40299999713897705
+   ],
+   [
+    0.3996399939060211,
+    1.0652869939804077,
+    0.35100001096725464
+   ]
+  ],
+  "bytes": 82284,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_shrine_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_shrine_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_shrine_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_shrine_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_shrine_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Religion",
+  "building_type": "Shrine",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 807,
+  "lod_triangles": [
+   807,
+   316,
+   201
+  ],
+  "bounds": [
+   [
+    -0.3131999969482422,
+    0.0,
+    -0.33399999141693115
+   ],
+   [
+    0.2874271869659424,
+    1.371999979019165,
+    0.3370000123977661
+   ]
+  ],
+  "bytes": 120068,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_shrine_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_shrine_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_shrine_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_shrine_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_human_spirit_totem_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Religion",
+  "building_type": "SpiritTotem",
+  "race": "human",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 451,
+  "lod_triangles": [
+   451,
+   257,
+   141
+  ],
+  "bounds": [
+   [
+    -0.43700000643730164,
+    0.0,
+    -0.3338910639286041
+   ],
+   [
+    0.43700000643730164,
+    1.152999997138977,
+    0.3400000035762787
+   ]
+  ],
+  "bytes": 81416,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_spirit_totem_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_spirit_totem_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_spirit_totem_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_spirit_totem_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_spirit_totem_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_human_temple_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Religion",
+  "building_type": "Temple",
+  "race": "human",
+  "ages": [
+   "iron"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 747,
+  "lod_triangles": [
+   747,
+   392,
+   192
+  ],
+  "bounds": [
+   [
+    -0.8349999785423279,
+    0.0,
+    -0.8993645310401917
+   ],
+   [
+    0.8349999785423279,
+    1.4869999885559082,
+    0.8650188446044922
+   ]
+  ],
+  "bytes": 103344,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_temple_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_ancient_v0.png",
+  "age_previews": {
+   "iron": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_ancient_v0.png"
+  }
+ },
+ {
+  "id": "bld_human_temple_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Religion",
+  "building_type": "Temple",
+  "race": "human",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1159,
+  "lod_triangles": [
+   1159,
+   532,
+   195
+  ],
+  "bounds": [
+   [
+    -0.7749999761581421,
+    0.0,
+    -0.8429999947547913
+   ],
+   [
+    0.753000020980835,
+    1.3980000019073486,
+    0.8643931150436401
+   ]
+  ],
+  "bytes": 161920,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_temple_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_human_temple_future_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Religion",
+  "building_type": "Temple",
+  "race": "human",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 638,
+  "lod_triangles": [
+   638,
+   362,
+   188
+  ],
+  "bounds": [
+   [
+    -0.8880000114440918,
+    0.0,
+    -0.7559999823570251
+   ],
+   [
+    0.7459999918937683,
+    1.3639999628067017,
+    0.8389999866485596
+   ]
+  ],
+  "bytes": 95272,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_temple_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_human_temple_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Human/Religion",
+  "building_type": "Temple",
+  "race": "human",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 850,
+  "lod_triangles": [
+   850,
+   427,
+   213
+  ],
+  "bounds": [
+   [
+    -0.8349999785423279,
+    0.0,
+    -0.8960000276565552
+   ],
+   [
+    0.8466399908065796,
+    1.8919999599456787,
+    0.8450000286102295
+   ]
+  ],
+  "bytes": 119688,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Human/Religion/bld_human_temple_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Human/Religion/bld_human_temple_industrial_v0__modern.png"
+  }
+ }
+]

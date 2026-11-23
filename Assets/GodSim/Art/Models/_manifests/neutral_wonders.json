@@ -1,0 +1,204 @@
+[
+ {
+  "id": "bld_neutral_ascension_gate_v0",
+  "kind": "wonder",
+  "category": "Buildings/Neutral/Wonders",
+  "building_type": "AscensionGate",
+  "race": "neutral",
+  "ages": [
+   "ascension"
+  ],
+  "footprint": [
+   4,
+   4
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 2970,
+  "lod_triangles": [
+   2970,
+   1692,
+   858
+  ],
+  "bounds": [
+   [
+    -1.5800000429153442,
+    0.0,
+    -1.4644999504089355
+   ],
+   [
+    1.5800000429153442,
+    3.4226605892181396,
+    1.4895000457763672
+   ]
+  ],
+  "bytes": 449960,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Neutral/Wonders/bld_neutral_ascension_gate_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_ascension_gate_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_ascension_gate_v0.png"
+  }
+ },
+ {
+  "id": "bld_neutral_colossus_v0",
+  "kind": "wonder",
+  "category": "Buildings/Neutral/Wonders",
+  "building_type": "Colossus",
+  "race": "neutral",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance",
+   "industrial",
+   "modern",
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 2506,
+  "lod_triangles": [
+   2506,
+   1252,
+   611
+  ],
+  "bounds": [
+   [
+    -1.184999942779541,
+    0.0,
+    -1.381500005722046
+   ],
+   [
+    1.184999942779541,
+    3.686171054840088,
+    0.8849999904632568
+   ]
+  ],
+  "bytes": 407740,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Neutral/Wonders/bld_neutral_colossus_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_colossus_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_colossus_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_colossus_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_colossus_v0__renaissance.png",
+   "industrial": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_colossus_v0__industrial.png",
+   "modern": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_colossus_v0__modern.png",
+   "information": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_colossus_v0__information.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_colossus_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_neutral_grand_bazaar_v0",
+  "kind": "wonder",
+  "category": "Buildings/Neutral/Wonders",
+  "building_type": "GrandBazaar",
+  "race": "neutral",
+  "ages": [
+   "medieval",
+   "renaissance",
+   "industrial",
+   "modern",
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 2230,
+  "lod_triangles": [
+   2230,
+   1294,
+   593
+  ],
+  "bounds": [
+   [
+    -1.3350000381469727,
+    0.0,
+    -1.3294999599456787
+   ],
+   [
+    1.3350000381469727,
+    1.9500000476837158,
+    1.190000057220459
+   ]
+  ],
+  "bytes": 324892,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Neutral/Wonders/bld_neutral_grand_bazaar_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_grand_bazaar_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_grand_bazaar_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_grand_bazaar_v0__renaissance.png",
+   "industrial": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_grand_bazaar_v0__industrial.png",
+   "modern": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_grand_bazaar_v0__modern.png",
+   "information": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_grand_bazaar_v0__information.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_grand_bazaar_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_neutral_great_library_v0",
+  "kind": "wonder",
+  "category": "Buildings/Neutral/Wonders",
+  "building_type": "GreatLibrary",
+  "race": "neutral",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance",
+   "industrial",
+   "modern",
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 2366,
+  "lod_triangles": [
+   2366,
+   1334,
+   418
+  ],
+  "bounds": [
+   [
+    -1.375,
+    0.0,
+    -1.2795000076293945
+   ],
+   [
+    1.375,
+    2.444999933242798,
+    1.2100000381469727
+   ]
+  ],
+  "bytes": 356736,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Neutral/Wonders/bld_neutral_great_library_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_great_library_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_great_library_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_great_library_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_great_library_v0__renaissance.png",
+   "industrial": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_great_library_v0__industrial.png",
+   "modern": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_great_library_v0__modern.png",
+   "information": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_great_library_v0__information.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Neutral/Wonders/bld_neutral_great_library_v0__ascension.png"
+  }
+ }
+]

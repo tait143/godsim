@@ -1,0 +1,1262 @@
+{
+  "package": "elf_extraction",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Extraction independent model critic",
+      "models": [
+        {
+          "id": "bld_elf_coal_mine_future_v0",
+          "evidence_sha256": "50369bb683ffe6dd6cdc186d3584bf42ebaf40bf4c0edd2cb8db31b030baf532",
+          "observations": "The high pale headframe reads over a cyan secondary shaft house at Information. In Ascension the coal heap and funnel cap turn gold alongside the metalwork. Inspected 2 age previews at 224 and 64 px. Serialized validation passed at 1311/745/328 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 83,
+            "charm": 92,
+            "colour": 86,
+            "technical": 94
+          },
+          "defects": [
+            "Move the pulley, cable and suspended bucket together into clear space ahead of or beside the entrance hood. The existing line penetrates the petal roof and hides the bucket inside it. Keep a continuous tangent from sheave to bucket and enough clearance for the whole load.",
+            "Seat both front headframe posts on flat feet or sockets that reach grade, and bed the two track rails on grounded sleepers. The sloping post caps and the rails terminate above the ground.",
+            "Keep the coal in the cart, spoil heap and hopper cap visibly dark across the age shifts. Use a stable dark shared swatch on the load while preserving the changing material on the hopper shell."
+          ]
+        },
+        {
+          "id": "bld_elf_coal_mine_industrial_v0",
+          "evidence_sha256": "50396da0ca790662dc6f020b31a603f05761beb60bc56ed21543191865d784ae",
+          "observations": "The dark capped hopper, coal cart and tall pulley separate cleanly at Industrial and Modern. At Renaissance the cargo takes the same pink-brown tint as the hopper. Inspected 3 age previews at 224 and 64 px. Serialized validation passed at 1311/745/328 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 83,
+            "charm": 92,
+            "colour": 86,
+            "technical": 94
+          },
+          "defects": [
+            "Move the pulley, cable and suspended bucket together into clear space ahead of or beside the entrance hood. The existing line penetrates the petal roof and hides the bucket inside it. Keep a continuous tangent from sheave to bucket and enough clearance for the whole load.",
+            "Seat both front headframe posts on flat feet or sockets that reach grade, and bed the two track rails on grounded sleepers. The sloping post caps and the rails terminate above the ground.",
+            "Keep the coal in the cart, spoil heap and hopper cap visibly dark across the age shifts. Use a stable dark shared swatch on the load while preserving the changing material on the hopper shell."
+          ]
+        },
+        {
+          "id": "bld_elf_gold_mine_ancient_v0",
+          "evidence_sha256": "1590f651534275b049e6244cdea35063d79fb5071f8e964ba4c6a7702d7f00f8",
+          "observations": "The blue inclined washing trough beside the charcoal sheave and gold ore singles out the iron-age workings at 64 px. Inspected 1 age preview at 224 and 64 px. Serialized validation passed at 1187/717/331 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 83,
+            "charm": 92,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Move the pulley, cable and suspended bucket together into clear space ahead of or beside the entrance hood. The existing line penetrates the petal roof and hides the bucket inside it. Keep a continuous tangent from sheave to bucket and enough clearance for the whole load.",
+            "Seat both front headframe posts on flat feet or sockets that reach grade, and bed the two track rails on grounded sleepers. The sloping post caps and the rails terminate above the ground."
+          ]
+        },
+        {
+          "id": "bld_elf_gold_mine_classical_v0",
+          "evidence_sha256": "293767ac21c37efabb951e1889c4800c7d0cf8fe9dd250f047ff5825d0cc3ab5",
+          "observations": "The water sluice and gold pan remain identifiable through all three roof colours, and the nugget load reads clearly in the foreground. Inspected 3 age previews at 224 and 64 px. Serialized validation passed at 1187/717/331 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 83,
+            "charm": 92,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Move the pulley, cable and suspended bucket together into clear space ahead of or beside the entrance hood. The existing line penetrates the petal roof and hides the bucket inside it. Keep a continuous tangent from sheave to bucket and enough clearance for the whole load.",
+            "Seat both front headframe posts on flat feet or sockets that reach grade, and bed the two track rails on grounded sleepers. The sloping post caps and the rails terminate above the ground."
+          ]
+        },
+        {
+          "id": "bld_elf_gold_mine_future_v0",
+          "evidence_sha256": "6ef883bdf1eb1021812baef6893cbeb56a0b807abe8b23b29ca67609d19ff0e3",
+          "observations": "The blue trough leads to a yellow collecting pan, and the pale frame and coloured assay hut separate well against the rock. Inspected 2 age previews at 224 and 64 px. Serialized validation passed at 1359/777/360 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 83,
+            "charm": 92,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Move the pulley, cable and suspended bucket together into clear space ahead of or beside the entrance hood. The existing line penetrates the petal roof and hides the bucket inside it. Keep a continuous tangent from sheave to bucket and enough clearance for the whole load.",
+            "Seat both front headframe posts on flat feet or sockets that reach grade, and bed the two track rails on grounded sleepers. The sloping post caps and the rails terminate above the ground."
+          ]
+        },
+        {
+          "id": "bld_elf_gold_mine_industrial_v0",
+          "evidence_sha256": "71f744fae65ef4ff1dca11dc4e0422c5f000c7f8b656897aa86e96af1c84ce27",
+          "observations": "The soot-dark sheave and red-brick assay hut at Industrial shift to a clean grey frame at Modern. Gold ore remains legible against both. Inspected 2 age previews at 224 and 64 px. Serialized validation passed at 1359/777/360 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 83,
+            "charm": 92,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Move the pulley, cable and suspended bucket together into clear space ahead of or beside the entrance hood. The existing line penetrates the petal roof and hides the bucket inside it. Keep a continuous tangent from sheave to bucket and enough clearance for the whole load.",
+            "Seat both front headframe posts on flat feet or sockets that reach grade, and bed the two track rails on grounded sleepers. The sloping post caps and the rails terminate above the ground."
+          ]
+        },
+        {
+          "id": "bld_elf_mine_ancient_v0",
+          "evidence_sha256": "c1750ed6f2688afda2709018bc9c011696091a2618038c42e92d181db52576b2",
+          "observations": "The low timber sheave and side bucket read against the stepped outcrop, and the rough load changes between Bronze and Iron. Inspected 2 age previews at 224 and 64 px. Serialized validation passed at 1138/699/302 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 83,
+            "charm": 92,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Move the pulley, cable and suspended bucket together into clear space ahead of or beside the entrance hood. The existing line penetrates the petal roof and hides the bucket inside it. Keep a continuous tangent from sheave to bucket and enough clearance for the whole load.",
+            "Seat both front headframe posts on flat feet or sockets that reach grade, and bed the two track rails on grounded sleepers. The sloping post caps and the rails terminate above the ground.",
+            "Give the separate bucket jib a grounded socket or level base. Its angled post cap clears the ground on the exposed side."
+          ]
+        },
+        {
+          "id": "bld_elf_mine_classical_v0",
+          "evidence_sha256": "78e471a468f94dd2a89f143fd6f18f3ad162c39a526f8f48e5dcd142ecab10f3",
+          "observations": "The cart and timber headframe remain visible beside the small leaf roof, and the ashlar outcrop brightens significantly at Classical. Inspected 3 age previews at 224 and 64 px. Serialized validation passed at 1138/699/302 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 83,
+            "charm": 92,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Move the pulley, cable and suspended bucket together into clear space ahead of or beside the entrance hood. The existing line penetrates the petal roof and hides the bucket inside it. Keep a continuous tangent from sheave to bucket and enough clearance for the whole load.",
+            "Seat both front headframe posts on flat feet or sockets that reach grade, and bed the two track rails on grounded sleepers. The sloping post caps and the rails terminate above the ground.",
+            "Give the separate bucket jib a grounded socket or level base. Its angled post cap clears the ground on the exposed side."
+          ]
+        },
+        {
+          "id": "bld_elf_mine_future_v0",
+          "evidence_sha256": "4ff1ae11f6013b0b01747311a164ecf414ae35ea09b3d4da695a0236e43bab7a",
+          "observations": "The glass side hut and large pulley give the workings an advanced appearance. The roof below the axle absorbs the main hoist's suspended weight. Inspected 2 age previews at 224 and 64 px. Serialized validation passed at 1310/759/331 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 83,
+            "charm": 92,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Move the pulley, cable and suspended bucket together into clear space ahead of or beside the entrance hood. The existing line penetrates the petal roof and hides the bucket inside it. Keep a continuous tangent from sheave to bucket and enough clearance for the whole load.",
+            "Seat both front headframe posts on flat feet or sockets that reach grade, and bed the two track rails on grounded sleepers. The sloping post caps and the rails terminate above the ground.",
+            "Give the separate bucket jib a grounded socket or level base. Its angled post cap clears the ground on the exposed side."
+          ]
+        },
+        {
+          "id": "bld_elf_mine_industrial_v0",
+          "evidence_sha256": "bb117b18d775ffae8b0b4aafb82c34cd51aae86f8b09da40bb4f26f99e02c081",
+          "observations": "The steel sheave silhouettes cleanly, and the brick assay hut and coal-grey cart give the assembly two distinct low masses. Inspected 2 age previews at 224 and 64 px. Serialized validation passed at 1310/759/331 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 83,
+            "charm": 92,
+            "colour": 93,
+            "technical": 94
+          },
+          "defects": [
+            "Move the pulley, cable and suspended bucket together into clear space ahead of or beside the entrance hood. The existing line penetrates the petal roof and hides the bucket inside it. Keep a continuous tangent from sheave to bucket and enough clearance for the whole load.",
+            "Seat both front headframe posts on flat feet or sockets that reach grade, and bed the two track rails on grounded sleepers. The sloping post caps and the rails terminate above the ground.",
+            "Give the separate bucket jib a grounded socket or level base. Its angled post cap clears the ground on the exposed side."
+          ]
+        },
+        {
+          "id": "bld_elf_oil_well_future_v0",
+          "evidence_sha256": "3efc7b19e6fbe325611d7093c76055fcfe93e659de442f39dd440e304ac52ec3",
+          "observations": "The polished rod and leaf-shaped horsehead silhouette carry the pump at 64 px. The little service hut, tank and cyan vane distinguish both late-age skins. Inspected 2 age previews at 224 and 64 px. Serialized validation passed at 1146/658/306 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Add grounded bearing shoes to both A-frame feet. The exposed support stops about 0.021 tile above the ground on the leading edge, with no foundation under it."
+          ]
+        },
+        {
+          "id": "bld_elf_oil_well_industrial_v0",
+          "evidence_sha256": "5bb5710a5b8d30401baf5f7a390375157e7634b63898c90c0b971b9978bd579b",
+          "observations": "The weighted flywheel, vertical rod, collecting tank and bent horsehead make the function immediate at Modern. The pale front bearing leg ends visibly above grade. Inspected 1 age preview at 224 and 64 px. Serialized validation passed at 1122/650/298 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Add grounded bearing shoes to both A-frame feet. The exposed support stops about 0.015 tile above the ground on the leading edge, with no foundation under it."
+          ]
+        },
+        {
+          "id": "bld_elf_sawmill_future_v0",
+          "evidence_sha256": "1197d52a12c03dd43d91fe598f61e0bd02dea6d737bc169c6adc8b370e7fdada",
+          "observations": "The toothed saw and fresh log cross-section read at thumbnail size. The blue leaf awning and tall caretaker's hut separate the future version from its earlier counterpart. Inspected 2 age previews at 224 and 64 px. Serialized validation passed at 1018/548/256 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Leave a clearance slot through the feed deck at the transverse saw plane. The blade extends down to about y=0.143 through a continuous tabletop spanning y=0.210–0.282.",
+            "Seat the tapered loose logs on two grounded bunks or flatten their bearing facets so they meet grade across LODs."
+          ]
+        },
+        {
+          "id": "bld_elf_sawmill_industrial_v0",
+          "evidence_sha256": "6260c9d4410f5eff1ea701801d93b9e370a98c3f1933e64a85207f54e7af8c99",
+          "observations": "The toothed blade and feed log read as distinct shapes in both material rows. The round shed, spare stock and exposed end grain give the site character. Inspected 2 age previews at 224 and 64 px. Serialized validation passed at 994/540/248 triangles.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Leave a clearance slot through the feed deck at the transverse saw plane. The blade extends down to about y=0.143 through a continuous tabletop spanning y=0.210–0.282.",
+            "Seat the tapered loose logs on two grounded bunks or flatten their bearing facets so they meet grade across LODs."
+          ]
+        },
+        {
+          "id": "bld_elf_stone_quarry_ancient_v0",
+          "evidence_sha256": "0f7be725e28d159e3ff6abbdaa543a2bb5687cec3c4fea101d15be0724d669f2",
+          "observations": "The open timber jib and stone blanks in front clearly signal extraction. The roof shifts from tawny thatch to a darker crown across Dawn, Bronze and Iron. Inspected 3 age previews at 224 and 64 px. Serialized validation passed at 1006/511/192 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the separate jib on a level foot or stone shoe at ground height. Its angled bottom ring currently clears grade by about 0.005–0.006 tile at LOD0."
+          ]
+        },
+        {
+          "id": "bld_elf_stone_quarry_classical_v0",
+          "evidence_sha256": "2eba314e27e6fc59fd8b2681f14be2afdff0ccdef59bd48c46a5fe0557d4ed22",
+          "observations": "Three uneven ledges, stacked dressed stone and the light early masonry contrast with a slate-roofed Medieval hut and orange Renaissance version. Inspected 3 age previews at 224 and 64 px. Serialized validation passed at 1058/547/216 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the separate jib on a level foot or stone shoe at ground height. Its angled bottom ring currently clears grade by about 0.005–0.006 tile at LOD0."
+          ]
+        },
+        {
+          "id": "bld_elf_stone_quarry_future_v0",
+          "evidence_sha256": "55a32e5642c2661ffb384329e6f47d57749414599d54a5addb5e820cb895ed08",
+          "observations": "The large flywheel gives a mechanical scale reference beside pale dressed rock. The bright stone stack overlaps the front of the wheel at both ages. Inspected 2 age previews at 224 and 64 px. Serialized validation passed at 1270/699/308 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 84,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the separate jib on a level foot or stone shoe at ground height. Its angled bottom ring currently clears grade by about 0.005–0.006 tile at LOD0.",
+            "Move the finished block stack outside the circular wheel's sweep and give its inclined support a grounded bearing foot. The blocks currently intersect the forward face of the wheel."
+          ]
+        },
+        {
+          "id": "bld_elf_stone_quarry_industrial_v0",
+          "evidence_sha256": "85673025551905b06f6fe5f56524ad29a25f83ac99c62098675b448d71d72094",
+          "observations": "The dark wheel and light metalwork sit beside a rust-coloured hut at Industrial. Both views place finished blocks inside the wheel's swept footprint. Inspected 2 age previews at 224 and 64 px. Serialized validation passed at 1218/663/284 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 84,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the separate jib on a level foot or stone shoe at ground height. Its angled bottom ring currently clears grade by about 0.005–0.006 tile at LOD0.",
+            "Move the finished block stack outside the circular wheel's sweep and give its inclined support a grounded bearing foot. The blocks currently intersect the forward face of the wheel."
+          ]
+        },
+        {
+          "id": "bld_elf_woodcutter_camp_ancient_v0",
+          "evidence_sha256": "7e3d0d571c180ac08d629be9fda251dd4ef2786c27bd313ec024f9ce624ac166",
+          "observations": "The chopped stump, pollarded trunk and pile of sawn logs form an unmistakable woodland camp. Fresh end grain stays clear through the early atlas rows. Inspected 3 age previews at 224 and 64 px. Serialized validation passed at 850/452/192 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the pollarded trunk in a flat rooted foot and place the two lower logs on grounded supports. Set the upper log into contact with both lower logs across the taper and all three LODs."
+          ]
+        },
+        {
+          "id": "bld_elf_woodcutter_camp_classical_v0",
+          "evidence_sha256": "caf923a65e43ea3f2bc1dade842bfbcc30202c192236379729c7d5f09f9c298c",
+          "observations": "The bent bough, stump tool and luminous pod identify the camp. The three cut ends remain readable across all three roof colourways. Inspected 3 age previews at 224 and 64 px. Serialized validation passed at 882/478/206 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the pollarded trunk in a flat rooted foot and place the two lower logs on grounded supports. Set the upper log into contact with both lower logs across the taper and all three LODs."
+          ]
+        },
+        {
+          "id": "bld_elf_woodcutter_camp_future_v0",
+          "evidence_sha256": "df5d6c386225b8c1ac4591c919f5bd2a50371b2b14aef128873ff213485e840a",
+          "observations": "The glass leaf, directed cut ends and bench-mounted wheel identify the late timber yard. Stock appears to hover in the full-size yard view. Inspected 2 age previews at 224 and 64 px. Serialized validation passed at 1086/612/292 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the pollarded trunk in a flat rooted foot and place the two lower logs on grounded supports. Set the upper log into contact with both lower logs across the taper and all three LODs."
+          ]
+        },
+        {
+          "id": "bld_elf_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "3ba69e5e4356c81b0f771e9ad041e2f275a91e2019f4b99781af708db1a4fa9a",
+          "observations": "The small work wheel beside a brick or concrete keeper's hut makes the lumber yard legible. The top log balances above the tapered lower logs. Inspected 2 age previews at 224 and 64 px. Serialized validation passed at 1062/604/284 triangles.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Seat the pollarded trunk in a flat rooted foot and place the two lower logs on grounded supports. Set the upper log into contact with both lower logs across the taper and all three LODs."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Extraction independent model critic",
+      "models": [
+        {
+          "id": "bld_elf_coal_mine_future_v0",
+          "evidence_sha256": "22a4830d33339f30bcd852c30241334fe844d83b33b5d29d7fe7c3cfc302f7bc",
+          "observations": "The exposed bucket hangs in front of the leaf hood. At Information the blue assay hut stands clear of the pale frame. Reddish-black coal stays dark against the Ascension gold. Examined 2 age previews at 224 and 64 px and the 1399/825/396-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_coal_mine_industrial_v0",
+          "evidence_sha256": "3e8e15366801791da22cfc84db11303a320fdeca0ef8811fa5e11e701d68812f",
+          "observations": "The exposed bail, small cart, grounded front feet and ties read together as a working hoist. The stable dark cargo remains distinguishable at Renaissance. Examined 3 age previews at 224 and 64 px and the 1399/825/396-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_gold_mine_ancient_v0",
+          "evidence_sha256": "2fc184d5e45f33bbc4e4ecf88882b140cc0cab11240d6ec69b61436003fdda98",
+          "observations": "The suspended bucket clears the canopy and the open front lets the gold cart and sluice show at Iron. Examined 1 age preview at 224 and 64 px and the 1275/797/399-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_gold_mine_classical_v0",
+          "evidence_sha256": "22d738aecdbc8d1e76b9c964155af6a182850894360783e95a0229b39b8d0819",
+          "observations": "The grounded frame straddles an accessible collar. The bucket, gold pan and contrasting blue wash remain distinct across all three materials. Examined 3 age previews at 224 and 64 px and the 1275/797/399-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_gold_mine_future_v0",
+          "evidence_sha256": "e068b03c6198e43c7df853d87a31b70d35a3ce1643a49cf6d58ba0717498d308",
+          "observations": "The taller frame places the suspended load clear of the bright roof above the cart, while the blue sluice and assay hut read at 64 px. Examined 2 age previews at 224 and 64 px and the 1447/857/428-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_gold_mine_industrial_v0",
+          "evidence_sha256": "5728cb7543a2c3251c0670c79000e07a334736dae4c8e05b31d287d0b6638ab8",
+          "observations": "The bucket has open air around its bail. The gold load stays readable on the cross-tied rail with either wall material. Examined 2 age previews at 224 and 64 px and the 1447/857/428-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mine_ancient_v0",
+          "evidence_sha256": "2b2fecde44863b9331b32da8267ff10f422b9015f2aaecf317e868745f8f6e75",
+          "observations": "Both hoists and the ore cart are individually readable. The new bucket appears ahead of the green crown in Bronze and Iron. Examined 2 age previews at 224 and 64 px and the 1238/789/376-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mine_classical_v0",
+          "evidence_sha256": "365f13b79ea2b6fb6644b279af929b6f8678fee35e4992db110d093e8062d81b",
+          "observations": "The two grounded hoists remain visible beside the leaf hood across Classical, Medieval and Renaissance. The wheel, cable and bucket are continuous. Examined 3 age previews at 224 and 64 px and the 1238/789/376-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mine_future_v0",
+          "evidence_sha256": "0b86c4184a0dcdf403a7979692c55965491956ae7c8fe4da231dd9d9f24912fa",
+          "observations": "The suspended load reaches the track without entering the roof. Both mine and jib posts now seat at grade next to the brilliant side hut. Examined 2 age previews at 224 and 64 px and the 1410/849/405-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mine_industrial_v0",
+          "evidence_sha256": "b0ca4e5aa95ab1b031d131f865fde993ce0f3b51f426ef151177401cef75455e",
+          "observations": "New sleepers ground the track below the clear bucket. Brick and green canopy at Industrial contrast with pale Modern framing. Examined 2 age previews at 224 and 64 px and the 1410/849/405-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_oil_well_future_v0",
+          "evidence_sha256": "e67d83863ea1846fe41e94087120a6460e72261525eeeb09eb29e2ed991cac30",
+          "observations": "Level bearing feet seat the open pump frame. The slender polished rod and blue leaf vane stand apart in both late appearances. Examined 2 age previews at 224 and 64 px and the 1170/678/318-triangle GLB.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_oil_well_industrial_v0",
+          "evidence_sha256": "1318ced8e5eede94e98b8b28f755fea3ce3dad107c479910241e9e96c3fad502",
+          "observations": "The repaired front foot carries the walking beam and meets grade. The crank, pale tank and green horsehead maintain a recognizable extraction silhouette. Examined 1 age preview at 224 and 64 px and the 1146/670/310-triangle GLB.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_sawmill_future_v0",
+          "evidence_sha256": "8a6919c3bb2d53e9b10dd48f5deed9e0b4f3cf4e6211136308c906581c42a7e2",
+          "observations": "The two pads leave a transverse gap around the saw, and the feed log rests on the near pad. Bunk ends show beneath the stack, below the blue roof leaf. Examined 2 age previews at 224 and 64 px and the 1048/590/307-triangle GLB.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_sawmill_industrial_v0",
+          "evidence_sha256": "6897dd1ed62e531df164894868e65cbe03f4c33883e9da57925990e2c37dbae9",
+          "observations": "The saw sweeps through an open slot between supported pads. Two visible bunks seat the store of cut logs in the brick and concrete versions. Examined 2 age previews at 224 and 64 px and the 1024/582/299-triangle GLB.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_stone_quarry_ancient_v0",
+          "evidence_sha256": "d0eee7a684b10bd8fd3646d4d11e0861210edb3c8f73d1b1297e2370677c902e",
+          "observations": "The grounded jib clears three separate sawn blocks, and the lightly coloured door lamp and graded stone terraces remain visible through the three early rows. Examined 3 age previews at 224 and 64 px and the 1018/521/198-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_stone_quarry_classical_v0",
+          "evidence_sha256": "279b72a97c29c43d0fb0357bdda803b7b3c0366cee4016f5eedd053317bb281a",
+          "observations": "The jib foot is level, with the cart-sized stone blanks separated from the doorway. The three sculpted benches survive the colour changes. Examined 3 age previews at 224 and 64 px and the 1070/557/222-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_stone_quarry_future_v0",
+          "evidence_sha256": "05d714b8e4d191648a90a968e9d9854e54b5d0b1c3e638c9cfd2ccfa2390887d",
+          "observations": "Both machine feet now meet grade, and the row of stone blanks is forward of the wheel. The bronze wheel and pale rock separate clearly at Ascension. Examined 2 age previews at 224 and 64 px and the 1294/719/320-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_stone_quarry_industrial_v0",
+          "evidence_sha256": "9046e2f81a22abdaf73e0f9613a85b541ba97e0d8e3892cef456178b4f4a1922",
+          "observations": "Both wheel and crane are supported. The dressed stack is convincingly parked outside the flywheel envelope in both the brick and grey variants. Examined 2 age previews at 224 and 64 px and the 1242/683/296-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_woodcutter_camp_ancient_v0",
+          "evidence_sha256": "55d5c690288b40a89b46eb6fc9bc470929e7b3b06d4149d8e73ab259e355a755",
+          "observations": "The pollard meets grade and the lower stock now rests on timber bunks. At full size the newly crowded upper log cuts deeply into the two fresh end faces. Examined 3 age previews at 224 and 64 px and the 882/482/218-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Retain the grounded bearers and raise the upper billet to the actual tangent between the two lower billets. Its present 0.049-tile center rise cuts the round sections into one another. Use per-LOD seating heights for the 9-, 6- and 4-sided log sections and a small axial stagger."
+          ]
+        },
+        {
+          "id": "bld_elf_woodcutter_camp_classical_v0",
+          "evidence_sha256": "0178234d6c7ccc6c3d332ceca1c0faf81befc472f394be35aaa2a7598ec2b601",
+          "observations": "The long bent branch and bright end grain frame the tiller's hut. The bearer and trunk footing are sound, but the upper cut cylinder overlaps the others. Examined 3 age previews at 224 and 64 px and the 914/508/232-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Retain the grounded bearers and raise the upper billet to the actual tangent between the two lower billets. Its present 0.049-tile center rise cuts the round sections into one another. Use per-LOD seating heights for the 9-, 6- and 4-sided log sections and a small axial stagger."
+          ]
+        },
+        {
+          "id": "bld_elf_woodcutter_camp_future_v0",
+          "evidence_sha256": "b1e17948a3bc1f0a23275eeb1d43dc96e676d8861e74ad0f726f6df55132a7ea",
+          "observations": "The two bunks and grounded pollard read correctly under the bright leaf awning. The three front cut ends merge where they meet. Examined 2 age previews at 224 and 64 px and the 1118/642/318-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Retain the grounded bearers and raise the upper billet to the actual tangent between the two lower billets. Its present 0.049-tile center rise cuts the round sections into one another. Use per-LOD seating heights for the 9-, 6- and 4-sided log sections and a small axial stagger."
+          ]
+        },
+        {
+          "id": "bld_elf_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "5734e97723121443c0f1f840cc924974ca74477120c4e599e439f634c3ae808b",
+          "observations": "The new bunk pair and seated pollard fix the hovering stock. The three end faces merge where the upper log sits well inside the others. Examined 2 age previews at 224 and 64 px and the 1094/634/310-triangle GLB.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 86,
+            "charm": 92,
+            "colour": 93,
+            "technical": 96
+          },
+          "defects": [
+            "Retain the grounded bearers and raise the upper billet to the actual tangent between the two lower billets. Its present 0.049-tile center rise cuts the round sections into one another. Use per-LOD seating heights for the 9-, 6- and 4-sided log sections and a small axial stagger."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Extraction independent model critic",
+      "models": [
+        {
+          "id": "bld_elf_woodcutter_camp_ancient_v0",
+          "evidence_sha256": "4f2e1b0b49a7ec5d8421051a085c076dcee44509a0f0e932ccb696bb541178cb",
+          "observations": "Three distinct bright cut ends form a stable triangle on both bearers. The pollard, axe and leaf roof separate at 64 px in the three early hues. Reviewed 3 age previews at 224 and 64 px. Compared the 882/482/218 serialized meshes and sampled both upper-log contacts near the front, middle and rear at all three LODs. The mating facets seat within 0.0005 tile.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 96,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_woodcutter_camp_classical_v0",
+          "evidence_sha256": "ae2acca30ac68f3edd0dc6d14f6506ca14d9a5464cc6467e9556e26d45bf9b98",
+          "observations": "The offset cut faces remain individually readable beside the stump in all three age rows. The bent shelter bough and door lantern survive reduction to 64 px. Reviewed 3 age previews at 224 and 64 px. Compared the 914/508/232 serialized meshes and sampled both upper-log contacts near the front, middle and rear at all three LODs. The mating facets seat within 0.0005 tile.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 96,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_woodcutter_camp_future_v0",
+          "evidence_sha256": "825fd0fd43b6851a29ed0b5b62652727f8211c751e41571e560889716dc5590c",
+          "observations": "The three round log ends remain separate next to the processing wheel and blue leaf awning. Both Information and Ascension show the same stable load. Reviewed 2 age previews at 224 and 64 px. Compared the 1118/642/318 serialized meshes and sampled both upper-log contacts near the front, middle and rear at all three LODs. The mating facets seat within 0.0005 tile.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 96,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "6400eff5370e8264466285b90bb3154c2d1728010ea84f7230212c594e39dbc5",
+          "observations": "The timber now sits in a triangular stack on paired bunks, with a distinct sawn end for every log. The wheel on the stump and curved keeper’s roof read in both Industrial and Modern. Reviewed 2 age previews at 224 and 64 px. Compared the 1094/634/310 serialized meshes and sampled both upper-log contacts near the front, middle and rear at all three LODs. The mating facets seat within 0.0005 tile.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 96,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Elf and Neutral critic — Coordinator repair round 1",
+      "models": [
+        {
+          "id": "bld_elf_gold_mine_ancient_v0",
+          "evidence_sha256": "593a0431524f434aaa185cb74c8208dfdaf98a645fa0c793214f9835ac2ec95c",
+          "observations": "A framed hoist serves a loaded ore cart at the rock face. The additional blue sluice discharges toward a gold catch basin and distinguishes the gold works from the ordinary mine. Highest outgoing family corner share was 2859/3825 (74.7%) with bld_elf_gold_mine_classical_v0. Checked iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1275/725/399. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_gold_mine_classical_v0",
+          "evidence_sha256": "63feec1b5d501c5bd0a6a41556b122838f0d5052f43964e061948028cf869b3c",
+          "observations": "A framed hoist serves a loaded ore cart at the rock face. The additional blue sluice discharges toward a gold catch basin and distinguishes the gold works from the ordinary mine. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 2859/3825 (74.7%) with bld_elf_gold_mine_ancient_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1275/725/399. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Carry the lifting wheel in a masonry arch over a stepped sluice and off-axis ore yard."
+          ]
+        },
+        {
+          "id": "bld_elf_mine_ancient_v0",
+          "evidence_sha256": "437b447436c06bd8d5d296a6279aa5c81d6ea01c58a4091e5f59abe415da56c1",
+          "observations": "A timber headframe lifts ore beside a loaded cart, with its wheel silhouetted above the rock face. Both cart rails and braced lifting geometry read at phone size. Highest outgoing family corner share was 2475/3714 (66.6%) with bld_elf_mine_classical_v0. Checked bronze, iron previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1238/705/376. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mine_classical_v0",
+          "evidence_sha256": "32f8e499d0752ceabe3548702e6aa9162417f8a9f0804d9299e0cf544be0f03b",
+          "observations": "A timber headframe lifts ore beside a loaded cart, with its wheel silhouetted above the rock face. Both cart rails and braced lifting geometry read at phone size. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 2475/3714 (66.6%) with bld_elf_mine_ancient_v0. Checked classical, medieval, renaissance previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1238/705/376. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Frame a stepped adit with a horizontal winding drum and a separate ore platform."
+          ]
+        },
+        {
+          "id": "bld_elf_mine_future_v0",
+          "evidence_sha256": "458df8b83cbf1b19c76c93c60d1df5fa2b1fcc701f39760e3c33a51bea8cb0cf",
+          "observations": "A timber headframe lifts ore beside a loaded cart, with its wheel silhouetted above the rock face. Both cart rails and braced lifting geometry read at phone size. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 2541/4230 (60.1%) with bld_elf_mine_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1410/803/405. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Build a short enclosed extraction head linked by elevated ore conduit to a receiving tower."
+          ]
+        },
+        {
+          "id": "bld_elf_mine_industrial_v0",
+          "evidence_sha256": "42bd4a04a8ea7cbbd6580d6fa7225f217328a4b990daf5bf232fcebe9c73e49d",
+          "observations": "A timber headframe lifts ore beside a loaded cart, with its wheel silhouetted above the rock face. Both cart rails and braced lifting geometry read at phone size. At 64 pixels both unpainted angles retain the earlier era’s main volumes, footprint and arrangement of equipment. Highest outgoing family corner share was 2541/4230 (60.1%) with bld_elf_mine_future_v0. Checked industrial, modern previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1410/803/405. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 85,
+            "identity": 80,
+            "construction": 93,
+            "charm": 89,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Use a tall enclosed winding house, skip tower and side-loading bunker."
+          ]
+        },
+        {
+          "id": "bld_elf_oil_well_future_v0",
+          "evidence_sha256": "0f74ae01c98cb4acb3ed3b4ba656e9571e7902e0da5188b236c37451df0a3879",
+          "observations": "An open four-legged derrick replaces the low walking-beam pump. Separate tanks and the small leaf-roofed service hut leave the derrick open below the crown. Highest outgoing family corner share was 0/3582 (0.0%) with bld_elf_oil_well_industrial_v0. Checked information, ascension previews, 215° and 145° LOD0/1 views, and serialized LOD counts 1194/650/294. The current mesh survey found zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent Elf critic — Coordinator repair round 2, first submitted meshes",
+      "models": [
+        {
+          "id": "bld_elf_gold_mine_classical_v0",
+          "evidence_sha256": "864687a36add6a3659cf6cf57255a7b8627e1bd5ae64427972f50b017551fbdd",
+          "observations": "An exposed winding wheel fills a stone arch above the stepped blue sluice. Ore carts and the gold receiving basin read independently from the smaller entrance hut. Compared all 3 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1247/709/391 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mine_classical_v0",
+          "evidence_sha256": "bcfdfdc51b7942cdf81a911c57c52839f8da6f72ba58fd4d3f6ec451d8b1606c",
+          "observations": "A stone-vaulted adit meets a flight of steps cut into the rock face. A separate winding drum and loaded cart flank the entrance without obscuring it. Compared all 3 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 917/521/248 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mine_future_v0",
+          "evidence_sha256": "c03aeec3c0ab0dd30e733c615f324601a580d67af0b9eae99eba0f34d08d0650",
+          "observations": "A striped transfer pipe connects the enclosed extraction head to an elevated receiving tank. A separate small spill of ore below it helps distinguish the facility from a utility pump. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1056/598/258 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mine_industrial_v0",
+          "evidence_sha256": "519349354956f2d3e478180d88eb36cdbbc832b00ce740a7d28daceb4dec61d2",
+          "observations": "The tall headframe is exposed beside a roofed winding house. Its cross-bracing, receiving hopper and low ore wagon remain separate at 64 pixels. Compared all 2 age previews and both 64 px grey views with era siblings. At 192 px inspected the painted middle mesh at 215°, 125° and 35°. Maximum two-way corner share with any sibling was 0.0%. Serialized LODs 1378/784/341 passed; zero exposed pairs or inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent Elf critic — frozen LOD export inspection",
+      "models": [
+        {
+          "id": "bld_elf_gold_mine_classical_v0",
+          "evidence_sha256": "d108f67e7961b388605c2648914fa801ebcf950d8b89a3d00d7c7ab7f8e13beb",
+          "observations": "An exposed winding wheel fills a stone arch above the stepped blue sluice. Ore carts and the gold receiving basin read independently from the smaller entrance hut. Opened classical, medieval, renaissance previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 1247/709/391 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_mine_classical_v0",
+          "evidence_sha256": "c959e87075f5444db59e8579aa0c1dedcf0ff9c841e3208c0bd285e4a9a975db",
+          "observations": "A stone-vaulted adit meets a flight of steps cut into the rock face. A separate winding drum and loaded cart flank the entrance without obscuring it. Opened classical, medieval, renaissance previews, both unpainted 64 px angles and 192 px painted LOD1 renders from 215°, 125° and 35°. All serialized checks passed at 917/521/248 triangles; the mesh has zero reported exposed pairs and inward closed shells.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 92,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_elf_coal_mine_future_v0",
+          "evidence_sha256": "ff3c15efc50b479f46d1b1ffbe7276e15935cb4c7b4b81a2ad34f9d58c695de1",
+          "observations": "The pale curved chute reaches from the stacked dark mine face to a separate round bunker full of coal. The visible opening and dark load identify the work; a blue crystal and leaf-shaped roof peak break the top profile. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 567/323/158 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 92,
+            "identity": 91,
+            "construction": 92,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_elf_gold_mine_future_v0",
+          "evidence_sha256": "4f4527f26ef71ca35bdfe912adc8675bb6d5f07ab47483d105a60c9c493f5477",
+          "observations": "Three staggered blue wash bowls on stems descend in front of the adit, with a bucket hoist at the other end. Gold rims separate the bowls from the pale rock, and their stepped widths read even without colour. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 794/451/233 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC5 model critic",
+      "models": [
+        {
+          "id": "bld_elf_gold_mine_industrial_v0",
+          "evidence_sha256": "b40523a4f4c8abe5d307f67e851b33192c970fee88a53d0b198342e3b80ed66c",
+          "observations": "In both unpainted views, a freestanding banded chimney rises at one end of the horizontal battery of ore stamps. That uneven skyline replaces the ancient forked timber headframe. The exposed flywheel, gold in the end of the blue sluice, side access and three guided stamp rods show how the ore moves through the works. A green bank around the chimney and curved brass fittings soften the machinery. The Industrial dark supports and the paler Modern masonry both frame the stamps and separate the outflow from the rock. LOD2 simplifies the sluice bars while keeping the wheel, stamps, stack and channel. Serialized LODs 1475/839/439 passed check_entry. Direct checks found zero exposed coplanar overlaps and zero inverted closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 95,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_elf_sawmill_future_v0",
+          "evidence_sha256": "c3344e6ce16d3f87ca03c3c95a83a084b22fbc6c2d10a330db7c432359ec46e4",
+          "observations": "The open feed bed and tall looped saw assembly distinguish it from the earlier roofed mill. At LOD1 the upper pulley and blade line cross the log. At LOD2 the head has become a pitched, empty frame and the simplified table resembles a timber bench.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 84,
+            "construction": 88,
+            "charm": 91,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [
+            "Keep a low-sided upper pulley or unmistakable band-saw blade and a supported cutting throat meeting the log in LOD2. Check the far mesh from both sides."
+          ],
+          "lod_triangles": [
+            1040,
+            592,
+            211
+          ],
+          "serialized_sha256": "95bc2efecd0770499ce7b2a5fe0309570c396638eb69db9e9e2653029da5145a",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_extraction-01.png",
+            "rc6/families/elf-Sawmill-v0.png"
+          ],
+          "frozen_png_sha256": {
+            "rc6/held-trade/bld_elf_sawmill_future_v0-c3344e6ce16d/ascension.png": "d8158a88393acc926face5b5baba8b3dc3736e29b08180f131ad8f3304c45a66",
+            "rc6/held-trade/bld_elf_sawmill_future_v0-c3344e6ce16d/elf-Sawmill-v0.png": "d68adf1bb55753f0cef6a6af19288ab92a641db70784ed1e8b7fc166d56f64e7",
+            "rc6/held-trade/bld_elf_sawmill_future_v0-c3344e6ce16d/information.png": "146297ff86f976a1bafb45963eaabe7e896ac1f94641475b59603c63a34b6abb",
+            "rc6/held-trade/bld_elf_sawmill_future_v0-c3344e6ce16d/model-and-lods.png": "b951a505ce7d754aaa14022619384d06646abe74bc41e926887d916cc5160af5"
+          }
+        },
+        {
+          "id": "bld_elf_stone_quarry_ancient_v0",
+          "evidence_sha256": "21734d33bd3487611e947db2a5dc2b758435b74b9366e9ded0fdefd26145de62",
+          "observations": "Three cut benches step across the exposed quarry face with split blocks at their foot. The rock and levering timber give a credible first working face. Even after the wedges and loose boulders simplify, the steps remain legible from both sides.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 91,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            807,
+            471,
+            141
+          ],
+          "serialized_sha256": "76883e4ad2e67c18299fc6b5db71292b4795cdff0e532383597b3a4f8b6d966f",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_extraction-01.png",
+            "rc6/families/elf-StoneQuarry-v0.png"
+          ]
+        },
+        {
+          "id": "bld_elf_stone_quarry_industrial_v0",
+          "evidence_sha256": "6f9a57068403f78b23543266b25ee90a4efa96810c55b815105596a27b0c494b",
+          "observations": "A rail-mounted gantry straddles a cut slab. The sling and stone form a readable triangular profile below the beam, distinct from the stepped prehistoric face and the tall rock outcrop in later views. Rails, twin supports and suspended cut persist at LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 93,
+            "charm": 90,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            754,
+            428,
+            194
+          ],
+          "serialized_sha256": "b26af34dc6d6c70d340d105ca9c392c77da0d4e2fbffd1c66bcb5af12cc923fa",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_extraction-01.png",
+            "rc6/families/elf-StoneQuarry-v0.png"
+          ]
+        },
+        {
+          "id": "bld_elf_woodcutter_camp_classical_v0",
+          "evidence_sha256": "7413cae05bdc42fae3c9c6c823b7d0a0c5af8c67a951e166fb6f87e15f47d6a8",
+          "observations": "The open log rack has a swept, pitched canopy with air visible between the stacked lengths. The cutting stump and axe explain the timber pile, and the far mesh retains the rack, long timbers and stump. The two unpainted sides differ clearly from the older tree and shelter.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            694,
+            394,
+            196
+          ],
+          "serialized_sha256": "23366bd0ba207915e02a2a62124fdabf9ac9889b3d283ade550233d212acfc55",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_extraction-01.png",
+            "rc6/families/elf-WoodcutterCamp-v0.png"
+          ]
+        },
+        {
+          "id": "bld_elf_woodcutter_camp_industrial_v0",
+          "evidence_sha256": "b7c99427a66feb1385df02872de122ec63fdda0982357c76fcb77cfdd2f349de",
+          "observations": "Tall converging spars and a side winch lift the bundle of long logs. The rear angle exposes the rigging and tether. At LOD2 the working triangle and bundle still read without a building shell, an unmistakable departure from the Classical covered stack.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 91,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            826,
+            460,
+            261
+          ],
+          "serialized_sha256": "b325a3caadd318189ef9c72f03ee8d6e663d58387cf754e1a30e31785951f0c5",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_extraction-02.png",
+            "rc6/families/elf-WoodcutterCamp-v0.png"
+          ]
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "critic": "Independent RC6 building art critic, rebuilt exports re-review",
+      "models": [
+        {
+          "id": "bld_elf_sawmill_future_v0",
+          "evidence_sha256": "7d3a75d1db539348893ebf09f14c8868cc374c4f6ac612662228dad9eb69b8eb",
+          "observations": "Both future palettes show a vertical band saw straddling a log on the feed bed. Compared with the frozen far mesh, the pulley, cutting line and working throat now remain at LOD2 from each side; the rear angle exposes the supporting frame. The older mill has a building around its cutting equipment.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1396,
+            798,
+            375
+          ],
+          "serialized_sha256": "a2b2ab8a0e23b9b017ae9864cafc40c2b266d8da959900e049058454ace266b3",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/elf_extraction-01.png",
+            "rc6/families/elf-Sawmill-v0.png"
+          ],
+          "visual_evidence_sha256": {
+            "rc6/models/elf_extraction-01.png": "6938b8e701c918b8810bc945e53f1ffc4921941fa054f4a276c7515e924b5d59",
+            "rc6/families/elf-Sawmill-v0.png": "06afa5d732a6422dc4cb165760e9ba2197c144c9fa992ec57a0019f69ca155ec"
+          },
+          "age_preview_sha256": {
+            "information": "9f05dd97d0c0c8ca33b964529e63ff7667c501031bfbae951663ada056dab612",
+            "ascension": "bbb00b282700ebc079ea5ca84e0d7a4a0e2182a1cbe59b0b3f01d0405f8f360c"
+          },
+          "supersedes_evidence_sha256": "c3344e6ce16d3f87ca03c3c95a83a084b22fbc6c2d10a330db7c432359ec46e4"
+        }
+      ]
+    }
+  ]
+}

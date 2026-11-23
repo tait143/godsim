@@ -1,0 +1,463 @@
+"""Orc production buildings, with working bays, dye looms and furnace lines."""
+import math
+from pathlib import Path
+import sys
+
+sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
+from generators.buildings.orc_towncenters import Lodge, generate
+from generators.buildings.orc_extraction import wheel
+from generators.buildings.orc_learninghealth import build_lodge
+from generators.buildings import orc_machine_halls
+
+PACKAGE="orc_industry"
+
+
+def furnace(m,x,z,s,high=False):
+    """Sloped refractory belly, bright tap hole, collecting trough, and flared chimney."""
+    e=m.era
+    h=(.96,1.22,1.40,1.31)[e]+(.24 if high else 0)
+    mantle=("wall","fieldstone","brick","plaster")[e]
+    with m.transform(translate=(x,0,z),scale=s):
+        m.shell(0,0,[(0,.36,"fieldstone"),(.105,.405,mantle),(.50,.35,"trim"),
+                     (.57,.356,mantle),(.83,.174,"metal"),(h,.13,"banner"),
+                     (h+.053,.167,"metal"),(h+.095,.156,"door")],(12,8,5)[m.lod])
+        m.block("trim",0,.125,-.337,.338,.213,.156,.11)
+        m.block("forge",0,.14,-.422,.217,.133,.022,.10)
+        m.block("metal",0,.024,-.502,.251,.096,.367,.06)
+        m.block("forge",0,.112,-.513,.162,.019,.302)
+        if m.lod<2:
+            for side in (-1,1):
+                m.tusk(side*.207,.48,-.14,side,.391)
+        if m.lod==0:
+            for side in (-1,1):
+                m.post("metal",(side*.28,.24,.14),(side*.145,.84,.10),.034,sides=5)
+            m.shell(0,0,[(h-.091,.144,"ivory"),(h-.058,.145,"metal")],8)
+
+
+def shelter(m,x,z,s,w=.84,d=.82):
+    e=m.era
+    with m.transform(translate=(x,0,z),scale=s):
+        h=(.44,.54,.55,.62)[e]
+        m.block("fieldstone",0,0,0,w+.035,.071,d+.028,.035)
+        m.block(("wall","plaster","brick","glass")[e],0,.071,0,w,h-.07,d,.023)
+        profile=("roof","roof_tile","metal","roof")[e]
+        m.hip_roof((0,h,0),w+.17,d+.16,(.36,.45,.24,.29)[e],m.col(profile),overhang=0,material=profile)
+        m.entry(-w*.13,-d*.50,.067,.25,h*.68,e)
+        for side in (-1,1):
+            m.tusk(side*w*.40,h-.01,-d*.32,side,.37)
+        if m.lod<2:
+            for side in (-1,1):
+                m.post("timber" if e<2 else "metal",(side*w*.46,.07,-d*.486),(side*w*.46,h,-d*.486),.036)
+            m.block("emissive",w*.29,h*.50,-d*.499,.136,.101,.034)
+        if m.lod==0:
+            m.block("trim",w*.29,h*.46,-d*.518,.165,.032,.052)
+            m.flag(-.10,h+.24,.006,.40,.213)
+
+
+def anvil(m,x,z,s):
+    with m.transform(translate=(x,0,z),scale=s):
+        m.shell(0,0,[(0,.20,"timber"),(.23,.173,"hide")])
+        m.block("metal",0,.226,0,.29,.07,.213,.10)
+        m.block("trim",0,.294,0,.172,.105,.140)
+        m.block("metal",.012,.387,0,.330,.09,.181)
+        m.post("metal",(-.153,.417,0),(-.321,.431,0),.052,0,sides=5)
+        if m.lod==0:
+            m.post("timber",(.01,.484,-.045),(.15,.499,.058),.014,sides=4)
+            m.block("trim",.013,.473,-.044,.070,.041,.051)
+
+
+def works(m,kind):
+    smelt=kind=="Smelter"
+    if not smelt and m.era==1:
+        # A roofed clan smithy under a single long ridge. Its two open bays
+        # share a thick rear hearth wall, leaving the anvils in clear view.
+        m.block('fieldstone',-.114,0,.061,1.44,.154,1.23,.061)
+        m.block('wall',-.097,.15,.502,1.21,.61,.236,.06)
+        for side in (-1,1):
+            x=-.11+side*.579
+            for z in (-.385,.462):
+                m.shell(x,z,[(.145,.105,'fieldstone'),(.246,.098,'timber'),
+                             (.76,.074,'trim'),(.85,.104,'trim')],(10,7,4)[m.lod])
+            m.tusk(x,.789,-.386,side,.46)
+        m.hip_roof((-.103,.840,.039),1.62,1.24,.39,m.col('roof_tile'),overhang=0,
+                   ridge=.91,material='roof_tile')
+        firex=-.428
+        m.shell(firex,.226,[(.154,.235,'fieldstone'),(.378,.24,'brick'),
+                             (.467,.211,'trim'),(.467,.174,'door'),(.438,.14,'forge')],
+                (12,8,5)[m.lod])
+        m.shell(firex,.365,[(.465,.137,'brick'),(.94,.119,'fieldstone'),
+                             (1.33,.093,'wall'),(1.379,.119,'trim')],(9,6,4)[m.lod])
+        anvil(m,.468,-.615,.94)
+        if m.lod<2:
+            m.shell(-.665,-.681,[(0,.137,'timber'),(.20,.157,'trim'),(.219,.14,'water')],7)
+            for x in (-.615,.37):
+                m.post('trim',(x,.61,-.384),(x+(.157 if x<0 else -.157),.838,-.384),.053)
+        if m.lod==0:
+            for x in (-.31,-.04,.242):
+                m.post('metal',(x,.28,.376),(x+.071,.632,.372),.017,sides=5)
+            m.drum(.592,0,.341,.136,.215)
+        return
+    if not smelt and m.era==2:
+        # A floor-mounted tilt hammer is lifted by the cam on the visible
+        # flywheel shaft. Scrap returns to the open reheating hearth at its right.
+        m.block('fieldstone',-.225,0,-.022,1.37,.108,.896,.067)
+        x,z=-.38,.006
+        for pz in (-.21,.20):
+            m.block('brick',x,.104,pz,.396,.475,.188,.18)
+        m.post('metal',(x,.558,-.402),(x,.558,.308),.092)
+        n=(16,10,5)[m.lod]
+        for i in range(n):
+            rim=[]
+            for j in (i,i+1):
+                a=math.tau*j/n
+                rim.append([(x+r*math.cos(a),.557+r*math.sin(a),pz)
+                            for r,pz in ((.376,-.351),(.376,-.28),(.292,-.28),(.292,-.351))])
+            for j in range(4):
+                k=(j+1)%4
+                m.panel('metal',(rim[0][j],rim[1][j],rim[1][k],rim[0][k]))
+        for i in range((8,6,2)[m.lod]):
+            a=math.tau*i/(8,6,4)[m.lod]
+            inner=-.31 if m.lod==2 else .061
+            m.post('trim',(x+inner*math.cos(a),.557+inner*math.sin(a),-.314),
+                   (x+.316*math.cos(a),.557+.316*math.sin(a),-.314),.028,sides=5 if m.lod<2 else 3)
+        m.post('cloth',(x,.558,-.374),(x,.558,-.326),.102)
+        m.block('metal',-.147,.104,.011,.156,.462,.221,.15)
+        if m.lod<2:
+            m.post('trim',(-.461,.609,-.047),(-.461,.609,.042),.097)
+        m.post('timber',(-.781,.701,.006),(.362,.477,.013),.088,.07)
+        m.block('metal',.324,.393,.012,.252,.151,.222)
+        m.block('trim',.324,.103,.010,.244,.163,.23,.13)
+        m.block('metal',.326,.26,.014,.226,.067,.188)
+        m.shell(.556,.449,[(0,.282,'fieldstone'),(.144,.274,'brick'),(.50,.236,'metal'),
+                            (.58,.205,'trim'),(.578,.157,'door'),(.535,.137,'forge')],(14,9,5)[m.lod])
+        for s in (-1,1):
+            m.tusk(.557+s*.19,.359,.447,s,.412)
+        if m.lod<2:
+            m.block('forge',.557,.163,.205,.210,.117,.041)
+            m.shell(.643,-.510,[(0,.177,'timber'),(.222,.195,'metal'),(.247,.18,'water')],8)
+        if m.lod==0:
+            m.post('trim',(x,.560,-.375),(x,.560,-.446),.082)
+        return
+    furnace(m,.46,.16,1.12 if smelt else .81)
+    shelter(m,-.39,.24,1.0)
+    if smelt:
+        m.shell(-.27,-.46,[(0,.22,"metal"),(.25,.233,"trim"),(.31,.241,"forge")])
+        if m.lod<2:
+            m.post("metal",(-.55,.31,-.46),(.014,.31,-.46),.035,sides=5)
+        if m.era>=2:
+            m.post("metal",(.46,.91,.18),(-.40,.68,.21),.070,sides=6)
+    else:
+        anvil(m,.35,-.66,1.17)
+        if m.lod<2:
+            m.shell(-.71,-.49,[(0,.147,"timber"),(.162,.15,"water")],7)
+
+
+def shield(m,x,y,z,s,paint):
+    # Faceted display shield with a steel inner face and a sharply folded painted crest.
+    with m.transform(translate=(x,y,z),scale=s):
+        loop=[(0,.40),(-.27,.27),(-.245,-.11),(0,-.39),(.245,-.11),(.27,.27)]
+        for i,(u,v) in enumerate(loop):
+            a,b=loop[(i+1)%6]
+            mat=paint if i in (0,3,4) else "ivory"
+            m.panel(mat,[(u,v,0),(0,.034,-.093),(a,b,0)])
+            m.panel("trim",[(a,b,.052),(0,.034,.052),(u,v,.052)])
+            m.panel("metal",[(u,v,0),(a,b,0),(a,b,.052),(u,v,.052)])
+        if m.lod<2:
+            m.post("gold",(0,.033,-.059),(0,.033,-.125),.070,sides=6)
+
+
+def fabrication_vault(m):
+    # A polygonal stock vault feeds an open sizing cradle with displayed armor plates.
+    m.shell(-.33,.25,[(0,.44,"fieldstone"),(.14,.48,"metal"),(.29,.34,"ivory"),
+                       (.67,.34,"glass"),(.75,.47,"metal"),(.91,.46,"turquoise"),
+                       (1.09,.29,"ivory"),(1.13,.18,"metal")],(12,7,4)[m.lod],flatten=.82)
+    m.entry(-.34,-.056,0,.30,.45,3)
+    for s in (-1,1):
+        m.tusk(-.33+s*.35,.73,.24,s,.49)
+    m.block("metal",.41,0,-.08,.61,.15,1.10,.07)
+    for j in range(2):
+        z=-.42+j*.53
+        h=.58+j*.20
+        for side in (-1,1):
+            m.post("ivory",(.40+side*.27,.15,z),(.40+side*.19,h,z),.047,.034,
+                   sides=(8,5,4)[m.lod])
+        m.block("turquoise",.40,h-.023,z,.43,.074,.11,.10)
+        if m.lod<2:
+            m.post("metal",(.40,.31,z),(.40,h,z),.051,sides=(8,5)[m.lod])
+        shield(m,.40,h*.71,z-.098,.63 if not j else .78,"roof")
+    if m.lod==0:
+        m.drum(-.65,0,-.31,.134,.19)
+
+
+
+def armory(m):
+    if m.era==3:
+        return fabrication_vault(m)
+    shelter(m,-.22,.23,1.27,w=.97)
+    for x in (-.25,.70):
+        m.block("timber" if m.era<2 else "metal",x,0,-.46,.086,.62,.108,.08)
+    m.block("trim",.227,.435,-.456,1.07,.095,.117)
+    for i,x in enumerate((-.16,.20,.56)):
+        if m.lod==2 and i==0:
+            continue
+        shield(m,x,.376,-.546,.64 if i!=1 else .81,"cloth" if i!=1 else "roof")
+    if m.lod<2:
+        m.drum(-.69,0,-.45,.166,.33)
+    if m.era>=2:
+        m.block("metal",.64,0,.25,.38,.48,.55,.08)
+        m.block("glass" if m.era==3 else "metal",.64,.47,.25,.37,.243,.45,.19)
+
+
+def textile_gallery(m):
+    # The warp hangs vertically inside a freestanding roofed colonnade.
+    m.block("fieldstone",0,0,.14,1.63,.095,1.10,.06)
+    for x in (-.62,.62):
+        for z in (-.25,.49):
+            m.shell(x,z,[(.095,.11,"fieldstone"),(.18,.106,"plaster"),(.75,.07,"plaster"),
+                         (.80,.11,"gold")],(8,5,4)[m.lod])
+        m.tusk(x,.78,-.25,1 if x>0 else -1,.48)
+    m.hip_roof((0,.80,.12),1.61,1.02,.40,m.col("roof_tile"),overhang=0,material="roof_tile")
+    for y in (.28,.70):
+        m.post("timber",(-.65,y,-.24),(.64,y,-.24),.044,sides=(8,6,4)[m.lod])
+    for x in (-.32,.30):
+        with m.transform(translate=(x,0,-.24),rotate_y=8 if x<0 else -8):
+            m.block("cloth" if x<0 else "hide",0,.214,0,.49,.494,.064)
+            if m.lod<2:
+                m.block("ivory",0,.28,-.036,.48,.057,.018)
+    if m.lod==0:
+        m.drum(-.49,.095,.27,.142,.21)
+
+
+def powered_loom(m):
+    # A digital jacquard carriage draws a broad ribbon off the two horizontal winding drums.
+    m.block("metal",-.10,0,.10,1.48,.17,1.23,.08)
+    for x in (-.65,.45):
+        m.block("ivory",x,.14,.05,.175,.54,1.00,.15)
+    for z,y,r in ((-.32,.55,.22),(.31,.74,.29)):
+        for x in (-.59,.39):
+            m.post("metal",(x,y,z),(x+.14,y,z),r*1.13,sides=(14,8,5)[m.lod])
+        m.post("cloth" if z<0 else "ivory",(-.455,y,z),(.393,y,z),r,sides=(16,9,6)[m.lod])
+    with m.transform(translate=(-.045,.835,-.02),rotate_x=-22):
+        m.block("cloth",0,-.026,0,.76,.052,.71)
+        if m.lod==0:
+            for s in (-1,1):
+                m.block("ivory",s*.26,.026,0,.065,.010,.68)
+    m.shell(.66,.36,[(0,.20,"fieldstone"),(.13,.22,"metal"),(.57,.18,"glass"),
+                      (.72,.27,"ivory"),(.89,.16,"turquoise")],(10,6,4)[m.lod])
+    m.tusk(.65,.71,.36,1,.52)
+    if m.lod==0:
+        m.flag(-.68,.18,.37,.91,.24)
+        for z,y in ((-.32,.55),(.31,.74)):
+            m.post("gold",(.52,y,z),(.60,y,z),.084,sides=8)
+
+
+
+def loom(m):
+    if m.era==1:
+        return textile_gallery(m)
+    if m.era==3:
+        return powered_loom(m)
+    roof={0:"metal",3:"roof"}.get(m.era)
+    m.hut(-.426,.31,1.01,roof_material=roof)
+    # The loom occupies a separate working bay, leaving the hut door and its approach open.
+    with m.transform(translate=(.29,0,.105),rotate_y=25,scale=.83):
+        weaving_frame(m)
+
+
+def weaving_frame(m):
+    for x in (-.29,.69):
+        m.post("timber" if m.era<2 else "metal",(x,.031,-.52),(x,.92,-.30),.054)
+        m.post("trim",(x,.032,-.12),(x,.56,-.39),.042)
+    m.post("roof" if m.era==3 else "timber",(-.375,.87,-.316),(.776,.87,-.316),.056)
+    m.post("timber",(-.37,.318,-.484),(.77,.318,-.484),.068)
+    # Continuous woven strip with a contrasting central lozenge, rolling over the lower beam.
+    knots=[(.89,-.343),(.32,-.553),(.202,-.52),(.17,-.455)]
+    edges=(-.235,-.042,.452,.645)
+    for i,(y,z) in enumerate(knots[:-1]):
+        yy,zz=knots[i+1]
+        for j,(x,xx) in enumerate(zip(edges,edges[1:])):
+            pts=[(xx,y,z),(x,y,z),(x,yy,zz),(xx,yy,zz)]
+            m.panel("cloth" if j==1 else "ivory",pts[::-1])
+            m.panel("cloth" if j==1 else "ivory",[(u,v,w+.016) for u,v,w in pts])
+    diamond=[(.205,.766,-.403),(.356,.60,-.459),(.205,.431,-.522),(.057,.60,-.459)]
+    m.panel("gold",diamond)
+    if m.lod<2:
+        m.tusk(.69,.84,-.316,1,.27)
+        for x,mat in ((.47,"cloth"),(.69,"gold")):
+            m.shell(x,.13,[(0,.095,"timber"),(.05,.103,mat),(.24,.068,"ivory"),(.27,.09,"trim")],7)
+
+
+def bench(m):
+    shelter(m,-.32,.30,1.19)
+    for x in (.0,.65):
+        for z in (-.51,-.16):
+            m.block("timber",x,0,z,.091,.42,.091,.10)
+    m.block("timber",.32,.399,-.34,.84,.085,.50)
+    m.block("metal",.51,.473,-.32,.17,.16,.17)
+    wheel(m,.46,.703,-.416,.20,"metal")
+    if m.lod<2:
+        m.block("trim",-.024,.478,-.405,.217,.098,.138)
+        m.drum(-.50,0,-.43,.162,.26)
+    if m.lod==0:
+        m.post("gold",(.22,.50,-.17),(.36,.55,-.35),.022,sides=5)
+
+
+def saw_roof(m,x,z,w,d,y,teeth):
+    # Northlight roofs have a bright vertical pane and an opaque inclined steel face per bay.
+    for j in range(teeth):
+        span=d/teeth
+        cz=z-d/2+(j+.5)*span
+        m.wedge((x,y,cz),w,span-.012,.175,m.col("metal"),material="metal")
+        m.block("glass",x,y+.01,cz+span*.50-.008,w*.95,.143,.027)
+        if m.lod==0:
+            m.block("trim",x,y+.151,cz+span*.5-.009,w*.98,.03,.046)
+
+
+def factory(m,electronic):
+    e=m.era
+    base="glass" if e==3 else "brick"
+    m.block("fieldstone",-.10,0,.09,1.43,.11,1.35,.04)
+    m.block(base,-.10,.105,.09,1.37,.514,1.30,.018)
+    m.entry(-.29,-.575,.07,.38,.397,e)
+    m.block("trim",-.10,.613,.09,1.47,.088,1.38)
+    if electronic:
+        # A finned clean-room core rises from a glazed production podium.
+        for i in range(4):
+            y=.696+i*.145
+            m.block("glass",-.17,y,.12,.80-.044*i,.13,.83-.045*i)
+            m.block("ivory",-.17,y+.112,.12,.91-.045*i,.046,.94-.048*i,.035)
+        for side in (-1,1):
+            m.tusk(-.17+side*.21,1.24,.13,side,.47)
+        if m.lod<2:
+            m.shell(.62,-.41,[(0,.17,"metal"),(.39,.16,"turquoise"),(.49,.149,"metal")],
+                    sides=5 if m.lod==1 else None)
+    elif e==3:
+        # A glazed process gallery and two broad recuperator cowls replace the old sawtooth bays.
+        m.block("glass",-.38,.697,.105,.67,.235,1.13,.105)
+        with m.transform(translate=(-.38,.924,.105),rotate_y=90):
+            m.hip_roof((0,0,0),1.22,.74,.142,m.col("roof"),overhang=0,material="roof")
+        for z,h in ((-.285,.995),(.37,1.19)):
+            m.shell(.293,z,[(.70,.157,"metal"),(h-.054,.136,"metal"),(h+.056,.212,"banner"),
+                            (h+.096,.210,"metal"),(h+.16,.183,"door")],(10,7,4)[m.lod])
+        for side in (-1,1):
+            m.tusk(-.21+side*.215,.87,-.368,side,.56)
+    else:
+        saw_roof(m,-.15,.12,1.32,1.15,.698,2 if m.lod==2 else 3)
+        for x,z,h in ((.49,.51,1.34),(.18,.62,1.13)):
+            m.shell(x,z,[(.70,.122,"brick" if e==2 else "metal"),(h,.088,"cloth"),
+                         (h+.057,.097,"metal"),(h+.10,.097,"door")],(10,7,5)[m.lod])
+        for s in (-1,1):
+            m.tusk(-.28+s*.26,.54,-.612,s,.62)
+    if m.lod<2:
+        for j in range(3):
+            m.block("roof",.10+j*.18,.25,-.552,.138,.19,.072)
+        m.drum(-.60,0,-.67,.147,.26)
+    if m.lod==0:
+        if not electronic and e==2:
+            m.flag(-.55,.692,-.473,.56,.25)
+        elif not electronic:
+            m.flag(-.38,1.048,.125,.49,.285)
+        else:
+            m.flag(-.61,.63,.31,.44,.218)
+
+
+def foundry(m):
+    furnace(m,-.41,.29,1.10,high=True)
+    furnace(m,.29,.44,.78)
+    shelter(m,.47,-.23,.78)
+    # Crane suspended from a ground-mounted post aims at the mobile pour ladle.
+    m.post("metal",(-.73,0,-.45),(-.73,.87,-.45),.068)
+    m.post("metal",(-.79,.83,-.45),(-.06,.93,-.45),.055)
+    m.post("metal",(-.73,.50,-.45),(-.23,.90,-.45),.036)
+    m.post("trim",(-.10,.40,-.45),(-.10,.932,-.45),.021,sides=4)
+    m.shell(-.10,-.45,[(.045,.167,"metal"),(.29,.224,"trim"),(.35,.222,"forge")])
+    for side in (-1,1):
+        m.post("metal",(-.10+side*.196,.28,-.45),(-.10,.41,-.45),.019,sides=4)
+    if m.lod<2:
+        m.drum(-.66,0,-.72,.139,.19)
+
+
+def induction_smelter(m):
+    # Refractory cheeks expose the full bath between two banks of induction
+    # coils. Metal taps through a break in the south wall into the mould bed.
+    m.block("fieldstone",0,0,.044,1.81,.099,1.63,.048)
+    m.block("metal",0,.099,.139,.79,.117,1.17)
+    m.block("forge",0,.215,.151,.613,.038,1.03)
+    for side in (-1,1):
+        x=side*.413
+        m.block("brick",x,.099,.14,.206,.370,1.15,.069)
+        m.block("trim",x,.469,.14,.219,.063,1.16)
+        # The slotted induction housings rise in pairs outside the bath.
+        for z in ((-.132,.396) if m.lod<2 else (.158,)):
+            m.block("wall",side*.662,.099,z,.32,.238,.367,.07)
+            m.beam("metal",(side*.727,.333,z),(side*.445,.674,z),.154,.189)
+            m.beam("trim",(side*.445,.674,z),(side*.348,.519,z),.106,.145)
+            if m.lod<2:
+                m.disk("gold",side*.642,.214,z-.186,.065,.021)
+            if m.lod==0:
+                for dz in (-.048,.051):
+                    m.beam("cloth",(side*.641,.446,z+dz),(side*.594,.507,z+dz),.160,.030)
+        m.horn(x,.531,.672,.45,side,-.24)
+    m.block("brick",0,.099,.680,.589,.40,.122)
+    for side in (-1,1):
+        m.block("brick",side*.233,.099,-.406,.169,.302,.133)
+    m.block("metal",0,.099,-.557,.23,.085,.362)
+    m.block("forge",0,.183,-.557,.150,.018,.362)
+    for x in (-.368,0,.368):
+        m.block("metal",x,.099,-.703,.310,.066,.150,.04)
+        m.block("forge" if x==0 else "gold",x,.165,-.703,.240,.022,.092,.08)
+    if m.lod<2:
+        for x in (-.19,.107):
+            m.block("door",x,.253,.466,.133,.037,.106,.14)
+        for x in (-.247,.24):
+            m.block("ivory",x,.499,.678,.113,.078,.128)
+    if m.lod==0:
+        for side in (-1,1):
+            for z in (-.28,.073,.535):
+                m.block("metal",side*.406,.527,z,.221,.032,.041)
+        m.disk("turquoise",.750,.231,-.319,.040,.016)
+        # A handwheel isolates the rear induction circuit for relining the bath.
+        x,y,z=-.66,.582,.503
+        m.beam("metal",(x,.315,z+.021),(x,y,z+.021),.055)
+        m.disk("trim",x,y,z+.025,.045,.040,n=9)
+        for i in range(9):
+            a,b=i*math.tau/9,(i+1)*math.tau/9
+            def point(t,radius,offset):
+                return (x+radius*math.cos(t),y+radius*math.sin(t),z+offset)
+            front=[point(a,.125,-.012),point(b,.125,-.012),point(b,.101,-.012),point(a,.101,-.012)]
+            back=[(px,py,pz+.024) for px,py,pz in front]
+            m.face("gold",front[::-1])
+            m.face("gold",back)
+            for j,k in ((0,1),(2,3)):
+                m.face("gold",(front[j],front[k],back[k],back[j]))
+            if i%3==0:
+                m.beam("metal",point(a,.037,.005),point(a,.114,.005),.020)
+
+
+def build(spec,lod):
+    if spec.building_type=="Smelter" and spec.band=="future":
+        return build_lodge(spec,lod,lambda m,t: induction_smelter(m))
+    designer=orc_machine_halls.DESIGNS.get((spec.building_type,spec.band))
+    if designer:
+        return build_lodge(spec,lod,lambda m,t: designer(m))
+    m=Lodge(spec,lod)
+    w,d=spec.footprint
+    name=spec.building_type
+    with m.transform(scale=(w*.5,min(w,d)*.5 if w==d else .77,d*.5)):
+        if name in ("Blacksmith","Smelter"):
+            works(m,name)
+        elif name=="Armory":
+            armory(m)
+        elif name=="Weaver":
+            loom(m)
+        elif name=="Workshop":
+            bench(m)
+        elif name=="Foundry":
+            foundry(m)
+        else:
+            factory(m,name=="ElectronicsPlant")
+    return m
+
+
+if __name__=="__main__":
+    generate(PACKAGE,build)

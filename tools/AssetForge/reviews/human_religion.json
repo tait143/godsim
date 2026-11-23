@@ -1,0 +1,527 @@
+{
+  "package": "human_religion",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Session 9 independent religion critic (extraction builder)",
+      "models": [
+        {
+          "id": "bld_human_cathedral_classical_v0",
+          "evidence_sha256": "7c8ad7cbe271ba6b1debce4fd18522cf13455f35db3d9728d9cd693bc764f466",
+          "observations": "The entrance sits between open bell towers. The gold bells, rose, paired standards and little stair planters remain distinguishable in the large views. The twin slate spires and long nave read at 64 px in both Medieval and Renaissance. Serialized LOD triangles 1478, 770, 322.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 95,
+            "construction": 95,
+            "charm": 95,
+            "colour": 96,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_cathedral_future_v0",
+          "evidence_sha256": "2aa15db0b04833924e87330f7eb81ff595b4eb1e3169afe24cc50b5d3f2b0194",
+          "observations": "The splayed lit piers and front rose read clearly in both age rows. On the back roof the blue dome emerges sideways through a pitch, showing an irregular cut-off patch with no visible lantern drum. At 64 px it reads as a blue lump on the roof. Serialized LOD triangles 1240, 552, 218.",
+          "scores": {
+            "silhouette": 88,
+            "identity": 93,
+            "construction": 87,
+            "charm": 92,
+            "colour": 93,
+            "technical": 98
+          },
+          "defects": [
+            "Give the rear crossing lantern a raised, supported drum that clears both roof pitches. Seat a centered, fully readable cap on its rim in Information and Ascension."
+          ]
+        },
+        {
+          "id": "bld_human_cathedral_industrial_v0",
+          "evidence_sha256": "5192b7310998d86db0c4e4b3a4f7a263972550c880286d0164a1fd3d57e8c11f",
+          "observations": "An axial bell tower rises over the pitched nave. Low front turrets frame the rose and door without concealing the front stairs. Warm brick, cool slate and blue banners in Industrial give way to a pale Modern facade. Both reads hold at 64 px. Serialized LOD triangles 1392, 670, 296.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_monastery_classical_v0",
+          "evidence_sha256": "a09ae22abf75143d750f26752c2411311c9af454e1739231d4f1e4402be303e9",
+          "observations": "The three ranges frame a planted garth, with a roofed gate and small bell turret visible above the rear ridge. Medieval brown roofs shift to the terracotta and subtly different masonry tones of the Renaissance and Classical rows. Gate, chapel door and central bed remain legible together. Serialized LOD triangles 1155, 697, 324.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 91,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_monastery_future_v0",
+          "evidence_sha256": "1e5d1d3ad648b618a32e0c6f497368f176335d408d310e6b3dbc50f644e8fca1",
+          "observations": "The blue lantern anchors the axial chapel. Front gate, garden approach and enclosing ranges still make the low building read as a cloister. Information brown-silver roof planes become gold alongside cyan glazing in Ascension. Serialized LOD triangles 945, 467, 230.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_monastery_industrial_v0",
+          "evidence_sha256": "354b951bd409a037c5d1f156c50ae78ed3480253d41e3e7cabb22e242e74c0cf",
+          "observations": "The domed bell turret and flue give the brick cloister a recognizable working roofline. Small beds appear beyond the covered gate and flowers flank the entrance. Cool Modern walls separate from the roof more strongly than the Industrial bricks do. Serialized LOD triangles 1257, 719, 314.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_shrine_ancient_v0",
+          "evidence_sha256": "abf147c84e7bb708b82767c258ac360d64b748a5bb42c026db4c949f8d56ac1b",
+          "observations": "A faceted gold flame stays visible below the two-post canopy at phone size. The dark timber posts carry its crossbeam, and the little standard, paired flower pots and broad steps ground the altar. Iron has a visibly darker, cooler roof than Bronze. Serialized LOD triangles 542, 284, 123.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_shrine_classical_v0",
+          "evidence_sha256": "cf211c291a42345abe0a1009b02d6eacd6b5c4813d053df36d09d6b36312bd13",
+          "observations": "Open columns separate the distinct domed canopy from the offering flame. A finial, little standard and pots retain the human wayside scale. The dome reads in all three rows, with distinct dark Medieval tile and subtler changes between the warmer rows. Serialized LOD triangles 726, 344, 157.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_shrine_future_v0",
+          "evidence_sha256": "fecccf071a032eeb8bf972c3a78ed2c23e61f02fcd8474aa50307d85aa1a49a1",
+          "observations": "The continuous pointed portal supports the small canopy and frames a clear cyan flame. The frame and altar stay mostly neutral or green in Information and Ascension, giving little age change at 64 px. The pots alone communicate little of the human heraldry seen in the other shrines. Serialized LOD triangles 517, 261, 141. The expanded serialized surface audit flags 13/13/11 exposed coplanar pairs at the shrine apex, near (-0.003168, 0.943437, 0.256).",
+          "scores": {
+            "silhouette": 93,
+            "identity": 86,
+            "construction": 94,
+            "charm": 89,
+            "colour": 88,
+            "technical": 95
+          },
+          "defects": [
+            "Add a visible hanging blue Human standard or shield. Make an appreciable portion of the portal trim or canopy sample an age-responsive row that changes clearly from Information to white/gold Ascension while preserving the cyan flame.",
+            "Join the opposing portal ribs into a continuous mitered section at their apex, and resolve each exposed coplanar pair at LOD0, LOD1, and LOD2. Confirm zero with building_review.py."
+          ],
+          "initial_assessment": {
+            "observations": "The continuous pointed portal supports the small canopy and frames a clear cyan flame. The frame and altar stay mostly neutral or green in Information and Ascension, giving little age change at 64 px. The pots alone communicate little of the human heraldry seen in the other shrines. Serialized LOD triangles 517, 261, 141.",
+            "scores": {
+              "silhouette": 93,
+              "identity": 86,
+              "construction": 94,
+              "charm": 89,
+              "colour": 88,
+              "technical": 99
+            },
+            "defects": [
+              "Add a visible hanging blue Human standard or shield. Make an appreciable portion of the portal trim or canopy sample an age-responsive row that changes clearly from Information to white/gold Ascension while preserving the cyan flame."
+            ]
+          }
+        },
+        {
+          "id": "bld_human_shrine_industrial_v0",
+          "evidence_sha256": "f71f93f784d9cf94468cb42b8781d55e68fb4d352bc801da7bbda22e6f454484",
+          "observations": "The gabled brick niche has blue jamb insets, rose tracery and a lamp on a prominent shelf. The stairs establish an approach; the slate roof and paired planters carry through convincingly to the pale Modern facade. Serialized LOD triangles 603, 305, 151.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_spirit_totem_ancient_v0",
+          "evidence_sha256": "f214407d3a87eb3145dad2ec8448563b9190d6051ad9f0b31bb7343846b80232",
+          "observations": "The carved bird, metal hoops, royal-blue standard and offering flame give the totem a convincing ritual purpose. All three phone previews show essentially the same brown post, bird and blue flag. Dawn through Iron differ mostly in small shifts in the brown wings and bands. Serialized LOD triangles 426, 285, 137.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 85,
+            "construction": 95,
+            "charm": 95,
+            "colour": 88,
+            "technical": 99
+          },
+          "defects": [
+            "Use age-responsive atlas roles on sizable portions of the plinth, carving or broad collar so Dawn, Bronze and Iron each have a clearly visible material change at 64 px. Preserve the bird and standard."
+          ]
+        },
+        {
+          "id": "bld_human_temple_ancient_v0",
+          "evidence_sha256": "85f4b0b07d1b2ebe362014c24863474454cc6d47d2c50d7e6f2abcb53d976896",
+          "observations": "The tall, unbroken pitched roof and two timber porch posts read as a general hall. At phone scale the tiny rose and recessed blue ornaments nearly disappear. The enclosed walls also stop below the eaves; the front architrave carries the porch but there is no comparable rear bearing. Serialized LOD triangles 637, 300, 108.",
+          "scores": {
+            "silhouette": 86,
+            "identity": 88,
+            "construction": 86,
+            "charm": 87,
+            "colour": 92,
+            "technical": 97
+          },
+          "defects": [
+            "Add a plainly legible ritual feature at the entrance, such as a votive lamp and visible standard, and give the enclosed cella a continuous top plate or posts that physically carry the rear roof."
+          ]
+        },
+        {
+          "id": "bld_human_temple_classical_v0",
+          "evidence_sha256": "8d30238f989b298c58eed60d6dfbe51425bdcfbbdde70540b621c9b592358f47",
+          "observations": "Four ordered columns and a rose pediment clearly mark a public sanctuary in all three ages. The front steps and regular arched windows follow the axis. On the cella the walls end at y=.808, below the rear gable eave around y=.85; the front lintel alone carries the roof in the mesh. Serialized LOD triangles 627, 336, 140.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 88,
+            "charm": 93,
+            "colour": 94,
+            "technical": 98
+          },
+          "defects": [
+            "Extend the rear and side walls to the underside of the gable, or provide a visible bearing beam course tying them to the roof at every LOD."
+          ]
+        },
+        {
+          "id": "bld_human_temple_future_v0",
+          "evidence_sha256": "5089b7fcb0a69aeb0b479a0b233a2539c493aa83e9e68c8b7c22653012c6385a",
+          "observations": "A tall structural ribbon frames the blue-glazed rotunda; the small projecting front gable and heraldic standard identify the entrance. The gold rim defines the glazed dome and the porch roof shifts visibly from dark Information to ochre Ascension. Serialized LOD triangles 778, 409, 230. The expanded serialized surface audit flags 4/4/8 exposed coplanar pairs at the temple arch apex, near (-0.001548, 1.740924, 0.46).",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 95
+          },
+          "defects": [
+            "Join the opposing portal ribs into a continuous mitered section at their apex, and resolve each exposed coplanar pair at LOD0, LOD1, and LOD2. Confirm zero with building_review.py."
+          ],
+          "initial_assessment": {
+            "observations": "A tall structural ribbon frames the blue-glazed rotunda; the small projecting front gable and heraldic standard identify the entrance. The gold rim defines the glazed dome and the porch roof shifts visibly from dark Information to ochre Ascension. Serialized LOD triangles 778, 409, 230.",
+            "scores": {
+              "silhouette": 94,
+              "identity": 94,
+              "construction": 93,
+              "charm": 94,
+              "colour": 94,
+              "technical": 99
+            },
+            "defects": []
+          }
+        },
+        {
+          "id": "bld_human_temple_industrial_v0",
+          "evidence_sha256": "7ca0ff7a7c20a11fdbd399512818b7155e67e7bbecf8c4d47a6c9e43b58cba7a",
+          "observations": "The broad slate dome, upper lantern and gabled porch clearly separate this rotunda from the aisled cathedral. Brick and dark roof contrast in Industrial; clean pale walls and a cooler base read in Modern. The little blue hanging sign marks the door. Serialized LOD triangles 850, 427, 213.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Session 9 independent religion critic (extraction builder)",
+      "models": [
+        {
+          "id": "bld_human_cathedral_future_v0",
+          "evidence_sha256": "6e7c676067ee6b5ded1152ff4a90ba34122fb69c2d6d2858c632a061eaf25872",
+          "observations": "The rear lantern now has a cylindrical wall and rim above the pitched roof, with its complete blue cap visible at 64 px. Rear views of all three LODs show it seated across the roof. The front light piers still dominate the nave in both age rows. Serialized LOD triangles 1308, 596, 268.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_shrine_future_v0",
+          "evidence_sha256": "983c7ca3958976ad1973237b395c7fb626731f85c7298439b3d2b5a34151de05",
+          "observations": "The pointed shelter changes from dark brown to warm gold around the cyan flame. The blue diamond standard reads at phone size. The continuous roof peak retains its form at every LOD and the revised exposed-surface audit reports no coplanar findings. Serialized LOD triangles 532, 274, 142.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_spirit_totem_ancient_v0",
+          "evidence_sha256": "5d789e0fe865bd95c143d89c27ce858a9818ac7b42caee1dea4f11893ebb9be5",
+          "observations": "The wide lower collar and its base now progress from dark wood-brown to pale copper and cool iron grey at 64 px. The large carved wings, small offering and blue standard stay legible. The three rear LODs retain the broad post and eagle silhouette. Serialized LOD triangles 451, 301, 141.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 92,
+            "construction": 95,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_temple_ancient_v0",
+          "evidence_sha256": "83912a80c4a2d8a9fafe957c55072e594c7c8bf54f377b2a184620b5605a52e0",
+          "observations": "The lamp on its stepped stone-and-wood stand and the facing blue standard now flank the public steps. The ritual approach reads at 64 px under the broad iron-age roof. The enclosed walls rise to carry the pitched roof in all three rear LOD views. Serialized LOD triangles 747, 392, 192.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 92,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_temple_classical_v0",
+          "evidence_sha256": "5d11444e961c3b012e908c9da5305e1e2a214ef27e59e1755dd3a20df1007241",
+          "observations": "The higher cella walls now meet the roof pitch along the rear and sides at all three LODs. The row of front columns still holds its separation and the shallow steps lead directly to the door. Classical and Renaissance tile roofs and the darker Medieval roof remain intact. Serialized LOD triangles 627, 336, 140.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_temple_future_v0",
+          "evidence_sha256": "a90113d4a18c0186743f48d24b7bc1134fb54ee0eca15e7580d6c828afbe78da",
+          "observations": "The arch joins cleanly over the glazed dome in rear views of all three LODs. The updated coplanar audit is clear. Information and Ascension keep the small human gabled porch, flag and luminous round hall, with visibly different porch roofs. Serialized LOD triangles 766, 397, 218.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_monastery_classical_v0",
+          "evidence_sha256": "4631ab15d322774cfae7692450018dcec1bfa903e44fd020b226fd6ff7f4ed5e",
+          "observations": "A low gate between individual gabled wings opens into a planted cloister. The dark pointed bell roof peeks above the long rear range. The entry void and courtyard persist as small garden detail drops away. Serialized triangle counts are 1155, 657, 324 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_spirit_totem_ancient_v0",
+          "evidence_sha256": "9a9d5b508d97a8799de327cbf4284940689bc289338ce1db01606b559daf234c",
+          "observations": "A broad-winged bird caps a tapered carved post with an inset blue shield. The offerings and small stones on its plinth keep it human in scale. The wing tips and tall upright remain recognizable from either side. Serialized triangle counts are 451, 257, 141 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_spirit_totem_ancient_v0",
+          "evidence_sha256": "fb9ebb36a40cd6bfef1e63375c416af8857642e3c564adf1ae9968faabccb51a",
+          "observations": "The carved bird keeps both extended wings above its tapering post. The blue shield, warm offering and small stones remain readable at mid distance and the distant model keeps the winged silhouette. Serialized triangle counts are 451, 257, 141 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "RC4 independent Human and Dwarf art critic, three-view serialized LOD review",
+      "models": [
+        {
+          "id": "bld_human_monastery_industrial_v0",
+          "evidence_sha256": "770189f23f9ace620f4fd524e46253aa24154ed18eb2e07181c2b220265ccb31",
+          "observations": "The tall refectory-like wing, lower chapel roof and separate bell opening create a stepped complex. A blue banner and two garden beds mark the entry. The bell tower remains visible from the rear above the smaller wing in the coarse mesh.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            901,
+            498,
+            226
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_monastery_classical_v0",
+            "b": "bld_human_monastery_industrial_v0",
+            "matched": 0,
+            "total": 3465
+          }
+        },
+        {
+          "id": "bld_human_shrine_industrial_v0",
+          "evidence_sha256": "46bb5f33d7b739d7c8d4b024309dcea612c6616eb1e93a78c2fa2186acdfe3bd",
+          "observations": "An open iron lantern rises from a stepped brick pedestal, with a small blue plaque and planting at the approach. Its bright core can be seen from both sides. The slender post, pedestal and canopy stay distinct when the far level drops the small ornament.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 93,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            807,
+            316,
+            201
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_shrine_ancient_v0",
+            "b": "bld_human_shrine_industrial_v0",
+            "matched": 0,
+            "total": 1626
+          }
+        },
+        {
+          "id": "bld_human_temple_classical_v0",
+          "evidence_sha256": "9b335cf98e054810dc0f2f076a237053ff244e5a9ec699a5b91d5752f61c2b33",
+          "observations": "A full peristyle carries a broad tiled round roof and gold finial. Entry steps, planters and a small blue banner locate the front without interrupting the columns. The rear and far views retain both the colonnade and recessed wall around the cella.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1159,
+            532,
+            195
+          ],
+          "peak_directed_sibling_overlap": {
+            "a": "bld_human_temple_ancient_v0",
+            "b": "bld_human_temple_classical_v0",
+            "matched": 0,
+            "total": 2241
+          }
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_human_temple_future_v0",
+          "evidence_sha256": "caea07c4268862d40a2e6da898a630364c7e3d305f4480fdc056329959e647b7",
+          "observations": "Three steep triangular sanctuary ribs form a procession over the stairs and portico. Blue roof panels, a luminous gable emblem and corner lights read in both future palettes. At LOD2 the ribs, doorway, grounded steps and corner lanterns remain clear, unlike the earlier dome.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            638,
+            362,
+            188
+          ],
+          "serialized_sha256": "a1708b2201389addbfc4a8b20246f710cbdd7b3f36a788584acf561996a38494",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/human_religion-01.png",
+            "rc6/families/human-Temple-v0.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

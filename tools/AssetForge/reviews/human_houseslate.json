@@ -1,0 +1,329 @@
+{
+  "package": "human_houseslate",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Codex independent Human Late Houses critic",
+      "models": [
+        {
+          "id": "bld_human_house_future_ascension_v0",
+          "evidence_sha256": "be820f29994ee793a2ed505321806e4ea01138a879f68551067be38c5247bcc1",
+          "observations": "The paired unequal gables survive at 40 pixels. Blue arched glazing, a clay doorstep jar and luminous ridge trim give the pearl shell a domestic scale. The left eave misses the supporting wall and a grazing view loses the greenery under the blooms. The three serialized levels validated at 416/186/114 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 87,
+            "charm": 91,
+            "colour": 94,
+            "technical": 95
+          },
+          "defects": [
+            "Across all LODs the wall envelope stops below the left folded roof. At x=-0.373 the roof underside is y=0.3496 and the wall stops at y=0.336. Raise the end of the wall into the underside and seat the other roof sections continuously.",
+            "At LOD0 both leaf planes supporting the three blossoms turn away from a grazing right-side view. The flower heads then appear suspended above the sill. Add narrow solid stems from inside the planter to the base of each flower, or model foliage with volume. Verify from yaw 268 degrees."
+          ]
+        },
+        {
+          "id": "bld_human_house_future_ascension_v1",
+          "evidence_sha256": "a5db8fe3c810e72c59876cdc39cb456517b429bad76c9234cee719fbce9a0104",
+          "observations": "The circular crown and domed sunroom are legible even at 40 pixels. Three gold brackets visibly support the ring. The simplified six-sided ring remains open at LOD2. The arched door, sill and vertical blue marker define the front. Side-on, the planter loses the support under its flower heads. The levels validated at 563/326/179.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 92,
+            "charm": 92,
+            "colour": 95,
+            "technical": 97
+          },
+          "defects": [
+            "At LOD0 both leaf planes supporting the three blossoms turn away from a grazing right-side view. The flower heads then appear suspended above the sill. Add narrow solid stems from inside the planter to the base of each flower, or model foliage with volume. Verify from yaw 268 degrees."
+          ]
+        },
+        {
+          "id": "bld_human_house_future_v0",
+          "evidence_sha256": "efc948b0be4e787b1208a81af731d3f7e143d7869175ddef49de08fd362b8912",
+          "observations": "The steep photovoltaic A-frame stays distinct against all other houses in the 40-pixel set. The panel seams and full-height blue end glazing read on closer inspection; the horizontal porch trim separates the front door from the glazed gable. The LOD0 sill has single-sided leaves. Exported counts were 257/150/70.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 92,
+            "charm": 90,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "At LOD0 both leaf planes supporting the three blossoms turn away from a grazing right-side view. The flower heads then appear suspended above the sill. Add narrow solid stems from inside the planter to the base of each flower, or model foliage with volume. Verify from yaw 268 degrees."
+          ]
+        },
+        {
+          "id": "bld_human_house_future_v1",
+          "evidence_sha256": "9132db7764aab37a54cac600e8d79b82bdd9de42e5f6728bea0bcd191e43759c",
+          "observations": "The glass bow carries a tilted solar canopy in both closer levels and the antenna accents the full-size silhouette. The rounded sunroom still distinguishes the LOD2 outline. White slab edges separate the glass bands at phone size. The flower heads appear unsupported at a side angle. All three levels validated at 396/235/103.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 92,
+            "charm": 92,
+            "colour": 95,
+            "technical": 97
+          },
+          "defects": [
+            "At LOD0 both leaf planes supporting the three blossoms turn away from a grazing right-side view. The flower heads then appear suspended above the sill. Add narrow solid stems from inside the planter to the base of each flower, or model foliage with volume. Verify from yaw 268 degrees."
+          ]
+        },
+        {
+          "id": "bld_human_house_industrial_modern_v0",
+          "evidence_sha256": "465372e3d00fb05ec341daa2e9e62f45ba0f5f588fbe68a9e3c38cac6088efce",
+          "observations": "The asymmetric butterfly valley reads at 40 pixels. Its front rain chain runs to a basin while a little blue cloth hangs behind the house. A low front view shows the roof meeting the walls; LOD2 retains the asymmetric roof and blue glazing. The flower heads lose their green supports from the side. Levels validated at 295/142/66.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 92,
+            "charm": 93,
+            "colour": 93,
+            "technical": 97
+          },
+          "defects": [
+            "At LOD0 both leaf planes supporting the three blossoms turn away from a grazing right-side view. The flower heads then appear suspended above the sill. Add narrow solid stems from inside the planter to the base of each flower, or model foliage with volume. Verify from yaw 268 degrees."
+          ]
+        },
+        {
+          "id": "bld_human_house_industrial_modern_v1",
+          "evidence_sha256": "c8119cb6d306d004e2376a9f87b286c1fd1c51d8ce4fd9607cb425b69afa01a4",
+          "observations": "The setback timber upper floor and wraparound roof deck distinguish the villa at 40 and 64 pixels. The rack and roof rails are legible from behind and a low front view shows the upper room bearing on the lower slab. The planted box loses its leaf geometry from the grazing right side. The levels validated at 357/184/74.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 92,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "At LOD0 both leaf planes supporting the three blossoms turn away from a grazing right-side view. The flower heads then appear suspended above the sill. Add narrow solid stems from inside the planter to the base of each flower, or model foliage with volume. Verify from yaw 268 degrees."
+          ]
+        },
+        {
+          "id": "bld_human_house_industrial_v0",
+          "evidence_sha256": "a45c49ef04082c85776c342191c167c594c866fdbef7463ce20cb5cedcaed3bc",
+          "observations": "The warm brick wall, window-lit ground floor, continuous attic lights and paired chimney pots identify a weaver\u2019s dwelling. The chimney and attic opening retain their shapes at LOD2. The front letter box and planted sill give the house domestic detail. A grazing view reveals the missing stalks. All levels validated at 483/296/118.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 92,
+            "charm": 93,
+            "colour": 94,
+            "technical": 97
+          },
+          "defects": [
+            "At LOD0 both leaf planes supporting the three blossoms turn away from a grazing right-side view. The flower heads then appear suspended above the sill. Add narrow solid stems from inside the planter to the base of each flower, or model foliage with volume. Verify from yaw 268 degrees."
+          ]
+        },
+        {
+          "id": "bld_human_house_industrial_v1",
+          "evidence_sha256": "0fc10604ec55e2f30e7bbebe130f5bf7d74da6d03a6f6a4367ec79c0ffe008eb",
+          "observations": "The white-trimmed projecting gable and sheltered side entrance read at 40 pixels, and the roof chimney and porch brackets remain legible up close. Low side and overhead views show the kitchen gable breaking through the far roof slope at every LOD. A grazing view exposes unsupported blossom heads at LOD0. The levels validated at 505/312/148.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 86,
+            "charm": 92,
+            "colour": 94,
+            "technical": 94
+          },
+          "defects": [
+            "At every LOD the capped end of the kitchen roof breaks through the opposite slate roof slope. From yaw 75\u201390 degrees an isolated triangular brick gable and strip of fascia protrude partway up the roof. Clip or shorten the kitchen return at its valley so the far slope remains continuous.",
+            "At LOD0 both leaf planes supporting the three blossoms turn away from a grazing right-side view. The flower heads then appear suspended above the sill. Add narrow solid stems from inside the planter to the base of each flower, or model foliage with volume. Verify from yaw 268 degrees."
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Codex independent Human Late Houses critic",
+      "models": [
+        {
+          "id": "bld_human_house_future_ascension_v0",
+          "evidence_sha256": "eb5e82fdaae5287b7956f20009b562c6b5419470974dc5fcff7d08fe0219c099",
+          "observations": "The folded shell now meets the wall along both slopes in the low front and reverse views. The twin roof peaks remain distinct at 40 pixels and across all three LODs. The planted sill shows green stalks below the pink heads even in the grazing right view. Gold edges, cyan ridge seams and the doorstep jar remain legible in the published preview. The exported levels validated at 425/186/114 triangles.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_future_ascension_v1",
+          "evidence_sha256": "c0e8608fbac3212cb884b3a1304f6a9c2357d4b7fff8cabcc0d6dd48ed67d4a5",
+          "observations": "The grazing views show the blooms joined to the wooden box. The pearl dome, separate halo and three load-bearing gold brackets remain identifiable from the rear and across the three levels. The blue glass drum and arched front door still read at phone size. All serialized levels validated at 572/326/179.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 95,
+            "construction": 95,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_future_v0",
+          "evidence_sha256": "5f97ce8ad3cf2191ce26e6ea56b6245f64fc4de6eb2408a6ead931277a588bd7",
+          "observations": "The solar A-frame and full-height blue gable carry into the smallest phone view. A reverse view shows the shell meeting the rear glass, and the low levels retain the entrance and continuous roof outline. Green stems now reach the flowers above the window box from both side approaches. All serialized levels validated at 266/150/70.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 91,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_future_v1",
+          "evidence_sha256": "a19f0f0855f40d981f7c4cd77e1c37fd802c83be0944787714b0ebda8a4bb234",
+          "observations": "The glazed upper bow is distinct at each LOD. The rear view shows the rooftop collector and aerial; the bright slab edges and window grouping distinguish the skydeck from the modern villa at phone size. The front planting now has a continuous green support beneath each bloom in grazing views. The levels validated at 405/235/103.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_industrial_modern_v0",
+          "evidence_sha256": "2aa71dd6500a4a8afda0b251a7cd3c263367525089fa7dabec0b4cdd7356f250",
+          "observations": "The asymmetric roof valley reads at 40 pixels and survives both lower levels. The hanging cloth behind the house, front rain chain and window box give separate details on different approaches. A lateral inspection shows the new flower stems anchored in the trough. All three levels validated at 304/142/66.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_industrial_modern_v1",
+          "evidence_sha256": "d488037485e570135c3bda3ce5d2ffe3941bab484abb3fc7e59a3c7220dcbde6",
+          "observations": "The timber upper floor is set back from a continuous roof terrace. The hanging laundry and rail distinguish the rear view; the blue glazing and stepped volumes remain legible on the two simplified levels. A grazing front-sill view shows the flowers physically joined to the box. The exported levels validated at 366/184/74.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 94,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_industrial_v0",
+          "evidence_sha256": "9a72e7323c88920882f5e28051ba2088c525f681390fe99a94bc38893931f448",
+          "observations": "The attic window band, paired pots and warm lower light identify the weaving house at phone size. The revised gable and rear eave return are continuous in the reverse view and the main slate silhouette persists at LOD2. The flower heads stand on visible stalks from the side; the small letter box remains beside the entry. The serialized levels validated at 508/312/126.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_industrial_v1",
+          "evidence_sha256": "2f8c43661cb3456438d3f734dbc6ef241cae58d50d85638b6e70c57f22babedb",
+          "observations": "The opposite slope of the entry wing is now continuous slate in all three LODs. High overhead and rear views show the kitchen roof terminating against the main wing. The projecting window gable and bracketed entry still read as separate masses on a phone. Grazing views show the blossoms supported by rooted green stems. The serialized levels validated at 546/344/164.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Human building critic, repair round 1",
+      "method": "Inspected all mapped age PNGs, serialized LOD0/1/2, and era siblings from two unpainted 64-pixel angles. Compared painted side and rear LOD1 views. Verified each mesh and manifest with check_entry and SHA-bound exposed-face and shell checks.",
+      "models": [
+        {
+          "id": "bld_human_house_industrial_v0",
+          "evidence_sha256": "7d4d2fb171903812f8dfb6c58b0d3fb395a5212230326386ac7c00c4286a423a",
+          "observations": "The brick house has a long glazed strip under the slate eave and paired chimney pots on the ridge. The flower box and inset door identify the street side below that horizontal window. Serialized triangle counts are 508, 288, 126 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_industrial_v1",
+          "evidence_sha256": "cd52562a3813fa9df15dba2edd1083eb752f1f0641129c9415034141dfb4c33e",
+          "observations": "Crossed slate gables give the brick house a larger front wing. A lower covered entrance and planted bay window sit under separate roof faces. The side chimney and crossed roof survive the far mesh. Serialized triangle counts are 546, 310, 164 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent Human building critic, repair round 2",
+      "method": "Reviewed current rendered age PNGs, both unpainted 64-pixel family views, all three serialized LODs and painted 190-pixel LOD1 views at 215, 145 and 35 degrees. Verified check_entry, the 60% LOD1 ceiling and the current GLB-bound surface and shell survey.",
+      "models": [
+        {
+          "id": "bld_human_house_industrial_v0",
+          "evidence_sha256": "7ebadfe3ba3021606fb5b69630c10cbd937550e472f145a991df137d203c21b0",
+          "observations": "The simplified middle facade keeps the high horizontal window strip, double chimney pots, door and stoop. The gable still meets the full-height brick end walls in the reverse views. Serialized triangle counts are 508, 288, 126 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_human_house_industrial_v1",
+          "evidence_sha256": "faa1c9449c067dbf1a2d884fafa4657d8ed2c7ebdc7502d2e0c65228514f72fc",
+          "observations": "The two roof wings meet cleanly above the projecting bay and recessed porch. At middle distance the chimney, blue trim and bay window remain legible around the intact brick corner. Serialized triangle counts are 546, 310, 164 at LOD0, LOD1 and LOD2.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

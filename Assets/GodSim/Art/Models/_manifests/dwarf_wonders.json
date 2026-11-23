@@ -1,0 +1,60 @@
+[
+ {
+  "id": "bld_dwarf_deep_forge_ancient_v0",
+  "kind": "wonder",
+  "category": "Buildings/Dwarf/Wonders",
+  "building_type": "DeepForge",
+  "race": "dwarf",
+  "ages": [
+   "bronze",
+   "iron",
+   "classical",
+   "medieval",
+   "renaissance",
+   "industrial",
+   "modern",
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1465,
+  "lod_triangles": [
+   1465,
+   835,
+   411
+  ],
+  "bounds": [
+   [
+    -1.3776500225067139,
+    0.0,
+    -1.4819999933242798
+   ],
+   [
+    1.358049988746643,
+    1.899999976158142,
+    1.184999942779541
+   ]
+  ],
+  "bytes": 231440,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Dwarf/Wonders/bld_dwarf_deep_forge_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Dwarf/Wonders/bld_dwarf_deep_forge_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Dwarf/Wonders/bld_dwarf_deep_forge_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Dwarf/Wonders/bld_dwarf_deep_forge_ancient_v0__iron.png",
+   "classical": "tools/AssetForge/previews/Buildings/Dwarf/Wonders/bld_dwarf_deep_forge_ancient_v0__classical.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Dwarf/Wonders/bld_dwarf_deep_forge_ancient_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Dwarf/Wonders/bld_dwarf_deep_forge_ancient_v0__renaissance.png",
+   "industrial": "tools/AssetForge/previews/Buildings/Dwarf/Wonders/bld_dwarf_deep_forge_ancient_v0__industrial.png",
+   "modern": "tools/AssetForge/previews/Buildings/Dwarf/Wonders/bld_dwarf_deep_forge_ancient_v0__modern.png",
+   "information": "tools/AssetForge/previews/Buildings/Dwarf/Wonders/bld_dwarf_deep_forge_ancient_v0__information.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Dwarf/Wonders/bld_dwarf_deep_forge_ancient_v0__ascension.png"
+  }
+ }
+]

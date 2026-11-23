@@ -1,0 +1,892 @@
+[
+ {
+  "id": "bld_orc_farm_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "Farm",
+  "race": "orc",
+  "ages": [
+   "bronze",
+   "iron",
+   "dawn"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 796,
+  "lod_triangles": [
+   796,
+   452,
+   222
+  ],
+  "bounds": [
+   [
+    -1.402500033378601,
+    0.0,
+    -1.3799999952316284
+   ],
+   [
+    1.402500033378601,
+    1.1509499549865723,
+    1.3799999952316284
+   ]
+  ],
+  "bytes": 137300,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_farm_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_ancient_v0__iron.png",
+   "dawn": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_ancient_v0__dawn.png"
+  }
+ },
+ {
+  "id": "bld_orc_farm_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "Farm",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 749,
+  "lod_triangles": [
+   749,
+   417,
+   220
+  ],
+  "bounds": [
+   [
+    -1.147125005722046,
+    0.0,
+    -1.0837124586105347
+   ],
+   [
+    1.1237692832946777,
+    1.565693974494934,
+    1.0829999446868896
+   ]
+  ],
+  "bytes": 127344,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_farm_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_farm_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "Farm",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1086,
+  "lod_triangles": [
+   1086,
+   481,
+   340
+  ],
+  "bounds": [
+   [
+    -1.2825000286102295,
+    0.0,
+    -0.9120000004768372
+   ],
+   [
+    1.2825000286102295,
+    1.4784120321273804,
+    1.1991111040115356
+   ]
+  ],
+  "bytes": 178044,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_farm_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_farm_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "Farm",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1035,
+  "lod_triangles": [
+   1035,
+   535,
+   329
+  ],
+  "bounds": [
+   [
+    -1.182368516921997,
+    0.0,
+    -1.1152703762054443
+   ],
+   [
+    1.3163702487945557,
+    1.888317584991455,
+    1.2549203634262085
+   ]
+  ],
+  "bytes": 174480,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_farm_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_farm_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_fishing_hut_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "FishingHut",
+  "race": "orc",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 753,
+  "lod_triangles": [
+   753,
+   405,
+   210
+  ],
+  "bounds": [
+   [
+    -0.4594879746437073,
+    0.0,
+    -0.42899999022483826
+   ],
+   [
+    0.4353843629360199,
+    0.6068000197410583,
+    0.4009999930858612
+   ]
+  ],
+  "bytes": 125140,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_fishing_hut_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_orc_fishing_hut_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "FishingHut",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1411,
+  "lod_triangles": [
+   1411,
+   675,
+   370
+  ],
+  "bounds": [
+   [
+    -0.41562706232070923,
+    0.0,
+    -0.33820000290870667
+   ],
+   [
+    0.42214199900627136,
+    1.2218040227890015,
+    0.3610000014305115
+   ]
+  ],
+  "bytes": 234676,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_fishing_hut_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_fishing_hut_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "FishingHut",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1001,
+  "lod_triangles": [
+   1001,
+   566,
+   302
+  ],
+  "bounds": [
+   [
+    -0.48093152046203613,
+    0.0,
+    -0.42899999022483826
+   ],
+   [
+    0.4353843629360199,
+    0.721813976764679,
+    0.4009999930858612
+   ]
+  ],
+  "bytes": 173136,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_fishing_hut_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_fishing_hut_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "FishingHut",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 945,
+  "lod_triangles": [
+   945,
+   440,
+   226
+  ],
+  "bounds": [
+   [
+    -0.4159815311431885,
+    0.0,
+    -0.38243478536605835
+   ],
+   [
+    0.34157073497772217,
+    0.8180999755859375,
+    0.37049999833106995
+   ]
+  ],
+  "bytes": 143980,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_fishing_hut_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_fishing_hut_industrial_v0__modern.png"
+  }
+ },
+ {
+  "id": "bld_orc_gatherer_hut_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "GathererHut",
+  "race": "orc",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 612,
+  "lod_triangles": [
+   612,
+   357,
+   154
+  ],
+  "bounds": [
+   [
+    -0.4026249945163727,
+    0.0,
+    -0.3608837425708771
+   ],
+   [
+    0.3902621865272522,
+    0.609000027179718,
+    0.43398335576057434
+   ]
+  ],
+  "bytes": 103560,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_gatherer_hut_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_gatherer_hut_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_gatherer_hut_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_gatherer_hut_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_gatherer_hut_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_orc_hunting_lodge_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "HuntingLodge",
+  "race": "orc",
+  "ages": [
+   "dawn",
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 782,
+  "lod_triangles": [
+   782,
+   411,
+   189
+  ],
+  "bounds": [
+   [
+    -0.4365793466567993,
+    0.0,
+    -0.36590999364852905
+   ],
+   [
+    0.41438618302345276,
+    0.6481500267982483,
+    0.45545369386672974
+   ]
+  ],
+  "bytes": 133844,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_hunting_lodge_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_hunting_lodge_ancient_v0.png",
+  "age_previews": {
+   "dawn": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_hunting_lodge_ancient_v0.png",
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_hunting_lodge_ancient_v0__bronze.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_hunting_lodge_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_orc_hunting_lodge_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "HuntingLodge",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 616,
+  "lod_triangles": [
+   616,
+   350,
+   184
+  ],
+  "bounds": [
+   [
+    -0.4526750147342682,
+    0.0,
+    -0.28825122117996216
+   ],
+   [
+    0.3951905071735382,
+    1.2519359588623047,
+    0.42512500286102295
+   ]
+  ],
+  "bytes": 104180,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_hunting_lodge_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_hunting_lodge_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_hunting_lodge_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_hunting_lodge_classical_v0__medieval.png"
+  }
+ },
+ {
+  "id": "bld_orc_hydroponics_tower_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "HydroponicsTower",
+  "race": "orc",
+  "ages": [
+   "ascension",
+   "information"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1420,
+  "lod_triangles": [
+   1420,
+   499,
+   276
+  ],
+  "bounds": [
+   [
+    -0.7244443893432617,
+    0.0,
+    -0.6844443678855896
+   ],
+   [
+    0.7244443893432617,
+    1.9276000261306763,
+    0.7676041722297668
+   ]
+  ],
+  "bytes": 206792,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_hydroponics_tower_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_hydroponics_tower_future_v0.png",
+  "age_previews": {
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_hydroponics_tower_future_v0.png",
+   "information": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_hydroponics_tower_future_v0__information.png"
+  }
+ },
+ {
+  "id": "bld_orc_industrial_farm_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "IndustrialFarm",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1118,
+  "lod_triangles": [
+   1118,
+   593,
+   319
+  ],
+  "bounds": [
+   [
+    -1.3049999475479126,
+    0.0,
+    -1.2975000143051147
+   ],
+   [
+    1.3049999475479126,
+    2.009999990463257,
+    1.402500033378601
+   ]
+  ],
+  "bytes": 191360,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_industrial_farm_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_industrial_farm_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_industrial_farm_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_industrial_farm_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_industrial_farm_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "IndustrialFarm",
+  "race": "orc",
+  "ages": [
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1142,
+  "lod_triangles": [
+   1142,
+   650,
+   337
+  ],
+  "bounds": [
+   [
+    -1.409999966621399,
+    0.0,
+    -1.4325000047683716
+   ],
+   [
+    1.409999966621399,
+    1.8956149816513062,
+    1.4325000047683716
+   ]
+  ],
+  "bytes": 174596,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_industrial_farm_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_industrial_farm_industrial_v0.png",
+  "age_previews": {
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_industrial_farm_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_mill_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "Mill",
+  "race": "orc",
+  "ages": [
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 877,
+  "lod_triangles": [
+   877,
+   475,
+   274
+  ],
+  "bounds": [
+   [
+    -0.6096663475036621,
+    0.0,
+    -0.4165920615196228
+   ],
+   [
+    0.874540388584137,
+    1.609666347503662,
+    0.6744409799575806
+   ]
+  ],
+  "bytes": 140424,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_mill_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_mill_classical_v0.png",
+  "age_previews": {
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_mill_classical_v0.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_mill_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_mill_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "Mill",
+  "race": "orc",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   2,
+   2
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1083,
+  "lod_triangles": [
+   1083,
+   570,
+   203
+  ],
+  "bounds": [
+   [
+    -0.8559609055519104,
+    0.0,
+    -0.6055585145950317
+   ],
+   [
+    0.7111528515815735,
+    1.3365000486373901,
+    0.7409999966621399
+   ]
+  ],
+  "bytes": 157224,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_mill_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_mill_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_mill_industrial_v0.png"
+  }
+ },
+ {
+  "id": "bld_orc_pasture_ancient_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "Pasture",
+  "race": "orc",
+  "ages": [
+   "bronze",
+   "iron"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 1464,
+  "lod_triangles": [
+   1464,
+   789,
+   303
+  ],
+  "bounds": [
+   [
+    -1.4047532081604004,
+    0.0,
+    -1.372499942779541
+   ],
+   [
+    1.402500033378601,
+    1.5682499408721924,
+    1.3930304050445557
+   ]
+  ],
+  "bytes": 230480,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_pasture_ancient_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_ancient_v0.png",
+  "age_previews": {
+   "bronze": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_ancient_v0.png",
+   "iron": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_ancient_v0__iron.png"
+  }
+ },
+ {
+  "id": "bld_orc_pasture_classical_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "Pasture",
+  "race": "orc",
+  "ages": [
+   "classical",
+   "medieval",
+   "renaissance"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 574,
+  "lod_triangles": [
+   574,
+   284,
+   168
+  ],
+  "bounds": [
+   [
+    -1.2108862400054932,
+    0.0,
+    -0.8428140878677368
+   ],
+   [
+    1.2108862400054932,
+    1.2285000085830688,
+    1.0049099922180176
+   ]
+  ],
+  "bytes": 95868,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_pasture_classical_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_classical_v0.png",
+  "age_previews": {
+   "classical": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_classical_v0.png",
+   "medieval": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_classical_v0__medieval.png",
+   "renaissance": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_classical_v0__renaissance.png"
+  }
+ },
+ {
+  "id": "bld_orc_pasture_future_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "Pasture",
+  "race": "orc",
+  "ages": [
+   "information",
+   "ascension"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 830,
+  "lod_triangles": [
+   830,
+   472,
+   262
+  ],
+  "bounds": [
+   [
+    -1.0736265182495117,
+    0.0,
+    -1.3918200731277466
+   ],
+   [
+    1.0736265182495117,
+    1.4990040063858032,
+    1.1548155546188354
+   ]
+  ],
+  "bytes": 154008,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_pasture_future_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_future_v0.png",
+  "age_previews": {
+   "information": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_future_v0.png",
+   "ascension": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_future_v0__ascension.png"
+  }
+ },
+ {
+  "id": "bld_orc_pasture_industrial_v0",
+  "kind": "building",
+  "category": "Buildings/Orc/Food",
+  "building_type": "Pasture",
+  "race": "orc",
+  "ages": [
+   "industrial",
+   "modern"
+  ],
+  "footprint": [
+   3,
+   3
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "triangles": 762,
+  "lod_triangles": [
+   762,
+   383,
+   232
+  ],
+  "bounds": [
+   [
+    -1.251969575881958,
+    0.0,
+    -1.0623375177383423
+   ],
+   [
+    1.14211106300354,
+    1.322100043296814,
+    1.0544999837875366
+   ]
+  ],
+  "bytes": 128532,
+  "texture_bytes_astc": 666384,
+  "path": "Assets/GodSim/Art/Models/Buildings/Orc/Food/bld_orc_pasture_industrial_v0.glb",
+  "preview": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_industrial_v0.png",
+  "age_previews": {
+   "industrial": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_industrial_v0.png",
+   "modern": "tools/AssetForge/previews/Buildings/Orc/Food/bld_orc_pasture_industrial_v0__modern.png"
+  }
+ }
+]

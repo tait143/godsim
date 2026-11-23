@@ -1,0 +1,125 @@
+[
+  {
+    "family": "Orc Bank",
+    "first": "classical",
+    "second": "industrial",
+    "sha256": {
+      "bld_orc_bank_classical_v0": "8c52155bcba1f4fbde160888e6e7008656abc6d8a4b33b8dc4a97fda97a8a68f",
+      "bld_orc_bank_industrial_v0": "163f005b62de3561aa182fc09f96cf49f942fca5446539868a1c70ade0a1241e",
+      "bld_orc_bank_future_v0": "a8289d4360130c6bf2626690be380cff434c3e28761ce90ef0ef8b752e63457c"
+    },
+    "directions": [
+      {
+        "source": "bld_orc_bank_classical_v0",
+        "compared_to": "bld_orc_bank_industrial_v0",
+        "matched": 0,
+        "total": 2082
+      },
+      {
+        "source": "bld_orc_bank_industrial_v0",
+        "compared_to": "bld_orc_bank_classical_v0",
+        "matched": 0,
+        "total": 2196
+      }
+    ]
+  },
+  {
+    "family": "Elf Gold Mine",
+    "first": "ancient",
+    "second": "industrial",
+    "sha256": {
+      "bld_elf_gold_mine_ancient_v0": "a900515c479491fbf86cda1905f06c8a74a51d430e3477d8795215b54cd5aaf6",
+      "bld_elf_gold_mine_classical_v0": "8cbd6d4a9301b3efe73ced9587c9dbbb304223078406b012884ff257b80947e4",
+      "bld_elf_gold_mine_industrial_v0": "a4eeffc33219d438921152642b1c158978cdafb45dea2c66f43d865d3fc719e1",
+      "bld_elf_gold_mine_future_v0": "817b2667ede0a68afa97066fad5d1f347954d8a3c836e9a7aa2da7cadea6085a"
+    },
+    "directions": [
+      {
+        "source": "bld_elf_gold_mine_ancient_v0",
+        "compared_to": "bld_elf_gold_mine_industrial_v0",
+        "matched": 0,
+        "total": 3825
+      },
+      {
+        "source": "bld_elf_gold_mine_industrial_v0",
+        "compared_to": "bld_elf_gold_mine_ancient_v0",
+        "matched": 0,
+        "total": 4425
+      }
+    ]
+  },
+  {
+    "family": "Elf Fishing Hut",
+    "first": "industrial",
+    "second": "future",
+    "sha256": {
+      "bld_elf_fishing_hut_ancient_v0": "4c214f4d3cc130bd2c9aa64e6c8e8a1cca4a401cce49cacca43d77ed8710aaaa",
+      "bld_elf_fishing_hut_classical_v0": "7a3805ee40bee641b0f47d70ab8ff9961c0bd79806aac6cfb3237d9396fe319c",
+      "bld_elf_fishing_hut_industrial_v0": "aed534d3ddddf6415dee66142fa284148bf34bea06ad8e7b17568093698e982b",
+      "bld_elf_fishing_hut_future_v0": "3ea9e9a4f847f0652f2c54974fb18b066b87f920c386b40b7b9d054eda6c907b"
+    },
+    "directions": [
+      {
+        "source": "bld_elf_fishing_hut_industrial_v0",
+        "compared_to": "bld_elf_fishing_hut_future_v0",
+        "matched": 0,
+        "total": 2691
+      },
+      {
+        "source": "bld_elf_fishing_hut_future_v0",
+        "compared_to": "bld_elf_fishing_hut_industrial_v0",
+        "matched": 0,
+        "total": 3282
+      }
+    ]
+  },
+  {
+    "family": "Saurian Bank",
+    "first": "industrial",
+    "second": "future",
+    "sha256": {
+      "bld_saurian_bank_classical_v0": "84d5d5dc6d1a771f158ff6b7f46d8c89e9c1e64b0cbac97569419a9dd2bccc29",
+      "bld_saurian_bank_industrial_v0": "0d91423de3c5802b66c7549272079057be12e659bf63569c7ac79490a5654874",
+      "bld_saurian_bank_future_v0": "a3fe3b6506914f63f491fb13e74e7139e8fba507022a22650d3de9f0ed988cc1"
+    },
+    "directions": [
+      {
+        "source": "bld_saurian_bank_industrial_v0",
+        "compared_to": "bld_saurian_bank_future_v0",
+        "matched": 0,
+        "total": 2226
+      },
+      {
+        "source": "bld_saurian_bank_future_v0",
+        "compared_to": "bld_saurian_bank_industrial_v0",
+        "matched": 0,
+        "total": 3735
+      }
+    ]
+  },
+  {
+    "family": "Dwarf Well",
+    "first": "ancient",
+    "second": "industrial",
+    "sha256": {
+      "bld_dwarf_well_ancient_v0": "48f8c4aa1a8d7b6e34b238792f64050a06c741f6dd5525bad98ff7aaf53e47c2",
+      "bld_dwarf_well_classical_v0": "1a0f9528561e875b650a36649b03c7cfe87fb7a415fb3ad7c873670ded19c33a",
+      "bld_dwarf_well_industrial_v0": "19684148a57e9855839f0d1e728d52d54ca25bb0958834e19cf6c68b61a3b3ec",
+      "bld_dwarf_well_future_v0": "e5e1fd54cb2578eebca2d4d2d71aa07eeea5212acdaa13ea56f509e196184b3c"
+    },
+    "directions": [
+      {
+        "source": "bld_dwarf_well_ancient_v0",
+        "compared_to": "bld_dwarf_well_industrial_v0",
+        "matched": 0,
+        "total": 2706
+      },
+      {
+        "source": "bld_dwarf_well_industrial_v0",
+        "compared_to": "bld_dwarf_well_ancient_v0",
+        "matched": 0,
+        "total": 3882
+      }
+    ]
+  }
+]

@@ -1,0 +1,620 @@
+{
+  "package": "orc_commerce",
+  "rounds": [
+    {
+      "round": 1,
+      "critic": "Civic builder, independent Commerce reviewer",
+      "models": [
+        {
+          "id": "bld_orc_airport_future_v0",
+          "evidence_sha256": "212d685deceee5982cb299423cbb92152aa7c2609bd8ab50c7674dff71850931",
+          "observations": "The distinct control tower and low freight plane remain recognizable at 60 px. The finial horns, flag and runway markers put the terminal in the Orc family. The gold Ascension apron and tower cap contrast with the Information tarmac. Serialized LOD counts 1128/720/271.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_bank_classical_v0",
+          "evidence_sha256": "f821db534092e83c36ac0581cd531024fcfc0ec9837887aa1bbb6b89d03875d9",
+          "observations": "The mint disk sits firmly above paired horns and a red lintel, with a secondary coin crate and a roof pennant. The low red vault becomes a darker timber-ringed bank in Medieval. Serialized LOD counts 694/392/198.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 93,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_bank_future_v0",
+          "evidence_sha256": "20618477054d6cfcf5ce20f108c332940e2b3d7f25ca12c07d6d9867174451c3",
+          "observations": "The dark-to-gold faceted roof, illuminated rear pylons and red perimeter band make the bank readable at 60 px. The coin over the wicket remains visible in Ascension. Serialized LOD counts 760/428/198.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_bank_industrial_v0",
+          "evidence_sha256": "dcb9e938e0e499ee68d5458f3133daa274e92e346ed4e759f4799cf3244ef428",
+          "observations": "The brick drum, flanking vents, red vault belt and little coin till create a convincing industrial counting house. Pale concrete and the silvery roof lift the Modern row. Serialized LOD counts 760/428/198.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_guildhall_classical_v0",
+          "evidence_sha256": "0309eed3a42cee76ead24fdf583523517f0187cd097e999ef1508ae84c453485",
+          "observations": "Crossed tools on the red shield sit above a deep timber entry with two ivory tusks. The red drum and bound crate flank the door. Dark slate changes to a warmer Renaissance roof. Serialized LOD counts 946/521/262.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_guildhall_future_v0",
+          "evidence_sha256": "72292ead7633e6df88f43671c0f361cdf99048d1fbfe9a94d215d66b5a7f1a95",
+          "observations": "A white sail-shaped gable and cyan-to-gold uprights modernize the hall while the crossed tools and splayed gate tusks remain bold. The attached low round bay gives the flank a usable entrance scale. Serialized LOD counts 1005/570/278.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 95,
+            "construction": 95,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_guildhall_industrial_v0",
+          "evidence_sha256": "f982d1d15dba67d93599aff4a673dc0cd43ff7813fe63b6924a58d89e65704e1",
+          "observations": "The stepped side annex and smoking-house stack flank the heavy roof. Crossed hammer heads, stock crate and drum read as a craft guild, even in the lighter Modern colorway. Serialized LOD counts 989/554/262.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 95,
+            "construction": 95,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_harbor_classical_v0",
+          "evidence_sha256": "b1c7e2754e61a2f39ea7c92ef7b57b2f0e1e2ed10f90a16791e6d630a059e431",
+          "observations": "The hooked barge, cargo stacks and post-supported loading derrick keep their silhouette at 60 px. Across Classical and Renaissance the quay, crane, hull and brown lodge look nearly identical, with a mean 4.6/255 maximum-channel change over dark foreground pixels on the 64 px render. Serialized LOD counts 970/591/272.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 87,
+            "construction": 95,
+            "charm": 94,
+            "colour": 89,
+            "technical": 99
+          },
+          "defects": [
+            "Give a substantial part of the cargo shed, quay edge or crane plinth an age-responsive wall/metal/roof surface, then check Classical vs Renaissance side-by-side at 64 px. Retain the clear wood-to-water boundary."
+          ]
+        },
+        {
+          "id": "bld_orc_harbor_future_v0",
+          "evidence_sha256": "011a8eb4ef27e10660d25fe92f4eef25fbd8ef81bdd620109a6bc01049d0e75b",
+          "observations": "The blue-gold derrick and clearly outlined plank barge give the late harbor a strong working profile. Bright freight lashings and the paired flotation and pier levels keep the small elements readable. Serialized LOD counts 996/607/272.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_harbor_industrial_v0",
+          "evidence_sha256": "1f18b61e68c1cd045fc0eab3b278d5996f6812472441437e7fd4a813c7f0245f",
+          "observations": "The dark counterweighted crane rises just above the dock office. The barge has a distinct curved painted bow and open cargo floor. Timber, red brick and metal distinguish the two age rows. Serialized LOD counts 980/591/272.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 93,
+            "construction": 95,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_market_ancient_v0",
+          "evidence_sha256": "e05be56749f9ab64e6f15136e6acf9bb2c55d0675ec1ffc66d026296bfacf783",
+          "observations": "A deep striped hide awning, front horns, a rear lodge and three separate produce bowls preserve the trade function. The slight bow in the canopy makes its tension visible in the large view. Serialized LOD counts 872/530/225.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_market_classical_v0",
+          "evidence_sha256": "9bdacf51ca00a807cbf6670f65819ba515a9cecf50bc1c4142a416789f923954",
+          "observations": "The permanent posts and stone counter read well in Classical and Medieval. At phone size the Classical and Renaissance awnings, produce, lodge roof and post silhouette dominate both previews almost identically; the counter color changes only subtly. Serialized LOD counts 980/610/277.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 88,
+            "construction": 94,
+            "charm": 95,
+            "colour": 89,
+            "technical": 99
+          },
+          "defects": [
+            "Use a larger age-responsive shared surface on the counter fascia, full post surrounds or alternate canopy bands so the Classical and Renaissance market can be told apart at 64 px. Preserve the alternating stripes."
+          ]
+        },
+        {
+          "id": "bld_orc_market_future_v0",
+          "evidence_sha256": "fb6f74bbd7811fbb3727a7a0b9d5f10754f10bb0c11d7c87cdeb6fb60001de87",
+          "observations": "A cyan price board crowns the modernized market, with glazed awning bands alternating against red. The three baskets, curved tusks and attendant\u2019s lodge remain clear against both silver and gold post colors. Serialized LOD counts 984/602/271.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_market_industrial_v0",
+          "evidence_sha256": "19a0acccfb7b30ee4c7c9754a0993fb341e62adaefb5834d9d26ad557c4aa1cd",
+          "observations": "The tall weighing scale, lower vented roof and striped canopy establish the industrial stall. Red-brick footings shift to grey in Modern. Produce and pole flag give the stall a lived-in scale. Serialized LOD counts 1016/634/255.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_rail_station_future_v0",
+          "evidence_sha256": "5e66d772cf441a2aeb2d7d2272d0b2ea96ea31227c36bc1b8c06bf1c6dd28628",
+          "observations": "The low glazed car sits squarely over two rails, alongside the clocked platform shelter. Painted canopy teeth and eave horns remain visible at phone size. Rail surfaces and columns shift to gold in Ascension. Serialized LOD counts 981/655/227.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 95,
+            "charm": 94,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_rail_station_industrial_v0",
+          "evidence_sha256": "e095f7c676f17c1f9c740b0f85468035d59117d17e4e198507c626eeed043289",
+          "observations": "The squat boiler locomotive, round stack and raised station platform make the railway legible even with the canopy behind them. The clock, flag, sleepers and red carriage cab remain distinct through Modern. Serialized LOD counts 1040/702/266.",
+          "scores": {
+            "silhouette": 97,
+            "identity": 94,
+            "construction": 95,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "critic": "Civic builder, independent Commerce reviewer",
+      "models": [
+        {
+          "id": "bld_orc_harbor_classical_v0",
+          "evidence_sha256": "8b536ee69d44aecb8dd50be2f20711be540476b5d359ba627cd12a12a32abe23",
+          "observations": "The extended visible quay and crane now carry the material progression: pale dressed stone in Classical, a darker timber-toned counter and hull in Medieval, and ochre facing in Renaissance. At 60 px the raised quay remains distinct from both the red-lashed cargo and blue water. Classical-to-Renaissance foreground mean maximum-channel change is now 10.1/255 at 64 px. All three serialized LODs, the surface scan and orientation scan passed.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 91,
+            "construction": 95,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_market_classical_v0",
+          "evidence_sha256": "bf9dcbd9d852d02ccfe00d6e9e367f51863da693f53e2f673dfef15885efe9fb",
+          "observations": "The canopy's broad pale bands shift from ivory in Classical to tan in Renaissance, in step with the counter and columns. The Medieval wall and roof remain the darkest. All three rows retain distinct merchandise and the forward-sweeping horn at both sizes. Classical-to-Renaissance foreground mean maximum-channel change is now 11.6/255 at 64 px. All three serialized LODs, the surface scan and orientation scan passed.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 91,
+            "construction": 94,
+            "charm": 95,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "critic": "Independent Orc model critic, RC2 round 1",
+      "method": "Inspected saved age previews, rendered serialized LOD0, LOD1 and LOD2, and compared neutral 64px geometry at 215 and 145 degrees. Independently checked package metadata, GLB streams, exposed coplanar faces, inverted shells and repeated meshes. Compared all ordered era pairs in the 14 directed families.",
+      "models": [
+        {
+          "id": "bld_orc_airport_future_v0",
+          "evidence_sha256": "33a26fc65c4fdfa3b4cf776c7cc5a11305d0a9f370a23165db6099edaa984b58",
+          "observations": "The windsock, white aircraft nose and elevated control cab resolve separately on the dark runway. The tower remains grounded and the terminal canopy keeps its edge at LOD1. Ascension picks out the tower ring in gold.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_harbor_classical_v0",
+          "evidence_sha256": "47cd7dd97c36e14524f788b8dc12a151b4501488e28074bbc02ec3d2c978f7fa",
+          "observations": "A pitched round shed sits behind the angular hoist arm and shallow cargo boat. The stone landing has clear steps and red prow trim. The two main hoist supports and the continuous quay remain present at LOD1.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_harbor_future_v0",
+          "evidence_sha256": "2cd55ba467703c7f0be745e3e6e0d29d53258b7abdebe52bf6b93d8e58060076",
+          "observations": "White and gold pier variants frame the crane. The boat, crane arm, mast, right-hand quay and rear low shed keep the industrial arrangement at both gray angles. The little crown on the shed disappears at phone scale.",
+          "scores": {
+            "silhouette": 91,
+            "identity": 83,
+            "construction": 94,
+            "charm": 92,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [
+            "Replace the conventional hoist or quayside terminal with a clear Information-era handling system that changes the 64px profile. Keep boat and dock contact."
+          ]
+        },
+        {
+          "id": "bld_orc_harbor_industrial_v0",
+          "evidence_sha256": "ab622856056ebaff07ae33d677e6f23a747daae31daa9ad3cf964d4cd8b6789b",
+          "observations": "A flatter dock shed makes the crane stand clear above it. The dark metal boom and brick landing replace the classical pitched hut and pale masonry. The hoist still meets its posts, and the boat hull reads against the water at LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_market_ancient_v0",
+          "evidence_sha256": "e1ebaefc33ddd671ecdf8b88e2299aacde39dfdec1bde0e6b2d49aca007c2c88",
+          "observations": "Woven red-and-cream stripes hang over a low timber counter of separate produce bowls. A small hide conical roof rises behind the open left side. The four corner poles and the counter survive at intermediate detail.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_market_classical_v0",
+          "evidence_sha256": "bcac3c1211d33c80d02cf2d9e8a31f036df3989caf63c4829d4e6c1df4e204f2",
+          "observations": "Thicker pale end columns and a taller, steeper tiled stockroom roof frame the stall. The red stripe and produce baskets remain clear across its three saved skins. The landing and reinforced posts stay complete in LOD1.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_market_future_v0",
+          "evidence_sha256": "200f74299abb9efe8e7d36ef6a45ea7a6aa7a936e8cf8714ecf5fb012812ecba",
+          "observations": "A high rectangular display sign breaks the left skyline over the retained trading awning. It replaces the right-side mechanical clock on the industrial market. The sign face and three bowls stay attached in the intermediate mesh.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 91,
+            "construction": 94,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_market_industrial_v0",
+          "evidence_sha256": "6e1d9040448f0db9cd353b47ad688e9e31a9e49181ef4a2770bcf5219a22857d",
+          "observations": "A tall clock case on the right and a slender flag on the left lift the skyline above the striped counter. The broad dark shed behind them is lower than the classical stockroom. In gray the clock remains well above the canopy.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 92,
+            "construction": 94,
+            "charm": 94,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_rail_station_future_v0",
+          "evidence_sha256": "d32646b785f76f9f9675fdf7c83836d4806f2259337917f49660b31d5573a61d",
+          "observations": "The rounded twin bodies and broad overhead teal canopy run lengthwise above two anchored piers. The elevated track line clearly separates this station from the previous ground track. LOD1 keeps the supports and clearance.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 95,
+            "technical": 99
+          },
+          "defects": []
+        },
+        {
+          "id": "bld_orc_rail_station_industrial_v0",
+          "evidence_sha256": "aa287592bf240a7dcca28256a5e0733bdf5b8dfd87eb7006203ed00705227ac4",
+          "observations": "Exposed sleepers, a small red engine, station clock and striped waiting canopy make the rail role legible. The canopy meets its posts and the engine remains on the track in all three levels. The modern skin keeps the rails distinct from the platform.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 94,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "critic": "Independent repair critic, second visual review of Dwarf, Orc and Saurian revisions",
+      "inspection": "Compared the serialized LOD0 of each revision with available era siblings in two neutral 64 px views. Inspected every authored age preview, all three LODs at 64 px, and the front, side and rear of each model in colour at 190 px. Rechecked LOD1 from front and rear, serialized metadata, triangle and ratio budgets, exposed surface findings and shell orientation.",
+      "models": [
+        {
+          "id": "bld_orc_harbor_future_v0",
+          "evidence_sha256": "7a5ac550a8d8fcdf650bdc23645e0aa66c06ea1574dff1ed48b8b96a8ea567e5",
+          "observations": "Four legs straddle the moored boat and quay, with a wide transverse carrier above the cargo. The gantry changes the neutral profile of the former single hoist. The pillars remain founded on the dock and channel pads at LOD1, and the hull stays alongside the quay.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            936,
+            513,
+            278
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "critic": "Independent visual critic, frozen middle-LOD fidelity review",
+      "inspection": "Inspected current age previews and all three serialized LODs at phone scale. Examined the middle mesh from the front, side and rear at larger scale and compared individual entrances and surfaces against LOD0. Rechecked the serialized catalog metadata, triangle ratios, exposed surfaces and shell orientation. Existing design scores were retained for unchanged designs that remained legible.",
+      "models": [
+        {
+          "id": "bld_orc_harbor_classical_v0",
+          "evidence_sha256": "3c143cb829a3840ca1a31f61883b5568cbee3f69a5613401d3279ec8a56084fb",
+          "observations": "The cargo hoist still meets its two bearings, the hull remains alongside the quay, and the small terminal keeps its walls and roof. The middle mesh retains a clear gap under the boom.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 94,
+            "charm": 93,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            970,
+            551,
+            272
+          ]
+        },
+        {
+          "id": "bld_orc_harbor_industrial_v0",
+          "evidence_sha256": "aa82130a78c539e80c07ecd82854d204bc8bd19469407f1e11322b0b0897123f",
+          "observations": "The metal crane, suspended load and adjacent freight boat remain legible after the loose dock crates drop out. Both quay edges and the small terminal are complete from behind.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 90,
+            "construction": 94,
+            "charm": 93,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            980,
+            557,
+            272
+          ]
+        },
+        {
+          "id": "bld_orc_rail_station_industrial_v0",
+          "evidence_sha256": "42a73396a0579e0f170b8b87ece80f7411abfd0a79d134cb4d00c5137e359d33",
+          "observations": "The engine, tracks, brick station and awning posts remain sound. A right-hand red stripe cuts sharply across the adjacent pale fabric at LOD1. The resulting triangular colour wedge and kink span a substantial part of the canopy in both front views.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 86,
+            "charm": 95,
+            "colour": 94,
+            "technical": 88
+          },
+          "defects": [
+            "Preserve the striped awning's fabric seams and shape in the middle mesh or use a deliberately simplified continuous striped canopy."
+          ],
+          "lod_triangles": [
+            1040,
+            592,
+            266
+          ]
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "critic": "Independent visual critic, final door, canopy and grille repair review",
+      "inspection": "Reopened the authored age previews and all three serialized LODs at 64 px. Compared LOD0 and LOD1 at two 190 px front angles and at 195 px from the side and rear. Revalidated serialized metadata, triangle ratios, exposed surfaces and shell orientation at the recorded hashes.",
+      "models": [
+        {
+          "id": "bld_orc_rail_station_industrial_v0",
+          "evidence_sha256": "aaff7f7a83b3310e294725fa9d51f6540a9c27996a254c980e3cd3adfa2d31e3",
+          "observations": "The rebuilt fabric retains continuous alternating pale and red stripes from ridge to lower edge. The projecting canopy remains attached to its posts, with the station wall, roof and train distinct from both side and rear.",
+          "scores": {
+            "silhouette": 96,
+            "identity": 94,
+            "construction": 92,
+            "charm": 95,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1040,
+            554,
+            266
+          ]
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "critic": "Independent RC4 critic for Elf, Orc and Saurian buildings",
+      "models": [
+        {
+          "id": "bld_orc_bank_future_v0",
+          "evidence_sha256": "9899bbd1f2ad3b9b297e2fbb41c23678b7ee7f5d94dd6d08beee4a6071e3fd12",
+          "observations": "A thick arched strongroom presents a large combination wheel on its end wall. An offset round blue annex leaves the vault door clear from either approach. Both the wheel and the horn-tipped pale vault survive at the middle distance. Painted previews cover information, ascension. I compared both 64 px unpainted family views and the 215°, 125° and 35° painted middle LOD. Serialized LODs 996/515/198 passed validation and the 60% ceiling. Direct surface and winding checks found zero exposed coplanar overlaps and zero inverted closed shells. The largest directed corner share involving this model and any sibling was 0.0%.",
+          "scores": {
+            "silhouette": 93,
+            "identity": 93,
+            "construction": 94,
+            "charm": 92,
+            "colour": 93,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "critic": "Independent RC5 model critic",
+      "models": [
+        {
+          "id": "bld_orc_bank_industrial_v0",
+          "evidence_sha256": "caaedd91c5c077292bea80d82939f0346a3c7092c1df0f06aa0011c9fd124893",
+          "observations": "At 64 px the horned square tower steps down to an offset counter roof on both unpainted views. The Classical round bank and Future barrel vault have different roof lines from either approach. The oversized coin above the entry, a second coin at the counter and the red overhang read as a public counting house. The two roofs meet over a seated, stepped masonry base. The Modern roof and walls lighten while the gold and red stay legible. Both painted ages and the reverse middle LOD retain the two-part mass. Serialized LODs 732/426/220 passed check_entry. Direct checks found zero exposed coplanar overlaps and zero inverted closed shells.",
+          "scores": {
+            "silhouette": 95,
+            "identity": 94,
+            "construction": 93,
+            "charm": 94,
+            "colour": 94,
+            "technical": 99
+          },
+          "defects": []
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "critic": "Independent RC6 building art and serialized LOD critic",
+      "models": [
+        {
+          "id": "bld_orc_harbor_industrial_v0",
+          "evidence_sha256": "0e265901cebf262ff86e9f7ba40bbcc18a38887899af3680f42eb15a01b33060",
+          "observations": "The broad slip roof shelters a boat supported between the wharf and the water edge. The other angle shows the exposed loading quay and the stern below the roof. LOD2 strips the boat interior but retains the hull, water, slip roof and its grounded pilings.",
+          "scores": {
+            "silhouette": 94,
+            "identity": 93,
+            "construction": 92,
+            "charm": 92,
+            "colour": 92,
+            "technical": 99
+          },
+          "defects": [],
+          "lod_triangles": [
+            1006,
+            573,
+            318
+          ],
+          "serialized_sha256": "26f49bd7c1038c3069887861eb6a13714c69bd4684e57daede9e89967291dfae",
+          "exposed_coplanar_pairs": [
+            0,
+            0,
+            0
+          ],
+          "inward_closed_shells": [
+            0,
+            0,
+            0
+          ],
+          "visual_evidence": [
+            "rc6/models/orc_commerce-01.png",
+            "rc6/families/orc-Harbor-v0.png"
+          ]
+        }
+      ]
+    }
+  ]
+}
