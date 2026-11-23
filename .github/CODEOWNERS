@@ -1,0 +1,58 @@
+# CODEOWNERS: path-based review ownership.
+#
+# Every rule below is COMMENTED OUT on purpose. GitHub requires each owner to be a real user or a
+# team with write access; an unknown owner makes the whole line invalid. To enable a rule:
+#   1. create the team in the GitHub organization and give it write access to this repository;
+#   2. uncomment the line and replace the backticked placeholder with the real handle
+#      (an @ sign, then org/team, without backticks);
+#   3. check the file under Settings > Branches (or the CODEOWNERS errors view) for problems.
+# Later rules take precedence over earlier ones, so keep the catch-all first.
+#
+# Placeholders are written in backticks so nothing here mentions or notifies anyone.
+
+# Catch-all
+# *                                          `@godsim/leads`
+
+# Shared contracts and composition (lead-owned, see docs/ENGINEERING_CONTRACT.md)
+# /docs/ENGINEERING_CONTRACT.md              `@godsim/leads`
+# /Assets/GodSim/Core/Contracts/             `@godsim/leads`
+# /Assets/GodSim/Core/Composition/           `@godsim/leads`
+# /Assets/GodSim/Core/GodSim.Core.asmdef     `@godsim/leads`
+
+# Simulation modules
+# /Assets/GodSim/Core/World/                 `@godsim/world`
+# /Assets/GodSim/Core/Races/                 `@godsim/content`
+# /Assets/GodSim/Core/Progression/           `@godsim/progression`
+# /Assets/GodSim/Core/Buildings/             `@godsim/content`
+# /Assets/GodSim/Core/Settlements/           `@godsim/settlements`
+# /Assets/GodSim/Core/Population/            `@godsim/population`
+# /Assets/GodSim/Core/Economy/               `@godsim/economy`
+# /Assets/GodSim/Core/AI/                    `@godsim/ai`
+# /Assets/GodSim/Core/Diplomacy/             `@godsim/diplomacy`
+# /Assets/GodSim/Core/Divine/                `@godsim/divine`
+# /Assets/GodSim/Core/Persistence/           `@godsim/persistence` `@godsim/security`
+# /Assets/GodSim/Core/Security/              `@godsim/security`
+
+# Tests follow their module; shared fixtures belong to the leads
+# /Assets/GodSim/Tests/EditMode/Shared/      `@godsim/leads`
+# /tests/                                    `@godsim/qa`
+
+# Unity front end and editor tooling
+# /Assets/GodSim/Unity/                      `@godsim/unity`
+# /Assets/GodSim/Editor/                     `@godsim/unity`
+
+# Tools
+# /tools/                                    `@godsim/tools`
+
+# Build, CI and repository configuration
+# /GodSim.sln                                `@godsim/devops`
+# /Directory.Build.props                     `@godsim/devops`
+# /build/GodSim.Core.csproj                  `@godsim/devops`
+# /build/checks/_template/                   `@godsim/devops`
+# /build/checks/Infra/                       `@godsim/devops`
+# /tests/GodSim.Tests/GodSim.Tests.csproj    `@godsim/devops`
+# /scripts/                                  `@godsim/devops`
+# /.github/                                  `@godsim/devops` `@godsim/security`
+# /.editorconfig                             `@godsim/devops`
+# /.gitignore                                `@godsim/devops`
+# /.gitattributes                            `@godsim/devops`

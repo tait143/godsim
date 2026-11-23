@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Headless.Tool.Check", "Tool\Headless.Tool.Check.csproj", "{21FE3F65-4E49-4875-8BEA-339FA1F075EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Headless.Integration.Tests", "Tests\Headless.Integration.Tests.csproj", "{8593BE28-A36A-45E1-BDA2-B773557E3D63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21FE3F65-4E49-4875-8BEA-339FA1F075EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FE3F65-4E49-4875-8BEA-339FA1F075EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21FE3F65-4E49-4875-8BEA-339FA1F075EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FE3F65-4E49-4875-8BEA-339FA1F075EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8593BE28-A36A-45E1-BDA2-B773557E3D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8593BE28-A36A-45E1-BDA2-B773557E3D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8593BE28-A36A-45E1-BDA2-B773557E3D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8593BE28-A36A-45E1-BDA2-B773557E3D63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

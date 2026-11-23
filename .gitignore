@@ -1,0 +1,80 @@
+# ------------------------------------------------------------------ Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/Builds/
+# Unity's default player output folder is "Build/". Our tracked build/ folder (GodSim.Core.csproj,
+# build/checks/) differs only in case. On case-insensitive file systems (Windows/macOS) both are
+# the SAME folder, so never build the Unity player into Build/: use Builds/ instead.
+/Build/
+!/build/
+
+# Unity IDE integration regenerates these at the root. Ours (GodSim.sln) is tracked.
+# NOTE: Unity names its generated solution after the project folder. If that folder is "GodSim",
+# Unity overwrites GodSim.sln on "Regenerate project files"; keep the Unity project folder named
+# differently (e.g. clone into GodSimUnity/) or restore GodSim.sln with `git checkout GodSim.sln`.
+/*.csproj
+/*.sln
+!/GodSim.sln
+/*.unityproj
+/*.suo
+/*.tmp
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+/*.pdb
+/*.mdb
+/*.opendb
+/*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+/[Aa]ssets/[Ss]treaming[Aa]ssets/aa.meta
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/Plugins/Editor/JetBrains*
+/[Ee]xported[Oo]bj/
+.consulo/
+sysinfo.txt
+crashlytics-build.properties
+*.apk
+*.aab
+*.unitypackage
+*.app
+/[Aa]ssets/[Ss]treaming[Aa]ssets/aa/
+
+# ------------------------------------------------------------------ dotnet
+bin/
+obj/
+build/checks/**/bin/
+build/checks/**/obj/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+.nuget/
+/dist/
+/artifacts/
+BenchmarkDotNet.Artifacts/
+
+# ------------------------------------------------------------------ GodSim runtime output
+snapshots/
+*.gsav
+*.gsav.tmp
+
+# ------------------------------------------------------------------ IDEs / OS
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*~
+.DS_Store
+Thumbs.db

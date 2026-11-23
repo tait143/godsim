@@ -1,0 +1,46 @@
+<Project>
+  <!--
+    Repo-wide MSBuild defaults for every dotnet project under this folder
+    (build/GodSim.Core.csproj, tests/, tools/, build/checks/<Module>/...).
+
+    Rules:
+      * Only defaults live here. A project that sets the same property in its own
+        <PropertyGroup> wins, because this file is imported before the project body.
+      * Nothing here may turn warnings into errors or add packages/analyzers: ~50 module
+        check projects build against this file and must keep building.
+      * Guarded by UsingMicrosoftNETSdk so the legacy-style .csproj files that Unity's IDE
+        integration generates at the repo root are left alone.
+  -->
+  <PropertyGroup Condition="'$(UsingMicrosoftNETSdk)' == 'true'">
+    <!-- Unity compatibility (ENGINEERING_CONTRACT.md section 3.1): C# 9, no nullable reference types. -->
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+
+    <!-- Reproducible builds. -->
+    <Deterministic>true</Deterministic>
+
+    <!--
+      Pin the .NET analyzer rule set to the 8.0 baseline in its Default mode (a small set of
+      high-signal rules as warnings, never errors) so an SDK upgrade cannot introduce new
+      diagnostics or fail the build. Setting AnalysisLevel also enables the analyzers for
+      netstandard2.1 projects (Core), which activates the .editorconfig CA5394 (System.Random)
+      warning there. A project can opt out with <EnableNETAnalyzers>false</EnableNETAnalyzers>.
+    -->
+    <AnalysisLevel>8.0</AnalysisLevel>
+    <AnalysisMode>Default</AnalysisMode>
+    <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
+
+    <!-- Missing XML docs are tracked by review, not by the compiler. -->
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <Company>GodSim</Company>
+    <Product>GodSim</Product>
+  </PropertyGroup>
+
+  <!-- CI builds: normalized source paths in PDBs (GitHub Actions and most CI systems set CI=true). -->
+  <PropertyGroup Condition="'$(UsingMicrosoftNETSdk)' == 'true' And ('$(CI)' == 'true' Or '$(TF_BUILD)' == 'true')">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+</Project>

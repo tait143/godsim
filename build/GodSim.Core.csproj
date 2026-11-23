@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    GodSim.Core: the pure-C#, deterministic simulation library.
+    Compiles exactly what Unity compiles through Assets/GodSim/Core/GodSim.Core.asmdef
+    (noEngineReferences: true), with Unity-compatible language settings.
+  -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <Deterministic>true</Deterministic>
+    <AssemblyName>GodSim.Core</AssemblyName>
+    <RootNamespace>GodSim.Core</RootNamespace>
+    <IsPackable>false</IsPackable>
+
+    <!-- Sources come only from Assets/GodSim/Core; nothing under build/ (checks, bin, obj) is globbed. -->
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <!-- XML docs ship with the DLL; CS1591 (missing docs) is suppressed in Directory.Build.props. -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DebugType>portable</DebugType>
+
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <!--
+      Curated warnings that almost always indicate a real bug:
+        CS0108  member hides an inherited member (missing 'new')
+        CS0114  member hides an inherited virtual member (missing 'override')
+        CS0252  possible unintended reference comparison (left side)
+        CS0253  possible unintended reference comparison (right side)
+        CS0659  overrides Equals but not GetHashCode
+        CS0660  defines operator == or != but does not override Equals
+        CS0661  defines operator == or != but does not override GetHashCode
+        CS0665  assignment in a conditional expression is always constant
+        CS1717  assignment made to the same variable
+        CS1718  comparison made to the same variable
+        CS1720  expression will always cause a NullReferenceException
+    -->
+    <WarningsAsErrors>$(WarningsAsErrors);CS0108;CS0114;CS0252;CS0253;CS0659;CS0660;CS0661;CS0665;CS1717;CS1718;CS1720</WarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="../Assets/GodSim/Core/**/*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="GodSim.Tests" />
+  </ItemGroup>
+</Project>

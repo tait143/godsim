@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Scratch NUnit project for the engine-free overlay code (OverlayData, OverlayField, ColorRamps). -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <IsPackable>false</IsPackable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <NoWarn>CS1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="../../../../Assets/GodSim/Core/Contracts/**/*.cs" />
+    <Compile Include="../../../../Assets/GodSim/Tests/EditMode/Shared/**/*.cs" />
+    <!-- engine-free overlay files only (no UnityEngine stubs needed) -->
+    <Compile Include="../../../../Assets/GodSim/Unity/Runtime/Overlays/OverlayMode.cs" />
+    <Compile Include="../../../../Assets/GodSim/Unity/Runtime/Overlays/ColorRamps.cs" />
+    <Compile Include="../../../../Assets/GodSim/Unity/Runtime/Overlays/OverlayField.cs" />
+    <Compile Include="../../../../Assets/GodSim/Unity/Runtime/Overlays/OverlayData.cs" />
+    <Compile Include="*.cs" />
+  </ItemGroup>
+</Project>

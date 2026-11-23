@@ -1,0 +1,90 @@
+name: Bug report
+description: Something in the simulation, tools or Unity front end behaves incorrectly.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please **do not** post security vulnerabilities here; contact the maintainers privately.
+        A seed and a commit almost always make a simulation bug reproducible.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - World generation
+        - Races
+        - Progression (ages / tech)
+        - Buildings
+        - Settlements (planning / construction)
+        - Population
+        - Economy
+        - AI
+        - Diplomacy / military
+        - Divine powers / weather / disasters
+        - Persistence (saves)
+        - Security / validation
+        - Unity front end (rendering, input, HUD)
+        - Headless tool / WebViewer
+        - Build / CI
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: commit
+    attributes:
+      label: Version or commit
+      placeholder: "v0.3.0 or a1b2c3d"
+    validations:
+      required: true
+  - type: input
+    id: seed
+    attributes:
+      label: World seed and settings
+      description: Seed, map size and any non-default SimConfig values.
+      placeholder: "seed 12345, 256x256, defaults"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the exact command for headless runs.
+      placeholder: |
+        1. dotnet run --project tools/GodSim.Headless -- --years 60 --seed 12345 --strict
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+      description: Include the tick/year it happens at if you know it.
+    validations:
+      required: true
+  - type: dropdown
+    id: deterministic
+    attributes:
+      label: Does it reproduce every time with the same seed?
+      options:
+        - "Yes, every run"
+        - "No, it varies between runs (possible determinism bug)"
+        - "Not tried"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / stack trace
+      description: Paste text, not screenshots. Remove any personal paths or data.
+      render: shell
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "Unity 2022.3.x / .NET 8.0.x, Windows 11"

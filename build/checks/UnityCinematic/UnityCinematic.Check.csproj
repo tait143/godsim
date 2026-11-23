@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Compile-only check for the Unity cinematic layer (Assets/GodSim/Unity/Runtime/Cinematic).
+    No Unity editor here: UnityEngine is replaced by minimal stubs whose signatures match the real
+    Unity 6 / 2022.3 API, and other teams' APIs (runner, coords, camera controller, input, toasts,
+    GodSimulation) by stubs of their documented members. Stubs live only under stubs/ (never in Assets/).
+  -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <IsPackable>false</IsPackable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>CS1591</NoWarn>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../Assets/GodSim/Core/Contracts/**/*.cs" />
+    <Compile Include="../../../Assets/GodSim/Unity/Runtime/Cinematic/**/*.cs" />
+    <Compile Include="stubs/**/*.cs" />
+  </ItemGroup>
+</Project>

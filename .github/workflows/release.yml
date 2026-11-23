@@ -1,0 +1,109 @@
+# GodSim release: on a version tag (vMAJOR.MINOR.PATCH[-prerelease]) build, test, package
+# GodSim.Core.dll + the headless tool into a zip, and publish a GitHub release.
+#
+# SECURITY: pin third-party actions (softprops/action-gh-release in particular, which runs with
+# contents: write) to full commit SHAs before relying on this workflow. See ci.yml.
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  DOTNET_NOLOGO: "true"
+  DOTNET_CLI_TELEMETRY_OPTOUT: "true"
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: "true"
+  NUGET_PACKAGES: ${{ github.workspace }}/.nuget/packages
+
+jobs:
+  build:
+    name: Build, test & package
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      prerelease: ${{ steps.version.outputs.prerelease }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Validate tag
+        id: version
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          if [[ ! "$TAG" =~ ^v([0-9]+\.[0-9]+\.[0-9]+(-[0-9A-Za-z.-]+)?)$ ]]; then
+            echo "::error::Tag '$TAG' is not vMAJOR.MINOR.PATCH[-prerelease]"
+            exit 1
+          fi
+          echo "version=${BASH_REMATCH[1]}" >> "$GITHUB_OUTPUT"
+          if [[ "$TAG" == *-* ]]; then echo "prerelease=true"; else echo "prerelease=false"; fi >> "$GITHUB_OUTPUT"
+      - name: Unity compatibility check
+        run: bash scripts/check-unity-compat.sh
+      - name: Restore
+        run: dotnet restore GodSim.sln
+      - name: Build
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: dotnet build GodSim.sln -c Release --no-restore -p:Version="$VERSION"
+      - name: Test
+        run: >-
+          dotnet test tests/GodSim.Tests/GodSim.Tests.csproj -c Release --no-build
+          --logger "trx;LogFileName=GodSim.Tests.trx" --results-directory TestResults
+      - name: Package
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          set -euo pipefail
+          rm -rf dist
+          mkdir -p dist/stage/core dist/stage/headless
+          dotnet publish build/GodSim.Core.csproj -c Release --no-build -o dist/stage/core
+          dotnet publish tools/GodSim.Headless/GodSim.Headless.csproj -c Release --no-restore \
+            -p:Version="$VERSION" -o dist/stage/headless
+          for f in LICENSE LICENSE.md README.md; do [ -f "$f" ] && cp "$f" dist/stage/; done
+          (cd dist/stage && zip -r -X -q "../GodSim-$VERSION.zip" .)
+          (cd dist && sha256sum "GodSim-$VERSION.zip" > "GodSim-$VERSION.zip.sha256")
+          ls -l dist
+      - name: Upload bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-bundle
+          path: |
+            dist/*.zip
+            dist/*.sha256
+          if-no-files-found: error
+          retention-days: 7
+
+  publish:
+    name: Publish GitHub release
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Download bundle
+        uses: actions/download-artifact@v4
+        with:
+          name: release-bundle
+          path: dist
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: GodSim ${{ needs.build.outputs.version }}
+          files: |
+            dist/*.zip
+            dist/*.sha256
+          fail_on_unmatched_files: true
+          generate_release_notes: true
+          prerelease: ${{ needs.build.outputs.prerelease == 'true' }}

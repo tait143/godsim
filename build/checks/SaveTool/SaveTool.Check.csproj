@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Isolated compile + smoke check for tools/GodSim.SaveTool (owner: SaveTool).
+
+    Default (stub mode): compiles the tool's sources + Assets/GodSim/Core/Contracts/** + stubs/ (functional
+    stand-ins for the documented GodSim.Core.Persistence and GodSim.Core.Composition APIs), because the full
+    Core is written in parallel and may not compile. Stubs live ONLY here, never in tools/ or Assets/.
+
+    Persistence mode:  dotnet build -p:SaveToolCheckMode=persistence
+      Contracts + the REAL Assets/GodSim/Core/Persistence/** + stubs/CompositionStubs.cs only.
+    Real mode:  dotnet build -p:SaveToolCheckMode=real
+      compiles the tool's sources against build/GodSim.Core.csproj (all of Assets/GodSim/Core/**) instead.
+
+    Smoke test:  ./smoke.sh [stubs|persistence]   (default stubs)
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <AssemblyName>SaveTool.Check</AssemblyName>
+    <RootNamespace>GodSim.SaveTool.Check</RootNamespace>
+    <StartupObject>GodSim.SaveTool.Check.CheckEntry</StartupObject>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <SaveToolCheckMode Condition="'$(SaveToolCheckMode)' == ''">stubs</SaveToolCheckMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../tools/GodSim.SaveTool/**/*.cs" Exclude="../../../tools/GodSim.SaveTool/obj/**;../../../tools/GodSim.SaveTool/bin/**" />
+    <Compile Include="CheckEntry.cs" />
+  </ItemGroup>
+  <!-- stubs: Contracts + stubbed Persistence + stubbed Composition -->
+  <ItemGroup Condition="'$(SaveToolCheckMode)' == 'stubs'">
+    <Compile Include="../../../Assets/GodSim/Core/Contracts/**/*.cs" />
+    <Compile Include="stubs/PersistenceStubs.cs" />
+    <Compile Include="stubs/CompositionStubs.cs" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(SaveToolCheckMode)' == 'stubs'">
+    <DefineConstants>$(DefineConstants);SAVETOOL_STUBS</DefineConstants>
+  </PropertyGroup>
+  <!-- persistence: Contracts + the REAL Persistence module (Format + Storage) + stubbed Composition -->
+  <ItemGroup Condition="'$(SaveToolCheckMode)' == 'persistence'">
+    <Compile Include="../../../Assets/GodSim/Core/Contracts/**/*.cs" />
+    <Compile Include="../../../Assets/GodSim/Core/Persistence/**/*.cs" />
+    <Compile Include="stubs/CompositionStubs.cs" />
+  </ItemGroup>
+  <!-- real: everything through build/GodSim.Core.csproj (Assets/GodSim/Core/**) -->
+  <ItemGroup Condition="'$(SaveToolCheckMode)' == 'real'">
+    <ProjectReference Include="../../GodSim.Core.csproj" />
+  </ItemGroup>
+</Project>

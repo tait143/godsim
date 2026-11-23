@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Compile-only check for Assets/GodSim/Unity/Runtime/Overlays (no Unity editor here).
+    UnityEngine and other teams' APIs are replaced by minimal stubs (stubs/, never in Assets/).
+    Unit tests of the engine-free parts (OverlayData, ColorRamps) live in Tests/.
+  -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <IsPackable>false</IsPackable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>CS1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../Assets/GodSim/Core/Contracts/**/*.cs" />
+    <Compile Include="../../../Assets/GodSim/Unity/Runtime/Overlays/**/*.cs" />
+    <Compile Include="stubs/**/*.cs" />
+  </ItemGroup>
+</Project>

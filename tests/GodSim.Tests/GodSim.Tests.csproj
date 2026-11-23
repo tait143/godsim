@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Full-solution NUnit test project.
+    Compiles the Unity EditMode tests (Assets/GodSim/Tests/EditMode/**) so the same files run in
+    the Unity Test Runner and under `dotnet test`, plus every .cs file under this folder
+    (Integration/, Scenarios/, ... are owned by other teams).
+  -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>GodSim.Tests</AssemblyName>
+    <RootNamespace>GodSim.Tests</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <!-- Exact pins (NUnit 3.x only: the Unity Test Runner uses the NUnit 3 API). -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="[17.11.1]" />
+    <PackageReference Include="NUnit" Version="[3.14.0]" />
+    <PackageReference Include="NUnit3TestAdapter" Version="[4.6.0]" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../build/GodSim.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="../../Assets/GodSim/Tests/EditMode/**/*.cs" />
+    <Compile Include="**/*.cs" Exclude="bin/**;obj/**;$(DefaultItemExcludes);$(DefaultExcludesInProjectFolder)" />
+  </ItemGroup>
+</Project>

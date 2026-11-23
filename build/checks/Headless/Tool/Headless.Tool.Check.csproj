@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Compile check for tools/GodSim.Headless against the shared contracts plus a STUB GodSimulation
+    (../stubs). The real tool references build/GodSim.Core.csproj instead; this project exists only
+    because the composition root and most modules are not on disk yet.
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <AssemblyName>GodSim.Headless.Check</AssemblyName>
+    <RootNamespace>GodSim.Headless</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <NoWarn>CS1591</NoWarn>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../../Assets/GodSim/Core/Contracts/**/*.cs" />
+    <Compile Include="../stubs/**/*.cs" />
+    <Compile Include="../../../../tools/GodSim.Headless/**/*.cs" Exclude="../../../../tools/GodSim.Headless/obj/**;../../../../tools/GodSim.Headless/bin/**" />
+  </ItemGroup>
+</Project>

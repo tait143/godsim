@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Compile-only check for the Unity runtime core (GodSim.Unity / Runtime/Core).
+    No Unity editor here: UnityEngine is replaced by minimal stubs whose signatures match the real
+    Unity 6 / 2022.3 API, and GodSimulation / SaveFileStore by stubs of their documented APIs.
+    Stubs live only in build/checks/UnityCore/stubs (never in Assets/).
+  -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <IsPackable>false</IsPackable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>CS1591</NoWarn>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../Assets/GodSim/Core/Contracts/**/*.cs" />
+    <Compile Include="../../../Assets/GodSim/Unity/Runtime/Core/**/*.cs" />
+    <Compile Include="stubs/**/*.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    GodSim performance harness. Dependency-free (no BenchmarkDotNet): Stopwatch + GC counters.
+    How to run, read results and the CI budgets: see tools/GodSim.Bench/README.md.
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>GodSim.Bench</RootNamespace>
+    <AssemblyName>GodSim.Bench</AssemblyName>
+    <IsPackable>false</IsPackable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <NoWarn>CS1591</NoWarn>
+
+    <!-- Benchmarks are always optimized, even if someone forgets -c Release (the harness also warns at runtime). -->
+    <Optimize>true</Optimize>
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+
+    <!-- Runtime knobs: workstation GC (closest to Unity/Mono single-threaded behaviour), dynamic PGO on. -->
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
+    <TieredCompilation>true</TieredCompilation>
+    <TieredPGO>true</TieredPGO>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Created by the infra team: netstandard2.1 library compiling Assets/GodSim/Core/** -->
+    <ProjectReference Include="../../build/GodSim.Core.csproj" />
+  </ItemGroup>
+</Project>

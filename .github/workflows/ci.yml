@@ -1,0 +1,217 @@
+# GodSim CI.
+#
+# SECURITY: actions are referenced by major-version tag for readability. Tags are mutable, so
+# before this repository holds real secrets (UNITY_LICENSE, release tokens) pin every third-party
+# `uses:` to a full commit SHA with the tag as a comment, e.g.
+#     uses: game-ci/unity-test-runner@<40-char-sha> # v4.x.y
+# Dependabot (.github/dependabot.yml, github-actions ecosystem) keeps pinned SHAs up to date.
+#
+# Never interpolate ${{ github.event.* }} / ${{ github.head_ref }} into `run:` scripts; pass them
+# through `env:` instead (script injection).
+name: CI
+
+on:
+  push:
+    branches: [main, "release/**"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  DOTNET_NOLOGO: "true"
+  DOTNET_CLI_TELEMETRY_OPTOUT: "true"
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: "true"
+  NUGET_PACKAGES: ${{ github.workspace }}/.nuget/packages
+  CONFIGURATION: Release
+
+jobs:
+  compat:
+    name: Unity compatibility (Core)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Scanner self-test
+        run: bash scripts/test-check-unity-compat.sh
+      - name: Scan Assets/GodSim/Core and .asmdef files
+        run: bash scripts/check-unity-compat.sh
+
+  build-test:
+    name: Build & test (.NET 8)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Cache NuGet packages
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.NUGET_PACKAGES }}
+          key: nuget-${{ runner.os }}-${{ hashFiles('**/*.csproj', '**/Directory.Build.props', '**/Directory.Packages.props', '**/packages.lock.json') }}
+          restore-keys: |
+            nuget-${{ runner.os }}-
+      - name: Restore
+        run: dotnet restore GodSim.sln
+      - name: Build
+        run: dotnet build GodSim.sln -c "$CONFIGURATION" --no-restore
+      - name: Test
+        run: >-
+          dotnet test tests/GodSim.Tests/GodSim.Tests.csproj -c "$CONFIGURATION" --no-build
+          --logger "trx;LogFileName=GodSim.Tests.trx" --results-directory TestResults
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: TestResults/**/*.trx
+          if-no-files-found: warn
+          retention-days: 14
+
+  headless-smoke:
+    name: Headless smoke (60 years, strict)
+    needs: build-test
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      HEADLESS_PROJECT: tools/GodSim.Headless/GodSim.Headless.csproj
+      SMOKE_YEARS: "60"
+      SMOKE_SEED: "12345"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Cache NuGet packages
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.NUGET_PACKAGES }}
+          key: nuget-${{ runner.os }}-${{ hashFiles('**/*.csproj', '**/Directory.Build.props', '**/Directory.Packages.props', '**/packages.lock.json') }}
+          restore-keys: |
+            nuget-${{ runner.os }}-
+      - name: Detect headless tool
+        id: detect
+        run: |
+          if [ -f "$HEADLESS_PROJECT" ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::$HEADLESS_PROJECT not found; headless smoke skipped"
+          fi
+      - name: Run simulation
+        if: steps.detect.outputs.present == 'true'
+        run: |
+          mkdir -p snapshots
+          dotnet run --project "$HEADLESS_PROJECT" -c "$CONFIGURATION" -- \
+            --years "$SMOKE_YEARS" --seed "$SMOKE_SEED" --strict \
+            --out "snapshots/smoke-${SMOKE_YEARS}y-seed${SMOKE_SEED}.json"
+      - name: Upload snapshot
+        if: always() && steps.detect.outputs.present == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: headless-snapshot
+          path: snapshots/*.json
+          if-no-files-found: error
+          retention-days: 14
+
+  # Secrets cannot be used in `if:` expressions, so this job turns "is UNITY_LICENSE set?" into an
+  # output. Forks and repos without the secret skip unity-tests instead of failing.
+  unity-license:
+    name: Unity license available?
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    outputs:
+      available: ${{ steps.check.outputs.available }}
+    steps:
+      - name: Check UNITY_LICENSE secret
+        id: check
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        run: |
+          if [ -n "$UNITY_LICENSE" ]; then
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::UNITY_LICENSE is not set; Unity EditMode tests are skipped"
+          fi
+
+  unity-tests:
+    name: Unity EditMode tests
+    needs: unity-license
+    if: needs.unity-license.outputs.available == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Cache Unity Library
+        uses: actions/cache@v4
+        with:
+          path: Library
+          key: unity-library-${{ runner.os }}-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            unity-library-${{ runner.os }}-
+      - name: Run EditMode tests
+        id: unity
+        uses: game-ci/unity-test-runner@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          projectPath: .
+          testMode: editmode
+          artifactsPath: unity-test-results
+          # unityVersion defaults to "auto" (ProjectSettings/ProjectVersion.txt).
+          # githubToken is omitted on purpose: publishing a check run needs `checks: write`.
+      - name: Upload Unity test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unity-editmode-results
+          path: ${{ steps.unity.outputs.artifactsPath }}
+          if-no-files-found: warn
+          retention-days: 14
+
+  codeql:
+    name: CodeQL (C#)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    # Private repositories need GitHub Advanced Security (code scanning) for the upload to succeed.
+    permissions:
+      contents: read
+      actions: read
+      security-events: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: csharp
+          build-mode: manual
+          queries: security-and-quality
+      - name: Build for analysis
+        run: dotnet build GodSim.sln -c "$CONFIGURATION" -p:UseSharedCompilation=false
+      - name: Analyze
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: /language:csharp

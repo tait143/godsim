@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Optional variant: bench + Contracts + the REAL Core/World module + stub GodSimulation (for real world-gen numbers). -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <NoWarn>CS1591</NoWarn>
+    <Optimize>true</Optimize>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
+    <TieredPGO>true</TieredPGO>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../../Assets/GodSim/Core/Contracts/**/*.cs" />
+    <Compile Include="../../../../Assets/GodSim/Core/World/**/*.cs" />
+    <Compile Include="../../../../tools/GodSim.Bench/**/*.cs" Exclude="../../../../tools/GodSim.Bench/obj/**;../../../../tools/GodSim.Bench/bin/**" />
+    <Compile Include="../stubs/StubGodSimulation.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Isolated compile check for the GodSim IMGUI HUD (Assets/GodSim/Unity/Runtime/UI).
+    Compiles the shared contracts + the HUD against minimal UnityEngine / other-team API stubs (stubs/).
+    Run: dotnet build (quiet, no build servers) from this folder.
+    Alternative input backends: pass property HudDefines=ENABLE_LEGACY_INPUT_MANAGER (or ENABLE_INPUT_SYSTEM and ENABLE_INPUT_SYSTEM_PACKAGE).
+  -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <IsPackable>false</IsPackable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <NoWarn>CS1591;CS0649;CS0067;CS0414</NoWarn>
+    <HudDefines Condition="'$(HudDefines)' == ''">ENABLE_INPUT_SYSTEM;ENABLE_INPUT_SYSTEM_PACKAGE;ENABLE_LEGACY_INPUT_MANAGER</HudDefines>
+    <DefineConstants>$(DefineConstants);$(HudDefines)</DefineConstants>
+    <AssemblyName>GodSim.UnityHUD.Check</AssemblyName>
+    <RootNamespace>GodSim.Unity</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../Assets/GodSim/Core/Contracts/**/*.cs" />
+    <Compile Include="../../../Assets/GodSim/Unity/Runtime/UI/**/*.cs" />
+    <Compile Include="stubs/**/*.cs" />
+  </ItemGroup>
+</Project>

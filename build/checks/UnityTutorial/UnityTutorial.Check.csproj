@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Compile-only check for Assets/GodSim/Unity/Runtime/Tutorial (no Unity editor here).
+    UnityEngine and the other Unity teams' controllers are replaced by minimal stubs in stubs/
+    (signatures identical to Unity 6 / 2022.3 and to the lead's API spec). Never copy stubs into Assets/.
+    Unit tests of the Unity-free TutorialScript live in Tests/UnityTutorial.Tests.csproj.
+  -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <IsPackable>false</IsPackable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>CS1591</NoWarn>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../Assets/GodSim/Core/Contracts/**/*.cs" />
+    <Compile Include="../../../Assets/GodSim/Unity/Runtime/Tutorial/**/*.cs" />
+    <Compile Include="stubs/**/*.cs" />
+  </ItemGroup>
+</Project>

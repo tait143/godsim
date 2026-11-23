@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    GodSim.SaveTool: offline save-file inspector / verifier / fuzzer (console tool; NOT Unity code).
+    Depends on the full simulation library built by build/GodSim.Core.csproj (netstandard2.1, Assets/GodSim/Core/**).
+    Run with: dotnet run -c Release (project tools/GodSim.SaveTool) then pass the subcommand shown by the help flag.
+    Isolated compile check (no full Core needed): build/checks/SaveTool.
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>GodSim.SaveTool</AssemblyName>
+    <RootNamespace>GodSim.SaveTool</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../build/GodSim.Core.csproj" />
+  </ItemGroup>
+</Project>

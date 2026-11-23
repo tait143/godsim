@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Isolated compile check of Assets/GodSim/Unity/Runtime/Terrain against Unity API stubs (no Unity editor available).
+       stubs/UnityEngineStubs.cs mirrors ONLY the Unity 2022.3 / Unity 6 members the terrain code uses (same signatures).
+       stubs/OtherTeamsStubs.cs stands in for the Unity Core team's GodSimRunner/GodSimCoords/GodSimPalette/MaterialLibrary
+       and the lead's GodSim.Core.Composition.GodSimulation. Never copy these stubs into Assets/. -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <NoWarn>CS1591</NoWarn>
+    <AssemblyName>GodSim.UnityTerrain.Check</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../Assets/GodSim/Core/Contracts/**/*.cs" />
+    <Compile Include="../../../Assets/GodSim/Unity/Runtime/Terrain/**/*.cs" />
+    <Compile Include="stubs/**/*.cs" />
+  </ItemGroup>
+</Project>

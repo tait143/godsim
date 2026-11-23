@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    GodSim AI Arena: runs N seeded worlds x Y years headless, gathers AI-quality metrics from events and
+    state sampling, and writes a scored "AI Quality Report" (markdown) plus raw results (JSON).
+    Usage: see ArenaOptions.Usage in Program.cs (or run with the help flag).
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>GodSim.AIArena</RootNamespace>
+    <AssemblyName>GodSim.AIArena</AssemblyName>
+    <IsPackable>false</IsPackable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <Optimize>true</Optimize>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
+    <TieredPGO>true</TieredPGO>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- netstandard2.1 library compiling Assets/GodSim/Core/** -->
+    <ProjectReference Include="../../build/GodSim.Core.csproj" />
+  </ItemGroup>
+</Project>

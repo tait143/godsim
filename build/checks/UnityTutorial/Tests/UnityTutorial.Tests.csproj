@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Scratch NUnit project: unit tests of the Unity-free tutorial state machine (TutorialScript & co). -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <IsPackable>false</IsPackable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <NoWarn>CS1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="../../../../Assets/GodSim/Core/Contracts/**/*.cs" />
+    <!-- pure C# tutorial files only (the MonoBehaviour + IMGUI skin need UnityEngine) -->
+    <Compile Include="../../../../Assets/GodSim/Unity/Runtime/Tutorial/**/*.cs"
+             Exclude="../../../../Assets/GodSim/Unity/Runtime/Tutorial/TutorialController.cs;../../../../Assets/GodSim/Unity/Runtime/Tutorial/TutorialSkin.cs" />
+    <Compile Include="*.cs" />
+  </ItemGroup>
+</Project>

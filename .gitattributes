@@ -1,0 +1,60 @@
+# Normalize every text file to LF in the repository and in working trees.
+* text=auto eol=lf
+
+# Source and config
+*.cs        text eol=lf diff=csharp
+*.csproj    text eol=lf
+*.props     text eol=lf
+*.targets   text eol=lf
+*.sln       text eol=lf
+*.json      text eol=lf
+*.asmdef    text eol=lf
+*.asmref    text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+*.md        text eol=lf diff=markdown
+*.sh        text eol=lf
+*.html      text eol=lf
+*.js        text eol=lf
+*.css       text eol=lf
+# Windows scripts need CRLF to run.
+*.cmd       text eol=crlf
+*.bat       text eol=crlf
+
+# Unity YAML: text, merged with Unity Smart Merge. Each developer registers the driver once:
+#   git config merge.unityyamlmerge.name "Unity SmartMerge (UnityYAMLMerge)"
+#   git config merge.unityyamlmerge.driver '"<Unity>/Editor/Data/Tools/UnityYAMLMerge" merge -p %O %B %A %A'
+#   git config merge.unityyamlmerge.recursive binary
+# (Requires Project Settings > Editor > Asset Serialization = Force Text.)
+*.unity      text eol=lf merge=unityyamlmerge linguist-generated
+*.prefab     text eol=lf merge=unityyamlmerge linguist-generated
+*.asset      text eol=lf merge=unityyamlmerge linguist-generated
+*.meta       text eol=lf merge=unityyamlmerge linguist-generated
+*.mat        text eol=lf merge=unityyamlmerge linguist-generated
+*.controller text eol=lf merge=unityyamlmerge linguist-generated
+
+# Binary art, audio and fonts. Stored as plain git files (no Git LFS): the assets are small and
+# share one atlas. Keep any single file well under GitHub's 100 MB limit.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.psd   binary
+*.tga   binary
+*.glb   binary
+*.fbx   binary
+*.obj   binary
+*.blend binary
+*.wav   binary
+*.mp3   binary
+*.ogg   binary
+*.ttf   binary
+*.otf   binary
+*.exr   binary
+*.hdr   binary
+
+# Other binaries
+*.dll   binary
+*.so    binary
+*.dylib binary
+*.zip   binary
+*.gsav  binary

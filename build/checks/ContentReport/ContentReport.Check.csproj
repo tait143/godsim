@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Isolated compile/run check for tools/GodSim.ContentReport (owner: tools).
+    Compiles the report tool together with Contracts and ONLY the content folders (no systems),
+    so it does not depend on build/GodSim.Core.csproj (all of Core) compiling.
+    Usage: build/checks/ContentReport/run.sh [tool options]  (default regenerates docs/CONTENT_REFERENCE.md).
+    If one content team is mid-edit, drop its folder with an MSBuild property
+    (ExcludeRaces, ExcludeProgression, ExcludeBuildings or ExcludeDivine set to true); the tool then
+    reports the missing catalog as a content error instead of failing to build.
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <AssemblyName>GodSim.ContentReport.Check</AssemblyName>
+    <RootNamespace>GodSim.ContentReport</RootNamespace>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../Assets/GodSim/Core/Contracts/**/*.cs" />
+    <Compile Include="../../../tools/GodSim.ContentReport/**/*.cs" Exclude="../../../tools/GodSim.ContentReport/obj/**;../../../tools/GodSim.ContentReport/bin/**" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(ExcludeRaces)' != 'true'">
+    <Compile Include="../../../Assets/GodSim/Core/Races/**/*.cs" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(ExcludeProgression)' != 'true'">
+    <Compile Include="../../../Assets/GodSim/Core/Progression/Content/**/*.cs" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(ExcludeBuildings)' != 'true'">
+    <Compile Include="../../../Assets/GodSim/Core/Buildings/**/*.cs" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(ExcludeDivine)' != 'true'">
+    <Compile Include="../../../Assets/GodSim/Core/Divine/Powers/**/*.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    GodSim content reference generator (console tool; NOT Unity code).
+    Builds the GameDatabase exactly like composition (Races, Ages, Techs, Buildings, GodPowers, Freeze)
+    and writes docs/CONTENT_REFERENCE.md, an optional JSON dump and a CI content gate.
+
+      dotnet run -c Release (project tools/GodSim.ContentReport)               writes docs/CONTENT_REFERENCE.md
+      add after a double dash:  check                                           exit 1 on content errors
+                                json FILE                                       dump the database as JSON
+                                help                                            all options
+    (each option is passed with two leading dashes, e.g. the check option)
+
+    Depends on build/GodSim.Core.csproj (netstandard2.1, Assets/GodSim/Core/**). When some systems
+    module does not compile, build/checks/ContentReport compiles this tool against the content
+    folders only.
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>GodSim.ContentReport</AssemblyName>
+    <RootNamespace>GodSim.ContentReport</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../build/GodSim.Core.csproj" />
+  </ItemGroup>
+</Project>

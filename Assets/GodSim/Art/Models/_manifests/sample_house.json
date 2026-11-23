@@ -1,0 +1,101 @@
+[
+ {
+  "id": "sample_human_house_dawn",
+  "kind": "house",
+  "category": "_Samples",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "dawn"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "path": "Assets/GodSim/Art/Models/_Samples/sample_human_house_dawn.glb",
+  "triangles": 191,
+  "bytes": 27480,
+  "bounds": [
+   [
+    -0.5304673697442328,
+    0.0,
+    -0.5118133293982498
+   ],
+   [
+    0.539970583556565,
+    1.2508391209484429,
+    0.4589322960175782
+   ]
+  ],
+  "preview": "tools/AssetForge/previews/_Samples/sample_human_house_dawn.png"
+ },
+ {
+  "id": "sample_human_house_industrial",
+  "kind": "house",
+  "category": "_Samples",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "industrial"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "path": "Assets/GodSim/Art/Models/_Samples/sample_human_house_industrial.glb",
+  "triangles": 192,
+  "bytes": 27644,
+  "bounds": [
+   [
+    -0.5247686350285201,
+    0.0,
+    -0.5069496871643286
+   ],
+   [
+    0.5303499936472796,
+    1.267117723044206,
+    0.45958927314305065
+   ]
+  ],
+  "preview": "tools/AssetForge/previews/_Samples/sample_human_house_industrial.png"
+ },
+ {
+  "id": "sample_human_house_medieval",
+  "kind": "house",
+  "category": "_Samples",
+  "building_type": "House",
+  "race": "human",
+  "ages": [
+   "medieval"
+  ],
+  "footprint": [
+   1,
+   1
+  ],
+  "variant": 0,
+  "tags": [],
+  "notes": "",
+  "path": "Assets/GodSim/Art/Models/_Samples/sample_human_house_medieval.glb",
+  "triangles": 192,
+  "bytes": 27636,
+  "bounds": [
+   [
+    -0.536163507083278,
+    0.0,
+    -0.5107841756875621
+   ],
+   [
+    0.53814137913078,
+    1.2524345812639301,
+    0.45827803946441975
+   ]
+  ],
+  "preview": "tools/AssetForge/previews/_Samples/sample_human_house_medieval.png"
+ }
+]

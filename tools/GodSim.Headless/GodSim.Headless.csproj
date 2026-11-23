@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    GodSim headless runner + JSON snapshot exporter (console tool; NOT Unity code).
+    Depends on the full simulation library built by build/GodSim.Core.csproj (netstandard2.1, Assets/GodSim/Core/**).
+    Run with: dotnet run -c Release (project tools/GodSim.Headless), then pass the flags printed by the help flag.
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>GodSim.Headless</AssemblyName>
+    <RootNamespace>GodSim.Headless</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <TieredPGO>true</TieredPGO>
+    <NoWarn>CS1591</NoWarn>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../build/GodSim.Core.csproj" />
+  </ItemGroup>
+</Project>

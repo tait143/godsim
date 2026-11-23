@@ -1,0 +1,31 @@
+version: 2
+updates:
+  # NuGet: follows the projects listed in GodSim.sln at the repository root.
+  - package-ecosystem: nuget
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    groups:
+      test-stack:
+        patterns:
+          - "Microsoft.NET.Test.Sdk"
+          - "NUnit*"
+    ignore:
+      # The Unity Test Runner ships NUnit 3 and our tests use the NUnit 3 classic Assert API,
+      # which NUnit 4 removed. Stay on 3.x.
+      - dependency-name: "NUnit"
+        update-types: ["version-update:semver-major"]
+
+  # GitHub Actions: also bumps commit SHAs once actions are SHA-pinned.
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    groups:
+      actions:
+        patterns:
+          - "*"

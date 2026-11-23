@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Isolated compile check of Assets/GodSim/Unity/Runtime/Interaction against minimal UnityEngine /
+    Input System / other-team stubs (stubs/ only; never in Assets/).
+      Legacy Input Manager branch:  dotnet build -nologo -v q
+      Input System branch:          dotnet build -nologo -v q -p:InputSystem=true
+  -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <NoWarn>CS1591</NoWarn>
+    <RootNamespace>GodSim.Unity</RootNamespace>
+    <AssemblyName>GodSim.Unity.Interaction.Check</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(InputSystem)' == 'true'">
+    <DefineConstants>$(DefineConstants);ENABLE_INPUT_SYSTEM</DefineConstants>
+    <BaseOutputPath>bin/inputsystem/</BaseOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../Assets/GodSim/Core/Contracts/**/*.cs" />
+    <Compile Include="../../../Assets/GodSim/Unity/Runtime/Interaction/**/*.cs" />
+    <Compile Include="stubs/UnityEngine/**/*.cs" />
+    <Compile Include="stubs/OtherTeams/**/*.cs" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(InputSystem)' == 'true'">
+    <Compile Include="stubs/InputSystem/**/*.cs" />
+  </ItemGroup>
+</Project>

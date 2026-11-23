@@ -1,0 +1,62 @@
+name: Feature request
+description: Propose new gameplay, content, tooling or engineering work.
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or goal
+      description: What player, designer or engineering need does this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the behaviour. For gameplay, include the rules and the numbers you have in mind.
+    validations:
+      required: true
+  - type: dropdown
+    id: modules
+    attributes:
+      label: Affected modules
+      multiple: true
+      options:
+        - Contracts (needs lead approval)
+        - World
+        - Races
+        - Progression
+        - Buildings
+        - Settlements
+        - Population
+        - Economy
+        - AI
+        - Diplomacy
+        - Divine
+        - Persistence
+        - Security
+        - Composition
+        - Unity front end
+        - Tools (Headless / Bench / WebViewer)
+        - Build / CI
+    validations:
+      required: true
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - label: Changes simulation output for existing seeds (determinism impact)
+        - label: Requires a save-format change
+        - label: Requires a change to Core/Contracts
+        - label: Has a performance cost in per-tick systems
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Mock-ups, references to other god games, snapshots.
